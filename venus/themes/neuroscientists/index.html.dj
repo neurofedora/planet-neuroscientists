@@ -27,7 +27,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <div class="panel-title"><h2><a href="{{ item.link }}">{{ item.title|safe }}</a></h2></div>
-            <p class="text-muted">by <a href="{{ item.channel_link|safe }}">'{{ item.channel_name }}'</a> on {{ item.date }}.</p>
+            <p class="text-muted">by <a href="{{ item.channel_link|safe }}">{{ item.channel_name }}</a> on {{ item.date }}.</p>
           </div>
           <div class="panel-body">
 
@@ -42,13 +42,11 @@
           <div class="panel-heading">
             <h3 class="panel-title">Feed list</h3>
           </div>
-          <div class="panel-body">
-            <ul class="list-group">
-              {% for channel in Channels %}
-              <li class="list-group-item"><a href="{{ channel.url|safe }}">{{ channel.title|safe }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
+          <ul class="list-group">
+            {% for channel in Channels %}
+            <li class="list-group-item"><a href="{{ channel.url|safe }}">{{ channel.title|safe }}</a></li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>

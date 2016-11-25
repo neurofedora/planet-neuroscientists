@@ -25,22 +25,27 @@
         <ul class="list-group">
           {% for item in Items %}
           {% if item.title %}
-          <li class="list-group-item"><h4>{{ item.title|safe }}.</h4>
+          <li class="list-group-item"><h4><a href="{{ item.link }}">{{ item.title|safe }}</a></h4>
 
             {{ item.content|safe }}
 
-            <p class="text-muted">in '{{ item.channel_name }}' on {{ item.date }}. <a href="{{ item.link }}">(permalink)</a></p>
+            <p class="text-muted">in <a href="{{ item.channel_link|safe }}">{{ item.channel_name }}</a> on {{ item.date }}.</p>
           </li>
           {% endif %}
           {% endfor %}
         </ul>
       </div>
       <div class="col-md-3">
-        <ul class="list-group">
-          {% for channel in Channels %}
-          <li class="list-group-item"><a href="{{ channel.url|safe }}">{{ channel.title|safe }}</a></li>
-          {% endfor %}
-        </ul>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Feed list</h3>
+          </div>
+          <ul class="list-group">
+            {% for channel in Channels %}
+            <li class="list-group-item"><a href="{{ channel.url|safe }}">{{ channel.title|safe }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
     <footer id="site-footer">
