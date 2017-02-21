@@ -9,6 +9,92 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Ankur Sinha: Using Wallabag to manage your online reading list</title>
+	<guid isPermaLink="false">tag:ankursinha.in,2017-02-20:/blog/2017/02/20/using-wallabag-to-manage-your-online-reading-list.html</guid>
+	<link>http://ankursinha.in/blog/2017/02/20/using-wallabag-to-manage-your-online-reading-list.html</link>
+	<description>&lt;p&gt;I always have quite a bit on my pending list to read - academic papers, blogs, planets, and the sort. Usually, when I go through the planets, such as the &lt;a class=&quot;reference external&quot; href=&quot;http://fedoraplanet.org/&quot;&gt;Fedora&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;http://planet.gnome.org/&quot;&gt;GNOME&lt;/a&gt; or the two neuroscience planets I use - &lt;a class=&quot;reference external&quot; href=&quot;https://sanjayankur31.github.io/planet-neuroscience/&quot;&gt;neuroscience&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://sanjayankur31.github.io/planet-neuroscientists/&quot;&gt;neuroscientists&lt;/a&gt;, I don't have the time to read all the articles right then. I used to either bookmark links, or note them down somewhere to read later. One day, though, I ran into &lt;a class=&quot;reference external&quot; href=&quot;http://ankursinha.in/blog/feeds/tags/getpocket.com/&quot;&gt;Pocket&lt;/a&gt;, which lets you save the article to read later and makes it available to you on multiple devices. It's extremely convenient.&lt;/p&gt;
+&lt;p&gt;Of course, the one issue with &lt;a class=&quot;reference external&quot; href=&quot;http://ankursinha.in/blog/feeds/tags/getpocket.com/&quot;&gt;Pocket&lt;/a&gt; is that it isn't &lt;a class=&quot;reference external&quot; href=&quot;https://www.gnu.org/philosophy/free-sw.en.html&quot;&gt;Free software&lt;/a&gt;. So, like I do, I went looking for an alternative. After a few hours, I ran into &lt;a class=&quot;reference external&quot; href=&quot;https://wallabag.org/en&quot;&gt;Wallabag&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/wallabag/wallabag&quot;&gt;Github&lt;/a&gt;. It's written in PHP, and is licensed under the &lt;a class=&quot;reference external&quot; href=&quot;https://tldrlegal.com/license/mit-license&quot;&gt;MIT license&lt;/a&gt;. It's quite easy to deploy, and there's a &lt;a class=&quot;reference external&quot; href=&quot;https://gitter.im/wallabag/wallabag&quot;&gt;Gitter channel&lt;/a&gt; where you can get some help too.&lt;/p&gt;
+&lt;p&gt;You either enter the URL in the Wallabag page manually, or you can use the &lt;a class=&quot;reference external&quot; href=&quot;https://addons.mozilla.org/firefox/addon/wallabagger/&quot;&gt;Firefox&lt;/a&gt;/&lt;a class=&quot;reference external&quot; href=&quot;https://chrome.google.com/webstore/detail/wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj&quot;&gt;Chrome&lt;/a&gt;/&lt;a class=&quot;reference external&quot; href=&quot;https://addons.opera.com/en/extensions/details/wallabagger/?display=en&quot;&gt;Opera&lt;/a&gt; addon - it let's you right click a page or a link and &quot;Wallabag.it!&quot;. There's also a bookmarklet, which you can use with &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/5digits/dactyl&quot;&gt;Pentadactyl&lt;/a&gt;, for example:&lt;/p&gt;
+&lt;pre class=&quot;code bash literal-block&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Add to ~/.pentadactylrc
+&lt;/span&gt;command! wallabagit -description &lt;span class=&quot;s2&quot;&gt;&quot;Add to wallabag&quot;&lt;/span&gt; open javascript:&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;var%20url&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;location.href&lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;url&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;var%20wllbg&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;window.open&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'https://app.wallabag.it/bookmarklet?url='&lt;/span&gt;%20+%20encodeURI&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;url&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;,&lt;span class=&quot;s1&quot;&gt;'_blank'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;})()&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Wallabag fetches the text of the page and stores it for you so that you can read it later. You can even organise your saved pages with tags and the sort.&lt;/p&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;http://ankursinha.in/blog/images/20170220-wallabag.png&quot;&gt;&lt;img alt=&quot;Screenshot showing the Wallabag main page&quot; class=&quot;img-responsive align-center&quot; src=&quot;http://ankursinha.in/blog/images/20170220-wallabag.png&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;Here's a page that I'm trying to read later, for example:&lt;/p&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;http://ankursinha.in/blog/images/20170220-wallabag-2.png&quot;&gt;&lt;img alt=&quot;Screenshot showing an article in Wallabag&quot; class=&quot;img-responsive align-center&quot; src=&quot;http://ankursinha.in/blog/images/20170220-wallabag-2.png&quot; /&gt;&lt;/a&gt;
+&lt;p&gt;I played with a deployment, but decided not to deploy and maintain an instance myself. Instead, I signed up for the instance Wallabag have here - &lt;a class=&quot;reference external&quot; href=&quot;https://www.wallabag.it/en&quot;&gt;Wallabag.it&lt;/a&gt;. It's quite cheap - they have an offer going too at the moment - &lt;a class=&quot;reference external&quot; href=&quot;https://wallabag.org/en/news/wallabagit&quot;&gt;only 9€ for an entire year&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Wallabag uses a the &lt;a class=&quot;reference external&quot; href=&quot;http://fivefilters.org/content-only/&quot;&gt;FiveFilters Full Text RSS tool&lt;/a&gt; to extract the text and other data from web pages. Some websites require special instructions to tell the tool what information needs to be extracted - this tends to happen with a few academic websites. There's a &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/fivefilters/ftr-site-config&quot;&gt;repository of such config files here&lt;/a&gt;. So, if you do run into a website that isn't rendering properly, you can &lt;a class=&quot;reference external&quot; href=&quot;http://doc.wallabag.org/en/master/user/errors_during_fetching.html&quot;&gt;troubleshoot the issue and submit a config file too&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Whether you decide to deploy an instance yourself, or use &lt;a class=&quot;reference external&quot; href=&quot;https://www.wallabag.it/en&quot;&gt;Wallabag.it&lt;/a&gt;, I think it's a really useful tool to have. Of course, don't forget to install the &lt;a class=&quot;reference external&quot; href=&quot;https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche&amp;amp;hl=en&quot;&gt;app on your phone&lt;/a&gt; too!&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 20:52:40 +0000</pubDate>
+  <source url="http://ankursinha.in/blog/feeds/tags/planet.atom.xml">ankursinha.in/blog - Planet</source>
+</item>
+<item>
+	<title>Retraction watch: “I placed too much faith in underpowered studies:” Nobel Prize winner admits mistakes</title>
+	<guid isPermaLink="false">http://retractionwatch.com/?p=48348</guid>
+	<link>http://retractionwatch.com/2017/02/20/placed-much-faith-underpowered-studies-nobel-prize-winner-admits-mistakes/</link>
+	<description>&lt;p&gt;Although it’s the right thing to do, it’s never easy to admit error — particularly when you’re an extremely high-profile scientist whose work is being dissected publicly. So while it’s not a retraction, we thought this was worth noting: A Nobel Prize-winning researcher has admitted on a blog that he relied on weak studies in a […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/02/20/placed-much-faith-underpowered-studies-nobel-prize-winner-admits-mistakes/&quot; rel=&quot;nofollow&quot;&gt;“I placed too much faith in underpowered studies:” Nobel Prize winner admits mistakes&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 17:35:28 +0000</pubDate>
+  <source url="http://retractionwatch.com/feed/">Retraction Watch</source>
+</item>
+<item>
+	<title>The British Psychological Society - Research Digest: Textbook fail: Rosenhan’s classic “On Being Sane In Insane Places” covered without criticism</title>
+	<guid isPermaLink="false">http://digest.bps.org.uk/?p=19463</guid>
+	<link>https://digest.bps.org.uk/2017/02/20/textbook-fail-rosenhans-classic-on-being-sane-in-insane-places-covered-without-criticism/</link>
+	<description>&lt;p&gt;&lt;em&gt;&lt;img alt=&quot;16373344899_be8f8a89e1_b&quot; class=&quot;alignnone size-full wp-image-19544&quot; data-attachment-id=&quot;19544&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;16373344899_be8f8a89e1_b&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/02/16373344899_be8f8a89e1_b.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/02/16373344899_be8f8a89e1_b.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/02/16373344899_be8f8a89e1_b.jpg?w=845&quot; data-orig-size=&quot;1024,681&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/02/20/textbook-fail-rosenhans-classic-on-being-sane-in-insane-places-covered-without-criticism/16373344899_be8f8a89e1_b/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/02/16373344899_be8f8a89e1_b.jpg?w=845&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Back in the 1970s, eight mentally well people, including psychologist &lt;a href=&quot;https://en.wikipedia.org/wiki/David_Rosenhan&quot;&gt;David Rosenhan&lt;/a&gt;, presented themselves at psychiatric hospitals, where they showed signs of mild anxiety and complained of auditory hallucinations, specifically words like “empty” and “hollow”. All were admitted and either diagnosed with schizophrenia or, in one case, manic depression, and, despite acting “normal” after arrival, they were kept in hospital for an average of 19 days. On discharge all were described as having schizophrenia (or depression) “in remission”.&lt;/p&gt;
+&lt;p&gt;This was Rosenhan’s classic study “&lt;a href=&quot;https://en.wikipedia.org/wiki/Rosenhan_experiment&quot;&gt;On Being Sane in Insane Places&lt;/a&gt;” which he claimed showed the stigmatising power of psychiatric labels and the inability of psychiatric staff to distinguish normality from supposed abnormality, as have many others since.&lt;/p&gt;
+&lt;p&gt;But from a methodological perspective, the study was problematic for a number of reasons and Rosenhan’s interpretation has been hotly disputed. In their &lt;a href=&quot;https://en.wikipedia.org/wiki/50_Great_Myths_of_Popular_Psychology&quot;&gt;highly regarded book on psychology myths&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Scott_Lilienfeld&quot;&gt;Scott Lilienfeld&lt;/a&gt; and his co-authors discuss the problem with Rosenhan’s study at length, such as the fact that in the 70s “in remission” was a very rare discharge diagnosis that actually showed psychiatric staff had realised the “pseudo patients” were mentally well.&lt;/p&gt;
+&lt;p&gt;Ultimately, Lilienfeld et al argue that it is a myth that “psychiatric labels cause harm by stigmatising people” and that the overly gullible interpretation of the Rosenhan study has helped propagate this myth. Others may disagree, but it’s at least fair to say that Rosenhan’s study had serious issues and that not all psychologists agree that psychiatric labels are in themselves harmful (consider too &lt;a href=&quot;https://digest.bps.org.uk/2014/09/02/on-being-labelled-schizophrenic-in-the-words-of-the-diagnosed/&quot;&gt;research&lt;/a&gt; that’s found that while clients say psychiatric labels can be difficult to deal with, they can also be beneficial in some ways, in terms of helping them understand their experiences and helping them to access appropriate treatments).&lt;/p&gt;
+&lt;p&gt;So, how is this classic study covered in textbooks relating to clinical psychology and mental health (the sub-discipline usually referred to on university courses as “abnormal psychology”)? In a &lt;a href=&quot;http://journals.sagepub.com/doi/full/10.1177/0098628317692634&quot;&gt;new survey&lt;/a&gt; of 12 contemporary abnormal psych textbooks in the journal &lt;em&gt;Teaching of Psychology&lt;/em&gt;, Jared Bartels and Daniel Peters found that half of them still give space to Rosenhan’s flawed study, but only two include any criticism or alternative interpretation of it at all.&lt;/p&gt;
+&lt;p&gt;This is a small survey and we’re not told the titles of the books, but the findings suggest that the problem of uncritical textbook coverage of &lt;a href=&quot;https://thepsychologist.bps.org.uk/volume-21/edition-9/foundations-sand&quot;&gt;social psychology’s classic, myth-like studies&lt;/a&gt;, such as the &lt;a href=&quot;https://digest.bps.org.uk/2014/07/23/what-the-textbooks-dont-tell-you-one-of-psychologys-most-famous-experiments-was-seriously-flawed/&quot;&gt;Stanford Prison Experiment&lt;/a&gt; and &lt;a href=&quot;https://digest.bps.org.uk/2015/10/13/social-psychology-textbooks-ignore-all-modern-criticisms-of-milgrams-obedience-experiments/&quot;&gt;Milgram’s “obedience research”&lt;/a&gt;, may also extend to the realm of classic mental health-related research. Is it that textbook authors are unaware of the criticisms of the Rosenhan study? Possibly, although Bartels and Peters surmise that perhaps authors know of the issues and alternative interpretations, but that these “shortcomings … are considered less important than the edifying message of the stigmatising effect of labels”.&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;http://journals.sagepub.com/doi/full/10.1177/0098628317692634&quot;&gt;Coverage of Rosenhan’s “On Being Sane in Insane Places” in Abnormal Psychology Textbooks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Image via &lt;a href=&quot;https://www.flickr.com/photos/rockandrollfreak/16373344899/in/photolist-qWREZZ-rvnCZs-RG2mfN-e8NXbV-djJ8dQ-chyHGd-RQE5jk-awRCKc-ddhZ8o-bALqJc-e8UznG-bWsF9p-pGsnQV-gF5aT-bAJyhZ-cbHERd-enHVf1-dzMHiz-rNA2yv-oQ7yz5-qkmoHW-dpyYAf-sjqV61-qzJC4g-o8XMcK-dY6898-dKdfEr-eaaUSs-fLWk8J-smj7BE-bpuFRi-fLjFsz-pWwZzz-nvE2D4-QFDjPz-RkYRiw-QFDkVH-RG2kYA-RG2cMf-QFDyoP-saGLma-RJEmpZ-rxSMP2-RJESui-RJEq7t-QFEiMx-QFDgP6-p6c3zj-RRXw7J-RVASf6&quot;&gt;Flickr/Freaktography&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/19463/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/19463/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=19463&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 17:34:40 +0000</pubDate>
+  <source url="https://digest.bps.org.uk/feed/">Research Digest</source>
+</item>
+<item>
+	<title>Discovery magazine - Neuroskeptic: The Science of the Rorschach Blots</title>
+	<guid isPermaLink="true">http://blogs.discovermagazine.com/neuroskeptic/?p=8562</guid>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8562</link>
+	<description>When the psychiatrist Hermann Rorschach blotted ink onto paper to produce a series of abstract patterns, could he have known that nearly 100 years later, the Rorschach test would be a household name?
+
+
+
+Although the use of the Rorschach to diagnose mental illness is mostly a thing of the past, research on the test continues. Last week, two new papers were published on the Rorschach blots, including a fractal analysis of the images themselves and a brain scanning study using fMRI.
+
+
+
+The</description>
+	<pubDate>Mon, 20 Feb 2017 15:56:34 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/neuro-skeptic">Neuroskeptic</source>
+</item>
+<item>
+	<title>Retraction watch: Paper quickly retracted after author used another group’s work</title>
+	<guid isPermaLink="false">http://retractionwatch.com/?p=48295</guid>
+	<link>http://retractionwatch.com/2017/02/20/paper-quickly-retracted-author-used-another-groups-work/</link>
+	<description>&lt;p&gt;The author of a 2016 paper has agreed to retract it after an investigation revealed that most of the article came from another research group at the same university. According to the notice, the author based the majority of his paper on results generated by other scientists without their permission. Here’s the retraction notice for “Controlled synthesis […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/02/20/paper-quickly-retracted-author-used-another-groups-work/&quot; rel=&quot;nofollow&quot;&gt;Paper quickly retracted after author used another group’s work&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 15:30:02 +0000</pubDate>
+  <source url="http://retractionwatch.com/feed/">Retraction Watch</source>
+</item>
+<item>
+	<title>UH Biocomputation group: Multi-contact synapses for stable networks: a spike-timing dependent model of dendritic spine plasticity and turnover</title>
+	<guid isPermaLink="false">tag:biocomputation.herts.ac.uk,2017-02-20:/2017/02/20/multi-contact-synapses-for-stable-networks-a-spike-timing-dependent-model-of-dendritic-spine-plasticity-and-turnover.html</guid>
+	<link>http://biocomputation.herts.ac.uk/2017/02/20/multi-contact-synapses-for-stable-networks-a-spike-timing-dependent-model-of-dendritic-spine-plasticity-and-turnover.html</link>
+	<description>&lt;p&gt;Ankur Sinha's journal club session where he discusses the pre-print paper, &quot;&lt;a class=&quot;reference external&quot; href=&quot;https://arxiv.org/abs/1609.05730&quot;&gt;Multi-contact synapses for stable networks: a spike-timing dependent model of dendritic spine plasticity and turnover (Deger, M., Seeholzer, A., Gerstner, W. (2016))&lt;/a&gt;&quot;&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Excitatory synaptic connections in the adult neocortex consist of multiple synaptic contacts, almost exclusively formed on dendritic spines. Changes of dendritic spine shape and volume, a correlate of synaptic strength, can be tracked in vivo for weeks. Here, we present a combined model of spike-timing dependent dendritic spine plasticity and turnover that explains the steady state multi-contact configuration of synapses in adult neocortical networks. In this model, many presynaptic neurons compete to make strong synaptic connections onto postsynaptic neurons, while the synaptic contacts comprising each connection cooperate via postsynaptic firing. We demonstrate that the model is consistent with experimentally observed long-term dendritic spine dynamics under steady-state and lesion induced conditions, and show that cooperation of multiple synaptic contacts is crucial for stable, long-term synaptic memories. In simulations of a simplified network of barrel cortex, our plasticity rule reproduces whisker-trimming induced rewiring of thalamo-cortical and recurrent synaptic connectivity on realistic time scales.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 25/02/2017 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 14:22:35 +0000</pubDate>
+  <source url="http://biocomputation.herts.ac.uk/feeds/all.atom.xml">UH Biocomputation Group</source>
+</item>
+<item>
 	<title>BMC Series blog: Metabolic changes associated with aging skin: genomics reveals anti-aging targets</title>
 	<guid isPermaLink="false">http://blogs.biomedcentral.com/bmcseriesblog/?p=8589</guid>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/02/20/metabolic-changes-associated-aging-skin-genomics-reveals-anti-aging-targets/</link>
@@ -44,6 +130,14 @@
   <source url="https://digest.bps.org.uk/feed/">Research Digest</source>
 </item>
 <item>
+	<title>Nature News &amp; Comment: Delay in hiring science advisers intensifies Brexit worries</title>
+	<guid isPermaLink="false">http://www.nature.com/doifinder/10.1038/nature.2017.21511</guid>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/HCTku2d9Yu4/nature.2017.21511</link>
+	<description>&lt;p&gt;Policy experts want scientists to be at the table when government decides on  environmental protection and membership of international collaborations.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21511&quot;&gt;doi: 10.1038/nature.2017.21511&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/HCTku2d9Yu4&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/NatureNewsComment">Nature News &amp;amp; Comment</source>
+</item>
+<item>
 	<title>Nature News &amp; Comment: The race to map the human body — one cell at a time</title>
 	<guid isPermaLink="false">http://www.nature.com/doifinder/10.1038/nature.2017.21508</guid>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/A07vGfVyBK0/nature.2017.21508</link>
@@ -58,6 +152,26 @@
 	<description>&lt;p&gt;Rift through Larsen C ice shelf has grown to 175 kilometres, and collapse of nearby ice shelves could offer a glimpse of its future.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21507&quot;&gt;doi: 10.1038/nature.2017.21507&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/AtiBM-8aqR0&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
   <source url="http://feeds.nature.com/NatureNewsComment">Nature News &amp;amp; Comment</source>
+</item>
+<item>
+	<title>Nature Biological Sciences Research: Light-induced structural changes and the site of O=O bond formation in PSII caught by XFEL</title>
+	<guid isPermaLink="false">http://dx.doi.org/10.1038/nature21400</guid>
+	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/73_4_HTihfo/nature21400</link>
+	<description>&lt;p&gt;
+ Photosystem II (PSII) is a huge membrane-protein complex consisting of 20 different subunits with a total molecular mass of 350 kDa for a monomer. It catalyses light-driven water oxidation at its catalytic centre, the oxygen-evolving complex (OEC). The structure of PSII has been analysed at 1.9 Å resolution by synchrotron radiation X-rays, which revealed that the OEC is a Mn4CaO5 cluster organized in an asymmetric, ‘distorted-chair’ form. This structure was further analysed with femtosecond X-ray free electron lasers (XFEL), providing the ‘radiation damage-free’ structure. The mechanism of O=O bond formation, however, remains obscure owing to the lack of intermediate-state structures. Here we describe the structural changes in PSII induced by two-flash illumination at room temperature at a resolution of 2.35 Å using time-resolved serial femtosecond crystallography with an XFEL provided by the SPring-8 ångström compact free-electron laser. An isomorphous difference Fourier map between the two-flash and dark-adapted states revealed two areas of apparent changes: around the QB/non-haem iron and the Mn4CaO5 cluster. The changes around the QB/non-haem iron region reflected the electron and proton transfers induced by the two-flash illumination. In the region around the OEC, a water molecule located 3.5 Å from the Mn4CaO5 cluster disappeared from the map upon two-flash illumination. This reduced the distance between another water molecule and the oxygen atom O4, suggesting that proton transfer also occurred. Importantly, the two-flash-minus-dark isomorphous difference Fourier map showed an apparent positive peak around O5, a unique μ4-oxo-bridge located in the quasi-centre of Mn1 and Mn4 (refs 4,5). This suggests the insertion of a new oxygen atom (O6) close to O5, providing an O=O distance of 1.5 Å between these two oxygen atoms. This provides a mechanism for the O=O bond formation consistent with that proposed previously. 
+&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature21400&quot;&gt;doi: 10.1038/nature21400&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/73_4_HTihfo&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/NatureBiologicalSciencesResearch">Nature Biological Sciences Research</source>
+</item>
+<item>
+	<title>Nature Biological Sciences Research: Survival of tissue-resident memory T cells requires exogenous lipid uptake and metabolism</title>
+	<guid isPermaLink="false">http://dx.doi.org/10.1038/nature21379</guid>
+	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/kIwwIMnAQeg/nature21379</link>
+	<description>&lt;p&gt;
+ Tissue-resident memory T (TRM) cells persist indefinitely in epithelial barrier tissues and protect the host against pathogens. However, the biological pathways that enable the long-term survival of TRM cells are obscure. Here we show that mouse CD8+ TRM cells generated by viral infection of the skin differentially express high levels of several molecules that mediate lipid uptake and intracellular transport, including fatty-acid-binding proteins 4 and 5 (FABP4 and FABP5). We further show that T-cell-specific deficiency of Fabp4 and Fabp5 (Fabp4/Fabp5) impairs exogenous free fatty acid (FFA) uptake by CD8+ TRM cells and greatly reduces their long-term survival in vivo, while having no effect on the survival of central memory T (TCM) cells in lymph nodes. In vitro, CD8+ TRM cells, but not CD8+ TCM cells, demonstrated increased mitochondrial oxidative metabolism in the presence of exogenous FFAs; this increase was not seen in Fabp4/Fabp5 double-knockout CD8+ TRM cells. The persistence of CD8+ TRM cells in the skin was strongly diminished by inhibition of mitochondrial FFA β-oxidation in vivo. Moreover, skin CD8+ TRM cells that lacked Fabp4/Fabp5 were less effective at protecting mice from cutaneous viral infection, and lung Fabp4/Fabp5 double-knockout CD8+ TRM cells generated by skin vaccinia virus (VACV) infection were less effective at protecting mice from a lethal pulmonary challenge with VACV. Consistent with the mouse data, increased FABP4 and FABP5 expression and enhanced extracellular FFA uptake were also demonstrated in human CD8+ TRM cells in normal and psoriatic skin. These results suggest that FABP4 and FABP5 have a critical role in the maintenance, longevity and function of CD8+ TRM cells, and suggest that CD8+ TRM cells use exogenous FFAs and their oxidative metabolism to persist in tissue and to mediate protective immunity. 
+&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature21379&quot;&gt;doi: 10.1038/nature21379&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/kIwwIMnAQeg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+  <source url="http://feeds.nature.com/NatureBiologicalSciencesResearch">Nature Biological Sciences Research</source>
 </item>
 <item>
 	<title>Science News: Enzymes aid rice plants’ arsenic defenses</title>
@@ -772,14 +886,6 @@ initial prediction of the missing attribute-values.&lt;/p&gt;
   <source url="http://feeds.nature.com/NatureNewsComment">Nature News &amp;amp; Comment</source>
 </item>
 <item>
-	<title>Nature News &amp; Comment: Trump: a confluence of tipping points?</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/542295b</guid>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/eURCCHrGtdU/542295b</link>
-	<description>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 542 295 &lt;a href=&quot;http://dx.doi.org/10.1038/542295b&quot;&gt;doi: 10.1038/542295b&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/eURCCHrGtdU&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/NatureNewsComment">Nature News &amp;amp; Comment</source>
-</item>
-<item>
 	<title>Science News: See how long Zika lasts in semen and other bodily fluids</title>
 	<guid isPermaLink="true">https://www.sciencenews.org/blog/science-ticker/see-how-long-zika-lasts-semen-and-other-bodily-fluids</guid>
 	<link>https://www.sciencenews.org/blog/science-ticker/see-how-long-zika-lasts-semen-and-other-bodily-fluids</link>
@@ -1090,108 +1196,6 @@ initial prediction of the missing attribute-values.&lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/4EZpcPhNK58&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
   <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Scientific American: Cancer Killers</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/scientificamerican0317-38</guid>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/5iFW0uJOT0s/scientificamerican0317-38</link>
-	<description>&lt;p&gt;Scientific American 316, 38 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-38&quot;&gt;doi:10.1038/scientificamerican0317-38&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Avery D. Posey, Carl H. June &amp;amp; Bruce L. Levine&lt;/p&gt;
-&lt;p&gt;Some advanced cancers can now be successfully treated by synthetic immune cells that are more powerful and longer-lasting than any found in the body&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/5iFW0uJOT0s&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Scientific American: Near-Light-Speed Mission to Alpha Centauri</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/scientificamerican0317-30</guid>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/ykNc_xVd81I/scientificamerican0317-30</link>
-	<description>&lt;p&gt;Scientific American 316, 30 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-30&quot;&gt;doi:10.1038/scientificamerican0317-30&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Ann Finkbeiner&lt;/p&gt;
-&lt;p&gt;A billionaire-funded plan aims to send a probe to another star. But can it be done?&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/ykNc_xVd81I&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Scientific American: Your Echo Is Listening</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/scientificamerican0317-28</guid>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/19Sth4OsYOk/scientificamerican0317-28</link>
-	<description>&lt;p&gt;Scientific American 316, 28 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-28&quot;&gt;doi:10.1038/scientificamerican0317-28&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: David Pogue&lt;/p&gt;
-&lt;p&gt;A murder case raises concerns about the “Internet of Things”&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/19Sth4OsYOk&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Scientific American: Gasping for Air</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/scientificamerican0317-26</guid>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/zAsP3oEelzU/scientificamerican0317-26</link>
-	<description>&lt;p&gt;Scientific American 316, 26 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-26&quot;&gt;doi:10.1038/scientificamerican0317-26&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Robin Lloyd&lt;/p&gt;
-&lt;p&gt;Shortness of breath can arise from a bewildering number of conditions, complicating diagnosis and treatment&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/zAsP3oEelzU&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Scientific American: It's Electric—With the Right Mix</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/scientificamerican0317-24</guid>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/PidF-ILqzyg/scientificamerican0317-24</link>
-	<description>&lt;p&gt;Scientific American 316, 24 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-24&quot;&gt;doi:10.1038/scientificamerican0317-24&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Annie Sneed&lt;/p&gt;
-&lt;p&gt;Freshwater-saltwater ecosystems could provide bountiful renewable energy&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/PidF-ILqzyg&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Scientific American: How to Get Elephants to Buzz Off</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/scientificamerican0317-23</guid>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/ljdpnA4x3uo/scientificamerican0317-23</link>
-	<description>&lt;p&gt;Scientific American 316, 23 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-23&quot;&gt;doi:10.1038/scientificamerican0317-23&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: John R. Platt&lt;/p&gt;
-&lt;p&gt;Researchers exploit a fear to reduce elephant-human confrontation&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/ljdpnA4x3uo&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Scientific American: Quick Hits</title>
-	<guid isPermaLink="false">http://dx.doi.org/10.1038/scientificamerican0317-22</guid>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/5Cw01CYkl74/scientificamerican0317-22</link>
-	<description>&lt;p&gt;Scientific American 316, 22 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-22&quot;&gt;doi:10.1038/scientificamerican0317-22&lt;/a&gt;
-&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/5Cw01CYkl74&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-  <source url="http://feeds.nature.com/scientificamerican/rss/current">Scientific American - nature.com science feeds</source>
-</item>
-<item>
-	<title>Discovery magazine - Neuroskeptic: Authorship Means Responsibility</title>
-	<guid isPermaLink="true">http://blogs.discovermagazine.com/neuroskeptic/?p=8546</guid>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8546</link>
-	<description>Last week Retraction Watch covered a case of a psychology paper that was retracted after it emerged that the graduate student who collected the data had faked the results.
-
-
-
-Here's the retraction notice:
-The retraction follows an investigation by the University of Alabama’s Office for Research Compliance. That investigation found that a former graduate student in William Hart’s lab altered the data in strategic ways. The investigation found that William Hart was unaware when the article wa</description>
-	<pubDate>Mon, 13 Feb 2017 22:28:37 +0000</pubDate>
-  <source url="http://feeds.feedburner.com/neuro-skeptic">Neuroskeptic</source>
 </item>
 
 </channel>
