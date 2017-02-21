@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blog.pubpeer.com/?p=200" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/542393a" />
 			<rdf:li rdf:resource="tag:ankursinha.in,2017-02-20:/blog/2017/02/20/using-wallabag-to-manage-your-online-reading-list.html" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48348" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=19463" />
@@ -90,7 +92,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/542296a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/542295e" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/542295d" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/542295c" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/see-how-long-zika-lasts-semen-and-other-bodily-fluids" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/human-gene-editing-therapies-are-ok-certain-cases-panel-advises" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48247" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0317-58" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0317-50" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0317-44" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0317-4" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blog.pubpeer.com/?p=200">
+	<title>PubPeer blog: Vigilant scientists</title>
+	<link>http://blog.pubpeer.com/?p=200&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=vigilant-scientists-2</link>
+	<content:encoded>In an editorial entitled “Vigilante science”, the editor-in-chief of Plant Physiology, Michael Blatt, makes the hyperbolic claim that anonymous post-publication peer review by the PubPeer community represents the most serious threat to the scientific process today. We obviously disagree. We … &lt;a href=&quot;http://blog.pubpeer.com/?p=200&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2017-02-21T11:41:52+00:00</dc:date>
+	<dc:creator>admin</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/542393a">
+	<title>Nature News &amp; Comment: Energy scientists must show their workings</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/B_Bfbo_Znmc/542393a</link>
+	<content:encoded>&lt;p&gt;Public trust demands greater openness from those whose research is used to set policy, argues Stefan Pfenninger.&lt;/p&gt;&lt;p&gt;Nature 542 393 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/542393a&quot;&gt;doi: 10.1038/542393a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/B_Bfbo_Znmc&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-02-21T00:00:00+00:00</dc:date>
+	<dc:creator>Stefan Pfenninger</dc:creator>
+</item>
 <item rdf:about="tag:ankursinha.in,2017-02-20:/blog/2017/02/20/using-wallabag-to-manage-your-online-reading-list.html">
 	<title>Ankur Sinha: Using Wallabag to manage your online reading list</title>
 	<link>http://ankursinha.in/blog/2017/02/20/using-wallabag-to-manage-your-online-reading-list.html</link>
@@ -233,7 +247,7 @@ The</content:encoded>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21511">
 	<title>Nature News &amp; Comment: Delay in hiring science advisers intensifies Brexit worries</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/HCTku2d9Yu4/nature.2017.21511</link>
-	<content:encoded>&lt;p&gt;Policy experts want scientists to be at the table when government decides on  environmental protection and membership of international collaborations.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21511&quot;&gt;doi: 10.1038/nature.2017.21511&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/HCTku2d9Yu4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<content:encoded>&lt;p&gt;Policy experts want scientists at the table when government decides on environmental protection and membership of international collaborations.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21511&quot;&gt;doi: 10.1038/nature.2017.21511&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/HCTku2d9Yu4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-02-20T00:00:00+00:00</dc:date>
 	<dc:creator>Daniel Cressey</dc:creator>
 </item>
@@ -885,13 +899,6 @@ initial prediction of the missing attribute-values.&lt;/p&gt;
 	<dc:date>2017-02-15T00:00:00+00:00</dc:date>
 	<dc:creator>Rudi G. J. Westendorp</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/542295c">
-	<title>Nature News &amp; Comment: Corporate culture: threat to researchers</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/o6dS5PoIi3g/542295c</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 542 295 &lt;a href=&quot;http://dx.doi.org/10.1038/542295c&quot;&gt;doi: 10.1038/542295c&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/o6dS5PoIi3g&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-02-15T00:00:00+00:00</dc:date>
-	<dc:creator>Gang Liu</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/see-how-long-zika-lasts-semen-and-other-bodily-fluids">
 	<title>Science News: See how long Zika lasts in semen and other bodily fluids</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/see-how-long-zika-lasts-semen-and-other-bodily-fluids</link>
@@ -1158,18 +1165,6 @@ initial prediction of the missing attribute-values.&lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/0qV14H26eJk&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-02-14T00:00:00+00:00</dc:date>
 	<dc:creator>Kimberly G. Noble</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0317-4">
-	<title>Scientific American: To Boldly Go</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/4EZpcPhNK58/scientificamerican0317-4</link>
-	<content:encoded>&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.nature.com/common/includes/header/images/backgrounds/01/leaderboard_side.gif&quot; style=&quot;width: 14px; border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;a href=&quot;http://pubads.g.doubleclick.net/gampad/jump?iu=/285//rss&amp;amp;sz=728x90&amp;amp;t=abr=!NN2;pos=top;tile=1;ptile=1&amp;amp;c=123456789?&quot;&gt;&lt;img alt=&quot;Advertisment&quot; src=&quot;http://pubads.g.doubleclick.net/gampad/ad?iu=/285//rss&amp;amp;sz=728x90&amp;amp;t=abr=!NN2;pos=top;tile=1;ptile=1&amp;amp;c=123456789?&quot; style=&quot;border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;/a&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.nature.com/common/includes/header/images/backgrounds/01/leaderboard_side.gif&quot; style=&quot;width: 14px; border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;/div&gt;
-&lt;p&gt;Scientific American 316, 4 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0317-4&quot;&gt;doi:10.1038/scientificamerican0317-4&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Mariette DiChristina&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/4EZpcPhNK58&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-02-14T00:00:00+00:00</dc:date>
-	<dc:creator>Mariette DiChristina</dc:creator>
 </item>
 
 </rdf:RDF>
