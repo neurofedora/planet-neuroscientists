@@ -5,8 +5,105 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2017-03-02T18:00:47+00:00</updated>
+	<updated>2017-03-03T00:00:43+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en">Certain birth defects are on the rise since Zika arrived in the U.S.</title>
+		<link href="https://www.sciencenews.org/blog/science-ticker/certain-birth-defects-are-rise-zika-arrived-us"/>
+		<id>https://www.sciencenews.org/blog/science-ticker/certain-birth-defects-are-rise-zika-arrived-us</id>
+		<updated>2017-03-02T22:36:55+00:00</updated>
+		<content type="html">
+ The rate of certain birth defects is much higher in babies born to Zika-infected mothers in the United States, the CDC reports.</content>
+		<author>
+			<name>Laurel Hamers</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2017-03-03T00:00:34+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Can neuroscience explain a computer? (by Elena Blanco-Suárez)</title>
+		<link href="http://feeds.plos.org/~r/plos/blogs/neuro/~3/vx8llsia_q8/"/>
+		<id>http://blogs.plos.org/neuro/?p=19182</id>
+		<updated>2017-03-02T22:17:26+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;img alt=&quot;space invaders brains&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2017/03/space-invaders-brains-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;&lt;strong&gt;By Elena Blanco-Suárez&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;One of the most common metaphors in neuroscience is that the brain is like a computer. Yet this comparison fails to illustrate how complex our brains are. The brain, like a computer, receives information and analyzes it. However, there are substantial differences in the way a computer or a brain manages information as well as how and from where it receives the inputs, among many other reasons that render the analogy inaccurate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next level&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Eric Jonas from UC Berkeley and Konrad Kording from Northwestern University in Chicago took this metaphor a step further in an amusing – though slightly disheartening – &lt;a href=&quot;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268&quot; target=&quot;_blank&quot;&gt;article in PLOS Computational Biology&lt;/a&gt;, alluringly titled &lt;em&gt;Could a neuroscientist understand a microprocessor?&lt;/em&gt; Their intention was to confront the possibility that current neuroscience techniques might not be the best to decipher the workings of the brain. To do this they analyzed a microprocessor as if it were a brain. They collected data using standard neuroscience tools to see whether they could infer the way the machine processes information, just like neuroscientists analyze large datasets to untangle brain mechanisms.&lt;/p&gt;
+&lt;p&gt;They used three video games, well known to all the 80’s kids reading: Donkey Kong, Space Invaders and Pitfall. Each of these video games represented a different behavioral output from the microprocessor. For the biological equivalent, think of a &lt;em&gt;C. elegans&lt;/em&gt; (the microprocessor) and different behavioral phenotypes (the three video games). Although they acknowledge the limitations of comparing a microprocessor to a living organism’s brain, the authors argue that there are enough similarities to justify the study: both a brain and a microprocessor consist of interconnections of smaller units that can be differentiated and studied individually. They compare the build of the microprocessor to that of a brain, where we find circuits, subdivided into microcircuits, comprised of neurons that make connections through their synapses. Of course, the microprocessor is simpler than a brain in many ways.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Using neuroscience protocols to study a microprocessor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;They used established protocols to analyze diverse features of the microprocessor MOS6502, a model that is very well understood. Using the approach presented in &lt;a href=&quot;https://elifesciences.org/content/4/e04250&quot; target=&quot;_blank&quot;&gt;one of their previous papers&lt;/a&gt;, they were able to identify types of transistors within the microprocessor and the connections between them, similar to the study of connectomics in the brain. In the microprocessor they only found one type of transistor, making it far simpler than a brain. However, it was impossible to infer the operation of the microprocessor by just looking at the connectomics. In neuroscience this is even more complicated, since type of cell, synapses, channels and neurotransmitters have to be integrated into the whole picture. The authors stated the importance of the study of connectomics, but emphasized the lack of algorithms to determine the functions of the brain regions assessed, hence the difficulty of understanding the brain through the sole analysis of connections.&lt;/p&gt;
+&lt;p&gt;They also studied the effect of game performance when they removed one or more transistors from the microprocessor. This is similar to what we do in the lab, when a gene is knocked out to study the effects. They identified the contribution of each transistor to each video game considered, but they could not generalize to the rest of the games without further analysis. According to the authors, these results relate to neuroscience in that it is unlikely that a certain behavior would be triggered without the interaction of different brain circuits/regions.&lt;/p&gt;
+&lt;p&gt;Throughout the paper, they looked into other aspects of the transistors: tuning, correlations, local field potentials, functional connectivity, spatio-temporal activity, and how they differed depending on the game that was being played. With every set of experiments they concluded that, although interesting and necessary data were drawn, no individual dataset provided a full understanding of how the MOS6502 processes information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Better approaches for better conclusions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It has to be taken into account that this study of the microprocessor is a lot cleaner than actual neuroscience. We cannot forget brain plasticity and the capability of the brain to repair circuits or compensate for lesions and other impairments. MOS6502 cannot compensate for what the researchers were doing to it, rendering the data much cleaner and clearer than that from neuroscience experiments &lt;em&gt;in vivo&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The authors found their data unsatisfactory&lt;em&gt;, &lt;/em&gt;as it did not lead to conclusions that accurately explained the function and structure of the microprocessor as they know it. If they had made assumptions about the microprocessor based in the results herein, these might have been erroneous or misleading. This is why they advise caution at interpreting small data sets. The authors insist that better experiments would have helped them to understand the microprocessor. However, what we can learn from this interesting publication is that, although neuroscience is nowadays producing valuable data to understand how our brain is connected, we still fall short of integrating this information at the high level of complexity of the living organism. And per their suggestion, neuroscience might need a better neuroinformatics approach as well as more refined methods for analyzing data to reach reliable and truthful conclusions.&lt;/p&gt;
+&lt;p&gt;So, can neuroscientists really understand a microprocessor? Jonas and Kording believe we just need different methods to do so, and that testing these methods in a microprocessor could provide certain validation. But perhaps this study should not be considered as confirmation or rebuttal of the value of neuroscience to understand microprocessors, or even as measurement of the worth of current neuroscientific methods. This study offers additional evidence that brains are not computers. We definitely need a better metaphor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jonas E, Kording KP (2017) Could a Neuroscientist Understand a Microprocessor?. PLOS Computational Biology 13(1): e1005268. doi: 10.1371/journal.pcbi.1005268&lt;/p&gt;
+&lt;p&gt;Eric Jonas, and Konrad Kording, ‘Automatic Discovery of Cell Types and Microcircuitry from Neural Connectomics’, eLife, 4 (2015), e04250&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image credit Elena Blanco-Suárez&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2016/10/headshot-Elena-BlancoSuarez.jpg&quot;&gt;&lt;img alt=&quot;headshot Elena BlancoSuarez&quot; class=&quot;alignright size-thumbnail wp-image-18922&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2016/10/headshot-Elena-BlancoSuarez-150x150.jpg&quot; width=&quot;150&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Elena Blanco-Suárez&lt;/strong&gt; is a postdoc in the molecular neurobiology lab of Nicola Allen, at the Salk Institute in San Diego. She studies novel astrocyte-secreted factors involved in synaptogenesis during development.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/vx8llsia_q8&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Emilie Reas</name>
+			<uri>http://blogs.plos.org/neuro</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Neuroscience Community</title>
+			<subtitle type="html">Researchers discuss latest brain science</subtitle>
+			<link rel="self" href="http://feeds.plos.org/plos/blogs/neuro"/>
+			<id>http://blogs.plos.org/neuro</id>
+			<updated>2017-03-03T00:00:33+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Winning against a computer isn’t in the cards for poker pros</title>
+		<link href="https://www.sciencenews.org/article/winning-against-computer-isnt-cards-poker-pros"/>
+		<id>https://www.sciencenews.org/article/winning-against-computer-isnt-cards-poker-pros</id>
+		<updated>2017-03-02T19:00:02+00:00</updated>
+		<content type="html">
+ Poker-playing computers beat professional players at heads-up no-limit Texas Hold’em.</content>
+		<author>
+			<name>Emily Conover</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2017-03-03T00:00:34+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Earth’s mantle may be hotter than thought</title>
+		<link href="https://www.sciencenews.org/article/earths-mantle-may-be-hotter-thought"/>
+		<id>https://www.sciencenews.org/article/earths-mantle-may-be-hotter-thought</id>
+		<updated>2017-03-02T19:00:02+00:00</updated>
+		<content type="html">
+ Earth’s mantle is warmer than previously thought, suggests a new experiment that better accounts for water content in rocks.</content>
+		<author>
+			<name>Thomas Sumner</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2017-03-03T00:00:34+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Researcher who lost whistleblower lawsuit logs 4 more retractions</title>
@@ -44,7 +141,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -157,7 +254,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -215,7 +312,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -288,6 +385,90 @@
 	</entry>
 
 	<entry>
+		<title type="html" xml:lang="en">How rival bots battled their way to poker supremacy</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/DkBU67HURP4/nature.2017.21580"/>
+		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21580</id>
+		<updated>2017-03-02T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;Artificial-intelligence programs harness game-theory strategies and deep learning to defeat human professionals in two-player hold'em.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21580&quot;&gt;doi: 10.1038/nature.2017.21580&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/DkBU67HURP4&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Elizabeth Gibney</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-03T00:00:33+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">How the fallout from Trump's travel ban is reshaping science</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/RlKAffMylqQ/nature.2017.21579"/>
+		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21579</id>
+		<updated>2017-03-02T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;Researchers are cutting short travel, ending collaborations and rethinking their US ties.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21579&quot;&gt;doi: 10.1038/nature.2017.21579&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/RlKAffMylqQ&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Sara Reardon</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-03T00:00:33+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Amazon rainforest was shaped by an ancient hunger for fruits and nuts</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/s8bUmRaLBG4/nature.2017.21576"/>
+		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21576</id>
+		<updated>2017-03-02T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;People living in the area thousands of years ago may have changed the forest around them in ways that are still visible today.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21576&quot;&gt;doi: 10.1038/nature.2017.21576&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/s8bUmRaLBG4&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Erin Ross</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-03T00:00:33+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Dying woolly mammoths were in ‘genetic meltdown’</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/KvDWPAIlF4g/nature.2017.21575"/>
+		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21575</id>
+		<updated>2017-03-02T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;Genomic study of extinction in progress may offer insights for modern conservation.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21575&quot;&gt;doi: 10.1038/nature.2017.21575&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/KvDWPAIlF4g&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Brian Switek</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-03T00:00:33+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html" xml:lang="en">Colorectal cancer is on the rise among younger adults</title>
 		<link href="https://www.sciencenews.org/article/colorectal-cancer-rise-among-younger-adults"/>
 		<id>https://www.sciencenews.org/article/colorectal-cancer-rise-among-younger-adults</id>
@@ -302,7 +483,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -321,7 +502,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -340,7 +521,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -471,7 +652,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -571,7 +752,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -648,7 +829,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:59+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -669,7 +850,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -690,7 +871,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -711,7 +892,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -732,7 +913,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -753,7 +934,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -774,7 +955,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:59+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -795,7 +976,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -816,7 +997,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -837,7 +1018,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:59+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -858,7 +1039,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:59+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1103,7 +1284,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1124,7 +1305,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1145,7 +1326,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1166,7 +1347,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1187,91 +1368,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Gender bias: track revisions and appeals</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/ZL2FWc0nj3o/543040a"/>
-		<id>http://dx.doi.org/10.1038/543040a</id>
-		<updated>2017-03-01T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 40 &lt;a href=&quot;http://dx.doi.org/10.1038/543040a&quot;&gt;doi: 10.1038/543040a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/ZL2FWc0nj3o&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Julie Overbaugh</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Plant science: The plant as pugilist</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/1ykxaKr9eQQ/543039a"/>
-		<id>http://dx.doi.org/10.1038/543039a</id>
-		<updated>2017-03-01T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Ian T. Baldwin revels in a volume that reminds us of the arsenals of the undergrowth.&lt;/p&gt;&lt;p&gt;Nature 543 39 &lt;a href=&quot;http://dx.doi.org/10.1038/543039a&quot;&gt;doi: 10.1038/543039a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/1ykxaKr9eQQ&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Ian T. Baldwin</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:59+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Energy: Scanning the energy horizon</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/Gei_ZTt2ph8/543037a"/>
-		<id>http://dx.doi.org/10.1038/543037a</id>
-		<updated>2017-03-01T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Michael Grubb finds more breadth than depth in Dieter Helm's study on oil's demise.&lt;/p&gt;&lt;p&gt;Nature 543 37 &lt;a href=&quot;http://dx.doi.org/10.1038/543037a&quot;&gt;doi: 10.1038/543037a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Gei_ZTt2ph8&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Michael Grubb</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Ecology: Alien species on the rise</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/tzO7gWLg3e0/543009e"/>
-		<id>http://dx.doi.org/10.1038/543009e</id>
-		<updated>2017-03-01T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 9 &lt;a href=&quot;http://dx.doi.org/10.1038/543009e&quot;&gt;doi: 10.1038/543009e&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/tzO7gWLg3e0&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Nature News &amp; Comment</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-02T12:00:58+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1291,7 +1388,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1344,7 +1441,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1405,7 +1502,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1436,7 +1533,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1560,7 +1657,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1630,7 +1727,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1649,7 +1746,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1685,7 +1782,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1889,7 +1986,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1928,7 +2025,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2028,7 +2125,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2064,7 +2161,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2137,7 +2234,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<subtitle type="html">Researchers discuss latest brain science</subtitle>
 			<link rel="self" href="http://feeds.plos.org/plos/blogs/neuro"/>
 			<id>http://blogs.plos.org/neuro</id>
-			<updated>2017-02-24T00:00:31+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2156,7 +2253,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2175,7 +2272,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2215,7 +2312,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-02T18:00:40+00:00</updated>
+			<updated>2017-03-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2265,7 +2362,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2328,7 +2425,7 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-02T18:00:37+00:00</updated>
+			<updated>2017-03-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2348,82 +2445,6 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2017-03-02T18:00:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Seven Earth-sized planets orbit nearby supercool star</title>
-		<link href="https://www.sciencenews.org/article/seven-earth-sized-planets-orbit-nearby-supercool-star"/>
-		<id>https://www.sciencenews.org/article/seven-earth-sized-planets-orbit-nearby-supercool-star</id>
-		<updated>2017-02-22T18:00:02+00:00</updated>
-		<content type="html">
- A planetary system called TRAPPIST-1 has seven Earth-sized planets, three in the habitable zone, researchers report.</content>
-		<author>
-			<name>Ashley Yeager</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2017-03-02T00:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Science’s questions rarely have clear, easy answers</title>
-		<link href="https://www.sciencenews.org/article/science%E2%80%99s-questions-rarely-have-clear-easy-answers"/>
-		<id>https://www.sciencenews.org/article/science%E2%80%99s-questions-rarely-have-clear-easy-answers</id>
-		<updated>2017-02-22T17:47:45+00:00</updated>
-		<content type="html">
- Acting Editor in Chief Elizabeth Quill discusses science's complexities.</content>
-		<author>
-			<name>Elizabeth Quill</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2017-03-02T00:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Readers amazed by Amasia</title>
-		<link href="https://www.sciencenews.org/article/readers-amazed-amasia"/>
-		<id>https://www.sciencenews.org/article/readers-amazed-amasia</id>
-		<updated>2017-02-22T17:43:28+00:00</updated>
-		<content type="html">
- Quantum spookiness, shifting landmasses and more in reader feedback.</content>
-		<author>
-			<name>Science News Staff</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_19744967166233307=1</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2017-03-01T18:01:01+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Instead of starving a cancer, researchers go after its defenses</title>
-		<link href="https://www.sciencenews.org/article/instead-starving-cancer-researchers-go-after-its-defenses"/>
-		<id>https://www.sciencenews.org/article/instead-starving-cancer-researchers-go-after-its-defenses</id>
-		<updated>2017-02-22T17:32:20+00:00</updated>
-		<content type="html">
- There may be ways to block tumors from adapting and outrunning the body’s defenses.</content>
-		<author>
-			<name>Laura Beil</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_19744967166233307=1</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2017-03-01T18:01:01+00:00</updated>
 		</source>
 	</entry>
 
