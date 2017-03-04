@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8593" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/rare-triplet-high-energy-neutrinos-detected-unknown-source" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8660" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48546" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/choosing-right-cyberattack-response-complicated-game" />
@@ -113,12 +115,33 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=19729" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-2672427473119923109.post-2328739535915925594" />
 			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19167" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/score-bumblebees-football-insect-social-learning" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/bacterias-amyloids-display-surprising-structure" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8593">
+	<title>Discovery magazine - Neuroskeptic: Brain Activity At The Moment of Death</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8593</link>
+	<content:encoded>What happens in the brain when we die?
+
+
+
+Canadian researchers Loretta Norton and colleagues of the University of Western Ontario examine this grave question in a new paper: Electroencephalographic Recordings During Withdrawal of Life-Sustaining Therapy Until 30 Minutes After Declaration of Death
+
+Norton et al. examined frontal EEG recordings from four critically ill patients at the point where their life support was withdrawn. Here are some details on the four:
+
+
+
+Here's the EEG recor</content:encoded>
+	<dc:date>2017-03-03T20:48:08+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/rare-triplet-high-energy-neutrinos-detected-unknown-source">
+	<title>Science News: Rare triplet of high-energy neutrinos detected from an unknown source</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/rare-triplet-high-energy-neutrinos-detected-unknown-source</link>
+	<content:encoded>The IceCube Neutrino Observatory spotted three neutrinos within 100 seconds that seem to have come from the same place in the sky.</content:encoded>
+	<dc:date>2017-03-03T18:20:24+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=8660">
 	<title>BMC Series blog: Seeking help in times of economic hardship: access, experiences of services and unmet need</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/03/03/seeking-help-times-economic-hardship-access-experiences-services-unmet-need/</link>
@@ -1261,20 +1284,6 @@ This episode of Rationally Speaking features Tim Urban, author of popular longfo
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/9ouQB-SeLho&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-02-23T19:52:33+00:00</dc:date>
 	<dc:creator>Emilie Reas</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/score-bumblebees-football-insect-social-learning">
-	<title>Science News: Score! Bumblebees see how to sink ball in goal, then do it better</title>
-	<link>https://www.sciencenews.org/article/score-bumblebees-football-insect-social-learning</link>
-	<content:encoded>A first lesson in six-legged soccer tests bumblebees’ ability to learn.</content:encoded>
-	<dc:date>2017-02-23T19:32:13+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/bacterias-amyloids-display-surprising-structure">
-	<title>Science News: Bacteria’s amyloids display surprising structure</title>
-	<link>https://www.sciencenews.org/article/bacterias-amyloids-display-surprising-structure</link>
-	<content:encoded>Protein clusters made by Staphylococcus aureus bacteria have a surprising new structure.</content:encoded>
-	<dc:date>2017-02-23T19:00:01+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
 </item>
 
 </rdf:RDF>
