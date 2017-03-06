@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21585" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/monkeytalk-invites-readers-complex-social-world-monkeys" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48575" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8593" />
@@ -84,7 +85,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543144a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543040e" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543040d" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543040c" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/scientists-may-work-prevent-bias-they-dont-always-say-so" />
 			<rdf:li rdf:resource="tag:ankursinha.in,2017-02-28:/blog/2017/02/28/using-wallabag-to-manage-your-online-reading-list.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/saturn-death-star-moon-may-not-conceal-ocean-after-all" />
@@ -119,6 +119,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21585">
+	<title>Nature News &amp; Comment: IBM's quantum cloud computer goes commercial</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/YSXi9RSJX44/nature.2017.21585</link>
+	<content:encoded>&lt;p&gt;Company plans a bigger, better system aimed at creating a market for the still-immature technology.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21585&quot;&gt;doi: 10.1038/nature.2017.21585&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/YSXi9RSJX44&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-06T00:00:00+00:00</dc:date>
+	<dc:creator>Davide Castelvecchi</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/monkeytalk-invites-readers-complex-social-world-monkeys">
 	<title>Science News: ‘Monkeytalk’ invites readers into the complex social world of monkeys</title>
 	<link>https://www.sciencenews.org/article/monkeytalk-invites-readers-complex-social-world-monkeys</link>
@@ -851,13 +858,6 @@ Here's the EEG recor</content:encoded>
 	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 40 &lt;a href=&quot;http://dx.doi.org/10.1038/543040d&quot;&gt;doi: 10.1038/543040d&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/GC5t0yeLC-E&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-01T00:00:00+00:00</dc:date>
 	<dc:creator>E. Andrew Balas</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/543040c">
-	<title>Nature News &amp; Comment: Drug screening: Don't discount all curcumin trial data</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/C69o9v5a6YU/543040c</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 40 &lt;a href=&quot;http://dx.doi.org/10.1038/543040c&quot;&gt;doi: 10.1038/543040c&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/C69o9v5a6YU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-01T00:00:00+00:00</dc:date>
-	<dc:creator>Michal Heger</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/blog/scicurious/scientists-may-work-prevent-bias-they-dont-always-say-so">
 	<title>Science News: Scientists may work to prevent bias, but they don’t always say so</title>
