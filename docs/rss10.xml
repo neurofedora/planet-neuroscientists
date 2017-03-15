@@ -15,10 +15,14 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/online-reviews-can-make-over-counter-drugs-look-way-too-effective" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48697" />
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1385" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48658" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=20855" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21617" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543302a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543295a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543289a" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8623" />
@@ -98,8 +102,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543187a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543183a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543180a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543179e" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543179d" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8603" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/gender-and-science-resource-center" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48607" />
@@ -113,17 +115,29 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48362" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/magnetism-helps-black-holes-blow-gas" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8535" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=48290" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=20262" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause">
+	<title>Science News: Making a mistake can put your brain on ‘pause’</title>
+	<link>https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause</link>
+	<content:encoded>When there’s not much time to recover, one error can lead to another.</content:encoded>
+	<dc:date>2017-03-14T21:00:02+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-public/online-reviews-can-make-over-counter-drugs-look-way-too-effective">
+	<title>Science News: Online reviews can make over-the-counter drugs look way too effective</title>
+	<link>https://www.sciencenews.org/blog/science-public/online-reviews-can-make-over-counter-drugs-look-way-too-effective</link>
+	<content:encoded>Online patient reviews put a far more misleading spin on medications than clinical trials do.</content:encoded>
+	<dc:date>2017-03-14T18:48:46+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=48697">
-	<title>Retraction watch: Editors retract paper about emergency procedure after investigation uncovers data issues</title>
+	<title>Retraction watch: Editors retract paper about anesthesia procedure after investigation uncovers data issues</title>
 	<link>http://retractionwatch.com/2017/03/14/editors-retract-paper-emergency-procedure-investigation-uncovers-data-issues/</link>
-	<content:encoded>&lt;p&gt;The editors of an anesthesiology journal have retracted a paper about predicting how patients will respond to an emergency procedure, after the results of an investigation cast doubt on the validity and originality of the work. According to the retraction notice, the editors became concerned about the validity of the data and conducted an investigation, […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/14/editors-retract-paper-emergency-procedure-investigation-uncovers-data-issues/&quot; rel=&quot;nofollow&quot;&gt;Editors retract paper about emergency procedure after investigation uncovers data issues&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<content:encoded>&lt;p&gt;The editors of an anesthesiology journal have retracted a paper about predicting how patients will respond to a procedure, after the results of an investigation cast doubt on the validity and originality of the work. According to the retraction notice, the editors became concerned about the validity of the data and conducted an investigation, which […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/14/editors-retract-paper-emergency-procedure-investigation-uncovers-data-issues/&quot; rel=&quot;nofollow&quot;&gt;Editors retract paper about anesthesia procedure after investigation uncovers data issues&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-03-14T15:30:14+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
 </item>
@@ -167,6 +181,20 @@
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/alexfradera&quot;&gt;@alexfradera&lt;/a&gt;) is Contributing Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/20855/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/20855/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=20855&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-14T07:28:45+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21617">
+	<title>Nature News &amp; Comment: Fossil algae hold clues to origin of modern photosynthesis</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/WuNFTpfOBmU/nature.2017.21617</link>
+	<content:encoded>&lt;p&gt;The 1.6-billion-year-old specimens hold promise for settling long-running debate.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21617&quot;&gt;doi: 10.1038/nature.2017.21617&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/WuNFTpfOBmU&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-14T00:00:00+00:00</dc:date>
+	<dc:creator>Erin Ross</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/543302a">
+	<title>Nature News &amp; Comment: CRISPR, microbes and more are joining the war against crop killers</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/RzAYbugYyd0/543302a</link>
+	<content:encoded>&lt;p&gt;Agricultural scientists look beyond synthetic chemistry to battle pesticide resistance.&lt;/p&gt;&lt;p&gt;Nature 543 302 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543302a&quot;&gt;doi: 10.1038/543302a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/RzAYbugYyd0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-14T00:00:00+00:00</dc:date>
+	<dc:creator>Brooke Borel</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/543295a">
 	<title>Nature News &amp; Comment: Earth’s lost history of planet-altering eruptions revealed</title>
@@ -896,20 +924,6 @@ He reported that his peers and the snake charmer informed him that he would have
 	<dc:date>2017-03-08T00:00:00+00:00</dc:date>
 	<dc:creator>Robert Turner</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/543179e">
-	<title>Nature News &amp; Comment: Legacy: Stiff shirts a source of inspiration</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/keQLTHTVXzU/543179e</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 179 &lt;a href=&quot;http://dx.doi.org/10.1038/543179e&quot;&gt;doi: 10.1038/543179e&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/keQLTHTVXzU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-08T00:00:00+00:00</dc:date>
-	<dc:creator>Eric Altschuler</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/543179d">
-	<title>Nature News &amp; Comment: Tribute: Vera Rubin and the dark matter problem</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/sMYP0s0p4zU/543179d</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 179 &lt;a href=&quot;http://dx.doi.org/10.1038/543179d&quot;&gt;doi: 10.1038/543179d&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/sMYP0s0p4zU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-08T00:00:00+00:00</dc:date>
-	<dc:creator>Albert Bosma</dc:creator>
-</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8603">
 	<title>Discovery magazine - Neuroskeptic: Ben Carson and the Power of the Hippocampus</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8603</link>
@@ -1033,31 +1047,6 @@ So said Ben Carson, the U.S. Secretary of Housing and Urban Development, yesterd
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/03/06/video-blog-atlantic-salmon-prepare-life-saltwater/&quot; rel=&quot;nofollow&quot;&gt;Video blog: How Atlantic salmon prepare for life in saltwater&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-03-06T14:42:08+00:00</dc:date>
 	<dc:creator>Anna Clark</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=48290">
-	<title>Retraction watch: Two retracted papers were published behind bosses’ backs</title>
-	<link>http://retractionwatch.com/2017/03/06/two-retracted-papers-published-behind-bosses-backs/</link>
-	<content:encoded>&lt;p&gt;Researchers have retracted two 2016 papers from the same journal which were published without the permission of the supervising scientists. According to the retraction notices, the two Applied Materials &amp;amp; Interfaces articles were “published without the full knowledge or consent of the principal investigators” who guided the research, but are not named in the notices. The papers share […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/06/two-retracted-papers-published-behind-bosses-backs/&quot; rel=&quot;nofollow&quot;&gt;Two retracted papers were published behind bosses’ backs&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-03-06T14:30:14+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=20262">
-	<title>The British Psychological Society - Research Digest: Smarter people are happier, says new analysis involving 80,000 participants, but only a bit</title>
-	<link>https://digest.bps.org.uk/2017/03/06/smarter-people-are-happier-says-new-analysis-involving-80000-participants-but-only-a-bit/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;&lt;img alt=&quot;albert_einstein_head&quot; class=&quot;alignnone size-full wp-image-20328&quot; data-attachment-id=&quot;20328&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;albert_einstein_head&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/03/albert_einstein_head.jpg?w=845?w=768&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/03/albert_einstein_head.jpg?w=845?w=225&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/03/albert_einstein_head.jpg?w=845&quot; data-orig-size=&quot;3250,4333&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/03/06/smarter-people-are-happier-says-new-analysis-involving-80000-participants-but-only-a-bit/albert_einstein_head/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/03/albert_einstein_head.jpg?w=845&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;“happiness in intelligent people is the rarest thing I know” Ernest Hemingway&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;A lot of us would like to be smarter and happier, but does one lead to the other? Folk wisdom suggests not: old sayings tell us that “ignorance is bliss” and that “only a fool can be happy”. What does the psychology literature say? A &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0001879117300039&quot;&gt;new meta-analysis&lt;/a&gt; in the &lt;em&gt;Journal of Vocational Behaviour&lt;/em&gt; has combined the results from dozens of previous studies involving many tens of thousands of participants and, contrary to the received wisdom, it concludes that higher intelligence actually does correlate with greater happiness (or “life satisfaction”) and job satisfaction, but only weakly.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-20262&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Erik Gonzalez-Mulé at Indiana University and his colleagues sifted the literature, identifying relevant papers, published and unpublished, going back to 1980. Combining the results from 33 papers involving nearly 50,000 participants, they found that intelligence (or what they called “general mental ability”) had a weak but statistically non-significant positive correlation with life satisfaction, and a modest, statistically significant positive correlation with job satisfaction.&lt;/p&gt;
-&lt;p&gt;They found further evidence for the apparent benefits of higher intelligence for life satisfaction by factoring in the influence of “job complexity” (greater complexity meaning a job with more variety, skill demands and autonomy) and job income, two factors that are themselves correlated with greater happiness. This showed that higher intelligence has indirect links with greater happiness because more intelligent people tend to earn more, but especially because they tend to have more complex jobs, which presumably are more rewarding.&lt;/p&gt;
-&lt;p&gt;According to 38 studies involving nearly 30,000 participants, higher intelligence also had indirect links with job satisfaction by virtue of the fact that it correlated with job complexity and income. But this is psychology, so of course there’s a twist that somewhat supports the folk wisdom about intelligent people rarely being happy. When the researchers held job complexity and income constant in their analysis, they found that higher intelligence actually correlated with less job satisfaction. Put differently, if you imagine a range of people at a given level of job complexity and income, those with higher intelligence will tend to be less happy with their jobs. This makes intuitive sense if you consider that smarter people will be more likely than others to experience boredom and frustration at jobs that are not challenging enough.&lt;/p&gt;
-&lt;p&gt;The great strength of meta-analyses like this one is in the huge amounts of data that they can draw on. But the new study also has some obvious limitations: some of the data is decades-old and may not be relevant to today’s world. Also, this is cross-sectional data which can’t convincingly address whether intelligence is causing changes in life and job satisfaction, nor how such processes may unfold over time.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0001879117300039&quot;&gt;Are smarter people happier? Meta-analyses of the relationships between general mental ability and job and life satisfaction&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Image by Orren Jack Turner, &lt;a href=&quot;https://en.wikipedia.org/wiki/Albert_Einstein#/media/File:Albert_Einstein_Head.jpg&quot;&gt;via Wikipedia&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/20262/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/20262/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=20262&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-06T14:13:36+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 
 </rdf:RDF>
