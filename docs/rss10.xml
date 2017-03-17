@@ -15,7 +15,12 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/smartphones-may-be-changing-way-we-think" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=48823" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=48764" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/detachable-scales-turn-gecko-escape-artist" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21661" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21656" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/white-house-budget-plan-would-slash-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/remnants-earths-original-crust-preserve-time-plate-tectonics" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48789" />
@@ -71,8 +76,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543315c" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543315b" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543315a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543314a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543312a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/online-reviews-can-make-over-counter-drugs-look-way-too-effective" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48697" />
@@ -112,19 +115,52 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8615" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3738294804186774049" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21898" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=48735" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/new-cassini-portraits-saturns-moon-pan-looks-pasta" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-grow-toxin-free-corn" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/smartphones-may-be-changing-way-we-think">
+	<title>Science News: Smartphones may be changing the way we think</title>
+	<link>https://www.sciencenews.org/article/smartphones-may-be-changing-way-we-think</link>
+	<content:encoded>We rely on our digital devices to connect with others and for memory and navigation shortcuts. What is that doing to our brains?</content:encoded>
+	<dc:date>2017-03-17T16:21:47+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=48823">
+	<title>Retraction watch: Physics paper’s results off by factor of 100</title>
+	<link>http://retractionwatch.com/2017/03/17/physics-papers-results-off-factor-100/</link>
+	<content:encoded>&lt;p&gt;Researchers from China have retracted a physics paper after realizing an error led them to report results that were nearly 100 times too large. What’s more, the authors omitted key findings that would enable others to reproduce their experiments. According to the notice, the authors used a value to calculate a feature of electrons—called mobility—that […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/17/physics-papers-results-off-factor-100/&quot; rel=&quot;nofollow&quot;&gt;Physics paper’s results off by factor of 100&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-03-17T15:30:12+00:00</dc:date>
+	<dc:creator>Victoria Stern</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=48764">
+	<title>Retraction watch: Two more retractions for stem cell researcher appealing her dismissal</title>
+	<link>http://retractionwatch.com/2017/03/17/two-retractions-stem-cell-researcher-appealing-dismissal/</link>
+	<content:encoded>&lt;p&gt;Susana Gonzalez, a rising star in stem cell research, has had a rough year. In addition to being fired from her former research institute (which she is now appealing), one of her grants (totaling nearly 2 million Euros) was suspended. Most recently, she has received two new retractions in Nature Communications over figure duplications and […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/17/two-retractions-stem-cell-researcher-appealing-dismissal/&quot; rel=&quot;nofollow&quot;&gt;Two more retractions for stem cell researcher appealing her dismissal&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-03-17T13:30:59+00:00</dc:date>
+	<dc:creator>Victoria Stern</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/detachable-scales-turn-gecko-escape-artist">
 	<title>Science News: Detachable scales turn this gecko into an escape artist</title>
 	<link>https://www.sciencenews.org/article/detachable-scales-turn-gecko-escape-artist</link>
 	<content:encoded>A new species of gecko evades predators by shedding its scaly armor.</content:encoded>
 	<dc:date>2017-03-17T11:00:02+00:00</dc:date>
 	<dc:creator>Elizabeth Eaton</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21661">
+	<title>Nature News &amp; Comment: The FDA chief must not be a proxy for industry</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/5ItW6dgvX5U/nature.2017.21661</link>
+	<content:encoded>&lt;p&gt;Trump’s pick for the US regulatory agency will bring experience and a clear vision — as well as ties to industry.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21661&quot;&gt;doi: 10.1038/nature.2017.21661&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/5ItW6dgvX5U&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-17T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21656">
+	<title>Nature News &amp; Comment: Genome-based cholesterol drug boosts heart health</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Gz9pfZXHNg8/nature.2017.21656</link>
+	<content:encoded>&lt;p&gt;Treatment reduces the risk of heart attack and stroke, but might not live up to outsized expectations.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21656&quot;&gt;doi: 10.1038/nature.2017.21656&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Gz9pfZXHNg8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-17T00:00:00+00:00</dc:date>
+	<dc:creator>Heidi Ledford</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/white-house-budget-plan-would-slash-science">
 	<title>Science News: White House budget plan would slash science</title>
@@ -207,8 +243,8 @@
 <item rdf:about="http://digest.bps.org.uk/?p=20999">
 	<title>The British Psychological Society - Research Digest: The scientific evidence for microaggressions is weak and we should drop the term, argues review author</title>
 	<link>https://digest.bps.org.uk/2017/03/16/the-scientific-evidence-for-microaggressions-is-weak-and-we-should-drop-the-term-argues-review-author/</link>
-	<content:encoded>&lt;p&gt;&lt;img alt=&quot;Synagogue Walls Desecrated With Anti-Semitic Graffiti&quot; class=&quot;alignnone size-full wp-image-21007&quot; data-attachment-id=&quot;21007&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;PETAH TIKVA, ISRAEL - MARCH 5:  (ISRAEL OUT)  A Jewish man looks at anti-semitic graffiti which was sprayed on the gate of a synagogue March 5, 2006 in Petah Tikva, near Tel Aviv, in central Israel. Police are investigating the incident after inscriptions, in Hebrew, \&amp;quot;death to Jews\&amp;quot; and swastika drawings were found with the signature \&amp;quot;white power.\&amp;quot;  (Photo by Uriel Sinai\/Getty Images)&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;2006 Getty Images&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Synagogue Walls Desecrated With Anti-Semitic Graffiti&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Synagogue Walls Desecrated With Anti-Semitic Graffiti&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845&quot; data-orig-size=&quot;1024,707&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/03/16/the-scientific-evidence-for-microaggressions-is-weak-and-we-should-drop-the-term-argues-review-author/synagogue-walls-desecrated-with-anti-semitic-graffiti/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt;&lt;/p&gt;
+	<content:encoded>&lt;figure class=&quot;wp-caption alignnone&quot; data-shortcode=&quot;caption&quot; id=&quot;attachment_21007&quot; style=&quot;width: 1024px;&quot;&gt;&lt;img alt=&quot;Synagogue Walls Desecrated With Anti-Semitic Graffiti&quot; class=&quot;alignnone size-full wp-image-21007&quot; data-attachment-id=&quot;21007&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;PETAH TIKVA, ISRAEL - MARCH 5:  (ISRAEL OUT)  A Jewish man looks at anti-semitic graffiti which was sprayed on the gate of a synagogue March 5, 2006 in Petah Tikva, near Tel Aviv, in central Israel. Police are investigating the incident after inscriptions, in Hebrew, \&amp;quot;death to Jews\&amp;quot; and swastika drawings were found with the signature \&amp;quot;white power.\&amp;quot;  (Photo by Uriel Sinai\/Getty Images)&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;2006 Getty Images&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Synagogue Walls Desecrated With Anti-Semitic Graffiti&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Synagogue Walls Desecrated With Anti-Semitic Graffiti&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845&quot; data-orig-size=&quot;1024,707&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/03/16/the-scientific-evidence-for-microaggressions-is-weak-and-we-should-drop-the-term-argues-review-author/synagogue-walls-desecrated-with-anti-semitic-graffiti/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-57002348.jpg?w=845&quot; /&gt;Items filed as microassaults – supposedly one form of microaggression – include racial slurs and swastika graffiti&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Racism and prejudice are sometimes blatant, but often manifest in subtle ways. The current emblem of these subtle slights is the “microaggression”, a concept that has generated a large programme of research and launched itself into the popular consciousness – prompting last month’s decision by Merriam-Webster &lt;a href=&quot;http://https://www.merriam-webster.com/words-at-play/microaggression-words-were-watching&quot;&gt;to add it to their dictionary&lt;/a&gt;. However, a new review in &lt;em&gt;Perspectives on Psychological Science&lt;/em&gt; by Scott Lilienfeld of Emory University argues that core empirical and conceptual questions about microaggressions remain unaddressed, meaning the struggle against them takes place on a confusing battlefield, one where it’s hard to tell between friend and foe.&lt;/p&gt;
 &lt;p&gt;&lt;span id=&quot;more-20999&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;So what exactly is a microaggression? First coined in the 1970s but rejuvenated in 2007 in a paper in the &lt;em&gt;American Psychologist&lt;/em&gt; by Derald Wing Sue and colleagues, it originally referred only to racism but has expanded to a range of commonplace slights or hostility towards an oppressed group. The definition includes &lt;em&gt;microinvalidations&lt;/em&gt;, such as being told that a negative interaction couldn’t have been due to racist motives, and &lt;em&gt;microinsults&lt;/em&gt;, such as a teacher avoiding calling on you in class due to your gender, as well as a third class of &lt;em&gt;microassaults&lt;/em&gt;. The prototypical microaggression hides the offence within apparently innocent words or actions, which places those on the receiving end into a catch-22: swallow the indignity, or respond and risk being accused of overreaction?&lt;/p&gt;
@@ -643,20 +679,6 @@ García et al. say that the damage included &quot;extensive compromise of the ri
 	<dc:date>2017-03-15T00:00:00+00:00</dc:date>
 	<dc:creator>Frank Berendse</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/543314a">
-	<title>Nature News &amp; Comment: Animal behaviour: World of webs</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/EVBOQgqtBgI/543314a</link>
-	<content:encoded>&lt;p&gt;Philip Ball finds himself caught up in artworks woven by thousands of South American spiders.&lt;/p&gt;&lt;p&gt;Nature 543 314 &lt;a href=&quot;http://dx.doi.org/10.1038/543314a&quot;&gt;doi: 10.1038/543314a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/EVBOQgqtBgI&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-15T00:00:00+00:00</dc:date>
-	<dc:creator>Philip Ball</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/543312a">
-	<title>Nature News &amp; Comment: Economics: The architecture of inequality</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Hr6sU9NwGdE/543312a</link>
-	<content:encoded>&lt;p&gt;Aaron Reeves surveys five books on the defining social, political and economic issue of our times.&lt;/p&gt;&lt;p&gt;Nature 543 312 &lt;a href=&quot;http://dx.doi.org/10.1038/543312a&quot;&gt;doi: 10.1038/543312a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Hr6sU9NwGdE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-15T00:00:00+00:00</dc:date>
-	<dc:creator>Aaron Reeves</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause">
 	<title>Science News: Making a mistake can put your brain on ‘pause’</title>
 	<link>https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause</link>
@@ -1081,28 +1103,6 @@ Citation is a little-discussed subject in science. Certainly, there's plenty of 
 	<content:encoded>&lt;p&gt;Surgical repair of a detached retina involves the injection of a gas or silicone oil into the eye to hold the retina in place. The development of a gel with more-desirable properties than these substances might improve the success of this procedure.&lt;/p&gt;&lt;p&gt;Nature 543 319 &lt;a href=&quot;http://dx.doi.org/10.1038/nature21898&quot;&gt;doi: 10.1038/nature21898&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/2cG7DVuAUfU&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-12T00:00:00+00:00</dc:date>
 	<dc:creator>Stanley Chang</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=48735">
-	<title>Retraction watch: Weekend reads: A publisher sends the wrong message on data sharing; jail for scientific fraud; pigs fly</title>
-	<link>http://retractionwatch.com/2017/03/11/weekend-reads-publisher-sends-wrong-message-data-sharing-jail-scientific-fraud-pigs-fly/</link>
-	<content:encoded>&lt;p&gt;The week at Retraction Watch featured three new ways companies are trying to scam authors, and a look at why one journal is publishing a running tally of their retractions. Here’s what was happening elsewhere: “Does the American Psychological Association really want to be the publishing equivalent of a shady used car dealer?” The latest on data-sharing […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/11/weekend-reads-publisher-sends-wrong-message-data-sharing-jail-scientific-fraud-pigs-fly/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: A publisher sends the wrong message on data sharing; jail for scientific fraud; pigs fly&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-03-11T14:31:01+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/new-cassini-portraits-saturns-moon-pan-looks-pasta">
-	<title>Science News: In new Cassini portraits, Saturn’s moon Pan looks like pasta</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/new-cassini-portraits-saturns-moon-pan-looks-pasta</link>
-	<content:encoded>Photographs taken this week by NASA’s Cassini spacecraft provide a closer view of Saturn’s small moon Pan, which resembles ravioli.</content:encoded>
-	<dc:date>2017-03-10T22:30:54+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-grow-toxin-free-corn">
-	<title>Science News: How to grow toxin-free corn</title>
-	<link>https://www.sciencenews.org/article/how-grow-toxin-free-corn</link>
-	<content:encoded>Corn genetically altered to produce specialized molecules may prevent a fungus from tainting it with carcinogenic toxins.</content:encoded>
-	<dc:date>2017-03-10T19:00:03+00:00</dc:date>
-	<dc:creator>Elizabeth Eaton</dc:creator>
 </item>
 
 </rdf:RDF>
