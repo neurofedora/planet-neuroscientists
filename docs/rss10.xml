@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/detachable-scales-turn-gecko-escape-artist" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/white-house-budget-plan-would-slash-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/remnants-earths-original-crust-preserve-time-plate-tectonics" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48789" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48735" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/new-cassini-portraits-saturns-moon-pan-looks-pasta" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-grow-toxin-free-corn" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=48708" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/detachable-scales-turn-gecko-escape-artist">
+	<title>Science News: Detachable scales turn this gecko into an escape artist</title>
+	<link>https://www.sciencenews.org/article/detachable-scales-turn-gecko-escape-artist</link>
+	<content:encoded>A new species of gecko evades predators by shedding its scaly armor.</content:encoded>
+	<dc:date>2017-03-17T11:00:02+00:00</dc:date>
+	<dc:creator>Elizabeth Eaton</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/white-house-budget-plan-would-slash-science">
 	<title>Science News: White House budget plan would slash science</title>
 	<link>https://www.sciencenews.org/article/white-house-budget-plan-would-slash-science</link>
@@ -1096,14 +1103,6 @@ Citation is a little-discussed subject in science. Certainly, there's plenty of 
 	<content:encoded>Corn genetically altered to produce specialized molecules may prevent a fungus from tainting it with carcinogenic toxins.</content:encoded>
 	<dc:date>2017-03-10T19:00:03+00:00</dc:date>
 	<dc:creator>Elizabeth Eaton</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=48708">
-	<title>Retraction watch: 15-year old paper pulled for image problems</title>
-	<link>http://retractionwatch.com/2017/03/10/15-year-old-paper-pulled-image-problems/</link>
-	<content:encoded>&lt;p&gt;A group of researchers in France has been forced to retract their 2002 article in the Journal of Virology after learning that the paper was marred by multiple image problems. The paper, “P0 of Beet Western Yellows Virus Is a Suppressor of Posttranscriptional Gene Silencing,” came from the lab of Veronique Ziegler-Graff, a plant biologist at the […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/10/15-year-old-paper-pulled-image-problems/&quot; rel=&quot;nofollow&quot;&gt;15-year old paper pulled for image problems&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-03-10T17:10:04+00:00</dc:date>
-	<dc:creator>amarcus41</dc:creator>
 </item>
 
 </rdf:RDF>
