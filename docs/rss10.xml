@@ -15,10 +15,13 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8635" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/king-snakes-strength-its-squeeze" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/smartphones-may-be-changing-way-we-think" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48823" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48764" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/detachable-scales-turn-gecko-escape-artist" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21664" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21661" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21656" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/white-house-budget-plan-would-slash-science" />
@@ -75,7 +78,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543315d" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543315c" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543315b" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543315a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/online-reviews-can-make-over-counter-drugs-look-way-too-effective" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48697" />
@@ -113,12 +115,29 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21429" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21414" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8615" />
-			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3738294804186774049" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21898" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8635">
+	<title>Discovery magazine - Neuroskeptic: Unethical &quot;Stem Cell&quot; Therapy for Autism In India?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8635</link>
+	<content:encoded>I just read a concerning paper about an experimental stem cell treatment for children with autism.
+
+
+
+
+
+The authors are Himanshu Bansal and colleagues of India. The senior author, Prasad S Koka, is the Editor-in-Chief of the Journal of Stem Cells where the paper appeared, which raises questions about whether the manuscript received a thorough peer review. Koka is actually an author on all five of the research papers published in that issue of the journal. But that's a minor issue compared</content:encoded>
+	<dc:date>2017-03-17T21:29:11+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/king-snakes-strength-its-squeeze">
+	<title>Science News: A king snake’s strength is in its squeeze</title>
+	<link>https://www.sciencenews.org/article/king-snakes-strength-its-squeeze</link>
+	<content:encoded>King snakes feast on other, larger snakes, perhaps thanks to superior constricting abilities, new research suggests.</content:encoded>
+	<dc:date>2017-03-17T18:47:29+00:00</dc:date>
+	<dc:creator>Elizabeth Eaton</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/smartphones-may-be-changing-way-we-think">
 	<title>Science News: Smartphones may be changing the way we think</title>
 	<link>https://www.sciencenews.org/article/smartphones-may-be-changing-way-we-think</link>
@@ -148,6 +167,12 @@
 	<content:encoded>A new species of gecko evades predators by shedding its scaly armor.</content:encoded>
 	<dc:date>2017-03-17T11:00:02+00:00</dc:date>
 	<dc:creator>Elizabeth Eaton</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21664">
+	<title>Nature News &amp; Comment: Trump faces backlash on health-agency cuts</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/y2lFxmJe4PU/nature.2017.21664</link>
+	<content:encoded>&lt;p&gt;Crippling the US National Institutes of Health might increase resistance to other attacks on science.&lt;/p&gt;&lt;p&gt;Nature 543  &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21664&quot;&gt;doi: 10.1038/nature.2017.21664&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/y2lFxmJe4PU&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-17T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21661">
 	<title>Nature News &amp; Comment: The FDA chief must not be a proxy for industry</title>
@@ -672,13 +697,6 @@ García et al. say that the damage included &quot;extensive compromise of the ri
 	<dc:date>2017-03-15T00:00:00+00:00</dc:date>
 	<dc:creator>Christian Albert</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/543315a">
-	<title>Nature News &amp; Comment: Health and environment: Add a tax to the EU agricultural policy</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/M4dXN3ov-eg/543315a</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 315 &lt;a href=&quot;http://dx.doi.org/10.1038/543315a&quot;&gt;doi: 10.1038/543315a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/M4dXN3ov-eg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-15T00:00:00+00:00</dc:date>
-	<dc:creator>Frank Berendse</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause">
 	<title>Science News: Making a mistake can put your brain on ‘pause’</title>
 	<link>https://www.sciencenews.org/article/making-mistake-can-put-your-brain-pause</link>
@@ -1087,22 +1105,6 @@ This got me thinking about what we might call the ethics of citation.
 
 Citation is a little-discussed subject in science. Certainly, there's plenty of talk about citations - about whether it is right to judge papers by the number of citations they receive, whet</content:encoded>
 	<dc:date>2017-03-12T19:04:16+00:00</dc:date>
-</item>
-<item rdf:about="tag:blogger.com,1999:blog-21605329.post-3738294804186774049">
-	<title>The Neurocritic: A brain-enhancement amusement park mockumentary</title>
-	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/AAnf3wTdLck/a-brain-enhancement-amusement-park.html</link>
-	<content:encoded>&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-aCONE-PKHk8/WMUYW4ZPAFI/AAAAAAAAMEk/Z0D5eC3s7uUQHJBQa8Weo-1dWyL1hqtbgCLcB/s1600/A%2Blevel%2Bof%2Bundefined%2Bbrain%2Bactivity%252C%2Babout%2B30%2Bpercent%2Bhigher.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;179&quot; src=&quot;https://4.bp.blogspot.com/-aCONE-PKHk8/WMUYW4ZPAFI/AAAAAAAAMEk/Z0D5eC3s7uUQHJBQa8Weo-1dWyL1hqtbgCLcB/s320/A%2Blevel%2Bof%2Bundefined%2Bbrain%2Bactivity%252C%2Babout%2B30%2Bpercent%2Bhigher.png&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;span&gt;“There was a level of undefined brain activity, about 30% higher, than the kids who stayed on the ground.”&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://vimeo.com/58293017&quot; target=&quot;_blank&quot;&gt;The Centrifuge Brain Project&lt;/a&gt; is an awesome short film by Till Nowak, featuring a deadpan performance by Leslie Barany.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The fictitious website of the &lt;a href=&quot;http://www.icr-science.org/about.htm&quot;&gt;Institute for Centrifugal Research&lt;/a&gt; (ICR) is one of the best since LACUNA Inc. (which lives on at &lt;a href=&quot;http://web.archive.org/web/20050205164041/http://www.lacunainc.com/&quot; target=&quot;_blank&quot; title=&quot;LACUNCA Inc. (from Eternal Sunshine of the Spotless Mind)&quot;&gt;archive.org&lt;/a&gt;):&lt;br /&gt;&lt;br /&gt;&lt;blockquote class=&quot;tr_bq&quot;&gt;Welcome to the homepage of ICR - the world's leading research laboratory in the highly specialized field of spinning people around.&lt;br /&gt;&lt;br /&gt;We are proud of our history - a chronicle of passion and pioneering achievements in the realms of brain manipulation, excessive G-Force and prenatal simulations. Established in 1976 by Dr. Matthew Brenswick and Dr. Nick Laslowicz, the institute has never stopped doubting the generally accepted laws of physics.&lt;/blockquote&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;&lt;b&gt;&lt;span style=&quot;color: #999999;&quot;&gt; &lt;/span&gt;&lt;/b&gt;&lt;a href=&quot;http://www.icr-science.org/products_weddingcake.htm&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #999999;&quot;&gt;WEDDING CAKE CENTRIFUGE&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;established 1985. &lt;br /&gt;Number of seats: 96&lt;br /&gt;G-Force: 2.3&lt;br /&gt;Model no. 810XN-96922&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-uyD2AF1nSJI/WMUWeWW1rMI/AAAAAAAAMEU/0eOCun5_N3IzLz9L41S6lDJ4jycRc-qWACLcB/s1600/Wedding%2BCake%2Bride%2B-%2Btoo%2Bextreme%2Bto%2Bbe%2Bpublished.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;223&quot; src=&quot;https://3.bp.blogspot.com/-uyD2AF1nSJI/WMUWeWW1rMI/AAAAAAAAMEU/0eOCun5_N3IzLz9L41S6lDJ4jycRc-qWACLcB/s400/Wedding%2BCake%2Bride%2B-%2Btoo%2Bextreme%2Bto%2Bbe%2Bpublished.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt; &lt;span&gt;“Some of the test results that year were a little too extreme to be published.”&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;&lt;a href=&quot;http://www.icr-science.org/products_catapult.htm&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #999999;&quot;&gt;STEAM PRESSURE CATAPULT&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;established 2003. &lt;br /&gt;Number of seats: 172&lt;br /&gt;G-Force: 9&lt;br /&gt;Model no. 01758X-KAZT&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-hQ5RRPkzniI/WMUgWLKVV5I/AAAAAAAAME0/AVoyyi5i268ReGrvNEx3Bu3X0OmV9zYBACLcB/s1600/centrifuge_3.jpg&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;300&quot; src=&quot;https://4.bp.blogspot.com/-hQ5RRPkzniI/WMUgWLKVV5I/AAAAAAAAME0/AVoyyi5i268ReGrvNEx3Bu3X0OmV9zYBACLcB/s400/centrifuge_3.jpg&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;span&gt;“Unpredictability was an important aspect of our work.”&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Coming soon: &lt;a href=&quot;http://content.iospress.com/articles/journal-of-vestibular-research/ves597&quot;&gt;Derealization during utricular stimulation&lt;/a&gt;.&lt;div class=&quot;feedflare&quot;&gt;
-&lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=AAnf3wTdLck:OsgGGs5ouuk:yIl2AUoC8zA&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=yIl2AUoC8zA&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=AAnf3wTdLck:OsgGGs5ouuk:JUhcmGiK9AQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=JUhcmGiK9AQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=AAnf3wTdLck:OsgGGs5ouuk:qj6IDK7rITs&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=qj6IDK7rITs&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=AAnf3wTdLck:OsgGGs5ouuk:cGdyc7Q-1BI&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=cGdyc7Q-1BI&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=AAnf3wTdLck:OsgGGs5ouuk:gIN9vFwOqvQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=AAnf3wTdLck:OsgGGs5ouuk:gIN9vFwOqvQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=AAnf3wTdLck:OsgGGs5ouuk:F7zBnMyn0Lo&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=AAnf3wTdLck:OsgGGs5ouuk:F7zBnMyn0Lo&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/AAnf3wTdLck&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-12T10:29:23+00:00</dc:date>
-	<dc:creator>The Neurocritic</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature21898">
-	<title>Nature Biological Sciences Research: Biomedicine: An improved gel for detached retinas</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/2cG7DVuAUfU/nature21898</link>
-	<content:encoded>&lt;p&gt;Surgical repair of a detached retina involves the injection of a gas or silicone oil into the eye to hold the retina in place. The development of a gel with more-desirable properties than these substances might improve the success of this procedure.&lt;/p&gt;&lt;p&gt;Nature 543 319 &lt;a href=&quot;http://dx.doi.org/10.1038/nature21898&quot;&gt;doi: 10.1038/nature21898&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/2cG7DVuAUfU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-12T00:00:00+00:00</dc:date>
-	<dc:creator>Stanley Chang</dc:creator>
 </item>
 
 </rdf:RDF>
