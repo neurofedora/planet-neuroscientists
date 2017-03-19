@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/understand-rivers-let-physics-be-your-guide" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48862" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8635" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/king-snakes-strength-its-squeeze" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/quantum-counterfeiters-might-succeed" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21435" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21429" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21414" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/understand-rivers-let-physics-be-your-guide">
+	<title>Science News: To understand rivers, let physics be your guide</title>
+	<link>https://www.sciencenews.org/article/understand-rivers-let-physics-be-your-guide</link>
+	<content:encoded>Where the River Flows unites physics and environmental science to explain Earth’s waterways.</content:encoded>
+	<dc:date>2017-03-19T12:00:02+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=48862">
 	<title>Retraction watch: Weekend reads: Investigations need sunlight; should we name fraudster names?; how to kill predatory journals</title>
 	<link>http://retractionwatch.com/2017/03/18/weekend-reads-investigations-need-sunlight-name-fraudster-names-kill-predatory-journals/</link>
@@ -1090,15 +1097,6 @@ Here are some examples of neuroTrump scholarship: Donald Trump's Lizard Brain (F
 &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature21429&quot;&gt;doi: 10.1038/nature21429&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/plEZtiuxEMI&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-13T00:00:00+00:00</dc:date>
 	<dc:creator>Tim J. Stevens</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature21414">
-	<title>Nature Biological Sciences Research: Energy transduction and alternating access of the mammalian ABC transporter P-glycoprotein</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/9U2vlgp-f_M/nature21414</link>
-	<content:encoded>&lt;p&gt;
- ATP binding cassette (ABC) transporters of the exporter class harness the energy of ATP hydrolysis in the nucleotide-binding domains (NBDs) to power the energetically uphill efflux of substrates by a dedicated transmembrane domain (TMD). Although numerous investigations have described the mechanism of ATP hydrolysis and defined the architecture of ABC exporters, a detailed structural dynamic understanding of the transduction of ATP energy to the work of substrate translocation remains elusive. Here we used double electron–electron resonance and molecular dynamics simulations to describe the ATP- and substrate-coupled conformational cycle of the mouse ABC efflux transporter P-glycoprotein (Pgp; also known as ABCB1), which has a central role in the clearance of xenobiotics and in cancer resistance to chemotherapy. Pairs of spin labels were introduced at residues selected to track the putative inward-facing to outward-facing transition. Our findings illuminate how ATP energy is harnessed in the NBDs in a two-stroke cycle and elucidate the consequent conformational motion that reconfigures the TMD, two critical aspects of Pgp transport mechanism. Along with a fully atomistic model of the outward-facing conformation in membranes, the insight into Pgp conformational dynamics harmonizes mechanistic and structural data into a novel perspective on ATP-coupled transport and reveals mechanistic divergence within the efflux class of ABC transporters. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature21414&quot;&gt;doi: 10.1038/nature21414&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/9U2vlgp-f_M&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-13T00:00:00+00:00</dc:date>
-	<dc:creator>Brandy Verhalen</dc:creator>
 </item>
 
 </rdf:RDF>
