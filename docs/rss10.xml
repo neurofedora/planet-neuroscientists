@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48887" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48875" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cancer-cells-cast-sweet-spell-immune-system" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-82" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-80" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-78" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-70" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles">
+	<title>Science News: Large Hadron Collider experiment nabs five new particles</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles</link>
+	<content:encoded>LHCb experiment detects new particles composed of two strange quarks and one charm quark.</content:encoded>
+	<dc:date>2017-03-21T19:25:39+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=48887">
 	<title>Retraction watch: An editor in chief was caught manipulating citations. Now he’s been asked to resign.</title>
 	<link>http://retractionwatch.com/2017/03/21/editor-chief-caught-manipulating-citations-now-hes-asked-resign/</link>
@@ -1088,18 +1095,6 @@ García et al. say that the damage included &quot;extensive compromise of the ri
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/l7TsomVQV24&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-14T00:00:00+00:00</dc:date>
 	<dc:creator>Michael Shermer</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0417-70">
-	<title>Scientific American: Time to Worry about Anthrax Again</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/0vk9ep-cRTE/scientificamerican0417-70</link>
-	<content:encoded>&lt;p&gt;Scientific American 316, 70 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0417-70&quot;&gt;doi:10.1038/scientificamerican0417-70&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Paul S. Keim, David H. Walker &amp;amp; Raymond A. Zilinskas&lt;/p&gt;
-&lt;p&gt;Recent insights into a long-ago accident show just how deadly bioweapons can be&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/0vk9ep-cRTE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-14T00:00:00+00:00</dc:date>
-	<dc:creator>Paul S. Keim</dc:creator>
 </item>
 
 </rdf:RDF>
