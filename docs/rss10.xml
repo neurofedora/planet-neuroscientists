@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/sea-otters-use-rocks-tools-arent-related" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48887" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48875" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-84" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-82" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-80" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0417-78" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/sea-otters-use-rocks-tools-arent-related">
+	<title>Science News: Tool use in sea otters doesn't run in the family</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/sea-otters-use-rocks-tools-arent-related</link>
+	<content:encoded>A genetic study suggests that tool-use behavior isn’t hereditary in sea otters, and that only some animals need to use tools due to the type of food available in their ecosystem.</content:encoded>
+	<dc:date>2017-03-22T00:44:27+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles">
 	<title>Science News: Large Hadron Collider experiment nabs five new particles</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles</link>
@@ -1083,18 +1090,6 @@ García et al. say that the damage included &quot;extensive compromise of the ri
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/WtZsjVT2Cuw&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-14T00:00:00+00:00</dc:date>
 	<dc:creator>Steve Mirsky</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0417-78">
-	<title>Scientific American: What Is Truth, Anyway?</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/l7TsomVQV24/scientificamerican0417-78</link>
-	<content:encoded>&lt;p&gt;Scientific American 316, 78 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0417-78&quot;&gt;doi:10.1038/scientificamerican0417-78&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Michael Shermer&lt;/p&gt;
-&lt;p&gt;How to think about claims, even the Resurrection&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/l7TsomVQV24&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-14T00:00:00+00:00</dc:date>
-	<dc:creator>Michael Shermer</dc:creator>
 </item>
 
 </rdf:RDF>
