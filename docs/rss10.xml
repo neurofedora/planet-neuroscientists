@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8646" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/most-americans-science-and-are-willing-pay-it" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-romans-may-have-been-cozier-huns-they-let" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48961" />
@@ -26,6 +27,8 @@
 			<rdf:li rdf:resource="https://www.oist.jp/groups/29629 at https://www.oist.jp" />
 			<rdf:li rdf:resource="https://www.oist.jp/groups/29627 at https://www.oist.jp" />
 			<rdf:li rdf:resource="https://www.oist.jp/groups/29625 at https://www.oist.jp" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21703" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21702" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/deadly-new-zealand-quake-hopscotched-across-faults" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48937" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/random-mutations-play-large-role-cancer-study-finds" />
@@ -85,8 +88,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543491b" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543491a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543490a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543489a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543488a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48887" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48875" />
@@ -114,11 +115,22 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21676" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/understand-rivers-let-physics-be-your-guide" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48862" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8635" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8646">
+	<title>Discovery magazine - Neuroskeptic: The Misuse of Meta-Analysis?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8646</link>
+	<content:encoded>Over at Data Colada, Uri Simonsohn argues that The Funnel Plot is Invalid.
+
+Funnel plots are a form of scatter diagram which are widely used to visualize possible publication bias in the context of a meta-analysis. In a funnel plot, each data point represents one of the studies in the meta-analysis. The x-axis shows the effect size reported by the study, while the y-axis represents the standard error of the effect size, which is usually inversely related to the sample size.
+
+
+
+In theory, t</content:encoded>
+	<dc:date>2017-03-24T22:33:44+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/scicurious/most-americans-science-and-are-willing-pay-it">
 	<title>Science News: Most Americans like science — and are willing to pay for it</title>
 	<link>https://www.sciencenews.org/blog/scicurious/most-americans-science-and-are-willing-pay-it</link>
@@ -298,6 +310,20 @@
 &lt;/div&gt;</content:encoded>
 	<dc:date>2017-03-24T01:00:13+00:00</dc:date>
 	<dc:creator>greta-keenan</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21703">
+	<title>Nature News &amp; Comment: Big data renews fight over animal origins</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/4_kHEfdxN4o/nature.2017.21703</link>
+	<content:encoded>&lt;p&gt;Study is the latest in the long-running dispute over which lineage — sponges or comb jellies — is the oldest branch in the animal tree.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21703&quot;&gt;doi: 10.1038/nature.2017.21703&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/4_kHEfdxN4o&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-24T00:00:00+00:00</dc:date>
+	<dc:creator>Amy Maxmen</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21702">
+	<title>Nature News &amp; Comment: Citizen scientists to rescue 150 years of cosmic images</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/prtzWPiNHWM/nature.2017.21702</link>
+	<content:encoded>&lt;p&gt;Long-lost images could offer insight into rare and moving stars.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21702&quot;&gt;doi: 10.1038/nature.2017.21702&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/prtzWPiNHWM&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-24T00:00:00+00:00</dc:date>
+	<dc:creator>Elizabeth Gibney</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/deadly-new-zealand-quake-hopscotched-across-faults">
 	<title>Science News: Deadly New Zealand quake hopscotched across faults</title>
@@ -817,20 +843,6 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
 	<dc:date>2017-03-22T00:00:00+00:00</dc:date>
 	<dc:creator>Nurin Veis</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/543489a">
-	<title>Nature News &amp; Comment: Books in brief</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/4ySE_C2WsHE/543489a</link>
-	<content:encoded>&lt;p&gt;Barbara Kiser reviews five of the week's best science picks.&lt;/p&gt;&lt;p&gt;Nature 543 489 &lt;a href=&quot;http://dx.doi.org/10.1038/543489a&quot;&gt;doi: 10.1038/543489a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/4ySE_C2WsHE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-22T00:00:00+00:00</dc:date>
-	<dc:creator>Barbara Kiser</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/543488a">
-	<title>Nature News &amp; Comment: Environmental sciences: Troubled waters on the Great Lakes</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/l7Z6oJQeRCs/543488a</link>
-	<content:encoded>&lt;p&gt;Anna M. Michalak on the taming and invasion of Earth's largest fresh-water system.&lt;/p&gt;&lt;p&gt;Nature 543 488 &lt;a href=&quot;http://dx.doi.org/10.1038/543488a&quot;&gt;doi: 10.1038/543488a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/l7Z6oJQeRCs&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-22T00:00:00+00:00</dc:date>
-	<dc:creator>Anna M. Michalak</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles">
 	<title>Science News: Large Hadron Collider experiment nabs five new particles</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles</link>
@@ -1117,18 +1129,6 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/18/weekend-reads-investigations-need-sunlight-name-fraudster-names-kill-predatory-journals/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: Investigations need sunlight; should we name fraudster names?; how to kill predatory journals&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-03-18T13:30:38+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8635">
-	<title>Discovery magazine - Neuroskeptic: Unethical &quot;Stem Cell&quot; Therapy for Autism In India?</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8635</link>
-	<content:encoded>I just read a concerning paper about an experimental stem cell treatment for children with autism.
-
-
-
-
-
-The authors are Himanshu Bansal and colleagues of India. The senior author, Prasad S Koka, is the Editor-in-Chief of the Journal of Stem Cells where the paper appeared, which raises questions about whether the manuscript received a thorough peer review. Koka is actually an author on all five of the research papers published in that issue of the journal. But that's a minor issue compared</content:encoded>
-	<dc:date>2017-03-17T21:29:11+00:00</dc:date>
 </item>
 
 </rdf:RDF>
