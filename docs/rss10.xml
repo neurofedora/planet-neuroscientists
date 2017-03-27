@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/math-anxious-brains-tackle-simple-problems-differently" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/palace-remains-mexico-point-ancient-rise-centralized-power" />
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8657" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48976" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48973" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/the-4-types-of-ux-savvy-behind-scival" />
@@ -23,6 +26,7 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/olivier-dumon-on-the-benefits-of-the-human-technology-interface" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21704" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543589b" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543589a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21681" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-2672427473119923109.post-7418572210941085390" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-2672427473119923109.post-2328739535915925594" />
@@ -98,7 +102,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543491e" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543491d" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543491c" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543491b" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48887" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48875" />
@@ -112,13 +115,36 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/genetic-switch-offers-clue-why-grasses-are-survival-masters" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48869" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/under-lasers-feathered-dino-shows-some-skin" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=48853" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=21028" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=48841" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/math-anxious-brains-tackle-simple-problems-differently">
+	<title>Science News: Math-anxious brains tackle simple problems differently</title>
+	<link>https://www.sciencenews.org/article/math-anxious-brains-tackle-simple-problems-differently</link>
+	<content:encoded>An fMRI study found more variable brain activity in people who get nervous about math problems.</content:encoded>
+	<dc:date>2017-03-27T21:33:17+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/palace-remains-mexico-point-ancient-rise-centralized-power">
+	<title>Science News: Palace remains in Mexico point to ancient rise of centralized power</title>
+	<link>https://www.sciencenews.org/article/palace-remains-mexico-point-ancient-rise-centralized-power</link>
+	<content:encoded>An ancient royal structure gets new life in southern Mexico.</content:encoded>
+	<dc:date>2017-03-27T19:10:54+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8657">
+	<title>Discovery magazine - Neuroskeptic: Cosmic Dopamine: On &quot;Neuroquantum Theories of Psychiatric Genetics&quot;</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8657</link>
+	<content:encoded>Back in 2015, I ran a three part post (1,2,3) on Dr Kenneth Blum and his claim to be able to treat what he calls &quot;Reward Deficiency Syndrome&quot; (RDS) with nutritional supplements.
+
+Today my interest was drawn to a 2015 paper from Blum and colleagues, called Neuroquantum Theories of Psychiatric Genetics: Can Physical Forces Induce Epigenetic Influence on Future Genomes?.
+
+
+
+In this paper, Blum et al. put forward some novel proposals about possible links between physics, epigenetics, and neuro</content:encoded>
+	<dc:date>2017-03-27T17:05:14+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=48976">
 	<title>Retraction watch: Multiple OMICS journals delisted from major index over concerns</title>
 	<link>http://retractionwatch.com/2017/03/27/multiple-omics-journals-delisted-major-index-concerns/</link>
@@ -184,6 +210,12 @@
 	<title>Nature News &amp; Comment: Forensics: Germany considers wider use of DNA evidence in criminal cases</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/iexQVroKVUs/543589b</link>
 	<content:encoded>&lt;p&gt;The country may lift its ban on the analysis of gene-coding regions in DNA samples.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543589b&quot;&gt;doi: 10.1038/543589b&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/iexQVroKVUs&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-27T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/543589a">
+	<title>Nature News &amp; Comment: Trump’s pipeline permit is bad for both the US economy and the planet</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/a_kS-mj0XUQ/543589a</link>
+	<content:encoded>&lt;p&gt;The US president’s approval of a controversial oil pipeline offers a disturbing glimpse of the future. But he will struggle to get things all his own way.&lt;/p&gt;&lt;p&gt;Nature 543 589 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543589a&quot;&gt;doi: 10.1038/543589a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/a_kS-mj0XUQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-27T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="http://dx.doi.org/10.1038/nature21681">
@@ -926,13 +958,6 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
 	<dc:date>2017-03-22T00:00:00+00:00</dc:date>
 	<dc:creator>A. Mesut Erzurumluoglu</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/543491b">
-	<title>Nature News &amp; Comment: Renewable energy: Commercial hurdles to wave power</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/M4e5a3ceEfo/543491b</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 491 &lt;a href=&quot;http://dx.doi.org/10.1038/543491b&quot;&gt;doi: 10.1038/543491b&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/M4e5a3ceEfo&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-22T00:00:00+00:00</dc:date>
-	<dc:creator>Bent Sørensen</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles">
 	<title>Science News: Large Hadron Collider experiment nabs five new particles</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles</link>
@@ -1062,52 +1087,6 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
 	<content:encoded>Laser-stimulated fluorescence reveals detailed images of soft tissue in a feathered dinosaur from 160 million years ago.</content:encoded>
 	<dc:date>2017-03-20T18:40:51+00:00</dc:date>
 	<dc:creator>Helen Thompson</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=48853">
-	<title>Retraction watch: Scientist who sued university earns two more retractions, bringing total to five</title>
-	<link>http://retractionwatch.com/2017/03/20/scientist-sued-university-earns-two-retractions-bringing-total-five/</link>
-	<content:encoded>&lt;p&gt;A scientist who sued his employer for millions of dollars has earned two more retractions, for papers that had already been flagged by the journal. By our count, Rakesh Kumar now has five retractions and multiple corrections. Kumar sued his employer, George Washington University, for $8 million, alleging emotional distress when they put him on leave […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/20/scientist-sued-university-earns-two-retractions-bringing-total-five/&quot; rel=&quot;nofollow&quot;&gt;Scientist who sued university earns two more retractions, bringing total to five&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-03-20T15:30:36+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=21028">
-	<title>The British Psychological Society - Research Digest: Have we overestimated the effectiveness of psychotherapy?</title>
-	<link>https://digest.bps.org.uk/2017/03/20/have-we-overestimated-the-effectiveness-of-psychotherapy/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;&lt;img data-attachment-id=&quot;21170&quot; data-comments-opened=&quot;1&quot; data-image-meta=&quot;{&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-177731703.jpg?w=845&quot; data-orig-size=&quot;3087,2822&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/03/20/have-we-overestimated-the-effectiveness-of-psychotherapy/depression-relief/&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Most people who undertake psychotherapy seem to benefit from it. How do we know? Arguably, the most important evidence comes from meta-analyses that combine the results from many – sometimes hundreds – of randomly controlled trials. Based on this, it’s been estimated that psychotherapy is effective for about 80 per cent of people (meanwhile, between five to 10 per cent of clients &lt;a href=&quot;https://thepsychologist.bps.org.uk/volume-21/edition-1/when-therapy-causes-harm&quot;&gt;may suffer adverse effects&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;But now the more concerning news: a team of researchers led by Evangelos Evangelou at the University of Ioannina, Greece has assessed the quality of 247 of these psychotherapy meta-analyses and &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/acps.12713/full&quot;&gt;they report&lt;/a&gt; in &lt;em&gt;Acta Psychiatrica Scandinavica&lt;/em&gt; that many of them have serious methodological short-comings.&lt;/p&gt;
-&lt;p&gt;Coincidentally, a separate research group led by Brent Roberts at the University of Illinois, Urbana-Champaign has &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0092656616302410&quot;&gt;just published&lt;/a&gt; in &lt;em&gt;Journal of Personality&lt;/em&gt; some of the first observational data on how people’s personalities change after undertaking psychotherapy. In contrast to what’s been found &lt;a href=&quot;https://digest.bps.org.uk/2017/01/19/a-little-discussed-effect-of-therapy-it-changes-your-personality/&quot;&gt;in the clinical literature&lt;/a&gt;, they report that people who’ve been in therapy seem to show negative changes in personality and other psychological outcomes.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-21028&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;In their “umbrella review” of the psychotherapy literature, Evangelou and his team chose to include published meta-analyses covering any form of psychotherapy and almost any kind of target mental health condition, but with the proviso that each meta-analysis had itself combined the results from a minimum of ten studies. Their comprehensive search resulted in 247 unique meta-analyses which collectively synthesised data from over five thousand randomly controlled trials.&lt;/p&gt;
-&lt;p&gt;Overall, 80 per cent of the published psychotherapy meta-analyses had reported a significant and positive benefit of whatever form of psychotherapy was their focus. This sounds impressive at first, but after applying “state-of-the-art” tests of their robustness, Evangelou and his colleagues report that just 16 of the 247 meta-analyses had provided “convincing evidence”.&lt;/p&gt;
-&lt;p&gt;The researchers identified a number of issues:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Many meta-analyses showed a statistically significant amount of heterogeneity between the trials that they’d combined. The worry is that too many meta-analyses are comparing apples and oranges, although there is scholarly debate about what level of heterogeneity is unacceptable.&lt;/li&gt;
-&lt;li&gt;The researchers found many instances of the “small study bias”, which is the tendency for smaller, less robust studies to report larger effects.&lt;/li&gt;
-&lt;li&gt;They found evidence of “&lt;a href=&quot;http://journals.sagepub.com/doi/abs/10.1177/1740774507079441?url_ver=Z39.88-2003&amp;amp;rfr_id=ori:rid:crossref.org&amp;amp;rfr_dat=cr_pub%3dpubmed&quot;&gt;excess significance bias&lt;/a&gt;“, which is when an over-abundance of trials seem to report positive findings given what we know so far about psychotherapy’s effectiveness. This suggests negative findings are remaining unpublished for whatever reason.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Evangelou and his team conclude that the field of psychotherapy research needs to work harder to ensure that negative results are published as well as good news results, especially given &lt;a href=&quot;https://digest.bps.org.uk/2017/02/20/concerning-study-says-psychotherapy-research-has-a-problem-with-undeclared-researcher-bias/&quot;&gt;the findings of another recent paper&lt;/a&gt; suggesting that the field has a problem with undeclared researcher allegiance to particular therapeutic approaches. One way round this is to ensure all trials and meta-analyses are preregistered before they are conducted, alongside information on the statistical tests that are planned.&lt;/p&gt;
-&lt;p&gt;For the reader undertaking psychotherapy or who knows someone who is, it is worth keeping some perspective: this is just one critique and the weight of evidence still suggests that psychotherapy is, more often than not, beneficial.&lt;/p&gt;
-&lt;p&gt;For scholars, the methodological concerns raised by this new paper feed into an already contentious field. Some experts believe that, high-quality or not, randomly controlled trials (and by extension, meta-analyses based on those trials) are not really an appropriate way to gauge the effectiveness of psychotherapy because of all complex, myriad factors involved in the dynamic between a client and his or her therapist.&lt;/p&gt;
-&lt;p&gt;An alternative approach is to look at observational data. Rather than signing people up to a controlled trial, with all the contrivances that that entails (such as standardising the delivery of therapy as much as possible), this approach is less hands-on and involves looking instead at the outcomes of people who happen to have been in therapy and those who haven’t.&lt;/p&gt;
-&lt;p&gt;Brent Roberts and his colleagues found two sources of this kind of data: hundreds of students in Tübingen who were enrolled in a long-term personality study and who’d completed measures twice across four years; and a group of thousands of older Americans who similarly had completed personality and other measures twice across four years.&lt;/p&gt;
-&lt;p&gt;Crucially, both these longitudinal surveys included a question about whether the participants had undertaken psychotherapy in the intervening period between the two data collection points. One hundred and twenty-eight of the Tübingen students had completed some therapy and, compared to the other students, they showed negative changes in their personality in terms of higher scores in neuroticism, less extraversion and conscientiousness, as well as reductions in self-esteem, increases in depression, and less life satisfaction. It was a similar story for the older American adults who’d been in therapy: they showed negative changes in personality and other psychological outcomes.&lt;/p&gt;
-&lt;p&gt;There are problems with how to interpret these findings – an obvious shortcoming of observational data of this kind is that it’s less controlled than an experimental trial. For example, perhaps undertaking therapy was a consequence of these unwelcome psychological changes rather than the cause (although this still wouldn’t explain why the therapy hadn’t been more helpful, more often). Whatever the explanation, however, the results &lt;a href=&quot;https://digest.bps.org.uk/2017/01/19/a-little-discussed-effect-of-therapy-it-changes-your-personality/&quot;&gt;stand in contrast to the findings from controlled psychotherapy trials&lt;/a&gt; which have pointed overwhelming to positive personality changes arising from therapy. As Roberts and his team conclude, “the gravity of the issue necessitates that researchers investigate the apparent discrepancy between these findings and those from well-controlled trials”.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/acps.12713/full&quot;&gt;Does psychotherapy work? An umbrella review of meta-analyses of randomised controlled trials&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0092656616302410&quot;&gt;Therapy experience in naturalistic observational studies is associated with negative changes in personality&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Image via &lt;a href=&quot;http://www.gettyimages.co.uk&quot;&gt;gettyimages.co.uk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/21028/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/21028/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=21028&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-20T13:54:06+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=48841">
-	<title>Retraction watch: Japan, Taiwan taking closer look at fraud — and how to stop it</title>
-	<link>http://retractionwatch.com/2017/03/20/japan-taiwan-taking-closer-look-fraud-stop/</link>
-	<content:encoded>&lt;p&gt;Two countries have recently announced plans to learn more about research misconduct, with the goal of preventing it from happening in the first place. In Japan, the effort takes the form of a joint study group among six universities, which will interview researchers who have engaged in misconduct to discover patterns and common factors for their […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/20/japan-taiwan-taking-closer-look-fraud-stop/&quot; rel=&quot;nofollow&quot;&gt;Japan, Taiwan taking closer look at fraud — and how to stop it&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-03-20T13:30:07+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
