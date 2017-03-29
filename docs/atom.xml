@@ -5,8 +5,147 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2017-03-29T11:00:48+00:00</updated>
+	<updated>2017-03-29T17:00:40+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en">Asteroid in Jupiter's orbit goes its own way</title>
+		<link href="https://www.sciencenews.org/article/asteroid-jupiters-orbit-goes-its-own-way"/>
+		<id>https://www.sciencenews.org/article/asteroid-jupiters-orbit-goes-its-own-way</id>
+		<updated>2017-03-29T17:00:02+00:00</updated>
+		<content type="html">
+ Asteroid shares Jupiter’s orbit around the sun but travels in the opposite direction as the planet.</content>
+		<author>
+			<name>Emily Conover</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Gene editing of human embryos yields early results</title>
+		<link href="https://www.sciencenews.org/article/gene-editing-human-embryos-yields-early-results"/>
+		<id>https://www.sciencenews.org/article/gene-editing-human-embryos-yields-early-results</id>
+		<updated>2017-03-29T15:30:02+00:00</updated>
+		<content type="html">
+ Gene editing in embryos has started in labs, but isn’t ready for the clinic.</content>
+		<author>
+			<name>Tina Hesman Saey</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Automated validation and comparison of neurophysiological biomarkers of psychiatric disorders</title>
+		<link href="http://biocomputation.herts.ac.uk/2017/03/29/automated-validation-and-comparison-of-neurophysiological-biomarkers-of-psychiatric-disorders.html"/>
+		<id>tag:biocomputation.herts.ac.uk,2017-03-29:/2017/03/29/automated-validation-and-comparison-of-neurophysiological-biomarkers-of-psychiatric-disorders.html</id>
+		<updated>2017-03-29T14:22:49+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Research on psychiatric disorders has gradually shifted its focus from complex clinical phenotypes towards the identification of biomarkers and endophenotypic measures. Computational approaches have gained significantly more attention over the last years, and this has led to the emergence of 'Computational Psychiatry' as an independent discipline. Computational modelling of biomarkers promises to more readily shed light on the mechanisms underlying disorders and to facilitate the discovery of novel medications [1].&lt;/p&gt;
+&lt;p&gt;However, in order to develop a computational model, scientists need to have an in-depth understanding of the current, relevant experimental data, the current state of computational modeling and the state-of-the-art of statistical testing. Based on this knowledge, they have to choose the appropriate criteria with which the model predictions and experimental observations will be compared [2]. In a field where both the number of experimental and computational studies grows rapidly, as is the case for psychiatry, this becomes more and more impracticable. Omar et al. therefore proposed a framework for automated validation of scientific models, SciUnit [3].&lt;/p&gt;
+&lt;p&gt;Here, we propose to adopt this framework for the computational psychiatry community and to collaboratively build common repositories of experimental observations, computational models, test suites and tools. As a case in point, we have implemented test suites for auditory steady-state response deficits in schizophrenic patients, which are based on observations from several experimental studies [4,5,6], and we demonstrate how existing computational models [6,7] can be validated against these observations and compared against each other. We have included sets of observations from three experimental studies, which concur on most findings but also disagree on some. This allows us to demonstrate the usefulness of our approach in highlighting and clarifying existing, potentially conflicting, experimental data. We have included computational models that not only comprise biophysically detailed as well as abstract models, but that also differ in implementation (native Python vs. Genesis vs NeuroML2), in order to demonstrate the flexibility of the approach. Furthermore, this additionally allows us to showcase the ability of the framework to compare models against each other based on a set of experimental observations. Furthermore, our approach enables us to assess the variability of the produced model output, and therefore the robustness of the findings, by generating a distribution of model instances where certain parameters, such as the precise timing of noise inputs (however, not the strength and type of noise) or the precise connectivity (however, not the underlying distribution of connections) vary, which then are used to produce a distribution of model outputs. This can inform on the robustness of the findings and can also be compared against the variability of experimental observations.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;Siekmeier, P.: Computational modeling of psychiatric illnesses via well-defined neurophysiological and neurocognitive biomarkers. Neuroscience &amp;amp; Biobehavioral Reviews 57: 365-380, 2015.&lt;/li&gt;
+&lt;li&gt;Gerkin, R.C. and Omar, C.: NeuroUnit: Validation Tests for Neuroscience Models. Front. Neuroinform. Conference Abstract: Neuroinformatics 2013. doi: 10.3389/conf.fninf.2013.09.00013&lt;/li&gt;
+&lt;li&gt;Omar, C., Aldrich, J., and Gerkin, R.C.: Collaborative infrastructure for test-driven scientific model validation. In CompanionProceedings of the 36th International Conference on Software Engineering, ACM, 2014.&lt;/li&gt;
+&lt;li&gt;Kwon J.S., O’Donnell B.F., Wallenstein G.V., Greene R.W., Hirayasu Y., Nestor P.G., Hasselmo M.E., Potts G.F., Shenton M.E., and McCarley R.W..: Gamma frequency–range abnormalities to auditory stimulation in schizophrenia. Archives of General Psychiatry, 56(11):1001–1005, 1999.&lt;/li&gt;
+&lt;li&gt;Krishnan, G.P., Hetrick, W.P., Brenner, C.A., Shekhar, A., Steffen, A.N., and O’Donnell, B.F.: Steady state and induced auditory gamma deficits in schizophrenia. Neuroimage, 47(4):1711–1719, 2009.&lt;/li&gt;
+&lt;li&gt;Vierling-Claassen, D., Siekmeier, P., Stufflebeam, S., and Kopell, N.: Modeling GABA alterations in schizophrenia: a link between impaired inhibition and altered gamma and beta range auditory entrainment. Journal of Neurophysiology, 99(5):2656–2671, 2008.&lt;/li&gt;
+&lt;li&gt;Metzner, C., Schweikard, A. and Zurowski, B.: Multi-factorial modeling of impairment of evoked gamma range oscillations in schizophrenia. Frontiers in Computational Neuroscience, 10, 2016.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 31/03/2017 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content>
+		<author>
+			<name>Christoph Metzner</name>
+			<uri>http://biocomputation.herts.ac.uk/</uri>
+		</author>
+		<source>
+			<title type="html">UH Biocomputation Group</title>
+			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
+			<id>http://biocomputation.herts.ac.uk/</id>
+			<updated>2017-03-29T14:22:49+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Research misconduct finding — which university won’t discuss — leads to second retraction for prominent physicist</title>
+		<link href="http://retractionwatch.com/2017/03/29/research-misconduct-finding-university-wont-discuss-leads-second-retraction-prominent-physicist/"/>
+		<id>http://retractionwatch.com/?p=48995</id>
+		<updated>2017-03-29T13:30:59+00:00</updated>
+		<content type="html">
+ &lt;p&gt;A rising star in nanotechnology, Dmitri Lapotko, has received his second retraction within a month over “a finding of research misconduct” that the university will apparently only disclose on a need-to-know basis. According to the notice, the journal’s editor and publisher issued the retraction after Lapotko’s former institution—Rice University in Houston—notified them of research misconduct and […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/29/research-misconduct-finding-university-wont-discuss-leads-second-retraction-prominent-physicist/&quot; rel=&quot;nofollow&quot;&gt;Research misconduct finding — which university won’t discuss — leads to second retraction for prominent physicist&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>Victoria Stern</name>
+			<uri>http://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>http://retractionwatch.com</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Author duplicated a figure in three papers; two get retracted</title>
+		<link href="http://retractionwatch.com/2017/03/29/author-duplicated-figure-three-papers-two-get-retracted/"/>
+		<id>http://retractionwatch.com/?p=48740</id>
+		<updated>2017-03-29T13:30:59+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Two journals have retracted two papers by the same group within months of each other, after editors were independently tipped off that they contained duplicated figures representing different experiments. The two papers were published by PLOS ONE and The Egyptian Journal of Biochemistry and Molecular Biology (EJBMB) in 2015 and 2014, respectively. According to the PLOS ONE paper’s corresponding author, last […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/29/author-duplicated-figure-three-papers-two-get-retracted/&quot; rel=&quot;nofollow&quot;&gt;Author duplicated a figure in three papers; two get retracted&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>Victoria Stern</name>
+			<uri>http://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>http://retractionwatch.com</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">People who feel connected to nature are more prone to “electrosensitivity”</title>
+		<link href="https://digest.bps.org.uk/2017/03/29/people-who-feel-connected-to-nature-are-more-prone-to-electrosensitivity/"/>
+		<id>http://digest.bps.org.uk/?p=21633</id>
+		<updated>2017-03-29T11:35:56+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;&lt;em&gt;&lt;img data-attachment-id=&quot;21702&quot; data-comments-opened=&quot;1&quot; data-image-meta=&quot;{&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-543199034.jpg&quot; data-orig-size=&quot;730,479&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/03/29/people-who-feel-connected-to-nature-are-more-prone-to-electrosensitivity/radiation-from-mobile-phone-lead-to-brain-damage/&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the TV series &lt;em&gt;Better Call Saul&lt;/em&gt;, Saul’s brother Chuck believes that electromagnetic signals from mobile phones and other devices make him seriously ill. He lives as a recluse and uses a foil blanket to protect himself. By some estimates, millions of people – around 5 per cent of the population – believe that they too suffer from “electrosensitivity” or “electromagnetic hypersensitivity”. Though they may not suffer as much as Chuck, these individuals claim that wi-fi and other signals make them ill, triggering headaches and other symptoms.&lt;/p&gt;
+&lt;p&gt;The medical consensus based on &lt;a href=&quot;http://www.bmj.com/content/332/7546/886.full&quot;&gt;double-blind trials&lt;/a&gt; (in which neither researcher nor test subject knows when a test device is real or pretend) is that while the experience of electrosensitivity-related symptoms may be real, they are not caused by electromagnetic fields. More likely is that the symptoms arise from a “&lt;a href=&quot;https://en.wikipedia.org/wiki/Nocebo&quot;&gt;nocebebo effect&lt;/a&gt;” – a strong belief that the fields are harmful.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;http://journals.sagepub.com/doi/abs/10.1177/1359105317699681&quot;&gt;new study&lt;/a&gt; in the &lt;em&gt;Journal of Health Psychology&lt;/em&gt; sheds new light on electrosensitivity by suggesting that it is people who feel especially connected to nature – normally considered a positive trait – who may be particularly likely to suffer from electrosensitivity, probably because their love of nature is accompanied by a heightened negative attitude to anything they consider artificial.&lt;/p&gt;
+&lt;p&gt;Zsuzsanna Dömötör and her colleagues surveyed 510 people online, 74 of whom described themselves as electrosensitive. The electrosensitive participants tended to score higher than the others on modern health worries in general (related to things like pollution and tainted food), on sensitivity to bodily symptoms, and nature relatedness (measured by agreement with items like “I always think about how my actions affect the environment” and “My ideal vacation spot would be a remote, wilderness area”). What’s more, nature connectedness interacted with the other variables: people prone to modern health worries were especially likely to complain of electrosensitivity if they also felt a connection with nature.&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;http://journals.sagepub.com/doi/abs/10.1177/1359105317699681&quot;&gt;Nature relatedness is connected with modern health worries and electromagnetic hypersensitivity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/21633/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/21633/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=21633&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>BPS Research Digest</name>
+			<uri>https://digest.bps.org.uk</uri>
+		</author>
+		<source>
+			<title type="html">Research Digest</title>
+			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
+			<id>https://digest.bps.org.uk</id>
+			<updated>2017-03-29T17:00:35+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">A scientific measure of our visual imagination suggests it is surprisingly limited</title>
@@ -37,7 +176,26 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:35+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-gb">Will the ‘4th Industrial Revolution’ be gender-blind?</title>
+		<link href="https://www.elsevier.com/connect/will-the-4th-industrial-revolution-be-gender-blind"/>
+		<id>https://www.elsevier.com/connect/will-the-4th-industrial-revolution-be-gender-blind</id>
+		<updated>2017-03-29T08:23:48+00:00</updated>
+		<content type="html">
+ More women in engineering and computing will help focus technological progress on societal needs</content>
+		<author>
+			<name>Elsevier Connect</name>
+			<uri></uri>
+		</author>
+		<source>
+			<title type="html">Elsevier Connect</title>
+			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
+			<id>https://www.elsevier.com/connect/feed</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -70,7 +228,28 @@
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2017-03-29T11:00:39+00:00</updated>
+			<updated>2017-03-29T17:00:32+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Growth spurts may determine a lamprey's sex</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/31HIISI9QcU/nature.2017.21724"/>
+		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21724</id>
+		<updated>2017-03-29T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;The parasitic fish could be the first case of growth-dependent sex determination.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21724&quot;&gt;doi: 10.1038/nature.2017.21724&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/31HIISI9QcU&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Erin Ross</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
 
@@ -90,7 +269,49 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Five ways consortia can catalyse open science</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/o-foU6rNzOs/543615a"/>
+		<id>http://www.nature.com/doifinder/10.1038/543615a</id>
+		<updated>2017-03-29T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;An analysis of more than 50 collaborations shows the secrets of success, write Joel Cutcher-Gershenfeld and colleagues from the Stakeholder Alignment Collaborative.&lt;/p&gt;&lt;p&gt;Nature 543 615 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543615a&quot;&gt;doi: 10.1038/543615a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/o-foU6rNzOs&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Joel Cutcher-Gershenfeld</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">How giant marine reptiles terrorized the ancient seas</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/PkkIAv-0Ebw/543603a"/>
+		<id>http://www.nature.com/doifinder/10.1038/543603a</id>
+		<updated>2017-03-29T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;Ichthyosaurs were some of the largest and most mysterious predators to ever prowl the oceans. Now they are giving up their secrets.&lt;/p&gt;&lt;p&gt;Nature 543 603 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543603a&quot;&gt;doi: 10.1038/543603a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/PkkIAv-0Ebw&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Traci Watson</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -111,7 +332,28 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:44+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Brexit triggered, preprint push and a stem-cell first</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/7X6VSTYLbT0/543594a"/>
+		<id>http://www.nature.com/doifinder/10.1038/543594a</id>
+		<updated>2017-03-29T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;The week in science: 24–30 March 2017.&lt;/p&gt;&lt;p&gt;Nature 543 594 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543594a&quot;&gt;doi: 10.1038/543594a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/7X6VSTYLbT0&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Nature News &amp; Comment</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -132,7 +374,28 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
+			<rights type="html">© Nature Publishing Group</rights>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">An early start on tackling childhood cancers</title>
+		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/nf0Z6uzLBxU/543590a"/>
+		<id>http://www.nature.com/doifinder/10.1038/543590a</id>
+		<updated>2017-03-29T00:00:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;The most vulnerable cancer patients are drawing the attention they deserve.&lt;/p&gt;&lt;p&gt;Nature 543 590 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543590a&quot;&gt;doi: 10.1038/543590a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/nf0Z6uzLBxU&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Nature News &amp; Comment</name>
+			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
+		</author>
+		<source>
+			<title type="html">Nature News &amp;amp; Comment</title>
+			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
+			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
+			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -146,13 +409,13 @@
  Sarcasm via winking emoji affects the brain like verbal irony does.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -165,13 +428,13 @@
  Gravitational waves may have given a supermassive black hole a big kick, with enough energy to send it flying toward the edges of its host galaxy.</content>
 		<author>
 			<name>Ashley Yeager</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -184,13 +447,13 @@
  To avoid mosquito bites, stick with spray-on repellents and skip the bracelets and citronella candles, a new study says.</content>
 		<author>
 			<name>Elizabeth Eaton</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -211,7 +474,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -232,7 +495,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -252,7 +515,7 @@
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2017-03-29T11:00:39+00:00</updated>
+			<updated>2017-03-29T17:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -265,13 +528,13 @@
  Nosebleeds in children are common and usually nothing to fret about.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -304,7 +567,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -314,7 +577,7 @@
 		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21730</id>
 		<updated>2017-03-28T00:00:00+00:00</updated>
 		<content type="html" xml:lang="en">
- &lt;p&gt;World-first transplant to treat macular degeneration could augur rise of iPS cell banks&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21730&quot;&gt;doi: 10.1038/nature.2017.21730&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/C9dtFI4bTSM&quot; width=&quot;1&quot; /&gt;</content>
+ &lt;p&gt;World-first transplant to treat macular degeneration could augur rise of iPS cell banks.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21730&quot;&gt;doi: 10.1038/nature.2017.21730&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/C9dtFI4bTSM&quot; width=&quot;1&quot; /&gt;</content>
 		<author>
 			<name>David Cyranoski</name>
 			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
@@ -324,7 +587,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -335,7 +598,7 @@
 		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21726</id>
 		<updated>2017-03-28T00:00:00+00:00</updated>
 		<content type="html" xml:lang="en">
- &lt;p&gt;The US president has ordered the Environmental Protection Agency to reverse limits on carbon emissions from power plants.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21726&quot;&gt;doi: 10.1038/nature.2017.21726&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Ket7pnvJhxE&quot; width=&quot;1&quot; /&gt;</content>
+ &lt;p&gt;US president orders the Environmental Protection Agency to reverse limits on carbon emissions from power plants.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21726&quot;&gt;doi: 10.1038/nature.2017.21726&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Ket7pnvJhxE&quot; width=&quot;1&quot; /&gt;</content>
 		<author>
 			<name>Jeff Tollefson</name>
 			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
@@ -345,7 +608,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -366,7 +629,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -387,7 +650,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -408,7 +671,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -429,7 +692,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -450,7 +713,7 @@
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -464,13 +727,13 @@
  An fMRI study found more variable brain activity in people who get nervous about math problems.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -483,13 +746,13 @@
  An ancient royal structure gets new life in southern Mexico.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -536,7 +799,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -557,7 +820,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -576,7 +839,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2017-03-27T17:00:34+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -589,13 +852,13 @@ In this paper, Blum et al. put forward some novel proposals about possible links
  Scientists make advance in the quest to take quantum effects to larger scales.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -626,7 +889,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -645,7 +908,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2017-03-27T17:00:34+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -665,7 +928,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -686,7 +949,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -707,7 +970,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -792,7 +1055,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -811,7 +1074,7 @@ In this paper, Blum et al. put forward some novel proposals about possible links
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2017-03-27T17:00:34+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -850,13 +1113,13 @@ In theory, t</content>
  Americans drastically overestimate how much the government spends on science. But when correctly informed, they want the government to spend more.</content>
 		<author>
 			<name>Bethany Brookshire</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -869,13 +1132,13 @@ In theory, t</content>
  Nomadic Huns and Roman farmers shared ways of life on the Roman Empire’s fifth century frontier.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -896,7 +1159,7 @@ In theory, t</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -935,7 +1198,7 @@ In theory, t</content>
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2017-03-29T11:00:39+00:00</updated>
+			<updated>2017-03-29T17:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -956,7 +1219,7 @@ In theory, t</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1029,7 +1292,7 @@ In theory, t</content>
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2017-03-29T08:16:53+00:00</updated>
+			<updated>2017-03-29T16:25:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -1051,7 +1314,7 @@ In theory, t</content>
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2017-03-24T08:03:22+00:00</updated>
+			<updated>2017-03-29T14:22:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -1173,7 +1436,7 @@ In theory, t</content>
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1194,7 +1457,7 @@ In theory, t</content>
 			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
 			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
 			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
@@ -1208,13 +1471,13 @@ In theory, t</content>
  The Nov. 14, 2016, earthquake in New Zealand was much larger than thought possible at the time, prompting a rethink of hazard assessments.</content>
 		<author>
 			<name>Thomas Sumner</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1235,7 +1498,7 @@ In theory, t</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2017-03-28T17:00:37+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1248,13 +1511,13 @@ In theory, t</content>
  Mistakes made while copying DNA account for more mutations in cancer cells than environment or inheritance do.</content>
 		<author>
 			<name>Tina Hesman Saey</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1267,13 +1530,13 @@ In theory, t</content>
  Individual strains of dengue spread locally, and new infections cluster near the home of the first person affected.</content>
 		<author>
 			<name>Elizabeth Eaton</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1286,13 +1549,13 @@ In theory, t</content>
  Warm temperatures and heat waves reduced sea ice extent in the Arctic to its smallest maximum extent ever seen.</content>
 		<author>
 			<name>Thomas Sumner</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1360,7 +1623,7 @@ In theory, t</content>
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2017-03-27T17:00:34+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1400,7 +1663,7 @@ In theory, t</content>
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2017-03-27T17:00:34+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1413,13 +1676,13 @@ In theory, t</content>
  Astronomers can have their definition of a planet, but some planetary scientists plan to stick to the long-held meaning of the word.</content>
 		<author>
 			<name>Ashley Yeager</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1448,7 +1711,7 @@ In theory, t</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1461,97 +1724,13 @@ In theory, t</content>
  Claims that the hallucinogenic drug damaged DNA were quickly rejected. But questions remain about how LSD works.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Gates Foundation announces open-access publishing venture</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/ofBD-cieN2I/nature.2017.21700"/>
-		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21700</id>
-		<updated>2017-03-23T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Global health charity is latest funder to start its own publishing ‘channel’ — and the European Commission is considering its own service.&lt;/p&gt;&lt;p&gt;Nature 543 599 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21700&quot;&gt;doi: 10.1038/nature.2017.21700&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/ofBD-cieN2I&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Declan Butler</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Canada budget falls flat with scientists</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/QRwvh6IOfoM/nature.2017.21699"/>
-		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21699</id>
-		<updated>2017-03-23T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Emphasis on innovation overshadowed by funding freeze for key research councils.&lt;/p&gt;&lt;p&gt;Nature 543 598 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21699&quot;&gt;doi: 10.1038/nature.2017.21699&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/QRwvh6IOfoM&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Nicola Jones</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Zika mosquito genome mapped – at last</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/zN3MrKL8f0U/nature.2017.21697"/>
-		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21697</id>
-		<updated>2017-03-23T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;‘Breakthrough’ technique used to piece together genome sequence of Zika vector,  Aedes aegypti,  10 years after publication of draft sequence.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21697&quot;&gt;doi: 10.1038/nature.2017.21697&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/zN3MrKL8f0U&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Cassandra Willyard</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">DNA typos to blame for most cancer mutations</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/S_eXAU80xRY/nature.2017.21696"/>
-		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21696</id>
-		<updated>2017-03-23T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Environment and heredity might not contribute as much to cancer risk as researchers thought.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21696&quot;&gt;doi: 10.1038/nature.2017.21696&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/S_eXAU80xRY&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Heidi Ledford</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1564,13 +1743,13 @@ In theory, t</content>
  A larger-brained female guppy may pick primo males, but all that mental machinery costs her in other ways.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1642,13 +1821,13 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
  A new analysis rewrites the dinosaur family tree, splitting up long-recognized groups.</content>
 		<author>
 			<name>Rachel Ehrenberg</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1718,13 +1897,13 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
  The type and amount of touches a newborn baby gets in the first days of life may shape later responses to touch perception, a study suggests.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2017-03-29T05:00:26+00:00</updated>
+			<updated>2017-03-29T17:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1855,7 +2034,7 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
+			<updated>2017-03-29T17:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1894,27 +2073,6 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2017-03-28T11:00:27+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Dinosaur family tree poised for colossal shake-up</title>
-		<link href="http://feeds.nature.com/~r/NatureNewsComment/~3/JkRaEDSrIJM/nature.2017.21681"/>
-		<id>http://www.nature.com/doifinder/10.1038/nature.2017.21681</id>
-		<updated>2017-03-22T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;'Textbook-changing' analysis of dinosaur bones upends long-accepted relationships among major groups.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21681&quot;&gt;doi: 10.1038/nature.2017.21681&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/JkRaEDSrIJM&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Sid Perkins</name>
-			<uri>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</uri>
-		</author>
-		<source>
-			<title type="html">Nature News &amp;amp; Comment</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureNewsComment"/>
-			<id>http://www.nature.com/nature/rdf/newsandcomment/newsandcomment</id>
-			<updated>2017-03-29T11:00:43+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
 		</source>
 	</entry>
 
@@ -2137,155 +2295,6 @@ ADC bioanalysis services on the Science Exchange marketplace include:&lt;/p&gt;
 			<id>http://www.nature.com/nature/research/biological-sciences.rdf</id>
 			<updated>2017-03-28T05:00:23+00:00</updated>
 			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Antigen presentation profiling reveals recognition of lymphoma immunoglobulin neoantigens</title>
-		<link href="http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/w9i3QwqMLiA/nature21433"/>
-		<id>http://dx.doi.org/10.1038/nature21433</id>
-		<updated>2017-03-22T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;
- Cancer somatic mutations can generate neoantigens that distinguish malignant from normal cells. However, the personalized identification and validation of neoantigens remains a major challenge. Here we discover neoantigens in human mantle-cell lymphomas by using an integrated genomic and proteomic strategy that interrogates tumour antigen peptides presented by major histocompatibility complex (MHC) class I and class II molecules. We applied this approach to systematically characterize MHC ligands from 17 patients. Remarkably, all discovered neoantigenic peptides were exclusively derived from the lymphoma immunoglobulin heavy- or light-chain variable regions. Although we identified MHC presentation of private polymorphic germline alleles, no mutated peptides were recovered from non-immunoglobulin somatically mutated genes. Somatic mutations within the immunoglobulin variable region were almost exclusively presented by MHC class II. We isolated circulating CD4+ T cells specific for immunoglobulin-derived neoantigens and found these cells could mediate killing of autologous lymphoma cells. These results demonstrate that an integrative approach combining MHC isolation, peptide identification, and exome sequencing is an effective platform to uncover tumour neoantigens. Application of this strategy to human lymphoma implicates immunoglobulin neoantigens as targets for lymphoma immunotherapy. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature21433&quot;&gt;doi: 10.1038/nature21433&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/w9i3QwqMLiA&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Michael S. Khodadoust</name>
-			<uri>http://www.nature.com/nature/research/biological-sciences.rdf</uri>
-		</author>
-		<source>
-			<title type="html">Nature Biological Sciences Research</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureBiologicalSciencesResearch"/>
-			<id>http://www.nature.com/nature/research/biological-sciences.rdf</id>
-			<updated>2017-03-28T05:00:23+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">LACTB is a tumour suppressor that modulates lipid metabolism and cell state</title>
-		<link href="http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/-A6dedDXzkE/nature21408"/>
-		<id>http://dx.doi.org/10.1038/nature21408</id>
-		<updated>2017-03-22T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;
- Post-mitotic, differentiated cells exhibit a variety of characteristics that contrast with those of actively growing neoplastic cells, such as the expression of cell-cycle inhibitors and differentiation factors. We hypothesized that the gene expression profiles of these differentiated cells could reveal the identities of genes that may function as tumour suppressors. Here we show, using in vitro and in vivo studies in mice and humans, that the mitochondrial protein LACTB potently inhibits the proliferation of breast cancer cells. Its mechanism of action involves alteration of mitochondrial lipid metabolism and differentiation of breast cancer cells. This is achieved, at least in part, through reduction of the levels of mitochondrial phosphatidylserine decarboxylase, which is involved in the synthesis of mitochondrial phosphatidylethanolamine. These observations uncover a novel mitochondrial tumour suppressor and demonstrate a connection between mitochondrial lipid metabolism and the differentiation program of breast cancer cells, thereby revealing a previously undescribed mechanism of tumour suppression. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature21408&quot;&gt;doi: 10.1038/nature21408&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/-A6dedDXzkE&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Zuzana Keckesova</name>
-			<uri>http://www.nature.com/nature/research/biological-sciences.rdf</uri>
-		</author>
-		<source>
-			<title type="html">Nature Biological Sciences Research</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureBiologicalSciencesResearch"/>
-			<id>http://www.nature.com/nature/research/biological-sciences.rdf</id>
-			<updated>2017-03-28T05:00:23+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Microbiology: Bacterial transmission tactics</title>
-		<link href="http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/I_qd-qbLcp8/543495a"/>
-		<id>http://dx.doi.org/10.1038/543495a</id>
-		<updated>2017-03-22T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Genome sequencing of  Mycobacterium abscessus  strains that infect the lungs suggests a possible shift in the bacterium's mode of infection from environmental acquisition to human transmission. This finding has clinical implications.&lt;/p&gt;&lt;p&gt;Nature 543 495 &lt;a href=&quot;http://dx.doi.org/10.1038/543495a&quot;&gt;doi: 10.1038/543495a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/I_qd-qbLcp8&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Michael Strong</name>
-			<uri>http://www.nature.com/nature/research/biological-sciences.rdf</uri>
-		</author>
-		<source>
-			<title type="html">Nature Biological Sciences Research</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureBiologicalSciencesResearch"/>
-			<id>http://www.nature.com/nature/research/biological-sciences.rdf</id>
-			<updated>2017-03-28T05:00:23+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Palaeontology: Dividing the dinosaurs</title>
-		<link href="http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/kftSrlF_0mg/543494a"/>
-		<id>http://dx.doi.org/10.1038/543494a</id>
-		<updated>2017-03-22T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;The standard dinosaur evolutionary tree has two key branches: the 'bird-hipped' Ornithischia and the 'reptile-hipped' Saurischia. A revised tree challenges many ideas about the relationships between dinosaur groups.  See Article    p.501&lt;/p&gt;&lt;p&gt;Nature 543 494 &lt;a href=&quot;http://dx.doi.org/10.1038/543494a&quot;&gt;doi: 10.1038/543494a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/kftSrlF_0mg&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Kevin Padian</name>
-			<uri>http://www.nature.com/nature/research/biological-sciences.rdf</uri>
-		</author>
-		<source>
-			<title type="html">Nature Biological Sciences Research</title>
-			<subtitle type="html">Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature also provides rapid, authoritative, insightful and arresting news and interpretation of topical and coming trends affecting science, scientists and the wider public.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/NatureBiologicalSciencesResearch"/>
-			<id>http://www.nature.com/nature/research/biological-sciences.rdf</id>
-			<updated>2017-03-28T05:00:23+00:00</updated>
-			<rights type="html">© Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Large Hadron Collider experiment nabs five new particles</title>
-		<link href="https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles"/>
-		<id>https://www.sciencenews.org/blog/science-ticker/large-hadron-collider-experiment-nabs-five-new-particles</id>
-		<updated>2017-03-21T19:25:39+00:00</updated>
-		<content type="html">
- LHCb experiment detects new particles composed of two strange quarks and one charm quark.</content>
-		<author>
-			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=3792</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2017-03-28T05:00:23+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">An editor in chief was caught manipulating citations. Now he’s been asked to resign.</title>
-		<link href="http://retractionwatch.com/2017/03/21/editor-chief-caught-manipulating-citations-now-hes-asked-resign/"/>
-		<id>http://retractionwatch.com/?p=48887</id>
-		<updated>2017-03-21T17:35:21+00:00</updated>
-		<content type="html">
- &lt;p&gt;An earth science journal has asked an editor to resign after it was revealed he had been manipulating citations at multiple journals. Artemi Cerdà had already agreed to step down temporarily from Land Degradation &amp;amp; Development after the publisher, Wiley, was alerted that Cerdà had resigned from other journals for citation manipulation. In a new statement, […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/21/editor-chief-caught-manipulating-citations-now-hes-asked-resign/&quot; rel=&quot;nofollow&quot;&gt;An editor in chief was caught manipulating citations. Now he’s been asked to resign.&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Alison McCook</name>
-			<uri>http://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>http://retractionwatch.com</id>
-			<updated>2017-03-25T18:00:24+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Macchiarini blames Karolinska for losing data as he retracts 2014 paper</title>
-		<link href="http://retractionwatch.com/2017/03/21/macchiarini-blames-karolinska-losing-data-retracts-2014-paper/"/>
-		<id>http://retractionwatch.com/?p=48875</id>
-		<updated>2017-03-21T16:00:46+00:00</updated>
-		<content type="html">
- &lt;p&gt;Ask and ye shall receive: A journal has retracted a 2014 paper by Paolo Macchiarini, upon request from the Karolinska Institutet (KI). The latest news is only one step in a long-running saga about former star surgeon Macchiarini, who was dismissed from KI last year. To read more, check out our timeline. KI announced it was […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/21/macchiarini-blames-karolinska-losing-data-retracts-2014-paper/&quot; rel=&quot;nofollow&quot;&gt;Macchiarini blames Karolinska for losing data as he retracts 2014 paper&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Alison McCook</name>
-			<uri>http://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>http://retractionwatch.com</id>
-			<updated>2017-03-24T18:00:27+00:00</updated>
 		</source>
 	</entry>
 
