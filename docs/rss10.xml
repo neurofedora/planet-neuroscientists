@@ -15,11 +15,16 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/spacex-launches-and-lands-its-first-reused-rocket" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/getting-dengue-first-may-make-zika-infection-much-worse" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/extreme-gas-loss-dried-out-mars-maven-data-suggest" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49044" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49002" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-tyrannosaur-had-sensitive-side" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/kids-daily-juice-probably-wont-pack-pounds" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=21711" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21752" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21751" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mosquito-flight-unlike-any-other-insect" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49016" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/neandertals-had-eye-patterns" />
@@ -66,8 +71,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543621a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543620a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543619a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543618a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/543593e" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sarcasm-looks-same-brain-whether-its-words-or-emoji" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/supermassive-black-hole-gets-kicked-galactic-curb" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/spray-mosquito-repellents-are-more-effective-other-devices" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/who-are-the-reviewers-of-journal-articles-and-how-often-do-they-review" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48914" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/why-gender-is-a-crucial-but-overlooked-factor-in-heart-disease" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/its-time-redefine-what-qualifies-planet" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=21378" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/1967-lsd-was-briefly-labeled-breaker-chromosomes" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/spacex-launches-and-lands-its-first-reused-rocket">
+	<title>Science News: SpaceX launches and lands its first reused rocket</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/spacex-launches-and-lands-its-first-reused-rocket</link>
+	<content:encoded>Aerospace company SpaceX has successfully reused a Falcon 9 rocket’s booster section for the first time.</content:encoded>
+	<dc:date>2017-03-30T22:42:00+00:00</dc:date>
+	<dc:creator>Emily DeMarco</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/getting-dengue-first-may-make-zika-infection-much-worse">
+	<title>Science News: Getting dengue first may make Zika infection much worse</title>
+	<link>https://www.sciencenews.org/article/getting-dengue-first-may-make-zika-infection-much-worse</link>
+	<content:encoded>Experiments in cells and mice suggest that a previous exposure to dengue or West Nile can make a Zika virus infection worse.</content:encoded>
+	<dc:date>2017-03-30T20:26:24+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/extreme-gas-loss-dried-out-mars-maven-data-suggest">
+	<title>Science News: Extreme gas loss dried out Mars, MAVEN data suggest</title>
+	<link>https://www.sciencenews.org/article/extreme-gas-loss-dried-out-mars-maven-data-suggest</link>
+	<content:encoded>Over the planet’s history, the Martian atmosphere has lost 66 percent of its argon and a majority of its carbon dioxide, according to data from NASA’s MAVEN spacecraft.</content:encoded>
+	<dc:date>2017-03-30T18:46:56+00:00</dc:date>
+	<dc:creator>Ashley Yeager</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=49044">
 	<title>Retraction watch: Cancer org bestows award on scientist under investigation</title>
 	<link>http://retractionwatch.com/2017/03/30/cancer-org-bestows-award-scientist-investigation/</link>
@@ -168,6 +189,20 @@
 &lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/21711/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/21711/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=21711&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-30T09:52:35+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21752">
+	<title>Nature News &amp; Comment: NIH research grants yield economic windfall</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/b_o_Rl0-pg4/nature.2017.21752</link>
+	<content:encoded>&lt;p&gt;More than 30% of biomedical studies funded by the US government are later cited in commercial patents.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21752&quot;&gt;doi: 10.1038/nature.2017.21752&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/b_o_Rl0-pg4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-30T00:00:00+00:00</dc:date>
+	<dc:creator>Elie Dolgin</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21751">
+	<title>Nature News &amp; Comment: It's not just you: science papers are getting harder to read</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/tLJcDHoopL8/nature.2017.21751</link>
+	<content:encoded>&lt;p&gt;Papers from 2015 are a tougher read than some from the nineteenth century — and the problem isn't just about words, says Philip Ball.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21751&quot;&gt;doi: 10.1038/nature.2017.21751&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/tLJcDHoopL8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-03-30T00:00:00+00:00</dc:date>
+	<dc:creator>Philip Ball</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/mosquito-flight-unlike-any-other-insect">
 	<title>Science News: Mosquito flight is unlike that of any other insect</title>
@@ -557,19 +592,6 @@
 	<content:encoded>&lt;p&gt;Marcus Munafò enjoys a stinging survey of unreliable findings in biomedical research.&lt;/p&gt;&lt;p&gt;Nature 543 619 &lt;a href=&quot;http://dx.doi.org/10.1038/543619a&quot;&gt;doi: 10.1038/543619a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/EwBdr34IPM4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
 	<dc:creator>Marcus Munafò</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/543618a">
-	<title>Nature News &amp; Comment: Natural history: Backstage at the museum</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/wakSuG6TLP0/543618a</link>
-	<content:encoded>&lt;p&gt;Richard Fortey questions the level of derring-do in an account of the life curatorial.&lt;/p&gt;&lt;p&gt;Nature 543 618 &lt;a href=&quot;http://dx.doi.org/10.1038/543618a&quot;&gt;doi: 10.1038/543618a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/wakSuG6TLP0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
-	<dc:creator>Richard Fortey</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/543593e">
-	<title>Nature News &amp; Comment: Virology: What makes bird flu jump species?</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/xnxT14vgE5E/543593e</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 543 593 &lt;a href=&quot;http://dx.doi.org/10.1038/543593e&quot;&gt;doi: 10.1038/543593e&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/xnxT14vgE5E&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/sarcasm-looks-same-brain-whether-its-words-or-emoji">
 	<title>Science News: Sarcasm looks the same in the brain whether it's words or emoji</title>
@@ -1032,37 +1054,6 @@ In theory, t</content:encoded>
 	<link>https://www.elsevier.com/connect/why-gender-is-a-crucial-but-overlooked-factor-in-heart-disease</link>
 	<content:encoded>6 problems that plague cardiovascular care for women – and how to apply a gender lens to all healthcare</content:encoded>
 	<dc:date>2017-03-23T13:19:47+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/its-time-redefine-what-qualifies-planet">
-	<title>Science News: It’s time to redefine what qualifies as a planet, scientists propose</title>
-	<link>https://www.sciencenews.org/article/its-time-redefine-what-qualifies-planet</link>
-	<content:encoded>Astronomers can have their definition of a planet, but some planetary scientists plan to stick to the long-held meaning of the word.</content:encoded>
-	<dc:date>2017-03-23T13:00:02+00:00</dc:date>
-	<dc:creator>Ashley Yeager</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=21378">
-	<title>The British Psychological Society - Research Digest: Workplace venting makes it harder to bounce back from bad experiences</title>
-	<link>https://digest.bps.org.uk/2017/03/23/workplace-venting-makes-it-harder-to-bounce-back-from-bad-experiences/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;&lt;img data-attachment-id=&quot;21391&quot; data-comments-opened=&quot;1&quot; data-image-meta=&quot;{&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-528707611.jpg?w=845&quot; data-orig-size=&quot;2121,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/03/23/workplace-venting-makes-it-harder-to-bounce-back-from-bad-experiences/i-dont-have-the-patience-for-this/&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;When you experience frustrations at work – spats with colleagues, or last-minute demands – it’s natural to want to voice your feelings. And surely it’s healthier. After all, better out than in! Not according to &lt;a href=&quot;http://www.tandfonline.com/doi/full/10.1080/1359432X.2016.1257610&quot;&gt;new evidence&lt;/a&gt; in the &lt;em&gt;European Journal of Work and Organizational Psychology&lt;/em&gt; that shows complaining about negative events actually cements their impact. The researchers Evangelia Demeroutia and Russell Cropanzano recommend trying instead to meet the slings and arrows of everyday indignity with all the “sportsmanship” you can muster.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-21378&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Demeroutia and Cropanzano, at Eindhoven University of Technology and the University of Colorado at Boulder, asked 112 employed people – from areas like finance, industry and healthcare – to complete diaries for three days in a row. At the end of each day, participants reported how much they had engaged in complaining during that day, how much they’d been focused on what was wrong with the situations they’d been in, and finally, how much they’d tended to make mountains out of molehills. Low scores across these items meant the participant had practiced “good sportsmanship”.&lt;/p&gt;
-&lt;p&gt;The researchers also asked participants to record in their dairies a single negative event they’d experienced during each day, and to rate its severity. Additionally, participants rated how much they felt a variety of moods during the day, like energetic or inspired, and their engagement with work through items like “Today, I felt proud of the work I did.”&lt;/p&gt;
-&lt;p&gt;When sportsmanship was low, worse negative events took a greater toll on participants – they not only reported lower momentary mood and less satisfaction and pride with the work they’d been doing that same day, but they also tended to experience lower mood the next morning, measured in a separate diary entry, and lower pride in next-day accomplishments.&lt;/p&gt;
-&lt;p&gt;But when sportsmanship was high – meaning that participants hadn’t complained, escalated minor issues, or stewed over things too much – bad events, even if rated as severe, didn’t impact mood or work engagement, that day or the next. Demeroutia and Cropanzano think there may be two reasons for this. Firstly, revisiting the event gives it a second wind, further reinforcing the association between it and the normally transient negative emotions that were initially provoked, turning a bad experience into That Bad Experience. Secondly, if complaints are poorly expressed or directed at the wrong person, they can exacerbate the situation, and that’s all too possible when you are still caught up in a drama.&lt;/p&gt;
-&lt;p&gt;The researchers stress that they are not asking people to refrain from talking about bad things. When a problem keeps manifesting in an organisation or relationship you need to resolve it, and that begins by putting it into words. But purposeless complaining can just as easily be a way to avoid moving on, the out-loud version of &lt;a href=&quot;http://bps-occupational-digest.blogspot.de/2012/10/ruminative-thoughts-deepen-long-term.html&quot;&gt;mental rumination&lt;/a&gt; keeping us in its undertow. Demeroutia and Cropanzano point to more constructive methods like &lt;a href=&quot;https://www.psychologytoday.com/blog/write-yourself-well/201208/expressive-writing&quot;&gt;expressive writing&lt;/a&gt;, which have an evidence base showing success in making sense of negative experience. This form of reflection, or attentive conversation focused on straightening out a knotty problem, are vastly preferred to unconstructive venting.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://www.tandfonline.com/doi/full/10.1080/1359432X.2016.1257610&quot;&gt;The buffering role of sportsmanship on the effects of daily negative events&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Image via &lt;a href=&quot;http://www.gettyimages.co.uk/&quot;&gt;gettyimages.co.uk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/alexfradera&quot;&gt;@alexfradera&lt;/a&gt;) is Contributing Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/21378/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/21378/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=21378&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-23T11:20:13+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/1967-lsd-was-briefly-labeled-breaker-chromosomes">
-	<title>Science News: In 1967, LSD was briefly labeled a breaker of chromosomes</title>
-	<link>https://www.sciencenews.org/article/1967-lsd-was-briefly-labeled-breaker-chromosomes</link>
-	<content:encoded>Claims that the hallucinogenic drug damaged DNA were quickly rejected. But questions remain about how LSD works.</content:encoded>
-	<dc:date>2017-03-23T11:00:01+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
