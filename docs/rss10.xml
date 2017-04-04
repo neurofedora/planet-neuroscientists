@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/engineered-immune-cells-boost-leukemia-survival-some" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/when-coal-replaces-cleaner-energy-source-health-line" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=49143" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-04-04:/2017/04/04/predictive-analytics-based-student-intervention.html" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49152" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/bone-inspired-steel-cracks-less-under-pressure" />
@@ -22,6 +25,7 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/the-many-faces-of-accessibility" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/earth-moon-formation-impact" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=21936" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21770" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544016a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544007a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/out-body-experiments-show-kids-budding-sense-self" />
@@ -85,7 +89,6 @@
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543615a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543603a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543597a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543594a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22081" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21904" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21727" />
@@ -112,13 +115,32 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/math-anxious-brains-tackle-simple-problems-differently" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/palace-remains-mexico-point-ancient-rise-centralized-power" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8657" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=48976" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=48973" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/the-4-types-of-ux-savvy-behind-scival" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/engineered-immune-cells-boost-leukemia-survival-some">
+	<title>Science News: Engineered immune cells boost leukemia survival for some</title>
+	<link>https://www.sciencenews.org/article/engineered-immune-cells-boost-leukemia-survival-some</link>
+	<content:encoded>Engineered immune cells can extend life for some leukemia patients.</content:encoded>
+	<dc:date>2017-04-04T19:30:18+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-public/when-coal-replaces-cleaner-energy-source-health-line">
+	<title>Science News: When coal replaces a cleaner energy source, health is on the line</title>
+	<link>https://www.sciencenews.org/blog/science-public/when-coal-replaces-cleaner-energy-source-health-line</link>
+	<content:encoded>Health concerns prompted a shift from nuclear power to coal. But that shift came with its own health troubles, a new study suggests.</content:encoded>
+	<dc:date>2017-04-04T18:30:02+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=49143">
+	<title>Retraction watch: Once-prominent researcher logs retraction following misconduct finding</title>
+	<link>http://retractionwatch.com/2017/04/04/prominent-researcher-logs-retraction-following-misconduct-finding/</link>
+	<content:encoded>&lt;p&gt;A researcher who resigned from the University of Dundee in Scotland after it concluded he was guilty of misconduct has issued his first retraction. According to an internal email to staff forwarded to us last year, the university concluded that Robert Ryan had misrepresented clinical data and images in 12 different publications. The first retraction, published […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/04/prominent-researcher-logs-retraction-following-misconduct-finding/&quot; rel=&quot;nofollow&quot;&gt;Once-prominent researcher logs retraction following misconduct finding&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-04-04T18:00:16+00:00</dc:date>
+	<dc:creator>Alison McCook</dc:creator>
+</item>
 <item rdf:about="tag:biocomputation.herts.ac.uk,2017-04-04:/2017/04/04/predictive-analytics-based-student-intervention.html">
 	<title>UH Biocomputation group: Predictive analytics based student intervention</title>
 	<link>http://biocomputation.herts.ac.uk/2017/04/04/predictive-analytics-based-student-intervention.html</link>
@@ -183,6 +205,13 @@
 &lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/21936/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/21936/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=21936&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-04-04T08:56:12+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21770">
+	<title>Nature News &amp; Comment: ‘Young poo’ makes aged fish live longer</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/jxE8v1HU9ew/nature.2017.21770</link>
+	<content:encoded>&lt;p&gt;The gut microbes of young killifish can extend the lifespans of older fish – hinting at the microbiome’s role in ageing.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21770&quot;&gt;doi: 10.1038/nature.2017.21770&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/jxE8v1HU9ew&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-04T00:00:00+00:00</dc:date>
+	<dc:creator>Ewen Callaway</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/544016a">
 	<title>Nature News &amp; Comment: Compass protein attracts heap of criticism</title>
@@ -765,12 +794,6 @@ In The Brain Defense (Penguin, 2017, on sale now), author Kevin Davis explores t
 	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
 	<dc:creator>Davide Castelvecchi</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/543594a">
-	<title>Nature News &amp; Comment: Brexit triggered, preprint push and a stem-cell first</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/7X6VSTYLbT0/543594a</link>
-	<content:encoded>&lt;p&gt;The week in science: 24–30 March 2017.&lt;/p&gt;&lt;p&gt;Nature 543 594 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543594a&quot;&gt;doi: 10.1038/543594a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/7X6VSTYLbT0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
-</item>
 <item rdf:about="http://dx.doi.org/10.1038/nature22081">
 	<title>Nature Biological Sciences Research: Visualization and targeting of LGR5+ human colon cancer stem cells</title>
 	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/V1wshISA7Pw/nature22081</link>
@@ -992,28 +1015,6 @@ Today my interest was drawn to a 2015 paper from Blum and colleagues, called Neu
 
 In this paper, Blum et al. put forward some novel proposals about possible links between physics, epigenetics, and neuro</content:encoded>
 	<dc:date>2017-03-27T17:05:14+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=48976">
-	<title>Retraction watch: Multiple OMICS journals delisted from major index over concerns</title>
-	<link>http://retractionwatch.com/2017/03/27/multiple-omics-journals-delisted-major-index-concerns/</link>
-	<content:encoded>&lt;p&gt;SCOPUS, the publication database maintained by Elsevier, has discontinued nearly 300 journals since 2013, including multiple journals published by OMICS Publishing Group. Although the reasons the widely used database gives for discontinuing journals often vary, in all cases OMICS journals were removed over “Publication Concerns.” Here’s what SCOPUS said recently about how it vets journals: …several […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/27/multiple-omics-journals-delisted-major-index-concerns/&quot; rel=&quot;nofollow&quot;&gt;Multiple OMICS journals delisted from major index over concerns&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-03-27T15:30:29+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=48973">
-	<title>Retraction watch: Authors who retract for honest error say they aren’t penalized as a result</title>
-	<link>http://retractionwatch.com/2017/03/27/authors-retract-honest-error-say-arent-penalized-result/</link>
-	<content:encoded>&lt;p&gt;Are there two types of retractions? One that results from a form of misconduct, such as plagiarism or manipulating figures, and another that results from “honest errors,” or genuine mistakes the authors have owned up to? More and more research is suggesting that the community views each type very differently, and don’t shun researchers who […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/03/27/authors-retract-honest-error-say-arent-penalized-result/&quot; rel=&quot;nofollow&quot;&gt;Authors who retract for honest error say they aren’t penalized as a result&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-03-27T13:30:37+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/the-4-types-of-ux-savvy-behind-scival">
-	<title>Elsevier Connect: The 4 types of UX savvy behind SciVal</title>
-	<link>https://www.elsevier.com/connect/the-4-types-of-ux-savvy-behind-scival</link>
-	<content:encoded>How the women behind user experience work together to design the popular research performance platform</content:encoded>
-	<dc:date>2017-03-27T13:06:30+00:00</dc:date>
 </item>
 
 </rdf:RDF>
