@@ -15,7 +15,15 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/event-horizon-telescope-try-capture-images-elusive-black-hole-edge" />
+			<rdf:li rdf:resource="http://romainbrette.fr/?p=1401" />
+			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=22052" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3886926264265091433" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21769" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544125a" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544020a" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544005b" />
+			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=7491" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/engineered-immune-cells-boost-leukemia-survival-some" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/when-coal-replaces-cleaner-energy-source-health-line" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49143" />
@@ -86,10 +94,6 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=21595" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/will-the-4th-industrial-revolution-be-gender-blind" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8782" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21724" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21714" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543615a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/543603a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22081" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21904" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature21727" />
@@ -111,14 +115,53 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48970" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=48713" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8786" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/dont-put-greasy-q-tips-your-kids-nose-and-other-nosebleed-advice" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=21433" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/math-anxious-brains-tackle-simple-problems-differently" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/palace-remains-mexico-point-ancient-rise-centralized-power" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/event-horizon-telescope-try-capture-images-elusive-black-hole-edge">
+	<title>Science News: Event Horizon Telescope to try to capture images of elusive black hole edge</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/event-horizon-telescope-try-capture-images-elusive-black-hole-edge</link>
+	<content:encoded>Network of radio observatories will attempt a first-ever glimpse at an event horizon.</content:encoded>
+	<dc:date>2017-04-05T09:00:02+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="http://romainbrette.fr/?p=1401">
+	<title>Romain Brette: What is computational neuroscience? (XXVI) Is optimization a good metaphor of evolution?</title>
+	<link>http://romainbrette.fr/what-is-computational-neuroscience-xxvi-is-optimization-a-good-metaphor-of-evolution/</link>
+	<content:encoded>&lt;p&gt;Is the brain the result of optimization, and if so, what is the optimization criterion? The popular argument in favor of the optimization view goes as follows. The brain is the result of Darwinian evolution, and therefore is optimally adapted to its environment, ensuring maximum survival and reproduction rates. In this view, to understand the brain is primarily to understand what “adapted” means for a brain, that is, what is the criterion to be optimized.&lt;/p&gt;
+&lt;p&gt;Previously, &lt;a href=&quot;http://romainbrette.fr/what-is-computational-neuroscience-xxiii-on-optimality-principles-in-neuroscience/&quot;&gt;I have pointed out a few difficulties in optimality arguments&lt;/a&gt; used in neuroscience, in particular the problem of specification (what is being optimized) and the fact that evolution is a history-dependent process, unlike a global optimization procedure. An example of this history dependence is the fascinating case of &lt;a href=&quot;http://romainbrette.fr/feed/mitochondria&quot;&gt;mitochondria&lt;/a&gt;. Mitochondria are organelles in all eukaryotes cells that produce most of the cellular energy in the form of ATP. At this date, the main view is that these organelles are a case of symbiosis: mitochondria were once prokaryote cells that have been captured and farmed. This symbiosis has been selected and conserved through evolution, but optimization does not seem to be the most appropriate metaphor in this case.&lt;/p&gt;
+&lt;p&gt;Nonetheless, the optimization metaphor can be useful when applied to circumscribed problems that a biological organism might face, for example the energy consumption of action potential propagation. We can claim for example that, everything else being equal, an efficient axon is better than an inefficient one (with the caveat that in practice, not everything else can be made equal). But when applied at the scale of an entire organism, the optimization metaphor starts facing more serious difficulties, which I will discuss now.&lt;/p&gt;
+&lt;p&gt;When considering an entire organism, or perhaps an organ like the brain, then what criterion can we possibly choose? Recently, I started reading “&lt;a href=&quot;https://www.amazon.com/Guitar-Zero-Musician-Science-Learning/dp/B006ZGO09U&quot;&gt;Guitar Zero&lt;/a&gt;” by Gary Marcus. The author points out that learning music is difficult, and argues that the brain has evolved for language, not music. This statement is deeply problematic. What does it mean that the brain has evolved &lt;em&gt;for&lt;/em&gt; language? Language does not preexist to speakers, so it cannot be that language was an evolutionary (“optimization”) criterion for the brain, unless we have a more religious view of evolution. Rather, evolutionary change can create opportunities, which might be beneficial for the survival of the species, but there is no predetermined optimization criterion.&lt;/p&gt;
+&lt;p&gt;Another example is the color visual system of bees (see for example &lt;a href=&quot;http://www.sfu.ca/~kathleea/colour/docs/Ways%20of%20Colouring.pdf&quot;&gt;Ways of coloring&lt;/a&gt; by Thompson et al.). A case can be made that the visual system of bees is adapted to the color of flowers they are interested in. But conversely, the color of flowers is adapted to the visual system of bees. This is a case of co-evolution, where the “optimization criterion” changes during the evolutionary process.&lt;/p&gt;
+&lt;p&gt;Thus, the optimization criterion does not preexist to the optimization process, and this makes the optimization metaphor weak.&lt;/p&gt;
+&lt;p&gt;A possible objection is that there is a preexisting optimization criterion, which is survival or reproduction rate. While this might be correct, it makes the optimization metaphor not very useful. In particular, it applies equally to all living species. The point is, there are species and they are different even though the optimization criterion is the same. Not all have a brain. Thus, optimization does not explain why we have a brain. Species that have a brain have different brains. The nervous system of a nematode is not the same as that of a human, even though they are all equally well adapted, and have evolved for exactly the same amount of time. Therefore, the optimization view does not explain why we speak and nematodes don’t, for example.&lt;/p&gt;
+&lt;p&gt;The problem is that “fitness” is a completely contextual notion, which depends both on the environment and on the species itself. In a previous post where I discussed an &lt;a href=&quot;http://romainbrette.fr/outline-of-an-existentialist-theory-of-evolution/&quot;&gt;“existentialist” view of evolution&lt;/a&gt;, I proposed the following thought experiment. Imagine a very ancient Earth with a bunch of living organisms that do not reproduce but can survive for an indefinite amount of time. By definition, they are adapted since they exist. Then at some point, an accident occurs such that one organism starts multiplying. It multiplies until it occupies the entire Earth and resources become scarce. At this point of saturation, organisms start dying. The probability of dying being the same for both non-reproducing organisms and reproducing ones, at some point there will be only reproducing organisms. Thus in this new environment, reproducing organisms are adapted, whereas non-reproducing ones are not. If we look at the history of evolution, we note that the world of species constantly changes. Species do not appear to converge to some optimal state, because as they evolve, the environment changes and so does the notion of fitness.&lt;/p&gt;
+&lt;p&gt;In summary, the optimization criterion does not preexist to the optimization process, unless we consider a broad existentialist criterion such as survival, but then the optimization metaphor loses its usefulness.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-04-05T08:50:28+00:00</dc:date>
+	<dc:creator>romain</dc:creator>
+</item>
+<item rdf:about="http://digest.bps.org.uk/?p=22052">
+	<title>The British Psychological Society - Research Digest: Why more highly educated people are less into conspiracy theories</title>
+	<link>https://digest.bps.org.uk/2017/04/05/why-more-highly-educated-people-are-less-into-conspiracy-theories/</link>
+	<content:encoded>&lt;p&gt;&lt;em&gt;&lt;img alt=&quot;Moon Landing Conspiracy Concept&quot; class=&quot;alignnone size-full wp-image-22119&quot; data-attachment-id=&quot;22119&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Cartoon illustration of the famous Moon Landing. Some people think it was a conspiracy. This image may shed some new light!&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;Joe Peragino&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Moon Landing Conspiracy Concept&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Moon Landing Conspiracy Concept&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/04/gettyimages-164325167.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/04/gettyimages-164325167.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/04/gettyimages-164325167.jpg?w=845&quot; data-orig-size=&quot;1988,1508&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/04/05/why-more-highly-educated-people-are-less-into-conspiracy-theories/moon-landing-conspiracy-concept/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/04/gettyimages-164325167.jpg?w=845&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this era of “fake news” and rising populism, encountering conspiracy theories is becoming a daily phenomenon. Some people usually shrug them off – they find them too simplistic, biased or far-fetched – but others are taken in. And if a person believes one kind of conspiracy theory, they usually believe others.&lt;/p&gt;
+&lt;p&gt;Psychologists are very interested in why some people are more inclined to belief in conspiracy theories, especially since the consequences can be harmful: for example, by avoiding getting their kids vaccinated, believers in vaccination conspiracies can harm wider public health; in other cases, a belief in a conspiracy against one’s own ethnic or religious group can foment radicalism.&lt;/p&gt;
+&lt;p&gt;One of the main differences between conspiracy believers and nonbelievers that’s cropped up in multiple studies is that nonbelievers tend to be more highly educated. For a &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/acp.3301/abstract?campaign=woletoc&quot;&gt;new study&lt;/a&gt; in &lt;em&gt;Applied Cognitive Psychology&lt;/em&gt;, Jan-Willem Van Prooijen at VU Amsterdam has conducted two large surveys to try to dig into just what it is about being more educated that seems to inoculate against belief in conspiracy.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-22052&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;For the first survey, Van Prooijen recruited over 4000 readers of a popular science journal in the Netherlands, with an average age of 32. He asked them about their education level and their belief in various well-known conspiracy theories, such as that the moon landings were hoax; he tested their feelings of powerlessness; their subjective sense of their social class (they located their position on a social ladder); and their belief in simple solutions, such as that “most problems in society are easy to solve”.&lt;/p&gt;
+&lt;p&gt;The more highly educated a participant, the less likely they were to endorse the conspiracy theories. Importantly, several of the other measures were linked to education and contributed to the association between education and less belief in conspiracy: feeling less powerlessness (or more in control), feelings of higher social status, and being sceptical of simple solutions.&lt;/p&gt;
+&lt;p&gt;A second survey was similar, but this time Van Prooijen quizzed nearly 1000 participants, average age 50, selected to be representative of the wider Dutch population. Also, there were two phases: for the first, participants answered questions about their education level; feelings of power; subjective social class; belief in simple solutions; and they took some basic tests of their analytical thinking skills. Then two weeks later, the participants rated their belief in various conspiracy theories.&lt;/p&gt;
+&lt;p&gt;Once again, more education was associated with less belief in conspiracy theories, and this seemed to be explained in part by more educated participants feeling more in control, having less belief in simple solutions, and having stronger analytical skills. Subjective social class wasn’t relevant in this survey.&lt;/p&gt;
+&lt;p&gt;Taken together, Van Prooijen said the results suggest that “the relationship between education and belief in conspiracy theories cannot be reduced to a single psychological mechanism but is the product of the complex interplay of multiple psychological processes.”&lt;/p&gt;
+&lt;p&gt;The nature of his study means we can’t infer that education or the related factors he measured actually cause less belief in conspiracies. But it makes theoretical sense that they might be involved: for example, more education usually increases people’s sense of control over their lives (though there are exceptions, for instance among people from marginalized groups), while it is feelings of powerlessness that is one of the things that often attracts people to conspiracy theories.&lt;/p&gt;
+&lt;p&gt;Importantly, Van Prooijen said his findings help make sense of why education can contribute to “a less paranoid society” even when conspiracy theories are not explicitly challenged. “By teaching children analytic thinking skills along with the insight that societal problems often have no simple solutions, by stimulating a sense of control, and by promoting a sense that one is a valued member of society, education is likely to install the mental tools that are needed to approach far-fetched conspiracy theories with a healthy dose of skepticism.”&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/acp.3301/abstract?campaign=woletoc&quot;&gt;Why Education Predicts Decreased Belief in Conspiracy Theories&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Image under licence via Gettyimages.co.uk&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/22052/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/22052/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=22052&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-05T07:31:40+00:00</dc:date>
+	<dc:creator>BPS Research Digest</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-3886926264265091433">
 	<title>The Neurocritic: What are the Big Ideas in Cognitive Neuroscience?</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/8pK71LcGK2c/what-are-big-ideas-in-cognitive.html</link>
@@ -127,6 +170,57 @@
 &lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/8pK71LcGK2c&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-04-05T00:19:47+00:00</dc:date>
 	<dc:creator>The Neurocritic</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21769">
+	<title>Nature News &amp; Comment: Machine learning predicts the look of stem cells</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/MqeMIWEjhYs/nature.2017.21769</link>
+	<content:encoded>&lt;p&gt;Website contains thousands of 3D stem cell images and could help with better understanding diseases like cancer.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21769&quot;&gt;doi: 10.1038/nature.2017.21769&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/MqeMIWEjhYs&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
+	<dc:creator>Amy Maxmen</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/544125a">
+	<title>Nature News &amp; Comment: The DIY electronics transforming research</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Qyoj3Lyox30/544125a</link>
+	<content:encoded>&lt;p&gt;Cheap, stripped-down microcontrollers are allowing users to pack huge amounts of computing power into tiny spaces.&lt;/p&gt;&lt;p&gt;Nature 544 125 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544125a&quot;&gt;doi: 10.1038/544125a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Qyoj3Lyox30&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
+	<dc:creator>Daniel Cressey</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/544020a">
+	<title>Nature News &amp; Comment: How the genomics revolution could finally help Africa</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/W7NbLx2awFw/544020a</link>
+	<content:encoded>&lt;p&gt;New investments promise to get precision medicine and precision public health off the ground. But experts debate how much work needs to be done first.&lt;/p&gt;&lt;p&gt;Nature 544 20 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544020a&quot;&gt;doi: 10.1038/544020a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/W7NbLx2awFw&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
+	<dc:creator>Linda Nordling</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/544005b">
+	<title>Nature News &amp; Comment: How to judge a book by its network</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/U6vXqdVUmOY/544005b</link>
+	<content:encoded>&lt;p&gt;A breakdown of purchasing habits shows where science books fall on the political spectrum.&lt;/p&gt;&lt;p&gt;Nature 544 5 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544005b&quot;&gt;doi: 10.1038/544005b&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/U6vXqdVUmOY&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://blogs.plos.org/plos/?p=7491">
+	<title>The Official PLOS Blog: Protocols.io Tools for PLOS Authors: Reproducibility and Recognition</title>
+	<link>http://feeds.plos.org/~r/plos/Blog/~3/4f1A5xUoxx4/</link>
+	<content:encoded>&lt;img alt=&quot;Protocol.io_opt2&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/plos/files/2017/04/Protocol.io_opt2-150x150.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Solutions to the challenges of reproducibility in experimental science should be as diverse as the challenges themselves. Inconsistent reagents, barriers to the open sharing of supporting data, experimental variation that goes unrecorded and researcher’s concerns for lack of recognition and credit for novel and meticulously created experimental methods all contribute to the challenges of reproducibility in biomedical research.&lt;/p&gt;
+&lt;p&gt;PLOS now partners directly with &lt;strong&gt;&lt;a href=&quot;https://www.protocols.io/&quot; target=&quot;_blank&quot;&gt;protocols.io&lt;/a&gt;&lt;/strong&gt; to provide authors better ways to share methodological details about their work, practical tools to reduce wasted research efforts and persistent, citable identifiers for laboratory methods. For PLOS, this is a step forward on commitments to address reproducibility and provide improved recognition and credit for all contributions to a work.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;“We are delighted to be associated with a like-minded partner such as PLOS,” says protocols.io CEO Lenny Teytelman. “We are aligned in our Open Access ethos, and we strive to facilitate the communication of research in an effective, accessible and reusable way.”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This new offering complements PLOS’ already robust &lt;strong&gt;&lt;a href=&quot;http://journals.plos.org/plosone/s/data-availability&quot; target=&quot;_blank&quot;&gt;data availability policy&lt;/a&gt;&lt;/strong&gt;, requiring that data underlying the conclusions of an article be made available at the time of publication. Since the strengthening of this policy in 2014, about 60,000 articles have been published that contain a Data Availability Statement.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;“We are excited to engage with protocols.io,” says PLOS Executive Editor Veronique Kiermer. “This is another step towards &lt;strong&gt;&lt;a href=&quot;http://blogs.plos.org/plos/2016/11/a-plos-response-to-open-in-action-with-open-science/&quot; target=&quot;_blank&quot;&gt;Open Science&lt;/a&gt;&lt;/strong&gt;, facilitating access not only to the data but now also to the laboratory methodology that generated these data.”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;How It Works&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Researchers are encouraged, at their discretion, to deposit their laboratory protocols on the protocols.io site, obtain a unique DOI and link directly to these from the Methods section of their articles. The unique link allows reviewers and editors access to the protocols during peer review. At the time of publication, the partnership between PLOS and protocols.io ensures that links to and from the published article are established and protocols are automatically made publicly available under a CC BY license for anyone to access, use and cite.&lt;/p&gt;
+&lt;figure class=&quot;wp-caption alignleft&quot; id=&quot;attachment_7492&quot; style=&quot;width: 202px;&quot;&gt;&lt;a href=&quot;http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002538&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;protocol.io_app&quot; class=&quot;wp-image-7492&quot; height=&quot;396&quot; src=&quot;http://blogs.plos.org/plos/files/2017/04/protocol.io_app-153x300.png&quot; title=&quot;DOI: 10.1371/journal.pbio.1002538&quot; width=&quot;202&quot; /&gt;&lt;/a&gt;DOI: 10.1371/journal.pbio.1002538&lt;/figure&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Archived and linked permanently to and from the article, protocols become part of the scientific record. The &lt;strong&gt;&lt;a href=&quot;http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002538&quot; target=&quot;_blank&quot;&gt;protocols.io application&lt;/a&gt;&lt;/strong&gt; allows scientists to create, copy, modify and evolve laboratory protocols, describing the critical details of experimental procedures that are often overlooked in articles Methods sections. While detailed steps in a protocol may evolve and improve over time, the version that relates to the published article remains accessible to help explain experimental nuances.&lt;/p&gt;
+&lt;h5&gt;“Methods sections that describe laboratory experiments are narratives that tend to omit subtle variations that may affect the experiments,” says Kiermer. “I hope that scientists will take up the opportunity to describe their methods in a way that is much more useful to others.”&lt;/h5&gt;
+&lt;p&gt;Nuanced methodological details can be shared in new ways, that in time can integrate seamlessly into the research cycle, from bench to publication and back. “It is not merely a tool for publication,” says Teytelman, “it can be useful as a lab tool, at the bench, for record keeping and for sharing expertise within and outside a laboratory.”&lt;/p&gt;
+&lt;p&gt;Engaged &lt;strong&gt;&lt;a href=&quot;https://www.protocols.io/view/diatom-transformation-via-bacterial-conjugation-hgpb3vn?comments&quot; target=&quot;_blank&quot;&gt;commenting&lt;/a&gt;&lt;/strong&gt; on the protocols.io website allows interested readers to clarify and discuss deeper with others using an article’s methodology. “This partnership will improve reproducibility of published research while fostering scientists’ collaborative engagement with our content,” adds Kiermer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A DOI for methods, citable by others, provides more &lt;strong&gt;&lt;a href=&quot;http://blogs.plos.org/plos/2016/07/author-credit-plos-and-credit-update/&quot; target=&quot;_blank&quot;&gt;granular credit&lt;/a&gt;&lt;/strong&gt; to those individuals contributing to methodological development.&lt;/strong&gt; It also enables researchers to compare methodological details between laboratories pursuing similar approaches or between published experimental methods and those subtly revised by users. In this respect, protocols.io helps bridge an information gap between published experimental methods and methods refined over time.&lt;/p&gt;
+&lt;p&gt;PLOS looks forward to authors’ participation in this novel approach to enhancing Methods sections—an Open Access tool to record and share detailed protocols. We hope you try it and let us know your experience via comment below or email to &lt;strong&gt;&lt;a href=&quot;mailto:communications@plos.org?subject=protocols.io&quot; target=&quot;_blank&quot;&gt;communications@plos.org&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Hero image inset credit (CC BY): Bandage plot of &lt;strong&gt;&lt;a href=&quot;http://dx.doi.org/10.17504/protocols.io.ghebt3e&quot; target=&quot;_blank&quot;&gt;transcripts assembled by J. Mamrot&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/4f1A5xUoxx4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-04T22:11:43+00:00</dc:date>
+	<dc:creator>PLOS</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/engineered-immune-cells-boost-leukemia-survival-some">
 	<title>Science News: Engineered immune cells boost leukemia survival for some</title>
@@ -775,34 +869,6 @@ In The Brain Defense (Penguin, 2017, on sale now), author Kevin Davis explores t
 	<dc:date>2017-03-29T06:00:19+00:00</dc:date>
 	<dc:creator>Dr Fanny Vogelweith</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21724">
-	<title>Nature News &amp; Comment: Growth spurts may determine a lamprey's sex</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/31HIISI9QcU/nature.2017.21724</link>
-	<content:encoded>&lt;p&gt;The parasitic fish could be the first case of growth-dependent sex determination.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21724&quot;&gt;doi: 10.1038/nature.2017.21724&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/31HIISI9QcU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
-	<dc:creator>Erin Ross</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21714">
-	<title>Nature News &amp; Comment: How Brexit is changing the lives of eight researchers</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/F5YiDJMV2KY/nature.2017.21714</link>
-	<content:encoded>&lt;p&gt;The months between the Brexit vote and this week's triggering of Article 50 have been a turbulent time for scientists — and things show no sign of calming.&lt;/p&gt;&lt;p&gt;Nature 543 600 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21714&quot;&gt;doi: 10.1038/nature.2017.21714&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/F5YiDJMV2KY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
-	<dc:creator>Alison Abbott</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/543615a">
-	<title>Nature News &amp; Comment: Five ways consortia can catalyse open science</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/o-foU6rNzOs/543615a</link>
-	<content:encoded>&lt;p&gt;An analysis of more than 50 collaborations shows the secrets of success, write Joel Cutcher-Gershenfeld and colleagues from the Stakeholder Alignment Collaborative.&lt;/p&gt;&lt;p&gt;Nature 543 615 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543615a&quot;&gt;doi: 10.1038/543615a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/o-foU6rNzOs&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
-	<dc:creator>Joel Cutcher-Gershenfeld</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/543603a">
-	<title>Nature News &amp; Comment: How giant marine reptiles terrorized the ancient seas</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/PkkIAv-0Ebw/543603a</link>
-	<content:encoded>&lt;p&gt;Ichthyosaurs were some of the largest and most mysterious predators to ever prowl the oceans. Now they are giving up their secrets.&lt;/p&gt;&lt;p&gt;Nature 543 603 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/543603a&quot;&gt;doi: 10.1038/543603a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/PkkIAv-0Ebw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-29T00:00:00+00:00</dc:date>
-	<dc:creator>Traci Watson</dc:creator>
-</item>
 <item rdf:about="http://dx.doi.org/10.1038/nature22081">
 	<title>Nature Biological Sciences Research: Visualization and targeting of LGR5+ human colon cancer stem cells</title>
 	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/V1wshISA7Pw/nature22081</link>
@@ -970,48 +1036,6 @@ In The Brain Defense (Penguin, 2017, on sale now), author Kevin Davis explores t
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/03/28/video-blog-anesthetic-protects-rat-brains-damage-stroke/&quot; rel=&quot;nofollow&quot;&gt;Video blog: Anesthetic protects rat brains from damage after stroke&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-03-28T11:00:48+00:00</dc:date>
 	<dc:creator>Christopher Foote</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/dont-put-greasy-q-tips-your-kids-nose-and-other-nosebleed-advice">
-	<title>Science News: Don’t put greasy Q-tips up your kid’s nose, and other nosebleed advice</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/dont-put-greasy-q-tips-your-kids-nose-and-other-nosebleed-advice</link>
-	<content:encoded>Nosebleeds in children are common and usually nothing to fret about.</content:encoded>
-	<dc:date>2017-03-28T11:00:04+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=21433">
-	<title>The British Psychological Society - Research Digest: Psychologists are working on a fraud-proof brain scan test of deviant sexual interest</title>
-	<link>https://digest.bps.org.uk/2017/03/28/psychologists-are-working-on-a-fraud-proof-brain-scan-test-of-deviant-sexual-interest/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;&lt;img alt=&quot;Male patient in medical scanner with red lights&quot; class=&quot;alignnone size-full wp-image-21582&quot; data-attachment-id=&quot;21582&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;2.8&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;NIKON D810&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Senior man lying down in scanning machine with red cross on head&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1462985742&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;Johnny Greig&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;62&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;4000&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.076923076923077&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Male patient in medical scanner with red lights&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Male patient in medical scanner with red lights&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-530421722.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-530421722.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-530421722.jpg?w=845&quot; data-orig-size=&quot;2120,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/03/28/psychologists-are-working-on-a-fraud-proof-brain-scan-test-of-deviant-sexual-interest/male-patient-in-medical-scanner-with-red-lights/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/03/gettyimages-530421722.jpg?w=845&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If the courts wanted to know if a suspected sex offender was attracted to children, they could ask him or her, or they could ask experts to measure signs of the suspect’s sexual arousal while he or she looked at different images. But a devious suspect would surely lie about their interests, and they could distract themselves to cheat the physical test.&lt;/p&gt;
-&lt;p&gt;Brain scans offer an alternative strategy: research shows that when we look at images that we find sexually attractive, our brains show distinct patterns of activation. But of course, the same issues of cheating and deliberate distraction could apply.&lt;/p&gt;
-&lt;p&gt;Unless, that is, you could somehow prevent the suspect from knowing what images they were looking at, by using subliminal stimuli that can’t be seen at a conscious level. Then you could see how their brain responds to different types of image without the suspect even knowing what they were looking at.&lt;/p&gt;
-&lt;p&gt;This is the essence of a strategy tested in a &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S1053810016302446?dgcid=raven_sd_via_email&quot;&gt;new paper&lt;/a&gt; in &lt;em&gt;Consciousness and Cognition&lt;/em&gt;. Martina Wernicke at Asklepios Forensic Psychiatric Hospital of Gottingen and her colleagues have provided a partial proof of principle that it might one day be possible to use subliminally presented images in a brain scanner to provide a fraud-proof test of a person’s sexual interests. It’s a potentially important break-through for crime prevention – given that deviant sexual interest is one of the strongest predictors of future offences – but it also raises important ethical questions.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-21433&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Wernicke and her team scanned the brains of 24 healthy, heterosexual men with fMRI while they looked at images of naked men and women, or more explicitly pornographic images that depicted either naked men or women masturbating. The idea was that, given their sexual orientation, the participating men’s brains would show a distinct pattern of activity when looking at the naked women compared with when looking at naked men, especially in the more explicit context.&lt;/p&gt;
-&lt;p&gt;Another detail is that the researchers attempted to make some of the images subliminal – that is, not visible at a conscious level. To do this, they presented the target images twice extremely briefly – just 16.7 milliseconds at a time – and they used one of two types of “mask”. A mask in this context is a second, distracting image shown immediately after the first instance of the target image and designed to interfere with the processing of that target image. After the scanning session, a memory test was used to find out how much the participants had processed the subliminal images.&lt;/p&gt;
-&lt;p&gt;Consistent with past research, the men’s brains showed a distinct pattern of activity across a range of areas when they viewed consciously visible images of naked women compared with naked men. But what about when images were made subliminal?&lt;/p&gt;
-&lt;p&gt;Here the challenge was to make the images inaccessible to conscious awareness, but still visible enough for the brain to process them. One type of mask the researchers used was different neutral scenes, such as a leaf or a rustic street scene. In a sense, these masks interfered too much with the processing of the naked pictures. Not only were the participants unable to identity which of the naked images they’d seen before, but also there was no difference in their brain activity whether they were looking at images of naked men or naked women, sexually explicit or otherwise. In this condition, the participants were also unable to identify afterwards, from a mix of new and previously seen images, which ones they’d seen before.&lt;/p&gt;
-&lt;p&gt;However, the researchers also tested a second type of mask – scrambled versions of the naked images – and these were more successful. The participants said they couldn’t see the naked images rendered subliminal in this way, yet their brains showed distinct patterns of activity in response to the images of naked women compared with naked men. In other words, the brain scans seemed to betray their sexual preference, even though they didn’t know what images they’d been looking at – the foundations of a fraud-proof test. In a memory quiz afterwards, the participants showed some very limited ability to distinguish previously seen naked images from new ones, but the researchers think this could have been based on memory traces stored earlier at a non-conscious level, though this is open to debate.&lt;/p&gt;
-&lt;p&gt;More work will be needed to find the precise sweet spot where images are not visible at a conscious level, but are still processed enough by the brain to betray neural signs of sexual preference. This study was a proof of principle with heterosexual men and further research would also need to examine the sensitive issue of what kinds of images could be used to investigate suspected sexual interest in children – for instance would benign images provoke the necessary neural effects to make this a feasible forensic test?&lt;/p&gt;
-&lt;p&gt;More broadly, while it’s easy to see how this approach could help in the detection of deviant sexual interest, it’s a strategy that raises serious ethical issues. It’s well known that the link between physical sexual arousal and subjective sexual interest is often far from straight-forward. It seems highly likely that the link between neural markers of sexual interest and subjective sexual preference will be even more complex. As a society, are we ready to accept the idea of psychologists measuring our sexual preferences by scanning our brain activity?&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S1053810016302446?dgcid=raven_sd_via_email&quot;&gt;Neural correlates of subliminally presented visual sexual stimuli&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/21433/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/21433/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=21433&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-03-28T10:49:13+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/math-anxious-brains-tackle-simple-problems-differently">
-	<title>Science News: Math-anxious brains tackle simple problems differently</title>
-	<link>https://www.sciencenews.org/article/math-anxious-brains-tackle-simple-problems-differently</link>
-	<content:encoded>An fMRI study found more variable brain activity in people who get nervous about math problems.</content:encoded>
-	<dc:date>2017-03-27T21:33:17+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/palace-remains-mexico-point-ancient-rise-centralized-power">
-	<title>Science News: Palace remains in Mexico point to ancient rise of centralized power</title>
-	<link>https://www.sciencenews.org/article/palace-remains-mexico-point-ancient-rise-centralized-power</link>
-	<content:encoded>An ancient royal structure gets new life in southern Mexico.</content:encoded>
-	<dc:date>2017-03-27T19:10:54+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
