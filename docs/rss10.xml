@@ -15,11 +15,19 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8825" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=48557" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/jupiters-great-red-spot-has-company-meet-great-cold-spot" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=48194" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/vaccinating-pregnant-women-protects-newborns-whooping-cough" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/allen-cell-explorer-online-portal" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=22509" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=1057" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21815" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544152a" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544149a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544148a" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544142a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/physics-trips-efforts-keep-shoelaces-tied" />
 			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19272" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/great-barrier-reef-coral-bleaching-global-warming" />
@@ -86,8 +94,6 @@
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3886926264265091433" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21769" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21763" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544125a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544023a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22035" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22033" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22030" />
@@ -109,16 +115,63 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/the-many-faces-of-accessibility" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/earth-moon-formation-impact" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=21936" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/out-body-experiments-show-kids-budding-sense-self" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=49129" />
-			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19250" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=49035" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-fluorescent-frogs-might-see-each-others-glow" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=49092" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=8825">
+	<title>BMC Series blog: Tackling genomic data corruption with a new tool</title>
+	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/04/12/tackling-genomic-data-corruption-new-tool/</link>
+	<content:encoded>&lt;img alt=&quot;Pixabay&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/04/truke-img-2-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;As scientific research becomes more reliant on published datasets and online resources, the effects of data corruption are a growing concern. This is particularly the case in the field of genomics where researchers often use online depositories and published supplements for their analyses.&lt;/p&gt;
+&lt;p&gt;Problems can occur when data is altered by formatting defaults in programs such as Microsoft Excel. This poses a problem to genomics researchers when gene names are converted to dates. For example, inputted gene names such as ‘SEPT2’ may be converted to 2016/09/02 when the program automatically formats this gene name to a date.&lt;/p&gt;
+&lt;p&gt;The huge scale of this problem was highlighted by &lt;em&gt;Ziemann et al&lt;/em&gt; in an &lt;a href=&quot;https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7&quot;&gt;&lt;span style=&quot;color: #0066cc;&quot;&gt;article published&lt;/span&gt;&lt;/a&gt; recently in &lt;em&gt;&lt;a href=&quot;https://genomebiology.biomedcentral.com/&quot;&gt;Genome Biology&lt;/a&gt;&lt;/em&gt;. The researchers scanned leading genomics journals to find that one fifth of papers containing supplementary gene lists harboured these errors. Altered gene names were present in 987 supplementary files of 704 publications. Interestingly, it transpired that the journals with the highest impact factors were more likely to contain the corrupted data.&lt;/p&gt;
+&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_8832&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;Pixabay&quot; class=&quot;size-medium wp-image-8832&quot; height=&quot;169&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/04/truke-img-1-300x169.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;Pixabay&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Finding this high rate of data corruption in published materials is disconcerting to the genomics community, who utilise these data sources heavily. This error can be difficult to reverse, and there have been few known solutions to remediate it.&lt;/p&gt;
+&lt;p&gt;In order to combat this troubling issue a team from Health Research Institute Germans Trias i Pujol (IGTP) in Spain have developed a new software tool named &lt;em&gt;Truke&lt;/em&gt;, to help retain the integrity of genomic data. The new software which is described in an article &lt;a href=&quot;http://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8&quot;&gt;recently published&lt;/a&gt; in &lt;a href=&quot;https://bmcgenomics.biomedcentral.com/&quot;&gt;&lt;em&gt;BMC Genomics&lt;/em&gt;&lt;/a&gt;, restores corrupted symbols to their original gene names, through methods such as library referencing and reverse engineering.&lt;/p&gt;
+&lt;p&gt;By sourcing data from the &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/&quot;&gt;&lt;em&gt;National Center for Biotechnology Information&lt;/em&gt;&lt;/a&gt; (NCBI) database, a library of error prone gene symbols are collated, and their corresponding ‘dates’ predicted. When the user’s datasets are scanned by the system, the false dates are identified, and converted back to their original gene names. Safeguards are in place to avoid errors in the system. For example, in cases where a false date could correspond to more than one gene name, such as SEPT1 or SEPT-1, this discrepancy is flagged to the user for action.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Truke&lt;/em&gt; web application was built using R, Shiny, HTML and bootstrap2 programming tools, and is freely available for use at &lt;a href=&quot;http://maplab.cat/truke&quot;&gt;http://maplab.cat/truke&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As shown in this &lt;a href=&quot;http://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8?utm_content=buffer6d452&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;article&lt;/a&gt;, we are presented with a potential solution to a problem which can be commonly overlooked by both scientists and publishers. While more and more data is published each year, perhaps these threats to data integrity can be lessened with the help of software solutions.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/04/12/tackling-genomic-data-corruption-new-tool/&quot; rel=&quot;nofollow&quot;&gt;Tackling genomic data corruption with a new tool&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-04-12T16:21:08+00:00</dc:date>
+	<dc:creator>Clarissa Wright</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=48557">
+	<title>Retraction watch: Author surprised when publisher pulls three of her papers</title>
+	<link>http://retractionwatch.com/2017/04/12/author-surprised-publisher-pulls-three-papers/</link>
+	<content:encoded>&lt;p&gt;A researcher is strongly objecting to a publisher’s decision to retract three of her papers from two computing journals without informing her first. The reason: Self-plagiarism, which the author said stemmed from her PhD student using similar descriptions for the background sections of the papers. She argued that if the reviewers had flagged the duplication, she […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/12/author-surprised-publisher-pulls-three-papers/&quot; rel=&quot;nofollow&quot;&gt;Author surprised when publisher pulls three of her papers&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-04-12T16:05:36+00:00</dc:date>
+	<dc:creator>Victoria Stern</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/jupiters-great-red-spot-has-company-meet-great-cold-spot">
+	<title>Science News: Jupiter’s Great Red Spot has company. Meet the Great Cold Spot</title>
+	<link>https://www.sciencenews.org/article/jupiters-great-red-spot-has-company-meet-great-cold-spot</link>
+	<content:encoded>A previously unidentified dark mark on Jupiter has been dubbed the “Great Cold Spot” because of its temperature and resemblance to the planet’s Great Red Spot.</content:encoded>
+	<dc:date>2017-04-12T16:00:02+00:00</dc:date>
+	<dc:creator>Ashley Yeager</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=48194">
+	<title>Retraction watch: A diabetes researcher sued his former employer for defamation. Here’s the story.</title>
+	<link>http://retractionwatch.com/2017/04/12/diabetes-researcher-sued-former-employer-defamation-heres-story/</link>
+	<content:encoded>&lt;p&gt;The last decade hasn’t exactly been drama-free for Franck Mauvais-Jarvis, head of the Diabetes Research Program at Tulane University. After being accused of falsifying three figures in a submitted manuscript, Mauvais-Jarvis sued his accusers and officials at his former employer — Northwestern University — for defamation and conspiracy in 2011. In 2014, a judge dismissed the suit. We […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/12/diabetes-researcher-sued-former-employer-defamation-heres-story/&quot; rel=&quot;nofollow&quot;&gt;A diabetes researcher sued his former employer for defamation. Here’s the story.&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-04-12T13:30:21+00:00</dc:date>
+	<dc:creator>Megan Scudellari</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/growth-curve/vaccinating-pregnant-women-protects-newborns-whooping-cough">
+	<title>Science News: Vaccinating pregnant women protects newborns from whooping cough</title>
+	<link>https://www.sciencenews.org/blog/growth-curve/vaccinating-pregnant-women-protects-newborns-whooping-cough</link>
+	<content:encoded>Pregnant women who receive the pertussis, or whooping cough, vaccine pass on to their new-borns immunity to the potentially deadly bacterial infection.</content:encoded>
+	<dc:date>2017-04-12T13:00:02+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/allen-cell-explorer-online-portal">
+	<title>Science News: Cells’ stunning complexity on display in a new online portal</title>
+	<link>https://www.sciencenews.org/article/allen-cell-explorer-online-portal</link>
+	<content:encoded>A new online explorer tool from the Allen Institute for Cell Science shows 3-D models of cell interiors.</content:encoded>
+	<dc:date>2017-04-12T11:00:02+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=22509">
 	<title>The British Psychological Society - Research Digest: Why a cooperative work culture can be bad for star performers</title>
 	<link>https://digest.bps.org.uk/2017/04/12/why-a-cooperative-work-culture-can-be-bad-for-star-performers/</link>
@@ -178,12 +231,25 @@
 	<dc:date>2017-04-12T00:00:00+00:00</dc:date>
 	<dc:creator>Jane Qiu</dc:creator>
 </item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/544149a">
+	<title>Nature News &amp; Comment: Saturn spacecraft begins science swan-song</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/UwBEHtZ_6xg/544149a</link>
+	<content:encoded>&lt;p&gt;NASA’s Cassini probe will go where no spacecraft has gone before — between a planet and its rings.&lt;/p&gt;&lt;p&gt;Nature 544 149 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544149a&quot;&gt;doi: 10.1038/544149a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/UwBEHtZ_6xg&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-12T00:00:00+00:00</dc:date>
+	<dc:creator>Alexandra Witze</dc:creator>
+</item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/544148a">
 	<title>Nature News &amp; Comment: Immigration crackdowns damage health — even for unborn children</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Ht2fH8gCxS4/544148a</link>
 	<content:encoded>&lt;p&gt;The lasting effects of stress and fear of deportation are beginning to emerge.&lt;/p&gt;&lt;p&gt;Nature 544 148 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544148a&quot;&gt;doi: 10.1038/544148a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Ht2fH8gCxS4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-04-12T00:00:00+00:00</dc:date>
 	<dc:creator>Sara Reardon</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/544142a">
+	<title>Nature News &amp; Comment: Hungary's protests, coral bleaching and a neutrino anomaly</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/tnyRTE0PW_8/544142a</link>
+	<content:encoded>&lt;p&gt;The week in science: 7–13 April 2017.&lt;/p&gt;&lt;p&gt;Nature 544 142 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544142a&quot;&gt;doi: 10.1038/544142a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/tnyRTE0PW_8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-12T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/physics-trips-efforts-keep-shoelaces-tied">
 	<title>Science News: Physics trips up efforts to keep shoelaces tied</title>
@@ -887,20 +953,6 @@ It's important to note at the outset that the Journal of Stem Cells is not some 
 	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
 	<dc:creator>Heidi Ledford</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/544125a">
-	<title>Nature News &amp; Comment: The DIY electronics transforming research</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Qyoj3Lyox30/544125a</link>
-	<content:encoded>&lt;p&gt;Cheap, stripped-down microcontrollers are allowing users to pack huge amounts of computing power into tiny spaces.&lt;/p&gt;&lt;p&gt;Nature 544 125 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544125a&quot;&gt;doi: 10.1038/544125a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Qyoj3Lyox30&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
-	<dc:creator>Daniel Cressey</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/544023a">
-	<title>Nature News &amp; Comment: Smart manufacturing must embrace big data</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/roUgtorGLqw/544023a</link>
-	<content:encoded>&lt;p&gt;Study and model industrial processes to save money, energy and materials, urges Andrew Kusiak.&lt;/p&gt;&lt;p&gt;Nature 544 23 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544023a&quot;&gt;doi: 10.1038/544023a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/roUgtorGLqw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-05T00:00:00+00:00</dc:date>
-	<dc:creator>Andrew Kusiak</dc:creator>
-</item>
 <item rdf:about="http://dx.doi.org/10.1038/nature22035">
 	<title>Nature Biological Sciences Research: Structural basis for selectivity and diversity in angiotensin II receptors</title>
 	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/Mkq1NH1zoK4/nature22035</link>
@@ -1090,81 +1142,6 @@ It's important to note at the outset that the Journal of Stem Cells is not some 
 &lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/21936/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/21936/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=21936&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-04-04T08:56:12+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/out-body-experiments-show-kids-budding-sense-self">
-	<title>Science News: Out-of-body experiments show kids’ budding sense of self</title>
-	<link>https://www.sciencenews.org/article/out-body-experiments-show-kids-budding-sense-self</link>
-	<content:encoded>Sensing that “my body is me” starts early and develops over many years.</content:encoded>
-	<dc:date>2017-04-03T20:15:13+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=49129">
-	<title>Retraction watch: Journals retract paper, flag two others by cancer doc under investigation</title>
-	<link>http://retractionwatch.com/2017/04/03/journals-retract-paper-flag-two-others-cancer-doc-investigation/</link>
-	<content:encoded>&lt;p&gt;This weekend, Carlo Croce had some reprieve from the misconduct accusations that have followed him for years (recently described in a lengthy article in the New York Times) and that have prompted his university to re-open an investigation. On Sunday, he received a prestigious award from the American Association for Cancer Research, honoring his work. But the moment […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/03/journals-retract-paper-flag-two-others-cancer-doc-investigation/&quot; rel=&quot;nofollow&quot;&gt;Journals retract paper, flag two others by cancer doc under investigation&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-04-03T19:00:12+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="http://blogs.plos.org/neuro/?p=19250">
-	<title>PLOS Neuroscience Community: Can Alzheimer’s disease steal one’s consciousness?</title>
-	<link>http://feeds.plos.org/~r/plos/blogs/neuro/~3/xHbB15r7cKw/</link>
-	<content:encoded>&lt;img alt=&quot;Old Man Time Kahl Care Dementia Tree Clock Age&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2017/04/Old-Man-Time-Kahl-Care-Dementia-Tree-Clock-Age-97986-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Alzheimer’s disease (AD) has been characterized as a “&lt;a href=&quot;http://ajp.psychiatryonline.org/doi/abs/10.1176/ajp.145.6.760&quot; target=&quot;_blank&quot;&gt;complete loss of self&lt;/a&gt;.” Early on when memory begins to fade, the victim has difficulty recalling names, their grocery list or where they put their keys. As the disease progresses, they have trouble staying focused, planning and performing basic daily activities. From the exterior, dementia appears to ravage one’s intellect and personality; yet as mere observers, it’s impossible to ascertain how consciousness of the self and environment is transformed by dementia. The celebrated late neurologist Oliver Sacks once suggested that, “Style, neurologically, is the deepest part of one’s being and may be preserved, almost to the last, in dementia.” Is this remaining neurological “style” sufficient to preserve consciousness? Is the AD patient aware of their deteriorating cognition, retaining a sense of identity or morality, or can they still connect with friends and loved ones? Emerging advances in neuroscience have enabled researchers to more precisely probe the AD brain, suggesting that although some aspects of consciousness are compromised by dementia, others are remarkably spared.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Manifestations of consciousness&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Scientists are beginning to piece together how the selective loss of some functions, but the preservation of others, alters consciousness in AD. A &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/11696024&quot; target=&quot;_blank&quot;&gt;recent study&lt;/a&gt; found that the severity of cognitive impairment strongly relates to “meta-cognition” (reflecting on one’s own condition), moral judgments and thinking about the future, whereas basic personal identity and body awareness remain. Perhaps the most widely observed deficit in consciousness is “anosognosia,” impaired awareness of one’s own illness; whereas individuals with mild cognitive impairment (MCI; considered a precursor to full AD) are aware of their declining memory, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/15802909&quot; target=&quot;_blank&quot;&gt;AD patients may be unaware of their impairments&lt;/a&gt;. These behavioral signs suggest that only some aspects of consciousness and self-awareness are truly lost in AD.&lt;/p&gt;
-&lt;p&gt;Although basic perceptual, sensory, and communication skills are relatively spared, the defining feature of AD is memory loss. The unique nature of these memory deficits provides clues to why sub-components of consciousness deteriorate in dementia. Memory for experiences (episodic memory; e.g., &lt;em&gt;I went for a walk in the park yesterday&lt;/em&gt;) and recollection of their associated details are impaired, while memory for facts and meaning (semantic memory; e.g., &lt;em&gt;Paris is the capital of France&lt;/em&gt;) is preserved. Recollection of episodic memories demands that the rememberer engage with the memory, searching for context and reflecting upon the memory after it’s recalled. In contrast, semantic memory can be automatic and doesn’t require this level of attention or personal involvement. Impairment in personal meta-cognition may lie at the heart of these memory deficits. For instance, AD patients can accurately predict how well they’ll later &lt;a href=&quot;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S1355617700001375&quot; target=&quot;_blank&quot;&gt;recall semantic information&lt;/a&gt;, but cannot predict how they’ll &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/12417467&quot; target=&quot;_blank&quot;&gt;recall episodic memory&lt;/a&gt;, pointing to a specific impairment in &lt;em&gt;awareness&lt;/em&gt; of their personal memories. Perhaps then, loss of consciousness in AD stems from impaired control over attention to memory. Indeed, AD has been considered a disorder of “impaired attention to life.” This is supported by reports that the feelings surrounding a memory and re-experiencing an episode during recollection are absent in AD. Unable to engage with a memory, the individual loses their conscious awareness of the experience.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://stevenpinker.com/publications/how-mind-works&quot; target=&quot;_blank&quot;&gt;Steven Pinker&lt;/a&gt; defines consciousness as the sum of sentience, access to information, and self-knowledge. While the first two are relatively intact in AD, episodic memories are heavily dependent on the last. In addition to problems with episodic memory, some AD patients have difficulty remembering semantic information when it’s personal, suggesting that hindered access to personal details of a memory may, to some extent, account for impairments in consciousness. As dementia often warps one’s sense of time continuity, this temporal disconnect could further degrade one’s ability to accurately place themself in the context of past and future.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Neural underpinnings of altered consciousness&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The unique pattern of brain pathology in AD might explain the resulting partial loss of consciousness in its victims. Since consciousness requires the coordination of distributed brain networks that support sensation, memory, attention and emotion, dysfunction of this system could lead to changes in cognition and awareness. In AD, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2904350/&quot; target=&quot;_blank&quot;&gt;brain atrophy&lt;/a&gt; begins in the medial temporal lobe, followed by lateral temporal, parietal and frontal areas. These regions may engender consciousness by supporting recall of the &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/12372291&quot; target=&quot;_blank&quot;&gt;source of a memory&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/15784441&quot; target=&quot;_blank&quot;&gt;self-referential processing&lt;/a&gt;, and &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/11459919&quot; target=&quot;_blank&quot;&gt;self-identification&lt;/a&gt;. &lt;a href=&quot;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002987&quot; target=&quot;_blank&quot;&gt;Metabolism is reduced&lt;/a&gt; in temporal and parietal regions, and these changes are &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/16189724&quot; target=&quot;_blank&quot;&gt;associated with the severity of cognitive impairment&lt;/a&gt; and changes in awareness. Furthermore, in line with the finding that AD patients have trouble understanding another’s personality, &lt;a href=&quot;http://www.jneurosci.org/content/25/3/550.short&quot; target=&quot;_blank&quot;&gt;stimulating the temporoparietal junction&lt;/a&gt; can induce an “out-of-body experience,” where the person perceives themself as someone else.&lt;/p&gt;
-&lt;p&gt;Deficits in meta-cognitive ability could further stem from &lt;em&gt;disconnect&lt;/em&gt; among key brain hubs. The pathways connecting the frontal, parietal and temporal cortices, which integrate information across the brain, become compromised in AD. Although these widespread brain networks aren’t affected until late in the disease, the earliest target of AD-related neurodegeneration, the medial temporal lobe, lies at the core of this system. In the medial temporal lobe, the hippocampus binds contextual information about an experience into memory, but must communicate across the brain to store these details into long-term memory. Therefore, early damage to the medial temporal lobe might be a first step towards a disrupted sense of awareness.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Preserving consciousness&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This research linking the select deficits in self-awareness and meta-cognition with the characteristic pattern of neurodegeneration in AD is invaluable for informing about the neurobiological origins of consciousness. Perhaps more importantly, understanding which aspects of consciousness go awry in AD could theoretically promote the development of more effective treatment strategies. If attention to one’s inner mental landscape, and awareness of one’s personal state, are targets of AD, there’s hope that training these skills could confer resilience against the neuropathology degrading these functions. Although in its infancy, studies testing this possibility have shown promise. Older adults who are experienced mediators were more &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/17655980&quot; target=&quot;_blank&quot;&gt;resilient to the detrimental effects of age&lt;/a&gt; on cognitive function than non-meditators, and an intervention of &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/20164557&quot; target=&quot;_blank&quot;&gt;eight weeks of meditation training&lt;/a&gt; increased brain blood flow and improved cognitive function in individuals with MCI and AD.&lt;/p&gt;
-&lt;p&gt;Although it’s tempting to attribute changes in awareness to strictly biological aberrations, we cannot overlook the physical and social interactions that mold our mental state. Being labeled “demented”, infantilized or treated as incapable, as can be done to AD victims, would be damaging to anyone’s self-esteem and sense of dignity. Perhaps then, by nurturing the AD mind by reinforcing their human worth, we could dampen the pathological fire working to degrade their personhood.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Blanke O et al. (2005). Linking Out-of-Body Experience and Self Processing to Mental Own-Body Imagery at the Temporoparietal Junction. &lt;em&gt;J Neurosci&lt;/em&gt;. 25(3):550-7. doi:10.1523/JNEUROSCI.2612-04.2005&lt;/p&gt;
-&lt;p&gt;Breen N, Caine D, Coltheart M. (2001). Mirrored-self misidentification: two cases of focal onset dementia. &lt;em&gt;Neurocase&lt;/em&gt;. 7(3):239-54. doi: 10.1093/neucas/7.3.239&lt;/p&gt;
-&lt;p&gt;D’Argembeau A et al. (2005). Self-referential reflective activity and its relationship with rest: a PET study. &lt;em&gt;Neuroimage&lt;/em&gt;. 25(2):616-24. doi:10.1016/j.neuroimage.2004.11.048&lt;/p&gt;
-&lt;p&gt;Dobbins IG, Foley H, Schacter DL, Wagner AD. Executive control during episodic retrieval: multiple prefrontal processes subserve source memory. &lt;em&gt;Neuron&lt;/em&gt;. 35(5):989-96&lt;/p&gt;
-&lt;p&gt;Dukart J et al (2013). Generative FDG-PET and MRI Model of Aging and Disease Progression in Alzheimer’s Disease. &lt;em&gt;PLOS Comp Biol&lt;/em&gt;. doi:10.1371/journal.pcbi.1002987&lt;/p&gt;
-&lt;p&gt;Gil R et al. (2001). Self-consciouness and Alzheimer’s disease. &lt;em&gt;Acta Neurol Scand. &lt;/em&gt;104(5):296-300&lt;/p&gt;
-&lt;p&gt;Kalbe E et al. (2005). Anosognosia in very mild Alzheimer’s disease but not in mild cognitive impairment. &lt;em&gt;Dement Geriatr Cogn Disord&lt;/em&gt;. 19(5-6):349-56. doi:10.1159/000084704&lt;/p&gt;
-&lt;p&gt;Lipinksa B, Backman L. (1996). Feeling-of-knowing in fact retrieval: Further evidence for preservation in early Alzheimer’s disease. &lt;em&gt;J Int Neurospcyh Soc&lt;/em&gt;. 2(4):350-8. doi:10.1017/S1355617700001375&lt;/p&gt;
-&lt;p&gt;Newberg AB, Wintering N, Khasla DS, Roggenkamp H, Waldman MR. (2010). Meditation effects on cognitive function and cerebral blood flow in subjects with memory loss: a preliminary study. &lt;em&gt;J Alzheimers Dis&lt;/em&gt;. 20(2):517-26. doi:10.3233/JAD-2010-1391&lt;/p&gt;
-&lt;p&gt;Pagnoni G, Cekic M. (2007). Age effects on gray matter volume and attentional performance in Zen meditation. &lt;em&gt;Neurobiol Aging&lt;/em&gt;. 28(10):1623-7. doi:10.1016/j.neurobiolaging.2007.06.008&lt;/p&gt;
-&lt;p&gt;Pinker S. (1997). How the mind works. New York, NY: W.W. Norton &amp;amp; Company&lt;/p&gt;
-&lt;p&gt;Reynolds CF. (1998) The Loss of Self: A Family Resource for the Care of Alzheimer’s Disease and Related Disorders.” &lt;em&gt;Am J Psychiatr&lt;/em&gt;. 145(6):760 doi:10.1176/ajp.145.6.760&lt;/p&gt;
-&lt;p&gt;Risacher SL et al. (2010). Longitudinal MRI atrophy biomarkers: Relationship to conversion in the ADNI cohort. &lt;em&gt;Neurobiol Aging&lt;/em&gt;. 31(8):1401-18. doi:10.1016/j.neurobiolaging.2010.04.029&lt;/p&gt;
-&lt;p&gt;Salmon E et al. (2005). Cerebral metabolic correlates of four dementia scales in Alzheimer’s disease. &lt;em&gt;J Neurol&lt;/em&gt;. 252(3):283-90. doi:10.1007/s00415-005-0551-3&lt;/p&gt;
-&lt;p&gt;Souchay C, Isingrini M, Gil R. (2002). Alzheimer’s disease and feeling-of-knowing in episodic memory. &lt;em&gt;Neuropsychologia&lt;/em&gt;. 40(13):2386-96&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2015/09/Reas_headshot-150x150.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignright size-full wp-image-17356&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2015/09/Reas_headshot-150x150.jpg&quot; width=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/b&gt;&lt;strong&gt;Emilie Reas&lt;/strong&gt; received her PhD in Neuroscience from UC San Diego, where she used fMRI to study memory. As a postdoc at UCSD, she currently studies how the brain changes with aging and disease. In addition to her tweets for &lt;a href=&quot;https://twitter.com/PLOSNeuro&quot; target=&quot;_blank&quot;&gt;@PLOSNeuro&lt;/a&gt; she is &lt;a href=&quot;https://twitter.com/etreas&quot; target=&quot;_blank&quot;&gt;@etreas&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/xHbB15r7cKw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-03T18:46:59+00:00</dc:date>
-	<dc:creator>Emilie Reas</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=49035">
-	<title>Retraction watch: Five retractions for engineering duo in South Korea over duplication, fraudulent data</title>
-	<link>http://retractionwatch.com/2017/04/03/five-retractions-engineering-duo-south-korea-duplication-fraudulent-data/</link>
-	<content:encoded>&lt;p&gt;An engineering student in South Korea and a professor have retracted five papers from four different journals for reasons ranging from figure duplication to manipulated or fraudulent data. Jae Hyo Park, who is pursuing his PhD, and Seung Ki Joo, a professor in the department of material science and engineering at Seoul National University in South […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/03/five-retractions-engineering-duo-south-korea-duplication-fraudulent-data/&quot; rel=&quot;nofollow&quot;&gt;Five retractions for engineering duo in South Korea over duplication, fraudulent data&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-04-03T15:30:42+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/first-fluorescent-frogs-might-see-each-others-glow">
-	<title>Science News: First fluorescent frogs might see each others’ glow</title>
-	<link>https://www.sciencenews.org/article/first-fluorescent-frogs-might-see-each-others-glow</link>
-	<content:encoded>A polka dot frog, the first known fluorescent amphibian, may get a visibility boost in twilight and moonlight.</content:encoded>
-	<dc:date>2017-04-03T14:00:02+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=49092">
-	<title>Retraction watch: German funder bans researcher for five years following misconduct probe</title>
-	<link>http://retractionwatch.com/2017/04/03/german-funder-bans-researcher-five-years-following-misconduct-probe/</link>
-	<content:encoded>&lt;p&gt;A researcher in Germany has been banned from seeking money from the largest independent research funder in the country for five years after an investigation by her former employer found her guilty of misconduct. According to a recent announcement from the Deutsche Forschungsgemeinschaft (DFG), scientist Tina Wenz cannot apply for any DFG funding for five years, […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/03/german-funder-bans-researcher-five-years-following-misconduct-probe/&quot; rel=&quot;nofollow&quot;&gt;German funder bans researcher for five years following misconduct probe&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-04-03T12:36:41+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
