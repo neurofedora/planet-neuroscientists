@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/collider-data-hint-unexpected-new-subatomic-particles" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/immune-cells-play-surprising-role-steady-heartbeat" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49497" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8860" />
@@ -24,6 +25,7 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/evidence-lacking-cocooning-prevents-whooping-cough-newborns" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=22827" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8843" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21873" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21869" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/march-science-will-take-scientists-activism-new-level" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/arctic-final-garbage-dump-ocean-plastic" />
@@ -82,7 +84,6 @@
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21847" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544281a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544280a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544277a" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8705" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/early-dinosaur-relative-sported-odd-mix-bird-crocodile-traits" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22473" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0517-8a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0517-76" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0517-75" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0517-74b" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/collider-data-hint-unexpected-new-subatomic-particles">
+	<title>Science News: Collider data hint at unexpected new subatomic particles</title>
+	<link>https://www.sciencenews.org/article/collider-data-hint-unexpected-new-subatomic-particles</link>
+	<content:encoded>A set of particle decay measurements could be evidence for new physics.</content:encoded>
+	<dc:date>2017-04-20T19:47:14+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/immune-cells-play-surprising-role-steady-heartbeat">
 	<title>Science News: Immune cells play surprising role in steady heartbeat</title>
 	<link>https://www.sciencenews.org/article/immune-cells-play-surprising-role-steady-heartbeat</link>
@@ -213,6 +220,13 @@
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/04/20/testosterone-territorial-response-song-seasonally-breeding-tropical-temperate-stonechats/&quot; rel=&quot;nofollow&quot;&gt;Testosterone, territorial response, and song in seasonally breeding tropical and temperate stonechats&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-04-20T06:00:54+00:00</dc:date>
 	<dc:creator>Beate Apfelbeck</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21873">
+	<title>Nature News &amp; Comment: What all those scientists on Twitter are really doing</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/xlGl3XO2jA4/nature.2017.21873</link>
+	<content:encoded>&lt;p&gt;Analysis reveals that female researchers are over-represented on the social-media site and that mathematicians and life scientists are less likely to use it.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21873&quot;&gt;doi: 10.1038/nature.2017.21873&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/xlGl3XO2jA4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-20T00:00:00+00:00</dc:date>
+	<dc:creator>Sarah McQuate</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21869">
 	<title>Nature News &amp; Comment: Mining threatens Chinese fossil site that revealed planet's earliest animals</title>
@@ -839,13 +853,6 @@ Let’s not romanticise long-distance running. &lt;a href=&quot;http://www.slate
 	<dc:date>2017-04-18T00:00:00+00:00</dc:date>
 	<dc:creator>Sara Reardon</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/544277a">
-	<title>Nature News &amp; Comment: French-election fears unite scientists in defence of liberal democracy</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/QXVz6p6HGsQ/544277a</link>
-	<content:encoded>&lt;p&gt;Threat of a far-right president galvanizes researchers to put politics first.&lt;/p&gt;&lt;p&gt;Nature 544 277 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544277a&quot;&gt;doi: 10.1038/544277a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/QXVz6p6HGsQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-18T00:00:00+00:00</dc:date>
-	<dc:creator>Declan Butler</dc:creator>
-</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8705">
 	<title>Discovery magazine - Neuroskeptic: What are &quot;Neural Correlates&quot; Correlates Of?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8705</link>
@@ -1138,15 +1145,6 @@ Sometimes, this identification is straightforward: in a study of brai</content:e
             &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0517-75&quot;&gt;doi:10.1038/scientificamericanmind0517-75&lt;/a&gt;
 &lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/XicK0NEgvCw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-13T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0517-74b">
-	<title>Scientific American Mind: Is there a link between music and math?</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/RDc3U1AvZeI/scientificamericanmind0517-74b</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 28, 74 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0517-74b&quot;&gt;doi:10.1038/scientificamericanmind0517-74b&lt;/a&gt;
-&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/RDc3U1AvZeI&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-04-13T00:00:00+00:00</dc:date>
 </item>
 
