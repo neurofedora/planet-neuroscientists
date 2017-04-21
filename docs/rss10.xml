@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/otzi-iceman-froze-death" />
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8718" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=49554" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49488" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22537" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/top-10-science-anniversaries-2017" />
@@ -112,18 +115,38 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49358" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-particle-probably-cant-explain-nuclear-reactor-neutrino-mystery" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49371" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-one-ocean-motion-determines-tsunami-size" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-tech-harvests-drinking-water-relatively-dry-air-using-only-sunlight" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/food-microbes-found-enceladus" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/otzi-iceman-froze-death">
+	<title>Science News: Ötzi the Iceman froze to death</title>
+	<link>https://www.sciencenews.org/article/otzi-iceman-froze-death</link>
+	<content:encoded>Copper Age Iceman froze to death, with shoulder and head damage.</content:encoded>
+	<dc:date>2017-04-21T21:47:10+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8718">
+	<title>Discovery magazine - Neuroskeptic: Functional Connectivity Between Surgically Disconnected Brain Regions?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8718</link>
+	<content:encoded>A new article posted on preprint site bioRxiv has generated a lot of interest among neuroscientists on Twitter. The article reports the existence of 'functional connectivity' between surgically disconnected distant brain regions using fMRI, something that in theory shouldn't be possible.
+
+This is big news, if true, because it suggests that fMRI functional connectivity isn't entirely a reflection of actual signalling between brain areas. Rather, something else must be able to produce connectivi</content:encoded>
+	<dc:date>2017-04-21T19:26:45+00:00</dc:date>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=49554">
+	<title>Retraction watch: Chemist wins injunction against university trying to revoke her degree</title>
+	<link>http://retractionwatch.com/2017/04/21/chemist-wins-injunction-university-trying-revoke-degree/</link>
+	<content:encoded>&lt;p&gt;A scientist has won an injunction against the University of Texas at Austin, which was deciding whether or not to revoke her PhD. We’ve been covering the case of Suvi Orr, a chemist now based at Pfizer who earned a PhD in 2008, for a few years. During that time, UT has tried to revoke […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/21/chemist-wins-injunction-university-trying-revoke-degree/&quot; rel=&quot;nofollow&quot;&gt;Chemist wins injunction against university trying to revoke her degree&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-04-21T18:52:32+00:00</dc:date>
+	<dc:creator>Alison McCook</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=49488">
-	<title>Retraction watch: Dear journals: Clean up your act. Regards, Concerned Biostatistican</title>
+	<title>Retraction watch: Dear journals: Clean up your act. Regards, Concerned Biostatistician</title>
 	<link>http://retractionwatch.com/2017/04/21/dear-journals-clean-act-regards-concerned-biostatistican/</link>
 	<content:encoded>&lt;p&gt;Recently, a biostatistician sent an open letter to editors of 10 major science journals, urging them to pay more attention to common statistical problems with papers. Specifically, Romain-Daniel Gosselin, Founder and CEO of Biotelligences, which trains researchers in biostatistics, counted how many of 10 recent papers in each of the 10 journals contained two common […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/21/dear-journals-clean-act-regards-concerned-biostatistican/&quot; rel=&quot;nofollow&quot;&gt;Dear journals: Clean up your act. Regards, Concerned Biostatistican&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/21/dear-journals-clean-act-regards-concerned-biostatistican/&quot; rel=&quot;nofollow&quot;&gt;Dear journals: Clean up your act. Regards, Concerned Biostatistician&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-04-21T15:30:09+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
 </item>
@@ -1167,27 +1190,6 @@ Sometimes, this identification is straightforward: in a study of brai</content:e
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/14/researchers-commit-misconduct-new-preprint-offers-clues/&quot; rel=&quot;nofollow&quot;&gt;Why do researchers commit misconduct? A new preprint offers some clues&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-04-14T13:00:11+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/more-one-ocean-motion-determines-tsunami-size">
-	<title>Science News: More than one ocean motion determines tsunami size</title>
-	<link>https://www.sciencenews.org/article/more-one-ocean-motion-determines-tsunami-size</link>
-	<content:encoded>The horizontal movement of the seafloor during an earthquake can boost the size of the resulting tsunami, researchers propose.</content:encoded>
-	<dc:date>2017-04-14T11:00:01+00:00</dc:date>
-	<dc:creator>Thomas Sumner</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-tech-harvests-drinking-water-relatively-dry-air-using-only-sunlight">
-	<title>Science News: New tech harvests drinking water from (relatively) dry air using only sunlight</title>
-	<link>https://www.sciencenews.org/article/new-tech-harvests-drinking-water-relatively-dry-air-using-only-sunlight</link>
-	<content:encoded>A prototype device harvests moisture from dry air and separates it into drinkable water using only sunlight.</content:encoded>
-	<dc:date>2017-04-13T18:00:02+00:00</dc:date>
-	<dc:creator>Thomas Sumner</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/food-microbes-found-enceladus">
-	<title>Science News: Food for microbes found on Enceladus</title>
-	<link>https://www.sciencenews.org/article/food-microbes-found-enceladus</link>
-	<content:encoded>The underground ocean of Saturn’s moon Enceladus harbors an abundance of molecular hydrogen, which could be an important source of food if microbial life exists there.</content:encoded>
-	<dc:date>2017-04-13T18:00:02+00:00</dc:date>
-	<dc:creator>Ashley Yeager</dc:creator>
 </item>
 
 </rdf:RDF>
