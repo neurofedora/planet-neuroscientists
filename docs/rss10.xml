@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/cassinis-ring-dive-offers-first-close-saturns-cloud-tops" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-dna-bucks-tale-how-horse-was-tamed" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49683" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/zika-hides-out-bodys-hard-reach-spots" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49663" />
@@ -23,6 +25,7 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scales-ocellated-lizard-are-surprisingly-coordinated" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/in-taiwan-a-shrinking-youth-population-sparks-competition-among-universities" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/flash-card-app-for-chemistry-gamifies-learning" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21910" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22377" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-settlers-reached-americas-130000-years-ago-study-claims" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49510" />
@@ -82,7 +85,6 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=22918" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21885" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21884" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/544405a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/beetles-have-been-mooching-insect-colonies-millions-years" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49591" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22532" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/immune-cells-play-surprising-role-steady-heartbeat" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49497" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/can-we-all-become-statistical-myth-busters" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8860" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=49484" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/cassinis-ring-dive-offers-first-close-saturns-cloud-tops">
+	<title>Science News: Cassini’s ring dive offers first close-up of Saturn’s cloud tops</title>
+	<link>https://www.sciencenews.org/article/cassinis-ring-dive-offers-first-close-saturns-cloud-tops</link>
+	<content:encoded>Cassini has completed its first dive between Saturn and its rings. Along the way, it snapped stunning pics of the planet’s atmosphere.</content:encoded>
+	<dc:date>2017-04-27T21:49:13+00:00</dc:date>
+	<dc:creator>Ashley Yeager</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/ancient-dna-bucks-tale-how-horse-was-tamed">
+	<title>Science News: Ancient DNA bucks tale of how the horse was tamed</title>
+	<link>https://www.sciencenews.org/article/ancient-dna-bucks-tale-how-horse-was-tamed</link>
+	<content:encoded>DNA from ancient horses reveals early domestication involved plenty of stallions.</content:encoded>
+	<dc:date>2017-04-27T18:00:02+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=49683">
 	<title>Retraction watch: Harvard teaching hospital to pay $10 million to settle research misconduct allegations</title>
 	<link>http://retractionwatch.com/2017/04/27/harvard-teaching-hospital-pay-10-million-settle-research-misconduct-allegations/</link>
@@ -189,6 +203,13 @@
 	<link>https://www.elsevier.com/connect/flash-card-app-for-chemistry-gamifies-learning</link>
 	<content:encoded>ReactionFlash, which drills students on 550+ named reactions, was developed in collaboration with renowned research group</content:encoded>
 	<dc:date>2017-04-27T09:05:42+00:00</dc:date>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21910">
+	<title>Nature News &amp; Comment: Ancient-human genomes plucked from cave dirt</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/oiF3LCWl0DU/nature.2017.21910</link>
+	<content:encoded>&lt;p&gt;For the first time, researchers have identifed DNA of human relatives without the need to find their bones, opening new window into the past.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21910&quot;&gt;doi: 10.1038/nature.2017.21910&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/oiF3LCWl0DU&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-27T00:00:00+00:00</dc:date>
+	<dc:creator>Ewen Callaway</dc:creator>
 </item>
 <item rdf:about="http://dx.doi.org/10.1038/nature22377">
 	<title>Nature Biological Sciences Research: Structural basis of CRISPR–SpyCas9 inhibition by an anti-CRISPR protein</title>
@@ -702,13 +723,6 @@ Yes, indeed. A blog post by Daniel Barron in Scientific American yesterday claim
 	<dc:date>2017-04-25T00:00:00+00:00</dc:date>
 	<dc:creator>Daniel Cressey</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/544405a">
-	<title>Nature News &amp; Comment: Surprise El Niño causes devastation but offers lessons for ecologists</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/E-dw3_PHhmU/544405a</link>
-	<content:encoded>&lt;p&gt;How Peruvian coastal deserts respond to rains will aid future disaster response.&lt;/p&gt;&lt;p&gt;Nature 544 405 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/544405a&quot;&gt;doi: 10.1038/544405a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/E-dw3_PHhmU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-25T00:00:00+00:00</dc:date>
-	<dc:creator>Barbara Fraser</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/beetles-have-been-mooching-insect-colonies-millions-years">
 	<title>Science News: Beetles have been mooching off insect colonies for millions of years</title>
 	<link>https://www.sciencenews.org/article/beetles-have-been-mooching-insect-colonies-millions-years</link>
@@ -1059,24 +1073,6 @@ This is big news, if true, because it suggests that fMRI functional connectivity
 	<link>https://www.elsevier.com/connect/can-we-all-become-statistical-myth-busters</link>
 	<content:encoded>Making stats meaningful to media and the public; experts show how at the Cambridge Science Festival</content:encoded>
 	<dc:date>2017-04-20T14:07:17+00:00</dc:date>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=8860">
-	<title>BMC Series blog: Video blog: Changing environmental conditions causes physical and molecular changes in tomatoes</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/04/20/video-blog-changing-environmental-conditions-causes-physical-molecular-changes-tomatoes/</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/04/20/video-blog-changing-environmental-conditions-causes-physical-molecular-changes-tomatoes/&quot; rel=&quot;nofollow&quot;&gt;Video blog: Changing environmental conditions causes physical and molecular changes in tomatoes&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-04-20T13:30:10+00:00</dc:date>
-	<dc:creator>Anna Clark</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=49484">
-	<title>Retraction watch: A new record: Major publisher retracting more than 100 studies from cancer journal over fake peer reviews</title>
-	<link>http://retractionwatch.com/2017/04/20/new-record-major-publisher-retracting-100-studies-cancer-journal-fake-peer-reviews/</link>
-	<content:encoded>&lt;p&gt;Springer is retracting 107 papers from one journal after discovering they had been accepted with fake peer reviews. Yes, 107. To submit a fake review, someone (often the author of a paper) either makes up an outside expert to review the paper, or suggests a real researcher — and in both cases, provides a fake […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/20/new-record-major-publisher-retracting-100-studies-cancer-journal-fake-peer-reviews/&quot; rel=&quot;nofollow&quot;&gt;A new record: Major publisher retracting more than 100 studies from cancer journal over fake peer reviews&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-04-20T13:00:23+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
