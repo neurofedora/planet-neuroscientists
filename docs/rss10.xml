@@ -15,12 +15,18 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/lungs-enlist-immune-cells-fight-infections-capillaries" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nerve-cell-miswiring-linked-depression" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ocean-acidification-food-web-nitrogen-fixing" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/hpv-vaccine-cancer-prevention" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49674" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49687" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/key-einstein-principle-survives-quantum-test" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8909" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=23237" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21919" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21917" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21912" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21911" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/545005a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cassinis-ring-dive-offers-first-close-saturns-cloud-tops" />
@@ -75,9 +81,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/544416c" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/544416b" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/544416a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/544415a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/544414a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/544413a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fossil-groundwater-not-immune-modern-day-pollution" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-access-to-knowledge-can-help-stop-malaria" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=22950" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/top-10-science-anniversaries-2017" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49527" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/information-analytics-uniting-content-and-technology-to-serve-the-science-technology-and-health-communities" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8862" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8870" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/grand-finale-cassini-spacecraft-sets-collision-course-saturn" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/lungs-enlist-immune-cells-fight-infections-capillaries">
+	<title>Science News: Lungs enlist immune cells to fight infections in capillaries</title>
+	<link>https://www.sciencenews.org/article/lungs-enlist-immune-cells-fight-infections-capillaries</link>
+	<content:encoded>Immune cells in the lungs provide a rapid counterattack to bloodstream infections, a new study in mice finds.</content:encoded>
+	<dc:date>2017-04-28T19:01:54+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/nerve-cell-miswiring-linked-depression">
+	<title>Science News: Nerve cell miswiring linked to depression</title>
+	<link>https://www.sciencenews.org/article/nerve-cell-miswiring-linked-depression</link>
+	<content:encoded>A gene helps nerve cell axons extend to parts of the brain to deliver serotonin, a brain chemical associated with depression.</content:encoded>
+	<dc:date>2017-04-28T17:30:02+00:00</dc:date>
+	<dc:creator>Elizabeth Eaton</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/ocean-acidification-food-web-nitrogen-fixing">
+	<title>Science News: Ocean acidification may hamper food web’s nitrogen-fixing heroes</title>
+	<link>https://www.sciencenews.org/article/ocean-acidification-food-web-nitrogen-fixing</link>
+	<content:encoded>A new look at marine Trichodesmium microbes suggests trouble for nitrogen fixation in an acidifying ocean.</content:encoded>
+	<dc:date>2017-04-28T17:00:02+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-public/hpv-vaccine-cancer-prevention">
 	<title>Science News: HPV vaccine as cancer prevention is a message that needs to catch on</title>
 	<link>https://www.sciencenews.org/blog/science-public/hpv-vaccine-cancer-prevention</link>
@@ -180,6 +201,27 @@
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/alexfradera&quot;&gt;@alexfradera&lt;/a&gt;) is Contributing Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/23237/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/23237/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=23237&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-04-28T08:36:07+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21919">
+	<title>Nature News &amp; Comment: Controversial UK research reform crosses finish line</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/3z4JN0YyEqM/nature.2017.21919</link>
+	<content:encoded>&lt;p&gt;Snap general election triggers compromises in legislation overhauling how Britain’s science is funded.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21919&quot;&gt;doi: 10.1038/nature.2017.21919&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/3z4JN0YyEqM&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-28T00:00:00+00:00</dc:date>
+	<dc:creator>Daniel Cressey</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21917">
+	<title>Nature News &amp; Comment: Psychedelic compound in ecstasy moves closer to approval to treat PTSD</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Zeh0TCkKw9M/nature.2017.21917</link>
+	<content:encoded>&lt;p&gt;A promising treatment that uses MDMA could help people suffering with post-traumatic stress disorder.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21917&quot;&gt;doi: 10.1038/nature.2017.21917&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Zeh0TCkKw9M&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-28T00:00:00+00:00</dc:date>
+	<dc:creator>Amy Maxmen</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21912">
+	<title>Nature News &amp; Comment: Golden neurons, river piracy and bright nights</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Lou0sJWQVZ8/nature.2017.21912</link>
+	<content:encoded>&lt;p&gt;April’s sharpest science shots, selected by  Nature ’s photo team.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21912&quot;&gt;doi: 10.1038/nature.2017.21912&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Lou0sJWQVZ8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-04-28T00:00:00+00:00</dc:date>
+	<dc:creator>Daniel Cressey</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21911">
 	<title>Nature News &amp; Comment: Huge Arctic report ups estimates of sea-level rise</title>
@@ -614,27 +656,6 @@ Yes, indeed. A blog post by Daniel Barron in Scientific American yesterday claim
 	<dc:date>2017-04-26T00:00:00+00:00</dc:date>
 	<dc:creator>Vinicius J. Giglio</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/544415a">
-	<title>Nature News &amp; Comment: Books in brief</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/4n7rwqLaHgI/544415a</link>
-	<content:encoded>&lt;p&gt;Barbara Kiser reviews five of the week's best science picks.&lt;/p&gt;&lt;p&gt;Nature 544 415 &lt;a href=&quot;http://dx.doi.org/10.1038/544415a&quot;&gt;doi: 10.1038/544415a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/4n7rwqLaHgI&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-26T00:00:00+00:00</dc:date>
-	<dc:creator>Barbara Kiser</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/544414a">
-	<title>Nature News &amp; Comment: Psychology: Science in spite of itself</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/6EylQPoZr_Q/544414a</link>
-	<content:encoded>&lt;p&gt;Barbara A. Spellman hails an analysis of reproducibility in psychology by a champion for change.&lt;/p&gt;&lt;p&gt;Nature 544 414 &lt;a href=&quot;http://dx.doi.org/10.1038/544414a&quot;&gt;doi: 10.1038/544414a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/6EylQPoZr_Q&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-26T00:00:00+00:00</dc:date>
-	<dc:creator>Barbara A. Spellman</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/544413a">
-	<title>Nature News &amp; Comment: Artificial Intelligence: Chess match of the century</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/kBH59Us6SqY/544413a</link>
-	<content:encoded>&lt;p&gt;Demis Hassabis lauds Garry Kasparov's account of battling supercomputer Deep Blue.&lt;/p&gt;&lt;p&gt;Nature 544 413 &lt;a href=&quot;http://dx.doi.org/10.1038/544413a&quot;&gt;doi: 10.1038/544413a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/kBH59Us6SqY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-26T00:00:00+00:00</dc:date>
-	<dc:creator>Demis Hassabis</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/fossil-groundwater-not-immune-modern-day-pollution">
 	<title>Science News: ‘Fossil’ groundwater is not immune to modern-day pollution</title>
 	<link>https://www.sciencenews.org/article/fossil-groundwater-not-immune-modern-day-pollution</link>
@@ -1013,60 +1034,6 @@ This is big news, if true, because it suggests that fMRI functional connectivity
 	<link>https://www.elsevier.com/connect/information-analytics-uniting-content-and-technology-to-serve-the-science-technology-and-health-communities</link>
 	<content:encoded>An annual look at our performance data, recent highlights – and evidence of Elsevier emerging as an information analytics company</content:encoded>
 	<dc:date>2017-04-21T13:04:06+00:00</dc:date>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=8862">
-	<title>BMC Series blog: Hemophilia: More than a male only disorder</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/04/21/hemophilia-male-disorder/</link>
-	<content:encoded>&lt;img alt=&quot;© jarun011 / Fotolia&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/04/Fotolia-Hemophilia-positive-jarun011-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;Bleeding disorders often arise when there is a problem with the clotting process. Hemostasis is the process by which the body arrests bleeding via the damaged blood vessels and it involves three major steps: vasoconstriction, formation of a temporary blockage (platelet plug), and blood coagulation. When injury causes a blood vessel to bleed, vascular constriction limits the flow of blood to the injured area. The vessel wall injury, via a series of reactions, triggers the attachment and activation of platelets which aggregates at the site of injury. Platelets adhere to collagen which becomes exposed in the endothelial cell lining of blood vessels at the site of injury creating the platelet plug. Initial platelet adhesion is to von Willebrand factor, a major component in the blood coagulation process. Coagulation factor VIII circulates in the blood stream in an inactive form when bound to von Willebrand factor.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_8866&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;© science photo / Fotolia&quot; class=&quot;size-medium wp-image-8866&quot; height=&quot;240&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/04/Fotolia_69426835_Subscription_Yearly_XXL.jpg-smaller-300x240.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;© science photo / Fotolia&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;When injury to a blood vessel occurs, factor VIII becomes activated and separates from von Willebrand factor and interacts with factor IX, another coagulation factor. This interaction sets off a chain of additional chemical reactions that form a &lt;a href=&quot;https://ghr.nlm.nih.gov/gene/F8&quot;&gt;blood clot&lt;/a&gt;. Activation of a sequence of blood clotting factors generates thrombin which converts fibrinogen to fibrin. Fibrin mesh is then produced around the hemostatic plug in turn strengthening the clot.&lt;/p&gt;
-&lt;p&gt;von Willebrand disease is the most common type of bleeding disorder and is &lt;a href=&quot;http://elearning.wfh.org/elearning-centres/vwd/#what_is_von_willebrand_disease&quot;&gt;usually less severe&lt;/a&gt; in comparison to other bleeding disorders. It occurs due to decrease in or malfunctioning von Willebrand factor activity which ultimately affects the hemostasis process and slows the formation of blood clots resulting in prolonged bleeding episodes. It is estimated that around 1% of the world’s population is affected by von Willebrand disease.&lt;/p&gt;
-&lt;p&gt;Hemophilia is a bleeding disorder where the blood is unable to clot properly. It can lead to spontaneous bleeding as well as bleeding after injury or surgery. Those who suffer from hemophilia can bleed longer than usual, although &lt;a href=&quot;https://www.wfh.org/en/page.aspx?pid=646&quot;&gt;not faster&lt;/a&gt;. There are two main types of hemophilia which are hemophilia A and hemophilia B with the former being the most common of the two. Although it is the most common type of hemophilia, it is a rare condition and it affects about &lt;a href=&quot;http://haemophilia.org.uk/bleeding-disorders/haemophilia-a/&quot;&gt;one in every 10,000 males&lt;/a&gt; whilst hemophilia B affects &lt;a href=&quot;http://haemophilia.org.uk/bleeding-disorders/haemophilia-b/&quot;&gt;one in every 50,000 males&lt;/a&gt;. The condition arises when a mutation or change occurs in one of the genes that provide instructions for making the clotting factor proteins needed to form a blood clot thus resulting in reduced production or deficiency of the respective clotting factor. The F8 gene and F9 gene, both situated on the X-chromosome, provides the instructions for producing coagulation factors VIII and IX respectively. A mutation in the F8 gene causes hemophilia A whilst a mutation in the F9 gene results in hemophilia B. Suffers therefore have low levels of either clotting factor VIII or IX and the severity is determined by the level of the factor in the blood.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignleft&quot; id=&quot;attachment_8867&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;iStockPhoto&quot; class=&quot;size-medium wp-image-8867&quot; height=&quot;225&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/04/Chromosome-300x225.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;iStockPhoto&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;Due to the sex-linkage of the disorder, the &lt;a href=&quot;http://www.who.int/genomics/public/geneticdiseases/en/index2.html#Haemophilia&quot;&gt;prominence&lt;/a&gt; amongst male is greater than in females. Although the disorder mainly affects males, females can be carriers of the affected gene and experience symptoms. Hemophilia is a hereditary bleeding disorder. However, it has been found that in about a &lt;a href=&quot;http://www.who.int/genomics/public/geneticdiseases/en/index2.html#Haemophilia&quot;&gt;third&lt;/a&gt; of new diagnoses there is no previous family history. This could be due to &lt;a href=&quot;http://www.medicalnewstoday.com/info/hemophilia/types-of-hemophilia.php&quot;&gt;new or spontaneous genetic mutations&lt;/a&gt;. It is estimated that worldwide, around 400,000 people are living with hemophilia with 20,000 of these cases present in the &lt;a href=&quot;http://www.hemophiliafed.org/bleeding-disorders/hemophilia/&quot;&gt;United States&lt;/a&gt; and around 6,000 in the &lt;a href=&quot;http://www.who.int/genomics/public/geneticdiseases/en/index2.html#Haemophilia&quot;&gt;United Kingdom&lt;/a&gt;. Main symptoms can include a prolonged bleeding from cuts, a tendency to bruise easily especially in early childhood, and bleeding into joints and muscles causing pain, swelling, and stiffness which can result in joint deformity and limitation of movement if left untreated. Women can experience prolonged or heavy menstrual bleeding (menorrhagia) and the &lt;a href=&quot;http://elearning.wfh.org/elearning-centres/carriers-and-women-with-hemophilia/#carriers_bleeding_symptoms&quot;&gt;excessive blood loss&lt;/a&gt; can lead to anemia resulting in weakness and fatigue. In general, during the process of ovulation, women can develop simple/ functional ovarian cysts which are small and not usually problematic. However, it has been found that carriers of hemophilia are more likely to experience significant bleeding during ovulation and have a greater risk of bleeding into these simple cysts which then become &lt;a href=&quot;http://elearning.wfh.org/elearning-centres/carriers-and-women-with-hemophilia/#carriers_bleeding_symptoms&quot;&gt;hemorrhagic ovarian cysts&lt;/a&gt; that can cause considerable pain and may require urgent medical intervention. Women with hemophilia are also more likely to have postpartum bleeding following &lt;a href=&quot;http://elearning.wfh.org/elearning-centres/carriers-and-women-with-hemophilia/#carriers_bleeding_symptoms&quot;&gt;childbirth&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It has been reported that of the 400,000 people living with hemophilia worldwide, only around &lt;a href=&quot;https://www.wfh.org/en/page.aspx?pid=642&quot;&gt;25%&lt;/a&gt; receive adequate treatment. The recommended treatment plan for hemophilia depends on the severity of the condition. The main treatment for hemophilia is &lt;a href=&quot;https://www.nhlbi.nih.gov/health/health-topics/topics/hemophilia/treatment&quot;&gt;replacement therapy&lt;/a&gt; whereby the missing clotting factor is slowly dripped or injected into a vein. A CDC- sponsored &lt;a href=&quot;http://www.nejm.org/doi/full/10.1056/NEJMoa067659#t=article&quot;&gt;randomised clinical trial&lt;/a&gt; found that regular treatment to prevent bleeding (prophylaxis with recombinant factor VIII) was effective in preventing joint damage and decreased the frequency of joint and other hemorrhages in young boys with severe hemophilia. The children who were treated on a regular basis also had less evidence of joint damage by 6 years of age than did those who were treated after a bleed had commenced.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_8865&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;© curlymary / Fotolia&quot; class=&quot;size-medium wp-image-8865&quot; height=&quot;200&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/04/Fotolia-Medic-with-tube-of-blood-takes-a-blood-test.-World-hemophilia-day-curlymary-300x200.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;© curlymary / Fotolia&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;However, factor replacement therapy has its limitations as it has been found that approximately &lt;a href=&quot;https://bmchematol.biomedcentral.com/articles/10.1186/s12878-014-0019-8&quot;&gt;25–30%&lt;/a&gt; of people with severe hemophilia A and &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3934290/&quot;&gt;1–5%&lt;/a&gt; of people with severe hemophilia B develop an antibody (inhibitor) to the treatment which causes major complications.&lt;/p&gt;
-&lt;p&gt;There are a number of new therapies under development which include gene therapy where researchers are investigating means by which the faulty genes that cause bleeding disorders such as hemophilia can be corrected. &lt;a href=&quot;https://www.cdc.gov/ncbddd/hemophilia/research.html&quot;&gt;Research&lt;/a&gt; is also being conducted to design and implement interventions that will help combat complications. Although there is no cure for hemophilia, with the right treatment, care, and lifestyle changes, those who suffer from hemophilia can lead fulfilled lives.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;If you are interested in reading more on this topic, please visit the &lt;a href=&quot;https://bmchematol.biomedcentral.com/&quot;&gt;&lt;em&gt;BMC Hematology&lt;/em&gt; &lt;/a&gt;website. The journal welcomes submissions on non-malignant and malignant hematological diseases, hemostasis and thrombosis, hematopoiesis, stem cells and transplantation. Related papers which detail basic, experimental and clinical research can be submitted to the journal &lt;a href=&quot;https://www.editorialmanager.com/bhem/default.aspx&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The following are a few of the interesting picks and recent publications in the journal covering the area of hemophilia:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmchematol.biomedcentral.com/articles/10.1186/s12878-016-0067-3&quot;&gt;Adherence to treatment regimen and bleeding rates in a prospective cohort of youth and young adults on low-dose daily prophylaxis for severe hemophilia A&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmchematol.biomedcentral.com/articles/10.1186/s12878-016-0052-x&quot;&gt;Generic and disease-specific quality of life among youth and young men with Hemophilia in Canada&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmchematol.biomedcentral.com/articles/10.1186/s12878-015-0022-8&quot;&gt;Prophylaxis in older Canadian adults with hemophilia A: lessons and more questions&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmchematol.biomedcentral.com/articles/10.1186/s12878-014-0019-8&quot;&gt;The IL-10 polarized cytokine pattern in innate and adaptive immunity cells contribute to the development of FVIII inhibitors&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/04/21/hemophilia-male-disorder/&quot; rel=&quot;nofollow&quot;&gt;Hemophilia: More than a male only disorder&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-04-21T12:48:13+00:00</dc:date>
-	<dc:creator>Nawsheen Boodhun</dc:creator>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=8870">
-	<title>BMC Series blog: BMC Rheumatology: a new addition to the BMC series!</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/04/21/bmc-rheumatology-new-addition-bmc-series/</link>
-	<content:encoded>&lt;img alt=&quot;Word Cloud(1)&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/04/Word-Cloud1-140x110.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;Rheumatology is a branch of medicine that is mainly concerned with disorders of joints, soft tissues, autoimmune diseases, vasculitis, and heritable connective tissue disorders – collectively known as rheumatic diseases. As these disorders generally involve inflammation/the immune system, rheumatology is generally seen as increasingly moving in the direction of autoimmunity.&lt;/p&gt;
-&lt;p&gt;The most common, and therefore well studied, rheumatic diseases are osteoarthritis and rheumatoid arthritis, which cause pain and inflammation of joints and affect approximately 8.5 million people in the UK alone. However, these two conditions are just a couple of examples of rheumatic diseases as this umbrella term incorporates over 200 disorders. As illustrated in the figure above, these include conditions such as giant cell arteritis, fibromyalgia, Sjögren’s syndrome, sarcoidosis, gout and lupus, to name just a few.&lt;/p&gt;
-&lt;p&gt;Given the nature of these conditions, they are often referred to as systematic and inflammatory rheumatic diseases. In addition to the burden of the rheumatic diseases themselves, it is now becoming clear that there are an increasing number of co-morbidities associated with rheumatic diseases, including cardiovascular disease, malignancies and infections.&lt;/p&gt;
-&lt;p&gt;It is upon this background that &lt;em&gt;BMC Rheumatology&lt;/em&gt; is being launched to provide the rheumatology community with an open access avenue to disseminate research findings into these diseases with the ultimate aim of improving patient care. As a member of the &lt;a href=&quot;https://www.biomedcentral.com/p/the-bmc-series-journals&quot;&gt;&lt;em&gt;BMC&lt;/em&gt; series&lt;/a&gt;, the ethos of &lt;em&gt;BMC Rheumatology&lt;/em&gt; will be &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2016/12/05/vital-importance-inclusive/&quot;&gt;open and inclusive&lt;/a&gt;, and the Journal will not make editorial decisions on the basis of the interest of a study or its likely impact. Like other journals in the &lt;em&gt;BMC &lt;/em&gt;series, submissions will be rigorously peer reviewed to assess scientific validity. Furthermore, as an open access peer-reviewed journal, published articles will be freely available to all readers whatever their location.&lt;/p&gt;
-&lt;p&gt;The remit of &lt;a href=&quot;http://bmcrheumatol.biomedcentral.com/about&quot;&gt;&lt;em&gt;BMC Rheumatology&lt;/em&gt;&lt;/a&gt; will be to consider research on all aspects of the prevention, treatment and management of rheumatic diseases, including osteoarthritis and rheumatoid arthritis, but the Journal will place a special emphasis on systemic and inflammatory conditions and connective tissue diseases, along with related co-morbidities.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://bmcrheumatol.biomedcentral.com/&quot;&gt;&lt;em&gt;BMC Rheumatology&lt;/em&gt;&lt;/a&gt; will complement and expand the open access journal portfolio within the area of rheumatology at BioMed Central and will be a sister journal to &lt;a href=&quot;https://bmcmusculoskeletdisord.biomedcentral.com/&quot;&gt;&lt;em&gt;BMC Musculoskeletal Disorders&lt;/em&gt;&lt;/a&gt; within the &lt;em&gt;BMC&lt;/em&gt; series. Although there is some overlap in scope, &lt;em&gt;BMC Rheumatology&lt;/em&gt; and &lt;em&gt;BMC Musculoskeletal Disorders&lt;/em&gt; will sit very comfortably alongside each other: &lt;em&gt;BMC Musculoskeletal Disorders&lt;/em&gt; will have a focus on studies with a definite musculoskeletal component (i.e. bone, cartilage, tendon etc.), whereas &lt;em&gt;BMC Rheumatology&lt;/em&gt; will cover all areas of rheumatology, including systemic conditions and related co-morbidities, which are topics that will fall outside the scope of &lt;em&gt;BMC Musculoskeletal Disorders&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;To encompass the spectrum of rheumatology research, &lt;em&gt;BMC Rheumatology&lt;/em&gt; will be supported by an international &lt;a href=&quot;http://bmcrheumatol.biomedcentral.com/about/editorial-board&quot;&gt;Editorial Board&lt;/a&gt;, with oversight from three expert Section Editors:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;‘Clinical rheumatology’ edited by Susan Goodman (Hospital for Special Surgery, New York, USA)&lt;/li&gt;
-&lt;li&gt;‘Epidemiology and public health’ section edited by Edward Roddy (Keele University, UK)&lt;/li&gt;
-&lt;li&gt;‘Pre-clincial and translational science’ edited by Alessia Alunno (University of Perugia, Italy)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Section Editors will be pleased to consider papers on all aspects of rheumatology across a variety of article types, including &lt;a href=&quot;http://bmcrheumatol.biomedcentral.com/submission-guidelines/preparing-your-manuscript/research-article&quot;&gt;Research articles&lt;/a&gt; and &lt;a href=&quot;http://bmcrheumatol.biomedcentral.com/submission-guidelines/preparing-your-manuscript/case-report&quot;&gt;Case reports&lt;/a&gt;, as well &lt;a href=&quot;http://bmcrheumatol.biomedcentral.com/submission-guidelines/preparing-your-manuscript/study-protocol&quot;&gt;Study protocols&lt;/a&gt; for proposed or ongoing prospective clinical research.&lt;/p&gt;
-&lt;p&gt;Why not submit your next paper to the journal? &lt;em&gt;BMC Rheumatology&lt;/em&gt; will have its launch issue in November 2017, so submit now and be part of the journal’s launch.&lt;/p&gt;
-&lt;p&gt;If you would like to know more about the journal, please do contact me, the journal’s Editor, by email (&lt;a href=&quot;mailto:james.mockridge@biomedcentral.com&quot;&gt;james.mockridge@biomedcentral.com&lt;/a&gt;). I will also be attending &lt;a href=&quot;https://www.eiseverywhere.com/ehome/174079&quot;&gt;Rheumatology 2017&lt;/a&gt; (25-27 April, Birmingham, UK) and &lt;a href=&quot;http://www.congress.eular.org/&quot;&gt;EULAR 2017&lt;/a&gt; (14-17 June, Madrid, Spain), and will be pleased to meet to discuss the journal further and answer any questions.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/04/21/bmc-rheumatology-new-addition-bmc-series/&quot; rel=&quot;nofollow&quot;&gt;BMC Rheumatology: a new addition to the BMC series!&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-04-21T11:16:26+00:00</dc:date>
-	<dc:creator>James Mockridge</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/grand-finale-cassini-spacecraft-sets-collision-course-saturn">
-	<title>Science News: In ‘grand finale,’ Cassini spacecraft sets off on collision course with Saturn</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/grand-finale-cassini-spacecraft-sets-collision-course-saturn</link>
-	<content:encoded>The Cassini spacecraft will plunge into Saturn’s atmosphere and disintegrate on Sept. 15, but is slated to do some solid science before its demise.</content:encoded>
-	<dc:date>2017-04-21T11:00:02+00:00</dc:date>
-	<dc:creator>Ashley Yeager</dc:creator>
 </item>
 
 </rdf:RDF>
