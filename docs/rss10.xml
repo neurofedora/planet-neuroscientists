@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8747" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/trackers-may-tip-warbler-odds-returning-nest" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-printer-creates-color-shaping-nanostructures" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49799" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8937" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49883" />
@@ -112,13 +115,34 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=23133" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scales-ocellated-lizard-are-surprisingly-coordinated" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/in-taiwan-a-shrinking-youth-population-sparks-competition-among-universities" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/flash-card-app-for-chemistry-gamifies-learning" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22377" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-settlers-reached-americas-130000-years-ago-study-claims" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8747">
+	<title>Discovery magazine - Neuroskeptic: Is &quot;Allostasis&quot; The Brain's Essential Function?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8747</link>
+	<content:encoded>A paper just published in Nature Human Behaviour makes some big claims about the brain. It's called Evidence for a large-scale brain system supporting allostasis and interoception in humans, but how much is evidence and how much is speculation?
+
+
+
+The authors, Ian R. Kleckner and colleagues of Northeastern University, argue that a core function of the brain is allostasis, which they define as the process by which the brain &quot;efficiently maintains energy regulation in the body&quot;. Allostasis ent</content:encoded>
+	<dc:date>2017-05-05T18:53:00+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/trackers-may-tip-warbler-odds-returning-nest">
+	<title>Science News: Trackers may tip a warbler’s odds of returning to its nest</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/trackers-may-tip-warbler-odds-returning-nest</link>
+	<content:encoded>Geolocator devices that help track migrating birds could also hamper migration survival or timing.</content:encoded>
+	<dc:date>2017-05-05T18:30:02+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/new-printer-creates-color-shaping-nanostructures">
+	<title>Science News: New printer creates color by shaping nanostructures</title>
+	<link>https://www.sciencenews.org/article/new-printer-creates-color-shaping-nanostructures</link>
+	<content:encoded>Researchers developed the structure-based color printing technique as an alternative to ink-based printing, in which colors fade with time.</content:encoded>
+	<dc:date>2017-05-05T18:00:02+00:00</dc:date>
+	<dc:creator>Ashley Yeager</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=49799">
 	<title>Retraction watch: Ecologist loses appeal for whistleblower protection</title>
 	<link>http://retractionwatch.com/2017/05/05/ecologist-loses-appeal-whistleblower-protection/</link>
@@ -1001,28 +1025,6 @@ Ienca and Andorno begin by noting that it has long been held that the mind is &q
 	<link>https://www.elsevier.com/connect/in-taiwan-a-shrinking-youth-population-sparks-competition-among-universities</link>
 	<content:encoded>Taiwanese universities must demonstrate the impact of their research, recruit international faculty, and support global collaboration</content:encoded>
 	<dc:date>2017-04-27T09:46:04+00:00</dc:date>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/flash-card-app-for-chemistry-gamifies-learning">
-	<title>Elsevier Connect: Flash card app for chemistry gamifies learning</title>
-	<link>https://www.elsevier.com/connect/flash-card-app-for-chemistry-gamifies-learning</link>
-	<content:encoded>ReactionFlash, which drills students on 550+ named reactions, was developed in collaboration with renowned research group</content:encoded>
-	<dc:date>2017-04-27T09:05:42+00:00</dc:date>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature22377">
-	<title>Nature Biological Sciences Research: Structural basis of CRISPR–SpyCas9 inhibition by an anti-CRISPR protein</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/8sPOZZ7uAg4/nature22377</link>
-	<content:encoded>&lt;p&gt;
-             The CRISPR-Cas9 systems are bacterial encoded adaptive immune systems to defend against phages infection, through RNA-guided endonuclease activity of Cas9 to degrade double-stranded DNA bearing a protospacer adjacent motif (PAM) and complementary sequences to the guide RNA1,2,3,4,5. Recently, two anti-CRISPR proteins AcrIIA2 and AcrIIA4 from Listeria monocytogenes (Lmo) prophages have been identified, both of which potently inhibit Streptococcus pyogenes Cas9 (SpyCas9) and LmoCas9 activity in bacteria and human cells6. However, the mechanism of AcrIIA2- or AcrIIA4-mediated Cas9 inhibition remains unknown. Here we report a crystal structure of SpyCas9 in complex with a single guide RNA (sgRNA) and AcrIIA4. Our data show that AcrIIA2 and AcrIIA4 interact with SpyCas9 in a sgRNA-dependent manner. The structure reveals that AcrIIA4 inhibits SpyCas9 activity through structurally mimicking PAM to occupy the PAM-interacting site in PI domain, thereby blocking SpyCas9 recognition of dsDNA substrates. AcrIIA4 further inhibits the endonuclease activity of SpyCas9 by shielding its RuvC active site. Structural comparison reveals that formation of the AcrIIA4 binding site of SpyCas9 is induced by sgRNA binding. Our study reveals the mechanism of SpyCas9 inhibition by AcrIIA4, laying a structural basis for developing &quot;off-switch&quot; tools of SpyCas9 to avoid unwanted genome edits within cells and tissues. 
-        &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature22377&quot;&gt;doi: 10.1038/nature22377&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/8sPOZZ7uAg4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-04-27T00:00:00+00:00</dc:date>
-	<dc:creator>De Dong</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/first-settlers-reached-americas-130000-years-ago-study-claims">
-	<title>Science News: First settlers reached Americas 130,000 years ago, study claims</title>
-	<link>https://www.sciencenews.org/article/first-settlers-reached-americas-130000-years-ago-study-claims</link>
-	<content:encoded>Mastodon site suggests first Americans arrived unexpectedly early.</content:encoded>
-	<dc:date>2017-04-26T17:00:02+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
