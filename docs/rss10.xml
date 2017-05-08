@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8771" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49933" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/oxygen-comet-67p-might-not-be-ancient-after-all" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22534" />
@@ -24,6 +25,7 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/florida-theyre-fighting-mosquitoes-meddling-their-sex-lives" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8902" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/thriving-or-surviving-taking-a-wide-angle-on-mental-health" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21954" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.21952" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/545134a" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49912" />
@@ -86,7 +88,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545030d" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545030c" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545030b" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545030a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/crack-antarcticas-larsen-c-ice-shelf-splits-two" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49800" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49641" />
@@ -114,16 +115,27 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/hpv-vaccine-cancer-prevention" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49674" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49687" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/key-einstein-principle-survives-quantum-test" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8771">
+	<title>Discovery magazine - Neuroskeptic: Neuropeptides and Peer Review Failure</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8771</link>
+	<content:encoded>A new paper in the prestigious journal PNAS contains a rather glaring blooper.
+
+The paper, from Oxford University researchers Eiluned Pearce et al., is about the relationship between genes and social behaviour. The blooper is right there in the abstract, which states that &quot;three neuropeptides (β-endorphin, oxytocin, and dopamine) play particularly important roles&quot; in human sociality. But dopamine is not a neuropeptide.
+
+
+
+Neither are serotonin or testosterone, but throughout the paper, Pea</content:encoded>
+	<dc:date>2017-05-08T17:08:36+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=49933">
-	<title>Retraction watch: Retracted vaccine-autism study republished</title>
+	<title>Retraction watch: Updated: Vaccine-autism study retracted — again</title>
 	<link>http://retractionwatch.com/2017/05/08/retracted-vaccine-autism-study-republished/</link>
-	<content:encoded>&lt;p&gt;A study that raised a furor last year for suggesting vaccines raise the risk of autism and other neurodevelopmental disorders — prompting a journal to quickly retract it — appears to have been republished in a new journal. Although the titles of the two papers have changed, the abstracts are nearly identical. Both studies surveyed the parents […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/08/retracted-vaccine-autism-study-republished/&quot; rel=&quot;nofollow&quot;&gt;Retracted vaccine-autism study republished&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<content:encoded>&lt;p&gt;For the second time, a journal has quickly retracted a study that suggested vaccines raise the risk of autism and other neurodevelopmental disorders. The study first raised a furor last year, prompting a Frontiers journal to quickly retract it. After it was republished in the Journal of Translational Science this month, that journal has also retracted it. […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/08/retracted-vaccine-autism-study-republished/&quot; rel=&quot;nofollow&quot;&gt;Updated: Vaccine-autism study retracted — again&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-05-08T16:46:26+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
 </item>
@@ -227,6 +239,13 @@
 	<link>https://www.elsevier.com/connect/thriving-or-surviving-taking-a-wide-angle-on-mental-health</link>
 	<content:encoded>Free article collection explores what’s behind good mental health – for Mental Health Awareness Week #MHAW</content:encoded>
 	<dc:date>2017-05-08T06:24:05+00:00</dc:date>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21954">
+	<title>Nature News &amp; Comment: Science can tell us only so much about Stradivarius violins</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/xUAw7CEABgI/nature.2017.21954</link>
+	<content:encoded>&lt;p&gt;There might be more to the reputation of these instruments than can be easily assessed with blind testing, says Philip Ball.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.21954&quot;&gt;doi: 10.1038/nature.2017.21954&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/xUAw7CEABgI&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-05-08T00:00:00+00:00</dc:date>
+	<dc:creator>Philip Ball</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.21952">
 	<title>Nature News &amp; Comment: Scientists relieved by Emmanuel Macron’s French election victory</title>
@@ -757,13 +776,6 @@ The paper is a meta-analysis just published by Norwegian researchers Mathias Val
 	<dc:date>2017-05-03T00:00:00+00:00</dc:date>
 	<dc:creator>Robert Blakemore</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/545030a">
-	<title>Nature News &amp; Comment: Publishing: One submission to all journals</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/3kwWQ33OtOY/545030a</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 545 30 &lt;a href=&quot;http://dx.doi.org/10.1038/545030a&quot;&gt;doi: 10.1038/545030a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/3kwWQ33OtOY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-05-03T00:00:00+00:00</dc:date>
-	<dc:creator>Tim Birkhead</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/crack-antarcticas-larsen-c-ice-shelf-splits-two">
 	<title>Science News: Crack in Antarctica’s Larsen C ice shelf forks</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/crack-antarcticas-larsen-c-ice-shelf-splits-two</link>
@@ -1029,13 +1041,6 @@ Ienca and Andorno begin by noting that it has long been held that the mind is &q
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/04/28/200m-research-misconduct-case-duke-moving-forward-judge-denies-motion-dismiss/&quot; rel=&quot;nofollow&quot;&gt;$200M research misconduct case against Duke moving forward, as judge denies motion to dismiss&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-04-28T13:35:34+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/key-einstein-principle-survives-quantum-test">
-	<title>Science News: Key Einstein principle survives quantum test</title>
-	<link>https://www.sciencenews.org/article/key-einstein-principle-survives-quantum-test</link>
-	<content:encoded>Particles in quantum superposition adhere to the equivalence principle in atomic test.</content:encoded>
-	<dc:date>2017-04-28T11:28:33+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
