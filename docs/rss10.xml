@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-museum-exhibit-explores-science-racism" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8769" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50065" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50031" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sea-creatures-sticky-mucus-houses-catch-ocean-carbon-really-fast" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49840" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49832" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-us-fell-short-mosquito-eradication" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-museum-exhibit-explores-science-racism">
+	<title>Science News: New museum exhibit explores science of racism</title>
+	<link>https://www.sciencenews.org/article/new-museum-exhibit-explores-science-racism</link>
+	<content:encoded>“Us and Them,” a new exhibit at the Musée de l’Homme in Paris, draws on genetics, psychology, anthropology and sociology to examine why racism and prejudice persist.</content:encoded>
+	<dc:date>2017-05-14T12:00:02+00:00</dc:date>
+	<dc:creator>Laura Spinney</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8769">
 	<title>Discovery magazine - Neuroskeptic: Sergio Canavero: Will His Head Transplants Roll?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8769</link>
@@ -1118,13 +1125,6 @@ The authors, Ian R. Kleckner and colleagues of Northeastern University, argue th
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/04/publisher-backs-dispute-society-journal-name/&quot; rel=&quot;nofollow&quot;&gt;Publisher backs down in dispute with society over journal name&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-05-04T13:30:51+00:00</dc:date>
 	<dc:creator>amarcus41</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/50-years-ago-us-fell-short-mosquito-eradication">
-	<title>Science News: 50 years ago, U.S. fell short on mosquito eradication</title>
-	<link>https://www.sciencenews.org/article/50-years-ago-us-fell-short-mosquito-eradication</link>
-	<content:encoded>Researchers boldly predicted mosquitoes’ demise 50 years ago. They never came close.</content:encoded>
-	<dc:date>2017-05-04T12:00:01+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
 </item>
 
 </rdf:RDF>
