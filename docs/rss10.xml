@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/higher-temperatures-could-trigger-uptick-damselfly-cannibalism" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=49902" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22642" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/blennies-have-lot-fang-such-little-fishes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22334" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22325" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22323" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22308" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/higher-temperatures-could-trigger-uptick-damselfly-cannibalism">
+	<title>Science News: Higher temperatures could trigger an uptick in damselfly cannibalism</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/higher-temperatures-could-trigger-uptick-damselfly-cannibalism</link>
+	<content:encoded>Experiments in the lab suggest that increases in temperature could indirectly lead to an increase in cannibalistic damselfly nymphs.</content:encoded>
+	<dc:date>2017-05-16T23:05:01+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=49902">
 	<title>Retraction watch: Journal retracts paper eight months after U.S. Feds announce findings of misconduct</title>
 	<link>http://retractionwatch.com/2017/05/16/journal-retracts-paper-eight-months-u-s-feds-announce-findings-misconduct/</link>
@@ -1135,15 +1142,6 @@ When exactly do you mean?”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature22323&quot;&gt;doi: 10.1038/nature22323&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/xSI9B0Tt1C0&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-05-10T00:00:00+00:00</dc:date>
 	<dc:creator>Jing Shan Lim</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature22308">
-	<title>Nature Biological Sciences Research: Predictive compound accumulation rules yield a broad-spectrum antibiotic</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/QDCENPuXaXU/nature22308</link>
-	<content:encoded>&lt;p&gt;
- Most small molecules are unable to rapidly traverse the outer membrane of Gram-negative bacteria and accumulate inside these cells, making the discovery of much-needed drugs against these pathogens challenging. Current understanding of the physicochemical properties that dictate small-molecule accumulation in Gram-negative bacteria is largely based on retrospective analyses of antibacterial agents, which suggest that polarity and molecular weight are key factors. Here we assess the ability of over 180 diverse compounds to accumulate in Escherichia coli. Computational analysis of the results reveals major differences from the retrospective studies, namely that the small molecules that are most likely to accumulate contain an amine, are amphiphilic and rigid, and have low globularity. These guidelines were then applied to convert deoxynybomycin, a natural product that is active only against Gram-positive organisms, into an antibiotic with activity against a diverse panel of multi-drug-resistant Gram-negative pathogens. We anticipate that these findings will aid in the discovery and development of antibiotics against Gram-negative bacteria. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature22308&quot;&gt;doi: 10.1038/nature22308&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/QDCENPuXaXU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-05-10T00:00:00+00:00</dc:date>
-	<dc:creator>Michelle F. Richter</dc:creator>
 </item>
 
 </rdf:RDF>
