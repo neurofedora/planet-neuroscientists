@@ -15,6 +15,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/transplanted-stem-cells-become-eggs-sterile-mice" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=50145" />
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-05-18:/2017/05/18/introduction-to-signal-processing-using-fft.html" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=50142" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-earth-based-telescope-spotted-saturns-fourth-ring" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=23968" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-its-hot-plants-become-surprisingly-large-source-air-pollution" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8801" />
@@ -110,15 +115,58 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-museum-exhibit-explores-science-racism" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8769" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50065" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=50031" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/stunning-images-reveal-glacial-landscapes-under-oceans" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=49955" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/toddler-screen-time-speech-delays-lost-sleep" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/watch-male-cuttlefish-fight-over-female-wild" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/transplanted-stem-cells-become-eggs-sterile-mice">
+	<title>Science News: Transplanted stem cells become eggs in sterile mice</title>
+	<link>https://www.sciencenews.org/article/transplanted-stem-cells-become-eggs-sterile-mice</link>
+	<content:encoded>Sterile mice that received transplanted egg-making stem cells were able to have healthy babies.</content:encoded>
+	<dc:date>2017-05-18T16:00:02+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=50145">
+	<title>Retraction watch: Journal flags two more papers by diabetes researcher who sued to stop retractions (and now has 12)</title>
+	<link>http://retractionwatch.com/2017/05/18/journal-flags-two-papers-diabetes-researcher-sued-stop-retractions-now-12/</link>
+	<content:encoded>&lt;p&gt;A diabetes journal has issued two notices of concern for papers co-authored by a researcher who took another publisher to court after it did the same thing — but ultimately lost. The notices are for two papers co-authored by Mario Saad — who, after losing his legal battle with the American Diabetes Association, has since […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/18/journal-flags-two-papers-diabetes-researcher-sued-stop-retractions-now-12/&quot; rel=&quot;nofollow&quot;&gt;Journal flags two more papers by diabetes researcher who sued to stop retractions (and now has 12)&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-05-18T15:30:55+00:00</dc:date>
+	<dc:creator>Alison McCook</dc:creator>
+</item>
+<item rdf:about="tag:biocomputation.herts.ac.uk,2017-05-18:/2017/05/18/introduction-to-signal-processing-using-fft.html">
+	<title>UH Biocomputation group: Introduction to signal processing using FFT</title>
+	<link>http://biocomputation.herts.ac.uk/2017/05/18/introduction-to-signal-processing-using-fft.html</link>
+	<content:encoded>&lt;p&gt;A Fourier Transform takes a signal (usually acoustic or any sequence of data) and finds the frequencies that are dominant in the signal.  For example: A pure middle 'C' note from piano.&lt;/p&gt;
+&lt;p&gt;Why is it important?&lt;/p&gt;
+&lt;ol class=&quot;loweralpha simple&quot;&gt;
+&lt;li&gt;Source separation&lt;/li&gt;
+&lt;li&gt;Identifying emotions in voices.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So it's important for me as I am researching in emotion detection from speech.&lt;/p&gt;
+&lt;p&gt;FFT (Fast Fourier Transform) is a very efficient algorithm for computing the power spectrum (Fourier transform). The normal Fourier Transform is a O(N^2), whereas FFT is O( N log(N)).&lt;/p&gt;
+&lt;p&gt;So in this workshop I will show how FFT can be performed in real-time and I will show how human voices produce different power spectrum.  I will also let the audience see what their own vocal profile looks like.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 19/05/2017 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
+	<dc:date>2017-05-18T14:41:38+00:00</dc:date>
+	<dc:creator>Anuradha Sulane</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=50142">
+	<title>Retraction watch: Four in 10 biomedical papers out of China are tainted by misconduct, says new survey</title>
+	<link>http://retractionwatch.com/2017/05/18/four-10-biomedical-papers-tainted-misconduct-chinese-scientists-say/</link>
+	<content:encoded>&lt;p&gt;Chinese biomedical researchers estimate that 40% of research in their country has been affected in some way by misconduct, according to a new survey. The authors are quick to caution against putting too much stock in this figure due to the subjective nature of the survey, published in Science and Engineering Ethics. The estimates also […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/18/four-10-biomedical-papers-tainted-misconduct-chinese-scientists-say/&quot; rel=&quot;nofollow&quot;&gt;Four in 10 biomedical papers out of China are tainted by misconduct, says new survey&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-05-18T13:30:05+00:00</dc:date>
+	<dc:creator>Mark Zastrow</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/50-years-ago-earth-based-telescope-spotted-saturns-fourth-ring">
+	<title>Science News: 50 years ago, an Earth-based telescope spotted Saturn’s fourth ring</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-earth-based-telescope-spotted-saturns-fourth-ring</link>
+	<content:encoded>Scientists now rely on spacecraft to chart the intricate rings of the gas giant.</content:encoded>
+	<dc:date>2017-05-18T11:00:02+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=23968">
 	<title>The British Psychological Society - Research Digest: Do women really show their emotions more than men?</title>
 	<link>https://digest.bps.org.uk/2017/05/18/do-women-really-show-their-emotions-more-than-men/</link>
@@ -1098,43 +1146,6 @@ So who is Sergio Canavero,</content:encoded>
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/13/weekend-reads-prison-sharing-article-country-fake-peer-review-retractions-counterfeit-reagents/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: Prison for sharing an article?; which country has most fake peer review retractions; counterfeit reagents&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-05-13T13:30:15+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=50031">
-	<title>Retraction watch: Publisher responds to public health journal editorial board’s “grave concerns”</title>
-	<link>http://retractionwatch.com/2017/05/12/publisher-responds-public-health-journal-editorial-boards-grave-concerns/</link>
-	<content:encoded>&lt;p&gt;A representative of Taylor &amp;amp; Francis has responded to concerns raised by former and current editorial board members of an occupational health journal, after the publisher took some significant actions without consulting the board. The board’s main concerns: That the publisher hired a new editor with industry ties, and withdrew a paper by the former editor […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/12/publisher-responds-public-health-journal-editorial-boards-grave-concerns/&quot; rel=&quot;nofollow&quot;&gt;Publisher responds to public health journal editorial board’s “grave concerns”&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-05-12T16:15:22+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/stunning-images-reveal-glacial-landscapes-under-oceans">
-	<title>Science News: Stunning images reveal glacial landscapes under the oceans</title>
-	<link>https://www.sciencenews.org/article/stunning-images-reveal-glacial-landscapes-under-oceans</link>
-	<content:encoded>The most detailed atlas of the seafloor ever compiled offers colorful imagery and ghostly glimpses of Earth’s glacial past.</content:encoded>
-	<dc:date>2017-05-12T15:00:03+00:00</dc:date>
-	<dc:creator>Beth Geiger</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=49955">
-	<title>Retraction watch: Top physicist loses another paper; tally now up to 7</title>
-	<link>http://retractionwatch.com/2017/05/12/top-physicist-loses-another-paper-duplication-tally-now-7/</link>
-	<content:encoded>&lt;p&gt;A physics journal has retracted a paper from a leading physicist in India over duplication. The paper’s first and corresponding Naba K. Sahoo has had six papers retracted for the same reason — four earlier this year and two last year. The new retraction brings Sahoo’s total to seven, by our count. The duplication allegations began several years […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/12/top-physicist-loses-another-paper-duplication-tally-now-7/&quot; rel=&quot;nofollow&quot;&gt;Top physicist loses another paper; tally now up to 7&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-05-12T13:30:43+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/toddler-screen-time-speech-delays-lost-sleep">
-	<title>Science News: Toddlers’ screen time linked to speech delays and lost sleep, but questions remain</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/toddler-screen-time-speech-delays-lost-sleep</link>
-	<content:encoded>Two new studies link handheld screen time for young children to less sleep and greater risk of expressive language delays. But the results are preliminary.</content:encoded>
-	<dc:date>2017-05-12T13:00:02+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/watch-male-cuttlefish-fight-over-female-wild">
-	<title>Science News: Watch male cuttlefish fight over a female in the wild</title>
-	<link>https://www.sciencenews.org/article/watch-male-cuttlefish-fight-over-female-wild</link>
-	<content:encoded>For the first time, researchers have observed the competitive mating behaviors of the European cuttlefish in the field.</content:encoded>
-	<dc:date>2017-05-12T11:00:02+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
 </item>
 
 </rdf:RDF>
