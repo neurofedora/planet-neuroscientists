@@ -15,12 +15,16 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/juno-spacecraft-reveals-more-complex-jupiter" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/obscure-brain-region-linked-feeding-frenzy-mice" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/deep-heat-may-have-spawned-one-worlds-deadliest-tsunamis" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50191" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50228" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-05-25:/2017/05/25/probability-distributions-for-time-durations.html" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=24095" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9030" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/putting-clinicalkey-in-doctors-hands-through-research4lifes-developing-country-access" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22027" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-test-may-improve-pancreatic-cancer-diagnoses" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50269" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/zika-epidemic-began-long-anyone-noticed" />
@@ -73,7 +77,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/trappist-1s-seventh-planet-chilly-world" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tool-sharpens-focus-stone-age-networking-middle-east" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22040" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22036" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/mouse-sperm-survive-space-spawn" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/older-adults-may-not-benefit-taking-statins" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/european-fossils-may-belong-earliest-known-hominid" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/jumping-genes-are-part-all-makes-us-human" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-ponder-randomness-dna-errors" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50046" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8986" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/chaco-canyons-ancient-civilization-continues-puzzle" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=8983" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/juno-spacecraft-reveals-more-complex-jupiter">
+	<title>Science News: Juno spacecraft reveals a more complex Jupiter</title>
+	<link>https://www.sciencenews.org/article/juno-spacecraft-reveals-more-complex-jupiter</link>
+	<content:encoded>NASA’s Juno spacecraft has sent back unexpected details about Jupiter, giving scientists their first intimate look at the giant planet.</content:encoded>
+	<dc:date>2017-05-25T18:14:51+00:00</dc:date>
+	<dc:creator>Ashley Yeager</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/obscure-brain-region-linked-feeding-frenzy-mice">
+	<title>Science News: Obscure brain region linked to feeding frenzy in mice</title>
+	<link>https://www.sciencenews.org/article/obscure-brain-region-linked-feeding-frenzy-mice</link>
+	<content:encoded>Nerve cells in a little-studied part of the brain exert a powerful effect on eating, a mouse study suggests.</content:encoded>
+	<dc:date>2017-05-25T18:00:02+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/deep-heat-may-have-spawned-one-worlds-deadliest-tsunamis">
+	<title>Science News: Deep heat may have spawned one of the world’s deadliest tsunamis</title>
+	<link>https://www.sciencenews.org/article/deep-heat-may-have-spawned-one-worlds-deadliest-tsunamis</link>
+	<content:encoded>The 2004 Indonesian quake was surprisingly strong because of dried-out, brittle minerals far below.</content:encoded>
+	<dc:date>2017-05-25T18:00:02+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=50191">
 	<title>Retraction watch: Would-be Johns Hopkins whistleblower loses appeal in case involving Nature retraction</title>
 	<link>http://retractionwatch.com/2017/05/25/johns-hopkins-whistleblower-loses-appeal-case-involving-nature-retraction/</link>
@@ -206,6 +227,13 @@
 	<link>https://www.elsevier.com/connect/putting-clinicalkey-in-doctors-hands-through-research4lifes-developing-country-access</link>
 	<content:encoded>Medical search engine lets doctors and nurses find evidence-based answers while treating patients</content:encoded>
 	<dc:date>2017-05-25T06:30:57+00:00</dc:date>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22027">
+	<title>Nature News &amp; Comment: Jupiter’s secrets revealed by NASA probe</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/kIRnQsZ1dFg/nature.2017.22027</link>
+	<content:encoded>&lt;p&gt;A deep ammonia plume and a powerful magnetic field are among the many surprises uncovered by the Juno mission.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22027&quot;&gt;doi: 10.1038/nature.2017.22027&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/kIRnQsZ1dFg&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-05-25T00:00:00+00:00</dc:date>
+	<dc:creator>Alexandra Witze</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/new-test-may-improve-pancreatic-cancer-diagnoses">
 	<title>Science News: New test may improve pancreatic cancer diagnoses</title>
@@ -630,13 +658,6 @@ Nord et al. had 29 volunteers perform three tasks during fMRI scanning. All of t
 	<dc:date>2017-05-23T00:00:00+00:00</dc:date>
 	<dc:creator>Declan Butler</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22036">
-	<title>Nature News &amp; Comment: Trump budget would slash science programmes across government</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/7ngGIAjkeEo/nature.2017.22036</link>
-	<content:encoded>&lt;p&gt;Proposed cuts include 11% at the National Science Foundation, 18% at the National Institutes of Health and 30% at the Environmental Protection Agency.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22036&quot;&gt;doi: 10.1038/nature.2017.22036&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/7ngGIAjkeEo&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-05-23T00:00:00+00:00</dc:date>
-	<dc:creator>Sara Reardon</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/mouse-sperm-survive-space-spawn">
 	<title>Science News: Mouse sperm survive space to spawn</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/mouse-sperm-survive-space-spawn</link>
@@ -1047,68 +1068,6 @@ Here's an example of the plagiarism: a 2015 paper by</content:encoded>
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/17/publisher-retracts-authors-papers-plagiarism-now-10-total/&quot; rel=&quot;nofollow&quot;&gt;Gender-based violence researcher now up to 10 retractions for plagiarism&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-05-17T13:30:43+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=8986">
-	<title>BMC Series blog: BMC Ecology Image Competition 2017 – 2 weeks to go!</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/05/17/bmc-ecology-image-competition-2017-2-weeks-go/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2016/08/SA-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;There are less than 2 weeks to submit your entries to the 5th annual BMC Ecology Image Competition! We’ve already received many terrific images from around the world, so be sure to send in your entries by &lt;strong&gt;Wednesday 31st May&lt;/strong&gt; to be in with a chance of winning.&lt;/p&gt;
-&lt;p&gt;We are also delighted to announce the identity of the guest judge who will pick the overall winner and runner-up: &lt;a href=&quot;http://www.web.uvic.ca/~darimont/people/chris-darimont/&quot;&gt;Chris Darimont &lt;/a&gt;of the University of Victoria, Canada. As well as producing high quality interdisciplinary research, Chris has demonstrated an admirable commitment to outreach and science communication, and we are thrilled to have him involved in this year’s competition.&lt;/p&gt;
-&lt;p&gt;Entries are submitted to one of the following five categories, with the winners of each category being chosen by our &lt;a href=&quot;http://bmcecol.biomedcentral.com/about/editorial-board&quot;&gt;&lt;em&gt;BMC Ecology&lt;/em&gt; Section Editors&lt;/a&gt;, who are experts in biodiversity, ecosystems, ecological models, and behavioral ecology.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Behavioral and physiological ecology&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Conservation ecology and biodiversity research&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Community, population, and macroecology&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Landscape ecology and ecosystems&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Theoretical ecology and models&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We will consider all images from photos to data visualizations, or a mixture of both – as long as they are striking, meaningful, and creative and depict a specific ecological interaction.&lt;/p&gt;
-&lt;p&gt;Anyone who is affiliated with a research institution can enter. Please email your images to &lt;a href=&quot;mailto:bmcecol@biomedcentral.com&quot;&gt;bmcecol@biomedcentral.com&lt;/a&gt; with the subject line “&lt;em&gt;BMC Ecology Image Competition&lt;/em&gt;”.&lt;/p&gt;
-&lt;p&gt;For more details see the &lt;a href=&quot;https://bmcecol.biomedcentral.com/imagecomp2017-page&quot;&gt;Image Competition homepage.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignleft&quot; id=&quot;attachment_8989&quot; style=&quot;width: 1034px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-full wp-image-8989&quot; height=&quot;1024&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/05/Ecology-image-collage-1.jpg&quot; width=&quot;1024&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;2016 winners, clockwise from top left: César Garcia, Andrey Giljov, Elin Videvall, Delphine Renard, Marco Zenatello, Julia Spät&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/05/17/bmc-ecology-image-competition-2017-2-weeks-go/&quot; rel=&quot;nofollow&quot;&gt;BMC Ecology Image Competition 2017 – 2 weeks to go!&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-05-17T13:06:52+00:00</dc:date>
-	<dc:creator>Christopher Foote</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/chaco-canyons-ancient-civilization-continues-puzzle">
-	<title>Science News: Chaco Canyon’s ancient civilization continues to puzzle</title>
-	<link>https://www.sciencenews.org/article/chaco-canyons-ancient-civilization-continues-puzzle</link>
-	<content:encoded>A dynasty may have risen from the dead in an ancient Chaco great house.</content:encoded>
-	<dc:date>2017-05-17T11:00:03+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=8983">
-	<title>BMC Series blog: How apps can support people to moderate their drinking</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/05/17/how-apps-can-support-people-to-moderate-their-drinking/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/05/16026889030_4453dd4ea7_z-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;The widespread use of smart phone applications, or ‘apps’, offers a unique opportunity for organizations to reach and engage with people in new ways in order to promote and support health-related behavior changes, including encouraging reductions in drinking alcohol.&lt;/p&gt;
-&lt;p&gt;But do they actually work?&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;…of the 662 alcohol related apps available in the UK in 2014…just &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/25977135&quot;&gt;91 (14%) focused on alcohol reduction.&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;A major benefit of apps is that they can deliver evidence-based behavior change techniques and other content to users, targeting their behaviors when and where these are actually carried out.&lt;/p&gt;
-&lt;p&gt;But of the 662 alcohol related apps available in the UK in 2014, 357 (54%) were entertainment apps (including drinking games, cocktail recipes and bar finders), 125 (19%) related to blood alcohol measurement, and just &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/25977135&quot;&gt;91 (14%) focused on alcohol reduction.&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Drinkaware&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;In August 2014, Drinkaware launched &lt;em&gt;Drinkaware: Track and Calculate Units&lt;/em&gt; – a new app designed specifically to help people wanting to monitor and cut down on their drinking.&lt;/p&gt;
-&lt;p&gt;The app, on Android and iOS, contains techniques that can help users to self-monitor the alcohol units and calories in their drinks and it provides them with information about the health benefits of cutting down. It also allows users to set their own individual goals and offers support and motivation through regular personalized feedback.&lt;/p&gt;
-&lt;p&gt;The version of the app that was evaluated in our study also contained a “weak spot” feature that allowed users to work towards breaking the habit of drinking in excess when they find themselves in self-designated “risky” locations for drinking (e.g. the local pub).&lt;/p&gt;
-&lt;p&gt;In September 2015, the app was updated to include a cost tracking feature which allows users to add up the price of their drinks so they can be more aware of the consequences of cutting back that reach beyond their health alone.&lt;/p&gt;
-&lt;p&gt;To date, the app has been downloaded more than 380,000 times.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;The study&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-017-4358-9&quot;&gt;Our study&lt;/a&gt; presents an analysis of the first 13 months of app usage based on data from 119,713 existing users and qualitative interviews with 21 users. The study presents novel insights into how real app users perceived this product, how they interacted with the features that it contained, and also explored what those who are downloading alcohol reduction apps are looking for.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Users who engaged for longer with the app tended to be high risk drinkers who reported being motivated to reduce drinking.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Analysis of app usage found that there was a high level of drop out after one week and that users who engaged for longer with the app tended to be high risk drinkers who reported being motivated to reduce drinking. For those who consistently engaged with the app over time, self-reported alcohol consumption levels reduced in the first week of use and leveled out thereafter.&lt;/p&gt;
-&lt;p&gt;Overall, our study found that the Drinkaware app is a useful tool for supporting behavior change in people who are already motivated and committed to reducing their alcohol consumption. However, the in-depth interviews suggested that the app would benefit from greater personalization and tailoring to promote longer term use.&lt;/p&gt;
-&lt;p&gt;The Drinkaware team is now considering how these improvements can be implemented, while also exploring the app’s value as a tool for providing a one-off brief alcohol assessment and opportunities for the app to link to other lifestyle behaviors.&lt;/p&gt;
-&lt;p&gt;Future research should explore how different apps may best help people with different support needs and personal preferences, assessing outcomes based on validated measures of alcohol consumption obtained independently of the app itself. Using routinely collected data offers an exciting opportunity for innovative research in this field.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/05/17/how-apps-can-support-people-to-moderate-their-drinking/&quot; rel=&quot;nofollow&quot;&gt;How apps can support people to moderate their drinking&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-05-17T09:23:19+00:00</dc:date>
-	<dc:creator>Dr Sophie Attwood</dc:creator>
 </item>
 
 </rdf:RDF>
