@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/546173a" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8829" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50332" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/trump-proposed-budget-science-research-funding" />
@@ -79,7 +80,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545412a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545411a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545410a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/545409a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-flamingo-balances-one-leg" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-6283119004927853198" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50227" />
@@ -119,6 +119,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://www.nature.com/doifinder/10.1038/546173a">
+	<title>Nature News &amp; Comment: Software simplified</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/sNbH-2m1g9M/546173a</link>
+	<content:encoded>&lt;p&gt;Containerization technology takes the hassle out of setting up software and can boost the reproducibility of data-driven research.&lt;/p&gt;&lt;p&gt;Nature 546 173 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/546173a&quot;&gt;doi: 10.1038/546173a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/sNbH-2m1g9M&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-05-29T00:00:00+00:00</dc:date>
+	<dc:creator>Andrew Silver</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8829">
 	<title>Discovery magazine - Neuroskeptic: Unattractive People Are Seen As Better Scientists</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8829</link>
@@ -716,13 +723,6 @@ Nord et al. had 29 volunteers perform three tasks during fMRI scanning. All of t
 	<content:encoded>&lt;p&gt;Henry Nicholls revels in a biography of Enlightenment collector and Royal Society president Hans Sloane.&lt;/p&gt;&lt;p&gt;Nature 545 410 &lt;a href=&quot;http://dx.doi.org/10.1038/545410a&quot;&gt;doi: 10.1038/545410a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/IwzCpKvE5no&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-05-24T00:00:00+00:00</dc:date>
 	<dc:creator>Henry Nicholls</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/545409a">
-	<title>Nature News &amp; Comment: Astronomy: An all-American eclipse</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Cekb8WIkVnY/545409a</link>
-	<content:encoded>&lt;p&gt;Jay Pasachoff enjoys four books heralding this summer's US total solar eclipse.&lt;/p&gt;&lt;p&gt;Nature 545 409 &lt;a href=&quot;http://dx.doi.org/10.1038/545409a&quot;&gt;doi: 10.1038/545409a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Cekb8WIkVnY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-05-24T00:00:00+00:00</dc:date>
-	<dc:creator>Jay Pasachoff</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/how-flamingo-balances-one-leg">
 	<title>Science News: How a flamingo balances on one leg</title>
