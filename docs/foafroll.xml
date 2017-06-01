@@ -169,6 +169,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Neural Ensemble News</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://neuralensemble.blogspot.com/">
+					<dc:title>Neural Ensemble News</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Neurorexia</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="https://neurorexia.wordpress.com">
