@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22098" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/antarctica-larsen-c-ice-shelf-cracking" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=1076" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/trump-us-withdrawal-paris-climate-pact" />
@@ -84,7 +85,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/546033e" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/546033d" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/546033c" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/546033b" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=24155" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/opioid-epidemic-spurs-search-new-safer-painkillers" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50121" />
@@ -119,6 +119,12 @@
 	</items>
 </channel>
 
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22098">
+	<title>Nature News &amp; Comment: How scientists reacted to the US leaving the Paris climate agreement</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/_Ey0m1dvLYg/nature.2017.22098</link>
+	<content:encoded>&lt;p&gt;What the United States' departure from the historic pact means for efforts to fight global warming.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22098&quot;&gt;doi: 10.1038/nature.2017.22098&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/_Ey0m1dvLYg&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-06-02T00:00:00+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/antarctica-larsen-c-ice-shelf-cracking">
 	<title>Science News: Antarctica’s Larsen C ice shelf is within days of completely cracking</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/antarctica-larsen-c-ice-shelf-cracking</link>
@@ -843,13 +849,6 @@ genomics.&lt;/p&gt;
 	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 546 33 &lt;a href=&quot;http://dx.doi.org/10.1038/546033c&quot;&gt;doi: 10.1038/546033c&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/1SbqKWyKfvs&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-05-31T00:00:00+00:00</dc:date>
 	<dc:creator>Daniel S. Alt</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/546033b">
-	<title>Nature News &amp; Comment: Unsung heroes: Value coordinating roles in research</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/E8TUK-1rF40/546033b</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 546 33 &lt;a href=&quot;http://dx.doi.org/10.1038/546033b&quot;&gt;doi: 10.1038/546033b&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/E8TUK-1rF40&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-05-31T00:00:00+00:00</dc:date>
-	<dc:creator>Eleanor M. Slade</dc:creator>
 </item>
 <item rdf:about="http://digest.bps.org.uk/?p=24155">
 	<title>The British Psychological Society - Research Digest: Having an open-minded personality manifests at a basic level of visual perception</title>
