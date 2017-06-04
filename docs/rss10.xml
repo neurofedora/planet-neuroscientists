@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8837" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50440" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9087" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50418" />
@@ -114,11 +115,20 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8829" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50332" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/trump-proposed-budget-science-research-funding" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=50255" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8837">
+	<title>Discovery magazine - Neuroskeptic: The Ketamine Consensus?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8837</link>
+	<content:encoded>Ten years ago, ketamine was a drug best known for its popularity on the rave scene. Yet it has since enjoyed a remarkable rebirth - as an antidepressant. Starting out with a handful of small clinical trials, there are now numerous reports that ketamine produces rapid antidepressant effects. In the US, various clinics have sprung up offering ketamine treatment to depressed patients - at least the ones able to pay the bill, because insurance doesn't tend to cover it.
+
+
+
+Now, a group of psychia</content:encoded>
+	<dc:date>2017-06-04T11:22:24+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=50440">
 	<title>Retraction watch: Weekend reads: ‘Pile of dung’ republished; Diverging views on publishing negative results; Economists share regrets</title>
 	<link>http://retractionwatch.com/2017/06/03/weekend-reads-pile-dung-republished-diverging-views-publishing-negative-results-economists-share-regrets/</link>
@@ -1153,14 +1163,6 @@ Gheorghiu et al. took 616 pictures of scientists, which they downloaded from the
 	<content:encoded>Administration would cut total federal research spending by about 17 percent, according to a preliminary estimate.</content:encoded>
 	<dc:date>2017-05-26T21:26:51+00:00</dc:date>
 	<dc:creator>Emily DeMarco</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=50255">
-	<title>Retraction watch: “There is an injustice in this article”</title>
-	<link>http://retractionwatch.com/2017/05/26/there-is-an-injustice-in-this-article/</link>
-	<content:encoded>&lt;p&gt;The editors of a plant biology journal have retracted a 2007 paper because of “an injustice.” According to the notice, the editors of Cytologia found evidence of “apparent figure manipulation,” and decided to retract the paper. This marks the 10th retraction for plant biologist Dibyendu Talukdar. Talukdar, who is first and corresponding author on the 2007 paper and listed at the University of […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/26/there-is-an-injustice-in-this-article/&quot; rel=&quot;nofollow&quot;&gt;“There is an injustice in this article”&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-05-26T17:30:07+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
 </item>
 
 </rdf:RDF>
