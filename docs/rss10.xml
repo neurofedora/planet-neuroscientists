@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/researching-new-ways-to-connect-people-to-nature-a-special-collection-for-worldenvironmentday" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=50445" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8837" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50440" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9087" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/citizen-scientists-join-search-planet-9" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22345" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8829" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=50332" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/trump-proposed-budget-science-research-funding" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/researching-new-ways-to-connect-people-to-nature-a-special-collection-for-worldenvironmentday">
+	<title>Elsevier Connect: Researching new ways to connect people to nature: a special collection for #WorldEnvironmentDay</title>
+	<link>https://www.elsevier.com/connect/researching-new-ways-to-connect-people-to-nature-a-special-collection-for-worldenvironmentday</link>
+	<content:encoded>How scientists are looking to nature to solve our environmental problems</content:encoded>
+	<dc:date>2017-06-05T08:34:59+00:00</dc:date>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=50445">
+	<title>Retraction watch: Two in 100 clinical trials in eight major journals likely contain inaccurate data: Study</title>
+	<link>http://retractionwatch.com/2017/06/05/two-100-clinical-trials-eight-major-journals-likely-contain-inaccurate-data-study/</link>
+	<content:encoded>&lt;p&gt;A sweeping analysis of more than 5,000 papers in eight leading medical journals has found compelling evidence of suspect data in roughly 2% of randomized controlled clinical trials in those journals. Although the analysis, by John Carlisle, an anesthetist in the United Kingdom, could not determine whether the concerning data were tainted by misconduct or […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/06/05/two-100-clinical-trials-eight-major-journals-likely-contain-inaccurate-data-study/&quot; rel=&quot;nofollow&quot;&gt;Two in 100 clinical trials in eight major journals likely contain inaccurate data: Study&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-06-05T07:45:48+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8837">
 	<title>Discovery magazine - Neuroskeptic: The Ketamine Consensus?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8837</link>
@@ -1148,21 +1162,6 @@ This is one of the findings of an interesting new study of how scientists are pe
 
 Gheorghiu et al. took 616 pictures of scientists, which they downloaded from the faculty pages at various universities. They gave the portraits to two sets of raters. The first group were asked to rate the attractiveness of the portraits and to say whet</content:encoded>
 	<dc:date>2017-05-28T13:36:24+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=50332">
-	<title>Retraction watch: Weekend reads: The editor who’s a dog; the fake author; a monument to peer review</title>
-	<link>http://retractionwatch.com/2017/05/27/weekend-reads-editor-whos-dog-fake-author-monument-peer-review/</link>
-	<content:encoded>&lt;p&gt;The week at Retraction Watch featured the retraction of a much-discussed paper on using blockchain to prevent scientific misconduct, and a researcher who lost nine studies at once from a single journal. Here’s what was happening elsewhere: Ollie’s on the editorial board of seven journals, maybe because she always obeys a “sit” command. She’s a dog, […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/05/27/weekend-reads-editor-whos-dog-fake-author-monument-peer-review/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: The editor who’s a dog; the fake author; a monument to peer review&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-05-27T13:30:05+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-public/trump-proposed-budget-science-research-funding">
-	<title>Science News: Trump’s proposed 2018 budget takes an ax to science research funding</title>
-	<link>https://www.sciencenews.org/blog/science-public/trump-proposed-budget-science-research-funding</link>
-	<content:encoded>Administration would cut total federal research spending by about 17 percent, according to a preliminary estimate.</content:encoded>
-	<dc:date>2017-05-26T21:26:51+00:00</dc:date>
-	<dc:creator>Emily DeMarco</dc:creator>
 </item>
 
 </rdf:RDF>
