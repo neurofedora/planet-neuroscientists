@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-dna-shakes-elephant-family-tree" />
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8868" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-kind-tan-bottle-may-one-day-protect-against-skin-cancer" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50573" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ladybugs-fold-their-wings-origami-masters" />
@@ -113,12 +115,25 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50414" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=24637" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-slimy-lips-are-secret-fish-coral-diet" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/scalding-hot-gas-giant-breaks-heat-records" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=50018" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ancient-dna-shakes-elephant-family-tree">
+	<title>Science News: Ancient DNA shakes up the elephant family tree</title>
+	<link>https://www.sciencenews.org/article/ancient-dna-shakes-elephant-family-tree</link>
+	<content:encoded>DNA from straight-tusked elephant fossils is forcing scientists to reconsider the history of elephant evolution.</content:encoded>
+	<dc:date>2017-06-13T19:08:19+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8868">
+	<title>Discovery magazine - Neuroskeptic: Noninvasive Deep Brain Stimulation - Has Neuroscience's Holy Grail Been Found?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8868</link>
+	<content:encoded>A high-profile paper in Cell reports on a new brain stimulation method that's got many neuroscientists excited. The new technique, called temporal interference (TI) stimulation, is said to be able to reach structures deep inside the brain, using nothing more than scalp electrodes.
+
+Currently, the only way to stimulate deep brain structures is by implanting electrodes (wires) into the brain - which is an expensive and potentially dangerous surgical procedure. TI promises to make deep brain stim</content:encoded>
+	<dc:date>2017-06-13T18:25:28+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/new-kind-tan-bottle-may-one-day-protect-against-skin-cancer">
 	<title>Science News: New kind of ‘tan in a bottle’ may one day protect against skin cancer</title>
 	<link>https://www.sciencenews.org/article/new-kind-tan-bottle-may-one-day-protect-against-skin-cancer</link>
@@ -1171,21 +1186,6 @@ Science Exchange is the world’s leading marketplace for outsourced research. S
 	<content:encoded>A new imaging study reveals how tubelip wrasses manage to munch on stinging corals.</content:encoded>
 	<dc:date>2017-06-05T21:50:38+00:00</dc:date>
 	<dc:creator>Helen Thompson</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/scalding-hot-gas-giant-breaks-heat-records">
-	<title>Science News: Scalding hot gas giant breaks heat records</title>
-	<link>https://www.sciencenews.org/article/scalding-hot-gas-giant-breaks-heat-records</link>
-	<content:encoded>KELT 9b’s sun blasts it with so much radiation that the planet’s dayside is hotter than most stars and its atmosphere is being stripped away.</content:encoded>
-	<dc:date>2017-06-05T15:00:03+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=50018">
-	<title>Retraction watch: Authors retract two plant biology papers over duplicated images</title>
-	<link>http://retractionwatch.com/2017/06/05/authors-retract-two-plant-biology-papers-duplicated-images/</link>
-	<content:encoded>&lt;p&gt;Plant scientists have issued two retractions after noticing several images had been duplicated within and across the papers. The papers both appeared in March 2002 in The Plant Cell and The Plant Journal. The last author on both papers — Jonathan Jones, a professor and group leader at The Sainsbury Laboratory in Norwich, UK — took […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/06/05/authors-retract-two-plant-biology-papers-duplicated-images/&quot; rel=&quot;nofollow&quot;&gt;Authors retract two plant biology papers over duplicated images&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-06-05T14:00:53+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
 </item>
 
 </rdf:RDF>
