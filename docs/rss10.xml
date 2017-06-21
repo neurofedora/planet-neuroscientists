@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-makes-your-wheelie-suitcase-wobble" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/satellite-trio-will-hunt-gravitational-waves-space" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-material-could-filter-water-contaminants-others-miss" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=25462" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22965" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22821" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22820" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22819" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/what-makes-your-wheelie-suitcase-wobble">
+	<title>Science News: Here’s why your wheelie suitcase wobbles</title>
+	<link>https://www.sciencenews.org/article/what-makes-your-wheelie-suitcase-wobble</link>
+	<content:encoded>Physicists explain why roller suitcases rock back and forth as you dash through the terminal.</content:encoded>
+	<dc:date>2017-06-20T23:05:02+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/satellite-trio-will-hunt-gravitational-waves-space">
 	<title>Science News: Satellite trio will hunt gravitational waves from space</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/satellite-trio-will-hunt-gravitational-waves-space</link>
@@ -1157,15 +1164,6 @@ explorations of signal processing by OB networks.&lt;/p&gt;
 &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature22820&quot;&gt;doi: 10.1038/nature22820&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/bqVQrKGjtkY&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-06-14T00:00:00+00:00</dc:date>
 	<dc:creator>Rohit Bose</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature22819">
-	<title>Nature Biological Sciences Research: Histone deacetylase 3 prepares brown adipose tissue for acute thermogenic challenge</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/8bYlgdJYHvU/nature22819</link>
-	<content:encoded>&lt;p&gt;
- Brown adipose tissue is a thermogenic organ that dissipates chemical energy as heat to protect animals against hypothermia and to counteract metabolic disease. However, the transcriptional mechanisms that determine the thermogenic capacity of brown adipose tissue before environmental cold are unknown. Here we show that histone deacetylase 3 (HDAC3) is required to activate brown adipose tissue enhancers to ensure thermogenic aptitude. Mice with brown adipose tissue-specific genetic ablation of HDAC3 become severely hypothermic and succumb to acute cold exposure. Uncoupling protein 1 (UCP1) is nearly absent in brown adipose tissue lacking HDAC3, and there is also marked downregulation of mitochondrial oxidative phosphorylation genes resulting in diminished mitochondrial respiration. Remarkably, although HDAC3 acts canonically as a transcriptional corepressor, it functions as a coactivator of oestrogen-related receptor α (ERRα) in brown adipose tissue. HDAC3 coactivation of ERRα is mediated by deacetylation of PGC-1α and is required for the transcription of Ucp1, Ppargc1a (encoding PGC-1α), and oxidative phosphorylation genes. Importantly, HDAC3 promotes the basal transcription of these genes independently of adrenergic stimulation. Thus, HDAC3 uniquely primes Ucp1 and the thermogenic transcriptional program to maintain a critical capacity for thermogenesis in brown adipose tissue that can be rapidly engaged upon exposure to dangerously cold temperature. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature22819&quot;&gt;doi: 10.1038/nature22819&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/8bYlgdJYHvU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-06-14T00:00:00+00:00</dc:date>
-	<dc:creator>Matthew J. Emmett</dc:creator>
 </item>
 
 </rdf:RDF>
