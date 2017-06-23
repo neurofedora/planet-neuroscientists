@@ -104,6 +104,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Forging Connections</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://forgingconnectionsblog.wordpress.com">
+					<dc:title>Forging connections between neuroscience, cognition and the wider world.</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Heliyon blog</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.heliyon.com/">
