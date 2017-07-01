@@ -32,7 +32,9 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-17" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-13" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-10" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=50905" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-might-have-had-heavy-metal-atmosphere-supersonic-winds" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/elsevier-to-continue-to-take-initiative-in-german-national-deal-discussions" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/southern-drawl-gets-deconstructed" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50890" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50844" />
@@ -113,8 +115,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/latest-stats-are-just-start-preventing-gun-injuries-kids" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50762" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sound-reflecting-shelters-inspired-ancient-rock-artists" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/earth-dry-zones-support-surprising-number-trees" />
-			<rdf:li rdf:resource="tag:ankursinha.in,2017-06-26:/blog/2017/06/26/a-channel-for-neuroscientists-on-gitter.html" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -323,12 +323,26 @@
 	<dc:date>2017-07-08T00:00:00+00:00</dc:date>
 	<dc:creator>Catherine Caruso</dc:creator>
 </item>
+<item rdf:about="http://retractionwatch.com/?p=50905">
+	<title>Retraction watch: Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?</title>
+	<link>http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/</link>
+	<content:encoded>&lt;p&gt;The week at Retraction Watch featured the tale of a scientist whose explanations for misconduct kept changing, and revelations in a big legal case involving Duke University. Here’s what was happening elsewhere: “So I confess. I do look at Impact Factors. I look at citation metrics. I even count papers.” Merlin Crossley disagrees with the […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-07-01T13:30:02+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/moon-might-have-had-heavy-metal-atmosphere-supersonic-winds">
 	<title>Science News: The moon might have had a heavy metal atmosphere with supersonic winds</title>
 	<link>https://www.sciencenews.org/article/moon-might-have-had-heavy-metal-atmosphere-supersonic-winds</link>
 	<content:encoded>Heat from a glowing infant Earth could have vaporized the moon’s metals into an atmosphere as thick as Mars’, a new simulation shows.</content:encoded>
 	<dc:date>2017-06-30T21:31:56+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/elsevier-to-continue-to-take-initiative-in-german-national-deal-discussions">
+	<title>Elsevier Connect: Elsevier to continue to take initiative in German national deal discussions</title>
+	<link>https://www.elsevier.com/connect/elsevier-to-continue-to-take-initiative-in-german-national-deal-discussions</link>
+	<content:encoded>We are working diligently to find a mutually acceptable solution with the Hochschulrektorenkonferenz (HRK) and to put a new agreement in place this year, ensuring uninterrupted access</content:encoded>
+	<dc:date>2017-06-30T20:52:54+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/southern-drawl-gets-deconstructed">
 	<title>Science News: The southern drawl gets deconstructed</title>
@@ -1071,24 +1085,6 @@ This is a bit of a truism: it's fairly obvious that not everyone will agree on h
 	<content:encoded>Ancient Europeans sought rock art sites where sounds carried.</content:encoded>
 	<dc:date>2017-06-26T12:00:02+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/earth-dry-zones-support-surprising-number-trees">
-	<title>Science News: Earth’s dry zones support a surprising number of trees</title>
-	<link>https://www.sciencenews.org/article/earth-dry-zones-support-surprising-number-trees</link>
-	<content:encoded>A Google Earth-based estimate of dryland forests adds serious leafage to Earth’s total tree count.</content:encoded>
-	<dc:date>2017-06-26T11:00:02+00:00</dc:date>
-	<dc:creator>Beth Geiger</dc:creator>
-</item>
-<item rdf:about="tag:ankursinha.in,2017-06-26:/blog/2017/06/26/a-channel-for-neuroscientists-on-gitter.html">
-	<title>Ankur Sinha: A channel for neuroscientists on Gitter</title>
-	<link>http://ankursinha.in/blog/2017/06/26/a-channel-for-neuroscientists-on-gitter.html</link>
-	<content:encoded>&lt;p&gt;As opposed to the free software community, where I've been around long enough to know what's where, I'm still relatively new to the neuroscience community. Over the two years that I've been doing my PhD, I've found a few neuroscience related mailing lists, but not any chat channels. Various teams tend to use &lt;a class=&quot;reference external&quot; href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; or another platform for internal communications, but nothing seems to be set up for the community in general - an open for all channel.&lt;/p&gt;
-&lt;p&gt;Mailing lists are extremely useful, but by design they are suited to particular types of tasks. They are very well suited for longer discussions, and general queries that are not time sensitive, for example. On the other hand, they do not work well for urgent queries, and of course, sometimes sending e-mails back and forth is quite an overhead for simpler tasks or collaborative development.&lt;/p&gt;
-&lt;p&gt;Most open source communities have both mailing lists and chat channels. I figured it'd be nice to have one for the neuroscience community too. There's the question of what platform was best suited, of course. We use &lt;a class=&quot;reference external&quot; href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; for our internal communication, but &lt;a class=&quot;reference external&quot; href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; only works well for small teams. It isn't designed for larger communities. The &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Internet_Relay_Chat&quot;&gt;IRC&lt;/a&gt; is ideal for larger communities, but on the flip side, the &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Internet_Relay_Chat&quot;&gt;IRC&lt;/a&gt; is not very user friendly.&lt;/p&gt;
-&lt;p&gt;The third option, and the popular alternative to IRC and Slack, is &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/gitterHQ&quot;&gt;Gitter&lt;/a&gt; - it's been recently &lt;a class=&quot;reference external&quot; href=&quot;https://about.gitlab.com/2017/03/15/gitter-acquisition/&quot;&gt;acquired by GitLab&lt;/a&gt; and will be completely open sourced soon. It's completely free to use unlike &lt;a class=&quot;reference external&quot; href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; where one needs to pay more as the number of group members increases, and is designed for large communities that number in the thousands. One can login using either Github or Twitter - so that's quite convenient too. There's even an &lt;a class=&quot;reference external&quot; href=&quot;https://irc.gitter.im/&quot;&gt;IRC gateway&lt;/a&gt; for more technical users.&lt;/p&gt;
-&lt;p&gt;So here's the channel then - &lt;a class=&quot;reference external&quot; href=&quot;https://gitter.im/neuroscience-central/Lobby&quot;&gt;https://gitter.im/neuroscience-central/Lobby&lt;/a&gt;. I hope it'll be useful, and if it doesn't, well no harm done :)&lt;/p&gt;</content:encoded>
-	<dc:date>2017-06-26T09:30:01+00:00</dc:date>
-	<dc:creator>ankur</dc:creator>
 </item>
 
 </rdf:RDF>
