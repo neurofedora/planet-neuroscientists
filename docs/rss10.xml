@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9238" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50954" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-81" />
@@ -114,11 +115,41 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/snow-and-rain-tug-earthquake-faults-california" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/how-child-sees-van-gogh-painting" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8911" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=50905" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=9238">
+	<title>BMC Series blog: Machine Learning to Predict Childhood PTSD</title>
+	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/</link>
+	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/AI-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Of children who are exposed to a trauma, between 10 and 40% will develop Posttraumatic Stress Disorder (PTSD). PTSD is a debilitating psychiatric condition that can have significant impact on a child’s functioning and, perhaps, even the development of their brain. There is also a growing literature indicating that PTSD may be prevented, if a child at risk (i.e. the 10-40%) is identified early enough. How can we know which child is at risk for PTSD – as early as possible after trauma exposure – so that this risk may be mitigated? What does the literature say about our ability to predict a child’s risk?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;A definitive account about the state of this literature was published a few years ago. Trickey and colleagues conducted a &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0272735811001875?via%3Dihub&quot;&gt;meta-analysis of 64 studies on child PTSD risk&lt;/a&gt; published over the previous two decades, and found that the effect sizes for all but a handful of risk factors were very small: and not many more than a handful of risk variables (25) had even been studied, more than once. I have been studying risk for child PTSD since the beginning of the two-decade time span of this landmark meta-analysis, and I was not surprised by the discouraging results, reported. PTSD is a complex phenomenon. In all likelihood, its’ expression involves the complex interactions between a wide diversity of biopsychosocial processes, that engage over time – in specific ways – under specific conditions.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;I have been studying risk for child PTSD since the beginning of the two-decade time span of this landmark meta-analysis, and I was not surprised by the discouraging results, reported&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Several years before this meta-analysis was published, I became convinced that the data methods conventionally used for PTSD risk factor research could not approach the complexity of the subject under study. I &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0151174&quot;&gt;began to explore the application of new methods&lt;/a&gt; such as Machine Learning predictive classification, non-experimental causal discovery, and complex systems science. These methods were gaining tremendous traction in other fields for the very problems that seemed to plague research in my field. The study &lt;a href=&quot;https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1&quot;&gt;published today&lt;/a&gt; in &lt;em&gt;&lt;a href=&quot;https://bmcpsychiatry.biomedcentral.com/&quot;&gt;BMC Psychiatry&lt;/a&gt;&lt;/em&gt; entitled “Machine Learning Methods to Predict Child Posttraumatic Stress: A Proof of Concept Study” is an outcome of this effort, and reports the first ever application of Machine Learning to predict childhood PTSD.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;This &lt;a href=&quot;https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1&quot;&gt;article&lt;/a&gt; reports on a longitudinal study of children assessed in the wake of a trauma (hospitalization for an acute injury) to predict who would acquire PTSD from information available around the time of trauma. We assessed a wide variety of risk factors while the child was in the hospital including candidate genes, neurochemical and neurophysiologic responses, hospital treatment, qualities of the child’s family and early development, and parent’s stress and mental health. We then applied state-of-the-art Machine Learning methods to use all the risk information we collected, to build models of risk for PTSD, and test these models for their reliability and accuracy.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_9239&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-9239&quot; height=&quot;188&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/artificial-intelligence-2228610_1920-300x188.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;Public Domain&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;What is Machine Learning? Details are found in our &lt;a href=&quot;https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1&quot;&gt;article&lt;/a&gt; but – broadly and briefly – Machine Learning is a computational approach designed to find patterns in data that will form reliable and accurate predictive models of specified events (e.g. the occurrence of PTSD in a traumatized child). The ‘machine’ will use specified algorithms to search through the space of possibilities contained in the data, to arrive at a predictive model. The reliability and accuracy of this predictive model is then tested with data the ‘machine’ has not yet seen.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;We used five different approaches to Machine Learning predictive classification and each of the yielded models showed strong predictive performance, certainly stronger than comparisons with conventional methods. We also integrated a feature selection method designed to find the variables that had &lt;em&gt;causal&lt;/em&gt; influence on PTSD. We understand that this claim for &lt;em&gt;causality&lt;/em&gt; will often arouse incredulity within the psychiatric research community. How can we make such a claim?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;We understand that this claim for &lt;em&gt;causality&lt;/em&gt; will often arouse incredulity within the psychiatric research community. How can we make such a claim?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Our causal discovery, feature selection methods are designed to find what is called the &lt;em&gt;Markov Boundary&lt;/em&gt; for a response variable (R) (e.g. PTSD). The Markov Boundary defines the set of variables that render every other variable set in the data independent of R. The Markov Boundary – in the majority of distributions – also possesses a &lt;u&gt;causal function&lt;/u&gt; as it includes the direct causes, direct effects and direct causes of the direct effects of R. When the response variable is a terminal event (i.e. no variables occur after R), then &lt;a href=&quot;http://www.jmlr.org/papers/v11/aliferis10a.html&quot;&gt;the Markov Boundary is the set of direct causes of R&lt;/a&gt;. What are the implications of finding such a Markov Boundary?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Our methods have enabled the discovery of the Markov Boundary for the terminal response variable of PTSD. Therefore, we have discovered the set of direct causes of PTSD. Some of you may be tempted to search through our article to find the method we used to conduct the experiment that allowed such causal inference. Alas, none will be found, and that is the point. Should we have randomly assigned a child to a trauma condition? Of course, ethical considerations cannot allow such a study and, therefore, there is no ethically allowable search for causation using conventional methods in our field. And, therefore, there is no available knowledge of causation (outside of animal research) in our field. And this is a very big problem.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1&quot;&gt;our article&lt;/a&gt;, we include many references documenting the mathematical rigor of Markov Boundary induction, and the track record of Markov Boundary induction algorithms for detecting true causes, from data sets where true causes were previously known.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;What did we find? We found a set of causal variables, measured around the time of trauma that predicted PTSD, three months later. In this set, were specific candidate genes that may point to the potential preventative use of specific medications targeted towards the biological processes encoded by these genes. Other identified causal variables were more directly remediable, such as the child’s level of acute pain and the parent’s level of acute distress. Interestingly, we also found that the child’s history of being breast fed as an infant, and whether the child attended religious services regularly, was protective of PTSD: indicating the important role of attachment, community, and spirituality for a child’s recovery after trauma.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/&quot; rel=&quot;nofollow&quot;&gt;Machine Learning to Predict Childhood PTSD&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-07-10T09:00:47+00:00</dc:date>
+	<dc:creator>Dr. Glenn Saxe</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain">
 	<title>Science News: Drinking sugary beverages in pregnancy linked to kids’ later weight gain</title>
 	<link>https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain</link>
@@ -1154,14 +1185,6 @@ Rodríguez Fernández and López Ramón y Cajal w</content:encoded>
 
 Now, Del Giudice has published an 'update' revisiting the issue. Based on text data from late 19th and early 20th century American newspapers and magazines, Del Giu</content:encoded>
 	<dc:date>2017-07-02T10:37:33+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=50905">
-	<title>Retraction watch: Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?</title>
-	<link>http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/</link>
-	<content:encoded>&lt;p&gt;The week at Retraction Watch featured the tale of a scientist whose explanations for misconduct kept changing, and revelations in a big legal case involving Duke University. Here’s what was happening elsewhere: “So I confess. I do look at Impact Factors. I look at citation metrics. I even count papers.” Merlin Crossley disagrees with the […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-07-01T13:30:02+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>

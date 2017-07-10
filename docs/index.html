@@ -85,17 +85,48 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on July 10, 2017 05:00 AM on behalf of Ankur Sinha.
+          on July 10, 2017 11:00 AM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
               <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/&title=Machine Learning to Predict Childhood PTSD" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/">Machine Learning to Predict Childhood PTSD</a></h4>
+
+<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" height="110" src="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/AI-140x110.jpg" style="display: block; margin-bottom: 5px; clear: both;" width="140" /><p> </p>
+<p>Of children who are exposed to a trauma, between 10 and 40% will develop Posttraumatic Stress Disorder (PTSD). PTSD is a debilitating psychiatric condition that can have significant impact on a child’s functioning and, perhaps, even the development of their brain. There is also a growing literature indicating that PTSD may be prevented, if a child at risk (i.e. the 10-40%) is identified early enough. How can we know which child is at risk for PTSD – as early as possible after trauma exposure – so that this risk may be mitigated? What does the literature say about our ability to predict a child’s risk?</p>
+<p> </p>
+<p>A definitive account about the state of this literature was published a few years ago. Trickey and colleagues conducted a <a href="http://www.sciencedirect.com/science/article/pii/S0272735811001875?via%3Dihub">meta-analysis of 64 studies on child PTSD risk</a> published over the previous two decades, and found that the effect sizes for all but a handful of risk factors were very small: and not many more than a handful of risk variables (25) had even been studied, more than once. I have been studying risk for child PTSD since the beginning of the two-decade time span of this landmark meta-analysis, and I was not surprised by the discouraging results, reported. PTSD is a complex phenomenon. In all likelihood, its’ expression involves the complex interactions between a wide diversity of biopsychosocial processes, that engage over time – in specific ways – under specific conditions.</p>
+<p> </p>
+<blockquote><p>I have been studying risk for child PTSD since the beginning of the two-decade time span of this landmark meta-analysis, and I was not surprised by the discouraging results, reported</p>
+<p> </p></blockquote>
+<p>Several years before this meta-analysis was published, I became convinced that the data methods conventionally used for PTSD risk factor research could not approach the complexity of the subject under study. I <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0151174">began to explore the application of new methods</a> such as Machine Learning predictive classification, non-experimental causal discovery, and complex systems science. These methods were gaining tremendous traction in other fields for the very problems that seemed to plague research in my field. The study <a href="https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1">published today</a> in <em><a href="https://bmcpsychiatry.biomedcentral.com/">BMC Psychiatry</a></em> entitled “Machine Learning Methods to Predict Child Posttraumatic Stress: A Proof of Concept Study” is an outcome of this effort, and reports the first ever application of Machine Learning to predict childhood PTSD.</p>
+<p> </p>
+<p>This <a href="https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1">article</a> reports on a longitudinal study of children assessed in the wake of a trauma (hospitalization for an acute injury) to predict who would acquire PTSD from information available around the time of trauma. We assessed a wide variety of risk factors while the child was in the hospital including candidate genes, neurochemical and neurophysiologic responses, hospital treatment, qualities of the child’s family and early development, and parent’s stress and mental health. We then applied state-of-the-art Machine Learning methods to use all the risk information we collected, to build models of risk for PTSD, and test these models for their reliability and accuracy.</p>
+<p> </p>
+<figure class="wp-caption alignright" id="attachment_9239" style="width: 310px;"><img alt="" class="size-medium wp-image-9239" height="188" src="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/artificial-intelligence-2228610_1920-300x188.jpg" width="300" /><div class="attachment-image--caption">Public Domain</div><div class="attachment-image--source"></div></figure>
+<p>What is Machine Learning? Details are found in our <a href="https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1">article</a> but – broadly and briefly – Machine Learning is a computational approach designed to find patterns in data that will form reliable and accurate predictive models of specified events (e.g. the occurrence of PTSD in a traumatized child). The ‘machine’ will use specified algorithms to search through the space of possibilities contained in the data, to arrive at a predictive model. The reliability and accuracy of this predictive model is then tested with data the ‘machine’ has not yet seen.</p>
+<p> </p>
+<p>We used five different approaches to Machine Learning predictive classification and each of the yielded models showed strong predictive performance, certainly stronger than comparisons with conventional methods. We also integrated a feature selection method designed to find the variables that had <em>causal</em> influence on PTSD. We understand that this claim for <em>causality</em> will often arouse incredulity within the psychiatric research community. How can we make such a claim?</p>
+<p> </p>
+<blockquote><p>We understand that this claim for <em>causality</em> will often arouse incredulity within the psychiatric research community. How can we make such a claim?</p></blockquote>
+<p>Our causal discovery, feature selection methods are designed to find what is called the <em>Markov Boundary</em> for a response variable (R) (e.g. PTSD). The Markov Boundary defines the set of variables that render every other variable set in the data independent of R. The Markov Boundary – in the majority of distributions – also possesses a <u>causal function</u> as it includes the direct causes, direct effects and direct causes of the direct effects of R. When the response variable is a terminal event (i.e. no variables occur after R), then <a href="http://www.jmlr.org/papers/v11/aliferis10a.html">the Markov Boundary is the set of direct causes of R</a>. What are the implications of finding such a Markov Boundary?</p>
+<p> </p>
+<p>Our methods have enabled the discovery of the Markov Boundary for the terminal response variable of PTSD. Therefore, we have discovered the set of direct causes of PTSD. Some of you may be tempted to search through our article to find the method we used to conduct the experiment that allowed such causal inference. Alas, none will be found, and that is the point. Should we have randomly assigned a child to a trauma condition? Of course, ethical considerations cannot allow such a study and, therefore, there is no ethically allowable search for causation using conventional methods in our field. And, therefore, there is no available knowledge of causation (outside of animal research) in our field. And this is a very big problem.</p>
+<p> </p>
+<p>In <a href="https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-017-1384-1">our article</a>, we include many references documenting the mathematical rigor of Markov Boundary induction, and the track record of Markov Boundary induction algorithms for detecting true causes, from data sets where true causes were previously known.</p>
+<p> </p>
+<p>What did we find? We found a set of causal variables, measured around the time of trauma that predicted PTSD, three months later. In this set, were specific candidate genes that may point to the potential preventative use of specific medications targeted towards the biological processes encoded by these genes. Other identified causal variables were more directly remediable, such as the child’s level of acute pain and the parent’s level of acute distress. Interestingly, we also found that the child’s history of being breast fed as an infant, and whether the child attended religious services regularly, was protective of PTSD: indicating the important role of attachment, community, and spirituality for a child’s recovery after trauma.</p>
+<p>The post <a href="http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/" rel="nofollow">Machine Learning to Predict Childhood PTSD</a> appeared first on <a href="http://blogs.biomedcentral.com/bmcseriesblog" rel="nofollow">BMC Series blog</a>.</p>
+                <p class="text-muted">in <a href="http://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on July 10, 2017 09:00 AM.</p>
+              </li>
+              <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain&title=Drinking sugary beverages in pregnancy linked to kids’ later weight gain" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain">Drinking sugary beverages in pregnancy linked to kids’ later weight gain</a></h4>
 
 Consuming sugary drinks while pregnant may mean kids are heavier when they reach elementary school age.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 10, 2017 04:05 AM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 10, 2017 04:05 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2017/07/08/weekend-reads-journal-grand-master-drives-online-attention-studies-song-replication/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2017/07/08/weekend-reads-journal-grand-master-drives-online-attention-studies-song-replication/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2017/07/08/weekend-reads-journal-grand-master-drives-online-attention-studies-song-replication/&title=Weekend reads: The ‘Journal Grand Master,’ what drives online attention to studies; a song of replication" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -314,14 +345,14 @@ Consuming sugary drinks while pregnant may mean kids are heavier when they reach
                 <h4><a href="https://www.sciencenews.org/article/fossil-tooth-pushes-back-record-mysterious-neandertal-relative">Fossil tooth pushes back record of mysterious Neandertal relative</a></h4>
 
 A Denisovan child’s fossil tooth dates to at least 100,000 years ago, researchers say.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 07, 2017 06:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 07, 2017 06:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/newfound-particle-relies-its-charms" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/newfound-particle-relies-its-charms" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/newfound-particle-relies-its-charms&title=Newfound particle relies on its charm(s)" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/newfound-particle-relies-its-charms">Newfound particle relies on its charm(s)</a></h4>
 
 First-of-its-kind subatomic particle is composed of two charm quarks and an up quark.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 07, 2017 04:23 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 07, 2017 04:23 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2017/07/07/failed-whistleblower-suit-reminder-public-universities-hard-sue/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2017/07/07/failed-whistleblower-suit-reminder-public-universities-hard-sue/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2017/07/07/failed-whistleblower-suit-reminder-public-universities-hard-sue/&title=Failed whistleblower suit is a reminder that public universities are hard to sue" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -336,7 +367,7 @@ First-of-its-kind subatomic particle is composed of two charm quarks and an up q
                 <h4><a href="https://www.sciencenews.org/article/china-quantum-satellite-adds-two-new-tricks-repertoire">China’s quantum satellite adds two new tricks to its repertoire</a></h4>
 
 Satellite performs quantum teleportation and securely transmits encryption keys.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 07, 2017 03:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 07, 2017 03:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/07/using-citizen-science-to-monitor-road-kills/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/07/using-citizen-science-to-monitor-road-kills/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/07/using-citizen-science-to-monitor-road-kills/&title=Using Citizen Science to Monitor Road-Kills" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -395,14 +426,14 @@ Satellite performs quantum teleportation and securely transmits encryption keys.
                 <h4><a href="https://www.sciencenews.org/article/hermaphrodite-wildflower-has-its-own-battle-sexes">Hermaphrodite wildflower has its own battle of the sexes</a></h4>
 
 A new example of sexual conflict shows up in a plant with a troublesome pollinator.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 07, 2017 12:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 07, 2017 12:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/blog/science-ticker/juno-fly-mere-9000-km-above-jupiters-great-red-spot" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/blog/science-ticker/juno-fly-mere-9000-km-above-jupiters-great-red-spot" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/blog/science-ticker/juno-fly-mere-9000-km-above-jupiters-great-red-spot&title=Juno will fly a mere 9,000 km above Jupiter’s Great Red Spot" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/blog/science-ticker/juno-fly-mere-9000-km-above-jupiters-great-red-spot">Juno will fly a mere 9,000 km above Jupiter’s Great Red Spot</a></h4>
 
 Juno is about to get up close and personal with Jupiter’s Great Red Spot.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 07, 2017 11:00 AM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 07, 2017 11:00 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2017/07/07/rural-cameroonian-pre-schoolers-just-aced-mischels-iconic-marshmallow-test/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2017/07/07/rural-cameroonian-pre-schoolers-just-aced-mischels-iconic-marshmallow-test/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2017/07/07/rural-cameroonian-pre-schoolers-just-aced-mischels-iconic-marshmallow-test/&title=Rural Cameroonian pre-schoolers just aced Mischel’s iconic Marshmallow Test" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -517,35 +548,35 @@ that are based on individual research papers.</p><p>Nature 547 137 <a href="http
                 <h4><a href="https://www.sciencenews.org/article/pin-drop-test-pops-greek-amphitheater-acoustic-claims">Pin-drop test pops Greek amphitheater’s acoustic claims</a></h4>
 
 Analysis of an ancient Greek amphitheater’s ability to carry sounds reveals overblown tour guide claims.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 06, 2017 07:45 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 06, 2017 07:45 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/dive-deep-discover-unexpected-connections" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/dive-deep-discover-unexpected-connections" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/dive-deep-discover-unexpected-connections&title=Dive deep to discover unexpected connections" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/dive-deep-discover-unexpected-connections">Dive deep to discover unexpected connections</a></h4>
 
 Readers often praise Science News for its brevity. But some ideas need more space, writes acting editor in chief Elizabeth Quill.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 06, 2017 04:45 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 06, 2017 04:45 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/readers-intrigued-mars-far-out-birth" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/readers-intrigued-mars-far-out-birth" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/readers-intrigued-mars-far-out-birth&title=Readers intrigued by Mars' far-out birth" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/readers-intrigued-mars-far-out-birth">Readers intrigued by Mars' far-out birth</a></h4>
 
 Readers sent feedback on the Red Planet's formation, jumping genes and more
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 06, 2017 04:30 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 06, 2017 04:30 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/how-humans-maybe-domesticated-themselves" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/how-humans-maybe-domesticated-themselves" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/how-humans-maybe-domesticated-themselves&title=How humans (maybe) domesticated themselves" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/how-humans-maybe-domesticated-themselves">How humans (maybe) domesticated themselves</a></h4>
 
 Prior to taming other species, humans selected for more docile traits among fellow Homo sapiens, a slew of recent studies suggest.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 06, 2017 04:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 06, 2017 04:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/dna-evidence-rewriting-domestication-origin-stories" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/dna-evidence-rewriting-domestication-origin-stories" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/dna-evidence-rewriting-domestication-origin-stories&title=DNA evidence is rewriting domestication origin stories" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/dna-evidence-rewriting-domestication-origin-stories">DNA evidence is rewriting domestication origin stories</a></h4>
 
 DNA studies are rewriting the how-we-met stories of domestication.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 06, 2017 04:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 06, 2017 04:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2017/07/06/fake-peer-review-forged-authors-fake-funding-everythings-wrong-brain-cancer-paper/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2017/07/06/fake-peer-review-forged-authors-fake-funding-everythings-wrong-brain-cancer-paper/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2017/07/06/fake-peer-review-forged-authors-fake-funding-everythings-wrong-brain-cancer-paper/&title=Fake peer review, forged authors, fake funding: Everything’s wrong with brain cancer paper" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -568,7 +599,7 @@ DNA studies are rewriting the how-we-met stories of domestication.
                 <h4><a href="https://www.sciencenews.org/article/how-eavesdrop-kelp">How to eavesdrop on kelp</a></h4>
 
 Sounds reverberating through a kelp bed can be linked to environmental factors, suggesting a low-key way to monitor undersea communities.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 06, 2017 10:00 AM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 06, 2017 10:00 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2017/07/06/new-paper-provides-evidence-backed-insights-on-how-not-to-come-across-as-a-jerk/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2017/07/06/new-paper-provides-evidence-backed-insights-on-how-not-to-come-across-as-a-jerk/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2017/07/06/new-paper-provides-evidence-backed-insights-on-how-not-to-come-across-as-a-jerk/&title=New paper provides evidence-backed insights on how not to come across as a jerk" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -679,7 +710,7 @@ platform.</p>
                 <h4><a href="https://www.sciencenews.org/article/double-duty-dna-plays-role-birth-and-death">Double-duty DNA plays a role in birth and death</a></h4>
 
 Coronary artery disease may be the price humans pay for improved fertility.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 05, 2017 04:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 05, 2017 04:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://brainblogger.com/2017/07/05/mental-health-drug-approval-and-biomedical-research-in-the-21st-century/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://brainblogger.com/2017/07/05/mental-health-drug-approval-and-biomedical-research-in-the-21st-century/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://brainblogger.com/2017/07/05/mental-health-drug-approval-and-biomedical-research-in-the-21st-century/&title=Mental Health, Drug Approval, and Biomedical Research in the 21st Century" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -706,7 +737,7 @@ Coronary artery disease may be the price humans pay for improved fertility.
                 <h4><a href="https://www.sciencenews.org/article/quarter-century-ago-qubit-was-born">A quarter century ago, the qubit was born</a></h4>
 
 The invention of the qubit a quarter century ago enabled the quantum information revolution.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 05, 2017 03:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 05, 2017 03:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2017/07/05/historian-returns-prize-high-profile-book-70-corrections/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2017/07/05/historian-returns-prize-high-profile-book-70-corrections/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2017/07/05/historian-returns-prize-high-profile-book-70-corrections/&title=Historian returns prize for high-profile book with 70+ corrections" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -729,7 +760,7 @@ The invention of the qubit a quarter century ago enabled the quantum information
                 <h4><a href="https://www.sciencenews.org/article/50-years-ago-millionth-degree-above-absolute-zero-seemed-cold">50 years ago, a millionth of a degree above absolute zero seemed cold</a></h4>
 
 Today, scientists have reached temperatures less than a billionth of a degree above absolute zero.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 05, 2017 11:00 AM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 05, 2017 11:00 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/05/sins-of-the-father-can-paternal-social-status-affect-offspring-personality/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/05/sins-of-the-father-can-paternal-social-status-affect-offspring-personality/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.biomedcentral.com/bmcseriesblog/2017/07/05/sins-of-the-father-can-paternal-social-status-affect-offspring-personality/&title=Sins of the father: can paternal social status affect offspring personality?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -1114,14 +1145,14 @@ Rodríguez Fernández and López Ramón y Cajal w
                 <h4><a href="https://www.sciencenews.org/article/snow-and-rain-tug-earthquake-faults-california">Snow and rain tug on earthquake faults in California</a></h4>
 
 California’s water cycle is linked to periodic increases in small earthquakes.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 03, 2017 11:00 AM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 03, 2017 11:00 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/blog/growth-curve/how-child-sees-van-gogh-painting" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/blog/growth-curve/how-child-sees-van-gogh-painting" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/blog/growth-curve/how-child-sees-van-gogh-painting&title=Here’s how a child sees a Van Gogh painting" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/blog/growth-curve/how-child-sees-van-gogh-painting">Here’s how a child sees a Van Gogh painting</a></h4>
 
 Children’s eyes are drawn to vivid, bright and bold parts of Van Gogh paintings. But they can shift their viewing strategies with a little prompting, a new study suggests.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_6236803347984601=1">Science News</a> on July 02, 2017 12:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_9661952121130872=0.24191454816972147">Science News</a> on July 02, 2017 12:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.discovermagazine.com/neuroskeptic/?p=8911" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.discovermagazine.com/neuroskeptic/?p=8911" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.discovermagazine.com/neuroskeptic/?p=8911&title=Did Boys Use To Wear Pink? Revisited" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -1133,14 +1164,6 @@ Five years ago I blogged about the debate over whether the blue-for-boys, pink-f
 
 Now, Del Giudice has published an 'update' revisiting the issue. Based on text data from late 19th and early 20th century American newspapers and magazines, Del Giu
                 <p class="text-muted">in <a href="http://discovermagazine.com/rss/blog-feeds/neuroskeptic">Discovery magazine - Neuroskeptic</a> on July 02, 2017 10:37 AM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/&title=Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/">Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?</a></h4>
-
-<p>The week at Retraction Watch featured the tale of a scientist whose explanations for misconduct kept changing, and revelations in a big legal case involving Duke University. Here’s what was happening elsewhere: “So I confess. I do look at Impact Factors. I look at citation metrics. I even count papers.” Merlin Crossley disagrees with the […]</p>
-<p>The post <a href="http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/" rel="nofollow">Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?</a> appeared first on <a href="http://retractionwatch.com" rel="nofollow">Retraction Watch</a>.</p>
-                <p class="text-muted">in <a href="http://retractionwatch.com">Retraction watch</a> on July 01, 2017 01:30 PM.</p>
               </li>
           </ul>
         </div>
