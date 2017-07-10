@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50954" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-81" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-77" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/how-child-sees-van-gogh-painting" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8911" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50905" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-might-have-had-heavy-metal-atmosphere-supersonic-winds" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain">
+	<title>Science News: Drinking sugary beverages in pregnancy linked to kids’ later weight gain</title>
+	<link>https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain</link>
+	<content:encoded>Consuming sugary drinks while pregnant may mean kids are heavier when they reach elementary school age.</content:encoded>
+	<dc:date>2017-07-10T04:05:01+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=50954">
 	<title>Retraction watch: Weekend reads: The ‘Journal Grand Master,’ what drives online attention to studies; a song of replication</title>
 	<link>http://retractionwatch.com/2017/07/08/weekend-reads-journal-grand-master-drives-online-attention-studies-song-replication/</link>
@@ -1155,13 +1162,6 @@ Now, Del Giudice has published an 'update' revisiting the issue. Based on text 
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/07/01/weekend-reads-vice-chancellor-uses-impact-factors-plagiarizing-principals-time-publish-less/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: Why a vice-chancellor uses Impact Factors; plagiarizing principals; time to publish less?&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-07-01T13:30:02+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/moon-might-have-had-heavy-metal-atmosphere-supersonic-winds">
-	<title>Science News: The moon might have had a heavy metal atmosphere with supersonic winds</title>
-	<link>https://www.sciencenews.org/article/moon-might-have-had-heavy-metal-atmosphere-supersonic-winds</link>
-	<content:encoded>Heat from a glowing infant Earth could have vaporized the moon’s metals into an atmosphere as thick as Mars’, a new simulation shows.</content:encoded>
-	<dc:date>2017-06-30T21:31:56+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
