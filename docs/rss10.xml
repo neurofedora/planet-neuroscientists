@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/whales-feast-when-hatcheries-release-salmon" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/most-distant-star-ever-spotted-9-billion-light-years-away" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50968" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50965" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23002" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23001" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23000" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22991" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/whales-feast-when-hatcheries-release-salmon">
+	<title>Science News: Whales feast when hatcheries release salmon</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/whales-feast-when-hatcheries-release-salmon</link>
+	<content:encoded>Whales: “They’re 40 feet long and they’re feeding on fish that are the size of my finger.”</content:encoded>
+	<dc:date>2017-07-11T23:05:01+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/most-distant-star-ever-spotted-9-billion-light-years-away">
 	<title>Science News: The most distant star ever spotted is 9 billion light-years away</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/most-distant-star-ever-spotted-9-billion-light-years-away</link>
@@ -1185,15 +1192,6 @@ platform.&lt;/p&gt;
 &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature23000&quot;&gt;doi: 10.1038/nature23000&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/lpyRw7irIs8&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-05T00:00:00+00:00</dc:date>
 	<dc:creator>Tyler E. Miller</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature22991">
-	<title>Nature Biological Sciences Research: An immunogenic personal neoantigen vaccine for patients with melanoma</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/n4-TTlF3Los/nature22991</link>
-	<content:encoded>&lt;p&gt;
- Effective anti-tumour immunity in humans has been associated with the presence of T cells directed at cancer neoantigens, a class of HLA-bound peptides that arise from tumour-specific mutations. They are highly immunogenic because they are not present in normal tissues and hence bypass central thymic tolerance. Although neoantigens were long-envisioned as optimal targets for an anti-tumour immune response, their systematic discovery and evaluation only became feasible with the recent availability of massively parallel sequencing for detection of all coding mutations within tumours, and of machine learning approaches to reliably predict those mutated peptides with high-affinity binding of autologous human leukocyte antigen (HLA) molecules. We hypothesized that vaccination with neoantigens can both expand pre-existing neoantigen-specific T-cell populations and induce a broader repertoire of new T-cell specificities in cancer patients, tipping the intra-tumoural balance in favour of enhanced tumour control. Here we demonstrate the feasibility, safety, and immunogenicity of a vaccine that targets up to 20 predicted personal tumour neoantigens. Vaccine-induced polyfunctional CD4+ and CD8+ T cells targeted 58 (60%) and 15 (16%) of the 97 unique neoantigens used across patients, respectively. These T cells discriminated mutated from wild-type antigens, and in some cases directly recognized autologous tumour. Of six vaccinated patients, four had no recurrence at 25 months after vaccination, while two with recurrent disease were subsequently treated with anti-PD-1 (anti-programmed cell death-1) therapy and experienced complete tumour regression, with expansion of the repertoire of neoantigen-specific T cells. These data provide a strong rationale for further development of this approach, alone and in combination with checkpoint blockade or other immunotherapies. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature22991&quot;&gt;doi: 10.1038/nature22991&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/n4-TTlF3Los&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-05T00:00:00+00:00</dc:date>
-	<dc:creator>Patrick A. Ott</dc:creator>
 </item>
 
 </rdf:RDF>
