@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/google-no-more-how-radiologists-are-shifting-to-specialized-databases" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/rising-temps-may-mean-fewer-passengers-airplane-flights" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/4-reasons-chorus-is-gaining-traction" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/crispr-adds-storing-movies-its-feats-molecular-biology" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51000" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/juno-first-pictures-jupiter-great-red-spot" />
@@ -112,13 +115,29 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8925" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/pin-drop-test-pops-greek-amphitheater-acoustic-claims" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dive-deep-discover-unexpected-connections" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-intrigued-mars-far-out-birth" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-humans-maybe-domesticated-themselves" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-evidence-rewriting-domestication-origin-stories" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/google-no-more-how-radiologists-are-shifting-to-specialized-databases">
+	<title>Elsevier Connect: Google no more: How radiologists are shifting to specialized databases</title>
+	<link>https://www.elsevier.com/connect/google-no-more-how-radiologists-are-shifting-to-specialized-databases</link>
+	<content:encoded>Radiologists at a leading hospital in Taiwan are discovering the benefits of tools personalized to their profession</content:encoded>
+	<dc:date>2017-07-13T10:05:10+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/rising-temps-may-mean-fewer-passengers-airplane-flights">
+	<title>Science News: Rising temps may mean fewer passengers on airplane flights</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/rising-temps-may-mean-fewer-passengers-airplane-flights</link>
+	<content:encoded>Global warming could force airplanes to carry a lighter load — and fewer passengers —on each flight.</content:encoded>
+	<dc:date>2017-07-13T09:30:02+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/4-reasons-chorus-is-gaining-traction">
+	<title>Elsevier Connect: 4 reasons CHORUS is gaining traction</title>
+	<link>https://www.elsevier.com/connect/4-reasons-chorus-is-gaining-traction</link>
+	<content:encoded>Elsevier has made over 3,000 manuscripts available to US partner funding agencies through the CHORUS public access service</content:encoded>
+	<dc:date>2017-07-13T09:07:28+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/crispr-adds-storing-movies-its-feats-molecular-biology">
 	<title>Science News: CRISPR adds storing movies to its feats of molecular biology</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/crispr-adds-storing-movies-its-feats-molecular-biology</link>
@@ -1153,27 +1172,6 @@ Headaches, impairment of cognitive function, tremors, weakness, and others. Mult
 	<content:encoded>Readers often praise Science News for its brevity. But some ideas need more space, writes acting editor in chief Elizabeth Quill.</content:encoded>
 	<dc:date>2017-07-06T16:45:03+00:00</dc:date>
 	<dc:creator>Elizabeth Quill</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-intrigued-mars-far-out-birth">
-	<title>Science News: Readers intrigued by Mars' far-out birth</title>
-	<link>https://www.sciencenews.org/article/readers-intrigued-mars-far-out-birth</link>
-	<content:encoded>Readers sent feedback on the Red Planet's formation, jumping genes and more</content:encoded>
-	<dc:date>2017-07-06T16:30:02+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-humans-maybe-domesticated-themselves">
-	<title>Science News: How humans (maybe) domesticated themselves</title>
-	<link>https://www.sciencenews.org/article/how-humans-maybe-domesticated-themselves</link>
-	<content:encoded>Prior to taming other species, humans selected for more docile traits among fellow Homo sapiens, a slew of recent studies suggest.</content:encoded>
-	<dc:date>2017-07-06T16:00:03+00:00</dc:date>
-	<dc:creator>Erika Engelhaupt</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dna-evidence-rewriting-domestication-origin-stories">
-	<title>Science News: DNA evidence is rewriting domestication origin stories</title>
-	<link>https://www.sciencenews.org/article/dna-evidence-rewriting-domestication-origin-stories</link>
-	<content:encoded>DNA studies are rewriting the how-we-met stories of domestication.</content:encoded>
-	<dc:date>2017-07-06T16:00:03+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
