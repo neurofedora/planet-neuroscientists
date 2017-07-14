@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/giant-mud-balls-roamed-early-solar-system" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/water-bears-will-survive-end-world-we-know-it" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51042" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22603" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-35" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-27" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-24" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-22" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0717-2" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/giant-mud-balls-roamed-early-solar-system">
+	<title>Science News: Giant mud balls roamed the early solar system</title>
+	<link>https://www.sciencenews.org/article/giant-mud-balls-roamed-early-solar-system</link>
+	<content:encoded>The first asteroids may have been great balls of mud, which would solve some puzzling features of meteorites.</content:encoded>
+	<dc:date>2017-07-14T18:00:03+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda">
+	<title>Science News: GM moth trial gets a green light from USDA</title>
+	<link>https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda</link>
+	<content:encoded>GM diamondback moths will take wing in New York field trial.</content:encoded>
+	<dc:date>2017-07-14T17:11:52+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/water-bears-will-survive-end-world-we-know-it">
 	<title>Science News: Water bears will survive the end of the world as we know it</title>
 	<link>https://www.sciencenews.org/article/water-bears-will-survive-end-world-we-know-it</link>
@@ -1157,29 +1171,6 @@ A Freedom of Information Act request has revealed documen</content:encoded>
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/3HpgRtDXMuE&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-08T00:00:00+00:00</dc:date>
 	<dc:creator>Diana Kwon</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0717-22">
-	<title>Scientific American Mind: Your Brain Remembers Languages You Think You Forgot</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/TydQxo0mAgs/scientificamericanmind0717-22</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 28, 22 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0717-22&quot;&gt;doi:10.1038/scientificamericanmind0717-22&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Jane C. Hu&lt;/p&gt;
-&lt;p&gt;Kids adopted in a new country have an advantage in learning their native tongue as adults, even if they have not heard it since birth&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/TydQxo0mAgs&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-08T00:00:00+00:00</dc:date>
-	<dc:creator>Jane C. Hu</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0717-2">
-	<title>Scientific American Mind: Welcome to the New Scientific American Mind</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/SjNdIeb7H5w/scientificamericanmind0717-2</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 28, 2 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0717-2&quot;&gt;doi:10.1038/scientificamericanmind0717-2&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Mariette DiChristina&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/SjNdIeb7H5w&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-08T00:00:00+00:00</dc:date>
-	<dc:creator>Mariette DiChristina</dc:creator>
 </item>
 
 </rdf:RDF>
