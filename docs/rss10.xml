@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/people-domesticated-dogs-just-once-ancient-dna-study-suggests" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=51083" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=26930" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8964" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51051" />
@@ -113,12 +115,25 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=50378" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-crop-destroying-fungus-mutated-infect-wheat" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9238" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature22988" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/people-domesticated-dogs-just-once-ancient-dna-study-suggests">
+	<title>Science News: People domesticated dogs just once, ancient DNA study suggests</title>
+	<link>https://www.sciencenews.org/article/people-domesticated-dogs-just-once-ancient-dna-study-suggests</link>
+	<content:encoded>DNA of ancient canines counters idea that dogs were domesticated twice, in Europe and Asia.</content:encoded>
+	<dc:date>2017-07-18T15:18:04+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=51083">
+	<title>Retraction watch: Ex-Wayne State scientist, ORI square off in court</title>
+	<link>http://retractionwatch.com/2017/07/18/ex-wayne-state-scientist-ori-square-off-court/</link>
+	<content:encoded>&lt;p&gt;WASHINGTON, D.C — Last week, former brain scientist Christian Kreipke stared down the third set of research misconduct allegations against him since 2011. Or, possibly, according to him, it was the third iteration of the same research misconduct allegations he’s faced for years, a piling on by the most powerful of the three institutions out […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/07/18/ex-wayne-state-scientist-ori-square-off-court/&quot; rel=&quot;nofollow&quot;&gt;Ex-Wayne State scientist, ORI square off in court&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-07-18T12:00:01+00:00</dc:date>
+	<dc:creator>Andrew P. Han</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=26930">
 	<title>The British Psychological Society - Research Digest: Hard-core players of violent video games do not have emotionally blunted brains</title>
 	<link>https://digest.bps.org.uk/2017/07/18/hard-core-players-of-violent-video-games-do-not-have-emotionally-blunted-brains/</link>
@@ -306,7 +321,7 @@ The various sciences of‘‘difference’’ - sex, gender, race,</content:enco
 <item rdf:about="https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda">
 	<title>Science News: GM moth trial gets a green light from USDA</title>
 	<link>https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda</link>
-	<content:encoded>GM diamondback moths will take wing in New York field trial.</content:encoded>
+	<content:encoded>GM diamondback moths will take wing in a New York field trial.</content:encoded>
 	<dc:date>2017-07-14T17:11:52+00:00</dc:date>
 	<dc:creator>Helen Thompson</dc:creator>
 </item>
@@ -1166,22 +1181,6 @@ A Freedom of Information Act request has revealed documen</content:encoded>
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/07/10/machine-learning-predict-childhood-ptsd/&quot; rel=&quot;nofollow&quot;&gt;Machine Learning to Predict Childhood PTSD&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-07-10T09:00:47+00:00</dc:date>
 	<dc:creator>Dr. Glenn Saxe</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain">
-	<title>Science News: Drinking sugary beverages in pregnancy linked to kids’ later weight gain</title>
-	<link>https://www.sciencenews.org/article/drinking-sugary-beverages-pregnancy-linked-kids-later-weight-gain</link>
-	<content:encoded>Consuming sugary drinks while pregnant may mean kids are heavier when they reach elementary school age.</content:encoded>
-	<dc:date>2017-07-10T04:05:01+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature22988">
-	<title>Nature Biological Sciences Research: K2P2.1 (TREK-1)–activator complexes reveal a cryptic selectivity filter binding site</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/jIjgCgt7v5c/nature22988</link>
-	<content:encoded>&lt;p&gt;
- Polymodal thermo- and mechanosensitive two-pore domain potassium (K2P) channels of the TREK subfamily generate ‘leak’ currents that regulate neuronal excitability, respond to lipids, temperature and mechanical stretch, and influence pain, temperature perception and anaesthetic responses. These dimeric voltage-gated ion channel (VGIC) superfamily members have a unique topology comprising two pore-forming regions per subunit. In contrast to other potassium channels, K2P channels use a selectivity filter ‘C-type’ gate as the principal gating site. Despite recent advances, poor pharmacological profiles of K2P channels limit mechanistic and biological studies. Here we describe a class of small-molecule TREK activators that directly stimulate the C-type gate by acting as molecular wedges that restrict interdomain interface movement behind the selectivity filter. Structures of K2P2.1 (also known as TREK-1) alone and with two selective K2P2.1 (TREK-1) and K2P10.1 (TREK-2) activators—an N-aryl-sulfonamide, ML335, and a thiophene-carboxamide, ML402—define a cryptic binding pocket unlike other ion channel small-molecule binding sites and, together with functional studies, identify a cation–π interaction that controls selectivity. Together, our data reveal a druggable K2P site that stabilizes the C-type gate ‘leak mode’ and provide direct evidence for K2P selectivity filter gating. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature22988&quot;&gt;doi: 10.1038/nature22988&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/jIjgCgt7v5c&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-10T00:00:00+00:00</dc:date>
-	<dc:creator>Marco Lolicato</dc:creator>
 </item>
 
 </rdf:RDF>
