@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/fire-ants-build-towers-three-simple-rules" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51143" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/i-was-skeptical-at-first-but-now-i-firmly-believe-in-agile" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/earth-might-once-have-resembled-hot-steamy-doughnut" />
@@ -23,6 +24,7 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=27173" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9293" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22345" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22340" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/547379b" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/resistance-crispr-gene-drives-may-arise-easily" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/majorana-fermion-detected-quantum-layer-cake" />
@@ -80,7 +82,6 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51083" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=26930" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22320" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22318" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-4" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8964" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51051" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8956" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51063" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/giant-mud-balls-roamed-early-solar-system" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/wild-things/fire-ants-build-towers-three-simple-rules">
+	<title>Science News: Fire ants build towers with three simple rules</title>
+	<link>https://www.sciencenews.org/blog/wild-things/fire-ants-build-towers-three-simple-rules</link>
+	<content:encoded>Fire ants use the same set of simple rules to produce static rafts and perpetually moving towers.</content:encoded>
+	<dc:date>2017-07-21T18:54:08+00:00</dc:date>
+	<dc:creator>Sarah Zielinski</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51143">
 	<title>Retraction watch: Months after neuroscientist flagged errors, Nature journal corrects them — and more</title>
 	<link>http://retractionwatch.com/2017/07/21/months-neuroscientist-flagged-errors-nature-journal-corrects/</link>
@@ -194,6 +201,13 @@
 	<content:encoded>&lt;p&gt;National security community examines the risks and benefits of technology to quickly spread genetic modifications.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22345&quot;&gt;doi: 10.1038/nature.2017.22345&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/x3pyvezlVSE&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-21T00:00:00+00:00</dc:date>
 	<dc:creator>Ewen Callaway</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22340">
+	<title>Nature News &amp; Comment: Iceland drilling project aims to unearth how islands form</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/27XXmf_rDpQ/nature.2017.22340</link>
+	<content:encoded>&lt;p&gt;Scientists will look into the heart of Surtsey, an island created 50 years ago by a volcanic eruption.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22340&quot;&gt;doi: 10.1038/nature.2017.22340&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/27XXmf_rDpQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-21T00:00:00+00:00</dc:date>
+	<dc:creator>Alexandra Witze</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/547379b">
 	<title>Nature News &amp; Comment: Put cult online games to the test</title>
@@ -707,13 +721,6 @@ The</content:encoded>
 	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
 	<dc:creator>Rachael Lallensack</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22318">
-	<title>Nature News &amp; Comment: Climate scientists flock to France’s call</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/KtQTs5e5u9g/nature.2017.22318</link>
-	<content:encoded>&lt;p&gt;President said ‘Make Our Planet Great Again’ — and researchers signed up.&lt;/p&gt;&lt;p&gt;Nature 547 269 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22318&quot;&gt;doi: 10.1038/nature.2017.22318&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/KtQTs5e5u9g&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
-	<dc:creator>Declan Butler</dc:creator>
-</item>
 <item rdf:about="http://dx.doi.org/10.1038/scientificamerican0817-4">
 	<title>Scientific American: In the Beginning</title>
 	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/nyxr3WsEtOM/scientificamerican0817-4</link>
@@ -1100,13 +1107,6 @@ The various sciences of‘‘difference’’ - sex, gender, race,</content:enco
 	<content:encoded>The first asteroids may have been great balls of mud, which would solve some puzzling features of meteorites.</content:encoded>
 	<dc:date>2017-07-14T18:00:03+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda">
-	<title>Science News: GM moth trial gets a green light from USDA</title>
-	<link>https://www.sciencenews.org/article/gm-moth-trial-gets-green-light-usda</link>
-	<content:encoded>GM diamondback moths will take wing in a New York field trial.</content:encoded>
-	<dc:date>2017-07-14T17:11:52+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
 </item>
 
 </rdf:RDF>
