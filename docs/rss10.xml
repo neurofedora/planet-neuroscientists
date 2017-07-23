@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/history-book-offers-excellent-images-skimps-modern-science" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51152" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8981" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/fire-ants-build-towers-three-simple-rules" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-24" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-22" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-21" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8956" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/history-book-offers-excellent-images-skimps-modern-science">
+	<title>Science News: This history book offers excellent images but skimps on modern science</title>
+	<link>https://www.sciencenews.org/article/history-book-offers-excellent-images-skimps-modern-science</link>
+	<content:encoded>For an accessible account of mostly pre-20th century science, check out The Oxford Illustrated History of Science.</content:encoded>
+	<dc:date>2017-07-23T12:00:02+00:00</dc:date>
+	<dc:creator>Tom Siegfried</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51152">
 	<title>Retraction watch: Weekend reads: 10 rules for research misconduct; peer review’s black box; the rich get richer</title>
 	<link>http://retractionwatch.com/2017/07/22/weekend-reads-10-rules-research-misconduct-peer-reviews-black-box-rich-get-richer/</link>
@@ -1093,21 +1100,6 @@ The paper, published in Frontiers in Computational Neuroscience, comes from the 
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/t5oOGg7Ztjc&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-16T00:00:00+00:00</dc:date>
 	<dc:creator>Matthew Sedacca</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8956">
-	<title>Discovery magazine - Neuroskeptic: Researchers Apologize For Writing &quot;Derpy&quot; In A Paper</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8956</link>
-	<content:encoded>It appears that memes and science don't mix well. A pair of researchers have published an apology in a peer-reviewed journal - for using the word &quot;derpy&quot; in an earlier paper.
-
-
-
-In April 2016, Archives of Sexual Behavior published a piece called Fighting the Derpy Science of Sexuality by Banu Subramaniam and Angela Willey.
-
-
-
-In this paper, Subramaniam and Willey criticized studies of biological differences between human groups:
-The various sciences of‘‘difference’’ - sex, gender, race,</content:encoded>
-	<dc:date>2017-07-15T14:43:29+00:00</dc:date>
 </item>
 
 </rdf:RDF>
