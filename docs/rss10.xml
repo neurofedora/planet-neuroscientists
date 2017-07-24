@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/making-contact-chronicles-astronomers-struggles-find-aliens" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51164" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22686" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51156" />
@@ -23,6 +24,8 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=27197" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51139" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/radioactive-substances-leave-electron-fingerprints-behind" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22361" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22360" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23479" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23478" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23449" />
@@ -89,14 +92,12 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/547281a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/547280a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/547279a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/547278a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/common-drugs-help-reverse-signs-fetal-alcohol-syndrome-rats" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51102" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/people-domesticated-dogs-just-once-ancient-dna-study-suggests" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dog-domestication-happened-just-once-ancient-dna-study-suggests" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51083" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=26930" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22320" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-4" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8964" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51051" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-81" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-80" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-8" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0817-74" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/making-contact-chronicles-astronomers-struggles-find-aliens">
+	<title>Science News: ‘Making Contact’ chronicles an astronomer’s struggle to find E.T.</title>
+	<link>https://www.sciencenews.org/article/making-contact-chronicles-astronomers-struggles-find-aliens</link>
+	<content:encoded>For decades, astronomer Jill Tarter led the hunt for extraterrestrial intelligence, as detailed in a new biography.</content:encoded>
+	<dc:date>2017-07-24T20:33:49+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51164">
 	<title>Retraction watch: Following uproar, surgery journal retracts paper with male-only pronouns</title>
 	<link>http://retractionwatch.com/2017/07/24/following-uproar-surgery-journal-retracts-paper-male-pronouns/</link>
@@ -229,6 +236,20 @@
 	<content:encoded>A new method of nuclear forensics could make it harder to handle radioactive material in secret.</content:encoded>
 	<dc:date>2017-07-24T11:00:02+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22361">
+	<title>Nature News &amp; Comment: Giant radio telescope scaled back to contain costs</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Cy-oIkmtyN4/nature.2017.22361</link>
+	<content:encoded>&lt;p&gt;Crowding antennas closer together may affect the Square Kilometre Array's ability to observe the early Universe.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22361&quot;&gt;doi: 10.1038/nature.2017.22361&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Cy-oIkmtyN4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-24T00:00:00+00:00</dc:date>
+	<dc:creator>Sarah Wild</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22360">
+	<title>Nature News &amp; Comment: President of troubled French funding agency resigns</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/ySEPp_UfT1M/nature.2017.22360</link>
+	<content:encoded>&lt;p&gt;Chief's departure after management complaints might not solve National Research Agency's woes.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22360&quot;&gt;doi: 10.1038/nature.2017.22360&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/ySEPp_UfT1M&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-07-24T00:00:00+00:00</dc:date>
+	<dc:creator>Barbara Casassus</dc:creator>
 </item>
 <item rdf:about="http://dx.doi.org/10.1038/nature23479">
 	<title>Nature Biological Sciences Research: Channel opening and gating mechanism in AMPA-subtype glutamate receptors</title>
@@ -822,13 +843,6 @@ The</content:encoded>
 	<dc:date>2017-07-19T00:00:00+00:00</dc:date>
 	<dc:creator>Barbara Kiser</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/547278a">
-	<title>Nature News &amp; Comment: Environment: A journey on plastic seas</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/63Hga46UiMY/547278a</link>
-	<content:encoded>&lt;p&gt;Richard Thompson applauds a chronicle alerting the world to marine polymer pollution.&lt;/p&gt;&lt;p&gt;Nature 547 278 &lt;a href=&quot;http://dx.doi.org/10.1038/547278a&quot;&gt;doi: 10.1038/547278a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/63Hga46UiMY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-19T00:00:00+00:00</dc:date>
-	<dc:creator>Richard Thompson</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/common-drugs-help-reverse-signs-fetal-alcohol-syndrome-rats">
 	<title>Science News: Common drugs help reverse signs of fetal alcohol syndrome in rats</title>
 	<link>https://www.sciencenews.org/article/common-drugs-help-reverse-signs-fetal-alcohol-syndrome-rats</link>
@@ -883,13 +897,6 @@ The</content:encoded>
 &lt;p&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/26930/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/26930/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=26930&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-18T08:34:37+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22320">
-	<title>Nature News &amp; Comment: Ancient genomes heat up dog domestication debate</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/hsv-IldtoI4/nature.2017.22320</link>
-	<content:encoded>&lt;p&gt;Results point to a single origin for modern canines and push back the timing by thousands of years.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22320&quot;&gt;doi: 10.1038/nature.2017.22320&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/hsv-IldtoI4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-18T00:00:00+00:00</dc:date>
-	<dc:creator>Rachael Lallensack</dc:creator>
 </item>
 <item rdf:about="http://dx.doi.org/10.1038/scientificamerican0817-4">
 	<title>Scientific American: In the Beginning</title>
@@ -1094,18 +1101,6 @@ The paper, published in Frontiers in Computational Neuroscience, comes from the 
 &lt;p&gt;Leaving the decision to strike to the president alone is dangerous&lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/s_kjovBQq_c&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-07-16T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0817-74">
-	<title>Scientific American: Talking to Ourselves</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/e43FGi6AuQs/scientificamerican0817-74</link>
-	<content:encoded>&lt;p&gt;Scientific American 317, 74 (2017).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0817-74&quot;&gt;doi:10.1038/scientificamerican0817-74&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Charles Fernyhough&lt;/p&gt;
-&lt;p&gt;Studies of the conversations people have with themselves open a window on the hidden workings of the mind&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/e43FGi6AuQs&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-07-16T00:00:00+00:00</dc:date>
-	<dc:creator>Charles Fernyhough</dc:creator>
 </item>
 
 </rdf:RDF>
