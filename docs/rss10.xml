@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9007" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51239" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8998" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/potential-ingredient-alien-life-found-titan" />
@@ -114,11 +115,23 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51143" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/i-was-skeptical-at-first-but-now-i-firmly-believe-in-agile" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/earth-might-once-have-resembled-hot-steamy-doughnut" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=51093" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9007">
+	<title>Discovery magazine - Neuroskeptic: Are Underpowered Studies Ever Justified?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9007</link>
+	<content:encoded>Is a small scientific study better than none at all? A provocative piece in Frontiers in Psychology raises the question of whether we should ever do under-powered studies. The authors are Dutch researchers Rik Crutzen and Gjalt-Jorn Y. Peters.
+
+
+
+
+
+Crutzen and Peters begin by questioning the idea that even a little evidence is always valuable. Taking the example of a study that only manages to recruit a handful of patients because it's studying a rare disease, the authors say that:
+Underp</content:encoded>
+	<dc:date>2017-07-29T19:03:16+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51239">
 	<title>Retraction watch: Weekend reads: Subscription journals doomed?; Are scientists most often wrong?; “Buxom grapefruits”</title>
 	<link>http://retractionwatch.com/2017/07/29/weekend-reads-subscription-journals-doomed-scientists-often-wrong-buxom-grapefruits/</link>
@@ -1094,14 +1107,6 @@ Inspired by previous publishing &quot;stings&quot;, I wanted to test whether 'pr
 	<content:encoded>Newly proposed space objects called synestias are large, spinning hunks of mostly vaporized rock. They look like a jelly-filled doughnut.</content:encoded>
 	<dc:date>2017-07-21T13:00:02+00:00</dc:date>
 	<dc:creator>Ashley Yeager</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=51093">
-	<title>Retraction watch: Jumped the gun: Paper about non-finalized guidelines is retracted</title>
-	<link>http://retractionwatch.com/2017/07/21/jumped-gun-paper-non-finalized-guidelines-retracted/</link>
-	<content:encoded>&lt;p&gt;Too soon? A surgeon is retracting his overview of new hernia surgery guidelines after it was published before the guidelines were finalized. The paper, published in German in the journal, Der Chirurg, was also retracted because — according to two co-authors of the new guidelines — the final version of the guidelines was supposed to […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/07/21/jumped-gun-paper-non-finalized-guidelines-retracted/&quot; rel=&quot;nofollow&quot;&gt;Jumped the gun: Paper about non-finalized guidelines is retracted&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-07-21T12:00:47+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
 </item>
 
 </rdf:RDF>
