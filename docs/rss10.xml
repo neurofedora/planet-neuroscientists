@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/hackathon-two-days-to-change-the-face-of-medical-education" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9007" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51239" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8998" />
@@ -114,11 +115,16 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/fire-ants-build-towers-three-simple-rules" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51143" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/i-was-skeptical-at-first-but-now-i-firmly-believe-in-agile" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/earth-might-once-have-resembled-hot-steamy-doughnut" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/hackathon-two-days-to-change-the-face-of-medical-education">
+	<title>Elsevier Connect: #ElsevierHacks: Two days to change the face of medical education</title>
+	<link>https://www.elsevier.com/connect/hackathon-two-days-to-change-the-face-of-medical-education</link>
+	<content:encoded>Channelling the creativity of 60 young minds, the hackathon will take on challenges facing the world’s medical students</content:encoded>
+	<dc:date>2017-07-29T19:27:24+00:00</dc:date>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9007">
 	<title>Discovery magazine - Neuroskeptic: Are Underpowered Studies Ever Justified?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9007</link>
@@ -1100,13 +1106,6 @@ Inspired by previous publishing &quot;stings&quot;, I wanted to test whether 'pr
 	<link>https://www.elsevier.com/connect/i-was-skeptical-at-first-but-now-i-firmly-believe-in-agile</link>
 	<content:encoded>Two years after Newsflo joined Elsevier, its small team has been expanding its technology and influence in a big way</content:encoded>
 	<dc:date>2017-07-21T13:51:47+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/earth-might-once-have-resembled-hot-steamy-doughnut">
-	<title>Science News: Earth might once have resembled a hot, steamy doughnut</title>
-	<link>https://www.sciencenews.org/article/earth-might-once-have-resembled-hot-steamy-doughnut</link>
-	<content:encoded>Newly proposed space objects called synestias are large, spinning hunks of mostly vaporized rock. They look like a jelly-filled doughnut.</content:encoded>
-	<dc:date>2017-07-21T13:00:02+00:00</dc:date>
-	<dc:creator>Ashley Yeager</dc:creator>
 </item>
 
 </rdf:RDF>
