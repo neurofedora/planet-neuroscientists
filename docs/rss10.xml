@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/curiosity-mars-rover-five-year-anniversary" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/seagull-fur-seal-hookworm" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22688" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/spread-misfolded-proteins-could-trigger-type-2-diabetes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51235" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/oregon-newborn-infection-placenta-pills" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51199" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/potential-first-exomoon-hubble" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/curiosity-mars-rover-five-year-anniversary">
+	<title>Science News: What Curiosity has yet to tell us about Mars</title>
+	<link>https://www.sciencenews.org/article/curiosity-mars-rover-five-year-anniversary</link>
+	<content:encoded>Curiosity has revealed a lot about Mars in the last five years. But NASA’s rover still has work to do on the Red Planet.</content:encoded>
+	<dc:date>2017-08-04T20:29:27+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/wild-things/seagull-fur-seal-hookworm">
 	<title>Science News: One creature’s meal is another’s pain in the butt</title>
 	<link>https://www.sciencenews.org/blog/wild-things/seagull-fur-seal-hookworm</link>
@@ -1059,13 +1066,6 @@ Reward smiles are displayed to reward the self or other people and to communicat
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/07/28/authors-object-journals-decision-retract-paper-duplication/&quot; rel=&quot;nofollow&quot;&gt;Journal retracts paper it says authors published twice. Authors disagree.&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-07-28T12:27:25+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/potential-first-exomoon-hubble">
-	<title>Science News: Astronomers may have found an exomoon, and Hubble is going to check</title>
-	<link>https://www.sciencenews.org/article/potential-first-exomoon-hubble</link>
-	<content:encoded>A distant object may be the first exomoon detected.</content:encoded>
-	<dc:date>2017-07-28T10:00:02+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
