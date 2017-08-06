@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9019" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51343" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/curiosity-mars-rover-five-year-anniversary" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/seagull-fur-seal-hookworm" />
@@ -114,11 +115,22 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/new-york-magazine-climate-change" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22697" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51235" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/oregon-newborn-infection-placenta-pills" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9019">
+	<title>Discovery magazine - Neuroskeptic: Spreadsheet Risks in Science</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9019</link>
+	<content:encoded>Errors in the use of spreadsheets such as Microsoft Excel could pose risks for science.
+
+That's according to a preprint posted on arXiv from Ghada AlTarawneh and Simon Thorne of Cardiff Metropolitan University.
+
+
+
+AlTarawneh and Thorne conducted a survey of 17 researchers from the University of Newcastle neuroscience research centre, ranging from PhD students to senior researchers. None of the respondants had any formal, certified training in spreadsheet use, with most (71%) being self-tau</content:encoded>
+	<dc:date>2017-08-06T11:08:48+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51343">
 	<title>Retraction watch: Weekend reads: A science BS detector; scholarly publishing’s 1%; a tenured professor is fired</title>
 	<link>http://retractionwatch.com/2017/08/05/weekend-reads-science-bs-detector-scholarly-publishings-1-tenured-professor-fired/</link>
@@ -1059,13 +1071,6 @@ Reward smiles are displayed to reward the self or other people and to communicat
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/07/28/toronto-wife-husband-research-team-lose-bid-re-open-labs/&quot; rel=&quot;nofollow&quot;&gt;Toronto wife-husband research team lose bid to re-open labs&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-07-28T14:30:21+00:00</dc:date>
 	<dc:creator>Andrew P. Han</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/oregon-newborn-infection-placenta-pills">
-	<title>Science News: Newborn baby’s infection offers a cautionary tale about placenta pills</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/oregon-newborn-infection-placenta-pills</link>
-	<content:encoded>A newborn came down with a dangerous bacterial infection. The culprit, scientists suspect, was contaminated placenta pills eaten by the mother.</content:encoded>
-	<dc:date>2017-07-28T13:00:03+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
