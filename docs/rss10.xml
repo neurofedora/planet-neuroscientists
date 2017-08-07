@@ -15,12 +15,16 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19411" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nostalgic-voyager-documentary-relives-first-exploration-solar-system" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/combat-cholera-yemen-one-scientist-goes-back-basics" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51335" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51338" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sacrificed-dog-remains-feed-tales-bronze-age-wolf-men-warriors" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9350" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9370" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=28078" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22418" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548135b" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23477" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9019" />
@@ -92,7 +96,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23277" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/548130a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/548039a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/548032a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/virgo-detector-joins-ligo-search-gravitational-waves" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51289" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-portrait-worlds-first-flower-unveiled" />
@@ -112,13 +115,59 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51243" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=27575" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/diamond-joins-realm-2-d-thin-films-study-suggests" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9309" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/hackathon-two-days-to-change-the-face-of-medical-education" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9007" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.plos.org/neuro/?p=19411">
+	<title>PLOS Neuroscience Community: The challenge to define cortex (By Ashley Juavinett)</title>
+	<link>http://feeds.plos.org/~r/plos/blogs/neuro/~3/xtNlrUv1N_E/</link>
+	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2017/08/7030838119_f617dfcd3c_z-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;blockquote&gt;&lt;p&gt;“Our fragmentary and rapidly evolving understanding is reminiscent of the situation faced by cartographers of the earth’s surface many centuries ago, when maps were replete with uncertainties and divergent portrayals of most of the planet’s surface.”&lt;/p&gt;
+&lt;p&gt;– David Van Essen, 2003&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;We love talking about cortex. It’s bumpy, it’s got layers, and it’s probably the brain structure that makes us the very verbal, skilled primates that we are.&lt;/p&gt;
+&lt;p&gt;We also love all of the different areas of cortex—there’s one for face recognition, another for motion detection, and many for decision-making. Often, labs stake claims on their cortical area of interest, diving deep into how that particular patch gets its job done.&lt;/p&gt;
+&lt;p&gt;But how well can we really divvy up that important sheet of tissue that makes us human? Can we confidently say we’ve left one area, and moved into the next? And how well can we translate these borders to smaller animal models, such as mice?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tiny brains with big aspirations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mice are super important to neuroscientists. Sure, they’re quite small and not exactly the most brilliant animals, but we’ve been able to engineer them to mark specific cell types, express glowing proteins, and more. As a result of this powerful murine toolbox, mice have gained a lot of attention from scientists who want to understand circuits and cell types in the brain. In particular, the &lt;em&gt;visual cortex&lt;/em&gt; of the mouse has been the site of a lot of discussion, &lt;a href=&quot;http://www.nature.com/news/neuroscience-through-the-eyes-of-a-mouse-1.13901&quot; target=&quot;_blank&quot;&gt;with many researchers&lt;/a&gt; hoping that we could use our extensive knowledge about the coarse organization of the primate visual system to ask detailed questions in the mouse brain.&lt;/p&gt;
+&lt;p&gt;However, if we want to use powerful genetic and recording tools in mice, we first need to understand how their cortex is organized. So, many neuroscientists have been working to combine textbook knowledge about primate brain organization with novel techniques designed for the tiny mouse brain.&lt;/p&gt;
+&lt;p&gt;After a few landmark papers showing that mice have multiple visual areas like primates, the field immediately grabbed its two-photon microscopes and optical fibers and got to work. But as it turns out, mouse visual cortex isn’t &lt;em&gt;exactly&lt;/em&gt; arranged like primate cortex, and many mouse researchers are left wondering if they have indeed isolated a meaningful cortical “area,” or a dubious patch of cortex. This challenge to disentangle the mouse brain has unearthed several fundamental questions about defining cortex.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An age-old problem&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Fortunately for the new generation of mouse vision researchers, many before us have given careful thought to how we should consider the cortex. Primate researchers are quite familiar with the problem of defining cortical areas as well as the difficulties that arise when comparing across species. Multiple cortical partitioning schemes exist for macaque visual cortex and &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S089662730700774X&quot; target=&quot;_blank&quot;&gt;mapping these areas onto humans&lt;/a&gt; is quite contentious. In primates, there are 10-12 areas with clear organization, but &lt;a href=&quot;http://brainmap.wustl.edu/resources/VisChapter.pdf&quot; target=&quot;_blank&quot;&gt;there is anatomical and functional evidence for more than 40 distinct visual areas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2017/08/Cortex_Jungle.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignright size-medium wp-image-19413&quot; height=&quot;300&quot; src=&quot;http://blogs.plos.org/neuro/files/2017/08/Cortex_Jungle-249x300.png&quot; width=&quot;249&quot; /&gt;&lt;/a&gt;In an elegant book chapter on the topic, cortical map guru &lt;a href=&quot;http://brainvis.wustl.edu/wiki/index.php/Main_Page&quot; target=&quot;_blank&quot;&gt;David Van Essen&lt;/a&gt; lays out four ways to divide primate visual cortex: architecture, connectivity, retinotopy (an ordered map of the visual world), and functional specialization. Still, when we compare maps from these types of data they’re often conflicting, even in the relatively large primate brain.&lt;/p&gt;
+&lt;p&gt;Usefully, Van Essen also defines three frequent problems encountered when defining a cortical area. First, there may be subtle (or imprecise) boundaries between areas, and therefore ground truth is not easily defined. Second, areas may be internally heterogeneous, either because they have repetitive structures, asymmetric organization, or gradients of function. Last, areas may differ between individual animals. Even in primates, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/6740964&quot; target=&quot;_blank&quot;&gt;primary visual cortex&lt;/a&gt; and &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/2449473&quot; target=&quot;_blank&quot;&gt;the middle temporal area&lt;/a&gt; can vary two-fold or more in size between monkeys. And while anatomical boundaries are often used to locate these areas in primates, these landmarks are quite variable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The current state of cortex&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;In the past year or so, multiple studies have been released that are challenging our current conceptions of mouse and human cortex. &lt;a href=&quot;https://elifesciences.org/articles/18372&quot; target=&quot;_blank&quot;&gt;Research from the Allen Brain Institute&lt;/a&gt; suggests that mice have even more visual areas than we previously thought—something on the order of &lt;em&gt;sixteen&lt;/em&gt;. As in primates, many of these areas don’t clearly receive input from primary visual cortex, and some of them have really weak and/or partial maps of the visual world.&lt;/p&gt;
+&lt;p&gt;Meanwhile, the research on human cortex is also getting a bit complicated. Using an enormous dataset from the &lt;a href=&quot;http://www.humanconnectomeproject.org/&quot; target=&quot;_blank&quot;&gt;Human Connectome Project&lt;/a&gt;, &lt;a href=&quot;http://www.nature.com/nature/journal/v536/n7615/full/nature18933.html?foxtrotcallback=true&quot; target=&quot;_blank&quot;&gt;Van Essen and his team identified 97 new cortical areas&lt;/a&gt;. That’s more than double the number of areas previously reported. They were able to do this by using multiple sources of information about organization, such as the thickness of cortex, or the activity in a given area during resting state. Like all good big data papers, they used machine learning to train a classifier to determine area boundaries.&lt;/p&gt;
+&lt;p&gt;Both of these projects represent a new wave of approaches to integrate many types of data in order to accurately draw cortex area borders. Ultimately—as Van Essen himself once proposed—we may need to settle on probabilistic boundaries: area #1 &lt;em&gt;likely &lt;/em&gt;ends here, and area #2 is &lt;em&gt;very&lt;/em&gt; &lt;em&gt;likely &lt;/em&gt;next door.&lt;/p&gt;
+&lt;p&gt;So as it turns out, dividing up the cortex isn’t as simple as separating yellow and red M&amp;amp;Ms. However, with multiple types of anatomical and functional information across species, we’re hopefully moving towards a common framework for the widely-adored cortex.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Glasser, M.F., Coalson, T.S., Robinson, E.C., Hacker, C.D., Harwell, J., Yacoub, E., Ugurbil, K., Andersson, J., Beckmann, C.F., Jenkinson, M., Smith, S.M., Van Essen, D.C. (2016). A multi-modal parcellation of human cerebral cortex. &lt;em&gt;Nature. &lt;/em&gt;536: 171-178. doi:10.1038/nature18933&lt;/p&gt;
+&lt;p&gt;Maunsell, J.H., Van Essen, D.C. (1987). Topographic organization of the middle temporal visual area in the macaque monkey: representational biases and the relationship to callosal connections and myeloarchitectonic boundaries. &lt;em&gt;J Comp Neuro&lt;/em&gt;. 266(4): 535-55. doi: 10.1002/cne.902660407&lt;/p&gt;
+&lt;p&gt;Van Essen, D.C., Newsome, M.T, Maunsell, J.H. (1984). The visual field representation in striate cortex of the macaque monkey: asymmetries, anisotropies, and individual variability. &lt;em&gt;Vision Res&lt;/em&gt;. 24(5): 429-48.&lt;/p&gt;
+&lt;p&gt;Van Essen DC: Organization of Visual Areas in Macaque and Human Cerebral Cortex.&lt;strong&gt; I&lt;/strong&gt;n Visual Neurosciences (L. Chalupa and J Werner, eds.). 2004.&lt;/p&gt;
+&lt;p&gt;Zhuang, J., Ng, L., Williams, D., Valley, M., Li, Y., Garrett, M., Waters, J. (2016). An extended map of mouse cortex. &lt;em&gt;eLife&lt;/em&gt;. 6. doi: 10.7554/eLife.18372&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image credit https://www.flickr.com/photos/38703275@N06&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2017/08/London_2.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignright size-thumbnail wp-image-19412&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2017/08/London_2-150x150.jpg&quot; width=&quot;150&quot; /&gt;&lt;/a&gt;Ashley Juavinett&lt;/strong&gt; is a neurosciences postdoctoral fellow at Cold Spring Harbor Laboratory, a lover of cortex, and a writer of both prose and music. Her exploits be followed at &lt;a href=&quot;https://twitter.com/analog_ashley&quot; target=&quot;_blank&quot;&gt;@analog_ashley&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/xtNlrUv1N_E&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-08-07T22:44:06+00:00</dc:date>
+	<dc:creator>Emilie Reas</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/nostalgic-voyager-documentary-relives-first-exploration-solar-system">
+	<title>Science News: Nostalgic Voyager documentary relives first exploration of the solar system</title>
+	<link>https://www.sciencenews.org/article/nostalgic-voyager-documentary-relives-first-exploration-solar-system</link>
+	<content:encoded>A new TV documentary is a tender tribute to Voyagers 1 and 2, which launched 40 years ago and were the first spacecraft to visit the outer solar system.</content:encoded>
+	<dc:date>2017-08-07T19:00:02+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/combat-cholera-yemen-one-scientist-goes-back-basics">
+	<title>Science News: To combat cholera in Yemen, one scientist goes back to basics</title>
+	<link>https://www.sciencenews.org/article/combat-cholera-yemen-one-scientist-goes-back-basics</link>
+	<content:encoded>As the cholera epidemic rages on in war-torn Yemen, basic hygiene is the first line of defense.</content:encoded>
+	<dc:date>2017-08-07T17:00:02+00:00</dc:date>
+	<dc:creator>Cassie Martin</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51335">
 	<title>Retraction watch: Researchers retract a paper when they realize they had sequenced the wrong snail’s genome</title>
 	<link>http://retractionwatch.com/2017/08/07/researchers-sequenced-wrong-snails-genome-retract-paper/</link>
@@ -198,6 +247,13 @@
 &lt;p&gt; &lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/28078/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/28078/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=28078&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-07T08:56:39+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22418">
+	<title>Nature News &amp; Comment: Half of papers searched for online are free to read</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/s5q4bzZvIF4/nature.2017.22418</link>
+	<content:encoded>&lt;p&gt;Large study of open research analysed reader data from Unpaywall tool, which finds freely available versions of articles.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22418&quot;&gt;doi: 10.1038/nature.2017.22418&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/s5q4bzZvIF4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-08-07T00:00:00+00:00</dc:date>
+	<dc:creator>Dalmeet Singh Chawla</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/548135b">
 	<title>Nature News &amp; Comment: SI units need reform to avoid confusion</title>
@@ -850,13 +906,6 @@ AlTarawneh and Thorne conducted a survey of 17 researchers from the University o
 	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 548 39 &lt;a href=&quot;http://dx.doi.org/10.1038/548039a&quot;&gt;doi: 10.1038/548039a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/SkWtOLs1AFw&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-02T00:00:00+00:00</dc:date>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/548032a">
-	<title>Nature News &amp; Comment: Angela M. Hartley Brodie (1934–2017)</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/qlhVXcSjTaM/548032a</link>
-	<content:encoded>&lt;p&gt;Discoverer of selective aromatase inhibitors for breast-cancer treatment.&lt;/p&gt;&lt;p&gt;Nature 548 32 &lt;a href=&quot;http://dx.doi.org/10.1038/548032a&quot;&gt;doi: 10.1038/548032a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/qlhVXcSjTaM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-02T00:00:00+00:00</dc:date>
-	<dc:creator>Balkees Abderrahman</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/virgo-detector-joins-ligo-search-gravitational-waves">
 	<title>Science News: Virgo detector joins LIGO in the search for gravitational waves</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/virgo-detector-joins-ligo-search-gravitational-waves</link>
@@ -1051,43 +1100,6 @@ It turns out there's a bit of a backstory here. According to the senior author o
 	<content:encoded>Scientists squeezed graphene sheets into diamondene.</content:encoded>
 	<dc:date>2017-07-31T11:00:02+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=9309">
-	<title>BMC Series blog: Non-destructive 3D visualization of whole-body live insects</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/07/31/non-destructive-3d-visualization-whole-body-live-insects-2/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/featuredimage-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;Advances in microscopy and imaging (e.g.  &lt;a href=&quot;http://www.nature.com/milestones/milelight/timeline.html&quot;&gt;histology, confocal microscopy&lt;/a&gt;, &lt;a href=&quot;http://magazine.utoronto.ca/spring-2012/milestones-of-medical-imaging-marcia-kaye/&quot;&gt;X-ray tomography, ultrasounds, and MRI&lt;/a&gt;) enhance our understanding of many biological processes. Three-dimensional representations of complex structures obtained with different imaging modalities (e.g. X-ray computed tomography and magnetic resonance imaging) have been especially useful and impressive in vertebrates (including humans).&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignleft&quot; id=&quot;attachment_9302&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-9302 size-medium&quot; height=&quot;230&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/figure1-300x230.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;Schematic of our new set-up summarizing the incorporation of CO2 gas as anesthetic during X-ray micro-computed tomography (micro-CT) of live insect imaging.&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;However, imaging whole live invertebrates (e.g. insects) is very challenging. Apart from the acute radiation doses required to obtain the desired image when X-rays modalities are used, movement of the live subjects compromises image quality by producing artefacts. Therefore, research involving invertebrate imaging is usually destructive and requires animal sacrifice, especially in time-course studies.&lt;/p&gt;
-&lt;p&gt;To image live insects, it is crucial to fully immobilize the individuals, deliver a sufficiently low radiation dose to allow repeated scans of the same individuals for time-course studies (when X-rays are used), and provide adequate image resolution and quality to distinguish &lt;em&gt;in situ&lt;/em&gt; structures. Moreover, the method should have minimal or no subsequent negative effects on life history traits (e.g. growth, reproduction, and longevity) or physiological processes (i.e. normal biological functions) of test subjects.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_9303&quot; style=&quot;width: 187px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-9303 size-medium&quot; height=&quot;300&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/figure2-177x300.jpg&quot; width=&quot;177&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;3D-CT reconstruction of a live anesthetized Colorado potato beetle adult female depicting the body exoskeleton and the tracheal system (for O2 and CO2 gas exchange in insects) at 20 μm isotropic voxel spacing.&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;Therefore, we devised a method using carbon dioxide (CO&lt;sub&gt;2&lt;/sub&gt;) gas as anesthetic to induce hypoxia (oxygen deficient conditions) that prevents motion artifacts during non-invasive imaging of whole live insects for 3D visualization. With this approach (summarised in Fig. 1), we were able to keep the live insects immobile for a prolonged period (up to 7 hours), and repeatedly scan the same individuals using X-ray micro-computed tomography (micro-CT). We also demonstrated that if the correct scan protocol is used those individuals recover with minimal impact on their subsequent behaviour and reproduction.&lt;/p&gt;
-&lt;p&gt;We have overcome the technical challenges of live insect imaging by relying on these organisms’ remarkable abilities to survive prolonged hypoxia and ionising radiation doses (at least 100x more than the lethal dose for humans). We successfully employed CO&lt;sub&gt;2&lt;/sub&gt; gas as an anesthetic to provide temporary paralysis to keep the insect fully immobilized during micro-CT scanning (similar to a human CT scan where the patient must remain as still as possible) to provide 3D visualization (Figs. 2 &amp;amp; 3).&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignleft&quot; id=&quot;attachment_9304&quot; style=&quot;width: 650px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-large wp-image-9304&quot; height=&quot;623&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/figure3-1024x996.jpg&quot; width=&quot;640&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;3D-CT reconstruction (20 μm resolution) of the whole body showing the internal structures and the tracheal system of a live anesthetized male adult true armyworm at 1 (sexually immature) and 4 (sexually mature) days, demonstrating the feasibility of repeated scanning of the same individual.&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;Since we used X-ray micro-CT here, establishing an optimal scanning condition was key due to the unavoidable trade-off in the dose-to-noise relationship (i.e. lower radiation dose = low image quality due to noise, and vice-versa). Our optimised scanning condition produced radiation doses that are at least 80 times less than those used for insect sterilization. Under the optimal condition, insect adults are kept fully immobilized for long enough at relatively low radiation and hypoxic doses from which they can recover rapidly.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_9305&quot; style=&quot;width: 650px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-9305 size-large&quot; height=&quot;260&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/figure4-1024x416.jpg&quot; width=&quot;640&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;The method has been successfully tested for other insect life stages. 3D-CT reconstruction at 20 μm resolution of live (i) true armyworm pupa, and (ii) hornworm caterpillar.&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;In summary, we successfully exposed live insects (adults and other life stages; see Fig.4) to CO&lt;sub&gt;2 &lt;/sub&gt;gas as an anesthetic for whole-body unrestricted immobilization during X-ray micro-CT imaging, with little or no impact on their recovery and behaviour. We believe this new way to visualize live insects can be easily implemented and is compatible with other imaging modalities (e.g. MRI). Within its limitation, this imaging method has various applications in developmental studies (especially in time-course studies) in a range of disciplines such as medical entomology and parasitology.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/07/31/non-destructive-3d-visualization-whole-body-live-insects-2/&quot; rel=&quot;nofollow&quot;&gt;Non-destructive 3D visualization of whole-body live insects&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-07-31T06:07:26+00:00</dc:date>
-	<dc:creator>Dr. Danny Poinapen &#38; Joanna Konopka</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/hackathon-two-days-to-change-the-face-of-medical-education">
-	<title>Elsevier Connect: #ElsevierHacks: Two days to change the face of medical education</title>
-	<link>https://www.elsevier.com/connect/hackathon-two-days-to-change-the-face-of-medical-education</link>
-	<content:encoded>Channelling the creativity of 60 young minds, the hackathon will take on challenges facing the world’s medical students</content:encoded>
-	<dc:date>2017-07-29T19:27:24+00:00</dc:date>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9007">
-	<title>Discovery magazine - Neuroskeptic: Are Underpowered Studies Ever Justified?</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9007</link>
-	<content:encoded>Is a small scientific study better than none at all? A provocative piece in Frontiers in Psychology raises the question of whether we should ever do under-powered studies. The authors are Dutch researchers Rik Crutzen and Gjalt-Jorn Y. Peters.
-
-
-
-
-
-Crutzen and Peters begin by questioning the idea that even a little evidence is always valuable. Taking the example of a study that only manages to recruit a handful of patients because it's studying a rare disease, the authors say that:
-Underp</content:encoded>
-	<dc:date>2017-07-29T19:03:16+00:00</dc:date>
 </item>
 
 </rdf:RDF>
