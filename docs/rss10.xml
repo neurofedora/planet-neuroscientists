@@ -15,12 +15,16 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9026" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/rwanda-genocide-psychology-murder" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/neutrino-experiment-may-hint-why-matter-rules-universe" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51354" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/these-record-breaking-tube-worms-can-survive-centuries" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51349" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-spiders-mastered-spin-control" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=28108" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/20-more-science-songs-for-your-lab-playlist" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22419" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548144a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548137a" />
 			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19411" />
@@ -83,7 +87,6 @@
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548020a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548014a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548010a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548007a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23671" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23535" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23534" />
@@ -112,13 +115,38 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51264" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=27693" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/evidence-mounts-ocean-early-venus" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9338" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/the-creative-face-of-science-and-medicine" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=8994" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9026">
+	<title>Discovery magazine - Neuroskeptic: Female Brains Are More Active?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9026</link>
+	<content:encoded>Another day, another over-hyped sex differences neuroscience study. The headlines this time around are especially cringeworthy:
+Study Finds Women’s Brains Are Far More Active Than Men’s
+
+Women Are Using A LOT More Of Their Brains Than Men. Surprise, surprise 😏
+
+Women really DO overthink things! Scans reveal they have ‘more active brains than men’
+
+
+The paper in question was published in the Journal of Alzheimer's Disease and it comes from a group led by Dr. Daniel Amen. Amen is a contro</content:encoded>
+	<dc:date>2017-08-08T19:52:18+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/rwanda-genocide-psychology-murder">
+	<title>Science News: A look at Rwanda’s genocide helps explain why ordinary people kill their neighbors</title>
+	<link>https://www.sciencenews.org/article/rwanda-genocide-psychology-murder</link>
+	<content:encoded>New research on the 1994 Rwanda genocide overturns assumptions about why people participate in genocide. A sense of duty, not blind obedience, drives many perpetrators.</content:encoded>
+	<dc:date>2017-08-08T19:00:03+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/neutrino-experiment-may-hint-why-matter-rules-universe">
+	<title>Science News: Neutrino experiment may hint at why matter rules the universe</title>
+	<link>https://www.sciencenews.org/article/neutrino-experiment-may-hint-why-matter-rules-universe</link>
+	<content:encoded>T2K experiment hints at an explanation for what happened to antimatter.</content:encoded>
+	<dc:date>2017-08-08T18:00:02+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51354">
 	<title>Retraction watch: “Right to be forgotten” takes down BMJ’s 15-year-old film review</title>
 	<link>http://retractionwatch.com/2017/08/08/right-forgotten-takes-bmjs-15-year-old-film-review/</link>
@@ -190,6 +218,13 @@ To grasp the distinction between relapse and recurrence, it helps also to realis
 	<link>https://www.elsevier.com/connect/20-more-science-songs-for-your-lab-playlist</link>
 	<content:encoded>“Music has no effect on research work,” said Einstein – but then he didn’t have the benefit our lab-friendly soundtrack …</content:encoded>
 	<dc:date>2017-08-08T08:21:59+00:00</dc:date>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22419">
+	<title>Nature News &amp; Comment: Insomnia linked to premature birth in study of 3 million mothers</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/R-AczCpTfAA/nature.2017.22419</link>
+	<content:encoded>&lt;p&gt;Women with sleep disorders were about twice as likely to deliver babies more than six weeks early.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22419&quot;&gt;doi: 10.1038/nature.2017.22419&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/R-AczCpTfAA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-08-08T00:00:00+00:00</dc:date>
+	<dc:creator>Amy Maxmen</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/548144a">
 	<title>Nature News &amp; Comment: Home-grown scientists step up to save Africa’s primates</title>
@@ -822,13 +857,6 @@ AlTarawneh and Thorne conducted a survey of 17 researchers from the University o
 	<content:encoded>&lt;p&gt;The week in science: 28 July–3 August 2017.&lt;/p&gt;&lt;p&gt;Nature 548 10 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/548010a&quot;&gt;doi: 10.1038/548010a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/I62cXxRI_sg&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-02T00:00:00+00:00</dc:date>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/548007a">
-	<title>Nature News &amp; Comment: Capitalize on African biodiversity</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/pc3Fn2kcHj4/548007a</link>
-	<content:encoded>&lt;p&gt;Under-exploited plants offer untold medical and economic promise that should be pursued, urges Ameenah Gurib-Fakim.&lt;/p&gt;&lt;p&gt;Nature 548 7 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/548007a&quot;&gt;doi: 10.1038/548007a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/pc3Fn2kcHj4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-02T00:00:00+00:00</dc:date>
-	<dc:creator>Ameenah Gurib-Fakim</dc:creator>
-</item>
 <item rdf:about="http://dx.doi.org/10.1038/nature23671">
 	<title>Nature Biological Sciences Research: ISWI chromatin remodellers sense nucleosome modifications to determine substrate preference</title>
 	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/oqjnoREBaok/nature23671</link>
@@ -1075,46 +1103,6 @@ AlTarawneh and Thorne conducted a survey of 17 researchers from the University o
 	<content:encoded>Not long after its birth, Venus may have rocked a water ocean, new simulations suggest.</content:encoded>
 	<dc:date>2017-08-01T11:00:02+00:00</dc:date>
 	<dc:creator>Ashley Yeager</dc:creator>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=9338">
-	<title>BMC Series blog: It’s high time we talked about high heels: The health effects and social pressures of shoe choice</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2017/08/01/high-time-we-talked-about-high-heels-health-effects-social-pressures-shoe-choice/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2017/07/high-heels-1327021_640-1-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;h3&gt;&lt;strong&gt;Social pressures behind shoe choice&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The review highlights the extent to which the shoe choice of some women is influenced by social norms and external pressures, rather than personal choice. The authors cite an &lt;a href=&quot;http://www.misterpoll.com/polls/611217/results&quot;&gt;online opinion poll of 270 women&lt;/a&gt;, around one third of whom claimed to wear high heels mainly because of social expectation rather than free choice.&lt;/p&gt;
-&lt;p&gt;Roughly the same proportion also claimed to have been required to wear high heels at work. Of course, we can question the accuracy of such a poll (for example, many respondents claimed to have worn heels greater than 20 inches high!), but anecdotal evidence does seem to support the notion of some women being forced to wear high heels in the workplace.&lt;/p&gt;
-&lt;p&gt;This topic has received recent media attention in my native UK, since a complaint was issued by a young woman who was ultimately sent home from work without pay because she refused to wear a pair of high heels that satisfied the company’s dress code (2-4 inches, rather arbitrarily).&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;“it is the tension between psychosexual benefits and negative musculoskeletal health effects that makes high heels a topic of substantial public health interest”.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;Barnish et al.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;After the woman launched a petition to make it illegal for a company to require women to wear high heels at work- which received over 150,000 signatures- the UK government issued an obscure statement that promised to “remove barriers to equality for women at work”, whilst failing to specify any concrete action to overcome the problem.&lt;/p&gt;
-&lt;p&gt;The infamous Cannes Film Festival incident of 2015, in which a group of women were allegedly denied access to a film screening because they were not wearing heels, is just one more example of an outdated and baseless policy.&lt;/p&gt;
-&lt;p&gt;However, it is important to examine such political issues in light of the attitudes of the general public towards high heels because, to use the words of Barnish et al., “it is the tension between psychosexual benefits and negative musculoskeletal health effects that makes high heels a topic of substantial public health interest”.&lt;/p&gt;
-&lt;p&gt;For example, as noted by Barnish et al., there is now scientific evidence to support the common belief that men perceive women in high heels to be more attractive than those without. The authors also highlight the finding that the women &lt;em&gt;wearing&lt;/em&gt; the heels often feel more attractive than when not wearing them. Whilst these views might not be universal, they do little to force companies and governments to rethink their attitudes and policies around high heels.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Biomechanical effects&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Of course, the average reader might wonder why I, a biomechanist, should care or even dare to speak of these issues. The answer is simple: as noted by Barnish et al., biomechanical and epidemiological studies conducted over the past few decades strongly suggest that wearing high heels causes widespread negative alterations in the musculoskeletal system, ranging from the spine to the toes.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Biomechanical and epidemiological studies … strongly suggest that wearing high heels causes widespread negative alterations in the musculoskeletal system, ranging from the spine to the toes.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;As such, it seems at best ignorant and at worst downright negligent to continue to require women to wear high heels if they don’t want to. After all, I am quite confident that any proposed policy requiring men to wear something uncomfortable for extended periods of time would be met with stern resistance to say the least.&lt;/p&gt;
-&lt;p&gt;Finally, Barnish et al. raise another issue, which is possibly even more troubling than the first. At present it is legal to sell high heels to children in many countries. Although not many studies have examined the effects of high heels on the gait and musculoskeletal function of children, the limited published evidence unsurprisingly suggests that these effects are negative.&lt;/p&gt;
-&lt;p&gt;The increased incidence of high heel wear in recent years in children cited by Barnish et al. is another worrying trend in this light. The authors echo earlier calls to educate school children about the health effects of high heels. The evidence outlined by Barnish et al. suggests that school children are not the only ones who would benefit from such information.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/08/01/high-time-we-talked-about-high-heels-health-effects-social-pressures-shoe-choice/&quot; rel=&quot;nofollow&quot;&gt;It’s high time we talked about high heels: The health effects and social pressures of shoe choice&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-01T08:50:48+00:00</dc:date>
-	<dc:creator>Neil Cronin</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/the-creative-face-of-science-and-medicine">
-	<title>Elsevier Connect: The creative face of science and medicine</title>
-	<link>https://www.elsevier.com/connect/the-creative-face-of-science-and-medicine</link>
-	<content:encoded>August's theme explores the creativity behind the work being done by researchers, technologists, clinicians and medical students</content:encoded>
-	<dc:date>2017-07-31T20:03:03+00:00</dc:date>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=8994">
-	<title>Discovery magazine - Neuroskeptic: Can PhD Students Write Review Papers?</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=8994</link>
-	<content:encoded>In a post earlier this month, I discussed a new Journal of Neuroscience paper on statistical power in neuroscience. That paper was a response to and reanalysis of a previous article, and in my post I noted my surprise that the new paper hadn't appeared in Nature Reviews: Neuroscience (NRN), where the original paper had been published.
-
-
-
-It turns out there's a bit of a backstory here. According to the senior author of the new paper, Jon Roiser, his group did want to submit to NRN, but they w</content:encoded>
-	<dc:date>2017-07-31T18:47:52+00:00</dc:date>
 </item>
 
 </rdf:RDF>
