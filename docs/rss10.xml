@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9032" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22745" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lhc-atlas-photons-interact-physics" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/polluted-water-its-where-sea-snakes-wear-black" />
@@ -114,11 +115,23 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23477" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9019" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51343" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/curiosity-mars-rover-five-year-anniversary" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9032">
+	<title>Discovery magazine - Neuroskeptic: Call of MRI: Action Video Games And The Brain</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9032</link>
+	<content:encoded>No sooner had I published my last post, on the much-discussed &quot;women's brains are more active than men's&quot; study, than another neuroscience paper triggered a fresh media storm. This time, the subject was videogames, and the headlines were alarming:
+
+	Playing shooter video games damages the brain, study suggests
+	Violent shooter video games really DO rot your brain
+	Playing these video games could lead to brain disease
+
+
+Here's the paper, published in Molecular Psychiatry by University of M</content:encoded>
+	<dc:date>2017-08-14T20:16:57+00:00</dc:date>
+</item>
 <item rdf:about="http://brainblogger.com/?p=22745">
 	<title>Brain Blogger: Multitasking: is it Overrated?</title>
 	<link>http://brainblogger.com/2017/08/14/the-evidence-for-multitasking-is-it-overrated/</link>
@@ -181,7 +194,7 @@
 <item rdf:about="https://www.sciencenews.org/article/2017-solar-eclipse-mercury">
 	<title>Science News: What can we learn about Mercury’s surface during the eclipse?</title>
 	<link>https://www.sciencenews.org/article/2017-solar-eclipse-mercury</link>
-	<content:encoded>A spectrometer aboard twin research jets will take advantage of the total solar eclipse to make the first thermal map of Mercury.</content:encoded>
+	<content:encoded>Instruments aboard twin research jets will take advantage of the total solar eclipse to make the first thermal map of Mercury.</content:encoded>
 	<dc:date>2017-08-14T11:00:02+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
 </item>
@@ -1127,13 +1140,6 @@ AlTarawneh and Thorne conducted a survey of 17 researchers from the University o
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/05/weekend-reads-science-bs-detector-scholarly-publishings-1-tenured-professor-fired/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: A science BS detector; scholarly publishing’s 1%; a tenured professor is fired&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-08-05T14:20:02+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/curiosity-mars-rover-five-year-anniversary">
-	<title>Science News: What Curiosity has yet to tell us about Mars</title>
-	<link>https://www.sciencenews.org/article/curiosity-mars-rover-five-year-anniversary</link>
-	<content:encoded>Curiosity has revealed a lot about Mars in the last five years. But NASA’s rover still has work to do on the Red Planet.</content:encoded>
-	<dc:date>2017-08-04T20:29:27+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
 </item>
 
 </rdf:RDF>
