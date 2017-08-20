@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-solar-eclipse-hot-corona" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3727540613042333745" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=1119" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51485" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-solar-eclipse-atmosphere" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51419" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-solar-eclipse-animals" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=51415" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/2017-solar-eclipse-hot-corona">
+	<title>Science News: Eclipse watchers will go after the biggest solar mystery: Why is the corona so hot?</title>
+	<link>https://www.sciencenews.org/article/2017-solar-eclipse-hot-corona</link>
+	<content:encoded>Usually when you move away from a heat source, it gets cooler. Not so in the sun’s atmosphere.</content:encoded>
+	<dc:date>2017-08-20T10:00:02+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-3727540613042333745">
 	<title>The Neurocritic: Smell as a Weapon, and Odor as Entertainment</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/mn1F_R825R0/smell-as-weapon-and-odor-as.html</link>
@@ -1101,14 +1108,6 @@ Here's the paper, published in Molecular Psychiatry by University of M</content:
 	<content:encoded>A citizen science experiment will gather the biggest dataset to date of animal responses to a total eclipse.</content:encoded>
 	<dc:date>2017-08-12T11:00:02+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=51415">
-	<title>Retraction watch: JAMA tells readers: “Caution advised.” Here’s why.</title>
-	<link>http://retractionwatch.com/2017/08/11/jama-tells-readers-caution-advised-heres/</link>
-	<content:encoded>&lt;p&gt;Last week, JAMA issued some unusual notices, letting readers know they should use caution when reading an editorial and letters associated with now-retracted articles by a bone researcher in Japan. The notices — for papers by Yoshihiro Sato, now up to 14 retractions — remind readers not to heed the results of the now-retracted papers, […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/11/jama-tells-readers-caution-advised-heres/&quot; rel=&quot;nofollow&quot;&gt;JAMA tells readers: “Caution advised.” Here’s why.&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-11T15:23:43+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
