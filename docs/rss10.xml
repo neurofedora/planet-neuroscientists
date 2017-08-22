@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/wyoming-eclipse-physics-corona" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51490" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9052" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mars-has-nighttime-snow-storms" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22745" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lhc-atlas-photons-interact-physics" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/polluted-water-its-where-sea-snakes-wear-black" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=51422" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/wyoming-eclipse-physics-corona">
+	<title>Science News: On a mountain in Wyoming, the eclipse brings wonder — and, hopefully, answers</title>
+	<link>https://www.sciencenews.org/article/wyoming-eclipse-physics-corona</link>
+	<content:encoded>Astronomy writer Lisa Grossman joined scientists on a mountain in Wyoming who were measuring the corona using four different instruments to try to figure out why it’s so hot.</content:encoded>
+	<dc:date>2017-08-21T23:38:01+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51490">
 	<title>Retraction watch: SAGE journal retracts three more papers after discovering faked reviews</title>
 	<link>http://retractionwatch.com/2017/08/21/sage-journal-retracts-three-papers-discovering-faked-reviews/</link>
@@ -1108,14 +1115,6 @@ Here's the paper, published in Molecular Psychiatry by University of M</content:
 	<content:encoded>Reptile counterpart proposed for textbook example of evolution favoring darker moths amid industrial soot.</content:encoded>
 	<dc:date>2017-08-14T13:00:02+00:00</dc:date>
 	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=51422">
-	<title>Retraction watch: Journal corrects paper by researcher sanctioned for misconduct</title>
-	<link>http://retractionwatch.com/2017/08/14/journal-corrects-paper-researcher-sanctioned-misconduct/</link>
-	<content:encoded>&lt;p&gt;A biology journal has issued a correction to a 2014 paper by a researcher with 11 retractions, citing “inadvertent errors” that don’t affect the conclusions. The researcher, Rony Seger, was recently sanctioned by his institution (The Weizmann Institute in Israel) following a finding of “serious misconduct” involving data manipulation. Specifically, the institute barred him from […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/14/journal-corrects-paper-researcher-sanctioned-misconduct/&quot; rel=&quot;nofollow&quot;&gt;Journal corrects paper by researcher sanctioned for misconduct&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-14T12:00:28+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
