@@ -182,6 +182,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Max Plank Florida Institute for Neuroscience</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://www.maxplanckflorida.org">
+					<dc:title>Max Planck Florida Institute for Neuroscience</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Nature - Action potential</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blogs.nature.com/actionpotential">
