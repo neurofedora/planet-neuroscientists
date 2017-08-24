@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/heres-what-science-news-family-did-eclipse" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/social-media-privacy-no-longer-personal-choice" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nitty-gritty-homo-naledis-diet-revealed-its-teeth" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51531" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/darwins-backyard-chronicles-naturalists-homespun-experiments" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-nasa-whipped-astronaut-waste-rocket-fuel" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=28731" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23669" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23653" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23652" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23643" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23642" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/heres-what-science-news-family-did-eclipse">
+	<title>Science News: Here’s what the Science News family did for the eclipse</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/heres-what-science-news-family-did-eclipse</link>
+	<content:encoded>On August 21, 2017, the path of a total solar eclipse went coast to coast across the United States. Here are our dispatches.</content:encoded>
+	<dc:date>2017-08-24T21:16:42+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/scicurious/social-media-privacy-no-longer-personal-choice">
+	<title>Science News: On social media, privacy is no longer a personal choice</title>
+	<link>https://www.sciencenews.org/blog/scicurious/social-media-privacy-no-longer-personal-choice</link>
+	<content:encoded>Data from the now-defunct social platform Friendster show that even people not on social media have predictable qualities.</content:encoded>
+	<dc:date>2017-08-24T19:30:02+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/nitty-gritty-homo-naledis-diet-revealed-its-teeth">
+	<title>Science News: Nitty-gritty of Homo naledi’s diet revealed in its teeth</title>
+	<link>https://www.sciencenews.org/article/nitty-gritty-homo-naledis-diet-revealed-its-teeth</link>
+	<content:encoded>Ancient humanlike species ate something that damaged its teeth.</content:encoded>
+	<dc:date>2017-08-24T18:00:02+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51531">
 	<title>Retraction watch: Given “wrong pathology slides,” heart journal retracts paper</title>
 	<link>http://retractionwatch.com/2017/08/24/given-wrong-pathology-slides-heart-journal-retracts-paper/</link>
@@ -336,9 +357,9 @@
 	<dc:creator>Team</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22510">
-	<title>Nature News &amp; Comment: US science envoy resigns to protest Trump policies</title>
+	<title>Nature News &amp; Comment: US science envoy resigns in protest at Trump policies</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Cq0yC1-wSV8/nature.2017.22510</link>
-	<content:encoded>&lt;p&gt;Energy researcher Daniel Kammen faults US president's positions on climate change and energy and his failure to condemn white supremacists.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22510&quot;&gt;doi: 10.1038/nature.2017.22510&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Cq0yC1-wSV8&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<content:encoded>&lt;p&gt;Energy researcher Daniel Kammen faults US president’s positions on climate change and energy and his failure to condemn white supremacists.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22510&quot;&gt;doi: 10.1038/nature.2017.22510&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Cq0yC1-wSV8&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-23T00:00:00+00:00</dc:date>
 	<dc:creator>Jeff Tollefson</dc:creator>
 </item>
@@ -1074,33 +1095,6 @@ Behavioral or social priming - the idea that subtle cues can exert large, uncons
 &lt;/p&gt;&lt;p&gt;Nature 548 456 &lt;a href=&quot;http://dx.doi.org/10.1038/nature23653&quot;&gt;doi: 10.1038/nature23653&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/Dj9_J8C1H0U&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-16T00:00:00+00:00</dc:date>
 	<dc:creator>Weike Pei</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature23652">
-	<title>Nature Biological Sciences Research: Mechanism of intracellular allosteric β2AR antagonist revealed by X-ray crystal structure</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/AIpb0mJnXxs/nature23652</link>
-	<content:encoded>&lt;p&gt;
- G-protein-coupled receptors (GPCRs) pose challenges for drug discovery efforts because of the high degree of structural homology in the orthosteric pocket, particularly for GPCRs within a single subfamily, such as the nine adrenergic receptors. Allosteric ligands may bind to less-conserved regions of these receptors and therefore are more likely to be selective. Unlike orthosteric ligands, which tonically activate or inhibit signalling, allosteric ligands modulate physiologic responses to hormones and neurotransmitters, and may therefore have fewer adverse effects. The majority of GPCR crystal structures published to date were obtained with receptors bound to orthosteric antagonists, and only a few structures bound to allosteric ligands have been reported. Compound 15 (Cmpd-15) is an allosteric modulator of the β2 adrenergic receptor (β2AR) that was recently isolated from a DNA-encoded small-molecule library. Orthosteric β-adrenergic receptor antagonists, known as beta-blockers, are amongst the most prescribed drugs in the world and Cmpd-15 is the first allosteric beta-blocker. Cmpd-15 exhibits negative cooperativity with agonists and positive cooperativity with inverse agonists. Here we present the structure of the β2AR bound to a polyethylene glycol-carboxylic acid derivative (Cmpd-15PA) of this modulator. Cmpd-15PA binds to a pocket formed primarily by the cytoplasmic ends of transmembrane segments 1, 2, 6 and 7 as well as intracellular loop 1 and helix 8. A comparison of this structure with inactive- and active-state structures of the β2AR reveals the mechanism by which Cmpd-15 modulates agonist binding affinity and signalling. 
-&lt;/p&gt;&lt;p&gt;Nature 548 480 &lt;a href=&quot;http://dx.doi.org/10.1038/nature23652&quot;&gt;doi: 10.1038/nature23652&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/AIpb0mJnXxs&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-16T00:00:00+00:00</dc:date>
-	<dc:creator>Xiangyu Liu</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature23643">
-	<title>Nature Biological Sciences Research: CMTM6 maintains the expression of PD-L1 and regulates anti-tumour immunity</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/A_4Jw-DOLws/nature23643</link>
-	<content:encoded>&lt;p&gt;
- Cancer cells exploit the expression of the programmed death-1 (PD-1) ligand 1 (PD-L1) to subvert T-cell-mediated immunosurveillance. The success of therapies that disrupt PD-L1-mediated tumour tolerance has highlighted the need to understand the molecular regulation of PD-L1 expression. Here we identify the uncharacterized protein CMTM6 as a critical regulator of PD-L1 in a broad range of cancer cells, by using a genome-wide CRISPR–Cas9 screen. CMTM6 is a ubiquitously expressed protein that binds PD-L1 and maintains its cell surface expression. CMTM6 is not required for PD-L1 maturation but co-localizes with PD-L1 at the plasma membrane and in recycling endosomes, where it prevents PD-L1 from being targeted for lysosome-mediated degradation. Using a quantitative approach to profile the entire plasma membrane proteome, we find that CMTM6 displays specificity for PD-L1. Notably, CMTM6 depletion decreases PD-L1 without compromising cell surface expression of MHC class I. CMTM6 depletion, via the reduction of PD-L1, significantly alleviates the suppression of tumour-specific T cell activity in vitro and in vivo. These findings provide insights into the biology of PD-L1 regulation, identify a previously unrecognized master regulator of this critical immune checkpoint and highlight a potential therapeutic target to overcome immune evasion by tumour cells. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature23643&quot;&gt;doi: 10.1038/nature23643&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/A_4Jw-DOLws&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-16T00:00:00+00:00</dc:date>
-	<dc:creator>Marian L. Burr</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature23642">
-	<title>Nature Biological Sciences Research: Stromal R-spondin orchestrates gastric epithelial stem cells and gland homeostasis</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/5vrgDODtADk/nature23642</link>
-	<content:encoded>&lt;p&gt;
- The constant regeneration of stomach epithelium is driven by long-lived stem cells, but the mechanism that regulates their turnover is not well understood. We have recently found that the gastric pathogen Helicobacter pylori can activate gastric stem cells and increase epithelial turnover, while Wnt signalling is known to be important for stem cell identity and epithelial regeneration in several tissues. Here we find that antral Wnt signalling, marked by the classic Wnt target gene Axin2, is limited to the base and lower isthmus of gastric glands, where the stem cells reside. Axin2 is expressed by Lgr5+ cells, as well as adjacent, highly proliferative Lgr5− cells that are able to repopulate entire glands, including the base, upon depletion of the Lgr5+ population. Expression of both Axin2 and Lgr5 requires stroma-derived R-spondin 3 produced by gastric myofibroblasts proximal to the stem cell compartment. Exogenous R-spondin administration expands and accelerates proliferation of Axin2+/Lgr5− but not Lgr5+ cells. Consistent with these observations, H. pylori infection increases stromal R-spondin 3 expression and expands the Axin2+ cell pool to cause hyperproliferation and gland hyperplasia. The ability of stromal niche cells to control and adapt epithelial stem cell dynamics constitutes a sophisticated mechanism that orchestrates epithelial regeneration and maintenance of tissue integrity. 
-&lt;/p&gt;&lt;p&gt;Nature 548 451 &lt;a href=&quot;http://dx.doi.org/10.1038/nature23642&quot;&gt;doi: 10.1038/nature23642&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/5vrgDODtADk&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-16T00:00:00+00:00</dc:date>
-	<dc:creator>Michael Sigal</dc:creator>
 </item>
 
 </rdf:RDF>
