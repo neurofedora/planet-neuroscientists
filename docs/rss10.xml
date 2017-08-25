@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9065" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/rumors-swirl-ligo-snagged-gravitational-waves-neutron-star-collision" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/if-youre-35-or-younger-your-genes-can-predict-whether-flu-vaccine-will-work" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/wild-yeasts-are-brewing-batches-trendy-beers" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51558" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22763" />
@@ -23,6 +26,7 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/map-reveals-invisible-universe-dark-matter" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9383" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9451" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22513" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22508" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/heres-what-science-news-family-did-eclipse" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/social-media-privacy-no-longer-personal-choice" />
@@ -88,7 +92,6 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=29026" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51487" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/last-minute-guide-watching-great-american-eclipse" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22479" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23876" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-solar-eclipse-hot-corona" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3727540613042333745" />
@@ -112,13 +115,38 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-solar-eclipse-solar-loops" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=28767" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-tool-could-one-day-improve-lyme-disease-diagnosis" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/giant-larvaceans-could-be-ferrying-ocean-plastic-seafloor" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/robot-heal-thyself" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=51443" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9065">
+	<title>Discovery magazine - Neuroskeptic: Eteplirsen: A Curious Scientific Controversy</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9065</link>
+	<content:encoded>In April 2016, an FDA committee voted not to recommend acceptance of eteplirsen, a drug designed to treat muscular dystrophy. In September, however, the FDA did approve the drug, following a heated internal debate.
+
+
+
+This wasn't the end of the story, however. What followed was an unusual scientific controversy that played out in the peer-reviewed literature, discussed in a Retraction Watch post this week.
+
+
+
+Following the approval of eteplirsen, Ellis Unger and Robert Califf wrote a let</content:encoded>
+	<dc:date>2017-08-25T19:30:51+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/rumors-swirl-ligo-snagged-gravitational-waves-neutron-star-collision">
+	<title>Science News: Rumors swirl that LIGO snagged gravitational waves from a neutron star collision</title>
+	<link>https://www.sciencenews.org/article/rumors-swirl-ligo-snagged-gravitational-waves-neutron-star-collision</link>
+	<content:encoded>Telescopes seem to be following up on a potential gravitational wave sighting.</content:encoded>
+	<dc:date>2017-08-25T19:14:36+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/if-youre-35-or-younger-your-genes-can-predict-whether-flu-vaccine-will-work">
+	<title>Science News: If you’re 35 or younger, your genes can predict whether the flu vaccine will work</title>
+	<link>https://www.sciencenews.org/article/if-youre-35-or-younger-your-genes-can-predict-whether-flu-vaccine-will-work</link>
+	<content:encoded>A set of nine genes predicted an effective response to the flu vaccine in young people, no matter the strains.</content:encoded>
+	<dc:date>2017-08-25T18:00:03+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-public/wild-yeasts-are-brewing-batches-trendy-beers">
 	<title>Science News: Wild yeasts are brewing up batches of trendy beers</title>
 	<link>https://www.sciencenews.org/blog/science-public/wild-yeasts-are-brewing-batches-trendy-beers</link>
@@ -187,10 +215,10 @@
 	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 <item rdf:about="http://retractionwatch.com/?p=51548">
-	<title>Retraction watch: Co-author of now-retracted paper on shooter video games may have PhD revoked</title>
+	<title>Retraction watch: Updated: Ohio State revokes PhD of co-author of now-retracted paper on shooter video games</title>
 	<link>http://retractionwatch.com/2017/08/25/co-author-now-retracted-paper-shooter-video-games-may-phd-revoked/</link>
-	<content:encoded>&lt;p&gt;A researcher who co-authored a paper about video games that was retracted earlier this year may lose her PhD from The Ohio State University. As The Columbus Dispatch reported yesterday, the university’s board of trustees is set to vote today on whether to revoke Jodi Whitaker’s degree. While a graduate student at Ohio State, Whitaker […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/25/co-author-now-retracted-paper-shooter-video-games-may-phd-revoked/&quot; rel=&quot;nofollow&quot;&gt;Co-author of now-retracted paper on shooter video games may have PhD revoked&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<content:encoded>&lt;p&gt;[This post, which at 1200 UTC 8/25/17 originally reported on the then-upcoming vote, has been updated at 1800 UTC 8/25/17 to include the results of the vote.] A researcher who co-authored a paper about video games that was retracted earlier this year has had her PhD from The Ohio State University revoked. As WOSU reported […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/25/co-author-now-retracted-paper-shooter-video-games-may-phd-revoked/&quot; rel=&quot;nofollow&quot;&gt;Updated: Ohio State revokes PhD of co-author of now-retracted paper on shooter video games&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-08-25T12:00:18+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
 </item>
@@ -243,6 +271,13 @@
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/08/25/has-the-european-union-met-its-targets-for-reducing-tuberculosis-fatalities/&quot; rel=&quot;nofollow&quot;&gt;Has the European Union met its targets for reducing tuberculosis fatalities?&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-08-25T07:40:11+00:00</dc:date>
 	<dc:creator>Clarissa Wright</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22513">
+	<title>Nature News &amp; Comment: US energy agency asks scientists to scrub references to climate change</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/z-Ry92fUFwE/nature.2017.22513</link>
+	<content:encoded>&lt;p&gt;Researchers were told to censor descriptions of projects funded by a Department of Energy laboratory.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22513&quot;&gt;doi: 10.1038/nature.2017.22513&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/z-Ry92fUFwE&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-08-25T00:00:00+00:00</dc:date>
+	<dc:creator>Jeff Tollefson</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22508">
 	<title>Nature News &amp; Comment: Dinosaur trio roosted together like birds</title>
@@ -867,13 +902,6 @@ Not very useful, in my view. The R-factor (which stands for &quot;reproducibilit
 	<dc:date>2017-08-21T10:00:02+00:00</dc:date>
 	<dc:creator>Kate Travis</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22479">
-	<title>Nature News &amp; Comment: Theft of South African relics riles researchers</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/ncVg9T0Xu9g/nature.2017.22479</link>
-	<content:encoded>&lt;p&gt;Efforts to relocate artefacts to sites of origin could stall after gold robbery at national park.&lt;/p&gt;&lt;p&gt;Nature 548 383 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22479&quot;&gt;doi: 10.1038/nature.2017.22479&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/ncVg9T0Xu9g&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-21T00:00:00+00:00</dc:date>
-	<dc:creator>Sarah Wild</dc:creator>
-</item>
 <item rdf:about="http://dx.doi.org/10.1038/nature23876">
 	<title>Nature Biological Sciences Research: Ascorbate regulates haematopoietic stem cell function and leukaemogenesis</title>
 	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/zKtVciSqncU/nature23876</link>
@@ -1117,28 +1145,6 @@ Not very useful, in my view. The R-factor (which stands for &quot;reproducibilit
 	<content:encoded>There soon could be a way to differentiate between Lyme disease and a similar tick-associated illness.</content:encoded>
 	<dc:date>2017-08-16T20:10:54+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/giant-larvaceans-could-be-ferrying-ocean-plastic-seafloor">
-	<title>Science News: Giant larvaceans could be ferrying ocean plastic to the seafloor</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/giant-larvaceans-could-be-ferrying-ocean-plastic-seafloor</link>
-	<content:encoded>Giant larvaceans could mistakenly capture microplastics, in addition to food, in their mucus houses and transfer them to the seafloor in their feces.</content:encoded>
-	<dc:date>2017-08-16T19:23:58+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/robot-heal-thyself">
-	<title>Science News: Robot, heal thyself</title>
-	<link>https://www.sciencenews.org/article/robot-heal-thyself</link>
-	<content:encoded>Self-healing material is helping make more resilient robots.</content:encoded>
-	<dc:date>2017-08-16T18:09:41+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=51443">
-	<title>Retraction watch: When a journal retracts 107 papers for fake reviews, it pays a price</title>
-	<link>http://retractionwatch.com/2017/08/16/journal-retracts-107-papers-fake-reviews-pays-price/</link>
-	<content:encoded>&lt;p&gt;A company that indexes journals — thereby assigning them impact factors — has chosen to delist a cancer journal after it retracted 107 papers earlier this year for faked peer reviews. Starting July 19, anything published by Tumor Biology will not be indexed in Web of Science, part of Clarivate Analytics (formerly part of Thomson […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/16/journal-retracts-107-papers-fake-reviews-pays-price/&quot; rel=&quot;nofollow&quot;&gt;When a journal retracts 107 papers for fake reviews, it pays a price&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-16T15:30:57+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
