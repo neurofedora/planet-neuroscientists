@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22508" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/heres-what-science-news-family-did-eclipse" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/social-media-privacy-no-longer-personal-choice" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nitty-gritty-homo-naledis-diet-revealed-its-teeth" />
@@ -80,7 +81,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/last-minute-guide-watching-great-american-eclipse" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22479" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22476" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22474" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature23876" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-solar-eclipse-hot-corona" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3727540613042333745" />
@@ -119,6 +119,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22508">
+	<title>Nature News &amp; Comment: Dinosaur trio roosted together like birds</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/HpL1qySDefg/nature.2017.22508</link>
+	<content:encoded>&lt;p&gt;The animals appear to have died while huddling together 70 million years ago.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22508&quot;&gt;doi: 10.1038/nature.2017.22508&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/HpL1qySDefg&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-08-25T00:00:00+00:00</dc:date>
+	<dc:creator>Traci Watson</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/heres-what-science-news-family-did-eclipse">
 	<title>Science News: Here’s what the Science News family did for the eclipse</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/heres-what-science-news-family-did-eclipse</link>
@@ -741,13 +748,6 @@ Not very useful, in my view. The R-factor (which stands for &quot;reproducibilit
 	<content:encoded>&lt;p&gt;Sundown sparks blustery snowstorms in the Red Planet’s lower atmosphere.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22476&quot;&gt;doi: 10.1038/nature.2017.22476&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/8F5wcBJX3a0&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-21T00:00:00+00:00</dc:date>
 	<dc:creator>Rachael Lallensack</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22474">
-	<title>Nature News &amp; Comment: Mysteries of turbulence unravelled</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/ZCJ07EuefDg/nature.2017.22474</link>
-	<content:encoded>&lt;p&gt;Simulations follow how swirls in a fluid transfer and dissipate energy.&lt;/p&gt;&lt;p&gt;Nature 548 382 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22474&quot;&gt;doi: 10.1038/nature.2017.22474&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/ZCJ07EuefDg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-21T00:00:00+00:00</dc:date>
-	<dc:creator>Davide Castelvecchi</dc:creator>
 </item>
 <item rdf:about="http://dx.doi.org/10.1038/nature23876">
 	<title>Nature Biological Sciences Research: Ascorbate regulates haematopoietic stem cell function and leukaemogenesis</title>
