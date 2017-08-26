@@ -78,6 +78,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Brain box</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://the-brain-box.blogspot.com/">
+					<dc:title>Brain Box</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Brain matters the Podcast</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://brainpodcast.com/">
@@ -316,6 +329,19 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.ketyov.com/">
 					<dc:title>Oscillatory Thoughts</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Over the brainbow</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://overthebrainbow.com/">
+					<dc:title>Stuff about brains</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
