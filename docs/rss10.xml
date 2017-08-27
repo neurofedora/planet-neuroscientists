@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9080" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/death-dive-saturn-celebrates-cassini-probes-accomplishments" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51568" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22511" />
@@ -114,11 +115,20 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51465" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51452" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-technology-empowers-healthcare-providers-to-achieve-accessibility-affordability-and-availability" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-solar-eclipse-solar-loops" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9080">
+	<title>Discovery magazine - Neuroskeptic: The &quot;Unbearable Emptiness&quot; of Science on Twitter?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9080</link>
+	<content:encoded>The discussion of scientific papers on Twitter is largely dominated by spam bots, paid content promoters, and &quot;monomaniacs&quot; obsessed with a single issue. That's according to researchers Nicolas Robinson-Garcia and colleagues in a new paper called  The unbearable emptiness of tweeting—About journal articles
+
+
+
+To reach their bleak conclusion, Robinson-Garcia et al. read 8,206 tweets. Tweets were included if they contained a link to a peer-reviewed paper in the field of dentristy and denta</content:encoded>
+	<dc:date>2017-08-27T20:59:57+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/death-dive-saturn-celebrates-cassini-probes-accomplishments">
 	<title>Science News: ‘Death Dive to Saturn’ celebrates the Cassini probe’s accomplishments</title>
 	<link>https://www.sciencenews.org/article/death-dive-saturn-celebrates-cassini-probes-accomplishments</link>
@@ -1125,13 +1135,6 @@ Not very useful, in my view. The R-factor (which stands for &quot;reproducibilit
 	<link>https://www.elsevier.com/connect/how-technology-empowers-healthcare-providers-to-achieve-accessibility-affordability-and-availability</link>
 	<content:encoded>Elsevier’s Director of Clinical Solutions and Product Strategy shares the perspective of developing markets</content:encoded>
 	<dc:date>2017-08-17T11:38:33+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/2017-solar-eclipse-solar-loops">
-	<title>Science News: Why are the loops in the sun’s atmosphere so neat and tidy?</title>
-	<link>https://www.sciencenews.org/article/2017-solar-eclipse-solar-loops</link>
-	<content:encoded>Observations during the total solar eclipse may explain why the sun’s atmosphere is so organized despite arising from a tangled magnetic field.</content:encoded>
-	<dc:date>2017-08-17T11:00:02+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
