@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-quantum-storage-device-fits-chip" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51640" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fiery-re-creations-show-how-neandertals-could-have-easily-made-tar" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51611" />
@@ -23,7 +24,9 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=29424" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9091" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=1124" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22547" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22543" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22542" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/fda-approves-gene-therapy-treat-rare-cancer" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/muscle-pain-people-statins-may-have-genetic-link" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/invasive-earthworms-may-be-taking-toll-sugar-maples" />
@@ -70,8 +73,6 @@
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=7696" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548508a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548507a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548501a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/548499b" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/ancient-mud-documents-legacy-rome-lead-pipes" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/398785774fe71468be014c269d7bdca6" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/molecules-face-big-chill" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-sea-worm-mouth-claws" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51511" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/seeing-one-picture-time-helps-kids-learn-words-books" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=29177" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/tiny-quantum-storage-device-fits-chip">
+	<title>Science News: Tiny quantum storage device fits on a chip</title>
+	<link>https://www.sciencenews.org/article/tiny-quantum-storage-device-fits-chip</link>
+	<content:encoded>Photon information processing on nanoscale could enable future communication networks.</content:encoded>
+	<dc:date>2017-08-31T18:00:02+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51640">
 	<title>Retraction watch: Journal flags four papers by researcher in Spain over figure issues noted on PubPeer</title>
 	<link>http://retractionwatch.com/2017/08/31/journal-flags-four-papers-researcher-spain-figure-issues-noted-pubpeer/</link>
@@ -231,12 +238,26 @@ HIgh IQ persons usually have also extremely vivid and wide spectrum of emotions 
 	<dc:date>2017-08-31T01:30:02+00:00</dc:date>
 	<dc:creator>Team</dc:creator>
 </item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22547">
+	<title>Nature News &amp; Comment: Doubts raised about gene-editing study in human embryos</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/PGsqr2YtKKw/nature.2017.22547</link>
+	<content:encoded>&lt;p&gt;Alternative explanations challenge whether CRISPR-Cas9 technique actually fixed a genetic mutation as claimed&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22547&quot;&gt;doi: 10.1038/nature.2017.22547&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/PGsqr2YtKKw&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-08-31T00:00:00+00:00</dc:date>
+	<dc:creator>Ewen Callaway</dc:creator>
+</item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22543">
 	<title>Nature News &amp; Comment: Artificial warming trial reveals striking sea-floor changes</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/45PzkNZ88BQ/nature.2017.22543</link>
 	<content:encoded>&lt;p&gt;Researchers deliberately heated up a slice of the Antarctic sea bed to see how ecosystems responded.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22543&quot;&gt;doi: 10.1038/nature.2017.22543&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/45PzkNZ88BQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-31T00:00:00+00:00</dc:date>
 	<dc:creator>Quirin Schiermeier</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22542">
+	<title>Nature News &amp; Comment: How labs are coping with Hurricane Harvey's devastating floods</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/3k-uNAciM-w/nature.2017.22542</link>
+	<content:encoded>&lt;p&gt;Advance planning has kept some Texas facilities safe during the unprecedented storm.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22542&quot;&gt;doi: 10.1038/nature.2017.22542&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/3k-uNAciM-w&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-08-31T00:00:00+00:00</dc:date>
+	<dc:creator>Emma Marris</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/fda-approves-gene-therapy-treat-rare-cancer">
 	<title>Science News: FDA approves gene therapy to treat a rare cancer</title>
@@ -546,7 +567,7 @@ circuitry.&lt;/p&gt;
 	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2017/08/sugar-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Only a really small fraction of us gets through a normal day without adding sugar to its standard meal. Just think about it for a second… Soft drinks, candies, cakes, cookies, pies, fruit drinks, desserts and milk products (ice cream, sweetened yogurt), even pasta…we are submerged by sugar-enriched food. Although obesity is undoubtedly a complex and a multifactorial metabolic disorder, increased sugar intake is considered one of the fundamental and principal factors of the current worldwide obesity epidemic.&lt;br /&gt;
 A compelling body of evidence strongly suggests that high-sugar consumption results in profound neural alterations in critical brain regions involved in reinforcement and determining incentive salience of palatable food. In fact, the rewarding properties of sugar can modulate the activity of the brain reward system, the same neural pathway which is activated by drugs such as cocaine and amphetamine. The mesolimbic reward circuit is a collection of highly interconnected brain nuclei including the nucleus accumbens (NAc), the ventral tegmental area (VTA) and the amygdala that encodes emotional states such as anticipation of reward and motivation. Long-term consumption of highly palatable food can cause maladaptive modifications within the brain reward pathway. Modified cell morphology, altered synaptic plasticity and imbalanced neuronal homeostasis have been described following consumption of palatable food.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Intermittent access to sugar alters the amygdala &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Among several brain regions, the basolateral amygdala (BLA), a specific nucleus of the amygdaloid complex, is known to influence reward learning and the association with adaptive, goal-directed and emotional behaviors. The BLA receives dopaminergic input from the VTA and sends glutamatergic projections to the medium spiny neurons in the NAc, a key structure of the mesolimbic reward circuit. In a recent study published in &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0183063#pone.0183063.ref057&quot;&gt;PLOS One&lt;/a&gt;, Shariff and colleagues (Queensland University of Technology, Brisbane, Australia) decided to examine the effect of short- and long-term binge-like sucrose consumption on the morphology of the BLA principal neurons using an intermittent-access two-bottle choice paradigm. Two bottles, one containing water and the second one containing 5% (w/v) sucrose, were presented simultaneously to the animals using a binge-access protocol. Surprisingly, the authors found that the total spine densities of BLA principal cells were not affected by binge-like consumption of sucrose.&lt;/p&gt;
+&lt;p&gt;Among several brain regions, the basolateral amygdala (BLA), a specific nucleus of the amygdaloid complex, is known to influence reward learning and the association with adaptive, goal-directed and emotional behaviors. The BLA receives dopaminergic input from the VTA and sends glutamatergic projections to the medium spiny neurons in the NAc, a key structure of the mesolimbic reward circuit. In a recent study published in &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0183063&quot;&gt;PLOS One&lt;/a&gt;, Shariff and colleagues (Queensland University of Technology, Brisbane, Australia) decided to examine the effect of short- and long-term binge-like sucrose consumption on the morphology of the BLA principal neurons using an intermittent-access two-bottle choice paradigm. Two bottles, one containing water and the second one containing 5% (w/v) sucrose, were presented simultaneously to the animals using a binge-access protocol. Surprisingly, the authors found that the total spine densities of BLA principal cells were not affected by binge-like consumption of sucrose.&lt;/p&gt;
 &lt;p&gt;Thus the authors sought to investigate whether sugar consumption was able to alter the general structure of the dendritic components of the BLA principal neurons. “&lt;em&gt;Given that BLA principal cell apical dendrites receive distal glutamatergic inputs that play a pivotal role in the formation of emotional and associative memories, it is interesting to note that our study revealed significant restructuring of apical distal branches&lt;/em&gt;”, point out Dr. Bartlett, the senior author of the paper. In fact, decreased dendritic arbor length of principal neurons from the basolateral amygdala was detected in both short- and long-term sucrose consuming rats, thus suggesting a structural remodeling of BLA circuits. However, “&lt;em&gt;whether long-term sucrose induced reductions in dendritic length and branching of BLA principal neurons (…) are associated with reductions in their excitatory activity and neuronal output is an interesting possibility that warrants further investigation&lt;/em&gt;”, report the authors.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sugar and drugs of abuse &lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The same laboratory has previously reported that sugar consumption triggers a reduction of total dendritic length and an increase in distal spine density in the medium spiny neurons of the nucleus accumbens (&lt;a href=&quot;http://journal.frontiersin.org/article/10.3389/fnbeh.2016.00054/full&quot;&gt;Klenowski et al., 2016&lt;/a&gt;). This kind of cellular and morphological hallmarks have been also observed in response to chronic exposure to drugs of abuse such as alcohol, cocaine and amphetamines. Interestingly, different studies have also shown that not only drugs of abuse but also a high-fat diet attenuates dendritic spine density as well as decreased inhibitory synaptic transmission in the prefrontal cortex, a key region intricately involved with processing reward and motivation (&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/26983815&quot;&gt;Dingess et al., 2017&lt;/a&gt;; &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/28042870&quot;&gt;Thompson et al., 2017&lt;/a&gt;). “&lt;em&gt;Taken together&lt;/em&gt;”, report the authors, “&lt;em&gt;this suggests the possibility of overlapping neural pathways for drugs of abuse and certain foods types&lt;/em&gt;”.&lt;/p&gt;
@@ -649,19 +670,6 @@ A compelling body of evidence strongly suggests that high-sugar consumption resu
 	<content:encoded>&lt;p&gt;High-speed shooter will help scientists to make molecular movies.&lt;/p&gt;&lt;p&gt;Nature 548 507 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/548507a&quot;&gt;doi: 10.1038/548507a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/wPygF3jpOng&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-08-29T00:00:00+00:00</dc:date>
 	<dc:creator>Philip Ball</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/548501a">
-	<title>Nature News &amp; Comment: Keep on marching for science education</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/PGNKmn-8SIs/548501a</link>
-	<content:encoded>&lt;p&gt;Scientists might have made a difference, had they protested against laws that now threaten what can be taught in our classrooms, argues Brandon Haught.&lt;/p&gt;&lt;p&gt;Nature 548 501 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/548501a&quot;&gt;doi: 10.1038/548501a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/PGNKmn-8SIs&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-29T00:00:00+00:00</dc:date>
-	<dc:creator>Brandon Haught</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/548499b">
-	<title>Nature News &amp; Comment: Extreme weather events are the new normal</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/vEGSnXR1sng/548499b</link>
-	<content:encoded>&lt;p&gt;Hurricane Harvey highlights the struggle to apply climate science.&lt;/p&gt;&lt;p&gt;Nature 548 499 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/548499b&quot;&gt;doi: 10.1038/548499b&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/vEGSnXR1sng&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-29T00:00:00+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/ancient-mud-documents-legacy-rome-lead-pipes">
 	<title>Science News: Ancient mud documents the legacy of Rome’s lead pipes</title>
@@ -1113,25 +1121,6 @@ Following the approval of eteplirsen, Ellis Unger and Robert Califf wrote a let<
 	<content:encoded>A small study found that children were better able to pick up vocabulary from books that show only one picture at a time.</content:encoded>
 	<dc:date>2017-08-23T11:00:01+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=29177">
-	<title>The British Psychological Society - Research Digest: Whether you snack or not is more about the presence of temptation than your willpower</title>
-	<link>https://digest.bps.org.uk/2017/08/23/whether-you-snack-or-not-is-more-about-the-presence-of-temptation-than-your-willpower/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;&lt;img alt=&quot;giphy1&quot; class=&quot;alignleft size-medium wp-image-29268&quot; data-attachment-id=&quot;29268&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;giphy1&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/08/giphy1.gif?w=403&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/08/giphy1.gif?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/08/giphy1.gif&quot; data-orig-size=&quot;403,400&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/08/23/whether-you-snack-or-not-is-more-about-the-presence-of-temptation-than-your-willpower/giphy1/&quot; height=&quot;298&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/08/giphy1.gif?w=300&amp;amp;h=298&quot; width=&quot;300&quot; /&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.christianjarrett.com/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;When you’re in the coffee shop and you watch your hand pick up the muffin and place it on your tray, how much of this was down to the situation, and how much to do with your (lack of) willpower or your long-term intentions? A &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/bjhp.12259/full?hootPostID=3f60ab0b40a8aad5d21ca2cae3244883&quot;&gt;new study&lt;/a&gt; in the &lt;em&gt;British Journal of Health Psychology&lt;/em&gt; compared these influences and found that momentary cues, such as seeing someone else snacking, were more strongly associated with how much people snacked than their own baseline psychological traits and intentions.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-29177&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Setting the scene for their research, Katherine Elliston at the University of Tasmania and her colleagues said that in Australia, around 30 to 41 per cent of people’s daily energy intake comes from snacking rather than from proper meals. This makes the psychology of snacking an important part of helping people to avoid over-eating.&lt;/p&gt;
-&lt;p&gt;The researchers recruited 61 participants (42 women) through social media and flyers and asked them to complete a range of baseline psychological measures, including how much they think about the costs and benefits of healthy eating as occurring sooner rather than later (this comes from “Temporal Self-regulation Theory” – people are less likely to eat healthily when they see the benefits as distant and the costs as imminent); they also rated their intentions to eat more healthily; reported how often they’d eaten five fruit and veg per day recently; and rated their powers of self-regulation and willpower.&lt;/p&gt;
-&lt;p&gt;Then, for the next two weeks, the participants used an app to record any times that they ate food, and whether it was a snack (high or low energy) or a main meal. Sometimes they were also prompted at this point to record any situational cues relevant to snacking, such as: whether snacks were currently available; whether they were in a bad mood; whether they could see anyone else snacking; whether they were near a fast food shop. The app also beeped at random times through the day and asked the participants to record the presence of any of these same situational cues.&lt;/p&gt;
-&lt;p&gt;Overall, the participants recorded eating a total of 1127 snacks across the two-week study period. They reported the presence of other people snacking more often when they had just logged their own snacking than during times they weren’t snacking (i.e. when they were prompted randomly by the app), indicating a possible causal role for this situational cue, though the current design can’t prove this. The same pattern was also true for being in a bad mood and having snacks available and easily accessible – these were present more often during snacking than during random prompts when not eating, suggesting these cues may have contributed to snacking. Proximity to food outlets didn’t appear to be a relevant factor.&lt;/p&gt;
-&lt;p&gt;Intentions and past healthy eating behaviour were not associated with the odds of snacking. Seeing the costs of healthy eating as coming early, before eating, was associated with more snacking. Lower self regulation was also associated with more high energy snacking overall, but these baseline measures were less strongly associated with snacking than momentary cues.&lt;/p&gt;
-&lt;p&gt;The researchers said their study represented a successful application of Temporal Self-regulation Theory to explain snacking. “The results demonstrate that snacking is largely guided by momentary cues and that motivational-level factors may be less important in guiding snacking than previously thought,” they said, adding that helping people combat stress and low mood, and reducing the availability of snacks, could help people eat fewer unhealthy snacks.&lt;/p&gt;
-&lt;p&gt;The new findings add to previous research that has shown that &lt;a href=&quot;https://digest.bps.org.uk/2016/10/18/is-willpower-overrated/&quot;&gt;goal attainment&lt;/a&gt; and healthy behaviour is more about &lt;a href=&quot;https://digest.bps.org.uk/2012/01/03/already-struggling-to-keep-new-year-resolutions-heres-the-first-detailed-study-of-daily-temptation-and-resistance/&quot;&gt;avoiding temptation&lt;/a&gt; in the first place than exercising iron willpower. Avoid going to the cafe that sells those amazing muffins, especially when you’re in a bad mood, and you’ll probably find you snack on them less. This sounds simple enough, but unfortunately, &lt;a href=&quot;https://digest.bps.org.uk/2009/12/10/step-away-from-the-cookie-jar-over-confidence-in-self-control-leads-us-to-temptation/&quot;&gt;we have a tendency to overestimate our willpower&lt;/a&gt; – especially when we’re not hungry, we forget how tempting snacks can be when we are!&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/bjhp.12259/full?hootPostID=3f60ab0b40a8aad5d21ca2cae3244883&quot;&gt;Personal and situational predictors of everyday snacking: An application of temporal self-regulation theory&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Image via &lt;a href=&quot;https://giphy.com/gifs/akbZyUgsLW69q/download&quot;&gt;giphy.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/jopy.12333/abstract?campaign=wolacceptedarticle&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/29177/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/29177/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=29177&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-08-23T10:33:29+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 
 </rdf:RDF>
