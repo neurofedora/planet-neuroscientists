@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/north-americas-largest-recorded-earthquake-helped-confirm-plate-tectonics" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51659" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22551" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/uranus-moon-cressida" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nitty-gritty-homo-naledis-diet-revealed-its-teeth" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51531" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/darwins-backyard-chronicles-naturalists-homespun-experiments" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-nasa-whipped-astronaut-waste-rocket-fuel" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/north-americas-largest-recorded-earthquake-helped-confirm-plate-tectonics">
+	<title>Science News: North America’s largest recorded earthquake helped confirm plate tectonics</title>
+	<link>https://www.sciencenews.org/article/north-americas-largest-recorded-earthquake-helped-confirm-plate-tectonics</link>
+	<content:encoded>Henry Fountain’s 'The Great Quake' mixes drama and science to tell the story of the 1964 Alaska earthquake.</content:encoded>
+	<dc:date>2017-09-03T12:00:02+00:00</dc:date>
+	<dc:creator>Emily DeMarco</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51659">
 	<title>Retraction watch: Weekend reads: Publishing too much?; CRISPR doubts; Pharma in predatory journals</title>
 	<link>http://retractionwatch.com/2017/09/02/weekend-reads-3/</link>
@@ -1120,13 +1127,6 @@ Following the approval of eteplirsen, Ellis Unger and Robert Califf wrote a let<
 	<content:encoded>In the new book Darwin’s Backyard, a biologist explores Charles Darwin’s family life, as well as four decades’ worth of his at-home experiments.</content:encoded>
 	<dc:date>2017-08-24T14:00:02+00:00</dc:date>
 	<dc:creator>Sid Perkins</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/50-years-ago-nasa-whipped-astronaut-waste-rocket-fuel">
-	<title>Science News: 50 years ago, NASA whipped up astronaut waste into rocket fuel</title>
-	<link>https://www.sciencenews.org/article/50-years-ago-nasa-whipped-astronaut-waste-rocket-fuel</link>
-	<content:encoded>In 1967, scientists found a way to turn human waste into rocket fuel.</content:encoded>
-	<dc:date>2017-08-24T13:00:02+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
 </item>
 
 </rdf:RDF>
