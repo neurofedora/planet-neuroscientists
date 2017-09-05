@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/zika-could-one-day-help-combat-deadly-brain-cancer" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=51680" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51666" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-flexibility-learning" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/data-and-efficiency-in-science-and-medicine" />
@@ -113,12 +115,25 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51541" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-create-most-cubic-form-ice-crystals-yet" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/5-reasons-to-pay-attention-to-machine-learning" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9080" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/death-dive-saturn-celebrates-cassini-probes-accomplishments" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/zika-could-one-day-help-combat-deadly-brain-cancer">
+	<title>Science News: Zika could one day help combat deadly brain cancer</title>
+	<link>https://www.sciencenews.org/article/zika-could-one-day-help-combat-deadly-brain-cancer</link>
+	<content:encoded>The Zika virus targets cells that cause glioblastoma, an aggressive form of brain cancer, studies in human cells and mice show.</content:encoded>
+	<dc:date>2017-09-05T20:54:00+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=51680">
+	<title>Retraction watch: Authors retract Science paper after investigation reveals manipulated images</title>
+	<link>http://retractionwatch.com/2017/09/05/authors-retract-science-paper-investigation-reveals-manipulated-images/</link>
+	<content:encoded>&lt;p&gt;Researchers at a prominent Japanese university have retracted a 2015 paper in Science, after an investigation uncovered image falsification and fabrication. Last September, the University of Tokyo began an investigation of seven papers from the lab of cell biologist Yoshinori Watanabe after receiving anonymous allegations. In May 2017, the university determined that five papers contained falsified […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/09/05/authors-retract-science-paper-investigation-reveals-manipulated-images/&quot; rel=&quot;nofollow&quot;&gt;Authors retract Science paper after investigation reveals manipulated images&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-09-05T18:48:21+00:00</dc:date>
+	<dc:creator>Victoria Stern</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51666">
 	<title>Retraction watch: Amid legal battle, psych journal issuing caution about torture paper</title>
 	<link>http://retractionwatch.com/2017/09/05/amid-legal-battle-psych-journal-issuing-caution-torture-paper/</link>
@@ -1136,23 +1151,6 @@ A compelling body of evidence strongly suggests that high-sugar consumption resu
 	<link>https://www.elsevier.com/connect/5-reasons-to-pay-attention-to-machine-learning</link>
 	<content:encoded>How natural language processing and automation are transforming science and medicine</content:encoded>
 	<dc:date>2017-08-28T10:16:08+00:00</dc:date>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9080">
-	<title>Discovery magazine - Neuroskeptic: The &quot;Unbearable Emptiness&quot; of Science on Twitter?</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9080</link>
-	<content:encoded>The discussion of scientific papers on Twitter is largely dominated by spam bots, paid content promoters, and &quot;monomaniacs&quot; obsessed with a single issue. That's according to researchers Nicolas Robinson-Garcia and colleagues in a new paper called &quot;The unbearable emptiness of tweeting—about journal articles.&quot;
-
-
-
-To reach their bleak conclusion, Robinson-Garcia et al. read 8,206 tweets. Tweets were included if they contained a link to a peer-reviewed paper in the field of dentristy and den</content:encoded>
-	<dc:date>2017-08-27T20:59:57+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/death-dive-saturn-celebrates-cassini-probes-accomplishments">
-	<title>Science News: ‘Death Dive to Saturn’ celebrates the Cassini probe’s accomplishments</title>
-	<link>https://www.sciencenews.org/article/death-dive-saturn-celebrates-cassini-probes-accomplishments</link>
-	<content:encoded>A new documentary, “Death Dive to Saturn,” takes a look back at the Cassini spacecraft’s 13 years at Saturn and what to expect from its final days.</content:encoded>
-	<dc:date>2017-08-27T12:00:02+00:00</dc:date>
-	<dc:creator>Christopher Crockett</dc:creator>
 </item>
 
 </rdf:RDF>
