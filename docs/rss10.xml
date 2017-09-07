@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/pluto-pits-ridges-plain-get-official-names" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-fungus-invades-lungs-immune-cells-can-tell-it-self-destruct" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-chemical-lost-parkinsons-may-contribute-its-own-demise" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/why-bats-crash-windows" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51707" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/woolly-rhinos-extra-ribs-extinct" />
 			<rdf:li rdf:resource="http://forgingconnectionsblog.wordpress.com/?p=544" />
@@ -24,6 +28,7 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/elsevier-supports-top-guidelines-in-ongoing-efforts-to-ensure-research-quality-and-transparency" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9490" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=29735" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22583" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/pollen-hitches-ride-bees-all-right-spots" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-were-curious-about-rogue-planets-exomoons-and-more" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/learning-ubiquitous-mysterious-phenomenon" />
@@ -76,7 +81,6 @@
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-7182136031378450444" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22548" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/549117a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/549006a" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22849" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/isis-spiritual-convictions-group-identities-terrorist-acts" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=29472" />
@@ -111,14 +115,38 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/muscle-pain-people-statins-may-have-genetic-link" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/invasive-earthworms-may-be-taking-toll-sugar-maples" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/star-exploded-1437-tracked-its-current-position" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=51601" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=51616" />
-			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-08-30:/2017/08/30/inhibitory-plasticity-balances-excitation-and-inhibition-in-sensory-pathways-and-memory-networks.html" />
-			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-08-30:/2017/08/30/inhibitory-plasticity-balances-excitation-and-inhibition-in-sensory-pathways-and-memory-networks-1.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/pluto-pits-ridges-plain-get-official-names">
+	<title>Science News: Pluto’s pits, ridges and famous plain get official names</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/pluto-pits-ridges-plain-get-official-names</link>
+	<content:encoded>From Adlivun to Voyager, the International Astronomical Union officially names 14 surface features on the dwarf planet.</content:encoded>
+	<dc:date>2017-09-07T22:05:06+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/when-fungus-invades-lungs-immune-cells-can-tell-it-self-destruct">
+	<title>Science News: When a fungus invades the lungs, immune cells can tell it to self-destruct</title>
+	<link>https://www.sciencenews.org/article/when-fungus-invades-lungs-immune-cells-can-tell-it-self-destruct</link>
+	<content:encoded>Immune system resists fungal infection by directing spores to their death.</content:encoded>
+	<dc:date>2017-09-07T21:01:43+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/brain-chemical-lost-parkinsons-may-contribute-its-own-demise">
+	<title>Science News: Brain chemical lost in Parkinson’s may contribute to its own demise</title>
+	<link>https://www.sciencenews.org/article/brain-chemical-lost-parkinsons-may-contribute-its-own-demise</link>
+	<content:encoded>A dangerous form of the chemical messenger dopamine causes cellular mayhem in the very nerve cells that make it.</content:encoded>
+	<dc:date>2017-09-07T18:12:16+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/why-bats-crash-windows">
+	<title>Science News: Why bats crash into windows</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/why-bats-crash-windows</link>
+	<content:encoded>Smooth, vertical surfaces may be blind spots for bats and cause some animals to face-plant, study suggests.</content:encoded>
+	<dc:date>2017-09-07T18:00:02+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51707">
 	<title>Retraction watch: UCSF, VA investigations find “clear evidence” of misconduct in cancer papers</title>
 	<link>http://retractionwatch.com/2017/09/07/ucsf-va-investigations-find-clear-evidence-misconduct-cancer-papers/</link>
@@ -254,6 +282,13 @@
 &lt;p&gt;&lt;strong&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is Staff Writer at &lt;span class=&quot;s3&quot;&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/29735/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/29735/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=29735&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-09-07T09:08:03+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22583">
+	<title>Nature News &amp; Comment: Bats slam into buildings because they can't 'see' them</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/3_5ZonPOZ40/nature.2017.22583</link>
+	<content:encoded>&lt;p&gt;Smooth, vertical structures such as steel and glass buildings appear invisible to bats' echolocation system.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22583&quot;&gt;doi: 10.1038/nature.2017.22583&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/3_5ZonPOZ40&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-09-07T00:00:00+00:00</dc:date>
+	<dc:creator>Bruno Martin</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/pollen-hitches-ride-bees-all-right-spots">
 	<title>Science News: Pollen hitches a ride on bees in all the right spots</title>
@@ -700,12 +735,6 @@
 	<dc:date>2017-09-05T00:00:00+00:00</dc:date>
 	<dc:creator>Jeffrey M. Perkel</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/549006a">
-	<title>Nature News &amp; Comment: Cuckoo call adds another layer of deception</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/5Jh6pRcBXcU/549006a</link>
-	<content:encoded>&lt;p&gt;The female bird makes a different and much sneakier sound than the male.&lt;/p&gt;&lt;p&gt;Nature 549 6 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/549006a&quot;&gt;doi: 10.1038/549006a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/5Jh6pRcBXcU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-09-05T00:00:00+00:00</dc:date>
-</item>
 <item rdf:about="http://brainblogger.com/?p=22849">
 	<title>Brain Blogger: The Laws of Attraction: A Neurology and Psychology Expert Explains</title>
 	<link>http://brainblogger.com/2017/09/04/the-laws-of-attraction-a-neurology-and-psychology-expert-explains/</link>
@@ -1117,72 +1146,6 @@ HIgh IQ persons usually have also extremely vivid and wide spectrum of emotions 
 	<content:encoded>Astronomers have hunted down a star seen exploding in the year 1437 and traced it since, offering clues to the stages of a white dwarf.</content:encoded>
 	<dc:date>2017-08-30T17:00:02+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=51601">
-	<title>Retraction watch: “It was an honest mistake:” Author retracts and replaces chemistry paper 15 years later</title>
-	<link>http://retractionwatch.com/2017/08/30/honest-mistake-author-retracts-replaces-chemistry-paper-15-years-later/</link>
-	<content:encoded>&lt;p&gt;In 2001, Chris Orvig was happy when his team had synthesized a molecule with potential therapeutic applications. He and his colleagues published their findings in a 2002 paper in Inorganic Chemistry. Over a decade later, Orvig discovered a pivotal error in the paper: The authors had misidentified the compound. Orvig, a professor of chemistry at […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/30/honest-mistake-author-retracts-replaces-chemistry-paper-15-years-later/&quot; rel=&quot;nofollow&quot;&gt;“It was an honest mistake:” Author retracts and replaces chemistry paper 15 years later&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-30T15:00:23+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=51616">
-	<title>Retraction watch: Engineering journal removes article co-authored by former president of Iran</title>
-	<link>http://retractionwatch.com/2017/08/30/engineering-journal-removes-article-co-authored-former-president-iran/</link>
-	<content:encoded>&lt;p&gt;Does failing to disclose that you were once a leader in the “Axis of Evil” deserve retraction? An engineering journal has pulled a 2017 paper whose authors included Mahmoud Ahmadinejad, former president of the Islamic Republic of Iran. Ahmadinejad, the notorious anti-Semitic and anti-West president of Iran from 2005 to 2013, was a civil engineer […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/08/30/engineering-journal-removes-article-co-authored-former-president-iran/&quot; rel=&quot;nofollow&quot;&gt;Engineering journal removes article co-authored by former president of Iran&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-30T12:00:22+00:00</dc:date>
-	<dc:creator>amarcus41</dc:creator>
-</item>
-<item rdf:about="tag:biocomputation.herts.ac.uk,2017-08-30:/2017/08/30/inhibitory-plasticity-balances-excitation-and-inhibition-in-sensory-pathways-and-memory-networks.html">
-	<title>UH Biocomputation group: Inhibitory plasticity balances excitation and inhibition in sensory pathways and memory networks</title>
-	<link>http://biocomputation.herts.ac.uk/2017/08/30/inhibitory-plasticity-balances-excitation-and-inhibition-in-sensory-pathways-and-memory-networks.html</link>
-	<content:encoded>&lt;p&gt;Cortical neurons receive balanced excitatory and inhibitory synaptic
-currents. Such a balance could be established and maintained in an
-experience-dependent manner by synaptic plasticity at inhibitory
-synapses. We show that this mechanism provides an explanation for the
-sparse firing patterns observed in response to natural stimuli and fits
-well with a recently observed interaction of excitatory and inhibitory
-receptive field plasticity. The introduction of inhibitory plasticity
-in suitable recurrent networks provides a homeostatic mechanism that le
-ads to asynchronous irregular network states. Further, it can
-accommodate synaptic memories with activity patterns that become
-indiscernible from the background state but can be reactivated by
-external stimuli. Our results suggest an essential role of inhibitory
-plasticity in the formation and maintenance of functional cortical
-circuitry.&lt;/p&gt;
-&lt;p&gt;The full paper can be found here:
-&lt;a class=&quot;reference external&quot; href=&quot;http://www.sciencemag.org/content/334/6062/1569.short&quot;&gt;http://www.sciencemag.org/content/334/6062/1569.short&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 01/09/2017 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-30T10:06:27+00:00</dc:date>
-	<dc:creator>Sam Sutton</dc:creator>
-</item>
-<item rdf:about="tag:biocomputation.herts.ac.uk,2017-08-30:/2017/08/30/inhibitory-plasticity-balances-excitation-and-inhibition-in-sensory-pathways-and-memory-networks-1.html">
-	<title>UH Biocomputation group: Inhibitory plasticity balances excitation and inhibition in sensory pathways and memory networks</title>
-	<link>http://biocomputation.herts.ac.uk/2017/08/30/inhibitory-plasticity-balances-excitation-and-inhibition-in-sensory-pathways-and-memory-networks-1.html</link>
-	<content:encoded>&lt;p&gt;Cortical neurons receive balanced excitatory and inhibitory synaptic
-currents. Such a balance could be established and maintained in an
-experience-dependent manner by synaptic plasticity at inhibitory
-synapses. We show that this mechanism provides an explanation for the
-sparse firing patterns observed in response to natural stimuli and fits
-well with a recently observed interaction of excitatory and inhibitory
-receptive field plasticity. The introduction of inhibitory plasticity
-in suitable recurrent networks provides a homeostatic mechanism that le
-ads to asynchronous irregular network states. Further, it can
-accommodate synaptic memories with activity patterns that become
-indiscernible from the background state but can be reactivated by
-external stimuli. Our results suggest an essential role of inhibitory
-plasticity in the formation and maintenance of functional cortical
-circuitry.&lt;/p&gt;
-&lt;p&gt;The full paper can be found here:
-&lt;a class=&quot;reference external&quot; href=&quot;http://www.sciencemag.org/content/334/6062/1569.short&quot;&gt;http://www.sciencemag.org/content/334/6062/1569.short&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 01/09/2017 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
-	<dc:date>2017-08-30T10:06:27+00:00</dc:date>
-	<dc:creator>Sam Sutton</dc:creator>
 </item>
 
 </rdf:RDF>
