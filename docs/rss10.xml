@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22586" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51737" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/sugars-breast-milk-may-fight-harmful-bacteria-directly" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51703" />
@@ -79,7 +80,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549031c" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549031b" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549031a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549029a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/zika-could-one-day-help-combat-deadly-brain-cancer" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51680" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51666" />
@@ -119,6 +119,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22586">
+	<title>Nature News &amp; Comment: Deadly Mexico earthquake had unusual cause</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/6BQ5ZlKluNg/nature.2017.22586</link>
+	<content:encoded>&lt;p&gt;US Geological Survey says tremor originated within Cocos Plate, not subduction zone.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22586&quot;&gt;doi: 10.1038/nature.2017.22586&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/6BQ5ZlKluNg&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-09-09T00:00:00+00:00</dc:date>
+	<dc:creator>Emiliano  Rodríguez Mega</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=51737">
 	<title>Retraction watch: Carlo Croce, Ohio State researcher facing misconduct allegations, suing New York Times for defamation</title>
 	<link>http://retractionwatch.com/2017/09/08/carlo-croce-ohio-state-researcher-facing-misconduct-allegations-suing-new-york-times-defamation/</link>
@@ -737,13 +744,6 @@
 	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 549 31 &lt;a href=&quot;http://dx.doi.org/10.1038/549031a&quot;&gt;doi: 10.1038/549031a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/iLsHw0Dbc1A&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-09-06T00:00:00+00:00</dc:date>
 	<dc:creator>Sabine Hossenfelder</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/549029a">
-	<title>Nature News &amp; Comment: Books in brief</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/fp9CLkj7ACI/549029a</link>
-	<content:encoded>&lt;p&gt;Barbara Kiser reviews five of the week's best science picks.&lt;/p&gt;&lt;p&gt;Nature 549 29 &lt;a href=&quot;http://dx.doi.org/10.1038/549029a&quot;&gt;doi: 10.1038/549029a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/fp9CLkj7ACI&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-09-06T00:00:00+00:00</dc:date>
-	<dc:creator>Barbara Kiser</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/zika-could-one-day-help-combat-deadly-brain-cancer">
 	<title>Science News: Zika could one day help combat deadly brain cancer</title>
