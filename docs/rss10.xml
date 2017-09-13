@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/sea-stars-ancient-echinoderms-nibbled-tiny-tube-feet" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/hurricanes-disasters-scientific-research" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51765" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=7721" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9481" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-7182136031378450444" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22849" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/isis-spiritual-convictions-group-identities-terrorist-acts" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/sea-stars-ancient-echinoderms-nibbled-tiny-tube-feet">
+	<title>Science News: Like sea stars, ancient echinoderms nibbled with tiny tube feet</title>
+	<link>https://www.sciencenews.org/article/sea-stars-ancient-echinoderms-nibbled-tiny-tube-feet</link>
+	<content:encoded>An ancient echinoderm fossil preserves evidence of tube feet like those found on today’s sea stars.</content:encoded>
+	<dc:date>2017-09-12T23:05:01+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-public/hurricanes-disasters-scientific-research">
 	<title>Science News: How hurricanes and other devastating disasters spur scientific research</title>
 	<link>https://www.sciencenews.org/blog/science-public/hurricanes-disasters-scientific-research</link>
@@ -1244,13 +1251,6 @@ Vaesen and Katzav start by outlining the pro</content:encoded>
 &lt;p&gt;&lt;em&gt;Image via &lt;a href=&quot;https://pixabay.com/en/users/StockSnap-894430/&quot;&gt;StockSnap&lt;/a&gt;/&lt;a href=&quot;https://pixabay.com/&quot;&gt;Pixabay&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2017-09-04T15:25:10+00:00</dc:date>
 	<dc:creator>Takeesha Roland-Jenkins, MS</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/isis-spiritual-convictions-group-identities-terrorist-acts">
-	<title>Science News: Spiritual convictions and group identities inspire terrorist acts, study finds</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/isis-spiritual-convictions-group-identities-terrorist-acts</link>
-	<content:encoded>Sacred values and becoming one with comrades fuels terrorist acts, a report finds.</content:encoded>
-	<dc:date>2017-09-04T15:00:02+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
