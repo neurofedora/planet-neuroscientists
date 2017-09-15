@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-supraballs-put-new-spin-creating-long-lasting-color" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/animal-goo-inspires-better-glue" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22832" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51805" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1446" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/pluto-pits-ridges-plain-get-official-names" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-fungus-invades-lungs-immune-cells-can-tell-it-self-destruct" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-chemical-lost-parkinsons-may-contribute-its-own-demise" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/tiny-supraballs-put-new-spin-creating-long-lasting-color">
+	<title>Science News: Tiny ‘supraballs’ put a new spin on creating long-lasting color</title>
+	<link>https://www.sciencenews.org/article/tiny-supraballs-put-new-spin-creating-long-lasting-color</link>
+	<content:encoded>Nano-sized balls of melanin and silica generate durable colors.</content:encoded>
+	<dc:date>2017-09-15T18:08:15+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/animal-goo-inspires-better-glue">
 	<title>Science News: Animal goo inspires better glue</title>
 	<link>https://www.sciencenews.org/article/animal-goo-inspires-better-glue</link>
@@ -1258,13 +1265,6 @@ Vaesen and Katzav start by outlining the pro</content:encoded>
 	<content:encoded>Immune system resists fungal infection by directing spores to their death.</content:encoded>
 	<dc:date>2017-09-07T21:01:43+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/brain-chemical-lost-parkinsons-may-contribute-its-own-demise">
-	<title>Science News: Brain chemical lost in Parkinson’s may contribute to its own demise</title>
-	<link>https://www.sciencenews.org/article/brain-chemical-lost-parkinsons-may-contribute-its-own-demise</link>
-	<content:encoded>A dangerous form of the chemical messenger dopamine causes cellular mayhem in the very nerve cells that make it.</content:encoded>
-	<dc:date>2017-09-07T18:12:16+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
