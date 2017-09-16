@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/stm-offers-researchgate-user-friendly-solutions-to-address-industry-concerns" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-supraballs-put-new-spin-creating-long-lasting-color" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/animal-goo-inspires-better-glue" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22832" />
@@ -114,11 +115,16 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=29764" />
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1446" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/pluto-pits-ridges-plain-get-official-names" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-fungus-invades-lungs-immune-cells-can-tell-it-self-destruct" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/stm-offers-researchgate-user-friendly-solutions-to-address-industry-concerns">
+	<title>Elsevier Connect: Elsevier supports STM's constructive solution offered to ResearchGate on hosting research articles</title>
+	<link>https://www.elsevier.com/connect/stm-offers-researchgate-user-friendly-solutions-to-address-industry-concerns</link>
+	<content:encoded>Proposal would enable this scholarly collaboration network to operate its service consistent with the access and usage rights agreed upon between authors and the journals they publish in</content:encoded>
+	<dc:date>2017-09-15T23:09:23+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/tiny-supraballs-put-new-spin-creating-long-lasting-color">
 	<title>Science News: Tiny ‘supraballs’ put a new spin on creating long-lasting color</title>
 	<link>https://www.sciencenews.org/article/tiny-supraballs-put-new-spin-creating-long-lasting-color</link>
@@ -1258,13 +1264,6 @@ Vaesen and Katzav start by outlining the pro</content:encoded>
 	<content:encoded>From Adlivun to Voyager, the International Astronomical Union officially names 14 surface features on the dwarf planet.</content:encoded>
 	<dc:date>2017-09-07T22:05:06+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/when-fungus-invades-lungs-immune-cells-can-tell-it-self-destruct">
-	<title>Science News: When a fungus invades the lungs, immune cells can tell it to self-destruct</title>
-	<link>https://www.sciencenews.org/article/when-fungus-invades-lungs-immune-cells-can-tell-it-self-destruct</link>
-	<content:encoded>Immune system resists fungal infection by directing spores to their death.</content:encoded>
-	<dc:date>2017-09-07T21:01:43+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
 </item>
 
 </rdf:RDF>
