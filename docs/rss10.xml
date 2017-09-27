@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22684" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/giant-marsupial-was-seasonal-migrant" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/upside-down-jellyfish-first-brainless-animals-pass-sleep-tests" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/turning-heat-electrons-reveals-elusive-physics-phenomenon" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51917" />
@@ -90,7 +92,6 @@
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22626" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/549328a" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/549322a" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/549312a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24268" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24142" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24141" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-1436241579500564380" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=30079" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/now-we-know-how-much-glacial-melting-watermelon-snow-can-cause" />
-			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=1129" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22684">
+	<title>Nature News &amp; Comment: Giant, tree-dwelling rat discovered in Solomon Islands</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/NzoQW0uzO8o/nature.2017.22684</link>
+	<content:encoded>&lt;p&gt;But elusive coconut-cracking rodent may already be close to extinction.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22684&quot;&gt;doi: 10.1038/nature.2017.22684&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/NzoQW0uzO8o&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-09-27T00:00:00+00:00</dc:date>
+	<dc:creator>Emma Young</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/giant-marsupial-was-seasonal-migrant">
+	<title>Science News: This giant marsupial was a seasonal migrant</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/giant-marsupial-was-seasonal-migrant</link>
+	<content:encoded>The giant, extinct marsupial Diprotodon optatum migrated seasonally, the first marsupial shown to do so.</content:encoded>
+	<dc:date>2017-09-26T23:05:01+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/upside-down-jellyfish-first-brainless-animals-pass-sleep-tests">
 	<title>Science News: To test sleep, researchers don’t let sleeping jellyfish lie</title>
 	<link>https://www.sciencenews.org/article/upside-down-jellyfish-first-brainless-animals-pass-sleep-tests</link>
@@ -910,12 +924,6 @@ Francken and Slors describe a disconnect between neuroscience re</content:encode
 	<dc:date>2017-09-20T00:00:00+00:00</dc:date>
 	<dc:creator>Monya Baker</dc:creator>
 </item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/549312a">
-	<title>Nature News &amp; Comment: Snow leopards, ancient zero and Cassini’s big finish</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/sfHCenwT_O8/549312a</link>
-	<content:encoded>&lt;p&gt;The week in science: 15–21 September 2017.&lt;/p&gt;&lt;p&gt;Nature 549 312 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/549312a&quot;&gt;doi: 10.1038/549312a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/sfHCenwT_O8&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-09-20T00:00:00+00:00</dc:date>
-</item>
 <item rdf:about="http://dx.doi.org/10.1038/nature24268">
 	<title>Nature Biological Sciences Research: Enhanced proofreading governs CRISPR–Cas9 targeting accuracy</title>
 	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/_h7kwc4HSZw/nature24268</link>
@@ -1208,25 +1216,6 @@ Francken and Slors describe a disconnect between neuroscience re</content:encode
 	<content:encoded>Algae that give snow a red tint are making glacial snow in Alaska melt faster.</content:encoded>
 	<dc:date>2017-09-18T21:03:29+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://blog.scienceexchange.com/?p=1129">
-	<title>The Science Exchange Blog: Science Exchange Survey Reveals Pain Points of Outsourcing R&amp;D</title>
-	<link>https://blog.scienceexchange.com/2017/09/science-exchange-survey-reveals-pain-points-of-outsourcing-rd/</link>
-	<content:encoded>&lt;p&gt;&lt;strong&gt;&lt;i&gt;Contract review, service provider qualification, and security of intellectual property among major concerns for biotech and pharma leaders surveyed at 2017 industry conferences&lt;/i&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;PALO ALTO, Calif.– More than 100 biotechnology and drug development leaders who responded to surveys conducted during industry conferences earlier this year reported a wide range of barriers to the outsourcing of research and development (R&amp;amp;D) services, including the contracts review process, intellectual property (IP) security concerns, and service provider qualification. The surveys were conducted by &lt;a href=&quot;http://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fwww.scienceexchange.com%2F&amp;amp;esheet=51684706&amp;amp;newsitemid=20170918005083&amp;amp;lan=en-US&amp;amp;anchor=Science+Exchange&amp;amp;index=1&amp;amp;md5=d9ebe5ccb2e80e5f010a479455ac2f70&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Science Exchange&lt;/a&gt;, the world’s leading and most secure platform for outsourced research and development (R&amp;amp;D), during the 2017 Biotechnology Innovation Organization (BIO) International Convention and 2017 Drug Industry Association (DIA) Global Annual Meeting.&lt;/p&gt;
-&lt;p&gt;More than 75 percent of Science Exchange survey respondents ranked the following concerns as barriers (a significant barrier or somewhat of a barrier) to the outsourcing of R&amp;amp;D services:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class=&quot;bwlistitemmargb&quot;&gt;Having contracts reviewed and signed&lt;/li&gt;
-&lt;li class=&quot;bwlistitemmargb&quot;&gt;Security of IP;&lt;/li&gt;
-&lt;li class=&quot;bwlistitemmargb&quot;&gt;Identifying service providers with required expertise;&lt;/li&gt;
-&lt;li class=&quot;bwlistitemmargb&quot;&gt;Qualifying service providers; and&lt;/li&gt;
-&lt;li class=&quot;bwlistitemmargb&quot;&gt;Negotiating pricing.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Time management related to R&amp;amp;D outsourcing was also reported as having a significant impact on these R&amp;amp;D leaders, with over 40 percent of those responding to the survey indicating they spent more than 20 hours to onboard each new outsourcing partner, from the request for proposal process, through contracting and start of the project. Finally, further demonstrating the impact of the time spent on administrative tasks related to outsourcing, more than 75 percent of survey respondents reported that the “hassle” of bringing on a new partner has previously led them to choose an existing vendor rather than seek out a more qualified option.&lt;/p&gt;
-&lt;p&gt;“The results of this survey echo the same concerns we heard from the leading biotech and pharma companies who now rely on Science Exchange to help them efficiently manage their outsourced R&amp;amp;D services,” said Elizabeth Iorns, Ph.D., co-founder and CEO of Science Exchange. “In review of enterprise clients’ experiences, we find that our Science Exchange clients save thousands of work hours each year on procurement, business operations, contracting and legal resources, and administrative tasks related to outsourcing — time that can instead be spent in discovery. It’s gratifying to see that we’re able to fulfill our goal to support the scientific discovery process by removing barriers to innovation for our clients.”&lt;/p&gt;
-&lt;p&gt;See how your organization could streamline outsourced R&amp;amp;D through Science Exchange — &lt;a href=&quot;https://www.scienceexchange.com/enterprise&quot;&gt;request a demo of our platforms for enterprise clients.&lt;/a&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2017-09-18T20:33:04+00:00</dc:date>
-	<dc:creator>Team</dc:creator>
 </item>
 
 </rdf:RDF>
