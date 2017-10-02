@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22694" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/quantum-mysteries-dissolve-if-possibilities-are-realities" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-6283119004927853198" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51976" />
@@ -80,7 +81,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549558a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549465a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549458d" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/549458c" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/giant-marsupial-was-seasonal-migrant" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/upside-down-jellyfish-first-brainless-animals-pass-sleep-tests" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/turning-heat-electrons-reveals-elusive-physics-phenomenon" />
@@ -119,6 +119,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22694">
+	<title>Nature News &amp; Comment: Chinese scientists fix genetic disorder in cloned human embryos</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/epMqVv99KA0/nature.2017.22694</link>
+	<content:encoded>&lt;p&gt;A method for precisely editing genes in human embryos hints at a cure for a blood disease.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22694&quot;&gt;doi: 10.1038/nature.2017.22694&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/epMqVv99KA0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-02T00:00:00+00:00</dc:date>
+	<dc:creator>David Cyranoski</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/context/quantum-mysteries-dissolve-if-possibilities-are-realities">
 	<title>Science News: Quantum mysteries dissolve if possibilities are realities</title>
 	<link>https://www.sciencenews.org/blog/context/quantum-mysteries-dissolve-if-possibilities-are-realities</link>
@@ -741,13 +748,6 @@ Corazzol et al.'s patient was a 35-year old man who had been in a vegetative sta
 	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 549 458 &lt;a href=&quot;http://dx.doi.org/10.1038/549458d&quot;&gt;doi: 10.1038/549458d&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/HyzgMQOMmAE&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-09-27T00:00:00+00:00</dc:date>
 	<dc:creator>Anthony Caravaggi</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/549458c">
-	<title>Nature News &amp; Comment: Sustainable development: Turn war rooms into peace rooms</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/HspHC__t3DY/549458c</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 549 458 &lt;a href=&quot;http://dx.doi.org/10.1038/549458c&quot;&gt;doi: 10.1038/549458c&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/HspHC__t3DY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-09-27T00:00:00+00:00</dc:date>
-	<dc:creator>Dirk Helbing</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/giant-marsupial-was-seasonal-migrant">
 	<title>Science News: This giant marsupial was a seasonal migrant</title>
