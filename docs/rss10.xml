@@ -15,11 +15,17 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-atomic-clock-most-precise-yet" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/much-worlds-honey-now-contains-pesticides-harm-bees" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/proton-size-still-perplexes-despite-new-measurement" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-humans-avoided-inbreeding-networking" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52011" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/parenting-advice-gets-fact-check" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52001" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-spacecraft-discovered-oxygen-moon-rocks" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=30939" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22762" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22760" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/chemistry-nobel-prize-goes-3-d-snapshots-lifes-atomic-details" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sn-10-scientists-watch-2017" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/jose-dinneny-sn-10-scientists-to-watch" />
@@ -76,8 +82,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550043e" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550043d" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550043c" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550043b" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550043a" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=10168" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rise-agricultural-states-came-big-cost-new-book-argues" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/six-seven-contact-lens-wearers-take-unnecessary-risks-their-eyes" />
@@ -111,14 +115,38 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-technology-to-extract-knowledge-from-data" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9389" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/life-after-harvey-3-ways-science-can-prepare-us-for-the-worst" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=51952" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=30595" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9137" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/castaway-critters-rafted-us-shores-aboard-japan-tsunami-debris" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-atomic-clock-most-precise-yet">
+	<title>Science News: New atomic clock is most precise yet</title>
+	<link>https://www.sciencenews.org/article/new-atomic-clock-most-precise-yet</link>
+	<content:encoded>This next-gen atomic clock ticks at a steady beat, but time will tell just how well it tells time.</content:encoded>
+	<dc:date>2017-10-05T20:15:03+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/much-worlds-honey-now-contains-pesticides-harm-bees">
+	<title>Science News: Much of the world’s honey now contains bee-harming pesticides</title>
+	<link>https://www.sciencenews.org/article/much-worlds-honey-now-contains-pesticides-harm-bees</link>
+	<content:encoded>A controversial group of chemicals called neonicotinoids has a global impact, tests of honey samples show.</content:encoded>
+	<dc:date>2017-10-05T18:06:26+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/proton-size-still-perplexes-despite-new-measurement">
+	<title>Science News: Proton size still perplexes despite a new measurement</title>
+	<link>https://www.sciencenews.org/article/proton-size-still-perplexes-despite-new-measurement</link>
+	<content:encoded>Study of hydrogen atoms supports the case for a smaller proton.</content:encoded>
+	<dc:date>2017-10-05T18:00:02+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/ancient-humans-avoided-inbreeding-networking">
+	<title>Science News: Ancient humans avoided inbreeding by networking</title>
+	<link>https://www.sciencenews.org/article/ancient-humans-avoided-inbreeding-networking</link>
+	<content:encoded>Ancient DNA expands foragers’ social, mating networks.</content:encoded>
+	<dc:date>2017-10-05T18:00:02+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52011">
 	<title>Retraction watch: Early data on potential anti-cancer compound now in human trials was falsified, company admits</title>
 	<link>http://retractionwatch.com/2017/10/05/early-data-potential-anti-cancer-compound-now-human-trials-falsified-company-admits/</link>
@@ -164,6 +192,20 @@
 &lt;p&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/jopy.12333/abstract?campaign=wolacceptedarticle&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/30939/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/30939/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=30939&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-10-05T08:40:58+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22762">
+	<title>Nature News &amp; Comment: Controversial pesticides found in honey samples from six continents</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/0ioyZW1WhQc/nature.2017.22762</link>
+	<content:encoded>&lt;p&gt;Neonicotinoids are at the centre of a long-running debate about whether they harm bees.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22762&quot;&gt;doi: 10.1038/nature.2017.22762&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/0ioyZW1WhQc&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-05T00:00:00+00:00</dc:date>
+	<dc:creator>Rachel Cernansky</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22760">
+	<title>Nature News &amp; Comment: Proton-size puzzle deepens</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/JPGVGmgvNb0/nature.2017.22760</link>
+	<content:encoded>&lt;p&gt;Measurement in ordinary hydrogen agrees with a surprising 2010 result on the element's exotic cousin — but gives a smaller value than virtually every other experiment.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22760&quot;&gt;doi: 10.1038/nature.2017.22760&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/JPGVGmgvNb0&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-05T00:00:00+00:00</dc:date>
+	<dc:creator>Davide Castelvecchi</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/chemistry-nobel-prize-goes-3-d-snapshots-lifes-atomic-details">
 	<title>Science News: Chemistry Nobel Prize goes to 3-D snapshots of life’s atomic details</title>
@@ -675,25 +717,11 @@ Weeks later, when I began to emerge from the abyss, I kept my silence because I 
 	<dc:date>2017-10-04T00:00:00+00:00</dc:date>
 	<dc:creator>Timon McPhearson</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/550043b">
-	<title>Nature News &amp; Comment: Hurricanes: rescue natural defences</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/K-PbT_RUstM/550043b</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 550 43 &lt;a href=&quot;http://dx.doi.org/10.1038/550043b&quot;&gt;doi: 10.1038/550043b&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/K-PbT_RUstM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-04T00:00:00+00:00</dc:date>
-	<dc:creator>Virginie K. E. Duvat</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/550043a">
-	<title>Nature News &amp; Comment: Fossil fuels: Heed local impact of coal mining</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/y8ApNW0TXYs/550043a</link>
-	<content:encoded>&lt;p&gt;&lt;/p&gt;&lt;p&gt;Nature 550 43 &lt;a href=&quot;http://dx.doi.org/10.1038/550043a&quot;&gt;doi: 10.1038/550043a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/y8ApNW0TXYs&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-04T00:00:00+00:00</dc:date>
-	<dc:creator>Samuel Spiegel</dc:creator>
-</item>
 <item rdf:about="https://www.maxplanckflorida.org/?p=10168">
-	<title>Max Plank Florida Institute for Neuroscience: NIH Awards $2.4 Million to MPFI Scientist to investigate neural circuits in the visual cortex</title>
+	<title>Max Plank Florida Institute for Neuroscience: NIH Awards $2 Million to MPFI Scientist to investigate neural circuits in the visual cortex</title>
 	<link>https://www.maxplanckflorida.org/news-and-media/news/nih-awards-2-4-million-to-mpfi-scientist-to-investigate-neural-circuits-in-the-visual-cortex/</link>
 	<content:encoded>&lt;h4&gt;Work will use state of the art imaging techniques to provide new insights critical for addressing numerous visual, neurological, and psychiatric disorders&lt;/h4&gt;
-&lt;p&gt;Dr. David Fitzpatrick, Scientific Director and CEO at the Max Planck Florida Institute for Neuroscience (MPFI), has been awarded a $2.4 million five-year grant from the National Eye Institute (NEI) of the National Institutes of Health (NIH) to study the functional organization of neural circuits in the cerebral cortex, specifically, in the area of brain responsible for processing visual information.&lt;/p&gt;
+&lt;p&gt;Dr. David Fitzpatrick, Scientific Director and CEO at the Max Planck Florida Institute for Neuroscience (MPFI), has been awarded a $2 million four-year grant from the National Eye Institute (NEI) of the National Institutes of Health (NIH) to study the functional organization of neural circuits in the cerebral cortex, specifically, in the area of brain responsible for processing visual information.&lt;/p&gt;
 &lt;p&gt;The cerebral cortex is the largest and most complex area of the brain, comprising 20 billion neurons and 60 trillion synapses–a neuronal network whose proper function is critical for sensory perception, motor control, and cognition. &lt;/p&gt;
 &lt;p&gt;“With the research supported by this grant, we aim to address a major gap in our understanding of how neurons in the cerebral cortex process information,” said Dr. Fitzpatrick. “A deeper understanding of how neural circuits develop and work together to process and transmit information is crucial for addressing numerous visual, neurological, and psychiatric disorders resulting from the dysfunction of these circuits in the brain.”&lt;/p&gt;
 &lt;p&gt;Since MPFI opened its doors in 2012, its scientists have received over $20 million dollars in NIH funding in support of its innovative and pioneering neuroscience research, including a $177k fellowship from the NEI recently awarded to Dr. Joseph Schumacher, a postdoctoral researcher in Dr. David Fitzpatrick’s lab. &lt;/p&gt;
@@ -1043,52 +1071,6 @@ Suzuki, K., Nosyreva, E., Hunt, K., Kavalali, E., &amp;amp; Monteggia, L. (2017)
 	<link>https://www.elsevier.com/connect/life-after-harvey-3-ways-science-can-prepare-us-for-the-worst</link>
 	<content:encoded>Natural disasters may increase in frequency, but understanding the science will help us plot a course for survival</content:encoded>
 	<dc:date>2017-09-29T12:19:43+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=51952">
-	<title>Retraction watch: Authors retract plant biology paper after they realized sample was contaminated</title>
-	<link>http://retractionwatch.com/2017/09/29/authors-retract-plant-biology-paper-realized-sample-contaminated/</link>
-	<content:encoded>&lt;p&gt;Plant biologists from China have retracted a 2013 paper in The Plant Cell after discovering that some of the plant material used was “inadvertently contaminated.” According to the retraction notice, the authors believe the contamination affects the main conclusion of their paper. In the paper, the corresponding author, Ying Fu, a professor at China Agricultural University […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/09/29/authors-retract-plant-biology-paper-realized-sample-contaminated/&quot; rel=&quot;nofollow&quot;&gt;Authors retract plant biology paper after they realized sample was contaminated&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-09-29T12:19:34+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=30595">
-	<title>The British Psychological Society - Research Digest: Mock jury study – will behavioral genetic evidence get defendants off the hook?</title>
-	<link>https://digest.bps.org.uk/2017/09/29/mock-jury-study-will-behavioral-genetic-evidence-get-defendants-off-the-hook/</link>
-	<content:encoded>&lt;p&gt;&lt;img alt=&quot;3D grunge style brain image on a DNA strands background&quot; class=&quot; size-medium wp-image-30665 alignleft&quot; data-attachment-id=&quot;30665&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;3D render of a grunge style brain image on a DNA strands background&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;This content is subject to copyright.&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;3D grunge style brain image on a DNA strands background&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;3D grunge style brain image on a DNA strands background&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/09/gettyimages-827768732.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/09/gettyimages-827768732.jpg?w=300&amp;amp;h=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/09/gettyimages-827768732.jpg&quot; data-orig-size=&quot;1732,1732&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/09/29/mock-jury-study-will-behavioral-genetic-evidence-get-defendants-off-the-hook/3d-grunge-style-brain-image-on-a-dna-strands-background/&quot; height=&quot;300&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/09/gettyimages-827768732.jpg?w=300&amp;amp;h=300&quot; width=&quot;300&quot; /&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.christianjarrett.com/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Around the world, neuroscience evidence is being introduced into courtrooms at an increasing rate, including findings from behavioural genetics. Specifically, some legal teams for the defence have been allowed to argue that the defendant has a low activity version of the MAOA gene, which codes for an enzyme that regulates the levels of several neurotransmitters. In combination with experiencing child abuse or maltreatment, having this low activity gene has been linked with increased impulsivity, including aggression. Defense lawyers presumably hope that jurors will interpret this as meaning the defendant was less culpable for their violent crime. However, before now, little research has examined how jurors will treat this evidence.&lt;/p&gt;
-&lt;p&gt;For a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/28881042&quot;&gt;new study&lt;/a&gt; in &lt;em&gt;Behavioral Sciences and the Law&lt;/em&gt;, Natalie Gordon and Edie Greene presented 600 mock jurors (half were students, half were from the wider community) with a detailed trial summary based on a real US murder trial in which the defendant, already in jail for an earlier crime, had murdered his cell-mate. The jurors’ task was to decide whether he should face the death penalty.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-30595&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The jurors were presented with different versions of the trial – for example, some read that a medical geneticist had described the gene-environment interaction (that the defendant had the low activity MAOA gene and had suffered maltreatment as a child, which can lead to increased impulsivity); others read only about genetic evidence; others only heard about the environmental factor (maltreated as a child). The jurors also read about evidence from a clinical psychologist about whether the defendant was high or low risk for being dangerously violent in the future.&lt;/p&gt;
-&lt;p&gt;Overall the results suggested that “evidence of a genetic x environment interaction did little to reduce the likelihood of a death sentence”, the researchers said.&lt;/p&gt;
-&lt;p&gt;The clinical psychologists’ evidence was the most powerful mitigating factor. When the psychologist said the defendant was low risk, the jurors were less likely to choose the death penalty regardless of what other evidence they heard about genes, childhood, or the interaction between the two. Preference for death penalty (at 13 per cent) was lowest among jurors who heard the defendant was low risk and who heard the gene-environment evidence.&lt;/p&gt;
-&lt;p&gt;When the defendant was classified as high risk, the gene-environment interaction evidence didn’t have much of a mitigating impact – a similar proportion of jurors still proposed the death penalty compared with those who heard only about his maltreatment as a child (30 per cent vs. 34 per cent). Meanwhile, genetic evidence on its own actually led to more recommendations for the death penalty (41 per cent when he was high risk; 35 per cent when low risk).&lt;/p&gt;
-&lt;p&gt;“While the defence might continue to use [gene-environment evidence] – wishfully according to our data – to argue that genetic and environmental factors interact to impair a defendant’s ability to control behavior, the prosecution could argue that these same factors show that the defendant has a stable, criminal disposition and poses an ongoing threat to society,” the researchers concluded. “If presented by the prosecution in this way, evidence of a G x E interaction could result in an increased likelihood of a death sentence.”&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/28881042&quot;&gt;Nature, nurture, and capital punishment: How evidence of a genetic-environment interaction, future dangerousness, and deliberation affect sentencing decisions&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/jopy.12333/abstract?campaign=wolacceptedarticle&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/30595/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/30595/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=30595&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-09-29T10:10:50+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9137">
-	<title>Discovery magazine - Neuroskeptic: Vagus Nerve Stimulation Restores Consciousness?</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9137</link>
-	<content:encoded>A report that nerve stimulation was able to partially restore consciousness in a patient in a vegetative state has attracted a great deal of attention this week.
-
-
-
-The paper, published in Current Biology from French researchers Martina Corazzol and colleagues, is certainly promising, but I didn't find it entirely convincing.
-
-
-
-Corazzol et al.'s patient was a 35-year old man who had been in a vegetative state for 15 years following a car accident. After receiving consent from his family</content:encoded>
-	<dc:date>2017-09-28T19:58:52+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/castaway-critters-rafted-us-shores-aboard-japan-tsunami-debris">
-	<title>Science News: Castaway critters rafted to U.S. shores aboard Japan tsunami debris</title>
-	<link>https://www.sciencenews.org/article/castaway-critters-rafted-us-shores-aboard-japan-tsunami-debris</link>
-	<content:encoded>Researchers report finding 289 living Japanese marine species that washed up on American shores on debris from the 2011 East Japan earthquake and tsunami.</content:encoded>
-	<dc:date>2017-09-28T19:19:40+00:00</dc:date>
-	<dc:creator>Mariah Quintanilla</dc:creator>
 </item>
 
 </rdf:RDF>
