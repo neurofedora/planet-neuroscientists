@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/europes-stone-age-fishers-used-beeswax-make-point" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22918" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52022" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9465" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51976" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/quantum-video-chat-links-scientists-two-different-continents" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/new-questions-about-arecibos-future-swirl-wake-hurricane-maria" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ice-space-might-flow-honey-and-bubble-champagne" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/europes-stone-age-fishers-used-beeswax-make-point">
+	<title>Science News: Europe’s Stone Age fishers used beeswax to make a point</title>
+	<link>https://www.sciencenews.org/article/europes-stone-age-fishers-used-beeswax-make-point</link>
+	<content:encoded>Late Stone Age Europeans made spears with beeswax adhesive.</content:encoded>
+	<dc:date>2017-10-06T20:17:19+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://brainblogger.com/?p=22918">
 	<title>Brain Blogger: Excessive Porn Consumption Can Cause Erectile Dysfunction – Myth or Truth?</title>
 	<link>http://brainblogger.com/2017/10/06/excessive-porn-consumption-can-cause-erectile-dysfunction-myth-or-truth/</link>
@@ -1071,13 +1078,6 @@ One of the</content:encoded>
 	<link>https://www.sciencenews.org/blog/science-public/new-questions-about-arecibos-future-swirl-wake-hurricane-maria</link>
 	<content:encoded>The iconic Arecibo Observatory was damaged in Hurricane Maria, but not as much as originally thought. But its funding is still in doubt.</content:encoded>
 	<dc:date>2017-09-29T19:12:52+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ice-space-might-flow-honey-and-bubble-champagne">
-	<title>Science News: Ice in space might flow like honey and bubble like champagne</title>
-	<link>https://www.sciencenews.org/article/ice-space-might-flow-honey-and-bubble-champagne</link>
-	<content:encoded>Zapping simulated space ice with imitation starlight makes the ice act more like a liquid than a solid, meaning similar ices in space might be good places for organic chemistry.</content:encoded>
-	<dc:date>2017-09-29T18:01:35+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
