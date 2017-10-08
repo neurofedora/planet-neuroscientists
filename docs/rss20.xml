@@ -18,6 +18,70 @@
   <source url="http://retractionwatch.com/feed/">Retraction Watch</source>
 </item>
 <item>
+	<title>Ankur Sinha: Fedora Classroom: Git 101: report</title>
+	<guid isPermaLink="false">tag:ankursinha.in,2017-10-07:/blog/2017/10/07/fedora-classroom-git-101-report.html</guid>
+	<link>http://ankursinha.in/blog/2017/10/07/fedora-classroom-git-101-report.html</link>
+	<description>&lt;p&gt;I taught another &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Classroom&quot;&gt;Fedora Classroom&lt;/a&gt; this week, on &lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/fedora-classroom/2017-10-05/fedora-classroom.2017-10-05-14.17.log.html&quot;&gt;Git 101&lt;/a&gt;. I used the &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Internet_Relay_Chat&quot;&gt;IRC&lt;/a&gt;
+again since this session was to be another hands-on walkthrough. I reckon I've
+now learned that hands-on sessions go on longer than initially planned. This
+one lasted about three hours!&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;some-metrics&quot;&gt;
+&lt;h2&gt;Some metrics&lt;/h2&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Length: 3 hours&lt;/li&gt;
+&lt;li&gt;Attendees: ~25 people&lt;/li&gt;
+&lt;li&gt;Sentences spoken: LOTS!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;summary&quot;&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I didn't go much into the theory, and there's a lot of it in &lt;a class=&quot;reference external&quot; href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt;. Instead, I
+had made it my goal to walk the attendees through the usual &lt;a class=&quot;reference external&quot; href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt; workflow.
+So, that's exactly what we did. We started by setting up an empty repository,
+then added files to it, learned how to see changes and so on. Then, we moved
+on to branching.&lt;/p&gt;
+&lt;p&gt;Once we'd explored the advantages of using branches we started working with
+remotes. Everyone set up repositories on &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io&quot;&gt;Pagure&lt;/a&gt; or &lt;a class=&quot;reference external&quot; href=&quot;https://github.com&quot;&gt;Github&lt;/a&gt;. To end with, I
+got everyone to fork my repository and submit pull requests.&lt;/p&gt;
+&lt;p&gt;I think everyone got the hang of it. There were some good questions, a bit of
+discussion too. I do hope it'll get more people to use &lt;a class=&quot;reference external&quot; href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt; and contribute to
+different projects on &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io&quot;&gt;Pagure&lt;/a&gt; or &lt;a class=&quot;reference external&quot; href=&quot;https://github.com&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;feedback-is-always-welcome&quot;&gt;
+&lt;h2&gt;Feedback is always welcome&lt;/h2&gt;
+&lt;p&gt;If you had attended the session, or have gone through the logs and have some
+feedback, please get in touch. You can use the Fedora classroom channels:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;mailto:classroom@lists.fedoraproject.org&quot;&gt;mailing list&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#fedora-classroom on Freenode &lt;a class=&quot;reference external&quot; href=&quot;http://webchat.freenode.net/?channels=%23fedora-classroom&quot;&gt;IRC channel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can even comment on this blog post, and of course, you can give me feedback
+privately. I'm FranciscoD on quite a few Fedora IRC channels, and I can be
+reached via e-mail on my Fedora address at ankursinha AT fedoraproject DOT org.
+All suggestions, comments, criticism is most welcome.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;more-instructors-needed&quot;&gt;
+&lt;h2&gt;More instructors needed!&lt;/h2&gt;
+&lt;p&gt;The classroom sessions are going rather well, but &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Classroom#Help_wanted&quot;&gt;we still need more help&lt;/a&gt;. We'd like to cover
+more topics from different areas, not just tech related- everything from
+design, to free software philosophy and community building! If there's anything
+at all you think is worth a classroom session, please get in touch with the
+team on the &lt;a class=&quot;reference external&quot; href=&quot;mailto:classroom@lists.fedoraproject.org&quot;&gt;Fedora classroom mailing list&lt;/a&gt;. A log of all past sessions -
+whether on &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Internet_Relay_Chat&quot;&gt;IRC&lt;/a&gt; or on a video platform are maintained on the wiki page &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Classroom#Previous_Sessions&quot;&gt;here&lt;/a&gt; for everyone to
+peruse at their convenience.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;logs&quot;&gt;
+&lt;h2&gt;Logs&lt;/h2&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/fedora-classroom/2017-10-05/fedora-classroom.2017-10-05-14.17.log.html&quot;&gt;HTML logs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/fedora-classroom/2017-10-05/fedora-classroom.2017-10-05-14.17.html&quot;&gt;HTML minutes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/fedora-classroom/2017-10-05/fedora-classroom.2017-10-05-14.17.txt&quot;&gt;Text minutes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+	<pubDate>Sat, 07 Oct 2017 13:19:10 +0000</pubDate>
+  <source url="http://ankursinha.in/blog/feeds/tags/planet.atom.xml">ankursinha.in/blog - Planet</source>
+</item>
+<item>
 	<title>Discovery magazine - Neuroskeptic: &quot;Happy Chemical&quot; Discovered In Beer?</title>
 	<guid isPermaLink="true">http://blogs.discovermagazine.com/neuroskeptic/?p=9150</guid>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9150</link>
@@ -1113,15 +1177,6 @@ One of the</description>
 	<pubDate>Sun, 01 Oct 2017 02:19:15 +0000</pubDate>
 	<author>noreply@blogger.com (The Neurocritic)</author>
   <source url="http://feeds.feedburner.com/TheNeurocritic">The Neurocritic</source>
-</item>
-<item>
-	<title>Retraction watch: Weekend reads: Preprints under scrutiny; a math retraction in politics; proving yourself wrong</title>
-	<guid isPermaLink="false">http://retractionwatch.com/?p=51976</guid>
-	<link>http://retractionwatch.com/2017/09/30/weekend-reads-preprints-scrutiny-math-retraction-politics-proving-wrong/</link>
-	<description>&lt;p&gt;The week at Retraction Watch featured a look at retractions in China, and an expression of concern for a paper co-authored by a controversial journalist in Australia. Here’s what was happening elsewhere: “But in contrast to physics, where preprints took off without much fanfare or controversy, the leap into preprints is stirring strong passions in the […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/09/30/weekend-reads-preprints-scrutiny-math-retraction-politics-proving-wrong/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: Preprints under scrutiny; a math retraction in politics; proving yourself wrong&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Sat, 30 Sep 2017 13:00:44 +0000</pubDate>
-  <source url="http://retractionwatch.com/feed/">Retraction Watch</source>
 </item>
 
 </channel>
