@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/report-compares-uks-research-performance-with-key-nations" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22311" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/many-places-around-world-obesity-kids-rise" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-10-11:/2017/10/11/how-the-olfactory-bulb-processes-naturalistic-time-varying-inputs.html" />
@@ -114,13 +115,18 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-its-good-news-pluto-doesnt-have-rings" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22942" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=51997" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/cryo-electron-microscopy-2017-nobel-prize-chemistry" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/report-compares-uks-research-performance-with-key-nations">
+	<title>Elsevier Connect: Report compares UK’s research performance with key nations</title>
+	<link>https://www.elsevier.com/connect/report-compares-uks-research-performance-with-key-nations</link>
+	<content:encoded>UK research continues to rank above the world average for quality, and the nation remains a key partner for global research collaboration and research mobility; however, its leadership position in the longer-term could be under threat</content:encoded>
+	<dc:date>2017-10-12T08:31:17+00:00</dc:date>
+</item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22311">
-	<title>Nature News &amp; Comment: Weather-company CEO is Trump's pick to lead climate agency</title>
+	<title>Nature News &amp; Comment: Weather-company chief executive is Trump's pick to lead climate agency</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/GFvQMlzF6Ak/nature.2017.22311</link>
 	<content:encoded>&lt;p&gt;Barry Myers would bring private weather-forecasting experience to the National Oceanic and Atmospheric Administration.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22311&quot;&gt;doi: 10.1038/nature.2017.22311&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/GFvQMlzF6Ak&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-10-12T00:00:00+00:00</dc:date>
@@ -1144,13 +1150,6 @@ Weeks later, when I began to emerge from the abyss, I kept my silence because I 
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/04/second-retraction-psychologist-reveals-clues-culprit-behind-misconduct/&quot; rel=&quot;nofollow&quot;&gt;Second retraction for psychologist reveals clues about culprit behind misconduct&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-10-04T14:57:57+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/cryo-electron-microscopy-2017-nobel-prize-chemistry">
-	<title>Science News: Cool way to peer into molecules’ inner workings wins chemistry Nobel Prize</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/cryo-electron-microscopy-2017-nobel-prize-chemistry</link>
-	<content:encoded>Three scientists will split the prize for their work developing cryo-electron microscopy.</content:encoded>
-	<dc:date>2017-10-04T12:04:30+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
 </item>
 
 </rdf:RDF>
