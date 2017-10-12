@@ -15,11 +15,17 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/potential-drug-found-sea-creature-can-now-be-made-efficiently-lab" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/distance-milky-way-galaxy-parallax" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/during-el-nino-tropics-emit-more-carbon-dioxide" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/watch-cuttlefish-inspired-skin-morph-3-d-shape" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22937" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52091" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52084" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/theres-no-rest-brain-mapmakers" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/report-compares-uks-research-performance-with-key-nations" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22820" />
+			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22819" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22818" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22817" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22311" />
@@ -64,8 +70,6 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550188b" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550188a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550187a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550186a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/550185a" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/neandertal-dna-european-asian-ancestry" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/academic-publishers-must-work-together-to-enable-hassle-free-legal-and-trustworthy-sharing-for-researchers" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52057" />
@@ -111,14 +115,38 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/david-kipping-sn-10-scientists-to-watch" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/chong-liu-sn-10-scientists-to-watch" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lena-pernas-sn-10-scientists-to-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/kay-tye-sn-10-scientists-to-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/christina-warinner-sn-10-scientists-to-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/luhan-yang-sn-10-scientists-to-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/success-science-depends-luck-plus-much-more" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/potential-drug-found-sea-creature-can-now-be-made-efficiently-lab">
+	<title>Science News: A potential drug found in a sea creature can now be made efficiently in the lab</title>
+	<link>https://www.sciencenews.org/article/potential-drug-found-sea-creature-can-now-be-made-efficiently-lab</link>
+	<content:encoded>Cooking bryostatin 1 up in a lab lets researchers explore its potential as a drug.</content:encoded>
+	<dc:date>2017-10-12T21:47:35+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/distance-milky-way-galaxy-parallax">
+	<title>Science News: Measured distance within the Milky Way gives clues to what our galaxy looks like</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/distance-milky-way-galaxy-parallax</link>
+	<content:encoded>Astronomers used an old but challenging technique to directly measure the distance to a star on the opposite side of the galaxy for the first time.</content:encoded>
+	<dc:date>2017-10-12T18:45:53+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/during-el-nino-tropics-emit-more-carbon-dioxide">
+	<title>Science News: During El Niño, the tropics emit more carbon dioxide</title>
+	<link>https://www.sciencenews.org/article/during-el-nino-tropics-emit-more-carbon-dioxide</link>
+	<content:encoded>El Niño increases carbon emissions from the tropics — mimicking future climate change.</content:encoded>
+	<dc:date>2017-10-12T18:09:21+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/watch-cuttlefish-inspired-skin-morph-3-d-shape">
+	<title>Science News: Watch this cuttlefish-inspired ‘skin’ morph into a 3-D shape</title>
+	<link>https://www.sciencenews.org/article/watch-cuttlefish-inspired-skin-morph-3-d-shape</link>
+	<content:encoded>New silicone material mimics cephalopod shape-shifting for quick camouflage.</content:encoded>
+	<dc:date>2017-10-12T18:05:31+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://brainblogger.com/?p=22937">
 	<title>Brain Blogger: Toxoplasma Gondii: Common Brain Parasite Behind Brain Disorders?</title>
 	<link>http://brainblogger.com/2017/10/12/toxoplasma-gondii-common-brain-parasite-behind-brain-disorders/</link>
@@ -174,6 +202,20 @@
 	<link>https://www.elsevier.com/connect/report-compares-uks-research-performance-with-key-nations</link>
 	<content:encoded>UK research continues to rank above the world average for quality, and the nation remains a key partner for global research collaboration and research mobility; however, its leadership position in the longer-term could be under threat</content:encoded>
 	<dc:date>2017-10-12T08:31:17+00:00</dc:date>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22820">
+	<title>Nature News &amp; Comment: Male scientists share more — but only with other men</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/GWzi2_B5Krk/nature.2017.22820</link>
+	<content:encoded>&lt;p&gt;Evolutionary differences blamed for squeezing out female researchers.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22820&quot;&gt;doi: 10.1038/nature.2017.22820&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/GWzi2_B5Krk&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-12T00:00:00+00:00</dc:date>
+	<dc:creator>Jo Marchant</dc:creator>
+</item>
+<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22819">
+	<title>Nature News &amp; Comment: FDA advisers back gene therapy for rare form of blindness</title>
+	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/crB1goHZCmo/nature.2017.22819</link>
+	<content:encoded>&lt;p&gt;Therapy that targets disease-causing mutations could become the first of its kind approved for use in the United States.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22819&quot;&gt;doi: 10.1038/nature.2017.22819&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/crB1goHZCmo&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-10-12T00:00:00+00:00</dc:date>
+	<dc:creator>Heidi Ledford</dc:creator>
 </item>
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22818">
 	<title>Nature News &amp; Comment: European Medicines Agency chief raises alarm at forced relocation</title>
@@ -530,20 +572,6 @@ Affectivenes is obtained by measuring Sentiment, Politeness and Emotions and oth
 	<dc:date>2017-10-11T00:00:00+00:00</dc:date>
 	<dc:creator>Barbara Kiser</dc:creator>
 </item>
-<item rdf:about="http://dx.doi.org/10.1038/550186a">
-	<title>Nature News &amp; Comment: Chemistry: Explosive moments in the laboratory</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Mh1kFpMFXWg/550186a</link>
-	<content:encoded>&lt;p&gt;Mark Peplow surveys a gorgeous gala of reactions in Theodore Gray's new book.&lt;/p&gt;&lt;p&gt;Nature 550 186 &lt;a href=&quot;http://dx.doi.org/10.1038/550186a&quot;&gt;doi: 10.1038/550186a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Mh1kFpMFXWg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-11T00:00:00+00:00</dc:date>
-	<dc:creator>Mark Peplow</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/550185a">
-	<title>Nature News &amp; Comment: Physics: A classical toolkit</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/fc0b9rXCYx0/550185a</link>
-	<content:encoded>&lt;p&gt;Malcolm Longair extols a long-heralded tome by Roger Blandford and 2017 Nobel laureate Kip Thorne.&lt;/p&gt;&lt;p&gt;Nature 550 185 &lt;a href=&quot;http://dx.doi.org/10.1038/550185a&quot;&gt;doi: 10.1038/550185a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/fc0b9rXCYx0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-11T00:00:00+00:00</dc:date>
-	<dc:creator>Malcolm Longair</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/neandertal-dna-european-asian-ancestry">
 	<title>Science News: We’re more Neandertal than we thought</title>
 	<link>https://www.sciencenews.org/article/neandertal-dna-european-asian-ancestry</link>
@@ -660,6 +688,7 @@ Affectivenes is obtained by measuring Sentiment, Politeness and Emotions and oth
 &lt;p&gt;To answer this question of nature versus nurture, the researchers took cells that would grow to become chandelier cells in the hippocampus and transplanted them into the neocortex, and took cells that would grow to become neocortical chandelier cells and transplanted them to the hippocampus. Each ended up taking on the characteristics of its new neighbors, implying that the environment that they grew up in strongly influenced the fate of these cells.&lt;/p&gt;
 &lt;p&gt;These results, Taniguchi explained, show that exquisite modifications of canonical neuronal types in different brain regions may contribute to their functional diversification. Future studies should elucidate the molecular and cellular mechanisms by which regional environment controls phenotypic variations of neuronal types.&lt;/p&gt;
 &lt;p&gt;With the novel genetic access to hippocampal chandelier cells developed in the Taniguchi Lab at MPFI, neuroscientists can begin asking questions about the function of these cells within learning and memory circuits. The ability to manipulate specific genes within these hippocampal chandelier cells may allow for more meticulous studies of several diseases, including epilepsy and schizophrenia, in which these neurons have been implicated.&lt;/p&gt;
+&lt;p&gt;This work was supported by Citizens United for Research in 29 Epilepsy (CURE), Max Planck Florida Institute for Neuroscience and Max Planck Society. The content of this article is solely the responsibility of the authors and does not necessarily represent the official views of the funding agencies.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.jneurosci.org/content/early/2017/09/14/JNEUROSCI.0047-17.2017&quot;&gt;&lt;br /&gt;
 &lt;strong&gt;Regional Cellular Environment Shapes Phenotypic Variations of Hippocampal and Neocortical Chandelier Cells.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1074,34 +1103,6 @@ The research in question was published back</content:encoded>
 	<content:encoded>In studies of Toxoplasma, parasitologist Lena Pernas has reframed infection as a battle between invader and a cell’s mitochondria.</content:encoded>
 	<dc:date>2017-10-04T17:47:00+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/kay-tye-sn-10-scientists-to-watch">
-	<title>Science News: Kay Tye improvises to understand our inner lives</title>
-	<link>https://www.sciencenews.org/article/kay-tye-sn-10-scientists-to-watch</link>
-	<content:encoded>To figure out how rich mental lives are created by the brain, neuroscientist Kay Tye applies “a new level of neurobiological sophistication.”</content:encoded>
-	<dc:date>2017-10-04T17:46:02+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/christina-warinner-sn-10-scientists-to-watch">
-	<title>Science News: Christina Warinner uncovers ancient tales in dental plaque</title>
-	<link>https://www.sciencenews.org/article/christina-warinner-sn-10-scientists-to-watch</link>
-	<content:encoded>Molecular biologist Christina Warinner studies calculus, or fossilized dental plaque, which contains a trove of genetic clues to past human diet and disease.</content:encoded>
-	<dc:date>2017-10-04T17:45:18+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/luhan-yang-sn-10-scientists-to-watch">
-	<title>Science News: Luhan Yang strives to make pig organs safe for human transplants</title>
-	<link>https://www.sciencenews.org/article/luhan-yang-sn-10-scientists-to-watch</link>
-	<content:encoded>A bold approach to genome editing by biologist Luhan Yang could alleviate the shortage of organs and ease human suffering.</content:encoded>
-	<dc:date>2017-10-04T17:44:29+00:00</dc:date>
-	<dc:creator>Alexandra Witze</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/success-science-depends-luck-plus-much-more">
-	<title>Science News: Success in science depends on luck, plus much more</title>
-	<link>https://www.sciencenews.org/article/success-science-depends-luck-plus-much-more</link>
-	<content:encoded>Acting Editor in Chief Elizabeth Quill says luck is only one determinant of an individual's success in science.</content:encoded>
-	<dc:date>2017-10-04T17:43:03+00:00</dc:date>
-	<dc:creator>Elizabeth Quill</dc:creator>
 </item>
 
 </rdf:RDF>
