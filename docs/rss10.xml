@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9158" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52148" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-larsen-c-ice-shelf-broke-it-exposed-hidden-world" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22939" />
@@ -114,11 +115,20 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-humans-avoided-inbreeding-networking" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52011" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/parenting-advice-gets-fact-check" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=52001" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9158">
+	<title>Discovery magazine - Neuroskeptic: Is Parkinson's A Prion Disease?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9158</link>
+	<content:encoded>The Journal of Neuroscience recently featured a debate over the hypothesis that Parkinson's disease is, at least in some cases, caused by prions - misfolded proteins that spread from neuron to neuron.
+
+
+
+A prion is a protein that has taken on an abnormal shape and that can spread itself by making other, healthy molecules of the same protein adopt its abnormal configuration. The best-known prion disease is variant CJD aka &quot;mad cow disease&quot;, but some researchers believe that Parkinson's is als</content:encoded>
+	<dc:date>2017-10-14T19:45:36+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52148">
 	<title>Retraction watch: Weekend reads: Systemic fraud in China; science without journals; authorship rules decay</title>
 	<link>http://retractionwatch.com/2017/10/14/weekend-reads-systemic-fraud-china-science-without-journals-authorship-rules-decay/</link>
@@ -1151,14 +1161,6 @@ The research in question was published back</content:encoded>
 	<content:encoded>A new website called Parentifact attempts to fight parenting misinformation.</content:encoded>
 	<dc:date>2017-10-05T14:00:03+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=52001">
-	<title>Retraction watch: Nature adds alert to heavily debated paper about gene editing</title>
-	<link>http://retractionwatch.com/2017/10/05/nature-adds-alert-heavily-debated-paper-gene-editing/</link>
-	<content:encoded>&lt;p&gt;Nature has added an “editor’s note” to a high-profile August paper alerting readers to the fact that the article has been subject to criticism. Journals often flag papers that are being debated — what’s unusual here is that the journal doesn’t label the notice as an official “Expression of Concern,” which are indexed by PubMed. […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/05/nature-adds-alert-heavily-debated-paper-gene-editing/&quot; rel=&quot;nofollow&quot;&gt;Nature adds alert to heavily debated paper about gene editing&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-10-05T12:18:08+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
