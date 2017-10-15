@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9171" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9158" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52148" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-larsen-c-ice-shelf-broke-it-exposed-hidden-world" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/proton-size-still-perplexes-despite-new-measurement" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-humans-avoided-inbreeding-networking" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52011" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/parenting-advice-gets-fact-check" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9171">
+	<title>Discovery magazine - Neuroskeptic: A Parade of Scientific Mice</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9171</link>
+	<content:encoded>Recently I was reading a neuroscience paper and was struck by the cuteness of the two mice that formed part of Figure 1:
+
+
+
+So I decided to look further and collect a montage of scientific mice. All of these drawings are taken from peer-reviewed scientific papers. As you can see, the styles vary greatly. Some mice are little more than circles with ears, while others look ready to leap off the page in search of cheese:
+
+
+
+I should note that I didn't include mice found in Graphical Abstrac</content:encoded>
+	<dc:date>2017-10-15T19:07:59+00:00</dc:date>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9158">
 	<title>Discovery magazine - Neuroskeptic: Is Parkinson's A Prion Disease?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9158</link>
@@ -1154,13 +1168,6 @@ The research in question was published back</content:encoded>
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/05/early-data-potential-anti-cancer-compound-now-human-trials-falsified-company-admits/&quot; rel=&quot;nofollow&quot;&gt;Early data on potential anti-cancer compound now in human trials was falsified, company admits&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-10-05T15:45:50+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/parenting-advice-gets-fact-check">
-	<title>Science News: Parenting advice gets a fact-check</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/parenting-advice-gets-fact-check</link>
-	<content:encoded>A new website called Parentifact attempts to fight parenting misinformation.</content:encoded>
-	<dc:date>2017-10-05T14:00:03+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
