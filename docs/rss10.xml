@@ -15,6 +15,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=10191" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=52214" />
+			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=1153" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=52206" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-engineers-tried-catching-commercial-planes-nets" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=31232" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/physics-mosquito-takeoffs" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52176" />
@@ -110,17 +115,74 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/report-compares-uks-research-performance-with-key-nations" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24269" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/many-places-around-world-obesity-kids-rise" />
-			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-10-11:/2017/10/11/how-the-olfactory-bulb-processes-naturalistic-time-varying-inputs.html" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/oddball-dwarf-planet-haumea-has-ring" />
-			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-10-11:/2017/10/11/measuring-effectiveness-and-affectiveness-in-software-systems.html" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=52077" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/dream-job-in-research-improving-the-lives-of-horses-and-mules" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.maxplanckflorida.org/?p=10191">
+	<title>Max Plank Florida Institute for Neuroscience: Gene editing in the brain gets a major upgrade</title>
+	<link>https://www.maxplanckflorida.org/news-and-media/news/gene-editing-in-the-brain-gets-a-major-upgrade/</link>
+	<content:encoded>&lt;h4&gt;Scientists develop a new tool for precise genome editing in neurons&lt;/h4&gt;
+&lt;p&gt;Genome editing technologies have revolutionized biomedical science, providing a fast and easy way to modify genes. However, the technique allowing scientists to carryout the most precise edits, doesn’t work in cells that are no longer dividing – which includes most neurons in the brain. This technology had limited use in brain research, until now. Research Fellow Jun Nishiyama, M.D., Ph.D., Research Scientist, Takayasu Mikuni, M.D., Ph.D., and Scientific Director, Ryohei Yasuda, Ph.D. at the Max Planck Florida Institute for Neuroscience (MPFI) have developed a new tool that, for the first time, allows precise genome editing in mature neurons, opening up vast new possibilities in neuroscience research.&lt;/p&gt;
+&lt;p&gt;This novel and powerful tool utilizes the newly discovered gene editing technology of CRISPR-Cas9, a viral defense mechanism originally found in bacteria. When placed inside a cell such as a neuron, the CRISPR-Cas9 system acts to damage DNA in a specifically targeted place. The cell then subsequently repairs this damage using predominantly two opposing methods; one being non-homologous end joining (NHEJ), which tends to be error prone, and homology directed repair (HDR), which is very precise and capable of undergoing specified gene insertions. HDR is the more desired method, allowing researchers flexibility to add, modify, or delete genes depending on the intended purpose.&lt;/p&gt;
+&lt;p&gt;Coaxing cells in the brain to preferentially make use of the HDR DNA repair mechanism has been rather challenging. HDR was originally thought to only be available as a repair route for actively proliferating cells in the body. When precursor brain cells mature into neurons, they are referred to as post-mitotic or nondividing cells, making the mature brain largely inaccessible to HDR – or so researchers previously thought. The team has now shown that it is possible for post-mitotic neurons of the brain to actively undergo HDR, terming the strategy “vSLENDR (viral mediated single-cell labeling of endogenous proteins by CRISPR-Cas9-mediated homology-directed repair).” The critical key to the success of this process is the combined use of CRISPR-Cas9 and a virus.&lt;/p&gt;
+&lt;p&gt;Adeno-associated virus (AAV) is a low immunogenic, nontoxic virus utilized by scientists as an efficient delivery mechanism for all kinds of genes. This virus can effectively provide the donor template necessary for HDR, increasing its efficiency. The team first packaged the necessary machinery for genome editing into the AAV and delivered it to neurons of transgenic Cas9 expressing mice, achieving spectacularly efficient HDR in post-mitotic neurons of the brain.&lt;br /&gt;
+They next created a dual-viral system allowing them to use the technology in animals that had not been engineered to express Cas9. They tested this dual-viral system in an aged Alzheimer’s disease mouse model showing that the vSLENDR technique can be applicable in pathological models even at advanced ages.&lt;/p&gt;
+&lt;p&gt;vSLENDR is a powerful new tool for both basic and translational sciences alike, capable of the precise editing of genetic information regardless of cell type, cell maturity, brain region, or age. The new vSLENDR is more efficient, flexible, and concise, allowing researchers the potential to study a myriad of brain processes and functionalities with unprecedented ease. Equally important is its potential use in neuropathological disease models, accelerating research and the development of novel therapeutics; establishing today’s basic science as the foundation for tomorrow’s cures.&lt;/p&gt;
+&lt;p&gt;This work was supported National Institute of Health, the Human Frontier Science Program and JST/PRESTO, Max Planck Florida Institute for Neuroscience and Max Planck Society. The content of this article is solely the responsibility of the authors and does not necessarily represent the official views of the funding agencies.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Virus-Mediated Genome Editing via Homology-Directed Repair in Mitotic and Postmitotic Cells in Mammalian Brain&lt;/p&gt;
+&lt;p&gt;Jun Nishiyama*, Takayasu Mikuni*, and Ryohei Yasuda&lt;br /&gt;
+*Co-firt authors&lt;/p&gt;
+&lt;p&gt;Neuron, October 19 2017, Advance online publication.&lt;br /&gt;
+DOI: 10.1016/j.neuron.2017.10.004&lt;/p&gt;</content:encoded>
+	<dc:date>2017-10-19T16:00:50+00:00</dc:date>
+	<dc:creator>Helena Decker</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=52214">
+	<title>Retraction watch: After journal retracts their paper, authors post rebuttal on arXiv</title>
+	<link>http://retractionwatch.com/2017/10/19/journal-retracts-paper-authors-post-rebuttal-arxiv/</link>
+	<content:encoded>&lt;p&gt;In July 2017, just days after accepting and publishing a paper, a physics journal discovered “several scientific errors” and decided to retract it. But the authors—Alexander Kholmetskii and Tolga Yarman—strongly objected to the journal’s decision, so much so they published a detailed rebuttal to the retraction on the preprint server arXiv. The paper explores a […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/19/journal-retracts-paper-authors-post-rebuttal-arxiv/&quot; rel=&quot;nofollow&quot;&gt;After journal retracts their paper, authors post rebuttal on arXiv&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-10-19T15:00:53+00:00</dc:date>
+	<dc:creator>Victoria Stern</dc:creator>
+</item>
+<item rdf:about="https://blog.scienceexchange.com/?p=1153">
+	<title>The Science Exchange Blog: Science Exchange Honored by Goldman Sachs for Entrepreneurship</title>
+	<link>https://blog.scienceexchange.com/2017/10/science-exchange-honored-by-goldman-sachs-for-entrepreneurship/</link>
+	<content:encoded>&lt;p&gt;&lt;i&gt;&lt;b&gt;Co-Founder and CEO Elizabeth Iorns Among 100 Most Intriguing Entrepreneurs at 2017 Builders + Innovators Summit&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Palo Alto, CA – October 19, 2017&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; – Goldman Sachs (NYSE:GS) is recognizing Elizabeth Iorns, Ph.D., co-founder and CEO of &lt;/span&gt;&lt;a href=&quot;http://www.scienceexchange.com&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Science Exchange&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; as one of the 100 Most Intriguing Entrepreneurs of 2017 at its Builders + Innovators Summit in Santa Barbara, California.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Goldman Sachs selected Elizabeth as one of 100 entrepreneurs from multiple industries to be honored at the two-day event.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The life sciences research community has been transformed by Elizabeth’s ability to execute upon her vision to transform the procurement and delivery of outsourced R&amp;amp;D services. Thanks to her tenacity and drive, and her deep understanding of the need for improved R&amp;amp;D efficiency, Science Exchange is enabling breakthrough scientific discoveries by providing researchers with an online platform for efficient access to the world’s best outsourced R&amp;amp;D service providers.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;“This is a tremendous honor and I’m excited to be recognized by Goldman Sachs along with these other inspiring entrepreneurs,” said Elizabeth Iorns, Ph.D., co-founder and CEO of Science Exchange.  “The work our team at Science Exchange has been doing in outsourced R&amp;amp;D is critical for driving scientific breakthroughs and innovation and I’m proud to lead the team in this charge.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;“We are pleased to recognize Elizabeth Iorns as one of the most intriguing entrepreneurs of 2017,” said David M. Solomon, President and Co-Chief Operating Officer at Goldman Sachs. “This is the sixth year that we’ve hosted the Builders + Innovators Summit where emerging business leaders gather to discuss their common interests in building prosperous organizations.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For more than 145 years, Goldman Sachs has been advising and financing entrepreneurs as they launch and grow their businesses. In addition to honoring 100 entrepreneurs, the Summit consists of general sessions and clinics led by Goldman Sachs experts, seasoned entrepreneurs, academics and business leaders as well as resident scholars.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;About Elizabeth Iorns&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Elizabeth Iorns, Ph.D., is the CEO and Founder of Science Exchange. Elizabeth Iorns has transformed scientific research by radically improving the procurement and delivery of outsourced research and development (R&amp;amp;D) services. Elizabeth Iorns, Ph.D. (Institute of Cancer Research, London) was an Assistant Professor at University of Miami’s Miller School of Medicine, where she investigated breast cancer development and progression, before launching Science Exchange in 2011. Elizabeth’s work has been featured in multiple media outlets, and she regularly speaks at thought leadership events, such as the 2017 TechCrunch Disrupt event in San Francisco, 2017 Society for Laboratory Automation and Screening annual meeting and the 2016 MassBio CRO/CMO Symposium. Her recent honors include Nature’s “Ten People that Mattered,” WIRED’s “50 Women Who Are Changing The World,” and the “Kauffman Foundation Emerging Entrepreneur Award.” She is a finalist for 2017 Scrip Executive of the Year Award.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;About Science Exchange&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Science Exchange is the world’s leading and most secure platform for outsourced research, providing an efficient procure-to-pay platform for ordering 6,000+ services from a network of more than 2,500 qualified scientific service providers, all with pre-established contracts in place that protect client intellectual property and confidentiality. The platform increases access to innovation and improves productivity, freeing scientists from administrative tasks and delays associated with sourcing, establishing and managing service provider contracts. Additionally, the Science Exchange enterprise program enables large R&amp;amp;D organizations to consolidate research outsourcing spend into a single strategic relationship, driving efficiency, improving transparency and oversight, and delivering cost savings. Since being founded in 2011, Science Exchange has raised more than $58 million from Norwest Venture Partners, Maverick Capital Ventures, Union Square Ventures, Collaborative Fund, Index Ventures, OATV, the YC Continuity Fund, and others. For more information, visit&lt;/span&gt; &lt;a href=&quot;http://www.scienceexchange.com&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;www.ScienceExchange.com&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;http://www.scienceexchange.com/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. &lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Follow the company on Twitter @ScienceExchange.&lt;/span&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2017-10-19T13:35:46+00:00</dc:date>
+	<dc:creator>Team</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=52206">
+	<title>Retraction watch: Ethical concerns arise for head of controversial stem cell clinic</title>
+	<link>http://retractionwatch.com/2017/10/19/ethical-concerns-arise-head-controversial-stem-cell-clinic/</link>
+	<content:encoded>&lt;p&gt;Journals are raising ethical concerns about the research of a doctor who offers controversial embryonic stem cell treatments. Two journals have issued expressions of concern for three papers by Geeta Shroff, who was the subject of a 2012 CNN investigative documentary. All cite ethical concerns; one mentions the potential link between the procedure the authors […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/19/ethical-concerns-arise-head-controversial-stem-cell-clinic/&quot; rel=&quot;nofollow&quot;&gt;Ethical concerns arise for head of controversial stem cell clinic&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-10-19T12:00:39+00:00</dc:date>
+	<dc:creator>Andrew P. Han</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/50-years-ago-engineers-tried-catching-commercial-planes-nets">
+	<title>Science News: 50 years ago, engineers tried catching commercial planes in nets</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-engineers-tried-catching-commercial-planes-nets</link>
+	<content:encoded>Fifty years ago, aviation experts tried helping commercial aircraft come to a stop during landing by catching them in massive nets. The idea crash-landed for commercial flights, but it’s still used in the military.</content:encoded>
+	<dc:date>2017-10-19T11:00:04+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=31232">
-	<title>The British Psychological Society - Research Digest: Reverse “stereotype threat” – women play chess better than expected against men</title>
+	<title>The British Psychological Society - Research Digest: Reverse “stereotype threat” – women chess players perform better against men</title>
 	<link>https://digest.bps.org.uk/2017/10/19/reverse-stereotype-threat-women-play-chess-better-than-expected-against-men/</link>
 	<content:encoded>&lt;p&gt;&lt;img alt=&quot;GettyImages-103660991.jpg&quot; class=&quot;alignnone size-full wp-image-31242&quot; data-attachment-id=&quot;31242&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;PerfectionV700&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Actor Humphrey Bogart (1899-1957) and his wife, actress Lauren Bacall, pictured playing chess, USA, circa 1955. (Photo by Archive Photos\/Getty Images)&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;2010 Getty Images&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Bogart And Bacall&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Bogart And Bacall&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/10/gettyimages-103660991.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/10/gettyimages-103660991.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/10/gettyimages-103660991.jpg?w=845&quot; data-orig-size=&quot;5801,4527&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/10/19/reverse-stereotype-threat-women-play-chess-better-than-expected-against-men/bogart-and-bacall/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/10/gettyimages-103660991.jpg?w=845&quot; /&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Stereotype threat is one of those social psychology concepts that has managed to break out of the academic world and into everyday conversation: the idea that a fear of conforming to stereotypes – for example, that girls struggle at maths – can make those stereotypes self-fulfilling, thanks to the adverse effect of anxiety and excessive self-consciousness on performance.&lt;/p&gt;
@@ -1050,60 +1112,6 @@ A prion is a protein that has taken on an abnormal shape and that can spread its
 	<content:encoded>The last 40 years saw a big leap in obesity among children, totaling an estimated 124 million boys and girls in 2016.</content:encoded>
 	<dc:date>2017-10-11T21:20:33+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="tag:biocomputation.herts.ac.uk,2017-10-11:/2017/10/11/how-the-olfactory-bulb-processes-naturalistic-time-varying-inputs.html">
-	<title>UH Biocomputation group: How the Olfactory Bulb processes naturalistic time-varying inputs</title>
-	<link>http://biocomputation.herts.ac.uk/2017/10/11/how-the-olfactory-bulb-processes-naturalistic-time-varying-inputs.html</link>
-	<content:encoded>&lt;p&gt;Rebecca will be presenting the work she conducted for her master's thesis titled 'How the Olfactory Bulb processes naturalistic time-varying inputs'.&lt;/p&gt;
-&lt;p&gt;Abstract is below:&lt;/p&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;The olfactory bulb in mammals is responsible for receiving, processing and relaying olfactory
-information (odours). This project investigates how naturalistic temporally fluctuating odour signals are
-processed and which neurons or neural mechanisms are able to extract information from these signals.
-Multiple computation models were created to represent different OB circuits between periglomerular
-cells and mitral cells using NEURON (Hines and Carnevale, 2006, 2001). The results show that the
-strength and frequency of these odour signals can be determined by looking at a combination of the
-latency and the firing rates of the output from the mitral cells.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 20/10/2017 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
-	<dc:date>2017-10-11T17:31:43+00:00</dc:date>
-	<dc:creator>Rebecca Miko</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/oddball-dwarf-planet-haumea-has-ring">
-	<title>Science News: Oddball dwarf planet Haumea has a ring</title>
-	<link>https://www.sciencenews.org/article/oddball-dwarf-planet-haumea-has-ring</link>
-	<content:encoded>The dwarf planet Haumea is now the most distant ringed object spotted in the solar system.</content:encoded>
-	<dc:date>2017-10-11T17:00:03+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="tag:biocomputation.herts.ac.uk,2017-10-11:/2017/10/11/measuring-effectiveness-and-affectiveness-in-software-systems.html">
-	<title>UH Biocomputation group: Measuring Effectiveness and Affectiveness in Software Systems</title>
-	<link>http://biocomputation.herts.ac.uk/2017/10/11/measuring-effectiveness-and-affectiveness-in-software-systems.html</link>
-	<content:encoded>&lt;p&gt;Marco Ortu, who is visiting for the week, will be giving the presentation 'Measuring Effectiveness and Affectiveness in Software Systems'.&lt;/p&gt;
-&lt;p&gt;Abstract is below:&lt;/p&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;This presentation highlights the results obtained in a four-years project aiming at analyzing the development process of software artifacts from two points of view: Effectiveness and Affectiveness. The first attribute is meant to analyze the productivity of the Open Source Communities by measuring the time required to resolve an issue, while the latter provides a novel approach for studying the development process by analyzing the affectiveness expressed by developers in their comments posted during the issue resolution.
-Affectivenes is obtained by measuring Sentiment, Politeness and Emotions and other emotional state indicators.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 13/10/2017 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
-	<dc:date>2017-10-11T17:00:00+00:00</dc:date>
-	<dc:creator>Marco Ortu</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=52077">
-	<title>Retraction watch: Dispute over author order torpedoes paper on syndrome linked to autism</title>
-	<link>http://retractionwatch.com/2017/10/11/dispute-author-order-torpedoes-paper-syndrome-linked-autism/</link>
-	<content:encoded>&lt;p&gt;At least one disgruntled co-author has triggered the retraction of a paper presenting a novel approach to treating a rare, genetically inherited condition. The paper concerned research on Fragile X syndrome (FXS), characterized by both intellectual and physical abnormalities, which is linked autism. A compound that passed through phase 2 clinical trials in October 2015 […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/11/dispute-author-order-torpedoes-paper-syndrome-linked-autism/&quot; rel=&quot;nofollow&quot;&gt;Dispute over author order torpedoes paper on syndrome linked to autism&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-10-11T15:54:42+00:00</dc:date>
-	<dc:creator>Andrew P. Han</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/dream-job-in-research-improving-the-lives-of-horses-and-mules">
-	<title>Elsevier Connect: Dream job in research: improving the lives of horses and mules</title>
-	<link>https://www.elsevier.com/connect/dream-job-in-research-improving-the-lives-of-horses-and-mules</link>
-	<content:encoded>Polly Compston works with communities worldwide on animal welfare; what’s your dream research job?</content:encoded>
-	<dc:date>2017-10-11T15:13:07+00:00</dc:date>
 </item>
 
 </rdf:RDF>
