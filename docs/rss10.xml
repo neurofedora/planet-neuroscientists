@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/killer-hurricanes-reconstructs-past-predict-storms-future" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52270" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/pollution-killed-9-million-people-2015" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/dawn-spacecraft-ceres-mission-extension" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9563" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/surgeon-aims-diagnose-deformities-extinct-saber-toothed-cats" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52115" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/ormsby-macknight-mitchel-island-universe" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/killer-hurricanes-reconstructs-past-predict-storms-future">
+	<title>Science News: ‘Killer Hurricanes’ reconstructs the past to predict storms of the future</title>
+	<link>https://www.sciencenews.org/article/killer-hurricanes-reconstructs-past-predict-storms-future</link>
+	<content:encoded>Geologists find clues to the future of deadly hurricanes, written in stone and sand, in the new NOVA documentary “Killer Hurricanes.”</content:encoded>
+	<dc:date>2017-10-22T12:00:03+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52270">
 	<title>Retraction watch: Weekend reads: A proposal to end NSF watchdog; Power pose criticism redux; A limit to lifetime word count?</title>
 	<link>http://retractionwatch.com/2017/10/21/weekend-reads-proposal-end-nsf-watchdog-power-pose-criticism-redux-limit-lifetime-word-count/</link>
@@ -1145,13 +1152,6 @@ A prion is a protein that has taken on an abnormal shape and that can spread its
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/13/accomplished-philosopher-invented-pseudonym/&quot; rel=&quot;nofollow&quot;&gt;An accomplished philosopher invented a pseudonym. Why?&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-10-13T12:15:40+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/context/ormsby-macknight-mitchel-island-universe">
-	<title>Science News: An American astronomical evangelist coined the phrase ‘island universe’</title>
-	<link>https://www.sciencenews.org/blog/context/ormsby-macknight-mitchel-island-universe</link>
-	<content:encoded>Ormsby MacKnight Mitchel, a Civil War general nicknamed ‘Old Stars,’ first used ‘island universe’ in his monthly astronomy magazine.</content:encoded>
-	<dc:date>2017-10-13T11:00:03+00:00</dc:date>
-	<dc:creator>Tom Siegfried</dc:creator>
 </item>
 
 </rdf:RDF>
