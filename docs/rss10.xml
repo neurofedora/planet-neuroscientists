@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/inbreeding-hurts-next-generations-reproductive-success" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/mating-neandertals-reintroduced-lost-dna-modern-humans" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/94a68dff718f8ec28f28443e860c2aa1" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52261" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22946" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://brainblogger.com/?p=22944" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/neutron-star-collision-gravitational-waves" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52094" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/36-hours-of-hacking-medicine-at-johns-hopkins-medhacks-2017" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-researchers-are-using-nlp-and-machine-learning-to-ease-your-information-overload" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/inbreeding-hurts-next-generations-reproductive-success">
+	<title>Science News: Inbreeding hurts the next generation’s reproductive success</title>
+	<link>https://www.sciencenews.org/article/inbreeding-hurts-next-generations-reproductive-success</link>
+	<content:encoded>Inbreeding has evolutionary consequences for humans.</content:encoded>
+	<dc:date>2017-10-23T21:46:27+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/mating-neandertals-reintroduced-lost-dna-modern-humans">
+	<title>Science News: Mating with Neandertals reintroduced ‘lost’ DNA into modern humans</title>
+	<link>https://www.sciencenews.org/article/mating-neandertals-reintroduced-lost-dna-modern-humans</link>
+	<content:encoded>Neandertal DNA brought back some old genetic heirlooms to modern humans.</content:encoded>
+	<dc:date>2017-10-23T18:43:59+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://brainsciencepodcast.libsyn.com/94a68dff718f8ec28f28443e860c2aa1">
 	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 138 John Medina: Brain Rules for Aging Well</title>
 	<link>http://brainsciencepodcast.libsyn.com/bs-138-john-medina-brain-rules-for-aging-well</link>
@@ -382,7 +396,7 @@ Now, it emerges that there may be more serious problems with the PNAS paper. In 
 &lt;li&gt;&lt;b&gt;Thu 10/26 1:00–2:30 pm PDT &lt;/b&gt;&lt;a href=&quot;http://events.berkeley.edu/index.php/calendar/sn/library?event_ID=109902&amp;amp;date=2017-10-26&amp;amp;filter=Secondary%20Event%20Type&amp;amp;filtersel=1936&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Understanding the (Changing) Realm of Peer Review&lt;/b&gt;&lt;/a&gt; – &lt;a href=&quot;http://journals.plos.org/plosbiology/s/staff-editors#loc-lauren-richardson&quot; target=&quot;_blank&quot;&gt;Lauren Richardson&lt;/a&gt; (&lt;i&gt;PLOS Biology &lt;/i&gt;Associate Editor) is participating in this panel discussion at UC Berkeley&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Fri 10/27 9:00 am–1:15 pm BDT &lt;a href=&quot;https://library.medschl.cam.ac.uk/blog/2017/10/helping-researchers-publish-stem/&quot; target=&quot;_blank&quot;&gt;Helping Researchers Publish in STEM&lt;/a&gt;&lt;/b&gt; – &lt;a href=&quot;http://journals.plos.org/plosone/s/staff-editors#loc-nicola-stead&quot; target=&quot;_blank&quot;&gt;Nicola Stead&lt;/a&gt; (&lt;i&gt;PLOS ONE&lt;/i&gt; Senior Editor) is speaking at this University of Cambridge session&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Fri 10/27 9:00 am–1:15 pm BST &lt;a href=&quot;https://library.medschl.cam.ac.uk/blog/2017/10/helping-researchers-publish-stem/&quot; target=&quot;_blank&quot;&gt;Helping Researchers Publish in STEM&lt;/a&gt;&lt;/b&gt; – &lt;a href=&quot;http://journals.plos.org/plosone/s/staff-editors#loc-nicola-stead&quot; target=&quot;_blank&quot;&gt;Nicola Stead&lt;/a&gt; (&lt;i&gt;PLOS ONE&lt;/i&gt; Senior Editor) is speaking at this University of Cambridge session&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Explore PLOS Journals – which have now published more than &lt;a href=&quot;http://blogs.plos.org/plos/2017/07/publishing-milestone-plos-research-articles/&quot; target=&quot;_blank&quot;&gt;200,000 research articles&lt;/a&gt;:&lt;/h3&gt;
 &lt;ul&gt;
@@ -1138,18 +1152,6 @@ DOI: 10.1016/j.neuron.2017.10.004&lt;/p&gt;</content:encoded>
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/16/caught-notice-investigation-finds-accidental-mistakes-pnas-stem-cell-paper/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: Investigation finds “accidental mistakes” in PNAS stem cell paper&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-10-16T12:30:54+00:00</dc:date>
 	<dc:creator>Alison Abritis</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/36-hours-of-hacking-medicine-at-johns-hopkins-medhacks-2017">
-	<title>Elsevier Connect: 36 hours of hacking medicine at Johns Hopkins MedHacks 2017</title>
-	<link>https://www.elsevier.com/connect/36-hours-of-hacking-medicine-at-johns-hopkins-medhacks-2017</link>
-	<content:encoded>Students we mentored created apps to prevent bed sores and remind you when to take your meds</content:encoded>
-	<dc:date>2017-10-16T09:19:57+00:00</dc:date>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/how-researchers-are-using-nlp-and-machine-learning-to-ease-your-information-overload">
-	<title>Elsevier Connect: How researchers are using NLP and machine learning to ease your information overload</title>
-	<link>https://www.elsevier.com/connect/how-researchers-are-using-nlp-and-machine-learning-to-ease-your-information-overload</link>
-	<content:encoded>Elsevier teams are working with academic researchers to use technology to improve scholarly communication</content:encoded>
-	<dc:date>2017-10-16T09:01:45+00:00</dc:date>
 </item>
 
 </rdf:RDF>
