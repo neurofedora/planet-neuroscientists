@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/whether-psychology-research-improving-depends-whom-you-ask" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9202" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52368" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/deadly-2014-landslides-power-came-soils-weakened-past-slides" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/doubling-junk-dna-helps-make-us-human" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/laws-protect-athletes-brains-do-reduce-concussions-eventually" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=7783" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/next-wave-bird-flu-could-be-worse-ever" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/scicurious/whether-psychology-research-improving-depends-whom-you-ask">
+	<title>Science News: Whether psychology research is improving depends on whom you ask</title>
+	<link>https://www.sciencenews.org/blog/scicurious/whether-psychology-research-improving-depends-whom-you-ask</link>
+	<content:encoded>Psychologists are pessimistic about the state of their field but want to improve, a survey shows. But are new measures working?</content:encoded>
+	<dc:date>2017-10-29T12:00:03+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9202">
 	<title>Discovery magazine - Neuroskeptic: The Voodoo Curse of Circular fMRI Analysis</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9202</link>
@@ -1277,13 +1284,6 @@ Now, it emerges that there may be more serious problems with the PNAS paper. In 
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/UT4KiqoBc2Y&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-10-19T18:45:58+00:00</dc:date>
 	<dc:creator>Allison Hawxhurst</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/next-wave-bird-flu-could-be-worse-ever">
-	<title>Science News: The next wave of bird flu could be worse than ever</title>
-	<link>https://www.sciencenews.org/article/next-wave-bird-flu-could-be-worse-ever</link>
-	<content:encoded>Deadly bird flu can pass between ferrets through the air.</content:encoded>
-	<dc:date>2017-10-19T18:33:22+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
 </item>
 
 </rdf:RDF>
