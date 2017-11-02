@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9212" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/wind-may-be-driving-melting-east-antarctica-totten-glacier" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/way-hungry-young-stars-suck-food-keeps-most-x-rays-too" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/great-praise-categories-and-seeing-beyond-them" />
@@ -114,11 +115,20 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/data-challenge-how-one-team-hacked-a-data-dump-to-yield-hope-for-a-rare-disease" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=31441" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24644" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24456" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9212">
+	<title>Discovery magazine - Neuroskeptic: Do We Need An Adoption Service for Orphan Data?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9212</link>
+	<content:encoded>Having recently left an academic post, I've been thinking about what will happen to the data that I collected during my previous role that remains unpublished. Will it, like so much data, end up stuck in the limbo of the proverbial 'file drawer'?
+
+
+
+The 'file drawer problem' is generally understood to mean &quot;the bias introduced into the scientific literature by selective publication - chiefly by a tendency to publish positive results but not to publish negative or nonconfirmatory results.&quot;</content:encoded>
+	<dc:date>2017-11-01T23:05:12+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/wind-may-be-driving-melting-east-antarctica-totten-glacier">
 	<title>Science News: Wind may be driving the melting of East Antarctica’s largest glacier</title>
 	<link>https://www.sciencenews.org/article/wind-may-be-driving-melting-east-antarctica-totten-glacier</link>
@@ -1209,15 +1219,6 @@ In their key</content:encoded>
 &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature24644&quot;&gt;doi: 10.1038/nature24644&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/y-bL3PbErns&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-10-25T00:00:00+00:00</dc:date>
 	<dc:creator>Nicole M. Gaudelli</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature24456">
-	<title>Nature Biological Sciences Research: The m1A landscape on cytosolic and mitochondrial mRNA at single-base resolution</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/1rIadBHrDqo/nature24456</link>
-	<content:encoded>&lt;p&gt;
- Modifications on mRNA offer the potential of regulating mRNA fate post-transcriptionally. Recent studies suggested the widespread presence of N1-methyladenosine (m1A), which disrupts Watson–Crick base pairing, at internal sites of mRNAs. These studies lacked the resolution of identifying individual modified bases, and did not identify specific sequence motifs undergoing the modification or an enzymatic machinery catalysing them, rendering it challenging to validate and functionally characterize putative sites. Here we develop an approach that allows the transcriptome-wide mapping of m1A at single-nucleotide resolution. Within the cytosol, m1A is present in a low number of mRNAs, typically at low stoichiometries, and almost invariably in tRNA T-loop-like structures, where it is introduced by the TRMT6/TRMT61A complex. We identify a single m1A site in the mitochondrial ND5 mRNA, catalysed by TRMT10C, with methylation levels that are highly tissue specific and tightly developmentally controlled. m1A leads to translational repression, probably through a mechanism involving ribosomal scanning or translation. Our findings suggest that m1A on mRNA, probably because of its disruptive impact on base pairing, leads to translational repression, and is generally avoided by cells, while revealing one case in mitochondria where tight spatiotemporal control over m1A levels was adopted as a potential means of post-transcriptional regulation. 
-&lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature24456&quot;&gt;doi: 10.1038/nature24456&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/1rIadBHrDqo&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-10-25T00:00:00+00:00</dc:date>
-	<dc:creator>Modi Safra</dc:creator>
 </item>
 
 </rdf:RDF>
