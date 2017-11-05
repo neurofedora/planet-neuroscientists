@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/invasive-species-are-growing-global-threat" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9219" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52464" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/humans-climate-change-national-assessment-2017" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/whether-psychology-research-improving-depends-whom-you-ask" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9202" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52368" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/deadly-2014-landslides-power-came-soils-weakened-past-slides" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/invasive-species-are-growing-global-threat">
+	<title>Science News: Invasive species are a growing global threat</title>
+	<link>https://www.sciencenews.org/article/invasive-species-are-growing-global-threat</link>
+	<content:encoded>'The Aliens Among Us' describes how invasive species are colonizing — and disrupting — ecosystems worldwide.</content:encoded>
+	<dc:date>2017-11-05T12:00:03+00:00</dc:date>
+	<dc:creator>Sid Perkins</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9219">
 	<title>Discovery magazine - Neuroskeptic: &quot;Facephenes&quot;: Brain Stimulation Creates Phantasmal Faces</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9219</link>
@@ -1073,13 +1080,6 @@ In their key</content:encoded>
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/10/28/weekend-reads-no-peer-review-crisis-fake-conferences-overwhelm-real-ones-bullying-vs-criticism/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: No peer review crisis?; Fake conferences overwhelm real ones; Bullying vs. criticism&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-10-28T13:22:14+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/deadly-2014-landslides-power-came-soils-weakened-past-slides">
-	<title>Science News: A deadly 2014 landslide’s power came from soils weakened by past slides</title>
-	<link>https://www.sciencenews.org/article/deadly-2014-landslides-power-came-soils-weakened-past-slides</link>
-	<content:encoded>Researchers reconstruct how a hillside failed, producing the deadly 2014 Oso landslide.</content:encoded>
-	<dc:date>2017-10-27T19:33:36+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
