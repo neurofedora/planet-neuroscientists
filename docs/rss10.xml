@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9219" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52464" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/humans-climate-change-national-assessment-2017" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/water-striders-fans-legs-biophysics" />
@@ -114,11 +115,22 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9202" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52368" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/deadly-2014-landslides-power-came-soils-weakened-past-slides" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/interstellar-asteroid-might-have-just-been-spotted-first-time" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9219">
+	<title>Discovery magazine - Neuroskeptic: &quot;Facephenes&quot;: Brain Stimulation Creates Phantasmal Faces</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9219</link>
+	<content:encoded>Have you ever seen a face on a football?
+
+In a new paper, neuroscientists Gerwin Schalk et al. report that brain stimulation caused a man to experience strange hallucinations. The patient saw faces in everyday objects, including an orange soccer ball and a featureless box. The researchers coined the word &quot;facephenes&quot; to refer to these face-like perceptions.
+
+
+
+Schalk et al. studied a 26 year old Japanese man suffering from intractable epilepsy. The patient was implanted with a large number</content:encoded>
+	<dc:date>2017-11-04T19:45:06+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52464">
 	<title>Retraction watch: Weekend reads: Researcher sues over criticism; how to fire a professor; science by sexual harassers</title>
 	<link>http://retractionwatch.com/2017/11/04/weekend-reads-researcher-sues-criticism-fire-professor-science-sexual-harassers/</link>
@@ -1068,13 +1080,6 @@ In their key</content:encoded>
 	<content:encoded>Researchers reconstruct how a hillside failed, producing the deadly 2014 Oso landslide.</content:encoded>
 	<dc:date>2017-10-27T19:33:36+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/interstellar-asteroid-might-have-just-been-spotted-first-time">
-	<title>Science News: An interstellar asteroid might have just been spotted for the first time</title>
-	<link>https://www.sciencenews.org/article/interstellar-asteroid-might-have-just-been-spotted-first-time</link>
-	<content:encoded>A newly spotted asteroid might be the first known to come from outside the solar system, and it could carry information about the makeup of alien planet systems.</content:encoded>
-	<dc:date>2017-10-27T15:47:16+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
