@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/epa-oks-first-living-pest-control-mosquito-use-united-states" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52498" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-replaced-80-percent-butterfly-boys-skin" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/star-cheated-death-exploding-again-and-again" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9212" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/wind-may-be-driving-melting-east-antarctica-totten-glacier" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/way-hungry-young-stars-suck-food-keeps-most-x-rays-too" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/great-praise-categories-and-seeing-beyond-them" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/epa-oks-first-living-pest-control-mosquito-use-united-states">
+	<title>Science News: EPA OKs first living pest-control mosquito for use in United States</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/epa-oks-first-living-pest-control-mosquito-use-united-states</link>
+	<content:encoded>Feds approve non-GM male tiger mosquitoes for sale as fake dads to suppress local pests.</content:encoded>
+	<dc:date>2017-11-08T23:58:50+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52498">
 	<title>Retraction watch: Caught Our Notice: A nearly unreadable paper criticizing 2017 Nobel pick</title>
 	<link>http://retractionwatch.com/2017/11/08/caught-notice-nearly-unreadable-paper-criticizing-2017-nobel-pick/</link>
@@ -1062,13 +1069,6 @@ The 'file drawer problem' is generally understood to mean &quot;the bias introdu
 	<content:encoded>The columns of plasma that feed growing stars develop an extra layer that keeps X-rays in.</content:encoded>
 	<dc:date>2017-11-01T18:06:00+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/great-praise-categories-and-seeing-beyond-them">
-	<title>Science News: Great praise for categories, and seeing beyond them</title>
-	<link>https://www.sciencenews.org/article/great-praise-categories-and-seeing-beyond-them</link>
-	<content:encoded>Acting Editor in Chief Elizabeth Quill discusses classification and some of the challenges of putting species in categorical boxes.</content:encoded>
-	<dc:date>2017-11-01T16:13:05+00:00</dc:date>
-	<dc:creator>Elizabeth Quill</dc:creator>
 </item>
 
 </rdf:RDF>
