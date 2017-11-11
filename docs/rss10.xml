@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-wiggle-crowds-walk-can-put-wobble-bridge" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52561" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/quantum-computers-take-step-forward-50-qubit-prototype" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52559" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/see-new-mosaic-images-comet-67p-rosetta-mission" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/leafhoppers-use-tiny-light-absorbing-balls-conceal-their-eggs" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=31914" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.22958" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/why-wiggle-crowds-walk-can-put-wobble-bridge">
+	<title>Science News: Why the wiggle in a crowd’s walk can put a wobble in a bridge</title>
+	<link>https://www.sciencenews.org/article/why-wiggle-crowds-walk-can-put-wobble-bridge</link>
+	<content:encoded>New simulations can better predict when pedestrians cause a bridge to shimmy.</content:encoded>
+	<dc:date>2017-11-10T19:00:03+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52561">
 	<title>Retraction watch: A journal retracted a paper when authors couldn’t pay. Then it retracted the retraction.</title>
 	<link>http://retractionwatch.com/2017/11/10/journal-retracted-paper-authors-couldnt-pay-retracted-retraction/</link>
@@ -1054,13 +1061,6 @@ At the behavioral level, pharmacological inactivation of GluN2B subunits signifi
 &lt;p&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt; &lt;/a&gt;&lt;strong&gt;(&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/31914/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/31914/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=31914&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-03T09:25:58+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.22958">
-	<title>Nature News &amp; Comment: US government report says that climate change is real — and humans are to blame</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/uEwHMZdg_ak/nature.2017.22958</link>
-	<content:encoded>&lt;p&gt;Conclusions of climate-change science analysis are at odds with US President Donald Trump’s policies.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.22958&quot;&gt;doi: 10.1038/nature.2017.22958&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/uEwHMZdg_ak&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-03T00:00:00+00:00</dc:date>
-	<dc:creator>Jeff Tollefson</dc:creator>
 </item>
 
 </rdf:RDF>
