@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-blood-pressure-guidelines" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32433" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/critique-medical-evidence-hierarchies" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lord-howe-stick-insect-extinction" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/invasive-species-are-growing-global-threat" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9219" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52464" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/humans-climate-change-national-assessment-2017" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-blood-pressure-guidelines">
+	<title>Science News: New blood pressure guidelines put half of U.S. adults in unhealthy range</title>
+	<link>https://www.sciencenews.org/article/new-blood-pressure-guidelines</link>
+	<content:encoded>New hypertension guidelines broaden the range of those considered to have high blood pressure and emphasize lifestyle changes to combat the condition.</content:encoded>
+	<dc:date>2017-11-14T00:01:48+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=32433">
 	<title>The British Psychological Society - Research Digest: Study shows how easy and effective it is for Facebook ads to target your personality</title>
 	<link>https://digest.bps.org.uk/2017/11/13/study-shows-how-easy-and-effective-it-is-for-facebook-ads-to-target-your-personality/</link>
@@ -1083,13 +1090,6 @@ Schalk et al. studied a 26 year old Japanese man suffering from intractable epil
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/04/weekend-reads-researcher-sues-criticism-fire-professor-science-sexual-harassers/&quot; rel=&quot;nofollow&quot;&gt;Weekend reads: Researcher sues over criticism; how to fire a professor; science by sexual harassers&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-11-04T13:54:22+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/humans-climate-change-national-assessment-2017">
-	<title>Science News: Humans are driving climate change, federal scientists say</title>
-	<link>https://www.sciencenews.org/article/humans-climate-change-national-assessment-2017</link>
-	<content:encoded>Human influence “extremely likely” to be dominant cause of warming in last 70 years, U.S. climate report finds.</content:encoded>
-	<dc:date>2017-11-03T22:19:26+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
