@@ -15,6 +15,12 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2017-11-15:/2017/11/15/firing-patterns-in-the-adaptive-exponential-integrate-and-fire-model.html" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-dad-stress-changes-sperm" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-helper-cells-astrocytes-learning-fear" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/science-some-big-risks-are-worth-rewards" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-inspired-sn-10-scientists%E2%80%99-research" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/haze-keeps-pluto-cool-kicking-heat-out-space" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-asian-nomadic-herders-built-new-bronze-age-cultures" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52616" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=1185" />
@@ -109,16 +115,63 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24294" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/551179a" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/551172a" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/551167a" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/nasa-wants-your-help-naming-new-horizons-next-destination" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/babies-peanuts-allergy-guidelines" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/opioid-epidemic-resource-center" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=52494" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=52480" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:biocomputation.herts.ac.uk,2017-11-15:/2017/11/15/firing-patterns-in-the-adaptive-exponential-integrate-and-fire-model.html">
+	<title>UH Biocomputation group: Firing patterns in the adaptive exponential integrate-and-fire model</title>
+	<link>http://biocomputation.herts.ac.uk/2017/11/15/firing-patterns-in-the-adaptive-exponential-integrate-and-fire-model.html</link>
+	<content:encoded>&lt;p&gt;Julia will present the paper by Naud et al (2008) 'Firing patterns in the AdEx IF model'.&lt;/p&gt;
+&lt;p&gt;In the article the authors explore the adaptive exponential integrate-and-fire model as a good tool to simulate large-scale spiking neuron networks.
+They show that the AdEx model generates multiple firing patterns in response to the parameter values.
+In order to describe the transition from one pattern to another, the phase diagrams are analysed in the article.
+To further classify the firing patterns, the transient response to step current is studied.
+The analytical solutions are given for continuous adaptation, initial bursting, regular bursting, tonic spiking and irregular spiking as a response to the constant current.
+It is also concluded, that the network simulations of a large systems, such as thalamocortical, require the description of different neuron types.
+Parameter sets for three neuron types are provided, but further work is needed to extend this to a larger number of neuron types.&lt;/p&gt;
+&lt;p&gt;The full article could be found here: &lt;a class=&quot;reference external&quot; href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2798047/&quot;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2798047/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 17/11/2017 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
+	<dc:date>2017-11-15T21:53:58+00:00</dc:date>
+	<dc:creator>Julia Goncharenko</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/how-dad-stress-changes-sperm">
+	<title>Science News: How dad’s stress changes his sperm</title>
+	<link>https://www.sciencenews.org/article/how-dad-stress-changes-sperm</link>
+	<content:encoded>Stress may change sperm via packets of RNA in the epididymis, a mouse study suggests.</content:encoded>
+	<dc:date>2017-11-15T20:30:02+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/brain-helper-cells-astrocytes-learning-fear">
+	<title>Science News: The brain’s helper cells have a hand in learning fear</title>
+	<link>https://www.sciencenews.org/article/brain-helper-cells-astrocytes-learning-fear</link>
+	<content:encoded>After a traumatic experience, rat brains release inflammatory signals that come from astrocytes, suggesting a new role for the brain’s “helper” cells.</content:encoded>
+	<dc:date>2017-11-15T19:30:58+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/science-some-big-risks-are-worth-rewards">
+	<title>Science News: In science, some big risks are worth the rewards</title>
+	<link>https://www.sciencenews.org/article/science-some-big-risks-are-worth-rewards</link>
+	<content:encoded>Acting Editor in Chief Elizabeth Quill says scientists sometimes take risks that can lead to significant rewards and important discoveries.</content:encoded>
+	<dc:date>2017-11-15T18:18:56+00:00</dc:date>
+	<dc:creator>Elizabeth Quill</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/readers-inspired-sn-10-scientists%E2%80%99-research">
+	<title>Science News: Readers inspired by SN 10 scientists’ research</title>
+	<link>https://www.sciencenews.org/article/readers-inspired-sn-10-scientists%E2%80%99-research</link>
+	<content:encoded>Readers wanted to know more about the scientists' research who were profiled in &quot;The SN 10: Scientists to watch.&quot;</content:encoded>
+	<dc:date>2017-11-15T18:17:56+00:00</dc:date>
+	<dc:creator>Science News Staff</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/haze-keeps-pluto-cool-kicking-heat-out-space">
+	<title>Science News: Haze keeps Pluto cool by kicking heat out to space</title>
+	<link>https://www.sciencenews.org/article/haze-keeps-pluto-cool-kicking-heat-out-space</link>
+	<content:encoded>Pluto may be the only place in the solar system whose atmosphere is kept cool by solid hazes, not warmed by gas.</content:encoded>
+	<dc:date>2017-11-15T18:00:03+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/how-asian-nomadic-herders-built-new-bronze-age-cultures">
 	<title>Science News: How Asian nomadic herders built new Bronze Age cultures</title>
 	<link>https://www.sciencenews.org/article/how-asian-nomadic-herders-built-new-bronze-age-cultures</link>
@@ -137,7 +190,7 @@
 <item rdf:about="https://blog.scienceexchange.com/?p=1185">
 	<title>The Science Exchange Blog: Elizabeth Iorns, Ph.D., CEO of Science Exchange Elected to the Board of Directors of the Drug, Chemical &amp; Associated Technologies Association (DCAT)</title>
 	<link>https://blog.scienceexchange.com/2017/11/elizabeth-iorns-ph-d-ceo-of-science-exchange-elected-to-the-board-of-directors-of-the-drug-chemical-associated-technologies-association-dcat/</link>
-	<content:encoded>&lt;h2&gt;&lt;strong&gt;&lt;a href=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2017/11/Elizabeth-Iorns-DCAT-Board.png&quot;&gt;&lt;img alt=&quot;Elizabeth Iorns DCAT Board&quot; class=&quot;aligncenter size-medium wp-image-1186&quot; height=&quot;174&quot; src=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2017/11/Elizabeth-Iorns-DCAT-Board-300x174.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+	<content:encoded>&lt;h2&gt;&lt;strong&gt;&lt;a href=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2017/11/Elizabeth-DCAT-2-Image.png&quot;&gt;&lt;img alt=&quot;Elizabeth Iorns elected to DCAT Board&quot; class=&quot;aligncenter size-medium wp-image-1187&quot; height=&quot;179&quot; src=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2017/11/Elizabeth-DCAT-2-Image-300x179.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;PALO ALTO, CA, November 15, 2017 &lt;/strong&gt;– &lt;a href=&quot;http://www.scienceexchange.com&quot;&gt;Science Exchange&lt;/a&gt;, the world’s leading and most secure enterprise platform for outsourced research and development (R&amp;amp;D) services, announced today that Elizabeth Iorns, Ph.D., CEO of Science Exchange, has been elected to serve her first term on the Board of Directors of the Drug, Chemical &amp;amp; Associated Technologies Association (&lt;a href=&quot;http://www.dcat.org&quot;&gt;DCAT&lt;/a&gt;) beginning November 1, 2017.  Members of DCAT’s Board of Directors are charged with the important work of guiding the organization’s strategic initiatives and activities.&lt;/p&gt;
 &lt;p&gt;“We are delighted to have Dr. Iorns join the Board of Directors,” said DCAT Executive Director Margaret Timony. “She brings a unique mix of leadership experiences that will add a valuable perspective to the board.”&lt;/p&gt;
 &lt;p&gt;“I am honored to join the board and work together with this great team to address key initiatives related to the pharmaceutical industry,” said Elizabeth Iorns, Ph.D., co-founder and CEO of Science Exchange. “Our mission at Science Exchange is to help accelerate innovation and scientific discoveries, and as a scientist myself, I feel joining DCAT’s board is a perfect opportunity for me to share my ideas and insights to support and advance its programs and services.”&lt;/p&gt;
@@ -1016,49 +1069,6 @@ Parameter sets for three neuron types are provided, but further work is needed t
 	<content:encoded>&lt;p&gt;A silicon probe that is inserted into the mouse brain can precisely measure the activity of about 200 individual neurons simultaneously. This tool should improve our ability to study functional neuronal circuitry.  See Letter    p.232&lt;/p&gt;&lt;p&gt;Nature 551 172 &lt;a href=&quot;http://dx.doi.org/10.1038/551172a&quot;&gt;doi: 10.1038/551172a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/tRvyn1rkY5g&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-08T00:00:00+00:00</dc:date>
 	<dc:creator>Edward M. Callaway</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/551167a">
-	<title>Nature News &amp; Comment: Books in brief</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/ldr6NzoCcQg/551167a</link>
-	<content:encoded>&lt;p&gt;Barbara Kiser reviews five of the week's best science picks.&lt;/p&gt;&lt;p&gt;Nature 551 167 &lt;a href=&quot;http://dx.doi.org/10.1038/551167a&quot;&gt;doi: 10.1038/551167a&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/ldr6NzoCcQg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-08T00:00:00+00:00</dc:date>
-	<dc:creator>Andrew Robinson</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/nasa-wants-your-help-naming-new-horizons-next-destination">
-	<title>Science News: NASA wants your help naming New Horizons’ next destination</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/nasa-wants-your-help-naming-new-horizons-next-destination</link>
-	<content:encoded>NASA’s New Horizons mission team is asking the public to vote on a nickname for the spacecraft’s next destination.</content:encoded>
-	<dc:date>2017-11-07T19:00:59+00:00</dc:date>
-	<dc:creator>Mike Denison</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/babies-peanuts-allergy-guidelines">
-	<title>Science News: Let most babies eat food containing peanuts. Really.</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/babies-peanuts-allergy-guidelines</link>
-	<content:encoded>Pediatricians are not yet peanut-savvy when it comes to convincing parents to feed babies food containing peanuts, a new survey suggests.</content:encoded>
-	<dc:date>2017-11-07T17:00:02+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/opioid-epidemic-resource-center">
-	<title>Elsevier Connect: Opioid Epidemic Resource Center</title>
-	<link>https://www.elsevier.com/connect/opioid-epidemic-resource-center</link>
-	<content:encoded>Free access to research, data, analyses and other resources — updated 8 November 2017</content:encoded>
-	<dc:date>2017-11-07T16:46:21+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=52494">
-	<title>Retraction watch: 17 Johns Hopkins researchers resign in protest from ed board at Nature journal</title>
-	<link>http://retractionwatch.com/2017/11/07/17-johns-hopkins-researchers-resign-protest-ed-board-nature-journal/</link>
-	<content:encoded>&lt;p&gt;More than a dozen members of the editorial board at Scientific Reports have resigned after the journal decided not to retract a 2016 paper that a researcher claims plagiarized his work. As of this morning, 19 people — mostly researchers based at Johns Hopkins — had stepped down from the board, according to Hopkins researcher […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/07/17-johns-hopkins-researchers-resign-protest-ed-board-nature-journal/&quot; rel=&quot;nofollow&quot;&gt;17 Johns Hopkins researchers resign in protest from ed board at Nature journal&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-11-07T16:02:43+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=52480">
-	<title>Retraction watch: Researchers ask to retract cancer paper five days after it’s flagged by journal</title>
-	<link>http://retractionwatch.com/2017/11/07/researchers-ask-retract-cancer-paper-five-days-flagged-journal/</link>
-	<content:encoded>&lt;p&gt;Researchers from the University of Kansas asked to retract their paper only days after the journal issued an expression of concern related to some of the images. The retraction notice marks the close of an episode that started in June, but it doesn’t provide much closure: Figures in the paper apparently do not match primary […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/07/researchers-ask-retract-cancer-paper-five-days-flagged-journal/&quot; rel=&quot;nofollow&quot;&gt;Researchers ask to retract cancer paper five days after it’s flagged by journal&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-11-07T13:00:28+00:00</dc:date>
-	<dc:creator>Andrew P. Han</dc:creator>
 </item>
 
 </rdf:RDF>
