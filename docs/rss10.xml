@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dolly-sheep-bones-normal-arthritis" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=52653" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/report-what-do-researchers-want-in-a-post-brexit-world" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32773" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cookie-dough-e-coli-outbreaks-raw-flour" />
@@ -113,12 +115,25 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24758" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24649" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24628" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24624" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24486" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/dolly-sheep-bones-normal-arthritis">
+	<title>Science News: Bones show Dolly’s arthritis was normal for a sheep her age</title>
+	<link>https://www.sciencenews.org/article/dolly-sheep-bones-normal-arthritis</link>
+	<content:encoded>Cloning didn’t cause the famous sheep to age prematurely.</content:encoded>
+	<dc:date>2017-11-23T14:00:03+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=52653">
+	<title>Retraction watch: Caught Our Notice: When authors go MIA, the article may follow</title>
+	<link>http://retractionwatch.com/2017/11/23/caught-notice-authors-go-mia-article-may-follow/</link>
+	<content:encoded>&lt;p&gt;Title: IRF9 inhibits human acute myeloid leukemia through the SIRT1-p53 signaling pathway What Caught Our Attention: When authors fail to respond to editors’ requests for information, it isn’t hard to imagine that the submitted manuscript will lose its publishing appeal. In this case, the journal and publisher withdrew the article after “repeated attempts” to contact the authors […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/23/caught-notice-authors-go-mia-article-may-follow/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: When authors go MIA, the article may follow&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-11-23T13:00:03+00:00</dc:date>
+	<dc:creator>Alison Abritis</dc:creator>
+</item>
 <item rdf:about="https://www.elsevier.com/connect/report-what-do-researchers-want-in-a-post-brexit-world">
 	<title>Elsevier Connect: Report: What do researchers want in a post-Brexit world?</title>
 	<link>https://www.elsevier.com/connect/report-what-do-researchers-want-in-a-post-brexit-world</link>
@@ -1180,22 +1195,6 @@ Parameter sets for three neuron types are provided, but further work is needed t
 &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature24628&quot;&gt;doi: 10.1038/nature24628&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/lCMZVaJzIMY&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-15T00:00:00+00:00</dc:date>
 	<dc:creator>Nicola Wilck</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature24624">
-	<title>Nature Biological Sciences Research: Progress in and promise of bacterial quorum sensing research</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/QU2Sxrwt2xY/nature24624</link>
-	<content:encoded>&lt;p&gt;
- This Review highlights how we can build upon the relatively new and rapidly developing field of research into bacterial quorum sensing (QS). We now have a depth of knowledge about how bacteria use QS signals to communicate with each other and to coordinate their activities. In recent years there have been extraordinary advances in our understanding of the genetics, genomics, biochemistry, and signal diversity of QS. We are beginning to understand the connections between QS and bacterial sociality. This foundation places us at the beginning of a new era in which researchers will be able to work towards new medicines to treat devastating infectious diseases, and use bacteria to understand the biology of sociality. 
-&lt;/p&gt;&lt;p&gt;Nature 551 313 &lt;a href=&quot;http://dx.doi.org/10.1038/nature24624&quot;&gt;doi: 10.1038/nature24624&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/QU2Sxrwt2xY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-15T00:00:00+00:00</dc:date>
-	<dc:creator>Marvin Whiteley</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature24486">
-	<title>Nature Biological Sciences Research: Genome sequence of the progenitor of the wheat D genome Aegilops tauschii</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/4qGLdNs8lrg/nature24486</link>
-	<content:encoded>&lt;p&gt;Aegilops tauschii is the diploid progenitor of the D genome of hexaploid wheat (Triticum aestivum, genomes AABBDD) and an important genetic resource for wheat. The large size and highly repetitive nature of the Ae. tauschii genome has until now precluded the development of a reference-quality genome sequence. Here we use an array of advanced technologies, including ordered-clone genome sequencing, whole-genome shotgun sequencing, and BioNano optical genome mapping, to generate a reference-quality genome sequence for Ae. tauschii ssp. strangulata accession AL8/78, which is closely related to the wheat D genome. We show that compared to other sequenced plant genomes, including a much larger conifer genome, the Ae. tauschii genome contains unprecedented amounts of very similar repeated sequences. Our genome comparisons reveal that the Ae. tauschii genome has a greater number of dispersed duplicated genes than other sequenced genomes and its chromosomes have been structurally evolving an order of magnitude faster than those of other grass genomes. The decay of colinearity with other grass genomes correlates with recombination rates along chromosomes. We propose that the vast amounts of very similar repeated sequences cause frequent errors in recombination and lead to gene duplications and structural chromosome changes that drive fast genome evolution.&lt;/p&gt;&lt;p&gt;Nature 551 498 &lt;a href=&quot;http://dx.doi.org/10.1038/nature24486&quot;&gt;doi: 10.1038/nature24486&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/4qGLdNs8lrg&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-15T00:00:00+00:00</dc:date>
-	<dc:creator>Ming-Cheng Luo</dc:creator>
 </item>
 
 </rdf:RDF>
