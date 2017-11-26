@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/datadive-uk-follow-data-scientists-and-developers-in-a-hackathon-for-charities" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52751" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-foiled-europeans-early-exploration-north-america" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52684" />
@@ -114,11 +115,16 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52540" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/coconut-crab-bird-attack" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32548" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-is-research-assessment-changing-watch-video-highlights-from-transforming-research-conference" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/datadive-uk-follow-data-scientists-and-developers-in-a-hackathon-for-charities">
+	<title>Elsevier Connect: #DataDive UK: Follow data scientists and developers in a hackathon for charities</title>
+	<link>https://www.elsevier.com/connect/datadive-uk-follow-data-scientists-and-developers-in-a-hackathon-for-charities</link>
+	<content:encoded>Elsevier Foundation joins DataKind, ONE Campaign, FareShare and Christian Aid to use data for tackling poverty and justice, climate change and UK food shortages</content:encoded>
+	<dc:date>2017-11-25T14:53:42+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52751">
 	<title>Retraction watch: Weekend reads: Clinical trials in hotel rooms; dressing as a pirate; reducing replication-related stress</title>
 	<link>http://retractionwatch.com/2017/11/25/weekend-reads-clinical-trials-hotel-rooms-dressing-pirate-reduction-replication-related-stress/</link>
@@ -1209,12 +1215,6 @@ Parameter sets for three neuron types are provided, but further work is needed t
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/alexfradera&quot;&gt;@alexfradera&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/32548/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/32548/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=32548&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-15T09:30:08+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/how-is-research-assessment-changing-watch-video-highlights-from-transforming-research-conference">
-	<title>Elsevier Connect: How is research assessment changing? Watch video highlights from “Transforming Research&quot; conference</title>
-	<link>https://www.elsevier.com/connect/how-is-research-assessment-changing-watch-video-highlights-from-transforming-research-conference</link>
-	<content:encoded>15 experts share their thoughts on mapping science, quantifying uncertainty, and understanding the path dependence of a research field</content:encoded>
-	<dc:date>2017-11-15T03:29:59+00:00</dc:date>
 </item>
 
 </rdf:RDF>
