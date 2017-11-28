@@ -15,6 +15,12 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=7870" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/deep-ocean-these-bacteria-play-key-role-trapping-carbon" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=52784" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=52771" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-pliocene-epoch-can-teach-us-about-future-warming-earth" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/ethics-gene-editing-babies-crispr" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32798" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/heres-what-really-happened-hannys-voorwerp" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hidden-hoard-hints-how-ancient-elites-protected-family-treasures" />
@@ -109,16 +115,71 @@
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23105" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52636" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52606" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-artificial-limbs-werent-nearly-responsive" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/study-casts-doubt-whether-adult-brain-hippocampus-makes-new-cells" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32582" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.23019" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.23001" />
-			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.23000" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.plos.org/plos/?p=7870">
+	<title>The Official PLOS Blog: Unrestricted Text and Data Mining with allofPLOS</title>
+	<link>http://feeds.plos.org/~r/plos/Blog/~3/wNXxoKAtGBk/</link>
+	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/plos/files/2017/11/PLOS-Blogs_text-and-Data_allofplos_opt1-150x150.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;div class=&quot;wp_orcid_field&quot;&gt;&lt;a href=&quot;http://orcid.org/0000-0001-7318-5892&quot; rel=&quot;author&quot; target=&quot;_blank&quot;&gt;0000-0001-7318-5892&lt;/a&gt;&lt;/div&gt;&lt;p&gt;Content mining, machine learning, text and data mining (TDM) and data analytics all refer to the process of obtaining information through machine-read material. Faster than a human possibly could, machine-learning approaches can analyze data, metadata and text content; find structural similarities between research problems in unrelated fields; and synthesize content from thousands of articles to suggest directions for further research explorations. In consideration of the continually expanding volume of peer-reviewed literature, the value of TDM should not be underappreciated. Text and data mining is a useful tool for developing new scientific insights and new ways to understand the story told by the published literature.&lt;/p&gt;
+&lt;h4&gt;Application and Challenges&lt;/h4&gt;
+&lt;p&gt;Researchers have leveraged text mining of abstracts and NCBI databases to advance precision medicine through discovery of &lt;strong&gt;&lt;a href=&quot;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005017&quot; target=&quot;_blank&quot;&gt;disease-gene-variant relationships&lt;/a&gt;&lt;/strong&gt;, employed &lt;strong&gt;&lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0156031&quot; target=&quot;_blank&quot;&gt;text mining of journal articles for sleep disorder terminologies&lt;/a&gt;&lt;/strong&gt; to determine publication trends, and used text mining to &lt;strong&gt;&lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0108847&quot; target=&quot;_blank&quot;&gt;cluster and relationship-map&lt;/a&gt;&lt;/strong&gt; BioMed Central journal content. A study &lt;strong&gt;&lt;a href=&quot;https://www.biorxiv.org/content/early/2017/07/11/162099.article-info&quot; target=&quot;_blank&quot;&gt;posted on bioRxiv&lt;/a&gt;&lt;/strong&gt; found that text mining full articles gave significantly better information that mining abstracts only, as expected. However, the authors of this study &lt;strong&gt;&lt;a href=&quot;http://www.sciencemag.org/news/2017/07/want-analyze-millions-scientific-papers-all-once-here-s-best-way-do-it&quot; target=&quot;_blank&quot;&gt;described challenges&lt;/a&gt;&lt;/strong&gt; in the way content was presented and in the need to obtain copyright permissions. In addition to content availability and license status, support for early adopters and training for future practitioners are also cited as barriers to &lt;strong&gt;&lt;a href=&quot;http://www.futuretdm.eu/blog/europe-can-stimulate-text-data-mining/&quot; target=&quot;_blank&quot;&gt;broad use of TDM for research purposes&lt;/a&gt;&lt;/strong&gt;. The foundational value of CC BY licensing for TDM is that no additional permissions or documentation are required. Open Access facilitates TDM:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;not on case-by-case basis, but for all people, in all places, and at all times&lt;/li&gt;
+&lt;li&gt;without lengthy legal agreements or restrictions&lt;/li&gt;
+&lt;li&gt;by providing unrestricted reuse, remix and mining rights&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;No Restrictions, No Conditions: allofPLOS&lt;/h4&gt;
+&lt;p&gt;With more than 200,000 fully Open Access research articles available for content mining, PLOS can help advance the discussion and application of content mining through real-world experiences. Through our API we provide article text and meta-data in a single XML file format according to the Journal Article Tag Suite (JATS), the National Information Standards Organization (&lt;strong&gt;&lt;a href=&quot;http://www.niso.org/home/&quot; target=&quot;_blank&quot;&gt;NISO&lt;/a&gt;&lt;/strong&gt;) standard tag suite for archiving and exchanging journal article content.&lt;/p&gt;
+&lt;p&gt;The new allofPLOS project is a step forward in providing researchers easier opportunities for new discovery and illumination of non-obvious connections between data, research articles and fields of study. With allofPLOS, in addition to the content of every PLOS article (excluding Figures or Supplemental Data) provided in JATS XML format, the XML parsing tools are provided. By including tags, content and parsing tools together, we hope to simplify and streamline the process for those wanting to experiment with content mining and TDM tools.&lt;/p&gt;
+&lt;p&gt;With content mining, scientists, educators, policymakers and others can identify and map patterns and trends across millions of articles, extract the information they want, and gain new insights to advance research. TDM results can be shared as a new research article or as a database for others to use.&lt;/p&gt;
+&lt;h4&gt;Setting the Stage for a Text and Data Mining Future&lt;/h4&gt;
+&lt;p&gt;To support policies and public awareness that TDM for research purposes is compatible with current and future publishing industry practices, in 2015 PLOS participated in construction of &lt;strong&gt;&lt;a href=&quot;http://thehaguedeclaration.com/the-hague-declaration-on-knowledge-discovery-in-the-digital-age/&quot; target=&quot;_blank&quot;&gt;The Hague Declaration on Knowledge Discovery in the Digital Age&lt;/a&gt;&lt;/strong&gt;, a set of five core principles and a roadmap for action to enable researchers to carry out TDM of digital content on the web without legal repercussions. Unrestricted access to the scientific literature together with standards that promote machine readability of the facts, data and ideas contained within ensures that journal content is available for maximum discovery and reusability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“We are producing so much information, not just as published literature but as even data from sensors, from monitoring activities, monitoring the planet, and monitoring species, and living things and nonliving things it is simply not humanely possible to attract full value from this, let alone value that we don’t even know that exists inside it,”&lt;/strong&gt; says Puneet Kishor, former Science and Data Policy Manager, Creative Commons, in a &lt;strong&gt;&lt;a href=&quot;http://thehaguedeclaration.com/&quot; target=&quot;_blank&quot;&gt;video on The Hague Declaration website&lt;/a&gt;&lt;/strong&gt;. “Using computers and machines is the only way programmatically to figure out what’s hidden inside,” he says.&lt;/p&gt;
+&lt;h4&gt;Next Steps&lt;/h4&gt;
+&lt;p&gt;Visit the PLOS &lt;strong&gt;&lt;a href=&quot;https://www.plos.org/text-and-data-mining&quot; target=&quot;_blank&quot;&gt;Text and Data Mining page&lt;/a&gt;&lt;/strong&gt; to download the PLOS research article corpus and XML parsing tools, and stay tuned to this space for upcoming stories of how researchers are using these tools. Download one of the &lt;strong&gt;&lt;a href=&quot;https://www.plos.org/how-open-is-it&quot; target=&quot;_blank&quot;&gt;HowOpenIsIt?®&lt;/a&gt;&lt;/strong&gt;  Open Access Spectrum guides to see where various permissions for machine readability fall on the Open Access continuum.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/wNXxoKAtGBk&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2017-11-28T17:20:57+00:00</dc:date>
+	<dc:creator>Sheryl P. Denker</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/deep-ocean-these-bacteria-play-key-role-trapping-carbon">
+	<title>Science News: In the deep ocean, these bacteria play a key role in trapping carbon</title>
+	<link>https://www.sciencenews.org/article/deep-ocean-these-bacteria-play-key-role-trapping-carbon</link>
+	<content:encoded>Mysterious nitrite-oxidizing bacteria capture more carbon than previously thought and may be the primary engine at the base of the deep ocean’s food web.</content:encoded>
+	<dc:date>2017-11-28T16:00:02+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=52784">
+	<title>Retraction watch: “(Hundreds of hours of) work vindicated:” Critic of food researcher reacts to new retraction</title>
+	<link>http://retractionwatch.com/2017/11/28/hundreds-hours-work-vindicated-critic-food-researcher-reacts-new-retraction/</link>
+	<content:encoded>&lt;p&gt;Ever since Cornell food researcher Brian Wansink wrote a blog post one year ago praising a graduate student’s productivity, things have gone downhill for him. Although he initially lauded the student for submitting five papers within six months of arriving at the lab, the four papers about pizza have all since been modified in some […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/28/hundreds-hours-work-vindicated-critic-food-researcher-reacts-new-retraction/&quot; rel=&quot;nofollow&quot;&gt;“(Hundreds of hours of) work vindicated:” Critic of food researcher reacts to new retraction&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-11-28T15:05:14+00:00</dc:date>
+	<dc:creator>Alison McCook</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=52771">
+	<title>Retraction watch: On Giving Tuesday, consider supporting the work of Retraction Watch</title>
+	<link>http://retractionwatch.com/2017/11/28/giving-tuesday-consider-supporting-us/</link>
+	<content:encoded>&lt;p&gt;We know there are a lot of causes that matter to you, but since you’re reading this, we may be one of them. So we’d like to ask for your support. On this Giving Tuesday, please consider making a tax-deductible contribution to The Center For Scientific Integrity, the 501(c)3 parent organization of Retraction Watch. Any […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/28/giving-tuesday-consider-supporting-us/&quot; rel=&quot;nofollow&quot;&gt;On Giving Tuesday, consider supporting the work of Retraction Watch&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-11-28T13:00:17+00:00</dc:date>
+	<dc:creator>Alison McCook</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/what-pliocene-epoch-can-teach-us-about-future-warming-earth">
+	<title>Science News: What the Pliocene epoch can teach us about future warming on Earth</title>
+	<link>https://www.sciencenews.org/article/what-pliocene-epoch-can-teach-us-about-future-warming-earth</link>
+	<content:encoded>By simulating the changes that occurred during the warm Pliocene epoch, researchers are trying to predict Earth’s future hundreds of years from now.</content:encoded>
+	<dc:date>2017-11-28T13:00:03+00:00</dc:date>
+	<dc:creator>Alexandra Witze</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-public/ethics-gene-editing-babies-crispr">
+	<title>Science News: Parents may one day be morally obligated to edit their baby’s genes</title>
+	<link>https://www.sciencenews.org/blog/science-public/ethics-gene-editing-babies-crispr</link>
+	<content:encoded>The CRISPR debate is moving from “should we or shouldn’t we?” to “do we have to?”</content:encoded>
+	<dc:date>2017-11-28T12:00:02+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=32798">
 	<title>The British Psychological Society - Research Digest: Sorry romantics, new findings suggest love at first sight is really lust at first sight</title>
 	<link>https://digest.bps.org.uk/2017/11/28/sorry-romantics-new-findings-suggest-love-at-first-sight-is-really-lust-at-first-sight/</link>
@@ -218,7 +279,7 @@
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.23043">
 	<title>Nature News &amp; Comment: United Kingdom relies on science to revive flagging economy</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/xwZv9vclFdY/nature.2017.23043</link>
-	<content:encoded>&lt;p&gt;Long-awaited industrial strategy pins hopes on commercial gains from research.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.23043&quot;&gt;doi: 10.1038/nature.2017.23043&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/xwZv9vclFdY&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<content:encoded>&lt;p&gt;Long-awaited industrial strategy pins hopes on commercial gains from research.&lt;/p&gt;&lt;p&gt;Nature 551 551 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.23043&quot;&gt;doi: 10.1038/nature.2017.23043&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/xwZv9vclFdY&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-27T00:00:00+00:00</dc:date>
 	<dc:creator>Elizabeth Gibney</dc:creator>
 </item>
@@ -404,10 +465,10 @@ Parameter sets for three neuron types are provided, but further work is needed t
 	<dc:creator>Laurel Hamers</dc:creator>
 </item>
 <item rdf:about="http://retractionwatch.com/?p=52739">
-	<title>Retraction watch: Updated: US court issues injunction against OMICS to stop “deceptive practices”</title>
+	<title>Retraction watch: US court issues injunction against OMICS to stop “deceptive practices”</title>
 	<link>http://retractionwatch.com/2017/11/22/us-court-issues-injunction-omics-stop-deceptive-practices/</link>
 	<content:encoded>&lt;p&gt;A US government agency has won an initial court ruling against OMICS, which the government says will help stop the academic publisher’s deceptive business practices. Today, the Federal Trade Commission (FTC) announced that it won a preliminary injunction in September in its lawsuit against Srinubabu Gedela, CEO of OMICS Group and other companies. The lawsuit, […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/22/us-court-issues-injunction-omics-stop-deceptive-practices/&quot; rel=&quot;nofollow&quot;&gt;Updated: US court issues injunction against OMICS to stop “deceptive practices”&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/22/us-court-issues-injunction-omics-stop-deceptive-practices/&quot; rel=&quot;nofollow&quot;&gt;US court issues injunction against OMICS to stop “deceptive practices”&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-11-22T21:00:08+00:00</dc:date>
 	<dc:creator>Andrew P. Han</dc:creator>
 </item>
@@ -492,7 +553,7 @@ Parameter sets for three neuron types are provided, but further work is needed t
 <item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.23031">
 	<title>Nature News &amp; Comment: AI-controlled brain implants for mood disorders tested in people</title>
 	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/dS0ttJOvTEs/nature.2017.23031</link>
-	<content:encoded>&lt;p&gt;Researchers funded by the US military are developing appliances to record neural activity and automatically stimulate the brain to treat mental illness.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.23031&quot;&gt;doi: 10.1038/nature.2017.23031&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/dS0ttJOvTEs&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<content:encoded>&lt;p&gt;Researchers funded by the US military are developing appliances to record neural activity and automatically stimulate the brain to treat mental illness.&lt;/p&gt;&lt;p&gt;Nature 551 549 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.23031&quot;&gt;doi: 10.1038/nature.2017.23031&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/dS0ttJOvTEs&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-22T00:00:00+00:00</dc:date>
 	<dc:creator>Sara Reardon</dc:creator>
 </item>
@@ -1136,63 +1197,6 @@ Taken from &lt;a href=&quot;https://www.statista.com/&quot;&gt;Statista&lt;/a&gt
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/16/physics-journal-agreed-retract-paper-several-months-ago-still-not-retracted/&quot; rel=&quot;nofollow&quot;&gt;A physics journal agreed to retract a paper several months ago. It’s still not retracted.&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-11-16T13:00:20+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/50-years-ago-artificial-limbs-werent-nearly-responsive">
-	<title>Science News: 50 years ago, artificial limbs weren’t nearly as responsive</title>
-	<link>https://www.sciencenews.org/article/50-years-ago-artificial-limbs-werent-nearly-responsive</link>
-	<content:encoded>Artificial limbs have come a long way since 1967.</content:encoded>
-	<dc:date>2017-11-16T13:00:03+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/study-casts-doubt-whether-adult-brain-hippocampus-makes-new-cells">
-	<title>Science News: Study casts doubt on whether adult brain’s memory-forming region makes new cells</title>
-	<link>https://www.sciencenews.org/article/study-casts-doubt-whether-adult-brain-hippocampus-makes-new-cells</link>
-	<content:encoded>An examination of 54 human brains suggests that adults don’t grow new neurons in the hippocampus, contrary to several widely accepted studies.</content:encoded>
-	<dc:date>2017-11-16T11:00:03+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=32582">
-	<title>The British Psychological Society - Research Digest: People who think they exercise less than their peers die earlier, regardless of their actual activity levels</title>
-	<link>https://digest.bps.org.uk/2017/11/16/people-who-think-they-exercise-less-than-their-peers-die-earlier-regardless-of-their-actual-activity-levels/</link>
-	<content:encoded>&lt;figure class=&quot;wp-caption alignnone&quot; data-shortcode=&quot;caption&quot; id=&quot;attachment_32592&quot;&gt;&lt;img alt=&quot;GettyImages-520166146.jpg&quot; class=&quot;alignnone size-full wp-image-32592&quot; data-attachment-id=&quot;32592&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Man with a basketball in a locker room&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;FangXiaNuo&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Man with a basketball in a locker room&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Man with a basketball in a locker room&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-520166146.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-520166146.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-520166146.jpg?w=845&quot; data-orig-size=&quot;2121,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/11/16/people-who-think-they-exercise-less-than-their-peers-die-earlier-regardless-of-their-actual-activity-levels/man-with-a-basketball-in-a-locker-room/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-520166146.jpg?w=845&quot; /&gt;Adjusting for actual physical activity, individuals who perceived themselves as less active than others were up to 71 per cent more likely to die in the follow-up period&lt;/figure&gt;
-&lt;p&gt;&lt;em&gt;By guest blogger&lt;/em&gt; &lt;a href=&quot;https://forbiddenpsychology.wordpress.com/&quot;&gt;Tomasz Witkowski&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;According to the World Health Organization (WHO), physical inactivity is the fourth-leading risk factor for global mortality, causing an estimated 3.2 million deaths around the world annually. Readers of this blog need no convincing that it’s important to be active every day. But is spending more time on it enough to reduce the risk of early death? Not necessarily. How we perceive this activity turns out to be just as important. We learn of this from the authors of an &lt;a href=&quot;http://psycnet.apa.org/record/2017-31316-001&quot;&gt;intriguing study&lt;/a&gt; in &lt;i&gt;Health Psychology&lt;/i&gt; devoted to physical activity and mortality.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-32582&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Octavia Zahrt and Alia Crum at Stanford University were inspired by an &lt;a href=&quot;https://digest.bps.org.uk/2007/04/16/is-the-benefit-of-exercise-a-placebo-effect/&quot;&gt;earlier experiment&lt;/a&gt; involving hotel room attendants who completed a 20-minute intervention informing them that their daily work satisfied exercise recommendations and highlighting the benefits of this active lifestyle. This intervention not only shifted room attendants’ perceptions, but also resulted in health improvements including lower blood pressure and reductions in weight and body fat.&lt;/p&gt;
-&lt;p&gt;Zahrt and Crum examined data from 61,141 Americans (selected to be representative of the general population) to determine whether the way we think about our own physical activity could be of major and long-term significance for health. The data came from the US National Health Interview Survey and the National Health and Nutrition Examination Survey, which included questions assessing how much exercise individuals think they get compared with their peers. The surveys also asked respondents detailed questions about actual physical activity they had undertaken, and in some cases participants wore an accelerometer to measure their activity objectively. The researchers cross-checked these survey data against the National Death Index records as they stood 21 years after the exercise surveys had been completed.&lt;/p&gt;
-&lt;p&gt;As the researchers expected, perceived physical activity relative to peers was closely associated with risk of dying. Even after adjusting for actual levels of physical activity, individuals who perceived themselves as less active than others were up to 71 per cent more likely to die in the follow-up period than those who perceived themselves as more active. One can say with confidence that individuals’ perceptions about their level of physical activity were strongly related to their longevity, even after accounting for the effects of actual physical activity and other known determinants of mortality such as smoking or obesity.&lt;/p&gt;
-&lt;p&gt;There are a few potential explanations. A convincing one is that perceptions can affect motivation. For instance, a room attendant’s awareness that she is getting exercise at work might increase her confidence and commitment to a healthy lifestyle, and motivate her to act on this “active” identity. Conversely, longitudinal research shows that individuals who perceive themselves as unfit compared with their friends are less likely to exercise a year later.&lt;/p&gt;
-&lt;p&gt;Another potential mechanism is that perceptions can have emotional consequences. Public health messages often warn of the “life-threatening consequences” of physical inactivity. A person’s perception that she/he is inactive might thus lead to fear and stress about not getting enough exercise, with harmful consequences for health.&lt;/p&gt;
-&lt;p&gt;Still another explanation is that our positive beliefs and expectations can directly induce physiological responses, even following inert treatments, as shown by the placebo effect (similarly, negative expectations can lead to a harmful “nocebo effect”). Following this logic, participants in the current research who failed to realise that they were getting good exercise may not have experienced its full physiological benefits. Conversely, negative expectations related to the belief that one is not getting enough exercise could have become self-fulfilling because of nocebo-like effects.&lt;/p&gt;
-&lt;p&gt;Today we are not able to give a conclusive answer to the question of which of these mechanisms is most important. Perhaps a constellation of them? Or maybe there is another, unknown process involved.&lt;/p&gt;
-&lt;p&gt;Whatever the mechanisms at play, what do these results mean for mere mortals, and for those who are involved in promoting an active lifestyle? Instead of working out, should we stand in front of the mirror and repeat to ourselves “I’m an active and physically fit person”? To be clear, the authors warn that their findings don’t mean exercise is unimportant. Separate from the influence of our perceptions, physical activity continues to be a crucial determinant of health. However, a more thorough understanding of these results could help us optimise public health messages, finding the happy medium between highlighting that people need to exercise more, but not to the extent that they become downhearted about the exercise they do get.&lt;/p&gt;
-&lt;p&gt;Further studies will doubtlessly bring us more answers, but before that happens, let’s get up, walk away from the desk, and look at our activity with friendlier eyes than before.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://psycnet.apa.org/record/2017-31316-001&quot;&gt;Perceived physical activity and mortality: Evidence from three nationally representative U.S. samples&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Tomasz Witkowski - doktor psychologii. Pwsin 2006/10/20 fot.K.Zuczkowski&quot; class=&quot;alignleft size-thumbnail wp-image-14208&quot; data-attachment-id=&quot;14208&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Tomasz Witkowski - doktor psychologii.\r\nPwsin 2006\/10\/20\r\nfot.K.Zuczkowski&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Tomasz Witkowski - doktor psychologii.\r\nPwsin 2006\/10\/20\r\nfot.K.Zuczkowski&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Tomasz Witkowski – doktor psychologii. Pwsin 2006/10/20 fot.K.Zuczkowski&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2016/11/img_6069.jpg?w=682&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2016/11/img_6069.jpg?w=100&amp;amp;h=150&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2016/11/img_6069.jpg&quot; data-orig-size=&quot;1181,1772&quot; data-permalink=&quot;https://digest.bps.org.uk/2016/11/24/why-do-we-enjoy-reality-tv-researchers-say-its-more-about-empathy-than-humiliation/tomasz-witkowski-doktor-psychologii-pwsin-20061020fot-k-zuczkowski/&quot; height=&quot;150&quot; src=&quot;https://researchdigest.files.wordpress.com/2016/11/img_6069.jpg?w=100&amp;amp;h=150&quot; width=&quot;100&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Post written by &lt;a href=&quot;https://forbiddenpsychology.wordpress.com/&quot;&gt;Dr Tomasz Witkowski&lt;/a&gt; for the &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;. Tomasz is a psychologist and science writer who specialises in debunking pseudoscience in the field of psychology, psychotherapy and diagnosis. He has published over a dozen books, dozens of scientific papers and over 100 popular articles (some of them in &lt;em&gt;Skeptical Inquirer&lt;/em&gt;). In 2016 his latest book &lt;a href=&quot;https://www.amazon.com/Psychology-Led-Astray-Science-Therapy/dp/1627346090&quot;&gt;&lt;em&gt;Psychology Led Astray: Cargo Cult in Science and Therapy&lt;/em&gt;&lt;/a&gt; was published by BrownWalker Press. He blogs at &lt;a href=&quot;https://forbiddenpsychology.wordpress.com/&quot;&gt;https://forbiddenpsychology.wordpress.com/&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/32582/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/32582/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=32582&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-16T09:26:10+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.23019">
-	<title>Nature News &amp; Comment: Europe sets priorities for hunting cosmic particles</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/Y8RXaojuQWQ/nature.2017.23019</link>
-	<content:encoded>&lt;p&gt;Club of physics funding agencies pushes for projects including a neutrino observatory in the Mediterranean Sea.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.23019&quot;&gt;doi: 10.1038/nature.2017.23019&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/Y8RXaojuQWQ&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-16T00:00:00+00:00</dc:date>
-	<dc:creator>Davide Castelvecchi</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.23001">
-	<title>Nature News &amp; Comment: What countries' constitutions reveal about how societies evolve</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/DuL1ntOcSKE/nature.2017.23001</link>
-	<content:encoded>&lt;p&gt;Analyses of governing documents from 194 countries could help people fighting for human and environmental rights.&lt;/p&gt;&lt;p&gt;Nature News   &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.23001&quot;&gt;doi: 10.1038/nature.2017.23001&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/DuL1ntOcSKE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-16T00:00:00+00:00</dc:date>
-	<dc:creator>Amy Maxmen</dc:creator>
-</item>
-<item rdf:about="http://www.nature.com/doifinder/10.1038/nature.2017.23000">
-	<title>Nature News &amp; Comment: Improved diagnostics fail to halt the rise of tuberculosis</title>
-	<link>http://feeds.nature.com/~r/NatureNewsComment/~3/v5vn30w_OSc/nature.2017.23000</link>
-	<content:encoded>&lt;p&gt;TB remains a big killer despite the development of a better test for detecting the disease.&lt;/p&gt;&lt;p&gt;Nature 551 424 &lt;a href=&quot;http://www.nature.com/doifinder/10.1038/nature.2017.23000&quot;&gt;doi: 10.1038/nature.2017.23000&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureNewsComment/~4/v5vn30w_OSc&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-16T00:00:00+00:00</dc:date>
-	<dc:creator>Ewen Callaway</dc:creator>
 </item>
 
 </rdf:RDF>
