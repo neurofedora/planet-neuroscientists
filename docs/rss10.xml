@@ -16,6 +16,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-3-d-printed-materials-harness-power-bacteria" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/giving-back-the-emerging-role-of-data-and-technology" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/we-still-dont-know-where-first-interstellar-asteroid-came" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52849" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-the-sciencedirect-api-to-increase-visibility-and-access-to-research-articles" />
@@ -114,7 +115,6 @@
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.23033" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.23031" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24661" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature24660" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -125,6 +125,12 @@
 	<content:encoded>The three-dimensional materials contain live bacteria and could generate wound dressings or clean up pollutants.</content:encoded>
 	<dc:date>2017-12-01T19:22:13+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/giving-back-the-emerging-role-of-data-and-technology">
+	<title>Elsevier Connect: Giving back: the emerging role of data and technology</title>
+	<link>https://www.elsevier.com/connect/giving-back-the-emerging-role-of-data-and-technology</link>
+	<content:encoded>December's theme focuses on how we are harnessing untapped knowledge for the benefit of society</content:encoded>
+	<dc:date>2017-12-01T17:10:53+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/we-still-dont-know-where-first-interstellar-asteroid-came">
 	<title>Science News: We still don’t know where the first interstellar asteroid came from</title>
@@ -1068,36 +1074,6 @@ Parameter sets for three neuron types are provided, but further work is needed t
 	<content:encoded>&lt;p&gt;The human gut microbiota produces dozens of metabolites that accumulate in the bloodstream, where they can have systemic effects on the host. Although these small molecules commonly reach concentrations similar to those achieved by pharmaceutical agents, remarkably little is known about the microbial metabolic pathways that produce them. Here we use a combination of genetics and metabolic profiling to characterize a pathway from the gut symbiont Clostridium sporogenes that generates aromatic amino acid metabolites. Our results reveal that this pathway produces twelve compounds, nine of which are known to accumulate in host serum. All three aromatic amino acids (tryptophan, phenylalanine and tyrosine) serve as substrates for the pathway, and it involves branching and alternative reductases for specific intermediates. By genetically manipulating C. sporogenes, we modulate serum levels of these metabolites in gnotobiotic mice, and show that in turn this affects intestinal permeability and systemic immunity. This work has the potential to provide the basis of a systematic effort to engineer the molecular output of the gut bacterial community.&lt;/p&gt;&lt;p&gt;Nature 551 648 &lt;a href=&quot;http://dx.doi.org/10.1038/nature24661&quot;&gt;doi: 10.1038/nature24661&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/LirmVHPUbtA&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-11-22T00:00:00+00:00</dc:date>
 	<dc:creator>Dylan Dodd</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature24660">
-	<title>Nature Biological Sciences Research: Orthogonal muscle fibres have different instructive roles in planarian regeneration</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/abI4WS2dvdc/nature24660</link>
-	<content:encoded>&lt;p&gt;
-             The ability to regenerate missing body parts exists throughout the animal kingdom.
-                Positional information is crucial for regeneration, but how it is harboured and used
-                by differentiated tissues is poorly understood. In planarians, positional
-                information has been identified from study of phenotypes caused by RNA interference
-                in which the wrong tissues are regenerated. For example, inhibition of the Wnt
-                signalling pathway leads to regeneration of heads in place of tails. Characterization of these phenotypes has led to the
-                identification of position control genes (PCGs)—genes that are expressed in
-                a constitutive and regional manner and are associated with patterning. Most PCGs are
-                expressed within planarian muscle; however, how muscle is specified
-                and how different muscle subsets affect regeneration is unknown. Here we show that
-                different muscle fibres have distinct regulatory roles during regeneration in the
-                planarian Schmidtea mediterranea. myoD is required for formation of a
-                specific muscle cell subset: the longitudinal fibres, oriented along the
-                anterior–posterior axis. Loss of longitudinal fibres led to complete
-                regeneration failure because of defects in regeneration initiation. A different
-                transcription factor-encoding gene, nkx1-1, is required for the formation of
-                circular fibres, oriented along the medial–lateral axis. Loss of circular
-                fibres led to a bifurcated anterior–posterior axis with fused heads forming
-                in single anterior blastemas. Whereas muscle is often viewed as a strictly
-                contractile tissue, these findings reveal that different muscle types have distinct
-                and specific regulatory roles in wound signalling and patterning to enable
-                regeneration. 
-        &lt;/p&gt;&lt;p&gt;Nature 551 623 &lt;a href=&quot;http://dx.doi.org/10.1038/nature24660&quot;&gt;doi: 10.1038/nature24660&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/abI4WS2dvdc&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-22T00:00:00+00:00</dc:date>
-	<dc:creator>M. Lucila Scimone</dc:creator>
 </item>
 
 </rdf:RDF>
