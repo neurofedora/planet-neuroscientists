@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9252" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/staring-baby-eyes-brain-waves-sync" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-freezing-soap-bubble-turns-it-snow-globe" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52894" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=7881" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=52872" />
@@ -112,13 +115,34 @@
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.23039" />
 			<rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/nature.2017.23037" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dolly-sheep-bones-normal-arthritis" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=52653" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/report-what-do-researchers-want-in-a-post-brexit-world" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32773" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9252">
+	<title>Discovery magazine - Neuroskeptic: Predicting Suicide: Return of a Scandal (Part 2)</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9252</link>
+	<content:encoded>In the first post in this series, I looked at the work of Swedish psychiatrist Lars Thorell, who has developed a test which, he claims, is able to predict suicides in depressed patients. Thorell's test is called electrodermal orientation reactivity (aka electrodermal hyporeactivity), and while Thorell's work on the technique goes back to the 1980s, it has recently been commercialized by a company called Emotra AB, who named the product EDOR®.
+
+
+
+Previously, I expressed scepticism over the pu</content:encoded>
+	<dc:date>2017-12-05T21:48:02+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/growth-curve/staring-baby-eyes-brain-waves-sync">
+	<title>Science News: Staring into a baby’s eyes puts her brain waves and yours in sync</title>
+	<link>https://www.sciencenews.org/blog/growth-curve/staring-baby-eyes-brain-waves-sync</link>
+	<content:encoded>Brain waves line up when adults and babies lock eyes.</content:encoded>
+	<dc:date>2017-12-05T20:30:02+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/how-freezing-soap-bubble-turns-it-snow-globe">
+	<title>Science News: How freezing a soap bubble turns it into a ‘snow globe’</title>
+	<link>https://www.sciencenews.org/article/how-freezing-soap-bubble-turns-it-snow-globe</link>
+	<content:encoded>Frigid air makes soap bubbles shimmering orbs thanks to surface tension.</content:encoded>
+	<dc:date>2017-12-05T20:00:03+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=52894">
 	<title>Retraction watch: ”Definitely embarrassing:” Nobel Laureate retracts non-reproducible paper in Nature journal</title>
 	<link>http://retractionwatch.com/2017/12/05/definitely-embarrassing-nobel-laureate-retracts-non-reproducible-paper-nature-journal/</link>
@@ -1066,42 +1090,6 @@ Parameter sets for three neuron types are provided, but further work is needed t
 	<content:encoded>Cloning didn’t cause the famous sheep to age prematurely.</content:encoded>
 	<dc:date>2017-11-23T14:00:03+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=52653">
-	<title>Retraction watch: Caught Our Notice: When authors go MIA, the article may follow</title>
-	<link>http://retractionwatch.com/2017/11/23/caught-notice-authors-go-mia-article-may-follow/</link>
-	<content:encoded>&lt;p&gt;Title: IRF9 inhibits human acute myeloid leukemia through the SIRT1-p53 signaling pathway What Caught Our Attention: When authors fail to respond to editors’ requests for information, it isn’t hard to imagine that the submitted manuscript will lose its publishing appeal. In this case, the journal and publisher withdrew the article after “repeated attempts” to contact the authors […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/11/23/caught-notice-authors-go-mia-article-may-follow/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: When authors go MIA, the article may follow&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-11-23T13:00:03+00:00</dc:date>
-	<dc:creator>Alison Abritis</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/report-what-do-researchers-want-in-a-post-brexit-world">
-	<title>Elsevier Connect: Report: What do researchers want in a post-Brexit world?</title>
-	<link>https://www.elsevier.com/connect/report-what-do-researchers-want-in-a-post-brexit-world</link>
-	<content:encoded>Survey by Elsevier and Ipsos MORI reveals that securing funding and continued freedom of movement are high on academics’ wish lists</content:encoded>
-	<dc:date>2017-11-23T10:29:35+00:00</dc:date>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=32773">
-	<title>The British Psychological Society - Research Digest: These are the therapist behaviours that are helpful or harmful, according to clients</title>
-	<link>https://digest.bps.org.uk/2017/11/23/these-are-the-therapist-behaviours-that-are-helpful-or-harmful-according-to-their-clients/</link>
-	<content:encoded>&lt;p&gt;&lt;img alt=&quot;GettyImages-594373291.jpg&quot; class=&quot;alignnone size-full wp-image-32777&quot; data-attachment-id=&quot;32777&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/Ikon Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;This content is subject to copyright.&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Psychotherapist putting depressed woman back together&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Psychotherapist putting depressed woman back together&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-594373291.jpg?w=845?w=778&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-594373291.jpg?w=845?w=228&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-594373291.jpg?w=845&quot; data-orig-size=&quot;1509,1986&quot; data-permalink=&quot;https://digest.bps.org.uk/2017/11/23/these-are-the-therapist-behaviours-that-are-helpful-or-harmful-according-to-their-clients/psychotherapist-putting-depressed-woman-back-together/&quot; src=&quot;https://researchdigest.files.wordpress.com/2017/11/gettyimages-594373291.jpg?w=845&quot; /&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.christianjarrett.com/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Although psychotherapy is effective for many people, it doesn’t help everyone. In fact, in some cases &lt;a href=&quot;https://thepsychologist.bps.org.uk/volume-21/edition-1/when-therapy-causes-harm&quot;&gt;it can do more harm than good&lt;/a&gt;. And while clinical researchers publish many studies into the outcomes of different therapeutic approaches, such as CBT or psychoanalytic psychotherapy, we actually know relatively little about the specific therapist behaviours that clients find beneficial or unwelcome.&lt;/p&gt;
-&lt;p&gt;A &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/jclp.22531/abstract?campaign=woletoc&quot;&gt;new study&lt;/a&gt; in the &lt;em&gt;Journal of Clinical Psychology&lt;/em&gt;, although it involves only a small sample, has broken new ground by asking clients to provide detailed feedback on a second-by-second basis of their experience of a recent therapy session, and to explain their perspective on what took place. Intriguingly, the very same therapist behaviours were sometimes identified as helpful and at other times as a hindrance, showing just what a challenge it is to be a therapist.&lt;/p&gt;
-&lt;p&gt;“It is important to recognise that all therapists are going to make mistakes,” write Joshua Swift at Idaho State University, and his colleagues. “Perhaps the success of the session does not depend on whether errors are made but on the frequency of mistakes and how quickly therapists are able to repair them.”&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-32773&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Swift and his colleagues recruited 16 individuals, most of them women, attending therapy sessions at a training centre for clinical psychologists. They were seeking help for various problems including depression, anxiety and a history of trauma or abuse. The clients each saw one of ten therapists at the clinic (eight were women), who between them either endorsed CBT, person-centred therapy or integrative therapy.&lt;/p&gt;
-&lt;p&gt;The researchers asked the clients to watch back a video recording of their most recent therapy session and equipped them with a dial-rating device, which they could rotate clockwise or counter-clockwise to indicate how helpful or hindering they found each stage of the session on a second-by-second basis (the researchers call this a “micro-process approach”).&lt;/p&gt;
-&lt;p&gt;There was a lot of up and down variability through a session, which the researchers said shows the limitation of client feedback approaches which involve them filling out questionnaires at the end of each session, and which therefore might miss this variability.&lt;/p&gt;
-&lt;p&gt;Using the dial ratings, the researchers identified the three most helpful and three most hindering therapy segments for each client and then asked them to explain what was happening in those moments, and then why they found each moment helpful or hindering.&lt;/p&gt;
-&lt;p&gt;The most helpful therapy moments involved specific treatment techniques, such as times the therapist gave the client a concrete strategy they could use in everyday life; instances when the therapist made connections for the client (such as identifying events that affected their depression symptoms); or helped them process their emotions. Other helpful moments involved fundamental therapist skills, such as listening and expressing empathy, offering support or praise, or when the therapist discussed the process of therapy, including what the client wants from it.&lt;/p&gt;
-&lt;p&gt;The clients said they found these moments helpful because they learned a new skill, felt heard or understood, gained insight and/or were better able to process their emotions.&lt;/p&gt;
-&lt;p&gt;In terms of hindering therapist behaviours, these often seemed the same, superficially at least, as the helpful behaviours, including instances when the therapist listened, attempted to express empathy, or attempted to structure the session. The difference seemed to be in the execution or timing of these behaviours. The clients said they found these moments unhelpful when they were off-topic (for instance, their therapist listened to them “rambling” on about irrelevant details without intervening); when they felt like they were being judged; or they felt it was too soon for them to confront a particular issue.&lt;/p&gt;
-&lt;p&gt;Other unhelpful moments involved the client perceiving that their therapist was giving a perspective that they considered unwelcome (in one case, for example, the therapist suggested it was not a good idea to make long-term decisions when drunk), or their therapist revealed their own perspective through their body language, such as stretching and seeming frazzled.&lt;/p&gt;
-&lt;p&gt;The fact that the same therapist behaviours can be seen as helpful or harmful in different contexts shows, the researchers said, “the delicate balance that therapists must obtain while conducting therapy.”&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/jclp.22531/abstract?campaign=woletoc&quot;&gt;Understanding the client’s perspective of helpful and hindering events in psychotherapy sessions: A micro-process approach&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt; &lt;/a&gt;&lt;strong&gt;(&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/researchdigest.wordpress.com/32773/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/researchdigest.wordpress.com/32773/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=digest.bps.org.uk&amp;amp;blog=114693443&amp;amp;post=32773&amp;amp;subd=researchdigest&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-11-23T10:02:56+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 
 </rdf:RDF>
