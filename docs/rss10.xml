@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/top-favorite-science-books-2017-yir" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23045" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53057" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/marine-mammals-battle-sexes-vaginal-folds-can-make-difference" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32857" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-data-scientists-are-tackling-hunger-and-social-change" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0118-9" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0118-54" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/top-favorite-science-books-2017-yir">
+	<title>Science News: Here are our favorite science books of 2017</title>
+	<link>https://www.sciencenews.org/article/top-favorite-science-books-2017-yir</link>
+	<content:encoded>Science News writers and editors make their picks for top science books of the year.</content:encoded>
+	<dc:date>2017-12-17T12:00:02+00:00</dc:date>
+	<dc:creator>Science News Staff</dc:creator>
+</item>
 <item rdf:about="http://brainblogger.com/?p=23045">
 	<title>Brain Blogger: The Emerging Neuroscience of Mind-Body Medicine</title>
 	<link>http://brainblogger.com/2017/12/16/the-emerging-neuroscience-of-mind-body-medicine/</link>
@@ -1352,18 +1359,6 @@ A series of wavy horizontal lines are shown. All of the lines have exactly the s
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/zCi8pJboOEE&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-12-07T00:00:00+00:00</dc:date>
 	<dc:creator>R. Douglas Fields</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0118-54">
-	<title>Scientific American Mind: Sexual Victimization by Women Is More Common Than Previously Known</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/tvjB-mUAOTw/scientificamericanmind0118-54</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 54 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0118-54&quot;&gt;doi:10.1038/scientificamericanmind0118-54&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Authors: Lara Stemple &amp;amp; Ilan H. Meyer&lt;/p&gt;
-&lt;p&gt;A new study gives a portrait of female perpetrators&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/tvjB-mUAOTw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-12-07T00:00:00+00:00</dc:date>
-	<dc:creator>Lara Stemple</dc:creator>
 </item>
 
 </rdf:RDF>
