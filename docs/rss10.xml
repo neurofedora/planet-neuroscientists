@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/us-life-expectancy-drops-second-year" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/nasa-next-stop-will-be-titan-or-comet" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/deadly-fungus-infecting-snake-species-seemingly-random" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/specks-brain-alzheimers-plaque-forming-protein" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32907" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/in-photos-celebrating-LGBTQ-pride-at-elsevier" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature25157" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/nature25146" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/us-life-expectancy-drops-second-year">
+	<title>Science News: U.S. life expectancy drops for the second year in a row</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/us-life-expectancy-drops-second-year</link>
+	<content:encoded>Life expectancy for the U.S. population decreased in 2016, the second year in a row this measure has dropped.</content:encoded>
+	<dc:date>2017-12-21T05:05:01+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/nasa-next-stop-will-be-titan-or-comet">
 	<title>Science News: NASA’s next stop will be Titan or a comet</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/nasa-next-stop-will-be-titan-or-comet</link>
@@ -1309,39 +1316,6 @@ However, Van Noorden reports that these estimates are far too high. For recent p
 &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature25157&quot;&gt;doi: 10.1038/nature25157&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/ZfFdaltRly8&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-12-13T00:00:00+00:00</dc:date>
 	<dc:creator>Gabriel L. Butterfield</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/nature25146">
-	<title>Nature Biological Sciences Research: Dynamics of phosphoinositide conversion in clathrin-mediated endocytic traffic</title>
-	<link>http://feeds.nature.com/~r/NatureBiologicalSciencesResearch/~3/aXJOy-_7Eco/nature25146</link>
-	<content:encoded>&lt;p&gt;
-             Vesicular carriers transport proteins and lipids from one organelle to another,
-                recognizing specific identifiers for the donor and acceptor membranes. Two important
-                identifiers are phosphoinositides and GTP-bound GTPases, which provide well-defined
-                but mutable labels. Phosphatidylinositol and its phosphorylated derivatives are
-                present on the cytosolic faces of most cellular membranes.
-                Reversible phosphorylation of its headgroup produces seven distinct
-                phosphoinositides. In endocytic traffic, phosphatidylinositol-4,5-biphosphate marks
-                the plasma membrane, and phosphatidylinositol-3-phosphate and
-                phosphatidylinositol-4-phosphate mark distinct endosomal compartments. It is unknown what sequence of changes in lipid content confers
-                on the vesicles their distinct identity at each intermediate step. Here we describe
-                ‘coincidence-detecting’ sensors that selectively report the
-                phosphoinositide composition of clathrin-associated structures, and the use of these
-                sensors to follow the dynamics of phosphoinositide conversion during endocytosis.
-                The membrane of an assembling coated pit, in equilibrium with the surrounding plasma
-                membrane, contains phosphatidylinositol-4,5-biphosphate and a smaller amount of
-                phosphatidylinositol-4-phosphate. Closure of the vesicle interrupts free exchange
-                with the plasma membrane. A substantial burst of phosphatidylinositol-4-phosphate
-                immediately after budding coincides with a burst of
-                phosphatidylinositol-3-phosphate, distinct from any later encounter with the
-                phosphatidylinositol-3-phosphate pool in early endosomes;
-                phosphatidylinositol-3,4-biphosphate and the GTPase Rab5 then appear and remain as
-                the uncoating vesicles mature into Rab5-positive endocytic intermediates. Our
-                observations show that a cascade of molecular conversions, made possible by the
-                separation of a vesicle from its parent membrane, can label membrane-traffic
-                intermediates and determine their destinations. 
-        &lt;/p&gt;&lt;p&gt;Nature   &lt;a href=&quot;http://dx.doi.org/10.1038/nature25146&quot;&gt;doi: 10.1038/nature25146&lt;/a&gt;&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/NatureBiologicalSciencesResearch/~4/aXJOy-_7Eco&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-12-13T00:00:00+00:00</dc:date>
-	<dc:creator>Kangmin He</dc:creator>
 </item>
 
 </rdf:RDF>
