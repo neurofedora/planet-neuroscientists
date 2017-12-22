@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/boy-robot-passes-agility-tests" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53130" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53125" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-news-if-true-science-2017-yir" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nutrition-climate-change-top-science-stories-2017-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/car-t-cell-gene-therapy-top-science-stories-2017-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cte-brain-damage-football-players-top-science-stories-2017-yir" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/zika-virus-top-science-stories-2017-yir" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/boy-robot-passes-agility-tests">
+	<title>Science News: Boy robot passes agility tests</title>
+	<link>https://www.sciencenews.org/article/boy-robot-passes-agility-tests</link>
+	<content:encoded>Anatomically accurate humanlike robots pave the way for more sophisticated prosthetics and realistic crash-test dummies.</content:encoded>
+	<dc:date>2017-12-21T21:13:22+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=53130">
 	<title>Retraction watch: Elsevier retracting 26 papers accepted because of fake reviews</title>
 	<link>http://retractionwatch.com/2017/12/21/elsevier-retracting-26-papers-accepted-fake-reviews/</link>
@@ -1345,13 +1352,6 @@ However, Van Noorden reports that these estimates are far too high. For recent p
 	<content:encoded>Examinations of NFL players’ postmortem brains turned up chronic traumatic encephalopathy in 99 percent of samples in large dataset.</content:encoded>
 	<dc:date>2017-12-13T13:26:40+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/zika-virus-top-science-stories-2017-yir">
-	<title>Science News: Zika cases are down, but researchers prepare for the virus’s return</title>
-	<link>https://www.sciencenews.org/article/zika-virus-top-science-stories-2017-yir</link>
-	<content:encoded>The number of Zika cases in the Western Hemisphere have dropped this year, but the need for basic scientific and public health research of the virus remains strong.</content:encoded>
-	<dc:date>2017-12-13T13:26:13+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
 
 </rdf:RDF>
