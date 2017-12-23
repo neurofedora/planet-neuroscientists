@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=53163" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/7c0c8627018a8e8a9cf81c05ba2c08e5" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/science-kids-belief-santa" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/man-flu-struggle-might-be-real-says-one-researcher" />
@@ -114,11 +115,18 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53026" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-top-science-stories-editor-letter-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/top-science-stories-2017-yir" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/neutron-star-collision-top-science-stories-2017-yir" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=53163">
+	<title>Retraction watch: Weekend Reads: A journal apologizes; how to win a Nobel; changes at the top for top journals</title>
+	<link>http://retractionwatch.com/2017/12/23/weekend-reads-journal-apologizes-win-nobel-changes-top-top-journals/</link>
+	<content:encoded>&lt;p&gt;The week at Retraction Watch featured the year’s top 10 retractions, more than two dozen retractions at Elsevier for fake peer review, and the resignations of two editors in chief over a controversial paper. Here’s what was happening elsewhere: “A search of other reviews in the journal by Professor Milward…reveals at least 13 previous mentions […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/12/23/weekend-reads-journal-apologizes-win-nobel-changes-top-top-journals/&quot; rel=&quot;nofollow&quot;&gt;Weekend Reads: A journal apologizes; how to win a Nobel; changes at the top for top journals&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-12-23T13:50:41+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="http://brainsciencepodcast.libsyn.com/7c0c8627018a8e8a9cf81c05ba2c08e5">
 	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 140 Brain Science Review of 2017</title>
 	<link>http://brainsciencepodcast.libsyn.com/bs-140-brain-science-review-of-2017</link>
@@ -1414,13 +1422,6 @@ However, Van Noorden reports that these estimates are far too high. For recent p
 	<content:encoded>A gravitational wave discovery is the year's biggest science story — again.</content:encoded>
 	<dc:date>2017-12-13T13:32:15+00:00</dc:date>
 	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/neutron-star-collision-top-science-stories-2017-yir">
-	<title>Science News: This year’s neutron star collision unlocks cosmic mysteries</title>
-	<link>https://www.sciencenews.org/article/neutron-star-collision-top-science-stories-2017-yir</link>
-	<content:encoded>A rare and long-awaited astronomical event united thousands of astronomers in a frenzy of observations.</content:encoded>
-	<dc:date>2017-12-13T13:31:35+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
