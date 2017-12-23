@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/7c0c8627018a8e8a9cf81c05ba2c08e5" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/science-kids-belief-santa" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/man-flu-struggle-might-be-real-says-one-researcher" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23202" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-top-science-stories-editor-letter-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/top-science-stories-2017-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/neutron-star-collision-top-science-stories-2017-yir" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/crispr-gene-editing-top-science-stories-2017-yir" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://brainsciencepodcast.libsyn.com/7c0c8627018a8e8a9cf81c05ba2c08e5">
+	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 140 Brain Science Review of 2017</title>
+	<link>http://brainsciencepodcast.libsyn.com/bs-140-brain-science-review-of-2017</link>
+	<content:encoded>&lt;p&gt;BS 140 is our 11th Annual Review episode. We look back at the highlights from 2017. New listeners will get a good feel for the ideas and guests that appeared, while regular listeners will have a chance to review a few key ideas. This year I also include a few highlights from the 2017 annual meeting of the Society for Neuroscience.&lt;/p&gt; &lt;p&gt;Please visit &lt;a href=&quot;http://brainsciencepodcast.com&quot;&gt;http://brainsciencepodcast.com&lt;/a&gt; for detailed show notes and episode transcripts.&lt;/p&gt; &lt;p&gt;Listeners can get a free month of access to The Great Courses at &lt;a href=&quot;http://thegreatcourses.com/ginger&quot;&gt;http://thegreatcourses.com/ginger&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Send email feedback to brainsciencepodcast@gmail.com.&lt;/p&gt;</content:encoded>
+	<dc:date>2017-12-22T22:02:06+00:00</dc:date>
+	<dc:creator>Ginger Campbell, MD</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/growth-curve/science-kids-belief-santa">
 	<title>Science News: The science behind kids’ belief in Santa</title>
 	<link>https://www.sciencenews.org/blog/growth-curve/science-kids-belief-santa</link>
@@ -1414,13 +1421,6 @@ However, Van Noorden reports that these estimates are far too high. For recent p
 	<content:encoded>A rare and long-awaited astronomical event united thousands of astronomers in a frenzy of observations.</content:encoded>
 	<dc:date>2017-12-13T13:31:35+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/crispr-gene-editing-top-science-stories-2017-yir">
-	<title>Science News: CRISPR gene editing moved into new territory in 2017</title>
-	<link>https://www.sciencenews.org/article/crispr-gene-editing-top-science-stories-2017-yir</link>
-	<content:encoded>Scientists edited viable human embryos with CRISPR/Cas9 this year.</content:encoded>
-	<dc:date>2017-12-13T13:30:53+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
