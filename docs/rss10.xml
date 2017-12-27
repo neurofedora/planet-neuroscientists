@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://brainpodcast.com/post/168975525474" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53167" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53155" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/space-missions-science-2017-yir" />
@@ -114,11 +115,16 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9662" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32909" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fracking-linked-low-birth-weight-pennsylvania-babies" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/federal-maps-underestimate-flood-risk-tens-millions-people-scientists-warn" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://brainpodcast.com/post/168975525474">
+	<title>Brain matters the Podcast: On this (50th!) episode of Brain Matters, Anthony talks to Dr....</title>
+	<link>http://brainpodcast.com/post/168975525474</link>
+	<content:encoded>&lt;br /&gt;&lt;br /&gt;&lt;p&gt;On this (50th!) episode of Brain Matters, Anthony talks to Dr. Fred Wolf (Assistant Professor, UC Merced). Dr. Wolf is interested in how alcohol and other drugs of abuse change our genes when we take them. Using the fruit fly as a model organism, he is able to use powerful techniques to delve into the complex relationship between drugs, genes, and behavior.&lt;/p&gt;&lt;p&gt;Dr. Wolf helps run his own biology podcast, &lt;a href=&quot;http://radiobio.net&quot; target=&quot;_blank&quot;&gt;RadioBio&lt;/a&gt;, with graduate students at UC Merced.&lt;/p&gt;&lt;p&gt;The music on today’s podcast was by &lt;a href=&quot;https://kolezanka.bandcamp.com/&quot; target=&quot;_blank&quot;&gt;koleżanka&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Listen and subscribe on &lt;a href=&quot;https://itunes.apple.com/us/podcast/brain-matters/id730239508?mt=2&quot; target=&quot;_blank&quot;&gt;iTunes&lt;/a&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2017-12-26T22:29:40+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=53167">
 	<title>Retraction watch: Former director earns two-year funding ban after misconduct finding</title>
 	<link>http://retractionwatch.com/2017/12/26/former-director-earns-two-year-funding-ban-misconduct-finding/</link>
@@ -1393,13 +1399,6 @@ However, Van Noorden reports that these estimates are far too high. For recent p
 	<content:encoded>Babies born to moms living within one kilometer of a hydraulic fracturing site were more likely to be born underweight, researchers say.</content:encoded>
 	<dc:date>2017-12-13T22:55:08+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/federal-maps-underestimate-flood-risk-tens-millions-people-scientists-warn">
-	<title>Science News: Federal maps underestimate flood risk for tens of millions of people, scientists warn</title>
-	<link>https://www.sciencenews.org/article/federal-maps-underestimate-flood-risk-tens-millions-people-scientists-warn</link>
-	<content:encoded>New flood maps suggest that the U.S. government underestimates how many people live in floodplains.</content:encoded>
-	<dc:date>2017-12-13T20:13:10+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
