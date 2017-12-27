@@ -533,6 +533,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>The Spike</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://medium.com/the-spike?source=rss----c92c31591e3a---4">
+					<dc:title>The Spike - Medium</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>UH Biocomputation group</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://biocomputation.herts.ac.uk/">
