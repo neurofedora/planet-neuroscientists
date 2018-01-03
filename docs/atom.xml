@@ -5,8 +5,108 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-01-03T12:00:35+00:00</updated>
+	<updated>2018-01-03T18:00:37+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Lead author changes co-author’s name on a paper without his permission. Why?</title>
+		<link href="http://retractionwatch.com/2018/01/03/lead-author-changes-co-authors-name-paper-without-permission/"/>
+		<id>http://retractionwatch.com/?p=53282</id>
+		<updated>2018-01-03T17:25:57+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Here’s a rather odd case: A postdoctoral researcher says his former boss changed his name on a paper without his permission. According to the postdoc, Antonio Herrera-Merchan, his principal investigator at University of Granada insisted on the name change to distance them both from a scandal in Herrera-Merchan’s previous lab. After publishing a paper in […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2018/01/03/lead-author-changes-co-authors-name-paper-without-permission/&quot; rel=&quot;nofollow&quot;&gt;Lead author changes co-author’s name on a paper without his permission. Why?&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>Victoria Stern</name>
+			<uri>http://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>http://retractionwatch.com</id>
+			<updated>2018-01-03T18:00:33+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Nerd Food: The Refactoring Quagmire</title>
+		<link href="http://mcraveiro.blogspot.com/2018/01/nerd-food-refactoring-quagmire.html"/>
+		<id>tag:blogger.com,1999:blog-2672427473119923109.post-8495274940075950771</id>
+		<updated>2018-01-03T15:55:24+00:00</updated>
+		<content type="html">
+ Nerd Food: The Refactoring Quagmire&lt;div id=&quot;content&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DomainDrivenConsulting/dogen/blob/master/doc/agile/v1/sprint_backlog_07.org&quot;&gt;The latest Dogen sprint&lt;/a&gt; turned out to be a really long and tortuous one, which is all the more perplexing given the &lt;a href=&quot;https://github.com/DomainDrivenConsulting/dogen/blob/master/doc/agile/v1/sprint_backlog_06.org&quot;&gt;long&lt;/a&gt; &lt;a href=&quot;https://github.com/DomainDrivenConsulting/dogen/blob/master/doc/agile/v1/sprint_backlog_05.org&quot;&gt;list&lt;/a&gt; of &lt;a href=&quot;https://github.com/DomainDrivenConsulting/dogen/blob/master/doc/agile/v1/sprint_backlog_04.org&quot;&gt;hard&lt;/a&gt;&lt;a href=&quot;https://github.com/DomainDrivenConsulting/dogen/blob/master/doc/agile/v1/sprint_backlog_03.org&quot;&gt;sprints&lt;/a&gt; that preceded it. Clearly, the slope of the curve is steepening unrelentingly. Experience teaches that whenever you find yourself wandering over such terrains, it is time to stop and gather your thoughts; more likely than not, you are going the wrong way - fast. &lt;/p&gt; &lt;p&gt;Thus, for Dogen, this a post of reflection. To the casual reader - if nothing else - it will hopefully serve as a cautionary tale. &lt;/p&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-1&quot;&gt;&lt;h2 id=&quot;sec-1&quot;&gt;Not Even Wrong&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;&lt;p&gt;If you are one of the lucky few internauts who avidly follows our release notes, you may recall that the &lt;a href=&quot;https://github.com/DomainDrivenConsulting/dogen/releases/tag/v1.0.06&quot;&gt;previous sprint&lt;/a&gt; had produced a moment of enlightenment where we finally understood &lt;code&gt;yarn&lt;/code&gt; as &lt;i&gt;the&lt;/i&gt;core of Dogen. At the time, it felt like one of those rare &lt;i&gt;eureka&lt;/i&gt;moments, and &quot;the one last great change to the architecture&quot;; afterwards, all would be light. &quot;Famous last words&quot;, you may have said then and, of course, if you did, you were right. But given the historical context, the optimism wasn't entirely unjustified. To understand why, we need to quickly recap how the architecture has evolved over time. &lt;/p&gt; &lt;p&gt;Dogen started out divided into three very distinct parts: the frontends (Dia, JSON), the middle-end (&lt;code&gt;yarn&lt;/code&gt;) and the backends (C++, C#). The &quot;pipeline&quot; metaphor guided our design because we saw Dogen very much like a compiler, with its frontend, middle-end and backend stages. This was very handy as it meant we could test all stages of the pipeline in isolation. Composition was done by orchestrating frontend, middle-end and backends, at a higher level. This architecture had very good properties when it came to testability and debuggability: we'd start by running the entire pipeline and locating the problem; then, one could easily isolate the issue to a specific component either by looking at the log file, or by dumping the inputs and outputs of the different stages and sifting through them. As a result, bug reproduction was very straightforward since we just needed to record the inputs and create the test at the right level. Whilst the names of the models and their responsibilities changed over time, the overall pipeline architecture remained so since the very early days of Dogen. &lt;/p&gt; &lt;p&gt;In parallel to this, a second trend had emerged over the last ten sprints or so: we moved more and more functionality from the frontends and backends to the middle-end. The key objective here was &lt;a href=&quot;https://en.wikipedia.org/wiki/Don%2527t_repeat_yourself&quot;&gt;DRY&lt;/a&gt;: we soon found a lot of commonalities between frontends, driving us to create a simple frontend intermediate format so that the work was carried out only once. Not long after, we discovered that backends suffered from precisely the same malaise, so the same cure begun to be applied there too. So far so good, as we were following &lt;a href=&quot;http://www.dmi.usherb.ca/~sgiroux/COURS/2008/ift785/fichiers/articles/Roberts_EvolvingFrameworks.pdf&quot;&gt;Roberts and Johnson's&lt;/a&gt; sage advice: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;People develop abstractions by generalizing from concrete examples. Every attempt to determine the correct abstractions on paper without actually developing a running system is doomed to failure. No one is that smart. A framework is a reusable design, so you develop it by looking at the things it is supposed to be a design of. The more examples you look at, the more general your framework will be. &lt;/p&gt;&lt;/blockquote&gt; &lt;p&gt;The literature was with us and the wind was on our sails: the concrete code in the frontends and backends was slowly cleaned up, made general and moved across to the middle-end. As this process took hold, the middle-end grew and grew in size and responsibilities, just as everybody else shed them. Before long, we ended up with one big model, a couple medium-sized models and lots of very small models: &quot;modelets&quot;, we named them. These were models with very little responsibility other than gluing together one or two things. The overhead of maintaining a physical component (e.g. static or dynamic library) for the sake of one or two classes seemed a tad too high. &lt;/p&gt; &lt;p&gt;As we begun to extrapolate the trend somewhat, a vision suddenly appeared: why not centralise &lt;b&gt;everything&lt;/b&gt; in the middle-end? That is: &lt;/p&gt; &lt;ul class=&quot;org-ul&quot;&gt;&lt;li&gt;place &lt;b&gt;all&lt;/b&gt; meta-models and transforms in one single central location, together with their orchestration; call it the &quot;core model&quot;; &lt;/li&gt;&lt;li&gt;orchestration becomes either helper code or a transform in its own right; &lt;/li&gt;&lt;li&gt;within this &quot;core model&quot;, provide interfaces that backends and frontends implement, injecting them dynamically; &lt;/li&gt;&lt;li&gt;make these new interfaces appear as transform chains themselves (mostly). &lt;/li&gt;&lt;/ul&gt; &lt;p&gt;In this elegant and clean brave new world, we would no longer have &quot;ends&quot; as such but something more akin to &quot;plugins&quot;, dynamically glued into the &quot;middle-end&quot; via the magic of dependency injection; the &quot;middle-end&quot; itself would no longer be a &quot;middle&quot; but &lt;i&gt;the&lt;/i&gt; center of everything. Backends and frontends had to merely implement the interfaces supplied by the core and the system would just magically sort itself out. The idea seemed amazing and we quickly moved to implementation. &lt;/p&gt; &lt;p&gt;Alas, in our haste to jump into the fray, we had forgotten to heed Mencken: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;[T]here is always a well-known solution to every human problem — neat, plausible, and wrong. &lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-2&quot;&gt;&lt;h2 id=&quot;sec-2&quot;&gt;The Strange Loop&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;&lt;p&gt;One of the biggest downsides of working alone and in your spare time is the lack of feedback from other developers. And it's not even just that other developers will teach you lots of new things. No, most often than not, they'll simply drag you away from the echo chambers and tunnels of self-reinforcement you carefully craft and curate for yourself. You are your own intellectual jailer. &lt;/p&gt; &lt;p&gt;In the cold light of day, any developer will tell you that creating cycles is not a good idea, and should not be done without a great deal of thought. Yet, we managed to create &quot;circular&quot; dependencies between all components of the system by centralising all responsibilities into &lt;code&gt;yarn&lt;/code&gt;. Now, you may say that these are not &quot;canonically circular&quot; - and this is probably why the problem was not picked up in the first place - because &lt;code&gt;yarn&lt;/code&gt; provides interfaces for other models to implement. Well, &lt;a href=&quot;https://www.amazon.co.uk/Large-Scale-C-Software-Design-APC/dp/0201633620&quot;&gt;Lakos&lt;/a&gt; is very helpful here in explaining what is going on: our &lt;i&gt;logical design&lt;/i&gt; had no cycles - because &lt;code&gt;yarn&lt;/code&gt; does not explicitly call any frontends or backends - but the &lt;i&gt;physical design&lt;/i&gt;did have them. And these came at a cost. &lt;/p&gt; &lt;p&gt;For starters, it screwed up &lt;a href=&quot;https://the-whiteboard.github.io/coding/debugging/2016/04/07/reasonable-code.html&quot;&gt;reasonability&lt;/a&gt;. Even though frontends and backends still had their own models, the net result was that we jumbled up all of the elements of the pipeline into a single model, making it really hard to tell what's what. Explaining the system to a new developer now required saying things such as &quot;ah, don't worry about that part for now, it belongs to the middle-end, but here we are dealing only with the backends&quot; - a clear code smell. Once a property of the architecture, reasonability now had to be conveyed in lossy natural language. Testability and debuggability got screwed up too because now everything went through one single central model; if you needed to test a frontend fix you still required building the backends and middle-end and initialise them too. Our pursuit of clarity muddied up the waters. &lt;/p&gt; &lt;p&gt;To make matters worse, an even more pertinent question arose: just when exactly should you stop refactoring? In my two decades of professional development, I had never encountered this problem. In the real world, you are fortunate if you get a tiny amount of time allocated to refactoring - most of the time you need to somehow sneak it in into some overall estimate and hope no one notices. Like sharks, Project Managers (PM) are bred to smell refactoring efforts from a mile a way and know how to trim estimates down to the bone. Even when you are in a greenfield project or just lucky enough to have an enlightened PM who will bat for you, you still need to contend with the realities of corporate development: you need to ship, &lt;i&gt;now&lt;/i&gt;. No one gets away with endless refactoring. No one, that is, other than the Free and Open Source Software Developer. &lt;/p&gt; &lt;p&gt;Like many a spare time project, Dogen is my test bed of ideas around coding and coding processes; a general sandbox to have fun outside of work. As such - and very much by design - the traditional feedback loops that exist in the real world need not apply. I wanted to see what would happen if you coded without &lt;i&gt;any&lt;/i&gt; constraints and, in the end, what I found out was that if you do not self-impose some kind of halting machinery, &lt;i&gt;you will refactor on forever&lt;/i&gt;. In practice, physics still apply, so your project will eventually die out because its energy will dissipate across the many refactoring fronts and entropy will, as always, triumph. But if you really want to keep it at bay, at least for a little while, you need to preserve energy by having one single, consistent vision - &quot;wrong&quot; as it may be according to some metric or other. For, as Voltaire said and we often forget, &quot;le mieux est l'ennemi du bien&quot;. &lt;/p&gt; &lt;p&gt;The trouble is that refactoring is made up of a set of engineering trade-offs, and when you optimise for one thing you'll inevitably make something else worse. So, first and foremost, you need to make sure you understand what your trade-offs are, and prioritise accordingly. Secondly, looking for a global minima in such a gigantic multidimensional space is impossible, so you need to make do with local minima. But how do you known you reach a &quot;good enough&quot; point in that space? You need some kind of conceptual cost function. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-3&quot;&gt;&lt;h2 id=&quot;sec-3&quot;&gt;Descending the Gradient&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;&lt;p&gt;So it was that we started by defining the key dimensions across which we were trying to optimise. This can be phrased slightly differently: given what we now know about the domain and its implementation, what are the most important characteristics of an idealised physical and logical design? &lt;/p&gt; &lt;p&gt;After some thinking, the final answer was deceptively simple: &lt;/p&gt; &lt;ul class=&quot;org-ul&quot;&gt;&lt;li&gt;the entities of the logical design (models, namespaces, classes, methods and the like) should reflect what one reads in the literature of Model Driven Engineering (MDE). That is, a person competent on the field should find a code base that talks his or her language. &lt;/li&gt;&lt;li&gt;logical and physical design should promote reasonability and isolation, and thus orchestration should be performed via composition rather than by circular physical dependencies. &lt;/li&gt;&lt;/ul&gt; &lt;p&gt;For now, these are the two fundamental pillars guiding the Dogen architecture; any engineering trade-offs to be made must ensure these dimensions take precedence. In other words, we can only optimise away any &quot;modelets&quot; if they do not impact negatively either of these two dimensions. If they do, then we must discard this refactoring option. More generally, it is now possible to &quot;cost&quot; all refactoring activity - a conceptual refactoring gradient descent if you'd like; it either brings us closer to the local minima or further away. It gave us a sieve with which to filter the product and sprint backlogs. &lt;/p&gt; &lt;p&gt;To cut a rather long story short, we ended up with a &quot;final&quot; - ha, ha - set of changes to the architecture to get us closer to the local minima: &lt;/p&gt; &lt;ul class=&quot;org-ul&quot;&gt;&lt;li&gt;&lt;b&gt;move away from sewing terms&lt;/b&gt;: from the beginning we had used terms such as &lt;code&gt;knitter&lt;/code&gt;, &lt;code&gt;yarn&lt;/code&gt; and so forth. These were… colourful, but did not add any value and detracted us from the first dimension. This was a painful decision but clearly required if one is to comply to point one above: we need to replace all sewing terms with domain specific vocabulary. &lt;/li&gt;&lt;li&gt;&lt;b&gt;reorganise the models into a pipeline&lt;/b&gt;: however, instead of simply going back to the &quot;modelets&quot; of the past, we need to have a deep think as to what responsibilities belong at what stage of the pipeline. Perhaps the &quot;modelets&quot; were warning us of design failures. &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-4&quot;&gt;&lt;h2 id=&quot;sec-4&quot;&gt;Conclusion&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;&lt;p&gt;Its never a great feeling when you end a long and arduous sprint only to figure out you were going in the wrong direction in design space. In fact, it is rather frustrating. We have many stories in the product backlog which are really exciting and which will add real value to the end users - well, at this point, just us really but hey - yet we seemed to be lost in some kind of refactoring ground hog day, with no end in sight. However, the main point of Dogen is to teach, and learn we undoubtedly did. &lt;/p&gt; &lt;p&gt;As with anything in the physical world, nothing in software engineering exists in splendid perfection like some kind of platonic solid. Perfection belongs to the realm of maths. In engineering, something can only be described as &quot;fit for purpose&quot;, and to do so requires to first determine best we can what that purpose might be. So, before you wonder into a refactoring quagmire of your own making, be sure to have a very firm idea of what your trade-offs are. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;status&quot; id=&quot;postamble&quot;&gt;&lt;p class=&quot;date&quot;&gt;Created: 2018-01-03 Wed 15:55&lt;/p&gt;&lt;p class=&quot;creator&quot;&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;Emacs&lt;/a&gt; 25.2.2 (&lt;a href=&quot;http://orgmode.org&quot;&gt;Org&lt;/a&gt; mode 8.2.10)&lt;/p&gt;&lt;p class=&quot;validation&quot;&gt;&lt;a href=&quot;http://validator.w3.org/check?uri=referer&quot;&gt;Validate&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content>
+		<author>
+			<name>Marco Craveiro</name>
+			<email>noreply@blogger.com</email>
+			<uri>http://mcraveiro.blogspot.com/</uri>
+		</author>
+		<source>
+			<title type="html">Marco Craveiro</title>
+			<link rel="self" href="http://www.blogger.com/feeds/2672427473119923109/posts/default"/>
+			<id>tag:blogger.com,1999:blog-2672427473119923109</id>
+			<updated>2018-01-03T15:55:23+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Caught Our Notice: Unusual — journal flags paper for concerns, then updates them</title>
+		<link href="http://retractionwatch.com/2018/01/03/caught-notice-unusual-journal-flags-paper-concerns-updates/"/>
+		<id>http://retractionwatch.com/?p=53235</id>
+		<updated>2018-01-03T14:01:22+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Title: Filled and peptide-modified single-walled carbon nanotubes: synthesis, characterization, and in vitro test for cancer cell targeting What Caught Our Attention: After an expression of concern (EOC) is published in a journal, the usual procedure is to either publish a subsequent correction or retraction — or, unfortunately, leave it sit ad infinitum. But apparently, there’s […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2018/01/03/caught-notice-unusual-journal-flags-paper-concerns-updates/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: Unusual — journal flags paper for concerns, then updates them&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>Alison Abritis</name>
+			<uri>http://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>http://retractionwatch.com</id>
+			<updated>2018-01-03T18:00:33+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Ask AI: How not to kill online conversations</title>
+		<link href="https://www.sciencenews.org/article/ask-ai-how-not-kill-online-conversations"/>
+		<id>https://www.sciencenews.org/article/ask-ai-how-not-kill-online-conversations</id>
+		<updated>2018-01-03T14:00:02+00:00</updated>
+		<content type="html">
+ Tips on not being a conversation-killer, courtesy of an AI that studied over 60,000 Reddit threads.</content>
+		<author>
+			<name>Maria Temming</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-01-03T18:00:32+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Robot fish shows how the deepest vertebrate in the sea takes the pressure</title>
+		<link href="https://www.sciencenews.org/article/robot-fish-shows-how-deepest-vertebrate-sea-takes-pressure"/>
+		<id>https://www.sciencenews.org/article/robot-fish-shows-how-deepest-vertebrate-sea-takes-pressure</id>
+		<updated>2018-01-03T12:00:03+00:00</updated>
+		<content type="html">
+ Tests with a robot snailfish reveal why the deep-sea fish has mysterious goo in its body.</content>
+		<author>
+			<name>Susan Milius</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-01-03T18:00:32+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Here’s what the evidence shows about the links between creativity and depression</title>
@@ -86,7 +186,7 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -99,13 +199,13 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
  Jazz musicians’ creativity linked to brain dexterity.</content>
 		<author>
 			<name>Kimber Price</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -118,13 +218,13 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
  The International Astronomical Union has released 86 newly official star names, based, in part, on historical star names from various indigenous cultures.</content>
 		<author>
 			<name>Mariah Quintanilla</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -134,7 +234,7 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
 		<id>http://retractionwatch.com/?p=53227</id>
 		<updated>2018-01-02T13:00:49+00:00</updated>
 		<content type="html">
- &lt;p&gt;A university in Japan has found a former professor guilty of falsifying and altering images in four published papers, including a 2014 paper about stem cells. On Dec. 15, Tottori University announced the results of its misconduct investigation, in which the cancer researcher, Miura Norimasa, confessed to altering images in the four papers. According to […]&lt;/p&gt;
+ &lt;p&gt;A university in Japan has found a former professor guilty of falsifying and altering images in four published papers, including a 2014 paper about stem cells. On Dec. 15, Tottori University announced the results of its misconduct investigation, in which the cancer researcher, Norimasa Miura, confessed to altering images in the four papers. According to […]&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2018/01/02/university-japan-finds-cancer-researcher-guilty-misconduct/&quot; rel=&quot;nofollow&quot;&gt;University in Japan finds cancer researcher guilty of misconduct&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
 		<author>
 			<name>Victoria Stern</name>
@@ -145,7 +245,7 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -158,13 +258,13 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
  The subduction of an ancient tectonic plate may be the driving force behind Yellowstone’s volcanic eruptions.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -215,7 +315,7 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -273,7 +373,7 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
 			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
 			<link rel="self" href="http://brainblogger.com/feed/"/>
 			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -512,7 +612,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -550,7 +650,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
 			<link rel="self" href="http://brainblogger.com/feed/"/>
 			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -571,7 +671,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -584,13 +684,13 @@ Normally, patients who have been in a vegetative state for more than a year are 
  Cassini’s demise, cuttlefish and the Curiosity rover topped our list of most popular videos of 2017.</content>
 		<author>
 			<name>Helen Thompson</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -611,7 +711,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -632,7 +732,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -691,7 +791,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-01-03T00:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -704,13 +804,13 @@ Normally, patients who have been in a vegetative state for more than a year are 
  Synthetic DNA has come a long way since it arrived on the scene half a century ago.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -723,13 +823,13 @@ Normally, patients who have been in a vegetative state for more than a year are 
  Each year Science News selects the top stories for their importance and impact. But the staff’s favorite stories strike a different chord.</content>
 		<author>
 			<name>Kate Travis</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -777,7 +877,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
 			<link rel="self" href="http://brainblogger.com/feed/"/>
 			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -832,13 +932,13 @@ Normally, patients who have been in a vegetative state for more than a year are 
  From giant African elephants to tiny tardigrades, scientists discovered some surprising biology this year.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -859,7 +959,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 Brain Matters is produced by neuroscience graduate students at The University of Texas at Austin.</subtitle>
 			<link rel="self" href="http://brainpodcast.com/rss"/>
 			<id>http://brainpodcast.com/</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -914,13 +1014,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Missions to Jupiter and Saturn made big headlines, and 2017 also saw exciting updates from missions of years past.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1051,13 +1151,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Children’s belief in Santa is strong — until it isn’t anymore, usually at around age 8.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1070,13 +1170,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  A researcher reviews the evidence for gender bias among flu viruses in the BMJ’s lighthearted holiday edition.</content>
 		<author>
 			<name>Helen Thompson</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1129,7 +1229,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
 			<link rel="self" href="http://brainblogger.com/feed/"/>
 			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1163,13 +1263,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Young loggerhead turtles can end up in very different places in the Atlantic depending on when they hatch.</content>
 		<author>
 			<name>Sarah Zielinski</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1256,13 +1356,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Anatomically accurate humanlike robots pave the way for more sophisticated prosthetics and realistic crash-test dummies.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1303,7 +1403,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-01-03T12:00:32+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1337,13 +1437,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Some findings reported in 2017 are potentially big news, if they hold up to additional scientific scrutiny.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1421,13 +1521,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Life expectancy for the U.S. population decreased in 2016, the second year in a row this measure has dropped.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1440,13 +1540,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  The finalists for NASA’s next solar system mission aim to send a drone to Saturn’s largest moon or to return samples from a comet.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1459,13 +1559,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  A fungal disease doesn’t appear to discriminate among snake species, suggesting many of the reptiles may be at risk.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1478,13 +1578,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Globs of an inflammatory protein can spur the formation of amyloid-beta clumps, a study in mice shows.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1497,13 +1597,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  The neutron star collision whose gravitational waves were detected is still glowing in radio waves. The source of those waves might be a new phenomenon.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1584,7 +1684,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
 			<link rel="self" href="http://brainblogger.com/feed/"/>
 			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1617,48 +1717,6 @@ The direct targets of the accumbal projections, notably the ventral tegmental ar
 			<link rel="self" href="http://feeds.plos.org/plos/blogs/neuro"/>
 			<id>http://blogs.plos.org/neuro</id>
 			<updated>2017-12-20T18:00:41+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Author wins judgment against Elsevier in lawsuit over retraction</title>
-		<link href="http://retractionwatch.com/2017/12/20/author-wins-judgment-elsevier-lawsuit-retraction/"/>
-		<id>http://retractionwatch.com/?p=53105</id>
-		<updated>2017-12-20T15:30:55+00:00</updated>
-		<content type="html">
- &lt;p&gt;The author of a 2009 commentary exploring “sexually specific infanticide” in bears has won a judgment against Elsevier for using “untruthful and unverified” language in a 2011 retraction notice. The last author, Miguel Delibes, who filed the suit in 2014, explained that the judge ruled he should accept the journal’s decision to retract his paper, […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/12/20/author-wins-judgment-elsevier-lawsuit-retraction/&quot; rel=&quot;nofollow&quot;&gt;Author wins judgment against Elsevier in lawsuit over retraction&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Victoria Stern</name>
-			<uri>http://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>http://retractionwatch.com</id>
-			<updated>2017-12-26T18:00:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Caught Our Notice: Oops — 10-fold error reverses heart warning for Ghanaians</title>
-		<link href="http://retractionwatch.com/2017/12/20/caught-notice-oops-10-fold-error-reverses-heart-warning-ghanaians/"/>
-		<id>http://retractionwatch.com/?p=53101</id>
-		<updated>2017-12-20T13:00:32+00:00</updated>
-		<content type="html">
- &lt;p&gt;Title: Ghanaians Might Be at Risk of Inadequate Dietary Intake of Potassium What Caught Our Attention: Potassium-rich diets are thought to be “heart-healthy,” and after examining the average dietary habits of Ghanaian adults, researchers determined the average potassium (K) intake to be well below global standards.  However, the authors’ calculations of potassium intake per capita […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/12/20/caught-notice-oops-10-fold-error-reverses-heart-warning-ghanaians/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: Oops — 10-fold error reverses heart warning for Ghanaians&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Alison Abritis</name>
-			<uri>http://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>http://retractionwatch.com</id>
-			<updated>2017-12-26T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2469,7 +2527,7 @@ In a fascinating preprint posted on Biorxiv, researchers Carolyn Elya et al. rep
 			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
 			<link rel="self" href="http://brainblogger.com/feed/"/>
 			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
+			<updated>2018-01-03T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2639,133 +2697,6 @@ However, Van Noorden reports that these estimates are far too high. For recent p
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2017-12-28T12:00:29+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">The Emerging Neuroscience of Mind-Body Medicine</title>
-		<link href="http://brainblogger.com/2017/12/16/the-emerging-neuroscience-of-mind-body-medicine/"/>
-		<id>http://brainblogger.com/?p=23045</id>
-		<updated>2017-12-16T16:30:50+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;For years as a hard-nosed neuroscientist, I’ve been baffled by the success of clinical techniques that my wife, Chris Gilbert M.D. Ph.D., has pioneered to diagnose and cure illnesses such as back pain, chronic fatigue, stomach ailments, and recurring respiratory infections.&lt;/p&gt;
-&lt;p&gt;The reason for my head-scratching is that many of Dr. Chris’s diagnostic tests and therapies involve no technology at all, and are brain-dead simple. The bench scientist and geek in me (sensory physiology/chrono-neurobiology) instinctively rebels against a no-tech approach to anything, let alone medicine.&lt;/p&gt;
-&lt;p&gt;In an age of biotech marvels such as MRI, &lt;a href=&quot;http://brainblogger.com/2016/06/14/glioblastoma-can-gene-therapy-really-help/&quot;&gt;gene therapies&lt;/a&gt;, and targeted immunotherapies, my inner scientist is certain that no-tech approaches can’t be nearly as effective as modern medical science.&lt;/p&gt;
-&lt;p&gt;But the maddening fact is, my wife’s techniques do often work—so well in fact—that the bulk of her patients come to her because visits to other doctors who employ the latest &lt;a href=&quot;http://brainblogger.com/2015/11/07/is-placebo-more-powerful-than-antidepressants-and-psychotherapy/&quot;&gt;drugs&lt;/a&gt;, tests, and procedures have failed to yield lasting results.&lt;/p&gt;
-&lt;p&gt;A cornerstone of Dr. Chris’s approach is a belief that patients’ bodies know more about what is ailing them and how to achieve lasting cures than do the patients’ &lt;a href=&quot;http://brainblogger.com/2011/03/13/willpower-and-the-unconscious-on-automatic-pilot/&quot;&gt;conscious&lt;/a&gt; minds. So although she will start by asking questions of a patient’s mind, such as “What is going on in your life?” she quickly transitions to a dialogue with a patient’s body.&lt;/p&gt;
-&lt;p&gt;What’s the difference between talking to the mind and talking to the body?&lt;/p&gt;
-&lt;p&gt;Simple.&lt;/p&gt;
-&lt;p&gt;When she addresses a patient’s mind, Dr. Chris simply asks the patient a question, but when she addresses the patient’s body she will first coach the patient to “become” the body part that is suffering, such the lower back, then to respond in the first person as the lower back.&lt;/p&gt;
-&lt;p&gt;I once witnessed (with the patient’s permission) a dialogue between Dr. Chris and an ailing back that went like this:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Dr. Chris&lt;/strong&gt;: Welcome to my office, Back, tell me how you feel.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Back&lt;/strong&gt;: I am stiff all the time, with shooting pains. After the drive home from work, I get horrible spasms.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Dr. Chris&lt;/strong&gt;. Thank you, Back. Do your spasms usually come after sitting for a long time?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Back:&lt;/strong&gt; Yes!! I hate, hate, hate sitting.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Dr. Chris: &lt;/strong&gt;Is there anything else you hate?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Back&lt;/strong&gt;: I can’t stand my owner’s mother. When we go over for dinner she picks at him endlessly and I get really tense and tight. I want to stay away from that woman!!! I never want to see her again!!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Dr. Chris&lt;/strong&gt;: Ok, now that I know what you hate, what do you like?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Back&lt;/strong&gt;: Swimming! I love it when my owner does laps in the pool. I get warm and loose.&lt;/p&gt;
-&lt;p&gt;After observing such sessions and having been Dr. Chris’s patient myself (for stomach troubles), I have been shocked by how much patient’s bodies “know” what their minds don’t know, and how quickly a dialogue with the body can relieve symptoms.&lt;/p&gt;
-&lt;p&gt;For example, the patient in the Back-to-Dr.Chris dialogue professed ignorance about what was triggering his back spasms, only to immediately pinpoint specific triggers for his pain (such as sitting and a nagging mother) when he was queried as his back.&lt;/p&gt;
-&lt;p&gt;And that same patient, who walked into the office with a lower back so stiff that he couldn’t bend at the waist, loosened up almost immediately after the Back-to-Dr.Chris dialogue, as if venting of the true source of back pain (sitting too long and being with his mother too long) in and of itself was therapeutic.&lt;/p&gt;
-&lt;p&gt;Once I overcame my skepticism that such simple, direct techniques could actually work a lot of the time (although not always), I started asking myself:&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;How can neuroscience explain the success of Dr. Chris’s brand of mind-body medicine?&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;I confess that I didn’t have a good answer until recently when I stumbled upon two unrelated sets of research findings more or less at the same time.&lt;/p&gt;
-&lt;p&gt;The first body of research described &lt;a href=&quot;http://brainblogger.com/2016/09/16/how-to-deal-with-destination-memory-issues-did-i-already-tell-you/&quot;&gt;implicit memory&lt;/a&gt;. It turns out that we are constantly learning things and storing them away in our unconscious without any conscious awareness that we are learning, or indeed, any overt knowledge of what we have learned.&lt;/p&gt;
-&lt;p&gt;Ken Paller and Joel Voss of Northwestern University, for example, have shown that &lt;a href=&quot;http://brainblogger.com/2015/11/01/hidden-brain-podcast-review-harnessing-the-power-of-our-unconscious-mind/&quot;&gt;unconscious learning &lt;/a&gt;occurs when test subjects passively observed kaleidoscope images while paying attention to something else. Moreover, those same subjects were able to make correct “intuitive” guesses based upon what they have learned, without having any conscious awareness that they had learned anything in the first place.&lt;/p&gt;
-&lt;p&gt;This finding, along with a host of similar results from other labs, implies that much of what we ascribe to gut feelings, hunches, or &lt;a href=&quot;http://brainblogger.com/2007/04/11/the-source-of-intuition/&quot;&gt;intuition &lt;/a&gt;are actually products of unconscious or implicit learning from past experiences. For example, Dr. Chris’s patient with lower back pain probably learned unconsciously that his back tightened up every time he went over to his mother’s house for dinner.&lt;/p&gt;
-&lt;p&gt;The second body of research that offered clues to the success of Dr. Chris’s methods, concerned the storage of &lt;a href=&quot;http://brainblogger.com/2015/12/22/uncovering-the-secrets-of-memory-to-reverse-damage-in-alzheimers-patients/&quot;&gt;long-term memories&lt;/a&gt; in the sensory cortex. These studies suggest that sensory experiences leave lasting memory traces in the very parts of the cerebral cortex that initially activate when the experiences originally occurred.&lt;/p&gt;
-&lt;p&gt;Putting the implicit learning and sensory memory research together (admittedly something of an intuitive leap) one could conclude that &lt;a href=&quot;http://brainblogger.com/2015/08/25/repressed-memories-fact-or-fiction/&quot;&gt;unconscious memories&lt;/a&gt; relating to sensations in a particular body part, might be stored in the region of the sensory cortex that activates when that body part experiences sensations.&lt;/p&gt;
-&lt;p&gt;Below is a brain map that shows the how areas of the body stimulate different areas of somatosensory cerebral cortex responsible that are responsible for processing touch, vibration, &lt;a href=&quot;http://brainblogger.com/2016/05/27/neurofeedback-therapy-for-the-management-of-pain/&quot;&gt;pain&lt;/a&gt;, and other sensations from different body parts. The somatosensory cortex occupies a gyrus (i.e., ridge) of the brain just behind the central sulcus (i.e, central fold/groove) called the post-central gyrus. Referring to this map, unconscious sensory memories from the back region (as designated by the blue arrow in the diagram below) would be stored near the top of the post-central gyrus, next to the hemispheric fissure that divides the left and right half of the brain.&lt;/p&gt;
-&lt;p&gt;&lt;img height=&quot;295&quot; src=&quot;http://brainblogger.com/wp-content/uploads/brain-map-mind-body-medicine-e1513342054240.png&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;So, what might be happening when Dr. Chris addresses a patient’s back (vs. the patient themselves) is that she is focusing the patient’s attention on somatosensory memories and associations stored in a particular region of the cerebral cortex and that the local activation in the somatosensory cortex occurs that when she does this helps release memories stored in the “back cortex” that would otherwise have remained unconscious.&lt;/p&gt;
-&lt;p&gt;True, I have no experimental data (such as fMRI brain scans showing somatosensory activation during Dr. Chris’s dialogues) to support this theory, so for the moment, it remains just a theory.&lt;/p&gt;
-&lt;p&gt;But at least the scientist in me is less baffled knowing that a plausible explanation for Dr. Chris’s successes in mind-body medicine is out there.&lt;/p&gt;
-&lt;p&gt;Based on lots of implicit learning accumulated watching Dr. Chris work, my gut intuition is that neuroscience has as much to learn from the success of her methods as she does from neuroscience.&lt;/p&gt;
-&lt;p&gt;Learn more about Dr. Chris’s methods and my neuro-scientific explanations of them in &lt;em&gt;&lt;a href=&quot;https://www.amazon.com/Give-Your-Body-Voice-Unconventional/dp/1590794370&quot;&gt;The listening cure: healing secrets of an unconventional doctor&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Gandhi, S. (2001). Memory retrieval: Reactivating sensory cortex. Current Biology, 11(1), R32-R34. doi:&lt;a href=&quot;http://dx.doi.org/10.1016/s0960-9822(00)00040-3&quot;&gt;10.1016/s0960-9822(00)00040-3&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Gilbert, C. (2017). Listening Cure : Healing Secrets of an Unconventional Doctor. SelectBooks, Incorporated. ISBN:&lt;a href=&quot;https://www.amazon.com/Give-Your-Body-Voice-Unconventional/dp/1590794370&quot;&gt;1590794370&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hasan, M., Hernández-González, S., Dogbevia, G., Treviño, M., Bertocchi, I., Gruart, A., &amp;amp; Delgado-García, J. (2013). Role of motor cortex NMDA receptors in learning-dependent synaptic plasticity of behaving mice. Nature Communications, 4. doi:&lt;a href=&quot;http://dx.doi.org/10.1038/ncomms3258&quot;&gt;10.1038/ncomms3258&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Voss, J., &amp;amp; Paller, K. (2009). An electrophysiological signature of unconscious recognition memory. Nature Neuroscience, 12(3), 349-355. doi:&lt;a href=&quot;http://dx.doi.org/10.1038/nn.2260&quot;&gt;10.1038/nn.2260&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Image via &lt;a href=&quot;https://pixabay.com/en/users/Activedia-665768/&quot;&gt;Activedia&lt;/a&gt;/&lt;a href=&quot;https://pixabay.com/&quot;&gt;Pixabay&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
-		<author>
-			<name>EHaseltine</name>
-			<uri>http://brainblogger.com</uri>
-		</author>
-		<source>
-			<title type="html">Brain Blogger</title>
-			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
-			<link rel="self" href="http://brainblogger.com/feed/"/>
-			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">In marine mammals’ battle of the sexes, vaginal folds can make the difference</title>
-		<link href="https://www.sciencenews.org/article/marine-mammals-battle-sexes-vaginal-folds-can-make-difference"/>
-		<id>https://www.sciencenews.org/article/marine-mammals-battle-sexes-vaginal-folds-can-make-difference</id>
-		<updated>2017-12-15T17:00:02+00:00</updated>
-		<content type="html">
- Patricia Brennan and colleagues found certain female ocean mammals have vaginal folds that give them an advantage in mating</content>
-		<author>
-			<name>Lesley Evans Ogden</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2017-12-27T12:00:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Gambling Addiction: Is it as Bad as Cocaine?</title>
-		<link href="http://brainblogger.com/2017/12/15/gambling-addiction-is-it-as-bad-as-cocaine/"/>
-		<id>http://brainblogger.com/?p=23209</id>
-		<updated>2017-12-15T16:20:36+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;Is gambling an addictive pathology that causes changes in the brain and requires treatment? Or is it merely a compulsive behaviour? This question has long kept the medical world confused.&lt;/p&gt;
-&lt;p&gt;Traditionally, it was thought that &lt;a href=&quot;http://brainblogger.com/2015/10/01/sex-addiction-defining-the-subtypes-of-hypersexuality-disorder/&quot;&gt;addiction&lt;/a&gt; could happen only when a person is dependent on some physically existing substance. However, now this traditional way of thinking is changing. The brain seems to have a weakness of getting trapped by either a substance or experience that brings a reward, be it drugs, sex, eating, or gambling. Like addiction to substances, addiction to gambling can affect a person of any background, education level, and level of income. Many celebrities are known to be overindulging in gambling. The list includes Tiger Woods, Ben Affleck, and Pamela Anderson, to name just a few.&lt;/p&gt;
-&lt;p&gt;Once researchers agreed that pathological gambling exists, the question as to whether it is more like &lt;a href=&quot;http://brainblogger.com/2017/11/01/psychedelics-and-drug-addiction/&quot;&gt;drug addiction&lt;/a&gt; or similar to other &lt;a href=&quot;http://brainblogger.com/2013/07/13/multifaceted-causes-of-obsessive-compulsive-disorder/&quot;&gt;obsessive-compulsive disorders&lt;/a&gt; remained unanswered. Modern research seems to support the idea of higher similarity with substance addiction than with obsessive-compulsive disorder. However, it is entirely possible that pathological gambling is a heterogeneous disorder and thus shares the components of both conditions. Hence, in some people it may be more like an obsessive-compulsion, while in others it is similar to substance dependence.&lt;/p&gt;
-&lt;p&gt;Functional MRI studies seem to support the view that gambling addiction is more like a substance-abuse disorder. Therefore, in the Diagnostic and Statistical Manual of Mental Disorders (5th edition; DSM-5) is has been classified as a &lt;a href=&quot;http://brainblogger.com/2011/01/07/social-network-addiction-a-scientific-no-mans-land/&quot;&gt;behavioral addiction&lt;/a&gt;. It does not necessarily mean that other types of this disorder do not exist, as this condition is still not fully understood from a medical point of view.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Why should gambling be considered an addiction&lt;/strong&gt;?&lt;/p&gt;
-&lt;p&gt;Perhaps due to the absence of any physical substance, addition to experiences like gambling is more challenging to recognize until considerable harm is done. A large number of people addicted to gambling fail to accept this fact. Yet, it is no secret that gambling addiction can ruin life as effectively as substance addiction.&lt;/p&gt;
-&lt;p&gt;The person involved in gambling gets ‘high’ and finds it difficult to control or limit gambling, which is also characteristic of drugs addiction. Moreover, there are negative emotions similar to &lt;a href=&quot;http://brainblogger.com/2015/05/13/debunking-the-myths-of-marijuana-withdrawal-syndrome/&quot;&gt;withdrawal syndrome&lt;/a&gt; when a person is deprived of the gambling activity. And finally, even the medications used to treat substance addiction have shown to be efficient in the management of gambling disorder.&lt;/p&gt;
-&lt;h4&gt;&lt;strong&gt;Neural changes in gambling addiction&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Any addiction is caused by the combination of several factors such as genetic causes, environmental issues, and social influences and problems.&lt;/p&gt;
-&lt;p&gt;Mesolimbic and mesocortical dopaminergic pathways are central to motivation, desire, and perception of pleasure. Dysregulation in the mesolimbic pathway (often referred to as reward pathway) is known to play a vital role in the development of addiction.&lt;/p&gt;
-&lt;p&gt;Research on pathological gambling is still ongoing; this phenomenon is still not fully understood from a neurobiological point of view. It is clear that in pathological gambling multiple neurotransmitter systems (including dopamine, serotonin, norepinephrine, opioid, and glutamate) and various brain regions are implicated (including the amygdala, nucleus accumbens, prefrontal cortex, and insula).&lt;/p&gt;
-&lt;p&gt;Addiction to gambling is the result of a pathological importance being attached to the activity. High level gambling and substance addicts give excessive motivational significance to the addictive activity. Glutamatergic projections from the prefrontal cortex to the accumbens is thought to be the neural pathway involved in provoking gambling seeking behavior. This anatomical path is found to play a role in most forms of behavior dysregulation and addiction. The prefrontal accumbens pathway is vital to providing motivational or reward salience and goal-directed behavior.&lt;/p&gt;
-&lt;p&gt;A few years ago, fMRI was used to compare the brain activity of people occasionally involved in gambling against those known to be suffering from pathological gambling. The scans demonstrated a significant difference in blood-oxygen-level dependent (BOLD) signals between the two groups in the superior temporal regions, inferior frontal, and thalamic region. Those pathologically addicted to gambling showed a distinct frontoparietal activation pattern triggered by gambling-related cues, which is known to play a role in the addiction memory network.&lt;/p&gt;
-&lt;h4&gt;&lt;strong&gt;Treatment of pathological gambling&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Though the prevalence of pathological gambling is much higher than many psychiatric disorders like &lt;a href=&quot;http://brainblogger.com/2016/03/13/schizophrenias-strongest-genetic-link/&quot;&gt;schizophrenia&lt;/a&gt;, there is a lack of studies and trials aimed at finding the appropriate treatment for this problem. Still, there is a small number of studies that seem to favor the effectiveness of pharmacological treatment.&lt;/p&gt;
-&lt;p&gt;Drugs that have shown the ability to modulate dopaminergic transmission in the mesolimbic pathways, like opioid-receptor antagonists (e.g., naltrexone) have demonstrated effectiveness in trials. &lt;a href=&quot;http://brainblogger.com/2017/10/25/antidepressants-during-pregnancy-dangerous-for-the-child/&quot;&gt;Antidepressants&lt;/a&gt; and mood stabilizers are the groups of drugs that may prove to be effective in overcoming gambling addiction.&lt;/p&gt;
-&lt;p&gt;Various clinical investigations have also examined the effectiveness of non-pharmacological treatments. It has been demonstrated that cognitive-behavioural therapy (CBT) could be one such option. Some studies have also investigated the usefulness of video conferencing for ongoing supervision, and the use of congruence couple therapy and therapies that have a holistic approach to the problem.&lt;/p&gt;
-&lt;p&gt;To sum up, the latest neurobiology studies confirm that gambling addiction is similar to substance addictions. It may also have serious implications for the person involved, yet little is known regarding how to effectively treat this problem.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Blanco, C., Moreyra, P., Nunes, E. V., Sáiz-Ruiz, J., &amp;amp; Ibáñez, A. (2001). Pathological gambling: addiction or compulsion? &lt;em&gt;Seminars in Clinical Neuropsychiatry&lt;/em&gt;, &lt;em&gt;6&lt;/em&gt;(3), 167–176. doi:&lt;a href=&quot;https://doi.org/10.1053/scnp.2001.22921&quot;&gt;10.1053/scnp.2001.22921&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Grant, J. E., &amp;amp; Kim, S. W. (2006). Medication Management of Pathological Gambling. &lt;em&gt;Minnesota Medicine&lt;/em&gt;, &lt;em&gt;89&lt;/em&gt;(9), 44–48.&lt;/p&gt;
-&lt;p&gt;Holden, C. (2001). “Behavioral” Addictions: Do They Exist? &lt;em&gt;Science&lt;/em&gt;, &lt;em&gt;294&lt;/em&gt;(5544), 980–982. doi:&lt;a href=&quot;http://dx.doi.org/10.1126/science.294.5544.980&quot;&gt;10.1126/science.294.5544.980&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Kalivas, P. W., &amp;amp; Volkow, N. D. (2005). The Neural Basis of Addiction: A Pathology of Motivation and Choice. &lt;em&gt;American Journal of Psychiatry&lt;/em&gt;, &lt;em&gt;162&lt;/em&gt;(8), 1403–1413. doi:&lt;a href=&quot;http://dx.doi.org/10.1176/appi.ajp.162.8.1403&quot;&gt;10.1176/appi.ajp.162.8.1403&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Leung, K. S., &amp;amp; Cottler, L. B. (2009). Treatment of pathological gambling. &lt;em&gt;Current Opinion in Psychiatry&lt;/em&gt;, &lt;em&gt;22&lt;/em&gt;(1).  doi:&lt;a href=&quot;http://dx.doi.org/10.1097/YCO.0b013e32831575d9&quot;&gt;10.1097/YCO.0b013e32831575d9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Miedl, S. F., Fehr, T., Meyer, G., &amp;amp; Herrmann, M. (2010). Neurobiological correlates of problem gambling in a quasi-realistic blackjack scenario as revealed by fMRI. &lt;em&gt;Psychiatry Research: Neuroimaging&lt;/em&gt;, &lt;em&gt;181&lt;/em&gt;(3), 165–173. doi:&lt;a href=&quot;http://dx.doi.org/10.1016/j.pscychresns.2009.11.008&quot;&gt;10.1016/j.pscychresns.2009.11.008&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Potenza, M. N. (2013). Neurobiology of gambling behaviors. &lt;em&gt;Current Opinion in Neurobiology&lt;/em&gt;, &lt;em&gt;23&lt;/em&gt;(4), 660–667. doi:&lt;a href=&quot;https://doi.org/10.1016/j.conb.2013.03.004&quot;&gt;10.1016/j.conb.2013.03.004&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Potenza, M. N. (2014). The neural bases of cognitive processes in gambling disorder. &lt;em&gt;Trends in Cognitive Sciences&lt;/em&gt;, &lt;em&gt;18&lt;/em&gt;(8), 429–438. doi:&lt;a href=&quot;https://doi.org/10.1016/j.tics.2014.03.007&quot;&gt;10.1016/j.tics.2014.03.007&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Urban, N. B. L., &amp;amp; Martinez, D. (2012). Neurobiology of Addiction:Insight from Neurochemical Imaging. &lt;em&gt;Psychiatric Clinics&lt;/em&gt;, &lt;em&gt;35&lt;/em&gt;(2), 521–541. doi:&lt;a href=&quot;https://doi.org/10.1016/j.psc.2012.03.011&quot;&gt;10.1016/j.psc.2012.03.011&lt;/a&gt;&lt;br /&gt;
-&lt;em&gt;Image via &lt;a href=&quot;https://pixabay.com/en/users/whekevi-5158749/&quot;&gt;whekevi&lt;/a&gt;/&lt;a href=&quot;https://pixabay.com/&quot;&gt;Pixabay&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content>
-		<author>
-			<name>Viatcheslav Wlassoff, PhD</name>
-			<uri>http://brainblogger.com</uri>
-		</author>
-		<source>
-			<title type="html">Brain Blogger</title>
-			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
-			<link rel="self" href="http://brainblogger.com/feed/"/>
-			<id>http://brainblogger.com</id>
-			<updated>2018-01-03T12:00:31+00:00</updated>
 		</source>
 	</entry>
 
