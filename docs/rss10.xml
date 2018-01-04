@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-dead-sea-scrolls-survived-war-1960s" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=53295" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32991" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32980" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/aliens-ruled-out-why-tabbys-star-flickers" />
@@ -69,7 +71,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/boy-robot-passes-agility-tests" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53130" />
 			<rdf:li rdf:resource="https://medium.com/p/a3e80bbd5e79" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=53125" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-news-if-true-science-2017-yir" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=32942" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/us-life-expectancy-drops-second-year" />
@@ -114,11 +115,25 @@
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23145" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/our-first-interstellar-visitor-may-be-camouflaged-comet" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9696" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-social-science-is-driving-a-sustainable-future-with-special-issue" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-dead-sea-scrolls-survived-war-1960s">
+	<title>Science News: How the Dead Sea Scrolls survived a war in the 1960s</title>
+	<link>https://www.sciencenews.org/article/how-dead-sea-scrolls-survived-war-1960s</link>
+	<content:encoded>50 years after the Dead Sea Scrolls survived a war, another possible scroll cave offered tantalizing new clues.</content:encoded>
+	<dc:date>2018-01-04T17:30:03+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=53295">
+	<title>Retraction watch: Consultant admits to plagiarizing Air Force colonel’s paper on leadership</title>
+	<link>http://retractionwatch.com/2018/01/04/consultant-admits-plagiarizing-air-force-colonels-paper-leadership/</link>
+	<content:encoded>&lt;p&gt;A consultant has admitted to plagiarizing a U.S. Air Force officer in a paper on leadership, and says his company is now in jeopardy of losing top clients, including Fortune 100 companies. On Tuesday, we reported allegations that Thomas Mattus, president of the project management consulting firm Successful Strategies International (SSI), plagiarized in a 2012 […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2018/01/04/consultant-admits-plagiarizing-air-force-colonels-paper-leadership/&quot; rel=&quot;nofollow&quot;&gt;Consultant admits to plagiarizing Air Force colonel’s paper on leadership&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2018-01-04T13:05:17+00:00</dc:date>
+	<dc:creator>Andrew P. Han</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=32991">
 	<title>The British Psychological Society - Research Digest: 8 studies and 2 podcasts to help you keep your New Year’s resolutions</title>
 	<link>https://digest.bps.org.uk/2018/01/04/8-studies-and-2-podcasts-to-help-you-keep-your-new-years-resolutions/</link>
@@ -936,14 +951,6 @@ Normally, patients who have been in a vegetative state for more than a year are 
 	<dc:date>2017-12-21T14:38:31+00:00</dc:date>
 	<dc:creator>Mark Humphries</dc:creator>
 </item>
-<item rdf:about="http://retractionwatch.com/?p=53125">
-	<title>Retraction watch: PNAS retraction weakens theory that fish travel with siblings</title>
-	<link>http://retractionwatch.com/2017/12/21/pnas-retraction-weakens-theory-fish-travel-siblings/</link>
-	<content:encoded>&lt;p&gt;In 2016, researchers at Oregon State University published a paper in PNAS that surprised the research community. They showed that certain fish species travel with their siblings — even fighting against the currents of the Pacific Ocean to stay together. Needless to say, the research community was skeptical, given how difficult a feat this would […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2017/12/21/pnas-retraction-weakens-theory-fish-travel-siblings/&quot; rel=&quot;nofollow&quot;&gt;PNAS retraction weakens theory that fish travel with siblings&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2017-12-21T13:00:46+00:00</dc:date>
-	<dc:creator>Andrew P. Han</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/big-news-if-true-science-2017-yir">
 	<title>Science News: These 2017 discoveries could be big news, if they turn out to be true</title>
 	<link>https://www.sciencenews.org/article/big-news-if-true-science-2017-yir</link>
@@ -1522,12 +1529,6 @@ In a fascinating preprint posted on Biorxiv, researchers Carolyn Elya et al. rep
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2017/12/18/ethical-questions-raised-by-brain-computer-interfaces/&quot; rel=&quot;nofollow&quot;&gt;Ethical questions raised by brain-computer interfaces&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2017-12-18T11:10:05+00:00</dc:date>
 	<dc:creator>Sasha Burwell &#38; Eric Racine</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/how-social-science-is-driving-a-sustainable-future-with-special-issue">
-	<title>Elsevier Connect: How social science is driving a sustainable future (with special issue)</title>
-	<link>https://www.elsevier.com/connect/how-social-science-is-driving-a-sustainable-future-with-special-issue</link>
-	<content:encoded>Get free access to the most essential social science sustainability research</content:encoded>
-	<dc:date>2017-12-18T10:41:33+00:00</dc:date>
 </item>
 
 </rdf:RDF>
