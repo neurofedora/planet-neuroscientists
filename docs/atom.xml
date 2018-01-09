@@ -5,8 +5,49 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-01-08T18:00:36+00:00</updated>
+	<updated>2018-01-09T00:00:33+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Can we trust statistics in fMRI studies?</title>
+		<link href="http://feeds.plos.org/~r/plos/blogs/neuro/~3/-l952hwBYao/"/>
+		<id>http://blogs.plos.org/neuro/?p=19499</id>
+		<updated>2018-01-08T19:40:22+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/01/PLOS_fMRI-2-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Functional MRI (fMRI) is one of the most celebrated tools in neuroscience. Because of their unique ability to peer directly into the living brain while an organism thinks, feels and behaves, fMRI studies are often devoted disproportionate media attention, replete with flashy headlines and often grandiose claims. However, the technique has come under a fair amount of criticism from researchers questioning the validity of the statistical methods used to analyze fMRI data, and hence the reliability of fMRI findings. Can we trust those flashy headlines claiming that “scientists have discovered the &amp;lt;&lt;em&gt;insert political affiliation, emotion or personality trait&lt;/em&gt;&amp;gt; area of the brain,” or are the masses of fMRI studies plagued by statistical shortcomings? To explore why these studies can be vulnerable to experimental failure, in their new &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184923&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;PLOS One study&lt;/a&gt; coauthors Henk Cremers, Tor Wager and Tal Yarkoni investigated common statistical issues encountered in typical fMRI studies, and proposed how to avert them moving forward.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FMRI simulation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The reliability of any experiment depends on adequate power to detect real effects and reject spurious ones, which can be influenced by various factors including the sample size (or number of “subjects” in fMRI), how strong the real effect is (“effect size”), whether comparisons are within or between subjects, and the statistical threshold used. To characterize common statistical culprits of fMRI studies, Cremers and colleagues first simulated typical fMRI scenarios before validating these simulations on a real dataset. One scenario simulated weak but diffusely distributed brain activity, and the other scenario simulated strong but localized brain activity (Figure 1). The simulation revealed that effect sizes are generally inflated for weak diffuse, compared to strong localized, activations, especially when the sample size is small. In contrast, effect sizes can actually be &lt;em&gt;underestimated&lt;/em&gt; for strong localized scenarios when the sample size is large. Thus, more isn’t always better when it comes to fMRI; the optimal sample size likely depends on the specific brain-behavior relationship under investigation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_19500&quot;&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2018/01/WD_SL_Cremers2017.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-19500 size-large&quot; height=&quot;246&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/01/WD_SL_Cremers2017-1024x246.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Figure 1&lt;/strong&gt;. Example “weak diffuse” and “strong localized” fMRI activations. Adapted from Cremers et al., 2017.&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Real data application: Human Connectome Project&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Next, Cremers and colleagues analyzed a real fMRI dataset of nearly 500 subjects performing a social cognition task collected through the &lt;a href=&quot;http://www.humanconnectomeproject.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Human Connectome Project&lt;/a&gt;. To represent typical fMRI studies, random samples of 15 subjects were drawn to assess within-subject effects, and random samples of 30 subjects were used for between-subjects analyses. Results from these examples were compared to data from the full sample of 500 subjects—a rough proxy for true effects. Similar to the simulation, effect sizes negatively correlated with sample size, decreasing as the sample size grew. Because within-subject contrasts are by nature higher-powered, and because of the strong brain-behavior effect analyzed, real within-subject activations were readily detected even with the small sample of 15 individuals, resembling the simulated “strong localized” effects. In contrast, between-subject effects, even with twice the sample size, were unreliable and inflated, closely resembling the simulated “weak diffuse” scenario (Figure 2).&lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_19501&quot;&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2018/01/WD_examples_2017.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-19501 size-full&quot; height=&quot;499&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/01/WD_examples_2017.png&quot; width=&quot;930&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Figure 2&lt;/strong&gt;. Eight random subsamples of data (N = 30) from the Human Connectome Project, showing unreliable between-subject activations. Adapted from Cremers et al., 2017.&lt;/figure&gt;
+&lt;p&gt;These findings offer a few key take-away lessons. Underpowered studies can result in grossly overestimated effects and inconsistent activations, leading to an inability to replicate results. In part driven by a common fear of Type I errors (false positives), many studies miss legitimate effects and thus encourage incomplete or inaccurate inferences about brain-behavior relationships. Wager underscores that these pitfalls aren’t entirely unique to fMRI:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;“Having a healthy skepticism applies to most areas of science—genetics, animal models of disorders, psychology, and much more—not just fMRI. And I think skepticism should be &lt;em&gt;healthy&lt;/em&gt; skepticism—we can get provisionally excited about published ideas, and more excited about them as they pass the test of time and begin to be replicated across more groups. Publishing an exploratory finding that may not be true is not wrong, if you’ve made a good faith attempt to get at the truth—we just have to have patience and not ‘over-believe’ until the evidence comes in.”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Avoiding statistical pitfalls&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So what can a neuroscientist do to adequately power their fMRI experiment to detect true effects while minimizing false or unreliable effects? A power analysis using realistic parameter estimates to compute the necessary sample size is a critical first step. Unfortunately, the requisite sample of fMRI data may be prohibitive in terms of time and money for an individual researcher without access to large datasets. The growing trend in “big data” may partially address this problem, but, as Wager explains, “it’s even more important to have ‘smart data.’ Large datasets can produce spurious results with high confidence in many cases where hidden causes are not properly accounted for. Smart data means careful sampling and analysis to improve inferences about what the real causes of effects are.” Once the data have been collected, a researcher can optimize their analysis by selecting the right balance between Type I (false positives) and Type II (false negatives) errors, which largely depends on the unique study scenario. Finally, the number of statistical comparisons can be limited by employing hypothesis-driven testing or by taking advantage of machine-learning, graph theory, or data reduction approaches.&lt;/p&gt;
+&lt;p&gt;A movement to standardize fMRI methods has recently emerged, propelled by papers including &lt;a href=&quot;http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;the OHBM Committee on Best Practice in Data Analysis and Sharing (COBIDAS) on MRI&lt;/a&gt; and “&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/18191585&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Guidelines for reporting an fMRI study&lt;/a&gt;.” According to Cremers, such efforts are “indeed essential, since there are so many choices to make when it comes to data acquisition and analyses. Also, initiatives like the &lt;a href=&quot;https://www.coursera.org/learn/functional-mri&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Coursera fMRI course&lt;/a&gt; of Lindquist and Tor, are great and very important—they make the principles of fMRI research accessible to a wide audience.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cremers HR, Wager TD, Yarkoni T. (2017). The relation between statistical power and inference in fMRI. &lt;em&gt;PLOS One&lt;/em&gt;. 12(11): e0184923. doi.org/10.1371/journal.pone.0184923&lt;/p&gt;
+&lt;p&gt;Nichols TE et al. (2016). Best Practices in Data Analysis and Sharing in Neuroimaging using MRI. bioRxiv doi: 10.1101/054262&lt;/p&gt;
+&lt;p&gt;Poldrack RA et al. (2008). Guidelines for reporting an fMRI study. &lt;em&gt;Neuroimage&lt;/em&gt;. 40(2):409-414. 10.1016/j.neuroimage.2007.11.048&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2015/09/Reas_headshot-150x150.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignright size-full wp-image-17356&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2015/09/Reas_headshot-150x150.jpg&quot; width=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/b&gt;&lt;strong&gt;Emilie Reas&lt;/strong&gt; received her PhD in Neuroscience from UC San Diego, where she used fMRI to study memory. As a postdoc at UCSD, she currently studies how the brain changes with aging and disease. In addition to her tweets for &lt;a href=&quot;https://twitter.com/PLOSNeuro&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;@PLOSNeuro&lt;/a&gt; she is &lt;a href=&quot;https://twitter.com/etreas&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;@etreas&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/-l952hwBYao&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Emilie Reas</name>
+			<uri>http://blogs.plos.org/neuro</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Neuroscience Community</title>
+			<subtitle type="html">Researchers discuss latest brain science</subtitle>
+			<link rel="self" href="http://feeds.plos.org/plos/blogs/neuro"/>
+			<id>http://blogs.plos.org/neuro</id>
+			<updated>2018-01-09T00:00:27+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Caught Our Notice: “Ironically,” same error in same journal “was noted last year”</title>
@@ -38,13 +79,13 @@
  The first map of the internal composition of a white dwarf star shows these stellar corpses contain more oxygen than expected, challenging stellar evolution theories.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -57,13 +98,13 @@
  Swallowing these pill-sized sensors could give new insight into what’s going on in your gut.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -114,7 +155,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -246,13 +287,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  Personal air conditioning the blowfly way: Dangle a droplet of saliva and then reswallow.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -265,13 +306,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  In mice, activating a key component of the body’s antiviral machinery in response to a Zika infection can cause harm to developing fetuses.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -284,13 +325,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  Unlike people, these apes gravitate toward those who are unhelpful.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -316,6 +357,47 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
 	</entry>
 
 	<entry>
+		<title type="html" xml:lang="en-US">GABA and glycine sometimes are interchangeable, by Jaime de Juan Sanz</title>
+		<link href="http://feeds.plos.org/~r/plos/blogs/neuro/~3/fi949lU8D_o/"/>
+		<id>http://blogs.plos.org/neuro/?p=19493</id>
+		<updated>2018-01-05T14:34:35+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/01/4602242263_77fc03c1d1_o-1-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;The sensory environment contains multiple streams of information that must be efficiently processed and categorized by the CNS. Sound, for example, is transformed into neural signals in the cochlea, which are then transmitted and processed in the auditory brainstem, an ensemble of nuclei belonging to the efferent and afferent auditory systems. One particular region of the auditory brainstem, the central nucleus of the inferior colliculus (ICC), is known to integrate most ascending auditory information from lower brainstem regions, receiving inputs from several nuclei, including a prominent long-range inhibitory input from the ventral nucleus of the lateral lemniscus (VNLL). &lt;strong&gt;The ICC acts as an integrative station that is involved in the routing of multi-modal sensory perception&lt;/strong&gt;, controlling for example the startle response and the vestibulo-ocular reflex. The startle response is finely modulated by inhibitory inputs from the VNLL, which are classically considered to be glycinergic (Ono and Ito, 2015), and it is known that global lack of glycinergic neurotransmission in humans causes Startle Disease or Hyperekplexia (OMIM 149400), a rare neurological disorder characterized by an exaggerated startle reflex in response to acoustic or tactile stimuli, among other symptoms. Despite the role of glycinergic release from VNLL neurons is known, &lt;strong&gt;histological evidence suggests that these neurons may corelease glycine and GABA in the ICC&lt;/strong&gt;, which could be relevant for startle disease. However, functional evidence for glycine/GABA corelease has not been shown experimentally in this pathway, in part because ascending fibers from lower brainstem regions contain multiple sources of pure GABAergic inputs and electrical stimulation in these regions would activate these inputs, making it unfeasible to measure corelease from VNLL glycinergic fibers in isolation.&lt;/p&gt;
+&lt;p&gt;In a recent study published in The Journal of Neuroscience, Moore and Trussell (2017) circumvented this limitation using optogenetics, which allowed them to control and selectively manipulate glycinergic neurons without co-activating surrounding ascending GABAergic axons. Glycinergic neurons uniquely express a presynaptic glycine transporter, GlyT2, which recycles glycine to refill presynaptic vesicles (de Juan-Sanz et al., 2013). Moore and Trussell used a GlyT2-Cre mouse line to express Channelrhodopsin-2 (ChR2) in glycinergic neurons in a floxed/reversed (Cre-dependent) manner, either globally or specifically within the VNLL. Using these two approaches, &lt;strong&gt;they photostimulated ascending glycinergic fibers and recorded light-evoked IPSCs from single neurons in the ICC using electrophysiology&lt;/strong&gt;. These experiments easily identified inhibitory currents, which were further dissected using pharmacology against glycine or GABA receptors to understand whether GABA is coreleased with glycine, as suggested by histological data. &lt;strong&gt;These experiments unequivocally demonstrated that GABA is coreleased with glycine in VNLL inputs&lt;/strong&gt; and revealed an average GABAergic component of ~40% of the light-evoked ICC currents.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why GABA/glycine corelease? Do they have different functions?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Optogenetics allowed the authors to explore the characteristics of glycinergic and GABAergic components separately to probe for possible functional differences in the signaling of these coreleased neurotransmitters. These experiments are particularly interesting for the field, as there is currently limited understanding of the physiological roles of corelease in the same synapse, especially in the auditory midbrain. In the CNS GABA is coreleased with a variety of other neurotransmitters (Tritsch et al., 2016), but &lt;strong&gt;GABA/glycine corelease is one of the most paradoxical examples as both are fast inhibitory neurotransmitters&lt;/strong&gt;. Many functions of GABA/glycine corelease have been proposed, including subserving tonic versus phasic inhibition via different time courses of glycinergic and GABAergic synaptic currents, extra-fast inhibition, and compensation by one neurotransmitter during periods of sustained activity. To better understand the unique functions of each neurotransmitter in the VNLL-ICC synapse, the authors explored the responses in the ICC to glycine or GABA released from VNLL neurons, specifically measuring differences in kinetics, contacts with cell types in the ICC, short-term depression dynamics and effects of GABA on presynaptic glycine release.&lt;/p&gt;
+&lt;p&gt;Kinetics of glycine and GABA are typically different, as it is known that GABAergic currents normally decay more slowly than glycinergic currents (Russier et al., 2002). Thus, glycine and GABA could serve different functions through differing postsynaptic kinetics. Surprisingly, the authors found that in the ICC, GABAergic currents were nearly as fast as glycinergic currents (3.7 vs 3.0 ms respectively), indicating that in this synapse slow depolarizing GABAergic IPSCs do not occur as observed in other situations. Cellular subtypes in the ICC express mainly the α1-GABA receptor subunit that endows GABA receptors with fast kinetics, which likely accounts for the observed phenotype. The authors then explored whether GABA and glycine present unique roles in short-term synaptic depression, as this high frequency stimulation could result in the selective depletion of one transmitter over the other. Similarly, no difference was found, as the relative contribution of glycine and GABA to the postsynaptic current was not dependent on the length and frequency of stimulation. Taken together, these results demonstrated that &lt;strong&gt;coreleased glycinergic and GABAergic currents in the ICC had strikingly similar features&lt;/strong&gt;, not supporting popular hypotheses for the different functions of GABA and glycine during corelease and suggesting that the two neurotransmitters may function interchangeably.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the relevance of these discoveries?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;These results are particularly relevant to our molecular understanding of startle disease and how the medical community is treating this dysfunction. It is known that the startle response is finely tuned by inhibitory inputs from the VNLL, classically considered glycinergic. However, results from Moore and Trussell clearly demonstrate that a GABAergic component contributes to VNLL inhibition in the ICC, and their detailed studies of glycine and GABA responses in this pathway suggest that the two neurotransmitters may be functionally interchangeable. This suggests &lt;strong&gt;symptoms of the exaggerated startle response in hyperekplexia might be reduced by compensating for the lack of glycinergic neurotransmission with increased GABAergic neurotransmission&lt;/strong&gt;. In fact, currently the most effective treatment for startle disease is the administration of GABA receptor agonists, such as Clonazepam, which significantly reduces startle activity in hyperekplexia patients (Zhou et al., 2002). Moore and Trussell’s results offer new details that should help to understand the molecular basis of this pharmacological compensation, helping the medical community to better exploit this pathway for future benefit. In addition, this work reveals a &lt;strong&gt;new role for glycine/GABA corelease in the CNS, where the action of both neurotransmitters appears interchangeable&lt;/strong&gt;. Independent receptor modulation coupled with the highly similar features of coreleased GABA and glycine observed in the study by Moore and Trussell may further permit the neurotransmitters to compensate for one another under conditions where one system is compromised, maintaining homeostasis of inhibitory networks integrated in the ICC.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. de Juan-Sanz J, Núñez E, López-Corcuera B, Aragon C (2013) Regulation of the glycinergic neurotransmission during inflammatory pain: A new pathway in the action of Prostaglandin E2 in the spinal cord. An la Real Acad Nac Farm 79.&lt;br /&gt;
+2. Moore LA, Trussell LO (2017) Corelease of Inhibitory Neurotransmitters in the Mouse Auditory Midbrain. J Neurosci 37:9453–9464.&lt;br /&gt;
+3. Ono M, Ito T (2015) Functional organization of the mammalian auditory midbrain. J Physiol Sci 65:499–506.&lt;br /&gt;
+4. Russier M, Kopysova IL, Ankri N, Ferrand N, Debanne D (2002) GABA and glycine co-release optimizes functional inhibition in rat brainstem motoneurons in vitro. J Physiol 541:123–137.&lt;br /&gt;
+5. Tritsch NX, Granger AJ, Sabatini BL (2016) Mechanisms and functions of GABA co-release. Nat Rev Neurosci 17:139–145.&lt;br /&gt;
+6. Zhou L, Chillag KL, Nigro MA (2002) Hyperekplexia: a treatable neurogenetic disease. Brain Dev 24:669–674.&lt;/p&gt;
+&lt;p&gt;Image credit: &lt;a href=&quot;https://www.flickr.com/photos/scienceillustrated/4602242263/in/photolist-81FGhx-633Rt8-oyF1Pk-bmWyof-dKgNM-a9hrCJ-d9PWCG-3fStLZ-czkjJS-oJYdvD-9vTUeQ-5xvtPV-8226BA-9vTTxY-9vQT9k-swrSpK-6mz4aL-9vQRKn-82fHou-87exnY-tmJ6c-Dx2RYS-ZE13G4-qzF2Tk-PwWdwF-cwf2p7-WEPEUL-dfVsgb-7Tqx4N-9vTUnY-bHw5cM-7FcbsW-7Lubwp-71YMDy-6AxZV6-ryxBjw-oS3xmN-76gJA9-7P4VLL-Y4XEfg-cwf2cs-9vTTrw-CawgH-bthRaT-e1aF4Y-gEVDf-dKCa5-yepRyP-7RcQY9-HeHsu&quot;&gt;Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS. &lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;b&gt; &lt;a href=&quot;http://blogs.plos.org/neuro/files/2017/02/Jaime.jpg&quot;&gt;&lt;img alt=&quot;Jaime&quot; class=&quot; wp-image-19138 alignleft&quot; height=&quot;172&quot; src=&quot;http://blogs.plos.org/neuro/files/2017/02/Jaime.jpg&quot; width=&quot;172&quot; /&gt;&lt;/a&gt;&lt;/b&gt;Jaime de Juan-Sanz holds an M.Sc. in Molecular Biomedicine from Universidad Autónoma de Madrid and a Ph.D. in Molecular Neurobiology obtained at Centro de Biología Molecular “Severo Ochoa” (CBMSO). He is currently a postdoctoral associate at Weill Cornell Medical College (Cornell University) in New York City where he is investigating the molecular basis of synaptic transmission, studying biophysical aspects of synaptic biology. He is also interested in encouraging open science in our society promoting open access research and science outreach. You can follow him on twitter &lt;a class=&quot;ProfileHeaderCard-screennameLink u-linkComplex js-nav&quot; href=&quot;https://twitter.com/JaimedeJuan&quot;&gt;@&lt;span class=&quot;u-linkComplex-target&quot;&gt;JaimedeJuan&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/fi949lU8D_o&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Giuseppe Gangarossa</name>
+			<uri>http://blogs.plos.org/neuro</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Neuroscience Community</title>
+			<subtitle type="html">Researchers discuss latest brain science</subtitle>
+			<link rel="self" href="http://feeds.plos.org/plos/blogs/neuro"/>
+			<id>http://blogs.plos.org/neuro</id>
+			<updated>2018-01-09T00:00:27+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
 		<title type="html" xml:lang="en">2018’s Top 10 science anniversaries</title>
 		<link href="https://www.sciencenews.org/blog/context/2018-top-10-science-anniversaries"/>
 		<id>https://www.sciencenews.org/blog/context/2018-top-10-science-anniversaries</id>
@@ -324,13 +406,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  2018’s Top 10 anniversaries include notable birthdays and discoveries in math, science and medicine.</content>
 		<author>
 			<name>Tom Siegfried</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -364,13 +446,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  A newly found prime number smashes the previous record for largest prime.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -432,7 +514,7 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -445,13 +527,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  NASA’s upcoming GOLD mission will study the charged border between Earth and space.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -464,13 +546,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  Corals are now bleaching more frequently and severely than they were in the early 1980s.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -504,13 +586,13 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
  50 years after the Dead Sea Scrolls survived a war, another possible scroll cave offered tantalizing new clues.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -560,7 +642,7 @@ Notoriously, the phrenologists believed that the shape of an individual's skull 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -596,7 +678,7 @@ February 2017: A visitor plays ‘Call of Duty’ (Photo by Chesnot/Getty Images
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -609,13 +691,13 @@ February 2017: A visitor plays ‘Call of Duty’ (Photo by Chesnot/Getty Images
  The first real-time observations of Tabby’s star flickering put the final nail in the “alien megastructure” coffin.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -628,13 +710,13 @@ February 2017: A visitor plays ‘Call of Duty’ (Photo by Chesnot/Getty Images
  Ultrasound can help keep tabs on genetically modified bacteria to better fight disease inside the body.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -709,13 +791,13 @@ February 2017: A visitor plays ‘Call of Duty’ (Photo by Chesnot/Getty Images
  Tips on not being a conversation-killer, courtesy of an AI that studied over 60,000 Reddit threads.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -728,13 +810,13 @@ February 2017: A visitor plays ‘Call of Duty’ (Photo by Chesnot/Getty Images
  Tests with a robot snailfish reveal why the deep-sea fish has mysterious goo in its body.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -769,7 +851,7 @@ February 2017: A visitor plays ‘Call of Duty’ (Photo by Chesnot/Getty Images
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -829,13 +911,13 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
  Jazz musicians’ creativity linked to brain dexterity.</content>
 		<author>
 			<name>Kimber Price</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -848,13 +930,13 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
  The International Astronomical Union has released 86 newly official star names, based, in part, on historical star names from various indigenous cultures.</content>
 		<author>
 			<name>Mariah Quintanilla</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -888,13 +970,13 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
  The subduction of an ancient tectonic plate may be the driving force behind Yellowstone’s volcanic eruptions.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -924,7 +1006,7 @@ Drummond begins by summarizing the case for reproducible research as it sees it.
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -1314,13 +1396,13 @@ Normally, patients who have been in a vegetative state for more than a year are 
  Cassini’s demise, cuttlefish and the Curiosity rover topped our list of most popular videos of 2017.</content>
 		<author>
 			<name>Helen Thompson</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -1434,13 +1516,13 @@ Normally, patients who have been in a vegetative state for more than a year are 
  Synthetic DNA has come a long way since it arrived on the scene half a century ago.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -1453,13 +1535,13 @@ Normally, patients who have been in a vegetative state for more than a year are 
  Each year Science News selects the top stories for their importance and impact. But the staff’s favorite stories strike a different chord.</content>
 		<author>
 			<name>Kate Travis</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_8198023737784588=0.6757441985747903</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-01-08T18:00:29+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -1589,7 +1671,7 @@ Normally, patients who have been in a vegetative state for more than a year are 
 Brain Matters is produced by neuroscience graduate students at The University of Texas at Austin.</subtitle>
 			<link rel="self" href="http://brainpodcast.com/rss"/>
 			<id>http://brainpodcast.com/</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -1907,7 +1989,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-01-08T18:00:31+00:00</updated>
+			<updated>2018-01-09T00:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -1991,7 +2073,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -2199,7 +2281,7 @@ The direct targets of the accumbal projections, notably the ventral tegmental ar
 			<subtitle type="html">Researchers discuss latest brain science</subtitle>
 			<link rel="self" href="http://feeds.plos.org/plos/blogs/neuro"/>
 			<id>http://blogs.plos.org/neuro</id>
-			<updated>2017-12-20T18:00:41+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -2230,7 +2312,7 @@ The direct targets of the accumbal projections, notably the ventral tegmental ar
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -2351,7 +2433,7 @@ The direct targets of the accumbal projections, notably the ventral tegmental ar
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-01-08T18:00:30+00:00</updated>
+			<updated>2018-01-09T00:00:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -2588,57 +2670,6 @@ In a fascinating preprint posted on Biorxiv, researchers Carolyn Elya et al. rep
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/f2i1_Hu6058&quot; width=&quot;1&quot; /&gt;</content>
 		<author>
 			<name>Hongyu Yi</name>
-			<uri>http://www.nature.com/scientificamerican/current_issue/</uri>
-		</author>
-		<source>
-			<title type="html">Scientific American - nature.com science feeds</title>
-			<subtitle type="html">Scientific American is the world's premier magazine of scientific discovery and technological innovation for the general public. Readers turn to it for a deep understanding of how science and technology can influence human affairs and illuminate the natural world.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/scientificamerican/rss/current"/>
-			<id>http://www.nature.com/scientificamerican/current_issue/</id>
-			<updated>2017-12-20T00:00:27+00:00</updated>
-			<rights type="html">© 2018 Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">A School Is Not a Military Post</title>
-		<link href="http://feeds.nature.com/~r/scientificamerican/rss/current/~3/5nffMaXDLEs/scientificamerican0118-7"/>
-		<id>http://dx.doi.org/10.1038/scientificamerican0118-7</id>
-		<updated>2017-12-19T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Scientific American 318, 7 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0118-7&quot;&gt;doi:10.1038/scientificamerican0118-7&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Educational facilities are used in armed conflicts—with children inside. We need to stop this&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/5nffMaXDLEs&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Scientific American</name>
-			<uri>http://www.nature.com/scientificamerican/current_issue/</uri>
-		</author>
-		<source>
-			<title type="html">Scientific American - nature.com science feeds</title>
-			<subtitle type="html">Scientific American is the world's premier magazine of scientific discovery and technological innovation for the general public. Readers turn to it for a deep understanding of how science and technology can influence human affairs and illuminate the natural world.</subtitle>
-			<link rel="self" href="http://feeds.nature.com/scientificamerican/rss/current"/>
-			<id>http://www.nature.com/scientificamerican/current_issue/</id>
-			<updated>2017-12-20T00:00:27+00:00</updated>
-			<rights type="html">© 2018 Nature Publishing Group</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">The Toxic Well of Loneliness</title>
-		<link href="http://feeds.nature.com/~r/scientificamerican/rss/current/~3/E7WOE4VCWn4/scientificamerican0118-64"/>
-		<id>http://dx.doi.org/10.1038/scientificamerican0118-64</id>
-		<updated>2017-12-19T00:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;Scientific American 318, 64 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0118-64&quot;&gt;doi:10.1038/scientificamerican0118-64&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Francine Russo&lt;/p&gt;
-&lt;p&gt;Isolation from others can lead to a range of illnesses and even premature death. New science is probing causes and solutions to the problem of social disconnection&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/E7WOE4VCWn4&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>Francine Russo</name>
 			<uri>http://www.nature.com/scientificamerican/current_issue/</uri>
 		</author>
 		<source>
