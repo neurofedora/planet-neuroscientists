@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/warming-ocean-water-sea-turtles-female" />
 			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19499" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53339" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/white-dwarfs-inner-makeup-mapped-first-time" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0118-79" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0118-78" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0118-76" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0118-70" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/warming-ocean-water-sea-turtles-female">
+	<title>Science News: Warming ocean water is turning 99 percent of these sea turtles female</title>
+	<link>https://www.sciencenews.org/article/warming-ocean-water-sea-turtles-female</link>
+	<content:encoded>Green sea turtle populations in part of the Great Barrier Reef are becoming increasingly female due to higher ocean temperatures.</content:encoded>
+	<dc:date>2018-01-09T00:30:02+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="http://blogs.plos.org/neuro/?p=19499">
 	<title>PLOS Neuroscience Community: Can we trust statistics in fMRI studies?</title>
 	<link>http://feeds.plos.org/~r/plos/blogs/neuro/~3/-l952hwBYao/</link>
@@ -1517,18 +1524,6 @@ In a fascinating preprint posted on Biorxiv, researchers Carolyn Elya et al. rep
 &lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/pEin2XwitJ4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2017-12-19T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0118-70">
-	<title>Scientific American: How Snakes Came to Slither</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/f2i1_Hu6058/scientificamerican0118-70</link>
-	<content:encoded>&lt;p&gt;Scientific American 318, 70 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0118-70&quot;&gt;doi:10.1038/scientificamerican0118-70&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Hongyu Yi&lt;/p&gt;
-&lt;p&gt;New fossil analyses and insights from evolutionary developmental biology elucidate the long-sought origin of serpents&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/f2i1_Hu6058&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2017-12-19T00:00:00+00:00</dc:date>
-	<dc:creator>Hongyu Yi</dc:creator>
 </item>
 
 </rdf:RDF>
