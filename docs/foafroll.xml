@@ -338,6 +338,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>OUPblog - Psychology and Neuroscience</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://blog.oup.com">
+					<dc:title>OUPblog » Psychology</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Oscillatory Thoughts</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.ketyov.com/">
