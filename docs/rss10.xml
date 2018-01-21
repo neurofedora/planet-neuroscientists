@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9323" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53526" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-twist-flu-vaccine-revs-bodys-army-virus-killers" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53515" />
@@ -114,11 +115,18 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/warming-ocean-water-sea-turtles-female" />
 			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19499" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53339" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/white-dwarfs-inner-makeup-mapped-first-time" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9323">
+	<title>Discovery magazine - Neuroskeptic: Does Psychology Need SWaG? The Ethics of Naturalistic Experiments</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9323</link>
+	<content:encoded>Diederik Stapel. Brian Wansink. Nicolas Guéguen. Anyone who's been following recent debates over research integrity in psychology will recognize these as three prolific and succesful academic psychologists who have suffered a total (Stapel) or ongoing (Wansink, Guéguen) fall from grace in the past few years.
+
+If you're not familiar with these cases, you can start by reading over Nick Brown's blog. Brown has been at the centre of the investigations into irregularities in Wansink and Guéguen, an</content:encoded>
+	<dc:date>2018-01-21T16:59:37+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=53526">
 	<title>Retraction watch: Weekend reads: Why scientists respond badly to criticism; hidden retractions; journal cancels issue</title>
 	<link>http://retractionwatch.com/2018/01/20/weekend-reads-scientists-respond-badly-criticism-hidden-retractions-journal-cancels-issue/</link>
@@ -1237,13 +1245,6 @@ The paper is called Prolonged apnea and the sudden infant death syndrome: clinic
 &lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2018/01/08/caught-notice-ironically-error-journal-noted-last-year/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: “Ironically,” same error in same journal “was noted last year”&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2018-01-08T16:00:32+00:00</dc:date>
 	<dc:creator>Alison Abritis</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/white-dwarfs-inner-makeup-mapped-first-time">
-	<title>Science News: White dwarf’s inner makeup is mapped for the first time</title>
-	<link>https://www.sciencenews.org/article/white-dwarfs-inner-makeup-mapped-first-time</link>
-	<content:encoded>The first map of the internal composition of a white dwarf star shows these stellar corpses contain more oxygen than expected, challenging stellar evolution theories.</content:encoded>
-	<dc:date>2018-01-08T16:00:02+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
