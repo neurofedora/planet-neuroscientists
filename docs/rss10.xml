@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/plastic-pollution-increases-risk-devastating-disease-corals" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-find-10-new-defense-systems-used-bacteria" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/overlooked-air-pollution-may-be-fueling-more-powerful-storms" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-jaw-pushes-humans-african-departure-back-time" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53584" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53573" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/robots-map-largest-underwater-volcanic-eruption-100-years" />
@@ -62,6 +66,7 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/secret-bacterial-biofilms-microbes-modified-cellulose" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/volume-fracking-fluid-pumped-underground-tied-canada-quakes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/robotic-arm-made-dna-moves-dizzying-speed" />
+			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/61708b34-d640-40ea-9db3-805b26a2c2f6" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hunter-gatherer-lifestyle-could-help-explain-superior-ability-id-smells" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53479" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53469" />
@@ -110,15 +115,38 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53436" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/spaceships-could-use-blinking-dead-stars-chart-their-way" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/trio-dead-stars-uphold-key-part-einsteins-theory-gravity" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/pollution-endangering-future-astronomy" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9758" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/360-video-center-milky-way-galaxy" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33032" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/18-new-species-pelican-spiders-discovered" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/plastic-pollution-increases-risk-devastating-disease-corals">
+	<title>Science News: Plastic pollution increases risk of devastating disease in corals</title>
+	<link>https://www.sciencenews.org/article/plastic-pollution-increases-risk-devastating-disease-corals</link>
+	<content:encoded>Researchers estimate about 11 billion pieces of plastic are polluting Asia-Pacific corals, raising the risk of disease at scores of reefs.</content:encoded>
+	<dc:date>2018-01-25T22:00:02+00:00</dc:date>
+	<dc:creator>Dan Garisto</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/scientists-find-10-new-defense-systems-used-bacteria">
+	<title>Science News: Scientists find 10 new defense systems used by bacteria</title>
+	<link>https://www.sciencenews.org/article/scientists-find-10-new-defense-systems-used-bacteria</link>
+	<content:encoded>Scientists identify 10 groups of genes that appear to govern defense systems used by bacteria against virus attacks.</content:encoded>
+	<dc:date>2018-01-25T21:16:25+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/overlooked-air-pollution-may-be-fueling-more-powerful-storms">
+	<title>Science News: Overlooked air pollution may be fueling more powerful storms</title>
+	<link>https://www.sciencenews.org/article/overlooked-air-pollution-may-be-fueling-more-powerful-storms</link>
+	<content:encoded>The tiniest particles in air pollution aren’t just a health threat. They also strengthen thunderstorms, new research suggests.</content:encoded>
+	<dc:date>2018-01-25T19:00:02+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/ancient-jaw-pushes-humans-african-departure-back-time">
+	<title>Science News: An ancient jaw pushes humans’ African departure back in time</title>
+	<link>https://www.sciencenews.org/article/ancient-jaw-pushes-humans-african-departure-back-time</link>
+	<content:encoded>If an ancient jaw found in an Israeli cave belongs to Homo sapiens, the humans left Africa tens of thousands of years earlier than we thought.</content:encoded>
+	<dc:date>2018-01-25T19:00:02+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=53584">
 	<title>Retraction watch: Caught Our Notice: Oops, wrong species</title>
 	<link>http://retractionwatch.com/2018/01/25/caught-notice-oops-wrong-species/</link>
@@ -540,6 +568,23 @@ If you're not familiar with these cases, you can start by reading over Nick Brow
 	<content:encoded>A DNA machine with a high-speed arm could pave the way for nanoscale factories.</content:encoded>
 	<dc:date>2018-01-18T19:00:02+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="http://snrp.utsa.edu/Podcast/61708b34-d640-40ea-9db3-805b26a2c2f6">
+	<title>Neuroscientists talk shop: Dwight Bergles PhD</title>
+	<link>http://snrp.utsa.edu/POD_html/Podcast/Entries/2018/1/18_Dwight_Bergles_PhD.html</link>
+	<content:encoded>Dwight Bergles (Johns Hopkins) discusses a fourth and mysterious class of CNS glial cells, oligodendrocyte precursor cells. 
+
+Duration: 46 minutes
+
+Discussants:(in alphabetical order)
+Carlos Paladini (Professor, UTSA)
+Salma Quraishi (Res Asst Prof, UTSA)
+Todd Troyer (Assoc Prof, UTSA) 
+Charles Wilson (Ewing Halsell Chair, UTSA)
+
+acknowledgement: JM Tepper for original music.</content:encoded>
+	<dc:date>2018-01-18T17:29:37+00:00</dc:date>
+	<dc:creator>Dwight Bergles PhD</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/hunter-gatherer-lifestyle-could-help-explain-superior-ability-id-smells">
 	<title>Science News: Hunter-gatherer lifestyle could help explain superior ability to ID smells</title>
@@ -1117,72 +1162,6 @@ The paper is called Prolonged apnea and the sudden infant death syndrome: clinic
 	<content:encoded>A cosmic test fails to topple the strong equivalence principle.</content:encoded>
 	<dc:date>2018-01-12T21:19:01+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/pollution-endangering-future-astronomy">
-	<title>Science News: Pollution is endangering the future of astronomy</title>
-	<link>https://www.sciencenews.org/article/pollution-endangering-future-astronomy</link>
-	<content:encoded>Astronomers discuss multiple threats from pollution that will make it harder to observe the night sky.</content:encoded>
-	<dc:date>2018-01-12T18:27:09+00:00</dc:date>
-	<dc:creator>Dan Garisto</dc:creator>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=9758">
-	<title>BMC Series blog: BMC Veterinary Research joins round table discussion to improve animal research reporting</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2018/01/12/bmc-veterinary-research-joins-round-table-discussion-improve-animal-research-reporting/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/01/PicScout-iStock-639064250-140x110.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;On behalf of BMC and &lt;a href=&quot;https://bmcvetres.biomedcentral.com/&quot;&gt;&lt;em&gt;BMC Veterinary Research&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, &lt;/em&gt;I recently attended a round table discussion led by &lt;a href=&quot;https://twitter.com/ResponsibleAR&quot;&gt;Nikki Osborne&lt;/a&gt; (Responsible Research in Practice) which was held during the &lt;a href=&quot;http://lavaeslaveclam.efconference.co.uk/&quot;&gt;LAVA-ESLAV-ECLAM&lt;/a&gt; conference on Reproducibility of Animal Studies, hosted by the &lt;a href=&quot;https://www.lava.uk.net/&quot;&gt;Laboratory Animals Veterinary Association&lt;/a&gt; (LAVA), the &lt;a href=&quot;http://eslav-eclam.org/eslav&quot;&gt;European Society of Laboratory Animal Veterinarians&lt;/a&gt; (ESLAV) and the European College of Laboratory Animal Medicine (ECLAM) .&lt;/p&gt;
-&lt;p&gt;The objective of the meeting was to create a signed statement which acknowledges the efforts that participant organizations have made towards improving the reporting of animal studies and reiterating a commitment to drive further improvements, calling upon both academics and laboratory animal veterinarians to help make this cultural change.  You can read the signed statement &lt;a href=&quot;https://bmcvetres.biomedcentral.com/articles/10.1186/s12917-017-1235-9&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;How do we improve animal research reporting?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Like me, you might think that this topic is becoming a bit repetitive.  For almost a &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007824&quot;&gt;decade&lt;/a&gt; we have seen some improvement in animal research reporting, but it’s not enough, which is why we are still asking the same questions about how we can tackle this issue.  So, what is preventing us from seeing any real progression?  Who is responsible for enforcing greater transparency in animal research – the research institution, the funder, the editor, or the researchers themselves?&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;If we want to see any real progress in animal research reporting, we must all work together to create solutions that make animal research reporting easier&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Of course, the answer to this problem lies firmly in &lt;strong&gt;&lt;u&gt;all&lt;/u&gt;&lt;/strong&gt; of our hands.  If we want to see any real progress in animal research reporting, we must all work together to create solutions that make animal research reporting easier for not just the researcher, but also for the institution, the funding body, the editor and those that participate in peer review.  We also need to provide better support and training for researchers to raise awareness of these issues more broadly.&lt;/p&gt;
-&lt;p&gt;This was the topic that was debated during the round table meeting, which heard opinions from institutions, funders, and editors alike.  We agreed that all organizations need to unite so that we can help researchers plan, design and present their research in a manner that can be fully evaluated, utilized and reproduced at the start of their planning – not after.  We need to create a path where one organization passes the “baton” on to the next (institute&amp;gt;funder&amp;gt;journal).  What form this might take is still open to debate, but the idea of creating a universal document which the authors use throughout their research journey proved to be popular.&lt;/p&gt;
-&lt;p&gt;However, we are looking for greater consistency amongst authors, so we need to tackle differences in research culture worldwide, also taking into consideration the language used in our requests.&lt;/p&gt;
-&lt;p&gt;This would build on the work already achieved by the &lt;a href=&quot;https://www.nih.gov/&quot;&gt;National Institutes of Health&lt;/a&gt; (NIH), who have created a common set of &lt;a href=&quot;https://www.nih.gov/research-training/rigor-reproducibility/principles-guidelines-reporting-preclinical-research&quot;&gt;Principles and Guidelines in Reporting Preclinical Research&lt;/a&gt; for both publishers and researchers, and that of &lt;a href=&quot;https://www.nature.com/&quot;&gt;Nature research journals&lt;/a&gt;, which have implemented a &lt;a href=&quot;http://www.nature.com/authors/policies/checklist.pdf&quot;&gt;journal level checklist&lt;/a&gt; that focuses on experimental and analytical design elements that ensure robust reporting standards and improve the reproducibility of published results.  Also, the &lt;a href=&quot;http://iclas.org/&quot;&gt;International Committee on Laboratory Animal Sciences&lt;/a&gt; (ICLAS) has created Harmonised Animal Research Reporting Principles (HARRP) for those authors, institutions, and publishers throughout the world for whom setting minimum standards is a priority because current best practice standards seem such a faraway dream.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;What is &lt;em&gt;BMC Veterinary Research &lt;/em&gt;doing?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;As part of our efforts, &lt;em&gt;BMC Veterinary Research &lt;/em&gt;is committed to improving the quality of veterinary and animal research reporting, using innovative approaches to peer-review and publication that will encourage more complete reporting, and thus, greater transparency, integrity, and reproducibility of the research we publish.&lt;/p&gt;
-&lt;p&gt;We require our authors to adhere to the BMC &lt;a href=&quot;http://resource-cms.springer.com/springer-cms/rest/v1/content/7117202/data/v2/Minimum+standards+of+reporting+checklist&quot;&gt;Minimum Standards of Reporting&lt;/a&gt; (published in &lt;em&gt;BMC Biology&lt;/em&gt;), in addition to relevant reporting standards, such as &lt;a href=&quot;https://meridian.cvm.iastate.edu/arrive/&quot;&gt;ARRIVE&lt;/a&gt; and &lt;a href=&quot;https://meridian.cvm.iastate.edu/reflect/&quot;&gt;REFLECT&lt;/a&gt;. The checklist is intended as an aid for authors to clearly, completely and transparently let reviewers and readers know what they did and found.  Authors should upload relevant reporting checklists as supplementary material during submission (See &lt;a href=&quot;http://www.equator-network.org/&quot;&gt;EQUATOR network&lt;/a&gt; and &lt;a href=&quot;https://meridian.cvm.iastate.edu/&quot;&gt;MERIDIAN&lt;/a&gt; for further guidance).&lt;/p&gt;
-&lt;p&gt;In cases where information that is critical to the study may be lacking (e.g. &lt;a href=&quot;https://www.nature.com/articles/nature11556&quot;&gt;randomization, blinding, sample size calculation, inclusion/exclusion criteria&lt;/a&gt;, and statistical assessment), we expect authors to acknowledge non-compliance within a limitations section of their manuscript and discuss how these factors may influence the interpretation of their research findings.  We hope this level of transparency will help future researchers build on our published research more effectively.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;This year, &lt;em&gt;BMC Veterinary Research &lt;/em&gt;will also be launching a new Study Protocol article type that will enable the reader to compare the protocol to the subsequent research paper to assess possible reporting bias.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Data sharing is also essential to the promotion of transparency and reproducibility. We, therefore, strongly encourage that all datasets are made available to readers, either by deposition of the dataset in a &lt;a href=&quot;http://www.springernature.com/gp/authors/research-data-policy/repositories/12327124&quot;&gt;publicly available repository&lt;/a&gt; or presented within the main manuscript or additional supporting files wherever possible.&lt;/p&gt;
-&lt;p&gt;This year, &lt;em&gt;BMC Veterinary Research &lt;/em&gt;will also be launching a new Study Protocol article type.  Protocols will allow greater understanding of the scientific rigor of the design and results, but more importantly, will enable the reader to compare the protocol to the subsequent research paper to assess possible reporting bias. By making veterinary protocols publicly available, we hope to improve the transparency of the research process in the veterinary field.&lt;/p&gt;
-&lt;p&gt;Finally, we want to collaborate with research institutions and their initiatives to train early career researchers on the various research reporting services available to them – including adherence to reporting standards and the recently launched &lt;a href=&quot;https://norecopa.no/PREPARE&quot;&gt;PREPARE&lt;/a&gt; guidelines.  Working alongside our &lt;em&gt;BMC Veterinary Research &lt;/em&gt;&lt;a href=&quot;https://bmcvetres.biomedcentral.com/about/editorial-board&quot;&gt;editorial board&lt;/a&gt;, we hope to visit various institutions and major conferences to provide workshops.  If your institution is interested in hosting such an event, please get in touch by contacting &lt;a href=&quot;mailto:bmcvetres@biomedcentral.com&quot;&gt;bmcvetres@biomedcentral.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We have more projects in the pipeline that focus on improving animal research reporting at &lt;em&gt;BMC Veterinary Research&lt;/em&gt;, and we look forward to sharing these with you later this year.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/01/12/bmc-veterinary-research-joins-round-table-discussion-improve-animal-research-reporting/&quot; rel=&quot;nofollow&quot;&gt;&lt;em&gt;BMC Veterinary Research&lt;/em&gt; joins round table discussion to improve animal research reporting&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-12T14:15:36+00:00</dc:date>
-	<dc:creator>Hayley Henderson</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/360-video-center-milky-way-galaxy">
-	<title>Science News: See a 360-degree visualization of the center of the Milky Way</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/360-video-center-milky-way-galaxy</link>
-	<content:encoded>A 360-degree simulation, made with data from several telescopes, shows the center of the Milky Way as seen from the galaxy’s supermassive black hole.</content:encoded>
-	<dc:date>2018-01-12T11:00:03+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=33032">
-	<title>The British Psychological Society - Research Digest: New findings pose more problems for the embattled concept of the microaggression</title>
-	<link>https://digest.bps.org.uk/2018/01/12/new-findings-pose-more-problems-for-the-embattled-concept-of-the-microaggression/</link>
-	<content:encoded>&lt;p&gt;&lt;img alt=&quot;GettyImages-843534086.jpg&quot; class=&quot;alignnone size-full wp-image-33033&quot; data-attachment-id=&quot;33033&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;4&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Dissatisfied unhappy with refusal job seeker threatening multinational employers. Angry client arguing with company managers or lawyers. Failed interview, partners rough behavior at business meeting&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1488108330&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;This content is subject to copyright.&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;65&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;400&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.00625&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Businessman arguing with multi-ethnic partners&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Businessman arguing with multi-ethnic partners&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/01/gettyimages-843534086.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/01/gettyimages-843534086.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/01/gettyimages-843534086.jpg?w=845&quot; data-orig-size=&quot;2121,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/01/12/new-findings-pose-more-problems-for-the-embattled-concept-of-the-microaggression/businessman-arguing-with-multi-ethnic-partners/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/01/gettyimages-843534086.jpg?w=845&quot; /&gt;&lt;i&gt;By&lt;/i&gt; &lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;“Microaggressions” are seemingly innocuous words or behaviour that supposedly communicate a bias toward minority groups, such as asking Asian Americans where they are from, implying that they are not really part of the USA. According to advocates of the usefulness of the concept, microaggressions cause real harm, even if unintended by the perpetrator. However, the theoretical and evidential support for the concept of microaggressions is far from clear, as detailed in Scott Lilienfeld’s recent &lt;a href=&quot;https://digest.bps.org.uk/2017/03/16/the-scientific-evidence-for-microaggressions-is-weak-and-we-should-drop-the-term-argues-review-author/&quot;&gt;thorough critique&lt;/a&gt;, which recommended the term be revised or at least re-examined. Now, Craig Harper, a psychologist at Nottingham Trent University, has published a study as &lt;a href=&quot;https://psyarxiv.com/973v8/&quot;&gt;a pre-print online at PsyArXiv&lt;/a&gt; that, he argues, reveals a further key problem with the concept of the microaggression.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-33032&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;As it’s usually defined, a microaggression only counts as such when a &lt;i&gt;majority&lt;/i&gt; group member commits an act that a &lt;i&gt;minority&lt;/i&gt; group member perceives as a slight. The term was coined to account for slights against Black people, and has since expanded to other groups. On his &lt;em&gt;Psychology Today&lt;/em&gt; blog, Derald Sue at Columbia University, one of the originators of the microaggression concept, &lt;a href=&quot;https://www.psychologytoday.com/blog/microaggressions-in-everyday-life/201011/microaggressions-more-just-race&quot;&gt;states that&lt;/a&gt; microaggressions are “everyday verbal, nonverbal, and environmental slights, snubs, or insults, whether intentional or unintentional, that … target persons based solely upon their marginalized group membership”. For his new study, Craig Harper’s aim was to examine whether it’s true that the experience of “being microaggressed at” really does only flow in one direction.&lt;/p&gt;
-&lt;p&gt;Harper recruited around 400 US participants online and split them into three groups according to their political beliefs: conservative, liberal, or moderate. They also answered questions about their pride in belonging to their political grouping.&lt;/p&gt;
-&lt;p&gt;The participants then read six fictional scenarios in which a professor made a contentious claim to his students. For example, in one, a male professor explained that the reason women are under-represented in certain professions is entirely due to their personal choice. A female student then responded in a frustrated manner, but was told by the professor to calm down and that this was not a place for “policy agendas.” This is a fairly typical example of what the literature considers a microaggression.&lt;/p&gt;
-&lt;p&gt;Crucially, the scenarios were balanced so only half the microaggressions targeted people who would normally be seen as victims: women, Black people, and liberals. The other three scenarios kept the topics (such as educational attainment and political diversity), but switched the social identities of the perpetrator and victim. For example, in one case, a female professor justified lower rates of men in certain professions and then showed impatience towards a male student who complained.&lt;/p&gt;
-&lt;p&gt;After reading each scenario, the participants said whether they thought the student was right to feel insulted or had been overly sensitive. They also said whether they thought the professor was bigoted.&lt;/p&gt;
-&lt;p&gt;Unsurprisingly perhaps, the students’ own political orientation shaped their response. Harper found that political liberals judged the fictional professors more harshly when they targeted racial minorities, women and those on the political left, compared to other targets. The students with more conservative leanings were less bothered by the scenario content overall, but showed the opposite pattern, being more critical when majorities, men and conservatives were targeted.&lt;/p&gt;
-&lt;p&gt;Harper says this is important because it shows, contrary to the the conventional definition of the microaggression concept, that microaggressions aren’t only experienced by those who fall into certain minority political categories. Instead it seems that anyone who thinks their in-group has been slighted by an out-group member may feel as if they’ve been “microaggressed”.&lt;/p&gt;
-&lt;p&gt;Possibly relevant to one’s sensitivity to potential microaggressions, according to Harper,  is the concept of “collective narcissism” – how much we believe in the superiority of our in-group (typified by agreement with statements like “If people with my political views had a major say in the world, the world would be a much better place”). Based on the participants’ ratings of their pride in their political in-group, there wasn’t any evidence this factor mattered for the liberal groups’ perception of microaggressions. For some of the conservative participants, however, it was those showing more collective narcissism who showed greater sensitivity to slighted right-wing targets.&lt;/p&gt;
-&lt;p&gt;This finding for collective narcissism is tentative at this stage. In fact, Harper’s paper has not yet been peer reviewed and there may be further interpretations of the results that Harper hasn’t considered. But it seems clear that once you are willing to put aside the lens of power to understand microaggressions, you can study the concept like other forms of motivated social cognition we understand quite well, such as, Harper says, the tendency “to shun or discredit those with whom we are ideologically opposed”. These new findings suggest that those who argue microaggressions are a societal concern specifically afflicting minorities may have to recognise that other interest groups – especially in spaces that lean left, not right, like most universities – will have a claim to play the same game.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://psyarxiv.com/973v8/&quot;&gt;Political Microaggressions Across the Ideological Spectrum&lt;/a&gt; (note this study is a preprint and has not yet been subjected to peer review)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/alexfradera&quot;&gt;@alexfradera&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-12T10:44:48+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/18-new-species-pelican-spiders-discovered">
-	<title>Science News: 18 new species of pelican spiders discovered</title>
-	<link>https://www.sciencenews.org/article/18-new-species-pelican-spiders-discovered</link>
-	<content:encoded>A researcher used old and new specimens to discover 18 species of pelican spiders from Madagascar.</content:encoded>
-	<dc:date>2018-01-11T23:15:42+00:00</dc:date>
-	<dc:creator>Dan Garisto</dc:creator>
 </item>
 
 </rdf:RDF>
