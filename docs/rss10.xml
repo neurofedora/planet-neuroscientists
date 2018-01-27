@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9339" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53604" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9813" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/clumps-dark-matter-could-be-lurking-undetected-our-galaxy" />
@@ -114,11 +115,25 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0218-22" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0218-21" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0218-20" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-scales-ancient-lagoon-may-be-first-fossil-evidence-moth-butterfly-line" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9339">
+	<title>Discovery magazine - Neuroskeptic: What Is &quot;Social Priming&quot;?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9339</link>
+	<content:encoded>&quot;Social priming&quot; has recently been one of the most controversial topics in psychological science. With failures to replicate proliferating, the field has been called a train-wreck. But what exactly is it?
+
+
+
+
+
+Here's how I defined social priming in a 2016 post:
+“Social priming” has been the punching-bag of psychology for the past few years.
+
+The term “social priming” refers to the idea that subtle cues can exert large, unconscious influences on human behaviour. The classic example of a</content:encoded>
+	<dc:date>2018-01-26T18:01:52+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=53604">
 	<title>Retraction watch: Second paper tied to drug scandal in Norway ski team retracted</title>
 	<link>http://retractionwatch.com/2018/01/26/second-paper-tied-drug-scandal-norway-ski-team-retracted/</link>
@@ -1141,13 +1156,6 @@ The paper is called Prolonged apnea and the sudden infant death syndrome: clinic
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/zXya76zhzU0&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-01-16T00:00:00+00:00</dc:date>
 	<dc:creator>Yasemin Saplakoglu</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/tiny-scales-ancient-lagoon-may-be-first-fossil-evidence-moth-butterfly-line">
-	<title>Science News: Tiny scales in ancient lagoon may be the first fossil evidence of the moth-butterfly line</title>
-	<link>https://www.sciencenews.org/article/tiny-scales-ancient-lagoon-may-be-first-fossil-evidence-moth-butterfly-line</link>
-	<content:encoded>Fancy liquid-sipper mouthparts might have evolved before the great burst of flower evolution</content:encoded>
-	<dc:date>2018-01-15T12:00:03+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
