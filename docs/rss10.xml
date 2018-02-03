@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/machines-think-predicts-future-artificial-intelligence" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53689" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-textile-weathers-temperature-shift" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-big-data-and-ai-can-generate-your-scientific-hypothesis" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/secret-bacterial-biofilms-microbes-modified-cellulose" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/volume-fracking-fluid-pumped-underground-tied-canada-quakes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/robotic-arm-made-dna-moves-dizzying-speed" />
-			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/61708b34-d640-40ea-9db3-805b26a2c2f6" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/machines-think-predicts-future-artificial-intelligence">
+	<title>Science News: ‘Machines That Think’ predicts the future of artificial intelligence</title>
+	<link>https://www.sciencenews.org/article/machines-think-predicts-future-artificial-intelligence</link>
+	<content:encoded>In a new book, an artificial intelligence expert explores AI’s past, present and future.</content:encoded>
+	<dc:date>2018-02-02T20:20:17+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=53689">
 	<title>Retraction watch: PubMed shuts down its comments feature, PubMed Commons</title>
 	<link>http://retractionwatch.com/2018/02/02/pubmed-shuts-comments-feature-pubmed-commons/</link>
@@ -1233,23 +1240,6 @@ If you're not familiar with these cases, you can start by reading over Nick Brow
 	<content:encoded>A DNA machine with a high-speed arm could pave the way for nanoscale factories.</content:encoded>
 	<dc:date>2018-01-18T19:00:02+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="http://snrp.utsa.edu/Podcast/61708b34-d640-40ea-9db3-805b26a2c2f6">
-	<title>Neuroscientists talk shop: Dwight Bergles PhD</title>
-	<link>http://snrp.utsa.edu/POD_html/Podcast/Entries/2018/1/18_Dwight_Bergles_PhD.html</link>
-	<content:encoded>Dwight Bergles (Johns Hopkins) discusses his work characterizing a fourth mysterious class of CNS glial cells, called oligodendrocyte precursor cells. 
-
-Duration: 46 minutes
-
-Discussants:(in alphabetical order)
-Carlos Paladini (Professor, UTSA)
-Salma Quraishi (Res Asst Prof, UTSA)
-Todd Troyer (Assoc Prof, UTSA) 
-Charles Wilson (Ewing Halsell Chair, UTSA)
-
-acknowledgement: JM Tepper for original music.</content:encoded>
-	<dc:date>2018-01-18T17:29:37+00:00</dc:date>
-	<dc:creator>Dwight Bergles PhD</dc:creator>
 </item>
 
 </rdf:RDF>
