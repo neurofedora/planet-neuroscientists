@@ -273,6 +273,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>NeuroMat</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://neuromat.numec.prp.usp.br/newsletter/neuromat">
+					<dc:title>NeuroMat - NeuroMat Newsletter</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>NeuroPod</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://www.nature.com/neurosci/neuropod/index.html">
