@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-ask-about-supernovas-dark-energy-and-more" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/play-kids-and-scientists-take-big-mental-leaps" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/skyrmions-open-door-next-level-data-storage" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/superdense-wood-lightweight-strong-steel" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/humans-are-overloading-worlds-freshwater-bodies-phosphorus" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/making-charts-accessible-for-people-with-visual-impairments" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-are-tracking-how-flu-moves-through-college-campus" />
@@ -111,14 +115,38 @@
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/552495f079a8199e0dab7745caf39302" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lasers-trace-new-way-create-hovering-hologram-images" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/human-brains-rounded-shape-over-200000-years-or-more" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/memory-remains-elusive-search-continues" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-wonder-about-universes-expansion-and-more" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/baby-macaques-primates-clones-dolly-sheep" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-the-lancet-mobilized-scientists-to-tackle-a-silent-scandal" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/readers-ask-about-supernovas-dark-energy-and-more">
+	<title>Science News: Readers ask about supernovas, dark energy and more</title>
+	<link>https://www.sciencenews.org/article/readers-ask-about-supernovas-dark-energy-and-more</link>
+	<content:encoded>Readers had questions about a supernova that continuously erupts, the difference between dark energy and dark matter, and more.</content:encoded>
+	<dc:date>2018-02-07T20:30:02+00:00</dc:date>
+	<dc:creator>Science News Staff</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/play-kids-and-scientists-take-big-mental-leaps">
+	<title>Science News: In play, kids and scientists take big mental leaps</title>
+	<link>https://www.sciencenews.org/article/play-kids-and-scientists-take-big-mental-leaps</link>
+	<content:encoded>Acting Editor in Chief Elizabeth Quill explores the science behind children's play and how kids like to mimic the same things adults do.</content:encoded>
+	<dc:date>2018-02-07T20:30:02+00:00</dc:date>
+	<dc:creator>Elizabeth Quill</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/skyrmions-open-door-next-level-data-storage">
+	<title>Science News: Skyrmions open a door to next-level data storage</title>
+	<link>https://www.sciencenews.org/article/skyrmions-open-door-next-level-data-storage</link>
+	<content:encoded>Skyrmions are tiny magnetic swirls that are hard to undo and may be perfect for miniaturizing electronics.</content:encoded>
+	<dc:date>2018-02-07T20:03:51+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/superdense-wood-lightweight-strong-steel">
+	<title>Science News: Superdense wood is lightweight, but strong as steel</title>
+	<link>https://www.sciencenews.org/article/superdense-wood-lightweight-strong-steel</link>
+	<content:encoded>New superdense wood could be a more lightweight, environmentally friendly alternative to current construction materials.</content:encoded>
+	<dc:date>2018-02-07T18:00:03+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/humans-are-overloading-worlds-freshwater-bodies-phosphorus">
 	<title>Science News: Humans are overloading the world’s freshwater bodies with phosphorus</title>
 	<link>https://www.sciencenews.org/article/humans-are-overloading-worlds-freshwater-bodies-phosphorus</link>
@@ -1397,33 +1425,6 @@ The term “social priming” refers to the idea that subtle cues can exert larg
 	<content:encoded>Ancient humans’ brains slowly but surely became round, scientists say.</content:encoded>
 	<dc:date>2018-01-24T19:00:03+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/memory-remains-elusive-search-continues">
-	<title>Science News: Memory remains elusive, but the search continues</title>
-	<link>https://www.sciencenews.org/article/memory-remains-elusive-search-continues</link>
-	<content:encoded>Acting Editor in Chief Elizabeth Quill explores the history of memory and scientists' search for its physical trace in our brains.</content:encoded>
-	<dc:date>2018-01-24T18:35:39+00:00</dc:date>
-	<dc:creator>Elizabeth Quill</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-wonder-about-universes-expansion-and-more">
-	<title>Science News: Readers wonder about the universe's expansion and more</title>
-	<link>https://www.sciencenews.org/article/readers-wonder-about-universes-expansion-and-more</link>
-	<content:encoded>Readers had questions about the universe's accelerating expansion, a hidden void in the Great Pyramid of Giza and what happens to human waste in space.</content:encoded>
-	<dc:date>2018-01-24T18:34:09+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/baby-macaques-primates-clones-dolly-sheep">
-	<title>Science News: Baby macaques are the first primates to be cloned like Dolly the Sheep</title>
-	<link>https://www.sciencenews.org/article/baby-macaques-primates-clones-dolly-sheep</link>
-	<content:encoded>Scientists have cloned two baby macaque monkeys with the same technique used to clone Dolly. The research could help advance the cloning of other species.</content:encoded>
-	<dc:date>2018-01-24T18:30:02+00:00</dc:date>
-	<dc:creator>Dan Garisto</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/how-the-lancet-mobilized-scientists-to-tackle-a-silent-scandal">
-	<title>Elsevier Connect: How The Lancet mobilized scientists to tackle a silent scandal</title>
-	<link>https://www.elsevier.com/connect/how-the-lancet-mobilized-scientists-to-tackle-a-silent-scandal</link>
-	<content:encoded>Highlighting the data behind stillbirths to bring about change</content:encoded>
-	<dc:date>2018-01-24T17:39:21+00:00</dc:date>
 </item>
 
 </rdf:RDF>
