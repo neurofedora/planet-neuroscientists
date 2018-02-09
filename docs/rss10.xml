@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/trove-hummingbird-flight-data-reveals-secrets-nimble-flying" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/wiring-walking-developed-long-fish-left-sea" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/watch-nerve-cells-being-born-brains-living-mice" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/top-10-physics-papers-physical-review" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/smart-windows-could-block-brightness-and-harness-light" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-nuclear-fusion-still-hasnt-delivered-clean-energy" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33084" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/plastic-pollution-increases-risk-devastating-disease-corals" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-find-10-new-defense-systems-used-bacteria" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/overlooked-air-pollution-may-be-fueling-more-powerful-storms" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-jaw-pushes-humans-african-departure-back-time" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=53584" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/trove-hummingbird-flight-data-reveals-secrets-nimble-flying">
+	<title>Science News: Trove of hummingbird flight data reveals secrets of nimble flying</title>
+	<link>https://www.sciencenews.org/article/trove-hummingbird-flight-data-reveals-secrets-nimble-flying</link>
+	<content:encoded>Tweaks in muscle and wing form give different hummingbird species varying levels of agility.</content:encoded>
+	<dc:date>2018-02-08T23:37:13+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/wiring-walking-developed-long-fish-left-sea">
+	<title>Science News: The wiring for walking developed long before fish left the sea</title>
+	<link>https://www.sciencenews.org/article/wiring-walking-developed-long-fish-left-sea</link>
+	<content:encoded>These strange walking fish might teach us about the evolutionary origins of our own ability to walk.</content:encoded>
+	<dc:date>2018-02-08T22:40:22+00:00</dc:date>
+	<dc:creator>Dan Garisto</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/watch-nerve-cells-being-born-brains-living-mice">
+	<title>Science News: Watch nerve cells being born in the brains of living mice</title>
+	<link>https://www.sciencenews.org/article/watch-nerve-cells-being-born-brains-living-mice</link>
+	<content:encoded>For the first time, scientists have seen nerve cells being born in the brains of adult mice.</content:encoded>
+	<dc:date>2018-02-08T19:00:02+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/context/top-10-physics-papers-physical-review">
 	<title>Science News: Top 10 papers from Physical Review’s first 125 years</title>
 	<link>https://www.sciencenews.org/blog/context/top-10-physics-papers-physical-review</link>
@@ -1408,28 +1429,6 @@ The term “social priming” refers to the idea that subtle cues can exert larg
 	<content:encoded>Scientists identify 10 groups of genes that appear to govern defense systems used by bacteria against virus attacks.</content:encoded>
 	<dc:date>2018-01-25T21:16:25+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/overlooked-air-pollution-may-be-fueling-more-powerful-storms">
-	<title>Science News: Overlooked air pollution may be fueling more powerful storms</title>
-	<link>https://www.sciencenews.org/article/overlooked-air-pollution-may-be-fueling-more-powerful-storms</link>
-	<content:encoded>The tiniest particles in air pollution aren’t just a health threat. They also strengthen thunderstorms, new research suggests.</content:encoded>
-	<dc:date>2018-01-25T19:00:02+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ancient-jaw-pushes-humans-african-departure-back-time">
-	<title>Science News: An ancient jaw pushes humans’ African departure back in time</title>
-	<link>https://www.sciencenews.org/article/ancient-jaw-pushes-humans-african-departure-back-time</link>
-	<content:encoded>If an ancient jaw found in an Israeli cave belongs to Homo sapiens, the humans left Africa tens of thousands of years earlier than we thought.</content:encoded>
-	<dc:date>2018-01-25T19:00:02+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=53584">
-	<title>Retraction watch: Caught Our Notice: Oops, wrong species</title>
-	<link>http://retractionwatch.com/2018/01/25/caught-notice-oops-wrong-species/</link>
-	<content:encoded>&lt;p&gt;Title: Virulent Diuraphis noxia Aphids Over-Express Calcium Signaling Proteins to Overcome Defenses of Aphid-Resistant Wheat Plants What Caught Our Attention: Sadly, it’s not uncommon for researchers to mistake the identity of what they’re working with — but not everyone comes clean and works to transparently correct the record. So it’s nice to see some authors […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2018/01/25/caught-notice-oops-wrong-species/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: Oops, wrong species&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-25T16:00:35+00:00</dc:date>
-	<dc:creator>Alison Abritis</dc:creator>
 </item>
 
 </rdf:RDF>
