@@ -5,8 +5,88 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-02-12T12:01:13+00:00</updated>
+	<updated>2018-02-12T18:01:16+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Your Cortex Contains 17 Billion Computers</title>
+		<link href="https://medium.com/the-spike/your-cortex-contains-17-billion-computers-9034e42d34f2?source=rss----c92c31591e3a---4"/>
+		<id>https://medium.com/p/9034e42d34f2</id>
+		<updated>2018-02-12T17:56:47+00:00</updated>
+		<content type="html">
+ &lt;h4&gt;Neural networks of neural networks&lt;/h4&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/500/1*DlGlK5i8Q44MdIWtKNp6ug.jpeg&quot; /&gt;Credit: &lt;a href=&quot;https://www.flickr.com/photos/68400387@N03/13177176345/&quot;&gt;brentsview&lt;/a&gt; under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc/2.0/&quot;&gt;CC BY-NC 2.0&lt;/a&gt;&lt;/figure&gt;&lt;p&gt;Brains receive input from the outside world, their neurons do something&lt;strong&gt; &lt;/strong&gt;to that input, and create an output. That output may be a thought (I want curry for dinner); it may be an action (make curry); it may be a change in mood (yay curry!). Whatever the output, that “something” is a transformation of some form of input (a menu) to output (“chicken dansak, please”). And if we think of a brain as a device that transforms inputs to outputs then, inexorably, the computer becomes our analogy of choice.&lt;/p&gt;&lt;p&gt;For some this analogy is merely a useful rhetorical device; for others it is a serious idea. But the brain isn’t a computer. Each neuron is a computer. Your cortex contains 17 billion computers.&lt;/p&gt;&lt;p&gt;OK, what? Look at this:&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/289/0*pSdDPyf10GYGbbY1.&quot; /&gt;A pyramidal cell — squashed into two dimensions. The black blob in the middle is the neuron’s body; the rest of the wires are its dendrites. Credit: Alain Dexteshe /&lt;a href=&quot;http://cns.iaf.cnrs-gif.fr/alain_geometries.html&quot;&gt; http://cns.iaf.cnrs-gif.fr/alain_geometries.html&lt;/a&gt;&lt;/figure&gt;&lt;p&gt;This is a picture of a pyramidal cell, the neuron that makes up most of your cortex. The blob in the centre is the neuron’s body; the wires stretching and branching above and below are the dendrites, the twisting cables that gather the inputs from other neurons near and far. Those inputs fall all across the dendrites, some right up close to the body, some far out on the tips. Where they fall matters.&lt;/p&gt;&lt;p&gt;But you wouldn’t think it. When talking about how neurons work, we usually end up with the sum-up-inputs-and-spit-out-spike idea. In this idea, the dendrites are just a device to collect inputs. Activating each input alone makes a small change to the neuron’s voltage. Sum up enough of these small changes, from all across the dendrites, and the neuron will spit out a spike from its body, down its axon, to go be an input to other neurons.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/0*lJDg8vvIavv16AcW.&quot; /&gt;The sum-up-and-spit-out-spike model of a neuron. If enough inputs arrive at the same time — enough to cross a threshold (grey circle) — the neuron spits out a spike.&lt;/figure&gt;&lt;p&gt;It’s a handy mental model for thinking about neurons. It forms the basis for all artificial neural networks. It’s wrong.&lt;/p&gt;&lt;p&gt;Those dendrites are not just bits of wire: they also have their own apparatus for making spikes. If enough inputs are activated in the same small bit of dendrite then the sum of those simultaneous inputs will be bigger than the sum of each input acting alone:&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/0*SuR4-h8DMBa3i5xq.&quot; /&gt;The two coloured blobs are two inputs to a single bit of dendrite. When they are activated on their own, they each create the responses shown, where the grey arrow indicates the activation of that input (response here means “change in voltage”). When activated together, the response is larger (solid line) than the sum of their individual responses (dotted line).&lt;/figure&gt;&lt;p&gt;The relationship between the number of active inputs and the size of the response in a little bit of dendrite looks like this:&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/880/0*gpcebDAjVDfDfFvj.&quot; /&gt;Size of the response in a single branch of a dendrite to increasing numbers of active inputs. The local “spike” is the jump from almost no response to a large response.&lt;/figure&gt;&lt;p&gt;There’s the local spike: the sudden jump from almost no response to a few inputs, to a big response with just one more input. A bit of dendrite is “supralinear”: within a dendrite, 2+2=6.&lt;/p&gt;&lt;p&gt;We’ve known about these local spikes in bits of dendrite&lt;a href=&quot;http://doi.org/10.1146/annurev.neuro.28.061604.13570&quot;&gt; for many years&lt;/a&gt;. We’ve seen these local spikes in neurons&lt;a href=&quot;https://www.nature.com/articles/nn1253&quot;&gt; within slices of brain&lt;/a&gt;. We’ve seen them in the&lt;a href=&quot;https://www.nature.com/articles/nn.3646&quot;&gt; brains of anaesthetised animals&lt;/a&gt; having their paws tickled (yes, unconscious brains still feel stuff; they just don’t bother to tell anyone). We’ve very recently seen them in the dendrites of neurons&lt;a href=&quot;http://science.sciencemag.org/content/355/6331/eaaj1497&quot;&gt; in animals that were moving about&lt;/a&gt; (yeah, Moore and friends recorded the activity in something a few micrometres across from the brain of a mouse that was moving about; crazy, huh?). A pyramidal neuron’s dendrites can make “spikes”.&lt;/p&gt;&lt;p&gt;So they exist: but why does this local spike change the way we think about the brain as a computer? Because the dendrites of a pyramidal neuron contain&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/20800473&quot;&gt; many separate&lt;/a&gt; branches. And each can sum-up-and-spit-out-a-spike. Which means that each branch of a dendrite acts like a little nonlinear output device, summing up and outputting a local spike if that branch gets enough inputs at roughly the same time:&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/0*e-YaRarEte816Ui3.&quot; /&gt;Deja vu. A single dendritic branch acts as a little device for summing up inputs and giving an output if enough inputs were active at the same time. And the transformation from input to output (the grey circle) is just the graph we’ve already seen above, which gives the size of the response from the number of inputs.&lt;/figure&gt;&lt;p&gt;Wait. Wasn’t that our model of a neuron? Yes it was. Now if we replace each little branch of dendrite with one of our little “neuron” devices, then a pyramidal neuron looks something like this:&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*Q2PtqqwIKbZPvbxeOzclcQ.png&quot; /&gt;Left: A single neuron has many dendritic branches (above and below its body). Right: so it is a collection of non-linear summation devices (yellow boxes, and nonlinear outputs), that all output to the body of the neuron (grey box), where they are summed together. Look familiar?&lt;/figure&gt;&lt;p&gt;Yes, each pyramidal neuron is a two layer neural network. All by itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0896627303001491?via%3Dihub&quot;&gt;Beautiful work&lt;/a&gt; by Poizrai and Mel back in 2003 showed this explicitly. They built a complex computer model of a single neuron, simulating each little bit of dendrite, the local spikes within them, and how they sweep down to the body. They then directly compared the output of the neuron to the output of a two-layer neural network: and they were the same.&lt;/p&gt;&lt;p&gt;The extraordinary implication of these local spikes is that each neuron is a computer. By itself the neuron can compute a huge range of so-called nonlinear functions. Functions that a neuron which just sums-up-and-spits-out-a-spike cannot ever compute. For example, with four inputs (Blue, Sea, Yellow, and Sun) and two branches acting as little non-linear devices, we can set up a pyramidal neuron to compute the “feature-binding” function: we can ask it to respond to Blue and Sea together, or respond to Yellow and Sun together, but not to respond otherwise — not even to Blue and Sun together or Yellow and Sea together. Of course, neurons receive many more than four inputs, and have many more than two branches: so the range of logical functions they could compute is astronomical.&lt;/p&gt;&lt;p&gt;More recently,&lt;a href=&quot;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002867&quot;&gt; Romain Caze and friends&lt;/a&gt; (I am one of those friends) have shown that a single neuron can compute an amazing range of functions even if it cannot make a local, dendritic spike. Because dendrites are naturally not linear: in their normal state they actually sum up inputs to total less than the individual values. They are sub-linear. For them 2+2 = 3.5. And having many dendritic branches with sub-linear summation also lets the neuron act as two-layer neural network. A two-layer neural network that can compute a different set of non-linear functions to those computed by neurons with supra-linear dendrites. And pretty much every neuron in the brain has dendrites. So almost all neurons could, in principle, be a two-layer neural network.&lt;/p&gt;&lt;p&gt;The other amazing implication of the local spike is that neurons know a hell of a lot more about the world than they tell us — or other neurons, for that matter.&lt;/p&gt;&lt;p&gt;Not long ago,&lt;a href=&quot;https://medium.com/the-spike/the-loneliest-neuron-91e06432a01e&quot;&gt; I asked a simple question&lt;/a&gt;: How does the brain compartmentalise information? When we look at the wiring between neurons in the brain, we can trace a path from any neuron to any other. How then does information apparently available in one part of the brain (say, the smell of curry) not appear in all other parts of the brain (like the visual cortex)?&lt;/p&gt;&lt;p&gt;There are two opposing answers to that. The first is, in some cases, the brain is not compartmentalised: information does pop up in weird places, like sound in brain regions dealing with place. But the other answer is: the brain &lt;strong&gt;is&lt;/strong&gt; compartmentalised — by dendrites.&lt;/p&gt;&lt;p&gt;As we just saw, the local spike is a non-linear event: it is bigger than the sum of its inputs. And the neuron’s body basically can’t detect anything that is not a local spike. Which means that it ignores most of its individual inputs: the bit which spits out the spike to the rest of the brain is isolated from much of the information the neuron receives. The neuron only responds when a lot of the inputs are active together in time and in space (on the same bit of dendrite).&lt;/p&gt;&lt;p&gt;If this was true, then we should see that dendrites respond to things that the neuron does not respond to. We see exactly this. In visual cortex, we know that many neurons respond only to things in the world moving at a certain angle (like most, but by no means all of us, they have a preferred orientation). Some neurons fire their spikes to things at 60 degrees; some at 90 degrees; some at 120 degrees. But when we record what their dendrites respond to,&lt;a href=&quot;https://www.nature.com/articles/nature08947&quot;&gt; we see responses to every angle&lt;/a&gt;. The dendrites know a hell of a lot more about how objects in the world are arranged than the neuron’s body does.&lt;/p&gt;&lt;p&gt;They also look at a hell of a lot more of the world. Neurons in visual cortex only respond to things in a particular position in the world — one neuron may respond to things in the top left of your vision; another to things in the bottom right. Very recently&lt;a href=&quot;http://doi.org/10.1038/nature23019&quot;&gt; Sonia Hofer and her team showed&lt;/a&gt; that while the spikes from neurons only happen in response to objects appearing in one particular position, their dendrites respond to many different positions in the world, often far from the neuron’s apparent preferred position. So the neurons respond only to a small fraction of the information they receive, with the rest tucked away in their dendrites.&lt;/p&gt;&lt;p&gt;Why does all this matter? It means that each neuron could radically change its function by changes to just a few of its inputs. A few get weaker, and suddenly a whole branch of dendrite goes silent: the neuron that was previously happy to see cats, for that branch liked cats, no longer responds when your cat walks over your bloody keyboard as you are working — and you are a much calmer, more together person as a result. A few inputs get stronger, and suddenly a whole branch starts responding: a neuron that previously did not care for the taste of olives now responds joyously to a mouthful of ripe green olive — in my experience, this neuron only comes online in your early twenties. If all inputs were summed together, than changing a neuron’s function would mean having the new inputs laboriously fight each and every other input for attention; but have each bit of dendrite act independently, and new computations become a doddle.&lt;/p&gt;&lt;p&gt;It means the brain can do many computations beyond treating each neuron as a machine for summing up inputs and spitting out a spike. Yet that’s the basis for all the units that make up an artificial neural network. It suggests that deep learning and its AI brethren have but glimpsed the computational power of an actual brain.&lt;/p&gt;&lt;p&gt;Your cortex contains 17 billion neurons. To understand what they do, we often make analogies with computers. Some use these analogies as cornerstones of their arguments. Some consider them to be deeply misguided. Our analogies often look to artificial neural networks: for neural networks compute, and they are made of up neuron-like things; and so, therefore, should brains compute. But if we think the brain is a computer, because it is like a neural network, then now we must admit that individual neurons are computers too. All 17 billion of them in your cortex; perhaps all 86 billion in your brain.&lt;/p&gt;&lt;p&gt;And so it means your cortex is not a neural network. Your cortex is a neural network of neural networks.&lt;/p&gt;&lt;p&gt;&lt;em&gt;With thanks to &lt;/em&gt;&lt;a href=&quot;https://romaincaze.wordpress.com&quot;&gt;&lt;em&gt;Romain Caze&lt;/em&gt;&lt;/a&gt;&lt;em&gt; for suggestions&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=9034e42d34f2&quot; width=&quot;1&quot; /&gt;&lt;hr /&gt;&lt;p&gt;&lt;a href=&quot;https://medium.com/the-spike/your-cortex-contains-17-billion-computers-9034e42d34f2&quot;&gt;Your Cortex Contains 17 Billion Computers&lt;/a&gt; was originally published in &lt;a href=&quot;https://medium.com/the-spike&quot;&gt;The Spike&lt;/a&gt; on Medium, where people are continuing the conversation by highlighting and responding to this story.&lt;/p&gt;</content>
+		<author>
+			<name>Mark Humphries</name>
+			<uri>https://medium.com/the-spike?source=rss----c92c31591e3a---4</uri>
+		</author>
+		<source>
+			<title type="html">The Spike - Medium</title>
+			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
+			<link rel="self" href="https://medium.com/feed/the-spike"/>
+			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
+			<updated>2018-02-12T18:00:33+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Olfactory coding in the turbulent realm</title>
+		<link href="http://biocomputation.herts.ac.uk/2018/02/12/olfactory-coding-in-the-turbulent-realm.html"/>
+		<id>tag:biocomputation.herts.ac.uk,2018-02-12:/2018/02/12/olfactory-coding-in-the-turbulent-realm.html</id>
+		<updated>2018-02-12T14:36:04+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Long-distance olfactory search behaviors depend on odor detection dynamics. Due to turbulence, olfactory signals travel as bursts of variable concentration and spacing and are characterized by long-tail distributions of odor/no-odor events, challenging the computing capacities of olfactory systems. How animals encode complex olfactory scenes to track the plume far from the source remains unclear. Here we focus on the coding of the plume temporal dynamics in moths. We compare responses of olfactory receptor neurons (ORNs) and antennal lobe projection neurons (PNs) to sequences of pheromone stimuli either with white-noise patterns or with realistic turbulent temporal structures simulating a large range of distances (8 to 64 m) from the odor source. For the first time, we analyze what information is extracted by the olfactory system at large distances from the source. Neuronal responses are analyzed using linear–nonlinear models fitted with white-noise stimuli and used for predicting responses to turbulent stimuli.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 16/02/2018 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content>
+		<author>
+			<name>Rebecca Miko</name>
+			<uri>http://biocomputation.herts.ac.uk/</uri>
+		</author>
+		<source>
+			<title type="html">UH Biocomputation Group</title>
+			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
+			<id>http://biocomputation.herts.ac.uk/</id>
+			<updated>2018-02-12T14:36:04+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">5 ways the heaviest element on the periodic table is really bizarre</title>
+		<link href="https://www.sciencenews.org/article/5-ways-heaviest-element-periodic-table-really-bizarre"/>
+		<id>https://www.sciencenews.org/article/5-ways-heaviest-element-periodic-table-really-bizarre</id>
+		<updated>2018-02-12T14:00:02+00:00</updated>
+		<content type="html">
+ Called oganesson, element 118 has some very strange properties, according to theoretical calculations by physicists.</content>
+		<author>
+			<name>Dan Garisto</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-02-12T18:00:31+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Ancient ozone holes may have sterilized forests 252 million years ago</title>
+		<link href="https://www.sciencenews.org/article/ancient-ozone-holes-may-have-sterilized-forests-252-million-years-ago"/>
+		<id>https://www.sciencenews.org/article/ancient-ozone-holes-may-have-sterilized-forests-252-million-years-ago</id>
+		<updated>2018-02-12T12:00:02+00:00</updated>
+		<content type="html">
+ Swaths of barren forest may have led to Earth’s greatest mass extinction.</content>
+		<author>
+			<name>Carolyn Gramling</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-02-12T18:00:31+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Preliminary evidence for the benefits of “Jymmin” – creating or influencing music while exercising</title>
@@ -35,7 +115,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -109,13 +189,13 @@
  A new spending package could lead to U.S. science agencies getting a bump in funding.</content>
 		<author>
 			<name>Emily DeMarco</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -128,13 +208,13 @@
  In mice, fructose gets processed in the small intestine before getting to the liver.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -205,13 +285,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  Hunter-gatherers and villagers have some parenting tips for modern moms and dads.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -279,7 +359,7 @@ The most interesting part of a scientific seminar, colloquium or conference for 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -292,13 +372,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  Tweaks in muscle and wing form give different hummingbird species varying levels of agility.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -311,13 +391,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  These strange walking fish might teach us about the evolutionary origins of our own ability to walk.</content>
 		<author>
 			<name>Dan Garisto</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -330,13 +410,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  For the first time, scientists have seen nerve cells being born in the brains of adult mice.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -349,13 +429,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  The most prestigious journal in physics celebrates its 125th anniversary, highlighting dozens of its most famous papers.</content>
 		<author>
 			<name>Tom Siegfried</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -368,13 +448,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  A new type of material pulls double-duty as window shade and solar cell.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -387,13 +467,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  In 1968, scientists predicted that the world would soon use nuclear fusion as an energy source.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -450,7 +530,7 @@ The most interesting part of a scientific seminar, colloquium or conference for 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -482,13 +562,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  Readers had questions about a supernova that continuously erupts, the difference between dark energy and dark matter, and more.</content>
 		<author>
 			<name>Science News Staff</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -501,13 +581,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  Acting Editor in Chief Elizabeth Quill explores the science behind children's play and how kids like to mimic the same things adults do.</content>
 		<author>
 			<name>Elizabeth Quill</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -520,13 +600,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  Skyrmions are tiny magnetic swirls that are hard to undo and may be perfect for miniaturizing electronics.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -539,13 +619,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  New superdense wood could be a more lightweight, environmentally friendly alternative to current construction materials.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -558,13 +638,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  Human activities are driving phosphorus levels in the world’s lakes and other freshwater bodies to a critical point.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -577,13 +657,13 @@ The most interesting part of a scientific seminar, colloquium or conference for 
  Researchers are following the spread of viruses and illness among students in a cluster of University of Maryland dorms to learn more about how the bugs infect.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -640,7 +720,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2018-02-07T11:14:06+00:00</updated>
+			<updated>2018-02-12T14:36:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -674,7 +754,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -687,13 +767,13 @@ and summarise questions that require further study.&lt;/p&gt;
  Toads are tough. But there are some insects even they shouldn’t swallow.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -706,13 +786,13 @@ and summarise questions that require further study.&lt;/p&gt;
  SpaceX just launched the Falcon Heavy — the most powerful rocket since the Saturn V — for the first time.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -725,13 +805,13 @@ and summarise questions that require further study.&lt;/p&gt;
  A newly discovered ancient creature looks like a spider and has silk spinners and spidery male sex organs.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_793407590031296=0.9992011153192385</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-02-12T12:00:29+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -998,7 +1078,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1245,7 +1325,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1458,7 +1538,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1862,7 +1942,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2059,7 +2139,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2291,7 +2371,7 @@ and summarise questions that require further study.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T12:00:30+00:00</updated>
+			<updated>2018-02-12T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2436,7 +2516,7 @@ Peter Walter is Professor, Department of Biochemistry and Biophysics at the Univ
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2018-02-07T11:14:06+00:00</updated>
+			<updated>2018-02-12T14:36:04+00:00</updated>
 		</source>
 	</entry>
 
@@ -2458,114 +2538,6 @@ Peter Walter is Professor, Department of Biochemistry and Biophysics at the Univ
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
 			<updated>2018-02-03T06:00:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Here’s why so many saiga antelope mysteriously died in 2015</title>
-		<link href="https://www.sciencenews.org/article/heres-why-so-many-saiga-antelope-mysteriously-died-2015"/>
-		<id>https://www.sciencenews.org/article/heres-why-so-many-saiga-antelope-mysteriously-died-2015</id>
-		<updated>2018-01-29T12:00:02+00:00</updated>
-		<content type="html">
- Higher than normal temperatures turned normally benign bacteria lethal, killing hundreds of thousands of the saiga antelopes.</content>
-		<author>
-			<name>Lesley Evans Ogden</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-02-05T18:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Another blow for ego-depletion theory – practice counteracts the effects of diminished willpower</title>
-		<link href="https://digest.bps.org.uk/2018/01/29/another-blow-for-ego-depletion-theory-willpower-seems-to-replenish-over-time/"/>
-		<id>http://digest.bps.org.uk/?p=33123</id>
-		<updated>2018-01-29T09:55:20+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;i&gt;&lt;img alt=&quot;Screenshot 2018-01-29 09.38.31.png&quot; class=&quot;alignnone size-full wp-image-33124&quot; data-attachment-id=&quot;33124&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Screenshot 2018-01-29 09.38.31&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/01/screenshot-2018-01-29-09-38-31.png?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/01/screenshot-2018-01-29-09-38-31.png?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/01/screenshot-2018-01-29-09-38-31.png?w=845&quot; data-orig-size=&quot;1496,1220&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/01/29/another-blow-for-ego-depletion-theory-willpower-seems-to-replenish-over-time/screenshot-2018-01-29-09-38-31/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/01/screenshot-2018-01-29-09-38-31.png?w=845&quot; /&gt;By&lt;/i&gt; &lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ego depletion is the notion that willpower is a fuel that gets burned away by effort, and once it burns low we lose our focus and bow to our immediate desires. However, this once dominant theory has recently come into question, thanks in part to a &lt;a href=&quot;http://psycnet.apa.org/record/2010-12718-004&quot;&gt;large-scale replication&lt;/a&gt; that failed to find an ego-depletion effect and a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4115664/&quot;&gt;meta-analysis&lt;/a&gt; that argued that the size of the effect is minimal. Complicating the picture, other &lt;a href=&quot;https://digest.bps.org.uk/2017/12/14/strongest-evidence-yet-for-ego-depletion-the-idea-that-self-control-is-a-limited-resource/&quot;&gt;recent findings&lt;/a&gt; have provided a strong demonstration of the effect. But now researchers from Johannes Gutenberg University in Mainz have released &lt;a href=&quot;https://psyarxiv.com/pvefx/&quot;&gt;a pre-print at PsyArxiv&lt;/a&gt; in which they suggest the debates over the size of the ego-depletion effect are missing the point because when you look over the long-term, ego depletion becomes meaningless.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-33123&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The team, led by Mario Wenzel, built experiments around the classic ego-depletion design: some participants performed an initial mentally demanding task designed to make them ego-depleted whereas others acted as controls and performed a low-effort version. Next, all participants performed a second mentally demanding task. Poorer performance on this second task by the ego-depleted group, as compared with the controls, was taken as evidence of ego depletion. However, unlike in most previous research, Wenzel and his colleagues had their participants repeat these pairs of tasks several times, to see if any effects of ego depletion would accumulate.&lt;/p&gt;
-&lt;p&gt;For the first experiment, the researchers asked their participants to start by completing a difficult or easy version of the Multi-Source Interference Task (MSIT). This involved quickly responding to simple stimuli on a computer screen by pressing the button corresponding to the odd one out. The 18 student participants in the control group started with a dead easy version that involved displays like “xx1” with an obvious odd-one-out, whereas the 46 students in the ego-depletion condition completed a harder version that involved responding to whichever digit was the odd-one-out based purely on its colour, while ignoring the uniqueness or not of its numerical value (such as the red “&lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;4&lt;/span&gt;&lt;/strong&gt;” in arrays like “&lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/span&gt;42”).&lt;/p&gt;
-&lt;p&gt;Next, all the participants completed the same second task, which was another colour version of the MSIT – only this time colours had to be ignored entirely, just focusing on the odd number out.&lt;/p&gt;
-&lt;p&gt;Once participants had done the initial and second tasks, they started again, completing another pair of MSIT tasks – and then repeated this in a third “block” of tasks, then again in a fourth. If willpower was being used up by these tasks, you would expect performance to deteriorate even more in the later blocks.&lt;/p&gt;
-&lt;p&gt;But, if anything, the results were the other way around. Wenzel’s team found that the ego-depletion effect was largest in the first block and then diminished (across the four blocks, in statistical terms the effect sizes were very small, from .065 to .001, and mostly non-significant).&lt;/p&gt;
-&lt;p&gt;For a second experiment with 93 students, the researchers pushed the time horizon further, to see if the fuel needle would finally hit empty. This time there were 12 “blocks” involving various pairs of tasks, with the second task always the classic Stroop test (in which participants must identify the font colour of colour-denoting words, such as “red” written in blue ink). For instance, participants might do one of the MSITs paired with the the Stroop, then a version of the &lt;a href=&quot;mailto:http%25253A//www.impulsivity.org/measurement/cued_Go_NoGo&quot;&gt;Go-No-Go task&lt;/a&gt; paired with the Stroop, then a copying task paired with the Stroop, and so on. When participants were being hit with the harder versions of the initial tasks, how did their Stroop performance fare?&lt;/p&gt;
-&lt;p&gt;Participants agreed (as they did in the first experiment) that the hard versions of the preliminary tasks required more self-control. But again, over the course of the blocks, any evidence of ego depletion, in terms of greater declining performance among the participants completing the harder initial tasks, turned out to be small and statistically non-significant – this despite the fact that mild ego depletion often did show up during the very first block. In other words, the ego-depletion effect did the opposite of what we might expect – if anything, participants’ willpower replenished over time (a finding that’s similar to the recently documented example of &lt;a href=&quot;https://digest.bps.org.uk/2017/06/12/reverse-ego-depletion-people-in-india-find-mental-effort-energising/&quot;&gt;reverse ego depletion&lt;/a&gt; in India).&lt;/p&gt;
-&lt;p&gt;The researchers conceded that part of the explanation may be an effect of practice (even in the second experiment that used a mix of tasks to counteract this possibility). Maybe tackling a mix of effortful tasks that occasionally repeat is something you ease into after a bit. But this doesn’t really let ego depletion off the hook: if it only adds up to anything in the narrow window between starting a task and getting to grips with it, it can’t be all that important – and would seem to have little bearing on the domains that it has been associated with, such as keeping up the willpower to get in shape, pass your finals, or stay off the cigarettes. In this pre-print paper, which has been submitted for publication in a peer-reviewed journal, the researchers recommend that we focus a little more attention on the mechanisms that matter for life-sized timespans, and less on laboratory-induced blips in performance.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://psyarxiv.com/pvefx/&quot;&gt;Practice conquers it all: Even if the ego depletion effect is genuine, it may not be relevant&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.alexfradera.net/&quot;&gt;Alex Fradera&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/alexfradera&quot;&gt;@alexfradera&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2018-02-12T06:00:30+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">BMC Cancer: 2017 in review</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2018/01/29/bmc-cancer-2017-review-world-cancer-day/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=9798</id>
-		<updated>2018-01-29T09:30:48+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/01/Cancer-cells-red_iStock-Photoresized-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;h3&gt;&lt;strong&gt;Review articles&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;One of the highlights in 2017 was a review written by one of our own Consulting Editors, Prof. Steve Povoski: ‘&lt;a href=&quot;https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3444-9&quot;&gt;A comprehensive overview on the surgical management of secondary lymphedema of the upper and lower extremities related to prior oncologic therapies&lt;/a&gt;’. Oncologic therapies including surgery, chemotherapy or radiation therapy may lead to secondary lymphedema, a major factor in long term morbidity in cancer sufferers. Lymphodema arises from a collection of ‘protein rich extracellular fluid within the interstitial compartment of tissues that arises from an imbalance of lymph production and lymph transport to the systemic circulation’.&lt;/p&gt;
-&lt;p&gt;Oncologic therapies for Gynaecologic, urologic cancers, melanoma and lymphoma are mostly associated with lymphedema of the lower extremities, those for breast cancer with the upper extremities. This is a side effect which is currently being addressed by both surgical and non-surgical techniques. Further research aims to find solutions for lymphedema which is understood to affect 90 million people worldwide from a variety of causes.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Specific gene involvement in cancers &lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3134-7&quot;&gt;Testis specific Y-like 5: gene expression, methylation and implications for drug sensitivity in prostate carcinoma&lt;/a&gt; was published in February and described Testis specific Y-like 5 (TSPYL5), a putative tumor suppressor gene, belonging to the nucleosome assembly protein family. The gene is located at 8Q22.1 though its exact role in prostate cancer disease is not fully defined. The study investigated gene expression and methylation levels of TSPYL5.&lt;/p&gt;
-&lt;p&gt;‘Methylation of this gene in tumor tissues correlated inversely with its mRNA and protein expression.’ The authors proposed that this gene could be an indicator of more advanced prostate cancer as its gene product is seen in reduced amounts in tumors with high &lt;a href=&quot;https://www.cancer.org/treatment/understanding-your-diagnosis/tests/understanding-your-pathology-report/prostate-pathology/prostate-cancer-pathology.html&quot;&gt;Gleason Scores&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Immunotherapy&lt;/strong&gt;&lt;/h3&gt;
-&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-9801 alignright&quot; height=&quot;225&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/01/Cancer-cell-300x225.jpg&quot; width=&quot;300&quot; /&gt;
-&lt;p&gt;To be able to use the immune system for treatment and cure of disease is a dream of many physicians. In December, the authors of &lt;a href=&quot;https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3854-8&quot;&gt;Expitope 2.0: a tool to assess immunotherapeutic antigens for their potential cross-reactivity against naturally expressed proteins in human tissues&lt;/a&gt; published a new and improved version of their tool, which aims to help immunotherapy develop. This web tool provides prediction of cross reactivity of T cell epitopes, ‘based on experimental protein abundance and expression data obtained from a growing number of publicly available databases.’ See &lt;a href=&quot;https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3854-8#Sec3&quot;&gt;Table 1 included here.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The Frishman group shows the variability of cross reactivity to presented peptides appears to depend on different health states. Cross reactivity is approximately 5-fold higher in individuals with cancer than those of good health. The similarity of presented peptides to self –antigens ‘is an obstacle for disease elimination both for the organism itself and for immunotherapy.’&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;New compounds&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The paper by &lt;a href=&quot;https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3085-z&quot;&gt;Dyshlovoy et al.&lt;/a&gt; illustrates well the diversity of topics covered in &lt;em&gt;BMC Cancer. &lt;/em&gt;Urothelial cancers are hard to treat but these authors discovered that&lt;em&gt; ‘&lt;/em&gt;The marine triterpene glycoside frondoside A induces p53-independent apoptosis and inhibits autophagy in urothelial carcinoma cells’. The compound frondoside A (FrA), isolated from the sea cucumber Cucumaria frondosa induces apoptosis without the need for active caspases and p53; inhibits pro-survival autophagy; and demonstrates increased activity when used in combination with classical cytotoxic agents.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Biomarker development&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The final article included here has been very popular. Having  an Altmetric attention score of 425, ‘&lt;a href=&quot;https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3375-5&quot;&gt;Calretinin as a blood-based biomarker for mesothelioma’&lt;/a&gt; was published in May 2017. The authors used a case-control design to ask their specific questions regarding the usefulness of calretinin as a biomarker for malignant mesothelioma (MM) which is a deadly cancer caused by exposure to asbestos. They concluded that calretinin has a similar performance in detecting MM (except the sarcomoid subtype) as Mesothelin, the gold standard. They propose that Calretinin be added to a panel of biomarkers with mesothelin for validation of these markers in a prospective cohort study. The hopes would be that a panel of biomarkers would be developed and used in surveillance programmes of workers with former exposure to asbestos.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Call for papers&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;We are delighted to announce that &lt;a href=&quot;https://bmccancer.biomedcentral.com/&quot;&gt;&lt;em&gt;BMC Cancer&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;https://bmcbiotechnol.biomedcentral.com/&quot;&gt;&lt;em&gt;BMC Biotechnology&lt;/em&gt;&lt;/a&gt; have launched a cross-journal thematic series. The &lt;a href=&quot;https://bmccancer.biomedcentral.com/articles/collections/call-for-papers-car-immunotherapy&quot;&gt;Call for papers&lt;/a&gt; introduces Chimeric antigen receptor (CAR) T cell therapies, already important in haematological malignancies and hoped to become standard therapies in the clinic. The series is entitled ’The Advances of CAR Immunotherapy within Oncology Clinics’ and is accepting submissions until the end of June 2018. The three guest editors are: Profs Marko Radic, Djordje Atanackovic and Tim Luetkens.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/01/29/bmc-cancer-2017-review-world-cancer-day/&quot; rel=&quot;nofollow&quot;&gt;BMC Cancer: 2017 in review&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Catherine Rice</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2018-02-07T18:00:38+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">I should have done this by now...</title>
-		<link href="http://feedproxy.google.com/~r/TheNeurocritic/~3/43kmmct85TE/i-should-have-done-this-by-now.html"/>
-		<id>tag:blogger.com,1999:blog-21605329.post-4420554757702009815</id>
-		<updated>2018-01-28T04:07:08+00:00</updated>
-		<content type="html">
- &lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/--3G_tlbVK0w/Wm0yXY2oAyI/AAAAAAAAMa4/ODn0r3HY9XUxd1juoHw0Auri2oObP8AlQCLcBGAs/s1600/one%2Btwo%2Bcandle.jpg&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;684&quot; data-original-width=&quot;720&quot; height=&quot;304&quot; src=&quot;https://3.bp.blogspot.com/--3G_tlbVK0w/Wm0yXY2oAyI/AAAAAAAAMa4/ODn0r3HY9XUxd1juoHw0Auri2oObP8AlQCLcBGAs/s320/one%2Btwo%2Bcandle.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Today marks the day of 12 years of blogging. Twelve years! During this time, I've managed to remain a mysterious pseudonym to almost everyone. Very few people know who I am.&lt;br /&gt;&lt;br /&gt;But a lot has changed since then. The &lt;a href=&quot;https://cos.io/&quot; target=&quot;_blank&quot; title=&quot;Center for Open Science&quot;&gt;Open Science&lt;/a&gt; movement, the rise of multiple platforms for critique, the &lt;a href=&quot;http://journals.sagepub.com/doi/full/10.1177/1745691612465253&quot; target=&quot;_blank&quot; title=&quot;Editors' Introduction to the Special Section on Replicability in Psychological Science: A Crisis of Confidence?&quot;&gt;Replication Crisis&lt;/a&gt; in social psychology, the emergence of &lt;a href=&quot;https://www.dropbox.com/s/9zubbn9fyi1xjcu/Fiske%20presidential%20guest%20column_APS%20Observer_copy-edited.pdf&quot; target=&quot;_blank&quot; title=&quot;Susan Fiske APS presidential guest column&quot;&gt;methodological terrorists, data police, and destructo-critics&lt;/a&gt;. Assertive psychologists and statisticians with large social media presences have openly criticized flawed studies using much harsher language than I do. Using their own names. It's hard to stay relevant... &lt;br /&gt;&lt;br /&gt;Having a pseudonym now seems quaint.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The most famous neuro-pseudonym of all, &lt;a href=&quot;http://blogs.discovermagazine.com/neuroskeptic/&quot; target=&quot;_blank&quot;&gt;Neuroskeptic&lt;/a&gt;, interviewed me 2 years ago in a post on &lt;a href=&quot;http://blogs.plos.org/scicomm/2016/03/21/pseudonyms-in-science-neuroskeptic-speaks-to-neurocritic-dr-primestein-and-neurobonkers/&quot; target=&quot;_blank&quot; title=&quot;Pseudonyms in Science: Neuroskeptic speaks to Neurocritic, Dr Primestein and Neurobonkers&quot;&gt;Pseudonyms in Science&lt;/a&gt;. He asked:&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;What led you to choose to blog under a pseudonym?&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;My answer:&lt;br /&gt;&lt;blockquote class=&quot;tr_bq&quot;&gt;It was for exactly the same reason that reviewers of papers and grants are anonymous: it gives you the ability to provide an honest critique without fear of retaliation. If peer review ever becomes completely open and transparent, then I’d have no need for a pseudonym any more. &lt;br /&gt;&lt;br /&gt;In an ideal world, reviewers should be identified and held accountable for what they write. Then shoddy reviews and nasty comments would (presumably) become less common. We’ve all seen anonymous reviews that are incredibly insulting, mean, and unprofessional. So it’s hypocritical to say that bloggers are cowardly for hiding under pseudonyms, while staunchly upholding the institution of anonymous peer review. ...&lt;/blockquote&gt;&lt;br /&gt;Neuroskeptic also interviewed &lt;a href=&quot;http://neurobonkers.com/&quot; target=&quot;_blank&quot; title=&quot;Simon Oxenham&quot;&gt;Neurobonkers&lt;/a&gt; (who went public) and &lt;a href=&quot;http://www.psi-chology.com/&quot; target=&quot;_blank&quot;&gt;Dr. Primestein&lt;/a&gt; (who has not).&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;Have you ever been tempted to drop the pseudonym and use your real name? What do you think would happen (positive and negative if you did?)&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;My answer: &lt;br /&gt;&lt;blockquote class=&quot;tr_bq&quot;&gt;. . .&lt;br /&gt;&lt;br /&gt;If I were to drop the pseudonym, it might be good (and bad) for my career as a neuroscientist. I could finally take credit for my writing, but then I’d have to take all the blame too! But overall, it’s likely that less would happen than I currently imagine.&lt;/blockquote&gt;&lt;br /&gt;{At this point, most people probably don't care who I am.}&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;So what has changed? Have I left the field? No. But some serious and tragic life events have rendered my anonymity irrelevant. I just don't care any more.&lt;br /&gt;&lt;br /&gt;In September, my closest childhood friend died from cancer (see &lt;a href=&quot;http://neurocritic.blogspot.com/2017/09/survival-and-grief.html&quot;&gt;Survival and Grief&lt;/a&gt;).&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-adI_yfXIYgo/Wm1CWFvZlPI/AAAAAAAAMbI/ITTpau4x-TkoDyD042Vj-iunx7nucqyjwCLcBGAs/s1600/carrowinds.jpg&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;244&quot; data-original-width=&quot;227&quot; src=&quot;https://2.bp.blogspot.com/-adI_yfXIYgo/Wm1CWFvZlPI/AAAAAAAAMbI/ITTpau4x-TkoDyD042Vj-iunx7nucqyjwCLcBGAs/s1600/carrowinds.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;span&gt;I'm on the right.&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Then a month later, my wife was diagnosed with stage 4 cancer. My sadness and depression and anxiety over this is beyond words.&lt;br /&gt;&lt;br /&gt;I don't want to go into any more detail right now, but I'd like to show you who we are. We met via our blogs in 2006. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-6iDU_U2y7OI/Wm1F9UU8b5I/AAAAAAAAMbU/dYppVTRd_64fs477cCcv1LjaNT8lewIIwCLcBGAs/s1600/snowshoeing%2B2016.JPG&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;960&quot; data-original-width=&quot;1280&quot; height=&quot;240&quot; src=&quot;https://3.bp.blogspot.com/-6iDU_U2y7OI/Wm1F9UU8b5I/AAAAAAAAMbU/dYppVTRd_64fs477cCcv1LjaNT8lewIIwCLcBGAs/s320/snowshoeing%2B2016.JPG&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;span&gt;Snowshoeing on &lt;a href=&quot;http://mtseymour.ca/&quot; target=&quot;_blank&quot; title=&quot;North Vancouver, BC&quot;&gt;Mt. Seymour&lt;/a&gt;, December 2016&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;span&gt;I'm on the left.&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;So yeah, think of this as my “coming out”. Sorry if I've offended anyone with my ability to blend into male-dominated settings.&lt;br /&gt;&lt;br /&gt;Thank you for reading, and for your continued support during this difficult time.&lt;div class=&quot;feedflare&quot;&gt;
-&lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=43kmmct85TE:y5_sUC37cyE:yIl2AUoC8zA&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=yIl2AUoC8zA&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=43kmmct85TE:y5_sUC37cyE:JUhcmGiK9AQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=JUhcmGiK9AQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=43kmmct85TE:y5_sUC37cyE:qj6IDK7rITs&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=qj6IDK7rITs&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=43kmmct85TE:y5_sUC37cyE:cGdyc7Q-1BI&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=cGdyc7Q-1BI&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=43kmmct85TE:y5_sUC37cyE:gIN9vFwOqvQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=43kmmct85TE:y5_sUC37cyE:gIN9vFwOqvQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=43kmmct85TE:y5_sUC37cyE:F7zBnMyn0Lo&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=43kmmct85TE:y5_sUC37cyE:F7zBnMyn0Lo&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/43kmmct85TE&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>The Neurocritic</name>
-			<email>noreply@blogger.com</email>
-			<uri>http://neurocritic.blogspot.com/</uri>
-		</author>
-		<source>
-			<title type="html">The Neurocritic</title>
-			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
-			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
-			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2018-02-12T02:57:05+00:00</updated>
 		</source>
 	</entry>
 
