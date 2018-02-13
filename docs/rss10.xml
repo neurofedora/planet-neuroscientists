@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/bedbugs-feces-histamine-infestation" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/14-cattle-eyeworms-removed-oregon-woman-eye" />
 			<rdf:li rdf:resource="https://medium.com/p/9034e42d34f2" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-02-12:/2018/02/12/olfactory-coding-in-the-turbulent-realm.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/5-ways-heaviest-element-periodic-table-really-bizarre" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-chromosome-bundles-cell-division-mitosis" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53628" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/slower-speed-tricky-turns-give-prey-chance-against-cheetahs-and-lions" />
-			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-01-29:/2018/01/29/resources-for-neuronal-modelling.html" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=53600" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/bedbugs-feces-histamine-infestation">
+	<title>Science News: Even after bedbugs are eradicated, their waste lingers</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/bedbugs-feces-histamine-infestation</link>
+	<content:encoded>Bedbug waste contains high levels of the allergy-triggering chemical histamine, which stays behind even after the insects are eradicated.</content:encoded>
+	<dc:date>2018-02-12T23:30:02+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/14-cattle-eyeworms-removed-oregon-woman-eye">
+	<title>Science News: 14 cattle eyeworms removed from Oregon woman’s eye</title>
+	<link>https://www.sciencenews.org/article/14-cattle-eyeworms-removed-oregon-woman-eye</link>
+	<content:encoded>Oregon woman has the first ever eye infection with the cattle eyeworm Thelazia gulosa.</content:encoded>
+	<dc:date>2018-02-12T22:34:45+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://medium.com/p/9034e42d34f2">
 	<title>The Spike: Your Cortex Contains 17 Billion Computers</title>
 	<link>https://medium.com/the-spike/your-cortex-contains-17-billion-computers-9034e42d34f2?source=rss----c92c31591e3a---4</link>
@@ -1397,24 +1411,6 @@ Peter Walter is Professor, Department of Biochemistry and Biophysics at the Univ
 	<content:encoded>A bonanza of data on wild predators running shows that hunting is more than sprinting.</content:encoded>
 	<dc:date>2018-01-29T15:00:01+00:00</dc:date>
 	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="tag:biocomputation.herts.ac.uk,2018-01-29:/2018/01/29/resources-for-neuronal-modelling.html">
-	<title>UH Biocomputation group: Resources for Neuronal Modelling</title>
-	<link>http://biocomputation.herts.ac.uk/2018/01/29/resources-for-neuronal-modelling.html</link>
-	<content:encoded>&lt;p&gt;Neuronal simulation software packages such as GENESIS and NEURON have been available for more than 25 years. However, the last 5 years have seen a rapid growth of a variety of openly available resources for neuronal modelling, with a particular focus on open access to software, models and simulation and experimental data. I will give an overview of resources that are currently available and present a selection of simulators for neuronal modelling at different levels of detail, computational and experimental databases, tools for the generation and analysis of neuronal morphologies and interoperability frameworks.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 02/02/2018 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-29T13:03:58+00:00</dc:date>
-	<dc:creator>Volker Steuber</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=53600">
-	<title>Retraction watch: Caught Our Notice: An article about repetition is duplicated? Priceless</title>
-	<link>http://retractionwatch.com/2018/01/29/caught-notice-article-repetition-duplicated-priceless/</link>
-	<content:encoded>&lt;p&gt;Title: Does repetition help? Impact of destination promotion videos on perceived destination image and intention-to-visit change What Caught Our Attention: At times we get to just appreciate the moment: A paper focused on repetition — specifically, linking repeated exposure to travel videos and actual visits to the location — got retracted for duplication.  The notice […]&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://retractionwatch.com/2018/01/29/caught-notice-article-repetition-duplicated-priceless/&quot; rel=&quot;nofollow&quot;&gt;Caught Our Notice: An article about repetition is duplicated? Priceless&lt;/a&gt; appeared first on &lt;a href=&quot;http://retractionwatch.com&quot; rel=&quot;nofollow&quot;&gt;Retraction Watch&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-01-29T13:00:16+00:00</dc:date>
-	<dc:creator>Alison Abritis</dc:creator>
 </item>
 
 </rdf:RDF>
