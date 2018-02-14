@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/genes-could-record-forensic-clues-time-death" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-technique-shows-how-2-d-thin-films-take-heat" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9352" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/elongated-heads-were-mark-elite-status-ancient-peruvian-society" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9830" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53636" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/alternate-universe-fundamental-weak-force-physics" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/at-davos-how-can-research-drive-collaboration-in-a-fractured-world" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/genes-could-record-forensic-clues-time-death">
+	<title>Science News: Genes could record forensic clues to time of death</title>
+	<link>https://www.sciencenews.org/article/genes-could-record-forensic-clues-time-death</link>
+	<content:encoded>Scientists have found predictable patterns in the way our genetic machinery winds down after death.</content:encoded>
+	<dc:date>2018-02-13T22:12:08+00:00</dc:date>
+	<dc:creator>Erika Engelhaupt</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/new-technique-shows-how-2-d-thin-films-take-heat">
 	<title>Science News: New technique shows how 2-D thin films take the heat</title>
 	<link>https://www.sciencenews.org/article/new-technique-shows-how-2-d-thin-films-take-heat</link>
@@ -1390,12 +1397,6 @@ and summarise questions that require further study.&lt;/p&gt;
 	<content:encoded>An alternate universe that lacks one of the four fundamental forces might still have galaxies, stars, planets and perhaps life, a new study suggests.</content:encoded>
 	<dc:date>2018-01-30T12:00:02+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/at-davos-how-can-research-drive-collaboration-in-a-fractured-world">
-	<title>Elsevier Connect: At Davos: How can research drive collaboration in a fractured world?</title>
-	<link>https://www.elsevier.com/connect/at-davos-how-can-research-drive-collaboration-in-a-fractured-world</link>
-	<content:encoded>As the World Economic Forum urges a unified approach to the world’s challenges, an Elsevier report analyzes the effect of collaboration among top universities</content:encoded>
-	<dc:date>2018-01-30T10:58:10+00:00</dc:date>
 </item>
 
 </rdf:RDF>
