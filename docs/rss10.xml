@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/noise-pollution-ships-porpoises" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/genes-could-record-forensic-clues-time-death" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-technique-shows-how-2-d-thin-films-take-heat" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9352" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53641" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9830" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53636" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/alternate-universe-fundamental-weak-force-physics" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/noise-pollution-ships-porpoises">
+	<title>Science News: Shipping noise can disturb porpoises and disrupt their mealtime</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/noise-pollution-ships-porpoises</link>
+	<content:encoded>Noise from ships may disturb harbor porpoises enough to keep them from getting the food they need.</content:encoded>
+	<dc:date>2018-02-14T00:05:02+00:00</dc:date>
+	<dc:creator>Dan Garisto</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/genes-could-record-forensic-clues-time-death">
 	<title>Science News: Genes could record forensic clues to time of death</title>
 	<link>https://www.sciencenews.org/article/genes-could-record-forensic-clues-time-death</link>
@@ -1390,13 +1397,6 @@ and summarise questions that require further study.&lt;/p&gt;
 	<content:encoded>Who will admit to keeping poor records, gifting authorship, or even more obvious forms of misconduct such as plagiarism? Simon Godecharle at University of Leuven and his colleagues asked 2000 scientists from academia and industry in Belgium, and reported their findings in a recent paper for Science and Engineering Ethics. We spoke to Godecharle about […]</content:encoded>
 	<dc:date>2018-01-30T13:00:02+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/alternate-universe-fundamental-weak-force-physics">
-	<title>Science News: Universes with no weak force might still have stars and life</title>
-	<link>https://www.sciencenews.org/article/alternate-universe-fundamental-weak-force-physics</link>
-	<content:encoded>An alternate universe that lacks one of the four fundamental forces might still have galaxies, stars, planets and perhaps life, a new study suggests.</content:encoded>
-	<dc:date>2018-01-30T12:00:02+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
