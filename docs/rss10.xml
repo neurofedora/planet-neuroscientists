@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/borneo-hunting-emerges-key-threat-endangered-orangutans" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9920" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-a-technical-university-is-using-research-analytics-to-plan-for-international-success" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33261" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/death-graveside-companion-offers-outlet-your-morbid-curiosity" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=53941" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/machines-think-predicts-future-artificial-intelligence" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=53689" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/borneo-hunting-emerges-key-threat-endangered-orangutans">
+	<title>Science News: In Borneo, hunting emerges as a key threat to endangered orangutans</title>
+	<link>https://www.sciencenews.org/article/borneo-hunting-emerges-key-threat-endangered-orangutans</link>
+	<content:encoded>Only small numbers of Bornean orangutans will survive coming decades, researchers say.</content:encoded>
+	<dc:date>2018-02-15T17:00:03+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=9920">
 	<title>BMC Series blog: Higher cigarette taxes may increase use of chewing tobacco and cigars in adolescents</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2018/02/15/higher-cigarette-taxes-may-increase-use-of-chewing-tobacco-and-cigars-in-adolescents/</link>
@@ -1295,13 +1302,6 @@ and summarise questions that require further study.&lt;/p&gt;
 	<content:encoded>In a new book, an artificial intelligence expert explores AI’s past, present and future.</content:encoded>
 	<dc:date>2018-02-02T20:20:17+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=53689">
-	<title>Retraction watch: PubMed shuts down its comments feature, PubMed Commons</title>
-	<link>http://retractionwatch.com/2018/02/02/pubmed-shuts-comments-feature-pubmed-commons/</link>
-	<content:encoded>The U.S. National Institutes of Health is closing PubMed Commons, the feature that enabled readers to post comments on abstracts indexed in PubMed. NIH announced it will be discontinuing the service — which allowed only signed comments from authors with papers indexed in PubMed, among other restrictions — after more than four years, due to […]</content:encoded>
-	<dc:date>2018-02-02T16:29:03+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
