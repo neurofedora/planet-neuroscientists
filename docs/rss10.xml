@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ants-practice-combat-triage-and-nurse-their-injured" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/james-webb-space-telescope-challenges-artists-see-infrared" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hear-beat-your-brain-may-think-about-moving-it" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=9945" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/galaxy-formation-orbit-dark-matter" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=54049" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/trappist-1-exoplanets-life-friendly-atmosphere" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/superionic-ice-liquid-solid-physics" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=53698" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it">
+	<title>Science News: Americans would welcome alien life rather than fear it</title>
+	<link>https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it</link>
+	<content:encoded>Americans would probably take the discovery of extraterrestrial microbes pretty well.</content:encoded>
+	<dc:date>2018-02-16T22:00:03+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/ants-practice-combat-triage-and-nurse-their-injured">
+	<title>Science News: Ants practice combat triage and nurse their injured</title>
+	<link>https://www.sciencenews.org/article/ants-practice-combat-triage-and-nurse-their-injured</link>
+	<content:encoded>Termite-hunting ants have their own version of combat medicine for injured nest mates.</content:encoded>
+	<dc:date>2018-02-16T19:14:45+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/james-webb-space-telescope-challenges-artists-see-infrared">
 	<title>Science News: James Webb Space Telescope challenges artists to see in infrared</title>
 	<link>https://www.sciencenews.org/article/james-webb-space-telescope-challenges-artists-see-infrared</link>
@@ -1289,20 +1303,6 @@ and summarise questions that require further study.&lt;/p&gt;
 	<content:encoded>The seven planets orbiting TRAPPIST-1 are probably rocky and some may have life-friendly atmospheres, two new papers suggest.</content:encoded>
 	<dc:date>2018-02-05T16:00:02+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/superionic-ice-liquid-solid-physics">
-	<title>Science News: Laser experiment hints at weird in-between ice</title>
-	<link>https://www.sciencenews.org/article/superionic-ice-liquid-solid-physics</link>
-	<content:encoded>Scientists spot signs of an unusual phase of water called superionic ice.</content:encoded>
-	<dc:date>2018-02-05T16:00:02+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=53698">
-	<title>Retraction watch: Unusual: Author uses a reference list to accuse a paper of plagiarism</title>
-	<link>http://retractionwatch.com/2018/02/05/unusual-author-uses-a-reference-list-to-accuse-a-paper-of-plagiarism/</link>
-	<content:encoded>Here’s an unusual way to allege plagiarism: Do it in the reference list. That’s what Brian Levine, a professor in the College of Information and Computer Sciences at the University of Massachusetts in Amherst, did when he came across a paper he wanted to cite but suspected of plagiarism. When Levine published his 2017 paper, he […]</content:encoded>
-	<dc:date>2018-02-05T14:40:59+00:00</dc:date>
-	<dc:creator>Victoria Stern</dc:creator>
 </item>
 
 </rdf:RDF>
