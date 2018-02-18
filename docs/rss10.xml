@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/wearable-sensor-patch-stroke-patients" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ants-practice-combat-triage-and-nurse-their-injured" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/james-webb-space-telescope-challenges-artists-see-infrared" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://forgingconnectionsblog.wordpress.com/?p=602" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/galaxy-formation-orbit-dark-matter" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=54049" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/trappist-1-exoplanets-life-friendly-atmosphere" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/wearable-sensor-patch-stroke-patients">
+	<title>Science News: This stick-on patch could keep tabs on stroke patients at home</title>
+	<link>https://www.sciencenews.org/article/wearable-sensor-patch-stroke-patients</link>
+	<content:encoded>New wearable electronics that monitor swallowing and speech could aid rehabilitation therapy for stroke patients.</content:encoded>
+	<dc:date>2018-02-17T21:00:01+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it">
 	<title>Science News: Americans would welcome alien life rather than fear it</title>
 	<link>https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it</link>
@@ -1296,13 +1303,6 @@ and summarise questions that require further study.&lt;/p&gt;
 	<content:encoded>The University of Texas MD Anderson Cancer Center, of Houston, is asking a conference on cancer in Chennai, India to stop claiming it is a co-sponsor. The meeting was the subject of a story in The New Indian Express, which reported that Baba Ramdev, a prominent yogi “who had claimed that cancer is divine justice […]</content:encoded>
 	<dc:date>2018-02-05T16:43:12+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/trappist-1-exoplanets-life-friendly-atmosphere">
-	<title>Science News: Some of TRAPPIST-1’s planets could have life-friendly atmospheres</title>
-	<link>https://www.sciencenews.org/article/trappist-1-exoplanets-life-friendly-atmosphere</link>
-	<content:encoded>The seven planets orbiting TRAPPIST-1 are probably rocky and some may have life-friendly atmospheres, two new papers suggest.</content:encoded>
-	<dc:date>2018-02-05T16:00:02+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
