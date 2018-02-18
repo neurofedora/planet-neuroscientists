@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9359" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/wearable-sensor-patch-stroke-patients" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ants-practice-combat-triage-and-nurse-their-injured" />
@@ -114,11 +115,22 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33199" />
 			<rdf:li rdf:resource="http://forgingconnectionsblog.wordpress.com/?p=602" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/galaxy-formation-orbit-dark-matter" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=54049" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9359">
+	<title>Discovery magazine - Neuroskeptic: Disability Bias in Peer Review?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9359</link>
+	<content:encoded>Writing in the journal Medical Care, researcher Lisa I. Iezzoni says that a peer reviewer on a paper she previously submitted to that journal displayed &quot;explicitly disparaging language and erroneous derogatory assumptions&quot; about disabled people.
+
+
+
+
+
+Iezzoni's paper, which was eventually rejected, was about a survey of Massachusetts Medicaid recipients with either serious mental illness or significant physical disability. The survey involved a questionnaire asking about their experiences w</content:encoded>
+	<dc:date>2018-02-18T15:05:44+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/wearable-sensor-patch-stroke-patients">
 	<title>Science News: This stick-on patch could keep tabs on stroke patients at home</title>
 	<link>https://www.sciencenews.org/article/wearable-sensor-patch-stroke-patients</link>
@@ -1296,13 +1308,6 @@ and summarise questions that require further study.&lt;/p&gt;
 	<content:encoded>Distant dwarf galaxies orbit a larger galaxy in a coordinated loop, rather than randomly as expected. The finding could challenge theories of dark matter.</content:encoded>
 	<dc:date>2018-02-05T23:00:02+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=54049">
-	<title>Retraction watch: MD Anderson: No, we did not co-sponsor this cancer conference</title>
-	<link>http://retractionwatch.com/2018/02/05/md-anderson-no-we-did-not-co-sponsor-this-cancer-conference/</link>
-	<content:encoded>The University of Texas MD Anderson Cancer Center, of Houston, is asking a conference on cancer in Chennai, India to stop claiming it is a co-sponsor. The meeting was the subject of a story in The New Indian Express, which reported that Baba Ramdev, a prominent yogi “who had claimed that cancer is divine justice […]</content:encoded>
-	<dc:date>2018-02-05T16:43:12+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
