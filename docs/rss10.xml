@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/babies-language-brain-stroke" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9359" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/wearable-sensor-patch-stroke-patients" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/americans-would-welcome-alien-life-rather-fear-it" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://blog.oup.com/?p=136339" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33199" />
 			<rdf:li rdf:resource="http://forgingconnectionsblog.wordpress.com/?p=602" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/galaxy-formation-orbit-dark-matter" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/babies-language-brain-stroke">
+	<title>Science News: Babies can recover language skills after a left-side stroke</title>
+	<link>https://www.sciencenews.org/article/babies-language-brain-stroke</link>
+	<content:encoded>Very young babies who have strokes in the language centers of their brain can recover normal language function — in the other side of their brain.</content:encoded>
+	<dc:date>2018-02-18T20:45:02+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9359">
 	<title>Discovery magazine - Neuroskeptic: Disability Bias in Peer Review?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9359</link>
@@ -1301,13 +1308,6 @@ and summarise questions that require further study.&lt;/p&gt;
 &lt;p&gt;So, go for it. &lt;strong&gt;Be brave. Be thorough. Be a good scientist. &lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-02-05T23:56:13+00:00</dc:date>
 	<dc:creator>duncanastle</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/galaxy-formation-orbit-dark-matter">
-	<title>Science News: The way dwarf galaxies move puts a new spin on galaxy formation</title>
-	<link>https://www.sciencenews.org/article/galaxy-formation-orbit-dark-matter</link>
-	<content:encoded>Distant dwarf galaxies orbit a larger galaxy in a coordinated loop, rather than randomly as expected. The finding could challenge theories of dark matter.</content:encoded>
-	<dc:date>2018-02-05T23:00:02+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
