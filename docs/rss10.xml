@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/building-bright-future-science-journalism" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-weigh-human-gene-editing-and-more" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-early-organ-transplants-brought-triumph-and-tragedy" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33322" />
 			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=5282" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9367" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0318-31" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0318-28" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0318-25" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0318-22" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0318-2" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0318-18" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/building-bright-future-science-journalism">
+	<title>Science News: Building a bright future for science journalism</title>
+	<link>https://www.sciencenews.org/article/building-bright-future-science-journalism</link>
+	<content:encoded>Editor in Chief Nancy Shute is ready to produce top-quality science journalism and investigate digital innovations.</content:encoded>
+	<dc:date>2018-02-22T15:46:24+00:00</dc:date>
+	<dc:creator>Nancy Shute</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/readers-weigh-human-gene-editing-and-more">
+	<title>Science News: Readers weigh in on human gene editing and more</title>
+	<link>https://www.sciencenews.org/article/readers-weigh-human-gene-editing-and-more</link>
+	<content:encoded>Readers debated feeling morally obligated to edit their kid's genes and had questions about exoplanets.</content:encoded>
+	<dc:date>2018-02-22T15:39:26+00:00</dc:date>
+	<dc:creator>Science News Staff</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/50-years-ago-early-organ-transplants-brought-triumph-and-tragedy">
+	<title>Science News: 50 years ago, early organ transplants brought triumph and tragedy</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-early-organ-transplants-brought-triumph-and-tragedy</link>
+	<content:encoded>In 1968, the liver transplant field had its first small successes. Now, more than 30,000 patients in the U.S. receive a donated liver each year.</content:encoded>
+	<dc:date>2018-02-22T12:00:01+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=33322">
 	<title>The British Psychological Society - Research Digest: Wisdom is a journey</title>
 	<link>https://digest.bps.org.uk/2018/02/22/wisdom-is-a-journey/</link>
@@ -198,7 +219,7 @@ In Ghana, the authors explain, there are just 25 psychiatrists to cater</content
 	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/supernova-amateur-astronomer-camera">
-	<title>Science News: Serendipitous supernova explosion caught on camera</title>
+	<title>Science News: An amateur astronomer caught a supernova explosion on camera</title>
 	<link>https://www.sciencenews.org/article/supernova-amateur-astronomer-camera</link>
 	<content:encoded>An amateur astronomer has caught a supernova explosion on camera.</content:encoded>
 	<dc:date>2018-02-21T18:00:03+00:00</dc:date>
@@ -298,7 +319,7 @@ In Ghana, the authors explain, there are just 25 psychiatrists to cater</content
 </item>
 <item rdf:about="http://retractionwatch.com/?p=54643">
 	<title>Retraction watch: PNAS asks D.C. court to dismiss $10 million defamation lawsuit</title>
-	<link>http://retractionwatch.com/2018/02/20/pnas-asks-d-c-court-to-dismiss-10-million-defamation-lawsuit/</link>
+	<link>https://retractionwatch.com/2018/02/20/pnas-asks-d-c-court-to-dismiss-10-million-defamation-lawsuit/</link>
 	<content:encoded>WASHINGTON, DC — Lawyers for the National Academy of Sciences have asked a District of Columbia court to dismiss a $10 million defamation suit brought by a Stanford University professor. Mark Jacobson, an engineering professor at Stanford who has published research about the future of renewable energy, alleged he was defamed in a June 2017 […]</content:encoded>
 	<dc:date>2018-02-20T22:02:29+00:00</dc:date>
 	<dc:creator>Andrew P. Han</dc:creator>
@@ -312,7 +333,7 @@ In Ghana, the authors explain, there are just 25 psychiatrists to cater</content
 </item>
 <item rdf:about="http://retractionwatch.com/?p=54531">
 	<title>Retraction watch: Target of $2M recruitment grant falsified several images: ORI</title>
-	<link>http://retractionwatch.com/2018/02/20/target-of-2m-recruitment-grant-falsified-several-images-ori/</link>
+	<link>https://retractionwatch.com/2018/02/20/target-of-2m-recruitment-grant-falsified-several-images-ori/</link>
 	<content:encoded>A former NIH postdoc recruited to a tenure-track position last year committed multiple acts of misconduct in two papers, according to the U.S. Office of Research Integrity. According to the new notice, issued by the ORI, Colleen Skau altered results and multiple figures across the papers, published in Cell and PNAS. The misconduct occurred while […]</content:encoded>
 	<dc:date>2018-02-20T14:35:02+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
@@ -372,7 +393,7 @@ In Ghana, the authors explain, there are just 25 psychiatrists to cater</content
 </item>
 <item rdf:about="http://retractionwatch.com/?p=54438">
 	<title>Retraction watch: When — and how — should journals flag papers that don’t quite meet retraction criteria?</title>
-	<link>http://retractionwatch.com/2018/02/19/when-and-how-should-journals-flag-papers-that-dont-quite-meet-retraction-criteria/</link>
+	<link>https://retractionwatch.com/2018/02/19/when-and-how-should-journals-flag-papers-that-dont-quite-meet-retraction-criteria/</link>
 	<content:encoded>Readers of Retraction Watch will be no strangers to the practice of issuing Expressions of Concern — editorial notices from journals that indicate a paper’s results may not be valid. While a good idea in theory — so readers can be aware of potential issues while an investigation is underway — in practice, it’s a […]</content:encoded>
 	<dc:date>2018-02-19T13:00:45+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
@@ -445,7 +466,7 @@ Iezzoni's paper, which was eventually rejected, was about a survey of Massachuse
 </item>
 <item rdf:about="http://retractionwatch.com/?p=54141">
 	<title>Retraction watch: Weekend reads: We’re back! (We hope); the data thugs; heroes of retraction</title>
-	<link>http://retractionwatch.com/2018/02/17/weekend-reads-were-back-we-hope-the-data-thugs-heroes-of-retraction/</link>
+	<link>https://retractionwatch.com/2018/02/17/weekend-reads-were-back-we-hope-the-data-thugs-heroes-of-retraction/</link>
 	<content:encoded>As many of our readers will know, we’ve been having serious technical issues with the site. We’re cautiously optimistic that they’ve been solved, so although we’re still working on fixes, we’re going to try posting again. Thanks for your ongoing patience. This week, we posted at our sister site, Embargo Watch. Here are those posts: […]</content:encoded>
 	<dc:date>2018-02-17T14:00:23+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
@@ -706,7 +727,7 @@ Iezzoni's paper, which was eventually rejected, was about a survey of Massachuse
 </item>
 <item rdf:about="http://retractionwatch.com/?p=54160">
 	<title>Retraction watch: Author retracts Nature paper on Asia’s glaciers flagged for data error</title>
-	<link>http://retractionwatch.com/2018/02/14/author-retracts-nature-paper-on-asias-glaciers-flagged-for-data-error/</link>
+	<link>https://retractionwatch.com/2018/02/14/author-retracts-nature-paper-on-asias-glaciers-flagged-for-data-error/</link>
 	<content:encoded>A glacier researcher has retracted a Nature paper after mistakenly underestimating glacial melt by as much as a factor of ten. In September, the journal tagged “Asia’s glaciers are a regionally important buffer against drought,” originally published in May 2017 by Hamish Pritchard,a glaciologist at the British Antarctic Survey, with an expression of concern, notifying readers of the mistake. […]</content:encoded>
 	<dc:date>2018-02-14T18:00:09+00:00</dc:date>
 	<dc:creator>Andrew P. Han</dc:creator>
@@ -836,7 +857,7 @@ Iezzoni's paper, which was eventually rejected, was about a survey of Massachuse
 </item>
 <item rdf:about="http://retractionwatch.com/?p=54151">
 	<title>Retraction watch: Six days after publication, paper is flagged. By day 11, it’s retracted.</title>
-	<link>http://retractionwatch.com/2018/02/13/six-days-after-publication-paper-is-flagged-by-day-11-its-retracted/</link>
+	<link>https://retractionwatch.com/2018/02/13/six-days-after-publication-paper-is-flagged-by-day-11-its-retracted/</link>
 	<content:encoded>Authors of a 2018 paper have retracted it after discovering “the conclusions in the article cannot be relied upon.” The journal, PeerJ, wasted no time. Less than a week after the paper was published, the journal issued an expression of concern to alert readers to the issue and to the forthcoming retraction notice, which appeared five […]</content:encoded>
 	<dc:date>2018-02-13T20:14:01+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
@@ -1301,42 +1322,6 @@ The most interesting part of a scientific seminar, colloquium or conference for 
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/sM8qVpPXVmg&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-02-08T00:00:00+00:00</dc:date>
 	<dc:creator>Daisy Grewal</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0318-22">
-	<title>Scientific American Mind: Cracking the Brain's Enigma Code</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/nI-9q7HU-NI/scientificamericanmind0318-22</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 22 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0318-22&quot;&gt;doi:10.1038/scientificamericanmind0318-22&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Helen Shen&lt;/p&gt;
-&lt;p&gt;Neuroscientists are taking cues from cryptography to translate brain activity into movements&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/nI-9q7HU-NI&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-02-08T00:00:00+00:00</dc:date>
-	<dc:creator>Helen Shen</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0318-2">
-	<title>Scientific American Mind: Extreme Brain Teaser</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/H4QeSl2Bke4/scientificamericanmind0318-2</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 2 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0318-2&quot;&gt;doi:10.1038/scientificamericanmind0318-2&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Andrea Gawrylewski&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/H4QeSl2Bke4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-02-08T00:00:00+00:00</dc:date>
-	<dc:creator>Andrea Gawrylewski</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0318-18">
-	<title>Scientific American Mind: Social Notworking: Is Generation Smartphone Really More Prone to Unhappiness?</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/lWTu6JBdQnY/scientificamericanmind0318-18</link>
-	<content:encoded>&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.nature.com/common/includes/header/images/backgrounds/01/leaderboard_side.gif&quot; style=&quot;width: 14px; border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;a href=&quot;http://pubads.g.doubleclick.net/gampad/jump?iu=/285//rss&amp;amp;sz=728x90&amp;amp;t=abr=!NN2;pos=top;tile=1;ptile=1&amp;amp;c=123456789?&quot;&gt;&lt;img alt=&quot;Advertisment&quot; src=&quot;http://pubads.g.doubleclick.net/gampad/ad?iu=/285//rss&amp;amp;sz=728x90&amp;amp;t=abr=!NN2;pos=top;tile=1;ptile=1&amp;amp;c=123456789?&quot; style=&quot;border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;/a&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.nature.com/common/includes/header/images/backgrounds/01/leaderboard_side.gif&quot; style=&quot;width: 14px; border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;/div&gt;
-&lt;p&gt;Scientific American Mind 29, 18 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0318-18&quot;&gt;doi:10.1038/scientificamericanmind0318-18&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Angus Chen&lt;/p&gt;
-&lt;p&gt;A study closely correlates device use with depression and suicide, but the link is contentious&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/lWTu6JBdQnY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-02-08T00:00:00+00:00</dc:date>
-	<dc:creator>Angus Chen</dc:creator>
 </item>
 
 </rdf:RDF>
