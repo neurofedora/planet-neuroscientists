@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9376" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/0b6d58e61f533124e7b5e6675cefcce4" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/two-way-communication-possible-single-quantum-particle" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=136634" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="https://medium.com/p/9034e42d34f2" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-02-12:/2018/02/12/olfactory-coding-in-the-turbulent-realm.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/5-ways-heaviest-element-periodic-table-really-bizarre" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-ozone-holes-may-have-sterilized-forests-252-million-years-ago" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9376">
+	<title>Discovery magazine - Neuroskeptic: About that New Antidepressant Study</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9376</link>
+	<content:encoded>A new Lancet paper about antidepressants caused quite a stir this week. Headlines proclaimed that &quot;It's official - antidepressants work&quot;, &quot;Study proves anti-depressants are effective&quot;, and &quot;Antidepressants work. Period.&quot;
+
+
+
+Wew.
+
+The truth is that while the Lancet paper is a nice piece of work, it tells us very little that we didn't already know, and it has a number of limitations. The media reaction to the paper is frankly bananas, as we'll see below.
+
+Here's why the new study doesn't t</content:encoded>
+	<dc:date>2018-02-24T13:52:39+00:00</dc:date>
+</item>
 <item rdf:about="http://brainsciencepodcast.libsyn.com/0b6d58e61f533124e7b5e6675cefcce4">
 	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 142 Michael Graziano explores Peripersonal Neurons</title>
 	<link>http://brainsciencepodcast.libsyn.com/bs-142-michael-graziano-explores-peripersonal-neurons</link>
@@ -1323,13 +1337,6 @@ The paper's called Brain mechanisms underlying cue-based memorizing during free 
 	<content:encoded>Called oganesson, element 118 has some very strange properties, according to theoretical calculations by physicists.</content:encoded>
 	<dc:date>2018-02-12T14:00:02+00:00</dc:date>
 	<dc:creator>Dan Garisto</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ancient-ozone-holes-may-have-sterilized-forests-252-million-years-ago">
-	<title>Science News: Ancient ozone holes may have sterilized forests 252 million years ago</title>
-	<link>https://www.sciencenews.org/article/ancient-ozone-holes-may-have-sterilized-forests-252-million-years-ago</link>
-	<content:encoded>Swaths of barren forest may have led to Earth’s greatest mass extinction.</content:encoded>
-	<dc:date>2018-02-12T12:00:02+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
