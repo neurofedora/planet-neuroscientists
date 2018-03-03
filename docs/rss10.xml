@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/penguin-supercolony-discovered-antarctica" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/knotted-structures-called-skyrmions-seem-mimic-ball-lightning" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/loner-gas-clouds-could-be-new-kind-stellar-system" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=62294" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/earth-moon-formation-space-doughnut" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-32" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-26" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-25" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-24" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-22" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/penguin-supercolony-discovered-antarctica">
+	<title>Science News: Penguin supercolony discovered in Antarctica</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/penguin-supercolony-discovered-antarctica</link>
+	<content:encoded>Scientists have found a penguin supercolony living on tiny, remote Antarctic islands.</content:encoded>
+	<dc:date>2018-03-02T23:26:45+00:00</dc:date>
+	<dc:creator>Katy Daigle</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/knotted-structures-called-skyrmions-seem-mimic-ball-lightning">
+	<title>Science News: Knotted structures called skyrmions seem to mimic ball lightning</title>
+	<link>https://www.sciencenews.org/article/knotted-structures-called-skyrmions-seem-mimic-ball-lightning</link>
+	<content:encoded>Skyrmions in a quantum state of matter have something surprising in common with ball lightning — linked magnetic fields.</content:encoded>
+	<dc:date>2018-03-02T19:00:02+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/loner-gas-clouds-could-be-new-kind-stellar-system">
 	<title>Science News: Loner gas clouds could be a new kind of stellar system</title>
 	<link>https://www.sciencenews.org/article/loner-gas-clouds-could-be-new-kind-stellar-system</link>
@@ -1382,29 +1396,6 @@ In Ghana, the authors explain, there are just 25 psychiatrists to cater</content
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/-NafgTedpLc&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-02-20T00:00:00+00:00</dc:date>
 	<dc:creator>David Pogue</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0318-24">
-	<title>Scientific American: A Perfectly Avoidable Crisis</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/8RUbycEgsGY/scientificamerican0318-24</link>
-	<content:encoded>&lt;p&gt;Scientific American 318, 24 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0318-24&quot;&gt;doi:10.1038/scientificamerican0318-24&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Claudia Wallis&lt;/p&gt;
-&lt;p&gt;Bone fractures are rife after age 50. Can't we do more about osteoporosis?&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/8RUbycEgsGY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-02-20T00:00:00+00:00</dc:date>
-	<dc:creator>Claudia Wallis</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0318-22">
-	<title>Scientific American: Quick Hits</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/FLeS6bfK26c/scientificamerican0318-22</link>
-	<content:encoded>&lt;p&gt;Scientific American 318, 22 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0318-22&quot;&gt;doi:10.1038/scientificamerican0318-22&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Yasemin Saplakoglu&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/FLeS6bfK26c&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-02-20T00:00:00+00:00</dc:date>
-	<dc:creator>Yasemin Saplakoglu</dc:creator>
 </item>
 
 </rdf:RDF>
