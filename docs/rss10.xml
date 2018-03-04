@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/future-ai-may-diagnose-eye-problems" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=62318" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/antarctica-larsen-c-iceberg-mission-scrapped" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9387" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-46" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-40" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-4" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0318-32" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/future-ai-may-diagnose-eye-problems">
+	<title>Science News: In the future, an AI may diagnose eye problems</title>
+	<link>https://www.sciencenews.org/article/future-ai-may-diagnose-eye-problems</link>
+	<content:encoded>Artificial intelligence could help diagnose blinding eye diseases and other illnesses, speeding up medical care in areas where specialists might be scarce.</content:encoded>
+	<dc:date>2018-03-04T13:00:01+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=62318">
 	<title>Retraction watch: Weekend reads: 20th anniversary of a fraud; uses and misuses of doubt; how common is scooping?</title>
 	<link>https://retractionwatch.com/2018/03/03/weekend-reads-20th-anniversary-of-a-fraud-uses-and-misuses-of-doubt-how-common-is-scooping/</link>
@@ -1377,18 +1384,6 @@ In Ghana, the authors explain, there are just 25 psychiatrists to cater</content
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/I8n5Qr6Hgtc&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-02-20T00:00:00+00:00</dc:date>
 	<dc:creator>Mariette DiChristina</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0318-32">
-	<title>Scientific American: Shadows of Other Worlds</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/78OUqnkBzfM/scientificamerican0318-32</link>
-	<content:encoded>&lt;p&gt;Scientific American 318, 32 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0318-32&quot;&gt;doi:10.1038/scientificamerican0318-32&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Joshua N. Winn&lt;/p&gt;
-&lt;p&gt;Two telescopes due to launch this year should reveal a host of new exoplanets&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/78OUqnkBzfM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-02-20T00:00:00+00:00</dc:date>
-	<dc:creator>Joshua N. Winn</dc:creator>
 </item>
 
 </rdf:RDF>
