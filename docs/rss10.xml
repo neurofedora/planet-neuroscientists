@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/cosmic-dust-may-create-mars-wispy-clouds" />
+			<rdf:li rdf:resource="http://brainpodcast.com/post/171836150949" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-waves-may-focus-attention-and-keep-information-flowing" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/archaeopteryx-had-wings-made-flapping-not-just-gliding" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=62875" />
@@ -113,12 +115,23 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33367" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/space-debris-shield-bullet" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/remembering-joe-polchinski-modest-physicist-who-conceived-multiverse" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/rain-wakes-undead-microbes-chile-atacama-desert" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/these-giant-viruses-have-more-protein-making-gear-any-known-virus" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/cosmic-dust-may-create-mars-wispy-clouds">
+	<title>Science News: Cosmic dust may create Mars’ wispy clouds</title>
+	<link>https://www.sciencenews.org/article/cosmic-dust-may-create-mars-wispy-clouds</link>
+	<content:encoded>Magnesium left by passing comets seeds the clouds of Mars, a new study suggests.</content:encoded>
+	<dc:date>2018-03-13T21:08:38+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="http://brainpodcast.com/post/171836150949">
+	<title>Brain matters the Podcast: Hey Brain Matters, I am a Neuroscience undergrad at ASU who is starting a podcast with fellow undergrads to talk about everything psychology and neuroscience. We are trying to focus on topics that deal with heuristics and delivering neuroscience as thought provoking and accessible to all audiences. Dr. B B Braden referred me to your site and I have gotten addicted listening to your episodes. I would be grateful if you could share some advice on how to start our on podcast. Thanks so much, Milo.</title>
+	<link>http://brainpodcast.com/post/171836150949</link>
+	<content:encoded>&lt;p&gt;Hey Milo - Thanks for listening. I’d be happy to give you some advice on how we got started. Shoot me an email at anthony@brainpodcast.com and I can hopefully provide some help.&lt;/p&gt;&lt;p&gt;-Anthony&lt;/p&gt;</content:encoded>
+	<dc:date>2018-03-13T18:03:26+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/brain-waves-may-focus-attention-and-keep-information-flowing">
 	<title>Science News: Brain waves may focus attention and keep information flowing</title>
 	<link>https://www.sciencenews.org/article/brain-waves-may-focus-attention-and-keep-information-flowing</link>
@@ -1636,20 +1649,6 @@ describing the features of M2T languages.&lt;/p&gt;
 	<content:encoded>String theorists lament the death of Joe Polchinski, one of their field’s most esteemed and respected thinkers.</content:encoded>
 	<dc:date>2018-02-27T20:01:50+00:00</dc:date>
 	<dc:creator>Tom Siegfried</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/rain-wakes-undead-microbes-chile-atacama-desert">
-	<title>Science News: A rare rainstorm wakes undead microbes in Chile’s Atacama Desert</title>
-	<link>https://www.sciencenews.org/article/rain-wakes-undead-microbes-chile-atacama-desert</link>
-	<content:encoded>Microbial life in Chile’s Atacama Desert bursts into bloom when moisture is available.</content:encoded>
-	<dc:date>2018-02-27T19:33:05+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/these-giant-viruses-have-more-protein-making-gear-any-known-virus">
-	<title>Science News: These giant viruses have more protein-making gear than any known virus</title>
-	<link>https://www.sciencenews.org/article/these-giant-viruses-have-more-protein-making-gear-any-known-virus</link>
-	<content:encoded>Scientists have found two more giant viruses in extreme environments in Brazil.</content:encoded>
-	<dc:date>2018-02-27T19:06:07+00:00</dc:date>
-	<dc:creator>Dan Garisto</dc:creator>
 </item>
 
 </rdf:RDF>
