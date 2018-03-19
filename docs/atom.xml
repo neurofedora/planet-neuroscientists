@@ -5,8 +5,129 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-03-19T12:00:41+00:00</updated>
+	<updated>2018-03-19T18:00:41+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Universal Linguistic Decoders are Everywhere</title>
+		<link href="http://feedproxy.google.com/~r/TheNeurocritic/~3/586qiITtPgw/universal-linguistic-decoders-are.html"/>
+		<id>tag:blogger.com,1999:blog-21605329.post-4744995539622906372</id>
+		<updated>2018-03-19T17:21:31+00:00</updated>
+		<content type="html">
+ &lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-gdZILM1Q1Yc/Wq8QwBKu8JI/AAAAAAAAMeg/DCHThVyvMakgot4dp9DARHkC4y_sutFMQCLcBGAs/s1600/Visualization%2Bof%2Bsemantic%2Bspace.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot; title=&quot;Visualization of semantic space&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;1200&quot; data-original-width=&quot;1382&quot; height=&quot;346&quot; src=&quot;https://1.bp.blogspot.com/-gdZILM1Q1Yc/Wq8QwBKu8JI/AAAAAAAAMeg/DCHThVyvMakgot4dp9DARHkC4y_sutFMQCLcBGAs/s400/Visualization%2Bof%2Bsemantic%2Bspace.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot; title=&quot;corrected link,thanks&quot;&gt;&lt;b&gt;Pereira et al. (2018)&lt;/b&gt;&lt;/a&gt; - click image to enlarge&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;No, they're not. They're really not. They're “everywhere” to me, because I've been listening to &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Depeche_Mode&quot; title=&quot;Depeche Mode&quot;&gt;Black Celebration&lt;/a&gt;&lt;/i&gt;. How did I go from “death is everywhere” to “universal linguistic decoders are everywhere”? I don't imagine this particular semantic leap has occurred to anyone before. Actually, the association travelled in the opposite direction, because the original title of this piece was Decoders Are Everywhere.&lt;span style=&quot;color: purple;&quot;&gt;&lt;b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt;  {I was listening to the record weeks ago, the silly title of the post reminded me of this, and the semantic association was remote.}&lt;br /&gt;&lt;br /&gt;This is linguistic meaning in all its idiosyncratic glory, a space for infinite semantic vectors that are unexpected and novel. My rambling is also an excuse to &lt;i&gt;&lt;b&gt;not &lt;/b&gt;&lt;/i&gt;start out by saying, oh my god, what were you thinking with a title like, &lt;i&gt;Toward a universal decoder of linguistic meaning from brain activation&lt;/i&gt; (&lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Pereira et al., 2018&lt;/a&gt;). Does the word “toward” absolve you from what such a sage, all-knowing clustering algorithm would actually entail? And of course, “universal” implies applicability to every human language, not just English. How about, &lt;i&gt;Toward a better clustering algorithm (using &lt;a href=&quot;https://nlp.stanford.edu/projects/glove/&quot; target=&quot;_blank&quot; title=&quot;Global Vectors for Word Representation&quot;&gt;GloVe vectors&lt;/a&gt;) for inferring meaning&lt;/i&gt;&lt;i&gt;&lt;i&gt; from the distribution of voxels&lt;/i&gt;, as determined by an n=16 database of brain activation elicited by reading English sentences?&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;But it's unfair (and inaccurate) to suggest that the linguistic decoder can decipher a meandering train of thought when given a specific neural activity pattern. Therefore, I do not want to take anything away from what &lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Pereira et al. (2018)&lt;/a&gt; have achieved in this paper. They say: &lt;br /&gt;&lt;ul&gt;&lt;li&gt;“Our work goes substantially beyond prior work in three key ways. First, we develop a novel sampling procedure for selecting the training stimuli so as to cover the entire semantic space. This comprehensive sampling of possible meanings in training the decoder maximizes generalizability to potentially any new meaning.”&lt;/li&gt;  &lt;li&gt;“Second, we show that although our decoder is trained on a limited set of individual word meanings, it can robustly decode meanings of sentences represented as a simple average of the meanings of the content words. ... To our knowledge, this is the ﬁrst demonstration of generalization from single-word meanings to meanings of sentences.”&lt;/li&gt;  &lt;li&gt;“Third, we test our decoder on two independent imaging datasets, in line with current emphasis in the ﬁeld on robust and replicable science. The materials (constructed fully independently of each other and of the materials used in the training experiment) consist of sentences about a wide variety of topics—including abstract ones—that go well beyond those encountered in training.”&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;Unfortunately, it would take me days to adequately pore over the methods, and even then my understanding would be only cursory. The heavy lifting would need to be done by experts in linguistics, unsupervised learning, and neural decoding models. But until then...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;Death is everywhere&lt;/span&gt;&lt;br /&gt;&lt;span&gt;There are flies on the windscreen&lt;/span&gt;&lt;br /&gt;&lt;span&gt; For a start&lt;/span&gt;&lt;br /&gt;&lt;span&gt; Reminding us&lt;/span&gt;&lt;br /&gt;&lt;span&gt; We could be torn apart&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Tonight&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;---Depeche Mode, &lt;a href=&quot;https://www.azlyrics.com/lyrics/depechemode/flyonthewindscreen.html&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;Fly on the Windscreen&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Footnote&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: purple;&quot;&gt;&lt;b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt; Well, they &lt;i&gt;are&lt;/i&gt; super popular right now.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Reference&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Pereira F, Lou B, Pritchett B, Ritter S, Gershman SJ, Kanwisher N, Botvinick M, Fedorenko E. (2018). &lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Toward a universal decoder of linguistic meaning from brain activation&lt;/a&gt;. &lt;i&gt;Nat Commun&lt;/i&gt;. 9(1):963.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;Come here&lt;br /&gt;Kiss me&lt;br /&gt;Now&lt;br /&gt;Come here&lt;br /&gt;Kiss me&lt;br /&gt;Now&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;---ibid&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:yIl2AUoC8zA&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=yIl2AUoC8zA&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:JUhcmGiK9AQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=JUhcmGiK9AQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:qj6IDK7rITs&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=qj6IDK7rITs&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:cGdyc7Q-1BI&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=cGdyc7Q-1BI&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:gIN9vFwOqvQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=586qiITtPgw:nbcg6vp2XAc:gIN9vFwOqvQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:F7zBnMyn0Lo&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=586qiITtPgw:nbcg6vp2XAc:F7zBnMyn0Lo&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/586qiITtPgw&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>The Neurocritic</name>
+			<email>noreply@blogger.com</email>
+			<uri>http://neurocritic.blogspot.com/</uri>
+		</author>
+		<source>
+			<title type="html">The Neurocritic</title>
+			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
+			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
+			<id>tag:blogger.com,1999:blog-21605329</id>
+			<updated>2018-03-19T17:21:31+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Caught Our Notice: Retraction eight as errors in Wansink paper are “too voluminous” for a correction</title>
+		<link href="https://retractionwatch.com/2018/03/19/caught-our-notice-retraction-eight-as-errors-in-wansink-paper-are-too-voluminous-for-a-correction/"/>
+		<id>http://retractionwatch.com/?p=63339</id>
+		<updated>2018-03-19T17:05:59+00:00</updated>
+		<content type="html">
+ Title: Shifts in the Enjoyment of Healthy and Unhealthy Behaviors Affect Short- and Long-Term Postbariatric Weight Loss What Caught Our Attention: Cornell food marketing researcher Brian Wansink, the one-time media darling who has been dogged by mounting criticism of his findings, has lost another paper to retraction. As we’ve noted in the past, corrections for … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/19/caught-our-notice-retraction-eight-as-errors-in-wansink-paper-are-too-voluminous-for-a-correction/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Caught Our Notice: Retraction eight as errors in Wansink paper are “too voluminous” for a correction&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Alison Abritis</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="https://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2018-03-19T18:00:37+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Probe finds misconduct in eight papers by researcher in Sweden</title>
+		<link href="https://retractionwatch.com/2018/03/19/probe-finds-misconduct-in-eight-papers-by-researcher-in-sweden/"/>
+		<id>http://retractionwatch.com/?p=63331</id>
+		<updated>2018-03-19T15:55:58+00:00</updated>
+		<content type="html">
+ An external probe has concluded that a researcher based at the University of Gothenburg committed misconduct in multiple papers, all of which should be withdrawn. Among 10 papers by Suchitra Sumitran-Holgersson at the University of Gothenburg, an Expert Group concluded that eight contained signs of scientific misconduct. The Expert Group, part of Sweden’s Central Ethical … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/19/probe-finds-misconduct-in-eight-papers-by-researcher-in-sweden/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Probe finds misconduct in eight papers by researcher in Sweden&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Alison McCook</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="https://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2018-03-19T18:00:37+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-gb">Elsevier signs 3-year ScienceDirect deal with University of Montreal</title>
+		<link href="https://www.elsevier.com/connect/elsevier-signs-3-year-sciencedirect-deal-with-university-of-montreal"/>
+		<id>https://www.elsevier.com/connect/elsevier-signs-3-year-sciencedirect-deal-with-university-of-montreal</id>
+		<updated>2018-03-19T15:37:29+00:00</updated>
+		<content type="html">
+ The agreement will provide access to all of Elsevier’s current titles and complete archives</content>
+		<author>
+			<name>Elsevier Connect</name>
+			<uri></uri>
+		</author>
+		<source>
+			<title type="html">Elsevier Connect</title>
+			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
+			<id>https://www.elsevier.com/connect/feed</id>
+			<updated>2018-03-19T18:00:35+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Tree rings tell tale of drought in Mongolia over the last 2,000 years</title>
+		<link href="https://www.sciencenews.org/article/tree-rings-drought-mongolia-climate-change"/>
+		<id>https://www.sciencenews.org/article/tree-rings-drought-mongolia-climate-change</id>
+		<updated>2018-03-19T14:26:50+00:00</updated>
+		<content type="html">
+ Semifossilized trees preserved in Mongolia contain a 2,000-year climate record that could help predict future droughts.</content>
+		<author>
+			<name>Dan Garisto</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-03-19T18:00:35+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">“Clear signs of manipulation” in paper co-authored by prominent geneticist</title>
+		<link href="https://retractionwatch.com/2018/03/19/clear-signs-of-manipulation-in-paper-co-authored-by-prominent-geneticist/"/>
+		<id>http://retractionwatch.com/?p=63131</id>
+		<updated>2018-03-19T12:00:05+00:00</updated>
+		<content type="html">
+ A third paper co-authored by researchers based at a prominent lab whose work has been under investigation on and off for almost three years has been retracted. According to the notice, the university’s investigation found that a 2008 paper in FEBS Letters contained “clear signs of manipulation” in three figures. Research from geneticist David Latchman’s … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/19/clear-signs-of-manipulation-in-paper-co-authored-by-prominent-geneticist/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;“Clear signs of manipulation” in paper co-authored by prominent geneticist&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Victoria Stern</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="https://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2018-03-19T18:00:37+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Psychologists have profiled the kind of person who is willing to confront anti-social behaviour</title>
@@ -34,30 +155,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Universal Linguistic Decoders are Everywhere</title>
-		<link href="http://feedproxy.google.com/~r/TheNeurocritic/~3/586qiITtPgw/universal-linguistic-decoders-are.html"/>
-		<id>tag:blogger.com,1999:blog-21605329.post-4744995539622906372</id>
-		<updated>2018-03-19T01:54:12+00:00</updated>
-		<content type="html">
- &lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-gdZILM1Q1Yc/Wq8QwBKu8JI/AAAAAAAAMeg/DCHThVyvMakgot4dp9DARHkC4y_sutFMQCLcBGAs/s1600/Visualization%2Bof%2Bsemantic%2Bspace.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot; title=&quot;Visualization of semantic space&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;1200&quot; data-original-width=&quot;1382&quot; height=&quot;346&quot; src=&quot;https://1.bp.blogspot.com/-gdZILM1Q1Yc/Wq8QwBKu8JI/AAAAAAAAMeg/DCHThVyvMakgot4dp9DARHkC4y_sutFMQCLcBGAs/s400/Visualization%2Bof%2Bsemantic%2Bspace.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;a href=&quot;https://www.nature.com/articles/s41467-017-02753-0&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Pereira et al. (2018)&lt;/b&gt;&lt;/a&gt; - click image to enlarge&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;No, they're not. They're really not. They're “everywhere” to me, because I've been listening to &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Depeche_Mode&quot; title=&quot;Depeche Mode&quot;&gt;Black Celebration&lt;/a&gt;&lt;/i&gt;. How did I go from “death is everywhere” to “universal linguistic decoders are everywhere”? I don't imagine this particular semantic leap has occurred to anyone before. Actually, the association travelled in the opposite direction, because the original title of this piece was Decoders Are Everywhere.&lt;span style=&quot;color: purple;&quot;&gt;&lt;b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt;  {I was listening to the record weeks ago, the silly title of the post reminded me of this, and the semantic association was remote.}&lt;br /&gt;&lt;br /&gt;This is linguistic meaning in all its idiosyncratic glory, a space for infinite semantic vectors that are unexpected and novel. My rambling is also an excuse to &lt;i&gt;&lt;b&gt;not &lt;/b&gt;&lt;/i&gt;start out by saying, oh my god, what were you thinking with a title like, &lt;i&gt;Toward a universal decoder of linguistic meaning from brain activation&lt;/i&gt; (&lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Pereira et al., 2018&lt;/a&gt;). Does the word “toward” absolve you from what such a sage, all-knowing clustering algorithm would actually entail? And of course, “universal” implies applicability to every human language, not just English. How about, &lt;i&gt;Toward a better clustering algorithm (using &lt;a href=&quot;https://nlp.stanford.edu/projects/glove/&quot; target=&quot;_blank&quot; title=&quot;Global Vectors for Word Representation&quot;&gt;GloVe vectors&lt;/a&gt;) for inferring meaning&lt;/i&gt;&lt;i&gt;&lt;i&gt; from the distribution of voxels&lt;/i&gt;, as determined by an n=16 database of brain activation elicited by reading English sentences?&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;But it's unfair (and inaccurate) to suggest that the linguistic decoder can decipher a meandering train of thought when given a specific neural activity pattern. Therefore, I do not want to take anything away from what &lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Pereira et al. (2018)&lt;/a&gt; have achieved in this paper. They say: &lt;br /&gt;&lt;ul&gt;&lt;li&gt;“Our work goes substantially beyond prior work in three key ways. First, we develop a novel sampling procedure for selecting the training stimuli so as to cover the entire semantic space. This comprehensive sampling of possible meanings in training the decoder maximizes generalizability to potentially any new meaning.”&lt;/li&gt;  &lt;li&gt;“Second, we show that although our decoder is trained on a limited set of individual word meanings, it can robustly decode meanings of sentences represented as a simple average of the meanings of the content words. ... To our knowledge, this is the ﬁrst demonstration of generalization from single-word meanings to meanings of sentences.”&lt;/li&gt;  &lt;li&gt;“Third, we test our decoder on two independent imaging datasets, in line with current emphasis in the ﬁeld on robust and replicable science. The materials (constructed fully independently of each other and of the materials used in the training experiment) consist of sentences about a wide variety of topics—including abstract ones—that go well beyond those encountered in training.”&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;Unfortunately, it would take me days to adequately pore over the methods, and even then my understanding would be only cursory. The heavy lifting would need to be done by experts in linguistics, unsupervised learning, and neural decoding models. But until then...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;Death is everywhere&lt;/span&gt;&lt;br /&gt;&lt;span&gt;There are flies on the windscreen&lt;/span&gt;&lt;br /&gt;&lt;span&gt; For a start&lt;/span&gt;&lt;br /&gt;&lt;span&gt; Reminding us&lt;/span&gt;&lt;br /&gt;&lt;span&gt; We could be torn apart&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Tonight&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;---Depeche Mode, &lt;a href=&quot;https://www.azlyrics.com/lyrics/depechemode/flyonthewindscreen.html&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;Fly on the Windscreen&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Footnote&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: purple;&quot;&gt;&lt;b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt; Well, they &lt;i&gt;are&lt;/i&gt; super popular right now.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Reference&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Pereira F, Lou B, Pritchett B, Ritter S, Gershman SJ, Kanwisher N, Botvinick M, Fedorenko E. (2018). &lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Toward a universal decoder of linguistic meaning from brain activation&lt;/a&gt;. &lt;i&gt;Nat Commun&lt;/i&gt;. 9(1):963.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;Come here&lt;br /&gt;Kiss me&lt;br /&gt;Now&lt;br /&gt;Come here&lt;br /&gt;Kiss me&lt;br /&gt;Now&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;---ibid&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;feedflare&quot;&gt;
-&lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:yIl2AUoC8zA&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=yIl2AUoC8zA&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:JUhcmGiK9AQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=JUhcmGiK9AQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:qj6IDK7rITs&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=qj6IDK7rITs&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:cGdyc7Q-1BI&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=cGdyc7Q-1BI&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:gIN9vFwOqvQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=586qiITtPgw:nbcg6vp2XAc:gIN9vFwOqvQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:F7zBnMyn0Lo&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=586qiITtPgw:nbcg6vp2XAc:F7zBnMyn0Lo&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/586qiITtPgw&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>The Neurocritic</name>
-			<email>noreply@blogger.com</email>
-			<uri>http://neurocritic.blogspot.com/</uri>
-		</author>
-		<source>
-			<title type="html">The Neurocritic</title>
-			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
-			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
-			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2018-03-19T01:54:12+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -70,13 +168,13 @@
  Hosted by Will Smith, ‘One Strange Rock’ embraces Earth’s weirdness and explores the planet’s natural history.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -124,7 +222,7 @@ Since my first post, I haven't written mo</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-03-18T00:00:32+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -137,13 +235,13 @@ Since my first post, I haven't written mo</content>
  Tattoos in mice may persist due to an immune response, challenging currently held beliefs about how the skin retains tattoos.</content>
 		<author>
 			<name>Dan Garisto</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -163,7 +261,7 @@ Since my first post, I haven't written mo</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-03-18T00:00:32+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -230,7 +328,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-03-18T00:00:32+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -243,13 +341,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  Evidence of a connection is growing stronger, but scientists still struggle to explain why.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -269,7 +367,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-03-18T00:00:32+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -282,13 +380,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  Early supermassive black holes are challenging astronomers’ ideas about how the behemoths grew so quickly.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -318,7 +416,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -331,13 +429,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  AI does a more thorough job of counting craters than humans.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -357,7 +455,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-03-19T12:00:37+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -370,13 +468,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  Stone tools signal rise of social networking by 320,000 years ago in East Africa, researchers argue.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -389,13 +487,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  A newly discovered type of aurora is a visible version of usually invisible charged particles drifting in the upper atmosphere.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -415,7 +513,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-03-18T00:00:32+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -435,7 +533,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-03-18T00:00:32+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -448,13 +546,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  A new pipette is inspired by a plant’s female reproductive structure.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -514,7 +612,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -575,13 +673,13 @@ As clinical music therapy professionals who are goal- and solution-oriented, how
  Waterlogged minerals and changing ice add to evidence that Ceres is geologically active.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -616,13 +714,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  NASA has named New Horizons spacecraft’s next target Ultima Thule after the public suggested tens of thousands of monikers for the Kuiper Belt object.</content>
 		<author>
 			<name>Mike Denison</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -635,13 +733,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  Opioid-related hospitalizations for children are up, a sad statistic that shows the opioid epidemic doesn’t just affect adults.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -654,13 +752,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  Pi Day may be fun, but it’s based on a flawed mathematical constant.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -680,7 +778,7 @@ But a new study, published in Nature, has just poured cold water on the whole id
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-03-18T00:00:32+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -693,13 +791,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  Beyond his research contributions, Stephen Hawking popularized black holes and the deep questions of the cosmos.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -758,7 +856,7 @@ presented in [13].&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-03-15T12:00:34+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -837,7 +935,7 @@ presented in [13].&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -884,13 +982,13 @@ presented in [13].&lt;/p&gt;
  Magnesium left by passing comets seeds the clouds of Mars, a new study suggests.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -911,7 +1009,7 @@ presented in [13].&lt;/p&gt;
 Brain Matters is produced by neuroscience graduate students at The University of Texas at Austin.</subtitle>
 			<link rel="self" href="http://brainpodcast.com/rss"/>
 			<id>http://brainpodcast.com/</id>
-			<updated>2018-03-19T12:00:37+00:00</updated>
+			<updated>2018-03-19T18:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -924,13 +1022,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Not just by-products of busy nerve cells, brain waves may be key to how the brain operates.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -943,13 +1041,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Archaeopteryx fossils suggest the dino-birds were capable of flapping their wings in flight.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -968,7 +1066,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-03-15T12:00:34+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1040,7 +1138,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1487,7 +1585,7 @@ So you could almost say you sleep to forget….in order to lift signal over nois
 			<title type="html">Stuff about brains</title>
 			<link rel="self" href="http://overthebrainbow.com/?format=rss"/>
 			<id>http://overthebrainbow.com/</id>
-			<updated>2018-03-18T00:00:33+00:00</updated>
+			<updated>2018-03-19T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -1500,13 +1598,13 @@ So you could almost say you sleep to forget….in order to lift signal over nois
  Astronomers build on the Drake Equation to probe the chance that humans will find existing aliens. The answer: Not likely.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1559,13 +1657,13 @@ So you could almost say you sleep to forget….in order to lift signal over nois
  The Biological Mind rejects the idea of the brain as the lone organ that makes us who we are. Our body and environment also factor in, Alan Jasanoff says.</content>
 		<author>
 			<name>Ashley Yeager</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1585,7 +1683,7 @@ So you could almost say you sleep to forget….in order to lift signal over nois
 			<subtitle type="html">The Human Brain Project Blog - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/brain-byte-blog"/>
 			<id>https://medium.com/brain-byte-blog?source=rss----8bf7660fc7aa---4</id>
-			<updated>2018-03-19T12:00:38+00:00</updated>
+			<updated>2018-03-19T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -1614,7 +1712,7 @@ So you could almost say you sleep to forget….in order to lift signal over nois
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1627,13 +1725,13 @@ So you could almost say you sleep to forget….in order to lift signal over nois
  Scientists search new mothers’ minds for clues to postpartum depression.</content>
 		<author>
 			<name>Laura Beil</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T06:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1845,7 +1943,7 @@ Traditionally, assigning functions to brain regions has mainly been based on con
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2075,7 +2173,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-03-15T12:00:34+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2111,7 +2209,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2189,26 +2287,6 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-US">Data in biofuel paper “had either been grossly misinterpreted or fabricated”</title>
-		<link href="https://retractionwatch.com/2018/03/07/data-in-biofuel-paper-had-either-been-grossly-misinterpreted-or-fabricated/"/>
-		<id>http://retractionwatch.com/?p=62502</id>
-		<updated>2018-03-07T16:00:34+00:00</updated>
-		<content type="html">
- A biology journal has retracted a 2011 paper after the University of California, Los Angeles determined that the data in three figures “cannot be supported.” In February, the journal Applied and Environmental Microbiology retracted the paper, which explores efforts to engineer bacteria to convert plant biomass into biofuel. Claudia Modlin, assistant director of UCLA’s Office … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/07/data-in-biofuel-paper-had-either-been-grossly-misinterpreted-or-fabricated/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Data in biofuel paper “had either been grossly misinterpreted or fabricated”&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Victoria Stern</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2018-03-14T12:00:58+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en-gb">This scientist has made a career of confronting failures</title>
 		<link href="https://www.elsevier.com/connect/this-scientist-has-made-a-career-of-confronting-failures"/>
 		<id>https://www.elsevier.com/connect/this-scientist-has-made-a-career-of-confronting-failures</id>
@@ -2223,7 +2301,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-03-15T12:00:34+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2243,26 +2321,6 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2018-03-14T00:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Want to tell if a paper has been retracted? Good luck</title>
-		<link href="https://retractionwatch.com/2018/03/07/want-to-tell-if-a-paper-has-been-retracted-good-luck/"/>
-		<id>http://retractionwatch.com/?p=62497</id>
-		<updated>2018-03-07T13:00:32+00:00</updated>
-		<content type="html">
- Nowadays, there are many ways to access a paper — on the publisher’s website, on MEDLINE, PubMed, Web of Science, Scopus, and other outlets. So when the publisher retracts a paper, do these outlets consistently mark it as such? And if they don’t, what’s the impact? Researchers Caitlin Bakker and Amy Riegelman at the University of Minnesota … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/07/want-to-tell-if-a-paper-has-been-retracted-good-luck/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Want to tell if a paper has been retracted? Good luck&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Alison McCook</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2018-03-13T06:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2318,7 +2376,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2427,26 +2485,6 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-US">Caught Our Notice: No retraction for “likely fraudulent” study</title>
-		<link href="https://retractionwatch.com/2018/03/06/caught-our-notice-no-retraction-for-likely-fraudulent-study/"/>
-		<id>http://retractionwatch.com/?p=62278</id>
-		<updated>2018-03-06T16:00:48+00:00</updated>
-		<content type="html">
- Title: Homocysteine as a predictive factor for hip fracture in elderly women with Parkinson’s disease What Caught Our Attention:  In a letter to the editor, researchers led by Mark Bolland recently outlined the many reasons why a study by Yoshihiro Sato and colleagues in The American Journal of Medicine was “unreliable,” including evidence that the … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/06/caught-our-notice-no-retraction-for-likely-fraudulent-study/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Caught Our Notice: No retraction for “likely fraudulent” study&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Alison Abritis</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2018-03-13T06:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en-gb">4 (misguided) excuses for skipping the flu vaccine</title>
 		<link href="https://www.elsevier.com/connect/4-misguided-excuses-for-skipping-the-flu-vaccine"/>
 		<id>https://www.elsevier.com/connect/4-misguided-excuses-for-skipping-the-flu-vaccine</id>
@@ -2461,7 +2499,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-03-15T12:00:34+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2480,7 +2518,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-03-15T12:00:34+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2529,7 +2567,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T12:00:36+00:00</updated>
+			<updated>2018-03-19T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2622,65 +2660,6 @@ used as a building block for cognitive architectures.&lt;/p&gt;
  Structurally complex coral reefs can defend coasts against waves, even as sea levels rise.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-03-09T18:00:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Dietary Intake of Omega Fatty Acids and Brain Health</title>
-		<link href="http://brainblogger.com/2018/03/05/dietary-intake-of-omega-fatty-acids-and-brain-health/"/>
-		<id>http://brainblogger.com/?p=23569</id>
-		<updated>2018-03-05T13:00:45+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;Omega fatty acids are well known to be important for the normal functioning of our body. These fatty acids are essential for the formation of the cell membrane. They play a critical role in brain health. In addition, they are crucial for fertility, visual acuity, and optimal cardiovascular health. Omega-3 fatty acids also have an anti-inflammatory effect. &lt;/p&gt;
-&lt;p&gt;DHA is an &lt;a href=&quot;http://brainblogger.com/2015/11/16/nurturing-the-brain-part-7-omega-3-fatty-acids/&quot;&gt;omega-3 fatty acid&lt;/a&gt;. Omega fatty acids belong to a group called polyunsaturated fatty acids (PUFA). There are several kinds of omega-3 fatty acids, but for humans, three of them are considered to be essential. These are alpha-linolenic acid (ALA), eicosapentaenoic acid (EPA), and docosahexaenoic acid (DHA).&lt;/p&gt;
-&lt;p&gt;ALA is a short-chain fatty acid that cannot be made by our body and thus regarded as essential. EPA and DHA are classified as long-chain fatty acids. Our body can produce them in small quantities and a very inefficient manner. This is why one’s diet should provide enough of the essential and semi-essential omega-3 fatty acids. ALA is the only fatty acid which is present in plant-based food products.&lt;/p&gt;
-&lt;p&gt;Although EPA and DHA, both of which are particularly essential for brain health, can be produced in the body from ALA, the conversion process is not very efficient. It is believed that only ~15% of dietary ALA can be converted to EPA or DHA. ALA is present in canola oil, flaxseed oil, and in some other plant oils in sufficient quantities, whereas DHA and ALA are mainly present in seafood (various varieties of fish) and found in small amounts in other animal or poultry products.&lt;/p&gt;
-&lt;p&gt;Research has shown that although fish are rich in omega fatty acids, they are not able to produce DHA or EPA. In fact, they get omega-3 fatty acids by ingesting phytoplankton. Phytoplankton, in turn, get DHA and EPA by eating microalgae that are able to produce these fatty acids. These findings draw attention to two important facts: the importance of fish and animal products in our diet for optimal cognitive health and the importance of preserving the fragile environmental balance where everything is interconnected.&lt;/p&gt;
-&lt;p&gt;Omega-3 fatty acids are essential for the formation of phospholipids that are in turn required for cellular membranes. DHA is particularly critical for brain health, as demonstrated by its high content in the brain. Furthermore, since DHA helps to reduce the inflammatory responses, it may have a neuroprotective action.&lt;/p&gt;
-&lt;p&gt;There are lots of studies regarding the optimal intake of omega-3 and omega-6 fatty acids and their optimal ratio in one’s diet. However, the recommendations in this regard remain inconclusive. Rather than focusing on the total amount of omega fatty acids or the ratio of various fatty acids, one should focus on the overall dietary intake of EPA and DHA.&lt;/p&gt;
-&lt;p&gt;Although EPA and DHA have been accepted to be essential for wellbeing, &lt;a href=&quot;http://brainblogger.com/2016/09/11/happy-retirement-5-ways-to-prolong-the-golden-years/&quot;&gt;healthy aging&lt;/a&gt;, and slowing down or preventing neurodegeneration, their levels are rarely assessed in clinical conditions. There is no standardized, universally accepted range, but the most widely accepted normal level is ~3–4% of all plasma phospholipids (for EPA and DHA combined).&lt;/p&gt;
-&lt;p&gt;Plasma or serum fatty acid values are not very accurate, as they may change according to the content of recent meals. For this reason, many researchers recommend checking the content of EPA and DHA inthe red blood cell membranes, as this can give the approximate average of the last 120 days. At present, for European and American populations, 3–5% of EPA and DHA in erythrocyte membranes is considered in the normal range. In the Japanese population for example, where consumption of seafood is much higher, these numbers may be much higher too.&lt;/p&gt;
-&lt;p&gt;So what are the dietary recommendations for Omega-3s?&lt;/p&gt;
-&lt;p&gt;At present, for a healthy brain, it is recommended to consume 1.6 g of omega-3s daily for males, and 1.1 g daily for females. As mentioned earlier, specific attention should be paid to the content of DHA and EPA in food items. Flaxseed oil, chia seeds, and walnuts are all rich in ALA. However, DHA and EPA are mainly present in fish, seafood, and poultry. Considering that only a small amount of ALA can be converted to DHA or EPA, it puts vegans at risk of developing a deficiency in these omega acids and thus raises the risk of &lt;a href=&quot;http://brainblogger.com/2014/04/24/surprising-role-of-prions-in-neurodegenerative-diseases/&quot;&gt;neurodegenerative disorders&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To counter the deficit of DHA in plant-based products, many manufacturers have started to fortify soy beverages, juices, and milk products with DHA. Dietary supplements are another way of obtaining sufficient amounts of DHA. However, as most &lt;a href=&quot;http://brainblogger.com/2018/03/05/dietary-intake-of-omega-fatty-acids-and-brain-health/&quot;&gt;dietary supplements&lt;/a&gt; are based on fish oil or krill oil, if a person is strictly vegetarian, they can take algal oil-based supplements.&lt;/p&gt;
-&lt;p&gt;The National Health and Nutrition Examination Survey (NHANES) 2011-12 indicates that most of the population in the US are obtaining enough dietary omega-3 fatty acids. However, the majority of omega fatty acids are coming from a plant-based diet, meaning that American food is rich in ALA but deficient in EPA and DHA.&lt;/p&gt;
-&lt;p&gt;Diagnosing the omega-3 deficiency is not an easy task, as there is no lower cut-off value. Researchers don’t currently know at which level an omega fatty acid insufficiency may start causing problems. Things get complicated further by individual differences. Present scientific data are insufficient to know at what level there is a risk of neural deficits, visual impairment, or alterations in immune responses. However, some people may develop specific dermatological signs in the omega-3 deficiency, like scaling of the skin or unexplained dermatitis.&lt;/p&gt;
-&lt;p&gt;Classical omega-3 deficiency is rare in the US, but considering the importance of DHA and EPA for healthy aging and cognitive capacity, one may suppose that strict vegans, vegetarians, or those who don’t eat fish may be at higher risk when compared to those that do eat fish without supplementation. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Dyall, S. C. (2015). Long-chain omega-3 fatty acids and the brain: a review of the independent and shared effects of EPA, DPA and DHA. &lt;em&gt;Frontiers in Aging Neuroscience&lt;/em&gt;, &lt;em&gt;7&lt;/em&gt;. doi:&lt;a href=&quot;https://doi.org/10.3389/fnagi.2015.00052&quot;&gt;10.3389/fnagi.2015.00052&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;McNamara, R. K. (2010). DHA Deficiency and Prefrontal Cortex Neuropathology in Recurrent Affective Disorders. &lt;em&gt;The Journal of Nutrition&lt;/em&gt;, &lt;em&gt;140&lt;/em&gt;(4), 864–868. doi:&lt;a href=&quot;https://doi.org/10.3945/jn.109.113233&quot;&gt;10.3945/jn.109.113233&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Office of Dietary Supplements – Omega-3 Fatty Acids. &lt;a href=&quot;https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/&quot;&gt;https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Weiser, M. J., Butt, C. M., &amp;amp; Mohajeri, M. H. (2016). Docosahexaenoic Acid and Cognition throughout the Lifespan. &lt;em&gt;Nutrients&lt;/em&gt;, &lt;em&gt;8&lt;/em&gt;(2). doi:&lt;a href=&quot;https://doi.org/10.3390/nu8020099&quot;&gt;10.3390/nu8020099&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Image via &lt;a href=&quot;https://pixabay.com/en/users/pixel2013-2364555/&quot;&gt;pixel2013&lt;/a&gt;/&lt;a href=&quot;https://pixabay.com/&quot;&gt;Pixabay&lt;/a&gt;.&lt;/em&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;</content>
-		<author>
-			<name>Viatcheslav Wlassoff, PhD</name>
-			<uri>http://brainblogger.com</uri>
-		</author>
-		<source>
-			<title type="html">Brain Blogger</title>
-			<subtitle type="html">Health and Science Blog Covering Brain Topics</subtitle>
-			<link rel="self" href="http://brainblogger.com/feed/"/>
-			<id>http://brainblogger.com</id>
-			<updated>2018-03-09T06:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Massive stellar flare may have fried Earth’s nearest exoplanet</title>
-		<link href="https://www.sciencenews.org/article/proxima-centauri-flare-may-have-fried-earths-nearest-exoplanet"/>
-		<id>https://www.sciencenews.org/article/proxima-centauri-flare-may-have-fried-earths-nearest-exoplanet</id>
-		<updated>2018-03-05T12:00:02+00:00</updated>
-		<content type="html">
- A massive flare made Proxima Centauri 1,000 times brighter in 10 seconds, dimming hopes that its planet may be habitable.</content>
-		<author>
-			<name>Lisa Grossman</name>
 			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
