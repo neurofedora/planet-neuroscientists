@@ -5,8 +5,31 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-03-19T00:00:37+00:00</updated>
+	<updated>2018-03-19T06:00:41+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Universal Linguistic Decoders are Everywhere</title>
+		<link href="http://feedproxy.google.com/~r/TheNeurocritic/~3/586qiITtPgw/universal-linguistic-decoders-are.html"/>
+		<id>tag:blogger.com,1999:blog-21605329.post-4744995539622906372</id>
+		<updated>2018-03-19T01:54:12+00:00</updated>
+		<content type="html">
+ &lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-gdZILM1Q1Yc/Wq8QwBKu8JI/AAAAAAAAMeg/DCHThVyvMakgot4dp9DARHkC4y_sutFMQCLcBGAs/s1600/Visualization%2Bof%2Bsemantic%2Bspace.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot; title=&quot;Visualization of semantic space&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;1200&quot; data-original-width=&quot;1382&quot; height=&quot;346&quot; src=&quot;https://1.bp.blogspot.com/-gdZILM1Q1Yc/Wq8QwBKu8JI/AAAAAAAAMeg/DCHThVyvMakgot4dp9DARHkC4y_sutFMQCLcBGAs/s400/Visualization%2Bof%2Bsemantic%2Bspace.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;a href=&quot;https://www.nature.com/articles/s41467-017-02753-0&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Pereira et al. (2018)&lt;/b&gt;&lt;/a&gt; - click image to enlarge&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;No, they're not. They're really not. They're “everywhere” to me, because I've been listening to &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Depeche_Mode&quot; title=&quot;Depeche Mode&quot;&gt;Black Celebration&lt;/a&gt;&lt;/i&gt;. How did I go from “death is everywhere” to “universal linguistic decoders are everywhere”? I don't imagine this particular semantic leap has occurred to anyone before. Actually, the association travelled in the opposite direction, because the original title of this piece was Decoders Are Everywhere.&lt;span style=&quot;color: purple;&quot;&gt;&lt;b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt;  {I was listening to the record weeks ago, the silly title of the post reminded me of this, and the semantic association was remote.}&lt;br /&gt;&lt;br /&gt;This is linguistic meaning in all its idiosyncratic glory, a space for infinite semantic vectors that are unexpected and novel. My rambling is also an excuse to &lt;i&gt;&lt;b&gt;not &lt;/b&gt;&lt;/i&gt;start out by saying, oh my god, what were you thinking with a title like, &lt;i&gt;Toward a universal decoder of linguistic meaning from brain activation&lt;/i&gt; (&lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Pereira et al., 2018&lt;/a&gt;). Does the word “toward” absolve you from what such a sage, all-knowing clustering algorithm would actually entail? And of course, “universal” implies applicability to every human language, not just English. How about, &lt;i&gt;Toward a better clustering algorithm (using &lt;a href=&quot;https://nlp.stanford.edu/projects/glove/&quot; target=&quot;_blank&quot; title=&quot;Global Vectors for Word Representation&quot;&gt;GloVe vectors&lt;/a&gt;) for inferring meaning&lt;/i&gt;&lt;i&gt;&lt;i&gt; from the distribution of voxels&lt;/i&gt;, as determined by an n=16 database of brain activation elicited by reading English sentences?&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;But it's unfair (and inaccurate) to suggest that the linguistic decoder can decipher a meandering train of thought when given a specific neural activity pattern. Therefore, I do not want to take anything away from what &lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Pereira et al. (2018)&lt;/a&gt; have achieved in this paper. They say: &lt;br /&gt;&lt;ul&gt;&lt;li&gt;“Our work goes substantially beyond prior work in three key ways. First, we develop a novel sampling procedure for selecting the training stimuli so as to cover the entire semantic space. This comprehensive sampling of possible meanings in training the decoder maximizes generalizability to potentially any new meaning.”&lt;/li&gt;  &lt;li&gt;“Second, we show that although our decoder is trained on a limited set of individual word meanings, it can robustly decode meanings of sentences represented as a simple average of the meanings of the content words. ... To our knowledge, this is the ﬁrst demonstration of generalization from single-word meanings to meanings of sentences.”&lt;/li&gt;  &lt;li&gt;“Third, we test our decoder on two independent imaging datasets, in line with current emphasis in the ﬁeld on robust and replicable science. The materials (constructed fully independently of each other and of the materials used in the training experiment) consist of sentences about a wide variety of topics—including abstract ones—that go well beyond those encountered in training.”&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;Unfortunately, it would take me days to adequately pore over the methods, and even then my understanding would be only cursory. The heavy lifting would need to be done by experts in linguistics, unsupervised learning, and neural decoding models. But until then...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;Death is everywhere&lt;/span&gt;&lt;br /&gt;&lt;span&gt;There are flies on the windscreen&lt;/span&gt;&lt;br /&gt;&lt;span&gt; For a start&lt;/span&gt;&lt;br /&gt;&lt;span&gt; Reminding us&lt;/span&gt;&lt;br /&gt;&lt;span&gt; We could be torn apart&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Tonight&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;---Depeche Mode, &lt;a href=&quot;https://www.azlyrics.com/lyrics/depechemode/flyonthewindscreen.html&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;Fly on the Windscreen&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Footnote&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: purple;&quot;&gt;&lt;b&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt; Well, they &lt;i&gt;are&lt;/i&gt; super popular right now.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Reference&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Pereira F, Lou B, Pritchett B, Ritter S, Gershman SJ, Kanwisher N, Botvinick M, Fedorenko E. (2018). &lt;a href=&quot;https://www.nature.com/articles/s41467-018-03068-4&quot; target=&quot;_blank&quot;&gt;Toward a universal decoder of linguistic meaning from brain activation&lt;/a&gt;. &lt;i&gt;Nat Commun&lt;/i&gt;. 9(1):963.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;Come here&lt;br /&gt;Kiss me&lt;br /&gt;Now&lt;br /&gt;Come here&lt;br /&gt;Kiss me&lt;br /&gt;Now&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span&gt;---ibid&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:yIl2AUoC8zA&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=yIl2AUoC8zA&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:JUhcmGiK9AQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=JUhcmGiK9AQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:qj6IDK7rITs&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=qj6IDK7rITs&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:cGdyc7Q-1BI&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=cGdyc7Q-1BI&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:gIN9vFwOqvQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=586qiITtPgw:nbcg6vp2XAc:gIN9vFwOqvQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=586qiITtPgw:nbcg6vp2XAc:F7zBnMyn0Lo&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=586qiITtPgw:nbcg6vp2XAc:F7zBnMyn0Lo&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/586qiITtPgw&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>The Neurocritic</name>
+			<email>noreply@blogger.com</email>
+			<uri>http://neurocritic.blogspot.com/</uri>
+		</author>
+		<source>
+			<title type="html">The Neurocritic</title>
+			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
+			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
+			<id>tag:blogger.com,1999:blog-21605329</id>
+			<updated>2018-03-19T01:54:12+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Will Smith narrates ‘One Strange Rock,’ but astronauts are the real stars</title>
@@ -17,13 +40,13 @@
  Hosted by Will Smith, ‘One Strange Rock’ embraces Earth’s weirdness and explores the planet’s natural history.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -84,13 +107,13 @@ Since my first post, I haven't written mo</content>
  Tattoos in mice may persist due to an immune response, challenging currently held beliefs about how the skin retains tattoos.</content>
 		<author>
 			<name>Dan Garisto</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -190,13 +213,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  Evidence of a connection is growing stronger, but scientists still struggle to explain why.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -229,13 +252,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  Early supermassive black holes are challenging astronomers’ ideas about how the behemoths grew so quickly.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -265,7 +288,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -278,13 +301,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  AI does a more thorough job of counting craters than humans.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -304,7 +327,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-03-19T00:00:34+00:00</updated>
+			<updated>2018-03-19T06:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -317,13 +340,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  Stone tools signal rise of social networking by 320,000 years ago in East Africa, researchers argue.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -336,13 +359,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  A newly discovered type of aurora is a visible version of usually invisible charged particles drifting in the upper atmosphere.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -395,13 +418,13 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
  A new pipette is inspired by a plant’s female reproductive structure.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -461,7 +484,7 @@ Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -522,13 +545,13 @@ As clinical music therapy professionals who are goal- and solution-oriented, how
  Waterlogged minerals and changing ice add to evidence that Ceres is geologically active.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -563,13 +586,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  NASA has named New Horizons spacecraft’s next target Ultima Thule after the public suggested tens of thousands of monikers for the Kuiper Belt object.</content>
 		<author>
 			<name>Mike Denison</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -582,13 +605,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  Opioid-related hospitalizations for children are up, a sad statistic that shows the opioid epidemic doesn’t just affect adults.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -601,13 +624,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  Pi Day may be fun, but it’s based on a flawed mathematical constant.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -640,13 +663,13 @@ But a new study, published in Nature, has just poured cold water on the whole id
  Beyond his research contributions, Stephen Hawking popularized black holes and the deep questions of the cosmos.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -784,7 +807,7 @@ presented in [13].&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -831,13 +854,13 @@ presented in [13].&lt;/p&gt;
  Magnesium left by passing comets seeds the clouds of Mars, a new study suggests.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -858,7 +881,7 @@ presented in [13].&lt;/p&gt;
 Brain Matters is produced by neuroscience graduate students at The University of Texas at Austin.</subtitle>
 			<link rel="self" href="http://brainpodcast.com/rss"/>
 			<id>http://brainpodcast.com/</id>
-			<updated>2018-03-19T00:00:33+00:00</updated>
+			<updated>2018-03-19T06:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -871,13 +894,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Not just by-products of busy nerve cells, brain waves may be key to how the brain operates.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -890,13 +913,13 @@ Brain Matters is produced by neuroscience graduate students at The University of
  Archaeopteryx fossils suggest the dino-birds were capable of flapping their wings in flight.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -987,7 +1010,7 @@ Brain Matters is produced by neuroscience graduate students at The University of
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1447,13 +1470,13 @@ So you could almost say you sleep to forget….in order to lift signal over nois
  Astronomers build on the Drake Equation to probe the chance that humans will find existing aliens. The answer: Not likely.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1506,13 +1529,13 @@ So you could almost say you sleep to forget….in order to lift signal over nois
  The Biological Mind rejects the idea of the brain as the lone organ that makes us who we are. Our body and environment also factor in, Alan Jasanoff says.</content>
 		<author>
 			<name>Ashley Yeager</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1532,7 +1555,7 @@ So you could almost say you sleep to forget….in order to lift signal over nois
 			<subtitle type="html">The Human Brain Project Blog - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/brain-byte-blog"/>
 			<id>https://medium.com/brain-byte-blog?source=rss----8bf7660fc7aa---4</id>
-			<updated>2018-03-19T00:00:34+00:00</updated>
+			<updated>2018-03-19T06:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -1561,7 +1584,7 @@ So you could almost say you sleep to forget….in order to lift signal over nois
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1574,13 +1597,13 @@ So you could almost say you sleep to forget….in order to lift signal over nois
  Scientists search new mothers’ minds for clues to postpartum depression.</content>
 		<author>
 			<name>Laura Beil</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1613,13 +1636,13 @@ So you could almost say you sleep to forget….in order to lift signal over nois
  Materials that conduct electricity without resistance might mimic black hole physics.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=46</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-03-19T00:00:31+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1792,7 +1815,7 @@ Traditionally, assigning functions to brain regions has mainly been based on con
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -2058,7 +2081,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -2265,7 +2288,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -2476,7 +2499,7 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-03-19T00:00:30+00:00</updated>
+			<updated>2018-03-19T06:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -2666,35 +2689,6 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/03/05/unveil-the-mist-of-pain-frontiers-in-pain-research/&quot; rel=&quot;nofollow&quot;&gt;Unveil the mist of pain: Frontiers in pain research&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
 		<author>
 			<name>Xu Zhang</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2018-03-15T12:00:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">The human brain atlas: present and future</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2018/03/05/the-human-brain-atlas-present-and-future/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=9991</id>
-		<updated>2018-03-05T11:25:44+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/03/Brain-140x110.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;The study of human brain atlas can be dated back to the early of the 20&lt;sup&gt;th&lt;/sup&gt; century. At the initial stage, researchers made endless efforts to map the brain and anatomically partition it into areas based on cytoarchitectonic information. The recent human Brainnetome Atlas is a novel type of atlas that, unlike the ordinary ones, provides connectivity-based parcellation, with a specific focus on brain connectivity architecture. The unprecedented connectivity-based thought fills the gap in old-fashioned brain mapping.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Only by constantly improving the fineness and accuracy of brain atlas, can we make good use of it to identify biomarkers for mental disorders.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;However, the journey of Brainnetome Atlas is far from over. There are still much more to do before we can finally apply it for therapies like transcranial magnetic stimulation (TMS) and deep brain stimulation (DBS). What is more, only by constantly improving the fineness and accuracy of brain atlas, can we make good use of it to identify biomarkers for mental disorders.&lt;/p&gt;
-&lt;p&gt;In this respect, magnetic resonance imaging (MRI) – the technology that existed before the atlas – has been in a dilemma for a long time. Although having been available for more than three decades and still rapidly developing, MRI has not been adopted for clinical diagnosis criteria for brain disorders, particularly mental disorders. This could be due to limited disease data and poor accuracy of brain atlases.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Harnessing the brain atlas&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;To put the atlas into use, we propose three important directions for future studies on the human Brainnetome Atlas. The first one is about identifying the biomarkers for early diagnosis, prognosis, and therapeutic efficacy evaluation in different mental disorders based on more sophisticated atlases. The second direction is to confirm the matching of different areas in the atlas to functional circuits of cognition such as emotion and memory and to generate brain functional atlases at different scales. Another direction involves the use of the language- or cognition-related brain atlas in computational modeling in brain-inspired artificial intelligence (AI) studies.&lt;/p&gt;
-&lt;p&gt;There is tremendous amount of research that can be done on the link between brain atlas and the above-mentioned brain-inspired AI computing, which will be a research hotspot in the future. Although AI is a touted concept nowadays, challenges are everywhere including limited options of techniques for AI computation. Revealing how human brain processes information may largely facilitate the development of AI computation. For instance, it has been found that, when the human brain is processing information, the high-order interactions between neurons are characterized by the second-order interactions. It is important to uncover the false mask of the so-called high order. That will largely simplify AI computation and systemic structure design.&lt;/p&gt;
-&lt;p&gt;Our next plan is to establish nonhuman primate brain atlases at three different levels. First, we will create a similar macroscopic atlas of macaque monkey brain as that of the human brain by parcellating its brain into different areas based on macrostructural features. Based on the macroscopic atlas, we will apply classical neural tract tracing technique and the new viral tracing methods to further create the connectivity atlas at the level of the neuronal populations (or different types of neurons). This is a major issue of importance to be addressed in the next 5 to 10 years.&lt;/p&gt;
-&lt;p&gt;As for the fineness, it is far superior to the purely MRI-dependent method. To delineate a microscopic atlas is our ultimate goal, although hardly achievable, as currently there is no better technique available in this field other than the electron microscopy.&lt;/p&gt;
-&lt;p&gt;The establishment of nonhuman primate brain atlas using invasive tracing techniques, which are inapplicable in human beings, would advance our understanding of the atlas of human brain. In addition, comparing nonhuman primate and human atlases at the macroscale may provide some hints on the similarity and difference between the two species during evolution at the brain functional connectivity level.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/03/05/the-human-brain-atlas-present-and-future/&quot; rel=&quot;nofollow&quot;&gt;The human brain atlas: present and future&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Tianzi Jiang</name>
 			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
 		</author>
 		<source>
