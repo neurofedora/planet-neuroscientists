@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/5-things-about-saturn-cassini-mission" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-obesity-makes-it-harder-taste" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/kids-are-starting-picture-scientists-women" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=63386" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33508" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=5317" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/petunias-seeds-launch-plants" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/bogs-peatlands-fire-climate-change" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/4-misguided-excuses-for-skipping-the-flu-vaccine" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/open-science-data-from-largest-meta-analysis-of-antidepressants-available" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/5-things-about-saturn-cassini-mission">
+	<title>Science News: 5 things we’ve learned about Saturn since Cassini died</title>
+	<link>https://www.sciencenews.org/article/5-things-about-saturn-cassini-mission</link>
+	<content:encoded>The Cassini spacecraft plunged to its death into Saturn six months ago, but the discoveries keep coming.</content:encoded>
+	<dc:date>2018-03-20T19:30:02+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/how-obesity-makes-it-harder-taste">
+	<title>Science News: How obesity makes it harder to taste</title>
+	<link>https://www.sciencenews.org/article/how-obesity-makes-it-harder-taste</link>
+	<content:encoded>Mice that gained excessive weight on a high-fat diet also lost a quarter of their taste buds.</content:encoded>
+	<dc:date>2018-03-20T18:00:02+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/kids-are-starting-picture-scientists-women">
 	<title>Science News: Kids are starting to picture scientists as women</title>
 	<link>https://www.sciencenews.org/article/kids-are-starting-picture-scientists-women</link>
@@ -1549,18 +1563,6 @@ used as a building block for cognitive architectures.&lt;/p&gt;
 	<content:encoded>Bogs and other peatlands around the world store outsized amounts of carbon. Climate change and agriculture are putting them at risk.</content:encoded>
 	<dc:date>2018-03-06T17:00:03+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/4-misguided-excuses-for-skipping-the-flu-vaccine">
-	<title>Elsevier Connect: 4 (misguided) excuses for skipping the flu vaccine</title>
-	<link>https://www.elsevier.com/connect/4-misguided-excuses-for-skipping-the-flu-vaccine</link>
-	<content:encoded>An Elsevier medical editor explains why people should get vaccinated for personal and public health reasons</content:encoded>
-	<dc:date>2018-03-06T13:57:23+00:00</dc:date>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/open-science-data-from-largest-meta-analysis-of-antidepressants-available">
-	<title>Elsevier Connect: Open science: data from largest meta-analysis of antidepressants available</title>
-	<link>https://www.elsevier.com/connect/open-science-data-from-largest-meta-analysis-of-antidepressants-available</link>
-	<content:encoded>Authors of a major study in The Lancet have made their dataset freely available on Mendeley Data</content:encoded>
-	<dc:date>2018-03-06T13:44:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
