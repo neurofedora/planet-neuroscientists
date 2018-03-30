@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=63715" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/chinese-space-station-will-fall" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/toxins-bootlace-worm-can-kill-cockroaches" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1296" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=63686" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/some-frogs-may-be-bouncing-back-after-killer-chytrid-fungus" />
@@ -105,7 +108,6 @@
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8112" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-4744995539622906372" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=63339" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=63331" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/elsevier-signs-3-year-sciencedirect-deal-with-university-of-montreal" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tree-rings-drought-mongolia-climate-change" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23470" />
@@ -113,12 +115,31 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/will-smith-one-strange-rock" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9413" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/inked-mice-hint-how-tattoos-persist-people" />
-			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19546" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/what-we-can-and-cant-say-about-arctic-warming-and-us-winters" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=63715">
+	<title>Retraction watch: Nature journal retracts controversial CRISPR paper after authors admit results may be wrong</title>
+	<link>https://retractionwatch.com/2018/03/30/nature-journal-retracts-controversial-crispr-paper-after-authors-admit-results-may-be-wrong/</link>
+	<content:encoded>Nature Methods has retracted a 2017 paper suggesting a common gene editing technique may cause widespread collateral damage to the genome. The notice has a long backstory: After the paper was published, it immediately drew an outcry from critics (including representatives from companies who sell the tool, whose stock fell after publication). Some critics argued … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/30/nature-journal-retracts-controversial-crispr-paper-after-authors-admit-results-may-be-wrong/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Nature journal retracts controversial CRISPR paper after authors admit results may be wrong&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-03-30T14:34:51+00:00</dc:date>
+	<dc:creator>Alison McCook</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/chinese-space-station-will-fall">
+	<title>Science News: A Chinese space station will fall to Earth this weekend</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/chinese-space-station-will-fall</link>
+	<content:encoded>The Chinese space agency’s first space station is coming back to Earth this weekend. It probably won’t cause damage, but it will cause fireworks.</content:encoded>
+	<dc:date>2018-03-30T12:00:01+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/toxins-bootlace-worm-can-kill-cockroaches">
+	<title>Science News: Toxins from the world’s longest animal can kill cockroaches</title>
+	<link>https://www.sciencenews.org/article/toxins-bootlace-worm-can-kill-cockroaches</link>
+	<content:encoded>Bootlace worms can stretch up to 55 meters long and ooze toxins that can kill cockroaches and green crabs.</content:encoded>
+	<dc:date>2018-03-30T11:00:03+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="http://blog.scienceexchange.com/?p=1296">
 	<title>The Science Exchange Blog: Science Exchange Named Finalist for Coveted Procurement Leaders World Procurement Awards</title>
 	<link>https://blog.scienceexchange.com/2018/03/science-exchange-named-finalist-for-coveted-procurement-leaders-world-procurement-awards/</link>
@@ -237,7 +258,7 @@
 <item rdf:about="https://www.sciencenews.org/article/footprints-put-people-canada-west-coast-13000-years-ago">
 	<title>Science News: Footprints put people on Canada’s west coast 13,000 years ago</title>
 	<link>https://www.sciencenews.org/article/footprints-put-people-canada-west-coast-13000-years-ago</link>
-	<content:encoded>Island tracks indicate early New World settlers’ traveled down the North American Pacific coast about 13,000 years ago.</content:encoded>
+	<content:encoded>Island tracks indicate early New World settlers traveled down the North American Pacific coast about 13,000 years ago.</content:encoded>
 	<dc:date>2018-03-28T18:00:02+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
 </item>
@@ -1131,13 +1152,6 @@ Spoiler warning: I don't think this is true. In fact, I think the</content:encod
 	<dc:date>2018-03-19T17:05:59+00:00</dc:date>
 	<dc:creator>Alison Abritis</dc:creator>
 </item>
-<item rdf:about="http://retractionwatch.com/?p=63331">
-	<title>Retraction watch: Probe finds misconduct in eight papers by researcher in Sweden</title>
-	<link>https://retractionwatch.com/2018/03/19/probe-finds-misconduct-in-eight-papers-by-researcher-in-sweden/</link>
-	<content:encoded>An external probe has concluded that a researcher based at the University of Gothenburg committed misconduct in multiple papers, all of which should be withdrawn. Among 10 papers by Suchitra Sumitran-Holgersson at the University of Gothenburg, an Expert Group concluded that eight contained signs of scientific misconduct. The Expert Group, part of Sweden’s Central Ethical … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/19/probe-finds-misconduct-in-eight-papers-by-researcher-in-sweden/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Probe finds misconduct in eight papers by researcher in Sweden&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-03-19T15:55:58+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
 <item rdf:about="https://www.elsevier.com/connect/elsevier-signs-3-year-sciencedirect-deal-with-university-of-montreal">
 	<title>Elsevier Connect: Elsevier signs 3-year ScienceDirect deal with University of Montreal</title>
 	<link>https://www.elsevier.com/connect/elsevier-signs-3-year-sciencedirect-deal-with-university-of-montreal</link>
@@ -1222,47 +1236,6 @@ Since my first post, I haven't written mo</content:encoded>
 	<content:encoded>Tattoos in mice may persist due to an immune response, challenging currently held beliefs about how the skin retains tattoos.</content:encoded>
 	<dc:date>2018-03-16T20:22:09+00:00</dc:date>
 	<dc:creator>Dan Garisto</dc:creator>
-</item>
-<item rdf:about="http://blogs.plos.org/neuro/?p=19546">
-	<title>PLOS Neuroscience Community: No two brain injuries are identical: The future of fMRI for assessment of traumatic brain injury By Ekaterina Dobryakova</title>
-	<link>http://feeds.plos.org/~r/plos/blogs/neuro/~3/GZvOlVi_3yY/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/03/TBI_feature-150x150.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Brain imaging is an important tool for clinicians in diagnosing patients who have suffered from traumatic brain injury (TBI). Brain imaging techniques generally focus on either structure or function. With TBI, the focus is typically on the extent of structural brain damage, which is often assessed using computed tomography (CT).  Structural brain scans provide information regarding the severity of TBI, which is largely determined by the extent of damage. But, what about measures of brain function?&lt;/p&gt;
-&lt;p&gt;Another brain imaging technique that has become a crucial instrument for scientists trying to learn more about how the brain works is functional magnetic resonance imaging (fMRI). fMRI allows the examination of &lt;a href=&quot;http://www.open.edu/openlearn/body-mind/health/health-sciences/how-fmri-works&quot;&gt;human brain function&lt;/a&gt; in a way that is not invasive and, in contrast to a CT scan, does not involve radiation. With the help of math and statistics, brain mappers are able to measure brain activity patterns. But, can fMRI also be used as a diagnostic tool for TBI? Because (a) no two brain injuries are identical and (b) the way in which brain injuries affect cognition and brain function is highly variable, the current picture of fMRI use as a diagnostic tool for TBI is unclear.&lt;/p&gt;
-&lt;p&gt;Nevertheless, new tools and techniques have recently been developed that allow for the assessment of brain function in TBI, as well as other types of brain injury. Using fMRI could thereby add a whole new dimension to our understanding of TBI and TBI recovery. To get a better sense of the present state of fMRI applications with TBI, we have asked three TBI experts the following question:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Given that the utility of fMRI is still relatively undefined in the clinical realm, how do you see modern neuroimaging techniques playing a role in TBI in the future, beyond conventional scanning (CT, structural MRI)?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://fhssfaculty.byu.edu/FacultyPage/edb3&quot;&gt;&lt;strong&gt;Erin Bigler&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Professor of Psychology and Neuroscience&lt;br /&gt;
-Department of Psychology &amp;amp; Founding Director&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Magnetic Resonance Imaging (MRI) Research Facility at Brigham Young University&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“I believe that there is tremendous potential for clinical applications of fMRI in TBI, but not as standalone, independent metrics of brain function. Given the uniqueness of each individual and the heterogeneity of TBI, no two brain injuries are ever identical. As such, it is unlikely that there would ever be a universal fMRI signal that would consistently differentiate or be influenced by brain injury. However, fMRI activation paradigms in response to a cognitive task can probe neural system integrity, which can also be assessed through resting state functional connectivity mapping. Integrating this information with a dynamic structural imaging approach that takes advantage of multiple methods to assess volume, thickness, and shape along with lesion analysis would provide both structural and functional information about the brain injury. Additionally, these anatomical or functionally defined networks could then be the basis for using diffusion tensor imaging (DTI) to explore tract integrity between regions of interest within the network.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://psych.la.psu.edu/directory/fgh3&quot;&gt;&lt;strong&gt;Frank Hillary&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Associate Professor of Psychology&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Department of Psychology, Penn State University&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“FMRI has provided previously unavailable opportunities to advance our understanding of the organization of human brain functioning at the systems level. There has been meaningful extension of work in the cognitive neurosciences to understand plasticity in brain disorders with several important themes emerging from fMRI work in TBI (e.g., neural recruitment, “compensation”). By contrast, after nearly two decades of fMRI research designed to establish diagnostic biomarkers in various forms of mild TBI, no reliable neural signature for injury has emerged. I anticipate that future work in this area will be met with continued failure due to individual differences and the lack of clinical specificity in task-based fMRI findings.  More recent integration of network neuroscience into fMRI research has transformed the landscape of TBI research with goals now directed toward understanding injury-induced plasticity in large-scale networks (e.g., default mode network). While in its infancy, research that couples network science with brain stimulation techniques (e.g., transcranial magnetic stimulation) represents at least one possible avenue for functional MRI to contribute meaningfully to clinical intervention in TBI. To date, however, fMRI has primarily contributed to basic science and its potential to advance clinical diagnostics and intervention in TBI remains largely unrealized.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://neuroimaging.medicine.iu.edu/people/corefaculty/brenna-cathleen-mcdonald-psy-d-mba/&quot;&gt;&lt;strong&gt;Brenna McDonald&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Associate Professor of Radiology and Imaging Sciences,&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Center for Neuroimaging at Indiana University School of Medicine&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;“FMRI and advanced structural MR techniques such as DTI have come into increasing use to study behavioral and cognitive changes after TBI. In addition to being used to explore the underlying structural and functional neural correlates of TBI, such techniques have the potential to help guide treatment approaches. For example, fMRI has been used to study the neural correlates of symptom reduction following pharmacological and behavioral treatments for cognitive symptoms after TBI. The understanding gained can be used to further refine treatments. For example, in mild TBI/concussion, use of imaging can help validate proposed screening and diagnostic tools, such as sideline assessments, cognitive or behavioral instruments, biomechanical force metrics, sensory or vestibular testing, or blood biomarkers. Demonstration of a correlation between such measures and imaging variables, such as task-related fMRI activation, resting cerebral blood flow, or structural or functional connectivity, in concert with complementary data such as cognitive assessment and postconcussive symptom measurement, could provide the evidence needed to demonstrate utility of such screening or diagnostic tools. More thorough knowledge of these interactions will help advance the goals of personalized medicine initiatives by improving prediction of injury risk, outcome, and treatment response.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Alongside structural brain imaging techniques that are routinely used in TBI, fMRI may provide a better understanding of brain function in TBI patients. By combining structural, functional, and cognitive assessments, clinicians may evaluate individual cases in a more specific way and adapt their treatments accordingly. After all, TBI is a very heterogeneous condition and impacts brain recovery differently in different people. This heterogeneity may become more manageable once we reach a better understanding of brain function. At the very least, fMRI offers new hope that treatments could be tailored more towards the individual. If and how fMRI fits toward this goal of “personalized medicine” will become clearer in the years to come.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Acknowledgments&lt;/em&gt;: The author thanks Erin Bigler, Frank Hillary, and Brenna McDonald for providing their valuable opinion and Veronica Schneider for editing the feature image.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS. &lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2018/03/KatHeadshot.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignleft size-thumbnail wp-image-19547&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/03/KatHeadshot-150x150.jpg&quot; width=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Ekaterina Dobryakova is Research Scientist in the TBI Department at the Kessler Foundation, and Research Assistant Professor in the Department of Physical Medicine and Rehabilitation at Rutgers New Jersey Medical School. She is also a member of the Communications Committee for the Organization for Human Brain Mapping.&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/GZvOlVi_3yY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-03-16T18:45:27+00:00</dc:date>
-	<dc:creator>Emilie Reas</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-public/what-we-can-and-cant-say-about-arctic-warming-and-us-winters">
-	<title>Science News: What we can and can’t say about Arctic warming and U.S. winters</title>
-	<link>https://www.sciencenews.org/blog/science-public/what-we-can-and-cant-say-about-arctic-warming-and-us-winters</link>
-	<content:encoded>Evidence of a connection is growing stronger, but scientists still struggle to explain why.</content:encoded>
-	<dc:date>2018-03-16T13:00:02+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
