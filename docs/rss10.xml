@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ardi-walked-walk-44-million-years-ago" />
 			<rdf:li rdf:resource="573b647d2fe131f40453f2f9:573b8312c2ea515a3fd6e6bb:5abf772df950b77ed23b906c" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=63767" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-nobel-prize-might-need-makeover" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/kids-are-starting-picture-scientists-women" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33508" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10038" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/first-pedestrian-death-self-driving-car-fuels-safety-debate" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ardi-walked-walk-44-million-years-ago">
+	<title>Science News: Ardi walked the walk 4.4 million years ago</title>
+	<link>https://www.sciencenews.org/article/ardi-walked-walk-44-million-years-ago</link>
+	<content:encoded>Ancient hominid evolved upright stance without sacrificing climbing ability.</content:encoded>
+	<dc:date>2018-04-02T20:17:55+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="573b647d2fe131f40453f2f9:573b8312c2ea515a3fd6e6bb:5abf772df950b77ed23b906c">
 	<title>Over the brainbow: The Science of Sleep II</title>
 	<link>http://overthebrainbow.com/blog/2018/3/31/the-science-of-sleep-ii</link>
@@ -2355,13 +2362,6 @@ Spoiler warning: I don't think this is true. In fact, I think the</content:encod
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/03/20/much-much-increasing-use-social-media-damaging-effect-young-girls/&quot; rel=&quot;nofollow&quot;&gt;How much is too much? Does increasing use of social media having a damaging effect on young girls?&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2018-03-20T08:45:07+00:00</dc:date>
 	<dc:creator>Dr. Cara Booker</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/first-pedestrian-death-self-driving-car-fuels-safety-debate">
-	<title>Science News: First pedestrian death from a self-driving car fuels safety debate</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/first-pedestrian-death-self-driving-car-fuels-safety-debate</link>
-	<content:encoded>A self-driving Uber kills woman in Arizona in the first fatal pedestrian strike by an autonomous car.</content:encoded>
-	<dc:date>2018-03-19T22:24:52+00:00</dc:date>
-	<dc:creator>Dan Garisto</dc:creator>
 </item>
 
 </rdf:RDF>
