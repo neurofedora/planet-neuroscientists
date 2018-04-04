@@ -5,8 +5,125 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-04-04T11:00:41+00:00</updated>
+	<updated>2018-04-04T17:00:48+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="fr-FR">What is computational neuroscience? (XXIX) The free energy principle</title>
+		<link href="http://romainbrette.fr/what-is-computational-neuroscience-xxix-the-free-energy-principle/"/>
+		<id>http://romainbrette.fr/?p=1491</id>
+		<updated>2018-04-04T16:05:38+00:00</updated>
+		<content type="html" xml:lang="fr-FR">
+ &lt;p&gt;The free energy principle is the theory that the brain manipulates a probabilistic generative model of its sensory inputs, which it tries to optimize by either changing the model (learning) or changing the inputs (action) (&lt;a href=&quot;http://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf&quot;&gt;Friston 2009&lt;/a&gt;; &lt;a href=&quot;http://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20A%20unified%20brain%20theory.pdf&quot;&gt;Friston 2010&lt;/a&gt;). The “free energy” is related to the error between predictions and actual inputs, or “surprise”, which the organism wants to minimize. It has a more precise mathematical formulation, but the conceptual issues I want to discuss here do not depend on it.&lt;/p&gt;
+&lt;p&gt;Thus, it can be seen as an extension of the Bayesian brain hypothesis that accounts for action in addition to perception. It shares the &lt;a href=&quot;http://romainbrette.fr/what-is-computational-neuroscience-xxviiithe-bayesian-brain/&quot;&gt;conceptual problems of the Bayesian brain hypothesis&lt;/a&gt;, namely that it focuses on statistical uncertainty, inferring variables of a model (called “causes”) when the challenge is to build and manipulate the structure of the model. It also shares issues with the &lt;a href=&quot;http://romainbrette.fr/a-brief-critique-of-predictive-coding/&quot;&gt;predictive coding&lt;/a&gt; concept, namely that there is a conflation between a technical sense of “prediction” (expectation of the future signal) and a broader sense that is more ecologically relevant (if I do X, then Y will happen). In my view, these are the main issues with the free energy principle. Here I will focus on an additional issue that is specific of the free energy principle.&lt;/p&gt;
+&lt;p&gt;The specific interest of the free energy principle lies in its formulation of action. It resonates with a very important psychological theory called &lt;a href=&quot;https://en.wikipedia.org/wiki/Cognitive_dissonance&quot;&gt;&lt;em&gt;cognitive dissonance theory&lt;/em&gt;&lt;/a&gt;. That theory says that you try to avoid dissonance between facts and your system of beliefs, by either changing the beliefs in a small way or avoiding the facts. When there is a dissonant fact, you generally don’t throw your entire system of beliefs: rather, you alter the interpretation of the fact (think of political discourse or in fact, scientific discourse). Another strategy is to avoid the dissonant facts: for example, to read newspapers that tend to have the same opinions as yours. So there is some support in psychology for the idea that you act so as to minimize surprise.&lt;/p&gt;
+&lt;p&gt;Thus, the free energy principle acknowledges the circularity of action and perception. However, it is quite difficult to make it account for a large part of behavior. A large part of behavior is directed towards goals; for example, to get food and sex. The theory anticipates this criticism and proposes that goals are ingrained in priors. For example, you expect to have food. So, for your state to match your expectations, you need to seek food. This is the theory’s solution to the so-called “dark room problem” (&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3347222/&quot;&gt;Friston et al., 2012&lt;/a&gt;): if you want to minimize surprise, why not shut off stimulation altogether and go to the closest dark room? Solution: you are not expecting a dark room, so you are not going there in the first place.&lt;/p&gt;
+&lt;p&gt;Let us consider a concrete example to show that this solution does not work. There are two kinds of stimuli: food, and no food. I have two possible actions: to seek food, or to sit and do nothing. If I do nothing, then with 100% probability, I will see no food. If I seek food, then with, say, 20% probability, I will see food.&lt;/p&gt;
+&lt;p&gt;Let’s say this is the world in which I live. What does the free energy principle tell us? To minimize surprise, it seems clear that I should sit: I am certain to not see food. No surprise at all. The proposed solution is that you have a prior expectation to see food. So to minimize the surprise, you should put yourself into a situation where you might see food, ie to seek food. This seems to work. However, if there is any learning at all, then you will quickly observe that the probability of seeing food is actually 20%, and your expectations should be adjusted accordingly. Also, I will also observe that between two food expeditions, the probability to see food is 0%. Once this has been observed, surprise is minimal when I do not seek food. So, I die of hunger. It follows that the free energy principle does not survive Darwinian competition.&lt;/p&gt;
+&lt;p&gt;Thus, either there is no learning at all and the free energy principle is just a way of calling predefined actions “priors”; or there is learning, but then it doesn’t account for goal-directed behavior.&lt;/p&gt;
+&lt;p&gt;The idea to act so as to minimize surprise resonates with some aspects of psychology, like cognitive dissonance theory, but that does not constitute a complete theory of mind, except possibly of the depressed mind. See for example the experience of &lt;a href=&quot;https://en.wikipedia.org/wiki/Flow_(psychology)&quot;&gt;flow&lt;/a&gt; (as in surfing): you seek a situation that is controllable but sufficiently challenging that it engages your entire attention; in other words, you voluntarily expose yourself to a (moderate amount of) surprise; in any case certainly not a minimum amount of surprise.&lt;/p&gt;</content>
+		<author>
+			<name>admin</name>
+			<uri>http://romainbrette.fr</uri>
+		</author>
+		<source>
+			<title type="html">Romain Brette</title>
+			<subtitle type="html">Computational Neuroscience</subtitle>
+			<link rel="self" href="http://romainbrette.fr/feed/"/>
+			<id>http://romainbrette.fr</id>
+			<updated>2018-04-04T17:00:42+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Can soil science research dig itself out from a citation stacking scandal?</title>
+		<link href="https://retractionwatch.com/2018/04/04/can-soil-science-research-dig-itself-out-from-a-citation-stacking-scandal/"/>
+		<id>http://retractionwatch.com/?p=63851</id>
+		<updated>2018-04-04T15:00:10+00:00</updated>
+		<content type="html">
+ Last year, the soil science community was rocked by reports that an editor, Artemi Cerdà, was accused of citation stacking — asking authors to cite particular papers — boosting his profile, and that of journals where he worked. (Cerdà has denied the allegations.) The case had some major fallout: Cerdà resigned from two journals and … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/04/04/can-soil-science-research-dig-itself-out-from-a-citation-stacking-scandal/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Can soil science research dig itself out from a citation stacking scandal?&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Alison McCook</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="https://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2018-04-04T17:00:42+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">What if we could scan for image duplication the way we check for plagiarism?</title>
+		<link href="https://retractionwatch.com/2018/04/04/what-if-we-could-scan-for-image-duplication-the-way-we-check-for-plagiarism/"/>
+		<id>http://retractionwatch.com/?p=63843</id>
+		<updated>2018-04-04T12:00:44+00:00</updated>
+		<content type="html">
+ Paul Brookes is a biologist with a passion for sleuthing out fraud. Although he studies mitochondria at the University of Rochester, he also secretly ran a science-fraud.org, a site for people to post their concerns about papers. Following legal threats, he revealed he was the author and shut the site in 2013 — but didn’t … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/04/04/what-if-we-could-scan-for-image-duplication-the-way-we-check-for-plagiarism/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;What if we could scan for image duplication the way we check for plagiarism?&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Alison McCook</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="https://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2018-04-04T17:00:42+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Webinar: PEAKS AB, The Fastest Path to Accurate Antibody Sequences</title>
+		<link href="https://blog.scienceexchange.com/2018/04/webinar-peaks-ab-the-fastest-path-to-accurate-antibody-sequences/"/>
+		<id>http://blog.scienceexchange.com/?p=1301</id>
+		<updated>2018-04-04T11:51:24+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;h2&gt;&lt;strong&gt;&lt;a href=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2018/04/Peaks-AB-Transparent.png&quot;&gt;&lt;img alt=&quot;Peaks AB Transparent&quot; class=&quot;alignright wp-image-1303&quot; height=&quot;272&quot; src=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2018/04/Peaks-AB-Transparent-300x244.png&quot; width=&quot;334&quot; /&gt;&lt;/a&gt;PEAKS AB: The Fastest Path to Accurate Antibody Sequences&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;What challenges do you face in characterizing monoclonal antibodies (mAbs) at the molecular level? Whether it’s heterogeneity caused by truncation or glycation, or confounding isobaric amino acids, you’ve wished there was a better way.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://news.scienceexchange.com/peaksabWebinar&quot;&gt;Watch our webinar&lt;/a&gt; to learn about a novel, three-in-one solution for obtaining 100% accurate amino acid sequences for antibody proteins, powered by the &lt;a href=&quot;https://www.scienceexchange.com/labs/bioinformatics-solutions-inc&quot;&gt;PEAKS AB software&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://news.scienceexchange.com/peaksabWebinar&quot;&gt;&lt;img alt=&quot;View Webinar button&quot; class=&quot;aligncenter size-full wp-image-1302&quot; height=&quot;56&quot; src=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2018/04/View-Webinar-button.png&quot; width=&quot;244&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;You will learn about:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Intact mass analysis of antibody proteins; why is it important?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.scienceexchange.com/labs/bioinformatics-solutions-inc&quot;&gt;De novo antibody protein sequencing&lt;/a&gt; workflow used in PEAKS AB service: algorithm and experimental procedure&lt;/li&gt;
+&lt;li&gt;Isoleucine and leucine differentiation by using EThcD fragmentation methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;About Our Speaker&lt;/h3&gt;
+&lt;p&gt;Wen Zhang, Ph.D. is the Senior Application Scientist at &lt;a href=&quot;https://www.scienceexchange.com/labs/bioinformatics-solutions-inc&quot;&gt;Bioinformatics Solutions Inc.&lt;/a&gt; (BSI). With her rich experience in proteomics and MS data generation, processing and analysis, she joined BSI, where she now leads the antibody protein de novo sequencing projects. Her work includes intact mass, de novo sequencing, peptide mapping, post-translational modification, disulfide bond and N-linked glycan analyses.&lt;/p&gt;</content>
+		<author>
+			<name>Team</name>
+			<uri>https://blog.scienceexchange.com</uri>
+		</author>
+		<source>
+			<title type="html">The Science Exchange Blog</title>
+			<subtitle type="html">The Science Exchange Blog - Enabling Breakthrough Research: Order Experiments From The World's Top Labs</subtitle>
+			<link rel="self" href="https://blog.scienceexchange.com/feed/"/>
+			<id>https://blog.scienceexchange.com</id>
+			<updated>2018-04-04T17:00:42+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">When deciding whether to bank your baby’s umbilical cord blood, consider these caveats</title>
+		<link href="https://www.sciencenews.org/blog/growth-curve/public-private-cord-blood-banks-caveats"/>
+		<id>https://www.sciencenews.org/blog/growth-curve/public-private-cord-blood-banks-caveats</id>
+		<updated>2018-04-04T11:00:02+00:00</updated>
+		<content type="html">
+ Despite all the excitement, the cells found in cord blood may not be as useful as advertised.</content>
+		<author>
+			<name>Laura Sanders</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-04-04T17:00:41+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-gb">Meet optogenetics pioneer Peter Hegemann, winner of the 2018 Otto Warburg Medal</title>
@@ -54,7 +171,7 @@
 		<content type="html" xml:lang="en">
  &lt;p&gt;&lt;img alt=&quot;GettyImages-693777012.jpg&quot; class=&quot;alignnone size-full wp-image-33601&quot; data-attachment-id=&quot;33601&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Pop art style comics panel angry woman grinding teeth with speech bubble and swear words symbols vector illustration&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;This content is subject to copyright.&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Pop art comic book panel with angry woman grinding teeth and speech bubble with swear word symbols vector&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Pop art comic book panel with angry woman grinding teeth and speech bubble with swear word symbols vector&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777012.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777012.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777012.jpg?w=845&quot; data-orig-size=&quot;2034,1474&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/04/04/mind-your-tongue-teen-swearers-perceived-as-less-trustworthy-and-less-intelligent/pop-art-comic-book-panel-with-angry-woman-grinding-teeth-and-speech-bubble-with-swear-word-symbols-vector/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777012.jpg?w=845&quot; /&gt;&lt;i&gt;By&lt;/i&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Crap. &lt;i&gt;Merde. Ibn sharmoota&lt;/i&gt;.* Swear words exist in most cultures (Japan is a notable exception), and many of us use them so casually and so frequently that by the time children start school, they have, according to one count, acquired a profanity bank of 30 to 40 words. (My own seven-year-old loves to whisper “fricking” in a friend’s ear, making them both giggle guiltily. My only defence is that he certainly didn’t get that one from me…)&lt;/p&gt;
-&lt;p&gt;Since even words like “fuck” are used conversationally, at least in the US and UK, surely they’ve lost the power to trigger a negative response in a listener – especially as far as younger adults are concerned? Not according to a &lt;a href=&quot;http://journals.sagepub.com/doi/abs/10.1177/0261927X18758143&quot;&gt;new paper &lt;/a&gt; published in the &lt;i&gt;Journal of Language and Social Psychology&lt;/i&gt;. Melanie DeFrank and Patricia Kahlbaugh, at Southern Connecticut State University, found that teenagers who swear casually were judged by college students as being less intelligent and less trustworthy.&lt;/p&gt;
+&lt;p&gt;Since even words like “fuck” are used conversationally, at least in the US and UK, surely they’ve lost the power to trigger a negative response in a listener – especially as far as younger adults are concerned? Not according to a &lt;a href=&quot;http://journals.sagepub.com/doi/abs/10.1177/0261927X18758143&quot;&gt;new paper&lt;/a&gt; published in the &lt;i&gt;Journal of Language and Social Psychology&lt;/i&gt;. Melanie DeFrank and Patricia Kahlbaugh, at Southern Connecticut State University, found that teenagers who swear casually were judged by college students as being less intelligent and less trustworthy.&lt;/p&gt;
 &lt;p&gt;&lt;span id=&quot;more-33600&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;DeFrank and Kahlbaugh recruited 138 students, including 101 women. The participants first completed a questionnaire asking them to rate the offensiveness of 10 swear words. (The words in order of most to least offensive, according to the participants’ ratings, were: bitch, fuck, bastard, shit, ass, jerk, screw, butt, crap and dang.) The participants also estimated how often they used and heard these kinds of words. While 17 per cent said they used between zero and five daily, just over 20 per cent reported using more than 21 every day. Thirteen per cent said they heard between zero and five, but 20 per cent reported hearing more than 21 daily.&lt;/p&gt;
 &lt;p&gt;Next the participants read two purported conversations between two 15-year-olds. They were asked to imagine that they were overhearing these conversations, and in each case, they had to rate the first speaker on overall impression, intelligence, trustworthiness, sociability, politeness and likability.&lt;/p&gt;
@@ -81,7 +198,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -145,7 +262,7 @@ As I've said previously, the research on ketamine as an antidepressant is promis
 			<subtitle type="html">No brain. No gain.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>http://discovermagazine.com/rss/blog-feeds/neuroskeptic</id>
-			<updated>2018-04-03T23:00:30+00:00</updated>
+			<updated>2018-04-04T17:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -158,13 +275,13 @@ As I've said previously, the research on ketamine as an antidepressant is promis
  As heat waves become more common, cities try to respond.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -192,7 +309,7 @@ As I've said previously, the research on ketamine as an antidepressant is promis
 			<subtitle type="html">The Science Exchange Blog - Enabling Breakthrough Research: Order Experiments From The World's Top Labs</subtitle>
 			<link rel="self" href="https://blog.scienceexchange.com/feed/"/>
 			<id>https://blog.scienceexchange.com</id>
-			<updated>2018-04-03T23:00:32+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -205,13 +322,13 @@ As I've said previously, the research on ketamine as an antidepressant is promis
  A new high-res look at the seafloor shows how ledges and dips affects whether relatively warm ocean water reaches the ice.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -231,7 +348,7 @@ As I've said previously, the research on ketamine as an antidepressant is promis
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -244,13 +361,13 @@ As I've said previously, the research on ketamine as an antidepressant is promis
  Researchers reflect on Stephen Hawking's contributions to the field and the cosmological puzzles he left behind.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -301,7 +418,7 @@ As I've said previously, the research on ketamine as an antidepressant is promis
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -314,13 +431,13 @@ As I've said previously, the research on ketamine as an antidepressant is promis
  Birds can sense magnetic fields, thanks to internal compasses that likely rely on changes to proteins in the retina.</content>
 		<author>
 			<name>Dan Garisto</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -379,7 +496,7 @@ As I've said previously, the research on ketamine as an antidepressant is promis
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -392,13 +509,13 @@ As I've said previously, the research on ketamine as an antidepressant is promis
  Ancient hominid evolved upright stance without sacrificing climbing ability.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1437,7 +1554,7 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 			<title type="html">Stuff about brains</title>
 			<link rel="self" href="http://overthebrainbow.com/?format=rss"/>
 			<id>http://overthebrainbow.com/</id>
-			<updated>2018-04-04T05:00:36+00:00</updated>
+			<updated>2018-04-04T17:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -1457,7 +1574,7 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1470,13 +1587,13 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
  In Losing the Nobel Prize, astrophysicist Brian Keating discusses the downsides of science’s top honor.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1496,7 +1613,7 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1509,13 +1626,13 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
  A last-minute pH shift thickens royal jelly enough to stick queen larvae to the ceiling of hive cells.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1535,7 +1652,7 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1548,13 +1665,13 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
  The Truth About Animals digs up surprising stories about sloths, pandas, penguins and other wildly misunderstood wildlife.</content>
 		<author>
 			<name>Erika Engelhaupt</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1577,7 +1694,7 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2018-04-04T07:46:31+00:00</updated>
+			<updated>2018-04-04T11:20:26+00:00</updated>
 		</source>
 	</entry>
 
@@ -1597,7 +1714,7 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1610,13 +1727,13 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
  The risks of acrylamide in coffee are not as clear as a California court ruling may suggest.</content>
 		<author>
 			<name>Erika Engelhaupt</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1636,7 +1753,7 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1662,7 +1779,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<subtitle type="html">No brain. No gain.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>http://discovermagazine.com/rss/blog-feeds/neuroskeptic</id>
-			<updated>2018-04-03T23:00:30+00:00</updated>
+			<updated>2018-04-04T17:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -1675,13 +1792,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  The nanoscale structure of a chicken eggshell changes to fulfill different functions as the egg incubates.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1701,7 +1818,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1714,13 +1831,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  The Chinese space agency’s first space station is coming back to Earth this weekend. It probably won’t cause damage, but it will cause fireworks.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1733,13 +1850,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  Bootlace worms can stretch up to 55 meters long and ooze toxins that can kill cockroaches and green crabs.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1771,7 +1888,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<subtitle type="html">The Science Exchange Blog - Enabling Breakthrough Research: Order Experiments From The World's Top Labs</subtitle>
 			<link rel="self" href="https://blog.scienceexchange.com/feed/"/>
 			<id>https://blog.scienceexchange.com</id>
-			<updated>2018-04-03T23:00:32+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1804,13 +1921,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  Frogs in Panama may be developing defenses against a fatal skin disease, a new study suggests.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1978,13 +2095,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  Knuckles crack due to the partial collapse of bubbles in joint fluid, a new study suggests.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2017,13 +2134,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  Powerful opioids affect many parts of the body, but the drugs’ most deadly effects are on breathing.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2073,7 +2190,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2094,7 +2211,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<subtitle type="html">Computational Neuroscience</subtitle>
 			<link rel="self" href="http://romainbrette.fr/feed/"/>
 			<id>http://romainbrette.fr</id>
-			<updated>2018-03-29T17:00:32+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -2107,13 +2224,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  A new material made of heart cells from rats and hydrogel changes color as the living cells contract and relax.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2126,13 +2243,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  Island tracks indicate early New World settlers traveled down the North American Pacific coast about 13,000 years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2145,13 +2262,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  During a live musical performance, audience members’ brain waves get in sync.</content>
 		<author>
 			<name>Rachel Ehrenberg</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2164,13 +2281,13 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
  A galaxy without dark matter bolsters the case that the invisible substance really exists.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_7072061152489508=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_020006992824375347=0.9685737762998826</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2324,7 +2441,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2480,7 +2597,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2653,7 +2770,7 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2696,7 +2813,7 @@ The new device is an improved version of an existing technique, called magnetoen
 			<subtitle type="html">No brain. No gain.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>http://discovermagazine.com/rss/blog-feeds/neuroskeptic</id>
-			<updated>2018-04-03T23:00:30+00:00</updated>
+			<updated>2018-04-04T17:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -2774,7 +2891,7 @@ The new device is an improved version of an existing technique, called magnetoen
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-04-04T11:00:35+00:00</updated>
+			<updated>2018-04-04T17:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -2881,7 +2998,7 @@ The new device is an improved version of an existing technique, called magnetoen
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -2943,7 +3060,7 @@ The new device is an improved version of an existing technique, called magnetoen
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2018-04-04T07:46:31+00:00</updated>
+			<updated>2018-04-04T11:20:26+00:00</updated>
 		</source>
 	</entry>
 
@@ -3042,47 +3159,7 @@ The new device is an improved version of an existing technique, called magnetoen
 			<subtitle type="html">Computational Neuroscience</subtitle>
 			<link rel="self" href="http://romainbrette.fr/feed/"/>
 			<id>http://romainbrette.fr</id>
-			<updated>2018-03-29T17:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Author: “The retractions were about bureaucracy, not science”</title>
-		<link href="https://retractionwatch.com/2018/03/23/author-the-retractions-were-about-bureaucracy-not-science/"/>
-		<id>http://retractionwatch.com/?p=63489</id>
-		<updated>2018-03-23T15:00:45+00:00</updated>
-		<content type="html">
- A researcher has retracted two 2014 papers, after discovering they had not gone through the proper approval process before being submitted. The papers were part of a collaboration funded by the U.S. National Institutes of Health, which focused on solving protein structures. Adam Godzik, the senior author, told Retraction Watch that all papers had to … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/23/author-the-retractions-were-about-bureaucracy-not-science/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Author: “The retractions were about bureaucracy, not science”&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Victoria Stern</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2018-03-29T23:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Caught Our Notice: “The first author cut the thermoprinter paper printout into pieces and reassembled them”</title>
-		<link href="https://retractionwatch.com/2018/03/23/caught-our-notice-the-first-author-cut-the-thermoprinter-paper-printout-into-pieces-and-reassembled-them/"/>
-		<id>http://retractionwatch.com/?p=63477</id>
-		<updated>2018-03-23T12:00:08+00:00</updated>
-		<content type="html">
- Title: A mitochondrial ferredoxin is essential for biogenesis of cellular iron-sulfur proteins What Caught Our Attention: Here’s a cut-and-paste issue that gave us pause. The authors of an 18-year-old paper in PNAS corrected it after realizing some bands in a figure were duplicated (an issue raised on PubPeer one year ago). It turns out, the … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/03/23/caught-our-notice-the-first-author-cut-the-thermoprinter-paper-printout-into-pieces-and-reassembled-them/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Caught Our Notice: “The first author cut the thermoprinter paper printout into pieces and reassembled them”&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Alison Abritis</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2018-03-29T17:00:32+00:00</updated>
+			<updated>2018-04-04T17:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3178,7 +3255,7 @@ The new device is an improved version of an existing technique, called magnetoen
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
+			<updated>2018-04-04T17:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -3225,7 +3302,7 @@ Spoiler warning: I don't think this is true. In fact, I think the</content>
 			<subtitle type="html">No brain. No gain.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>http://discovermagazine.com/rss/blog-feeds/neuroskeptic</id>
-			<updated>2018-04-03T23:00:30+00:00</updated>
+			<updated>2018-04-04T17:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -3379,74 +3456,6 @@ Spoiler warning: I don't think this is true. In fact, I think the</content>
 			<link rel="self" href="http://www.blogger.com/feeds/2672427473119923109/posts/default"/>
 			<id>tag:blogger.com,1999:blog-2672427473119923109</id>
 			<updated>2018-03-22T12:10:28+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Nerd Food: Neurons for Computer Geeks - Part VI: LIF At Long Last!</title>
-		<link href="http://mcraveiro.blogspot.com/2015/09/nerd-food-neurons-for-computer-geeks_16.html"/>
-		<id>tag:blogger.com,1999:blog-2672427473119923109.post-6575272117199164534</id>
-		<updated>2018-03-22T10:46:27+00:00</updated>
-		<content type="html">
- Nerd Food: Neurons for Computer Geeks - Part VI: Integrate and Fire!&lt;div id=&quot;content&quot;&gt;&lt;p&gt;Welcome to part VI of a multi-part series on modeling neurons. In &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/09/nerd-food-neurons-for-computer-geeks_7.html&quot;&gt;part V&lt;/a&gt; we added a tad more theory to link electricity with neurons, and also tried to give an idea of just how complex neurons are. Looking back on that post, I cannot help but notice I skipped one bit that is rather important to understanding Integrate-and-Fire (IAF) models. So lets look at that first and then return to our trail. &lt;/p&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-1&quot;&gt;&lt;h2 id=&quot;sec-1&quot;&gt;Resting Potential and Action Potential&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;&lt;p&gt;We have spoken &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/09/nerd-food-neurons-for-computer-geeks_7.html&quot;&gt;before&lt;/a&gt; about the &lt;a href=&quot;https://en.wikipedia.org/wiki/Membrane_potential&quot;&gt;membrane potential&lt;/a&gt; and the resting membrane potential, but we did so with such a high degree of hand-waving it now warrants revisiting. When we are talking about the &lt;i&gt;resting&lt;/i&gt; membrane potential we mean just that - the value for the membrane potential when nothing much is happening. That is the magical circa -65mv we discussed before - with all of the related explanations on conventions around negative voltages. However, time does not stand still and things happen. The cell receives input from other neurons, and this varies over time. Some kinds of inputs can cause events to trigger on the receiving neuron: active ion channels may get opened or shut, ions move around, concentrations change and so forth, and thus, the cell will change its membrane potential in response. When these changes result in a higher voltage - such as moving to -60mv - we say a &lt;i&gt;depolarisation&lt;/i&gt; is taking place. Conversely, when the voltage becomes more negative, we say &lt;i&gt;hyperpolarisation&lt;/i&gt; is occurring. &lt;/p&gt; &lt;p&gt;Now, it may just happen that there is a short-lived but &quot;strong&quot; burst of depolarisation, followed by equally rapid hyperpolarisation - and, as a result of which, the Axon's terminal decides to release &lt;i&gt;neurotransmitters&lt;/i&gt; into the synapse (well, into the &lt;i&gt;synaptic gap&lt;/i&gt; or &lt;i&gt;synaptic cleft&lt;/i&gt; to be precise). This is called an &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Action_potential&quot;&gt;action potential&lt;/a&gt;&lt;/i&gt;, and it is also known by many other names such as &quot;nerve impulses&quot; or &quot;spikes&quot;. When you hear that &quot;a neuron has fired&quot; this means that an action potential has just been emitted. If you record the neuron's behaviour over time you will see a &lt;i&gt;spike train&lt;/i&gt; - a plot of the voltage over time, clearly showing the spikes. Taking a fairly random example: &lt;/p&gt;  &lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Simulation_of_hrose_neuron.png&quot; height=&quot;300px&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/1b/Simulation_of_hrose_neuron.png&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;figure-number&quot;&gt;Figure 1:&lt;/span&gt; Source: Wikipedia, &lt;a href=&quot;https://en.wikipedia.org/wiki/Neural_oscillation&quot;&gt;Neural oscillation&lt;/a&gt;&lt;/p&gt;&lt;/div&gt; &lt;p&gt;One way of picturing this is as a kind of &quot;chain-reaction&quot; whereby something triggers the voltage of the neuron to rise, which triggers a number of gates to open, which then trigger the voltage to rise and so on, until some kind of magic voltage threshold is reached where the inverse occurs: the gates that were causing the voltage to rise shut and some other gates that cause the voltage to decrease open, and so on, until we fall back down to the resting membrane potential. The process feeds back on itself, first as a positive feedback and then as a negative feedback. In the case of the picture above, something else triggers us again and again, until we finally come to rest. &lt;/p&gt; &lt;p&gt;This spiking or firing behaviour is what we are trying to model. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-2&quot;&gt;&lt;h2 id=&quot;sec-2&quot;&gt;Historical Background&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;&lt;p&gt;As it happens, we are not the first ones to try to do so. A couple of years after Einstein's &lt;i&gt;annus mirabilis&lt;/i&gt;, a french chap called &lt;a href=&quot;https://en.wikipedia.org/wiki/Louis_Lapicque&quot;&gt;Louis Lapicque&lt;/a&gt; was also going through his own personal moment of inspiration, the output of which was the seminal &lt;a href=&quot;http://www.snv.jussieu.fr/brette/papers/Lap07.pdf&quot;&gt;Recherches quantitatives sur l'excitation électrique des nerfs traitée comme une polarisation&lt;/a&gt;. It is summarised &lt;a href=&quot;http://neurotheory.columbia.edu/~larry/AbbottBrResBul99.pdf&quot;&gt;here&lt;/a&gt; in fairly accessible English by Abbot. &lt;/p&gt; &lt;p&gt;Lapicque had the insight of imagining the neuron as an RC circuit, with the membrane potential's behaviour explained as the interplay between capacitor and resistor; the action potential is then the capacitor reaching a threshold followed by a discharge. Even with our faint understanding of the subject matter, one cannot but appreciate Lapique's brilliance to have the ability to reach these conclusions in 1907. Of course, he also had to rely on the work of many others to get there, let's not forget. &lt;/p&gt; &lt;p&gt;This model is still considered a useful model today, even though we know so much more about neurons now - a great example of what we mentioned &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/09/nerd-food-neurons-for-computer-geeks_7.html&quot;&gt;before&lt;/a&gt; in terms of the choices of the level of detail when modeling. Each model is designed for a specific purpose and it should be as simple as possible for the stated end (but no simpler). As &lt;a href=&quot;http://neurotheory.columbia.edu/~larry/AbbottBrResBul99.pdf&quot;&gt;Abbot&lt;/a&gt;says: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;While Lapicque, because of the limited knowledge of his time, had no choice but to model the action potential in a simple manner, the stereotypical character of action potentials allows us, even today, to use the same approximation to avoid computation of the voltage trajectory during an action potential. This allows us to focus both intellectual and computation resources on the issues likely to be most relevant in neural computation, without expending time and energy on modeling a phenomenon, the generation of action potentials, that is already well understood. &lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-3&quot;&gt;&lt;h2 id=&quot;sec-3&quot;&gt;The IAF Family&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;&lt;p&gt;Integrate-and-Fire is actually a family of models - related because all of them follow Lapicque's original insights. Over time, people have addressed shortcomings in the model by adding more parameters and modifying it slightly and from this other models were born. &lt;/p&gt; &lt;p&gt;In general, models in the IAF family are single neuron models with a number of important properties (as per &lt;a href=&quot;http://cns-classes.bu.edu/cn510/Papers/Izhikevich_Ch8.pdf&quot;&gt;Izhikevich&lt;/a&gt;): &lt;/p&gt; &lt;ul class=&quot;org-ul&quot;&gt;&lt;li&gt;The spikes are all or none; that is, we either spike or we don't. This is a byproduct of the way spikes are added to the model, as we shall see later. This also means all spikes are identical because the are all created the same way. &lt;/li&gt;&lt;li&gt;The threshold for the spike is well defined and there is no ambiguity as to whether the neuron will fire or not. &lt;/li&gt;&lt;li&gt;It is possible to add a &lt;i&gt;refractory period&lt;/i&gt;, similarly to how we add the spike. The refractory period is a time during which the neuron is less excitable (e.g. ignores inputs) and occurs right after the spike. &lt;/li&gt;&lt;li&gt;Positive currents are used as excitatory inputs and negative currents as inhibitory inputs. &lt;/li&gt;&lt;/ul&gt; &lt;p&gt;But how do the members of this family look like? We will take a few examples from &lt;a href=&quot;https://en.wikipedia.org/wiki/Biological_neuron_model&quot;&gt;Wikipedia&lt;/a&gt; to make a family portrait and then focus on LIF. &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-sec-3-1&quot;&gt;&lt;h3 id=&quot;sec-3-1&quot;&gt;IAF: Integrate-and-Fire&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;&lt;p&gt;This the Lapicque model. It is also called a &quot;perfect&quot; or &quot;non-leaky&quot; neuron. The formula is as follows: &lt;/p&gt; \begin{align} I(t) = C_m \frac{dV_m(t)}{dt} \end{align}  &lt;p&gt;The &lt;i&gt;m&lt;/i&gt;'s are there to signify &lt;i&gt;membrane&lt;/i&gt;, nothing else. Note that its the job of the user to determine θ - that is the point at which the neuron spikes - and then to reset everything to zero and start again. If you are wondering why it's called &quot;integrate&quot;, that's because the differential equation must be integrated before we can compare the current value to a threshold and then, if we're passed it, well - fire!. Hence Integrate-and-Fire. &lt;/p&gt; &lt;p&gt;Wikipedia states this in a classier way, of course: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;[This formula] is just the time derivative of the law of capacitance, Q = CV. When an input current is applied, the membrane voltage increases with time until it reaches a constant threshold Vth, at which point a delta function spike occurs and the voltage is reset to its resting potential, after which the model continues to run. The firing frequency of the model thus increases linearly without bound as input current increases. &lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-sec-3-2&quot;&gt;&lt;h3 id=&quot;sec-3-2&quot;&gt;Integrate-and-Fire with Refractory Period&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;&lt;p&gt;It is possible to extend IAF to take the refractory period into account. This is done by adding a period of time &lt;i&gt;t ref&lt;/i&gt; during which the neuron does not fire. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-sec-3-3&quot;&gt;&lt;h3 id=&quot;sec-3-3&quot;&gt;LIF: Leaky Integrate-and-Fire&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-3&quot;&gt;&lt;p&gt;One of the problems of IAF is that it will &quot;remember&quot; stimulus, regardless of the time that elapses between stimuli. By way of example: if a neuron gets some input below the firing threshold at some time (say &lt;i&gt;ta&lt;/i&gt;), then nothing for a long period of time and then subsequent stimulus at say &lt;i&gt;tb&lt;/i&gt;, this will cause the neuron to fire (assuming the two inputs together are above the threshold). In the real world, neurons &quot;forget&quot; about below-threshold stimulus after certain amount of time has elapsed. This problem is solved in LIF by adding a &lt;i&gt;leak&lt;/i&gt; term to IAF. The Wikipedia's formula is like so: &lt;/p&gt; \begin{align} I_m(t) - \frac{V_m(t)}{R_m} = C_m \frac{dV_m(t)}{dt} \end{align}  &lt;p&gt;We will discuss it in detail later on. &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;outline-4&quot; id=&quot;outline-container-sec-3-3-1&quot;&gt;&lt;h4 id=&quot;sec-3-3-1&quot;&gt;Interlude: Leaky Integrators and Low-Pass Filters&lt;/h4&gt;&lt;div class=&quot;outline-text-4&quot; id=&quot;text-3-3-1&quot;&gt;&lt;p&gt;&lt;b&gt;Update&lt;/b&gt;: this section got moved here from an earlier post. &lt;/p&gt; &lt;p&gt;Minor detour into the world of &quot;Leaky Integrators&quot;. As it turns out, mathematicians even have a name to describe functions like the one above: they are called &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Leaky_integrator&quot;&gt;Leaky Integrators&lt;/a&gt;&lt;/i&gt;. A leaky integrator is something that takes an input and &quot;integrates&quot; - that is, sums it over a range - but by doing so, starts &quot;leaking&quot; values out. In order words, a regular sum of values over a range should just result in an ever growing output. With a leaky integrator, we add up to a point, but then we start leaking, resetting the value of the sum back to where we started off. &lt;/p&gt; &lt;p&gt;It turns out these kind of functions have great utility. For example, imagine that you have a range of inputs varying from some arbitrary low number to some other arbitrary high-number. When you supply these inputs to a leaky integrator, it can be used to &quot;filter out&quot; the high numbers; input numbers higher than a certain cut-off point just result in zeros in the output. This is known as a &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Low-pass_filter&quot;&gt;low-pass filter&lt;/a&gt;&lt;/i&gt;. One can conceive of a function that acted in the opposite way - a &lt;i&gt;high-pass filter&lt;/i&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-sec-3-4&quot;&gt;&lt;h3 id=&quot;sec-3-4&quot;&gt;Exponential Integrate-and-Fire&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-4&quot;&gt;&lt;p&gt;In this model, spike generation is exponential: &lt;/p&gt; \begin{align} \frac{dX}{dt} = \Delta_\tau exp(\frac{X - X_t}{\Delta_\tau}) \end{align}  &lt;p&gt;Wikipedia explains it as follows: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;where X is the membrane potential, X&lt;sub&gt;T&lt;/sub&gt; is the membrane potential threshold, and Δ&lt;sub&gt;T&lt;/sub&gt; is the sharpness of action potential initiation, usually around 1 mV for cortical pyramidal neurons. Once the membrane potential crosses X&lt;sub&gt;T&lt;/sub&gt;, it diverges to infinity in finite time. &lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-sec-3-5&quot;&gt;&lt;h3 id=&quot;sec-3-5&quot;&gt;Others&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-5&quot;&gt;&lt;p&gt;We could continue and look into other IAF models, but you get the point. Each model has limitations, and as people work through those limitations - e.g. try to make the spike trains generated by the model closer to those observed in reality - they make changes to the model and create new members of the IAF family. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-4&quot;&gt;&lt;h2 id=&quot;sec-4&quot;&gt;Explaining the LIF Formula&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;&lt;p&gt;Let's look at a slightly more familiar formulation of LIF: &lt;/p&gt; \begin{align} \tau_m \frac{dv}{dt} = -v(t) + RI(t) \end{align}  &lt;p&gt;By now this should make vague sense, but lets do it step by step breakdown just to make sure we are all on the same page. First, we know that the current of the RC circuit is defined like so: &lt;/p&gt; \begin{align} I(t) = I_R + I_C \end{align}  &lt;p&gt;From Ohm's Law we also know that: &lt;/p&gt; \begin{align} I_R = \frac {v}{R} \end{align}  &lt;p&gt;And from the &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/09/nerd-food-neurons-for-computer-geeks_5.html&quot;&gt;rigmarole of the capacitor&lt;/a&gt; we also know that: &lt;/p&gt; \begin{align} I_C = C \frac{dv}{dt} \end{align}  &lt;p&gt;Thus its not much of a leap to say: &lt;/p&gt; \begin{align} I(t) = \frac {v(t)}{R} + C \frac{dv}{dt} \end{align}  &lt;p&gt;Now, if we now multiply both sides by R, we get: &lt;/p&gt; \begin{align} RI(t) = v(t) + RC \frac{dv}{dt} \end{align}  &lt;p&gt;Remember that RC is τ, the &lt;a href=&quot;https://en.wikipedia.org/wiki/RC_time_constant&quot;&gt;RC time constant&lt;/a&gt;; in this case, we are dealing with the membrane so hence the &lt;i&gt;m&lt;/i&gt;. With that, the rest of the rearranging to the original formula should be fairly obvious. &lt;/p&gt; &lt;p&gt;Also, if you recall, we mentioned &lt;a href=&quot;https://en.wikipedia.org/wiki/Leaky_integrator&quot;&gt;Leaky Integrators&lt;/a&gt; before. You should hopefully be able to see the resemblance between these and our first formula. &lt;/p&gt; &lt;p&gt;Note that we did not model spikes explicitly with this formula. However, when it comes to implementing it, all that is required is to look for a threshold value for the membrane potential - called the &lt;i&gt;spiking threshold&lt;/i&gt;; when that value is reached, we need to reset the membrane potential back to a lower value - the &lt;i&gt;reset potential&lt;/i&gt;. &lt;/p&gt; &lt;p&gt;And with that we have enough to start thinking about code… &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-5&quot;&gt;&lt;h2 id=&quot;sec-5&quot;&gt;Method in our Madness&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;&lt;p&gt;.. Or so you may think. First, a quick detour on discretisation. As it happens, computers are rather fond of discrete things rather than the continuous entities that inhabit the world of calculus. Computers are very much of the same opinion as &lt;a href=&quot;https://en.wikipedia.org/wiki/George_Berkeley&quot;&gt;the priest&lt;/a&gt; &lt;a href=&quot;http://www.maths.tcd.ie/pub/HistMath/People/Berkeley/Analyst/Analyst.pdf&quot;&gt;who said&lt;/a&gt;: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;And what are these same evanescent Increments? They are neither finite Quantities nor Quantities infinitely small, nor yet nothing. May we not call them the Ghosts of departed Quantities? &lt;/p&gt;&lt;/blockquote&gt; &lt;p&gt;So we cannot directly represent differential equations in the computer - not even the simpler ordinary differential equations (ODEs), with their single independent variable. Instead, we need to approximate them with a &lt;i&gt;method&lt;/i&gt; for &lt;i&gt;numerical integration&lt;/i&gt; of the ODE. Remember: when we say &lt;i&gt;integration&lt;/i&gt; we just mean &quot;summing&quot;. &lt;/p&gt; &lt;p&gt;Once we enter the world of &lt;i&gt;methods&lt;/i&gt; and &lt;i&gt;numerical analysis&lt;/i&gt; we are much closer to our ancestral home of Software Engineering. The job of numerical analysis is to look for ways in which one can make discrete approximations of the problems in mathematical analysis - like, say, calculus. The little recipes they come up with are called &lt;i&gt;numerical methods&lt;/i&gt;. A method is nothing more than an algorithm, a set of steps used iteratively. One such method is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Euler_method&quot;&gt;Euler Method&lt;/a&gt;: &quot;[a] numerical procedure for solving ordinary differential equations (ODEs) with a given initial value&quot;, as Wikipedia tells us, and as it happens that is exactly what we are trying to do. &lt;/p&gt; &lt;p&gt;So how does the Euler method work? Very simply. First you know that: &lt;/p&gt; \begin{align} y(t_0) = y_0 \\ y'(t) = f(t, y(t)) \end{align}  &lt;p&gt;That is, at the beginning of time we have a known value. Then, for all other &lt;i&gt;t&lt;/i&gt;'s, we use the current value in &lt;i&gt;f&lt;/i&gt; in order to be able to compute the next value. Lets imagine that our steps - how much we are moving forwards by - are of a size &lt;i&gt;h&lt;/i&gt;. You can then say: &lt;/p&gt; \begin{align} t_{n+1} = t_n + h \\ y_{n+1} = y_n + h * f(x_n, t_n) \end{align}  &lt;p&gt;And that's it. You just need to know where you are right now, by how much you need to scale the function - e.g. the step size - and then apply the function to the current values of &lt;i&gt;x&lt;/i&gt; and &lt;i&gt;t&lt;/i&gt;. &lt;/p&gt; &lt;p&gt;In code: &lt;/p&gt; &lt;div class=&quot;org-src-container&quot;&gt; &lt;pre class=&quot;src src-c++&quot;&gt;template&amp;lt;typename F&amp;gt;&lt;br /&gt;void euler(F f, double y0, double start, double end, double h) {&lt;br /&gt;    double y = y0;&lt;br /&gt;    for (auto t(start); t &amp;lt; end; t += h) {&lt;br /&gt;        y += h * f(t, y, h);&lt;br /&gt;    }&lt;br /&gt;}&lt;br /&gt;&lt;/pre&gt;&lt;/div&gt; &lt;p&gt;We are passing &lt;i&gt;h&lt;/i&gt; to the function &lt;i&gt;F&lt;/i&gt; because it needs to know about the step size, but other than that it should be a pretty clean mapping from the maths above. &lt;/p&gt; &lt;p&gt;This method is also known as &lt;i&gt;Forward Euler&lt;/i&gt; or &lt;i&gt;Explicit Euler&lt;/i&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-6&quot;&gt;&lt;h2 id=&quot;sec-6&quot;&gt;What next?&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;&lt;p&gt;And yet again, we run out of time yet again before we can get into serious coding. In the next instalment we shall cover the implementation of the LIF model. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;status&quot; id=&quot;postamble&quot;&gt;&lt;p class=&quot;date&quot;&gt;Created: 2015-09-16 Wed 18:05&lt;/p&gt;&lt;p class=&quot;creator&quot;&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot;&gt;Org&lt;/a&gt; mode 8.2.10)&lt;/p&gt;&lt;p class=&quot;validation&quot;&gt;&lt;a href=&quot;http://validator.w3.org/check?uri=referer&quot;&gt;Validate&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content>
-		<author>
-			<name>Marco Craveiro</name>
-			<email>noreply@blogger.com</email>
-			<uri>http://mcraveiro.blogspot.com/</uri>
-		</author>
-		<source>
-			<title type="html">Marco Craveiro</title>
-			<link rel="self" href="http://www.blogger.com/feeds/2672427473119923109/posts/default"/>
-			<id>tag:blogger.com,1999:blog-2672427473119923109</id>
-			<updated>2018-03-22T12:10:28+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-gb">Africa generates less than 1% of the world’s research; data analytics can change that</title>
-		<link href="https://www.elsevier.com/connect/africa-generates-less-than-1-of-the-worlds-research-data-analytics-can-change-that"/>
-		<id>https://www.elsevier.com/connect/africa-generates-less-than-1-of-the-worlds-research-data-analytics-can-change-that</id>
-		<updated>2018-03-22T09:36:31+00:00</updated>
-		<content type="html">
- An in-depth analysis of the continent’s research reveals promising developments – and strategies for continued improvement</content>
-		<author>
-			<name>Elsevier Connect</name>
-			<uri></uri>
-		</author>
-		<source>
-			<title type="html">Elsevier Connect</title>
-			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
-			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Can excessive small talk really make us miserable?</title>
-		<link href="https://digest.bps.org.uk/2018/03/22/new-findings-contradict-headline-grabbing-paper-that-suggested-excessive-small-talk-can-make-you-miserable/"/>
-		<id>http://digest.bps.org.uk/?p=33522</id>
-		<updated>2018-03-22T09:02:20+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;img alt=&quot;GettyImages-693777214.jpg&quot; class=&quot;alignnone size-full wp-image-33527&quot; data-attachment-id=&quot;33527&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Pop art style comic book panel with girl talking nonsense on vintage phone gossip chatter in speech bubble vector illustration&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;This content is subject to copyright.&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Pop art comics panel with woman talking on vintage phone and speech bubble vector illustration&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Pop art comics panel with woman talking on vintage phone and speech bubble vector illustration&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777214.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777214.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777214.jpg?w=845&quot; data-orig-size=&quot;2043,1467&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/03/22/new-findings-contradict-headline-grabbing-paper-that-suggested-excessive-small-talk-can-make-you-miserable/pop-art-comics-panel-with-woman-talking-on-vintage-phone-and-speech-bubble-vector-illustration/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/03/gettyimages-693777214.jpg?w=845&quot; /&gt;&lt;i&gt;By&lt;/i&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want to feel happier, avoid small talk and aim instead for profound conversations. That was the message the mainstream media took from a &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2861779/&quot;&gt;well-publicised paper&lt;/a&gt; published in &lt;i&gt;Psychological Science&lt;/i&gt; in 2010 (e.g. &lt;a href=&quot;https://well.blogs.nytimes.com/2010/03/17/talk-deeply-be-happy/&quot;&gt;Talk Deeply, Be Happy?&lt;/a&gt; asked the &lt;em&gt;New York Times&lt;/em&gt;). But now an extension of that study, in press at the same journal (available as &lt;a href=&quot;https://www.researchgate.net/profile/Anne_Milek/publication/323399744_Eavesdropping_on_Happiness_Revisited_A_Pooled_Multi-Sample_Replication_of_the_Association_between_Life_Satisfaction_and_Observed_Daily_Conversation_Quantity_and_Quality/links/5a943c190f7e9ba42970bf86/Eavesdropping-on-Happiness-Revisited-A-Pooled-Multi-Sample-Replication-of-the-Association-between-Life-Satisfaction-and-Observed-Daily-Conversation-Quantity-and-Quality.pdf&quot;&gt;a pre-print&lt;/a&gt;), and involving two of the psychologists behind the original work, has found no evidence that how much – or little – time  you spend chatting about the weather or what you’re having for dinner will affect your life satisfaction. “The failure to replicate the original small talk effect is important as it has garnered considerable scientific and lay interest,” note the authors.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-33522&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The original work, led by Matthias Mehl at the University of Arizona, involved just 79 US college students, and given that students are surrounded by a host of potential new friends, not exactly representative of the general population in terms of daily social interactions. So Mehl, Simine Vazire at UC-Davis, and other researchers assessed the conversations of three new groups of people – 50 women who had been diagnosed with breast cancer, and their partners; 184 medically healthy adults; and 122 adults who had recently separated from their partners. These participants also completed life satisfaction and personality questionnaires.&lt;/p&gt;
-&lt;p&gt;As in the original paper, the participants wore Electronically Activated Recorders (EARs) that regularly sampled ambient sounds – including conversations – for between 30- to 50-seconds every 9 or 12.5 minutes, depending on the specific group taking part. All participants wore the EARs between a Friday night and Monday morning, and they were allowed to review the recordings and delete any that they preferred to remain private.&lt;/p&gt;
-&lt;p&gt;Coders listened back to the recordings and assessed both the frequency and type of conversations each participant engaged in. Small talk was defined as uninvolved, banal conversation in which only trivial information was exchanged (e.g. “I stepped on something”, “What are you up to?”); “Substantive” conversations involved the exchange of “meaningful” information (e.g. “There are a lot of high-stress A-type personalities out there” and “They have already raised ten million dollars for Haiti.”) Other types of conversations – involving gossip, say, or practical information – were also noted.&lt;/p&gt;
-&lt;p&gt;Across the different groups, participants who were happier tended to have more conversations, with the two measures having a modest correlation. There was also a moderately positive association between engaging specifically in more substantive conversations and life satisfaction (but this was a less strong result than in the original study). Crucially, however, there was no association at all between engaging in more small talk and expressing less life satisfaction – the finding that grabbed the headlines previously. Also, contrary to one of the team’s initial predictions, how extraverted or introverted a person was also made no real difference to associations between conversation type and life satisfaction.&lt;/p&gt;
-&lt;p&gt;Further contradicting the original small talk findings, other recent research has actually found that small talk can make people feel happier. In 2016, for example, Nicholas Epley at the University of Chicago led &lt;a href=&quot;https://digest.bps.org.uk/2014/08/15/were-happier-when-we-chat-to-strangers-but-our-instinct-is-to-ignore-them/&quot;&gt;work&lt;/a&gt; finding that no matter what their positions on the extraversion spectrum, people felt more positive after engaging strangers in conversation.&lt;/p&gt;
-&lt;p&gt;In relation to the new paper, it’s worth noting that as two of the four groups consisted of people going through major life events, these results may not be generalisable to the general population. And, as the authors themselves note in relation to the main positive finding, the data is correlational: “Whether it is the satisfied person who attracts more substantive conversations or whether having substantive conversations makes people more satisfied with their lives is still to be clarified in future (experimental) research.”&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://www.researchgate.net/profile/Anne_Milek/publication/323399744_Eavesdropping_on_Happiness_Revisited_A_Pooled_Multi-Sample_Replication_of_the_Association_between_Life_Satisfaction_and_Observed_Daily_Conversation_Quantity_and_Quality/links/5a943c190f7e9ba42970bf86/Eavesdropping-on-Happiness-Revisited-A-Pooled-Multi-Sample-Replication-of-the-Association-between-Life-Satisfaction-and-Observed-Daily-Conversation-Quantity-and-Quality.pdf&quot;&gt;Eavesdropping on Happiness” Revisited: A Pooled, Multi-Sample Replication of the Asso- ciation between Life Satisfaction and Observed Daily Conversation Quantity and Quality&lt;/a&gt; [this is a pre-print of a paper that’s in press: the final published version may be different]&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;&lt;b&gt;Emma Young&lt;/b&gt;&lt;/a&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;&lt;b&gt;@EmmaELYoung&lt;/b&gt;&lt;/a&gt;&lt;b&gt;) is Staff Writer at &lt;/b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;&lt;b&gt;BPS Research Digest&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2018-04-04T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
