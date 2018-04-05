@@ -9,6 +9,24 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Science News: Microplastics may enter freshwater and soil via compost</title>
+	<guid isPermaLink="true">https://www.sciencenews.org/article/microplastics-may-enter-freshwater-and-soil-compost</guid>
+	<link>https://www.sciencenews.org/article/microplastics-may-enter-freshwater-and-soil-compost</link>
+	<description>Compost is pinpointed as a source of plastic pollution, but environmental fate and effects unknown.</description>
+	<pubDate>Thu, 05 Apr 2018 20:17:31 +0000</pubDate>
+        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/04/main/articles/040418_RE_microplastics_feat.jpg?itok=Oy848KQn" length="47408" type="image/jpeg"/>
+  <source url=""></source>
+</item>
+<item>
+	<title>Science News: Human brains make new nerve cells — and lots of them — well into old age</title>
+	<guid isPermaLink="true">https://www.sciencenews.org/article/human-brains-make-new-nerve-cells-and-lots-them-well-old-age</guid>
+	<link>https://www.sciencenews.org/article/human-brains-make-new-nerve-cells-and-lots-them-well-old-age</link>
+	<description>In humans, new neurons are still born in old brains, new research suggests.</description>
+	<pubDate>Thu, 05 Apr 2018 18:50:31 +0000</pubDate>
+        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/04/main/articles/040518_LH_neurogenesis_feat.jpg?itok=64BAKxDh" length="20029" type="image/jpeg"/>
+  <source url=""></source>
+</item>
+<item>
 	<title>Science News: This ancient lizard may have watched the world through four eyes</title>
 	<guid isPermaLink="true">https://www.sciencenews.org/article/ancient-lizard-may-have-watched-world-through-four-eyes</guid>
 	<link>https://www.sciencenews.org/article/ancient-lizard-may-have-watched-world-through-four-eyes</link>
@@ -2330,26 +2348,6 @@ The new device is an improved version of an existing technique, called magnetoen
 	<description>Arguments flare over mass public shootings that remain scientifically mysterious.</description>
 	<pubDate>Fri, 23 Mar 2018 15:46:07 +0000</pubDate>
         <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/03/main/articles/032218_bb_shooter_feat.jpg?itok=FNRIFEgQ" length="34524" type="image/jpeg"/>
-  <source url=""></source>
-</item>
-<item>
-	<title>Romain Brette: What is computational neuroscience? (XXVIII)The Bayesian brain</title>
-	<guid isPermaLink="false">http://romainbrette.fr/?p=1483</guid>
-	<link>http://romainbrette.fr/what-is-computational-neuroscience-xxviiithe-bayesian-brain/</link>
-	<description>&lt;p&gt;Our sensors give us an incomplete, noisy, and indirect information about the world. For example, estimating the location of a sound source is difficult because in natural contexts, the sound of interest is corrupted by other sound sources, reflections, etc. Thus it is not possible to know the position of the source with certainty. The ‘Bayesian coding hypothesis’ (&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/15541511&quot;&gt;Knill &amp;amp; Pouget, 2014&lt;/a&gt;) postulates that the brain represents not the most likely position, but the entire probability distribution of the position. It then uses those distributions to do Bayesian inference, for example, when combining different sources of information (say, auditory and visual). This would allow the brain to optimally infer the most likely position. There is indeed some evidence for optimal inference in psychophysical experiments – although there is also some contradicting evidence (&lt;a href=&quot;https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/suboptimality-in-perceptual-decision-making/F0F0F136CA71A23F2DF3BC3E2ED4297B&quot;&gt;Rahnev &amp;amp; Denison, 2018&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The idea has some appeal. The problem is that, by framing perception as a statistical inference problem, it focuses on the most trivial type of uncertainty, statistical uncertainty. It is illustrated by the following quote: “The fundamental concept behind the Bayesian approach to perceptual computations is that the information provided by a set of sensory data about the world is represented by a conditional probability density function over the set of unknown variables”. Implicit in this representation is a particular model, for which variables are defined. Typically, one model describes a particular experimental situation. For example, the model would describe the distribution of auditory cues associated with the position of the sound source. Another situation would be described by a different model, for example one with two sound sources would require a model with two variables. Or if the listening environment is a room and the size of that room might vary, then we would need a model with the dimensions of the room as variables. In any of these cases where we have identified and fixed parametric sources of variation, then the Bayesian approach works fine, because we are indeed facing a problem of statistical inference. But that framework doesn’t fit any real life situation. In real life, perceptual scenes have variable structure, which corresponds to the model in statistical inference (there is one source, or two sources, we are in a room, the second source comes from the window, etc). The perceptual problem is therefore not just to infer the parameters of the model (dimensions of the room etc), but also the model itself, its structure. Thus, it is not possible in general to represent an auditory scene by a probability distribution on a set of parameters, because the very notion of a parameter already assumes that the structure of the scene is known and fixed.&lt;/p&gt;
-&lt;p&gt;Inferring parameters for a known statistical model is relatively easy. What is really difficult, and is still challenging for machine learning algorithms today, is to identify the structure of a perceptual scene, what constitutes an object (object formation), how objects are related to each other (scene analysis). These fundamental perceptual processes do not exist in the Bayesian brain. This touches on two very different types of uncertainty: statistical uncertainty, variations that can be interpreted and expected in the framework of a model; and epistemic uncertainty,  the model is unknown (the difference has been famously &lt;a href=&quot;https://www.youtube.com/watch?v=GiPe1OiKQuk&quot;&gt;explained by Donald Rumsfeld&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Thus, the “Bayesian brain” idea addresses an interesting problem (statistical inference), but it trivializes the problem of perception, by missing the fact that the real challenge is epistemic uncertainty (building a perceptual model), not statistical uncertainty (tuning the parameters): the world is not noisy, it is complex.&lt;/p&gt;</description>
-	<pubDate>Fri, 23 Mar 2018 15:41:10 +0000</pubDate>
-  <source url="http://romainbrette.fr/feed/">Romain Brette</source>
-</item>
-<item>
-	<title>Science News: 50 years ago, invasive species traveled the Suez Canal</title>
-	<guid isPermaLink="true">https://www.sciencenews.org/article/50-years-ago-invasive-species-traveled-suez-canal</guid>
-	<link>https://www.sciencenews.org/article/50-years-ago-invasive-species-traveled-suez-canal</link>
-	<description>Hundreds of Red Sea species used the Suez Canal to migrate to the Mediterranean Sea, leading to the decline of some native species.</description>
-	<pubDate>Fri, 23 Mar 2018 11:00:02 +0000</pubDate>
-        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/03/main/articles/030218_KP_50YA-species-suez_feat.jpg?itok=HfRZwdMs" length="20647" type="image/jpeg"/>
   <source url=""></source>
 </item>
 
