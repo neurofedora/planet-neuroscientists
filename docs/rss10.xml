@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-isnt-interacting-itself-after-all" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/microplastics-may-enter-freshwater-and-soil-compost" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/human-brains-make-new-nerve-cells-and-lots-them-well-old-age" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-lizard-may-have-watched-world-through-four-eyes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/new-spending-bill-mostly-boosts-money-science-research" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/single-atom-can-gauge-teensy-electromagnetic-forces" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/venus-may-be-home-new-kind-tectonics" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/science-mass-shooter-psychology-guns-research" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/dark-matter-isnt-interacting-itself-after-all">
+	<title>Science News: Dark matter isn’t interacting with itself after all</title>
+	<link>https://www.sciencenews.org/article/dark-matter-isnt-interacting-itself-after-all</link>
+	<content:encoded>Hints that a distant galactic collision knocked dark matter askew fizzled with new observations.</content:encoded>
+	<dc:date>2018-04-05T23:05:01+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/microplastics-may-enter-freshwater-and-soil-compost">
 	<title>Science News: Microplastics may enter freshwater and soil via compost</title>
 	<link>https://www.sciencenews.org/article/microplastics-may-enter-freshwater-and-soil-compost</link>
@@ -2299,13 +2306,6 @@ The new device is an improved version of an existing technique, called magnetoen
 	<content:encoded>Venus’ surface seems to be divided into jostling blocks of crust, defying conventional wisdom about how the surfaces of rocky planets work.</content:encoded>
 	<dc:date>2018-03-23T16:30:02+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/science-mass-shooter-psychology-guns-research">
-	<title>Science News: Why science still can’t pinpoint a mass shooter in the making</title>
-	<link>https://www.sciencenews.org/article/science-mass-shooter-psychology-guns-research</link>
-	<content:encoded>Arguments flare over mass public shootings that remain scientifically mysterious.</content:encoded>
-	<dc:date>2018-03-23T15:46:07+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
