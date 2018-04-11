@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/colorful-moth-wings-date-back-dinosaur-era" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/einstein-general-relativity-mercury-orbit" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=64037" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/database-will-mine-new-jerseys-research-assets-to-fuel-innovation" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1488" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/live-heart-cells-make-material-shift-color-chameleon" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/footprints-put-people-canada-west-coast-13000-years-ago" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-waves-concertgoers-sync-shows" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/colorful-moth-wings-date-back-dinosaur-era">
+	<title>Science News: Colorful moth wings date back to the dinosaur era</title>
+	<link>https://www.sciencenews.org/article/colorful-moth-wings-date-back-dinosaur-era</link>
+	<content:encoded>Microscopic structures that scatter light to give color to the wings of modern butterflies and moths date back almost 200 million years.</content:encoded>
+	<dc:date>2018-04-11T18:14:45+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/einstein-general-relativity-mercury-orbit">
 	<title>Science News: Einstein’s general relativity reveals new quirk of Mercury’s orbit</title>
 	<link>https://www.sciencenews.org/article/einstein-general-relativity-mercury-orbit</link>
@@ -2298,13 +2305,6 @@ Blue Pentagon (&quot;BP&quot;) is the pseudonym for a 70 year old blind man who 
 	<content:encoded>Island tracks indicate early New World settlers traveled down the North American Pacific coast about 13,000 years ago.</content:encoded>
 	<dc:date>2018-03-28T18:00:02+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/brain-waves-concertgoers-sync-shows">
-	<title>Science News: Brain waves of concertgoers sync up at shows</title>
-	<link>https://www.sciencenews.org/article/brain-waves-concertgoers-sync-shows</link>
-	<content:encoded>During a live musical performance, audience members’ brain waves get in sync.</content:encoded>
-	<dc:date>2018-03-28T17:30:02+00:00</dc:date>
-	<dc:creator>Rachel Ehrenberg</dc:creator>
 </item>
 
 </rdf:RDF>
