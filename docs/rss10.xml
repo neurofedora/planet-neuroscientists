@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/facebook-data-debacle-may-not-change-internet-behavior" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=64113" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cargo-ships-must-cut-their-emissions-half-2050" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/suicide-custer-little-big-horn-soldiers-may-be-overblown" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-honeybees-royal-jelly-might-be-baby-glue-too" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/truth-about-animals-isnt-always-pretty" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-2411306631917723502" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/science-behind-cancer-warnings-coffee-murky-best" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/facebook-data-debacle-may-not-change-internet-behavior">
+	<title>Science News: The Facebook data debacle may not change internet behavior</title>
+	<link>https://www.sciencenews.org/article/facebook-data-debacle-may-not-change-internet-behavior</link>
+	<content:encoded>In the wake of the Facebook data breach, personal privacy experts say there’s little individuals can do to control their personal information online.</content:encoded>
+	<dc:date>2018-04-15T11:00:02+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=64113">
 	<title>Retraction watch: Weekend reads: Unauthorized vaccine trial leads to criminal investigation; outrage over a skeleton study; how much plagiarism is OK?</title>
 	<link>https://retractionwatch.com/2018/04/14/weekend-reads-unauthorized-vaccine-trial-leads-to-criminal-investigation-outrage-over-a-skeleton-study-how-much-plagiarism-is-ok/</link>
@@ -2164,13 +2171,6 @@ Of course, there are people, aptly called “short sleepers”, who, due to a ra
 &lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/GobUuSboZqI&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-04-01T01:19:44+00:00</dc:date>
 	<dc:creator>The Neurocritic</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/science-behind-cancer-warnings-coffee-murky-best">
-	<title>Science News: The science behind cancer warnings on coffee is murky at best</title>
-	<link>https://www.sciencenews.org/article/science-behind-cancer-warnings-coffee-murky-best</link>
-	<content:encoded>The risks of acrylamide in coffee are not as clear as a California court ruling may suggest.</content:encoded>
-	<dc:date>2018-03-30T21:23:48+00:00</dc:date>
-	<dc:creator>Erika Engelhaupt</dc:creator>
 </item>
 
 </rdf:RDF>
