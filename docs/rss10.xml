@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-maya-city-snake-king-dynasty-la-corona-archaeology" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=64181" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-putting-missile-defense-system-space-could-be-bad-idea" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10100" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33600" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10071" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9451" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/are-we-ready-deadly-heat-waves-future" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ancient-maya-city-snake-king-dynasty-la-corona-archaeology">
+	<title>Science News: This ancient Maya city may have helped the Snake King dynasty spread</title>
+	<link>https://www.sciencenews.org/article/ancient-maya-city-snake-king-dynasty-la-corona-archaeology</link>
+	<content:encoded>A rural hub in an ancient Maya state gets its due with some laser help.</content:encoded>
+	<dc:date>2018-04-17T18:00:01+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=64181">
 	<title>Retraction watch: “Youth Guru” loses turkey-neck paper that overlapped with book chapter</title>
 	<link>https://retractionwatch.com/2018/04/17/youth-guru-loses-turkey-neck-paper-that-overlapped-with-book-chapter/</link>
@@ -1169,13 +1176,6 @@ That changed on February 15th, w</content:encoded>
 
 As I've said previously, the research on ketamine as an antidepressant is promising, but I do not think it is possible to say yet how ketamine works in depression. I think it is possible that ketamine's apparently powerful effects ar</content:encoded>
 	<dc:date>2018-04-03T19:41:24+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/are-we-ready-deadly-heat-waves-future">
-	<title>Science News: Are we ready for the deadly heat waves of the future?</title>
-	<link>https://www.sciencenews.org/article/are-we-ready-deadly-heat-waves-future</link>
-	<content:encoded>As heat waves become more common, cities try to respond.</content:encoded>
-	<dc:date>2018-04-03T19:00:02+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
 
 </rdf:RDF>
