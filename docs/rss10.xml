@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/tess-launch-success-nasa-exoplanets" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-ravens-caused-ligo-data-glitch" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/meteorite-diamonds-hint-it-was-born-lost-planet" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-touch-can-be-creepy-sensation-vr-uncanny-valley" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-isnt-interacting-itself-after-all" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/microplastics-may-enter-freshwater-and-soil-compost" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/human-brains-make-new-nerve-cells-and-lots-them-well-old-age" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-lizard-may-have-watched-world-through-four-eyes" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/tess-launch-success-nasa-exoplanets">
+	<title>Science News: NASA’s TESS spacecraft launches to begin its exoplanet search</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/tess-launch-success-nasa-exoplanets</link>
+	<content:encoded>After reaching its orbit in about two months, the telescope will start scanning nearby stars telltale dips in light that signal a passing planet.</content:encoded>
+	<dc:date>2018-04-18T23:36:28+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/how-ravens-caused-ligo-data-glitch">
 	<title>Science News: How ravens caused a LIGO data glitch</title>
 	<link>https://www.sciencenews.org/article/how-ravens-caused-ligo-data-glitch</link>
@@ -1163,13 +1170,6 @@ That changed on February 15th, w</content:encoded>
 	<content:encoded>In humans, new neurons are still born in old brains, new research suggests.</content:encoded>
 	<dc:date>2018-04-05T18:50:31+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ancient-lizard-may-have-watched-world-through-four-eyes">
-	<title>Science News: This ancient lizard may have watched the world through four eyes</title>
-	<link>https://www.sciencenews.org/article/ancient-lizard-may-have-watched-world-through-four-eyes</link>
-	<content:encoded>A lizard that lived 50 million years ago had both a third and a fourth eye.</content:encoded>
-	<dc:date>2018-04-05T16:19:50+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
