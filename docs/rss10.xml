@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9485" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=64487" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/cicadas-different-schedules-can-hybridize" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10089" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0518-35" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0518-29" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0518-21" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind0518-2" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9485">
+	<title>Discovery magazine - Neuroskeptic: We're Good At Recognizing Distorted Faces</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9485</link>
+	<content:encoded>A new paper from MIT neuroscientists Sharon Gilad-Gutnick and colleagues reveals that we are remarkably good at recognizing faces even if they are highly distorted. Not only is this scientifically interesting, the deformed images used in this study are rather hilarious.
+
+
+
+Here's an example of a face being distorted by horizontal and vertical compression (also known as thinning and flattening). The unfortunate victim of these distortions is Bill Clinton:
+
+
+
+Gilad-Gutnick et al. found tha</content:encoded>
+	<dc:date>2018-04-22T15:06:13+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=64487">
 	<title>Retraction watch: Weekend reads: A new publishing scam; reproducibility as a political weapon; prosecuting predatory publishers</title>
 	<link>https://retractionwatch.com/2018/04/21/weekend-reads-a-new-publishing-scam-reproducibility-as-a-political-weapon-prosecuting-predatory-publishers/</link>
@@ -1175,17 +1189,6 @@ The new syndrome was first reported by Constantin von Economo, a neurologist in 
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/djth-oNJH1Y&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-04-12T00:00:00+00:00</dc:date>
 	<dc:creator>Helen Shen</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind0518-2">
-	<title>Scientific American Mind: Total Recall</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/QsNhO_JwUOM/scientificamericanmind0518-2</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 2 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind0518-2&quot;&gt;doi:10.1038/scientificamericanmind0518-2&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Andrea Gawrylewski&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/QsNhO_JwUOM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-04-12T00:00:00+00:00</dc:date>
-	<dc:creator>Andrea Gawrylewski</dc:creator>
 </item>
 
 </rdf:RDF>
