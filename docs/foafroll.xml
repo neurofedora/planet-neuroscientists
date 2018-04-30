@@ -143,6 +143,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>For Better Science</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://forbetterscience.com">
+					<dc:title>For Better Science</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Forging Connections</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="https://forgingconnectionsblog.wordpress.com">
