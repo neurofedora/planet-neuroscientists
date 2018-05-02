@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-smallpox-treatment-one-step-closer-fda-approval" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/butchered-rhino-bones-place-hominids-philippines-700000-years-ago" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-fowl-bit-dinosaur-and-pecked-bird" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/bull-sharks-and-dolphins-move-farther-north-oceans-warm" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10126" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hole-ancient-cow-skull-could-have-been-surgery-practice" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=64311" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/harvard-and-beyond-4-ways-machine-learning-is-making-researchers-more-efficient" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/first-smallpox-treatment-one-step-closer-fda-approval">
+	<title>Science News: The first smallpox treatment is one step closer to FDA approval</title>
+	<link>https://www.sciencenews.org/article/first-smallpox-treatment-one-step-closer-fda-approval</link>
+	<content:encoded>The first treatment for smallpox has received a key recommendation on its path toward FDA approval.</content:encoded>
+	<dc:date>2018-05-02T22:06:56+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/butchered-rhino-bones-place-hominids-philippines-700000-years-ago">
 	<title>Science News: Butchered rhino bones place hominids in the Philippines 700,000 years ago</title>
 	<link>https://www.sciencenews.org/article/butchered-rhino-bones-place-hominids-philippines-700000-years-ago</link>
@@ -1247,12 +1254,6 @@ Czech presents an analysis of Asperger's activities as head of the Heilpädagogi
 	<content:encoded>A university in Australia that’s made headlines before over allegations of research misconduct has found itself in the news once again. Last week, the University of Queensland (UQ) announced some of its authors were retracting a paper after discovering data were missing. Just days later, the university made headlines over an investigation into three papers … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/04/19/research-problems-at-australian-university-hit-the-news/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Research problems at Australian university hit the news&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-04-19T12:00:07+00:00</dc:date>
 	<dc:creator>Victoria Stern</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/harvard-and-beyond-4-ways-machine-learning-is-making-researchers-more-efficient">
-	<title>Elsevier Connect: Harvard and beyond: 4 ways machine learning is making researchers more efficient</title>
-	<link>https://www.elsevier.com/connect/harvard-and-beyond-4-ways-machine-learning-is-making-researchers-more-efficient</link>
-	<content:encoded>From tackling information overload to identifying manipulated images, machine learning is changing the way science gets done</content:encoded>
-	<dc:date>2018-04-19T11:24:15+00:00</dc:date>
 </item>
 
 </rdf:RDF>
