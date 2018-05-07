@@ -9,6 +9,27 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Romain Brette: What is computational neuroscience? (XXX) Is the brain a computer?</title>
+	<guid isPermaLink="false">http://romainbrette.fr/?p=1502</guid>
+	<link>http://romainbrette.fr/what-is-computational-neuroscience-xxx-is-the-brain-a-computer/</link>
+	<description>&lt;p&gt;It is sometimes stated as an obvious fact that the brain carries out computations. Computational neuroscientists sometimes see themselves as looking for the algorithms of the brain. Is it true that the brain implements algorithms? My point here is not to answer this question, but rather to show that the answer is not self-evident, and that it can only be true (if at all) at a fairly abstract level.&lt;/p&gt;
+&lt;p&gt;One line of argumentation is that models of the brain that we find in computational neuroscience (neural network models) are algorithmic in nature, since we simulate them on computers. And wouldn’t it be a sort of vitalistic claim that neural networks cannot be (in principle) simulated on computer?&lt;/p&gt;
+&lt;p&gt;There is an important confusion in this argument. At a low level, neural networks are modelled biophysically as dynamical systems, in which the temporality corresponds to the actual temporality of the real world (as opposed to the discrete temporality of algorithms). Mathematically, those are typically differential equations, possibly hybrid systems (i.e. coupled by timed pulses), in which time is a continuous variable. Those models can of course be simulated on computer using discretization schemes. For example, we choose a time step and compute the state of the network at time t+dt, from the state at time t. This algorithm, however, implements a simulation of the model; it is not the model that implements the algorithm. The discretization is nowhere to be found in the model. The model itself, being a continuous time dynamical system, is not algorithmic in nature. It is not described as a discrete sequence of operations; it is only the simulation of the model that is algorithmic, and different algorithms can simulate the same model.&lt;/p&gt;
+&lt;p&gt;If we put this confusion aside, then the claim that neural networks implement algorithms becomes not that obvious. It means that trajectories of the dynamical system can be mapped to the discrete flow of an algorithm. This requires: 1) to identify states with representations of some variables (for example stimulus properties, symbols); 2) to identify trajectories from one state to another as specific operations. In addition to that, for the algorithmic view to be of any use, there should be a sequence of operations, not just one operation (ie, describing the output as a function of the input is not an algorithmic description).&lt;/p&gt;
+&lt;p&gt;A key difficulty in this identification is temporality: the state of the dynamical system changes continuously, so how can this be mapped to discrete operations? A typical approach is neuroscience is to consider not states but properties of trajectories. For example, one would consider the average firing rate in a population of neurons in a given time window, and the rate of another population in another time window. The relation between these two rates in the context of an experiment would define an operation. As stated above, a sequence of such relations should be identified in order to qualify as an algorithm. But this mapping seems only possible within a feedforward flow; coupling poses a greater challenge for an algorithmic description. No known nervous system, however, has a feedforward connectome.&lt;/p&gt;
+&lt;p&gt;I am not claiming here that the function of the brain (or mind) cannot possibly be described algorithmically. Probably some of it can be. My point is rather that a dynamical system is not generically algorithmic. A control system, for example, is typically not algorithmic (see the detailed example of Tim van Gelder, &lt;em&gt;&lt;a href=&quot;http://people.bu.edu/pbokulic/class/vanGelder-reading.pdf&quot;&gt;What might cognition be if not computation?&lt;/a&gt;&lt;/em&gt;). Thus a neural dynamical system can only be seen as an algorithm at a fairly abstract level, which can probably address only a restricted subset of its function. It could be that control, which also attaches function to dynamical systems, is a more adequate metaphor of brain function than computation. Is the brain a computer? Given the rather narrow application of the algorithmic view, the reasonable answer should be: quite clearly not (maybe part of cognition could be seen as computation, but not brain function generally).&lt;/p&gt;</description>
+	<pubDate>Mon, 07 May 2018 09:46:29 +0000</pubDate>
+  <source url="http://romainbrette.fr/feed/">Romain Brette</source>
+</item>
+<item>
+	<title>For Better Science: The Perennial Northern Blot of Lopez-Otin</title>
+	<guid isPermaLink="false">http://forbetterscience.com/?p=23562</guid>
+	<link>https://forbetterscience.com/2018/05/07/the-perennial-northern-blot-of-lopez-otin/</link>
+	<description>On the Iberian peninsula, there seems to be a tradition to give well-connected scientists suspected (or even convinced) of data fudging an award. In Spain, Carlos López-Otín, Professor of Biochemistry and Molecular Biology at the University of Oviedo, was given a Mentoring Award from the elite journal Nature, on recommendation from Spanish academia and despite … &lt;a class=&quot;more-link&quot; href=&quot;https://forbetterscience.com/2018/05/07/the-perennial-northern-blot-of-lopez-otin/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;The Perennial Northern Blot of Lopez-Otin&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</description>
+	<pubDate>Mon, 07 May 2018 05:45:12 +0000</pubDate>
+  <source url="https://forbetterscience.com/feed/">For Better Science</source>
+</item>
+<item>
 	<title>Science News: This self-driving car could one day take you on a real road trip</title>
 	<guid isPermaLink="true">https://www.sciencenews.org/article/self-driving-car-laser-sensors-autonomous-navigation</guid>
 	<link>https://www.sciencenews.org/article/self-driving-car-laser-sensors-autonomous-navigation</link>
@@ -1391,23 +1412,6 @@ Photo credit: Heratch Ekmekjian&lt;/em&gt;&lt;/p&gt;
 	<pubDate>Mon, 23 Apr 2018 15:00:02 +0000</pubDate>
         <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/04/main/articles/041918_lg_galaxy-shape_feat.jpg?itok=U4k9fFIY" length="14602" type="image/jpeg"/>
   <source url=""></source>
-</item>
-<item>
-	<title>Science News: Uranus smells like rotten eggs</title>
-	<guid isPermaLink="true">https://www.sciencenews.org/article/uranus-smells-rotten-eggs</guid>
-	<link>https://www.sciencenews.org/article/uranus-smells-rotten-eggs</link>
-	<description>Planetary scientists detected hydrogen sulfide in Uranus’ upper clouds — the same compound that gives rotten eggs their terrible smell.</description>
-	<pubDate>Mon, 23 Apr 2018 15:00:02 +0000</pubDate>
-        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/04/main/articles/042018_LG_stinky-uranus_feat.jpg?itok=4n_9eEHG" length="8143" type="image/jpeg"/>
-  <source url=""></source>
-</item>
-<item>
-	<title>Retraction watch: Flawed climate science paper “exposed potential weaknesses” in the peer review process</title>
-	<guid isPermaLink="false">http://retractionwatch.com/?p=64459</guid>
-	<link>https://retractionwatch.com/2018/04/23/flawed-climate-science-paper-exposed-potential-weaknesses-in-peer-review-process/</link>
-	<description>Before we present this new post, a question: Do you enjoy reading Retraction Watch? If so, we could really use your help. Would you consider a tax-deductible donation to support our work? Thanks in advance. How did a deeply flawed paper, which contradicts mainstream science on climate change, pass peer review? That is what three editorial … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/04/23/flawed-climate-science-paper-exposed-potential-weaknesses-in-peer-review-process/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Flawed climate science paper “exposed potential weaknesses” in the peer review process&lt;/span&gt;&lt;/a&gt;</description>
-	<pubDate>Mon, 23 Apr 2018 12:00:41 +0000</pubDate>
-  <source url="https://retractionwatch.com/feed/">Retraction Watch</source>
 </item>
 
 </channel>
