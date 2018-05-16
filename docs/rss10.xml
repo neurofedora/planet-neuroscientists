@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-dinosaurs-sat-their-eggs-without-crushing-them" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8214" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/how-deep-sea-geology-trip-led-researchers-doomed-octopus-nursery" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=65503" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://medium.com/p/4a4607a870b0" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=64892" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-backyard-pendulum-saw-sliced-bronze-age-mystery" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/as-keai-turns-5-open-access-and-technology-expand-the-global-stage-for-chinese-research" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-dinosaurs-sat-their-eggs-without-crushing-them">
+	<title>Science News: Here’s how hefty dinosaurs sat on their eggs without crushing them</title>
+	<link>https://www.sciencenews.org/article/how-dinosaurs-sat-their-eggs-without-crushing-them</link>
+	<content:encoded>Some heavier dinos had a strategy to keep eggs warm without crushing them: sit in an opening in the middle of the clutch instead of on top of them.</content:encoded>
+	<dc:date>2018-05-15T23:05:02+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="http://blogs.plos.org/plos/?p=8214">
 	<title>The Official PLOS Blog: PLOS Announces Prize to Celebrate the First Year of Channels</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/PZ8Vhej8snM/</link>
@@ -1288,12 +1295,6 @@ It has emerged that Sternberg re-used large chunks of previously published text 
 	<content:encoded>A saw no one has seen may have built Bronze Age Greek palaces.</content:encoded>
 	<dc:date>2018-05-01T11:00:01+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/as-keai-turns-5-open-access-and-technology-expand-the-global-stage-for-chinese-research">
-	<title>Elsevier Connect: As KeAi turns 5, open access and technology expand the global stage for Chinese research</title>
-	<link>https://www.elsevier.com/connect/as-keai-turns-5-open-access-and-technology-expand-the-global-stage-for-chinese-research</link>
-	<content:encoded>Elsevier’s joint venture with CSPM publishes 40+ Chinese-rooted international journals</content:encoded>
-	<dc:date>2018-05-01T10:21:17+00:00</dc:date>
 </item>
 
 </rdf:RDF>
