@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/websci18-join-us-live-for-the-acm-turing-lecture-by-sir-tim-berners-lee" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/fecal-transplants-regulation" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=65786" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/cdc-water-hotel-swimming-pool" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10115" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33906" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1336" />
@@ -111,14 +115,37 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tourism-carbon-footprint-earth" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/planetary-nebula-stars-death-mystery" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1317" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=65147" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/shark-dna-census-oceans" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9500" />
-			<rdf:li rdf:resource="http://romainbrette.fr/?p=1502" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/websci18-join-us-live-for-the-acm-turing-lecture-by-sir-tim-berners-lee">
+	<title>Elsevier Connect: #WebSci18 – Join us live for the ACM Turing Lecture by Sir Tim Berners-Lee</title>
+	<link>https://www.elsevier.com/connect/websci18-join-us-live-for-the-acm-turing-lecture-by-sir-tim-berners-lee</link>
+	<content:encoded>Watch Sir Tim Berners-Lee, the inventor of the World Wide Web, talk about our digital future. The live lecture is made open to the public by VU and Elsevier</content:encoded>
+	<dc:date>2018-05-18T14:54:06+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/scicurious/fecal-transplants-regulation">
+	<title>Science News: To regulate fecal transplants, FDA has to first answer a serious question: What is poop?</title>
+	<link>https://www.sciencenews.org/blog/scicurious/fecal-transplants-regulation</link>
+	<content:encoded>Fecal transplants are the treatment of the future for some conditions. But right now, they are entirely unregulated. Here’s why putting regulations in place is so complex.</content:encoded>
+	<dc:date>2018-05-18T14:00:04+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=65786">
+	<title>Retraction watch: Caught Our Notice: Hey peer reviewers — did you even read this paper??</title>
+	<link>https://retractionwatch.com/2018/05/18/caught-our-notice-hey-peer-reviewers-did-you-even-read-this-paper/</link>
+	<content:encoded>What Caught Our Attention: A tree of life paper has been axed — and based on the information in the retraction notice, we’re wondering how it ever passed peer review. Specifically, the notice states a review of the paper found “concerns regarding the study design, methodology, and interpretation of the data.” Overall, the research “contradict(s) … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/05/18/caught-our-notice-hey-peer-reviewers-did-you-even-read-this-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Caught Our Notice: Hey peer reviewers — did you even read this paper??&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-05-18T12:00:02+00:00</dc:date>
+	<dc:creator>Alison Abritis</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/cdc-water-hotel-swimming-pool">
+	<title>Science News: The CDC advises: Don’t swallow the water in a hotel swimming pool</title>
+	<link>https://www.sciencenews.org/article/cdc-water-hotel-swimming-pool</link>
+	<content:encoded>In a 15-year period, hotel swimming pools and water parks had the highest number of swimming-related disease outbreaks in the United States.</content:encoded>
+	<dc:date>2018-05-18T11:00:05+00:00</dc:date>
+	<dc:creator>Kyle Plantz</dc:creator>
+</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=10115">
 	<title>BMC Series blog: Rehabilitation and economic recovery for torture survivors</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2018/05/18/rehabilitation-economic-recovery-torture-survivors/</link>
@@ -1177,44 +1204,6 @@ If a neuron is a tree, the dendrites are the branches, while the synapses</conte
 &lt;p&gt;&lt;strong&gt;Lindsey Ott, Ph.D.&lt;/strong&gt; is the Director of Product Innovation at Likarda LLC. In her role at Likarda, Lindsey expands Likarda’s patented 3D cell cluster technology into other preclinical drug discovery applications like oncology, immunotherapies, and ADME-Tox.&lt;/p&gt;</content:encoded>
 	<dc:date>2018-05-07T13:52:39+00:00</dc:date>
 	<dc:creator>Team</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=65147">
-	<title>Retraction watch: A frustrated former editor asked a publishing group for help. He didn’t like what they said.</title>
-	<link>https://retractionwatch.com/2018/05/07/frustrated-former-editor-asked-publishing-group-for-help-he-didnt-like-what-they-said/</link>
-	<content:encoded>When the former editor of a public health journal didn’t get a straight answer about why the journal retracted his paper that was critical of corporate-sponsored research, he brought his concerns to an organization dedicated to promoting integrity in academic publishing. He wanted the group to help resolve the impasse he’d reached with the publisher, … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/05/07/frustrated-former-editor-asked-publishing-group-for-help-he-didnt-like-what-they-said/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;A frustrated former editor asked a publishing group for help. He didn’t like what they said.&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-05-07T12:00:30+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/shark-dna-census-oceans">
-	<title>Science News: Here’s how to use DNA to find elusive sharks</title>
-	<link>https://www.sciencenews.org/article/shark-dna-census-oceans</link>
-	<content:encoded>Hard-to-find sharks that divers and cameras miss appear in genetic traces in the ocean.</content:encoded>
-	<dc:date>2018-05-07T11:00:05+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9500">
-	<title>Discovery magazine - Neuroskeptic: Sternberg-er And Fries</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9500</link>
-	<content:encoded>A new scandal hit the world of psychology last week when it emerged that Robert J. Sternberg, an eminent experimental psychologist and former President of the American Psychological Association (APA), has been engaging in text recycling aka self-plagiarism.
-
-
-
-
-
-It has emerged that Sternberg re-used large chunks of previously published text in several publications without any acknowledgement that this done. This discovery came after Sternberg was already under scrutiny for a very high rate</content:encoded>
-	<dc:date>2018-05-07T10:03:00+00:00</dc:date>
-</item>
-<item rdf:about="http://romainbrette.fr/?p=1502">
-	<title>Romain Brette: What is computational neuroscience? (XXX) Is the brain a computer?</title>
-	<link>http://romainbrette.fr/what-is-computational-neuroscience-xxx-is-the-brain-a-computer/</link>
-	<content:encoded>&lt;p&gt;It is sometimes stated as an obvious fact that the brain carries out computations. Computational neuroscientists sometimes see themselves as looking for the algorithms of the brain. Is it true that the brain implements algorithms? My point here is not to answer this question, but rather to show that the answer is not self-evident, and that it can only be true (if at all) at a fairly abstract level.&lt;/p&gt;
-&lt;p&gt;One line of argumentation is that models of the brain that we find in computational neuroscience (neural network models) are algorithmic in nature, since we simulate them on computers. And wouldn’t it be a sort of vitalistic claim that neural networks cannot be (in principle) simulated on computer?&lt;/p&gt;
-&lt;p&gt;There is an important confusion in this argument. At a low level, neural networks are modelled biophysically as dynamical systems, in which the temporality corresponds to the actual temporality of the real world (as opposed to the discrete temporality of algorithms). Mathematically, those are typically differential equations, possibly hybrid systems (i.e. coupled by timed pulses), in which time is a continuous variable. Those models can of course be simulated on computer using discretization schemes. For example, we choose a time step and compute the state of the network at time t+dt, from the state at time t. This algorithm, however, implements a simulation of the model; it is not the model that implements the algorithm. The discretization is nowhere to be found in the model. The model itself, being a continuous time dynamical system, is not algorithmic in nature. It is not described as a discrete sequence of operations; it is only the simulation of the model that is algorithmic, and different algorithms can simulate the same model.&lt;/p&gt;
-&lt;p&gt;If we put this confusion aside, then the claim that neural networks implement algorithms becomes not that obvious. It means that trajectories of the dynamical system can be mapped to the discrete flow of an algorithm. This requires: 1) to identify states with representations of some variables (for example stimulus properties, symbols); 2) to identify trajectories from one state to another as specific operations. In addition to that, for the algorithmic view to be of any use, there should be a sequence of operations, not just one operation (ie, describing the output as a function of the input is not an algorithmic description).&lt;/p&gt;
-&lt;p&gt;A key difficulty in this identification is temporality: the state of the dynamical system changes continuously, so how can this be mapped to discrete operations? A typical approach is neuroscience is to consider not states but properties of trajectories. For example, one would consider the average firing rate in a population of neurons in a given time window, and the rate of another population in another time window. The relation between these two rates in the context of an experiment would define an operation. As stated above, a sequence of such relations should be identified in order to qualify as an algorithm. But this mapping seems only possible within a feedforward flow; coupling poses a greater challenge for an algorithmic description. No known nervous system, however, has a feedforward connectome.&lt;/p&gt;
-&lt;p&gt;I am not claiming here that the function of the brain (or mind) cannot possibly be described algorithmically. Probably some of it can be. My point is rather that a dynamical system is not generically algorithmic. A control system, for example, is typically not algorithmic (see the detailed example of Tim van Gelder, &lt;em&gt;&lt;a href=&quot;http://people.bu.edu/pbokulic/class/vanGelder-reading.pdf&quot;&gt;What might cognition be if not computation?&lt;/a&gt;&lt;/em&gt;). Thus a neural dynamical system can only be seen as an algorithm at a fairly abstract level, which can probably address only a restricted subset of its function. It could be that control, which also attaches function to dynamical systems, is a more adequate metaphor of brain function than computation. Is the brain a computer? Given the rather narrow application of the algorithmic view, the reasonable answer should be: quite clearly not (maybe part of cognition could be seen as computation, but not brain function generally).&lt;/p&gt;</content:encoded>
-	<dc:date>2018-05-07T09:46:29+00:00</dc:date>
-	<dc:creator>romain</dc:creator>
 </item>
 
 </rdf:RDF>
