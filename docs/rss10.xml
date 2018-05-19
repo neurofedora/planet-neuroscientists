@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-we-know-about-ebola-outbreak-congo-and-vaccine-help" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9517" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/websci18-join-us-live-for-the-acm-turing-lecture-by-sir-tim-berners-lee" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/fecal-transplants-regulation" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/dont-weigh-the-guilt-4-lessons-from-women-at-the-forefront-of-stem" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33830" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tourism-carbon-footprint-earth" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/planetary-nebula-stars-death-mystery" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/what-we-know-about-ebola-outbreak-congo-and-vaccine-help">
+	<title>Science News: What we know about the Ebola outbreak, and the vaccine that might help</title>
+	<link>https://www.sciencenews.org/article/what-we-know-about-ebola-outbreak-congo-and-vaccine-help</link>
+	<content:encoded>Even as an experimental vaccine arrives in Congo to contain the virus, there are worrisome signs Ebola has spread to a city.</content:encoded>
+	<dc:date>2018-05-18T23:19:29+00:00</dc:date>
+	<dc:creator>Helen Thompson</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9517">
 	<title>Discovery magazine - Neuroskeptic: Slug Life: About That Injectable Memory Study</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9517</link>
@@ -1183,13 +1190,6 @@ If a neuron is a tree, the dendrites are the branches, while the synapses</conte
 	<content:encoded>Globetrotters are responsible for about 8 percent of the world’s greenhouse gas emissions.</content:encoded>
 	<dc:date>2018-05-07T15:00:05+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/planetary-nebula-stars-death-mystery">
-	<title>Science News: New ideas about how stars die help solve a decades-old mystery</title>
-	<link>https://www.sciencenews.org/article/planetary-nebula-stars-death-mystery</link>
-	<content:encoded>New ideas about stellar evolution help explain why astronomers see so many bright planetary nebulae where they ought not be.</content:encoded>
-	<dc:date>2018-05-07T15:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
