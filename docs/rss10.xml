@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/china-launch-satellite-chang-e-moon" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=65847" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=138070" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-we-know-about-ebola-outbreak-congo-and-vaccine-help" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=65198" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/celebration-curiosity-richard-feynman-birthday" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/elsevier-exec-gives-her-best-advice-for-girls-and-women" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/dont-weigh-the-guilt-4-lessons-from-women-at-the-forefront-of-stem" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/china-launch-satellite-chang-e-moon">
+	<title>Science News: China is set to launch a satellite to support a future lunar rover</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/china-launch-satellite-chang-e-moon</link>
+	<content:encoded>China is set to launch a satellite to support a future lunar rover that will make the first-ever visit to the farside of the moon.</content:encoded>
+	<dc:date>2018-05-20T14:00:04+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=65847">
 	<title>Retraction watch: Weekend reads: How to get away with scientific fraud; what’s wrong with nutrition research; a second chance after misconduct</title>
 	<link>https://retractionwatch.com/2018/05/19/weekend-reads-how-to-get-away-with-scientific-fraud-whats-wrong-with-nutrition-research-a-second-chance-after-misconduct/</link>
@@ -1186,12 +1193,6 @@ If a neuron is a tree, the dendrites are the branches, while the synapses</conte
 	<link>https://www.elsevier.com/connect/elsevier-exec-gives-her-best-advice-for-girls-and-women</link>
 	<content:encoded>It’s all about a “growth mindset,” says Sumita Singh – here’s what that means</content:encoded>
 	<dc:date>2018-05-08T09:41:36+00:00</dc:date>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/dont-weigh-the-guilt-4-lessons-from-women-at-the-forefront-of-stem">
-	<title>Elsevier Connect: “Don’t weigh the guilt”: 4 lessons from women at the forefront of STEM</title>
-	<link>https://www.elsevier.com/connect/dont-weigh-the-guilt-4-lessons-from-women-at-the-forefront-of-stem</link>
-	<content:encoded>Key takeways from the Association for Women in Science (AWIS) Annual Summit in San Francisco</content:encoded>
-	<dc:date>2018-05-08T08:51:01+00:00</dc:date>
 </item>
 
 </rdf:RDF>
