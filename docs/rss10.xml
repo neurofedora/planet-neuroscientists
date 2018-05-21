@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/saturn-moons-shapes-collisions" />
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-05-21:/2018/05/21/a-comparison-of-deterministic-and-stochastic-ion-channel-representations-in-a-model-of-a-cerebellar-nucleus-neuron.html" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=65829" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/weird-asteroid-immigrant-outside-solar-system" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3713194314542835203" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33929" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/china-launch-satellite-chang-e-moon" />
@@ -111,14 +115,42 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=23640" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33848" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-long-volcano-kilauea-hawaii-eruption-last" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/kids-privacy-pictures-social-media" />
-			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1319" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/real-numbers-physics-free-will" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=65198" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/saturn-moons-shapes-collisions">
+	<title>Science News: Satellite smashups could have given birth to Saturn’s odd moons</title>
+	<link>https://www.sciencenews.org/article/saturn-moons-shapes-collisions</link>
+	<content:encoded>Nearly head-on collisions between icy moonlets might be responsible for the peculiar shapes of some of Saturn’s moons, computer simulations suggest.</content:encoded>
+	<dc:date>2018-05-21T15:00:04+00:00</dc:date>
+	<dc:creator>Christopher Crockett</dc:creator>
+</item>
+<item rdf:about="tag:biocomputation.herts.ac.uk,2018-05-21:/2018/05/21/a-comparison-of-deterministic-and-stochastic-ion-channel-representations-in-a-model-of-a-cerebellar-nucleus-neuron.html">
+	<title>UH Biocomputation group: A comparison of deterministic and stochastic ion channel representations in a model of a cerebellar nucleus neuron</title>
+	<link>http://biocomputation.herts.ac.uk/2018/05/21/a-comparison-of-deterministic-and-stochastic-ion-channel-representations-in-a-model-of-a-cerebellar-nucleus-neuron.html</link>
+	<content:encoded>&lt;p&gt;Ion channels can either be modelled at a macroscopic level, using a deterministic representation such as the Hodgkin-Huxley formalism, or at a more detailed single-channel level, where their stochastic nature is taken into account by using a Markov formalism. The Hodgkin-Huxley model describes the combined collective effect of the channel population on the membrane potential, but it does not provide a comprehensive kinetic diagram. As a result, various aspects of the behaviour and consequently the functional role of individual channels can be overlooked. On the other hand, a more accurate alternative channel formalism is the Markov model. In Markov models, a single channel is represented by a kinetic scheme comprising a finite set of discrete intermediate states with probabilistic transitions from one state to another. Channel noise, introduced by the stochastic gating of the ion channels, can affect the generation and timing of action potentials and therefore potentially also single neuron computations.&lt;/p&gt;
+&lt;p&gt;In the present study, the voltage-gated channels of a morphologically realistic conductance based cerebellar nucleus (CN) neuron model were expressed as Markov formalisms and their behaviour was compared with their deterministic Hodgkin-Huxley type counterparts. Our results show that the majority of the deterministic CN channel models could easily be replaced by stochastic versions, without affecting neuronal behaviour. However, this was not the case for the fast sodium channel, where the parameter changes that had to be introduced in order to match the activity of the stochastic and deterministic models depended on the level of activation of the neuron, even for very small single channel conductances in the stochastic model.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 25/05/2018 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
+	<dc:date>2018-05-21T13:55:04+00:00</dc:date>
+	<dc:creator>Maria Psarrou</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=65829">
+	<title>Retraction watch: Caught Our Notice: A team from Harvard, Cornell, Cambridge, HHMI, and UCSF can’t reproduce a paper’s findings</title>
+	<link>https://retractionwatch.com/2018/05/21/caught-our-notice-a-team-from-harvard-cornell-cambridge-hhmi-and-ucsf-cant-reproduce-a-papers-findings/</link>
+	<content:encoded>What Caught Our Attention: Any time there’s an issue with a paper co-authored by researchers from such high-profile institutions as Harvard, Cornell, and the University of Cambridge, we take notice. In this case, the group — which included Laurie Glimcher, then-dean at Cornell, now president of the Dana-Farber Cancer Institute — chose to retract a … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/05/21/caught-our-notice-a-team-from-harvard-cornell-cambridge-hhmi-and-ucsf-cant-reproduce-a-papers-findings/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Caught Our Notice: A team from Harvard, Cornell, Cambridge, HHMI, and UCSF can’t reproduce a paper’s findings&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-05-21T12:00:14+00:00</dc:date>
+	<dc:creator>Alison Abritis</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/weird-asteroid-immigrant-outside-solar-system">
+	<title>Science News: Maverick asteroid might be an immigrant from outside the solar system</title>
+	<link>https://www.sciencenews.org/article/weird-asteroid-immigrant-outside-solar-system</link>
+	<content:encoded>A space rock’s backward orbit could be a hint of unusual origins.</content:encoded>
+	<dc:date>2018-05-21T12:00:05+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-3713194314542835203">
 	<title>The Neurocritic: What counts as &quot;memory&quot; and who gets to define it?</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/6GXe_F2O6yM/what-counts-as-memory-and-who-gets-to.html</link>
@@ -1185,36 +1217,6 @@ If a neuron is a tree, the dendrites are the branches, while the synapses</conte
 	<content:encoded>A volcanologist with the U.S. Geological Survey answers burning questions about the ongoing Kilauea eruption.</content:encoded>
 	<dc:date>2018-05-08T21:16:52+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/kids-privacy-pictures-social-media">
-	<title>Science News: Is it an invasion of your kids’ privacy to post pictures of them on social media?</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/kids-privacy-pictures-social-media</link>
-	<content:encoded>Growing up in an online world doesn’t mean that kids don’t care about privacy. Parents should keep this in mind when posting pictures of their kids to social media.</content:encoded>
-	<dc:date>2018-05-08T16:00:05+00:00</dc:date>
-	<dc:creator>Rachel Ehrenberg</dc:creator>
-</item>
-<item rdf:about="http://blog.scienceexchange.com/?p=1319">
-	<title>The Science Exchange Blog: Science Exchange Named Finalist for 2018 Bio-IT World Best Practices Awards</title>
-	<link>https://blog.scienceexchange.com/2018/05/science-exchange-named-finalist-for-2018-bio-it-world-best-practices-awards/</link>
-	<content:encoded>&lt;p&gt;&lt;a href=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2018/05/BioIT_World_Finalist_2018.png&quot;&gt;&lt;img alt=&quot;2018 Bio-IT World Best Practices Award Finalist&quot; class=&quot;aligncenter size-medium wp-image-1320&quot; height=&quot;157&quot; src=&quot;http://thebenchapp.s3.amazonaws.com/wp-content/uploads/2018/05/BioIT_World_Finalist_2018-300x157.png&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We’re finalists! Our entry, &lt;b class=&quot;mentions-texteditor__hashtag&quot; data-id=&quot;urn:li:hashtag:Procurement&quot;&gt;“&lt;/b&gt;Procurement as Innovative Driver,” describing our collaboration with GSK Consumer Health, could win a 2018 Bio-IT World Best Practices Award next week. Read the announcement and full list of nominees at &lt;a href=&quot;http://www.bio-itworld.com/2018/04/20/bio-it-world-announces-finalists-for-2018-best-practices-awards.aspx&quot;&gt;http://www.bio-itworld.com/2018/04/20/bio-it-world-announces-finalists-for-2018-best-practices-awards.aspx&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</content:encoded>
-	<dc:date>2018-05-08T15:24:36+00:00</dc:date>
-	<dc:creator>Team</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/real-numbers-physics-free-will">
-	<title>Science News: Real numbers don’t cut it in the real world, this physicist argues</title>
-	<link>https://www.sciencenews.org/article/real-numbers-physics-free-will</link>
-	<content:encoded>Physicist Nicolas Gisin argues that real numbers don’t properly represent the natural world, which is a good thing for free will.</content:encoded>
-	<dc:date>2018-05-08T14:00:06+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=65198">
-	<title>Retraction watch: Nature says it wants to publish replication attempts. So what happened when a group of authors submitted one to Nature Neuroscience?</title>
-	<link>https://retractionwatch.com/2018/05/08/nature-says-it-wants-to-publish-replication-attempts-so-what-happened-when-a-group-of-authors-submitted-one-to-nature-neuroscience/</link>
-	<content:encoded>Over the past few years, Nature has published editorials extolling the virtues of replication, concluding in one that “We welcome, and will be glad to help disseminate, results that explore the validity of key publications, including our own.” Mante Nieuwland, of the Max Planck Institute for Psycholinguistics, and colleagues were encouraged by that message, and … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/05/08/nature-says-it-wants-to-publish-replication-attempts-so-what-happened-when-a-group-of-authors-submitted-one-to-nature-neuroscience/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Nature says it wants to publish replication attempts. So what happened when a group of authors submitted one to Nature Neuroscience?&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-05-08T12:00:35+00:00</dc:date>
-	<dc:creator>Mante Nieuwland</dc:creator>
 </item>
 
 </rdf:RDF>
