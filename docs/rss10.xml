@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/skeletons-come-many-shapes-and-sizes" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66089" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66075" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66061" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-72" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-68" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-65" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-60" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/skeletons-come-many-shapes-and-sizes">
+	<title>Science News: Skeletons come in many shapes and sizes</title>
+	<link>https://www.sciencenews.org/article/skeletons-come-many-shapes-and-sizes</link>
+	<content:encoded>In Skeletons, two paleobiologists recount how and why skeletons evolved, as well as the variety of forms they take and the many purposes they serve.</content:encoded>
+	<dc:date>2018-05-27T12:00:04+00:00</dc:date>
+	<dc:creator>Sid Perkins</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=66089">
 	<title>Retraction watch: Author who lied to journals about his identity slated to have four articles on vaccines retracted</title>
 	<link>https://retractionwatch.com/2018/05/27/author-who-lied-to-journals-about-his-identity-slated-to-have-four-articles-on-vaccines-retracted/</link>
@@ -1191,18 +1198,6 @@ Twitter: &lt;a href=&quot;https://twitter.com/dignitydk?lang=da&quot;&gt;https:/
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/dGx0eJr0jMw&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-05-15T00:00:00+00:00</dc:date>
 	<dc:creator>Jack Szostak</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0618-60">
-	<title>Scientific American: What Is Consciousness?</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/SJXe81haAdc/scientificamerican0618-60</link>
-	<content:encoded>&lt;p&gt;Scientific American 318, 60 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0618-60&quot;&gt;doi:10.1038/scientificamerican0618-60&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Christof Koch&lt;/p&gt;
-&lt;p&gt;Scientists are beginning to unravel a mystery that has long vexed philosophers&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/SJXe81haAdc&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-05-15T00:00:00+00:00</dc:date>
-	<dc:creator>Christof Koch</dc:creator>
 </item>
 
 </rdf:RDF>
