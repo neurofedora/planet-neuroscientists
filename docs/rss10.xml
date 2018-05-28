@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-particles-elude-scientists-biggest-search-wimps" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/skeletons-come-many-shapes-and-sizes" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66089" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66075" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-75" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-72" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-68" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-65" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/dark-matter-particles-elude-scientists-biggest-search-wimps">
+	<title>Science News: Dark matter particles elude scientists in the biggest search of its kind</title>
+	<link>https://www.sciencenews.org/article/dark-matter-particles-elude-scientists-biggest-search-wimps</link>
+	<content:encoded>The XENON1T experiment saw no signs of hypothetical dark matter particles called WIMPs.</content:encoded>
+	<dc:date>2018-05-28T09:00:04+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/skeletons-come-many-shapes-and-sizes">
 	<title>Science News: Skeletons come in many shapes and sizes</title>
 	<link>https://www.sciencenews.org/article/skeletons-come-many-shapes-and-sizes</link>
@@ -1186,18 +1193,6 @@ Twitter: &lt;a href=&quot;https://twitter.com/dignitydk?lang=da&quot;&gt;https:/
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/FdsaLly4Rsk&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-05-15T00:00:00+00:00</dc:date>
 	<dc:creator>Neil Savage</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0618-65">
-	<title>Scientific American: How Did Life Begin?</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/dGx0eJr0jMw/scientificamerican0618-65</link>
-	<content:encoded>&lt;p&gt;Scientific American 318, 65 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0618-65&quot;&gt;doi:10.1038/scientificamerican0618-65&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Jack Szostak&lt;/p&gt;
-&lt;p&gt;Untangling the origins of organisms will require experiments at the tiniest scales and observations at the vastest&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/dGx0eJr0jMw&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-05-15T00:00:00+00:00</dc:date>
-	<dc:creator>Jack Szostak</dc:creator>
 </item>
 
 </rdf:RDF>
