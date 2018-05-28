@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9528" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66066" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-particles-elude-scientists-biggest-search-wimps" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/skeletons-come-many-shapes-and-sizes" />
@@ -114,11 +115,18 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-77" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-76" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-75" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0618-72" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9528">
+	<title>Discovery magazine - Neuroskeptic: Power Doesn't Cause Brain Damage</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9528</link>
+	<content:encoded>An Atlantic article from July 2017 has been widely discussed on Twitter over the past few days. It's called Power Causes Brain Damage and I remember that it was fairly popular at the time of publication. Its recent revival was prompted I think by Harvey Weinstein's arrest and more generally the abuses of power revealed by the #MeToo movement. The article itself, of course, dating to the pre-Fall of Weinstein era, isn't specifically about this.
+
+In my view, while power is certainly all too</content:encoded>
+	<dc:date>2018-05-28T17:44:37+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=66066">
 	<title>Retraction watch: Kim Kardashian pairs up with an MIT post-doc to publish a scientific paper</title>
 	<link>https://retractionwatch.com/2018/05/28/kim-kardashian-pairs-up-with-an-mit-post-doc-to-publish-a-scientific-paper/</link>
@@ -1176,18 +1184,6 @@ Twitter: &lt;a href=&quot;https://twitter.com/dignitydk?lang=da&quot;&gt;https:/
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/NUfj5Ug1A1Q&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-05-15T00:00:00+00:00</dc:date>
 	<dc:creator>Andrea Gawrylewski</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0618-72">
-	<title>Scientific American: How Much Can We Know?</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/6HZp4WSN6cU/scientificamerican0618-72</link>
-	<content:encoded>&lt;p&gt;Scientific American 318, 72 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0618-72&quot;&gt;doi:10.1038/scientificamerican0618-72&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Marcelo Gleiser&lt;/p&gt;
-&lt;p&gt;The reach of the scientific method is constrained by the limitations of our tools and the intrinsic impenetrability of some of nature's deepest questions&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/6HZp4WSN6cU&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-05-15T00:00:00+00:00</dc:date>
-	<dc:creator>Marcelo Gleiser</dc:creator>
 </item>
 
 </rdf:RDF>
