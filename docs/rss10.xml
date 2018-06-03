@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/health-dna-genetic-testing-disease" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9539" />
 			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19587" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66290" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/saturn-moons-shapes-collisions" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-05-21:/2018/05/21/a-comparison-of-deterministic-and-stochastic-ion-channel-representations-in-a-model-of-a-cerebellar-nucleus-neuron.html" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=65829" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/weird-asteroid-immigrant-outside-solar-system" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/health-dna-genetic-testing-disease">
+	<title>Science News: What consumer DNA data can and can’t tell you about your risk for certain diseases</title>
+	<link>https://www.sciencenews.org/article/health-dna-genetic-testing-disease</link>
+	<content:encoded>Consumers face lots of choices and unanswered questions when they get personal genomic information related to disease risk from the Internet.</content:encoded>
+	<dc:date>2018-06-03T10:00:04+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9539">
 	<title>Discovery magazine - Neuroskeptic: The Philosophy of Roseanne's Ambien Tweet</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9539</link>
@@ -1375,13 +1382,6 @@ Here's a relatively mild exampl</content:encoded>
 	<content:encoded>What Caught Our Attention: Any time there’s an issue with a paper co-authored by researchers from such high-profile institutions as Harvard, Cornell, and the University of Cambridge, we take notice. In this case, the group — which included Laurie Glimcher, then-dean at Cornell, now president of the Dana-Farber Cancer Institute — chose to retract a … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/05/21/caught-our-notice-a-team-from-harvard-cornell-cambridge-hhmi-and-ucsf-cant-reproduce-a-papers-findings/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Caught Our Notice: A team from Harvard, Cornell, Cambridge, HHMI, and UCSF can’t reproduce a paper’s findings&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-05-21T12:00:14+00:00</dc:date>
 	<dc:creator>Alison Abritis</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/weird-asteroid-immigrant-outside-solar-system">
-	<title>Science News: Maverick asteroid might be an immigrant from outside the solar system</title>
-	<link>https://www.sciencenews.org/article/weird-asteroid-immigrant-outside-solar-system</link>
-	<content:encoded>A space rock’s backward orbit could be a hint of unusual origins.</content:encoded>
-	<dc:date>2018-05-21T12:00:05+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
