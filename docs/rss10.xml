@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dogs-carry-surprising-variety-flu-viruses" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-we-know-and-dont-know-about-new-migraine-drug" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/worlds-deadliest-volcanoes-and-how-they-kill" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/new-horizons-wakes-begin-kuiper-belt-exploration" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23733" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=66341" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=33944" />
 			<rdf:li rdf:resource="http://brainpodcast.com/post/174157236334" />
 			<rdf:li rdf:resource="http://brainpodcast.com/post/174157067229" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/review-genetic-tests-23andme-veritas-genos-health-comparison" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/consumer-genetic-testing-dna-genome" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/consumer-genetic-testing-ancestry-dna" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/dogs-carry-surprising-variety-flu-viruses">
+	<title>Science News: Dogs carry a surprising variety of flu viruses</title>
+	<link>https://www.sciencenews.org/article/dogs-carry-surprising-variety-flu-viruses</link>
+	<content:encoded>Dogs in China carry a wider variety of flu viruses than previously thought, and may be capable of passing the flu to humans.</content:encoded>
+	<dc:date>2018-06-05T18:37:30+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/what-we-know-and-dont-know-about-new-migraine-drug">
+	<title>Science News: What we know — and don’t know — about a new migraine drug</title>
+	<link>https://www.sciencenews.org/article/what-we-know-and-dont-know-about-new-migraine-drug</link>
+	<content:encoded>A migraine prevention drug was recently approved by the U.S. Food and Drug Administration. But some questions about the therapy remain.</content:encoded>
+	<dc:date>2018-06-05T18:17:05+00:00</dc:date>
+	<dc:creator>Leah Rosenbaum</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/worlds-deadliest-volcanoes-and-how-they-kill">
+	<title>Science News: Here’s a look at the world’s deadliest volcanoes — and the ways they kill</title>
+	<link>https://www.sciencenews.org/article/worlds-deadliest-volcanoes-and-how-they-kill</link>
+	<content:encoded>Scientists gathered data on nearly 280,000 global volcano deaths from 1500 to 2017 and sorted fatalities by cause of death, such as lava flows or gas.</content:encoded>
+	<dc:date>2018-06-05T17:09:41+00:00</dc:date>
+	<dc:creator>Alexandra Witze</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-ticker/new-horizons-wakes-begin-kuiper-belt-exploration">
 	<title>Science News: New Horizons wakes up to begin Kuiper Belt exploration</title>
 	<link>https://www.sciencenews.org/blog/science-ticker/new-horizons-wakes-begin-kuiper-belt-exploration</link>
@@ -1442,27 +1463,6 @@ Here's a relatively mild exampl</content:encoded>
 	<link>http://brainpodcast.com/post/174157067229</link>
 	<content:encoded>&lt;p&gt;Thank you so much for listening and for sending us this message. These messages always brighten my day! So glad you find the conversations useful. Best of luck on your own scientific journey, maybe one day we’ll be speaking to you :)&lt;/p&gt;</content:encoded>
 	<dc:date>2018-05-22T21:12:16+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/review-genetic-tests-23andme-veritas-genos-health-comparison">
-	<title>Science News: What genetic tests from 23andMe, Veritas and Genos really told me about my health</title>
-	<link>https://www.sciencenews.org/article/review-genetic-tests-23andme-veritas-genos-health-comparison</link>
-	<content:encoded>A Science News reporter tried out three consumer genetic testing companies to see what people really learn about their health.</content:encoded>
-	<dc:date>2018-05-22T16:00:05+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/consumer-genetic-testing-dna-genome">
-	<title>Science News: Consumer DNA testing promises more than it delivers</title>
-	<link>https://www.sciencenews.org/article/consumer-genetic-testing-dna-genome</link>
-	<content:encoded>Chances are your DNA doesn’t contain dark secrets. But there may be lots of variety in results from testing company to company.</content:encoded>
-	<dc:date>2018-05-22T16:00:05+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/consumer-genetic-testing-ancestry-dna">
-	<title>Science News: Special report: Genetic testing goes mainstream</title>
-	<link>https://www.sciencenews.org/article/consumer-genetic-testing-ancestry-dna</link>
-	<content:encoded>Consumer genetic tests may not tell customers that much about themselves. Science News delves into these tests in a multipart series.</content:encoded>
-	<dc:date>2018-05-22T16:00:05+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
 </item>
 
 </rdf:RDF>
