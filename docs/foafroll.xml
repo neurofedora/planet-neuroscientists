@@ -377,6 +377,32 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Open Access Tracking Project</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6">
+					<dc:title>OATP primary</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Open and Shut?</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://poynder.blogspot.com/">
+					<dc:title>Open and Shut?</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Oscillatory Thoughts</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.ketyov.com/">
