@@ -5,8 +5,275 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-06-11T05:00:36+00:00</updated>
+	<updated>2018-06-11T11:00:41+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Reverse Nearest Neighbor Queries: emergence and implementation issues</title>
+		<link href="http://biocomputation.herts.ac.uk/2018/06/11/on-reverse-nearest-neighbor-queries-emergence-and-implementation-issues.html"/>
+		<id>tag:biocomputation.herts.ac.uk,2018-06-11:/2018/06/11/on-reverse-nearest-neighbor-queries-emergence-and-implementation-issues.html</id>
+		<updated>2018-06-11T09:39:01+00:00</updated>
+		<content type="html">
+ &lt;p&gt;K-Nearest Neighbor, KNN is well-known tool in data mining. KNN query returns objects in a data set that are nearest to a query object-q.  One of the shortcomings of KNN is that it is asymmetric. That is, the fact that a query point q has a data point p as its nearest neighbor does not imply that p’s nearest neighbor is q.  There may be the case in decision support system where we concern on finding influence set for a query object q. For example, opening  a new outlet of company A at particular location is more based on the segment of customers of company B ( competitor of A) who are likely to find new outlet more convenient that the location of B.  Such segments of customers can loosely refer as influence set and the reverse relationship is addressed by reverse nearest neighbor, RNN.&lt;/p&gt;
+&lt;p&gt;In this talk, Deepak will go through some of the papers on the implementation of RNN queries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 15/06/2018 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content>
+		<author>
+			<name>Deepak Panday</name>
+			<uri>http://biocomputation.herts.ac.uk/</uri>
+		</author>
+		<source>
+			<title type="html">UH Biocomputation Group</title>
+			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
+			<id>http://biocomputation.herts.ac.uk/</id>
+			<updated>2018-06-11T09:39:01+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Introduction to roadoi:  R client that makes it easy to search for these open access copies</title>
+		<link href="https://cran.r-project.org/web/packages/roadoi/vignettes/intro.html"/>
+		<id>https://cran.r-project.org/web/packages/roadoi/vignettes/intro.html</id>
+		<updated>2018-06-11T05:37:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Open access copies of scholarly publications are sometimes hard to find. Some are published in open access journals. Others are made freely available as preprints before publication, and others are deposited in institutional repositories, digital archives maintained by universities and research institutions. This document guides you to roadoi, a R client that makes it easy to search for these open access copies by interfacing the &lt;a href=&quot;https://unpaywall.org/&quot;&gt;Unpaywall&lt;/a&gt; service where DOIs are matched with freely available full-texts available from open access journals and archives.&lt;/p&gt;
+
+&lt;h3&gt;About Unpaywall&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://unpaywall.org/&quot;&gt;Unpaywall&lt;/a&gt;, developed and maintained by the &lt;a href=&quot;https://profiles.impactstory.org/about&quot;&gt;team of Impactstory&lt;/a&gt;, is a non-profit service that finds open access copies of scholarly literature simply by looking up a DOI (Digital Object Identifier). It not only returns open access full-text links, but also helpful metadata about the open access status of a publication such as licensing or provenance information.&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">LERU presents advice paper on Open Science - ERA</title>
+		<link href="https://era.gv.at/object/news/4097"/>
+		<id>https://era.gv.at/object/news/4097</id>
+		<updated>2018-06-11T05:31:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;LERU, the League of European Research Universities, has presented its &lt;a href=&quot;https://www.leru.org/publications/open-science-and-its-role-in-universities-a-roadmap-for-cultural-change&quot;&gt;new advice paper on Open Science&lt;/a&gt; and the cultural change that is needed for universities and other stakeholders to embrace it. &lt;/p&gt;
+
+&lt;p&gt;The LERU universities are convinced Open Science brings new and exciting opportunities for academia and for how academics interact with society. They also realise, however, that for universities and other stakeholders to embrace Open Science principles, policies and practices, there needs to be a culture change in these organisations if this transition is to be successfully negotiated.&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Die Geschichte von Creative Commons (The story of Creative Commons) - AUSSDA</title>
+		<link href="https://www.aussda.at/neuigkeiten/news/die-geschichte-von-creative-commons/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=8ca36dae610b9510bf936c27c08fcd0f"/>
+		<id>https://www.aussda.at/neuigkeiten/news/die-geschichte-von-creative-commons/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=8ca36dae610b9510bf936c27c08fcd0f</id>
+		<updated>2018-06-11T05:26:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;From Google's English: &lt;/p&gt;
+
+&lt;p&gt;&quot;Copyright laws restrict how data and other work can be shared and reused. Creative Commons (CC) licenses solve these problems and exploit the full potential of the Internet.&quot;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content>
+		<author>
+			<name>Lars Kaczmirek</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Data Management und Data Archiving an der Universität Wien (Data Management and Data Archiving at the University of Vienna)</title>
+		<link href="https://datamanagement.univie.ac.at/home/events-uebersicht/details/news/data-management-und-data-archiving-an-der-universitaet-wien-4/"/>
+		<id>https://datamanagement.univie.ac.at/home/events-uebersicht/details/news/data-management-und-data-archiving-an-der-universitaet-wien-4/</id>
+		<updated>2018-06-11T05:14:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;From Google's English:&lt;/p&gt;
+
+&lt;p&gt;&quot;Increasingly, there is a requirement to store data from research and teaching in a more structured manner or even to make it available in the long term.&lt;/p&gt;
+
+&lt;p&gt;In order to secure valuable data and make it available to selected users, some aspects have to be taken into account at the beginning of data generation. This workshop introduces the topic and gives a hands-on look at how to store objects (text, audio, video, etc.) with a persistent link and metadata. In addition to data archiving systems, such as PHAIDRA and UNIDAM, other supporting tools are also presented for the entire life cycle of the data.&lt;/p&gt;
+
+&lt;p&gt; 
+Further information on the service page:  &lt;a href=&quot;http://datamanagement.univie.ac.at/&quot;&gt;http://datamanagement.univie.ac.at/&lt;/a&gt;&quot;&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Wissenschaftshistorische Forschung (Science Historical Research) - Phonogrammarchiv of the Austrian Academy of Sciences</title>
+		<link href="https://www.oeaw.ac.at/phonogrammarchiv/forschung/wissenschaftshistorische-forschung/"/>
+		<id>https://www.oeaw.ac.at/phonogrammarchiv/forschung/wissenschaftshistorische-forschung/</id>
+		<updated>2018-06-11T05:09:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;From Google's English:&lt;/p&gt;
+
+&lt;p&gt;&quot;Since its founding in 1899, the phonogram archive has been a keystone of Austrian researchers from primarily cultural and humanities disciplines as the guardian of audio-visual heritage from all over the world.&lt;/p&gt;
+
+&lt;p&gt;Not only adequate preservation and technical availability are basic prerequisites for a scientifically justifiable gain in knowledge from the research data collected and disparate in content over almost 120 years. The value of each recording or series or collection requires specific knowledge and methods that make their evaluation possible. Source criticism and interpretation therefore play a central role in the phonogram archive when employees deal with the development, documentation, analysis and ultimately the dissemination of scientific results from their occupation with the collections.&quot;&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Open Science: von Werten zur Praxis (Open Science: From Values To Practices)- Center for Citizen Science</title>
+		<link href="https://www.zentrumfuercitizenscience.at/en/e/open-science-von-werten-zur-praxis"/>
+		<id>https://www.zentrumfuercitizenscience.at/en/e/open-science-von-werten-zur-praxis</id>
+		<updated>2018-06-11T04:57:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Date: 04/10/2018 - 05/10/2018 
+Location: Barcelona, Spain&lt;/p&gt;
+
+&lt;p&gt;National and international experts from various disciplines come together at the Open Science: from values to practice conference in Spain to exchange know-how and experiences in the field of Open Science. The conference will focus on four main streams of Open Science being Open Access, research integrity and reproducibility, research evaluation and stakeholder engagement. During dedicated working sessions with various relevant stakeholders, recommendations and input will be collected for Open Science with the aim to build a roadmap for transformative change.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bdebate.org/en/forum/open-science-values-practice-building-roadmap-transformative-change&quot;&gt;Further information&lt;/a&gt;&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">The European Open Science Cloud (EOSC): Austria takes the initiative: eu2018.at Austrian Presidency of the Council of the European Union</title>
+		<link href="https://www.eu2018.at/calendar-events/political-events/BMBWF-2018-10-30-EOSC-Use-Case-AT.html"/>
+		<id>https://www.eu2018.at/calendar-events/political-events/BMBWF-2018-10-30-EOSC-Use-Case-AT.html</id>
+		<updated>2018-06-11T04:50:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;Event on 30.10.2018 at the Austrian Presidency of the Council of the European Union regarding Austria's part in the the European Open Science Cloud. Add to your calendar: &lt;a href=&quot;https://www.eu2018.at/calendar-events/political-events/BMBWF-2018-10-30-EOSC-Use-Case-AT.ics&quot;&gt;iCal&lt;/a&gt;&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Digitale Geländemodelle von Spanien (Digital Terrain Models of Spain) -  Open Data Portal Austria</title>
+		<link href="http://data.opendataportal.at/dataset/4e16b9ed-8342-4416-8d0b-c904b6f99908"/>
+		<id>http://data.opendataportal.at/dataset/4e16b9ed-8342-4416-8d0b-c904b6f99908</id>
+		<updated>2018-06-11T04:46:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;From Google's English:&lt;/p&gt;
+
+&lt;p&gt;&quot;These digital elevation models (here digital terrain models DGM - in contrast to digital surface models DOM) mostly use terrain models generated by precise LiDAR technology as data basis. These were measured by Airborne Laserscan (ALS) flights . Therefore, the big advantage of these models: The deviations of the terrain heights in these models compared to the laser heights of the source data, especially in hilly and hilly terrain, are significantly lower than those of the popular SRTM tiles. Map comparisons: maps based on LiDAR-DGM.&quot;&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Austrian court says YouTube is partly liable for copyright breaches</title>
+		<link href="https://www.thelocal.at/20180607/austrian-court-says-youtube-is-partly-liable-for-copyright-breaches"/>
+		<id>https://www.thelocal.at/20180607/austrian-court-says-youtube-is-partly-liable-for-copyright-breaches</id>
+		<updated>2018-06-11T04:39:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt; 
+An Austrian court has ruled that video-sharing platform YouTube can be held partly liable for copyright breaches in videos uploaded by its users, in a ruling that may have far-reaching implications.&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">EUA calls for further simplification in EU Framework Programme</title>
+		<link href="https://era.gv.at/object/news/4114"/>
+		<id>https://era.gv.at/object/news/4114</id>
+		<updated>2018-06-11T04:36:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;With a view to the presentation of the Commission‘s proposal for FP9, universities call for effective simplification of EU funding management. According to the European University association (EUA)  this primarily involves reducing the incompatibilities between EU funding requirements and institutional financial management systems. EUA recommends a trust-based approach that can support a greater alignment between European, national and regional programmes. This would be best achieved by improving acceptance of institutional accounting practices, and EUA proposes to make it operational by providing beneficiaries with the following options:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Elaborating an adequate, functional procedure for certifying national and institutional accounting methodologies at the beginning of the Horizon Europe programme;&lt;/li&gt;
+	&lt;li&gt;Developing improved rules based on current Horizon 2020 procedures.&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-06-11T11:00:36+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Free Open Access Medical education (FOAM): the new way to keep up-to-date - On Medicine</title>
@@ -25,7 +292,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -46,7 +313,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -81,7 +348,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -102,7 +369,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -123,7 +390,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -162,7 +429,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -185,7 +452,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -218,7 +485,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -239,7 +506,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -262,219 +529,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Science for all | Inquirer Opinion | Philippines</title>
-		<link href="http://opinion.inquirer.net/113816/science-for-all"/>
-		<id>http://opinion.inquirer.net/113816/science-for-all</id>
-		<updated>2018-06-10T10:18:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;Last week, the Department of Science and Technology (DOST) made a welcome announcement on Facebook: The Philippine Journal of Science has been made an open-access journal, meaning anyone can read and download the journal’s articles for free. This is a significant first, because the Philippine Journal of Science, founded in 1906, is the oldest scientific peer-reviewed publication in the country, featuring articles on the natural sciences, engineering, mathematics and social sciences. Usually, only university libraries subscribe to top academic journals, but that access is only available to the school’s students and faculty. If one wants access to the same journals, he or she will have to pay for it.&lt;/p&gt;
-
-&lt;p&gt;But now the work of Filipino scientists is within the reach of all Filipinos. This development is a good step in fostering more science knowledge and education among the Filipino youth and general populace, especially given the woeful condition of science education in the country. The Department of Budget and Management has said it intends for the Philippines to achieve “upper-middle income status” by 2040, and that this will be possible “by investing in Science, Technology, and Innovation (STI)—the three crucial drivers in the economic development and social progress of a country.” Yet the DOST will only receive a budget of P21.2 billion in 2018. This allocation is nowhere in the top 10 agency budgets for 2018; the Department of Education is No. 1 with P672.4 billion, the Department of National Defense is fifth with P149.7 billion, and the Department of Environment and Natural Resources is 10th with P24.9 billion. The DOST budget includes P4 billion for scholars, P1.7 billion for free Wi-Fi access in public areas, and P2 billion for the development of science and technology programs. Filipino scientists have battled such meager budgets and public apathy for years, but they’re not giving up. On June 20, the DOST and the University of the Philippines (UP) System will hold the first Agham Bayan, a festival celebrating science, technology and innovation, at the Philippine International Convention Center in Pasay. Highlighting 44 examples of groundbreaking research, Agham Bayan will show how S&amp;amp;T can be applied to everyday problems. Among the projects featured is a census of fish in the ocean, a device that warns of possible landslides in real time, technology that creates a hazard map for floods, a compact lab that can prevent dengue, and protein-rich copra that can become animal feed. Agham Bayan will also focus attention on the yeoman’s work that Filipino scientists have been doing despite budgetary setbacks. In 2016, for instance, two of the scientists who worked on the visionary microsatellite Diawata-1 said they worked on the project from 2014 to 2016 without proper compensation, as they were classified as “students” instead of engineers. “We were working, not studying. Yet we did not quit—not because of the imaginary contract, but because this is hope for the Filipino people and for the country,” Diwata-1 engineer Julian Marvick Fua Oliveros said.  &quot;&lt;/p&gt;
-
-&lt;p&gt;Remember, too, how UP essentially saved Project Noah (Nationwide Operational Assessment of Hazards) in 2016 by adopting the high-tech initiative credited with saving millions of lives through accurate and timely weather and flood forecasting, after the government funding for the program ran out. Many Filipino scientists are forced to go abroad because of such lack of local support. The DOST has allocated P76 million to entice them to return to the country through its “Balik Scientist Program.” It’s time to provide more than lip service to the idea of S&amp;amp;T lifting up Filipinos. Surely these projects deserve more funding and support. At the same time, increasing the public’s access to Filipino scientific research through steps such as opening access to the Philippine Journal of Science allows science and technological education for younger Filipinos to take a step forward. The achievements and successes of homegrown scientists also need to be widely told, to encourage more Filipinos to follow in their path.&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Open Science Goes Mainstream, As Acquisitions of Open Source Platforms Based on Open Access and Collaboration Make Headlines | Pablo Markin | Open Science</title>
-		<link href="https://openscience.com/open-science-goes-mainstream-as-acquisitions-of-open-source-platforms-based-on-open-access-and-collaboration-make-headlines/"/>
-		<id>https://openscience.com/open-science-goes-mainstream-as-acquisitions-of-open-source-platforms-based-on-open-access-and-collaboration-make-headlines/</id>
-		<updated>2018-06-10T10:14:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;The acquisition of GitHub by Microsoft shows that not only small and medium-sized companies value open source, but also large corporations discover that software development, as a research activity, demands Open Access for the solutions of its problems.&lt;/p&gt;
-
-&lt;p&gt;While it is the stock-based 7.5 billion USD price tag that Microsoft had put on GitHub and the immediate rise of rival software development platforms, such as GitLab, which elicited international media attention, this transaction also attests to the business cachet of the Open Access sector as apparently no longer a niche phenomenon. Whereas in the domain of science, it may not necessarily be easy to point to concrete examples of the contribution that Open Access makes to collaboration beyond the unrestricted accessibility of documents, articles and books, GitHub, an extensive Open Access repository for open source software, stands for collaboration between over 28 million software developers from around the world. For Microsoft the tipping point in terms of its recognition of the disruptive business potential of Open Access was reportedly reached after its organization members have made over 2 million unique contributions of open source code to the GitHub repository. This also apparently explains the intention of this global corporation to maintain this platform as an Open Access one, precisely because it serves the needs of the corresponding community in ways that closed-access platforms cannot. Similar to publishers that build their Open Access-based business models on additional services or offerings, such as review, indexing and editing services that article processing charges cover, businesses big and small have been deploying unpaid open source software, to offer product-related consulting, conduct instructional sessions or run crown-funding campaigns. As does Open Access, open source has little or no adoption barriers, which enables organizations to build quickly their user, and consequently client, base. Whereas in the business sector proprietary software can be perceived as a counterpart of toll-based content in the sphere of publishing, it seems that the benefits of Open Access are highly evident for software developers, due to the nature of their professional activity involving a significant need for collaboration and sharing on the basis of either Open Access or freemium models when extra or advanced services are provided in exchange for subscriptions. As academic journals are increasingly flipped into Open Access internationally, such as in the Philippines, which adds to the market momentum of Open Access, the sector of open source software has also been undergoing explosive growth in recent years....&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Offsetting: no big deal? | Eriksson | Nordic Perspectives on Open Science</title>
-		<link href="https://septentrio.uit.no/index.php/nopos/article/view/4430"/>
-		<id>https://septentrio.uit.no/index.php/nopos/article/view/4430</id>
-		<updated>2018-06-10T10:00:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;DOI: https://doi.org/10.7557/11.4430 &lt;/p&gt;
-
-&lt;p&gt;&quot;Abstract: In this paper I will discuss offsetting deals from their impact on accessibility, affordability to research results and on the possible development of scientific communication towards new modes and methods. I will look at the Swedish National Consortia’s offsetting deals as a specific case study....&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Six principles for assessing scientists for hiring, promotion, and tenure | Impact of Social Sciences</title>
-		<link href="http://blogs.lse.ac.uk/impactofsocialsciences/2018/06/04/six-principles-for-assessing-scientists-for-hiring-promotion-and-tenure/"/>
-		<id>http://blogs.lse.ac.uk/impactofsocialsciences/2018/06/04/six-principles-for-assessing-scientists-for-hiring-promotion-and-tenure/</id>
-		<updated>2018-06-10T09:58:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;The negative consequences of relying too heavily on metrics to assess research quality are well known, potentially fostering practices harmful to scientific research such as p-hacking, salami science, or selective reporting. The “flourish or perish” culture defined by these metrics in turn drives the system of career advancement in academia, a system that empirical evidence has shown to be problematic and which fails to adequately take societal and broader impact into account. To address this systemic problem, Florian Naudet, John P. A. Ioannidis, Frank Miedema, Ioana A. Cristea, Steven N. Goodman and David Moher present six principles for assessing scientists for hiring, promotion, and tenure. Academic medical institutions, when hiring or promoting faculty who they hope will move science forward in impactful ways, are confronted with a familiar problem: it is difficult to predict whose scientific contribution will be greatest, or meet an institution’s values and standards. Some aspects of a scientist’s work are easily determined and quantified, like the number of published papers. However, publication volume does not measure “quality”, if by quality we mean substantive, impactful science that addresses valuable questions and is reliable enough to build upon. Recognising this, many institutions augment publication numbers with measures they believe better capture the scientific community’s judgement of research value. The journal impact factor (JIF) is perhaps the best known and most widely used of such metrics. The JIF in a given year is the average number of citations to research articles in that journal over the preceding two years.  Like publication numbers, it is easy to measure but may fail to capture what an institution values. For instance, in Rennes 1 University, the faculty of medicine’s scientific assessment committee evaluates candidates with a “mean” impact factor (the mean of JIF of all published papers) and hiring of faculty requires publications in journals with the highest JIF. They attempt to make this more granular by also using a score that attempts to correct the JIF for research field and author rank. (This score, “Système d’Interrogation, de Gestion et d’Analyse des Publications Scientifiques”, SIGAPS, is not publicly available). In China, Qatar, Saudi Arabia, among other countries, scientists receive monetary bonuses for research papers published in high-JIF journals, such as Nature....&lt;/p&gt;
-
-&lt;p&gt;To address these issues, the Meta-research Innovation Center at Stanford (METRICS) convened a one-day workshop in January, 2017 in Washington DC, to discuss and propose strategies to hire, promote, and tenure scientists. It was comprised of 22 people who represented different stakeholder groups from several countries (deans of medicine, public and foundation funders, health policy experts, sociologists, and individual scientists).&lt;/p&gt;
-
-&lt;p&gt;The outcomes of that workshop were &lt;a href=&quot;http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2004089&quot;&gt;summarised in a recent perspective&lt;/a&gt;, in which we described an extensive but non-exhaustive list of current proposals aimed at aligning assessments of scientists with desirable scientific behaviours. Some large initiatives are gaining traction. For instance, the San Francisco Declaration on Research Assessment (DORA) has been endorsed by thousands of scientists and hundreds of academic institutions worldwide. It advocates “a pressing need to improve how scientific research is evaluated, and asks scientists, funders, institutions and publishers to forswear using JIFs to judge individual researchers”. Other proposals are still just ideas without any implementation yet....&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Open Edition recrute un.e secrétaire d’édition OPR – L’Édition électronique ouverte</title>
-		<link href="https://leo.hypotheses.org/13825"/>
-		<id>https://leo.hypotheses.org/13825</id>
-		<updated>2018-06-10T09:52:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Google English: &quot;&lt;span&gt;Open Edition recruits an OPR publishing secretary&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Availability: from September 1, 2018 to April 30, 2019.&lt;/p&gt;
-
-&lt;p&gt;Status: full-time fixed-term contract&lt;/p&gt;
-
-&lt;p&gt;Duration: 8 months&lt;/p&gt;
-
-&lt;p&gt;Employer: CNRS&lt;/p&gt;
-
-&lt;p&gt;Remuneration: 2nd class engineering engineer: 2076.00 € net / month&lt;/p&gt;
-
-&lt;p&gt;Education level: Master&lt;/p&gt;
-
-&lt;p&gt;Experience required: 3 years of experience in the academic publishing field of Social Sciences&lt;/p&gt;
-
-&lt;p&gt;Place of work: Marseille or Paris, 190 avenue de France, 75013 or&lt;/p&gt;
-
-&lt;p&gt;Deadline for submission of applications: 10 July 2018&lt;/p&gt;
-
-&lt;p&gt;Branch of professional activity: BAP F: Information, Documentation, Culture, Communication, Edition, TICE&lt;/p&gt;
-
-&lt;p&gt;Body: Study Engineer&lt;/p&gt;
-
-&lt;p&gt;Context&lt;/p&gt;
-
-&lt;p&gt;OpenEdition is a research infrastructure based in France, dedicated to open access humanities and social sciences publications.&lt;/p&gt;
-
-&lt;p&gt;Openedition coordinates the HIRMEOS project, funded by the Horizon 2020 program.&lt;/p&gt;
-
-&lt;p&gt;The HIRMEOS project &quot;High Integration of Research Monograph in the European Open Science Infrastructure&quot; allows to develop five platforms publishing open access monographs in SHS (OpenEdition, OAPEN, Ubiquity Press, Gottingen University Press, EKT e-publishing) by adding new features.&lt;/p&gt;
-
-&lt;p&gt;For Openedition, 5 sets of services are concerned: identification services (DOI, ORCID, Fundref), NERD services, certification services (DOAB), open annotation services (Hypothes.is) and alternative metrics.&lt;/p&gt;
-
-&lt;p&gt;Mission&lt;/p&gt;
-
-&lt;p&gt;As part of setting up the annotation service with Hypothes.is, OpenEdition is recruiting a Mission Manager to assist publishers in using annotations on the OpenEdition Books platform and to carry out a revision project. Open Peer Review based on this annotation service.&lt;/p&gt;
-
-&lt;p&gt;A report will be returned after this experiment.&lt;/p&gt;
-
-&lt;p&gt;Main activities&lt;/p&gt;
-
-&lt;p&gt;Writing tutorials and documentation for users&lt;/p&gt;
-
-&lt;p&gt;Publishers' awareness of open annotation in academic publications&lt;/p&gt;
-
-&lt;p&gt;Organization of meetings and videoconferences with publishers&lt;/p&gt;
-
-&lt;p&gt;Animation of the presentation sessions&lt;/p&gt;
-
-&lt;p&gt;Internet review of existing and past peer-reviewed experiments and evaluation practices&lt;/p&gt;
-
-&lt;p&gt;Literature review on open peer review.&lt;/p&gt;
-
-&lt;p&gt;Editorial support of authors participating in the experiment&lt;/p&gt;
-
-&lt;p&gt;Editorial support for commentators and evaluators involved in the experiment&lt;/p&gt;
-
-&lt;p&gt;Coordination with the editorial teams participating in the experiment&lt;/p&gt;
-
-&lt;p&gt;Writing an experimental report in English&lt;/p&gt;
-
-&lt;p&gt;Associated activities&lt;/p&gt;
-
-&lt;p&gt;Participation in working meetings of HIRMEOS project (traveling abroad)&lt;/p&gt;
-
-&lt;p&gt;Coordination with the Books department, the IT sector and the OpenEdition International Development department&lt;/p&gt;
-
-&lt;p&gt;Main skills&lt;/p&gt;
-
-&lt;p&gt;Have a good knowledge of the issues and practices of scientific communication&lt;/p&gt;
-
-&lt;p&gt;Have a good knowledge of the issues and practices of open access scientific publishing&lt;/p&gt;
-
-&lt;p&gt;Have a good general knowledge and practice of web technologies...&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">2nd EOSC summit 2018, 11 June | European Commission</title>
-		<link href="https://ec.europa.eu/info/events/2nd-eosc-summit-2018-jun-11_en"/>
-		<id>https://ec.europa.eu/info/events/2nd-eosc-summit-2018-jun-11_en</id>
-		<updated>2018-06-10T09:49:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;On 11 June 2018, the High Level Expert Group on the European Open Science Cloud and the FAIR Data Expert Group organise together with the European Commission the second meeting of stakeholders - the EOSC Summit 2018. It follows the very successful EOSC Summit in 2017.   The aim of the event will be to take stock on progress and achievements towards the EOSC, a year on since the first Summit. It will allow participants to share information on relevant activities and commitments and to reflect on the steps ahead to ensure an effective implementation of the EOSC. It will also serve as an opportunity to launch a stakeholder consultation on the draft ‘Rules of Participation of EOSC' and on the draft 'FAIR Data Action Plan', two key inputs for the future EOSC governance. WATCH LIVE AT 09:00 (CEST) The event is primarily targeting the members of the 'coalition of doers' that emerged from the successful first EOSC Summit held in June 2017 and the wide support to the ensuing EOSC Declaration. The event is by invitation only, due to the nature of the event and to the limited capacity of the venue.  Background The event follows the very successful EOSC Summit, organised by the Commission exactly one year ago - in June 2017. The EOSC initiative, as it was foreseen by the Communication on the 'European Cloud Initiative', was strongly supported and the participants stressed the need to act immediately to keep the momentum achieved by a 'coalition of doers'. It emerged clearly that the EOSC must be inclusive: all science stakeholders should get equally good conditions for data-driven science, regardless of their discipline and country. The Summit resulted in the EOSC Declaration,  which is composed of 33 high level statements that capture stakeholders' shared understanding of the action needed on the Data culture and FAIR data, Research data services and architecture, Governance and funding, to make the EOSC a reality by 2020. About 70 scientific stakeholders signed the EOSC Declaration following the Summit. The Communication was further developed into Staff Working Document (SWD) by the Commission to provide a comprehensive overview on the implementation of the EOSC and to present a possible implementation roadmap. The SWD serves as a basis for further consultation with Member States (in the Council Working Party on Research) and with the European Parliament, in view of an agreement (Council Conclusions) in 2018.The Council Conclusions will be discussed during the Competitiveness Council meeting scheduled for 28-29 May 2018....&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
+			<updated>2018-06-11T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -505,100 +560,6 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 	</entry>
 
 	<entry>
-		<title type="html">Villanyi (2018): Lizenzverträge mit Open-Access-Komponenten an österreichischen Bibliotheken | VÖBBLOG</title>
-		<link href="http://www.univie.ac.at/voeb/blog/?p=46333"/>
-		<id>http://www.univie.ac.at/voeb/blog/?p=46333</id>
-		<updated>2018-06-09T15:40:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Google English: &quot;Consortial subscription contracts between publishers and academic libraries govern digital access to publications. For some years, however, the trend towards a freely accessible publication system (Open Access) has intensified. As a consequence of this development, the contractual relationships between licensors and users are also gradually changing: More and more agreements are now also influencing open access publishing. The present work attempts to contrast the various approaches of such consortium licensing agreements with open access components on the basis of contracts concluded in Austria. This describes the differences between pure subscription contracts and various novel agreements with open access components. The need for modified evaluation methods in assessing these new licensing agreements becomes apparent. The most important new element of such analyzes is the evaluation of open access publication numbers. The paper is now attempting to conduct these publication analyzes for the existing open access agreements. The focus is on quantitative questions: How do the numbers of publications develop? How are the Open Access Shares changing? The database is based on publications from the publishers and queries from the Scopus database. The results compared show that the differing conceptions of the contracts also yield strongly divergent results: For instance, the focus of the individual contracts can be on cost savings or on the efficient increase of the open access rates. It is expected that in the following years numerous other open-access consortial contracts will be negotiated. The findings available here can be used as a guide....&quot;&lt;/p&gt;
-
-&lt;p&gt;Villanyi, Marton (2018) Lizenzverträge mit Open-Access-Komponenten an österreichischen Bibliotheken.&lt;/p&gt;
-
-&lt;p&gt;Master-Thesis (ULG), Universität Wien. Universitätslehrgang Library and Information Studies (MSc)&lt;/p&gt;
-
-&lt;p&gt;BetreuerIn: Kromp, Brigitte&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">FSI | CHP/PCOR - Most clinical trial participants find benefits outweigh risks in sharing personal data</title>
-		<link href="https://healthpolicy.fsi.stanford.edu/news/most-clinical-trial-participants-find-benefits-outweigh-risks-sharing-personal-data"/>
-		<id>https://healthpolicy.fsi.stanford.edu/news/most-clinical-trial-participants-find-benefits-outweigh-risks-sharing-personal-data</id>
-		<updated>2018-06-09T15:36:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;Most participants in clinical trials believe the benefits of broadly sharing person-level data outweigh the risks, according to new research by Stanford Medicine's Michelle Mello and Steven N. Goodman.  And despite low levels of trust in pharmaceutical companies, most of those who take part in clinical trials are willing to share their data with the drug firms. The Stanford researchers surveyed 771 current and recent participants from a diverse sample of clinical trials at three academic medical centers in the United States. They asked about the practice of making personal data collected in medical research studies widely available, after information that could identify individual participants is removed. Nearly 80 percent of those surveyed responded to the questions — and fewer than 8 percent of the respondents felt that the potential negative consequences of data sharing outweighed the benefits. Some 93 percent of those surveyed said they were very or somewhat likely to allow their data be shared with university scientists, and 82 percent were either very or somewhat likely to share with scientists in for-profit companies. They found that the willingness to share was high regardless of the purpose for which their data would be used, with the exception of litigation. Although some researchers and trial funders have worried that participants might object to data sharing as an invasion of privacy, the respondents’ greatest concern was that “data sharing might make others less likely to enroll in clinical trials,” Stanford Health Policy's Michelle Mello and her co-authors write in The New England Journal of Medicine. “Less concern was expressed about discrimination (22 percent) and exploitation of data for profit (20 percent.)” Mello is a professor of law at Stanford Law School and a professor of health research and policy at Stanford Medicine. Her co-authors are Van Lieou and Steven N. Goodman, a professor of medicine and of health research and policy at Stanford Medicine. The authors acknowledge there is no turning back from clinical data sharing. “We are rapidly moving toward a world in which broad sharing of participant-level clinical trial data is the norm,” they wrote. The European Medicines Agency has implemented a policy to expand public access to data concerning products it approves, and the Food and Drug Administration is considering expanding access to data pooled within a product class. Major research sponsors and journal editors have begun promoting data sharing, and the National Institutes of Health now requires all of its grantees to share data. Pharmaceutical industry associations have committed to making data more accessible, and several data platforms are now available, such as the Yale Open Data Access Project. Mello said she was somewhat surprised by the survey results, “given the amount of consternation one hears at conferences about data sharing. Interestingly, nearly half our sample had experienced a breach of their personal data privacy in another context, yet they were still willing to share their clinical trial data.” Then again, she said, people who take part in clinical trials may be special. “I suspect that clinical trial participants may be different from the public at large. They are already incurring risks to benefit science by dint of their trial participation.” Most of those participants, along with clinical researchers, believe the benefits of sharing data include accelerating scientific discovery and improving accurate reporting of trial results. Yet some investigators and industry sponsors of clinical trials are leery of the swift move toward broad data sharing, the authors note, because of “potential harm to research participants,” the authors wrote. “Investigators express worries that participants’ privacy cannot be adequately protected, particularly in light of the fact that experts have demonstrated that it is possible to reidentify participant-level data.” Furthermore, they said, some pharmaceutical companies have warned that data sharing could chill willingness to participate in trials, thereby delaying the availability of new therapies. In fact, 31 percent of those surveyed were somewhat or very concerned about having their personal information stolen.  Nevertheless, most felt the benefits of data sharing were more important.  “Reaching a world in which the sharing of clinical trial data is routine requires surmounting several challenges — financial, technical, and operational,” the authors concluded. “But in this survey, participants’ objections to data sharing did not appear to be a sizeable barrier.” &quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">OpenAIRE Guidelines version 4.0: new metadata application profile for Literature Repositories (#OpenRepo2018 24x7 presentation)</title>
-		<link href="https://www.slideshare.net/OpenAIRE_eu/openaire-guidelines-version-40-new-metadata-application-profile-for-literature-repositories-openrepo2018-24x7-presentation"/>
-		<id>https://www.slideshare.net/OpenAIRE_eu/openaire-guidelines-version-40-new-metadata-application-profile-for-literature-repositories-openrepo2018-24x7-presentation</id>
-		<updated>2018-06-09T15:34:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;Presentation at Open Repositories Conferecence 2018 - Bozman, 7th June 2018. Title:OpenAIRE Guidelines version 4.0: new metadata application profile for Literature Repositories. Authors: Pedro Príncipe, University of Minho; Jochen Schirrwagen, Bielefeld University....&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Die Geistes- und Sozialwissenschaften müssen mit einer Stimme sprechen – Digitale Redaktion</title>
-		<link href="https://editorial.hypotheses.org/190"/>
-		<id>https://editorial.hypotheses.org/190</id>
-		<updated>2018-06-09T15:32:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;Google English: &quot;The humanities and social sciences must speak with one voice&lt;/p&gt;
-
-&lt;p&gt;The European Open Science Cloud (EOSC) was greeted cautiously by Europe's humanities and social science research networks. Skepticism about how to integrate their services into EOSC is too great. But one thing has already become clear: Europe's research infrastructures and networks have begun to talk to each other and want to profile their services in a coordinated way.&lt;/p&gt;
-
-&lt;p&gt;The research network OPERAS , which promotes an open science practice in the humanities and social sciences in Europe, took up this topic at its first annual conference on &quot; Open Scholarly Communication in Europe: Addressing the Coordination Challenge &quot;. It took place from 31 May to 1 June in Athens. Again and again it was to be heard at the meeting that the humanities and social sciences must speak with one voice. In this sense, Pierre Mounier, OPERAS co-coordinator and Deputy Director of OpenEdition , the French national infrastructure for open science communication in the humanities and social sciences, pointed out in his opening remarks that research infrastructures and networks do not compete, but instead should join forces. The following article deals with the various approaches to co-ordination of services that have emerged at the OPERAS conference, which develop and offer humanities and social science research networks and infrastructures for researchers....&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-06-10T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en-US">Weekend reads: Scientists citing themselves; gender and clinical trials; jail after plagiarism</title>
 		<link href="https://retractionwatch.com/2018/06/09/weekend-reads-scientists-citing-themselves-gender-and-clinical-trials-jail-after-plagiarism/"/>
 		<id>http://retractionwatch.com/?p=66482</id>
@@ -614,7 +575,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -699,7 +660,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -941,7 +902,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -980,7 +941,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-06-10T23:00:33+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1126,7 +1087,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1286,7 +1247,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1306,7 +1267,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-06-10T23:00:33+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1416,7 +1377,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1510,7 +1471,7 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1684,7 +1645,7 @@ Now, I think this scandal raises some surprisingly interesting philosophical que
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1780,7 +1741,7 @@ Now, I think this scandal raises some surprisingly interesting philosophical que
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1990,7 +1951,7 @@ Now, I think this scandal raises some surprisingly interesting philosophical que
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2018-06-10T17:00:30+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2070,7 +2031,7 @@ E-mail: &lt;code&gt;doctoralcollegeadmissions AT herts DOT ac DOT uk&lt;/code&gt
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2018-05-31T11:43:55+00:00</updated>
+			<updated>2018-06-11T09:39:01+00:00</updated>
 		</source>
 	</entry>
 
@@ -2129,7 +2090,7 @@ uk&lt;/code&gt;, Dean of School of Computer Science).&lt;/p&gt;</content>
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2018-05-31T11:43:55+00:00</updated>
+			<updated>2018-06-11T09:39:01+00:00</updated>
 		</source>
 	</entry>
 
@@ -2199,7 +2160,7 @@ uk&lt;/code&gt;, Dean of School of Computer Science).&lt;/p&gt;</content>
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2018-05-31T11:43:55+00:00</updated>
+			<updated>2018-06-11T09:39:01+00:00</updated>
 		</source>
 	</entry>
 
@@ -2268,7 +2229,7 @@ uk&lt;/code&gt;, Dean of School of Computer Science).&lt;/p&gt;</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-06-10T23:00:33+00:00</updated>
+			<updated>2018-06-11T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2525,7 +2486,7 @@ uk&lt;/code&gt;, Dean of School of Computer Science).&lt;/p&gt;</content>
 			<title type="html">NeuroMat - NeuroMat Newsletter</title>
 			<link rel="self" href="http://neuromat.numec.prp.usp.br/taxonomy/term/1/feed"/>
 			<id>http://neuromat.numec.prp.usp.br/newsletter/neuromat</id>
-			<updated>2018-05-30T17:01:41+00:00</updated>
+			<updated>2018-06-11T11:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -2604,41 +2565,6 @@ uk&lt;/code&gt;, Dean of School of Computer Science).&lt;/p&gt;</content>
 &lt;p&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;—&lt;a href=&quot;https://link.springer.com/article/10.1007/s10508-018-1203-x&quot;&gt;Olfactory Function Relates to Sexual Experience in Adults&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;&lt;b&gt;Emma Young&lt;/b&gt;&lt;/a&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;&lt;b&gt;@EmmaELYoung&lt;/b&gt;&lt;/a&gt;&lt;b&gt;) is Staff Writer at &lt;/b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;&lt;b&gt;BPS Research Digest&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2018-06-11T05:00:30+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Physically active academic school lessons boost pupils’ activity levels and focus</title>
-		<link href="https://digest.bps.org.uk/2018/05/30/win-win-physically-active-academic-school-lessons-boost-pupils-activity-levels-and-focus/"/>
-		<id>http://digest.bps.org.uk/?p=33977</id>
-		<updated>2018-05-30T08:21:38+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;img alt=&quot;GettyImages-598216698.jpg&quot; class=&quot;alignnone size-full wp-image-33980&quot; data-attachment-id=&quot;33980&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;6.3&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark III&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Shot of a group of happy children standing in a classroom&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1472731937&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;KatarzynaBialasiewicz&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;400&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.00625&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Saying 'good morning' to the teacher&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Saying ‘good morning’ to the teacher&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/05/gettyimages-598216698.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/05/gettyimages-598216698.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/05/gettyimages-598216698.jpg?w=845&quot; data-orig-size=&quot;2121,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/05/30/win-win-physically-active-academic-school-lessons-boost-pupils-activity-levels-and-focus/saying-good-morning-to-the-teacher/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/05/gettyimages-598216698.jpg?w=845&quot; /&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For various reasons, children in many countries are &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/27848745&quot;&gt;increasingly sedentary&lt;/a&gt; and &lt;a href=&quot;https://www.nhs.uk/news/2017/10October/Pages/Childhood-obesity-soars-worldwide.aspx&quot;&gt;childhood obesity is a growing concern&lt;/a&gt;. At the same time, research tells us that physical activity is good for children’s minds and bodies, and that if they develop active habits in their youth, they tend to keep them up into adulthood.&lt;/p&gt;
-&lt;p&gt;It would surely help if children were more active at school, but with growing academic pressures, teachers will tell you that it is difficult to justify sacrificing vital maths and English lessons for more PE classes or games. A possible solution: make academic lessons more physically active. A &lt;a href=&quot;http://journals.sagepub.com/doi/pdf/10.1177/1090198118762106&quot;&gt;new trial&lt;/a&gt; of a 6-week intervention comprising 18 ten-minute active maths and English lessons, published in &lt;em&gt;Health Education and Behavior&lt;/em&gt;, suggests that such an approach has great potential.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-33977&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Emma Norris at UCL and her colleagues recruited hundreds of pupils aged 8-9 from 10 London schools. Half were allocated randomly to the active lesson intervention. While they were doing those special classes, the other half of the children acted as a comparison and completed typically taught 10-minute maths and English classes.&lt;/p&gt;
-&lt;p&gt;Children enrolled in the intervention followed the “virtual traveller” protocol, which involved them performing physical exercises, such as running on the spot, while they travelled the world answering math or English quiz questions pertaining to different countries.&lt;/p&gt;
-&lt;p&gt;Virtual travel from country to country was depicted via Google Earth videos and other materials embedded in the teacher’s interactive white board presentation.&lt;/p&gt;
-&lt;p&gt;Further physical activity came from the exercises the children performed to signal whether a given math or English quiz answer was true or false – such as jumping jacks for “true” or performing a football kick for “false”.&lt;/p&gt;
-&lt;p&gt;Norris and her team had the children wear motion trackers during the classes and also outside of class for two school days per week and two weekend days (these measures were taken at baseline, during the six-week period, and for a few months beyond). Trained observers also monitored the children’s on-task behaviour in class, and the kids completed questionnaires about their engagement levels.&lt;/p&gt;
-&lt;p&gt;In some ways, the trial was a win-win: the children in the active intervention were more active (based on more light and moderately vigorous activity) during their “virtual traveller” lessons as compared with the control group kids, and what’s more, they also displayed more on-task behavior, in terms of staying more focused on the lesson, following instructions and making more eye contact with their teacher.&lt;/p&gt;
-&lt;p&gt;This is very promising but perhaps not quite as good as might have been hoped. The children in the active intervention were mostly no more active than the control kids when averaged across entire school days, nor at the weekends, and this was this case both during and beyond the end of the study. That is, they were more active in the specially designed active lessons (it would have been odd if they weren’t), but mostly this didn’t boost their activity levels enough to make any difference when averaging across the whole day (and didn’t spill over into their habits at the weekend).&lt;/p&gt;
-&lt;p&gt;This lack of a broader benefit could be because the activities in the “virtual traveller” class were not intense enough; the classes were too short and/or infrequent; or perhaps the children compensated for all their in-class exertion by relaxing more later in the day.&lt;/p&gt;
-&lt;p&gt;Another disappointment is that the physically active lessons did not boost the pupils’ self-reported engagement levels. On the other hand, and interpreting this result more positively, the extra physical activity did not harm their engagement either.&lt;/p&gt;
-&lt;p&gt;It will be interesting to follow this line of research and see whether longer and/more intense physically active lesson programmes could have bigger benefits for pupils’ lifestyles and whether active lessons might also have an impact on children’s educational performance in the long run.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;http://journals.sagepub.com/doi/pdf/10.1177/1090198118762106&quot;&gt;Physically Active Lessons Improve Lesson Activity and On-Task Behavior:&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://journals.sagepub.com/doi/pdf/10.1177/1090198118762106&quot;&gt; A Cluster-Randomized Controlled Trial of the “Virtual Traveller” Intervention&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</content>
 		<author>
 			<name>BPS Research Digest</name>
 			<uri>https://digest.bps.org.uk</uri>
