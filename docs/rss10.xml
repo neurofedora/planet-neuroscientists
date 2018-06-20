@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/robots-brain-waves-read-your-mind" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/combat-expanding-universe-aliens-could-hoard-stars" />
 			<rdf:li rdf:resource="http://commons.hostos.cuny.edu/bronxedtech/2018/06/18/unlocking-the-potential-of-oers-in-gateway-courses-a-case-study/" />
 			<rdf:li rdf:resource="https://elifesciences.org/events/08b40301/community-call-open-source-technology-development-for-science-communications-and-publishing" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1355" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/home-telomere-testing-not-reliable-marker-aging-researcher-says" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/elsevier-cio-in-forbes-machine-learning-is-the-catalyst-but" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=66417" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/robots-brain-waves-read-your-mind">
+	<title>Science News: With this new system, robots can ‘read’ your mind</title>
+	<link>https://www.sciencenews.org/article/robots-brain-waves-read-your-mind</link>
+	<content:encoded>Giving robots instructions via brain waves and hand gestures could help the machines operate more safely and efficiently.</content:encoded>
+	<dc:date>2018-06-20T04:00:04+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/combat-expanding-universe-aliens-could-hoard-stars">
 	<title>Science News: To combat an expanding universe, aliens could hoard stars</title>
 	<link>https://www.sciencenews.org/article/combat-expanding-universe-aliens-could-hoard-stars</link>
@@ -1065,13 +1072,6 @@ Sociologist Gabriel Abend asks these questions in a new paper called The Love of
 	<link>https://www.elsevier.com/connect/elsevier-cio-in-forbes-machine-learning-is-the-catalyst-but</link>
 	<content:encoded>CIO Hall of Famer Dan Olley talks about tech trends, symbiotic technology – and a new era of “augmented intelligence”</content:encoded>
 	<dc:date>2018-06-07T13:26:03+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=66417">
-	<title>Retraction watch: Karolinska told a journal to retract a paper by Macchiarini. It refused. The story didn’t end there.</title>
-	<link>https://retractionwatch.com/2018/06/07/karolinska-told-a-journal-to-retract-a-paper-by-macchiarini-it-refused-the-story-didnt-end-there/</link>
-	<content:encoded>The president of the Karolinska Institutet (KI) is frustrated. At the beginning of the year, Ole Petter Ottersen informed a journal that one of its papers — co-authored by former superstar Paolo Macchiarini — had been tainted by misconduct. But the journal declined to retract it. Despite the fact that KI had conducted its own … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/06/07/karolinska-told-a-journal-to-retract-a-paper-by-macchiarini-it-refused-the-story-didnt-end-there/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Karolinska told a journal to retract a paper by Macchiarini. It refused. The story didn’t end there.&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-06-07T12:00:47+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
