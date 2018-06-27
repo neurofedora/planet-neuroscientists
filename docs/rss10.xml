@@ -15,6 +15,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/mars-got-its-crust-quickly" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/oumuamua-may-be-comet-not-asteroid" />
+			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8239" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-make-car-t-cell-therapies-cancer-safer-and-more-effective" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=67350" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10315" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34099" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=24914" />
@@ -110,15 +115,48 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-6" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-58" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-50" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-42" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-4" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-36" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-28" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0718-26" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/mars-got-its-crust-quickly">
+	<title>Science News: Mars got its crust quickly</title>
+	<link>https://www.sciencenews.org/article/mars-got-its-crust-quickly</link>
+	<content:encoded>The Martian crust had solidified within 20 million years of the solar system’s formation.</content:encoded>
+	<dc:date>2018-06-27T17:00:16+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/oumuamua-may-be-comet-not-asteroid">
+	<title>Science News: ‘Oumuamua may be a comet, not an asteroid</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/oumuamua-may-be-comet-not-asteroid</link>
+	<content:encoded>The solar system’s first known interstellar visitor doesn’t appear to be the asteroid that scientists thought it was.</content:encoded>
+	<dc:date>2018-06-27T17:00:04+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="http://blogs.plos.org/plos/?p=8239">
+	<title>The Official PLOS Blog: Aperta Source Code is Now Available</title>
+	<link>http://feeds.plos.org/~r/plos/Blog/~3/1P5Tz9sQK1s/</link>
+	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;http://blogs.plos.org/plos/files/2018/06/Open-Source_blog-image-150x150.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;We’re happy to announce that the source code for the &lt;a href=&quot;https://www.plos.org/aperta-open-source&quot;&gt;Aperta&lt;/a&gt; submission system can now be found on &lt;a href=&quot;https://github.com/Aperta-project/Aperta&quot;&gt;GitHub&lt;/a&gt;. Aperta has been developed using reliable and modern technologies and the shared code provides an opportunity for both the research communication and open source communities to build on and enhance it.&lt;/p&gt;
+&lt;p&gt;Moving forward, you will continue to see our commitment to the principles of openness and transparency in our publishing strategies, innovations, policies and partnerships.  In short, we want to help foster an environment conducive to responsible Open Science and be part of the collective effort to propel it into new and exciting territory.&lt;/p&gt;
+&lt;p&gt;Aperta is a Linux and Mac supported platform for managing the submission and review of research outputs. More information about the system and its capabilities can be found on the &lt;a href=&quot;https://github.com/Aperta-project/Aperta/wiki&quot;&gt;APERTA-wiki&lt;/a&gt;. Questions about Aperta can be logged in the &lt;a href=&quot;https://github.com/Aperta-project/Aperta/issues&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/1P5Tz9sQK1s&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2018-06-27T16:03:19+00:00</dc:date>
+	<dc:creator>PLOS</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/how-make-car-t-cell-therapies-cancer-safer-and-more-effective">
+	<title>Science News: How to make CAR-T cell therapies for cancer safer and more effective</title>
+	<link>https://www.sciencenews.org/article/how-make-car-t-cell-therapies-cancer-safer-and-more-effective</link>
+	<content:encoded>CAR-T cell therapy was approved by the FDA in late 2017. Now, scientists are working to tame the cancer treatment’s side effects.</content:encoded>
+	<dc:date>2018-06-27T13:00:09+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=67350">
+	<title>Retraction watch: Retracted papers keep being cited as if they weren’t retracted. Two researchers suggest how Elsevier could help fix that.</title>
+	<link>https://retractionwatch.com/2018/06/27/retracted-papers-keep-being-cited-as-if-they-werent-retracted-two-researchers-suggest-how-elsevier-could-help-fix-that/</link>
+	<content:encoded>As many readers know, even after a paper’s retracted, it will continue to be cited — often by researchers who don’t realize the findings are problematic. But when, and in what context, do those citations occur? In a recent paper in Scientometrics, Judit Bar-Ilan of Bar-Ilan University in Israel and Gali Halevi at Icahn School … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/06/27/retracted-papers-keep-being-cited-as-if-they-werent-retracted-two-researchers-suggest-how-elsevier-could-help-fix-that/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Retracted papers keep being cited as if they weren’t retracted. Two researchers suggest how Elsevier could help fix that.&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-06-27T12:00:14+00:00</dc:date>
+	<dc:creator>Alison McCook</dc:creator>
+</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=10315">
 	<title>BMC Series blog: Possible link between blind cavefish and Autism</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2018/06/27/possible-link-between-blind-cavefish-and-autism/</link>
@@ -196,7 +234,7 @@
 <item rdf:about="https://www.sciencenews.org/article/poliovirus-treatment-helped-patients-deadly-brain-tumors-live-longer">
 	<title>Science News: Poliovirus treatment helped patients with deadly brain tumors live longer</title>
 	<link>https://www.sciencenews.org/article/poliovirus-treatment-helped-patients-deadly-brain-tumors-live-longer</link>
-	<content:encoded>A genetically modified poliovirus appears to help fight brain cancer.</content:encoded>
+	<content:encoded>A genetically modified poliovirus appears to help fight brain cancer, a small, early-stage clinical study suggests.</content:encoded>
 	<dc:date>2018-06-26T21:50:48+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
@@ -1230,66 +1268,6 @@ across these layers. In both cases, a sufficient amount of noise, which was adde
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/l_OZi1G-RiA&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-06-19T00:00:00+00:00</dc:date>
 	<dc:creator>Veronique Greenwood</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0718-42">
-	<title>Scientific American: The Real Paleo Diet</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/uiv4C8TPrp4/scientificamerican0718-42</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 42 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0718-42&quot;&gt;doi:10.1038/scientificamerican0718-42&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Peter S. Ungar&lt;/p&gt;
-&lt;p&gt;Microscopic wear patterns on fossil teeth reveal what our ancestors ate—and provide insights into how climate change shaped human evolution&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/uiv4C8TPrp4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-06-19T00:00:00+00:00</dc:date>
-	<dc:creator>Peter S. Ungar</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0718-4">
-	<title>Scientific American: Barriers between Realities</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/r7sTvX4Oo5s/scientificamerican0718-4</link>
-	<content:encoded>&lt;div style=&quot;white-space: nowrap;&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.nature.com/common/includes/header/images/backgrounds/01/leaderboard_side.gif&quot; style=&quot;width: 14px; border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;a href=&quot;http://pubads.g.doubleclick.net/gampad/jump?iu=/285//rss&amp;amp;sz=728x90&amp;amp;t=abr=!NN2;pos=top;tile=1;ptile=1&amp;amp;c=123456789?&quot;&gt;&lt;img alt=&quot;Advertisment&quot; src=&quot;http://pubads.g.doubleclick.net/gampad/ad?iu=/285//rss&amp;amp;sz=728x90&amp;amp;t=abr=!NN2;pos=top;tile=1;ptile=1&amp;amp;c=123456789?&quot; style=&quot;border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;/a&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.nature.com/common/includes/header/images/backgrounds/01/leaderboard_side.gif&quot; style=&quot;width: 14px; border: 0; margin: 0; padding: 0; display: inline;&quot; /&gt;&lt;/div&gt;
-&lt;p&gt;Scientific American 319, 4 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0718-4&quot;&gt;doi:10.1038/scientificamerican0718-4&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Mariette DiChristina&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/r7sTvX4Oo5s&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-06-19T00:00:00+00:00</dc:date>
-	<dc:creator>Mariette DiChristina</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0718-36">
-	<title>Scientific American: The Science of Antiscience Thinking</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/g9snsbTnX7w/scientificamerican0718-36</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 36 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0718-36&quot;&gt;doi:10.1038/scientificamerican0718-36&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Douglas T. Kenrick, Adam B. Cohen, Steven L. Neuberg &amp;amp; Robert B. Cialdini&lt;/p&gt;
-&lt;p&gt;Convincing people who doubt the validity of climate change and evolution to change their beliefs requires overcoming a set of ingrained cognitive biases&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/g9snsbTnX7w&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-06-19T00:00:00+00:00</dc:date>
-	<dc:creator>Douglas T. Kenrick</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0718-28">
-	<title>Scientific American: Crossing the Quantum Divide</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/nE6MccqTlWE/scientificamerican0718-28</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 28 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0718-28&quot;&gt;doi:10.1038/scientificamerican0718-28&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Tim Folger&lt;/p&gt;
-&lt;p&gt;The universe according to quantum mechanics is strange and probabilistic, but our everyday reality seems nailed down. New experiments aim to probe where—and why—one realm passes into the other&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/nE6MccqTlWE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-06-19T00:00:00+00:00</dc:date>
-	<dc:creator>Tim Folger</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0718-26">
-	<title>Scientific American: The Next Round of Merger Mania</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/Ia80KuhtrZ0/scientificamerican0718-26</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 26 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0718-26&quot;&gt;doi:10.1038/scientificamerican0718-26&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: David Pogue&lt;/p&gt;
-&lt;p&gt;12 ideas for new companies that probably won't exist—but should&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/Ia80KuhtrZ0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-06-19T00:00:00+00:00</dc:date>
-	<dc:creator>David Pogue</dc:creator>
 </item>
 
 </rdf:RDF>
