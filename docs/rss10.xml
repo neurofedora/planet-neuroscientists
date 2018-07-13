@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://arxiv.org/pdf/1807.04535.pdf" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-neutrinos-ghosted-scientists" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/gut-microbes-autism-symptoms" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/otzi-mummy-ate-high-fat-meal-before-death" />
@@ -38,7 +39,6 @@
 			<rdf:li rdf:resource="https://actu.epfl.ch/news/prof-sarah-kenderdine-delivers-keynote-at-swiss--2/" />
 			<rdf:li rdf:resource="https://blogs.helsinki.fi/thinkopen/tutkimuskulttuurin-on-muututtava-jotta-datan-jakamisesta-tulisi-saanto-eika-poikkeus-tuuli-toivosen-open-data-champions-haastattelu/" />
 			<rdf:li rdf:resource="http://www.ip-watch.org/2018/07/05/european-parliament-rejects-starting-negotiations-copyright-reform-proposal/" />
-			<rdf:li rdf:resource="https://www.swissinfo.ch/eng/reuters/eu-lawmakers-reject-tough-line-on-copyright-reform/44239212" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=68114" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cosmic-cloak-controls-galaxy-future-coming-focus" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34238" />
@@ -119,6 +119,18 @@
 	</items>
 </channel>
 
+<item rdf:about="https://arxiv.org/pdf/1807.04535.pdf">
+	<title>Open Access Tracking Project: Disentangling Gold Open Access (Book Chapter)</title>
+	<link>https://arxiv.org/pdf/1807.04535.pdf</link>
+	<content:encoded>&lt;p&gt;Forthcoming in Glanzel, W., Moed, H.F., Schmoch U., Thelwall, M. (2018). Springer Handbook of Science and Technology Indicators. Springer.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;This chapter focuses on the analysis of current publication trends in gold Open Access (OA). The purpose of the chapter is to develop a full understanding on country patterns, OA journals characteristics and citation differences between gold OA and non-gold OA publications. For this, we will first review current literature regarding Open Access and its relation with its so-called citation advantage. Starting with a chronological perspective we will describe its development, how different countries are promoting OA publishing, and its effects on the journal publishing industry. We will deepen the analysis by investigating the research output produced by different units of analysis. First, we will focus on the production of countries with a special emphasis on citation and disciplinary differences. A point of interest will be identification of national idiosyncrasies and the relation between OA publication and research of local interest. This will lead to our second unit of analysis, OA journals indexed in Web of Science. Here we will deepen on journals characteristics and publisher types to clearly identify factors which may affect citation differences between OA and traditional journals which may not necessarily be derived from the OA factor. Gold OA publishing is being encouraged in many countries as opposed to Green OA. This chapter aims at fully understanding how it affects researchers’ publication patterns and whether it ensures an alleged citation advantage as opposed to non-gold OA publications.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded>
+	<dc:date>2018-07-12T21:17:00+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/50-years-ago-neutrinos-ghosted-scientists">
 	<title>Science News: 50 years ago, neutrinos ghosted scientists</title>
 	<link>https://www.sciencenews.org/article/50-years-ago-neutrinos-ghosted-scientists</link>
@@ -322,12 +334,6 @@
 	<link>http://www.ip-watch.org/2018/07/05/european-parliament-rejects-starting-negotiations-copyright-reform-proposal/</link>
 	<content:encoded>&lt;p&gt;&lt;span&gt;The European Parliament opposed plans to launch immediate “trilogue” negotiations with the Council and European Commission on copyright reform legislation, instead sending the controversial measure to full debate at the next plenary session of Parliament.&lt;/span&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-07-12T14:08:00+00:00</dc:date>
-</item>
-<item rdf:about="https://www.swissinfo.ch/eng/reuters/eu-lawmakers-reject-tough-line-on-copyright-reform/44239212">
-	<title>Open Access Tracking Project: EU lawmakers reject tough line on copyright reform</title>
-	<link>https://www.swissinfo.ch/eng/reuters/eu-lawmakers-reject-tough-line-on-copyright-reform/44239212</link>
-	<content:encoded>&lt;p&gt;EU lawmakers have opted not to take a tough line on an EU copyright overhaul aimed at making Google &amp;lt;GOOGL.O&amp;gt;, Facebook &amp;lt;FB.O&amp;gt; and other tech giants share revenues with publishers, broadcasters and artists after lobbying by internet companies.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-07-12T14:05:00+00:00</dc:date>
 </item>
 <item rdf:about="http://retractionwatch.com/?p=68114">
 	<title>Retraction watch: A publisher just retracted ten papers whose peer review was “engineered” — despite knowing about the problem of fake reviews for years</title>
