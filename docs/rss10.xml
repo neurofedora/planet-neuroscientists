@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/sleep-brain-alzheimers-plaques-protein" />
 			<rdf:li rdf:resource="https://www.researchinformation.info/news/alpsp-awards-finalists-announced" />
 			<rdf:li rdf:resource="https://www.tandfonline.com/doi/abs/10.1080/0361526X.2018.1443651" />
 			<rdf:li rdf:resource="https://www.tandfonline.com/doi/abs/10.1080/0361526X.2018.1447751" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34136" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=25069" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9601" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=67648" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/sleep-brain-alzheimers-plaques-protein">
+	<title>Science News: The brain may clean out Alzheimer’s plaques during sleep</title>
+	<link>https://www.sciencenews.org/article/sleep-brain-alzheimers-plaques-protein</link>
+	<content:encoded>Sleep deprivation may speed up development of Alzheimer’s disease.</content:encoded>
+	<dc:date>2018-07-15T10:00:04+00:00</dc:date>
+	<dc:creator>Laura Beil</dc:creator>
+</item>
 <item rdf:about="https://www.researchinformation.info/news/alpsp-awards-finalists-announced">
 	<title>Open Access Tracking Project: ALPSP awards finalists announced | Association of Learned &amp; Professional Society Publishers | Research Information</title>
 	<link>https://www.researchinformation.info/news/alpsp-awards-finalists-announced</link>
@@ -1310,13 +1317,6 @@ In this post, I'm not going to talk about the paper itself but rather, about how
 
 The paper reports on five studies which all address the same general question. Of these, Study #3 was preregistered and the authors write that it was performed after</content:encoded>
 	<dc:date>2018-07-03T21:12:06+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=67648">
-	<title>Retraction watch: A university went to great lengths to block the release of information about a trial gone wrong. A reporter fought them and revealed the truth.</title>
-	<link>https://retractionwatch.com/2018/07/03/a-university-went-to-great-lengths-to-block-the-release-of-information-about-a-trial-gone-wrong-a-reporter-fought-them-and-revealed-the-truth/</link>
-	<content:encoded>Here’s a story that shows the lengths a public university — The University of Illinois at Chicago — went to block the release of information about a child psychiatry trial gone wrong, and how a reporter — Jodi S. Cohen of ProPublica — fought them effectively at every turn to reveal the truth. Earlier this … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/07/03/a-university-went-to-great-lengths-to-block-the-release-of-information-about-a-trial-gone-wrong-a-reporter-fought-them-and-revealed-the-truth/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;A university went to great lengths to block the release of information about a trial gone wrong. A reporter fought them and revealed the truth.&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-07-03T21:04:11+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
