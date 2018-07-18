@@ -5,8 +5,194 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-07-18T05:00:50+00:00</updated>
+	<updated>2018-07-18T11:00:53+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="fr-FR">What is computational neuroscience? (XXXI) The problem of biological measurement (1)</title>
+		<link href="http://romainbrette.fr/what-is-computational-neuroscience-xxxi-the-problem-of-biological-measurement-1/"/>
+		<id>http://romainbrette.fr/?p=1514</id>
+		<updated>2018-07-18T10:07:52+00:00</updated>
+		<content type="html" xml:lang="fr-FR">
+ &lt;p&gt;We tend to think of sensory receptors (photoreceptors, inner hair cells) or sensory neurons (retinal ganglion cells; auditory nerve fibers) as measuring physical dimensions, for example light intensity or acoustical pressure, or some function of it. The analogy is with physical instruments of measure, like a thermometer or a microphone. This confers a representational quality to the activity of neurons, an assumption that is at the core of the neural coding metaphor. I explain at length why that metaphor is misleading in many ways in an essay (Brette (2018) &lt;a href=&quot;https://www.biorxiv.org/content/early/2018/07/13/168237&quot;&gt;Is coding a relevant metaphor for the brain?&lt;/a&gt;). Here I want to examine more specifically the notion of biological measurement and the challenges it poses.&lt;/p&gt;
+&lt;p&gt;This notion comes about not only in classical representationalist views, where neural activity is seen as symbols that the brain then manipulates (the perception-cognition-action model, also called sandwich model), but also in alternative views, although it is less obvious. For example, one alternative is to see the brain not as a computer system (encoding symbols, then manipulating them) but as a control system (see Paul Cisek’s &lt;a href=&quot;http://www.cisek.org/pavel/Pubs/Cis1999.pdf&quot;&gt;behavior as interaction&lt;/a&gt;, William Powers’ &lt;a href=&quot;https://en.wikipedia.org/wiki/Perceptual_control_theory&quot;&gt;perceptual control theory&lt;/a&gt;, Tim van Gelder’s &lt;a href=&quot;https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/the-dynamical-hypothesis-in-cognitive-science/C121F1B65A534F3E7A27075EE489AD1E&quot;&gt;dynamical view of cognition&lt;/a&gt;). In this view, the activity of neurons does not encode stimuli. In fact there is no stimulus per se, as Dewey pointed out: “the motor response determines the stimulus, just as truly as sensory stimulus determines the movement.”.&lt;/p&gt;
+&lt;p&gt;A simple case is feedback control: the system tries to maintain some input at a target value. To do this, the system must compare the input with an internal value. We could imagine for example something like an idealized version of the stretch reflex: when the muscle is stretched, a sensory feedback triggers a contraction, and we want to maintain muscle length constant. But this apparently trivial task raises a number of deep questions, as more generally the application of control theory to biological systems. I suppose there is a sensor, a neuron that transduces some physical dimension into spike trains, for example the stretch of a muscle. There is also an actuator, which reacts to a spike by a physical action, for example contracting the muscle with a particular time course. I chose a spike-based description not just because it corresponds to the physiology of the stretch reflex, but also because it will illustrate some fundamental issues (which would exist also with graded transduction, but less obviously so).&lt;/p&gt;
+&lt;p&gt;Now we have a neuron, or a set of neurons, which receive these sensory inputs and send spikes to the actuator. For this discussion, it is not critical that these are actually neurons; we can just consider that there is a system there, and we ask how this system should be designed so as to successfully achieve a control task.&lt;/p&gt;
+&lt;p&gt;The major issue here is that the control system does not directly deal with the physical dimension. At first sight, we could think this is a minor issue. The physical dimension gets transduced, and we could simply define the target value in the transduced dimension (eg the current). But here we see that the problem is more serious. What the control system deals with is not simply a function of the physical dimension. More accurately, transduction is a nonlinear dynamical system influenced by a physical signal. The physical signal can be constant, for example, while the transduced current decays (adaptation) and the sensory neuron outputs spike trains, i.e., a highly variable signal. This poses a much more serious problem than a simple calibration problem. When the controlled physical value is at the target value, the sensory neuron might be spiking, perhaps not even at a regular rate. The control system should react to that particular kind of signal by not acting, while it should act when the signal deviates from it. But how can the control system identify the target state, or even know whether to act in one or the opposite direction?&lt;/p&gt;
+&lt;p&gt;Adaptation in neurons is often depicted as an optimization of information transmitted, in line with the metaphor of the day (coding). But the relevant question is: how does the receiver of this “information” knows how the neuron has adapted? Does it have to de-adapt, to somehow be matched to the adaptive process of the encoding neuron? (This problem has to do with the &lt;a href=&quot;https://www.biorxiv.org/content/early/2018/07/13/168237&quot;&gt;dualistic structure of the neural coding metaphor&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;There are additional layers of difficulty. We have first recognized that transduction is not a simple mapping from a physical dimension to a biological (e.g. electrochemical) dimension, but rather a dynamical system influenced by a physical signal. Now this dynamical system depends on the structure of the sensory neuron. It depends for example on the number of ionic channels and their properties, and we know these are highly plastic and indeed quite variable both across time and across cells. This dynamical system also depends on elements of the body, or let’s say more generally the neuron’s environment. For example, the way acoustical pressure is transduced in current by an inner hair cell depends obviously on the acoustical pressure at the eardrum, but that physical signal depends on the shape the ear, which filters sounds. Properties of neurons change with time too, development and aging. Thus, we cannot assume that the dynamical transformation from physical signal to biological signal is a fixed one. Somehow, the control system has to work despite this huge plasticity and the dynamical nature of the sensors.&lt;/p&gt;
+&lt;p&gt;Let us pause for a moment and outline a number of differences between physical measurements, as with a thermometer, and biological measurements (or “sensing”):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The physical meter is calibrated with respect to an external reference, for example 0°C is when water freezes, while 100°C is when it boils. The biological sensor cannot be calibrated with respect to an external reference.&lt;/li&gt;
+&lt;li&gt;The physical meter produces a fixed value for a stationary signal. The biological sensor produces a dynamical signal in response to a stationary signal. More accurately, the biological sensor is a nonlinear dynamical system influenced by the physical signal.&lt;/li&gt;
+&lt;li&gt;The physical meter is meant to be stable, in that the mapping from physical quantity to measurement is fixed. When it is not, this is considered an error. The biological sensor does not have fixed properties. Changes in properties occur in the normal course of life, from birth to death, and some changes in properties are interpreted as adaptations, not errors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From these differences, we realize that biological sensors do not provide physical measurements in the usual sense. The next question, then, is how can a biological system control a physical dimension with biological sensors that do not act as measurements of that dimension?&lt;/p&gt;</content>
+		<author>
+			<name>admin</name>
+			<uri>http://romainbrette.fr</uri>
+		</author>
+		<source>
+			<title type="html">Romain Brette</title>
+			<subtitle type="html">Computational Neuroscience</subtitle>
+			<link rel="self" href="http://romainbrette.fr/feed/"/>
+			<id>http://romainbrette.fr</id>
+			<updated>2018-07-18T11:00:31+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Move over Hubble. This sharp pic of Neptune was taken from Earth</title>
+		<link href="https://www.sciencenews.org/article/move-over-hubble-sharp-pic-neptune-was-taken-earth"/>
+		<id>https://www.sciencenews.org/article/move-over-hubble-sharp-pic-neptune-was-taken-earth</id>
+		<updated>2018-07-18T10:00:04+00:00</updated>
+		<content type="html">
+ A new strategy at the Very Large Telescope lets astronomers take space telescope–quality pictures from the ground.</content>
+		<author>
+			<name>Lisa Grossman</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-07-18T11:00:31+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-gb">Hackers aim to take the stress out of medical student rotations</title>
+		<link href="https://www.elsevier.com/connect/hackers-aim-to-take-the-stress-out-of-medical-student-rotations"/>
+		<id>https://www.elsevier.com/connect/hackers-aim-to-take-the-stress-out-of-medical-student-rotations</id>
+		<updated>2018-07-18T09:08:26+00:00</updated>
+		<content type="html">
+ These Elsevier Hacks winners are building an app that turns data into advice about the student’s hospital assignment</content>
+		<author>
+			<name>Elsevier Connect</name>
+			<uri></uri>
+		</author>
+		<source>
+			<title type="html">Elsevier Connect</title>
+			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
+			<id>https://www.elsevier.com/connect/feed</id>
+			<updated>2018-07-18T11:00:31+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Underestimating the power of gratitude – recipients of thank-you letters are more touched than we expect</title>
+		<link href="https://digest.bps.org.uk/2018/07/18/underestimating-the-power-of-gratitude-recipients-of-thank-you-letters-are-more-touched-than-we-expect/"/>
+		<id>http://digest.bps.org.uk/?p=34283</id>
+		<updated>2018-07-18T08:24:06+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;&lt;img alt=&quot;GettyImages-499263415.jpg&quot; class=&quot;alignnone size-full wp-image-34287&quot; data-attachment-id=&quot;34287&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;8&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;a long haired brunette reading something moving on a white document or letter and laughing or smiling&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1403449136&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;Giulio Fornasar&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;78&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;100&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.008&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;girl touched by something she read&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;girl touched by something she read&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-499263415.jpg?w=845?w=683&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-499263415.jpg?w=845?w=200&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-499263415.jpg?w=845&quot; data-orig-size=&quot;1414,2121&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/07/18/underestimating-the-power-of-gratitude-recipients-of-thank-you-letters-are-more-touched-than-we-expect/girl-touched-by-something-she-read/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-499263415.jpg?w=845&quot; /&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’ve all been there: feeling so grateful to a friend or colleague that we hatch the idea of sending them a thank-you message. But then we worry about how to phrase it. And then we figure it probably won’t mean much to them anyway; if anything it could all be a bit awkward. So we don’t bother.&lt;/p&gt;
+&lt;p&gt;Does this sound familiar? According to a pair of US psychologists, a common failure of perspective means that a lot of us underestimate the positive impact on others (and ourselves) of expressing gratitude, meaning that we miss out on a simple way to improve our social relations and wellbeing. Based on &lt;a href=&quot;http://journals.sagepub.com/doi/full/10.1177/0956797618772506&quot;&gt;their series of experiments in &lt;em&gt;Psychological Science&lt;/em&gt;&lt;/a&gt;, &lt;a href=&quot;http://www.kumar-amit.com&quot;&gt;Amit Kumar&lt;/a&gt; at the University of Texas at Austin and &lt;a href=&quot;http://www.kumar-amit.com&quot;&gt;Nicholas Epley&lt;/a&gt; at Booth School of Business at the University of Chicago conclude that “expressing gratitude might not buy everything, but it may buy more than people seem to expect”.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-34283&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The research involved hundreds of participants, some recruited to take part at the psych lab and others online via Amazon’s Mechanical Turk survey website. The format through some of the experiments was broadly similar. Participants were asked to write a letter of thanks via email to someone who had touched their life in a meaningful way, including expressing what the person had done and how it had affected their life.&lt;/p&gt;
+&lt;p&gt;Across these experiments, the participants were asked to make various predictions about how the recipient would feel and perceive them. Meanwhile, the researchers made contact with the recipients to find out how they actually felt and what they actually thought.&lt;/p&gt;
+&lt;p&gt;The senders of the thank-you letters consistently underestimated how positive the recipients felt about receiving the letters and how surprised they were by the content. The senders also overestimated how awkward the recipients felt; and they underestimated how warm, and especially how competent, the recipients perceived them to be. Age and gender made no difference to the pattern of findings.&lt;/p&gt;
+&lt;p&gt;Other experiments showed that these same misjudgments affect our willingness to write thank-you messages. For instance, participants who felt less competent about writing a message of gratitude were less willing to send one; and, logically enough, participants were least willing to send thank-you messages to recipients who they felt would benefit the least.&lt;/p&gt;
+&lt;p&gt;Kumar and Epley believe that this asymmetry between the perspective of the potential expresser of gratitude and the recipient means that we often refrain from a “powerful act of civility” that would benefit both parties.&lt;/p&gt;
+&lt;p&gt;A similar dynamic could also play out in other situations. “If people engaging in prosocial actions are more concerned about competence than those benefiting from them, then our experimental results should be just one example of a broader tendency,” the researchers said.&lt;/p&gt;
+&lt;p&gt;A methodological limitation is that the researchers were unable to reach all letter recipients and it’s possible those less impressed by the thank-you note were less willing to take part in the research. However, the available data don’t back this up – for instance, the mis-predictions of the expressers of gratitude were just as great in the experiments in which more recipients took part (therefore reducing the risk that only happy recipients had participated).&lt;/p&gt;
+&lt;p&gt;These are intriguing findings that complement other work by Epley and colleagues showing how our fear of awkwardness can lead us to misjudge what is in our own best interests, such as underestimating &lt;a href=&quot;https://digest.bps.org.uk/2014/08/15/were-happier-when-we-chat-to-strangers-but-our-instinct-is-to-ignore-them/&quot;&gt;how much we will enjoy interacting with strangers&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;http://journals.sagepub.com/doi/full/10.1177/0956797618772506&quot;&gt;Undervaluing Gratitude: Expressers Misunderstand the Consequences of Showing Appreciation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;b&gt;Christian Jarrett&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;@Psych_Writer&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;b&gt;) is Editor of &lt;/b&gt;&lt;span class=&quot;s3&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</content>
+		<author>
+			<name>BPS Research Digest</name>
+			<uri>https://digest.bps.org.uk</uri>
+		</author>
+		<source>
+			<title type="html">Research Digest</title>
+			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
+			<id>https://digest.bps.org.uk</id>
+			<updated>2018-07-18T11:00:31+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Is open article data too big to ignore (for Text data mining)? | Musings about librarianship</title>
+		<link href="https://musingsaboutlibrarianship.blogspot.com/2018/07/is-open-article-data-too-big-to-ignore.html"/>
+		<id>https://musingsaboutlibrarianship.blogspot.com/2018/07/is-open-article-data-too-big-to-ignore.html</id>
+		<updated>2018-07-18T06:22:00+00:00</updated>
+		<content type="html">
+ </content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-07-18T11:00:34+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">The Exception for Text and Data Mining (TDM) in the Proposed Directive on Copyright in the Digital Single Market - Legal Aspects - Think Tank</title>
+		<link href="http://www.europarl.europa.eu/thinktank/en/document.html?reference=IPOL_IDA(2018)604941"/>
+		<id>http://www.europarl.europa.eu/thinktank/en/document.html?reference=IPOL_IDA(2018)604941</id>
+		<updated>2018-07-18T05:28:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;&quot;This in-depth analysis, commissioned by the European Parliament’s Policy Department for Citizens’ Rights and Constitutional Affairs at the request of the Committee on Legal Affairs (JURI-Committee), is a contribution to the workshop on &quot;Text and data mining&quot; held on 22 February 2018 in Brussels. It provides an analysis of the Commission’s Proposal (which introduces in Article 3 a mandatory exception to copyright allowing to carry out text and data mining of protected works), assesses its positive and negative impacts and provides some suggestions for possible improvements. Advantages of introducing an “open clause” on top of an enumerated list of exceptions to address some of the related problems are also reviewed.&quot;&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-07-18T11:00:34+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Cancerous Statistics, by Alla Astakhova</title>
+		<link href="https://forbetterscience.com/2018/07/18/cancerous-statistics-by-alla-astakhova/"/>
+		<id>http://forbetterscience.com/?p=25298</id>
+		<updated>2018-07-18T05:00:31+00:00</updated>
+		<content type="html">
+ Russian officials found an ingenious way to cure cancer and to impress their autocratic president Putin: they simply rig statistics. More people die of cancer than actually officially suffer from it. Elsewhere, dead patients disappear or, according to statistics, live forever. This was reported by the Russian independent health journalist Alla Astakhova on her site, … &lt;a class=&quot;more-link&quot; href=&quot;https://forbetterscience.com/2018/07/18/cancerous-statistics-by-alla-astakhova/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Cancerous Statistics, by Alla Astakhova&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Leonid Schneider</name>
+			<uri>https://forbetterscience.com</uri>
+		</author>
+		<source>
+			<title type="html">For Better Science</title>
+			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
+			<link rel="self" href="https://forbetterscience.com/feed/"/>
+			<id>https://forbetterscience.com</id>
+			<updated>2018-07-18T11:00:32+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">The EU’s Controversial Digital Single Market Directive - Part II: Why the Proposed Mandatory Text- and Data-Mining Exception Is Too Restrictive - Kluwer Copyright Blog</title>
+		<link href="http://copyrightblog.kluweriplaw.com/2018/07/12/eus-controversial-digital-single-market-directive-part-ii-proposed-mandatory-text-data-mining-exception-restrictive/"/>
+		<id>http://copyrightblog.kluweriplaw.com/2018/07/12/eus-controversial-digital-single-market-directive-part-ii-proposed-mandatory-text-data-mining-exception-restrictive/</id>
+		<updated>2018-07-18T04:56:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;&quot;The proposed European Digital Single Market (DSM) Directive would mandate a new copyright exception to enable nonprofit research and cultural heritage institutions to engage in text- and data-mining (TDM). The European Commission and the Council recognize that digital technologies have opened up significant opportunities for using TDM techniques to make new discoveries by computational analysis of large data sets. These discoveries can advance not only natural but also human sciences in ways that will benefit the information society.&quot;&lt;/p&gt;</content>
+		<author>
+			<name>Open Access Tracking Project</name>
+			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
+		</author>
+		<source>
+			<title type="html">OATP primary</title>
+			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
+&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
+			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
+			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
+			<updated>2018-07-18T11:00:34+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">An ancient swimming revolution in the oceans may have never happened</title>
@@ -23,7 +209,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -43,7 +229,7 @@
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-07-18T05:00:30+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -66,7 +252,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -111,7 +297,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -132,7 +318,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -153,7 +339,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -174,7 +360,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -193,7 +379,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -214,7 +400,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -235,7 +421,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -256,7 +442,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -277,7 +463,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -298,7 +484,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -319,7 +505,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -340,7 +526,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -361,7 +547,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -382,7 +568,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -403,7 +589,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -426,7 +612,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -445,7 +631,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -470,7 +656,7 @@
 &lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
 			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
 			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -501,70 +687,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Seven Reasons Why Open Educational Resources Are The Wise Way To Go In Moodle | Moodle News</title>
-		<link href="https://www.moodlenews.com/2018/seven-reasons-why-open-educational-resources-are-the-wise-way-to-go-in-moodle/"/>
-		<id>https://www.moodlenews.com/2018/seven-reasons-why-open-educational-resources-are-the-wise-way-to-go-in-moodle/</id>
-		<updated>2018-07-17T10:31:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;To encourage the use —and help dispel some myths— of Open Educational Resources, particularly in the Ontario region, government-funded NGO Contact North has published a ten-item OER “Fact Sheet” with actionable and interesting data about OER and its latest developments. OER continues to spread across the mainstream space and tackle the challenges posed by skeptics (and detractors).&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Cengage Contributes Openly Licensed Content to OER Community</title>
-		<link href="https://www.prnewswire.com/news-releases/cengage-contributes-openly-licensed-content-to-oer-community-300681399.html"/>
-		<id>https://www.prnewswire.com/news-releases/cengage-contributes-openly-licensed-content-to-oer-community-300681399.html</id>
-		<updated>2018-07-17T10:23:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;Cengage, an education and technology company, is contributing the narrative content for three openly licensed textbooks, as well as the learning objectives and assessments for 12 course areas as Open Educational Resources (OER). The Creative Commons Attribution licensed (CC BY) narrative content and the learning objectives are available to download from the Cengage website where content can be accessed as editable files without a required login or purchase. The CC BY licensed assessments are available via editable files with an instructor login.&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">BioRxiv: A postprint server? – Jordan Anaya – Medium</title>
-		<link href="https://medium.com/@OmnesRes/biorxiv-a-postprint-server-944359ac65d4"/>
-		<id>https://medium.com/@OmnesRes/biorxiv-a-postprint-server-944359ac65d4</id>
-		<updated>2018-07-17T10:19:00+00:00</updated>
-		<content type="html">
- &lt;p&gt;&quot;Europe PMC recently started indexing preprints, which is great because the reason I made PrePubMed over 2 years ago was because no one seemed to be keeping track of these things despite the fact they were undergoing exponential growth and some of the best work was being posted as preprints.&quot;&lt;/p&gt;</content>
-		<author>
-			<name>Open Access Tracking Project</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</uri>
-		</author>
-		<source>
-			<title type="html">OATP primary</title>
-			<subtitle type="html">This is the &quot;oa.new&quot; feed published by the OATP hub. It's a remix feed so that, over time, I can modify it without modifying the URL. For example, I 
-&lt;span&gt;can filter out spam or make other modifications later on without changing the URL.&lt;/span&gt;</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/remix/oatp/items.rss"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/republished_feeds/6</id>
-			<updated>2018-07-17T23:00:34+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -583,7 +706,7 @@
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-07-17T11:00:31+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -602,7 +725,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -706,7 +829,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -783,7 +906,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -802,7 +925,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-07-17T11:00:31+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -821,7 +944,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-07-17T11:00:31+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -853,7 +976,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -872,7 +995,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -958,7 +1081,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -978,7 +1101,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-07-17T23:00:32+00:00</updated>
+			<updated>2018-07-18T11:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -997,7 +1120,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1016,7 +1139,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1055,7 +1178,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1132,7 +1255,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1151,7 +1274,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1170,7 +1293,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1189,7 +1312,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1208,7 +1331,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1247,7 +1370,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1284,7 +1407,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1303,7 +1426,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-07-17T11:00:31+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1367,7 +1490,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1386,7 +1509,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1405,7 +1528,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1495,7 +1618,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1797,7 +1920,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-07-17T11:00:31+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1817,7 +1940,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-07-17T23:00:32+00:00</updated>
+			<updated>2018-07-18T11:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1885,7 +2008,7 @@ That's a claim that could ruffle some feathers, but the way in which the researc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2046,7 +2169,7 @@ If you have any research you would like us to consider for inclusion in the seri
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2065,7 +2188,7 @@ If you have any research you would like us to consider for inclusion in the seri
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-07-17T11:00:31+00:00</updated>
+			<updated>2018-07-18T11:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2349,112 +2472,6 @@ Now, however, the same researchers have carried out a much larger study and have
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
 			<updated>2018-07-16T17:00:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">No matter their size, newborn stomachs need frequent filling</title>
-		<link href="https://www.sciencenews.org/blog/growth-curve/newborn-stomach-size-breastfeeding"/>
-		<id>https://www.sciencenews.org/blog/growth-curve/newborn-stomach-size-breastfeeding</id>
-		<updated>2018-07-06T11:17:04+00:00</updated>
-		<content type="html">
- Studies on newborn stomach size help explain why the tiny humans need to eat so frequently.</content>
-		<author>
-			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_35998542614309853=1</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-07-12T17:00:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Researchers have identified a group of patients who are especially prone to out-of-body experiences</title>
-		<link href="https://digest.bps.org.uk/2018/07/06/researchers-have-identified-a-group-of-patients-who-are-especially-prone-to-out-of-body-experiences/"/>
-		<id>http://digest.bps.org.uk/?p=34162</id>
-		<updated>2018-07-06T07:43:29+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;img alt=&quot;GettyImages-519685592.jpg&quot; class=&quot;alignnone size-full wp-image-34163&quot; data-attachment-id=&quot;34163&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;14&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;A concept image of a woman's spirit drifting from her body and floating towards a light.&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1459327444&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;sdominick&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;42&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;200&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.008&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Woman Having Spiritual Out Of Body Experience&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Woman Having Spiritual Out Of Body Experience&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-519685592.jpg?w=845?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-519685592.jpg?w=845?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-519685592.jpg?w=845&quot; data-orig-size=&quot;2121,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/07/06/researchers-have-identified-a-group-of-patients-who-are-especially-prone-to-out-of-body-experiences/woman-having-spiritual-out-of-body-experience/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/07/gettyimages-519685592.jpg?w=845&quot; /&gt;&lt;i&gt;By&lt;/i&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;People who’ve had an out-of-body experience (OBE) report that their conscious awareness shifted outside their physical body – often upwards, so they felt like they were floating above their own head. It’s thought that OBEs occur when the brain fails to properly integrate data from the different senses, including vision, touch, proprioception (the sense of where the limbs and other body parts are located in space) and from the vestibular system (organs in the inner ear that monitor head orientation, balance and motion).&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Previous research has mostly focused on the role of vision and touch – for example by triggering the illusion of viewing one’s own body – but the vestibular system has largely been neglected. If it does play an important role we should expect that problems with the vestibular system – which often present as feelings of dizziness – lead to OBEs, but do they? &lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Historical case studies suggested that they might. And now, published in &lt;em&gt;Cortex&lt;/em&gt;, the &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/28669509&quot;&gt;first systematic study&lt;/a&gt; of patients referred to a neurological specialist because of dizziness has found that they can.&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-34162&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Christophe Lopez, a neuroscientist at Aix Marseille University, and Maya Elziere, a neurologist specialising in balance disorders at the Hôpital Européen, also in Marseille, France, compared 210 patients referred to them for dizziness and vertigo (having the feeling of spinning, swaying or tilting, being off balance, or that the room is spinning) with the same number of age and gender-matched controls. They found that the patients were much more likely to report having had an OBE – 14 per cent had had at least one, compared with 5 per cent of the healthy controls. And most of these patients reported having an OBE only after their dizziness had started.&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;During their OBE, most of the patients reported vestibular sensations – of elevation and lightness, for example. (One reported a “sensation of entering my body, like in an envelope, from the top”). The vast majority of these patients also reported having had not just one but multiple OBEs, which usually lasted for a few seconds or a few minutes.&lt;/p&gt;
-&lt;p&gt;OBEs were linked mainly to dizziness caused by obvious problems with the vestibular system itself such as vestibular neuritis and Meniere’s disease (rather than being brain-based). Yet, most patients with these same vestibular problems did not develop OBEs so something else must be going on to contribute to the experience. Questionnaire results showed that scores for “depersonalisation-derealization”, depression and anxiety, were the main predictors of OBE in patients with dizziness, suggesting these psychological factors interact with the physical problem&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;of atypical signals being sent from the vestibular system to generate OBEs. In healthy controls, there was also a relationship between depersonalisation-derealization scores and reported OBEs. This isn’t a surprise: depersonalisation-derealization involves feelings of observing yourself from outside your body, or having the sense that things around you aren’t real.&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;As anxiety was also a significant predictor – and anxiety is known to be linked to vertigo – “we suggest that anxiety and depersonalisation-derealization may combine to precipitate OBE in patients with dizziness,” the researchers write.&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0010945217301892?via=ihub&quot;&gt;Out-of-body experience in vestibular disorders – A prospective study of 210 patients with dizziness&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;&lt;b&gt;Emma Young&lt;/b&gt;&lt;/a&gt;&lt;b&gt; (&lt;/b&gt;&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;&lt;b&gt;@EmmaELYoung&lt;/b&gt;&lt;/a&gt;&lt;b&gt;) is Staff Writer at &lt;/b&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;&lt;b&gt;BPS Research Digest&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-18T05:00:28+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Latchman and Wohl Foundation: gifts that keep on giving</title>
-		<link href="https://forbetterscience.com/2018/07/06/latchman-misconduct-investigations-and-the-wohl-foundation/"/>
-		<id>http://forbetterscience.com/?p=25126</id>
-		<updated>2018-07-06T05:00:48+00:00</updated>
-		<content type="html">
- Imagine being so rich that not you are employed as rector by the university, it is your university whom you give money to, from the inherited charity trust you preside over. If such a precious rector had over 40 of his publications flagged for what definitely looks like grossly manipulated data, it would be simply … &lt;a class=&quot;more-link&quot; href=&quot;https://forbetterscience.com/2018/07/06/latchman-misconduct-investigations-and-the-wohl-foundation/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Latchman and Wohl Foundation: gifts that keep on giving&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Leonid Schneider</name>
-			<uri>https://forbetterscience.com</uri>
-		</author>
-		<source>
-			<title type="html">For Better Science</title>
-			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
-			<link rel="self" href="https://forbetterscience.com/feed/"/>
-			<id>https://forbetterscience.com</id>
-			<updated>2018-07-17T23:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Soaring spiders may get cues from electric charges in the air</title>
-		<link href="https://www.sciencenews.org/article/soaring-spiders-may-get-cues-electric-charges-air"/>
-		<id>https://www.sciencenews.org/article/soaring-spiders-may-get-cues-electric-charges-air</id>
-		<updated>2018-07-05T20:48:21+00:00</updated>
-		<content type="html">
- Spiders can sense atmospheric electric fields, which might give them cues to take to the air.</content>
-		<author>
-			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_35998542614309853=1</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-07-12T17:00:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Nerve cells that help control hunger have been ID’d in mice</title>
-		<link href="https://www.sciencenews.org/article/nerve-cells-help-control-hunger-have-been-identified-mice"/>
-		<id>https://www.sciencenews.org/article/nerve-cells-help-control-hunger-have-been-identified-mice</id>
-		<updated>2018-07-05T19:43:11+00:00</updated>
-		<content type="html">
- A mysterious bump on the human brain may be able to dial appetite up or down.</content>
-		<author>
-			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-07-12T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
