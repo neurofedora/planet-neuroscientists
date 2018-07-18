@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/devonian-swimming-revolution-oceans-may-have-never-happened" />
 			<rdf:li rdf:resource="https://medium.com/p/3f0b6d8e5a1e" />
 			<rdf:li rdf:resource="http://cache.media.enseignementsup-recherche.gouv.fr/file/Recherche/50/1/SO_A4_2018_EN_01_leger_982501.pdf" />
 			<rdf:li rdf:resource="https://hr.appstate.edu/employment/faculty-vacancies/833" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=25126" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/soaring-spiders-may-get-cues-electric-charges-air" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nerve-cells-help-control-hunger-have-been-identified-mice" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/most-americans-think-funding-science-pays" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/devonian-swimming-revolution-oceans-may-have-never-happened">
+	<title>Science News: An ancient swimming revolution in the oceans may have never happened</title>
+	<link>https://www.sciencenews.org/article/devonian-swimming-revolution-oceans-may-have-never-happened</link>
+	<content:encoded>Swimmers may not have suddenly dominated the oceans during the Devonian Period after all: New analyses suggest they took over much more gradually.</content:encoded>
+	<dc:date>2018-07-17T23:05:01+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://medium.com/p/3f0b6d8e5a1e">
 	<title>The Spike: The pitfalls of persistence</title>
 	<link>https://medium.com/the-spike/the-pitfalls-of-persistence-3f0b6d8e5a1e?source=rss----c92c31591e3a---4</link>
@@ -1266,13 +1273,6 @@ Now, however, the same researchers have carried out a much larger study and have
 	<content:encoded>A mysterious bump on the human brain may be able to dial appetite up or down.</content:encoded>
 	<dc:date>2018-07-05T19:43:11+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/most-americans-think-funding-science-pays">
-	<title>Science News: Most Americans think funding science pays off</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/most-americans-think-funding-science-pays</link>
-	<content:encoded>About 80 percent of U.S. adults say that federal spending on scientific and medical research provides value in the long run, a new survey finds.</content:encoded>
-	<dc:date>2018-07-05T19:18:24+00:00</dc:date>
-	<dc:creator>Emily DeMarco</dc:creator>
 </item>
 
 </rdf:RDF>
