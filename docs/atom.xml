@@ -5,8 +5,45 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-07-24T23:00:38+00:00</updated>
+	<updated>2018-07-25T05:00:44+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Unconventional Connections: How Inhibition Hones Cortical Selectivity</title>
+		<link href="https://www.maxplanckflorida.org/news-and-media/news/unconventional-connections-how-inhibition-hones-cortical-selectivity/"/>
+		<id>https://www.maxplanckflorida.org/?p=11076</id>
+		<updated>2018-07-25T05:00:17+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;h4&gt;Researchers at the Max Planck Florida Institute for Neuroscience discover a fundamentally new role for inhibition in the visual cortex, refining how neurons encode object motion&lt;/h4&gt;
+&lt;p&gt;Our brains do a remarkable job of encoding visual information about the world around us, providing an almost instantaneous report about rapidly changing conditions that is critical for guiding our behavior. Integral to the brain’s encoding mechanism is the presence of neurons that respond selectively to specific visual features, generating electrical activity that reliably signals properties such as the orientation of edges, their position in space, and their direction of motion. By using new tools to probe the principles of connectivity that neural circuits use to generate selective responses, scientists at the Max Planck Florida Institute for Neuroscience are gaining a host of new insights into the fundamental mechanisms underlying brain function.&lt;/p&gt;
+&lt;p&gt;Understanding how neural circuits build response selectivity poses an enormous challenge since a single neuron receives thousands of synaptic inputs derived from other neurons and these inputs can differ in their response properties and how they can affect the neuron. Some inputs are excitatory, making the neuron more likely to generate an electrical signal, while others are inhibitory, reducing the likelihood that the neuron generates a signal. Somehow a neuron integrates all of these excitatory and inhibitory synaptic inputs to generate responses that are selective, a mysterious ‘input/output transform’ that has been the subject of intense research interest.&lt;/p&gt;
+&lt;p&gt;Previous studies have suggested that there are some simple rules that govern excitatory and inhibitory functional connections. A prominent rule that has emerged for excitatory connections is the notion “like connects with like.” For example, in the visual cortex, neurons that respond selectively to a particular direction of motion are thought to receive their excitatory inputs from other neurons that respond selectively to the same direction of motion. An equally important rule has been postulated for inhibitory inputs: the idea that the properties of the inhibitory inputs a neuron receives match the properties of its excitatory inputs. Because of the “matching rule”, inhibitory inputs are thought to adjust the strength of the excitatory inputs, but not to alter the selectivity conveyed to the neuron by its excitatory inputs.&lt;/p&gt;
+&lt;div class=&quot;wp-caption alignright imgCaption margin20right&quot; id=&quot;attachment_5698&quot; style=&quot;width: 510px;&quot;&gt;&lt;a href=&quot;https://www.maxplanckflorida.org/wp-content/uploads/2018/07/Figure-1-final.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5698&quot; height=&quot;300&quot; src=&quot;https://www.maxplanckflorida.org/wp-content/uploads/2018/07/Figure-1-final.jpg&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Cartoon model of co-tuning (top) and differential tuning (bottom) of excitation (G&lt;sub&gt;e&lt;/sub&gt;) and inhibition (G&lt;sub&gt;i&lt;/sub&gt;) for direction. Subthreshold direction selectivity is inherited from synaptic conductances when co-tuned. Differential tuning of excitation and inhibition can preferentially suppress excitation and enhance subthreshold selectivity. With differential tuning, inhibition can be either bidirectional or oppositely tunned for direction relative to excitation.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Now in a recent publication in Nature, researchers in David Fitzpatrick’s Lab, Daniel Wilson, Ph.D., and Benjamin Scholl, Ph.D., have accumulated multiple lines of evidence that challenge both of these principles, providing a new perspective on how circuits in visual cortex employ excitation and inhibition to generate neuronal responses that are selective for an object’s direction of motion.&lt;/p&gt;
+&lt;p&gt;MPFI researchers first needed a better picture of the direction selectivity supplied by a neuron’s excitatory synaptic inputs. To do this they used in vivo two-photon microscopy to characterize the direction selectivity of individual excitatory synaptic inputs onto the dendrites of a neuron, comparing this with the neuron’s overall direction preference. Surprisingly, what they discovered goes against the grain of traditional thinking. Although, many of the synapses aligned with the overall directional preference of the neuron, a large number were found to respond best to the opposite (null) direction of motion, a pattern of connectivity that contrasts sharply with “like connects with like” rule. They also noticed a conspicuous mismatch between the strength of a neuron’s direction selectivity, and that predicted by its excitatory synaptic inputs. The degree of direction selectivity that the neurons exhibited was significantly greater than what would have been expected from such a broad range of excitatory inputs.&lt;/p&gt;
+&lt;p&gt;To further probe the factor(s) responsible for this puzzling difference between the neuron’s excitatory inputs and its output, they turned to a different set of experiments using in vivo whole-cell patch-clamp electrophysiology. This technique makes it possible to measure the total sum of synaptic inputs contributing to a neuron’s response and to compare the contribution of excitatory and inhibitory synaptic inputs. The results for the excitatory inputs were consistent with the two-photon imaging data confirming a significant amount of excitatory input for both the preferred and the null direction of motion. The results for inhibition provided the team with another challenge to traditional thinking and a potential explanation for the puzzling input/output difference: In fact, the tuning of the inhibitory inputs did not match the excitatory inputs. For many neurons the strength of inhibition was greatest for the null direction of motion, suggesting that excitatory synaptic inputs to the null direction were being selectively dampened through inhibition.&lt;/p&gt;
+&lt;p&gt;These findings predict that cortical inhibitory neurons make a substantial number of synaptic inputs to excitatory neurons that prefer the opposite direction of motion. The researchers applied two novel approaches to examine this question, first charting the anatomical connections of functionally defined inhibitory neurons, and then using optogenetics (selectively activating inhibitory neurons with light) to map the source of inhibitory inputs to single excitatory neurons. In tandem, these techniques confirmed that inhibitory connections to excitatory neurons often originated from neurons that preferred the opposite direction of motion.&lt;/p&gt;
+&lt;p&gt;Beyond disentangling the mechanism responsible for direction selectivity, these discoveries emphasize the flexible ways in which neural circuits can integrate excitatory and inhibitory inputs to build the variety of selective response properties critical for neural coding. Like doesn’t always connect with like and excitation doesn’t always match inhibition, but you can count on brain circuits to have evolved the combination of inputs necessary to ensure high levels of functional performance.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;This work was supported by National Institutes of Health, Max Planck Florida Institute for Neuroscience and Max Planck Society. The content of this article is solely the responsibility of the authors and does not necessarily represent the official views of the funding agencies.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Differential tuning of excitation and inhibition shapes direction selectivity in ferret visual cortex.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Daniel E. Wilson*, Benjamin Scholl* and David Fitzpatrick&lt;br /&gt;
+*Co-first authors&lt;/p&gt;
+&lt;p&gt;Nature, July 25 2018, Online Publication.&lt;br /&gt;
+DOI: 10.1038/s41586-018-0354-1&lt;/p&gt;</content>
+		<author>
+			<name>Helena Decker</name>
+			<uri>https://www.maxplanckflorida.org</uri>
+		</author>
+		<source>
+			<title type="html">Max Planck Florida Institute for Neuroscience</title>
+			<subtitle type="html">Max Planck Florida Institute for Neuroscience</subtitle>
+			<link rel="self" href="https://www.maxplanckflorida.org/feed/"/>
+			<id>https://www.maxplanckflorida.org</id>
+			<updated>2018-07-25T05:00:35+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">What leech gut bacteria can tell us about drug resistance</title>
@@ -17,13 +54,13 @@
  A bacteria found in leeches becomes drug resistant after only a small exposure to common antibiotics.</content>
 		<author>
 			<name>Leah Rosenbaum</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -486,13 +523,13 @@
  Scientists have released the last big result from the cosmic microwave background experiment Planck.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -547,13 +584,13 @@
  Bigfoot has been found in Wyoming. It’s not a hairy, apelike creature; it’s a dinosaur.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -603,7 +640,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -616,13 +653,13 @@
  Common food additives found in meats, plastic packaging or metal cans may contain chemicals that harm children’s health.</content>
 		<author>
 			<name>Leah Rosenbaum</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -674,13 +711,13 @@
  For the first time, researchers have built circuits on microscopic chips that can be mixed into an aerosol spray.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -713,13 +750,13 @@
  A year ago, an iceberg calved off of the Larsen C ice shelf. The hunk of ice hasn’t moved much since, and that has scientists keeping an eye on it.</content>
 		<author>
 			<name>Leah Rosenbaum</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -761,7 +798,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -781,7 +818,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-07-24T23:00:32+00:00</updated>
+			<updated>2018-07-25T05:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -858,13 +895,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  In 1968, scientists figured out how to determine the sex of rabbit embryos.</content>
 		<author>
 			<name>Bethany Brookshire</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -924,13 +961,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  The newly defined Meghalayan Age began at the same time as a global, climate-driven event that led to human upheavals.</content>
 		<author>
 			<name>Beth Geiger</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -999,7 +1036,7 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1054,13 +1091,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  Coral reefs in deep-water ecosystems may not make good homes for species from damaged shallow reefs.</content>
 		<author>
 			<name>Leah Rosenbaum</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1073,13 +1110,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  The spiky, fossilized skull of a newly discovered dinosaur species may be a road map to its ancestors’ journey to North America.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1092,13 +1129,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  Scientists compiled 21 million images to craft the highest-resolution view yet of the fruit fly brain.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1131,13 +1168,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  Neutrinos and light travel at essentially the same speed, as predicted.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1236,7 +1273,7 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1294,7 +1331,7 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-07-24T23:00:32+00:00</updated>
+			<updated>2018-07-25T05:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1307,13 +1344,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  Drugs that incorporate modified botulinum toxin provide long-term pain relief, a study in mice finds.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1326,13 +1363,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  A machine that gently catches and releases animals underwater could help researchers take a more detailed census of the deep sea.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1345,13 +1382,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  Amber preserves the delicate bone structure of a 99 million year old baby snake.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1469,13 +1506,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  A new strategy at the Very Large Telescope lets astronomers take space telescope–quality pictures from the ground.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1526,7 +1563,7 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1546,7 +1583,7 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-07-24T23:00:32+00:00</updated>
+			<updated>2018-07-25T05:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1559,13 +1596,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  Swimmers may not have suddenly dominated the oceans during the Devonian Period after all: New analyses suggest they took over much more gradually.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1627,7 +1664,7 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-07-24T23:00:35+00:00</updated>
+			<updated>2018-07-25T05:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1640,13 +1677,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  Astronomers found a dozen previously unknown moons of Jupiter, and one may be a remnant of a larger moon that was all but ground to dust.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1679,13 +1716,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  A new book examines how lead ended up in Flint’s water and resulted in a prolonged public health disaster.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1716,7 +1753,7 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2263,13 +2300,13 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
  America’s air is getting cleaner — except in places that are prone to wildfires.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_37264624326629175=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-07-24T23:00:31+00:00</updated>
+			<updated>2018-07-25T05:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2354,7 +2391,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<subtitle type="html">Max Planck Florida Institute for Neuroscience</subtitle>
 			<link rel="self" href="https://www.maxplanckflorida.org/feed/"/>
 			<id>https://www.maxplanckflorida.org</id>
-			<updated>2018-07-23T23:00:30+00:00</updated>
+			<updated>2018-07-25T05:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2393,27 +2430,7 @@ DOI: 10.1038/s41593-018-0184-3&lt;/p&gt;</content>
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-07-24T23:00:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Gluten-free turkeys? Paper on dangers of wheat-based diet in birds retracted</title>
-		<link href="https://retractionwatch.com/2018/07/16/gluten-free-turkeys-paper-on-dangers-of-wheat-based-diet-in-birds-retracted/"/>
-		<id>http://retractionwatch.com/?p=68245</id>
-		<updated>2018-07-16T12:00:36+00:00</updated>
-		<content type="html">
- The journal Scientifica has retracted a 2016 paper on gut disease in turkeys for a rafter of sins including plagiarism and authors plucked out of thin air. The article, “Role of wheat based diet on the pathology of necrotic enteritis in turkeys,” was purportedly written by a team from Pakistan and France. But it turns … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/07/16/gluten-free-turkeys-paper-on-dangers-of-wheat-based-diet-in-birds-retracted/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Gluten-free turkeys? Paper on dangers of wheat-based diet in birds retracted&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Adam Marcus</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2018-07-24T17:00:33+00:00</updated>
+			<updated>2018-07-25T05:00:35+00:00</updated>
 		</source>
 	</entry>
 
