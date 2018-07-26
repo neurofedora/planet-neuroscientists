@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/most-americans-think-ok-tweak-baby-genes-prevent-disease" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/can-computer-programs-flag-fake-news" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/cold-mice-are-still-affecting-cancer-research-data-shows" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-quasiparticle-collexon-lurks-semiconductors" />
 			<rdf:li rdf:resource="https://governancexborders.com/2018/07/25/predatory-open-access-journals-is-open-peer-review-any-help/" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0818-68" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0818-64" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0818-6" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0818-56" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0818-44" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-public/most-americans-think-ok-tweak-baby-genes-prevent-disease">
+	<title>Science News: Most Americans think it’s OK to tweak a baby’s genes to prevent disease</title>
+	<link>https://www.sciencenews.org/blog/science-public/most-americans-think-ok-tweak-baby-genes-prevent-disease</link>
+	<content:encoded>Americans generally favor tweaking a baby’s genes to reduce the chance of getting a disease, but think boosting intelligence is a step too far.</content:encoded>
+	<dc:date>2018-07-26T22:26:10+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/can-computer-programs-flag-fake-news">
+	<title>Science News: People are bad at spotting fake news. Can computer programs do better?</title>
+	<link>https://www.sciencenews.org/article/can-computer-programs-flag-fake-news</link>
+	<content:encoded>Fake news–finding algorithms could someday make up the front lines of online fact checking.</content:encoded>
+	<dc:date>2018-07-26T17:30:04+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.elsevier.com/connect/cold-mice-are-still-affecting-cancer-research-data-shows">
 	<title>Elsevier Connect: Cold mice are still affecting cancer research, data shows</title>
 	<link>https://www.elsevier.com/connect/cold-mice-are-still-affecting-cancer-research-data-shows</link>
@@ -1210,30 +1224,6 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 &lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/p9S9GKn_g5k&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-07-17T00:00:00+00:00</dc:date>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0818-56">
-	<title>Scientific American: Bringing Darwin Back</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/tQW9lji8eAA/scientificamerican0818-56</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 56 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0818-56&quot;&gt;doi:10.1038/scientificamerican0818-56&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Adam Piore&lt;/p&gt;
-&lt;p&gt;Research shows that 60 percent of American teachers avoid or skimp on teaching evolution. A growing movement is trying to change that&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/tQW9lji8eAA&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-07-17T00:00:00+00:00</dc:date>
-	<dc:creator>Adam Piore</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0818-44">
-	<title>Scientific American: Underwater</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/PsbJkLPmcyE/scientificamerican0818-44</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 44 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0818-44&quot;&gt;doi:10.1038/scientificamerican0818-44&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Jen Schwartz&lt;/p&gt;
-&lt;p&gt;Coastal communities struggling to adapt to rising seas are beginning to do what was once unthinkable: retreat&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/PsbJkLPmcyE&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-07-17T00:00:00+00:00</dc:date>
-	<dc:creator>Jen Schwartz</dc:creator>
 </item>
 
 </rdf:RDF>
