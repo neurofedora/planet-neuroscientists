@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=69421" />
 			<rdf:li rdf:resource="https://neuromat.numec.prp.usp.br/449 at https://neuromat.numec.prp.usp.br" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1687" />
 			<rdf:li rdf:resource="https://hk.jobsdb.com/hk/en/job/library-assistant-ii-100003006357705" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/most-complete-look-yet-fruit-fly-brain-cells" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=68621" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/neutrinos-travel-light-speed-not-slowed-spacetime-foam" />
-			<rdf:li rdf:resource="http://romainbrette.fr/?p=1519" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://retractionwatch.com/?p=69421">
+	<title>Retraction watch: After years of court battles, former Wayne State researcher barred from federal grants for five years</title>
+	<link>https://retractionwatch.com/2018/07/31/after-years-of-court-battles-former-wayne-state-researcher-barred-from-federal-grants-for-five-years/</link>
+	<content:encoded>In a case that has involved eight years of misconduct allegations, two U.S. Federal agencies, a state university, and multiple lawsuits, a former Wayne State researcher has earned a five-year ban on Federal funding. U.S. Administrative Law Judge Keith W. Sickendick found that Christian Kreipke recklessly caused or permitted twenty-three (23) instances of research misconduct in his … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/07/31/after-years-of-court-battles-former-wayne-state-researcher-barred-from-federal-grants-for-five-years/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;After years of court battles, former Wayne State researcher barred from federal grants for five years&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-07-31T23:06:24+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://neuromat.numec.prp.usp.br/449 at https://neuromat.numec.prp.usp.br">
 	<title>NeuroMat: Newsletter #54</title>
 	<link>https://neuromat.numec.prp.usp.br/newsletter-54</link>
@@ -1232,24 +1239,6 @@ As I said at the time, Cluster Failure wasn't actually making especially new cla
 	<content:encoded>Neutrinos and light travel at essentially the same speed, as predicted.</content:encoded>
 	<dc:date>2018-07-19T11:00:04+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://romainbrette.fr/?p=1519">
-	<title>Romain Brette: What is computational neuroscience? (XXXII) The problem of biological measurement (2)</title>
-	<link>http://romainbrette.fr/what-is-computational-neuroscience-xxxii-the-problem-of-biological-measurement-2/</link>
-	<content:encoded>&lt;p&gt;In the &lt;a href=&quot;http://romainbrette.fr/what-is-computational-neuroscience-xxxi-the-problem-of-biological-measurement-1/&quot;&gt;previous post&lt;/a&gt;, I have pointed out differences between biological sensing and physical measurement. A direct consequence is that it is not so straightforward to apply the framework of control theory to biological systems. At the level of behavior, it seems clear that animal behavior involves control; it is quite documented in the case of motor control. But this is the perspective of an external observer: the target value, the actual value and the error criterion are identified with physical measurements by an external observer. But how does the organism achieve this control, from its own perspective?&lt;/p&gt;
-&lt;p&gt;What the organism does not do, at least not directly, is measure the physical dimension and compare it to a target value. Rather, the biological system is influenced by the physical signal and reacts in a way that makes the physical dimension closer to a target value. How? I do not have a definite answer to this question, but I will explore a few possibilities.&lt;/p&gt;
-&lt;p&gt;Let us first explore a conventional possibility. The sensory neuron encodes the sensory input (eg muscle stretch) in some way; the control system decodes it, and then compares it to a target value. So for example, let us say that the sensory neuron is an integrate-and-fire neuron. If the input is constant, then the interspike interval can be mapped back to the input value. If the input is not constant, it is more complicated but estimates are possible. There are various studies relevant to this problem (for example &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0925231204000177&quot;&gt;Lazar (2004)&lt;/a&gt;; see also the work of &lt;a href=&quot;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003258&quot;&gt;Sophie Denève, e.g. 2013&lt;/a&gt;). But all these solutions require knowing quite precisely how the input has been encoded. Suppose for example that the sensory neuron adapts with some time constant. Then the decoder needs somehow to de-adapt. But to do it correctly, one needs to know the time constant accurately enough, otherwise biases are introduced. If we consider that the encoder itself learns, e.g. by adapting to signal statistics (as in the efficient coding hypothesis), then the properties of the encoder must be considered unknown by the decoder.&lt;/p&gt;
-&lt;p&gt;Can the decoder learn to decode the sensory spikes? The problem is it does not have access to the original signal. The key question then is: what could the error criterion be? If the system has no access to the original signal but only streams of spikes, then how could it evaluate an error? One idea is to make an assumption about some properties of the original signal. One could for example assume that the original signal varies slowly, in contrast with the spike train, which is a highly fluctuating signal. Thus we may look for a slow reconstruction of the signal from the spike train; this is in essence the idea of &lt;a href=&quot;http://www.scholarpedia.org/article/Slow_feature_analysis&quot;&gt;slow feature analysis&lt;/a&gt;. But the original signal might not be slowly fluctuating, as it is influenced by the actions of the controller, so it is not clear that this criterion will work.&lt;/p&gt;
-&lt;p&gt;Thus it is not so easy to think of a control system which would decode the sensory neuron activity into the original signal so as to compare it to a target value. But beyond this technical issue (how to learn the decoder), there is a more fundamental question: why splitting the work into two units (encoder/decoder), if the function of the second one is essentially to undo the work of the first one?&lt;/p&gt;
-&lt;p&gt;An alternative is to examine the system as a whole. We consider the physical system (environment), the sensory neuron, the actuator, and the interneurons (corresponding to the control system). Instead of seeing the sensory neuron as involved in an act of measurement and communication and the interneurons as involved in an act of interpretation and command, we see the entire system as a distributed dynamical system with a number of structural parameters. In terms of dynamical systems (rather than control), the question becomes: is the target value for the physical dimension an attractive fixed point of this system, or more generally, is there such a fixed point? (as opposed to fluctuations) We can then derive complementary questions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;robustness: is the fixed point robust to perturbations, for example changes in properties of the sensor, actuator or environment?&lt;/li&gt;
-&lt;li&gt;optimality: are there ways to adjust the structure of the system so that the firing rate is minimized (for example)?&lt;/li&gt;
-&lt;li&gt;control: can we change the fixed point by an intervention on this system? (e.g. on the interneurons)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thus, the problem becomes one of designing a spiking system that has an attractive fixed point in the physical dimension, with some desirable properties. Framing the problem in this way does not necessarily require that the physical dimension is explicitly extracted (“decoded”) from the activity of the sensory neuron. If we look at such a system, we might not be able to identify in any of the neurons a quantity that corresponds to the physical signal, or to the target value. Rather, physical signal and target value are to be found in the physical environment, and it is a property of the coupled dynamical system (neurons-environment) that the physical signal tends to approach the target value.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-07-19T10:06:56+00:00</dc:date>
-	<dc:creator>romain</dc:creator>
 </item>
 
 </rdf:RDF>
