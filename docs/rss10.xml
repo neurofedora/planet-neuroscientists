@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/researchers-confirm-crispr-edits-human-embryo-worked" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/debate-ice-free-pathway-americas-heats" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/geoengineering-tactic-cool-planet-could-hurt-crops" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasty-stomach-viruses-can-travel-packs" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=69726" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34451" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-wounds-heal-faster-mouth-other-skin" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11076" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=69124" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=69118" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/mars-may-have-lake-liquid-water-search-life" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/lowering-blood-pressure-may-help-brain" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/researchers-confirm-crispr-edits-human-embryo-worked">
+	<title>Science News: Researchers say CRISPR edits to a human embryo worked. But critics still doubt it</title>
+	<link>https://www.sciencenews.org/article/researchers-confirm-crispr-edits-human-embryo-worked</link>
+	<content:encoded>Researchers say that they have confirmed CRISPR/Cas9 edits of a heart disease–causing version of a gene, but critics still have doubts.</content:encoded>
+	<dc:date>2018-08-08T18:45:24+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/debate-ice-free-pathway-americas-heats">
+	<title>Science News: The debate over people’s pathway into the Americas heats up</title>
+	<link>https://www.sciencenews.org/article/debate-ice-free-pathway-americas-heats</link>
+	<content:encoded>Defenders of an ice-free inland passage for early Americans make their case.</content:encoded>
+	<dc:date>2018-08-08T18:00:06+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/geoengineering-tactic-cool-planet-could-hurt-crops">
+	<title>Science News: Global dimming may mitigate warming, but could hurt crop yields</title>
+	<link>https://www.sciencenews.org/article/geoengineering-tactic-cool-planet-could-hurt-crops</link>
+	<content:encoded>Injecting a veil of tiny particles into the atmosphere might reduce global warming, but it could also lower crop yields.</content:encoded>
+	<dc:date>2018-08-08T17:32:53+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/nasty-stomach-viruses-can-travel-packs">
 	<title>Science News: Nasty stomach viruses can travel in packs</title>
 	<link>https://www.sciencenews.org/article/nasty-stomach-viruses-can-travel-packs</link>
@@ -1648,27 +1669,6 @@ DOI: 10.1038/s41586-018-0354-1&lt;/p&gt;</content:encoded>
 	<content:encoded>When Nature published a paper in 2011 describing a compound extracted from a pepper plant that appeared to kill cancer cells but leave healthy cells unscathed, it got some attention. Of course, the news caught the media’s eye, but also that of other researchers, who have since jumped on the concept, and continued to study … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/07/25/nature-cancer-paper-that-raised-animal-welfare-concerns-is-retracted/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Nature cancer paper that raised animal welfare concerns is retracted&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-07-25T17:00:12+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=69118">
-	<title>Retraction watch: Meet two data sleuths who paid a steep price for raising concerns about a problematic paper</title>
-	<link>https://retractionwatch.com/2018/07/25/meet-two-data-sleuths-who-paid-a-steep-price-for-raising-concerns-about-a-problematic-paper/</link>
-	<content:encoded>Researchers Malte Elson and Patrick Markey probably didn’t know what they were getting into when they first raised questions about a problematic study of the possible effects of violent video games. Like many other data sleuths out there, they simply wanted to ensure the scientific record wasn’t muddied by problematic data — particularly in such … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/07/25/meet-two-data-sleuths-who-paid-a-steep-price-for-raising-concerns-about-a-problematic-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Meet two data sleuths who paid a steep price for raising concerns about a problematic paper&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-07-25T15:41:29+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/mars-may-have-lake-liquid-water-search-life">
-	<title>Science News: Mars (probably) has a lake of liquid water</title>
-	<link>https://www.sciencenews.org/article/mars-may-have-lake-liquid-water-search-life</link>
-	<content:encoded>A 15-year-old Mars orbiter has spotted signs of a salty lake beneath the Red Planet’s south polar ice sheets.</content:encoded>
-	<dc:date>2018-07-25T14:00:05+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/lowering-blood-pressure-may-help-brain">
-	<title>Science News: Lowering blood pressure may help the brain</title>
-	<link>https://www.sciencenews.org/article/lowering-blood-pressure-may-help-brain</link>
-	<content:encoded>Aggressively treating high blood pressure had a modest positive effect on the development of an early form of memory loss.</content:encoded>
-	<dc:date>2018-07-25T13:00:05+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
 
 </rdf:RDF>
