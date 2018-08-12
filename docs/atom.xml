@@ -5,8 +5,29 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-08-12T05:00:38+00:00</updated>
+	<updated>2018-08-12T11:00:45+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">NeuroML2/LEMS is moving into Neural Mass Models and whole brain networks</title>
+		<link href="http://neuralensemble.blogspot.com/2018/08/neuroml2lems-is-moving-into-neural-mass.html"/>
+		<id>tag:blogger.com,1999:blog-73903413139568172.post-7405391464617601053</id>
+		<updated>2018-08-12T10:25:06+00:00</updated>
+		<content type="html">
+ &lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;In the last months, as part of the Google Summer of Code 2018, I have been working on a project that aimed to implement neuronal models which represent averaged population activity on NeuroML2/LEMS. The project was supported by the INCF organisation and my mentor, Padraig Gleeson, and I had 3 months to shape and bring to life all the ideas that we had in our heads. This blog post summarises the core motivation of the project, the technical challenges, what I have done, and future steps.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-2b42ffb6-7fff-9f82-bb90-62c669712720&quot;&gt;&lt;span style=&quot;font-size: 16pt; vertical-align: baseline;&quot;&gt;Background&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;NeuroML version 2 and LEMS were introduced in order to standardise the description of neuroscience computational models and facilitate the shareability of results among different research groups&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;. However, so far, NeuroML2/LEMS have focused on modelling spiking neurons and how information is exchanged between them in networks. With the introduction of neural mass models, NeuroML2/LEMS can be extended to study interactions between large-scale systems such as cortical regions and indeed whole brain dynamics. To achieve this, my project consisted of implementing the basic structures needed in NeuroML2/LEMS to simulate Neural Mass Models and compare the results with previously published papers. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;What I did&lt;/span&gt;&lt;br /&gt;&lt;span&gt;During the project I focused on the implementation of three previously described Neural Mass Models into NeuroML2/LEMS:&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;1. &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-weight: 700; vertical-align: baseline;&quot;&gt;del Molino et al., 2017&lt;/span&gt;&lt;span style=&quot;color: #2c3f51; font-size: 6.6pt; vertical-align: super;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;: This study analyses the dynamics and interaction between excitatory neurons and three types of interneurons (parvalbumin (PV), somatostatin (SST) and vasoactive intestinal peptide (VIP) expressing).  It first looks at the interactions between single units representing each population and then it scales up to analyse the interaction between a network with multiple interacting units in each population. A detailed description of the model that I have implemented in NeuroML and an illustrative Jupyter notebook that reproduces the main findings from the paper can be found at this &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/del-Molino2017&quot;&gt;&lt;span style=&quot;color: #1155cc; font-size: 11pt; vertical-align: baseline;&quot;&gt;git repository&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-g1jGdV5iEVU/W23R9-cv-MI/AAAAAAAAAFA/Shhfgl5cLxQ3wrSNoysIVmjSFIODbnZ0ACK4BGAYYCw/s1600/Blog.png&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;131&quot; src=&quot;https://2.bp.blogspot.com/-g1jGdV5iEVU/W23R9-cv-MI/AAAAAAAAAFA/Shhfgl5cLxQ3wrSNoysIVmjSFIODbnZ0ACK4BGAYYCw/s400/Blog.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Overview of the del Molino et al., 2017 model implemented in NeuroML2/LEMS. The scheme on the left illustrate how the different populations are connected and the entry point of the top-down modulatory input. Once the dynamics of the interaction between single units have been analysed, we scale up to look at the interaction of a network of multiple interacting units in each population. The network population is illustrated on the right&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;2. &lt;/span&gt;&lt;span&gt;Wilson and Cowan, 1972&lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; This classic model describes the interaction between populations of excitatory and inhibitory neurons.  In this project, I have implemented a NEURON interpretation of the Wilson and Cowan model into NeuroML and compared the dynamics of the model by looking at the dynamics of the generated results. The repository with the Wilson and Cowan simulations can be found &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/WilsonCowan&quot;&gt;&lt;span&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-qVGIODQ60CE/W23STSB6iXI/AAAAAAAAAFQ/4JZhe9YRjUY--_TaguMCOZCHMOSSBxNsQCK4BGAYYCw/s1600/Blog_img.png&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;122&quot; src=&quot;https://3.bp.blogspot.com/-qVGIODQ60CE/W23STSB6iXI/AAAAAAAAAFQ/4JZhe9YRjUY--_TaguMCOZCHMOSSBxNsQCK4BGAYYCw/s400/Blog_img.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;Illustration of the population modelled with Wilson and Cowan simulation and how the dynamics over time change with (Drive) and without (No Drive) an additional external input current  &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;3. &lt;/span&gt;&lt;span&gt;Mejias et al., 2016&lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; analyses the dynamics across multiple scales of the primate cortex (intralaminar, interlaminar, interareal and whole cortex). This &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/MejiasEtAl2016&quot;&gt;&lt;span&gt;git repo&lt;/span&gt;&lt;/a&gt;&lt;span&gt; so far implements the intralaminar and interlaminar simulations of the cortex in Python and provides the methods needed for analysing the results from the NeuroML2/LEMS simulation.  It also contains a first model of the interlaminar simulation using NeuroML2/LEMS that will be further extended to simulate the firing rate at interlaminar, interareal and whole cortex level.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-aU1Zhqf0JPo/W27N9LOwrRI/AAAAAAAAAFo/3NshbNrTTFAQKyUJngoNmNXzfaUVTAQ3ACK4BGAYYCw/s1600/Mejias-2016.png&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;178&quot; src=&quot;https://1.bp.blogspot.com/-aU1Zhqf0JPo/W27N9LOwrRI/AAAAAAAAAFo/3NshbNrTTFAQKyUJngoNmNXzfaUVTAQ3ACK4BGAYYCw/s320/Mejias-2016.png&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-87b69d2b-7fff-0b08-8a02-067cbec3775a&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Illustration of the Mejias et al., 2016 models implemented so far: While at the intralaminar level analyses the dynamics of the excitatory (in red) and inhibitory population (in blue) for each layer are considered independent, in the interlaminar the interaction between supra- (Layer 2/3) and infragranular (Layer 5/6) layers are taken into account &lt;/span&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 6pt; margin-top: 18pt; text-align: justify;&quot;&gt;&lt;span&gt;The technical challenges &lt;/span&gt;&lt;/h2&gt;&lt;span&gt;In order to be able to simulate Neural Mass Models, we had to extend previously defined  NeuroML2 components used to simulate spiking models. To this end we defined two new core components: &lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;font-size: 14.6667px; white-space: pre-wrap;&quot;&gt;&lt;span id=&quot;docs-internal-guid-e477b008-7fff-8dd4-b442-05fd264abd52&quot;&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;&lt;i&gt;baseRateUnit&lt;/i&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;: which extends the &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-style: italic; vertical-align: baseline;&quot;&gt;baseCellMembPot&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt; but instead of exposing the membrane potential it exposes the population’s firing rate.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-0935755b-7fff-5552-0725-7a0c8bc2eabc&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-style: italic; vertical-align: baseline;&quot;&gt;rateSynapse&lt;/span&gt;&lt;/span&gt;: In the spiking models a change in current is only triggered if the cell membrane exceeds a specific threshold. In a rate base model, however, there is a continuous transmission of currents between the populations. Therefore we extended the &lt;/span&gt;&lt;span&gt;baseSynapse &lt;/span&gt;&lt;span&gt;component so that it allows the continuous transmission of currents between the population using continuous connections. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-541aabfc-7fff-832a-c703-542833057165&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;The detailed implementation of the two components can be found &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/del-Molino2017/blob/master/NeuroML/RateBased.xml&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-01e79bd8-7fff-6012-bcd0-2eb847fab49f&quot;&gt;&lt;span&gt;The future&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;The projects I have worked on during these 3 months were a proof of concept to explore how NeuroML2/LEMS can be extended to simulate Neural Mass Models. They provided valuable insight into the necessary components to extend NeuroML2/LEMS to large-scale dynamics and a proof of concept that the generated signal is comparable to those generated with other tools.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;These are, however, just the first steps into a very interesting direction: just imagine how incredible it would be to extend this data to a whole brain simulation. One possible candidate would be to use mouse data for the simulation (e.g. from the &lt;a href=&quot;http://brain-map.org/&quot;&gt;Allen Institute mouse connectivity datasets&lt;/a&gt;&lt;/span&gt;&lt;span&gt;). So stay tuned for future updates!&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-414cf3b8-7fff-3cd9-b824-0ab9087a55ec&quot;&gt;&lt;span&gt;The experience&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-eff71f1b-7fff-0053-327a-e4a1236a34a6&quot;&gt;&lt;span&gt;Working on this project was not only a great way of getting to learn the intricacies of NeuroML, get a better understanding of Neural Mass Models but it was also a great opportunity to get my hands dirty with the code. It was also very satisfying to produce in a short time something from the beginning to the end. In addition to all these, it was also my first contact with the open source community. Thank you very much Padraig, for the help and the guidance during these months!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-a8ee7391-7fff-c572-b415-0aecc4e13afb&quot;&gt;&lt;span&gt;References&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;span&gt;1 &lt;/span&gt;&lt;span&gt;Cannon, R. C., Gleeson, P., Crook, S., Ganapathy, G., Marin, B., Piasini, E., &amp;amp; Silver, R. A. (2014). LEMS: a language for expressing complex biological models in concise and hierarchical form and its use in underpinning NeuroML 2. Frontiers in neuroinformatics, 8, 79 &lt;/span&gt;&lt;a href=&quot;https://doi.org/10.3389/fninf.2014.00079&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;https://doi.org/10.3389/fninf.2014.00079&lt;/span&gt;&lt;/a&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt; Garcia Del Molino, Luis Carlos, Guangyu Robert Yang, Jorge F. Mejias, and Xiao-Jing Wang. 2017a. “Paradoxical Response Reversal of Top-down Modulation in Cortical Circuits with Three Interneuron Types.” eLife 6 (December). &lt;/span&gt;&lt;a href=&quot;https://doi.org/10.7554/eLife.29742&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;https://doi.org/10.7554/eLife.29742&lt;/span&gt;&lt;/a&gt;&lt;span&gt; . &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt; Wilson, H. R., &amp;amp; Cowan, J. D. (1972). Excitatory and inhibitory interactions in localized populations of model neurons. Biophysical journal, 12(1), 1-24 &lt;/span&gt;&lt;a href=&quot;http://dx.doi.org/0.1016/S0006-3495(72)86068-5&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;http://dx.doi.org/0.1016/S0006-3495(72)86068-5&lt;/span&gt;&lt;/a&gt;&lt;span&gt; . &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt; Mejias, Jorge F., John D. Murray, Henry Kennedy, and Xiao-Jing Wang. 2016a. “Feedforward and Feedback Frequency-Dependent Interactions in a Large-Scale Laminar Network of the Primate Cortex.” &lt;/span&gt;&lt;a href=&quot;https://doi.org/10.1101/065854&quot;&gt;&lt;span&gt;https://doi.org/10.1101/065854&lt;/span&gt;&lt;/a&gt;&lt;span&gt; .  &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</content>
+		<author>
+			<name>Jessica Dafflon</name>
+			<email>noreply@blogger.com</email>
+			<uri>http://neuralensemble.blogspot.com/</uri>
+		</author>
+		<source>
+			<title type="html">Neural Ensemble News</title>
+			<subtitle type="html">Neural Ensemble News</subtitle>
+			<link rel="self" href="http://www.blogger.com/feeds/73903413139568172/posts/default"/>
+			<id>tag:blogger.com,1999:blog-73903413139568172</id>
+			<updated>2018-08-12T10:25:06+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Weekend reads: Why rhetoric and self-censorship is bad for science; an author threatens to sue his critics; why whistleblowing is critical</title>
@@ -25,27 +46,6 @@
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
 			<updated>2018-08-11T17:00:30+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">NeuroML2/LEMS is moving into Neural Mass Models and whole brain networks</title>
-		<link href="http://neuralensemble.blogspot.com/2018/08/neuroml2lems-is-moving-into-neural-mass.html"/>
-		<id>tag:blogger.com,1999:blog-73903413139568172.post-7405391464617601053</id>
-		<updated>2018-08-11T11:52:44+00:00</updated>
-		<content type="html">
- &lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;In the last months, as part of the Google Summer of Code 2018, I have been working on a project that aimed to implement neuronal models which represent averaged population activity on NeuroML2/LEMS. The project was supported by the INCF organisation and my mentor, Padraig Gleeson, and I had 3 months to shape and bring to life all the ideas that we had in our heads. This blog post summarises the core motivation of the project, the technical challenges, what I have done, and future steps.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-2b42ffb6-7fff-9f82-bb90-62c669712720&quot;&gt;&lt;span style=&quot;font-size: 16pt; vertical-align: baseline;&quot;&gt;Background&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;NeuroML version 2 and LEMS were introduced in order to standardise the description of neuroscience computational models and facilitate the shareability of results among different research groups&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;. However, so far, NeuroML2/LEMS have focused on modelling spiking neurons and how information is exchanged between them in networks. With the introduction of neural mass models, NeuroML2/LEMS can be extended to study interactions between large-scale systems such as cortical regions and indeed whole brain dynamics. To achieve this, my project consisted of implementing the basic structures needed in NeuroML2/LEMS to simulate Neural Mass Models and compare the results with previously published papers. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;What I did&lt;/span&gt;&lt;br /&gt;&lt;span&gt;During the project I focused on the implementation of three previously described Neural Mass Models into NeuroML2/LEMS:&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;1. &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-weight: 700; vertical-align: baseline;&quot;&gt;del Molino et al., 2017&lt;/span&gt;&lt;span style=&quot;color: #2c3f51; font-size: 6.6pt; vertical-align: super;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;: This study analyses the dynamics and interaction between excitatory neurons and three types of interneurons (parvalbumin (PV), somatostatin (SST) and vasoactive intestinal peptide (VIP) expressing).  It first looks at the interactions between single units representing each population and then it scales up to analyse the interaction between a network with multiple interacting units in each population. A detailed description of the model that I have implemented in NeuroML and an illustrative Jupyter notebook that reproduces the main findings from the paper can be found at this &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/del-Molino2017&quot;&gt;&lt;span style=&quot;color: #1155cc; font-size: 11pt; vertical-align: baseline;&quot;&gt;git repository&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-g1jGdV5iEVU/W23R9-cv-MI/AAAAAAAAAFA/Shhfgl5cLxQ3wrSNoysIVmjSFIODbnZ0ACK4BGAYYCw/s1600/Blog.png&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;131&quot; src=&quot;https://2.bp.blogspot.com/-g1jGdV5iEVU/W23R9-cv-MI/AAAAAAAAAFA/Shhfgl5cLxQ3wrSNoysIVmjSFIODbnZ0ACK4BGAYYCw/s400/Blog.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Overview of the del Molino et al., 2017 model implemented in NeuroML2/LEMS. The scheme on the left illustrate how the different populations are connected and the entry point of the top-down modulatory input. Once the dynamics of the interaction between single units have been analysed, we scale up to look at the interaction of a network of multiple interacting units in each population. The network population is illustrated on the right&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;2. &lt;/span&gt;&lt;span&gt;Wilson and Cowan, 1972&lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; This classic model describes the interaction between populations of excitatory and inhibitory neurons.  In this project, I have implemented a NEURON interpretation of the Wilson and Cowan model into NeuroML and compared the dynamics of the model by looking at the dynamics of the generated results. The repository with the Wilson and Cowan simulations can be found &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/WilsonCowan&quot;&gt;&lt;span&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-qVGIODQ60CE/W23STSB6iXI/AAAAAAAAAFQ/4JZhe9YRjUY--_TaguMCOZCHMOSSBxNsQCK4BGAYYCw/s1600/Blog_img.png&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;122&quot; src=&quot;https://3.bp.blogspot.com/-qVGIODQ60CE/W23STSB6iXI/AAAAAAAAAFQ/4JZhe9YRjUY--_TaguMCOZCHMOSSBxNsQCK4BGAYYCw/s400/Blog_img.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;Illustration of the population modelled with Wilson and Cowan simulation and how the dynamics over time change with (Drive) and without (No Drive) an additional external input current  &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;3. &lt;/span&gt;&lt;span&gt;Mejias et al., 2016&lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; analyses the dynamics across multiple scales of the primate cortex (intralaminar, interlaminar, interareal and whole cortex). This &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/MejiasEtAl2016&quot;&gt;&lt;span&gt;git repo&lt;/span&gt;&lt;/a&gt;&lt;span&gt; so far implements the intralaminar and interlaminar simulations of the cortex in Python and provides the methods needed for analysing the results from the NeuroML2/LEMS simulation.  It also contains a first model of the interlaminar simulation using NeuroML2/LEMS that will be further extended to simulate the firing rate at interlaminar, interareal and whole cortex level.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-aU1Zhqf0JPo/W27N9LOwrRI/AAAAAAAAAFo/3NshbNrTTFAQKyUJngoNmNXzfaUVTAQ3ACK4BGAYYCw/s1600/Mejias-2016.png&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;178&quot; src=&quot;https://1.bp.blogspot.com/-aU1Zhqf0JPo/W27N9LOwrRI/AAAAAAAAAFo/3NshbNrTTFAQKyUJngoNmNXzfaUVTAQ3ACK4BGAYYCw/s320/Mejias-2016.png&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-87b69d2b-7fff-0b08-8a02-067cbec3775a&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Illustration of the Mejias et al., 2016 models implemented so far: While at the intralaminar level analyses the dynamics of the excitatory (in red) and inhibitory population (in blue) for each layer are considered independent, in the interlaminar the interaction between supra- (Layer 2/3) and infragranular (Layer 5/6) layers are taken into account &lt;/span&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 6pt; margin-top: 18pt; text-align: justify;&quot;&gt;&lt;span&gt;The technical challenges &lt;/span&gt;&lt;/h2&gt;&lt;span&gt;In order to be able to simulate Neural Mass Models, we had to extend previously defined  NeuroML2 components used to simulate spiking models. To this end we defined two new core components: &lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;font-size: 14.6667px; white-space: pre-wrap;&quot;&gt;&lt;span id=&quot;docs-internal-guid-e477b008-7fff-8dd4-b442-05fd264abd52&quot;&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;&lt;i&gt;baseRateUnit&lt;/i&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt;: which extends the &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-style: italic; vertical-align: baseline;&quot;&gt;baseCellMembPot&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; vertical-align: baseline;&quot;&gt; but instead of exposing the membrane potential it exposes the population’s firing rate.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-0935755b-7fff-5552-0725-7a0c8bc2eabc&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-style: italic; vertical-align: baseline;&quot;&gt;rateSynapse&lt;/span&gt;&lt;/span&gt;: In the spiking models a change in current is only triggered if the cell membrane exceeds a specific threshold. In a rate base model, however, there is a continuous transmission of currents between the populations. Therefore we extended the &lt;/span&gt;&lt;span&gt;baseSynapse &lt;/span&gt;&lt;span&gt;component so that it allows the continuous transmission of currents between the population using continuous connections. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-541aabfc-7fff-832a-c703-542833057165&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;The detailed implementation of the two components can be found &lt;/span&gt;&lt;a href=&quot;https://github.com/OpenSourceBrain/del-Molino2017/blob/master/NeuroML/RateBased.xml&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-01e79bd8-7fff-6012-bcd0-2eb847fab49f&quot;&gt;&lt;span&gt;The future&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;The projects I have worked on during these 3 months were a proof of concept to explore how NeuroML2/LEMS can be extended to simulate Neural Mass Models. They provided valuable insight into the necessary components to extend NeuroML2/LEMS to large-scale dynamics and a proof of concept that the generated signal is comparable to those generated with other tools.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;These are, however, just the first steps into a very interesting direction: just imagine how incredible it would be to extend this data to a whole brain simulation. One possible candidate would be to use mouse data for the simulation (e.g. from the &lt;a href=&quot;http://brain-map.org/&quot;&gt;Allen Institute mouse connectivity datasets&lt;/a&gt;&lt;/span&gt;&lt;span&gt;). So stay tuned for future updates!&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-414cf3b8-7fff-3cd9-b824-0ab9087a55ec&quot;&gt;&lt;span&gt;The experience&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-eff71f1b-7fff-0053-327a-e4a1236a34a6&quot;&gt;&lt;span&gt;Working on this project was not only a great way of getting to learn the intricacies of NeuroML, get a better understanding of Neural Mass Models but it was also a great opportunity to get my hands dirty with the code. It was also very satisfying to produce in a short time something from the beginning to the end. In addition to all these, it was also my first contact with the open source community. Thank you very much Padraig, for the help and the guidance during these months!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span id=&quot;docs-internal-guid-a8ee7391-7fff-c572-b415-0aecc4e13afb&quot;&gt;&lt;span&gt;References&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;span&gt;1 &lt;/span&gt;&lt;span&gt;Cannon, R. C., Gleeson, P., Crook, S., Ganapathy, G., Marin, B., Piasini, E., &amp;amp; Silver, R. A. (2014). LEMS: a language for expressing complex biological models in concise and hierarchical form and its use in underpinning NeuroML 2. Frontiers in neuroinformatics, 8, 79 &lt;/span&gt;&lt;a href=&quot;https://doi.org/10.3389/fninf.2014.00079&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;https://doi.org/10.3389/fninf.2014.00079&lt;/span&gt;&lt;/a&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt; Garcia Del Molino, Luis Carlos, Guangyu Robert Yang, Jorge F. Mejias, and Xiao-Jing Wang. 2017a. “Paradoxical Response Reversal of Top-down Modulation in Cortical Circuits with Three Interneuron Types.” eLife 6 (December). &lt;/span&gt;&lt;a href=&quot;https://doi.org/10.7554/eLife.29742&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;https://doi.org/10.7554/eLife.29742&lt;/span&gt;&lt;/a&gt;&lt;span&gt; . &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt; Wilson, H. R., &amp;amp; Cowan, J. D. (1972). Excitatory and inhibitory interactions in localized populations of model neurons. Biophysical journal, 12(1), 1-24 &lt;/span&gt;&lt;a href=&quot;http://dx.doi.org/0.1016/S0006-3495(72)86068-5&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span&gt;http://dx.doi.org/0.1016/S0006-3495(72)86068-5&lt;/span&gt;&lt;/a&gt;&lt;span&gt; . &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.92; margin-bottom: 12pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt; Mejias, Jorge F., John D. Murray, Henry Kennedy, and Xiao-Jing Wang. 2016a. “Feedforward and Feedback Frequency-Dependent Interactions in a Large-Scale Laminar Network of the Primate Cortex.” &lt;/span&gt;&lt;a href=&quot;https://doi.org/10.1101/065854&quot; style=&quot;font-size: small;&quot;&gt;&lt;span&gt;https://doi.org/10.1101/065854&lt;/span&gt;&lt;/a&gt;&lt;span&gt; .  &lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;</content>
-		<author>
-			<name>Jessica Dafflon</name>
-			<email>noreply@blogger.com</email>
-			<uri>http://neuralensemble.blogspot.com/</uri>
-		</author>
-		<source>
-			<title type="html">Neural Ensemble News</title>
-			<subtitle type="html">Neural Ensemble News</subtitle>
-			<link rel="self" href="http://www.blogger.com/feeds/73903413139568172/posts/default"/>
-			<id>tag:blogger.com,1999:blog-73903413139568172</id>
-			<updated>2018-08-11T11:52:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -84,7 +84,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -103,7 +103,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -122,7 +122,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -161,7 +161,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -241,7 +241,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -260,7 +260,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -279,7 +279,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -298,7 +298,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -318,7 +318,7 @@
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-08-12T05:00:30+00:00</updated>
+			<updated>2018-08-12T11:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -381,7 +381,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -420,7 +420,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -457,7 +457,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -476,7 +476,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -495,7 +495,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -514,7 +514,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -533,7 +533,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -582,7 +582,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -601,7 +601,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -620,7 +620,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -753,7 +753,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -792,7 +792,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -824,7 +824,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1056,7 +1056,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1299,7 +1299,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1318,7 +1318,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-08-12T05:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1428,7 +1428,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1448,7 +1448,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-08-11T05:00:29+00:00</updated>
+			<updated>2018-08-12T11:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1595,7 +1595,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1786,7 +1786,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2018,7 +2018,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2038,7 +2038,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2018-08-11T08:17:29+00:00</updated>
+			<updated>2018-08-12T08:32:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -2058,7 +2058,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-08-11T05:00:29+00:00</updated>
+			<updated>2018-08-12T11:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2392,7 +2392,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2412,7 +2412,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-08-11T05:00:29+00:00</updated>
+			<updated>2018-08-12T11:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2538,7 +2538,7 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-08-11T23:00:28+00:00</updated>
+			<updated>2018-08-12T11:00:30+00:00</updated>
 		</source>
 	</entry>
 
