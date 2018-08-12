@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/parker-solar-probe-launch" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-73903413139568172.post-7405391464617601053" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=69913" />
 			<rdf:li rdf:resource="https://digiday.com/media/subscription-publishers-wrestle-password-sharing/" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/new-ebola-virus-species-bats-sierra-leone" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-slime-mold-near-death-packs-bacteria-feed-next-generation" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-does-mars-lake-mean-search-life-red-planet" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/got-environmental-problem-beavers-could-be-solution" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/science-ticker/parker-solar-probe-launch">
+	<title>Science News: The Parker Solar Probe has launched and is on its way to explore the sun</title>
+	<link>https://www.sciencenews.org/blog/science-ticker/parker-solar-probe-launch</link>
+	<content:encoded>The Parker Solar Probe just took off to become the first spacecraft to visit the sun.</content:encoded>
+	<dc:date>2018-08-12T12:16:08+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-73903413139568172.post-7405391464617601053">
 	<title>Neural Ensemble News: NeuroML2/LEMS is moving into Neural Mass Models and whole brain networks</title>
 	<link>http://neuralensemble.blogspot.com/2018/08/neuroml2lems-is-moving-into-neural-mass.html</link>
@@ -1667,13 +1674,6 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 	<content:encoded>A lake spotted hiding under Martian ice could support life, but finding out if anything lives there could be challenging.</content:encoded>
 	<dc:date>2018-07-27T17:56:03+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/got-environmental-problem-beavers-could-be-solution">
-	<title>Science News: Got an environmental problem? Beavers could be the solution</title>
-	<link>https://www.sciencenews.org/article/got-environmental-problem-beavers-could-be-solution</link>
-	<content:encoded>A new book shows how important beavers have been in the past — and how they could improve the landscape of the future.</content:encoded>
-	<dc:date>2018-07-27T14:49:55+00:00</dc:date>
-	<dc:creator>Sarah Zielinski</dc:creator>
 </item>
 
 </rdf:RDF>
