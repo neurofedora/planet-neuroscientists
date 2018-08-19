@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9659" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9651" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70185" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-salamanders-can-regrow-tails-lizards-cant" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34446" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9637" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1707" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/killifish-can-go-egg-sex-two-weeks" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9659">
+	<title>Discovery magazine - Neuroskeptic: Science's Bullying Problem</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9659</link>
+	<content:encoded>Over the past few weeks, the stories of three high-profile scientists accused of bullying have emerged: geneticist Nazneen Rahman, psychologist Tania Singer and astrophysicist Guinevere Kauffmann.
+
+
+
+
+
+Each of these researchers are (or were) at the top of their fields, recipients of huge amounts of funding. They are accused of abuses of power, bullying and abuse of their subordinates and creating a climate of fear in their institutions.
+
+It would be easy to look to the personal character</content:encoded>
+	<dc:date>2018-08-19T15:45:39+00:00</dc:date>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9651">
 	<title>Discovery magazine - Neuroskeptic: Independence: A New Performance Indicator for Researchers?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9651</link>
@@ -1492,13 +1506,6 @@ The paper is called Populating the Data Ark and it's out now in PLoS ON</content
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2018-08-06T19:17:10+00:00</dc:date>
 	<dc:creator>Gursatya "Guru" Singh</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/killifish-can-go-egg-sex-two-weeks">
-	<title>Science News: This killifish can go from egg to sex in two weeks</title>
-	<link>https://www.sciencenews.org/article/killifish-can-go-egg-sex-two-weeks</link>
-	<content:encoded>The fastest known maturing vertebrate in the lab is even faster in the wild.</content:encoded>
-	<dc:date>2018-08-06T19:04:06+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
