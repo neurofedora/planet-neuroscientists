@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/heres-how-bend-spaghetti-your-will" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/naked-mole-rats-poop-queen-parenting-cues" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/replication-crisis-psychology-science-studies-statistics" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70456" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23899" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0918-94" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0918-88" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0918-82" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0918-76" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican0918-70" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/heres-how-bend-spaghetti-your-will">
+	<title>Science News: Here’s how to bend spaghetti to your will</title>
+	<link>https://www.sciencenews.org/article/heres-how-bend-spaghetti-your-will</link>
+	<content:encoded>Researchers have discovered how to snap spaghetti sticks without sending bits of pasta flying.</content:encoded>
+	<dc:date>2018-08-27T20:00:05+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/naked-mole-rats-poop-queen-parenting-cues">
+	<title>Science News: Naked mole rats eat the poop of their queen for parenting cues</title>
+	<link>https://www.sciencenews.org/article/naked-mole-rats-poop-queen-parenting-cues</link>
+	<content:encoded>Hormones in the naked mole rat queen’s poop turn subordinate nest-mates into surrogate parents.</content:encoded>
+	<dc:date>2018-08-27T19:00:04+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/science-public/replication-crisis-psychology-science-studies-statistics">
 	<title>Science News: ‘Replication crisis’ spurs reforms in how science studies are done</title>
 	<link>https://www.sciencenews.org/blog/science-public/replication-crisis-psychology-science-studies-statistics</link>
@@ -1598,30 +1612,6 @@ DOI: 10.1016/j.neuron.2018.07.024&lt;/p&gt;</content:encoded>
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/zxKTHDY4kj8&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-08-14T00:00:00+00:00</dc:date>
 	<dc:creator>Menno Schilthuizen</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0918-76">
-	<title>Scientific American: Why We Fight</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/9mB5x9Pc2A8/scientificamerican0918-76</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 76 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0918-76&quot;&gt;doi:10.1038/scientificamerican0918-76&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: R. Brian Ferguson&lt;/p&gt;
-&lt;p&gt;War may not be in our nature after all&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/9mB5x9Pc2A8&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-08-14T00:00:00+00:00</dc:date>
-	<dc:creator>R. Brian Ferguson</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican0918-70">
-	<title>Scientific American: The Origins of Morality</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/2FjjXscQkdY/scientificamerican0918-70</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 70 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican0918-70&quot;&gt;doi:10.1038/scientificamerican0918-70&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Michael Tomasello&lt;/p&gt;
-&lt;p&gt;How we learned to put our fate in one another's hands&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/2FjjXscQkdY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-08-14T00:00:00+00:00</dc:date>
-	<dc:creator>Michael Tomasello</dc:creator>
 </item>
 
 </rdf:RDF>
