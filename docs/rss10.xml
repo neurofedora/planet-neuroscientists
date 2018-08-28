@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/puerto-rico-hurricane-maria-death-toll" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/united-states-and-brazil-top-list-nations-most-gun-deaths" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/higgs-boson-decay-bottom-quarks-lhc" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/quantum-computer-d-wave-simulations" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1739" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/forecasting-toxic-algae-blooms" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70062" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/predatory-vs-trustworthy-journals-what-do-they-mean-for-the-integrity-of-science" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34535" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/resurrected-gene-may-protect-elephants-cancer" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-computer-program-generates-eerily-realistic-fake-videos" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=69981" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/puerto-rico-hurricane-maria-death-toll">
+	<title>Science News: Officials raise Puerto Rico’s death toll from Hurricane Maria to nearly 3,000 people</title>
+	<link>https://www.sciencenews.org/article/puerto-rico-hurricane-maria-death-toll</link>
+	<content:encoded>Nearly 3,000 Puerto Ricans died due to Hurricane Maria as of February 2018, according to a new report.</content:encoded>
+	<dc:date>2018-08-28T22:03:36+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/united-states-and-brazil-top-list-nations-most-gun-deaths">
+	<title>Science News: The United States and Brazil top the list of nations with the most gun deaths</title>
+	<link>https://www.sciencenews.org/article/united-states-and-brazil-top-list-nations-most-gun-deaths</link>
+	<content:encoded>Globally, the estimated number of gun deaths due to homicides, suicides and unintentional injuries went up from 1990 to 2016.</content:encoded>
+	<dc:date>2018-08-28T19:30:04+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/higgs-boson-decay-bottom-quarks-lhc">
+	<title>Science News: An elusive Higgs boson decay has finally been spotted</title>
+	<link>https://www.sciencenews.org/article/higgs-boson-decay-bottom-quarks-lhc</link>
+	<content:encoded>Two experiments at the Large Hadron Collider confirm that the Higgs boson decays into bottom quark pairs.</content:encoded>
+	<dc:date>2018-08-28T19:05:17+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/quantum-computer-d-wave-simulations">
 	<title>Science News: Quantum computer simulates two types of bizarre materials</title>
 	<link>https://www.sciencenews.org/article/quantum-computer-d-wave-simulations</link>
@@ -1554,27 +1575,6 @@ DOI: 10.1016/j.neuron.2018.07.024&lt;/p&gt;</content:encoded>
 &lt;p&gt;Again, there are other objections too, many of them more technical, so if you’re curious about this controversy make sure to click on the above links. But all this just goes to show, as I noted in the original post, that no one new study should be taken as “proving” anything. Whatever one thinks of the strength of this finding, and of the camera hypothesis, the answer is the same: Run more studies. Ideally bigger ones that are preregistered, and where everything in the preregistration is followed to the letter.&lt;/p&gt;</content:encoded>
 	<dc:date>2018-08-15T09:01:17+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/resurrected-gene-may-protect-elephants-cancer">
-	<title>Science News: A resurrected gene may protect elephants from cancer</title>
-	<link>https://www.sciencenews.org/article/resurrected-gene-may-protect-elephants-cancer</link>
-	<content:encoded>Researchers have found another gene that may play a role in explaining elephants’ cancer resistance.</content:encoded>
-	<dc:date>2018-08-14T18:23:03+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-computer-program-generates-eerily-realistic-fake-videos">
-	<title>Science News: A new computer program generates eerily realistic fake videos</title>
-	<link>https://www.sciencenews.org/article/new-computer-program-generates-eerily-realistic-fake-videos</link>
-	<content:encoded>It’s getting harder to tell fact from fiction — even on camera.</content:encoded>
-	<dc:date>2018-08-14T14:33:26+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=69981">
-	<title>Retraction watch: Management researcher with 16 retractions has new professorship</title>
-	<link>https://retractionwatch.com/2018/08/14/management-researcher-with-16-retractions-has-new-professorship/</link>
-	<content:encoded>Ulrich Lichtenthaler, a management professor who has had to retract 16 papers for data irregularities, has a new position in academia. According to a news release from the International School of Management (ISM), a business school based in Germany, Lichtenthaler has been appointed Professor of Business Management and Entrepreneurship at the Cologne campus. Lichtenthaler is … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/08/14/management-researcher-with-16-retractions-has-new-professorship/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Management researcher with 16 retractions has new professorship&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-08-14T12:00:56+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
