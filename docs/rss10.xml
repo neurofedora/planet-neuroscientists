@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=26825" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9685" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34654" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9672" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-robots-could-learn-fire-ants" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/filter-turns-saltwater-freshwater-just-got-upgrade" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70134" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/1968-scientists-tried-taming-hurricanes" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=26825">
+	<title>For Better Science: Megagrant, the Russian docu-novel of Paolo Macchiarini</title>
+	<link>https://forbetterscience.com/2018/09/03/megagrant-the-russian-docu-novel-of-paolo-macchiarini/</link>
+	<content:encoded>This is my review of the Russian book &quot;Megagrant&quot;, which tells of Macchiarini's adventures with the plastic trachea, much of it played out in Russia, funded by a state Megagrant of €15mn. Some books are namely only good as court evidence.</content:encoded>
+	<dc:date>2018-09-03T05:00:24+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9685">
 	<title>Discovery magazine - Neuroskeptic: Bad Mobs of Good People: The Paradox of Viral Outrage</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9685</link>
@@ -1644,13 +1651,6 @@ For van den Besselaar and Sandström, inde</content:encoded>
 	<content:encoded>When you think a retraction notice doesn’t tell the whole story, what should you do? For one group of researchers who’ve been closely following how journals handle the work associated with a bone researcher found guilty of misconduct, the actions of one publication were too problematic to let go. So the researchers wrote to the … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/08/16/dear-editor-your-retraction-notice-stinks/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Dear editor: Your retraction notice stinks&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-08-16T17:43:02+00:00</dc:date>
 	<dc:creator>Alison McCook</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/1968-scientists-tried-taming-hurricanes">
-	<title>Science News: In 1968, scientists tried taming hurricanes</title>
-	<link>https://www.sciencenews.org/article/1968-scientists-tried-taming-hurricanes</link>
-	<content:encoded>For over 20 years, the U.S. government tried to subdue hurricanes through cloud seeding, with mixed results.</content:encoded>
-	<dc:date>2018-08-16T16:00:05+00:00</dc:date>
-	<dc:creator>Kyle Plantz</dc:creator>
 </item>
 
 </rdf:RDF>
