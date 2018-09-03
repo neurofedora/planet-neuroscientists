@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=26825" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9685" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34654" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34547" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-robots-could-learn-fire-ants" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/filter-turns-saltwater-freshwater-just-got-upgrade" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=70134" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation">
+	<title>Science News: New images reveal how an ancient monster galaxy fueled furious star formation</title>
+	<link>https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation</link>
+	<content:encoded>Scientists were able to see the abundance of star-forming gas and dust in a giant galaxy from when the universe was less than 2 billion years old.</content:encoded>
+	<dc:date>2018-09-03T11:00:05+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://forbetterscience.com/?p=26825">
 	<title>For Better Science: Megagrant, the Russian docu-novel of Paolo Macchiarini</title>
 	<link>https://forbetterscience.com/2018/09/03/megagrant-the-russian-docu-novel-of-paolo-macchiarini/</link>
@@ -1644,13 +1651,6 @@ For van den Besselaar and Sandström, inde</content:encoded>
 	<content:encoded>Smoothing out a material used in desalination filters could help combat worldwide water shortages.</content:encoded>
 	<dc:date>2018-08-16T18:00:05+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=70134">
-	<title>Retraction watch: Dear editor: Your retraction notice stinks</title>
-	<link>https://retractionwatch.com/2018/08/16/dear-editor-your-retraction-notice-stinks/</link>
-	<content:encoded>When you think a retraction notice doesn’t tell the whole story, what should you do? For one group of researchers who’ve been closely following how journals handle the work associated with a bone researcher found guilty of misconduct, the actions of one publication were too problematic to let go. So the researchers wrote to the … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/08/16/dear-editor-your-retraction-notice-stinks/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Dear editor: Your retraction notice stinks&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-08-16T17:43:02+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
