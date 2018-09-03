@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=70716" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=26825" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9685" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/galaxy-113-billion-light-years-away-appears-filled-dark-matter" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34547" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-robots-could-learn-fire-ants" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/filter-turns-saltwater-freshwater-just-got-upgrade" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://retractionwatch.com/?p=70716">
+	<title>Retraction watch: One retraction notice says plagiarism. The other says it was an error in an algorithm. Which was it?</title>
+	<link>https://retractionwatch.com/2018/09/03/one-retraction-notice-says-plagiarism-the-other-says-it-was-an-error-in-an-algorithm-which-was-it/</link>
+	<content:encoded>For the second time in a week, we’ve come across a retraction notice that gave the wrong reason for the retraction. Last week, it was an Elsevier journal that called a plagiarized paper a duplicate of work by the same authors who’d written the original. Today, here’s the story of a chapter in a book … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/09/03/one-retraction-notice-says-plagiarism-the-other-says-it-was-an-error-in-an-algorithm-which-was-it/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;One retraction notice says plagiarism. The other says it was an error in an algorithm. Which was it?&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-09-03T12:00:08+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation">
 	<title>Science News: New images reveal how an ancient monster galaxy fueled furious star formation</title>
 	<link>https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation</link>
@@ -1643,13 +1650,6 @@ For van den Besselaar and Sandström, inde</content:encoded>
 	<link>https://www.sciencenews.org/article/what-robots-could-learn-fire-ants</link>
 	<content:encoded>Fire ants’ secret to success is prioritizing efficiency over fairness. Robot teams could use that strategy to work more efficiently in tight, crowded quarters.</content:encoded>
 	<dc:date>2018-08-16T18:04:08+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/filter-turns-saltwater-freshwater-just-got-upgrade">
-	<title>Science News: A filter that turns saltwater into freshwater just got an upgrade</title>
-	<link>https://www.sciencenews.org/article/filter-turns-saltwater-freshwater-just-got-upgrade</link>
-	<content:encoded>Smoothing out a material used in desalination filters could help combat worldwide water shortages.</content:encoded>
-	<dc:date>2018-08-16T18:00:05+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
 </item>
 
