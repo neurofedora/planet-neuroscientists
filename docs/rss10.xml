@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=70880" />
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1530" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/teens-born-assisted-pregnancies-may-have-higher-blood-pressure" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/do-you-have-this-crucial-skill-needed-to-succeed-in-engineering" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70259" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34569" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/genetic-engineering-animals-human-health-pew-survey" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/florida-everglades-freshwater-saltwater-sea-level-rise" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://retractionwatch.com/?p=70880">
+	<title>Retraction watch: It’s official: They’ve retracted happiness.</title>
+	<link>https://retractionwatch.com/2018/09/05/its-official-theyve-retracted-happiness/</link>
+	<content:encoded>They is MDPI Proceedings, which has pulled a 2017 paper, “Role of Happiness as a Habitual Process.” The reason: The paper was not ready for final publication and was put online in error. The paper will be marked as retracted. We apologize to the author and readers for any inconvenience. The author, Pujarini Das, is a … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/09/05/its-official-theyve-retracted-happiness/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;It’s official: They’ve retracted happiness.&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-09-05T12:00:16+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="http://romainbrette.fr/?p=1530">
 	<title>Romain Brette: What is computational neuroscience? (XXXIII) The interactivist model of cognition</title>
 	<link>http://romainbrette.fr/what-is-computational-neuroscience-xxxiii-the-interactivist-model-of-cognition/</link>
@@ -1533,13 +1540,6 @@ The intrigue deepens once we read the paper and find references to the famous 'v
 	<content:encoded>Genetically engineering animals is OK with Americans if it improves human health, a new poll reveals.</content:encoded>
 	<dc:date>2018-08-20T19:00:05+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/florida-everglades-freshwater-saltwater-sea-level-rise">
-	<title>Science News: A freshwater, saltwater tug-of-war is eating away at the Everglades</title>
-	<link>https://www.sciencenews.org/article/florida-everglades-freshwater-saltwater-sea-level-rise</link>
-	<content:encoded>Saltwater is winning in the Everglades as sea levels rise and years of redirecting freshwater flow to support agriculture and population growth</content:encoded>
-	<dc:date>2018-08-20T13:00:06+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
