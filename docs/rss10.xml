@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/wildfires-make-their-own-weather-and-matters-fire-management" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=71067" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-646109238818414069" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brazil-national-museum-collections-scientific-contributions" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lithium-oxygen-batteries-are-getting-energy-boost" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-antibodies-attack-brain-and-muddle-memory" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23836" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/quantum-switch-superposition-physics" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/wildfires-make-their-own-weather-and-matters-fire-management">
+	<title>Science News: Wildfires make their own weather, and that matters for fire management</title>
+	<link>https://www.sciencenews.org/article/wildfires-make-their-own-weather-and-matters-fire-management</link>
+	<content:encoded>Mathematical equations describing interactions between wildfires and the air around them help explain their power and destruction.</content:encoded>
+	<dc:date>2018-09-09T10:00:05+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=71067">
 	<title>Retraction watch: Weekend reads: An article on a controversial topic just disappears; mass resignations from a nutrition journal; the likely mistaken history of the vibrator</title>
 	<link>https://retractionwatch.com/2018/09/08/weekend-reads-an-article-on-a-controversial-topic-just-disappears-mass-resignations-from-a-nutrition-journal-the-likely-mistaken-history-of-the-vibrator/</link>
@@ -1519,13 +1526,6 @@ The intrigue deepens once we read the paper and find references to the famous 'v
 &lt;p&gt;&lt;em&gt;Image via &lt;a href=&quot;https://pixabay.com/en/users/Sweetaholic-296788/&quot;&gt;Sweetaholic&lt;/a&gt;/&lt;a href=&quot;https://pixabay.com/&quot;&gt;Pixabay&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-08-23T11:55:50+00:00</dc:date>
 	<dc:creator>Viatcheslav Wlassoff, PhD</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/quantum-switch-superposition-physics">
-	<title>Science News: A new quantum device defies the concepts of ‘before’ and ‘after’</title>
-	<link>https://www.sciencenews.org/article/quantum-switch-superposition-physics</link>
-	<content:encoded>Two events can happen in different orders at the same time, thanks to quantum physics.</content:encoded>
-	<dc:date>2018-08-23T11:00:05+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
