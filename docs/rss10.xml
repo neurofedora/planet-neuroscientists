@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-obesity-may-harm-memory-and-learning" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11212" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8300" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/finding-the-best-long-term-home-for-aries-systems" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/b798b575711e495cb5798ef4ddcff8cf" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70356" />
 			<rdf:li rdf:resource="http://brainblogger.com/?p=23844" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/fireflies-lightning-bugs-flashes-predators" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-obesity-may-harm-memory-and-learning">
+	<title>Science News: How obesity may harm memory and learning</title>
+	<link>https://www.sciencenews.org/article/how-obesity-may-harm-memory-and-learning</link>
+	<content:encoded>In obese mice, immune cells chomp nerve cell connections and harm brainpower.</content:encoded>
+	<dc:date>2018-09-10T17:06:07+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
 <item rdf:about="https://www.maxplanckflorida.org/?p=11212">
 	<title>Max Plank Florida Institute for Neuroscience: MPFI Scientist Receives More than $2 Million in NIH Funding to Study Regulation of Instructive Signaling in the Cerebellum</title>
 	<link>https://www.maxplanckflorida.org/news-and-media/news/mpfi-scientist-receives-more-than-2-million-in-nih-funding-to-study-regulation-of-instructive-signaling-in-the-cerebellum/</link>
@@ -1521,13 +1528,6 @@ The intrigue deepens once we read the paper and find references to the famous 'v
 &lt;p&gt;&lt;em&gt;Image via &lt;a href=&quot;https://pixabay.com/en/users/Ataner007-3921035/&quot;&gt;Ataner007&lt;/a&gt;/&lt;a href=&quot;https://pixabay.com/&quot;&gt;Pixabay&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-08-24T11:55:01+00:00</dc:date>
 	<dc:creator>Viatcheslav Wlassoff, PhD</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/fireflies-lightning-bugs-flashes-predators">
-	<title>Science News: There’s method in a firefly’s flashes</title>
-	<link>https://www.sciencenews.org/article/fireflies-lightning-bugs-flashes-predators</link>
-	<content:encoded>Fireflies use their flashing lights for mating and maybe even to ward away predators.</content:encoded>
-	<dc:date>2018-08-24T11:00:05+00:00</dc:date>
-	<dc:creator>Leah Rosenbaum</dc:creator>
 </item>
 
 </rdf:RDF>
