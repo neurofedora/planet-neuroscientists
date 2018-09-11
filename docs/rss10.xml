@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-graphene-could-make-future-electronics-superfast" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/sound-waves-bubbles-levitated-liquid-drops" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=71182" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/marijuana-use-pregnant-women" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34713" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=27995" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-obesity-may-harm-memory-and-learning" />
@@ -111,14 +115,38 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/molecules-knots-periodic-table" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=26553" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9666" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=70421" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/osiris-rex-snaps-first-images-asteroid-bennu" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/strange-gamma-rays-sun-magnetic-fields" />
-			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/b798b575711e495cb5798ef4ddcff8cf" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-graphene-could-make-future-electronics-superfast">
+	<title>Science News: Here’s how graphene could make future electronics superfast</title>
+	<link>https://www.sciencenews.org/article/how-graphene-could-make-future-electronics-superfast</link>
+	<content:encoded>Graphene-based electronics that operate at terahertz frequencies would be much speedier successors to today’s silicon-based devices.</content:encoded>
+	<dc:date>2018-09-11T16:00:04+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/sound-waves-bubbles-levitated-liquid-drops">
+	<title>Science News: Sound waves can make bubbles in levitated drops of liquid</title>
+	<link>https://www.sciencenews.org/article/sound-waves-bubbles-levitated-liquid-drops</link>
+	<content:encoded>A new technique reveals how to make bubbles from droplets suspended in the air.</content:encoded>
+	<dc:date>2018-09-11T15:00:06+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=71182">
+	<title>Retraction watch: Retraction Watch readers, we need your help to be able to continue our work</title>
+	<link>https://retractionwatch.com/2018/09/11/retraction-watch-readers-we-need-your-help-to-be-able-to-continue-our-work/</link>
+	<content:encoded>Dear Retraction Watch readers: Have you seen our database of retractions? While we’re still putting finishing touches on it before an official launch, with more than 18,000 retractions, it’s already the most comprehensive collection of retractions anywhere. We have learned a great deal as we’ve gathered those retractions, which we look forward to sharing quite soon, … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/09/11/retraction-watch-readers-we-need-your-help-to-be-able-to-continue-our-work/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Retraction Watch readers, we need your help to be able to continue our work&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-09-11T12:19:57+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/growth-curve/marijuana-use-pregnant-women">
+	<title>Science News: Marijuana use among pregnant women is rising, and so are concerns</title>
+	<link>https://www.sciencenews.org/blog/growth-curve/marijuana-use-pregnant-women</link>
+	<content:encoded>Pediatricians are urging caution as data show more pregnant women are using marijuana. More research is urgently needed on the drug’s effects during pregnancy.</content:encoded>
+	<dc:date>2018-09-11T11:00:05+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=34713">
 	<title>The British Psychological Society - Research Digest: Virtual reality research finds large sex difference in navigational efficiency</title>
 	<link>https://digest.bps.org.uk/2018/09/11/virtual-reality-research-finds-large-sex-difference-in-navigational-efficiency/</link>
@@ -141,7 +169,7 @@
 	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 <item rdf:about="http://forbetterscience.com/?p=27995">
-	<title>For Better Science: Response to Plan-S from Academic Researchers: Unethical, Too Risky!</title>
+	<title>For Better Science: Response to Plan S from Academic Researchers: Unethical, Too Risky!</title>
 	<link>https://forbetterscience.com/2018/09/11/response-to-plan-s-from-academic-researchers-unethical-too-risky/</link>
 	<content:encoded>This is Appeal by several European scientists protesting against Plan S, recently revealed by the EU and a coalition of European research funders. Lynn Kamerlin and her coauthors worry that Plan S will deprive them of quality journal venues and of international collaborative opportunities, while disadvantaging scientists whose research budgets preclude paying and playing in this OA league. They offer instead their own suggestions how to implement Open Science.</content:encoded>
 	<dc:date>2018-09-11T05:00:54+00:00</dc:date>
@@ -1489,34 +1517,6 @@ The Research, Innovation and Dissemination Center for Neuromathematics (RIDC Neu
 
 The intrigue deepens once we read the paper and find references to the famous 'voodoo correlations' and also a new species of neuro-monster: 'zombie oscillations', which the authors claim to have discovered and</content:encoded>
 	<dc:date>2018-08-26T12:34:55+00:00</dc:date>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=70421">
-	<title>Retraction watch: Weekend reads: How junior scientists are mistreated; how to fix nutritional science; a journal does nothing after Monsanto ghostwriting claims</title>
-	<link>https://retractionwatch.com/2018/08/25/weekend-reads-how-junior-scientists-are-mistreated-how-to-fix-nutritional-science-a-journal-does-nothing-after-monsanto-ghostwriting-claims/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a finding of plagiarism by a star health care policy … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/08/25/weekend-reads-how-junior-scientists-are-mistreated-how-to-fix-nutritional-science-a-journal-does-nothing-after-monsanto-ghostwriting-claims/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: How junior scientists are mistreated; how to fix nutritional science; a journal does nothing after Monsanto ghostwriting claims&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-08-25T13:24:03+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/osiris-rex-snaps-first-images-asteroid-bennu">
-	<title>Science News: OSIRIS-REx snaps first images of asteroid Bennu</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/osiris-rex-snaps-first-images-asteroid-bennu</link>
-	<content:encoded>OSIRIS-REx got its first glimpse of near-Earth asteroid Bennu. The probe will collect a sample from the asteroid and return it to Earth.</content:encoded>
-	<dc:date>2018-08-24T21:12:24+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/strange-gamma-rays-sun-magnetic-fields">
-	<title>Science News: Strange gamma rays from the sun may help decipher its magnetic fields</title>
-	<link>https://www.sciencenews.org/article/strange-gamma-rays-sun-magnetic-fields</link>
-	<content:encoded>The sun spits out more and weirder gamma rays than anyone expected, which could give a new view of the sun’s magnetic fields.</content:encoded>
-	<dc:date>2018-08-24T17:53:57+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="http://brainsciencepodcast.libsyn.com/b798b575711e495cb5798ef4ddcff8cf">
-	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 148 Pioneering neuroscientist Eve Marder</title>
-	<link>http://brainsciencepodcast.libsyn.com/bs-148-pioneering-neuroscientist-eve-marder</link>
-	<content:encoded>&lt;p&gt;BS 148 is the interview with pioneering neuroscientist Dr. Eve Marder, which I originally recorded back in 2009. I am reposting it now as a follow-up to last month's review of Charlotte Nassim's excellent biography &lt;a href=&quot;https://amzn.to/2L7KP7I&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;amazon link&quot;&gt;&lt;em&gt;Lessons from the Lobster: Eve Marder's Work in Neuroscience&lt;/em&gt;&lt;/a&gt;. The topics discussed in this interview are just as relevant as they were back then. A highlight of this interview is Dr. Marder's insights into what it was like to be part of the first large cohort of women entering science back in the sixties and seventies.&lt;/p&gt; &lt;p&gt;Send feedback about this episode to &lt;a href=&quot;mailto:brainsciencepodcast@gmail.com&quot;&gt;brainsciencepodcast@gmail.com&lt;/a&gt;. Feedback received before December 1, 2018 may be included in the December episode of &lt;a href=&quot;http://facebook.com/brainsciencepodcast&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Facebook Fan Page&quot;&gt;Brain Science Live on Facebook&lt;/a&gt;. Brain Science Live is on Facebook Live the first Thursday of every month at 8PM Central Time, but the audio is recorded for Premium and Patreon supporters.&lt;/p&gt; &lt;p&gt;Please visit this month's sponsors:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://thegreatcoursesplus.com/ginger&quot;&gt;http://thegreatcoursesplus.com/ginger&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://babbel.com/ginger&quot;&gt;http://babbel.com/ginger&lt;/a&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;</content:encoded>
-	<dc:date>2018-08-24T15:48:02+00:00</dc:date>
-	<dc:creator>Ginger Campbell, MD</dc:creator>
 </item>
 
 </rdf:RDF>
