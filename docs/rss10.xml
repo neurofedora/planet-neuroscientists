@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/sea-level-rise-doesnt-necessarily-spell-doom-coastal-wetlands" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/butchered-bird-bones-put-humans-madagascar-10500-years-ago" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/south-african-cave-stone-may-bear-worlds-oldest-drawing" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-antibiotic-uses-sneaky-tactics-kill-drug-resistant-superbugs" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=71241" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=28287" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34717" />
@@ -111,14 +115,38 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70514" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/george-gamow-physicist-science-popularizer" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/big-data-study-could-help-curb-animal-testing-in-drug-development" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/heres-how-bend-spaghetti-your-will" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/naked-mole-rats-poop-queen-parenting-cues" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/replication-crisis-psychology-science-studies-statistics" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=70456" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/sea-level-rise-doesnt-necessarily-spell-doom-coastal-wetlands">
+	<title>Science News: Sea level rise doesn’t necessarily spell doom for coastal wetlands</title>
+	<link>https://www.sciencenews.org/article/sea-level-rise-doesnt-necessarily-spell-doom-coastal-wetlands</link>
+	<content:encoded>Wetlands can survive and even thrive despite rising sea levels — if humans give them room to grow.</content:encoded>
+	<dc:date>2018-09-12T18:06:48+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/butchered-bird-bones-put-humans-madagascar-10500-years-ago">
+	<title>Science News: Butchered bird bones put humans in Madagascar 10,500 years ago</title>
+	<link>https://www.sciencenews.org/article/butchered-bird-bones-put-humans-madagascar-10500-years-ago</link>
+	<content:encoded>Humans reached the island near Africa 6,000 years earlier than thought, raising questions about how its megafauna went extinct.</content:encoded>
+	<dc:date>2018-09-12T18:00:05+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/south-african-cave-stone-may-bear-worlds-oldest-drawing">
+	<title>Science News: This South African cave stone may bear the world’s oldest drawing</title>
+	<link>https://www.sciencenews.org/article/south-african-cave-stone-may-bear-worlds-oldest-drawing</link>
+	<content:encoded>The Stone Age line design could have held special meaning for its makers, a new study finds.</content:encoded>
+	<dc:date>2018-09-12T17:00:04+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/new-antibiotic-uses-sneaky-tactics-kill-drug-resistant-superbugs">
+	<title>Science News: A new antibiotic uses sneaky tactics to kill drug-resistant superbugs</title>
+	<link>https://www.sciencenews.org/article/new-antibiotic-uses-sneaky-tactics-kill-drug-resistant-superbugs</link>
+	<content:encoded>Scientists have developed a molecule that kills off bacteria that are resistant to existing antibiotics.</content:encoded>
+	<dc:date>2018-09-12T17:00:04+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=71241">
 	<title>Retraction watch: When it comes to authorship, how prolific is too prolific?</title>
 	<link>https://retractionwatch.com/2018/09/12/when-it-comes-to-authorship-how-prolific-is-too-prolific/</link>
@@ -1454,34 +1482,6 @@ The Research, Innovation and Dissemination Center for Neuromathematics (RIDC Neu
 	<link>https://www.elsevier.com/connect/big-data-study-could-help-curb-animal-testing-in-drug-development</link>
 	<content:encoded>Elsevier’s study looks at which drug side effects that emerge preclinically are relevant to humans</content:encoded>
 	<dc:date>2018-08-28T08:56:18+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/heres-how-bend-spaghetti-your-will">
-	<title>Science News: Here’s how to bend spaghetti to your will</title>
-	<link>https://www.sciencenews.org/article/heres-how-bend-spaghetti-your-will</link>
-	<content:encoded>Researchers have discovered how to snap spaghetti sticks without sending bits of pasta flying.</content:encoded>
-	<dc:date>2018-08-27T20:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/naked-mole-rats-poop-queen-parenting-cues">
-	<title>Science News: Naked mole-rats eat the poop of their queen for parenting cues</title>
-	<link>https://www.sciencenews.org/article/naked-mole-rats-poop-queen-parenting-cues</link>
-	<content:encoded>Hormones in the naked mole-rat queen’s poop turn subordinate nest-mates into surrogate parents.</content:encoded>
-	<dc:date>2018-08-27T19:00:04+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-public/replication-crisis-psychology-science-studies-statistics">
-	<title>Science News: ‘Replication crisis’ spurs reforms in how science studies are done</title>
-	<link>https://www.sciencenews.org/blog/science-public/replication-crisis-psychology-science-studies-statistics</link>
-	<content:encoded>Redos of social sciences studies from major journals point to opportunities for improvement.</content:encoded>
-	<dc:date>2018-08-27T15:00:05+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=70456">
-	<title>Retraction watch: Authors retract paper on effects of skipping the flu vaccine</title>
-	<link>https://retractionwatch.com/2018/08/27/authors-retract-paper-finding-that-skipping-a-flu-vaccine-doesnt-render-next-years-shot-more-effective/</link>
-	<content:encoded>A 2017 paper, when originally published, had a fairly clear message: People who got the flu vaccine every year were no less protected than someone who had skipped last year’s dose. But now that it’s been retracted, the picture is somewhat less clear. The retraction notice in BMC Medicine doesn’t provide much information — it … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/08/27/authors-retract-paper-finding-that-skipping-a-flu-vaccine-doesnt-render-next-years-shot-more-effective/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Authors retract paper on effects of skipping the flu vaccine&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-08-27T12:00:17+00:00</dc:date>
-	<dc:creator>Alison McCook</dc:creator>
 </item>
 
 </rdf:RDF>
