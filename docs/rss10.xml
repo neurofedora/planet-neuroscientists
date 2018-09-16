@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/confused-mayflies-wreak-havoc-pennsylvania-bridge" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=71402" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9696" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1756" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34632" />
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1528" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=26694" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/new-horizons-first-images-ultima-thule" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/confused-mayflies-wreak-havoc-pennsylvania-bridge">
+	<title>Science News: Confused mayflies wreak havoc on a Pennsylvania bridge</title>
+	<link>https://www.sciencenews.org/article/confused-mayflies-wreak-havoc-pennsylvania-bridge</link>
+	<content:encoded>Cleaning a river in central Pennsylvania brought back mayflies, which now pose a threat to motorists crossing a bridge.</content:encoded>
+	<dc:date>2018-09-16T12:00:06+00:00</dc:date>
+	<dc:creator>Claire Porter</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=71402">
 	<title>Retraction watch: Weekend reads: Top researchers resign over publishing issues; organized crime meets publishing; infamous fraudster rides in on a horse</title>
 	<link>https://retractionwatch.com/2018/09/15/weekend-reads-top-researchers-resign-over-publishing-issues-organized-crime-meets-publishing-infamous-fraudster-rides-in-on-a-horse/</link>
@@ -1392,13 +1399,6 @@ The Research, Innovation and Dissemination Center for Neuromathematics (RIDC Neu
 	<content:encoded>I was keen to interview the only woman among Human Brain Project leaders, the scientific director Katrin Amunts. In November 2017, she agreed to do an interview by email. In March 2018, Amunts announced that &quot;the manuscript already has a veritable size of several pages&quot;. She never contacted me since. This is therefore a non-interview.</content:encoded>
 	<dc:date>2018-08-30T05:00:48+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/new-horizons-first-images-ultima-thule">
-	<title>Science News: New Horizons has sent back the first images of Ultima Thule, its next target</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/new-horizons-first-images-ultima-thule</link>
-	<content:encoded>NASA probe gets its first look at distant Kuiper Belt object</content:encoded>
-	<dc:date>2018-08-29T18:39:38+00:00</dc:date>
-	<dc:creator>Christopher Crockett</dc:creator>
 </item>
 
 </rdf:RDF>
