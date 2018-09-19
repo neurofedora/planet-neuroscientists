@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-particle-physics-experiments-revamp-standard-model" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/daily-low-dose-aspirin-not-panacea-elderly" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=71549" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34774" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tess-space-telescope-has-spotted-its-first-exoplanet" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1757" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34656" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8274" />
 			<rdf:li rdf:resource="http://forgingconnectionsblog.wordpress.com/?p=614" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=70716" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=26825" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-particle-physics-experiments-revamp-standard-model">
+	<title>Science News: Three new physics experiments could revamp the standard model</title>
+	<link>https://www.sciencenews.org/article/new-particle-physics-experiments-revamp-standard-model</link>
+	<content:encoded>New experiments that rely on very large machines have begun to probe the weak points of particle physics.</content:encoded>
+	<dc:date>2018-09-19T13:30:04+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/daily-low-dose-aspirin-not-panacea-elderly">
+	<title>Science News: Daily low-dose aspirin is not a panacea for the elderly</title>
+	<link>https://www.sciencenews.org/article/daily-low-dose-aspirin-not-panacea-elderly</link>
+	<content:encoded>Healthy elderly adults don’t benefit from a daily dose of aspirin, according to results from a large-scale clinical trial.</content:encoded>
+	<dc:date>2018-09-19T13:30:04+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=71549">
+	<title>Retraction watch: Four years after readers raise concerns, journal finally retracts climate paper</title>
+	<link>https://retractionwatch.com/2018/09/19/four-years-after-readers-raise-concerns-journal-finally-retracts-controversial-climate-paper/</link>
+	<content:encoded>The wheels of scientific publishing turn slowly … but they do (sometimes) turn. In January, we reported on the case of a paper on global warming marred by several problems, including allegations of plagiarism and “false claims” by the authors — which readers had raised as early as 2014, with no result. (Find a discussion … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/09/19/four-years-after-readers-raise-concerns-journal-finally-retracts-controversial-climate-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Four years after readers raise concerns, journal finally retracts climate paper&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-09-19T12:00:29+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=34774">
 	<title>The British Psychological Society - Research Digest: Can attachment theory help explain the relationship some people have with their “anorexia voice”?</title>
 	<link>https://digest.bps.org.uk/2018/09/19/can-attachment-theory-help-explain-the-relationship-some-people-have-with-their-anorexia-voice/</link>
@@ -1251,27 +1272,6 @@ Dworkin et al. created a network analysis of keywords from the 8,547 Neuroimage 
 &lt;p&gt; &lt;/p&gt;</content:encoded>
 	<dc:date>2018-09-04T06:26:44+00:00</dc:date>
 	<dc:creator>Forging Connections</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=70716">
-	<title>Retraction watch: One retraction notice says plagiarism. The other says it was an error in an algorithm. Which was it?</title>
-	<link>https://retractionwatch.com/2018/09/03/one-retraction-notice-says-plagiarism-the-other-says-it-was-an-error-in-an-algorithm-which-was-it/</link>
-	<content:encoded>For the second time in a week, we’ve come across a retraction notice that gave the wrong reason for the retraction. Last week, it was an Elsevier journal that called a plagiarized paper a duplicate of work by the same authors who’d written the original. Today, here’s the story of a chapter in a book … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/09/03/one-retraction-notice-says-plagiarism-the-other-says-it-was-an-error-in-an-algorithm-which-was-it/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;One retraction notice says plagiarism. The other says it was an error in an algorithm. Which was it?&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-09-03T12:00:08+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation">
-	<title>Science News: New images reveal how an ancient monster galaxy fueled furious star formation</title>
-	<link>https://www.sciencenews.org/article/alma-images-starburst-galaxy-star-formation</link>
-	<content:encoded>Scientists were able to see the abundance of star-forming gas and dust in a giant galaxy from when the universe was less than 2 billion years old.</content:encoded>
-	<dc:date>2018-09-03T11:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=26825">
-	<title>For Better Science: Megagrant, the Russian docu-novel of Paolo Macchiarini</title>
-	<link>https://forbetterscience.com/2018/09/03/megagrant-the-russian-docu-novel-of-paolo-macchiarini/</link>
-	<content:encoded>This is my review of the Russian book &quot;Megagrant&quot;, which tells of Macchiarini's adventures with the plastic trachea, much of it played out in Russia, funded by a state Megagrant of €4.5mn. Some books are namely only good as court evidence.</content:encoded>
-	<dc:date>2018-09-03T05:00:24+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
