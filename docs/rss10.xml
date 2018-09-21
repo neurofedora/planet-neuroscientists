@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-superthin-antennas-are-made-metallic-nanomaterials" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/way-hunter-gatherers-share-food-shows-how-cooperation-evolved" />
 			<rdf:li rdf:resource="573b647d2fe131f40453f2f9:573b8312c2ea515a3fd6e6bb:5b9bd104575d1f6acb79cb3b" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=72082" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-flu-pandemic-spurred-vaccine-research" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/saturn-has-two-hexagons-not-one-swirling-around-its-north-pole" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=70954" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-pessimistic-view-heart-transplants" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-interest-piqued-parker-solar-probe-general-relativity-and-more" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-superthin-antennas-are-made-metallic-nanomaterials">
+	<title>Science News: These new superthin antennas are made from metallic nanomaterials</title>
+	<link>https://www.sciencenews.org/article/new-superthin-antennas-are-made-metallic-nanomaterials</link>
+	<content:encoded>Superthin antennas could bring household devices and wearable technology online.</content:encoded>
+	<dc:date>2018-09-21T18:00:04+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/way-hunter-gatherers-share-food-shows-how-cooperation-evolved">
+	<title>Science News: The way hunter-gatherers share food shows how cooperation evolved</title>
+	<link>https://www.sciencenews.org/article/way-hunter-gatherers-share-food-shows-how-cooperation-evolved</link>
+	<content:encoded>Camp customs override selfishness and generosity when foragers divvy up food, a study of East Africa’s Hazda hunter-gatherers shows.</content:encoded>
+	<dc:date>2018-09-21T17:31:45+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="573b647d2fe131f40453f2f9:573b8312c2ea515a3fd6e6bb:5b9bd104575d1f6acb79cb3b">
 	<title>Over the brainbow: Neuroscience news block: octopuses on drugs, brain cancer and reversing blindness (walk into a bar)</title>
 	<link>http://overthebrainbow.com/blog/2018/9/14/neroscience-news-block-psychedelics-cancer-and-reversing-blindness-walk-into-a-bar</link>
@@ -2058,20 +2072,6 @@ Dworkin et al. created a network analysis of keywords from the 8,547 Neuroimage 
 	<content:encoded>Journals have retracted all but 19 of the 313 tainted papers linked to three of the most notorious fraudsters in science, with only stragglers left in the literature. But editors and publishers have been less diligent when it comes to delivering optimal retraction notices for the affected articles. That’s the verdict of a new analysis … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2018/09/06/when-it-comes-to-retracting-papers-by-the-worlds-most-prolific-scientific-fraudsters-journals-have-room-for-improvement/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;When it comes to retracting papers by the world’s most prolific scientific fraudsters, journals have room for improvement&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-09-06T12:00:30+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/50-years-ago-pessimistic-view-heart-transplants">
-	<title>Science News: 50 years ago, a pessimistic view for heart transplants</title>
-	<link>https://www.sciencenews.org/article/50-years-ago-pessimistic-view-heart-transplants</link>
-	<content:encoded>Surgeon Christiaan Barnard performed the first successful human-to-human heart transplant in 1967. In 1968, he predicted that patients would survive five years at best. Fortunately, he was wrong.</content:encoded>
-	<dc:date>2018-09-06T11:00:06+00:00</dc:date>
-	<dc:creator>Bethany Brookshire</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-interest-piqued-parker-solar-probe-general-relativity-and-more">
-	<title>Science News: Readers’ interest piqued by Parker Solar Probe, general relativity and more</title>
-	<link>https://www.sciencenews.org/article/readers-interest-piqued-parker-solar-probe-general-relativity-and-more</link>
-	<content:encoded>Readers had questions about NASA's Parker Solar Probe, Einstein's general relativity theory and underwater cables used as earthquake sensors.</content:encoded>
-	<dc:date>2018-09-06T10:15:00+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
 </item>
 
 </rdf:RDF>
