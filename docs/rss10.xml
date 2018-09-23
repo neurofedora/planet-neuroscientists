@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-math-helps-explain-delicate-patterns-dragonfly-wings" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=72218" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-superthin-antennas-are-made-metallic-nanomaterials" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/way-hunter-gatherers-share-food-shows-how-cooperation-evolved" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10501" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/jocelyn-bell-burnell-physics-prize-pulsar-discovery-interview" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/saturn-has-two-hexagons-not-one-swirling-around-its-north-pole" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-math-helps-explain-delicate-patterns-dragonfly-wings">
+	<title>Science News: How math helps explain the delicate patterns of dragonfly wings</title>
+	<link>https://www.sciencenews.org/article/how-math-helps-explain-delicate-patterns-dragonfly-wings</link>
+	<content:encoded>Scientists have found a mathematical explanation for the complex patterns on the wings of dragonflies and other insects.</content:encoded>
+	<dc:date>2018-09-23T12:00:05+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=72218">
 	<title>Retraction watch: Weekend reads: The study that never existed; turmoil at Cochrane; a plagiarist is appointed professor</title>
 	<link>https://retractionwatch.com/2018/09/22/weekend-reads-the-study-that-never-existed-turmoil-at-cochrane-a-plagiarist-is-appointed-professor/</link>
@@ -2065,13 +2072,6 @@ Dworkin et al. created a network analysis of keywords from the 8,547 Neuroimage 
 	<content:encoded>Scientists have only scratched the surface of the plant microbiome, but they already believe it might increase crop yield and save species from extinction.</content:encoded>
 	<dc:date>2018-09-06T15:00:05+00:00</dc:date>
 	<dc:creator>Amber Dance</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/saturn-has-two-hexagons-not-one-swirling-around-its-north-pole">
-	<title>Science News: Saturn has two hexagons, not one, swirling around its north pole</title>
-	<link>https://www.sciencenews.org/article/saturn-has-two-hexagons-not-one-swirling-around-its-north-pole</link>
-	<content:encoded>NASA’s Cassini spacecraft spied a vortex growing high over Saturn’s north pole, whose hexagonal shape mirrors a famous underlying cyclone.</content:encoded>
-	<dc:date>2018-09-06T13:00:06+00:00</dc:date>
-	<dc:creator>Christopher Crockett</dc:creator>
 </item>
 
 </rdf:RDF>
