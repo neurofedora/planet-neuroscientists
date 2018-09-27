@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=72677" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/china-deadly-strain-bird-flu-now-easily-infects-ducks" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/advice-to-young-scientists-from-the-winners-of-the-golden-goose-award" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=72623" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/poached-offers-deep-disturbing-look-illegal-wildlife-trade" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34730" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=27450" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-climate-change-fueling-hurricane-florence" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=72677">
+	<title>Retraction watch: Journal flags papers, saying authors didn’t adequately disclose ties to Monsanto</title>
+	<link>http://retractionwatch.com/2018/09/27/journal-flags-papers-saying-authors-didnt-adequately-disclose-ties-to-monsanto/</link>
+	<content:encoded>A toxicology journal has issued an expression of concern for a group of papers about the controversial herbicide glyphosate after concluding that some of the authors didn’t adequately disclose their ties to the maker of the product. At issue are five articles that appeared in a 2016 supplement to Critical Reviews in Toxicology, a Taylor … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/09/27/journal-flags-papers-saying-authors-didnt-adequately-disclose-ties-to-monsanto/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Journal flags papers, saying authors didn’t adequately disclose ties to Monsanto&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-09-27T19:18:17+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/china-deadly-strain-bird-flu-now-easily-infects-ducks">
 	<title>Science News: In China, a deadly strain of bird flu now easily infects ducks</title>
 	<link>https://www.sciencenews.org/article/china-deadly-strain-bird-flu-now-easily-infects-ducks</link>
@@ -1941,13 +1948,6 @@ Dworkin et al. created a network analysis of keywords from the 8,547 Neuroimage 
 	<content:encoded>I finally succeeded to interview the only woman among Human Brain Project leaders, the scientific director Katrin Amunts. In my previous article, I published a non-interview, using bits from HBP website as stand-in for her answers. Now, in this long read, Professor Amunts provided me with her replies.</content:encoded>
 	<dc:date>2018-09-14T05:00:18+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-climate-change-fueling-hurricane-florence">
-	<title>Science News: Here’s how climate change is fueling Hurricane Florence</title>
-	<link>https://www.sciencenews.org/article/how-climate-change-fueling-hurricane-florence</link>
-	<content:encoded>Scientists take a stab at predicting climate change’s influence on Hurricane Florence.</content:encoded>
-	<dc:date>2018-09-13T22:56:36+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
