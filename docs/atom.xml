@@ -5,8 +5,91 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-09-29T11:00:39+00:00</updated>
+	<updated>2018-09-29T17:00:38+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">“Neuroscience at Scale: Synaptomics tries to make sense of the brain at a stupefying scale” by Samuel Rose</title>
+		<link href="http://feeds.plos.org/~r/plos/blogs/neuro/~3/7kgMAlODUD8/"/>
+		<id>http://blogs.plos.org/neuro/?p=19643</id>
+		<updated>2018-09-29T13:48:51+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/neuro/files/2018/09/ramon_y_cajal_conexiones-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Even though it’s smaller than a basketball, the scale of the human brain can feel astronomical. “There are as many neurons in the human brain as there are stars (100 billion) in the Milky Way” is commonly stated in musings on the brain. And while this figure isn’t quite accurate (it’s closer to 86 billion neurons/brain), the comparison is staggering.&lt;sup&gt;1&lt;/sup&gt; Neurons, though, aren’t useful without synapses – the point of contact between neurons where chemical messages are conveyed. It’s at synapses where memories are formed and skills like dribbling a basketball are honed. And it’s at the level of the synapse where the human brain scales up to numbers that dwarf our tiny galaxy – 100 trillion synapses is the crude estimate. Any effort to catalog and characterize the brain’s population of synapses probably sounds as futile as cataloging all the stars in the universe. A new field called synaptomics, however, has emerged to try and do just that: map the molecular composition and spatial distribution of every single synapse in the brain.&lt;/p&gt;
+&lt;p&gt;The scale of synapses is so staggering, there actually isn’t a consensus on how many there are. The number &lt;a href=&quot;https://www.scientificamerican.com/article/100-trillion-connections/&quot;&gt;100 trillion&lt;/a&gt; appears in popular articles and &lt;a href=&quot;http://www.dana.org/News/Details.aspx?id=43512#_edn4&quot;&gt;teaching tools&lt;/a&gt;, but it’s not typically referenced in peer-reviewed journals. 100 trillion is calculated by multiplying 100 billion neurons by 1,000 connections each, which belies the diversity in neuronal shape and size.&lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_19644&quot;&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2018/09/Sam1.png&quot;&gt;&lt;img alt=&quot;A sampling of the dendritic arbors of different neuron types, each making a different number of synapses.&quot; class=&quot;wp-image-19644&quot; height=&quot;438&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/09/Sam1-300x211.png&quot; width=&quot;622&quot; /&gt;&lt;/a&gt;&lt;em&gt;A sampling of the dendritic arbors of different neuron types, each making a different number of synapses.&lt;/em&gt;&lt;/figure&gt;
+&lt;p&gt;Neurons, like “E” in the figure above, may only form a dozen synapses on its simple dendritic arbor. A neuron with a dense network of dendrites, like in “B” or “F”, above, may form 10,000 to 100,000 synapses. With 86 billion neurons spread through roughly 200 unique regions&lt;sup&gt;2&lt;/sup&gt; – each region containing unique combinations of neuron types – accurate estimation becomes close to impossible. This is not to say that finding the precise number of synapses in a human brain is the most pressing question in neuroscience. But framing this question does show how difficult it is to answer even the most basic questions at this scale. In other words, if figuring out the number of synapses isn’t feasible, how does the field begin to answer more complex questions about the brain’s catalog of synapses?&lt;/p&gt;
+&lt;p&gt;The approach most neuroscientists take is to compartmentalize. How do you eat an elephant? One bite at a time, according to proverb. Neuroscientists take their fork and steak knife and start sawing away at one brain region or circuit and learn the rules that govern the set of synapses there. For example, there have been over 11,500 Pubmed cataloged publications on “hippocampal plasticity” – studies that furthered our understanding of synapses in this memory-formation region. But how do the synapses in this region compare to the rest of the brain? Will it take another 2.3 million bites (11,500 x 200 brain regions) of elephant meat to figure this out?&lt;/p&gt;
+&lt;p&gt;A group led by Seth Grant at University of Edinburgh is attempting to define some simple principles that distinguish and group the brain’s trillions (?) of synapses, in an effort they call the &lt;em&gt;&lt;a href=&quot;http://synaptome.genes2cognition.org/&quot;&gt;Genes to Cognition Synaptome Mapping&lt;/a&gt;&lt;/em&gt; pipeline or, more simply, synaptomics. They started with the mouse brain in a recent issue of &lt;em&gt;&lt;a href=&quot;https://www.cell.com/neuron/abstract/S0896-6273(18)30581-6&quot;&gt;Neuron&lt;/a&gt;.&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt; The group genetically engineered mice to express two different fluorescently “tagged” proteins: PSD95 attached to a green marker and SAP102 to an orange marker. PSD95 and SAP102 are found exclusively in synapses, so under a microscope the brains of these mice are a canvas of green and orange dots, each dot a synapse. With the naked eye, Grant and colleagues could distinguish three groups of synapses: those with PSD95, those with SAP102, and those with both. But they also measured the brightness, size, and relative density of each dot throughout the brain. Including these factors, they used machine learning to characterize the ~1 billion glowing synapses in the mouse brain. Clustering algorithms categorized 37 subtypes of synapses, each subtype with its own unique signature of brightness, size and density. The way these 37 subtypes are distributed throughout the mouse brain creates the first synaptome “signature” of a brain.&lt;/p&gt;
+&lt;p&gt;At this point, you could argue that an attempt to catalog 1 billion of anything would find clusters. If one were to catalog a billion cracks in the surface of a highway, groupings would likely arise. Do the synapse subtypes that Grant and colleagues observed have any significance to brain function? The fact that different synapse subtypes were enriched in certain brain regions argues that they do. For example, subtype “24” was abundant in the cerebral cortex and absent in the cerebellum. This makes sense since cerebral cortex and cerebellum develop differently and perform different functions.&lt;/p&gt;
+&lt;p&gt;Grant and colleagues also show that the synaptome signature is sensitive to insults in brain development. It has long been known that neuropsychiatric diseases like autism and schizophrenia are associated with disrupted brain connectivity. The authors saw changes in the synaptome signature of mutant mice with behavioral abnormalities resembling these neuropsychiatric diseases. These data show that the synaptome is sensitive to developmental disturbances, and changes in it may be a marker for psychiatric disease.&lt;/p&gt;
+&lt;p&gt;This study is more of a starting point for synaptomics than a presentation of its fruition. For one, this study builds its synaptome map with only two of the synapse’s thousands of proteins. The stated goal of the &lt;em&gt;Genes to Cognition Synaptome Mapping&lt;/em&gt; pipeline is to map as many of these thousands of proteins as possible and incorporate them into a global catalog. What will neuroscience gain from this this catalog? Will future neuroscientists be able to see a memory form or a disease develop by simply “perusing” the catalog? These questions aren’t possible to answer right now, but hopefully this new field will provide some general principles that transcend the astronomical.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1          Azevedo, F. A.&lt;em&gt; et al.&lt;/em&gt; Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. &lt;em&gt;The Journal of comparative neurology&lt;/em&gt; &lt;strong&gt;513&lt;/strong&gt;, 532-541, doi:10.1002/cne.21974 (2009).&lt;/p&gt;
+&lt;p&gt;2          Glasser, M. F.&lt;em&gt; et al.&lt;/em&gt; A multi-modal parcellation of human cerebral cortex. &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;536&lt;/strong&gt;, 171-178, doi:10.1038/nature18933 (2016).&lt;/p&gt;
+&lt;p&gt;3          Zhu, F.&lt;em&gt; et al.&lt;/em&gt; Architecture of the Mouse Brain Synaptome. &lt;em&gt;Neuron&lt;/em&gt; &lt;strong&gt;99&lt;/strong&gt;, 781-799 e710, doi:10.1016/j.neuron.2018.07.007 (2018).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS. &lt;/em&gt;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2018/08/Sam-Rose.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot; wp-image-19627 alignleft&quot; height=&quot;149&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/08/Sam-Rose.jpg&quot; width=&quot;110&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;strong&gt;Sam Rose&lt;/strong&gt; received his PhD in Neuroscience from Emory University. He is currently a postdoctoral scholar at Duke University (Durham, North Carolina). His research focuses on the role of G-protein coupled receptors in various neuropsychiatric disorders. You can email him at &lt;a href=&quot;mailto:samueljosephrose@gmail.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;samueljosephrose@gmail.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/7kgMAlODUD8&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Giuseppe Gangarossa</name>
+			<uri>https://blogs.plos.org/neuro</uri>
+		</author>
+		<source>
+			<title type="html">PLOS Neuroscience Community</title>
+			<subtitle type="html">Researchers discuss latest brain science</subtitle>
+			<link rel="self" href="http://feeds.plos.org/plos/blogs/neuro"/>
+			<id>https://blogs.plos.org/neuro</id>
+			<updated>2018-09-29T17:00:29+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Weekend reads: Lessons from the downfall of Brian Wansink; “scientific terrorism” redux; why Cochrane booted a member</title>
+		<link href="http://retractionwatch.com/2018/09/29/weekend-reads-lessons-from-the-downfall-of-brian-wansink-scientific-terrorism-redux-why-cochrane-booted-a-member/"/>
+		<id>http://retractionwatch.com/?p=72841</id>
+		<updated>2018-09-29T13:27:47+00:00</updated>
+		<content type="html">
+ Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a journal reversing three retractions, retractions for “irreconcilable differences,” and … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/09/29/weekend-reads-lessons-from-the-downfall-of-brian-wansink-scientific-terrorism-redux-why-cochrane-booted-a-member/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Lessons from the downfall of Brian Wansink; “scientific terrorism” redux; why Cochrane booted a member&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Ivan Oransky</name>
+			<uri>http://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>http://retractionwatch.com</id>
+			<updated>2018-09-29T17:00:30+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">&quot;Rick and Morty&quot; Sting Predatory Journals</title>
+		<link href="http://blogs.discovermagazine.com/neuroskeptic/?p=9716"/>
+		<id>http://blogs.discovermagazine.com/neuroskeptic/?p=9716</id>
+		<updated>2018-09-29T12:48:56+00:00</updated>
+		<content type="html">
+ Last year I wrote and published a fake 'scientific paper' to highlight the problem of predatory scientific journals. My article, following in the tradition of earlier fake journal 'stings', was complete nonsense, full of Star Wars references and quotes, but it was published by a number of dodgy journals.
+
+
+
+Now, another sci-fi sting has taken place, based this time on Rick and Morty. The stinger, Farooq Ali Khan, created a hilarious paper called Newer Tools to Fight Inter-Galactic Parasites</content>
+		<author>
+			<name>Discovery magazine - Neuroskeptic</name>
+			<uri>http://discovermagazine.com/rss/blog-feeds/neuroskeptic</uri>
+		</author>
+		<source>
+			<title type="html">Neuroskeptic</title>
+			<subtitle type="html">No brain. No gain.</subtitle>
+			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
+			<id>http://discovermagazine.com/rss/blog-feeds/neuroskeptic</id>
+			<updated>2018-09-29T17:00:28+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Science Exchange Collaborates with Renovo Neural to Offer Novel Neurological Research Services</title>
@@ -43,13 +126,13 @@
  Signals from the ANITA experiment don’t square with the properties of elementary particles cataloged in the standard model.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -62,13 +145,13 @@
  Anomalously warm ocean waters in the tropical Atlantic Ocean drove 2017’s hurricane powerhouses.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -88,7 +171,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -101,13 +184,13 @@
  A new type of polymer coating that reflects sunlight to control heat could supplement or replace air conditioning systems.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -120,13 +203,13 @@
  The originator of Riemann’s hypothesis died young, but he provided the geometry needed for modern view of spacetime.</content>
 		<author>
 			<name>Tom Siegfried</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -197,7 +280,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -210,13 +293,13 @@
  When cats are on the prowl, rats may become harder to see, but roaming cats actually killed only a few.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -229,13 +312,13 @@
  The 2017-2018 flu season was one of the deadliest on record for the United States.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -255,7 +338,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -268,13 +351,13 @@
  A large-scale lidar survey of Guatemalan forests reveals evidence of ancient, interconnected Maya cities.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -287,13 +370,13 @@
  H7N9 evolved the ability to infect ducks just as a vaccine for chickens came into use.</content>
 		<author>
 			<name>Tina Hesman Saey</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -332,7 +415,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -381,7 +464,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -419,13 +502,13 @@
  A large study of U.S. children ties lots of screen time to lower thinking skills, but the relationship between the two is still unclear.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -438,13 +521,13 @@
  Manta rays filter feed differently than other ocean creatures.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -457,13 +540,13 @@
  A team of fiberglass-spinning robots could create tubing to help build bridges, buildings or other structures.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -513,13 +596,13 @@
  Researchers have discovered a new species of hummingbird high up in the Ecuadorian Andes.</content>
 		<author>
 			<name>Jennifer Leman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -532,13 +615,13 @@
  With a drive to understand how things work, these young researchers are making a mark in sustainable energy, medicine, astronomy and technology.</content>
 		<author>
 			<name>Science News Staff</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -551,13 +634,13 @@
  Merging psychology with engineering, Shahzeen Attari probes how people think about conservation, energy use and climate change.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -570,13 +653,13 @@
  Using chemistry to peer at the microbial world, Emily Balskus is revealing how microbes influence human health.</content>
 		<author>
 			<name>Rachel Ehrenberg</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -589,13 +672,13 @@
  Biophysicist Ibrahim Cissé finds clues in raindrops and morning dew about how genes are activated.</content>
 		<author>
 			<name>Tina Hesman Saey</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -608,13 +691,13 @@
  Planetary scientist Christopher Hamilton uses Earth’s volcanic structures are a blueprint for how lava shapes other worlds.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -627,13 +710,13 @@
  Astrophysicist Paula Jofré is a galactic archaeologist, mapping out generations of stars.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -646,13 +729,13 @@
  Physicist Lisa Manning probes how physical forces influence cell behavior in asthma and other conditions.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -665,13 +748,13 @@
  Electrochemist Joaquín Rodríguez-López is finding better ways to store wind and solar power.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -816,7 +899,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -836,7 +919,7 @@
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2018-09-29T08:31:08+00:00</updated>
+			<updated>2018-09-29T11:50:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1010,7 +1093,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -1125,7 +1208,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1158,7 +1241,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -1236,7 +1319,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2239,7 +2322,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2309,7 +2392,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -2387,7 +2470,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2492,7 +2575,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-09-29T11:00:31+00:00</updated>
+			<updated>2018-09-29T17:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2521,7 +2604,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -2568,7 +2651,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2683,7 +2766,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-09-29T05:00:29+00:00</updated>
+			<updated>2018-09-29T17:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2753,7 +2836,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -2909,7 +2992,7 @@ Whatever concerns any peers might have had: Steffen and Christiane Reinbothe cou
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-09-29T11:00:30+00:00</updated>
+			<updated>2018-09-29T17:00:29+00:00</updated>
 		</source>
 	</entry>
 
@@ -2957,7 +3040,7 @@ Brain Armor's links to the NFL Alumni raised eyebrows on Twitter because the NFL
 			<subtitle type="html">No brain. No gain.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>http://discovermagazine.com/rss/blog-feeds/neuroskeptic</id>
-			<updated>2018-09-26T05:00:31+00:00</updated>
+			<updated>2018-09-29T17:00:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -2996,64 +3079,6 @@ Brain Armor's links to the NFL Alumni raised eyebrows on Twitter because the NFL
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2018-09-22T23:00:30+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">The ghosts of nearly two dozen icy volcanoes haunt dwarf planet Ceres</title>
-		<link href="https://www.sciencenews.org/article/ghosts-nearly-two-dozen-icy-volcanoes-haunt-dwarf-planet-ceres"/>
-		<id>https://www.sciencenews.org/article/ghosts-nearly-two-dozen-icy-volcanoes-haunt-dwarf-planet-ceres</id>
-		<updated>2018-09-17T15:00:04+00:00</updated>
-		<content type="html">
- The slumped remains of 21 ice volcanoes suggest that the dwarf planet Ceres has been volcanically active for billions of years.</content>
-		<author>
-			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-09-22T11:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Researcher who once tried to sue critics has another dozen papers retracted</title>
-		<link href="http://retractionwatch.com/2018/09/17/researcher-who-once-tried-to-sue-critics-has-another-dozen-papers-retracted/"/>
-		<id>https://retractionwatch.com/?p=71450</id>
-		<updated>2018-09-17T11:40:33+00:00</updated>
-		<content type="html">
- A cancer researcher who went to court — unsuccessfully — claiming that commenters on PubPeer had cost him a new job has just lost another 12 papers. The twelve now-retracted papers by Fazlul Sarkar and colleagues — as well as another by Sarkar that is now subject to an editor’s note — all appeared in … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/09/17/researcher-who-once-tried-to-sue-critics-has-another-dozen-papers-retracted/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Researcher who once tried to sue critics has another dozen papers retracted&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Ivan Oransky</name>
-			<uri>http://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>http://retractionwatch.com</id>
-			<updated>2018-09-27T23:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">A recount of human genes ups the number to at least 46,831</title>
-		<link href="https://www.sciencenews.org/article/recount-human-genes-ups-number-least-46831"/>
-		<id>https://www.sciencenews.org/article/recount-human-genes-ups-number-least-46831</id>
-		<updated>2018-09-17T11:00:05+00:00</updated>
-		<content type="html">
- A new estimate of the number of human genes adds in some RNA-producing genes.</content>
-		<author>
-			<name>Tina Hesman Saey</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-09-21T05:00:30+00:00</updated>
 		</source>
 	</entry>
 

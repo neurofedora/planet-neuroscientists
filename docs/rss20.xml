@@ -9,6 +9,53 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>PLOS Neuroscience Community: “Neuroscience at Scale: Synaptomics tries to make sense of the brain at a stupefying scale” by Samuel Rose</title>
+	<guid isPermaLink="false">http://blogs.plos.org/neuro/?p=19643</guid>
+	<link>http://feeds.plos.org/~r/plos/blogs/neuro/~3/7kgMAlODUD8/</link>
+	<description>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/neuro/files/2018/09/ramon_y_cajal_conexiones-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Even though it’s smaller than a basketball, the scale of the human brain can feel astronomical. “There are as many neurons in the human brain as there are stars (100 billion) in the Milky Way” is commonly stated in musings on the brain. And while this figure isn’t quite accurate (it’s closer to 86 billion neurons/brain), the comparison is staggering.&lt;sup&gt;1&lt;/sup&gt; Neurons, though, aren’t useful without synapses – the point of contact between neurons where chemical messages are conveyed. It’s at synapses where memories are formed and skills like dribbling a basketball are honed. And it’s at the level of the synapse where the human brain scales up to numbers that dwarf our tiny galaxy – 100 trillion synapses is the crude estimate. Any effort to catalog and characterize the brain’s population of synapses probably sounds as futile as cataloging all the stars in the universe. A new field called synaptomics, however, has emerged to try and do just that: map the molecular composition and spatial distribution of every single synapse in the brain.&lt;/p&gt;
+&lt;p&gt;The scale of synapses is so staggering, there actually isn’t a consensus on how many there are. The number &lt;a href=&quot;https://www.scientificamerican.com/article/100-trillion-connections/&quot;&gt;100 trillion&lt;/a&gt; appears in popular articles and &lt;a href=&quot;http://www.dana.org/News/Details.aspx?id=43512#_edn4&quot;&gt;teaching tools&lt;/a&gt;, but it’s not typically referenced in peer-reviewed journals. 100 trillion is calculated by multiplying 100 billion neurons by 1,000 connections each, which belies the diversity in neuronal shape and size.&lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_19644&quot;&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2018/09/Sam1.png&quot;&gt;&lt;img alt=&quot;A sampling of the dendritic arbors of different neuron types, each making a different number of synapses.&quot; class=&quot;wp-image-19644&quot; height=&quot;438&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/09/Sam1-300x211.png&quot; width=&quot;622&quot; /&gt;&lt;/a&gt;&lt;em&gt;A sampling of the dendritic arbors of different neuron types, each making a different number of synapses.&lt;/em&gt;&lt;/figure&gt;
+&lt;p&gt;Neurons, like “E” in the figure above, may only form a dozen synapses on its simple dendritic arbor. A neuron with a dense network of dendrites, like in “B” or “F”, above, may form 10,000 to 100,000 synapses. With 86 billion neurons spread through roughly 200 unique regions&lt;sup&gt;2&lt;/sup&gt; – each region containing unique combinations of neuron types – accurate estimation becomes close to impossible. This is not to say that finding the precise number of synapses in a human brain is the most pressing question in neuroscience. But framing this question does show how difficult it is to answer even the most basic questions at this scale. In other words, if figuring out the number of synapses isn’t feasible, how does the field begin to answer more complex questions about the brain’s catalog of synapses?&lt;/p&gt;
+&lt;p&gt;The approach most neuroscientists take is to compartmentalize. How do you eat an elephant? One bite at a time, according to proverb. Neuroscientists take their fork and steak knife and start sawing away at one brain region or circuit and learn the rules that govern the set of synapses there. For example, there have been over 11,500 Pubmed cataloged publications on “hippocampal plasticity” – studies that furthered our understanding of synapses in this memory-formation region. But how do the synapses in this region compare to the rest of the brain? Will it take another 2.3 million bites (11,500 x 200 brain regions) of elephant meat to figure this out?&lt;/p&gt;
+&lt;p&gt;A group led by Seth Grant at University of Edinburgh is attempting to define some simple principles that distinguish and group the brain’s trillions (?) of synapses, in an effort they call the &lt;em&gt;&lt;a href=&quot;http://synaptome.genes2cognition.org/&quot;&gt;Genes to Cognition Synaptome Mapping&lt;/a&gt;&lt;/em&gt; pipeline or, more simply, synaptomics. They started with the mouse brain in a recent issue of &lt;em&gt;&lt;a href=&quot;https://www.cell.com/neuron/abstract/S0896-6273(18)30581-6&quot;&gt;Neuron&lt;/a&gt;.&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt; The group genetically engineered mice to express two different fluorescently “tagged” proteins: PSD95 attached to a green marker and SAP102 to an orange marker. PSD95 and SAP102 are found exclusively in synapses, so under a microscope the brains of these mice are a canvas of green and orange dots, each dot a synapse. With the naked eye, Grant and colleagues could distinguish three groups of synapses: those with PSD95, those with SAP102, and those with both. But they also measured the brightness, size, and relative density of each dot throughout the brain. Including these factors, they used machine learning to characterize the ~1 billion glowing synapses in the mouse brain. Clustering algorithms categorized 37 subtypes of synapses, each subtype with its own unique signature of brightness, size and density. The way these 37 subtypes are distributed throughout the mouse brain creates the first synaptome “signature” of a brain.&lt;/p&gt;
+&lt;p&gt;At this point, you could argue that an attempt to catalog 1 billion of anything would find clusters. If one were to catalog a billion cracks in the surface of a highway, groupings would likely arise. Do the synapse subtypes that Grant and colleagues observed have any significance to brain function? The fact that different synapse subtypes were enriched in certain brain regions argues that they do. For example, subtype “24” was abundant in the cerebral cortex and absent in the cerebellum. This makes sense since cerebral cortex and cerebellum develop differently and perform different functions.&lt;/p&gt;
+&lt;p&gt;Grant and colleagues also show that the synaptome signature is sensitive to insults in brain development. It has long been known that neuropsychiatric diseases like autism and schizophrenia are associated with disrupted brain connectivity. The authors saw changes in the synaptome signature of mutant mice with behavioral abnormalities resembling these neuropsychiatric diseases. These data show that the synaptome is sensitive to developmental disturbances, and changes in it may be a marker for psychiatric disease.&lt;/p&gt;
+&lt;p&gt;This study is more of a starting point for synaptomics than a presentation of its fruition. For one, this study builds its synaptome map with only two of the synapse’s thousands of proteins. The stated goal of the &lt;em&gt;Genes to Cognition Synaptome Mapping&lt;/em&gt; pipeline is to map as many of these thousands of proteins as possible and incorporate them into a global catalog. What will neuroscience gain from this this catalog? Will future neuroscientists be able to see a memory form or a disease develop by simply “perusing” the catalog? These questions aren’t possible to answer right now, but hopefully this new field will provide some general principles that transcend the astronomical.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1          Azevedo, F. A.&lt;em&gt; et al.&lt;/em&gt; Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. &lt;em&gt;The Journal of comparative neurology&lt;/em&gt; &lt;strong&gt;513&lt;/strong&gt;, 532-541, doi:10.1002/cne.21974 (2009).&lt;/p&gt;
+&lt;p&gt;2          Glasser, M. F.&lt;em&gt; et al.&lt;/em&gt; A multi-modal parcellation of human cerebral cortex. &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;536&lt;/strong&gt;, 171-178, doi:10.1038/nature18933 (2016).&lt;/p&gt;
+&lt;p&gt;3          Zhu, F.&lt;em&gt; et al.&lt;/em&gt; Architecture of the Mouse Brain Synaptome. &lt;em&gt;Neuron&lt;/em&gt; &lt;strong&gt;99&lt;/strong&gt;, 781-799 e710, doi:10.1016/j.neuron.2018.07.007 (2018).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;em&gt;Any views expressed are those of the author, and do not necessarily reflect those of PLOS. &lt;/em&gt;&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;http://blogs.plos.org/neuro/files/2018/08/Sam-Rose.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot; wp-image-19627 alignleft&quot; height=&quot;149&quot; src=&quot;http://blogs.plos.org/neuro/files/2018/08/Sam-Rose.jpg&quot; width=&quot;110&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;strong&gt;Sam Rose&lt;/strong&gt; received his PhD in Neuroscience from Emory University. He is currently a postdoctoral scholar at Duke University (Durham, North Carolina). His research focuses on the role of G-protein coupled receptors in various neuropsychiatric disorders. You can email him at &lt;a href=&quot;mailto:samueljosephrose@gmail.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;samueljosephrose@gmail.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/blogs/neuro/~4/7kgMAlODUD8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Sat, 29 Sep 2018 13:48:51 +0000</pubDate>
+  <source url="http://feeds.plos.org/plos/blogs/neuro">PLOS Neuroscience Community</source>
+</item>
+<item>
+	<title>Retraction watch: Weekend reads: Lessons from the downfall of Brian Wansink; “scientific terrorism” redux; why Cochrane booted a member</title>
+	<guid isPermaLink="false">http://retractionwatch.com/?p=72841</guid>
+	<link>http://retractionwatch.com/2018/09/29/weekend-reads-lessons-from-the-downfall-of-brian-wansink-scientific-terrorism-redux-why-cochrane-booted-a-member/</link>
+	<description>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a journal reversing three retractions, retractions for “irreconcilable differences,” and … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/09/29/weekend-reads-lessons-from-the-downfall-of-brian-wansink-scientific-terrorism-redux-why-cochrane-booted-a-member/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Lessons from the downfall of Brian Wansink; “scientific terrorism” redux; why Cochrane booted a member&lt;/span&gt;&lt;/a&gt;</description>
+	<pubDate>Sat, 29 Sep 2018 13:27:47 +0000</pubDate>
+  <source url="http://retractionwatch.com/feed/">Retraction Watch</source>
+</item>
+<item>
+	<title>Discovery magazine - Neuroskeptic: &quot;Rick and Morty&quot; Sting Predatory Journals</title>
+	<guid isPermaLink="true">http://blogs.discovermagazine.com/neuroskeptic/?p=9716</guid>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9716</link>
+	<description>Last year I wrote and published a fake 'scientific paper' to highlight the problem of predatory scientific journals. My article, following in the tradition of earlier fake journal 'stings', was complete nonsense, full of Star Wars references and quotes, but it was published by a number of dodgy journals.
+
+
+
+Now, another sci-fi sting has taken place, based this time on Rick and Morty. The stinger, Farooq Ali Khan, created a hilarious paper called Newer Tools to Fight Inter-Galactic Parasites</description>
+	<pubDate>Sat, 29 Sep 2018 12:48:56 +0000</pubDate>
+  <source url="http://feeds.feedburner.com/neuro-skeptic">Neuroskeptic</source>
+</item>
+<item>
 	<title>The Science Exchange Blog: Science Exchange Collaborates with Renovo Neural to Offer Novel Neurological Research Services</title>
 	<guid isPermaLink="false">http://blog.scienceexchange.com/?p=1748</guid>
 	<link>https://blog.scienceexchange.com/2018/09/science-exchange-collaborates-with-renovo-neural-to-offer-novel-neurological-research-services/</link>
@@ -1958,32 +2005,6 @@ Brain Armor's links to the NFL Alumni raised eyebrows on Twitter because the NFL
 	<description>Honeybees clumped on trees may adjust their positions to keep the cluster together when it’s jostled by wind, a new study suggests.</description>
 	<pubDate>Mon, 17 Sep 2018 15:00:04 +0000</pubDate>
         <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/09/main/articles/091418_ec_bee-clump_feat_free.jpg?itok=7qfI2czK" length="44035" type="image/jpeg"/>
-  <source url=""></source>
-</item>
-<item>
-	<title>Science News: The ghosts of nearly two dozen icy volcanoes haunt dwarf planet Ceres</title>
-	<guid isPermaLink="true">https://www.sciencenews.org/article/ghosts-nearly-two-dozen-icy-volcanoes-haunt-dwarf-planet-ceres</guid>
-	<link>https://www.sciencenews.org/article/ghosts-nearly-two-dozen-icy-volcanoes-haunt-dwarf-planet-ceres</link>
-	<description>The slumped remains of 21 ice volcanoes suggest that the dwarf planet Ceres has been volcanically active for billions of years.</description>
-	<pubDate>Mon, 17 Sep 2018 15:00:04 +0000</pubDate>
-        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/09/main/articles/091418_ec_ceres_feat_free.jpg?itok=2ZL-MAsX" length="34052" type="image/jpeg"/>
-  <source url=""></source>
-</item>
-<item>
-	<title>Retraction watch: Researcher who once tried to sue critics has another dozen papers retracted</title>
-	<guid isPermaLink="false">https://retractionwatch.com/?p=71450</guid>
-	<link>http://retractionwatch.com/2018/09/17/researcher-who-once-tried-to-sue-critics-has-another-dozen-papers-retracted/</link>
-	<description>A cancer researcher who went to court — unsuccessfully — claiming that commenters on PubPeer had cost him a new job has just lost another 12 papers. The twelve now-retracted papers by Fazlul Sarkar and colleagues — as well as another by Sarkar that is now subject to an editor’s note — all appeared in … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/09/17/researcher-who-once-tried-to-sue-critics-has-another-dozen-papers-retracted/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Researcher who once tried to sue critics has another dozen papers retracted&lt;/span&gt;&lt;/a&gt;</description>
-	<pubDate>Mon, 17 Sep 2018 11:40:33 +0000</pubDate>
-  <source url="http://retractionwatch.com/feed/">Retraction Watch</source>
-</item>
-<item>
-	<title>Science News: A recount of human genes ups the number to at least 46,831</title>
-	<guid isPermaLink="true">https://www.sciencenews.org/article/recount-human-genes-ups-number-least-46831</guid>
-	<link>https://www.sciencenews.org/article/recount-human-genes-ups-number-least-46831</link>
-	<description>A new estimate of the number of human genes adds in some RNA-producing genes.</description>
-	<pubDate>Mon, 17 Sep 2018 11:00:05 +0000</pubDate>
-        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2018/09/main/articles/0914_ti_gene-count_feat_free.jpg?itok=-oOeIhsL" length="44130" type="image/jpeg"/>
   <source url=""></source>
 </item>
 
