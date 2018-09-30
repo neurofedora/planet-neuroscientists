@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/only-small-fraction-space-searched-aliens" />
 			<rdf:li rdf:resource="http://blogs.plos.org/neuro/?p=19643" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=72841" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9716" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=71498" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9703" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-many-us-kids-are-vaping-marijuana" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/heres-how-clumps-honeybees-may-survive-blowing-wind" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/only-small-fraction-space-searched-aliens">
+	<title>Science News: We may not have found aliens yet because we’ve barely begun looking</title>
+	<link>https://www.sciencenews.org/article/only-small-fraction-space-searched-aliens</link>
+	<content:encoded>A new calculation says SETI searches have combed the equivalent of a hot tub out of Earth’s oceans looking for extraterrestrial intelligence in space.</content:encoded>
+	<dc:date>2018-09-30T12:00:05+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="http://blogs.plos.org/neuro/?p=19643">
 	<title>PLOS Neuroscience Community: “Neuroscience at Scale: Synaptomics tries to make sense of the brain at a stupefying scale” by Samuel Rose</title>
 	<link>http://feeds.plos.org/~r/plos/blogs/neuro/~3/7kgMAlODUD8/</link>
@@ -1947,13 +1954,6 @@ Brain Armor's links to the NFL Alumni raised eyebrows on Twitter because the NFL
 	<content:encoded>A new study suggests that nearly 1 in 11 middle and high school students in the United States has vaped marijuana, raising concerns about addiction.</content:encoded>
 	<dc:date>2018-09-17T15:00:04+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/heres-how-clumps-honeybees-may-survive-blowing-wind">
-	<title>Science News: Here’s how clumps of honeybees may survive blowing in the wind</title>
-	<link>https://www.sciencenews.org/article/heres-how-clumps-honeybees-may-survive-blowing-wind</link>
-	<content:encoded>Honeybees clumped on trees may adjust their positions to keep the cluster together when it’s jostled by wind, a new study suggests.</content:encoded>
-	<dc:date>2018-09-17T15:00:04+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
