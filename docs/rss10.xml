@@ -15,9 +15,12 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/cyanobacteria-may-survive-surprisingly-deep-underground" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nearly-2-million-us-adult-nonsmokers-vape" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=32229" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74073" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sawbones-invites-readers-laugh-bizarre-history-medicine" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/combating-image-misuse-in-science-new-humboldt-database-provides-missing-link" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34890" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-your-brain-film-editor" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/economics-climate-change-and-tech-innovation-win-us-pair-nobel" />
@@ -112,13 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/paula-jofre-sn-10-scientists-to-watch" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lisa-manning-sn-10-scientists-watch" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/joaquin-rodriguez-lopez-sn-10-scientists-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/anshumali-shrivastava-sn-10-scientists-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/douglas-stanford-sn-10-scientists-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/jenny-tung-sn-10-scientists-watch" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/cyanobacteria-may-survive-surprisingly-deep-underground">
+	<title>Science News: These light-loving bacteria may survive surprisingly deep underground</title>
+	<link>https://www.sciencenews.org/article/cyanobacteria-may-survive-surprisingly-deep-underground</link>
+	<content:encoded>Traces of cyanobacteria DNA suggest that the microbes live deep below Earth’s surface.</content:encoded>
+	<dc:date>2018-10-09T20:13:37+00:00</dc:date>
+	<dc:creator>Jennifer Leman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/nearly-2-million-us-adult-nonsmokers-vape">
+	<title>Science News: Nearly 2 million U.S. adult nonsmokers vape</title>
+	<link>https://www.sciencenews.org/article/nearly-2-million-us-adult-nonsmokers-vape</link>
+	<content:encoded>A new study finds that an estimated 1.9 million U.S. adult nonsmokers use e-cigarettes, highlighting worries that the devices are addictive.</content:encoded>
+	<dc:date>2018-10-09T17:20:50+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="http://forbetterscience.com/?p=32229">
 	<title>For Better Science: Fraud proven in papers of former CNRS president Anne Peyroche</title>
 	<link>https://forbetterscience.com/2018/10/09/fraud-found-in-papers-of-former-cnrs-president-anne-peyroche/</link>
@@ -139,6 +153,12 @@
 	<content:encoded>‘The Sawbones Book,’ based on the popular podcast by Dr. Sydnee and Justin McElroy, ties the strange history of modern medicine to modern pseudoscience.</content:encoded>
 	<dc:date>2018-10-09T11:00:04+00:00</dc:date>
 	<dc:creator>Mike Denison</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/combating-image-misuse-in-science-new-humboldt-database-provides-missing-link">
+	<title>Elsevier Connect: Combating image misuse in science: new Humboldt database provides “missing link”</title>
+	<link>https://www.elsevier.com/connect/combating-image-misuse-in-science-new-humboldt-database-provides-missing-link</link>
+	<content:encoded>Together with Elsevier, the German university has built an image database designed to test and improve detection software</content:encoded>
+	<dc:date>2018-10-09T09:03:23+00:00</dc:date>
 </item>
 <item rdf:about="http://digest.bps.org.uk/?p=34890">
 	<title>The British Psychological Society - Research Digest: “My-side bias” makes it difficult for us to see the logic in arguments we disagree with</title>
@@ -1317,27 +1337,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Electrochemist Joaquín Rodríguez-López is finding better ways to store wind and solar power.</content:encoded>
 	<dc:date>2018-09-26T12:29:29+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/anshumali-shrivastava-sn-10-scientists-watch">
-	<title>Science News: Anshumali Shrivastava uses AI to wrangle torrents of data</title>
-	<link>https://www.sciencenews.org/article/anshumali-shrivastava-sn-10-scientists-watch</link>
-	<content:encoded>Computer scientist Anshumali Shrivastava is designing programs that can handle torrents of information quickly and efficiently.</content:encoded>
-	<dc:date>2018-09-26T12:28:03+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/douglas-stanford-sn-10-scientists-watch">
-	<title>Science News: Douglas Stanford probes the chaos inside black holes</title>
-	<link>https://www.sciencenews.org/article/douglas-stanford-sn-10-scientists-watch</link>
-	<content:encoded>Theoretical physicist Douglas Stanford is linking some of the most massive objects known to the quantum realm.</content:encoded>
-	<dc:date>2018-09-26T12:26:57+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/jenny-tung-sn-10-scientists-watch">
-	<title>Science News: Jenny Tung wants to know how social stresses mess with genes</title>
-	<link>https://www.sciencenews.org/article/jenny-tung-sn-10-scientists-watch</link>
-	<content:encoded>Evolutionary anthropologist Jenny Tung is untangling the many health effects of life as a social animal.</content:encoded>
-	<dc:date>2018-09-26T12:26:19+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
