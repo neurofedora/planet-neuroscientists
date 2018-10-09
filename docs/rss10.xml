@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=32229" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=74073" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/sawbones-invites-readers-laugh-bizarre-history-medicine" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34890" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-your-brain-film-editor" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/economics-climate-change-and-tech-innovation-win-us-pair-nobel" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/anshumali-shrivastava-sn-10-scientists-watch" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/douglas-stanford-sn-10-scientists-watch" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/jenny-tung-sn-10-scientists-watch" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/celebrating-successes-while-examining-failures" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-contemplate-water-mars-and-more" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-universities-are-using-research-management-technology-to-become-more-competitive" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=32229">
+	<title>For Better Science: Fraud proven in papers of former CNRS president Anne Peyroche</title>
+	<link>https://forbetterscience.com/2018/10/09/fraud-found-in-papers-of-former-cnrs-president-anne-peyroche/</link>
+	<content:encoded>The newspaper l'Express  reported that Academie de Sciences commissioned an investigative report about the papers of former CNRS interim president Anne Peyroche, and that CNRS and the French Ministry of Research tried to suppress it. Peyroche herself could not be heard, because she is hospitalised since the affair started. So her co-authors took that as opportunity to blame Peyroche for every fake figure. Meanwhile, duplicated data was found even in Research Minister's Frederique Vidal's paper.</content:encoded>
+	<dc:date>2018-10-09T15:58:56+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=74073">
+	<title>Retraction watch: University of Kentucky cancer toxicologist retracts three papers for image duplication</title>
+	<link>http://retractionwatch.com/2018/10/09/university-of-kentucky-cancer-toxicologist-retracts-three-papers-for-image-duplication/</link>
+	<content:encoded>A researcher at the University of Kentucky who studies the cancer risks of toxic chemicals has retracted three papers. All of the retraction notices, which appear in the Journal of Biological Chemistry, refer to some kind of image duplication. The papers were originally published between 2014 and 2017, with the 2014 paper cited 39 times, … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/09/university-of-kentucky-cancer-toxicologist-retracts-three-papers-for-image-duplication/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;University of Kentucky cancer toxicologist retracts three papers for image duplication&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-10-09T12:00:17+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/sawbones-invites-readers-laugh-bizarre-history-medicine">
+	<title>Science News: ‘Sawbones’ invites readers to laugh at the bizarre history of medicine</title>
+	<link>https://www.sciencenews.org/article/sawbones-invites-readers-laugh-bizarre-history-medicine</link>
+	<content:encoded>‘The Sawbones Book,’ based on the popular podcast by Dr. Sydnee and Justin McElroy, ties the strange history of modern medicine to modern pseudoscience.</content:encoded>
+	<dc:date>2018-10-09T11:00:04+00:00</dc:date>
+	<dc:creator>Mike Denison</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=34890">
 	<title>The British Psychological Society - Research Digest: “My-side bias” makes it difficult for us to see the logic in arguments we disagree with</title>
 	<link>https://digest.bps.org.uk/2018/10/09/my-side-bias-makes-it-difficult-for-us-to-see-the-logic-in-arguments-we-disagree-with/</link>
@@ -1317,26 +1338,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Evolutionary anthropologist Jenny Tung is untangling the many health effects of life as a social animal.</content:encoded>
 	<dc:date>2018-09-26T12:26:19+00:00</dc:date>
 	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/celebrating-successes-while-examining-failures">
-	<title>Science News: Celebrating successes while examining failures</title>
-	<link>https://www.sciencenews.org/article/celebrating-successes-while-examining-failures</link>
-	<content:encoded>Editor in Chief Nancy Shute discusses this year's 10 scientists to watch and the ups and downs of the scientific endeavor.</content:encoded>
-	<dc:date>2018-09-26T11:15:00+00:00</dc:date>
-	<dc:creator>Nancy Shute</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-contemplate-water-mars-and-more">
-	<title>Science News: Readers contemplate water on Mars and more</title>
-	<link>https://www.sciencenews.org/article/readers-contemplate-water-mars-and-more</link>
-	<content:encoded>Readers had questions about the significance of finding water on mars, air pollution from wildfires and spray-on sensors.</content:encoded>
-	<dc:date>2018-09-26T11:00:00+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/how-universities-are-using-research-management-technology-to-become-more-competitive">
-	<title>Elsevier Connect: How universities are using research management technology to become more competitive</title>
-	<link>https://www.elsevier.com/connect/how-universities-are-using-research-management-technology-to-become-more-competitive</link>
-	<content:encoded>Institutions are turning to solutions like Elsevier’s Pure to analyze and showcase their research assets</content:encoded>
-	<dc:date>2018-09-26T08:25:33+00:00</dc:date>
 </item>
 
 </rdf:RDF>
