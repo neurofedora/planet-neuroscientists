@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9737" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-public/were-probably-undervaluing-healthy-lakes-and-rivers" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/1576672521e34313b9614c428bef0493" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74497" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74457" />
@@ -113,12 +115,29 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hints-weird-particles-space-may-defy-physics-standard-model" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/warm-tropical-atlantic-waters-juiced-2017-hurricane-season" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=72778" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/reflective-paint-could-keep-sunbaked-buildings-cool" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/riemann-died-young-freed-geometry-euclidean-prejudices" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9737">
+	<title>Discovery magazine - Neuroskeptic: The Fidgeting Brain</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9737</link>
+	<content:encoded>A new review paper in The Neuroscientist highlights the problem of body movements for neuroscience, from blinks to fidgeting.
+
+
+
+Authors Patrick J Drew and colleagues of Penn State discuss how many types of movements are associated with widespread brain activation, which can contaminate brain activity recordings. This is true, they say, of both humans and experimental animals such as rodents, e.g. with their 'whisking' movements of the whiskers.
+
+A particular concern is that many movements</content:encoded>
+	<dc:date>2018-10-14T12:52:12+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/science-public/were-probably-undervaluing-healthy-lakes-and-rivers">
+	<title>Science News: We’re probably undervaluing healthy lakes and rivers</title>
+	<link>https://www.sciencenews.org/blog/science-public/were-probably-undervaluing-healthy-lakes-and-rivers</link>
+	<content:encoded>Clean water legislation often doesn’t seem like a good deal on paper. Here’s why that may be misleading.</content:encoded>
+	<dc:date>2018-10-14T12:00:05+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="http://brainsciencepodcast.libsyn.com/1576672521e34313b9614c428bef0493">
 	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: Announcements about Boston and Australia</title>
 	<link>http://brainsciencepodcast.libsyn.com/announcements-about-boston-and-australia</link>
@@ -1466,20 +1485,6 @@ Now, another sci-fi sting has taken place, based this time on Rick and Morty. Th
 	<content:encoded>Here’s a head-scratcher from the Journal of Affective Disorders, which has retracted a 2017 article for, well, reasons we invite you to divine. The article, “The effectiveness of group-based behavioral activation in the treatment of depression: An updated meta-analysis of randomized controlled trial,” was published by a group at the Jockey Club School of Public … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/09/28/a-paper-from-the-jockey-club-school-makes-a-false-start/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;A paper from the Jockey Club School makes a false start&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-09-28T13:08:02+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/reflective-paint-could-keep-sunbaked-buildings-cool">
-	<title>Science News: This reflective paint could keep sunbaked buildings cool</title>
-	<link>https://www.sciencenews.org/article/reflective-paint-could-keep-sunbaked-buildings-cool</link>
-	<content:encoded>A new type of polymer coating that reflects sunlight to control heat could supplement or replace air conditioning systems.</content:encoded>
-	<dc:date>2018-09-28T13:00:06+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/context/riemann-died-young-freed-geometry-euclidean-prejudices">
-	<title>Science News: Before his early death, Riemann freed geometry from Euclidean prejudices</title>
-	<link>https://www.sciencenews.org/blog/context/riemann-died-young-freed-geometry-euclidean-prejudices</link>
-	<content:encoded>The originator of Riemann’s hypothesis died young, but he provided the geometry needed for modern view of spacetime.</content:encoded>
-	<dc:date>2018-09-28T11:00:06+00:00</dc:date>
-	<dc:creator>Tom Siegfried</dc:creator>
 </item>
 
 </rdf:RDF>
