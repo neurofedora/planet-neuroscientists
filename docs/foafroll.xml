@@ -104,6 +104,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Computational Neuroscience</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://compneuro.blogspot.com/">
+					<dc:title>Computational Neuroscience</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Discovery magazine - Neuroskeptic</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://discovermagazine.com/rss/blog-feeds/neuroskeptic">
@@ -433,6 +446,19 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="https://blogs.plos.org/neuro">
 					<dc:title>PLOS Neuroscience Community</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Pillow Lab</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://pillowlab.wordpress.com">
+					<dc:title>Pillow Lab Blog</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
