@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=74785" />
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=32388" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35028" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/water-system-helped-angkor-rise-may-have-also-brought-its-fall" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/electron-shape-round-standard-model-physics" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34890" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-your-brain-film-editor" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/economics-climate-change-and-tech-innovation-win-us-pair-nobel" />
-			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8338" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/spiky-ice-spires-may-stud-europa" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=74034" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi">
+	<title>Science News: More tornadoes are popping up east of the Mississippi</title>
+	<link>https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi</link>
+	<content:encoded>Tornadoes are becoming slightly less frequent in Tornado Alley, while more are touching down further east in the United States, a study suggests.</content:encoded>
+	<dc:date>2018-10-18T14:56:40+00:00</dc:date>
+	<dc:creator>Jennifer Leman</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=74785">
+	<title>Retraction watch: How a typo in a catalog number led to the correction of a scientific paper — and what we can learn from that</title>
+	<link>http://retractionwatch.com/2018/10/18/how-a-typo-in-a-catalog-number-led-to-the-correction-of-a-scientific-paper-and-what-we-can-learn-from-that/</link>
+	<content:encoded>Papers are corrected for lots of different reasons. In this guest post, Anita Bandrowski, who leads an initiative designed to help researchers identify their reagents correctly, describes one unusual reason for a correction — and explains what researchers can learn from the episode. Last December, Tianyi Wang and her colleagues published a very interesting paper … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/18/how-a-typo-in-a-catalog-number-led-to-the-correction-of-a-scientific-paper-and-what-we-can-learn-from-that/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;How a typo in a catalog number led to the correction of a scientific paper — and what we can learn from that&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-10-18T12:00:40+00:00</dc:date>
+	<dc:creator>Anita Bandrowski</dc:creator>
+</item>
+<item rdf:about="http://forbetterscience.com/?p=32388">
+	<title>For Better Science: Lopez-Otin and Kroemer: birds of a feather flock together</title>
+	<link>https://forbetterscience.com/2018/10/18/lopez-otin-and-kroemer-birds-of-a-feather-flock-together/</link>
+	<content:encoded>Following my reporting, the cancer researcher Carlos López-Otín abandoned his ERC-funded 36-member-strong &quot;Degradome&quot; lab at the University of Oviedo in Spain and moved in with his collaborator in Paris, France, Guido Kroemer. Yet Lopez-Otin's data integrity issues seem as poppycock compared to what Kroemer and his life partner Laurence Zitvogel dished out to the scientific community.</content:encoded>
+	<dc:date>2018-10-18T11:40:14+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=35028">
 	<title>The British Psychological Society - Research Digest: Story-listening shows promise as an intervention for people living with dementia</title>
 	<link>https://digest.bps.org.uk/2018/10/18/story-listening-shows-promise-as-an-intervention-for-dementia-patients/</link>
@@ -1317,41 +1338,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 	<content:encoded>Climate change and tech innovations inspired the new Nobel Memorial Prize winners in Economic Sciences.</content:encoded>
 	<dc:date>2018-10-08T16:09:44+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="http://blogs.plos.org/plos/?p=8338">
-	<title>The Official PLOS Blog: Failures: Key to success in science</title>
-	<link>http://feeds.plos.org/~r/plos/Blog/~3/AS67qWnEeRY/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/plos/files/2018/10/FOI-pic-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;This post was collaboratively written by PLOS staff (Ines Alvarez-Garcia, Phil Mills, Leonie Mueck and Iratxe Puebla)&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Note: Join us Monday, October 15 at the Cambridge &lt;a href=&quot;https://www.festivalofideas.cam.ac.uk/&quot;&gt;Festival of Ideas&lt;/a&gt; for a &lt;a href=&quot;https://www.eventbrite.co.uk/e/failures-key-to-success-in-science-cambridge-festival-of-ideas-2018-tickets-46802067243&quot;&gt;free&lt;/a&gt; interactive discussion with panelists from CamAWISE, University of Cambridge, the Sanger Institute, and Cambridge University Press to talk about how we can shift perceptions on failure and success in scientific careers.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Most scientists are fortunate to have a job that they love and feel passionate about, but a ‘successful’ career in research can be among the hardest career paths to pursue – dragons hide in almost every corner. In spite of many hours of effort and meticulous protocols, experiments fail and careful measurements yield unexpected results that one’s hypotheses cannot explain. There is also the risk that the same or related results are suddenly published by another group. These events are often regarded as failures in a research environment, but are they really failures? Could they actually hold the key to success in science?&lt;/p&gt;
-&lt;p&gt;There is scope to redefine what failure and success mean in science, and there are signs that the recipe for having a successful research career is changing. Being ‘scooped’ by a ‘competitor’ actually provides confirmation for your results, so shouldn’t that be viewed as support for the validity of your findings? Disseminating results fast in all of their forms, positive or negative – for example, as preprints – can also contribute significantly to the advancement of science; sharing all scholarly outputs allows others to build on the findings and prevents duplication of efforts.&lt;/p&gt;
-&lt;p&gt;Researchers are often constrained by a metric-based evaluation system that doesn’t reflect all the nuances, interactions and efforts that contribute to research endeavours. But some institutions and funders have started looking at their assessment framework afresh with a view to encouraging a more responsible use of metrics in the context of researcher assessment. At the same time, studies have consistently shown that there’s a lack of diversity in many scientific disciplines. In today’s landscape, where we have more options to travel and share information than ever before, we should move towards a place where diversity and collaboration are both sought and rewarded.&lt;/p&gt;
-&lt;p&gt;We will tackle all these questions and many more in the Cambridge &lt;a href=&quot;https://www.festivalofideas.cam.ac.uk/&quot;&gt;Festival of Ideas&lt;/a&gt; event, “&lt;a href=&quot;https://www.eventbrite.co.uk/e/failures-key-to-success-in-science-cambridge-festival-of-ideas-2018-tickets-46802067243&quot;&gt;Failures: Key to success in science&lt;/a&gt;”. We’ll host an interactive discussion to engage the public and bring forward recommendations for the research communities on how we can better celebrate efforts and discoveries that do not currently fit the mould of a ‘successful’ research career. Our five panellists will help us explore the topic from their different perspectives:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stephen Eglen&lt;/strong&gt;, a reader in Computational Neuroscience (University of Cambridge)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Fiona Hutton&lt;/strong&gt;, a publisher (Open access journals, &lt;a href=&quot;http://www.cambridge.org/gb/index.php&quot;&gt;Cambridge University Press&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tapoka Mkandawire&lt;/strong&gt;, a PhD candidate (&lt;a href=&quot;https://www.sanger.ac.uk/&quot;&gt;Sanger Institute, Cambridge&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Arthur Smith&lt;/strong&gt;, Acting Joint Deputy Head of &lt;a href=&quot;https://osc.cam.ac.uk/&quot;&gt;Scholarly Communication&lt;/a&gt; (University of Cambridge)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Cathy Sorbara&lt;/strong&gt;, Co-chair of &lt;a href=&quot;https://camawise.org.uk/&quot;&gt;CamAWiSE&lt;/a&gt; (Cambridge Association for Women in Science and Engineering)&lt;/p&gt;
-&lt;p&gt;If you’re in the Cambridge area, why not join us and participate in the debate, which will take place on Monday 15&lt;sup&gt;th&lt;/sup&gt; October at &lt;a href=&quot;https://map.cam.ac.uk/Lord+Ashcroft+Building#52.203487,0.133934,17&quot;&gt;Anglia Ruskin University, Lord Ashcroft Building&lt;/a&gt; Room 002. Book your &lt;strong&gt;free&lt;/strong&gt; ticket &lt;a href=&quot;https://www.eventbrite.co.uk/e/failures-key-to-success-in-science-cambridge-festival-of-ideas-2018-tickets-46802067243&quot;&gt;here&lt;/a&gt;. Can’t attend? We’ll be live tweeting during the event. Check us out at #RethinkFailure. The Festival of Ideas hashtag is #cfi2018. We’ll also recap the entire day in a follow-up blog.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2018/10/Combined-logos-002.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8353&quot; height=&quot;333&quot; src=&quot;http://blogs.plos.org/plos/files/2018/10/Combined-logos-002.jpg&quot; width=&quot;286&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/AS67qWnEeRY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-10-08T15:59:17+00:00</dc:date>
-	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/spiky-ice-spires-may-stud-europa">
-	<title>Science News: Spiky ice spires may stud the equator of Jupiter’s moon Europa</title>
-	<link>https://www.sciencenews.org/article/spiky-ice-spires-may-stud-europa</link>
-	<content:encoded>Fields of jagged ice spires, if they exist, could affect where future spacecraft land on the Jovian moon.</content:encoded>
-	<dc:date>2018-10-08T15:00:04+00:00</dc:date>
-	<dc:creator>Jennifer Leman</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=74034">
-	<title>Retraction watch: Canadian Medical Association leaves international group after president plagiarizes past president’s speech</title>
-	<link>http://retractionwatch.com/2018/10/08/canadian-medical-association-leaves-international-group-after-president-plagiarizes-past-presidents-speech/</link>
-	<content:encoded>The address was supposed to be a triumphant inaugural speech. On Friday, Leonid Eidelman, the incoming president of the World Medical Association (WMA), made up of representatives from national medical associations, stood up in front of the group’s members in Reykjavik, Iceland, and told them it was a great honor to become their leader. The … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/08/canadian-medical-association-leaves-international-group-after-president-plagiarizes-past-presidents-speech/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Canadian Medical Association leaves international group after president plagiarizes past president’s speech&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-10-08T13:05:14+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
