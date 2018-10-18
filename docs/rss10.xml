@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/artificial-intelligence-crowdsources-data-speed-drug-discovery" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74785" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=32388" />
@@ -114,15 +115,21 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/combating-image-misuse-in-science-new-humboldt-database-provides-missing-link" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34890" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-your-brain-film-editor" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/economics-climate-change-and-tech-innovation-win-us-pair-nobel" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/artificial-intelligence-crowdsources-data-speed-drug-discovery">
+	<title>Science News: Artificial intelligence crowdsources data to speed up drug discovery</title>
+	<link>https://www.sciencenews.org/article/artificial-intelligence-crowdsources-data-speed-drug-discovery</link>
+	<content:encoded>A new AI that judges whether drugs will interact with certain proteins can train on data from multiple sources while keeping that info secret.</content:encoded>
+	<dc:date>2018-10-18T18:00:05+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi">
 	<title>Science News: More tornadoes are popping up east of the Mississippi</title>
 	<link>https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi</link>
-	<content:encoded>Tornadoes are becoming slightly less frequent in Tornado Alley, while more are touching down further east in the United States, a study suggests.</content:encoded>
+	<content:encoded>Tornadoes are becoming slightly less frequent in Tornado Alley, while more are touching down farther east in the United States, a study suggests.</content:encoded>
 	<dc:date>2018-10-18T14:56:40+00:00</dc:date>
 	<dc:creator>Jennifer Leman</dc:creator>
 </item>
@@ -1331,13 +1338,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 	<content:encoded>A brain structure called the hippocampus may slice our continuous existence into discrete chunks that can be stored as memories.</content:encoded>
 	<dc:date>2018-10-08T17:00:04+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/economics-climate-change-and-tech-innovation-win-us-pair-nobel">
-	<title>Science News: The economics of climate change and tech innovation win U.S. pair a Nobel</title>
-	<link>https://www.sciencenews.org/article/economics-climate-change-and-tech-innovation-win-us-pair-nobel</link>
-	<content:encoded>Climate change and tech innovations inspired the new Nobel Memorial Prize winners in Economic Sciences.</content:encoded>
-	<dc:date>2018-10-08T16:09:44+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
