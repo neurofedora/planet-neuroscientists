@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-make-organ-transplants-last" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9754" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/genetics-dna-homosexuality-gay-orientation-attractiveness-straight" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74970" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-bees-did-during-great-american-eclipse" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-10-10:/2018/10/10/asynchronism-based-principal-component-analysis-for-time-series-data-mining.html" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/5-steps-to-building-a-better-recommendation-engine" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-550-year-old-seed-sprouted" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-make-organ-transplants-last">
+	<title>Science News: How to make organ transplants last</title>
+	<link>https://www.sciencenews.org/article/how-make-organ-transplants-last</link>
+	<content:encoded>New strategies aim to help transplant recipients keep their organs healthy with fewer (or no) immune suppressing drugs.</content:encoded>
+	<dc:date>2018-10-21T09:00:05+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9754">
 	<title>Discovery magazine - Neuroskeptic: The Case of the Magic Wine</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9754</link>
@@ -1389,13 +1396,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 	<link>https://www.elsevier.com/connect/5-steps-to-building-a-better-recommendation-engine</link>
 	<content:encoded>Two Elsevier software engineers reveal how they help you find the most relevant articles for your research</content:encoded>
 	<dc:date>2018-10-10T11:25:28+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/50-years-ago-550-year-old-seed-sprouted">
-	<title>Science News: 50 years ago, a 550-year-old seed sprouted</title>
-	<link>https://www.sciencenews.org/article/50-years-ago-550-year-old-seed-sprouted</link>
-	<content:encoded>Old seeds can sprout new plants even after centuries of dormancy.</content:encoded>
-	<dc:date>2018-10-10T11:00:05+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
