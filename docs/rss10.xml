@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/plants-engineered-always-be-alert-do-not-grow-well" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=75059" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tyrannosaurus-rex-pulverized-bones-incredible-amount-force" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=32478" />
@@ -41,6 +42,8 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dandelion-seeds-create-bizarre-whirlpool-air-fly" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10603" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74793" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-wonder-about-hydrogen-wall-pig-lung-transplants-and-more" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/waking-early-cover-nobel-prize" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35017" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mysterious-polio-disease-sickened-127-people-united-states" />
 			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3712" />
@@ -112,13 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-2" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-18" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-15" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-11" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/science-ticker/whats-unusual-about-hurricane-michael" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=74303" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/plants-engineered-always-be-alert-do-not-grow-well">
+	<title>Science News: Plants engineered to always be on alert don’t grow well</title>
+	<link>https://www.sciencenews.org/article/plants-engineered-always-be-alert-do-not-grow-well</link>
+	<content:encoded>Scientists bred a type of weed to lack proteins that help stem the production of bitter chemicals used to ward off insect attacks.</content:encoded>
+	<dc:date>2018-10-22T20:09:50+00:00</dc:date>
+	<dc:creator>Jennifer Leman</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=75059">
 	<title>Retraction watch: Graduate student in China stripped of PhD after investigation that led to a dozen retractions</title>
 	<link>http://retractionwatch.com/2018/10/22/graduate-student-in-china-stripped-of-phd-after-investigation-that-led-to-a-dozen-retractions/</link>
@@ -426,6 +433,20 @@ landscape to improve on the state-of-the-art heuristic algorithms.&lt;/p&gt;
 	<content:encoded>The maker of a leading over-the-counter antacid has withdrawn its application for approval of the drug in China because a clinical trial of the product in that country was marred by “major protocol deviations.” Researchers for the company, Reckitt Benckiser, maker of Gaviscon, had published a report on the study in 2015 in the journal … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/17/sufficiently-serious-issues-in-study-prompt-company-to-yank-drug-approval-application-in-china/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;“Sufficiently serious” issues in study prompt company to yank drug approval application in China&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-10-17T11:53:05+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/readers-wonder-about-hydrogen-wall-pig-lung-transplants-and-more">
+	<title>Science News: Readers wonder about a hydrogen wall, pig lung transplants and more</title>
+	<link>https://www.sciencenews.org/article/readers-wonder-about-hydrogen-wall-pig-lung-transplants-and-more</link>
+	<content:encoded>Readers had questions about a glow at the edge of the solar system, pig lung transplants, the use of the word promiscuous and more.</content:encoded>
+	<dc:date>2018-10-17T11:15:00+00:00</dc:date>
+	<dc:creator>Science News Staff</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/waking-early-cover-nobel-prize">
+	<title>Science News: Waking up early to cover science’s biggest honor</title>
+	<link>https://www.sciencenews.org/article/waking-early-cover-nobel-prize</link>
+	<content:encoded>Editor in Chief Nancy Shute discusses how the Science News editors and reporters cover the Nobel Prizes each year.</content:encoded>
+	<dc:date>2018-10-17T11:00:00+00:00</dc:date>
+	<dc:creator>Nancy Shute</dc:creator>
 </item>
 <item rdf:about="http://digest.bps.org.uk/?p=35017">
 	<title>The British Psychological Society - Research Digest: Encouraging self-compassion may help people with chronic pain lead more active, happier lives</title>
@@ -1366,32 +1387,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/nI4v2jnwj4A&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-10-11T00:00:00+00:00</dc:date>
 	<dc:creator>Dana G. Smith</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind1118-11">
-	<title>Scientific American Mind: Why It's So Hard to Junk Bad Decisions—Edging Closer to Understanding “Sunk Cost”</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/BSgcs5vESDI/scientificamericanmind1118-11</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 11 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind1118-11&quot;&gt;doi:10.1038/scientificamericanmind1118-11&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Maya Miller&lt;/p&gt;
-&lt;p&gt;Humans, rats and mice all exhibit the decision-making phenomenon, but new research suggests not all choices are equally vulnerable to it&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/BSgcs5vESDI&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-10-11T00:00:00+00:00</dc:date>
-	<dc:creator>Maya Miller</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/science-ticker/whats-unusual-about-hurricane-michael">
-	<title>Science News: Here’s what’s unusual about Hurricane Michael</title>
-	<link>https://www.sciencenews.org/blog/science-ticker/whats-unusual-about-hurricane-michael</link>
-	<content:encoded>Warm Gulf waters were the engine behind Hurricane Michael’s quick intensification.</content:encoded>
-	<dc:date>2018-10-10T21:53:19+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=74303">
-	<title>Retraction watch: In wake of media scrutiny, Sloan Kettering author adds financial disclosures</title>
-	<link>http://retractionwatch.com/2018/10/10/in-wake-of-media-scrutiny-sloan-kettering-author-adds-financial-disclosures/</link>
-	<content:encoded>A month after a journalism investigation that led to resignations and turmoil at Memorial Sloan Kettering Cancer Center in New York, researchers including a Sloan Kettering scientist have quietly corrected at least two papers to add disclosures of financial conflicts of interest. The two corrections, in Chemistry of Materials, are dated October 8, 2018 and … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/10/in-wake-of-media-scrutiny-sloan-kettering-author-adds-financial-disclosures/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;In wake of media scrutiny, Sloan Kettering author adds financial disclosures&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-10-10T20:38:52+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
