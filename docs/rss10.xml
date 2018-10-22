@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/eye-disorder-exotropia-leonardo-da-vinci-artistic-edge" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-make-organ-transplants-last" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9754" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/genetics-dna-homosexuality-gay-orientation-attractiveness-straight" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hubble-new-trouble-probably-wont-doom-space-telescope" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-bees-did-during-great-american-eclipse" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-10-10:/2018/10/10/asynchronism-based-principal-component-analysis-for-time-series-data-mining.html" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/5-steps-to-building-a-better-recommendation-engine" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/eye-disorder-exotropia-leonardo-da-vinci-artistic-edge">
+	<title>Science News: An eye disorder may have given Leonardo da Vinci an artistic edge</title>
+	<link>https://www.sciencenews.org/article/eye-disorder-exotropia-leonardo-da-vinci-artistic-edge</link>
+	<content:encoded>An analysis of portraits believed to portray Leonardo da Vinci offers evidence that the artist had exotropia, in which one eye turns outward.</content:encoded>
+	<dc:date>2018-10-22T10:00:05+00:00</dc:date>
+	<dc:creator>Amanda B. Keener</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/how-make-organ-transplants-last">
 	<title>Science News: How to make organ transplants last</title>
 	<link>https://www.sciencenews.org/article/how-make-organ-transplants-last</link>
@@ -1390,12 +1397,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 &lt;strong&gt;Location&lt;/strong&gt;: LB252&lt;/p&gt;</content:encoded>
 	<dc:date>2018-10-10T13:33:32+00:00</dc:date>
 	<dc:creator>Yi Sun</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/5-steps-to-building-a-better-recommendation-engine">
-	<title>Elsevier Connect: 5 steps to building a better recommendation engine</title>
-	<link>https://www.elsevier.com/connect/5-steps-to-building-a-better-recommendation-engine</link>
-	<content:encoded>Two Elsevier software engineers reveal how they help you find the most relevant articles for your research</content:encoded>
-	<dc:date>2018-10-10T11:25:28+00:00</dc:date>
 </item>
 
 </rdf:RDF>
