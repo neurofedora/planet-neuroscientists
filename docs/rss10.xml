@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/hurricane-willa-eastern-central-pacific-storm-season-record-breaker" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/saturn-moon-dione-has-stripes-no-others-solar-system" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cloud-zapping-laser-could-help-scientists-create-quantum-internet" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10608" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74950" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-52" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-5" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-46" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-42" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-31" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/hurricane-willa-eastern-central-pacific-storm-season-record-breaker">
+	<title>Science News: Hurricane Willa breaks an eastern and central Pacific storm season record</title>
+	<link>https://www.sciencenews.org/article/hurricane-willa-eastern-central-pacific-storm-season-record-breaker</link>
+	<content:encoded>The combined might of eastern and central Pacific hurricanes produced a record-breaking year of storm energy.</content:encoded>
+	<dc:date>2018-10-23T21:10:32+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/saturn-moon-dione-has-stripes-no-others-solar-system">
+	<title>Science News: Saturn’s moon Dione has stripes like no others in the solar system</title>
+	<link>https://www.sciencenews.org/article/saturn-moon-dione-has-stripes-no-others-solar-system</link>
+	<content:encoded>Icy moon Dione has long, thin, bright lines at its equator that run surprisingly parallel to each other for tens to hundreds of kilometers.</content:encoded>
+	<dc:date>2018-10-23T17:52:06+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/cloud-zapping-laser-could-help-scientists-create-quantum-internet">
 	<title>Science News: This cloud-zapping laser could help scientists create a quantum internet</title>
 	<link>https://www.sciencenews.org/article/cloud-zapping-laser-could-help-scientists-create-quantum-internet</link>
@@ -1351,30 +1365,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/T9ytV2PSX7E&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-10-11T00:00:00+00:00</dc:date>
 	<dc:creator>John Horgan</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind1118-42">
-	<title>Scientific American Mind: Unknown Unknowns: The Problem of Hypocognition</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/_eHcC8odfPM/scientificamericanmind1118-42</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 42 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind1118-42&quot;&gt;doi:10.1038/scientificamericanmind1118-42&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Authors: Kaidi Wu &amp;amp; David Dunning&lt;/p&gt;
-&lt;p&gt;We wander about the unknown terrains of life, complacent about what we know and oblivious to what we miss&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/_eHcC8odfPM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-10-11T00:00:00+00:00</dc:date>
-	<dc:creator>Kaidi Wu</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind1118-31">
-	<title>Scientific American Mind: Prize-Winning Images of the Brain</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/u2GIh8kdG_s/scientificamericanmind1118-31</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 31 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind1118-31&quot;&gt;doi:10.1038/scientificamericanmind1118-31&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Authors: Daniel Ackerman &amp;amp; Liz Tormes&lt;/p&gt;
-&lt;p&gt;Check out this year's winners of the Art of Neuroscience competition&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/u2GIh8kdG_s&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-10-11T00:00:00+00:00</dc:date>
-	<dc:creator>Daniel Ackerman</dc:creator>
 </item>
 
 </rdf:RDF>
