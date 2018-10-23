@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/teens-use-juul-e-cigarettes-much-more-often-other-vaping-products" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/plants-engineered-always-be-alert-do-not-grow-well" />
 			<rdf:li rdf:resource="https://www.artic.edu/articles/713/behind-the-scenes-of-the-website-redesign" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=75059" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-26" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-22" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-2" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamericanmind1118-18" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/teens-use-juul-e-cigarettes-much-more-often-other-vaping-products">
+	<title>Science News: Teens use Juul e-cigarettes much more often than other vaping products</title>
+	<link>https://www.sciencenews.org/article/teens-use-juul-e-cigarettes-much-more-often-other-vaping-products</link>
+	<content:encoded>Such ‘pod-mod’ devices are more popular among youth than other e-cigarettes or regular cigarettes, a study finds.</content:encoded>
+	<dc:date>2018-10-23T10:00:04+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/plants-engineered-always-be-alert-do-not-grow-well">
 	<title>Science News: Plants engineered to always be on alert don’t grow well</title>
 	<link>https://www.sciencenews.org/article/plants-engineered-always-be-alert-do-not-grow-well</link>
@@ -1369,18 +1376,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/d6PIJXGODDo&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-10-11T00:00:00+00:00</dc:date>
 	<dc:creator>Andrea Gawrylewski</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamericanmind1118-18">
-	<title>Scientific American Mind: The Dark Core of Personality</title>
-	<link>http://feeds.nature.com/~r/scientificamericanmind/rss/current/~3/wWuRm2K_LKY/scientificamericanmind1118-18</link>
-	<content:encoded>&lt;p&gt;Scientific American Mind 29, 18 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamericanmind1118-18&quot;&gt;doi:10.1038/scientificamericanmind1118-18&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Scott Barry Kaufman&lt;/p&gt;
-&lt;p&gt;Nine factors can determine how malevolent you are&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamericanmind/rss/current/~4/wWuRm2K_LKY&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-10-11T00:00:00+00:00</dc:date>
-	<dc:creator>Scott Barry Kaufman</dc:creator>
 </item>
 
 </rdf:RDF>
