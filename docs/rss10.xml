@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/get-deeper-tan-dont-sunbathe-every-day" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=75195" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/snakes-cobras-cannibalism" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=32511" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/liverwort-plants-contain-painkiller-similar-one-marijuana" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74401" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/self-driving-cars-see-better-cameras-mimic-mantis-shrimp-vision" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34925" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-observed-wimpy-supernova-may-have-birthed-neutron-star-duo" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/gene-editing-creates-mice-two-biological-dads-first-time" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/get-deeper-tan-dont-sunbathe-every-day">
+	<title>Science News: To get a deeper tan, don’t sunbathe every day</title>
+	<link>https://www.sciencenews.org/article/get-deeper-tan-dont-sunbathe-every-day</link>
+	<content:encoded>Skin cells make protective melanin on a 48-hour cycle.</content:encoded>
+	<dc:date>2018-10-25T15:07:11+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=75195">
+	<title>Retraction watch: JAMA journal retracts paper when author can’t produce original data</title>
+	<link>http://retractionwatch.com/2018/10/25/jama-journal-retracts-paper-when-author-cant-produce-original-data/</link>
+	<content:encoded>In July 2017, a JAMA journal called for the investigation into a 2013 paper it had published after concluding that the article had “scientific and ethical concerns.” Now the journal, JAMA Otolaryngology − Head &amp;amp; Neck Surgery, is retracting the paper. The article, “Dexamethasone for the prevention of recurrent laryngeal nerve palsy and other complications … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/25/jama-journal-retracts-paper-when-author-cant-produce-original-data/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;JAMA journal retracts paper when author can’t produce original data&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-10-25T12:00:12+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/wild-things/snakes-cobras-cannibalism">
 	<title>Science News: How a snake named Hannibal led to a discovery about cobra cannibalism</title>
 	<link>https://www.sciencenews.org/blog/wild-things/snakes-cobras-cannibalism</link>
@@ -1338,20 +1352,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 &lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Christian Jarrett&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;s2&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s2&quot;&gt;@Psych_Writer&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;) is Editor of &lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-10-12T09:01:18+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/first-observed-wimpy-supernova-may-have-birthed-neutron-star-duo">
-	<title>Science News: The first observed wimpy supernova may have birthed a neutron star duo</title>
-	<link>https://www.sciencenews.org/article/first-observed-wimpy-supernova-may-have-birthed-neutron-star-duo</link>
-	<content:encoded>Scientists have spotted a faint, fast supernova for the first time, possibly explaining how pairs of dense stellar corpses called neutron stars form.</content:encoded>
-	<dc:date>2018-10-11T18:00:05+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/gene-editing-creates-mice-two-biological-dads-first-time">
-	<title>Science News: Gene editing creates mice with two biological dads for the first time</title>
-	<link>https://www.sciencenews.org/article/gene-editing-creates-mice-two-biological-dads-first-time</link>
-	<content:encoded>Scientists have used CRISPR/Cas9 to make mice with two biological fathers.</content:encoded>
-	<dc:date>2018-10-11T16:02:17+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
