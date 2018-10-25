@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/wild-things/snakes-cobras-cannibalism" />
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=32511" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/liverwort-plants-contain-painkiller-similar-one-marijuana" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-clovis-people-may-have-taken-tool-cues-earlier-americans" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-some-people-may-be-more-susceptible-deadly-c-difficile-infections" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=34925" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-observed-wimpy-supernova-may-have-birthed-neutron-star-duo" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/gene-editing-creates-mice-two-biological-dads-first-time" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/see-these-dazzling-images-growing-mouse-embryo" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=32274" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/wild-things/snakes-cobras-cannibalism">
+	<title>Science News: How a snake named Hannibal led to a discovery about cobra cannibalism</title>
+	<link>https://www.sciencenews.org/blog/wild-things/snakes-cobras-cannibalism</link>
+	<content:encoded>Scientists discovered that cobras in southern Africa eat each other more often than thought. And that may be true for cobras in other places as well.</content:encoded>
+	<dc:date>2018-10-25T10:45:04+00:00</dc:date>
+	<dc:creator>Sarah Zielinski</dc:creator>
+</item>
+<item rdf:about="http://forbetterscience.com/?p=32511">
+	<title>For Better Science: Bremen Rector Bernd Scholz-Reiter, a hero of Open Access?</title>
+	<link>https://forbetterscience.com/2018/10/25/bremen-rector-bernd-scholz-reiter-a-hero-of-open-access/</link>
+	<content:encoded>Research by German journalists revealed whole lists of German academics engaging in predatory publishing and scamferences. Named on over 60 predatory conference papers is Bernd Scholz-Reiter, Rector of the University of Bremen and former Vice-President of DFG. Several such papers are even self-plagiarised, and were used in DFG project reports and Scholz-Reiter's rectorship application from 2011</content:encoded>
+	<dc:date>2018-10-25T05:00:03+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/liverwort-plants-contain-painkiller-similar-one-marijuana">
 	<title>Science News: Liverwort plants contain a painkiller similar to the one in marijuana</title>
 	<link>https://www.sciencenews.org/article/liverwort-plants-contain-painkiller-similar-one-marijuana</link>
@@ -1338,20 +1352,6 @@ To worsen the situation, not only do we elect people with psychopathic traits to
 	<content:encoded>Scientists have used CRISPR/Cas9 to make mice with two biological fathers.</content:encoded>
 	<dc:date>2018-10-11T16:02:17+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/see-these-dazzling-images-growing-mouse-embryo">
-	<title>Science News: See these dazzling images of a growing mouse embryo</title>
-	<link>https://www.sciencenews.org/article/see-these-dazzling-images-growing-mouse-embryo</link>
-	<content:encoded>A new microscope creates intimate home movies of mice embryos taking shape, and could shed light on the mysterious process of mammalian development.</content:encoded>
-	<dc:date>2018-10-11T15:00:06+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=32274">
-	<title>For Better Science: WHO cures cancer in Photoshop?</title>
-	<link>https://forbetterscience.com/2018/10/11/who-cures-cancer-in-photoshop/</link>
-	<content:encoded>The World Health Organisation (WHO) has a cancer research unit in France, IARC.  Some papers from there contain impressive manipulations. The works of art are authored by Massimo Tommasino and his former junior colleague there Uzma Hasan, now tenured group leader at INSERM. Some of this research  took place at the Schering-Plough Research Institute which was taken over by German pharma giant Merck.</content:encoded>
-	<dc:date>2018-10-11T12:45:59+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
