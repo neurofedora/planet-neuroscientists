@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/people-pacific-northwest-smoked-tobacco-long-europeans-showed" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1801" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-south-americans-tasted-chocolate-1500-years-anyone-else" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=75474" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-40" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-4" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-32" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-26" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/people-pacific-northwest-smoked-tobacco-long-europeans-showed">
+	<title>Science News: People in the Pacific Northwest smoked tobacco long before Europeans showed up</title>
+	<link>https://www.sciencenews.org/article/people-pacific-northwest-smoked-tobacco-long-europeans-showed</link>
+	<content:encoded>Ancient indigenous groups in the Pacific Northwest used tobacco roughly 600 years before European settlers ventured west with the plant.</content:encoded>
+	<dc:date>2018-10-29T19:00:05+00:00</dc:date>
+	<dc:creator>Jennifer Leman</dc:creator>
+</item>
 <item rdf:about="http://blog.scienceexchange.com/?p=1801">
 	<title>The Science Exchange Blog: Certis Oncology Collaborates with Science Exchange to Offer On-Demand Access to its Orthotopic PDX Services</title>
 	<link>https://blog.scienceexchange.com/2018/10/certis-oncology-collaborates-with-science-exchange-to-offer-on-demand-access-to-its-orthotopic-pdx-services/</link>
@@ -1399,18 +1406,6 @@ In the article in question, author Stephan A. Schwartz describes how he carried 
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/dU0fc67M0P4&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-10-16T00:00:00+00:00</dc:date>
 	<dc:creator>Jeffrey Marlow</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican1118-26">
-	<title>Scientific American: Sleep Learning Gets Real</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/INBoZ7lxPA4/scientificamerican1118-26</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 26 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican1118-26&quot;&gt;doi:10.1038/scientificamerican1118-26&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Ken A. Paller &amp;amp; Delphine Oudiette&lt;/p&gt;
-&lt;p&gt;Experimental techniques demonstrate how to strengthen memories when our brains are off-line&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/INBoZ7lxPA4&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-10-16T00:00:00+00:00</dc:date>
-	<dc:creator>Ken A. Paller</dc:creator>
 </item>
 
 </rdf:RDF>
