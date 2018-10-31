@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/planet-hunting-kepler-space-telescope-dead" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-researchers-flinging-salmon-inadvertently-spurred-tree-growth" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/young-people-memories-improved-when-they-stopped-using-marijuana" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/if-you-want-believe-your-home-bug-free-do-not-read-book" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-8" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-72" />
 			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-68" />
-			<rdf:li rdf:resource="http://dx.doi.org/10.1038/scientificamerican1118-62" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/planet-hunting-kepler-space-telescope-dead">
+	<title>Science News: The planet-hunting Kepler space telescope is dead</title>
+	<link>https://www.sciencenews.org/article/planet-hunting-kepler-space-telescope-dead</link>
+	<content:encoded>The Kepler space telescope is officially out of fuel and will hunt planets no more, NASA announced.</content:encoded>
+	<dc:date>2018-10-30T21:11:09+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/how-researchers-flinging-salmon-inadvertently-spurred-tree-growth">
 	<title>Science News: How researchers flinging salmon inadvertently spurred tree growth</title>
 	<link>https://www.sciencenews.org/article/how-researchers-flinging-salmon-inadvertently-spurred-tree-growth</link>
@@ -1392,18 +1399,6 @@ In the article in question, author Stephan A. Schwartz describes how he carried 
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/Ae8FlyfAMXc&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2018-10-16T00:00:00+00:00</dc:date>
 	<dc:creator>Virginia Eubanks</dc:creator>
-</item>
-<item rdf:about="http://dx.doi.org/10.1038/scientificamerican1118-62">
-	<title>Scientific American: The Health-Wealth Gap</title>
-	<link>http://feeds.nature.com/~r/scientificamerican/rss/current/~3/C6XTYk-7CCk/scientificamerican1118-62</link>
-	<content:encoded>&lt;p&gt;Scientific American 319, 62 (2018).  
-            &lt;a href=&quot;http://dx.doi.org/10.1038/scientificamerican1118-62&quot;&gt;doi:10.1038/scientificamerican1118-62&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Author: Robert M. Sapolsky&lt;/p&gt;
-&lt;p&gt;The growing gulf between rich and poor inflicts biological damage on bodies and brains&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/scientificamerican/rss/current/~4/C6XTYk-7CCk&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-10-16T00:00:00+00:00</dc:date>
-	<dc:creator>Robert M. Sapolsky</dc:creator>
 </item>
 
 </rdf:RDF>
