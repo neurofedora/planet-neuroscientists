@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dawn-spacecraft-nasa-asteroid-belt-ceres-silent" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/vanadium-dioxide-weird-phase-transition-just-got-weirder" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/milky-way-feasted-smaller-galaxy-10-billion-years-ago" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8373" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fossils-hint-hominids-migrated-through-green-arabia-300000-years-ago" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dandelion-seeds-create-bizarre-whirlpool-air-fly" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10603" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=74793" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-wonder-about-hydrogen-wall-pig-lung-transplants-and-more" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/waking-early-cover-nobel-prize" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/dawn-spacecraft-nasa-asteroid-belt-ceres-silent">
+	<title>Science News: Dawn, the first spacecraft to orbit 2 alien worlds, has gone silent</title>
+	<link>https://www.sciencenews.org/article/dawn-spacecraft-nasa-asteroid-belt-ceres-silent</link>
+	<content:encoded>The Dawn probe, which hopped between two objects in the asteroid belt during its seven-year mission, ran out of fuel and stopped calling home.</content:encoded>
+	<dc:date>2018-11-01T21:27:04+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/vanadium-dioxide-weird-phase-transition-just-got-weirder">
+	<title>Science News: Vanadium dioxide’s weird phase transition just got weirder</title>
+	<link>https://www.sciencenews.org/article/vanadium-dioxide-weird-phase-transition-just-got-weirder</link>
+	<content:encoded>When shifting from one crystalline structure to another, the atoms inside vanadium dioxide bumble around a lot more than expected.</content:encoded>
+	<dc:date>2018-11-01T18:00:06+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/milky-way-feasted-smaller-galaxy-10-billion-years-ago">
 	<title>Science News: The Milky Way feasted on a smaller galaxy 10 billion years ago</title>
 	<link>https://www.sciencenews.org/article/milky-way-feasted-smaller-galaxy-10-billion-years-ago</link>
@@ -1477,20 +1491,6 @@ In the article in question, author Stephan A. Schwartz describes how he carried 
 	<content:encoded>The maker of a leading over-the-counter antacid has withdrawn its application for approval of the drug in China because a clinical trial of the product in that country was marred by “major protocol deviations.” Researchers for the company, Reckitt Benckiser, maker of Gaviscon, had published a report on the study in 2015 in the journal … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/17/sufficiently-serious-issues-in-study-prompt-company-to-yank-drug-approval-application-in-china/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;“Sufficiently serious” issues in study prompt company to yank drug approval application in China&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-10-17T11:53:05+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-wonder-about-hydrogen-wall-pig-lung-transplants-and-more">
-	<title>Science News: Readers wonder about a hydrogen wall, pig lung transplants and more</title>
-	<link>https://www.sciencenews.org/article/readers-wonder-about-hydrogen-wall-pig-lung-transplants-and-more</link>
-	<content:encoded>Readers had questions about a glow at the edge of the solar system, pig lung transplants, the use of the word promiscuous and more.</content:encoded>
-	<dc:date>2018-10-17T11:15:00+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/waking-early-cover-nobel-prize">
-	<title>Science News: Waking up early to cover science’s biggest honor</title>
-	<link>https://www.sciencenews.org/article/waking-early-cover-nobel-prize</link>
-	<content:encoded>Editor in Chief Nancy Shute discusses how the Science News editors and reporters cover the Nobel Prizes each year.</content:encoded>
-	<dc:date>2018-10-17T11:00:00+00:00</dc:date>
-	<dc:creator>Nancy Shute</dc:creator>
 </item>
 
 </rdf:RDF>
