@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9763" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11446" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=76332" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hubble-telescope-has-been-busy-coming-back-online" />
@@ -114,11 +115,20 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-safety-artificial-sweeteners-was-fiercely-debated" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35036" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/artificial-intelligence-crowdsources-data-speed-drug-discovery" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9763">
+	<title>Discovery magazine - Neuroskeptic: More Confusing Science of the Embassy &quot;Sonic Attack&quot;</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9763</link>
+	<content:encoded>Earlier this year, I posted on how Sergio Della Salla, the editor of Cortex, criticized a headline-grabbing JAMA paper that had reported neuropsychological abnormalities in US embassy staff exposed to the mysterious Havana 'sonic attack'. According to Della Salla, the evidence presented didn't suggest enduring cognitive deficits in the victims.
+
+
+
+Now, Della Salla is back (along with co-authors) for round two with a new paper, called Cognitive symptoms in US government personnel in Cuba: The</content:encoded>
+	<dc:date>2018-11-03T18:26:30+00:00</dc:date>
+</item>
 <item rdf:about="https://www.maxplanckflorida.org/?p=11446">
 	<title>Max Plank Florida Institute for Neuroscience: Gloria Choi, Ph.D. Named 2018 Peter Gruss Young Investigator Award Winner</title>
 	<link>https://www.maxplanckflorida.org/news-and-media/general/gloria-choi-ph-d-named-2018-peter-gruss-young-investigator-award-winner/</link>
@@ -1481,13 +1491,6 @@ In the article in question, author Stephan A. Schwartz describes how he carried 
 	<content:encoded>A new AI that judges whether drugs will interact with certain proteins can train on data from multiple sources while keeping that info secret.</content:encoded>
 	<dc:date>2018-10-18T18:00:05+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi">
-	<title>Science News: More tornadoes are popping up east of the Mississippi</title>
-	<link>https://www.sciencenews.org/article/more-tornadoes-are-popping-east-mississippi</link>
-	<content:encoded>Tornadoes are becoming slightly less frequent in Tornado Alley, while more are touching down farther east in the United States, a study suggests.</content:encoded>
-	<dc:date>2018-10-18T14:56:40+00:00</dc:date>
-	<dc:creator>Jennifer Leman</dc:creator>
 </item>
 
 </rdf:RDF>
