@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/lack-sleep-can-induce-anxiety" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=76579" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/end-megafauna-examines-why-so-many-giant-ice-age-animals-went-extinct" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/loneliness-isolation-brain-changes" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35105" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=32787" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/plants-engineered-always-be-alert-do-not-grow-well" />
 			<rdf:li rdf:resource="https://www.artic.edu/articles/713/behind-the-scenes-of-the-website-redesign" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=75059" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/tyrannosaurus-rex-pulverized-bones-incredible-amount-force" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=32478" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/eye-disorder-exotropia-leonardo-da-vinci-artistic-edge" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/lack-sleep-can-induce-anxiety">
+	<title>Science News: A lack of sleep can induce anxiety</title>
+	<link>https://www.sciencenews.org/article/lack-sleep-can-induce-anxiety</link>
+	<content:encoded>Pulling an all-nighter induced anxiety in healthy people, a recent study finds.</content:encoded>
+	<dc:date>2018-11-06T16:51:13+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=76579">
+	<title>Retraction watch: It’s time to end the code of silence at universities</title>
+	<link>http://retractionwatch.com/2018/11/06/its-time-to-end-the-code-of-silence-at-universities/</link>
+	<content:encoded>Yesterday, Cornell University told a group of researchers who had petitioned them to release a report of their investigation into alleged misconduct by Brian Wansink, a food marketing researcher who recently resigned his post there, that they would not release that report. As BuzzFeed reports, the university is now conducting a “Phase II” investigation into … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/06/its-time-to-end-the-code-of-silence-at-universities/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;It’s time to end the code of silence at universities&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-11-06T14:28:01+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/end-megafauna-examines-why-so-many-giant-ice-age-animals-went-extinct">
+	<title>Science News: ‘End of the Megafauna’ examines why so many giant Ice Age animals went extinct</title>
+	<link>https://www.sciencenews.org/article/end-megafauna-examines-why-so-many-giant-ice-age-animals-went-extinct</link>
+	<content:encoded>‘End of the Megafauna’ ponders the mystery of what killed off so many of Earth’s big animals over the last 50,000 years.</content:encoded>
+	<dc:date>2018-11-06T14:00:05+00:00</dc:date>
+	<dc:creator>Erin Wayman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/loneliness-isolation-brain-changes">
 	<title>Science News: Loneliness is bad for brains</title>
 	<link>https://www.sciencenews.org/article/loneliness-isolation-brain-changes</link>
@@ -1454,27 +1475,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>On Friday we reported on the case of a group of researchers in China who have retracted at least 11 papers for various kinds of misconduct. Here’s a bit more on that story, courtesy of our commenters. First, it turns out that the retraction total is at least 12. But more significant is that the … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/22/graduate-student-in-china-stripped-of-phd-after-investigation-that-led-to-a-dozen-retractions/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Graduate student in China stripped of PhD after investigation that led to a dozen retractions&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-10-22T12:00:57+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/tyrannosaurus-rex-pulverized-bones-incredible-amount-force">
-	<title>Science News: T. rex pulverized bones with an incredible amount of force</title>
-	<link>https://www.sciencenews.org/article/tyrannosaurus-rex-pulverized-bones-incredible-amount-force</link>
-	<content:encoded>Tyrannosaurus rex’s powerful bite and remarkably strong teeth helped the dinosaur crush bones.</content:encoded>
-	<dc:date>2018-10-22T12:00:05+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=32478">
-	<title>For Better Science: Robert-Jan Smits: scholarly societies “will have to bite the bullet and go Open Access”</title>
-	<link>https://forbetterscience.com/2018/10/22/robert-jan-smits-scholarly-societies-will-have-to-bite-the-bullet-and-go-open-access/</link>
-	<content:encoded>I obtained a near-verbatim transcript of a video-conference Plan S architects Robert-Jan Smits and Science Europe president Marc Schiltz had on October 19th with Lynn Kamerin and other authors of the Appeal. It appears that Smits and Schiltz see the scientists and their scholarly societies as the reactionary elements blocking the road to the universal Open Access (OA).</content:encoded>
-	<dc:date>2018-10-22T11:13:40+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/eye-disorder-exotropia-leonardo-da-vinci-artistic-edge">
-	<title>Science News: An eye disorder may have given Leonardo da Vinci an artistic edge</title>
-	<link>https://www.sciencenews.org/article/eye-disorder-exotropia-leonardo-da-vinci-artistic-edge</link>
-	<content:encoded>An analysis of portraits believed to portray Leonardo da Vinci offers evidence that the artist had exotropia, in which one eye turns outward.</content:encoded>
-	<dc:date>2018-10-22T10:00:05+00:00</dc:date>
-	<dc:creator>Amanda B. Keener</dc:creator>
 </item>
 
 </rdf:RDF>
