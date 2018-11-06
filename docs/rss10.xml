@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/virtual-avatars-learned-cartwheels-and-other-stunts-videos-people" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1806" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/physicists-measured-earth-mass-using-neutrinos-first-time" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-11-05:/2018/11/05/computational-model-of-the-cerebellum-and-the-basal-ganglia-for-interval-timing-learning.html" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-make-organ-transplants-last" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9754" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/genetics-dna-homosexuality-gay-orientation-attractiveness-straight" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=74970" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/virtual-avatars-learned-cartwheels-and-other-stunts-videos-people">
+	<title>Science News: Virtual avatars learned cartwheels and other stunts from videos of people</title>
+	<link>https://www.sciencenews.org/article/virtual-avatars-learned-cartwheels-and-other-stunts-videos-people</link>
+	<content:encoded>A new computer system that lets animated characters learn acrobatic skills from videos could be a cheaper alternative to traditional motion capture.</content:encoded>
+	<dc:date>2018-11-05T19:09:34+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://blog.scienceexchange.com/?p=1806">
 	<title>The Science Exchange Blog: zPREDICTA Collaborates with Science Exchange to Offer Unique Patient-Derived 3D Cell Culture Services to Drug Development Researchers</title>
 	<link>https://blog.scienceexchange.com/2018/11/zpredicta-collaborates-with-science-exchange-to-offer-unique-patient-derived-3d-cell-culture-services-to-drug-development-researchers/</link>
@@ -1463,13 +1470,6 @@ In the article in question, author Stephan A. Schwartz describes how he carried 
 	<content:encoded>Genetic differences are associated with choosing same-sex partners in both men and women.</content:encoded>
 	<dc:date>2018-10-20T14:32:04+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=74970">
-	<title>Retraction watch: Weekend reads: A whistleblower speaks; a new most-cited retracted paper; criminalizing scientific fraud?</title>
-	<link>http://retractionwatch.com/2018/10/20/weekend-reads-a-whistleblower-speaks-a-new-most-cited-retracted-paper-criminalizing-scientific-fraud/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a call for more than 30 retractions by former Harvard … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/10/20/weekend-reads-a-whistleblower-speaks-a-new-most-cited-retracted-paper-criminalizing-scientific-fraud/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: A whistleblower speaks; a new most-cited retracted paper; criminalizing scientific fraud?&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-10-20T13:29:49+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
