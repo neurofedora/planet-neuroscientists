@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/vitamin-d-supplements-do-not-prevent-heart-disease-or-cancer" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/potent-fish-oil-drug-may-protect-high-risk-patients-against-heart-attacks" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=77070" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/these-tiny-crackly-bubbles-are-new-type-volcanic-ash" />
 			<rdf:li rdf:resource="https://medium.com/p/7ec6c5c965cf" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=75381" />
 			<rdf:li rdf:resource="https://medium.com/p/57accdd6a476" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/coral-larvae-survive-being-frozen-and-thawed-first-time" />
-			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/c8c353119ccc4953860f17171e964ca0" />
-			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/2e6d71c3b01b4b09adf29d88232e53cb" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/vitamin-d-supplements-do-not-prevent-heart-disease-or-cancer">
+	<title>Science News: Vitamin D supplements don’t prevent heart disease or cancer</title>
+	<link>https://www.sciencenews.org/article/vitamin-d-supplements-do-not-prevent-heart-disease-or-cancer</link>
+	<content:encoded>Vitamin D supplements won’t cut your risk of heart attack or stroke, according to highly anticipated study results.</content:encoded>
+	<dc:date>2018-11-10T20:00:05+00:00</dc:date>
+	<dc:creator>Marcia Frellick</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/potent-fish-oil-drug-may-protect-high-risk-patients-against-heart-attacks">
+	<title>Science News: A potent fish oil drug may protect high-risk patients against heart attacks</title>
+	<link>https://www.sciencenews.org/article/potent-fish-oil-drug-may-protect-high-risk-patients-against-heart-attacks</link>
+	<content:encoded>People with, or at high risk of, cardiovascular disease lowered their chances of having a heart attack or stroke with a drug containing an omega-3 fatty acid.</content:encoded>
+	<dc:date>2018-11-10T20:00:05+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=77070">
 	<title>Retraction watch: Weekend reads: A debate over journal editors; academic corruption in China; a poisoning in a lab</title>
 	<link>http://retractionwatch.com/2018/11/10/weekend-reads-a-debate-over-journal-editors-academic-corruption-in-china-a-poisoning-in-a-lab/</link>
@@ -1629,19 +1643,6 @@ Gordon B Smith, Bettina Hein, Dave E Whitney, David Fitzpatrick, Matthias Kaschu
 	<content:encoded>Cryopreservation might help save some coral reefs at risk from climate change and other dangers.</content:encoded>
 	<dc:date>2018-10-26T10:00:05+00:00</dc:date>
 	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="http://brainsciencepodcast.libsyn.com/c8c353119ccc4953860f17171e964ca0">
-	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 150 Seth Grant Explores the Synaptome</title>
-	<link>http://brainsciencepodcast.libsyn.com/bs-150-seth-grant-explores-the-synaptome</link>
-	<content:encoded>&lt;p&gt;BS 150 is my 4th interview with Dr. Seth Grant, the molecular biologist who has discovered surprising things about the evolution of the synapse, including the fact that vertebrates have much more complex synapses than invertebrates. In this interview we talk about his &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6117470/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;latest paper in Neuron&lt;/a&gt; in which his team has developed a method for mapping the synapses across the entire mouse brain. This is called a synaptome and reveals that there is surprising diversity depending on which part of the brain is examined. We discuss the implications of this discovery and how it suggests a new theory of how memory works.&lt;/p&gt; &lt;p&gt;Even though this is a follow up to last year's interview (&lt;a href=&quot;http://brainsciencepodcast.com/bsp/137-seth-grant&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;BS 137&lt;/a&gt;), Dr. Grant provides all the background that a new listener will need to appreciate his work.&lt;/p&gt; &lt;p&gt;For complete show notes and episode transcripts please visit &lt;a href=&quot;http://brainsciencepodcast.com&quot;&gt;http://brainsciencepodcast.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Please visit our sponsors &lt;a href=&quot;http://babbel.com/ginger&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Babbel&lt;/a&gt; and &lt;a href=&quot;http://thegreatcoursesplus.com/ginger&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;The Great Courses Plus&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Please send feedback to &lt;a href=&quot;mailto:brainsciencepodcast@gmail.com&quot;&gt;brainsciencepodcast@gmail.com&lt;/a&gt; or leave voicemail via &lt;a href=&quot;http://speakpipe.com/docartemis&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;SpeakPipe&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-10-26T09:00:00+00:00</dc:date>
-	<dc:creator>Ginger Campbell, MD</dc:creator>
-</item>
-<item rdf:about="http://brainsciencepodcast.libsyn.com/2e6d71c3b01b4b09adf29d88232e53cb">
-	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 150 Premium Ad-free Version</title>
-	<link>http://brainsciencepodcast.libsyn.com/bs-150-premium-ad-free-version</link>
-	<content:encoded>&lt;p&gt;This is the Premium ad-free version of BS 150 with Seth Grant, the molecular biologist who has discovered surprising things about the evolution of the synapse, including the fact that vertebrates have much more complex synapses than invertebrates. In this interview we talk about his &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6117470/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;latest paper in Neuron&lt;/a&gt; in which his team has developed a method for mapping the synapses across the entire mouse brain. This is called a synaptome and reveals that there is surprising diversity depending on which part of the brain is examined. We discuss the implications of this discovery and how it suggests a new theory of how memory works.&lt;/p&gt; &lt;p&gt;Even though this is a follow up to last year's interview (&lt;a href=&quot;http://brainsciencepodcast.com/bsp/137-seth-grant&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;BS 137&lt;/a&gt;), Dr. Grant provides all the background that a new listener will need to appreciate his work.&lt;/p&gt; &lt;p&gt;For complete show notes and episode transcripts please visit &lt;a href=&quot;http://brainsciencepodcast.com&quot;&gt;http://brainsciencepodcast.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Please visit our sponsors &lt;a href=&quot;http://babbel.com/ginger&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Babbel&lt;/a&gt; and &lt;a href=&quot;http://thegreatcoursesplus.com/ginger&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;The Great Courses Plus&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Please send feedback to &lt;a href=&quot;mailto:brainsciencepodcast@gmail.com&quot;&gt;brainsciencepodcast@gmail.com&lt;/a&gt; or leave voicemail via &lt;a href=&quot;http://speakpipe.com/docartemis&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;SpeakPipe&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-10-26T01:02:27+00:00</dc:date>
 </item>
 
 </rdf:RDF>
