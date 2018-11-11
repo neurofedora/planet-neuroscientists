@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/china-about-visit-uncharted-territory-moon" />
 			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=5726" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/vitamin-d-supplements-do-not-prevent-heart-disease-or-cancer" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/potent-fish-oil-drug-may-protect-high-risk-patients-against-heart-attacks" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=75514" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-approval-new-flu-drug-xofluza-means-you" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11437" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/while-eating-nematodes-release-chemicals-lure-their-next-meal" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/china-about-visit-uncharted-territory-moon">
+	<title>Science News: China is about to visit uncharted territory on the moon</title>
+	<link>https://www.sciencenews.org/article/china-about-visit-uncharted-territory-moon</link>
+	<content:encoded>The next two Chinese missions to the moon will visit places no spacecraft has been before. The rest of the world wants a piece of the lunar action.</content:encoded>
+	<dc:date>2018-11-11T12:00:05+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="http://yourbrainhealth.com.au/?p=5726">
 	<title>Yourbrainhealth: Pregnancy sculpts women’s brains in preparation for motherhood</title>
 	<link>http://yourbrainhealth.com.au/pregnancy-sculpts-womens-brains-in-preparation-for-motherhood/</link>
@@ -1781,13 +1788,6 @@ Gordon B Smith, Bettina Hein, Dave E Whitney, David Fitzpatrick, Matthias Kaschu
 &lt;a href=&quot;http://www.nature.com/articles/s41593-018-0247-5&quot;&gt;http://www.nature.com/articles/s41593-018-0247-5&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-10-26T18:44:33+00:00</dc:date>
 	<dc:creator>Katie Edwards</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/while-eating-nematodes-release-chemicals-lure-their-next-meal">
-	<title>Science News: While eating, these tiny worms release chemicals to lure their next meal</title>
-	<link>https://www.sciencenews.org/article/while-eating-nematodes-release-chemicals-lure-their-next-meal</link>
-	<content:encoded>As they eat insects, one nematode species releases chemicals that attract more insect prey.</content:encoded>
-	<dc:date>2018-10-26T16:21:23+00:00</dc:date>
-	<dc:creator>Yao-Hua Law</dc:creator>
 </item>
 
 </rdf:RDF>
