@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-cases-polio-illness-rise-there-are-few-clues-its-cause" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-mammoths-competed-other-animals-and-lost" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-11-13:/2018/11/13/the-nernst-planck-equation.html" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=77375" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35090" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-devices-could-help-turn-atmospheric-co2-useful-supplies" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35086" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/people-pacific-northwest-smoked-tobacco-long-europeans-showed" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/us-cases-polio-illness-rise-there-are-few-clues-its-cause">
+	<title>Science News: U.S. cases of a polio-like illness rise, but there are few clues to its cause</title>
+	<link>https://www.sciencenews.org/article/us-cases-polio-illness-rise-there-are-few-clues-its-cause</link>
+	<content:encoded>A total of 90 cases of acute flaccid myelitis have been confirmed so far this year, out of 252 under investigation.</content:encoded>
+	<dc:date>2018-11-13T22:23:51+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/how-mammoths-competed-other-animals-and-lost">
 	<title>Science News: How mammoths competed with other animals and lost</title>
 	<link>https://www.sciencenews.org/article/how-mammoths-competed-other-animals-and-lost</link>
@@ -1864,13 +1871,6 @@ Grade 6: £35,310 (pro-rata)&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-10-30T09:24:59+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/people-pacific-northwest-smoked-tobacco-long-europeans-showed">
-	<title>Science News: People in the Pacific Northwest smoked tobacco long before Europeans showed up</title>
-	<link>https://www.sciencenews.org/article/people-pacific-northwest-smoked-tobacco-long-europeans-showed</link>
-	<content:encoded>Ancient indigenous groups in the Pacific Northwest used tobacco roughly 600 years before European settlers ventured west with the plant.</content:encoded>
-	<dc:date>2018-10-29T19:00:05+00:00</dc:date>
-	<dc:creator>Jennifer Leman</dc:creator>
 </item>
 
 </rdf:RDF>
