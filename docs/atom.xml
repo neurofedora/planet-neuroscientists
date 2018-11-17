@@ -5,8 +5,88 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-11-17T12:01:13+00:00</updated>
+	<updated>2018-11-17T18:01:14+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">NeuroFedora update: week 46</title>
+		<link href="http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html"/>
+		<id>tag:ankursinha.in,2018-11-17:/2018/11/17/neurofedora-update-week-46.html</id>
+		<updated>2018-11-17T15:53:58+00:00</updated>
+		<content type="html">
+ &lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot;&gt;&lt;img alt=&quot;NeuroFedora logo!&quot; class=&quot;text-center img-responsive pagination-centered&quot; src=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In week 46:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nitime&quot;&gt;python-nitime&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nilearn&quot;&gt;python-nilearn&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-petlink&quot;&gt;python-petlink&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-duecredit&quot;&gt;python-duecredit&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-PyLEMS&quot;&gt;PyLEMS&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-visionegg-quest&quot;&gt;python-visionegg-quest&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pyemd&quot;&gt;python-pyemd&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pybids&quot;&gt;python-pybids&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nineml&quot;&gt;nineML-python&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-brian2&quot;&gt;Brian&lt;/a&gt; (the Brian simulator) was approved and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-fsleyes&quot;&gt;fsleyes&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/dcm2niix&quot;&gt;dcm2niix&lt;/a&gt; was updated to the latest version.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;While we were working on these:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/27&quot;&gt;NEURON&lt;/a&gt; is still a work in progress, but until it is updated to work with a
+new SUNDIALS version, it cannot be packaged. There's an issue open &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/neuronsimulator/nrn/issues/113&quot;&gt;here&lt;/a&gt; for this.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/vxl&quot;&gt;vxl&lt;/a&gt; needs to be updated, but unfortunately, it is another software that
+bundles an old version of a library, &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/dcmtk&quot;&gt;DCMTK&lt;/a&gt;. I've filed a ticket about this
+&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/vxl/vxl/issues/550&quot;&gt;here&lt;/a&gt;. As I've mentioned in the
+ticket, I  have neither the experience with &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/dcmtk&quot;&gt;DCMTK&lt;/a&gt; nor the free cycles to
+look into this issue presently.&lt;/li&gt;
+&lt;li&gt;A &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/INCF/nineml-python/issues/40&quot;&gt;bug&lt;/a&gt; in &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nineml&quot;&gt;nineml-python&lt;/a&gt;
+was fixed.&lt;/li&gt;
+&lt;li&gt;There are still a few kinks to clear up before &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nest/nest-simulator&quot;&gt;NEST&lt;/a&gt; can be build with
+&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nest/nest-simulator/issues/1063&quot;&gt;libneurosim&lt;/a&gt; and
+&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/INCF/MUSIC/issues/56&quot;&gt;MUSIC&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We'll keep at it.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;There is a lot of software available in &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora&quot;&gt;NeuroFedora&lt;/a&gt; already. You can see the
+complete list &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;here on Fedora SCM&lt;/a&gt;. Software that is currently
+being worked on is listed &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues&quot;&gt;on our Pagure project instance&lt;/a&gt;. If you use software that
+is not on our list, please suggest it to us using the &lt;a class=&quot;reference external&quot; href=&quot;https://goo.gl/forms/j6AJ82yOh78MPxby1&quot;&gt;suggestion form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Feedback is always welcome. You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora#Communication_and_getting_help&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>ankur</name>
+			<uri>http://ankursinha.in/</uri>
+		</author>
+		<source>
+			<title type="html">ankursinha.in/blog - Planet</title>
+			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
+			<id>http://ankursinha.in/</id>
+			<updated>2018-11-17T15:53:58+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Weekend reads: A climate change study correction; predatory journal critic banned from campus; why are publishers “the joint enemy?”</title>
+		<link href="http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/"/>
+		<id>http://retractionwatch.com/?p=77980</id>
+		<updated>2018-11-17T14:12:08+00:00</updated>
+		<content type="html">
+ Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured the tale of the researcher who pleaded guilty to faking … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: A climate change study correction; predatory journal critic banned from campus; why are publishers “the joint enemy?”&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Ivan Oransky</name>
+			<uri>http://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>http://retractionwatch.com</id>
+			<updated>2018-11-17T18:00:32+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">A Bronze Age game called 58 holes was found chiseled into stone in Azerbaijan</title>
@@ -14,7 +94,7 @@
 		<id>https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan</id>
 		<updated>2018-11-16T18:12:08+00:00</updated>
 		<content type="html">
- A pattern on a rock in Azerbaijan suggests that a game called 58 holes traveled fast from the Near East to Eurasia thousands of years ago.</content>
+ A newly discovered rock pattern suggests that the game traveled fast from the Near East to Eurasia thousands of years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
 			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
@@ -23,7 +103,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -33,7 +113,7 @@
 		<id>https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars</id>
 		<updated>2018-11-16T18:05:37+00:00</updated>
 		<content type="html">
- The Food and Drug Administration announced restrictions on the sale of some e-cigarette flavors in response to a drastic rise in teen’s use of e-cigs.</content>
+ The number of high schoolers who vape rose 78 percent from 2017 to 2018.</content>
 		<author>
 			<name>Aimee Cunningham</name>
 			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
@@ -42,7 +122,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -61,7 +141,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -81,7 +161,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -100,7 +180,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -134,7 +214,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -153,7 +233,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -172,7 +252,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -191,7 +271,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -211,7 +291,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -333,7 +413,7 @@
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -367,7 +447,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -386,7 +466,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -405,7 +485,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -425,7 +505,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-11-17T12:00:32+00:00</updated>
+			<updated>2018-11-17T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -464,7 +544,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -502,7 +582,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -535,7 +615,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -554,7 +634,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -573,7 +653,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -618,7 +698,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -728,7 +808,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -748,7 +828,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-11-16T18:00:37+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -767,7 +847,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -799,7 +879,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -884,7 +964,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -904,7 +984,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2018-11-17T06:14:32+00:00</updated>
+			<updated>2018-11-17T13:12:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -923,7 +1003,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -956,7 +1036,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -975,7 +1055,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1058,7 +1138,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1077,7 +1157,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-17T06:00:30+00:00</updated>
+			<updated>2018-11-17T18:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1097,7 +1177,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1185,7 +1265,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<title type="html">ankursinha.in/blog - Planet</title>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2018-11-10T11:20:00+00:00</updated>
+			<updated>2018-11-17T15:53:58+00:00</updated>
 		</source>
 	</entry>
 
@@ -1224,7 +1304,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-11-17T12:00:32+00:00</updated>
+			<updated>2018-11-17T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1349,7 +1429,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -1369,7 +1449,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-11-16T18:00:37+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1427,7 +1507,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1553,7 +1633,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2092,7 +2172,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2131,7 +2211,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2200,7 +2280,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2220,7 +2300,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-11-16T18:00:37+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2344,7 +2424,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2402,7 +2482,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-17T12:00:31+00:00</updated>
+			<updated>2018-11-17T18:00:30+00:00</updated>
 		</source>
 	</entry>
 
@@ -2527,7 +2607,7 @@ Now, Della Salla is back (along with co-authors) for round two with a new paper,
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T18:00:38+00:00</updated>
+			<updated>2018-11-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2578,7 +2658,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">ankursinha.in/blog - Planet</title>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2018-11-10T11:20:00+00:00</updated>
+			<updated>2018-11-17T15:53:58+00:00</updated>
 		</source>
 	</entry>
 
@@ -2885,45 +2965,6 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<link rel="self" href="https://blog.scienceexchange.com/feed/"/>
 			<id>https://blog.scienceexchange.com</id>
 			<updated>2018-11-16T18:00:37+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Virtual reality therapy has real-life benefits for some mental disorders</title>
-		<link href="https://www.sciencenews.org/article/virtual-reality-therapy-has-real-life-benefits-some-mental-disorders"/>
-		<id>https://www.sciencenews.org/article/virtual-reality-therapy-has-real-life-benefits-some-mental-disorders</id>
-		<updated>2018-11-01T12:24:09+00:00</updated>
-		<content type="html">
- Cheap, user-friendly virtual reality hardware could help VR therapy go mainstream. Some treatments are ready for primetime, while others are still in early testing.</content>
-		<author>
-			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-11-07T18:00:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Aerospace researchers in Japan up to three retractions</title>
-		<link href="http://retractionwatch.com/2018/11/01/aerospace-researchers-in-japan-blast-off-to-three-retractions/"/>
-		<id>http://retractionwatch.com/?p=76024</id>
-		<updated>2018-11-01T12:00:50+00:00</updated>
-		<content type="html">
- A pair of researchers in Japan has lost their third paper in a UK journal, which cites problematic images and an institutional investigation for the move. The 2016 article, “Novel Rh-substituted hexaaluminate catalysts for N2O decomposition,” was written by Rachid Amrousse and Akimasa Tsutsumi, of the Japan Aerospace Exploration Agency, or JAXA, in Sagamihara. It … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/01/aerospace-researchers-in-japan-blast-off-to-three-retractions/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Aerospace researchers in Japan up to three retractions&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Adam Marcus</name>
-			<uri>http://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>http://retractionwatch.com</id>
-			<updated>2018-11-16T00:00:33+00:00</updated>
 		</source>
 	</entry>
 

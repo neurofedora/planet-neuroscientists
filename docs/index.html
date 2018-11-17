@@ -85,23 +85,78 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on November 17, 2018 12:01 PM on behalf of Ankur Sinha.
+          on November 17, 2018 06:01 PM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
               <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html&title=NeuroFedora update: week 46" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html">NeuroFedora update: week 46</a></h4>
+
+<div class="figure">
+<a class="reference external image-reference" href="http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png"><img alt="NeuroFedora logo!" class="text-center img-responsive pagination-centered" src="http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png" style="width: 30%;" /></a>
+<p class="caption"><a class="reference external" href="https://pagure.io/design/issue/602">NeuroFedora logo by Terezahl from the Fedora Design Team</a></p>
+</div>
+<p>In week 46:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-nitime">python-nitime</a> was pushed to stable, and is ready to use.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-nilearn">python-nilearn</a> was pushed to stable, and is ready to use.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-petlink">python-petlink</a> was pushed to stable, and is ready to use.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-duecredit">python-duecredit</a> was pushed to stable, and is ready to use.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-PyLEMS">PyLEMS</a> was pushed to stable, and is ready to use.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-visionegg-quest">python-visionegg-quest</a> was pushed to stable, and is ready to use.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-pyemd">python-pyemd</a> was approved and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-pybids">python-pybids</a> was approved and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-nineml">nineML-python</a> was approved and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-brian2">Brian</a> (the Brian simulator) was approved and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-fsleyes">fsleyes</a> was approved and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/dcm2niix">dcm2niix</a> was updated to the latest version.</li>
+</ul>
+<hr class="docutils" />
+<p>While we were working on these:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/27">NEURON</a> is still a work in progress, but until it is updated to work with a
+new SUNDIALS version, it cannot be packaged. There's an issue open <a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/113">here</a> for this.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/vxl">vxl</a> needs to be updated, but unfortunately, it is another software that
+bundles an old version of a library, <a class="reference external" href="https://src.fedoraproject.org/rpms/dcmtk">DCMTK</a>. I've filed a ticket about this
+<a class="reference external" href="https://github.com/vxl/vxl/issues/550">here</a>. As I've mentioned in the
+ticket, I  have neither the experience with <a class="reference external" href="https://src.fedoraproject.org/rpms/dcmtk">DCMTK</a> nor the free cycles to
+look into this issue presently.</li>
+<li>A <a class="reference external" href="https://github.com/INCF/nineml-python/issues/40">bug</a> in <a class="reference external" href="https://src.fedoraproject.org/rpms/python-nineml">nineml-python</a>
+was fixed.</li>
+<li>There are still a few kinks to clear up before <a class="reference external" href="https://github.com/nest/nest-simulator">NEST</a> can be build with
+<a class="reference external" href="https://github.com/nest/nest-simulator/issues/1063">libneurosim</a> and
+<a class="reference external" href="https://github.com/INCF/MUSIC/issues/56">MUSIC</a>.</li>
+</ul>
+<p>We'll keep at it.</p>
+<hr class="docutils" />
+<p>There is a lot of software available in <a class="reference external" href="https://fedoraproject.org/wiki/SIGs/NeuroFedora">NeuroFedora</a> already. You can see the
+complete list <a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig">here on Fedora SCM</a>. Software that is currently
+being worked on is listed <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues">on our Pagure project instance</a>. If you use software that
+is not on our list, please suggest it to us using the <a class="reference external" href="https://goo.gl/forms/j6AJ82yOh78MPxby1">suggestion form</a>.</p>
+<p>Feedback is always welcome. You can get in touch with us <a class="reference external" href="https://fedoraproject.org/wiki/SIGs/NeuroFedora#Communication_and_getting_help">here</a>.</p>
+                <p class="text-muted">in <a href="http://ankursinha.in/">Ankur Sinha</a> on November 17, 2018 03:53 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/&title=Weekend reads: A climate change study correction; predatory journal critic banned from campus; why are publishers “the joint enemy?”" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/">Weekend reads: A climate change study correction; predatory journal critic banned from campus; why are publishers “the joint enemy?”</a></h4>
+
+Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured the tale of the researcher who pleaded guilty to faking … <a class="more-link" href="http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/">Continue reading <span class="screen-reader-text">Weekend reads: A climate change study correction; predatory journal critic banned from campus; why are publishers “the joint enemy?”</span></a>
+                <p class="text-muted">in <a href="http://retractionwatch.com">Retraction watch</a> on November 17, 2018 02:12 PM.</p>
+              </li>
+              <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan&title=A Bronze Age game called 58 holes was found chiseled into stone in Azerbaijan" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan">A Bronze Age game called 58 holes was found chiseled into stone in Azerbaijan</a></h4>
 
-A pattern on a rock in Azerbaijan suggests that a game called 58 holes traveled fast from the Near East to Eurasia thousands of years ago.
+A newly discovered rock pattern suggests that the game traveled fast from the Near East to Eurasia thousands of years ago.
                 <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 16, 2018 06:12 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars&title=FDA restricts the sale of some flavored e-cigarettes as teen use soars" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars">FDA restricts the sale of some flavored e-cigarettes as teen use soars</a></h4>
 
-The Food and Drug Administration announced restrictions on the sale of some e-cigarette flavors in response to a drastic rise in teen’s use of e-cigs.
+The number of high schoolers who vape rose 78 percent from 2017 to 2018.
                 <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 16, 2018 06:05 PM.</p>
               </li>
               <li class="list-group-item">
@@ -1766,20 +1821,6 @@ A once-green Arabia may have enabled Stone Age entries by Homo groups.
 <p>Corning is one of the world’s leading innovators in materials science, with a more than 165-year track record of life-changing inventions. Corning applies its unparalleled expertise in glass science, ceramic science, and optical physics along with its deep manufacturing and engineering capabilities to develop category-defining products that transform industries and enhance people’s lives. Corning succeeds through sustained investment in RD&amp;E, a unique combination of material and process innovation, and deep, trust-based relationships with customers who are global leaders in their industries.</p>
 <p>Corning’s capabilities are versatile and synergistic, which allows the company to evolve to meet changing market needs, while also helping our customers capture new opportunities in dynamic industries. Today, Corning’s markets include optical communications, mobile consumer electronics, display technology, automotive, and life sciences vessels. Corning’s industry-leading products include damage-resistant cover glass for mobile devices; precision glass for advanced displays; optical fiber, wireless technologies, and connectivity solutions for state-of-the-art communications networks; trusted products to accelerate drug discovery and delivery; and clean-air technologies for cars and trucks.</p>
                 <p class="text-muted">in <a href="https://blog.scienceexchange.com">The Science Exchange Blog</a> on November 01, 2018 02:18 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/virtual-reality-therapy-has-real-life-benefits-some-mental-disorders" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/virtual-reality-therapy-has-real-life-benefits-some-mental-disorders" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/virtual-reality-therapy-has-real-life-benefits-some-mental-disorders&title=Virtual reality therapy has real-life benefits for some mental disorders" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://www.sciencenews.org/article/virtual-reality-therapy-has-real-life-benefits-some-mental-disorders">Virtual reality therapy has real-life benefits for some mental disorders</a></h4>
-
-Cheap, user-friendly virtual reality hardware could help VR therapy go mainstream. Some treatments are ready for primetime, while others are still in early testing.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 01, 2018 12:24 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/01/aerospace-researchers-in-japan-blast-off-to-three-retractions/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/01/aerospace-researchers-in-japan-blast-off-to-three-retractions/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/01/aerospace-researchers-in-japan-blast-off-to-three-retractions/&title=Aerospace researchers in Japan up to three retractions" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://retractionwatch.com/2018/11/01/aerospace-researchers-in-japan-blast-off-to-three-retractions/">Aerospace researchers in Japan up to three retractions</a></h4>
-
-A pair of researchers in Japan has lost their third paper in a UK journal, which cites problematic images and an institutional investigation for the move. The 2016 article, “Novel Rh-substituted hexaaluminate catalysts for N2O decomposition,” was written by Rachid Amrousse and Akimasa Tsutsumi, of the Japan Aerospace Exploration Agency, or JAXA, in Sagamihara. It … <a class="more-link" href="http://retractionwatch.com/2018/11/01/aerospace-researchers-in-japan-blast-off-to-three-retractions/">Continue reading <span class="screen-reader-text">Aerospace researchers in Japan up to three retractions</span></a>
-                <p class="text-muted">in <a href="http://retractionwatch.com">Retraction watch</a> on November 01, 2018 12:00 PM.</p>
               </li>
           </ul>
         </div>
