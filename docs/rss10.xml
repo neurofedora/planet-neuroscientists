@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-wombats-poop-cubes" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around" />
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9769" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-5528503932216638976" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-satellites-will-relay-news-nasa-insight-mars-landing" />
 			<rdf:li rdf:resource="tag:ankursinha.in,2018-11-17:/2018/11/17/neurofedora-update-week-46.html" />
@@ -112,13 +115,35 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/eating-less-protein-may-help-curb-gut-bacteria-growth" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35102" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dawn-spacecraft-nasa-asteroid-belt-ceres-silent" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/vanadium-dioxide-weird-phase-transition-just-got-weirder" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/milky-way-feasted-smaller-galaxy-10-billion-years-ago" />
-			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8373" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-wombats-poop-cubes">
+	<title>Science News: Wombats are the only animals whose poop is a cube. Here’s how they do it.</title>
+	<link>https://www.sciencenews.org/article/how-wombats-poop-cubes</link>
+	<content:encoded>The elasticity of wombats’ intestines helps the creatures shape their distinctive poops.</content:encoded>
+	<dc:date>2018-11-18T22:00:04+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around">
+	<title>Science News: Small doses of peanut protein can turn allergies around</title>
+	<link>https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around</link>
+	<content:encoded>After a year of careful peanut protein exposure, most kids in a clinical trial could tolerate the equivalent of two large peanuts.</content:encoded>
+	<dc:date>2018-11-18T21:45:04+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9769">
+	<title>Discovery magazine - Neuroskeptic: Medical Ethics: &quot;When a Dying Patient Confesses to Murder&quot;</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9769</link>
+	<content:encoded>What should a doctor do if a dying patient confesses to killing people decades ago? This is the question posed by a fascinating case report in the Journal of Clinical Ethics, from New Zealand-based authors Laura Tincknell and colleagues.
+
+
+
+
+The facts of the case are fairly straightforward. A 70-year old man with advanced cancer was expected to die imminently and was admitted to a hospital pallative care ward in severe pain. While being assessed by a junior doctor, the man expressed a wish</content:encoded>
+	<dc:date>2018-11-18T20:51:03+00:00</dc:date>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-7961882.post-5528503932216638976">
 	<title>Open and Shut?: The OA Interviews: Arul George Scaria</title>
 	<link>https://poynder.blogspot.com/2018/11/the-oa-interviews-arul-george-scaria.html</link>
@@ -1790,54 +1815,6 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 	<content:encoded>The Dawn probe, which hopped between two objects in the asteroid belt during its seven-year mission, ran out of fuel and stopped calling home.</content:encoded>
 	<dc:date>2018-11-01T21:27:04+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/vanadium-dioxide-weird-phase-transition-just-got-weirder">
-	<title>Science News: Vanadium dioxide’s weird phase transition just got weirder</title>
-	<link>https://www.sciencenews.org/article/vanadium-dioxide-weird-phase-transition-just-got-weirder</link>
-	<content:encoded>When shifting from one crystalline structure to another, the atoms inside vanadium dioxide bumble around a lot more than expected.</content:encoded>
-	<dc:date>2018-11-01T18:00:06+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/milky-way-feasted-smaller-galaxy-10-billion-years-ago">
-	<title>Science News: The Milky Way feasted on a smaller galaxy 10 billion years ago</title>
-	<link>https://www.sciencenews.org/article/milky-way-feasted-smaller-galaxy-10-billion-years-ago</link>
-	<content:encoded>The Milky Way swallowed another galaxy billions of years ago, and the leftover stars are still roaming the sky.</content:encoded>
-	<dc:date>2018-11-01T17:54:07+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="http://blogs.plos.org/plos/?p=8373">
-	<title>The Official PLOS Blog: Towards minimal reporting standards for life scientists</title>
-	<link>http://feeds.plos.org/~r/plos/Blog/~3/62T7sCAa6Gc/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/plos/files/2015/10/3-690x3202-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;div class=&quot;wp_orcid_field&quot;&gt;&lt;a href=&quot;http://orcid.org/orcid.org/0000-0001-8771-7239&quot; rel=&quot;author&quot; target=&quot;_blank&quot;&gt;orcid.org/0000-0001-8771-7239&lt;/a&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;A group of journal editors and experts in reproducibility and transparent reporting are putting together a  framework for minimal reporting standards in the life sciences. Part of this group, PLOS Executive Editor Veronique Kiermer shares a joint announcement. &lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Transparency in reporting benefits scientific communication on many levels. While specific needs and expectations vary across fields, the effective use of research findings relies on the availability of core information about research materials, data, and analysis. These are the underlying principles that led to the design of the &lt;u&gt;&lt;a href=&quot;https://cos.io/our-services/top-guidelines/&quot;&gt;TOP guidelines&lt;/a&gt;&lt;/u&gt;, which outline a framework that over 1,000 journals and publishers have elected to follow.&lt;/p&gt;
-&lt;p&gt;In September 2017, the second major TOP guidelines workshop hosted by the &lt;u&gt;&lt;a href=&quot;https://cos.io/&quot;&gt;Center for Open Science&lt;/a&gt;&lt;/u&gt; led to a &lt;u&gt;&lt;a href=&quot;https://osf.io/ph3zn/&quot;&gt;position paper&lt;/a&gt;&lt;/u&gt; suggesting a standardized approach for reporting, provisionally entitled the TOP Statement.&lt;/p&gt;
-&lt;p&gt;Based on discussions at that meeting and at the 2017 Peer Review Congress, in December 2017 we convened a working group of journal editors and experts to support this overall effort by developing a minimal set of reporting standards for research in the life sciences. This framework could both inform the TOP statement and serve in other contexts where better reporting can improve reproducibility.&lt;/p&gt;
-&lt;p&gt;In this “minimal standards” working group, we aim to draw from the collective experience of journals implementing a range of different approaches designed to enhance reporting and reproducibility (e.g. &lt;u&gt;&lt;a href=&quot;https://www.cell.com/cell/fulltext/S0092-8674(16)31072-8&quot;&gt;STAR Methods&lt;/a&gt;&lt;/u&gt;), existing life science checklists (e.g. the &lt;u&gt;&lt;a href=&quot;https://www.nature.com/news/announcement-reducing-our-irreproducibility-1.12852&quot;&gt;Nature Research reporting summary)&lt;/a&gt;&lt;/u&gt;, and results of recent meta-research studying the efficacy of such interventions (e.g. &lt;u&gt;&lt;a href=&quot;https://www.biorxiv.org/content/early/2017/09/12/187245&quot;&gt;Macleod et al. 2017&lt;/a&gt;&lt;/u&gt;; &lt;u&gt;&lt;a href=&quot;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0183591&quot;&gt;Han et al. 2017&lt;/a&gt;&lt;/u&gt;); to devise a set of minimal expectations that journals could agree to ask their authors to meet.&lt;/p&gt;
-&lt;p&gt;An advantage of aligning on minimal standards is consistency in policies and expectations across journals, which is beneficial for authors as they prepare papers for publication and for reviewers as they assess them. We also hope that other major stakeholders engaged in the research cycle, including institutional review bodies and funders, will see the value of agreeing on this type of reporting standard as a minimal expectation, as broad-based endorsement from an early stage in the research life cycle would provide important support for overall adoption and implementation.&lt;/p&gt;
-&lt;p&gt;The working group will provide three key deliverables:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;      A “minimal standards” framework setting out minimal expectations across four core areas of materials (including data and code), design, analysis and reporting (MDAR)&lt;/li&gt;
-&lt;li&gt;      A “minimal standards” checklist intended to operationalize the framework by serving as an implementation tool to aid authors in complying with journal policies, and editors and reviewers in assessing reporting and compliance with policies&lt;/li&gt;
-&lt;li&gt;      An “elaboration” document or user guide providing context for the “minimal standards” framework and checklist&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;While all three outputs are intended to provide tools to help journals, researchers and other stakeholders with adoption of the minimal standards framework, we do not intend to be prescriptive about the precise mechanism of implementation and we anticipate that in many cases they will be used as a yardstick within the context of an existing reporting system. Nevertheless, we hope these tools will provide a consolidated view to help raise reporting standards across the life sciences.&lt;/p&gt;
-&lt;p&gt;We anticipate completing draft versions of these tools by spring 2019.  We also hope to work with a wider group of journals, as well as funders, institutions, and researchers to gather feedback and seek consensus towards defining and applying these minimal standards.  As part of this feedback stage, we will conduct a “community pilot” involving interested journals to test application of the tools we provide within the context of their procedures and community. Editors or publishers who are interested in participating are encouraged to contact Veronique Kiermer and Sowmya Swaminathan for more information.&lt;/p&gt;
-&lt;p&gt;In the current working group, we have focused our efforts on life science papers because of extensive previous activity in this field in devising reporting standards for research and publication.  However, once the life science guidelines are in place we hope that we and others will be able to extend this effort to other areas of science and devise similar tools for other fields.  Ultimately, we believe that a shared understanding of expectations and clear information about experimental and analytical procedures have the potential to benefit many different areas of research as we all work towards greater transparency and the support that it provides for the progress of science.&lt;/p&gt;
-&lt;p&gt;We are posting this notification across multiple venues to maximize communication and outreach, to give as many people as possible an opportunity to influence our thinking.  We welcome comments and suggestions within the context of any of these posts or in other venues.  If you have additional questions about our work, would like to be informed of progress, or would like to volunteer to provide input, please contact Veronique Kiermer and Sowmya Swaminathan.&lt;/p&gt;
-&lt;p&gt;On behalf of the “minimal standards” working group:&lt;/p&gt;
-&lt;p&gt;Karen Chambers (Wiley)&lt;/p&gt;
-&lt;p&gt;Andy Collings (eLife)&lt;/p&gt;
-&lt;p&gt;Chris Graf (Wiley)&lt;/p&gt;
-&lt;p&gt;Veronique Kiermer (Public Library of Science; vkiermer@plos.org)&lt;/p&gt;
-&lt;p&gt;David Mellor (Center for Open Science)&lt;/p&gt;
-&lt;p&gt;Malcolm Macleod (University of Edinburgh)&lt;/p&gt;
-&lt;p&gt;Sowmya Swaminathan (Nature Research/Springer Nature; s.swaminathan@us.nature.com)&lt;/p&gt;
-&lt;p&gt;Deborah Sweet (Cell Press/Elsevier)&lt;/p&gt;
-&lt;p&gt;Valda Vinson (Science/AAAS)&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/62T7sCAa6Gc&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2018-11-01T15:39:24+00:00</dc:date>
-	<dc:creator>Veronique Kiermer</dc:creator>
 </item>
 
 </rdf:RDF>
