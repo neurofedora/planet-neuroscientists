@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=78640" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/uncovering-clues-to-the-societal-impact-of-research" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35335" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=33226" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35158" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-drug-may-boost-dwindling-treatment-options-gonorrhea" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/marijuana-may-change-decision-making-part-teen-brains" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/oldest-known-drawing-figure-found-cave-art-borneo" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=78640">
+	<title>Retraction watch: Engineering prof in Italy earns 26 retractions in one fell swoop</title>
+	<link>http://retractionwatch.com/2018/11/22/engineering-prof-in-italy-earns-26-retractions-in-one-fell-swoop/</link>
+	<content:encoded>Antonio Orlandi, a professor of electrical engineering at the University of L’Aquila, in Italy, has had 26 papers retracted from a single journal, on a single day. Orlandi’s retractions come with a twist: He was, until recently, the editor in chief of the journal where the articles appeared, IEEE Transactions on Electromagnetic Compatibility. It’s not … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/22/engineering-prof-in-italy-earns-26-retractions-in-one-fell-swoop/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Engineering prof in Italy earns 26 retractions in one fell swoop&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-11-22T13:00:44+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.elsevier.com/connect/uncovering-clues-to-the-societal-impact-of-research">
 	<title>Elsevier Connect: Uncovering clues to the societal impact of research</title>
 	<link>https://www.elsevier.com/connect/uncovering-clues-to-the-societal-impact-of-research</link>
@@ -1452,13 +1459,6 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 	<content:encoded>A marijuana-like drug given to male rats during adolescence changed the structure of their brains.</content:encoded>
 	<dc:date>2018-11-07T21:05:34+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/oldest-known-drawing-figure-found-cave-art-borneo">
-	<title>Science News: Like Europe, Borneo hosted Stone Age cave artists</title>
-	<link>https://www.sciencenews.org/article/oldest-known-drawing-figure-found-cave-art-borneo</link>
-	<content:encoded>Rock art may have spread from Borneo across Southeast Asia starting 40,000 years ago or more.</content:encoded>
-	<dc:date>2018-11-07T18:00:04+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
