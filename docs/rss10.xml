@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/huge-triassic-herbivore-dicynodont" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=78640" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/uncovering-clues-to-the-societal-impact-of-research" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35335" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/beyond-anecdata-peering-into-the-future-of-research-funding" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35158" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-drug-may-boost-dwindling-treatment-options-gonorrhea" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/marijuana-may-change-decision-making-part-teen-brains" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/huge-triassic-herbivore-dicynodont">
+	<title>Science News: This huge plant-eater thrived in the age of dinosaurs — but wasn’t one of them</title>
+	<link>https://www.sciencenews.org/article/huge-triassic-herbivore-dicynodont</link>
+	<content:encoded>A newly named plant-eater from the Late Triassic was surprisingly hefty.</content:encoded>
+	<dc:date>2018-11-22T19:00:05+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=78640">
 	<title>Retraction watch: Engineering prof in Italy earns 26 retractions in one fell swoop</title>
 	<link>http://retractionwatch.com/2018/11/22/engineering-prof-in-italy-earns-26-retractions-in-one-fell-swoop/</link>
@@ -1452,13 +1459,6 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 	<content:encoded>An antibiotic that targets the bacteria that causes gonorrhea proved effective in treating patients in a clinical trial.</content:encoded>
 	<dc:date>2018-11-07T22:00:05+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/marijuana-may-change-decision-making-part-teen-brains">
-	<title>Science News: Marijuana may change the decision-making part of teen brains</title>
-	<link>https://www.sciencenews.org/article/marijuana-may-change-decision-making-part-teen-brains</link>
-	<content:encoded>A marijuana-like drug given to male rats during adolescence changed the structure of their brains.</content:encoded>
-	<dc:date>2018-11-07T21:05:34+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
