@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/subatomic-genius-games-chemistry-teacher-john-coveyou" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/engineering-clean-drinking-water-treatment-pollution" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-393543558171054730" />
 			<rdf:li rdf:resource="tag:ankursinha.in,2018-11-24:/2018/11/24/neurofedora-update-week-47.html" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35155" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=32874" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/these-fragile-futuristic-batteries-run-longer-little-oil" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-life-threatening-allergic-reaction-can-happen-so-fast" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/subatomic-genius-games-chemistry-teacher-john-coveyou">
+	<title>Science News: Why a chemistry teacher started a science board game company</title>
+	<link>https://www.sciencenews.org/article/subatomic-genius-games-chemistry-teacher-john-coveyou</link>
+	<content:encoded>Subatomic is the latest game from John Coveyou, whose company Genius Games wants people to find the joy in science.</content:encoded>
+	<dc:date>2018-11-25T14:00:05+00:00</dc:date>
+	<dc:creator>Kyle Plantz</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/engineering-clean-drinking-water-treatment-pollution">
 	<title>Science News: Engineers are plugging holes in drinking water treatment</title>
 	<link>https://www.sciencenews.org/article/engineering-clean-drinking-water-treatment-pollution</link>
@@ -1481,13 +1488,6 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 	<content:encoded>A redesign for batteries that use aluminum and oxygen could help these inexpensive, lightweight power cells last longer.</content:encoded>
 	<dc:date>2018-11-08T19:00:04+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-life-threatening-allergic-reaction-can-happen-so-fast">
-	<title>Science News: How a life-threatening allergic reaction can happen so fast</title>
-	<link>https://www.sciencenews.org/article/how-life-threatening-allergic-reaction-can-happen-so-fast</link>
-	<content:encoded>Cells that act as sentries facilitate quick communication between allergens and anaphylaxis-triggering immune cells, a study in mice finds.</content:encoded>
-	<dc:date>2018-11-08T19:00:04+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
 </item>
 
 </rdf:RDF>
