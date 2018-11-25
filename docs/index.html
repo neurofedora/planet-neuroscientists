@@ -85,11 +85,57 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on November 24, 2018 06:01 PM on behalf of Ankur Sinha.
+          on November 25, 2018 12:01 AM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://ankursinha.in/2018/11/24/neurofedora-update-week-47.html" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://ankursinha.in/2018/11/24/neurofedora-update-week-47.html" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://ankursinha.in/2018/11/24/neurofedora-update-week-47.html&title=NeuroFedora update: week 47" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="http://ankursinha.in/2018/11/24/neurofedora-update-week-47.html">NeuroFedora update: week 47</a></h4>
+
+<div class="figure">
+<a class="reference external image-reference" href="http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png"><img alt="NeuroFedora logo!" class="text-center img-responsive pagination-centered" src="http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png" style="width: 30%;" /></a>
+<p class="caption"><a class="reference external" href="https://pagure.io/design/issue/602">NeuroFedora logo by Terezahl from the Fedora Design Team</a></p>
+</div>
+<p>In week 47:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-dipy">python-dipy</a> was included and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-pygiftiio">pygiftiio</a> was included and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-pybids">python-pybids</a> went stable and is now in testing</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-pyphi">python-pyphi</a> was included and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-efel">python-efel</a> was included and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-pymatreader">python-pymatreader</a> was included and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-mne">python-mne</a> was included and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-fsleyes">fsleyes</a> went stable and is now ready for use.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/nest">NEST</a> has now been built with <a class="reference external" href="https://src.fedoraproject.org/rpms/libneurosim">libneurosim</a> support and is in testing.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/python-pyemd">python-pyemd</a> went stable and is now ready for use</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/brian">Brian</a> went stable and is now ready for use</li>
+</ul>
+<hr class="docutils" />
+<p>Quite a few Fedora community members have helped us out again this week.
+<a class="reference external" href="https://fedoraproject.org/wiki/User:Lbazan">lbazan</a>, <a class="reference external" href="https://fedoraproject.org/wiki/User:Blackfile">blackfile</a>, and <a class="reference external" href="https://fedoraproject.org/wiki/User:Mhough">mhough</a> have all joined the <a class="reference external" href="https://pagure.io/group/neuro-sig">core team</a> too. In another news:</p>
+<ul class="simple">
+<li>upstream <a class="reference external" href="https://github.com/nest/nest-simulator/issues/1063">clarified</a>
+how <a class="reference external" href="https://src.fedoraproject.org/rpms/libneurosim">libneurosim</a> was to be used with <a class="reference external" href="https://src.fedoraproject.org/rpms/nest">NEST</a>. We can now work on <a class="reference external" href="https://github.com/NeuralEnsemble/PyNN">PyNN</a> so that
+it can at least be used with <a class="reference external" href="https://src.fedoraproject.org/rpms/nest">NEST</a> and <a class="reference external" href="https://src.fedoraproject.org/rpms/brian">Brian</a>.</li>
+<li><a class="reference external" href="https://src.fedoraproject.org/rpms/nest">NEST</a> has been <a class="reference external" href="https://github.com/nest/nest-simulator/pull/1065">tweaked to support 32 bit hardware again</a>.</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/27">NEURON</a> has been updated to use a more recent version of <a class="reference external" href="https://computation.llnl.gov/projects/sundials">SUNDIALS</a>. Once this
+has been merged into the main codebase, we can proceed with packaging <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/27">NEURON</a>
+too.</li>
+<li>We've set up a Telegram group for <a class="reference external" href="https://fedoraproject.org/wiki/SIGs/NeuroFedora">NeuroFedora</a> here: <a class="reference external" href="https://t.me/NeuroFedora">https://t.me/NeuroFedora</a>
+We'll bridge this to the <a class="reference external" href="https://webchat.freenode.net/?channels=#fedora-neuro">IRC channel</a> in the near future.
+These channels can be used to get in touch with the team for troubleshooting
+and so on.</li>
+</ul>
+<hr class="docutils" />
+<p>There is a lot of software available in <a class="reference external" href="https://fedoraproject.org/wiki/SIGs/NeuroFedora">NeuroFedora</a> already. You can see the
+complete list <a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig">here on Fedora SCM</a>. Software that is currently
+being worked on is listed <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues">on our Pagure project instance</a>. If you use software that
+is not on our list, please suggest it to us using the <a class="reference external" href="https://goo.gl/forms/j6AJ82yOh78MPxby1">suggestion form</a>.</p>
+<p>Feedback is always welcome. You can get in touch with us <a class="reference external" href="https://fedoraproject.org/wiki/SIGs/NeuroFedora#Communication_and_getting_help">here</a>.</p>
+                <p class="text-muted">in <a href="http://ankursinha.in/">Ankur Sinha</a> on November 24, 2018 06:37 PM.</p>
+              </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/24/weekend-reads-meet-journals-research-integrity-czars-duke-set-to-settle-big-grant-fraud-case-what-a-cannabis-stocks-collapse-can-teach-investors/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/24/weekend-reads-meet-journals-research-integrity-czars-duke-set-to-settle-big-grant-fraud-case-what-a-cannabis-stocks-collapse-can-teach-investors/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/24/weekend-reads-meet-journals-research-integrity-czars-duke-set-to-settle-big-grant-fraud-case-what-a-cannabis-stocks-collapse-can-teach-investors/&title=Weekend reads: Meet journals’ research integrity czars; Duke set to settle big grant fraud case; what a cannabis stock’s collapse can teach investors" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="http://retractionwatch.com/2018/11/24/weekend-reads-meet-journals-research-integrity-czars-duke-set-to-settle-big-grant-fraud-case-what-a-cannabis-stocks-collapse-can-teach-investors/">Weekend reads: Meet journals’ research integrity czars; Duke set to settle big grant fraud case; what a cannabis stock’s collapse can teach investors</a></h4>
@@ -109,7 +155,7 @@ What can studying retractions in business and management journals tell us? Earli
                 <h4><a href="https://www.sciencenews.org/article/screwworm-flies-sterilization-insect-control">50 years ago, screwworm flies inspired a new approach to insect control</a></h4>
 
 The United States has wiped out screwworm flies repeatedly since 1966 using the sterile male eradication technique.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 23, 2018 12:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 23, 2018 12:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2018/11/23/have-you-got-a-self-actualised-personality-a-new-test-brings-maslows-ideas-into-the-21st-century/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2018/11/23/have-you-got-a-self-actualised-personality-a-new-test-brings-maslows-ideas-into-the-21st-century/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2018/11/23/have-you-got-a-self-actualised-personality-a-new-test-brings-maslows-ideas-into-the-21st-century/&title=Have you got a “self-actualised” personality? A new test brings Maslow’s ideas into the 21st century" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -142,7 +188,7 @@ The United States has wiped out screwworm flies repeatedly since 1966 using the 
                 <h4><a href="https://www.sciencenews.org/article/huge-triassic-herbivore-dicynodont">This huge plant-eater thrived in the age of dinosaurs — but wasn’t one of them</a></h4>
 
 A newly named plant-eater from the Late Triassic was surprisingly hefty.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 22, 2018 07:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 22, 2018 07:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/22/engineering-prof-in-italy-earns-26-retractions-in-one-fell-swoop/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/22/engineering-prof-in-italy-earns-26-retractions-in-one-fell-swoop/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/22/engineering-prof-in-italy-earns-26-retractions-in-one-fell-swoop/&title=Engineering prof in Italy earns 26 retractions in one fell swoop" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -203,21 +249,21 @@ Eric Lam is yet another of the many "Curing Cancer with Photoshop" researchers w
                 <h4><a href="https://www.sciencenews.org/article/mars-reconnaissance-orbiter-glitch-liquid-water">An orbiter glitch may mean some signs of liquid water on Mars aren’t real</a></h4>
 
 The way that scientists process data from a Mars orbiter creates what look like signs of saltwater, but may actually be nothing, a study finds.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 21, 2018 07:30 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 21, 2018 07:30 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/paralyzed-people-implants-brain-computer-interface-tablets" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/paralyzed-people-implants-brain-computer-interface-tablets" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/paralyzed-people-implants-brain-computer-interface-tablets&title=Brain implants let paralyzed people use tablets to send texts and stream music" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/paralyzed-people-implants-brain-computer-interface-tablets">Brain implants let paralyzed people use tablets to send texts and stream music</a></h4>
 
 People with paralysis could control commercially available tablets with their brain activity, researchers show.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 21, 2018 07:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 21, 2018 07:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/airplane-charged-molecules-ionic-wind" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/airplane-charged-molecules-ionic-wind" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/airplane-charged-molecules-ionic-wind&title=A new airplane uses charged molecules, not propellers or turbines, to fly" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/airplane-charged-molecules-ionic-wind">A new airplane uses charged molecules, not propellers or turbines, to fly</a></h4>
 
 A small aircraft prototype is powered by ionic wind flowing in one direction and pushing the plane in the other.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 21, 2018 06:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 21, 2018 06:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/21/journals-stamp-expressions-of-concern-on-15-papers-from-anversas-cardiac-stem-cell-lab/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/21/journals-stamp-expressions-of-concern-on-15-papers-from-anversas-cardiac-stem-cell-lab/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/21/journals-stamp-expressions-of-concern-on-15-papers-from-anversas-cardiac-stem-cell-lab/&title=Journals stamp expressions of concern on 15 papers from Anversa’s cardiac stem cell lab" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -297,7 +343,7 @@ The Institute of Electrical and Electronics Engineers (IEEE), a scientific socie
                 <h4><a href="https://www.sciencenews.org/blog/growth-curve/spanking-discipline-aap-guidelines">Don’t spank your kids. Do time-outs and positive talk instead, pediatricians say</a></h4>
 
 A pediatrician group recommends against spanking children — ever — and points instead to positive reinforcement and time-outs to cool off.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 20, 2018 07:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 20, 2018 07:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.biomedcentral.com/bmcseriesblog/2018/11/20/paving-desire-paths-health-information-needs-teaching-students-edit-wikipedia/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.biomedcentral.com/bmcseriesblog/2018/11/20/paving-desire-paths-health-information-needs-teaching-students-edit-wikipedia/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.biomedcentral.com/bmcseriesblog/2018/11/20/paving-desire-paths-health-information-needs-teaching-students-edit-wikipedia/&title=Paving the desire paths of health information needs:  Teaching students to edit Wikipedia" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -324,14 +370,14 @@ A pediatrician group recommends against spanking children — ever — and point
                 <h4><a href="https://www.sciencenews.org/article/twitter-bots-fake-news-2016-election">How Twitter bots get people to spread fake news</a></h4>
 
 Automated bot accounts on Twitter help spread misinformation by strategically encouraging people to make it go viral.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 20, 2018 04:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 20, 2018 04:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/exploding-meteor-may-have-wiped-out-ancient-dead-sea-communities" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/exploding-meteor-may-have-wiped-out-ancient-dead-sea-communities" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/exploding-meteor-may-have-wiped-out-ancient-dead-sea-communities&title=An exploding meteor may have wiped out ancient Dead Sea communities" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/exploding-meteor-may-have-wiped-out-ancient-dead-sea-communities">An exploding meteor may have wiped out ancient Dead Sea communities</a></h4>
 
 An archaeological site not far from the Dead Sea shows signs of sudden, superheated collapse 3,700 years ago.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 20, 2018 03:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 20, 2018 03:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/20/researcher-in-south-korea-racks-up-three-retractions-and-at-least-10-corrections/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/20/researcher-in-south-korea-racks-up-three-retractions-and-at-least-10-corrections/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/20/researcher-in-south-korea-racks-up-three-retractions-and-at-least-10-corrections/&title=Researcher in South Korea racks up three retractions and at least 10 corrections" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -345,7 +391,7 @@ A professor at Kyung-Hee University in Seoul, South Korea, has retracted three a
                 <h4><a href="https://www.sciencenews.org/article/nuclear-knots-skyrmions-could-unravel-mysteries-atoms">Nuclear ‘knots’ could unravel the mysteries of atoms</a></h4>
 
 Skyrmions might help loosen scientific snarls in studies of atomic nuclei.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 20, 2018 11:00 AM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 20, 2018 11:00 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2018/11/20/the-mood-stabilising-effect-of-taking-the-pill-has-downstream-benefits-for-womens-relationships-claims-new-study/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2018/11/20/the-mood-stabilising-effect-of-taking-the-pill-has-downstream-benefits-for-womens-relationships-claims-new-study/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2018/11/20/the-mood-stabilising-effect-of-taking-the-pill-has-downstream-benefits-for-womens-relationships-claims-new-study/&title=The mood-stabilising effect of taking the pill has “downstream benefits” for women’s relationships, claims new study" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -423,14 +469,14 @@ Skyrmions might help loosen scientific snarls in studies of atomic nuclei.
                 <h4><a href="https://www.sciencenews.org/article/nasa-mars-2020-rover-landing-site-ancient-alien-life-river-delta">NASA’s Mars 2020 rover will look for ancient life in a former river delta</a></h4>
 
 NASA’s Mars 2020 rover is going to Jezero crater, the site of an ancient river delta that may harbor signs of life.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 19, 2018 08:36 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 19, 2018 08:36 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/bronze-age-tomb-israel-reveals-earliest-known-use-vanilla" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/bronze-age-tomb-israel-reveals-earliest-known-use-vanilla" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/bronze-age-tomb-israel-reveals-earliest-known-use-vanilla&title=A Bronze Age tomb in Israel reveals the earliest known use of vanilla" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/bronze-age-tomb-israel-reveals-earliest-known-use-vanilla">A Bronze Age tomb in Israel reveals the earliest known use of vanilla</a></h4>
 
 Residue of the aromatic substance in 3 jugs dates to around 3,600 years ago.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 19, 2018 05:49 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 19, 2018 05:49 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://feeds.plos.org/~r/plos/Blog/~3/iPbhtLaQ0g8/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://feeds.plos.org/~r/plos/Blog/~3/iPbhtLaQ0g8/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://feeds.plos.org/~r/plos/Blog/~3/iPbhtLaQ0g8/&title=Attention Earth Sciences: PLOS ONE wants YOUR Preprint" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -469,7 +515,7 @@ Residue of the aromatic substance in 3 jugs dates to around 3,600 years ago.
                 <h4><a href="https://www.sciencenews.org/article/gut-bacteria-may-guard-against-type-2-diabetes">Gut bacteria may guard against diabetes that comes with aging</a></h4>
 
 A friendly microbe in the gut may be the key to staving off insulin resistance, a study in mice finds.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 19, 2018 03:55 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 19, 2018 03:55 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/19/ketamine-for-depression-paper-retracted-for-error-that-double-counted-clinical-trial-participants/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/19/ketamine-for-depression-paper-retracted-for-error-that-double-counted-clinical-trial-participants/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/19/ketamine-for-depression-paper-retracted-for-error-that-double-counted-clinical-trial-participants/&title=Ketamine for depression? Paper retracted for error that double-counted clinical trial participants" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -483,7 +529,7 @@ A psychiatry journal has retracted a 2015 meta-analysis on the effectiveness of 
                 <h4><a href="https://www.sciencenews.org/article/cannabis-fields-offer-late-season-pollen-source-stressed-bees">Hemp fields offer a late-season pollen source for stressed bees</a></h4>
 
 Colorado’s legal fields of low-THC cannabis can attract a lot of bees.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 19, 2018 11:00 AM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 19, 2018 11:00 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.elsevier.com/connect/harmonizing-global-open-access-policies-would-you-buy-the-world-a-drink" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.elsevier.com/connect/harmonizing-global-open-access-policies-would-you-buy-the-world-a-drink" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.elsevier.com/connect/harmonizing-global-open-access-policies-would-you-buy-the-world-a-drink&title=Harmonizing global open access policies: “Would you buy the world a drink?”" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -553,14 +599,14 @@ Smut Clyde will take you on a meditative Ayurvedic trip where the most respectab
                 <h4><a href="https://www.sciencenews.org/article/how-wombats-poop-cubes">Wombats are the only animals whose poop is a cube. Here’s how they do it.</a></h4>
 
 The elasticity of wombats’ intestines helps the creatures shape their distinctive poops.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 18, 2018 10:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 18, 2018 10:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around&title=Small doses of peanut protein can turn allergies around" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around">Small doses of peanut protein can turn allergies around</a></h4>
 
 After a year of careful peanut protein exposure, most kids in a clinical trial could tolerate the equivalent of two large peanuts.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 18, 2018 09:45 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 18, 2018 09:45 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.discovermagazine.com/neuroskeptic/?p=9769" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.discovermagazine.com/neuroskeptic/?p=9769" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.discovermagazine.com/neuroskeptic/?p=9769&title=Medical Ethics: "When a Dying Patient Confesses to Murder"" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -586,7 +632,7 @@ The facts of the case are fairly straightforward. A 70-year old man with advance
                 <h4><a href="https://www.sciencenews.org/article/tiny-satellites-will-relay-news-nasa-insight-mars-landing">Tiny satellites will relay news of InSight’s Mars landing in minutes, not hours</a></h4>
 
 NASA’s InSight Mars lander brought along two tiny CubeSats to send details about the spacecraft’s landing to Earth in almost real time.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 18, 2018 12:00 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 18, 2018 12:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html&title=NeuroFedora update: week 46" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -648,21 +694,21 @@ Before we present this week’s Weekend Reads, a question: Do you enjoy our week
                 <h4><a href="https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan">A Bronze Age game called 58 holes was found chiseled into stone in Azerbaijan</a></h4>
 
 A newly discovered rock pattern suggests that the game traveled fast from the Near East to Eurasia thousands of years ago.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 16, 2018 06:12 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 16, 2018 06:12 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars&title=FDA restricts the sale of some flavored e-cigarettes as teen use soars" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/fda-restricts-sale-some-flavored-e-cigarettes-teen-vaping-soars">FDA restricts the sale of some flavored e-cigarettes as teen use soars</a></h4>
 
 The number of high schoolers who vape rose 78 percent from 2017 to 2018.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 16, 2018 06:05 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 16, 2018 06:05 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/astronomers-spot-another-star-flickers-tabby-star" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/astronomers-spot-another-star-flickers-tabby-star" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/astronomers-spot-another-star-flickers-tabby-star&title=Astronomers spot another star that flickers like Tabby’s star" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/astronomers-spot-another-star-flickers-tabby-star">Astronomers spot another star that flickers like Tabby’s star</a></h4>
 
 The irregular flickering of star VVV-WIT-07 is reminiscent of Tabby’s star, which brought speculation of alien megastructures.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 16, 2018 03:14 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 16, 2018 03:14 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://retractionwatch.com/2018/11/16/games-researcher-retracts-one-paper-corrects-three-others-for-plagiarism/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://retractionwatch.com/2018/11/16/games-researcher-retracts-one-paper-corrects-three-others-for-plagiarism/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://retractionwatch.com/2018/11/16/games-researcher-retracts-one-paper-corrects-three-others-for-plagiarism/&title=Games researcher retracts one paper, corrects three others, for plagiarism" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -676,7 +722,7 @@ A researcher, formerly of Bath Spa University in the UK, who studies how compute
                 <h4><a href="https://www.sciencenews.org/article/official-redefining-kilogram-units-measurement">It’s official: We’re redefining the kilogram</a></h4>
 
 In May 2019, the system of measurement will be upgraded to rely on fundamental constants.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?_=8206">Science News</a> on November 16, 2018 12:22 PM.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on November 16, 2018 12:22 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2018/11/16/another-social-psychology-classic-bites-the-dust-meta-analysis-finds-little-evidence-for-the-macbeth-effect/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2018/11/16/another-social-psychology-classic-bites-the-dust-meta-analysis-finds-little-evidence-for-the-macbeth-effect/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2018/11/16/another-social-psychology-classic-bites-the-dust-meta-analysis-finds-little-evidence-for-the-macbeth-effect/&title=Another social psychology classic bites the dust – meta-analysis finds little evidence for the Macbeth effect" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -1421,31 +1467,6 @@ Carlo Croce, a prolific cancer researcher at The Ohio State University in Columb
 
 This daily cycle of calorie burning is one of the many body processes that follow a biological clock.
                 <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss?0_7810329843162639=1">Science News</a> on November 08, 2018 04:00 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.biomedcentral.com/bmcseriesblog/2018/11/08/what-is-inside-the-head-of-the-fossil-predatory-fish-%e2%80%a0saurichthys/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.biomedcentral.com/bmcseriesblog/2018/11/08/what-is-inside-the-head-of-the-fossil-predatory-fish-%e2%80%a0saurichthys/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.biomedcentral.com/bmcseriesblog/2018/11/08/what-is-inside-the-head-of-the-fossil-predatory-fish-%e2%80%a0saurichthys/&title=What is inside the head of the fossil predatory fish †Saurichthys?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://blogs.biomedcentral.com/bmcseriesblog/2018/11/08/what-is-inside-the-head-of-the-fossil-predatory-fish-%e2%80%a0saurichthys/">What is inside the head of the fossil predatory fish †Saurichthys?</a></h4>
-
-<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" height="110" src="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/Saurichthys-fossil-140x110.jpg" style="display: block; margin-bottom: 5px; clear: both;" width="140" /><p>Due to our close connection to the land we live on, as well as the daily interactions we have with domesticates and wildlife around us, we may often forget that collectively, amphibians, reptiles, birds and mammals represent less than half of the ‘leaves’ of the vertebrate tree of life.</p>
-<p>Indeed, over 50% of living species of vertebrates are ray-finned bony fishes (Actinopterygii), a clade that has been around for almost half a billion years. Despite being masked by an overall fish-like appearance, actinopterygians comprise fossil and living evolutionary lineages that are, in loose evolutionary terms, as distinct as those of frogs and humans.</p>
-<blockquote><p> </p>
-<p>†Saurichthyiformes were an iconic group of early actinopterygians, which reigned aquatic ecosystems for almost 80 million years and even survived the biggest mass extinction in the history of life.</p></blockquote>
-<p>Yet the origins of major ray-fin lineages remain obscure. The assignment of early actinopterygian fossils to the correct branch of the tree of life remains an obstacle to acquiring a more complete picture of vertebrate evolution, and its course through major extinction events.</p>
-<p>Typically, ray-finned fossils are found crushed in two dimensions by overlying sediments. This does not allow the observation of tremendously important internal skeletal features (e.g. the braincase, sensory structures and gill bones). Luckily, on rare occasions, carcasses were encrusted quickly in pebble-shaped nodules that secured their three-dimensional preservation, protecting the integrity of internal structures.</p>
-<p>Classical investigations, from the early 20<sup>th</sup> century, of the internal anatomy of 3D early actinopterygians still form the core of our knowledge on the subject. Early works have employed destructive techniques, such as serial grinding, to describe internal features. As one can imagine, these results were of limited accuracy and are non-reproducible, since the original specimens were destroyed in the process.</p>
-<p>The latest Palaeozoic–Mesozoic †Saurichthyiformes were an iconic group of early actinopterygians, which reigned aquatic ecosystems for almost 80 million years and even survived the biggest mass extinction in the history of life. They were the first to evolve the typical ‘ambush predator’ (torpedo-like) body shape, which is nowadays encountered in gars, or needlefish.</p>
-<p>Destructive investigations of the internal skeleton of †Saurichthyiformes, conducted in the 1920s, pointed towards a close relationship with modern paddlefishes and sturgeons (which are best known for their delicious eggs ‒ caviar). Although widely accepted, this hypothesized close relationship rested on weak anatomical arguments.</p>
-<p>In this work, we revisited the internal anatomy of †Saurichthyiformes by employing computed X-ray microtomography on 3D fossils of two species of †<em>Saurichthys</em> from the Early Triassic of Nepal and East Greenland.  This method is non-destructive, and results in high-resolution digital models that can be easily studied from different angles, enabling accurate comparisons with other animals.</p>
-<figure class="wp-caption aligncenter" id="attachment_10597" style="width: 650px;"><img alt="" class="wp-image-10597 size-large" height="324" src="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/Saurichtys-Skull-1024x518.jpg" width="640" /><div class="attachment-image--caption">Different stages of study of the skull of †Saurichthys from East Greenland. From external anatomical interpretation (top), to digital reconstruction of X-ray tomograms (bottom). Scale bar = 1cm.</div><div class="attachment-image--source"></div></figure>
-<p>We digitally reconstructed internal skeletal structures, such as the braincase, jaws, and gills. We also visualized the spaces that were, in life, occupied by the brain, cranial nerves and blood vessels, as well as the inner ear. This allowed us to infer the shape and/or course of the actual soft-tissue structures. Our reconstructions led to new anatomical discoveries, but also revealed critical flaws in classical works.</p>
-<p>Amongst our new discoveries is the presence of large empty spaces in the snout. Additionally, we found that a bone (dermohyal), which was previously thought to be missing in †<em>Saurichthys</em>, was actually fused to another bone (hyomandibula). Both features are primitive. Interestingly, we found that the gill-cover bone architecture of †<em>Saurichthys</em> is very similar to that of modern sturgeons and paddlefishes.</p>
-<p>To put this new anatomical knowledge in its evolutionary context, we compared †<em>Saurichthys</em> with a variety of fossil and living ray-finned fishes. With the help of specialized algorithms, we analyzed a large dataset of morphological characters from dozens of bony fishes, in order to trace evolutionary affinities on the basis of anatomical similarities.</p>
-<figure class="wp-caption alignleft" id="attachment_10658" style="width: 241px;"><img alt="" class="size-medium wp-image-10658" height="300" src="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/Saurichthys-Brain-231x300.png" width="231" /><div class="attachment-image--caption">Tomographic renderings of brain, osseus labyrinth and nasobasal canal endocasts of †Saurichthys sp. (NHMD_157546_A)</div><div class="attachment-image--source">Image taken from Article</div></figure>
-<p>Contrasting historical phylogenetic hypotheses, the evolutionary trees produced by our analyses do not recover †Saurichthyiformes as closely related to sturgeons and paddlefishes, implying that many of their similarities have likely evolved independently (convergently). However, the lack of internal skeletal data for many other early actinopterygians precludes a clear picture of the early ray-fin tree of life.</p>
-<p>There will always be too many fossil fishes out there and not enough time (and resources) to study them.  It might even seem that this work only scratches the surface of early actinopterygian evolution. Yet, through works like this, we are able to better locate specific morphological characters and also fossil species that are responsible for ‘reshuffling’ the branches of the largest partition of the vertebrate tree of life.</p>
-<p>The unprecedented anatomical knowledge of the internal skeleton of †Saurichthyiformes will doubtlessly form a solid basis for further comparisons with new fossils. Moreover, our research highlights the fact that established classical interpretations of actinopterygian anatomy need to be critically reappraised in light of new material and modern methods of anatomical imaging.</p>
-<p>The post <a href="http://blogs.biomedcentral.com/bmcseriesblog/2018/11/08/what-is-inside-the-head-of-the-fossil-predatory-fish-%e2%80%a0saurichthys/" rel="nofollow">What is inside the head of the fossil predatory fish †<em>Saurichthys</em>?</a> appeared first on <a href="http://blogs.biomedcentral.com/bmcseriesblog" rel="nofollow">BMC Series blog</a>.</p>
-                <p class="text-muted">in <a href="http://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on November 08, 2018 01:24 PM.</p>
               </li>
           </ul>
         </div>

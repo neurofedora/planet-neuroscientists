@@ -5,8 +5,66 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-11-24T18:01:13+00:00</updated>
+	<updated>2018-11-25T00:01:16+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">NeuroFedora update: week 47</title>
+		<link href="http://ankursinha.in/2018/11/24/neurofedora-update-week-47.html"/>
+		<id>tag:ankursinha.in,2018-11-24:/2018/11/24/neurofedora-update-week-47.html</id>
+		<updated>2018-11-24T18:37:28+00:00</updated>
+		<content type="html">
+ &lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot;&gt;&lt;img alt=&quot;NeuroFedora logo!&quot; class=&quot;text-center img-responsive pagination-centered&quot; src=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In week 47:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-dipy&quot;&gt;python-dipy&lt;/a&gt; was included and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pygiftiio&quot;&gt;pygiftiio&lt;/a&gt; was included and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pybids&quot;&gt;python-pybids&lt;/a&gt; went stable and is now in testing&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pyphi&quot;&gt;python-pyphi&lt;/a&gt; was included and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-efel&quot;&gt;python-efel&lt;/a&gt; was included and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pymatreader&quot;&gt;python-pymatreader&lt;/a&gt; was included and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-mne&quot;&gt;python-mne&lt;/a&gt; was included and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-fsleyes&quot;&gt;fsleyes&lt;/a&gt; went stable and is now ready for use.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/nest&quot;&gt;NEST&lt;/a&gt; has now been built with &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/libneurosim&quot;&gt;libneurosim&lt;/a&gt; support and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pyemd&quot;&gt;python-pyemd&lt;/a&gt; went stable and is now ready for use&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/brian&quot;&gt;Brian&lt;/a&gt; went stable and is now ready for use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Quite a few Fedora community members have helped us out again this week.
+&lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Lbazan&quot;&gt;lbazan&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Blackfile&quot;&gt;blackfile&lt;/a&gt;, and &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Mhough&quot;&gt;mhough&lt;/a&gt; have all joined the &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/group/neuro-sig&quot;&gt;core team&lt;/a&gt; too. In another news:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;upstream &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nest/nest-simulator/issues/1063&quot;&gt;clarified&lt;/a&gt;
+how &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/libneurosim&quot;&gt;libneurosim&lt;/a&gt; was to be used with &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/nest&quot;&gt;NEST&lt;/a&gt;. We can now work on &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/NeuralEnsemble/PyNN&quot;&gt;PyNN&lt;/a&gt; so that
+it can at least be used with &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/nest&quot;&gt;NEST&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/brian&quot;&gt;Brian&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/nest&quot;&gt;NEST&lt;/a&gt; has been &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nest/nest-simulator/pull/1065&quot;&gt;tweaked to support 32 bit hardware again&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/27&quot;&gt;NEURON&lt;/a&gt; has been updated to use a more recent version of &lt;a class=&quot;reference external&quot; href=&quot;https://computation.llnl.gov/projects/sundials&quot;&gt;SUNDIALS&lt;/a&gt;. Once this
+has been merged into the main codebase, we can proceed with packaging &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/27&quot;&gt;NEURON&lt;/a&gt;
+too.&lt;/li&gt;
+&lt;li&gt;We've set up a Telegram group for &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora&quot;&gt;NeuroFedora&lt;/a&gt; here: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;
+We'll bridge this to the &lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC channel&lt;/a&gt; in the near future.
+These channels can be used to get in touch with the team for troubleshooting
+and so on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;There is a lot of software available in &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora&quot;&gt;NeuroFedora&lt;/a&gt; already. You can see the
+complete list &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;here on Fedora SCM&lt;/a&gt;. Software that is currently
+being worked on is listed &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues&quot;&gt;on our Pagure project instance&lt;/a&gt;. If you use software that
+is not on our list, please suggest it to us using the &lt;a class=&quot;reference external&quot; href=&quot;https://goo.gl/forms/j6AJ82yOh78MPxby1&quot;&gt;suggestion form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Feedback is always welcome. You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora#Communication_and_getting_help&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>ankur</name>
+			<uri>http://ankursinha.in/</uri>
+		</author>
+		<source>
+			<title type="html">ankursinha.in/blog - Planet</title>
+			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
+			<id>http://ankursinha.in/</id>
+			<updated>2018-11-24T18:37:28+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Weekend reads: Meet journals’ research integrity czars; Duke set to settle big grant fraud case; what a cannabis stock’s collapse can teach investors</title>
@@ -57,13 +115,13 @@
  The United States has wiped out screwworm flies repeatedly since 1966 using the sterile male eradication technique.</content>
 		<author>
 			<name>Kyle Plantz</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -101,7 +159,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -114,13 +172,13 @@
  A newly named plant-eater from the Late Triassic was surprisingly hefty.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -188,7 +246,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -231,7 +289,7 @@
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2018-11-24T09:15:28+00:00</updated>
+			<updated>2018-11-24T19:35:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -265,13 +323,13 @@
  The way that scientists process data from a Mars orbiter creates what look like signs of saltwater, but may actually be nothing, a study finds.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -284,13 +342,13 @@
  People with paralysis could control commercially available tablets with their brain activity, researchers show.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -303,13 +361,13 @@
  A small aircraft prototype is powered by ionic wind flowing in one direction and pushing the plane in the other.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -380,7 +438,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -436,7 +494,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -469,13 +527,13 @@
  A pediatrician group recommends against spanking children — ever — and points instead to positive reinforcement and time-outs to cool off.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -520,13 +578,13 @@
  Automated bot accounts on Twitter help spread misinformation by strategically encouraging people to make it go viral.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -539,13 +597,13 @@
  An archaeological site not far from the Dead Sea shows signs of sudden, superheated collapse 3,700 years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -578,13 +636,13 @@
  Skyrmions might help loosen scientific snarls in studies of atomic nuclei.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -618,7 +676,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -693,13 +751,13 @@
  NASA’s Mars 2020 rover is going to Jezero crater, the site of an ancient river delta that may harbor signs of life.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -712,13 +770,13 @@
  Residue of the aromatic substance in 3 jugs dates to around 3,600 years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -776,13 +834,13 @@
  A friendly microbe in the gut may be the key to staving off insulin resistance, a study in mice finds.</content>
 		<author>
 			<name>Tina Hesman Saey</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -815,13 +873,13 @@
  Colorado’s legal fields of low-THC cannabis can attract a lot of bees.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -871,7 +929,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -946,13 +1004,13 @@
  The elasticity of wombats’ intestines helps the creatures shape their distinctive poops.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -965,13 +1023,13 @@
  After a year of careful peanut protein exposure, most kids in a clinical trial could tolerate the equivalent of two large peanuts.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1029,13 +1087,13 @@ The facts of the case are fairly straightforward. A 70-year old man with advance
  NASA’s InSight Mars lander brought along two tiny CubeSats to send details about the spacecraft’s landing to Earth in almost real time.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1095,7 +1153,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">ankursinha.in/blog - Planet</title>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2018-11-17T15:53:58+00:00</updated>
+			<updated>2018-11-24T18:37:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -1128,13 +1186,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  A newly discovered rock pattern suggests that the game traveled fast from the Near East to Eurasia thousands of years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1147,13 +1205,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  The number of high schoolers who vape rose 78 percent from 2017 to 2018.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1166,13 +1224,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  The irregular flickering of star VVV-WIT-07 is reminiscent of Tabby’s star, which brought speculation of alien megastructures.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1205,13 +1263,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  In May 2019, the system of measurement will be upgraded to rely on fundamental constants.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=8206</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-24T18:00:29+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1245,7 +1303,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1478,7 +1536,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1536,7 +1594,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-11-24T18:00:31+00:00</updated>
+			<updated>2018-11-25T00:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1646,7 +1704,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1910,7 +1968,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-24T12:00:32+00:00</updated>
+			<updated>2018-11-25T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2296,7 +2354,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<title type="html">ankursinha.in/blog - Planet</title>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2018-11-17T15:53:58+00:00</updated>
+			<updated>2018-11-24T18:37:28+00:00</updated>
 		</source>
 	</entry>
 
@@ -2335,7 +2393,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-11-24T18:00:31+00:00</updated>
+			<updated>2018-11-25T00:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -2558,43 +2616,6 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2018-11-15T18:00:43+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">What is inside the head of the fossil predatory fish †Saurichthys?</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2018/11/08/what-is-inside-the-head-of-the-fossil-predatory-fish-%e2%80%a0saurichthys/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=10595</id>
-		<updated>2018-11-08T13:24:52+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/Saurichthys-fossil-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;Due to our close connection to the land we live on, as well as the daily interactions we have with domesticates and wildlife around us, we may often forget that collectively, amphibians, reptiles, birds and mammals represent less than half of the ‘leaves’ of the vertebrate tree of life.&lt;/p&gt;
-&lt;p&gt;Indeed, over 50% of living species of vertebrates are ray-finned bony fishes (Actinopterygii), a clade that has been around for almost half a billion years. Despite being masked by an overall fish-like appearance, actinopterygians comprise fossil and living evolutionary lineages that are, in loose evolutionary terms, as distinct as those of frogs and humans.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;†Saurichthyiformes were an iconic group of early actinopterygians, which reigned aquatic ecosystems for almost 80 million years and even survived the biggest mass extinction in the history of life.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Yet the origins of major ray-fin lineages remain obscure. The assignment of early actinopterygian fossils to the correct branch of the tree of life remains an obstacle to acquiring a more complete picture of vertebrate evolution, and its course through major extinction events.&lt;/p&gt;
-&lt;p&gt;Typically, ray-finned fossils are found crushed in two dimensions by overlying sediments. This does not allow the observation of tremendously important internal skeletal features (e.g. the braincase, sensory structures and gill bones). Luckily, on rare occasions, carcasses were encrusted quickly in pebble-shaped nodules that secured their three-dimensional preservation, protecting the integrity of internal structures.&lt;/p&gt;
-&lt;p&gt;Classical investigations, from the early 20&lt;sup&gt;th&lt;/sup&gt; century, of the internal anatomy of 3D early actinopterygians still form the core of our knowledge on the subject. Early works have employed destructive techniques, such as serial grinding, to describe internal features. As one can imagine, these results were of limited accuracy and are non-reproducible, since the original specimens were destroyed in the process.&lt;/p&gt;
-&lt;p&gt;The latest Palaeozoic–Mesozoic †Saurichthyiformes were an iconic group of early actinopterygians, which reigned aquatic ecosystems for almost 80 million years and even survived the biggest mass extinction in the history of life. They were the first to evolve the typical ‘ambush predator’ (torpedo-like) body shape, which is nowadays encountered in gars, or needlefish.&lt;/p&gt;
-&lt;p&gt;Destructive investigations of the internal skeleton of †Saurichthyiformes, conducted in the 1920s, pointed towards a close relationship with modern paddlefishes and sturgeons (which are best known for their delicious eggs ‒ caviar). Although widely accepted, this hypothesized close relationship rested on weak anatomical arguments.&lt;/p&gt;
-&lt;p&gt;In this work, we revisited the internal anatomy of †Saurichthyiformes by employing computed X-ray microtomography on 3D fossils of two species of †&lt;em&gt;Saurichthys&lt;/em&gt; from the Early Triassic of Nepal and East Greenland.  This method is non-destructive, and results in high-resolution digital models that can be easily studied from different angles, enabling accurate comparisons with other animals.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_10597&quot; style=&quot;width: 650px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-10597 size-large&quot; height=&quot;324&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/Saurichtys-Skull-1024x518.jpg&quot; width=&quot;640&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;Different stages of study of the skull of †Saurichthys from East Greenland. From external anatomical interpretation (top), to digital reconstruction of X-ray tomograms (bottom). Scale bar = 1cm.&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;We digitally reconstructed internal skeletal structures, such as the braincase, jaws, and gills. We also visualized the spaces that were, in life, occupied by the brain, cranial nerves and blood vessels, as well as the inner ear. This allowed us to infer the shape and/or course of the actual soft-tissue structures. Our reconstructions led to new anatomical discoveries, but also revealed critical flaws in classical works.&lt;/p&gt;
-&lt;p&gt;Amongst our new discoveries is the presence of large empty spaces in the snout. Additionally, we found that a bone (dermohyal), which was previously thought to be missing in †&lt;em&gt;Saurichthys&lt;/em&gt;, was actually fused to another bone (hyomandibula). Both features are primitive. Interestingly, we found that the gill-cover bone architecture of †&lt;em&gt;Saurichthys&lt;/em&gt; is very similar to that of modern sturgeons and paddlefishes.&lt;/p&gt;
-&lt;p&gt;To put this new anatomical knowledge in its evolutionary context, we compared †&lt;em&gt;Saurichthys&lt;/em&gt; with a variety of fossil and living ray-finned fishes. With the help of specialized algorithms, we analyzed a large dataset of morphological characters from dozens of bony fishes, in order to trace evolutionary affinities on the basis of anatomical similarities.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignleft&quot; id=&quot;attachment_10658&quot; style=&quot;width: 241px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-10658&quot; height=&quot;300&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/Saurichthys-Brain-231x300.png&quot; width=&quot;231&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;Tomographic renderings of brain, osseus labyrinth and nasobasal canal endocasts of †Saurichthys sp. (NHMD_157546_A)&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;Image taken from Article&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;Contrasting historical phylogenetic hypotheses, the evolutionary trees produced by our analyses do not recover †Saurichthyiformes as closely related to sturgeons and paddlefishes, implying that many of their similarities have likely evolved independently (convergently). However, the lack of internal skeletal data for many other early actinopterygians precludes a clear picture of the early ray-fin tree of life.&lt;/p&gt;
-&lt;p&gt;There will always be too many fossil fishes out there and not enough time (and resources) to study them.  It might even seem that this work only scratches the surface of early actinopterygian evolution. Yet, through works like this, we are able to better locate specific morphological characters and also fossil species that are responsible for ‘reshuffling’ the branches of the largest partition of the vertebrate tree of life.&lt;/p&gt;
-&lt;p&gt;The unprecedented anatomical knowledge of the internal skeleton of †Saurichthyiformes will doubtlessly form a solid basis for further comparisons with new fossils. Moreover, our research highlights the fact that established classical interpretations of actinopterygian anatomy need to be critically reappraised in light of new material and modern methods of anatomical imaging.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/11/08/what-is-inside-the-head-of-the-fossil-predatory-fish-%e2%80%a0saurichthys/&quot; rel=&quot;nofollow&quot;&gt;What is inside the head of the fossil predatory fish †&lt;em&gt;Saurichthys&lt;/em&gt;?&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Thodoris Argyriou &amp;#38; Carlo Romano</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2018-11-20T18:00:33+00:00</updated>
 		</source>
 	</entry>
 
