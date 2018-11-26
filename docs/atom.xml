@@ -5,8 +5,67 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-11-26T12:01:26+00:00</updated>
+	<updated>2018-11-26T18:01:22+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">When Cortex Stops Making Sense</title>
+		<link href="https://medium.com/the-spike/when-cortex-stops-making-sense-cfc52984aef0?source=rss----c92c31591e3a---4"/>
+		<id>https://medium.com/p/cfc52984aef0</id>
+		<updated>2018-11-26T16:46:56+00:00</updated>
+		<content type="html">
+ &lt;h4&gt;When cortex is useless, what do we learn?&lt;/h4&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/938/1*DbFF6adUhl5a8u_yOaec5g.png&quot; /&gt;Chameleon Designs / Noun Project&lt;/figure&gt;&lt;p&gt;The cortex, that many layered cake of neurons, occupies a special place in neuroscience. Our best guess at the root of our prodigious intellectual abilities — of language, of sculpture, of base-jumping in a kilt — is that our cortex is far more dense with neurons than any other species. Our dominant sense, sight, commands a third or more of the entire cortex. And its exquisite circuitry hints at devilishly complex computations, of probabilities, of inference, of algorithms that AIs can only dream of. If we want to understand the brain from a human perspective, the cortex is where we must start.&lt;/p&gt;&lt;p&gt;(The fact that it is also by far the easiest part of the brain to record from in both animals and humans, as it’s right at the top, is &lt;strong&gt;entirely coincidental&lt;/strong&gt;, and shall not detain us further here.)&lt;/p&gt;&lt;p&gt;So it’s a right bugger when it turns out cortex is essentially useless. &lt;br /&gt;&lt;a href=&quot;https://www.nature.com/articles/s41586-018-0527-y&quot;&gt;Writing in &lt;em&gt;Nature&lt;/em&gt;&lt;/a&gt;, Kate Hong and colleagues in Randy Bruno’s lab have reported just that: a mouse can happily use a single whisker to solve a problem even when the special bit of cortex representing that specific whisker is missing. Worse, the mouse can even learn to solve the problem from scratch, without apparently noticing it has a hole in its cortex where lots of important stuff should be happening.&lt;/p&gt;&lt;p&gt;Is cortex then just a blanket to keep the rest of the brain warm? (Peter Redgrave, on innumerable occasions). No, but damn we have to be careful about what we claim cortex is necessary for.&lt;/p&gt;&lt;p&gt;Hong and friends set out to answer a different question: what is the difference between temporarily and permanently turning off a bit of cortex? If you want to do such complex monkeying around with a bit of cortex, then you need a simple behaviour to study, and you need to be able to turn off a bit of cortex that should be involved in that behaviour.&lt;/p&gt;&lt;p&gt;Now you may know that mice have whiskers. The nice thing about whiskers is that each big whisker has a set of dedicated neurons in cortex, which tend to be active only when that big whisker is tweaked, dabbed, or smacks into something. And it is (relatively) easy to find those neurons, because you can tweak the whisker and find which bit of cortex lights up. The bit of cortex representing one big whisker is then a juicy target for turning it off to see what happens.&lt;/p&gt;&lt;p&gt;So Hong and friends set their mice the task of detecting a pole with one big whisker. On each trial, the mouse held down a lever to say it was ready to take the test. Then either the pole swung within range of their big whisker, or it swung the other way, out of reach. When the pole was in range, it meant reward was available. If the pole was out range it meant there was no reward available right now, and the mouse had to keep holding down the lever until the pole reset — then it could let go and, in its own time, start again.&lt;/p&gt;&lt;p&gt;The mouse’s test was thus to swish its whisker and see if it hit the pole. A hit should mean to the mouse “aha! I can go and get a reward”; a miss should mean “aha! There is no reward; I’ll wait right here and keep pressing down this lever for some arbitrary reason known only to those dorks over there in white coats”.&lt;/p&gt;&lt;p&gt;Mice had to learn all this by trial and error — pressing a lever, swishing the whisker, hitting a pole (or not), and letting go of the lever (or not). They learn this quickly. Quicker than some of us, I’d wager.&lt;/p&gt;&lt;p&gt;Once the mice had learnt, Hong and friends permanently turned off the big whisker’s cortical neurons by removing them. And lo, performance immediately went to pot. The mice made the wrong decisions about whether the pole was hit or not, and got far fewer rewards as a result.&lt;/p&gt;&lt;p&gt;Nothing unexpected there. Monkey around in cortex and it makes a mess of performance, big whoop. But now the kicker: the terrible performance was on the first day after removing the neurons. On the second day after removal, the mice recovered completely. They performed just as well as they’d done before anyone monkeyed around with their cortex. And carried on doing so for all the following days.&lt;/p&gt;&lt;p&gt;Which led Hong and colleagues to the crucial question: er, if mice can apparently re-learn the task in a matter of a day, did they need this bit of cortex to learn in the first place?&lt;/p&gt;&lt;p&gt;No, they didn’t. Removing the big whisker’s neurons from cortex before any training had no effect on learning at all. Mice learnt equally fast and equally well with or without that bit of cortex. Sheesh.&lt;/p&gt;&lt;p&gt;The result of this study may seem simple, but it has many ramifications. There are lessons here for any serious student of how brains work.&lt;/p&gt;&lt;p&gt;Lesson one is that establishing causality is a pain. You’d think that turning off a part of the brain and seeing that a behaviour breaks would be big kahuna levels of evidence that the brain part in question causes that behaviour. But no. Here Hong and co have shown us, again, that turning off some brain bit does not establish causality.&lt;/p&gt;&lt;p&gt;To reinforce how misleading this turning off can be, in a separate set of experiments Hong used the terrific toolbox of modern neuroscience to temporarily turn off the cortical neurons representing that big whisker, but only on some, randomly chosen, trials (AKA they expressed a light-sensitive opsin in the pyramidal cells of barrel C2, which suppressed spiking in those neurons when activated with a light). And performance went to pot on just the trials when the neurons were turned off, remaining just fine on the rest of the trials. Read uncritically, this would imply that the big whisker neurons were essential for doing the task — after all, whenever you turn them off, performance tanks. But we know this is not true: the same bit of cortex could be turned off completely, and yet the mice still could do the task.&lt;/p&gt;&lt;p&gt;Lesson two is that establishing causality is a &lt;strong&gt;pain&lt;/strong&gt;. Even when the big whisker’s neurons were turned off or removed, the dip in performance was not back to random guessing. The mice still did better than chance, so something else in the brain was still able to cope with the task a bit. Indeed when Hong and co temporarily removed the big whisker itself, then the performance of the mice collapsed completely, and they did no better than guessing randomly where the pole was. Which, of course, is what they were doing.&lt;/p&gt;&lt;p&gt;Lesson three is that establishing causality is a PAIN. Notice that removing the big whisker neurons immediately impaired the mice who had already learnt the task. But removing the big whisker neurons before learning did not have any effect on learning itself. Just because a brain region seems to be involved in performing a task does not mean it is critical to learn that task. And vice versa: a brain region may be necessary to learn it, but not do it.&lt;/p&gt;&lt;p&gt;Lesson four is that ESTABLISHING CAUSALITY IS A PAIN. As previously noted &lt;a href=&quot;https://www.nature.com/articles/nature16442&quot;&gt;by Otchy and co&lt;/a&gt;, when performance tanks because you’ve shut down a bit of brain, but recovers quickly, then it actually establishes the opposite of what you wanted to do. It means that turning of that bit of cortex interfered with the normal function of a different bit of the brain — the bit that could do the task perfectly well without cortex. So all you’ve shown is that the bit of cortex you turned off is annoying a different part of the brain. And when you shut off the normal signals from that bit of cortex, it throws another bit of brain out of whack.&lt;/p&gt;&lt;p&gt;Our final lesson is the deepest: degeneracy. Or, the brain has multiple solutions to the same problem. Signals from the whisker go to many places in the brain, not just cortex. They go to various bits of thalamus and brainstem, that then send the signals on to other complex bits of brain that aren’t cortex (like striatum or the superior colliculus). Hong and co’s data tells us that a task as simple as “is the pole there or not” doesn’t need the big whisker signals to be routed to the big whisker parts of cortex — there are other bits of brain that are equally capable of solving the problem.&lt;/p&gt;&lt;p&gt;It seems we’ve learnt a simple rule about the mouse brain: if cortex is there, use that; if not, something else can cope. The question is, how complex does a task have to be before only cortex can cope? The answer is almost certainly Jean-Pipsqueak Sartre’s hell: dealing with other mice.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Want more? Follow us at &lt;/em&gt;&lt;a href=&quot;https://medium.com/the-spike&quot;&gt;&lt;em&gt;The Spike&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Twitter: &lt;/em&gt;&lt;a href=&quot;https://twitter.com/markdhumphries&quot;&gt;&lt;em&gt;@markdhumphries&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=cfc52984aef0&quot; width=&quot;1&quot; /&gt;&lt;hr /&gt;&lt;p&gt;&lt;a href=&quot;https://medium.com/the-spike/when-cortex-stops-making-sense-cfc52984aef0&quot;&gt;When Cortex Stops Making Sense&lt;/a&gt; was originally published in &lt;a href=&quot;https://medium.com/the-spike&quot;&gt;The Spike&lt;/a&gt; on Medium, where people are continuing the conversation by highlighting and responding to this story.&lt;/p&gt;</content>
+		<author>
+			<name>Mark Humphries</name>
+			<uri>https://medium.com/the-spike?source=rss----c92c31591e3a---4</uri>
+		</author>
+		<source>
+			<title type="html">The Spike - Medium</title>
+			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
+			<link rel="self" href="https://medium.com/feed/the-spike"/>
+			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
+			<updated>2018-11-26T18:00:39+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">How locust ecology inspired an opera</title>
+		<link href="https://www.sciencenews.org/article/how-locust-ecology-inspired-opera"/>
+		<id>https://www.sciencenews.org/article/how-locust-ecology-inspired-opera</id>
+		<updated>2018-11-26T15:00:06+00:00</updated>
+		<content type="html">
+ When an entomologist decides to write a libretto, you get an operatic elegy to locusts.</content>
+		<author>
+			<name>Susan Milius</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-11-26T18:00:38+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Dental researcher in Spain up to 18 retractions</title>
+		<link href="http://retractionwatch.com/2018/11/26/dental-researcher-in-spain-up-to-18-retractions/"/>
+		<id>http://retractionwatch.com/?p=79115</id>
+		<updated>2018-11-26T14:34:04+00:00</updated>
+		<content type="html">
+ A researcher in Spain who studies dental implants has had another six papers retracted, for a total of 18. José Luis Calvo-Guirado‘s latest retraction, which along with the other 17 appeared in Clinical Oral Implants Research, a Wiley title, was for “image discrepancies resulting in unreliable data.” Three appeared in June, and two in July, also … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/26/dental-researcher-in-spain-up-to-18-retractions/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Dental researcher in Spain up to 18 retractions&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Ivan Oransky</name>
+			<uri>http://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>http://retractionwatch.com</id>
+			<updated>2018-11-26T18:00:40+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Physicists finally calculated where the proton’s mass comes from</title>
@@ -17,13 +76,13 @@
  New study indicates that the proton is much more than just the sum of its parts.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -52,7 +111,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -72,7 +131,7 @@
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2018-11-26T10:36:58+00:00</updated>
+			<updated>2018-11-26T14:31:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -85,13 +144,13 @@
  Subatomic is the latest game from John Coveyou, whose company Genius Games wants people to find the joy in science.</content>
 		<author>
 			<name>Kyle Plantz</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -104,13 +163,13 @@
  Drinking water quality has come a long way in the past hundred years — but challenges remain.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -188,7 +247,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -208,7 +267,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -221,13 +280,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  The United States has wiped out screwworm flies repeatedly since 1966 using the sterile male eradication technique.</content>
 		<author>
 			<name>Kyle Plantz</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -265,7 +324,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -278,13 +337,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  A newly named plant-eater from the Late Triassic was surprisingly hefty.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -304,7 +363,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -352,7 +411,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -372,7 +431,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -429,13 +488,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  The way that scientists process data from a Mars orbiter creates what look like signs of saltwater, but may actually be nothing, a study finds.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -448,13 +507,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  People with paralysis could control commercially available tablets with their brain activity, researchers show.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -467,13 +526,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  A small aircraft prototype is powered by ionic wind flowing in one direction and pushing the plane in the other.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -493,7 +552,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -544,7 +603,45 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Do you know how your drinking water is treated?</title>
+		<link href="https://www.sciencenews.org/article/do-you-know-how-your-drinking-water-treated"/>
+		<id>https://www.sciencenews.org/article/do-you-know-how-your-drinking-water-treated</id>
+		<updated>2018-11-21T12:15:00+00:00</updated>
+		<content type="html">
+ Editor in Chief Nancy Shute discusses drinking water quality in the United States and the latest research on water treatment technology.</content>
+		<author>
+			<name>Nancy Shute</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-11-26T18:00:38+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Readers react to the SN 10 and Jocelyn Bell Burnell</title>
+		<link href="https://www.sciencenews.org/article/readers-react-sn-10-and-jocelyn-bell-burnell"/>
+		<id>https://www.sciencenews.org/article/readers-react-sn-10-and-jocelyn-bell-burnell</id>
+		<updated>2018-11-21T12:00:00+00:00</updated>
+		<content type="html">
+ Readers expressed their thoughts about the SN 10 scientists, Saturn's hexagons and Jocelyn Bell Burnell.</content>
+		<author>
+			<name>Science News Staff</name>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<link rel="self" href=""/>
+			<id></id>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -600,7 +697,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -620,7 +717,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -633,13 +730,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  A pediatrician group recommends against spanking children — ever — and points instead to positive reinforcement and time-outs to cool off.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -684,13 +781,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  Automated bot accounts on Twitter help spread misinformation by strategically encouraging people to make it go viral.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -703,13 +800,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  An archaeological site not far from the Dead Sea shows signs of sudden, superheated collapse 3,700 years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -729,7 +826,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -742,13 +839,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  Skyrmions might help loosen scientific snarls in studies of atomic nuclei.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -782,7 +879,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -857,13 +954,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  NASA’s Mars 2020 rover is going to Jezero crater, the site of an ancient river delta that may harbor signs of life.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -876,13 +973,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  Residue of the aromatic substance in 3 jugs dates to around 3,600 years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -940,13 +1037,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  A friendly microbe in the gut may be the key to staving off insulin resistance, a study in mice finds.</content>
 		<author>
 			<name>Tina Hesman Saey</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -966,7 +1063,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -979,13 +1076,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  Colorado’s legal fields of low-THC cannabis can attract a lot of bees.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -1035,7 +1132,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -1097,7 +1194,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -1110,13 +1207,13 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
  The elasticity of wombats’ intestines helps the creatures shape their distinctive poops.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -1180,7 +1277,7 @@ The facts of the case are fairly straightforward. A 70-year old man with advance
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2018-11-26T10:36:58+00:00</updated>
+			<updated>2018-11-26T14:31:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1279,7 +1376,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -1356,7 +1453,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
+			<updated>2018-11-26T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -1409,7 +1506,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -1642,7 +1739,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:43+00:00</updated>
+			<updated>2018-11-26T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
@@ -1700,7 +1797,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-11-26T12:00:49+00:00</updated>
+			<updated>2018-11-26T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -1810,7 +1907,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -2023,7 +2120,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-11-26T12:00:44+00:00</updated>
+			<updated>2018-11-26T18:00:38+00:00</updated>
 		</source>
 	</entry>
 
@@ -2179,7 +2276,7 @@ Another issue to consider is where &lt;em&gt;you&lt;/em&gt; think passion comes 
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2018-11-26T10:36:58+00:00</updated>
+			<updated>2018-11-26T14:31:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -2499,132 +2596,7 @@ enabling us to further &lt;a class=&quot;reference external&quot; href=&quot;htt
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-11-26T12:00:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-gb">How big data can support big decisions</title>
-		<link href="https://www.elsevier.com/connect/how-big-data-can-support-big-decisions"/>
-		<id>https://www.elsevier.com/connect/how-big-data-can-support-big-decisions</id>
-		<updated>2018-11-09T15:51:53+00:00</updated>
-		<content type="html">
- Elsevier and Harvard tackle big data together</content>
-		<author>
-			<name>Elsevier Connect</name>
-			<uri></uri>
-		</author>
-		<source>
-			<title type="html">Elsevier Connect</title>
-			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
-			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2018-11-22T12:00:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">Breech birth at home: a new study of safety outcomes</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2018/11/09/breech-birth-at-home-a-new-study-of-safety-outcomes/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=10633</id>
-		<updated>2018-11-09T15:51:33+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/new-born-615751_1920-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;&lt;strong&gt;Dr. Stuart Fischbein, MD, FACOG: &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I was trained in an era and a hospital that did not see properly selected breech birth as high risk. I have supported this option my entire 32-year career. In 2010, for reasons having nothing to do with outcomes, my hospital system chose to ban vaginal breech birth as well as vaginal birth after cesarean (VBAC). There was no hearing, no discussion, no review of the literature, and certainly no concern for our ethical obligation to offer reasonable choices to our clients and to allow them the option of informed consent and refusal.&lt;/p&gt;
-&lt;p&gt;Previously, I had been collaborating with and assisting midwives for three decades as a back-up physician for home birth transports. In 2010, I left the hospital and began my home birth career. Unbound by rigid protocols put in place by committees and risk managers, I was free to individualize my care.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;We published this paper to show what can be done with motivated mothers in skilled hands. Success rates of multiparous mothers for vaginal birth in both groups were 100%.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;During my years in home birth practice, I became aware that we obstetricians project a lot of anxiety onto the women we care for. In healthy women, pregnancy is a normal physiological bodily function that works best when the women are in a safe, private environment. Midwives are experts at normal birth and, in my experience, their model of care leads to better outcomes and higher rates of satisfaction. We, as obstetricians, can learn much from them. A collaborative model, as I have adopted in &lt;a href=&quot;https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-018-2033-5&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;our recent study&lt;/a&gt;, can lead to better outcomes with less intervention.&lt;/p&gt;
-&lt;p&gt;Most breech studies compare vaginal breech birth (VBB) to planned cesarean section. We chose to compare VBB to a similar cohort planning vaginal cephalic birth. Selection criteria for breech were more rigid than for cephalic, but outcomes were similar in both groups. Although our numbers were too small to capture rare adverse events, intrapartum transports and perineal integrity were much more related to parity than to presenting part.&lt;/p&gt;
-&lt;p&gt;While breech birth at home may not be the ideal for most, it remains the &lt;em&gt;only&lt;/em&gt; choice for many women in this country other than cesarean for breech birth. We published this paper to show what can be done with motivated mothers in skilled hands. Success rates of multiparous mothers for vaginal birth in both groups were 100%. To not offer VBB to these women is professionally irresponsible. Even primiparous breech mothers had a 76% success rate at home. This information deserves a place in informed consent discussions.&lt;/p&gt;
-&lt;p&gt;Our efforts should not be put into restricting choice but into honoring our ethical obligations to the women we serve. We can support this goal by learning and then teaching the skills that make our profession unique, by supporting colleagues who offer vaginal breech birth, and by advocating for more robust breech training &amp;amp; education from our professional societies.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rixa Freeze, PhD:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Evidence since the Term Breech Trial is clear that the short-term risks of VBB to the baby are small—sometimes even identical to planned cesarean section (see infographic below).&lt;/p&gt;
-&lt;p&gt;And we cannot forget the long-term risks of cesarean section to the baby and the short- and long-term risks to the mother. Despite this evidence, VBB is nearly impossible to obtain in the United States. For many women, the &lt;em&gt;only&lt;/em&gt; option for a vaginal breech birth is at home.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-018-2033-5&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Our study&lt;/a&gt; is the largest of its kind on breech birth at home. Larger datasets exist, but they do not include information about provider skill level, selection criteria, type of breech presentation, or whether the breech presentation was diagnosed before the onset of labor—all factors we addressed in our study.&lt;/p&gt;
-&lt;p&gt;We found that breech birth at home leads to high rates of vaginal birth and good maternal outcomes (including postpartum transfers, blood loss, and perineal integrity). However, with only 50 breech presentations at the onset of labor, our sample size is too small to draw conclusions about uncommon adverse neonatal outcomes.&lt;/p&gt;
-&lt;p&gt;We need more high-quality data on home breech outcomes. What if we could analyze 500 home breech births rather than 50?&lt;/p&gt;
-&lt;p&gt;We are doing women enormous harm by taking away their bodily autonomy when their baby is breech. In theory, state and federal laws support the principle of informed consent and informed refusal, and nearly every hospital has a patient’s bill of rights that ensures consent before medical procedures. Yet we throw these legal and ethical rights away when a baby turns bottom-first.&lt;/p&gt;
-&lt;p&gt;We can do better. We owe it to the women we care for. Women should not be forced to leave the hospital in order to exercise their right to informed consent. Every woman with a breech baby deserves access to skilled providers &lt;em&gt;in her own community&lt;/em&gt; who can support her, whether she chooses a planned cesarean section or a vaginal breech birth.&lt;/p&gt;
-&lt;img alt=&quot;&quot; class=&quot;wp-image-10634 size-large aligncenter&quot; height=&quot;877&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2018/10/breech-infographic-747x1024.jpg&quot; width=&quot;640&quot; /&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/11/09/breech-birth-at-home-a-new-study-of-safety-outcomes/&quot; rel=&quot;nofollow&quot;&gt;Breech birth at home: a new study of safety outcomes&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Stuart J. Fischbein &amp;#38; Rixa Freeze</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2018-11-20T18:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Ancient DNA suggests people settled South America in at least 3 waves</title>
-		<link href="https://www.sciencenews.org/article/ancient-dna-fossils-south-america-populated"/>
-		<id>https://www.sciencenews.org/article/ancient-dna-fossils-south-america-populated</id>
-		<updated>2018-11-09T14:00:04+00:00</updated>
-		<content type="html">
- Genetic studies of ancient remains are filling in the picture of who the earliest Americans were and how they spread through the Americas long ago.</content>
-		<author>
-			<name>Tina Hesman Saey</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-11-16T18:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Hints of Oort clouds around other stars may lurk in the universe’s first light</title>
-		<link href="https://www.sciencenews.org/article/oort-clouds-around-other-stars-may-lurk-cosmic-microwave"/>
-		<id>https://www.sciencenews.org/article/oort-clouds-around-other-stars-may-lurk-cosmic-microwave</id>
-		<updated>2018-11-09T11:00:05+00:00</updated>
-		<content type="html">
- Sifting through the universe’s early light could reveal planetary graveyards orbiting other stars.</content>
-		<author>
-			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2018-11-16T00:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Psychologists claim outrage is getting a bad rap</title>
-		<link href="https://digest.bps.org.uk/2018/11/09/psychologists-claim-outrage-is-getting-a-bad-rap/"/>
-		<id>http://digest.bps.org.uk/?p=35155</id>
-		<updated>2018-11-09T09:15:48+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;img alt=&quot;GettyImages-1019510930.jpg&quot; class=&quot;alignnone size-full wp-image-35156&quot; data-attachment-id=&quot;35156&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;8&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark III&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;An enraged blonde teenage girl shouts angrily into her pink mobile phone.&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1371328996&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;105&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;100&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.0055555555555556&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Furious blonde teenage girl yells into mobile phone&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Furious blonde teenage girl yells into mobile phone&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2018/11/gettyimages-1019510930.jpg?w=845?w=683&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2018/11/gettyimages-1019510930.jpg?w=845?w=200&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2018/11/gettyimages-1019510930.jpg?w=845&quot; data-orig-size=&quot;1414,2121&quot; data-permalink=&quot;https://digest.bps.org.uk/2018/11/09/psychologists-claim-outrage-is-getting-a-bad-rap/furious-blonde-teenage-girl-yells-into-mobile-phone/&quot; src=&quot;https://researchdigest.files.wordpress.com/2018/11/gettyimages-1019510930.jpg?w=845&quot; /&gt;&lt;em&gt;By guest blogger&lt;/em&gt; &lt;a href=&quot;http://www.jessesingal.com/&quot;&gt;Jesse Singal&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Outrage: It’s absolutely everywhere. Today’s world, particularly the version of it blasted into our brains by social media, offers endless fodder, from big, simmering outrages (climate change and many powerful institutions’ refusal to do anything about it) to smaller quotidian ones (every day, someone, somewhere does something offensive that comes to Twitter’s attention, leading to a gleeful pile-on).&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In part because of rising awareness of the adverse consequences of unfettered digital-age outrage, and of journalistic treatments like &lt;/span&gt;&lt;em&gt;&lt;a href=&quot;https://thepsychologist.bps.org.uk/volume-28/april-2015/powerful-crazy-cruel&quot;&gt;So You’ve Been Publicly Shamed&lt;/a&gt;&lt;/em&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; by Jon Ronson (which I interviewed him about &lt;/span&gt;&lt;a href=&quot;https://www.thecut.com/2015/03/jon-ronson-on-monica-lewinsky-and-cybershaming.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;), &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;outrage&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; has become a particularly potent dirty word in recent years. Outrage, the thinking goes, is an overly emotional response to a confusing world, and drives people to nasty excesses, from simple online shaming to death threats or actual violence.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;But a new paper argues that the concept of outrage has gotten too bad a rap and that its upsides, especially as a motivator of collective action and costly helping, have been overlooked. Writing  &lt;/span&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1364661318302249&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;in &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Trends in Cognitive Sciences&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, the psychologists Victoria Spring, Daryl Cameron and Mina Cikara detail important questions about outrage that have yet to be answered, and they highlight how certain findings – especially from the “intergroup relations” literature, in contrast to the mostly negative findings from moral psychology – suggest it can serve a useful purpose. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-35155&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;They cite two experiments, for example, in which “both naturally occurring outrage (about an ongoing conflict) and induced outrage (manipulated via video footage about the conflict) predict[ed] greater support for nonviolent peacemaking policies relative to ‘induced hope’ and ‘neutral’ emotion manipulations. Similarly, women who read that the majority of men harbour hostile sexist beliefs (versus benevolent sexist beliefs or gender-unrelated beliefs) exhibit[ed] increased anger and fury, which predict[ed] intentions to participate—and actual participation—in collective action for equal salaries. By contrast, reappraisal, aimed at reducing negative emotions such as outrage, reduce[d] participants’ reported intentions to engage in political action.”&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;That’s all fair enough. But arguing that researchers — or anyone else — focus too much on the downsides of outrage feels like an uphill battle to fight in 2018. There are endless, endless examples of online outrage spreading out of control, doing damage most people would view as disproportionate. In 2015, for example, &lt;/span&gt;&lt;a href=&quot;http://nymag.com/intelligencer/2015/09/victim-of-a-scary-web-shaming-speaks-out.html&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I wrote about&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; a woman who was driven from her home as a result of death threats after she made a failed and offensive joke about a slain law enforcement officer — and as Ronson and others have documented, there are a million stories like this one. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Now, few people would deny that outrage is an important impulse for helping to make the world a better place, and for dealing with those who breach important norms. But there are &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;many&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; aspects of human nature that have fundamentally important purposes, but which can also go haywire in certain contexts — especially given that most of us are now living in situations far removed from those in which our ancestors lived and evolved.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Take, well, cheeseburgers: Humans have evolved tendencies to seek out high-calorie foods. This tendency helped keep us alive during the evolutionary history that brought us to now. For most of that history, scarcity was the norm — a double bacon cheeseburger, to a European or African peasant hundreds of years ago, would have been a caloric bonanza the likes of which they had never before seen and might never see again. Today, of course, in much of the developed world we’re lucky not to face this sort of paucity of calories. In fact, the situation has improved so much that many of us face the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;opposite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; problem: too many calories, too easily consumed (you can buy a double bacon cheeseburger for just a few pounds, if that, whenever you want). That’s part of the reason countries like the UK and the United States have certain health problems: Many people consume far more calories than they should, because there’s so much affordable energy-rich food everywhere.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To argue that researchers or anyone else are failing to see the positive sides of outrage, in 2018, feels a bit like arguing that people are failing to see the positive sides of our desire for rich and fatty foods. It’s true, at a basic level, that it’s &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;good&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; we’re drawn to calories: Without that drive, we wouldn’t survive. But in 2018, for those fortunate to live in food-secure places, no one is wanting for calories, and a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;surfeit&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; of calories is the more important and societally relevant problem.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Similarly, we have so many opportunities, every moment of every day, to express outrage, and so many opportunities to accidentally contribute to disproportionate anger directed at faceless, distant strangers, that it feels as though social media, 24-hour news, and other media innovations are taking a fundamentally important human drive — the ability to get outraged at norm breaches — and blowing it up into something ugly and maladaptive.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Spring and her coauthors conclude their paper by writing that “we hope to promote a more complete view of outrage—as an emotion that might lead to interpersonal antagonism, but that may also act as a lever for activism on a societal scale.” And that’s a worthy goal: There’s a sturdy body of literature showing that emotion, in general, is more likely to get people to act in prosocial ways than dryer, more empirical appeals — there’s a deep truth behind the well-worn &lt;/span&gt;&lt;a href=&quot;https://quoteinvestigator.com/2010/05/21/death-statistic/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;expression&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; “A single death is a tragedy; a million deaths is a statistic.” But that same feeling of righteous anger that can, in one case, lead people to donate to the less fortunate can, in the next, turn those same people against (to take one example) innocent migrants seeking a better life. Outrage is big and messy and hard to contain — we need it, on a fundamental level, but we should never forget its many dangers and the many ways in which it can lead to negative and inhumane outcomes.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;—&lt;/span&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1364661318302249&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Upside of Outrage&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Post written by Jesse Singal (&lt;a href=&quot;https://twitter.com/jessesingal&quot;&gt;@JesseSingal&lt;/a&gt;) for the BPS Research Digest&lt;/strong&gt;. Jesse is a contributing writer at &lt;em&gt;New York Magazine&lt;/em&gt;. He is working on a book about why shoddy behavioral-science claims sometimes go viral for Farrar, Straus and Giroux.&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2018-11-22T00:00:31+00:00</updated>
+			<updated>2018-11-26T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
