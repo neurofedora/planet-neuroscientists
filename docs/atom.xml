@@ -5,8 +5,77 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2018-12-02T18:01:16+00:00</updated>
+	<updated>2018-12-03T00:01:15+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">NeuroFedora update: week 48</title>
+		<link href="http://ankursinha.in/2018/12/02/neurofedora-update-week-48.html"/>
+		<id>tag:ankursinha.in,2018-12-02:/2018/12/02/neurofedora-update-week-48.html</id>
+		<updated>2018-12-02T15:26:50+00:00</updated>
+		<content type="html">
+ &lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot;&gt;&lt;img alt=&quot;NeuroFedora logo!&quot; class=&quot;text-center img-responsive pagination-centered&quot; src=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In week 48:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-chaospy&quot;&gt;python-chaospy&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pynwb&quot;&gt;python-pynwb&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pyphi&quot;&gt;python-pyphi&lt;/a&gt; was pushed to stable.&lt;/li&gt;
+&lt;li&gt;we've started looking into packaging &lt;a class=&quot;reference external&quot; href=&quot;https://git.fmrib.ox.ac.uk/fsl&quot;&gt;FSL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/NeuralEnsemble/PyNN/issues/611&quot;&gt;PyNN does not support the latest version of NEST yet&lt;/a&gt;, so we're waiting on
+upstream here.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;section&quot; id=&quot;packaging-matlab-tool-boxes&quot;&gt;
+&lt;h2&gt;Packaging MATLab tool boxes&lt;/h2&gt;
+&lt;p&gt;The use of MATLab tool boxes is quite common in data-analysis. There's a
+noticeable movement in the scientific community towards using Python, but the
+work that has already been done, and the eco-systems that have developed around
+MATlab will take time to migrate to a Python based eco-system.&lt;/p&gt;
+&lt;p&gt;A majority of the tool boxes in use are Free/Open Source, but MATLab itself is
+not. As supporters of Free/Open source, we will not attempt to include MATLab
+in Fedora, but the question remains on whether we provide the toolboxes.  We've
+begun discussing this in the SIG, and we'll reach out to the broader Fedora
+community before we decide on how to proceed.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;personal-views&quot;&gt;
+&lt;h3&gt;Personal views&lt;/h3&gt;
+&lt;p&gt;Personally, I'd prefer if we only provided software that support Free/Open
+source eco systems. The use of proprietary software in science, while currently
+necessary, should be avoided.  Yes, it may make things a little harder to start
+with, but the Free/Open source tools that will be used will be accessible by
+all. Overtime, just like the Free software community, the eco system will
+mature.&lt;/p&gt;
+&lt;p&gt;A example case is the use of Microsoft products that is common in developed
+countries where universities can afford their licenses. In developing
+countries, this is not the case. They cannot always afford these fees. A
+solution, of course, is to use &lt;a class=&quot;reference external&quot; href=&quot;https://www.latex-project.org&quot;&gt;LaTeX&lt;/a&gt; which is free for all to use, extend,
+study, and share. Similarly, while universities and laboratories in developed
+countries may be able to pay for MATlab licenses, this financial requirement
+can hold back others---smaller labs and independent researchers.&lt;/p&gt;
+&lt;p&gt;If proprietary tools such as MATlab are the norm, then science is not open to
+all. It should be.&lt;/p&gt;
+&lt;p&gt;(I've signed the &lt;a class=&quot;reference external&quot; href=&quot;http://opensourceforneuroscience.org/&quot;&gt;Open source for Neuroscience letter that you can read
+here&lt;/a&gt;.)&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;There is a lot of software available in &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora&quot;&gt;NeuroFedora&lt;/a&gt; already. You can see the
+complete list &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;here on Fedora SCM&lt;/a&gt;. Software that is currently
+being worked on is listed &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues&quot;&gt;on our Pagure project instance&lt;/a&gt;. If you use software that
+is not on our list, please suggest it to us using the &lt;a class=&quot;reference external&quot; href=&quot;https://goo.gl/forms/j6AJ82yOh78MPxby1&quot;&gt;suggestion form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Feedback is always welcome. You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora#Communication_and_getting_help&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+		<author>
+			<name>ankur</name>
+			<uri>http://ankursinha.in/</uri>
+		</author>
+		<source>
+			<title type="html">ankursinha.in/blog - Planet</title>
+			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
+			<id>http://ankursinha.in/</id>
+			<updated>2018-12-02T15:26:50+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Weekend reads: Is science self-correcting?; peer review’s “undue emotional burdens;” retractions at Science</title>
@@ -244,7 +313,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -360,7 +429,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-12-02T18:00:35+00:00</updated>
+			<updated>2018-12-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -390,7 +459,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -581,7 +650,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -743,7 +812,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -782,7 +851,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-12-02T18:00:35+00:00</updated>
+			<updated>2018-12-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -821,7 +890,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2018-12-02T18:00:36+00:00</updated>
+			<updated>2018-12-03T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -908,7 +977,7 @@ It's far from clear yet whether the gene-editing that He described has actually 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1024,7 +1093,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">ankursinha.in/blog - Planet</title>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2018-11-24T18:37:28+00:00</updated>
+			<updated>2018-12-02T15:26:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1121,7 +1190,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1208,7 +1277,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1228,7 +1297,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-12-02T18:00:35+00:00</updated>
+			<updated>2018-12-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1400,7 +1469,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1494,7 +1563,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1676,7 +1745,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2018-12-02T18:00:34+00:00</updated>
+			<updated>2018-12-03T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1991,7 +2060,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2018-12-02T18:00:35+00:00</updated>
+			<updated>2018-12-03T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2153,7 +2222,7 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<title type="html">ankursinha.in/blog - Planet</title>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2018-11-24T18:37:28+00:00</updated>
+			<updated>2018-12-02T15:26:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -2361,26 +2430,6 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2018-11-21T18:00:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">In a first, U.S. CDC retracts, replaces study about suicide risk in farmers</title>
-		<link href="http://retractionwatch.com/2018/11/15/in-a-first-u-s-cdc-retracts-replaces-study-about-suicide-risk-in-farmers/"/>
-		<id>http://retractionwatch.com/?p=77734</id>
-		<updated>2018-11-15T18:00:58+00:00</updated>
-		<content type="html">
- In a first for the CDC, the agency’s premier scientific publication has retracted a 2016 article on suicide, five months after a news story pointed out serious errors in the paper. The article, initially published as “Suicide Rates by Occupational Group — 17 States, 2012,” had purported to find that farmers were at particularly high … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/15/in-a-first-u-s-cdc-retracts-replaces-study-about-suicide-risk-in-farmers/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;In a first, U.S. CDC retracts, replaces study about suicide risk in farmers&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Adam Marcus</name>
-			<uri>http://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>http://retractionwatch.com</id>
-			<updated>2018-11-26T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
