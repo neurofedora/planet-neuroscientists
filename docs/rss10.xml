@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=33569" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-some-sap-sucking-insects-fling-their-pee" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/4-ways-to-drive-evidence-based-policymaking" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-osiris-rex-spacecraft-has-finally-arrived-asteroid-bennu" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cern-large-hadron-collider-shutting-down-2-years" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=80025" />
@@ -112,13 +115,30 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9769" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-5528503932216638976" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-satellites-will-relay-news-nasa-insight-mars-landing" />
-			<rdf:li rdf:resource="tag:ankursinha.in,2018-11-17:/2018/11/17/neurofedora-update-week-46.html" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=77980" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=33569">
+	<title>For Better Science: Homeopathy business at CNRS in Strasbourg</title>
+	<link>https://forbetterscience.com/2018/12/04/homeopathy-business-at-cnrs-in-strasbourg/</link>
+	<content:encoded>A PhD thesis was defended in 2017 at CNRS plant science institute IBMP in Strasbourg, it tested the anti-flu product L52 by the French homeopathy manufacturer Lehning Laboratories. The homeopathic concoction was found very effective, with potential use for human health!</content:encoded>
+	<dc:date>2018-12-04T11:18:23+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/how-some-sap-sucking-insects-fling-their-pee">
+	<title>Science News: How some sap-sucking insects fling their pee</title>
+	<link>https://www.sciencenews.org/article/how-some-sap-sucking-insects-fling-their-pee</link>
+	<content:encoded>Sharpshooters hurl their pee with structure called a stylus, which sends droplets flying at 20 times the acceleration of Earth’s gravity.</content:encoded>
+	<dc:date>2018-12-04T11:00:07+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/4-ways-to-drive-evidence-based-policymaking">
+	<title>Elsevier Connect: 4 ways to drive evidence-based policymaking</title>
+	<link>https://www.elsevier.com/connect/4-ways-to-drive-evidence-based-policymaking</link>
+	<content:encoded>How can we ensure that lawmakers have the knowledge and data to make good decisions? Experts weigh in at APAC conference</content:encoded>
+	<dc:date>2018-12-04T10:21:33+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/nasa-osiris-rex-spacecraft-has-finally-arrived-asteroid-bennu">
 	<title>Science News: NASA’s OSIRIS-REx spacecraft has finally arrived at asteroid Bennu</title>
 	<link>https://www.sciencenews.org/article/nasa-osiris-rex-spacecraft-has-finally-arrived-asteroid-bennu</link>
@@ -1328,68 +1348,6 @@ The facts of the case are fairly straightforward. A 70-year old man with advance
 	<content:encoded>NASA’s InSight Mars lander brought along two tiny CubeSats to send details about the spacecraft’s landing to Earth in almost real time.</content:encoded>
 	<dc:date>2018-11-18T12:00:06+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="tag:ankursinha.in,2018-11-17:/2018/11/17/neurofedora-update-week-46.html">
-	<title>Ankur Sinha: NeuroFedora update: week 46</title>
-	<link>http://ankursinha.in/2018/11/17/neurofedora-update-week-46.html</link>
-	<content:encoded>&lt;div class=&quot;figure&quot;&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot;&gt;&lt;img alt=&quot;NeuroFedora logo!&quot; class=&quot;text-center img-responsive pagination-centered&quot; src=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;&lt;/a&gt;
-&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;In week 46:&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nitime&quot;&gt;python-nitime&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nilearn&quot;&gt;python-nilearn&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-petlink&quot;&gt;python-petlink&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-duecredit&quot;&gt;python-duecredit&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-PyLEMS&quot;&gt;PyLEMS&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-visionegg-quest&quot;&gt;python-visionegg-quest&lt;/a&gt; was pushed to stable, and is ready to use.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pyemd&quot;&gt;python-pyemd&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pybids&quot;&gt;python-pybids&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nineml&quot;&gt;nineML-python&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-brian2&quot;&gt;Brian&lt;/a&gt; (the Brian simulator) was approved and is in testing.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-fsleyes&quot;&gt;fsleyes&lt;/a&gt; was approved and is in testing.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/dcm2niix&quot;&gt;dcm2niix&lt;/a&gt; was updated to the latest version.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;While we were working on these:&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/27&quot;&gt;NEURON&lt;/a&gt; is still a work in progress, but until it is updated to work with a
-new SUNDIALS version, it cannot be packaged. There's an issue open &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/neuronsimulator/nrn/issues/113&quot;&gt;here&lt;/a&gt; for this.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/vxl&quot;&gt;vxl&lt;/a&gt; needs to be updated, but unfortunately, it is another software that
-bundles an old version of a library, &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/dcmtk&quot;&gt;DCMTK&lt;/a&gt;. I've filed a ticket about this
-&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/vxl/vxl/issues/550&quot;&gt;here&lt;/a&gt;. As I've mentioned in the
-ticket, I  have neither the experience with &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/dcmtk&quot;&gt;DCMTK&lt;/a&gt; nor the free cycles to
-look into this issue presently.&lt;/li&gt;
-&lt;li&gt;A &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/INCF/nineml-python/issues/40&quot;&gt;bug&lt;/a&gt; in &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-nineml&quot;&gt;nineml-python&lt;/a&gt;
-was fixed.&lt;/li&gt;
-&lt;li&gt;There are still a few kinks to clear up before &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nest/nest-simulator&quot;&gt;NEST&lt;/a&gt; can be build with
-&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nest/nest-simulator/issues/1063&quot;&gt;libneurosim&lt;/a&gt; and
-&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/INCF/MUSIC/issues/56&quot;&gt;MUSIC&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We'll keep at it.&lt;/p&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;There is a lot of software available in &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora&quot;&gt;NeuroFedora&lt;/a&gt; already. You can see the
-complete list &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;here on Fedora SCM&lt;/a&gt;. Software that is currently
-being worked on is listed &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues&quot;&gt;on our Pagure project instance&lt;/a&gt;. If you use software that
-is not on our list, please suggest it to us using the &lt;a class=&quot;reference external&quot; href=&quot;https://goo.gl/forms/j6AJ82yOh78MPxby1&quot;&gt;suggestion form&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feedback is always welcome. You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/SIGs/NeuroFedora#Communication_and_getting_help&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2018-11-17T15:53:58+00:00</dc:date>
-	<dc:creator>ankur</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=77980">
-	<title>Retraction watch: Weekend reads: A climate change study correction; predatory journal critic banned from campus; why are publishers “the joint enemy?”</title>
-	<link>http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured the tale of the researcher who pleaded guilty to faking … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/17/weekend-reads-a-climate-change-study-correction-predatory-journal-critic-banned-from-campus-why-are-publishers-the-joint-enemy/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: A climate change study correction; predatory journal critic banned from campus; why are publishers “the joint enemy?”&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-11-17T14:12:08+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan">
-	<title>Science News: A Bronze Age game called 58 holes was found chiseled into stone in Azerbaijan</title>
-	<link>https://www.sciencenews.org/article/bronze-age-game-found-chiseled-stone-azerbaijan</link>
-	<content:encoded>A newly discovered rock pattern suggests that the game traveled fast from the Near East to Eurasia thousands of years ago.</content:encoded>
-	<dc:date>2018-11-16T18:12:08+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
