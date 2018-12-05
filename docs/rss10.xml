@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=80172" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rebel-honeybee-workers-lay-eggs-when-their-queen-away" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35492" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35289" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10679" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=33056" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-wombats-poop-cubes" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth">
+	<title>Science News: In a first, a woman with a uterus transplanted from a deceased donor gives birth</title>
+	<link>https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth</link>
+	<content:encoded>After receiving a uterus from a deceased donor, a woman gave birth to a healthy girl in December of 2017.</content:encoded>
+	<dc:date>2018-12-04T23:30:05+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions">
+	<title>Science News: Scientists’ collection of gravitational waves just got a lot bigger</title>
+	<link>https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions</link>
+	<content:encoded>The biggest black hole merger yet seen created one set of the spacetime ripples.</content:encoded>
+	<dc:date>2018-12-04T18:19:43+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=80172">
 	<title>Retraction watch: Pair of nanotech researchers up to at least two dozen retractions</title>
 	<link>http://retractionwatch.com/2018/12/04/pair-of-nanotech-researchers-up-to-at-least-two-dozen-retractions/</link>
@@ -1343,20 +1357,6 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 	<content:encoded>Smut Clyde will take you on a meditative Ayurvedic trip where the most respectable of research institutions and their world-renowned academics were caught dancing with the Guru Deepak Chopra himself. Famous cardiologist and medical writer Eric Topol and the Nobel Prize winner Elizabeth Blackburn were just two most prominent US academics listed on Chopra's Panchakarma clinical trial.</content:encoded>
 	<dc:date>2018-11-19T06:00:42+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-wombats-poop-cubes">
-	<title>Science News: Wombats are the only animals whose poop is a cube. Here’s how they do it.</title>
-	<link>https://www.sciencenews.org/article/how-wombats-poop-cubes</link>
-	<content:encoded>The elasticity of wombats’ intestines helps the creatures shape their distinctive poops.</content:encoded>
-	<dc:date>2018-11-18T22:00:04+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around">
-	<title>Science News: Small doses of peanut protein can turn allergies around</title>
-	<link>https://www.sciencenews.org/article/small-doses-peanut-protein-can-turn-allergies-around</link>
-	<content:encoded>After a year of careful peanut protein exposure, most kids in a clinical trial could tolerate the equivalent of two large peanuts.</content:encoded>
-	<dc:date>2018-11-18T21:45:04+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
