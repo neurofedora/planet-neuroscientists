@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=80172" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/harmonizing-global-open-access-policies-would-you-buy-the-world-a-drink" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35289" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10679" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=33056" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light">
+	<title>Science News: Astronomers find far-flung wind from a black hole in the universe’s first light</title>
+	<link>https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light</link>
+	<content:encoded>The detection of black hole winds far from their host galaxy could reveal details of how galaxies and black holes grow up together.</content:encoded>
+	<dc:date>2018-12-05T11:00:06+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth">
 	<title>Science News: In a first, a woman with a uterus transplanted from a deceased donor gives birth</title>
 	<link>https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth</link>
@@ -1350,13 +1357,6 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2018/11/19/exploring-cancer-risk-men-international-mens-day/&quot; rel=&quot;nofollow&quot;&gt;Exploring cancer risk in men on International Men’s day&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2018-11-19T09:00:08+00:00</dc:date>
 	<dc:creator>Dr Úna Mc Menamin</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=33056">
-	<title>For Better Science: Guilty pleasures of meditating with Deepak Chopra</title>
-	<link>https://forbetterscience.com/2018/11/19/guilty-pleasures-of-meditating-with-deepak-chopra/</link>
-	<content:encoded>Smut Clyde will take you on a meditative Ayurvedic trip where the most respectable of research institutions and their world-renowned academics were caught dancing with the Guru Deepak Chopra himself. Famous cardiologist and medical writer Eric Topol and the Nobel Prize winner Elizabeth Blackburn were just two most prominent US academics listed on Chopra's Panchakarma clinical trial.</content:encoded>
-	<dc:date>2018-11-19T06:00:42+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
