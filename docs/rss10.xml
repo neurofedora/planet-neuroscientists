@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-armadillos-hinted-dna-wasnt-destiny" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10720" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81425" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35610" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=33367" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35452" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/kids-born-august-are-diagnosed-adhd-more-kids-born-september" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=79479" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/researcher-defends-creating-crispr-babies-fails-quell-controversy" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections">
+	<title>Science News: Here’s a rare way that an Alzheimer’s protein can spread</title>
+	<link>https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections</link>
+	<content:encoded>Amyloid-beta found in vials of growth hormone can move from brain to brain, a mouse study shows.</content:encoded>
+	<dc:date>2018-12-13T16:00:05+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/50-years-ago-armadillos-hinted-dna-wasnt-destiny">
+	<title>Science News: 50 years ago, armadillos hinted that DNA wasn’t destiny</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-armadillos-hinted-dna-wasnt-destiny</link>
+	<content:encoded>Nine-banded armadillos have identical quadruplets. But the youngsters aren’t identical enough, and scientists 50 years ago could not figure out why.</content:encoded>
+	<dc:date>2018-12-13T12:00:05+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=10720">
 	<title>BMC Series blog: Lessons learned and best practices from the Polio Eradication Programme in Nigeria</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2018/12/13/lessons-learned-best-practices-polio-eradication-programme-nigeria/</link>
@@ -1508,20 +1522,6 @@ It's far from clear yet whether the gene-editing that He described has actually 
 	<content:encoded>August-born kids have higher rates of ADHD diagnosis than kids born in September in U.S. states with a September 1 cutoff for starting kindergarten.</content:encoded>
 	<dc:date>2018-11-28T22:00:05+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=79479">
-	<title>Retraction watch: Majority of journal’s editorial board resigns after publisher’s handling of letter about move to open access</title>
-	<link>http://retractionwatch.com/2018/11/28/majority-of-journals-editorial-board-resigns-after-publishers-handling-of-letter-about-move-to-open-access/</link>
-	<content:encoded>A leading journal in ecology and evolution is going through an evolution of its own, following the resignation of its editor in chief and more than half of its editorial board. The mass exodus at Diversity &amp;amp; Distributions came after Wiley, which publishes the journal, allegedly blocked it from running a letter protesting the company’s … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/11/28/majority-of-journals-editorial-board-resigns-after-publishers-handling-of-letter-about-move-to-open-access/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Majority of journal’s editorial board resigns after publisher’s handling of letter about move to open access&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-11-28T21:03:00+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/researcher-defends-creating-crispr-babies-fails-quell-controversy">
-	<title>Science News: The researcher who created CRISPR twins defends his work but fails to quell controversy</title>
-	<link>https://www.sciencenews.org/article/researcher-defends-creating-crispr-babies-fails-quell-controversy</link>
-	<content:encoded>After getting a glimpse of data behind the birth of the first gene-edited babies, many scientists question the study’s ethics and medical necessity.</content:encoded>
-	<dc:date>2018-11-28T20:54:39+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
