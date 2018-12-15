@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=81754" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-research-may-upend-what-we-know-about-how-tornadoes-form" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/endangered-northern-bettongs-not-picky-truffle-eaters" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81567" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/half-global-annual-rain-falls-just-12-days" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/stone-age-people-conquered-tibetan-plateau-thin-air" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/global-reported-measles-cases-jumped-31-percent-2017-cdc" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/acid-found-soil-may-make-disease-killing-deer-less-infectious" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=81754">
+	<title>Retraction watch: Two years after he shared a draft of a “random brain fart side-project,” an astronomer sees a version published — without his name</title>
+	<link>http://retractionwatch.com/2018/12/14/two-years-after-he-shared-a-draft-of-a-random-brain-fart-side-project-an-astronomer-sees-a-version-published-without-his-name/</link>
+	<content:encoded>In 2015, Peter Yoachim became interested in how long astronomers remained active astronomers or, more to the point, how long they continued publishing in astronomy. Yoachim, an astronomer at the University of Washington in Seattle, dug into some data, “did a burst of work in late 2015/early 2016, then fizzled out by 2017 when I … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/12/14/two-years-after-he-shared-a-draft-of-a-random-brain-fart-side-project-an-astronomer-sees-a-version-published-without-his-name/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Two years after he shared a draft of a “random brain fart side-project,” an astronomer sees a version published — without his name&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-12-15T01:41:40+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/new-research-may-upend-what-we-know-about-how-tornadoes-form">
 	<title>Science News: New research may upend what we know about how tornadoes form</title>
 	<link>https://www.sciencenews.org/article/new-research-may-upend-what-we-know-about-how-tornadoes-form</link>
@@ -1505,13 +1512,6 @@ It's far from clear yet whether the gene-editing that He described has actually 
 	<content:encoded>While the number of reported measles cases has dropped 80 percent from 2000 to 2017, high profile outbreaks pushed the 2017 total up from 2016.</content:encoded>
 	<dc:date>2018-11-30T17:21:59+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/acid-found-soil-may-make-disease-killing-deer-less-infectious">
-	<title>Science News: An acid found in soil may make a disease killing deer less infectious</title>
-	<link>https://www.sciencenews.org/article/acid-found-soil-may-make-disease-killing-deer-less-infectious</link>
-	<content:encoded>An incurable neurodegenerative disease crippling North American deer, elk and moose may be thwarted by an organic soil compound.</content:encoded>
-	<dc:date>2018-11-30T11:00:05+00:00</dc:date>
-	<dc:creator>Jennifer Leman</dc:creator>
 </item>
 
 </rdf:RDF>
