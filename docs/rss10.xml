@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/willpower-ego-depletion-social-psychology-replication" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9790" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81820" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81815" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="tag:ankursinha.in,2018-12-02:/2018/12/02/neurofedora-update-week-48.html" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=79826" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1841" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9778" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/scicurious/willpower-ego-depletion-social-psychology-replication">
+	<title>Science News: Sometimes a failure to replicate a study isn’t a failure at all</title>
+	<link>https://www.sciencenews.org/blog/scicurious/willpower-ego-depletion-social-psychology-replication</link>
+	<content:encoded>Ego depletion is one of the most well-known concepts in social psychology. A recent study can’t confirm an old one showing it exists.  Who is right? Probably everyone.</content:encoded>
+	<dc:date>2018-12-16T12:00:07+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9790">
 	<title>Discovery magazine - Neuroskeptic: Predicting Suicide: The EDOR® Enigma (Part 3)</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9790</link>
@@ -1507,14 +1514,6 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2018-11-30T20:41:44+00:00</dc:date>
 	<dc:creator>Max Smith-Gee</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9778">
-	<title>Discovery magazine - Neuroskeptic: Will We See &quot;Monstrous&quot; Neuroscience?</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9778</link>
-	<content:encoded>The science story of the past week was the claim from Chinese scientist He Jiankui that he has created gene-edited human babies. Prof. He reports that two twin girls have been born carrying modifications of the gene CCR5, which is intended to protect them against future HIV risk.
-
-It's far from clear yet whether the gene-editing that He described has actually taken place - no data has yet been presented.  The very prospect of genetically-modifying human beings has, however, led to widespread c</content:encoded>
-	<dc:date>2018-11-30T20:32:41+00:00</dc:date>
 </item>
 
 </rdf:RDF>
