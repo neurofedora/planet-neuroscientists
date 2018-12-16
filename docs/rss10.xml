@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9790" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81820" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81815" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81754" />
@@ -114,11 +115,20 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=79826" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1841" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9778" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/half-global-annual-rain-falls-just-12-days" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9790">
+	<title>Discovery magazine - Neuroskeptic: Predicting Suicide: The EDOR® Enigma (Part 3)</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9790</link>
+	<content:encoded>This time last year I wrote(1,2) about a Swedish company called Emotra. Emotra make a device that is supposed to measure suicide risk in people with mental illness. The test is called EDOR® and according to Emotra's website and materials, it has been shown to be highly effective. Last year, I explained why I disagree with that assessment.
+
+
+
+Now, a year later, I'm revisting the EDOR® story, because there have been a number of developments that I find quite disturbing. It seems that EDOR® has</content:encoded>
+	<dc:date>2018-12-15T22:49:56+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=81820">
 	<title>Retraction watch: Is it game over for a cartoon of Trump’s face in baboon feces? A journal issues an editor’s note for “unusual aspects”</title>
 	<link>http://retractionwatch.com/2018/12/15/is-it-game-over-for-a-cartoon-of-trumps-face-in-baboon-feces-a-journal-issues-an-editors-note-for-unusual-aspects/</link>
@@ -1505,13 +1515,6 @@ is not on our list, please suggest it to us using the &lt;a class=&quot;referenc
 
 It's far from clear yet whether the gene-editing that He described has actually taken place - no data has yet been presented.  The very prospect of genetically-modifying human beings has, however, led to widespread c</content:encoded>
 	<dc:date>2018-11-30T20:32:41+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/half-global-annual-rain-falls-just-12-days">
-	<title>Science News: Half the world’s annual rain falls in just 12 days</title>
-	<link>https://www.sciencenews.org/article/half-global-annual-rain-falls-just-12-days</link>
-	<content:encoded>Climate change could shorten the time it takes for the world to receive half its annual precipitation from 12 days to 11 by 2100.</content:encoded>
-	<dc:date>2018-11-30T18:55:54+00:00</dc:date>
-	<dc:creator>Kyle Plantz</dc:creator>
 </item>
 
 </rdf:RDF>
