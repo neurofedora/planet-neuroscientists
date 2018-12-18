@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=33641" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/these-sound-waves-can-levitate-and-move-particles-new-ways" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tumor-organoids-may-speed-cancer-treatment" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/top-science-stories-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-change-target-top-science-stories-2018-yir" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2018-12-04:/2018/12/04/neurofedora-a-ready-to-use-free-open-source-platform-for-neuroscientists.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rebel-honeybee-workers-lay-eggs-when-their-queen-away" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35492" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=33569" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-some-sap-sucking-insects-fling-their-pee" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=33641">
+	<title>For Better Science: Lopez-Otin and Daley retract Nature Cell Biology paper</title>
+	<link>https://forbetterscience.com/2018/12/17/lopez-otin-and-daley-retract-nature-cell-biology-paper/</link>
+	<content:encoded>The 2015 Nature Cell Biology paper by the Spanish cancer researcher Carlos Lopez-Otin and his US partner George Q Daley, stem cell titan and dean of Harvard Medical School, is being retracted. First author and Lopez-Otin's student Clara Soria-Valles caused Daley even more trouble: her next groundbreaking paper was meant to be already published, but it is not even submitted and might never be.</content:encoded>
+	<dc:date>2018-12-17T22:05:26+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/these-sound-waves-can-levitate-and-move-particles-new-ways">
+	<title>Science News: These sound waves can levitate and move particles in new ways</title>
+	<link>https://www.sciencenews.org/article/these-sound-waves-can-levitate-and-move-particles-new-ways</link>
+	<content:encoded>A new machine that levitates objects using sound waves can manipulate several particles at once.</content:encoded>
+	<dc:date>2018-12-17T20:00:06+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/tumor-organoids-may-speed-cancer-treatment">
 	<title>Science News: Tumor ‘organoids’ may speed cancer treatment</title>
 	<link>https://www.sciencenews.org/article/tumor-organoids-may-speed-cancer-treatment</link>
@@ -1273,20 +1287,6 @@ therefore free to all to use, modify, study, and share.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Christian Jarrett&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;s2&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s2&quot;&gt;@Psych_Writer&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;) is Editor of &lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2018-12-04T12:27:48+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=33569">
-	<title>For Better Science: Homeopathy business at CNRS in Strasbourg</title>
-	<link>https://forbetterscience.com/2018/12/04/homeopathy-business-at-cnrs-in-strasbourg/</link>
-	<content:encoded>A PhD thesis was defended in 2017 at CNRS plant science institute IBMP in Strasbourg, it tested the anti-flu product L52 by the French homeopathy manufacturer Lehning Laboratories. The homeopathic concoction was found very effective, with potential use for human health!</content:encoded>
-	<dc:date>2018-12-04T11:18:23+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-some-sap-sucking-insects-fling-their-pee">
-	<title>Science News: How some sap-sucking insects fling their pee</title>
-	<link>https://www.sciencenews.org/article/how-some-sap-sucking-insects-fling-their-pee</link>
-	<content:encoded>Sharpshooters hurl their pee with structure called a stylus, which sends droplets flying at 20 times the acceleration of Earth’s gravity.</content:encoded>
-	<dc:date>2018-12-04T11:00:07+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
