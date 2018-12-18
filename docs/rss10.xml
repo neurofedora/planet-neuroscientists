@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-horizons-ultima-thule-preview" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=82067" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/erosion-has-erased-most-earth-impact-craters-here-are-survivors" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1870" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-inquire-about-neptune-sized-moon-nuclear-pasta-and-more" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=80172" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-horizons-ultima-thule-preview">
+	<title>Science News: New Horizons gears up for its close encounter with Ultima Thule</title>
+	<link>https://www.sciencenews.org/article/new-horizons-ultima-thule-preview</link>
+	<content:encoded>On January 1, the New Horizons spacecraft will fly by Ultima Thule, the first small Kuiper Belt object ever to get a close visitor.</content:encoded>
+	<dc:date>2018-12-18T15:00:06+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=82067">
 	<title>Retraction watch: The waiting game: A university requests a retraction. Then it waits three years.</title>
 	<link>http://retractionwatch.com/2018/12/18/the-waiting-game-a-university-requests-a-retraction-then-it-waits-three-years/</link>
@@ -1393,13 +1400,6 @@ According to the authors of th</content:encoded>
 	<content:encoded>The biggest black hole merger yet seen created one set of the spacetime ripples.</content:encoded>
 	<dc:date>2018-12-04T18:19:43+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=80172">
-	<title>Retraction watch: Pair of nanotech researchers up to at least two dozen retractions</title>
-	<link>http://retractionwatch.com/2018/12/04/pair-of-nanotech-researchers-up-to-at-least-two-dozen-retractions/</link>
-	<content:encoded>A pair of researchers at the Indian Institute of Technology (Indian School of Mines) has had a total of nine more papers retracted, pushing their totals to 24 and 26, respectively. The totals put the two researchers — Rashmi Madhuri, with 24 retractions, and Prashant Sharma, with 26 — on our leaderboard of the 30 … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/12/04/pair-of-nanotech-researchers-up-to-at-least-two-dozen-retractions/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Pair of nanotech researchers up to at least two dozen retractions&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-12-04T17:38:35+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
