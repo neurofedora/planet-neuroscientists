@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/mice-lack-stem-cells-heart-needed-self-repair" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/sugar-makes-dna-could-be-made-space" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/helping-clinicians-and-patients-benefit-from-advances-in-medical-knowledge" />
@@ -36,6 +38,7 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mars-water-ice-lake-top-science-stories-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/spinal-cord-paralysis-top-science-stories-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/human-evolution-ingenuity-top-science-stories-2018-yir" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/assemble-top-10-list-science-news-starts-june" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=81048" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/willpower-ego-depletion-social-psychology-replication" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9790" />
@@ -112,13 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/baboons-survive-6-months-after-getting-pig-heart-transplant" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-claim-dama-cosine" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35513" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=80292" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/seeking-panacea-guts-microbiome" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/mice-lack-stem-cells-heart-needed-self-repair">
+	<title>Science News: Mice lack stem cells in the heart needed for self-repair</title>
+	<link>https://www.sciencenews.org/article/mice-lack-stem-cells-heart-needed-self-repair</link>
+	<content:encoded>Adult mice hearts have no stem cells, a study finds. The same may be true for people, and that’s not welcome news for those who’ve had a heart attack.</content:encoded>
+	<dc:date>2018-12-19T15:53:44+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/sugar-makes-dna-could-be-made-space">
+	<title>Science News: The sugar that makes up DNA could be made in space</title>
+	<link>https://www.sciencenews.org/article/sugar-makes-dna-could-be-made-space</link>
+	<content:encoded>Deoxyribose, the sugar of DNA, was created in a lab simulating ice in space.</content:encoded>
+	<dc:date>2018-12-19T13:00:06+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir">
 	<title>Science News: E-cigarettes caught fire among teens</title>
 	<link>https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir</link>
@@ -419,6 +433,13 @@
 	<content:encoded>Human ingenuity began on treks across Asia and in fluctuating African habitats.</content:encoded>
 	<dc:date>2018-12-17T13:18:04+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/assemble-top-10-list-science-news-starts-june">
+	<title>Science News: To assemble a Top 10 list, Science News starts in June</title>
+	<link>https://www.sciencenews.org/article/assemble-top-10-list-science-news-starts-june</link>
+	<content:encoded>Editor in Chief Nancy Shute discusses creating Science News' annual Top 10 science stories of the year.</content:encoded>
+	<dc:date>2018-12-17T13:00:00+00:00</dc:date>
+	<dc:creator>Nancy Shute</dc:creator>
 </item>
 <item rdf:about="http://retractionwatch.com/?p=81048">
 	<title>Retraction watch: Is it time for a new classification system for scientific misconduct?</title>
@@ -1378,27 +1399,6 @@ According to the authors of th</content:encoded>
 &lt;p&gt;&lt;strong&gt;Post written by Jesse Singal (&lt;a href=&quot;https://twitter.com/jessesingal&quot;&gt;@JesseSingal&lt;/a&gt;) for the BPS Research Digest&lt;/strong&gt;. Jesse is a contributing writer at &lt;em&gt;New York Magazine&lt;/em&gt;. He is working on a book about why shoddy behavioral-science claims sometimes go viral for Farrar, Straus and Giroux.&lt;/p&gt;</content:encoded>
 	<dc:date>2018-12-05T16:15:05+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=80292">
-	<title>Retraction watch: The Joy of Cooking, vindicated: Journal retracts two more Brian Wansink papers</title>
-	<link>http://retractionwatch.com/2018/12/05/the-joy-of-cooking-vindicated-journal-retracts-two-more-brian-wansink-papers/</link>
-	<content:encoded>In February of this year, the Joy of Cooking launched what you could call an epic Twitter stream. Inspired by Stephanie Lee’s reporting in BuzzFeed on Brian Wansink — the food marketing researcher at Cornell who later resigned following findings of misconduct by the university — the legendary cookbook pointed out all that was wrong … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/12/05/the-joy-of-cooking-vindicated-journal-retracts-two-more-brian-wansink-papers/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;The Joy of Cooking, vindicated: Journal retracts two more Brian Wansink papers&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-12-05T13:27:54+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light">
-	<title>Science News: Astronomers find far-flung wind from a black hole in the universe’s first light</title>
-	<link>https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light</link>
-	<content:encoded>The detection of black hole winds far from their host galaxy could reveal details of how galaxies and black holes grow up together.</content:encoded>
-	<dc:date>2018-12-05T11:00:06+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/seeking-panacea-guts-microbiome">
-	<title>Science News: Seeking a panacea in the gut’s microbiome</title>
-	<link>https://www.sciencenews.org/article/seeking-panacea-guts-microbiome</link>
-	<content:encoded>Editor in Chief Nancy Shute discusses the potential role of the gut microbiome in Parkinson's disease and one reporter's connection to the story.</content:encoded>
-	<dc:date>2018-12-05T10:15:00+00:00</dc:date>
-	<dc:creator>Nancy Shute</dc:creator>
 </item>
 
 </rdf:RDF>
