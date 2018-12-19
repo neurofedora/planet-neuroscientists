@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/helping-clinicians-and-patients-benefit-from-advances-in-medical-knowledge" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-horizons-ultima-thule-preview" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=80292" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/seeking-panacea-guts-microbiome" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-inquire-about-neptune-sized-moon-nuclear-pasta-and-more" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir">
+	<title>Science News: E-cigarettes caught fire among teens</title>
+	<link>https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir</link>
+	<content:encoded>High schoolers’ use of e-cigarettes shot up from 2017 to 2018, and public health officials are concerned that a new generation is at risk for nicotine addiction.</content:encoded>
+	<dc:date>2018-12-19T11:00:05+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes">
 	<title>Science News: Bennu and Ryugu look like spinning tops and scientists want to know why</title>
 	<link>https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes</link>
@@ -1392,13 +1399,6 @@ According to the authors of th</content:encoded>
 	<content:encoded>Editor in Chief Nancy Shute discusses the potential role of the gut microbiome in Parkinson's disease and one reporter's connection to the story.</content:encoded>
 	<dc:date>2018-12-05T10:15:00+00:00</dc:date>
 	<dc:creator>Nancy Shute</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-inquire-about-neptune-sized-moon-nuclear-pasta-and-more">
-	<title>Science News: Readers inquire about a Neptune-sized moon, nuclear pasta and more</title>
-	<link>https://www.sciencenews.org/article/readers-inquire-about-neptune-sized-moon-nuclear-pasta-and-more</link>
-	<content:encoded>Readers had questions about a Neptune-sized moon, nuclear pasta and the search for extraterrestrial life.</content:encoded>
-	<dc:date>2018-12-05T10:00:00+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
 </item>
 
 </rdf:RDF>
