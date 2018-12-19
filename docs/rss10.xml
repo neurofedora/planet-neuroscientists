@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/helping-clinicians-and-patients-benefit-from-advances-in-medical-knowledge" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-horizons-ultima-thule-preview" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=82067" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/erosion-has-erased-most-earth-impact-craters-here-are-survivors" />
@@ -113,12 +115,23 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/astronomers-find-far-flung-wind-black-hole-universe-first-light" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/seeking-panacea-guts-microbiome" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-inquire-about-neptune-sized-moon-nuclear-pasta-and-more" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes">
+	<title>Science News: Bennu and Ryugu look like spinning tops and scientists want to know why</title>
+	<link>https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes</link>
+	<content:encoded>The first high-resolution images of Bennu confirm that the asteroid looks very similar to the asteroid Ryugu.</content:encoded>
+	<dc:date>2018-12-18T19:04:54+00:00</dc:date>
+	<dc:creator>Jennifer Leman</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/helping-clinicians-and-patients-benefit-from-advances-in-medical-knowledge">
+	<title>Elsevier Connect: Helping clinicians and patients benefit from advances in medical knowledge</title>
+	<link>https://www.elsevier.com/connect/helping-clinicians-and-patients-benefit-from-advances-in-medical-knowledge</link>
+	<content:encoded>Harnessing the power of information to transform patient care</content:encoded>
+	<dc:date>2018-12-18T16:42:25+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/new-horizons-ultima-thule-preview">
 	<title>Science News: New Horizons gears up for its close encounter with Ultima Thule</title>
 	<link>https://www.sciencenews.org/article/new-horizons-ultima-thule-preview</link>
@@ -1386,20 +1399,6 @@ According to the authors of th</content:encoded>
 	<content:encoded>Readers had questions about a Neptune-sized moon, nuclear pasta and the search for extraterrestrial life.</content:encoded>
 	<dc:date>2018-12-05T10:00:00+00:00</dc:date>
 	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth">
-	<title>Science News: In a first, a woman with a uterus transplanted from a deceased donor gives birth</title>
-	<link>https://www.sciencenews.org/article/first-woman-uterus-transplanted-deceased-donor-gives-birth</link>
-	<content:encoded>After receiving a uterus from a deceased donor, a woman gave birth to a healthy girl in December of 2017.</content:encoded>
-	<dc:date>2018-12-04T23:30:05+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions">
-	<title>Science News: Scientists’ collection of gravitational waves just got a lot bigger</title>
-	<link>https://www.sciencenews.org/article/ligo-detects-gravitational-waves-4-black-hole-collisions</link>
-	<content:encoded>The biggest black hole merger yet seen created one set of the spacetime ripples.</content:encoded>
-	<dc:date>2018-12-04T18:19:43+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
