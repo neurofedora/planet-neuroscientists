@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=34335" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/invasive-asexual-midges-may-upset-antarctica-moss-banks" />
 			<rdf:li rdf:resource="https://medium.com/p/de0d9f15fc30" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mice-lack-stem-cells-heart-needed-self-repair" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=80248" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/pea-aphid-youngsters-use-piggyback-rides-escape-crisis" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1847" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/baboons-survive-6-months-after-getting-pig-heart-transplant" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=34335">
+	<title>For Better Science: Frontiers: a danger for public health?</title>
+	<link>https://forbetterscience.com/2018/12/20/frontiers-a-danger-for-public-health/</link>
+	<content:encoded>Frontiers is a somewhat unconventional open access publisher, which likes to have it both ways: playing scientific elite while accepting almost anything from paying customers. My regular contributor Smut Clyde will tell you below how some anti-vaccine scare-mongers managed to sneak in some rather dangerous works thanks to Frontiers' unofficial &quot;we don't judge, we just charge&quot; quasi-policy.</content:encoded>
+	<dc:date>2018-12-20T06:00:16+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/invasive-asexual-midges-may-upset-antarctica-moss-banks">
 	<title>Science News: Invasive asexual midges may upset Antarctica’s delicate moss banks</title>
 	<link>https://www.sciencenews.org/article/invasive-asexual-midges-may-upset-antarctica-moss-banks</link>
@@ -1365,13 +1372,6 @@ According to the authors of th</content:encoded>
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2018-12-05T22:46:28+00:00</dc:date>
 	<dc:creator>Chandreyee Das</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/baboons-survive-6-months-after-getting-pig-heart-transplant">
-	<title>Science News: Baboons survive 6 months after getting a pig heart transplant</title>
-	<link>https://www.sciencenews.org/article/baboons-survive-6-months-after-getting-pig-heart-transplant</link>
-	<content:encoded>A team of German scientists used new methods to successfully transplant genetically modified and fully functioning pig hearts into baboons.</content:encoded>
-	<dc:date>2018-12-05T18:08:08+00:00</dc:date>
-	<dc:creator>Jennifer Leman</dc:creator>
 </item>
 
 </rdf:RDF>
