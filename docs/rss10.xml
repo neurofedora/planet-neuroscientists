@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=82289" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/christmas-holiday-decorations-injuries-emergency-room" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-plants-survived-world-greatest-mass-extinction" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/bethany-brookshire-blog" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-books-explore-science-history-1918-flu-pandemic" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35529" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/global-carbon-dioxide-emissions-will-hit-record-high-2018" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/uterus-may-play-role-memory" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=82289">
+	<title>Retraction watch: Rabbits don’t even have canines, but this group tried to pass off rabbit teeth as dog teeth</title>
+	<link>http://retractionwatch.com/2018/12/21/rabbits-dont-even-have-canines-but-this-group-tried-to-pass-off-rabbit-teeth-as-dog-teeth/</link>
+	<content:encoded>As any kid knows, Snoopy is a laconic beagle and Bugs Bunny is a mouth-running rabbit. The difference is pretty clear, right? Evidently not. A group of researchers in China have lost a 2017 paper in Medical Science Monitor for trying to pass off cellular images of rabbit teeth as those of beagles. According to … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/12/21/rabbits-dont-even-have-canines-but-this-group-tried-to-pass-off-rabbit-teeth-as-dog-teeth/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Rabbits don’t even have canines, but this group tried to pass off rabbit teeth as dog teeth&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-12-21T11:00:11+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/christmas-holiday-decorations-injuries-emergency-room">
 	<title>Science News: How decorating for Christmas sends people to the ER</title>
 	<link>https://www.sciencenews.org/article/christmas-holiday-decorations-injuries-emergency-room</link>
@@ -1426,13 +1433,6 @@ According to the authors of th</content:encoded>
 	<content:encoded>Carbon dioxide emissions from China, the United States and India all rose this year, a new report finds.</content:encoded>
 	<dc:date>2018-12-06T23:09:03+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/uterus-may-play-role-memory">
-	<title>Science News: The uterus may play a role in memory</title>
-	<link>https://www.sciencenews.org/article/uterus-may-play-role-memory</link>
-	<content:encoded>In lab tests, rats that underwent hysterectomies had worse spatial memories.</content:encoded>
-	<dc:date>2018-12-06T19:02:11+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
