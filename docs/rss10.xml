@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:ankursinha.in,2018-12-21:/2018/12/21/on-vacation.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/americans-are-sleeping-less-they-were-13-years-ago" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-if-true-science-stories-2018-yir" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=82446" />
@@ -114,11 +115,19 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9783" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=80702" />
 			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3723" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/magnets-make-new-soft-metamaterial-stiffen-flash" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:ankursinha.in,2018-12-21:/2018/12/21/on-vacation.html">
+	<title>Ankur Sinha: On vacation</title>
+	<link>http://ankursinha.in/2018/12/21/on-vacation.html</link>
+	<content:encoded>&lt;p&gt;I will be on vacation till the start of the new year with limited internet
+connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
+&lt;p&gt;Happy holidays!&lt;/p&gt;</content:encoded>
+	<dc:date>2018-12-21T23:09:24+00:00</dc:date>
+	<dc:creator>ankur</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/americans-are-sleeping-less-they-were-13-years-ago">
 	<title>Science News: Americans are sleeping less than they were 13 years ago</title>
 	<link>https://www.sciencenews.org/article/americans-are-sleeping-less-they-were-13-years-ago</link>
@@ -1475,13 +1484,6 @@ According to the authors of th</content:encoded>
 	<content:encoded>By Farhan Damani In lab meeting this week, we discussed loss-calibrated approximate inference in the context of Bayesian decision theory (Lacoste-Julien et. al. 2011, Cobb et. al. 2018). For many applications, the cost of an incorrect prediction can vary depending … &lt;a href=&quot;https://pillowlab.wordpress.com/2018/12/07/the-loss-calibrated-bayesian/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-12-07T20:42:05+00:00</dc:date>
 	<dc:creator>fdamani1</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/magnets-make-new-soft-metamaterial-stiffen-flash">
-	<title>Science News: Magnets make a new soft metamaterial stiffen up in a flash</title>
-	<link>https://www.sciencenews.org/article/magnets-make-new-soft-metamaterial-stiffen-flash</link>
-	<content:encoded>Scientists can dial the stiffness of a bizarre new type of synthetic material up or down using magnets.</content:encoded>
-	<dc:date>2018-12-07T19:00:07+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
