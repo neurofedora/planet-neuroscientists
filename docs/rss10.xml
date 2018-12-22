@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=82554" />
 			<rdf:li rdf:resource="tag:ankursinha.in,2018-12-21:/2018/12/21/on-vacation.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/americans-are-sleeping-less-they-were-13-years-ago" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-if-true-science-stories-2018-yir" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/favorite-top-science-books-2018-yir" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9783" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=80702" />
-			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3723" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=82554">
+	<title>Retraction watch: Weekend reads: How one scientist polluted the literature; a dog earns an authorship; poisoning in the lab</title>
+	<link>http://retractionwatch.com/2018/12/22/weekend-reads-how-one-scientist-polluted-the-literature-a-dog-earns-an-authorship-poisoning-in-the-lab/</link>
+	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a retraction that took three years even after the university … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/12/22/weekend-reads-how-one-scientist-polluted-the-literature-a-dog-earns-an-authorship-poisoning-in-the-lab/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: How one scientist polluted the literature; a dog earns an authorship; poisoning in the lab&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-12-22T14:45:39+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="tag:ankursinha.in,2018-12-21:/2018/12/21/on-vacation.html">
 	<title>Ankur Sinha: On vacation</title>
 	<link>http://ankursinha.in/2018/12/21/on-vacation.html</link>
@@ -1477,13 +1484,6 @@ According to the authors of th</content:encoded>
 	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured two new names on our leaderboard, vindication for The Joy … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/12/08/weekend-reads-prominent-doctors-who-dont-disclose-conflicts-and-the-journals-that-enable-them-a-nudge-study-faces-scrutiny/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Prominent doctors who don’t disclose conflicts, and the journals that enable them; a “nudge” study faces scrutiny&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2018-12-08T16:01:53+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="http://pillowlab.wordpress.com/?p=3723">
-	<title>Pillow Lab: The Loss-Calibrated Bayesian</title>
-	<link>https://pillowlab.wordpress.com/2018/12/07/the-loss-calibrated-bayesian/</link>
-	<content:encoded>By Farhan Damani In lab meeting this week, we discussed loss-calibrated approximate inference in the context of Bayesian decision theory (Lacoste-Julien et. al. 2011, Cobb et. al. 2018). For many applications, the cost of an incorrect prediction can vary depending … &lt;a href=&quot;https://pillowlab.wordpress.com/2018/12/07/the-loss-calibrated-bayesian/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2018-12-07T20:42:05+00:00</dc:date>
-	<dc:creator>fdamani1</dc:creator>
 </item>
 
 </rdf:RDF>
