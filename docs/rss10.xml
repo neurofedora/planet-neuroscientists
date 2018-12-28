@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=34531" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=82915" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/artificial-intelligence-machine-learning-2018-yir" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=82840" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10702" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-ai-to-map-ai" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-osiris-rex-spacecraft-finds-signs-water-asteroid-bennu" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/voyager-2-spacecraft-enters-interstellar-space" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=34531">
+	<title>For Better Science: Ariel Rector Zinigrad and his elusive qualifications</title>
+	<link>https://forbetterscience.com/2018/12/28/ariel-rector-zinigrad-and-his-elusive-qualifications/</link>
+	<content:encoded>Ariel University is a settlers' university, located outside of legal Israel borders. What Ariel lacks in academic performance or even official recognition, it makes up in support from right-wing politicians. This post addresses the scientific qualifications of Ariel's rector Michael Zinigrad. Or the pretence thereof.</content:encoded>
+	<dc:date>2018-12-28T06:00:44+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=82915">
 	<title>Retraction watch: Former UMich postdoc earns five-year ban on Federal funding, after admitting to misconduct and then lying</title>
 	<link>http://retractionwatch.com/2018/12/27/former-umich-postdoc-earns-five-year-ban-on-federal-funding-after-admitting-to-misconduct-and-then-lying/</link>
@@ -1416,13 +1423,6 @@ Now, a year later, I'm revisting the EDOR® story, because there have been a num
 	<link>https://www.sciencenews.org/article/nasa-osiris-rex-spacecraft-finds-signs-water-asteroid-bennu</link>
 	<content:encoded>NASA’s OSIRIS-REx spacecraft found signs of water and lots of boulders on the asteroid Bennu.</content:encoded>
 	<dc:date>2018-12-10T23:13:54+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/voyager-2-spacecraft-enters-interstellar-space">
-	<title>Science News: Voyager 2 spacecraft enters interstellar space</title>
-	<link>https://www.sciencenews.org/article/voyager-2-spacecraft-enters-interstellar-space</link>
-	<content:encoded>Voyager 2 just became the second probe ever to enter interstellar space, and the first with a working plasma instrument.</content:encoded>
-	<dc:date>2018-12-10T17:57:32+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
