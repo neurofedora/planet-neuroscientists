@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=82915" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/artificial-intelligence-machine-learning-2018-yir" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=82840" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-apollo-8-moon-first-lunar-orbit" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-ai-to-map-ai" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-osiris-rex-spacecraft-finds-signs-water-asteroid-bennu" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/voyager-2-spacecraft-enters-interstellar-space" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/for-ai-to-truly-transform-healthcare-we-need-quality-data-now" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=82915">
+	<title>Retraction watch: Former UMich postdoc earns five-year ban on Federal funding, after admitting to misconduct and then lying</title>
+	<link>http://retractionwatch.com/2018/12/27/former-umich-postdoc-earns-five-year-ban-on-federal-funding-after-admitting-to-misconduct-and-then-lying/</link>
+	<content:encoded>A former postdoc at the University of Michigan admitted to research misconduct, but lied about how extensive it was, according to a new finding by the U.S. Office of Research Integrity (ORI). The ORI doesn’t describe Venkata Sudheer Kumar Ramadugu‘s misconduct — that detail will likely come later in the Federal Register, according to their … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2018/12/27/former-umich-postdoc-earns-five-year-ban-on-federal-funding-after-admitting-to-misconduct-and-then-lying/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Former UMich postdoc earns five-year ban on Federal funding, after admitting to misconduct and then lying&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2018-12-27T18:56:45+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/artificial-intelligence-machine-learning-2018-yir">
 	<title>Science News: Artificial intelligence is mastering a wider variety of jobs than ever before</title>
 	<link>https://www.sciencenews.org/article/artificial-intelligence-machine-learning-2018-yir</link>
@@ -1417,12 +1424,6 @@ Now, a year later, I'm revisting the EDOR® story, because there have been a num
 	<content:encoded>Voyager 2 just became the second probe ever to enter interstellar space, and the first with a working plasma instrument.</content:encoded>
 	<dc:date>2018-12-10T17:57:32+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/for-ai-to-truly-transform-healthcare-we-need-quality-data-now">
-	<title>Elsevier Connect: For AI to truly transform healthcare, we need quality data – now</title>
-	<link>https://www.elsevier.com/connect/for-ai-to-truly-transform-healthcare-we-need-quality-data-now</link>
-	<content:encoded>Deep information analytics and AI can enable higher quality, personalized healthcare</content:encoded>
-	<dc:date>2018-12-10T17:35:43+00:00</dc:date>
 </item>
 
 </rdf:RDF>
