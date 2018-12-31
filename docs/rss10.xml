@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/macaques-take-turns-while-chattering" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=83059" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/live-updates-new-horizons-flyby-kuiper-belt-ultima-thule" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=83027" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-was-surprising-about-kilauea-volcano-eruption-hawaii" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/biologists-snake-venom-glands-organoids" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/desalination-saltwater-fresh-water-sunlight" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-extreme-weather-events-caused-human-driven-climate-change" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/macaques-take-turns-while-chattering">
+	<title>Science News: Macaques take turns while chattering</title>
+	<link>https://www.sciencenews.org/article/macaques-take-turns-while-chattering</link>
+	<content:encoded>Japanese monkeys take turns while communicating. Adjusting response times while chattering, macaques intentionally pause like humans do when chatting.</content:encoded>
+	<dc:date>2018-12-31T16:10:11+00:00</dc:date>
+	<dc:creator>Katie Brown</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=83059">
 	<title>Retraction watch: Energy researcher up to 18 retractions</title>
 	<link>http://retractionwatch.com/2018/12/31/energy-researcher-up-to-18-retractions/</link>
@@ -1375,13 +1382,6 @@ Now, a year later, I'm revisting the EDOR® story, because there have been a num
 	<content:encoded>A new device that harnesses sunlight to produce pure vapor from seawater could last longer and produce cleaner water than other technology.</content:encoded>
 	<dc:date>2018-12-11T16:00:06+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/more-extreme-weather-events-caused-human-driven-climate-change">
-	<title>Science News: The list of extreme weather caused by human-driven climate change grows</title>
-	<link>https://www.sciencenews.org/article/more-extreme-weather-events-caused-human-driven-climate-change</link>
-	<content:encoded>The tally of extreme weather events linked to climate change continues to grow, with new studies outlining links to more than a dozen events in 2017.</content:encoded>
-	<dc:date>2018-12-11T15:41:58+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
