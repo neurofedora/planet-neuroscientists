@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ocean-cleanup-broken-system-other-trash-strategies" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/high-speed-video-reveals-physics-tricks-shooting-rubber-band" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/satellites-make-mapping-hot-spots-ammonia-pollution-easier" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=83159" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/corn-domestication-process-long-complicated" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/dutch-universities-and-elsevier-agree-on-6-month-extension-to-current-license-agreement" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-armadillos-hinted-dna-wasnt-destiny" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ocean-cleanup-broken-system-other-trash-strategies">
+	<title>Science News: 4 ways to tackle ocean trash besides Ocean Cleanup’s broken system</title>
+	<link>https://www.sciencenews.org/article/ocean-cleanup-broken-system-other-trash-strategies</link>
+	<content:encoded>Here are three approaches to reducing ocean pollution that might be more effective than a controversial plan to fish trash out of the Pacific.</content:encoded>
+	<dc:date>2019-01-04T20:48:18+00:00</dc:date>
+	<dc:creator>Laurel Hamers</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/high-speed-video-reveals-physics-tricks-shooting-rubber-band">
 	<title>Science News: High-speed video reveals physics tricks for shooting a rubber band</title>
 	<link>https://www.sciencenews.org/article/high-speed-video-reveals-physics-tricks-shooting-rubber-band</link>
@@ -1244,13 +1251,6 @@ Now, a year later, I'm revisting the EDOR® story, because there have been a num
 	<link>https://www.elsevier.com/connect/dutch-universities-and-elsevier-agree-on-6-month-extension-to-current-license-agreement</link>
 	<content:encoded>The extension allows for the continuation of discussions</content:encoded>
 	<dc:date>2018-12-13T15:39:15+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/50-years-ago-armadillos-hinted-dna-wasnt-destiny">
-	<title>Science News: 50 years ago, armadillos hinted that DNA wasn’t destiny</title>
-	<link>https://www.sciencenews.org/article/50-years-ago-armadillos-hinted-dna-wasnt-destiny</link>
-	<content:encoded>Nine-banded armadillos have identical quadruplets. But the youngsters aren’t identical enough, and scientists 50 years ago could not figure out why.</content:encoded>
-	<dc:date>2018-12-13T12:00:05+00:00</dc:date>
-	<dc:creator>Bethany Brookshire</dc:creator>
 </item>
 
 </rdf:RDF>
