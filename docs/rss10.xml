@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/beyond-weird-and-what-real-try-make-sense-quantum-weirdness" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=83380" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ocean-cleanup-broken-system-other-trash-strategies" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/high-speed-video-reveals-physics-tricks-shooting-rubber-band" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-data-how-when-where-mental-disorders-start-brain" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/corn-domestication-process-long-complicated" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/dutch-universities-and-elsevier-agree-on-6-month-extension-to-current-license-agreement" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/beyond-weird-and-what-real-try-make-sense-quantum-weirdness">
+	<title>Science News: ‘Beyond Weird’ and ‘What Is Real?’ try to make sense of quantum weirdness</title>
+	<link>https://www.sciencenews.org/article/beyond-weird-and-what-real-try-make-sense-quantum-weirdness</link>
+	<content:encoded>The books ‘Beyond Weird’ and ‘What is Real?’ have different perspectives on what quantum physics says about reality.</content:encoded>
+	<dc:date>2019-01-06T13:00:05+00:00</dc:date>
+	<dc:creator>Tom Siegfried</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=83380">
 	<title>Retraction watch: Weekend reads: Conflict of interest debate roils on; fake peer review scams; amateur hour at journals</title>
 	<link>http://retractionwatch.com/2019/01/05/weekend-reads-conflict-of-interest-debate-roils-on-fake-peer-review-scams-amateur-hour-at-journals/</link>
@@ -1245,12 +1252,6 @@ Now, a year later, I'm revisting the EDOR® story, because there have been a num
 	<content:encoded>Amyloid-beta found in vials of growth hormone can move from brain to brain, a mouse study shows.</content:encoded>
 	<dc:date>2018-12-13T16:00:05+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/dutch-universities-and-elsevier-agree-on-6-month-extension-to-current-license-agreement">
-	<title>Elsevier Connect: Dutch universities and Elsevier agree on 6-month extension to current license agreement</title>
-	<link>https://www.elsevier.com/connect/dutch-universities-and-elsevier-agree-on-6-month-extension-to-current-license-agreement</link>
-	<content:encoded>The extension allows for the continuation of discussions</content:encoded>
-	<dc:date>2018-12-13T15:39:15+00:00</dc:date>
 </item>
 
 </rdf:RDF>
