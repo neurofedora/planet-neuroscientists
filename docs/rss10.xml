@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:ankursinha.in,2019-01-06:/2019/01/06/neurofedora-update-2019-week-1.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/beyond-weird-and-what-real-try-make-sense-quantum-weirdness" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=83380" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ocean-cleanup-broken-system-other-trash-strategies" />
@@ -114,11 +115,37 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35619" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-data-how-when-where-mental-disorders-start-brain" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/corn-domestication-process-long-complicated" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:ankursinha.in,2019-01-06:/2019/01/06/neurofedora-update-2019-week-1.html">
+	<title>Ankur Sinha: NeuroFedora update: 2019 week 1</title>
+	<link>http://ankursinha.in/2019/01/06/neurofedora-update-2019-week-1.html</link>
+	<content:encoded>&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/&quot;&gt;&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Happy new year, everyone! In week 1 of the year 2019:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/&quot;&gt;NeuroFedora documentation&lt;/a&gt; went up on
+&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/docs/&quot;&gt;the Fedora documentation website&lt;/a&gt;. You can find all the
+information you need on NeuroFedora there. If something is missing, please
+get in touch (or contribute!).&lt;/li&gt;
+&lt;li&gt;We announced NeuroFedora to the computational neuroscience research community
+by sending an e-mail to the &lt;a class=&quot;reference external&quot; href=&quot;http://www.tnb.ua.ac.be/pipermail/comp-neuro/2019-January/007706.html&quot;&gt;comp-neuro mailing list&lt;/a&gt;
+mailing list.&lt;/li&gt;
+&lt;li&gt;We've begun working on packaging &lt;a class=&quot;reference external&quot; href=&quot;https://www.thevirtualbrain.org/tvb/zwei/brainsimulator-software&quot;&gt;TVB&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We submitted &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;Neuron&lt;/a&gt; for
+&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1662526&quot;&gt;review&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/&quot;&gt;NeuroFedora documentation&lt;/a&gt; is available on
+&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/docs/&quot;&gt;the Fedora documentation website&lt;/a&gt;.  Feedback is always welcome.
+You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-01-06T21:04:14+00:00</dc:date>
+	<dc:creator>ankur</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/beyond-weird-and-what-real-try-make-sense-quantum-weirdness">
 	<title>Science News: ‘Beyond Weird’ and ‘What Is Real?’ try to make sense of quantum weirdness</title>
 	<link>https://www.sciencenews.org/article/beyond-weird-and-what-real-try-make-sense-quantum-weirdness</link>
@@ -1245,13 +1272,6 @@ Now, a year later, I'm revisting the EDOR® story, because there have been a num
 	<content:encoded>A DNA study challenges the idea people fully tamed maize in Mexico before the plant spread.</content:encoded>
 	<dc:date>2018-12-13T19:00:05+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections">
-	<title>Science News: Here’s a rare way that an Alzheimer’s protein can spread</title>
-	<link>https://www.sciencenews.org/article/alzheimers-protein-spread-growth-hormone-injections</link>
-	<content:encoded>Amyloid-beta found in vials of growth hormone can move from brain to brain, a mouse study shows.</content:encoded>
-	<dc:date>2018-12-13T16:00:05+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
