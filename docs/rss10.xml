@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/less-year-after-launch-tess-already-finding-bizarre-worlds" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/protein-mosquito-eggshells-could-be-insect-achilles-heel" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/periodic-table-elements-chemistry-fun-facts-history" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/periodic-table-history-chemical-elements-150-anniversary" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1890" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/alcohol-drinking-health-risk-top-science-stories-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mars-water-ice-lake-top-science-stories-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/spinal-cord-paralysis-top-science-stories-2018-yir" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/human-evolution-ingenuity-top-science-stories-2018-yir" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/assemble-top-10-list-science-news-starts-june" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/less-year-after-launch-tess-already-finding-bizarre-worlds">
+	<title>Science News: Less than a year after launch, TESS is already finding bizarre worlds</title>
+	<link>https://www.sciencenews.org/article/less-year-after-launch-tess-already-finding-bizarre-worlds</link>
+	<content:encoded>The TESS exoplanet hunter has spotted eight confirmed worlds in its first four months, and several of them are really weird.</content:encoded>
+	<dc:date>2019-01-08T21:13:34+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/protein-mosquito-eggshells-could-be-insect-achilles-heel">
+	<title>Science News: A protein in mosquito eggshells could be the insects’ Achilles’ heel</title>
+	<link>https://www.sciencenews.org/article/protein-mosquito-eggshells-could-be-insect-achilles-heel</link>
+	<content:encoded>A newly discovered protein found exclusively in mosquitoes may one day help control their numbers.</content:encoded>
+	<dc:date>2019-01-08T19:00:05+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/periodic-table-elements-chemistry-fun-facts-history">
 	<title>Science News: 150 years on, the periodic table has more stories than it has elements</title>
 	<link>https://www.sciencenews.org/article/periodic-table-elements-chemistry-fun-facts-history</link>
@@ -1738,20 +1752,6 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 	<content:encoded>A handful of people paralyzed from spinal cord injuries have learned to walk again.</content:encoded>
 	<dc:date>2018-12-17T13:19:46+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/human-evolution-ingenuity-top-science-stories-2018-yir">
-	<title>Science News: Human smarts got a surprisingly early start</title>
-	<link>https://www.sciencenews.org/article/human-evolution-ingenuity-top-science-stories-2018-yir</link>
-	<content:encoded>Human ingenuity began on treks across Asia and in fluctuating African habitats.</content:encoded>
-	<dc:date>2018-12-17T13:18:04+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/assemble-top-10-list-science-news-starts-june">
-	<title>Science News: To assemble a Top 10 list, Science News starts in June</title>
-	<link>https://www.sciencenews.org/article/assemble-top-10-list-science-news-starts-june</link>
-	<content:encoded>Editor in Chief Nancy Shute discusses creating Science News' annual Top 10 science stories of the year.</content:encoded>
-	<dc:date>2018-12-17T13:00:00+00:00</dc:date>
-	<dc:creator>Nancy Shute</dc:creator>
 </item>
 
 </rdf:RDF>
