@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9811" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=84522" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-record-breaking-government-shutdown-disrupting-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/drill-built-mars-being-used-bore-antarctic-bedrock" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sugar-makes-dna-could-be-made-space" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir" />
 			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=4478" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9811">
+	<title>Discovery magazine - Neuroskeptic: A Scientific Song of Consciousness and Self</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9811</link>
+	<content:encoded>In what may be a world first, a peer-reviewed journal, Frontiers in Psychology, has published a song.
+
+
+
+The musical contribution to science is called 'It's Hard Work Being No One', and it comes from psychologist J. Scott Jordan of the Illinois State University. Here's some of the lyrics, which deal with nothing less than the existential question of identity:
+I got a ticket on the next train to OZ
+Gotta see that crazy wizard because
+Even tin man was an I, just had no heart
+Scarecrow was</content:encoded>
+	<dc:date>2019-01-13T12:55:53+00:00</dc:date>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=84522">
 	<title>Retraction watch: Weekend reads: Fishy research on fishes; was “Sokal Squared” misconduct?; the misuse of metrics</title>
 	<link>https://retractionwatch.com/2019/01/12/weekend-reads-fishy-research-on-fishes-was-sokal-squared-misconduct-the-misuse-of-metrics/</link>
@@ -1894,13 +1908,6 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;http://yourbrainhealth.com.au/festive-food-can-affect-mood/&quot; rel=&quot;nofollow&quot;&gt;How festive food can affect your mood.&lt;/a&gt; appeared first on &lt;a href=&quot;http://yourbrainhealth.com.au&quot; rel=&quot;nofollow&quot;&gt;Your Brain Health&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2018-12-18T21:48:53+00:00</dc:date>
 	<dc:creator>Sarah McKay</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes">
-	<title>Science News: Bennu and Ryugu look like spinning tops and scientists want to know why</title>
-	<link>https://www.sciencenews.org/article/asteroids-bennu-ryugu-strange-diamond-shapes</link>
-	<content:encoded>The first high-resolution images of Bennu confirm that the asteroid looks very similar to the asteroid Ryugu.</content:encoded>
-	<dc:date>2018-12-18T19:04:54+00:00</dc:date>
-	<dc:creator>Jennifer Leman</dc:creator>
 </item>
 
 </rdf:RDF>
