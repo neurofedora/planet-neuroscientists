@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=35810" />
 			<rdf:li rdf:resource="tag:ankursinha.in,2019-01-13:/2019/01/13/neurofedora-update-2019-week-2.html" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9811" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=84522" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://medium.com/p/de0d9f15fc30" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mice-lack-stem-cells-heart-needed-self-repair" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sugar-makes-dna-could-be-made-space" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=35810">
+	<title>For Better Science: Texas Photoshop Massacre (in Nature)</title>
+	<link>https://forbetterscience.com/2019/01/14/texas-photoshop-massacre-in-nature/</link>
+	<content:encoded>The team around the paediatric oncologist Nabil Ahmed at Baylor College of Medicine in Houston, Texas, discovered a way to engineer T-leukocytes to bypass the blood-brain barrier at attack otherwise untreatable brain cancers. Their amazing technology to get this published in Nature was brazenly insolent data fakery.</content:encoded>
+	<dc:date>2019-01-14T06:00:07+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="tag:ankursinha.in,2019-01-13:/2019/01/13/neurofedora-update-2019-week-2.html">
 	<title>Ankur Sinha: NeuroFedora updated: 2019 week 2</title>
 	<link>http://ankursinha.in/2019/01/13/neurofedora-update-2019-week-2.html</link>
@@ -1985,13 +1992,6 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 	<content:encoded>Deoxyribose, the sugar of DNA, was created in a lab simulating ice in space.</content:encoded>
 	<dc:date>2018-12-19T13:00:06+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir">
-	<title>Science News: E-cigarettes caught fire among teens</title>
-	<link>https://www.sciencenews.org/article/e-cigs-use-teens-vaping-2018-yir</link>
-	<content:encoded>High schoolers’ use of e-cigarettes shot up from 2017 to 2018, and public health officials are concerned that a new generation is at risk for nicotine addiction.</content:encoded>
-	<dc:date>2018-12-19T11:00:05+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
 
 </rdf:RDF>
