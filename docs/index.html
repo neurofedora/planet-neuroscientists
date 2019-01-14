@@ -85,11 +85,138 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on January 13, 2019 06:01 PM on behalf of Ankur Sinha.
+          on January 14, 2019 12:01 AM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://ankursinha.in/2019/01/13/neurofedora-update-2019-week-2.html" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://ankursinha.in/2019/01/13/neurofedora-update-2019-week-2.html" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://ankursinha.in/2019/01/13/neurofedora-update-2019-week-2.html&title=NeuroFedora updated: 2019 week 2" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="http://ankursinha.in/2019/01/13/neurofedora-update-2019-week-2.html">NeuroFedora updated: 2019 week 2</a></h4>
+
+<div class="figure">
+<a class="reference external image-reference" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/"><img alt="NeuroFedora logo" class="img-responsive" src="http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png" style="width: 30%;" /></a>
+<p class="caption"><a class="reference external" href="https://pagure.io/design/issue/602">NeuroFedora logo by Terezahl from the Fedora Design Team</a></p>
+</div>
+<p>We had our first meeting of the year. The <a class="reference external" href="https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2019-01-11-14.00.log.html">full logs</a>
+from our meeting are available here on the <a class="reference external" href="https://meetbot.fedoraproject.org/">Fedora mote application</a>. I have pasted the minutes of the
+meeting at the end for your convenience.</p>
+<p>The meeting was broadly for the team to come together and discuss a few things.
+We checked on the status of current tasks, and discussed our future steps.
+We've got to work on our documentation, for example.  There's a lot to do, and
+a lot of cool new things to learn---in science, computing, and community
+development. If you'd like to get involved, please get in touch.</p>
+<p>We're continuing our work on including software in NeuroFedora, since that's
+the major chunk of our work load.</p>
+<hr class="docutils" />
+<div class="section" id="meeting-summary">
+<h2>Meeting summary</h2>
+<p>Meeting started by FranciscoD at 14:00:15 UTC.</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Roll call  (FranciscoD, 14:00:43)</dt>
+<dd><ul class="first last">
+<li>IRC meeting commands: <a class="reference external" href="https://fedoraproject.org/wiki/Meeting:Guide">https://fedoraproject.org/wiki/Meeting:Guide</a> (FranciscoD, 14:01:56)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Joining the team  (FranciscoD, 14:04:37)</dt>
+<dd><ul class="first last">
+<li>We need package maintainers, testers, doc writers, users---&gt; there are so
+many ways of getting involved  (FranciscoD, 14:05:30)</li>
+<li>To help with packaging, please join the neuro-sig FAS group, and then log
+out and back in to src.fp.o once your membership is approved  (FranciscoD,
+14:05:49)</li>
+<li>To join the group on pagure (where we maintain issues), please drop any of
+us a ping and we'll add you  (FranciscoD, 14:06:10)</li>
+<li>Our channels: #fedora-neuro on IRC, <a class="reference external" href="https://t.me/NeuroFedora">https://t.me/NeuroFedora</a> on Telegram,
+<a class="reference external" href="mailto:neuro-sig@lists.fp.o">neuro-sig@lists.fp.o</a> is our ML  (FranciscoD, 14:07:07)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora">https://pagure.io/neuro-sig/NeuroFedora</a> -&gt; housekeeping repo (FranciscoD, 14:07:57)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/documentation">https://pagure.io/neuro-sig/documentation</a> -&gt; documentation repo (FranciscoD, 14:08:05)</li>
+<li>Tickets:
+<a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?tags=S%3A+Next+meeting">https://pagure.io/neuro-sig/NeuroFedora/issues?tags=S%3A+Next+meeting</a>
+(FranciscoD, 14:11:56)</li>
+<li>Additional agenda item: prioritise packages so we have some order in which
+to go about them  (FranciscoD, 14:12:36)</li>
+<li>Poster at CNS: <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/189">https://pagure.io/neuro-sig/NeuroFedora/issue/189</a>
+(FranciscoD, 14:13:49)</li>
+<li>Annual organisation for computational neuroscience conference is at
+Barcelona in July this year: <a class="reference external" href="https://www.cnsorg.org/cns-2019">https://www.cnsorg.org/cns-2019</a> (FranciscoD,
+14:14:18)</li>
+<li>Everyone that contributes in any way will be a mentioned in the author
+list  (FranciscoD, 14:14:53)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/188">https://pagure.io/neuro-sig/NeuroFedora/issue/188</a> -&gt; Own neurofedora.org?
+(FranciscoD, 14:16:20)</li>
+<li>AGREED: Use neuro.fp.o (+5, -0)  (FranciscoD, 14:18:28)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/152">https://pagure.io/neuro-sig/NeuroFedora/issue/152</a> -&gt; Organisational blog
+on neurofedora.github.io?  (FranciscoD, 14:19:08)</li>
+<li>We do have a github organisation: <a class="reference external" href="https://github.com/neurofedora">https://github.com/neurofedora</a>
+(FranciscoD, 14:19:26)</li>
+<li>AGREED: FranciscoD publish updates on his blog for the time being.
+Organisational blog to be revisited in the future (+6, -0) (FranciscoD,
+14:26:45)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/8">https://pagure.io/neuro-sig/NeuroFedora/issue/8</a> -&gt; A web location for
+user-end troubleshooting?  (FranciscoD, 14:27:01)</li>
+<li><a class="reference external" href="https://neurostars.org/">https://neurostars.org/</a> -&gt; NeuroStars generic troubleshooting form
+(FranciscoD, 14:29:51)</li>
+<li>A list of neuroscience resources is here:
+<a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/related-links/">https://docs.fedoraproject.org/en-US/neurofedora/related-links/</a>
+(FranciscoD, 14:30:14)</li>
+<li>A new FAS (better interface etc) is being planned, but there's no ETA of
+when it'll be ready for deployment  (FranciscoD, 14:33:55)</li>
+<li>ACTION: FranciscoD update docs to request users to file bugs on pagure
+(FranciscoD, 14:35:34)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/121">https://pagure.io/neuro-sig/NeuroFedora/issue/121</a> -&gt; Add comps groups
+(FranciscoD, 14:35:46)</li>
+<li>Neuron (without MPI/Python) is currently in review:
+<a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=1662526">https://bugzilla.redhat.com/show_bug.cgi?id=1662526</a>  (FranciscoD,
+14:37:30)</li>
+<li>Link to our suggestion form is here:
+<a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_suggest_software_for_inclusion">https://docs.fedoraproject.org/en-US/neurofedora/overview/#_suggest_software_for_inclusion</a>
+(FranciscoD, 14:39:06)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/180">https://pagure.io/neuro-sig/NeuroFedora/issue/180</a> -&gt; Docker images for
+NEST  (FranciscoD, 14:41:26)</li>
+<li>ACTION: FranciscoD create new page for third party software resources in
+docs  (FranciscoD, 14:49:18)</li>
+<li>ACTION: FranciscoD add <a class="reference external" href="https://flathub.org/apps/details/org.gnode.NixView">https://flathub.org/apps/details/org.gnode.NixView</a>
+to "third party sources list" on docs  (FranciscoD, 14:50:38)</li>
+<li>LINK: <a class="reference external" href="https://github.com/G-Node/nix/">https://github.com/G-Node/nix/</a>   (gicmo, 14:53:20)</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/155">https://pagure.io/neuro-sig/NeuroFedora/issue/155</a> -&gt; Including packages
+that need Matlab at runtime  (FranciscoD, 14:55:27)</li>
+<li>Prioritise python over Matlab/Octave  (FranciscoD, 14:57:56)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Open floor  (FranciscoD, 14:58:50)</dt>
+<dd><ul class="first last">
+<li>ACTION: FranciscoD add a page "neuroscience resources for beginners"
+(FranciscoD, 15:03:56)</li>
+<li>LINK: <a class="reference external" href="https://labs.fedoraproject.org/">https://labs.fedoraproject.org/</a> -&gt; I mean these  (FranciscoD,
+15:05:12)</li>
+<li>ACTION: FranciscoD send out logs  (FranciscoD, 15:06:28)</li>
+<li>ACTION: FranciscoD summarise meeting discussion in next blog post
+(FranciscoD, 15:06:38)</li>
+<li>LoKoMurdoK and zbyszek are package maintainer sponsors  (FranciscoD,
+15:08:33)</li>
+<li>Thanks gicmo pac23 zbyszek LoKoMurdoK blackfile mhough for coming, and
+helping out  (FranciscoD, 15:09:35)</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Meeting ended at 15:10:43 UTC.</p>
+<hr class="docutils" />
+<p><a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/">NeuroFedora documentation</a> is available on
+<a class="reference external" href="https://docs.fedoraproject.org/en-US/docs/">the Fedora documentation website</a>.  Feedback is always welcome.
+You can get in touch with us <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help">here</a>.</p>
+</div>
+                <p class="text-muted">in <a href="http://ankursinha.in/">Ankur Sinha</a> on January 13, 2019 08:55 PM.</p>
+              </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.discovermagazine.com/neuroskeptic/?p=9811" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.discovermagazine.com/neuroskeptic/?p=9811" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.discovermagazine.com/neuroskeptic/?p=9811&title=A Scientific Song of Consciousness and Self" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="http://blogs.discovermagazine.com/neuroskeptic/?p=9811">A Scientific Song of Consciousness and Self</a></h4>
@@ -1844,49 +1971,6 @@ Deoxyribose, the sugar of DNA, was created in a lab simulating ice in space.
 
 High schoolers’ use of e-cigarettes shot up from 2017 to 2018, and public health officials are concerned that a new generation is at risk for nicotine addiction.
                 <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on December 19, 2018 11:00 AM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://yourbrainhealth.com.au/festive-food-can-affect-mood/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://yourbrainhealth.com.au/festive-food-can-affect-mood/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://yourbrainhealth.com.au/festive-food-can-affect-mood/&title=How festive food can affect your mood." target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://yourbrainhealth.com.au/festive-food-can-affect-mood/">How festive food can affect your mood.</a></h4>
-
-<p><img alt="cookie-1786768_1280" class="size-large wp-image-4479 aligncenter" height="682" src="http://yourbrainhealth.com.au/wp/wp-content/uploads/2016/12/cookie-1786768_1280-1024x682.jpg" width="1024" /></p>
-<p>End of year festivities are now in full swing with our focus on friends, family and food. In this blog, I look at how diet can affect your mental health, and share some healthy eating tips to get you through the silly season without the mood swings and guilt.</p>
-<h2>Does diet affect mental health?</h2>
-<p>If you’re in a negative mood, you’re more likely to choose indulgent, comfort foods that are sugary, fatty or salty instead of opting for nutritious options.</p>
-<p>We have anecdotal evidence to support the notion that how you feel affects the foods you choose to eat.</p>
-<p>Until recently, what was less understood was the causal relationship between food and how it affected mood.</p>
-<h2>The SMILES trial – evidence at last!</h2>
-<p>Associate Professor Felice Jacka, Deakin University researcher and founder of the International Society for Nutritional Psychiatry, and her team have recently conducted a small <a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-017-0791-y">clinical trial</a> of 67 people suffering symptoms of depression and found a link between diet and their mental health.</p>
-<p>In the study, half of the participants were encouraged to follow a Modified Mediterranean Diet, which was constructed using existing dietary guidelines from Greece and Australia, <em>traditional</em> Mediterranean diet principles. Everyone was coached by a dietician. A comparison group of people with the same symptoms, were offered social support only.</p>
-<p>The results of the <a href="https://foodandmoodcentre.com.au/media/smiles-trial/">SMILES study,</a> published in the international journal <em>BMC Medicine</em>, showed that participants in the dietary intervention group had a much greater reduction in their depressive symptoms over the three-month period, compared to those in the social support group.</p>
-<p>At the end of the trial, a third of those in the dietary support group met criteria for remission of major depression, compared to 8 percent of those in the social support group.</p>
-<p><a href="http://www.abc.net.au/radionational/programs/rnfirstbite/diet-for-mental-health/5802234" rel="noopener" target="_blank">Jacka says</a>,</p>
-<blockquote><p>“Research now suggests that depression and dementia are affected by the quality of our diets across the life course. Research also shows that adults who eat more unhealthy junk foods are at increased risk of depression.”</p></blockquote>
-<p>This is also the case in teenagers.</p>
-<blockquote><p>“We see a pretty clear dose-response relationships between their diet and level of mental health and wellbeing. In particular, those that had low scores on what we call an unhealthy dietary pattern were worse off, and those who had a higher score on the nutrient-dense dietary pattern were better off.”</p></blockquote>
-<h2>What foods should I choose to improve mood?</h2>
-<p>The ‘bad-mood food’ culprits are what you might expect. As Jacka <a href="http://www.abc.net.au/health/talkinghealth/factbuster/stories/2014/10/02/4098166.htm" rel="noopener" target="_blank">explains</a>,</p>
-<blockquote><p>“Highly-processed snack and takeaway food products, rich in tasty fat and sugar, have now displaced much of the fruit, vegetables and other nutritious, unprocessed foods in our diets.”</p></blockquote>
-<p>Healthy, nutrient-dense dietary patterns, such as the Mediterranean diet, seem to protect against developing depression, and also dementia. Jacka says,</p>
-<blockquote><p>“The strongest evidence-base we have is for the Mediterranean diet, and it is what we should be advocating for everyone.”</p></blockquote>
-<p>A Mediterranean type diet (which is <em>not</em> red wine based!) is characterised by high consumption of plants (vegetables, fruits, legumes, nuts, and whole grains), is rich in healthy fats from generous consumption of fish and olive oil, is low in red meat and dairy, and allows for moderate consumption of red wine with meals.</p>
-<h2>Tips for healthy eating over the festive season.</h2>
-<p>Tis the season to be jolly!</p>
-<p>Here are some easy brain-healthy choices you can make to keep you feeling joyful at your next BBQ or end of year party:</p>
-<ul>
-<li>Instead of only snacking on chips, try a few raw nuts too (just not the salted and roasted kind!).</li>
-<li>Load up your plate with salad or veggies first — you’ll leave less room for meat, bread or potatoes.</li>
-<li>Swap the BBQ lamb chop or steak for salmon. Omega-3 fats in fish reduce inflammation, which may contribute to an increased risk of depression or anxiety.</li>
-<li>Add some legumes (beans, chickpeas or lentils) to your plate. Your gut will love the extra fibre, and evidence is building that a healthy gut microbiome is linked to better mental health.</li>
-<li>High-quality extra-virgin olive oil seasoned with balsamic vinegar is delicious for dipping wholegrain bread, and is a healthy alternative to butter or margarine.</li>
-<li>Enjoy prawns and turkey. Both are rich in tryptophan an essential amino acid that is the precursor for the neurotransmitter (brain chemical) serotonin.</li>
-<li>Swap the pavlova for fresh fruit (or at least choose both!). Or, if you must indulge, save the sweet treats for a special occasion like Christmas day.</li>
-<li>Cheers! Enjoy a glass of red wine with friends and family. Social connection is one of the best protective factors against mental health problems and cognitive decline.</li>
-</ul>
-<hr />
-<p>A version of this post was originally published in ABC Active Memory. The site retired in 2017.</p>
-<p>The post <a href="http://yourbrainhealth.com.au/festive-food-can-affect-mood/" rel="nofollow">How festive food can affect your mood.</a> appeared first on <a href="http://yourbrainhealth.com.au" rel="nofollow">Your Brain Health</a>.</p>
-                <p class="text-muted">in <a href="http://yourbrainhealth.com.au">Yourbrainhealth</a> on December 18, 2018 09:48 PM.</p>
               </li>
           </ul>
         </div>

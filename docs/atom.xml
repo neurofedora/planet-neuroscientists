@@ -5,8 +5,148 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2019-01-13T18:01:14+00:00</updated>
+	<updated>2019-01-14T00:01:14+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">NeuroFedora updated: 2019 week 2</title>
+		<link href="http://ankursinha.in/2019/01/13/neurofedora-update-2019-week-2.html"/>
+		<id>tag:ankursinha.in,2019-01-13:/2019/01/13/neurofedora-update-2019-week-2.html</id>
+		<updated>2019-01-13T20:55:44+00:00</updated>
+		<content type="html">
+ &lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/&quot;&gt;&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;http://ankursinha.in/images/20181005-NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;We had our first meeting of the year. The &lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2019-01-11-14.00.log.html&quot;&gt;full logs&lt;/a&gt;
+from our meeting are available here on the &lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/&quot;&gt;Fedora mote application&lt;/a&gt;. I have pasted the minutes of the
+meeting at the end for your convenience.&lt;/p&gt;
+&lt;p&gt;The meeting was broadly for the team to come together and discuss a few things.
+We checked on the status of current tasks, and discussed our future steps.
+We've got to work on our documentation, for example.  There's a lot to do, and
+a lot of cool new things to learn---in science, computing, and community
+development. If you'd like to get involved, please get in touch.&lt;/p&gt;
+&lt;p&gt;We're continuing our work on including software in NeuroFedora, since that's
+the major chunk of our work load.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;div class=&quot;section&quot; id=&quot;meeting-summary&quot;&gt;
+&lt;h2&gt;Meeting summary&lt;/h2&gt;
+&lt;p&gt;Meeting started by FranciscoD at 14:00:15 UTC.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;dl class=&quot;first docutils&quot;&gt;
+&lt;dt&gt;Roll call  (FranciscoD, 14:00:43)&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&quot;first last&quot;&gt;
+&lt;li&gt;IRC meeting commands: &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Meeting:Guide&quot;&gt;https://fedoraproject.org/wiki/Meeting:Guide&lt;/a&gt; (FranciscoD, 14:01:56)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class=&quot;first docutils&quot;&gt;
+&lt;dt&gt;Joining the team  (FranciscoD, 14:04:37)&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&quot;first last&quot;&gt;
+&lt;li&gt;We need package maintainers, testers, doc writers, users---&amp;gt; there are so
+many ways of getting involved  (FranciscoD, 14:05:30)&lt;/li&gt;
+&lt;li&gt;To help with packaging, please join the neuro-sig FAS group, and then log
+out and back in to src.fp.o once your membership is approved  (FranciscoD,
+14:05:49)&lt;/li&gt;
+&lt;li&gt;To join the group on pagure (where we maintain issues), please drop any of
+us a ping and we'll add you  (FranciscoD, 14:06:10)&lt;/li&gt;
+&lt;li&gt;Our channels: #fedora-neuro on IRC, &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt; on Telegram,
+&lt;a class=&quot;reference external&quot; href=&quot;mailto:neuro-sig@lists.fp.o&quot;&gt;neuro-sig@lists.fp.o&lt;/a&gt; is our ML  (FranciscoD, 14:07:07)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora&lt;/a&gt; -&amp;gt; housekeeping repo (FranciscoD, 14:07:57)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/documentation&quot;&gt;https://pagure.io/neuro-sig/documentation&lt;/a&gt; -&amp;gt; documentation repo (FranciscoD, 14:08:05)&lt;/li&gt;
+&lt;li&gt;Tickets:
+&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?tags=S%3A+Next+meeting&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issues?tags=S%3A+Next+meeting&lt;/a&gt;
+(FranciscoD, 14:11:56)&lt;/li&gt;
+&lt;li&gt;Additional agenda item: prioritise packages so we have some order in which
+to go about them  (FranciscoD, 14:12:36)&lt;/li&gt;
+&lt;li&gt;Poster at CNS: &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/189&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/189&lt;/a&gt;
+(FranciscoD, 14:13:49)&lt;/li&gt;
+&lt;li&gt;Annual organisation for computational neuroscience conference is at
+Barcelona in July this year: &lt;a class=&quot;reference external&quot; href=&quot;https://www.cnsorg.org/cns-2019&quot;&gt;https://www.cnsorg.org/cns-2019&lt;/a&gt; (FranciscoD,
+14:14:18)&lt;/li&gt;
+&lt;li&gt;Everyone that contributes in any way will be a mentioned in the author
+list  (FranciscoD, 14:14:53)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/188&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/188&lt;/a&gt; -&amp;gt; Own neurofedora.org?
+(FranciscoD, 14:16:20)&lt;/li&gt;
+&lt;li&gt;AGREED: Use neuro.fp.o (+5, -0)  (FranciscoD, 14:18:28)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/152&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/152&lt;/a&gt; -&amp;gt; Organisational blog
+on neurofedora.github.io?  (FranciscoD, 14:19:08)&lt;/li&gt;
+&lt;li&gt;We do have a github organisation: &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/neurofedora&quot;&gt;https://github.com/neurofedora&lt;/a&gt;
+(FranciscoD, 14:19:26)&lt;/li&gt;
+&lt;li&gt;AGREED: FranciscoD publish updates on his blog for the time being.
+Organisational blog to be revisited in the future (+6, -0) (FranciscoD,
+14:26:45)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/8&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/8&lt;/a&gt; -&amp;gt; A web location for
+user-end troubleshooting?  (FranciscoD, 14:27:01)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neurostars.org/&quot;&gt;https://neurostars.org/&lt;/a&gt; -&amp;gt; NeuroStars generic troubleshooting form
+(FranciscoD, 14:29:51)&lt;/li&gt;
+&lt;li&gt;A list of neuroscience resources is here:
+&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/related-links/&quot;&gt;https://docs.fedoraproject.org/en-US/neurofedora/related-links/&lt;/a&gt;
+(FranciscoD, 14:30:14)&lt;/li&gt;
+&lt;li&gt;A new FAS (better interface etc) is being planned, but there's no ETA of
+when it'll be ready for deployment  (FranciscoD, 14:33:55)&lt;/li&gt;
+&lt;li&gt;ACTION: FranciscoD update docs to request users to file bugs on pagure
+(FranciscoD, 14:35:34)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/121&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/121&lt;/a&gt; -&amp;gt; Add comps groups
+(FranciscoD, 14:35:46)&lt;/li&gt;
+&lt;li&gt;Neuron (without MPI/Python) is currently in review:
+&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1662526&quot;&gt;https://bugzilla.redhat.com/show_bug.cgi?id=1662526&lt;/a&gt;  (FranciscoD,
+14:37:30)&lt;/li&gt;
+&lt;li&gt;Link to our suggestion form is here:
+&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_suggest_software_for_inclusion&quot;&gt;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_suggest_software_for_inclusion&lt;/a&gt;
+(FranciscoD, 14:39:06)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/180&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/180&lt;/a&gt; -&amp;gt; Docker images for
+NEST  (FranciscoD, 14:41:26)&lt;/li&gt;
+&lt;li&gt;ACTION: FranciscoD create new page for third party software resources in
+docs  (FranciscoD, 14:49:18)&lt;/li&gt;
+&lt;li&gt;ACTION: FranciscoD add &lt;a class=&quot;reference external&quot; href=&quot;https://flathub.org/apps/details/org.gnode.NixView&quot;&gt;https://flathub.org/apps/details/org.gnode.NixView&lt;/a&gt;
+to &quot;third party sources list&quot; on docs  (FranciscoD, 14:50:38)&lt;/li&gt;
+&lt;li&gt;LINK: &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/G-Node/nix/&quot;&gt;https://github.com/G-Node/nix/&lt;/a&gt;   (gicmo, 14:53:20)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/155&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/155&lt;/a&gt; -&amp;gt; Including packages
+that need Matlab at runtime  (FranciscoD, 14:55:27)&lt;/li&gt;
+&lt;li&gt;Prioritise python over Matlab/Octave  (FranciscoD, 14:57:56)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;dl class=&quot;first docutils&quot;&gt;
+&lt;dt&gt;Open floor  (FranciscoD, 14:58:50)&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class=&quot;first last&quot;&gt;
+&lt;li&gt;ACTION: FranciscoD add a page &quot;neuroscience resources for beginners&quot;
+(FranciscoD, 15:03:56)&lt;/li&gt;
+&lt;li&gt;LINK: &lt;a class=&quot;reference external&quot; href=&quot;https://labs.fedoraproject.org/&quot;&gt;https://labs.fedoraproject.org/&lt;/a&gt; -&amp;gt; I mean these  (FranciscoD,
+15:05:12)&lt;/li&gt;
+&lt;li&gt;ACTION: FranciscoD send out logs  (FranciscoD, 15:06:28)&lt;/li&gt;
+&lt;li&gt;ACTION: FranciscoD summarise meeting discussion in next blog post
+(FranciscoD, 15:06:38)&lt;/li&gt;
+&lt;li&gt;LoKoMurdoK and zbyszek are package maintainer sponsors  (FranciscoD,
+15:08:33)&lt;/li&gt;
+&lt;li&gt;Thanks gicmo pac23 zbyszek LoKoMurdoK blackfile mhough for coming, and
+helping out  (FranciscoD, 15:09:35)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meeting ended at 15:10:43 UTC.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/&quot;&gt;NeuroFedora documentation&lt;/a&gt; is available on
+&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/docs/&quot;&gt;the Fedora documentation website&lt;/a&gt;.  Feedback is always welcome.
+You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<author>
+			<name>ankur</name>
+			<uri>http://ankursinha.in/</uri>
+		</author>
+		<source>
+			<title type="html">ankursinha.in/blog - Planet</title>
+			<subtitle type="html">neuroscience/fedora/musings</subtitle>
+			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
+			<id>http://ankursinha.in/</id>
+			<updated>2019-01-13T20:55:44+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">A Scientific Song of Consciousness and Self</title>
@@ -180,7 +320,7 @@ Scarecrow was</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -432,7 +572,7 @@ Scarecrow was</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -717,7 +857,7 @@ Scarecrow was</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -779,7 +919,7 @@ Scarecrow was</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-01-13T18:00:32+00:00</updated>
+			<updated>2019-01-14T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1411,7 +1551,7 @@ Scarecrow was</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1582,7 +1722,7 @@ Scarecrow was</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1622,7 +1762,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<subtitle type="html">neuroscience/fedora/musings</subtitle>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2019-01-06T21:04:14+00:00</updated>
+			<updated>2019-01-13T20:55:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -1770,7 +1910,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1790,7 +1930,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-01-13T18:00:32+00:00</updated>
+			<updated>2019-01-14T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1934,7 +2074,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2040,7 +2180,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-01-13T18:00:31+00:00</updated>
+			<updated>2019-01-14T00:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2082,7 +2222,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2019-01-13T10:36:38+00:00</updated>
+			<updated>2019-01-13T23:15:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2328,7 +2468,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-01-13T18:00:32+00:00</updated>
+			<updated>2019-01-14T00:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -2408,7 +2548,7 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2019-01-13T10:36:38+00:00</updated>
+			<updated>2019-01-13T23:15:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2456,7 +2596,7 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 			<subtitle type="html">neuroscience/fedora/musings</subtitle>
 			<link rel="self" href="http://ankursinha.in/feeds/tags/planet.atom.xml"/>
 			<id>http://ankursinha.in/</id>
-			<updated>2019-01-06T21:04:14+00:00</updated>
+			<updated>2019-01-13T20:55:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -2710,7 +2850,7 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-01-13T18:00:32+00:00</updated>
+			<updated>2019-01-14T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2924,7 +3064,7 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2019-01-13T18:00:38+00:00</updated>
+			<updated>2019-01-14T00:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2982,62 +3122,6 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2019-01-02T00:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">How festive food can affect your mood.</title>
-		<link href="http://yourbrainhealth.com.au/festive-food-can-affect-mood/"/>
-		<id>http://yourbrainhealth.com.au/?p=4478</id>
-		<updated>2018-12-18T21:48:53+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;&lt;img alt=&quot;cookie-1786768_1280&quot; class=&quot;size-large wp-image-4479 aligncenter&quot; height=&quot;682&quot; src=&quot;http://yourbrainhealth.com.au/wp/wp-content/uploads/2016/12/cookie-1786768_1280-1024x682.jpg&quot; width=&quot;1024&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;End of year festivities are now in full swing with our focus on friends, family and food. In this blog, I look at how diet can affect your mental health, and share some healthy eating tips to get you through the silly season without the mood swings and guilt.&lt;/p&gt;
-&lt;h2&gt;Does diet affect mental health?&lt;/h2&gt;
-&lt;p&gt;If you’re in a negative mood, you’re more likely to choose indulgent, comfort foods that are sugary, fatty or salty instead of opting for nutritious options.&lt;/p&gt;
-&lt;p&gt;We have anecdotal evidence to support the notion that how you feel affects the foods you choose to eat.&lt;/p&gt;
-&lt;p&gt;Until recently, what was less understood was the causal relationship between food and how it affected mood.&lt;/p&gt;
-&lt;h2&gt;The SMILES trial – evidence at last!&lt;/h2&gt;
-&lt;p&gt;Associate Professor Felice Jacka, Deakin University researcher and founder of the International Society for Nutritional Psychiatry, and her team have recently conducted a small &lt;a href=&quot;https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-017-0791-y&quot;&gt;clinical trial&lt;/a&gt; of 67 people suffering symptoms of depression and found a link between diet and their mental health.&lt;/p&gt;
-&lt;p&gt;In the study, half of the participants were encouraged to follow a Modified Mediterranean Diet, which was constructed using existing dietary guidelines from Greece and Australia, &lt;em&gt;traditional&lt;/em&gt; Mediterranean diet principles. Everyone was coached by a dietician. A comparison group of people with the same symptoms, were offered social support only.&lt;/p&gt;
-&lt;p&gt;The results of the &lt;a href=&quot;https://foodandmoodcentre.com.au/media/smiles-trial/&quot;&gt;SMILES study,&lt;/a&gt; published in the international journal &lt;em&gt;BMC Medicine&lt;/em&gt;, showed that participants in the dietary intervention group had a much greater reduction in their depressive symptoms over the three-month period, compared to those in the social support group.&lt;/p&gt;
-&lt;p&gt;At the end of the trial, a third of those in the dietary support group met criteria for remission of major depression, compared to 8 percent of those in the social support group.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.abc.net.au/radionational/programs/rnfirstbite/diet-for-mental-health/5802234&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Jacka says&lt;/a&gt;,&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;“Research now suggests that depression and dementia are affected by the quality of our diets across the life course. Research also shows that adults who eat more unhealthy junk foods are at increased risk of depression.”&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;This is also the case in teenagers.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;“We see a pretty clear dose-response relationships between their diet and level of mental health and wellbeing. In particular, those that had low scores on what we call an unhealthy dietary pattern were worse off, and those who had a higher score on the nutrient-dense dietary pattern were better off.”&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2&gt;What foods should I choose to improve mood?&lt;/h2&gt;
-&lt;p&gt;The ‘bad-mood food’ culprits are what you might expect. As Jacka &lt;a href=&quot;http://www.abc.net.au/health/talkinghealth/factbuster/stories/2014/10/02/4098166.htm&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;explains&lt;/a&gt;,&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;“Highly-processed snack and takeaway food products, rich in tasty fat and sugar, have now displaced much of the fruit, vegetables and other nutritious, unprocessed foods in our diets.”&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Healthy, nutrient-dense dietary patterns, such as the Mediterranean diet, seem to protect against developing depression, and also dementia. Jacka says,&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;“The strongest evidence-base we have is for the Mediterranean diet, and it is what we should be advocating for everyone.”&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;A Mediterranean type diet (which is &lt;em&gt;not&lt;/em&gt; red wine based!) is characterised by high consumption of plants (vegetables, fruits, legumes, nuts, and whole grains), is rich in healthy fats from generous consumption of fish and olive oil, is low in red meat and dairy, and allows for moderate consumption of red wine with meals.&lt;/p&gt;
-&lt;h2&gt;Tips for healthy eating over the festive season.&lt;/h2&gt;
-&lt;p&gt;Tis the season to be jolly!&lt;/p&gt;
-&lt;p&gt;Here are some easy brain-healthy choices you can make to keep you feeling joyful at your next BBQ or end of year party:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Instead of only snacking on chips, try a few raw nuts too (just not the salted and roasted kind!).&lt;/li&gt;
-&lt;li&gt;Load up your plate with salad or veggies first — you’ll leave less room for meat, bread or potatoes.&lt;/li&gt;
-&lt;li&gt;Swap the BBQ lamb chop or steak for salmon. Omega-3 fats in fish reduce inflammation, which may contribute to an increased risk of depression or anxiety.&lt;/li&gt;
-&lt;li&gt;Add some legumes (beans, chickpeas or lentils) to your plate. Your gut will love the extra fibre, and evidence is building that a healthy gut microbiome is linked to better mental health.&lt;/li&gt;
-&lt;li&gt;High-quality extra-virgin olive oil seasoned with balsamic vinegar is delicious for dipping wholegrain bread, and is a healthy alternative to butter or margarine.&lt;/li&gt;
-&lt;li&gt;Enjoy prawns and turkey. Both are rich in tryptophan an essential amino acid that is the precursor for the neurotransmitter (brain chemical) serotonin.&lt;/li&gt;
-&lt;li&gt;Swap the pavlova for fresh fruit (or at least choose both!). Or, if you must indulge, save the sweet treats for a special occasion like Christmas day.&lt;/li&gt;
-&lt;li&gt;Cheers! Enjoy a glass of red wine with friends and family. Social connection is one of the best protective factors against mental health problems and cognitive decline.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;A version of this post was originally published in ABC Active Memory. The site retired in 2017.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://yourbrainhealth.com.au/festive-food-can-affect-mood/&quot; rel=&quot;nofollow&quot;&gt;How festive food can affect your mood.&lt;/a&gt; appeared first on &lt;a href=&quot;http://yourbrainhealth.com.au&quot; rel=&quot;nofollow&quot;&gt;Your Brain Health&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Sarah McKay</name>
-			<uri>http://yourbrainhealth.com.au</uri>
-		</author>
-		<source>
-			<title type="html">Your Brain Health</title>
-			<subtitle type="html">Discover neuroscience. Explore the brain. Understand your mind.</subtitle>
-			<link rel="self" href="http://yourbrainhealth.com.au/feed/"/>
-			<id>http://yourbrainhealth.com.au</id>
-			<updated>2019-01-12T00:00:42+00:00</updated>
 		</source>
 	</entry>
 
