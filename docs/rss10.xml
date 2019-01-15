@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-3d-printed-sponge-sops-excess-chemo-cancer-drugs" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-suspected-exomoon-may-remain-hidden-another-decade" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=84701" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36020" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/easing-test-anxiety-boosts-low-income-students-biology-grades" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-reptile-pterosaur-fossils-fur-primitive-feathers" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1847" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/christmas-holiday-decorations-injuries-emergency-room" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-plants-survived-world-greatest-mass-extinction" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/bethany-brookshire-blog" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-3d-printed-sponge-sops-excess-chemo-cancer-drugs">
+	<title>Science News: A new 3-D printed ‘sponge’ sops up excess chemo drugs</title>
+	<link>https://www.sciencenews.org/article/new-3d-printed-sponge-sops-excess-chemo-cancer-drugs</link>
+	<content:encoded>Researchers have created “sponges” that would absorb excess cancer drugs before they spread through the body and cause negative side effects.</content:encoded>
+	<dc:date>2019-01-15T14:00:05+00:00</dc:date>
+	<dc:creator>Esther Landhuis</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/first-suspected-exomoon-may-remain-hidden-another-decade">
+	<title>Science News: The first suspected exomoon may remain hidden for another decade</title>
+	<link>https://www.sciencenews.org/article/first-suspected-exomoon-may-remain-hidden-another-decade</link>
+	<content:encoded>The discoverers of the first evidence for a moon orbiting a planet around a distant star are still trying to confirm the object’s existence.</content:encoded>
+	<dc:date>2019-01-15T12:00:04+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=84701">
 	<title>Retraction watch: After more than a year of back and forth, an accounting journal retracts a paper on tax avoidance</title>
 	<link>https://retractionwatch.com/2019/01/15/after-more-than-a-year-of-back-and-forth-an-accounting-journal-retracts-a-paper-on-tax-avoidance/</link>
@@ -1843,20 +1857,6 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 	<content:encoded>A study takes a stab at quantifying Christmas-related mishaps.</content:encoded>
 	<dc:date>2018-12-20T21:21:44+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/more-plants-survived-world-greatest-mass-extinction">
-	<title>Science News: More plants survived the world’s greatest mass extinction than thought</title>
-	<link>https://www.sciencenews.org/article/more-plants-survived-world-greatest-mass-extinction</link>
-	<content:encoded>Fossil plants from Jordan reveal more plant lineages that made it through the Great Dying roughly 252 million years ago.</content:encoded>
-	<dc:date>2018-12-20T19:12:37+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/scicurious/bethany-brookshire-blog">
-	<title>Science News: This blog is dead. Long live the blog.</title>
-	<link>https://www.sciencenews.org/blog/scicurious/bethany-brookshire-blog</link>
-	<content:encoded>Blogs are synonymous with the early internet. But what is a blog, and what has it become? A blog is a platform. And this one, Scicurious, is now gone.</content:encoded>
-	<dc:date>2018-12-20T18:00:06+00:00</dc:date>
-	<dc:creator>Bethany Brookshire</dc:creator>
 </item>
 
 </rdf:RDF>
