@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/easing-test-anxiety-boosts-low-income-students-biology-grades" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cow-cosmic-flare-new-star-death-supernova-black-hole" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/desalination-pours-more-toxic-brine-ocean-previously-thought" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35990" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/scicurious/bethany-brookshire-blog" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/metoo-movement-workplace-policies-science-2018-yir" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/neurogenesis-brain-neurons-2018-yir" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=34335" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/easing-test-anxiety-boosts-low-income-students-biology-grades">
+	<title>Science News: Easing test anxiety boosts low-income students’ biology grades</title>
+	<link>https://www.sciencenews.org/article/easing-test-anxiety-boosts-low-income-students-biology-grades</link>
+	<content:encoded>Wealthier students outperform their less advantaged peers in math and science. Decreasing test anxiety may help even the playing field.</content:encoded>
+	<dc:date>2019-01-14T20:00:04+00:00</dc:date>
+	<dc:creator>Sujata Gupta</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/cow-cosmic-flare-new-star-death-supernova-black-hole">
 	<title>Science News: A cosmic flare called the ‘Cow’ may reveal a new way that stars die</title>
 	<link>https://www.sciencenews.org/article/cow-cosmic-flare-new-star-death-supernova-black-hole</link>
@@ -1842,13 +1849,6 @@ connectivity. I may not reply to e-mails until I return.&lt;/p&gt;
 	<content:encoded>It’s not yet time to abandon the idea that adult human brains make new nerve cells.</content:encoded>
 	<dc:date>2018-12-20T12:00:06+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=34335">
-	<title>For Better Science: Frontiers: a danger for public health?</title>
-	<link>https://forbetterscience.com/2018/12/20/frontiers-a-danger-for-public-health/</link>
-	<content:encoded>Frontiers is a somewhat unconventional open access publisher, which likes to have it both ways: playing scientific elite while accepting almost anything from paying customers. My regular contributor Smut Clyde will tell you below how some anti-vaccine scare-mongers managed to sneak in some rather dangerous works thanks to Frontiers' unofficial &quot;we don't judge, we just charge&quot; quasi-policy.</content:encoded>
-	<dc:date>2018-12-20T06:00:16+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
