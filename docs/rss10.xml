@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=85003" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cryptic-remains-tiny-animals-antarctic-lake-mercer" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/prosecco-production-toll-northeast-italy-soil-environment" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/honeybee-parasite-may-be-more-fat-stealer-bloodsucker" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=35352" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1913" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-tests-lassa-virus-mid-outbreak-nigeria-response" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/physics-fluids-explains-how-crowds-marathon-runners-move" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://retractionwatch.com/?p=85003">
+	<title>Retraction watch: Weekend reads: #MeToo in a political science journal; 15 articles that challenged dogma in 2018; an entire editorial board resigns</title>
+	<link>https://retractionwatch.com/2019/01/19/weekend-reads-metoo-in-a-political-science-journal-15-articles-that-challenged-dogma-in-2018-an-entire-editorial-board-resigns/</link>
+	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a sixth retraction for a researcher cleared of misconduct; a … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/01/19/weekend-reads-metoo-in-a-political-science-journal-15-articles-that-challenged-dogma-in-2018-an-entire-editorial-board-resigns/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: #MeToo in a political science journal; 15 articles that challenged dogma in 2018; an entire editorial board resigns&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-01-19T14:13:16+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/cryptic-remains-tiny-animals-antarctic-lake-mercer">
 	<title>Science News: Cryptic remains of tiny animals have turned up in an Antarctic lake</title>
 	<link>https://www.sciencenews.org/article/cryptic-remains-tiny-animals-antarctic-lake-mercer</link>
@@ -1904,13 +1911,6 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 	<content:encoded>New technology for analyzing genetic data quickly in the field guided how Nigeria dealt with an outbreak of Lassa fever in 2018.</content:encoded>
 	<dc:date>2019-01-03T19:09:18+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/physics-fluids-explains-how-crowds-marathon-runners-move">
-	<title>Science News: The physics of fluids explains how crowds of marathon runners move</title>
-	<link>https://www.sciencenews.org/article/physics-fluids-explains-how-crowds-marathon-runners-move</link>
-	<content:encoded>A new liquid-inspired theory can predict the movements of marathoners lining up for a race.</content:encoded>
-	<dc:date>2019-01-03T19:00:05+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
