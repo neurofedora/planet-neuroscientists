@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/our-fascination-robots-goes-all-way-back-antiquity" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85003" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cryptic-remains-tiny-animals-antarctic-lake-mercer" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/prosecco-production-toll-northeast-italy-soil-environment" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35834" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=35352" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=1913" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-tests-lassa-virus-mid-outbreak-nigeria-response" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/our-fascination-robots-goes-all-way-back-antiquity">
+	<title>Science News: Our fascination with robots goes all the way back to antiquity</title>
+	<link>https://www.sciencenews.org/article/our-fascination-robots-goes-all-way-back-antiquity</link>
+	<content:encoded>In the book ‘Gods and Robots,’ a scholar recounts how early civilizations explored artificial life through myths.</content:encoded>
+	<dc:date>2019-01-20T13:00:06+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=85003">
 	<title>Retraction watch: Weekend reads: #MeToo in a political science journal; 15 articles that challenged dogma in 2018; an entire editorial board resigns</title>
 	<link>https://retractionwatch.com/2019/01/19/weekend-reads-metoo-in-a-political-science-journal-15-articles-that-challenged-dogma-in-2018-an-entire-editorial-board-resigns/</link>
@@ -1904,13 +1911,6 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2019-01-04T04:52:55+00:00</dc:date>
 	<dc:creator>JR Brennan</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dna-tests-lassa-virus-mid-outbreak-nigeria-response">
-	<title>Science News: DNA tests of Lassa virus mid-outbreak helped Nigeria target its response</title>
-	<link>https://www.sciencenews.org/article/dna-tests-lassa-virus-mid-outbreak-nigeria-response</link>
-	<content:encoded>New technology for analyzing genetic data quickly in the field guided how Nigeria dealt with an outbreak of Lassa fever in 2018.</content:encoded>
-	<dc:date>2019-01-03T19:09:18+00:00</dc:date>
-	<dc:creator>Laurel Hamers</dc:creator>
 </item>
 
 </rdf:RDF>
