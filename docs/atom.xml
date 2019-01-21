@@ -5,8 +5,48 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2019-01-21T12:01:25+00:00</updated>
+	<updated>2019-01-21T18:01:18+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Nerd Food: Tooling in Computational Neuroscience - Part II: Microscopy</title>
+		<link href="http://mcraveiro.blogspot.com/2015/11/nerd-food-tooling-in-computational_30.html"/>
+		<id>tag:blogger.com,1999:blog-2672427473119923109.post-5161928679428237315</id>
+		<updated>2019-01-21T16:22:42+00:00</updated>
+		<content type="html">
+ Nerd Food: Tooling in Computational Neuroscience - Part II: Microscopy&lt;div id=&quot;content&quot;&gt;&lt;p class=&quot;verse&quot; style=&quot;text-align: right;&quot;&gt;&lt;small&gt;Research is what I'm doing when I don't know what I'm doing. &lt;br /&gt;&lt;i&gt;Wernher von Braun&lt;/i&gt;&lt;/small&gt;&lt;/p&gt; &lt;p&gt;Welcome to the second instalment of our second series on Computational Neuroscience for lay people. You can find the first post of the previous series &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/08/nerd-food-neurons-for-computer-geeks.html&quot;&gt;here&lt;/a&gt;, and the first post of the current series &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/11/nerd-food-tooling-in-computational.html&quot;&gt;here&lt;/a&gt;. As you'd expect, this second series is slightly more advanced, and, as such, it is peppered with unavoidable technical jargon. Having said that, we shall continue to pursue our ambitious target of making things as easy to parse as possible (but no easier). If you read the first series, the second should hopefully make some sense.&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.1&quot; id=&quot;fnr.1&quot; name=&quot;fnr.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;Our &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/11/nerd-food-tooling-in-computational.html&quot;&gt;last post&lt;/a&gt; discussed &lt;a href=&quot;https://en.wikipedia.org/wiki/Computational_neuroscience&quot;&gt;Computational Neuroscience&lt;/a&gt; as a discipline, and the kind of things one may want to do in this field. We also spoke about models and their composition, and the desirable properties of a platform that runs simulations of said models. However, it occurred to me that we should probably build some kind of &quot;end-to-end&quot; understanding; that is, by starting with the simulations and models we are missing a vital link with the physical (i.e. non-computational) world. To put matters right, this part attempts to provide a high-level introduction on how data is acquired from the real world and can then be used - amongst other things - to inform the modeling process. &lt;/p&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-1&quot;&gt;&lt;h2 id=&quot;sec-1&quot;&gt;Macro and Micro Microworlds&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;&lt;p&gt;For the purposes of this post, the data gathering process starts with the microscope. Of course, keep in mind that we are focusing only on the &lt;i&gt;morphology&lt;/i&gt; at present - the shape and the structures that make up the neuron - so we are ignoring other important activities in the lab. For instance, one can conduct experiments to measure voltage in a neuron, and these measurements provide data for the functional aspects of the model. Alas, we will skip these for now, with the promise of returning to them at a later date&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.2&quot; id=&quot;fnr.2&quot; name=&quot;fnr.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. &lt;/p&gt; &lt;p&gt;So, microscopes then. &lt;a href=&quot;https://en.wikipedia.org/wiki/Microscopy&quot;&gt;Microscopy&lt;/a&gt; is the technical name for the observation work done with the microscope. Because neurons are so small - some 4 to 100 microns in size - only certain types of microscopes are suitable to perform neuronal microscopy. To make matters worse, the sub-structures inside the neuron are an important area of study and they can be ridiculously small: a &lt;a href=&quot;https://en.wikipedia.org/wiki/Dendritic_spine&quot;&gt;dentritic spine&lt;/a&gt; - the minute protrusions that come out of the dendrites - can be as tiny as 500 nanometres; the lipid bylayer itself is only 2 or 3 nanometres thick, so you can imagine how incredibly small ion channels and pumps are. Yet these are some of the things we want to observe and measure. Lets call this the &quot;micro&quot; work. On the other hand, we also want to understand connectivity and other larger structures, as well as perform observations of the evolution of the cell and so on. Lets call this the &quot;macro&quot; work. These are not technical terms, by the by, just so we can orient ourselves. So, how does one go about observing these differently sized microworlds? &lt;/p&gt;  &lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img alt=&quot;F1.large.jpg&quot; height=&quot;300px&quot; src=&quot;http://www.pnas.org/content/106/39/16877/F1.large.jpg&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;figure-number&quot;&gt;Figure 1:&lt;/span&gt; Example of measurements one may want to perform on a dendrite. Source: &lt;a href=&quot;http://www.pnas.org/content/106/39/16877.abstract&quot;&gt;Reversal of long-term dendritic spine alterations in Alzheimer disease models&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-2&quot;&gt;&lt;h2 id=&quot;sec-2&quot;&gt;Optical Microscopy&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;&lt;p&gt;The &quot;macro&quot; work is usually done using the &lt;a href=&quot;https://en.wikipedia.org/wiki/Optical_microscope&quot;&gt;Optical&lt;/a&gt; &quot;family&quot; of microscopes, which is what most of us think of when hearing the word microscope. As it was with &lt;a href=&quot;https://en.wikipedia.org/wiki/Microscope&quot;&gt;Van Leeuwenhoek's&lt;/a&gt; tool in the sixteen hundreds, so it is that today's optical microscopes still rely on light and lenses to perform observations. Needless to say, things did evolve a fair bit since then, but standard optical microscopy has not completely removed the shackles of its limitations. These are of three kinds, as Wikipedia helpfully &lt;a href=&quot;https://en.wikipedia.org/wiki/Microscopy#Optical_microscopy&quot;&gt;tells us&lt;/a&gt;: a) the objects we want to observe must be dark or strongly refracting - a problem, since the internal structures of the cell are transparent; b) visible light's &lt;a href=&quot;https://en.wikipedia.org/wiki/Diffraction-limited_system&quot;&gt;diffraction limit&lt;/a&gt; means that we cannot go much lower than 200 nanometres - pretty impressive, but unfortunately not quite low enough for detailed sub-structure analysis; and c) out of focus light hampers image clarity. &lt;/p&gt; &lt;p&gt;Workarounds to these limitations have been found in the guise of &lt;i&gt;techniques&lt;/i&gt;, with the aim of augmenting the abilities of standard optical microscopy. There are many of these techniques. There is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Confocal_microscopy&quot;&gt;Confocal Microscopy&lt;/a&gt;&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.3&quot; id=&quot;fnr.3&quot; name=&quot;fnr.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; - improving resolution and contrast; the &lt;a href=&quot;https://en.wikipedia.org/wiki/Fluorescence_microscope&quot;&gt;Fluorescence microscope&lt;/a&gt;, which uses a &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Microscopy#Sub-diffraction_techniques&quot;&gt;sub-diffraction technique&lt;/a&gt;&lt;/i&gt;to reconstruct some of the detail that is missing due to diffraction; or the incredible-looking movies produced by &lt;a href=&quot;http://blogs.scientificamerican.com/expeditions/journey-through-the-brain-multiphoton-microscopy/&quot;&gt;Multiphoton Microscopy&lt;/a&gt;. And of course, it is possible to combine multiple techniques in a single microscope, as is the case with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Multiphoton_fluorescence_microscope&quot;&gt;Multiphoton Fluorescence Microscopes&lt;/a&gt; (MTMs) and many others. &lt;/p&gt; &lt;p&gt;In fact, given all of these developments, it seems there is no sign of optical microscopy dying out. Presumably some of this is due to the relative lower cost of this approach as well as to the ease of use. In addition, optical microscopy is complementary to the other more expensive types of microscopes; it is the perfect tool for &quot;macro&quot; work that can then help to point out where to do &quot;micro&quot; work. For example, you can use an optical microscope to assess the larger structures and see how they evolve over time, and eventually decide on specific areas that require more detailed analysis. And when you do, you need a &lt;i&gt;completely&lt;/i&gt; different kind of microscope. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-3&quot;&gt;&lt;h2 id=&quot;sec-3&quot;&gt;Electron Microscopy&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;&lt;p&gt;When you need &lt;i&gt;really&lt;/i&gt; high-resolution, there is only one tool to turn to: the &lt;a href=&quot;https://en.wikipedia.org/wiki/Electron_microscope&quot;&gt;Electron Microscope (EM)&lt;/a&gt;. This crazy critter can provide &lt;i&gt;insane&lt;/i&gt; levels of magnification by using a beam of electrons instead of visible light. Just how insane, you ask? Well, if you think that an optical microscope lives in the range of 1500x to 2000x - that is, can magnify a sample up to two thousand times - an EM can magnify as much as 10 &lt;span class=&quot;underline&quot;&gt;million times&lt;/span&gt;, and provide a sub-nanometre resolution&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.4&quot; id=&quot;fnr.4&quot; name=&quot;fnr.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. It is mind boggling. If fact, we've already seen images of atoms using EM in &lt;a href=&quot;http://mcraveiro.blogspot.co.uk/2015/08/nerd-food-neurons-for-computer-geeks_31.html&quot;&gt;part II&lt;/a&gt;, but perhaps it wasn't easy to appreciate just how amazing a feat that is. &lt;/p&gt; &lt;p&gt;Of course, EM is itself a family - and a large one at that, with many and diverse members. As with optical microscopy, each member of the family specialises on a given technique or combination of techniques. For example, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Scanning_electron_microscope&quot;&gt;Scanning Electron Microscope&lt;/a&gt; (SEM) performs a scan of the object under study, and has a resolution of 1 nanometre or higher; the &lt;a href=&quot;https://en.wikipedia.org/wiki/Scanning_confocal_electron_microscopy&quot;&gt;Scanning Confocal Electron Microscope (SCEM)&lt;/a&gt;uses the same confocal technique mentioned above to provide higher depth resolution; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Transmission_electron_microscopy&quot;&gt;Transmission Electron Microscopy&lt;/a&gt; (TEM) has the ability to penetrate inside the specimen during the imagining process, given samples with thickness of 100 nanometres or less. &lt;/p&gt; &lt;p&gt;A couple of noteworthy points are required at this juncture. First, whilst some of these EM techniques may sound new and exciting, most have been around for a &lt;i&gt;very&lt;/i&gt; long time; it just seems they keep getting better and better as they mature. For example, TEM was used in the fifties to show that neurons communicate over synaptic junctions but its still wildly popular today. Secondly, its important to understand that the entire imaging process is not at all trivial - certainly not for TEM, nor EM in general and probably not for Optical Microscopy either. It just is a &lt;i&gt;very&lt;/i&gt; labour intensive and &lt;i&gt;very&lt;/i&gt;specialised process - most likely done by an expert human neuroanatomist - and the difficulties range from the chemical preparation of the samples all the way up to creating the images. The end product may give the impression it was easy to produce, but easy it was not. &lt;/p&gt; &lt;p&gt;At any rate, whatever the technical details, the fact is that the imagery that results from all these advances is truly evocative - haunting, even. Take this image produced by SEM: &lt;/p&gt;  &lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img alt=&quot;2014_06_26_human_ipsc_derived_neuron_deerinck.jpg&quot; height=&quot;300px&quot; src=&quot;http://ucsdnews.ucsd.edu/news_uploads/2014_06_26_human_ipsc_derived_neuron_deerinck.jpg&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;figure-number&quot;&gt;Figure 2:&lt;/span&gt; Human neuron. &lt;a href=&quot;http://ucsdnews.ucsd.edu/pressrelease/new_reprogramming_method_makes_better_stem_cells&quot;&gt;Source: New Reprogramming Method Makes Better Stem Cells&lt;/a&gt;&lt;/p&gt;&lt;/div&gt; &lt;p&gt;Personally, I think it is incredibly beautiful; simultaneously awe-inspiring and depressing because it really conveys the messiness and complexity of wetware. By way of contrast, look at the neatness of man-made micro-structures: &lt;/p&gt;  &lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img alt=&quot;bluegeneq%20x%20420.jpg&quot; height=&quot;300px&quot; src=&quot;http://m.eet.com/media/1118299/bluegeneq%20x%20420.jpg&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;figure-number&quot;&gt;Figure 3:&lt;/span&gt; The BlueGene/Q chip. Source: &lt;a href=&quot;http://www.eetimes.com/document.asp?doc_id=1260096&quot;&gt;IBM plants transactional memory in CPU&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-4&quot;&gt;&lt;h2 id=&quot;sec-4&quot;&gt;Stacks and Stacks of 'Em&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;&lt;p&gt;Technically, pictures like the ones above are called &lt;a href=&quot;https://en.wikipedia.org/wiki/Micrograph&quot;&gt;micrographs&lt;/a&gt;. As you can see in the neuron micrograph, these images provide a great visual description of the topology of the object we are trying to study. You also may notice a slight coloration of the cell in that picture. This is most likely due to the fact that the people doing the analysis &lt;a href=&quot;https://en.wikipedia.org/wiki/Staining&quot;&gt;stain&lt;/a&gt; the neuron to make it easier to image. Now, in practice - at least as far as I have seen, which is not very far at all, to be fair - 2D grayscale images are preferred by researchers to the nice, Public Relations friendly pictures like the one above; those appear to be more useful for magazine covers. The working micrographs are not quite as exciting to the untrained eye but very useful to the professionals. Here's an example: &lt;/p&gt;  &lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img alt=&quot;fetch.php?w=900&amp;amp;tok=d88a10&amp;amp;media=wiki:biomed-neurons.jpg&quot; height=&quot;200px&quot; src=&quot;http://www.leet.it/home/giusti/website/lib/exe/fetch.php?w=900&amp;amp;tok=d88a10&amp;amp;media=wiki:biomed-neurons.jpg&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;figure-number&quot;&gt;Figure 4:&lt;/span&gt; The left-hand side shows the original micrograph. On the right-hand side it shows the result of processing it with machine learning. Source: &lt;a href=&quot;http://papers.nips.cc/paper/4741-deep-neural-networks-segment-neuronal-membranes-in-electron-microscopy-images.pdf&quot;&gt;Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images&lt;/a&gt;&lt;/p&gt;&lt;/div&gt; &lt;p&gt;Let's focus on the left-hand side of this image for the moment. It was taken using &lt;i&gt;ssTEM&lt;/i&gt; - serial-section TEM, an evolutionary step in TEM. The &lt;i&gt;ss&lt;/i&gt; part of ssTEM is helpful in creating &lt;i&gt;stacks&lt;/i&gt; of images, which is why you see the little drawings on the left of the picture; they are there to give you the idea that the top-most image is one of 30 in a stack&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.5&quot; id=&quot;fnr.5&quot; name=&quot;fnr.5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. The process of producing the images above was as follows: they started off with a neuronal tissue sample, which is prepared for observation. The sample had 1.5 micrometres and was then sectioned into 30 slices of 50 nanometres. Each of these slices was imaged, at a resolution of 4x4 nanometres per pixel. &lt;/p&gt; &lt;p&gt;As you can imagine, this work is extremely sensitive to measurement error. The trick is to ensure there is some kind of visual continuity between images so that you can recreate a 3D model from the 2D slices. This means for instance that if you are trying to figure out connectivity, you need some way to relate a dendrite to it's soma and say to the axon of the neuron it connects to - and that's one of the reasons why the slices have to be so thin. It would be no good if the pictures miss this information out as you will not be able to recreate the connectivity faithfully. This is actually really difficult to achieve in practice due to the minute sizes involved; a slight tremor that displaces the sample by some nanometres would cause shifts in alignment; even with the high-precision the tools have, you can imagine that there is always some kind of movement in the sample's position as part of the slicing process. &lt;/p&gt; &lt;p&gt;Images in a stack are normally stored using traditional formats such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Tagged_Image_File_Format&quot;&gt;TIFF&lt;/a&gt;&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.6&quot; id=&quot;fnr.6&quot; name=&quot;fnr.6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;. You can see an example of the raw images in a stack &lt;a href=&quot;https://github.com/unidesigner/groundtruth-drosophila-vnc/tree/master/stack2/raw&quot;&gt;here&lt;/a&gt;. Its worth noticing that, even though the images are 2D grey-scale, since the pixel size is only a few nanometres wide (4x4 in this case), the full size of an image is very large. Indeed, the latest generation of microscopes produce stacks on the 500 Terabyte range, making the processing of the images a &quot;big-data&quot; challenge. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-5&quot;&gt;&lt;h2 id=&quot;sec-5&quot;&gt;What To Do Once You Got the Images&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;&lt;p&gt;But back to the task at hand. Once you have the stack, the next logical step is to try to figure out what's what: which objects are in the picture. This is called segmentation and labelling, presumably because you are breaking the one big monolithic picture into discrete objects and give them names. Historically, segmentation has been done manually, but its a painful, slow and error-prone process. Due to this, there is a lot of interest in automation, and it has recently become feasible to do so - what with the abundance of cheap computing resources as well as the advent of &quot;useful&quot; &lt;a href=&quot;https://en.wikipedia.org/wiki/Machine_learning&quot;&gt;machine learning&lt;/a&gt; (rather than the theoretical variety). Cracking this puzzle is gaining traction amongst the programming herds, as you can see by the popularity of challenges such as this one: &lt;a href=&quot;http://fiji.sc/Segmentation_of_neuronal_structures_in_EM_stacks_challenge_-_ISBI_2012&quot;&gt;Segmentation of neuronal structures in EM stacks challenge - ISBI 2012&lt;/a&gt;. It is from this challenge we sourced the stack and micrograph above; the right-hand side is the finished product after machine learning processing. &lt;/p&gt; &lt;p&gt;There are also open source packages to help with segmentation. A couple of notable contenders are &lt;a href=&quot;http://fiji.sc/Fiji&quot;&gt;Fiji&lt;/a&gt; and &lt;a href=&quot;http://ilastik.org/&quot;&gt;Ilastik&lt;/a&gt;. Below is a screenshot of Ilastik. &lt;/p&gt;  &lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img alt=&quot;Figure-2-a.png&quot; height=&quot;300px&quot; src=&quot;https://raw.githubusercontent.com/ilastik/ilastik.github.io/master/gallery/Figure-2-a.png&quot; width=&quot;400px&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;figure-number&quot;&gt;Figure 5:&lt;/span&gt; Source: &lt;a href=&quot;http://ilastik.org/gallery.html&quot;&gt;Ilastik gallery&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt; &lt;p&gt;An activity that naturally follows on from segmentation and labelling is &lt;a href=&quot;https://en.wikipedia.org/wiki/Neuronal_tracing&quot;&gt;reconstruction&lt;/a&gt;. The objective of reconstruction is to try to &quot;reconstruct&quot; morphology given the images in the stack. It could involve inferring the missing bits of information by mathematical means or any other kind of analysis which transforms the set of discrete objects spotted by segmentation into something looking more like a bunch of connected neurons. &lt;/p&gt; &lt;p&gt;Once we have a reconstructed model, we can start performing &lt;i&gt;morphometric analysis&lt;/i&gt;. As wikipedia tells us, &lt;a href=&quot;https://en.wikipedia.org/wiki/Morphometrics&quot;&gt;Morphometry&lt;/a&gt; is &quot;the quantitative analysis of form&quot;; as you can imagine, there are a lot of useful things one may want to measure in the brain structures and sub-structures such as lengths, volumes, surface area and so on. Some of these measurements can of course be done in 2D, but life is made easier if the model is available in 3D. One such tool is &lt;a href=&quot;http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Neuro_tool&quot;&gt;NeuroMorph&lt;/a&gt;. It is an open source extension written in Python for the popular open source 3D computer graphics software &lt;a href=&quot;https://en.wikipedia.org/wiki/Blender_(software)&quot;&gt;Blender&lt;/a&gt;. &lt;/p&gt;  &lt;div class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img alt=&quot;NeuroMorph_screenshot.png&quot; height=&quot;300px&quot; src=&quot;https://en.blender.org/uploads/9/98/NeuroMorph_screenshot.png&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;figure-number&quot;&gt;Figure 6:&lt;/span&gt; Source: &lt;a href=&quot;http://figshare.com/articles/Segmented_anisotropic_ssTEM_dataset_of_neural_tissue/856713&quot;&gt;Segmented anisotropic ssTEM dataset of neural tissue&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-sec-6&quot;&gt;&lt;h2 id=&quot;sec-6&quot;&gt;Conclusion&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;&lt;p&gt;This post was a bit of a world-wind tour of some of the sources of real world data for Computational Neuroscience. As I soon found out, each of these sections could have easily been ten times bigger and still not provide you with a proper overview of the landscape; having said that, I hope that the post at least gives some impression of the terrain and its main features. &lt;/p&gt; &lt;p&gt;From a software engineering perspective, its worth pointing out the lack of standardisation in information exchange. In an ideal world, one would want a pipeline with components to perform each of the steps of the complete process, from data acquisition off of a microscope (either opitical or EM), to segmentation, labelling, reconstruction and finally morphometric analysis. This would then be used as an input to the models. Alas, no such overarching standard appears to exist. &lt;/p&gt; &lt;p&gt;One final point in terms of Free and Open Source Software (FOSS). On one hand, it is encouraging to see the large number of FOSS tools and programs being used. Unfortunately - at least for the lovers of Free Software - there are also some proprietary tools that are widely used such as &lt;a href=&quot;http://www.mbfbioscience.com/neurolucida&quot;&gt;NeuroLucida&lt;/a&gt;. Since the software is so specialised, the fear is that in the future, the better funded commercial enterprises will take over more and more of the space. &lt;/p&gt; &lt;p&gt;That's all for now. Don't forget to tune in for the next instalment! &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;footnotes&quot;&gt;&lt;h2 class=&quot;footnotes&quot;&gt;Footnotes: &lt;/h2&gt;&lt;div id=&quot;text-footnotes&quot;&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.1&quot; id=&quot;fn.1&quot; name=&quot;fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class=&quot;footpara&quot;&gt;As it happens, what we are doing here is to apply a well-established learning methodology called the &lt;a href=&quot;https://www.farnamstreetblog.com/2012/04/learn-anything-faster-with-the-feynman-technique/&quot;&gt;Feynman Technique&lt;/a&gt;. I was blissfully unaware of its existence all this time, even though &lt;a href=&quot;https://en.wikipedia.org/wiki/Richard_Feynman&quot;&gt;Feynman&lt;/a&gt; is one of my heroes and even though I had read a fair bit about the man. On this topic (and the reason why I came to know about the Feynman Technique), its worth reading &lt;a href=&quot;https://www.farnamstreetblog.com/2015/01/richard-feynman-knowing-something/&quot;&gt;Richard Feynman: The Difference Between Knowing the Name of Something and Knowing Something&lt;/a&gt;, where Feynman discusses his disappointment with science education in Brazil. Unfortunately the Portuguese and the Brazilian teaching systems have a lot in common - or at least they did when I was younger. &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.2&quot; id=&quot;fn.2&quot; name=&quot;fn.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class=&quot;footpara&quot;&gt;Nor is the microscope the only way to figure out what is happening inside the brain. For example, there are &lt;a href=&quot;https://en.wikipedia.org/wiki/Neuroimaging&quot;&gt;neuroimagining&lt;/a&gt; techniques which can provide data about both structure and function. &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.3&quot; id=&quot;fn.3&quot; name=&quot;fn.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class=&quot;footpara&quot;&gt;Patented by &lt;a href=&quot;https://en.wikipedia.org/wiki/Marvin_Minsky&quot;&gt;Marvin Minsky&lt;/a&gt;, no less - yes, he of Computer Science and AI fame! &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.4&quot; id=&quot;fn.4&quot; name=&quot;fn.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;p class=&quot;footpara&quot;&gt;And, to be fair, sub-nanometre just doesn't quite capture just how low these things can go. For an example, read &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21844593&quot;&gt;Electron microscopy at a sub-50 pm resolution&lt;/a&gt;. &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.5&quot; id=&quot;fn.5&quot; name=&quot;fn.5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;p class=&quot;footpara&quot;&gt;For a more technical but yet short and understandable take, read &lt;a href=&quot;http://www.jneurosci.org/content/26/47/12101.full&quot;&gt;Uniform Serial Sectioning for Transmission Electron Microscopy&lt;/a&gt;. &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.6&quot; id=&quot;fn.6&quot; name=&quot;fn.6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;p class=&quot;footpara&quot;&gt;On the topic of formats: its probably time we mention the &lt;a href=&quot;https://www.openmicroscopy.org/site&quot;&gt;Open Microscopy Environment&lt;/a&gt; (OME). The microscopy world is dominated by hardware and as such its the perfect environment for corporations, their proprietary formats and expensive software packages. The OME guys are trying to buck the trend by creating a suite of open source tools and protocols, and by looking at some of &lt;a href=&quot;http://help.openmicroscopy.org/viewing-data.html#screen&quot;&gt;their stuff&lt;/a&gt;, they seem to be doing alright. &lt;/p&gt;&lt;/div&gt;  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;status&quot; id=&quot;postamble&quot;&gt;&lt;p class=&quot;date&quot;&gt;Created: 2015-11-30 Mon 23:12&lt;/p&gt;&lt;p class=&quot;creator&quot;&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;Emacs&lt;/a&gt; 24.5.1 (&lt;a href=&quot;http://orgmode.org&quot;&gt;Org&lt;/a&gt; mode 8.2.10)&lt;/p&gt;&lt;p class=&quot;validation&quot;&gt;&lt;a href=&quot;http://validator.w3.org/check?uri=referer&quot;&gt;Validate&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content>
+		<author>
+			<name>Marco Craveiro</name>
+			<email>noreply@blogger.com</email>
+			<uri>http://mcraveiro.blogspot.com/</uri>
+		</author>
+		<source>
+			<title type="html">Marco Craveiro</title>
+			<link rel="self" href="http://www.blogger.com/feeds/2672427473119923109/posts/default"/>
+			<id>tag:blogger.com,1999:blog-2672427473119923109</id>
+			<updated>2019-01-21T16:22:43+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Chinese university hospital denounces “malicious attack” by Western vaccine industry</title>
+		<link href="https://forbetterscience.com/2019/01/21/chinese-university-hospital-denounces-malicious-attack-by-western-vaccine-industry/"/>
+		<id>http://forbetterscience.com/?p=36195</id>
+		<updated>2019-01-21T12:26:14+00:00</updated>
+		<content type="html">
+ Manipulated data in 17 papers from one cancer research lab in China gets flagged on PubPeer. It ends with the university hospital in Wuhan issuing a secret statement accusing the US pharma giant a Merck of a conspiracy to slander a Chinese Academy member, Dr Ding Ma.</content>
+		<author>
+			<name>Leonid Schneider</name>
+			<uri>https://forbetterscience.com</uri>
+		</author>
+		<source>
+			<title type="html">For Better Science</title>
+			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
+			<link rel="self" href="https://forbetterscience.com/feed/"/>
+			<id>https://forbetterscience.com</id>
+			<updated>2019-01-21T18:00:39+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">“We were very uncomfortable with this situation:” French group loses aging paper for “overlap”</title>
@@ -24,7 +64,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -103,13 +143,13 @@ Founded by behavior</content>
  In the book ‘Gods and Robots,’ a scholar recounts how early civilizations explored artificial life through myths.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -129,7 +169,7 @@ Founded by behavior</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -142,13 +182,13 @@ Founded by behavior</content>
  Researchers were surprised to find vestiges of what appear to be tiny animals in mud from Antarctica’s ice-covered Lake Mercer.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -161,13 +201,13 @@ Founded by behavior</content>
  The soil in Northern Italy’s prosecco vineyards is washing away.</content>
 		<author>
 			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -180,13 +220,13 @@ Founded by behavior</content>
  Inventing decoy bee larvae prompts a back-to-basics rethink of a mite ominously named Varroa destructor.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -246,13 +286,13 @@ Founded by behavior</content>
  Buried deep underground, Japan’s KAGRA detector relies on components cooled to just 20 degrees above absolute zero.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -272,7 +312,7 @@ Founded by behavior</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -318,13 +358,13 @@ Founded by behavior</content>
  A new look at moon craters suggests the Earth and moon suffered more impacts in the last 290 million years, and the Earth retains its biggest scars.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -337,13 +377,13 @@ Founded by behavior</content>
  Methods that target single nerve cells in mice and fruit fly brains are starting to tease apart the brain’s complexity.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -412,13 +452,13 @@ Founded by behavior</content>
  Benzodiazepines, widely used but addictive drugs to treat anxiety and insomnia, are contributing to a growing number of overdose deaths.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -438,7 +478,7 @@ Founded by behavior</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:52+00:00</updated>
+			<updated>2019-01-21T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -451,13 +491,13 @@ Founded by behavior</content>
  Scientists recently rediscovered a frog species in Bolivia that hasn’t been seen in 10 years — and it could be used to better understand a frog-killing fungus.</content>
 		<author>
 			<name>Jeremy Rehm</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -501,13 +541,13 @@ Founded by behavior</content>
  A bacterium’s metabolic by-products are as effective as DEET in deterring Aedes aegypti mosquitoes.</content>
 		<author>
 			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -520,13 +560,13 @@ Founded by behavior</content>
  Choppers from a youngster with an unknown evolutionary background indicate that hominids evolved a humanlike life span in East Asia by 100,000 years ago.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -539,13 +579,13 @@ Founded by behavior</content>
  Robots capable of reading diagrams could work in more varied environments and be easier to communicate with.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -558,13 +598,13 @@ Founded by behavior</content>
  Using fossils, computer simulations and a life-size walking robot, researchers re-created how an early tetrapod may have made tracks.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -669,7 +709,7 @@ Founded by behavior</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -719,7 +759,7 @@ Founded by behavior</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -732,13 +772,13 @@ Founded by behavior</content>
  A pair of daredevil spacecraft that aim to bring asteroid dust back to Earth have reached their targets and are scouting for the best sampling spots.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -770,13 +810,13 @@ Founded by behavior</content>
  Researchers have created “sponges” that would absorb excess cancer drugs before they spread through the body and cause negative side effects.</content>
 		<author>
 			<name>Esther Landhuis</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -808,13 +848,13 @@ Founded by behavior</content>
  The discoverers of the first evidence for a moon orbiting a planet around a distant star are still trying to confirm the object’s existence.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -834,7 +874,7 @@ Founded by behavior</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -874,13 +914,13 @@ Founded by behavior</content>
  Wealthier students outperform their less advantaged peers in math and science. Decreasing test anxiety may help even the playing field.</content>
 		<author>
 			<name>Sujata Gupta</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -893,13 +933,13 @@ Founded by behavior</content>
  A burst of light from far away may have been an odd type of exploding star or a white dwarf being eaten by a black hole.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -912,13 +952,13 @@ Founded by behavior</content>
  Desalination plants help offset the world’s growing water needs, but they also produce much more supersalty water than scientists realized.</content>
 		<author>
 			<name>Jeremy Rehm</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -962,13 +1002,13 @@ Founded by behavior</content>
  Examining personal electronics may help gauge people’s radiation exposure in the event of a nuclear accident or attack.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_42190266851478=1</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss?sc=gb-1447244002</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -988,7 +1028,7 @@ Founded by behavior</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -1008,7 +1048,7 @@ Founded by behavior</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -1196,7 +1236,7 @@ Scarecrow was</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:52+00:00</updated>
+			<updated>2019-01-21T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -1273,7 +1313,7 @@ Scarecrow was</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:40+00:00</updated>
 		</source>
 	</entry>
 
@@ -1468,7 +1508,7 @@ Scarecrow was</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-01-21T12:00:51+00:00</updated>
+			<updated>2019-01-21T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -1988,7 +2028,7 @@ Scarecrow was</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-01-21T12:00:43+00:00</updated>
+			<updated>2019-01-21T18:00:39+00:00</updated>
 		</source>
 	</entry>
 
@@ -2974,45 +3014,6 @@ You can get in touch with us &lt;a class=&quot;reference external&quot; href=&qu
 			<link rel="self" href=""/>
 			<id></id>
 			<updated>2019-01-11T18:00:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Satellites make mapping hot spots of ammonia pollution easier</title>
-		<link href="https://www.sciencenews.org/article/satellites-make-mapping-hot-spots-ammonia-pollution-easier"/>
-		<id>https://www.sciencenews.org/article/satellites-make-mapping-hot-spots-ammonia-pollution-easier</id>
-		<updated>2019-01-04T12:00:05+00:00</updated>
-		<content type="html">
- There’s a more accurate way to estimate ammonia emissions.</content>
-		<author>
-			<name>Laurel Hamers</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?0_35998542614309853=1</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2019-01-11T18:00:40+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Japanese stem cell fraud leads to a new retraction</title>
-		<link href="https://retractionwatch.com/2019/01/04/japanese-stem-cell-fraud-leads-to-a-new-retraction/"/>
-		<id>http://retractionwatch.com/?p=83159</id>
-		<updated>2019-01-04T11:00:06+00:00</updated>
-		<content type="html">
- Last March, we reported on the retraction of a 2017 paper in Stem Cell Reports by Kohei Yamamizu and colleagues for widespread fabrication of figures. Turns out the problems were at least five years older than that. Yamamizu had received a pink slip from his institution, the Center for iPS Cell Research and Application (CiRA), … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/01/04/japanese-stem-cell-fraud-leads-to-a-new-retraction/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Japanese stem cell fraud leads to a new retraction&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Adam Marcus</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2019-01-12T18:00:37+00:00</updated>
 		</source>
 	</entry>
 
