@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/lack-sleep-tied-increases-two-alzheimers-proteins-brain" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rocking-puts-adults-sleep-faster-and-makes-slumber-deeper" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-eyes-make-bizarre-ancient-platypus-reptile-even-weirder" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-scientists-tried-control-earthquakes-with-earthquakes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/raising-the-global-visibility-of-local-research" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=35920" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10747" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=35507" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/lack-sleep-tied-increases-two-alzheimers-proteins-brain">
+	<title>Science News: Lack of sleep is tied to increases in two Alzheimer's proteins</title>
+	<link>https://www.sciencenews.org/article/lack-sleep-tied-increases-two-alzheimers-proteins-brain</link>
+	<content:encoded>In people and mice deprived of sleep, researchers found an increase in tau, a protein involved in Alzheimer’s disease, in the fluid bathing the brain.</content:encoded>
+	<dc:date>2019-01-24T19:17:36+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/rocking-puts-adults-sleep-faster-and-makes-slumber-deeper">
 	<title>Science News: Rocking puts adults to sleep faster and makes slumber deeper</title>
 	<link>https://www.sciencenews.org/article/rocking-puts-adults-sleep-faster-and-makes-slumber-deeper</link>
@@ -1322,13 +1329,6 @@ Scarecrow was</content:encoded>
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2019/01/09/succeeding-woman-biomedical-engineering/&quot; rel=&quot;nofollow&quot;&gt;Succeeding as a woman in biomedical engineering&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-01-09T09:30:54+00:00</dc:date>
 	<dc:creator>Alexandros Houssein</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=35507">
-	<title>For Better Science: Scratchy cancer cure discoveries of Ruben Plentz</title>
-	<link>https://forbetterscience.com/2019/01/09/scratchy-cancer-cure-discoveries-of-ruben-plentz/</link>
-	<content:encoded>Professor Ruben Plentz chose to focus his career on clinical medicine in Bremen, despite his tremendous academic achievements in cancer research. Was it because malicious critics harassed him with frivolous investigations and corrections, envious at all those peer-reviewed cancer cures the great doctor invented?</content:encoded>
-	<dc:date>2019-01-09T06:00:23+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
