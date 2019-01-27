@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85444" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dogs-may-have-helped-ancient-middle-easterners-hunt-small-game" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85388" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/protein-may-help-explain-why-some-women-endometriosis-are-infertile" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-app-tracks-breathing-detect-opioid-overdose" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dental-tartar-identify-woman-medieval-book-painter" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/second-repeating-fast-radio-burst-tracked-distant-galaxy" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster">
+	<title>Science News: Vitamin D supplements aren’t living up to their hype</title>
+	<link>https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster</link>
+	<content:encoded>Once seen as a supplement with a long list of benefits, vitamin D’s glow may be dimming.</content:encoded>
+	<dc:date>2019-01-27T11:00:06+00:00</dc:date>
+	<dc:creator>Laura Beil</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=85444">
 	<title>Retraction watch: Weekend reads: Sokal on Sokal Squared hoax; is open access enough?; replication in the humanities</title>
 	<link>https://retractionwatch.com/2019/01/26/weekend-reads-sokal-on-sokal-squared-hoax-is-open-access-enough-replication-in-the-humanities/</link>
@@ -1256,13 +1263,6 @@ Scarecrow was</content:encoded>
 	<content:encoded>Tooth tartar unveils an expert female manuscript painter buried at a German monastery.</content:encoded>
 	<dc:date>2019-01-09T19:00:06+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/second-repeating-fast-radio-burst-tracked-distant-galaxy">
-	<title>Science News: A second repeating fast radio burst has been tracked to a distant galaxy</title>
-	<link>https://www.sciencenews.org/article/second-repeating-fast-radio-burst-tracked-distant-galaxy</link>
-	<content:encoded>Astronomers have spotted a second repeating fast radio burst, and it looks a lot like the first.</content:encoded>
-	<dc:date>2019-01-09T18:08:58+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
