@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=36379" />
 			<rdf:li rdf:resource="https://www.mariannebezaire.com/?p=168" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85444" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8402" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=84081" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/protein-may-help-explain-why-some-women-endometriosis-are-infertile" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-app-tracks-breathing-detect-opioid-overdose" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=36379">
+	<title>For Better Science: Preprinters of the World Unite</title>
+	<link>https://forbetterscience.com/2019/01/28/preprinters-of-the-world-unite/</link>
+	<content:encoded>The following is a rant in praise of preprints. I blog of usefulness of preprints, open science and open access, how BioRxiv works and their Plan U.</content:encoded>
+	<dc:date>2019-01-28T06:00:19+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.mariannebezaire.com/?p=168">
 	<title>Marianne Bezaire: I’ll wait for this news</title>
 	<link>https://www.mariannebezaire.com/2019/01/27/ill-wait-for-this-news/</link>
@@ -1259,13 +1266,6 @@ Scarecrow was</content:encoded>
 	<content:encoded>Infertile women with endometriosis have a reduced amount of a protein found to be important for establishing pregnancy in mice, a study finds.</content:encoded>
 	<dc:date>2019-01-09T19:53:27+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-app-tracks-breathing-detect-opioid-overdose">
-	<title>Science News: A new app tracks breathing to detect an opioid overdose</title>
-	<link>https://www.sciencenews.org/article/new-app-tracks-breathing-detect-opioid-overdose</link>
-	<content:encoded>A smartphone app called Second Chance could help save opioid users who shoot up alone.</content:encoded>
-	<dc:date>2019-01-09T19:00:06+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
