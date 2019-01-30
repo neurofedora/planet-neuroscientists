@@ -299,6 +299,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>NeuroFedora blog</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://neurofedora.github.io/">
+					<dc:title>The NeuroFedora Blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>NeuroMat</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="https://neuromat.numec.prp.usp.br/newsletter/neuromat">
