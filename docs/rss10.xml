@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-name-66-species-potential-biodiversity-threats-eu" />
 			<rdf:li rdf:resource="https://www.mariannebezaire.com/?p=175" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-5648062351012720545.post-5253043828152171437" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/latest-picture-ultima-thule-reveals-remarkably-smooth-face" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=84522" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-record-breaking-government-shutdown-disrupting-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/drill-built-mars-being-used-bore-antarctic-bedrock" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-worm-blobs-behave-liquid-and-solid" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/scientists-name-66-species-potential-biodiversity-threats-eu">
+	<title>Science News: Scientists name 66 species as potential biodiversity threats to EU</title>
+	<link>https://www.sciencenews.org/article/scientists-name-66-species-potential-biodiversity-threats-eu</link>
+	<content:encoded>North America’s fox squirrel, the venomous striped eel catfish and 64 other species are now considered invasive in the European Union.</content:encoded>
+	<dc:date>2019-01-29T20:02:16+00:00</dc:date>
+	<dc:creator>Stephanie Parker</dc:creator>
+</item>
 <item rdf:about="https://www.mariannebezaire.com/?p=175">
 	<title>Marianne Bezaire: Out of facebook and into the real world</title>
 	<link>https://www.mariannebezaire.com/2019/01/29/out-of-facebook-and-into-the-real-world/</link>
@@ -1304,13 +1311,6 @@ Scarecrow was</content:encoded>
 	<content:encoded>An autonomous drill originally designed for work on Mars has its first mission in Antarctica.</content:encoded>
 	<dc:date>2019-01-11T19:47:47+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-worm-blobs-behave-liquid-and-solid">
-	<title>Science News: How worm blobs behave like a liquid and a solid</title>
-	<link>https://www.sciencenews.org/article/how-worm-blobs-behave-liquid-and-solid</link>
-	<content:encoded>Blobs of worms flow like a fluid, plop like a solid and fascinate scientists.</content:encoded>
-	<dc:date>2019-01-11T18:11:39+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
