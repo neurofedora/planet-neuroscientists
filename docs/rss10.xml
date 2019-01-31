@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-dates-narrow-down-when-denisovans-and-neandertals-crossed-paths" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-ai-training-program-helps-robots-own-their-ignorance" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/chinese-tweets-hint-happiness-drops-air-pollution-rises" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-01-30:/2019/01/30/the-power-of-deep-networks-and-learning.html" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-suspected-exomoon-may-remain-hidden-another-decade" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=84701" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36020" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/easing-test-anxiety-boosts-low-income-students-biology-grades" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-dates-narrow-down-when-denisovans-and-neandertals-crossed-paths">
+	<title>Science News: New dates narrow down when Denisovans and Neandertals crossed paths</title>
+	<link>https://www.sciencenews.org/article/new-dates-narrow-down-when-denisovans-and-neandertals-crossed-paths</link>
+	<content:encoded>Mysterious ancient hominids called Denisovans and their Neandertal cousins periodically occupied the same cave starting around 200,000 years ago.</content:encoded>
+	<dc:date>2019-01-30T18:00:05+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/new-ai-training-program-helps-robots-own-their-ignorance">
 	<title>Science News: A new AI training program helps robots own their ignorance</title>
 	<link>https://www.sciencenews.org/article/new-ai-training-program-helps-robots-own-their-ignorance</link>
@@ -1234,13 +1241,6 @@ Founded by behavior</content:encoded>
 &lt;p&gt;&lt;strong&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;@Psych_Writer&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;) is Editor of &lt;/span&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;span class=&quot;s2&quot;&gt;BPS Research Digest&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-01-15T10:13:17+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/easing-test-anxiety-boosts-low-income-students-biology-grades">
-	<title>Science News: Easing test anxiety boosts low-income students’ biology grades</title>
-	<link>https://www.sciencenews.org/article/easing-test-anxiety-boosts-low-income-students-biology-grades</link>
-	<content:encoded>Wealthier students outperform their less advantaged peers in math and science. Decreasing test anxiety may help even the playing field.</content:encoded>
-	<dc:date>2019-01-14T20:00:04+00:00</dc:date>
-	<dc:creator>Sujata Gupta</dc:creator>
 </item>
 
 </rdf:RDF>
