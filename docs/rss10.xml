@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/giant-pandas-may-have-only-recently-switched-eating-mostly-bamboo" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/gum-disease-bacteria-alzheimers-brain-study-link-tenuous" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85752" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36221" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/asteroid-sample-missions-hayabusa2-ryugu-osiris-rex-bennu" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/about-the-resignation-of-the-journal-of-informetrics-editorial-board" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-3d-printed-sponge-sops-excess-chemo-cancer-drugs" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/an-air-of-urgency-why-we-need-ethical-governance-of-ai" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/giant-pandas-may-have-only-recently-switched-eating-mostly-bamboo">
+	<title>Science News: Giant pandas may have only recently switched to eating mostly bamboo</title>
+	<link>https://www.sciencenews.org/article/giant-pandas-may-have-only-recently-switched-eating-mostly-bamboo</link>
+	<content:encoded>Giant pandas may have switched to an exclusive bamboo diet some 5,000 years ago, not 2 million years ago as previously thought.</content:encoded>
+	<dc:date>2019-01-31T16:00:07+00:00</dc:date>
+	<dc:creator>Jeremy Rehm</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/gum-disease-bacteria-alzheimers-brain-study-link-tenuous">
 	<title>Science News: No, we don’t know that gum disease causes Alzheimer’s</title>
 	<link>https://www.sciencenews.org/article/gum-disease-bacteria-alzheimers-brain-study-link-tenuous</link>
@@ -1244,12 +1251,6 @@ Founded by behavior</content:encoded>
 	<content:encoded>Researchers have created “sponges” that would absorb excess cancer drugs before they spread through the body and cause negative side effects.</content:encoded>
 	<dc:date>2019-01-15T14:00:05+00:00</dc:date>
 	<dc:creator>Esther Landhuis</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/an-air-of-urgency-why-we-need-ethical-governance-of-ai">
-	<title>Elsevier Connect: “An air of urgency” – why we need ethical governance of AI</title>
-	<link>https://www.elsevier.com/connect/an-air-of-urgency-why-we-need-ethical-governance-of-ai</link>
-	<content:encoded>ORBIT’s innovation team writes about a new method to evaluate the use of artificial intelligence and related technologies</content:encoded>
-	<dc:date>2019-01-15T12:40:31+00:00</dc:date>
 </item>
 
 </rdf:RDF>
