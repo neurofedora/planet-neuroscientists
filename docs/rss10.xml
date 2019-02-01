@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-change-might-not-slow-ocean-circulation-much-thought" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-curiosity-mars-rover-weighed-mountain-its-climbing" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/bacteria-fighting-protein-also-induces-sleep" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/giant-pandas-may-have-only-recently-switched-eating-mostly-bamboo" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/gum-disease-bacteria-alzheimers-brain-study-link-tenuous" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85752" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=84784" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36029" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=35931" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/asteroid-sample-missions-hayabusa2-ryugu-osiris-rex-bennu" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/about-the-resignation-of-the-journal-of-informetrics-editorial-board" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-3d-printed-sponge-sops-excess-chemo-cancer-drugs" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/climate-change-might-not-slow-ocean-circulation-much-thought">
+	<title>Science News: Climate change might not slow ocean circulation as much as thought</title>
+	<link>https://www.sciencenews.org/article/climate-change-might-not-slow-ocean-circulation-much-thought</link>
+	<content:encoded>New measurements may call for a rethink of what controls ocean circulation in the North Atlantic.</content:encoded>
+	<dc:date>2019-01-31T21:47:23+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/nasa-curiosity-mars-rover-weighed-mountain-its-climbing">
+	<title>Science News: NASA’s Curiosity Mars rover weighed the mountain it’s climbing</title>
+	<link>https://www.sciencenews.org/article/nasa-curiosity-mars-rover-weighed-mountain-its-climbing</link>
+	<content:encoded>Curiosity measures gravity as it drives, allowing scientists to weigh Mount Sharp and determine that the rock is less dense than expected.</content:encoded>
+	<dc:date>2019-01-31T19:07:18+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/bacteria-fighting-protein-also-induces-sleep">
+	<title>Science News: This bacteria-fighting protein also induces sleep</title>
+	<link>https://www.sciencenews.org/article/bacteria-fighting-protein-also-induces-sleep</link>
+	<content:encoded>A bacteria-fighting protein also lulls fruit flies to sleep, suggesting links between sleep and the immune system.</content:encoded>
+	<dc:date>2019-01-31T19:03:02+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/giant-pandas-may-have-only-recently-switched-eating-mostly-bamboo">
 	<title>Science News: Giant pandas may have only recently switched to eating mostly bamboo</title>
 	<link>https://www.sciencenews.org/article/giant-pandas-may-have-only-recently-switched-eating-mostly-bamboo</link>
@@ -1231,26 +1252,6 @@ Founded by behavior</content:encoded>
 	<content:encoded>Plan S, designed by the former EU Commissioner Robert-Jan Smits, became a complete and chaotic mess where everyone, including the members of the signatory cOAlition S of research founders, does whatever they want. I learned all that while participating at the Academic Publishing Europe (APE) conference in Berlin, on 15-16 January.</content:encoded>
 	<dc:date>2019-01-15T22:56:30+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/asteroid-sample-missions-hayabusa2-ryugu-osiris-rex-bennu">
-	<title>Science News: Two daring spacecraft aim to bring asteroid dust back to Earth</title>
-	<link>https://www.sciencenews.org/article/asteroid-sample-missions-hayabusa2-ryugu-osiris-rex-bennu</link>
-	<content:encoded>A pair of daredevil spacecraft that aim to bring asteroid dust back to Earth have reached their targets and are scouting for the best sampling spots.</content:encoded>
-	<dc:date>2019-01-15T19:42:28+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/about-the-resignation-of-the-journal-of-informetrics-editorial-board">
-	<title>Elsevier Connect: About the resignation of the Journal of Informetrics Editorial Board</title>
-	<link>https://www.elsevier.com/connect/about-the-resignation-of-the-journal-of-informetrics-editorial-board</link>
-	<content:encoded>We will appoint a new editorial team and board to continue to drive the development of JOI</content:encoded>
-	<dc:date>2019-01-15T16:10:22+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-3d-printed-sponge-sops-excess-chemo-cancer-drugs">
-	<title>Science News: A new 3-D printed ‘sponge’ sops up excess chemo drugs</title>
-	<link>https://www.sciencenews.org/article/new-3d-printed-sponge-sops-excess-chemo-cancer-drugs</link>
-	<content:encoded>Researchers have created “sponges” that would absorb excess cancer drugs before they spread through the body and cause negative side effects.</content:encoded>
-	<dc:date>2019-01-15T14:00:05+00:00</dc:date>
-	<dc:creator>Esther Landhuis</dc:creator>
 </item>
 
 </rdf:RDF>
