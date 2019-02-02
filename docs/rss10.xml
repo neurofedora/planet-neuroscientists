@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/onion-headlines-could-teach-ai-what-makes-satire-funny" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lasers-could-send-messages-right-listener-ear" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/titan-oddly-thick-atmosphere-may-come-cooked-organic-compounds" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85824" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rediscovered-bolivian-frog-species-survived-deadly-chytrid-fungus" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36032" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/bacteria-compounds-may-be-good-deet-repelling-mosquitoes" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-child-fossil-jaw-east-asia-grew-teeth-modern-human" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-robots-follow-instructions-diagrams-pictures" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown">
+	<title>Science News: NSF science research funds are flowing again after the shutdown</title>
+	<link>https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown</link>
+	<content:encoded>Assessing the scope of the shutdown’s impact on NSF-funded science will be a long process.</content:encoded>
+	<dc:date>2019-02-01T21:45:26+00:00</dc:date>
+	<dc:creator>Cassie Martin</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/onion-headlines-could-teach-ai-what-makes-satire-funny">
+	<title>Science News: Here’s what makes satire so funny, according to science</title>
+	<link>https://www.sciencenews.org/article/onion-headlines-could-teach-ai-what-makes-satire-funny</link>
+	<content:encoded>Analysis of headlines from the satirical newspaper The Onion could help you — or a computer — write humorous news headlines.</content:encoded>
+	<dc:date>2019-02-01T19:39:29+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/lasers-could-send-messages-right-listener-ear">
 	<title>Science News: Lasers could send messages right to a listener’s ear</title>
 	<link>https://www.sciencenews.org/article/lasers-could-send-messages-right-listener-ear</link>
@@ -404,7 +418,7 @@ The debate over human neurogenesis has been one of the most prominent disputes i
 <item rdf:about="https://www.sciencenews.org/article/earth-core-solidified-just-time-save-magnetic-field">
 	<title>Science News: Earth’s core may have hardened just in time to save its magnetic field</title>
 	<link>https://www.sciencenews.org/article/earth-core-solidified-just-time-save-magnetic-field</link>
-	<content:encoded>Earth’s inner core began to solidify about 565 million years ago — just in time to prevent the collapse of the planet’s magnetic field, a study finds.</content:encoded>
+	<content:encoded>Earth’s inner core began to solidify sometime after 565 million years ago — just in time to prevent the collapse of the planet’s magnetic field, a study finds.</content:encoded>
 	<dc:date>2019-01-28T20:02:06+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
@@ -1214,20 +1228,6 @@ Founded by behavior</content:encoded>
 	<content:encoded>A bacterium’s metabolic by-products are as effective as DEET in deterring Aedes aegypti mosquitoes.</content:encoded>
 	<dc:date>2019-01-16T19:18:11+00:00</dc:date>
 	<dc:creator>Laurel Hamers</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ancient-child-fossil-jaw-east-asia-grew-teeth-modern-human">
-	<title>Science News: An ancient child from East Asia grew teeth like a modern human</title>
-	<link>https://www.sciencenews.org/article/ancient-child-fossil-jaw-east-asia-grew-teeth-modern-human</link>
-	<content:encoded>Choppers from a youngster with an unknown evolutionary background indicate that hominids evolved a humanlike life span in East Asia by 100,000 years ago.</content:encoded>
-	<dc:date>2019-01-16T19:12:36+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-robots-follow-instructions-diagrams-pictures">
-	<title>Science News: These robots can follow how-to diagrams</title>
-	<link>https://www.sciencenews.org/article/new-robots-follow-instructions-diagrams-pictures</link>
-	<content:encoded>Robots capable of reading diagrams could work in more varied environments and be easier to communicate with.</content:encoded>
-	<dc:date>2019-01-16T19:00:06+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
