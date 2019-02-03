@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-its-key-identify-preschoolers-anxiety-and-depression" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-8889416622980240900" />
 			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-02-02:/2019/02/02/neurofedora-update-2019-week-5.html" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85878" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-craters-suggest-earth-preserves-past-asteroid-impacts" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-ways-image-control-nerve-cells-unlock-brain-mysteries" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8412" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/overdose-deaths-tied-antianxiety-drugs-xanax-continue-rise" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/why-its-key-identify-preschoolers-anxiety-and-depression">
+	<title>Science News: Why it’s key to identify preschoolers with anxiety and depression</title>
+	<link>https://www.sciencenews.org/article/why-its-key-identify-preschoolers-anxiety-and-depression</link>
+	<content:encoded>With mounting evidence that very young children can experience anxiety and depression, efforts are underway to identify and treat them early.</content:encoded>
+	<dc:date>2019-02-03T12:00:05+00:00</dc:date>
+	<dc:creator>Sujata Gupta</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-8889416622980240900">
 	<title>The Neurocritic: Is executive function different from cognitive control? The results of an informal poll</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/Bp3ML2uJZR8/is-executive-function-different-from.html</link>
@@ -1240,13 +1247,6 @@ Founded by behavior</content:encoded>
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/pW93phFXsVo&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-01-17T17:09:14+00:00</dc:date>
 	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/overdose-deaths-tied-antianxiety-drugs-xanax-continue-rise">
-	<title>Science News: Overdose deaths tied to antianxiety drugs like Xanax continue to rise</title>
-	<link>https://www.sciencenews.org/article/overdose-deaths-tied-antianxiety-drugs-xanax-continue-rise</link>
-	<content:encoded>Benzodiazepines, widely used but addictive drugs to treat anxiety and insomnia, are contributing to a growing number of overdose deaths.</content:encoded>
-	<dc:date>2019-01-17T13:00:05+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
 
 </rdf:RDF>
