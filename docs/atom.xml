@@ -5,8 +5,50 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2019-02-02T18:01:17+00:00</updated>
+	<updated>2019-02-03T00:01:15+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">NeuroFedora update: 2019 week 5</title>
+		<link href="https://neurofedora.github.io/2019/02/02/neurofedora-update-2019-week-5.html"/>
+		<id>tag:neurofedora.github.io,2019-02-02:/2019/02/02/neurofedora-update-2019-week-5.html</id>
+		<updated>2019-02-02T18:21:32+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;In the last week, we've continued to make progress on packages:&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;The &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1662526&quot;&gt;neuron&lt;/a&gt; review should be done in a few days. We can then begin on the
+MPI versions, and Python bindings.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/190&quot;&gt;arbor&lt;/a&gt; is still a WIP. Here's a pre-print the developers published recently
+announcing it: &lt;a class=&quot;reference external&quot; href=&quot;https://arxiv.org/abs/1901.07454&quot;&gt;https://arxiv.org/abs/1901.07454&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Version 1 of the Brian Simulator is now available in the &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/copr/&quot;&gt;NeuroFedora extras
+COPR repository&lt;/a&gt;. This version is in maintenance mode only and users should
+prefer the new &lt;a class=&quot;reference external&quot; href=&quot;https://apps.fedoraproject.org/packages/python-brian2&quot;&gt;Brian2&lt;/a&gt; simulator for their work. We only make version 1
+available because &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/NeuralEnsemble/PyNN/pull/617&quot;&gt;PyNN&lt;/a&gt; currently does not support version 2---that is a work
+in progress. Version 1 of the simulator will not be provided for Fedora
+releases after 29 since Fedora 30+ &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Changes/Mass_Python_2_Package_Removal&quot;&gt;are moving to Python3 only&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neurofedora.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neurofedora.github.io/feeds/all.atom.xml"/>
+			<id>https://neurofedora.github.io/</id>
+			<updated>2019-02-02T18:21:32+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Weekend reads: New revelations about CRISPR’d babies experiment; Impact Factor developer warns against using single metrics; is peer review just a game?</title>
@@ -507,7 +549,7 @@ Emergence refers to the idea that a system can exhibit behavior or propert</cont
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-02-02T18:00:35+00:00</updated>
+			<updated>2019-02-03T00:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1049,7 +1091,7 @@ DOI: &lt;a href=&quot;http://dx.doi.org/10.1038/s41593-018-0322-y&quot;&gt;http:
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2019-02-02T10:41:02+00:00</updated>
+			<updated>2019-02-02T21:48:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -1069,7 +1111,7 @@ DOI: &lt;a href=&quot;http://dx.doi.org/10.1038/s41593-018-0322-y&quot;&gt;http:
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-02-02T18:00:35+00:00</updated>
+			<updated>2019-02-03T00:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1143,10 +1185,11 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 			<uri>https://neurofedora.github.io/</uri>
 		</author>
 		<source>
-			<title type="html">The NeuroFedora Blog</title>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neurofedora.github.io/feeds/all.atom.xml"/>
 			<id>https://neurofedora.github.io/</id>
-			<updated>2019-01-27T14:09:10+00:00</updated>
+			<updated>2019-02-02T18:21:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1664,7 +1707,7 @@ acknowledgement: JM Tepper for original music.</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-02-02T18:00:35+00:00</updated>
+			<updated>2019-02-03T00:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1723,10 +1766,11 @@ acknowledgement: JM Tepper for original music.</content>
 			<uri>https://neurofedora.github.io/</uri>
 		</author>
 		<source>
-			<title type="html">The NeuroFedora Blog</title>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neurofedora.github.io/feeds/all.atom.xml"/>
 			<id>https://neurofedora.github.io/</id>
-			<updated>2019-01-27T14:09:10+00:00</updated>
+			<updated>2019-02-02T18:21:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1859,7 +1903,7 @@ acknowledgement: JM Tepper for original music.</content>
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2019-02-02T10:41:02+00:00</updated>
+			<updated>2019-02-02T21:48:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -1919,7 +1963,7 @@ acknowledgement: JM Tepper for original music.</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-02-02T18:00:35+00:00</updated>
+			<updated>2019-02-03T00:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2338,25 +2382,6 @@ Founded by behavior</content>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
 			<updated>2019-01-28T12:00:34+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">This rediscovered Bolivian frog species survived deadly chytrid fungus</title>
-		<link href="https://www.sciencenews.org/article/rediscovered-bolivian-frog-species-survived-deadly-chytrid-fungus"/>
-		<id>https://www.sciencenews.org/article/rediscovered-bolivian-frog-species-survived-deadly-chytrid-fungus</id>
-		<updated>2019-01-17T11:00:04+00:00</updated>
-		<content type="html">
- Scientists recently rediscovered a frog species in Bolivia that hasn’t been seen in 10 years — and it could be used to better understand a frog-killing fungus.</content>
-		<author>
-			<name>Jeremy Rehm</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss?_=2486</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2019-01-24T18:00:36+00:00</updated>
 		</source>
 	</entry>
 
