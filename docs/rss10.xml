@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/basketball-sized-rock-hit-moon-during-last-lunar-eclipse" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/laser-light-can-contain-intricate-beautiful-fractals" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10776" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86011" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/artificial-intelligence-learning-not-be-so-literal" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-01-22:/2019/01/22/microcircuits-and-their-interactions-in-epilepsy-is-the-focus-out-of-focus-.html" />
 			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-01-22:/2019/01/22/hello-world.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mixing-metamaterials-internal-structure-makes-it-stronger" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-book-tackles-real-science-sports-recovery" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=85143" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/basketball-sized-rock-hit-moon-during-last-lunar-eclipse">
+	<title>Science News: A basketball-sized rock hit the moon during the last lunar eclipse</title>
+	<link>https://www.sciencenews.org/article/basketball-sized-rock-hit-moon-during-last-lunar-eclipse</link>
+	<content:encoded>Professional and amateur astronomers joined forces to analyze the impact.</content:encoded>
+	<dc:date>2019-02-05T17:01:00+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/laser-light-can-contain-intricate-beautiful-fractals">
+	<title>Science News: Laser light can contain intricate, beautiful fractals</title>
+	<link>https://www.sciencenews.org/article/laser-light-can-contain-intricate-beautiful-fractals</link>
+	<content:encoded>Fractals show up in cauliflower, seashells and now — lasers.</content:encoded>
+	<dc:date>2019-02-05T13:00:05+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=10776">
 	<title>BMC Series blog: BMC Pediatrics: Editor picks of 2018</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2019/02/05/bmc-pediatrics-editor-picks-of-2018/</link>
@@ -1773,20 +1787,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Inspiration from disordered arrangements of atoms in crystalline metals may lead to longer-lasting, next-gen materials.</content:encoded>
 	<dc:date>2019-01-22T17:00:06+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-book-tackles-real-science-sports-recovery">
-	<title>Science News: ‘Good to Go’ tackles the real science of sports recovery</title>
-	<link>https://www.sciencenews.org/article/new-book-tackles-real-science-sports-recovery</link>
-	<content:encoded>In ‘Good to Go,’ science writer Christie Aschwanden puts science — and herself — to the test for the sake of sports recovery.</content:encoded>
-	<dc:date>2019-01-22T13:00:05+00:00</dc:date>
-	<dc:creator>Bethany Brookshire</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=85143">
-	<title>Retraction watch: Showdown over a study of abortion policy leads to a retraction, and leaves no one happy</title>
-	<link>https://retractionwatch.com/2019/01/22/showdown-over-a-study-of-abortion-policy-leads-to-a-retraction-and-leaves-no-one-happy/</link>
-	<content:encoded>A paper in Contraception that purported to show serious flaws in an earlier study of abortion laws and maternal health has been retracted, after the authors of the original study found what were apparently significant flaws in the study doing the debunking. That’s the short version of this story. The longer version involves years of … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/01/22/showdown-over-a-study-of-abortion-policy-leads-to-a-retraction-and-leaves-no-one-happy/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Showdown over a study of abortion policy leads to a retraction, and leaves no one happy&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-01-22T11:00:38+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
