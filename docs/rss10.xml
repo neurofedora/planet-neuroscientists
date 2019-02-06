@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-black-soldier-fly-larvae-can-demolish-pizza-so-fast" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/basketball-sized-rock-hit-moon-during-last-lunar-eclipse" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/laser-light-can-contain-intricate-beautiful-fractals" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10776" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ring-ripples-reveal-how-long-day-lasts-saturn" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-01-22:/2019/01/22/microcircuits-and-their-interactions-in-epilepsy-is-the-focus-out-of-focus-.html" />
 			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-01-22:/2019/01/22/hello-world.html" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/mixing-metamaterials-internal-structure-makes-it-stronger" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/how-black-soldier-fly-larvae-can-demolish-pizza-so-fast">
+	<title>Science News: How black soldier fly larvae can demolish a pizza so fast</title>
+	<link>https://www.sciencenews.org/article/how-black-soldier-fly-larvae-can-demolish-pizza-so-fast</link>
+	<content:encoded>When gorging together, fly larvae create a living fountain that whooshes slowpokes up and away.</content:encoded>
+	<dc:date>2019-02-06T00:05:01+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/basketball-sized-rock-hit-moon-during-last-lunar-eclipse">
 	<title>Science News: A basketball-sized rock hit the moon during the last lunar eclipse</title>
 	<link>https://www.sciencenews.org/article/basketball-sized-rock-hit-moon-during-last-lunar-eclipse</link>
@@ -1780,13 +1787,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>&lt;p&gt;Hello world! The NeuroFedora blog is now live!&lt;/p&gt;</content:encoded>
 	<dc:date>2019-01-22T19:27:17+00:00</dc:date>
 	<dc:creator>Manas Mangaonkar</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/mixing-metamaterials-internal-structure-makes-it-stronger">
-	<title>Science News: Being messy on the inside keeps metamaterials from folding under stress</title>
-	<link>https://www.sciencenews.org/article/mixing-metamaterials-internal-structure-makes-it-stronger</link>
-	<content:encoded>Inspiration from disordered arrangements of atoms in crystalline metals may lead to longer-lasting, next-gen materials.</content:encoded>
-	<dc:date>2019-01-22T17:00:06+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
