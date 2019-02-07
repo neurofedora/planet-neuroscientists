@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/grandmothers-survival-evolution" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/pregnant-women-personal-space" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85920" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36307" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2018-fourth-hottest-year-record" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/99b89d7a9c864cb1bf06a8c6cc4370e3" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36154" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lack-sleep-tied-increases-two-alzheimers-proteins-brain" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/rocking-puts-adults-sleep-faster-and-makes-slumber-deeper" />
-			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/767dad7d-948b-41de-b58e-4842ed72d57a" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/grandmothers-survival-evolution">
+	<title>Science News: Evolutionarily, grandmas are good for grandkids — up to a point</title>
+	<link>https://www.sciencenews.org/article/grandmothers-survival-evolution</link>
+	<content:encoded>Women may live past their reproductive years because they help their grandchildren survive, but there are limits to that benefit.</content:encoded>
+	<dc:date>2019-02-07T16:00:05+00:00</dc:date>
+	<dc:creator>Sujata Gupta</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/blog/growth-curve/pregnant-women-personal-space">
+	<title>Science News: In the third trimester, a pregnant woman’s sense of personal space grows</title>
+	<link>https://www.sciencenews.org/blog/growth-curve/pregnant-women-personal-space</link>
+	<content:encoded>Women’s sense of personal space grows to accommodate a larger belly during pregnancy, a small study suggests.</content:encoded>
+	<dc:date>2019-02-07T12:00:05+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=85920">
 	<title>Retraction watch: The case of the reviewer who said cite me or I won’t recommend acceptance of your work</title>
 	<link>https://retractionwatch.com/2019/02/07/the-case-of-the-reviewer-who-said-cite-me-or-i-wont-recommend-acceptance-of-your-work/</link>
@@ -1780,32 +1794,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>In people and mice deprived of sleep, researchers found an increase in tau, a protein involved in Alzheimer’s disease, in the fluid bathing the brain.</content:encoded>
 	<dc:date>2019-01-24T19:17:36+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/rocking-puts-adults-sleep-faster-and-makes-slumber-deeper">
-	<title>Science News: Rocking puts adults to sleep faster and makes slumber deeper</title>
-	<link>https://www.sciencenews.org/article/rocking-puts-adults-sleep-faster-and-makes-slumber-deeper</link>
-	<content:encoded>People sleep better when their beds are gently rocked, a small study finds.</content:encoded>
-	<dc:date>2019-01-24T16:00:05+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="http://snrp.utsa.edu/Podcast/767dad7d-948b-41de-b58e-4842ed72d57a">
-	<title>Neuroscientists talk shop: Jeff Golden MD</title>
-	<link>http://snrp.utsa.edu/POD_html/Podcast/Entries/2019/1/24_Jeff_Golden_MD.html</link>
-	<content:encoded>Jeff Golden (Harvard Medical School) talks about dichotomies in mitochondrial dynamics observed in the migration of cortical neurons and interneurons in early development and neuronal patterning.
-
-
-Duration: 42 minutes
-
-Discussants:(in alphabetical order)
-Jenny Hsieh (Semmes Foundation Chair, UTSA)
-Asif Maroof (Asst Prof, UTSA)
-Salma Quraishi (Res Asst Prof, UTSA)
-Todd Troyer (Assoc Prof, UTSA
-Charles Wilson (Ewing Halsell Chair, UTSA)
-
-acknowledgement: JM Tepper for original music.</content:encoded>
-	<dc:date>2019-01-24T14:51:48+00:00</dc:date>
-	<dc:creator>Jeffrey Golden MD</dc:creator>
 </item>
 
 </rdf:RDF>
