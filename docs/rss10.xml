@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-fabric-becomes-more-breathable-you-work-sweat" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85914" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-mating-asian-herders-european-farmers" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36337" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-have-questions-about-parkinson%E2%80%99s-disease-moth-wings-and-more" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/we-spent-new-years-eve-kuiper-belt" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=85444" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dogs-may-have-helped-ancient-middle-easterners-hunt-small-game" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness">
+	<title>Science News: Brain scans decode an elusive signature of consciousness</title>
+	<link>https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness</link>
+	<content:encoded>Newly described patterns of brain activity may help reveal the level of awareness in people with brain injuries.</content:encoded>
+	<dc:date>2019-02-08T17:23:13+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/new-fabric-becomes-more-breathable-you-work-sweat">
+	<title>Science News: A new fabric becomes more breathable as you work up a sweat</title>
+	<link>https://www.sciencenews.org/article/new-fabric-becomes-more-breathable-you-work-sweat</link>
+	<content:encoded>A yarn-based textile can switch from breathable to insulating and back again, depending on how much you sweat.</content:encoded>
+	<dc:date>2019-02-08T16:05:54+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=85914">
 	<title>Retraction watch: Chem journal yanks paper because authors had stolen it as peer reviewers</title>
 	<link>https://retractionwatch.com/2019/02/08/chem-journal-yanks-paper-because-authors-had-stolen-it-as-peer-reviewers/</link>
@@ -1772,20 +1786,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Once seen as a supplement with a long list of benefits, vitamin D’s glow may be dimming.</content:encoded>
 	<dc:date>2019-01-27T11:00:06+00:00</dc:date>
 	<dc:creator>Laura Beil</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=85444">
-	<title>Retraction watch: Weekend reads: Sokal on Sokal Squared hoax; is open access enough?; replication in the humanities</title>
-	<link>https://retractionwatch.com/2019/01/26/weekend-reads-sokal-on-sokal-squared-hoax-is-open-access-enough-replication-in-the-humanities/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a showdown over a paper on abortion laws that left … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/01/26/weekend-reads-sokal-on-sokal-squared-hoax-is-open-access-enough-replication-in-the-humanities/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Sokal on Sokal Squared hoax; is open access enough?; replication in the humanities&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-01-26T14:40:56+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dogs-may-have-helped-ancient-middle-easterners-hunt-small-game">
-	<title>Science News: Dogs may have helped ancient Middle Easterners hunt small game</title>
-	<link>https://www.sciencenews.org/article/dogs-may-have-helped-ancient-middle-easterners-hunt-small-game</link>
-	<content:encoded>Jordanian finds point to pooch-aided hunting of small prey around 11,500 years ago, offering new clues into dog domestication in the Middle East.</content:encoded>
-	<dc:date>2019-01-25T14:56:37+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
