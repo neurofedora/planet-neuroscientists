@@ -15,8 +15,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-new-horizons-ultima-thule-mu69-pancakes" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-fabric-becomes-more-breathable-you-work-sweat" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/can-data-from-wearables-benefit-global-health" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85914" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-mating-asian-herders-european-farmers" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36337" />
@@ -112,13 +115,24 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=36379" />
 			<rdf:li rdf:resource="https://www.mariannebezaire.com/?p=168" />
 			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-01-27:/2019/01/27/neurofedora-update-2019-week-4.html" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-have-questions-about-parkinson%E2%80%99s-disease-moth-wings-and-more" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/we-spent-new-years-eve-kuiper-belt" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/nasa-new-horizons-ultima-thule-mu69-pancakes">
+	<title>Science News: Ultima Thule is shaped like two lumpy pancakes</title>
+	<link>https://www.sciencenews.org/article/nasa-new-horizons-ultima-thule-mu69-pancakes</link>
+	<content:encoded>Scientists are rethinking the shape of the space rock, once thought to be a snowman.</content:encoded>
+	<dc:date>2019-02-08T23:00:41+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg">
+	<title>Science News: An Antarctic expedition will search for what lived under the Larsen C ice shelf</title>
+	<link>https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg</link>
+	<content:encoded>The fourth attempt to investigate the seafloor once hidden by the Larsen C iceberg may have the best chance yet of success.</content:encoded>
+	<dc:date>2019-02-08T19:59:13+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness">
 	<title>Science News: Brain scans decode an elusive signature of consciousness</title>
 	<link>https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness</link>
@@ -132,6 +146,12 @@
 	<content:encoded>A yarn-based textile can switch from breathable to insulating and back again, depending on how much you sweat.</content:encoded>
 	<dc:date>2019-02-08T16:05:54+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/can-data-from-wearables-benefit-global-health">
+	<title>Elsevier Connect: Can data from wearables benefit global health?</title>
+	<link>https://www.elsevier.com/connect/can-data-from-wearables-benefit-global-health</link>
+	<content:encoded>Companies like Apple will need to collaborate with researchers for data to serve the greater good</content:encoded>
+	<dc:date>2019-02-08T14:26:59+00:00</dc:date>
 </item>
 <item rdf:about="https://retractionwatch.com/?p=85914">
 	<title>Retraction watch: Chem journal yanks paper because authors had stolen it as peer reviewers</title>
@@ -1765,27 +1785,6 @@ In fact, that is one of the major goals of the initiative---to spread technical
 knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-01-27T14:09:10+00:00</dc:date>
 	<dc:creator>Ankur Sinha</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-have-questions-about-parkinson%E2%80%99s-disease-moth-wings-and-more">
-	<title>Science News: Readers have questions about Parkinson’s disease, moth wings and more</title>
-	<link>https://www.sciencenews.org/article/readers-have-questions-about-parkinson%E2%80%99s-disease-moth-wings-and-more</link>
-	<content:encoded>Readers had questions about Parkinson’s disease, the new definition of a kilogram’s mass, Saturn’s moon Dione and more.</content:encoded>
-	<dc:date>2019-01-27T12:15:00+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/we-spent-new-years-eve-kuiper-belt">
-	<title>Science News: We spent New Year’s Eve in the Kuiper Belt</title>
-	<link>https://www.sciencenews.org/article/we-spent-new-years-eve-kuiper-belt</link>
-	<content:encoded>Editor in Chief Nancy Shute discusses Science News' coverage of NASA's New Horizons spacecraft's flyby of Ultima Thule.</content:encoded>
-	<dc:date>2019-01-27T12:00:00+00:00</dc:date>
-	<dc:creator>Nancy Shute</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster">
-	<title>Science News: Vitamin D supplements aren’t living up to their hype</title>
-	<link>https://www.sciencenews.org/article/vitamin-d-supplements-lose-luster</link>
-	<content:encoded>Once seen as a supplement with a long list of benefits, vitamin D’s glow may be dimming.</content:encoded>
-	<dc:date>2019-01-27T11:00:06+00:00</dc:date>
-	<dc:creator>Laura Beil</dc:creator>
 </item>
 
 </rdf:RDF>
