@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-electric-implants-treat-depression-closer-reality" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86283" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-new-horizons-ultima-thule-mu69-pancakes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36136" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-8688436276451544945" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=36379" />
-			<rdf:li rdf:resource="https://www.mariannebezaire.com/?p=168" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/brain-electric-implants-treat-depression-closer-reality">
+	<title>Science News: Brain-zapping implants that fight depression are inching closer to reality</title>
+	<link>https://www.sciencenews.org/article/brain-electric-implants-treat-depression-closer-reality</link>
+	<content:encoded>Researchers are using electric jolts to correct the faulty brain activity that sparks depression.</content:encoded>
+	<dc:date>2019-02-10T11:00:05+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=86283">
 	<title>Retraction watch: Weekend reads: A call for 400 retractions of papers on organ donors; “citation mania;” AAAS reassessing award for work on herbicide</title>
 	<link>https://retractionwatch.com/2019/02/09/weekend-reads-a-call-for-400-retractions-of-papers-on-organ-donors-citation-mania-aaas-reassessing-award-for-work-on-herbicide/</link>
@@ -1740,16 +1747,6 @@ DOI: &lt;a href=&quot;http://dx.doi.org/10.1038/s41593-018-0322-y&quot;&gt;http:
 	<content:encoded>The following is a rant in praise of preprints. I blog of usefulness of preprints, open science and open access, how BioRxiv works and their Plan U.</content:encoded>
 	<dc:date>2019-01-28T06:00:19+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.mariannebezaire.com/?p=168">
-	<title>Marianne Bezaire: I’ll wait for this news</title>
-	<link>https://www.mariannebezaire.com/2019/01/27/ill-wait-for-this-news/</link>
-	<content:encoded>&lt;p&gt;I couldn’t decide, as I started drafting this first post, whether to write about the state of the academic journal system today or about how I somehow regret canceling my facebook account even though I hadn’t used it for a full year before canceling. But then an amazing Medium post showed up in my email and I just had to write about it.&lt;/p&gt;
-&lt;p&gt;And no, I’m not linking to that post here, that’s for a future date. And it’s going to be awesome! Today’s post is going to be bland. Not the best way to start a blog, but here it is:&lt;/p&gt;
-&lt;p&gt;There once was a guy named Sylvester, or something similar. He’s been around a lot longer than I have. Somehow Sylvester successfully navigated through life without my knowledge until I was in my teens. I first heard of him because he was competent enough to sing a song and get it played on the radio! Over and over. I forgot about Sylvester for awhile until I heard about him again. This time it was because he had  created a system to abuse large numbers of kids.&lt;/p&gt;
-&lt;p&gt;The next time I hear about R. Sylvester, I sincerely hope it’s because he managed – like a grown up – to successfully navigate our country’s criminal justice system without committing another felony and be safely secured in a jail for the rest of his life. This is a tough ask, because I’ve heard it can be difficult for people like Sylvester in jail. But I believe R. Sylvester Kelly can get there.&lt;/p&gt;</content:encoded>
-	<dc:date>2019-01-27T14:27:11+00:00</dc:date>
-	<dc:creator>Marianne Bezaire</dc:creator>
 </item>
 
 </rdf:RDF>
