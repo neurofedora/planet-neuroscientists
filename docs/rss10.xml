@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3756" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-electric-implants-treat-depression-closer-reality" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86283" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-new-horizons-ultima-thule-mu69-pancakes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3752" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36136" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-8688436276451544945" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=36379" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://pillowlab.wordpress.com/?p=3756">
+	<title>Pillow Lab: Reductions in representation learning with rate-distortion theory</title>
+	<link>https://pillowlab.wordpress.com/2019/02/10/reductions-in-representation-learning-with-rate-distortion-theory/</link>
+	<content:encoded>In lab meeting this week, we discussed unsupervised learning in the context of deep generative models, namely -variational autoencoders (-VAEs), drawing from the original, Higgins et al. 2017 (ICLR), and its follow-up, Burgess et al. 2017 (NIPS). The classic VAE … &lt;a href=&quot;https://pillowlab.wordpress.com/2019/02/10/reductions-in-representation-learning-with-rate-distortion-theory/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-02-10T18:00:00+00:00</dc:date>
+	<dc:creator>mikemorais</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/brain-electric-implants-treat-depression-closer-reality">
 	<title>Science News: Brain-zapping implants that fight depression are inching closer to reality</title>
 	<link>https://www.sciencenews.org/article/brain-electric-implants-treat-depression-closer-reality</link>
@@ -1740,13 +1747,6 @@ DOI: &lt;a href=&quot;http://dx.doi.org/10.1038/s41593-018-0322-y&quot;&gt;http:
 &lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/FyiNG7HGvjs&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-01-28T06:50:29+00:00</dc:date>
 	<dc:creator>The Neurocritic</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=36379">
-	<title>For Better Science: Preprinters of the World Unite</title>
-	<link>https://forbetterscience.com/2019/01/28/preprinters-of-the-world-unite/</link>
-	<content:encoded>The following is a rant in praise of preprints. I blog of usefulness of preprints, open science and open access, how BioRxiv works and their Plan U.</content:encoded>
-	<dc:date>2019-01-28T06:00:19+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
