@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3787" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-insulation-material-weightless-durable-extreme-heat" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10818" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-change-increase-campylobacter-infections-flies" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/titan-oddly-thick-atmosphere-may-come-cooked-organic-compounds" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85824" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36242" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-change-might-not-slow-ocean-circulation-much-thought" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://pillowlab.wordpress.com/?p=3787">
+	<title>Pillow Lab: Uncertainty Autoencoders: Learning Compressed Representations via Variational Information Maximization</title>
+	<link>https://pillowlab.wordpress.com/2019/02/14/uncertainty-autoencoders-learning-compressed-representations-via-variational-information-maximization/</link>
+	<content:encoded>This week we continued the deep generative model theme and discussed Uncertainty Autoencoders: Learning Compressed Representations via Variational Information Maximization. This work is in the context of statistical compressive sensing, which attempts to recover a high-dimensional signal from low dimensional measurements in a … &lt;a href=&quot;https://pillowlab.wordpress.com/2019/02/14/uncertainty-autoencoders-learning-compressed-representations-via-variational-information-maximization/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-02-15T05:39:02+00:00</dc:date>
+	<dc:creator>Stephen Keeley</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/new-insulation-material-weightless-durable-extreme-heat">
 	<title>Science News: A new insulation material is practically weightless yet still durable</title>
 	<link>https://www.sciencenews.org/article/new-insulation-material-weightless-durable-extreme-heat</link>
@@ -1851,13 +1858,6 @@ You may also add Service Tags such as equipment, species, or therapeutic area. J
 &lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-02-01T10:01:30+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/climate-change-might-not-slow-ocean-circulation-much-thought">
-	<title>Science News: Climate change might not slow ocean circulation as much as thought</title>
-	<link>https://www.sciencenews.org/article/climate-change-might-not-slow-ocean-circulation-much-thought</link>
-	<content:encoded>New measurements may call for a rethink of what controls ocean circulation in the North Atlantic.</content:encoded>
-	<dc:date>2019-01-31T21:47:23+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
