@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/tooth-plaque-shows-drinking-milk-goes-back-3000-years-mongolia" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86829" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-some-georgia-okeeffe-paintings-have-art-acne" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-gravitational-wave-detector-quantum-upgrade" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9831" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2108" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown" />
-			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2104" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/tooth-plaque-shows-drinking-milk-goes-back-3000-years-mongolia">
+	<title>Science News: Tooth plaque shows drinking milk goes back 3,000 years in Mongolia</title>
+	<link>https://www.sciencenews.org/article/tooth-plaque-shows-drinking-milk-goes-back-3000-years-mongolia</link>
+	<content:encoded>The hardened plaque on teeth is helping scientists trace the history of dairying in Mongolia.</content:encoded>
+	<dc:date>2019-02-17T12:00:05+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=86829">
 	<title>Retraction watch: Weekend reads: Article retracted because of “racial characterizations;” India’s high retraction rate; meet the fraud finder</title>
 	<link>https://retractionwatch.com/2019/02/16/weekend-reads-article-retracted-because-of-racial-characterizations-indias-high-retraction-rate-meet-the-fraud-finder/</link>
@@ -1466,31 +1473,6 @@ Emergence refers to the idea that a system can exhibit behavior or propert</cont
 	<content:encoded>Assessing the scope of the shutdown’s impact on NSF-funded science will be a long process.</content:encoded>
 	<dc:date>2019-02-01T21:45:26+00:00</dc:date>
 	<dc:creator>Cassie Martin</dc:creator>
-</item>
-<item rdf:about="http://blog.scienceexchange.com/?p=2104">
-	<title>The Science Exchange Blog: Providers: Format text on your Storefront with Markdown</title>
-	<link>https://blog.scienceexchange.com/2019/02/providers-format-text-on-your-storefront-with-markdown/</link>
-	<content:encoded>&lt;header class=&quot;article-header clearfix&quot;&gt;Science Exchange supports a syntax called Markdown that allows you to format your Storefront and Service descriptions. You can add headers, lists, bold or italicize text, add links and more, which can help when  your Lab Summary or Service Descriptions are heavy with content.&lt;/header&gt;
-&lt;div class=&quot;article-body&quot;&gt;
-&lt;p&gt;Some examples of frequently used Markdown shortcuts are:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Headers:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Using hashtags, you can delineate a line of text as a header.&lt;/p&gt;
-&lt;p&gt;# This is a level 1 header&lt;/p&gt;
-&lt;p&gt;## This is a level 2 header&lt;/p&gt;
-&lt;p&gt;### This is a level 3 header&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Emphasis:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Surrounding text with an underscore will italicize it.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;_I like rocket science_ becomes &lt;em&gt;I like rocket science&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Surrounding text with double asterisks will bold it.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;**I like rocket science**  becomes &lt;strong&gt;I like rocket science&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Our Customer Success personnel can help to optimize the look and layout of your Storefront and Service descriptions for you. If you’d like our help with this, please email support@scienceexchange.com.&lt;/p&gt;
-&lt;/div&gt;</content:encoded>
-	<dc:date>2019-02-01T20:51:03+00:00</dc:date>
-	<dc:creator>Science Exchange Team</dc:creator>
 </item>
 
 </rdf:RDF>
