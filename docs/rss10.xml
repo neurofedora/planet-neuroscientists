@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-02-17:/2019/02/17/neurofedora-update-2019-week-7.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tooth-plaque-shows-drinking-milk-goes-back-3000-years-mongolia" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86829" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-some-georgia-okeeffe-paintings-have-art-acne" />
@@ -114,11 +115,48 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=85878" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9831" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2108" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:neurofedora.github.io,2019-02-17:/2019/02/17/neurofedora-update-2019-week-7.html">
+	<title>NeuroFedora blog: NeuroFedora update: 2019 week 7</title>
+	<link>https://neurofedora.github.io/2019/02/17/neurofedora-update-2019-week-7.html</link>
+	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We continue to make progress on software that is to be included in
+&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/neuron&quot;&gt;neuron&lt;/a&gt; was approved for inclusion and is now in testing. This is without MPI
+support, and does not currently contain Python bindings. These are both being
+worked on now.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/auryn&quot;&gt;auryn&lt;/a&gt; was approved for inclusion. While it builds fine on &lt;code&gt;x86_64,
+i686, ppc64&lt;/code&gt;, it does not build on other secondary architectures:
+&lt;code&gt;armv7hl, aarch64, s390x&lt;/code&gt;. So, we have filed a &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/fzenke/auryn/issues/33&quot;&gt;ticket upstream&lt;/a&gt; to clarify if these are
+supported. You can read more about the architectures Fedora supports &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Architectures&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;various other packages were updated to their latest versions: &lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org/updates/?packages=python-fsleyes&quot;&gt;fsleyes&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org/updates/?packages=python-pydicom&quot;&gt;pydicom&lt;/a&gt;, and
+&lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org/updates/?packages=python-nibabel&quot;&gt;nibabel&lt;/a&gt;. You
+can test them by enabling the updates-testing repository and give feedback on
+these updates (documented &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/QA:Updates_Testing&quot;&gt;here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A number of packages need to be updated to their latest versions.
+Unfortunately, a few of these bundle software that must be removed, so it
+takes more time than simple updates: &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1674578&quot;&gt;InsightToolkit&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1371436&quot;&gt;vxl&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1674946&quot;&gt;gdcm&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We announced NeuroFedora on &lt;a class=&quot;reference external&quot; href=&quot;https://neurostars.org/t/neurofedora-free-software-for-free-neuroscience/3594&quot;&gt;Neurostars&lt;/a&gt;
+today also.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other news, &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!topic/neuralensemble/a4xnnPQ7dpM&quot;&gt;PyNN is being considered as an INCF standard/best practice&lt;/a&gt;. If you
+do use it, please provide your comments.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-02-17T13:32:27+00:00</dc:date>
+	<dc:creator>Ankur Sinha</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/tooth-plaque-shows-drinking-milk-goes-back-3000-years-mongolia">
 	<title>Science News: Tooth plaque shows drinking milk goes back 3,000 years in Mongolia</title>
 	<link>https://www.sciencenews.org/article/tooth-plaque-shows-drinking-milk-goes-back-3000-years-mongolia</link>
@@ -1466,13 +1504,6 @@ Emergence refers to the idea that a system can exhibit behavior or propert</cont
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2019-02-02T05:53:26+00:00</dc:date>
 	<dc:creator>Science Exchange Team</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown">
-	<title>Science News: NSF science research funds are flowing again after the shutdown</title>
-	<link>https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown</link>
-	<content:encoded>Assessing the scope of the shutdown’s impact on NSF-funded science will be a long process.</content:encoded>
-	<dc:date>2019-02-01T21:45:26+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
 </item>
 
 </rdf:RDF>

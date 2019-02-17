@@ -5,8 +5,59 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2019-02-17T12:01:16+00:00</updated>
+	<updated>2019-02-17T18:01:15+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">NeuroFedora update: 2019 week 7</title>
+		<link href="https://neurofedora.github.io/2019/02/17/neurofedora-update-2019-week-7.html"/>
+		<id>tag:neurofedora.github.io,2019-02-17:/2019/02/17/neurofedora-update-2019-week-7.html</id>
+		<updated>2019-02-17T13:32:27+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We continue to make progress on software that is to be included in
+&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/neuron&quot;&gt;neuron&lt;/a&gt; was approved for inclusion and is now in testing. This is without MPI
+support, and does not currently contain Python bindings. These are both being
+worked on now.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/auryn&quot;&gt;auryn&lt;/a&gt; was approved for inclusion. While it builds fine on &lt;code&gt;x86_64,
+i686, ppc64&lt;/code&gt;, it does not build on other secondary architectures:
+&lt;code&gt;armv7hl, aarch64, s390x&lt;/code&gt;. So, we have filed a &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/fzenke/auryn/issues/33&quot;&gt;ticket upstream&lt;/a&gt; to clarify if these are
+supported. You can read more about the architectures Fedora supports &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Architectures&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;various other packages were updated to their latest versions: &lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org/updates/?packages=python-fsleyes&quot;&gt;fsleyes&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org/updates/?packages=python-pydicom&quot;&gt;pydicom&lt;/a&gt;, and
+&lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org/updates/?packages=python-nibabel&quot;&gt;nibabel&lt;/a&gt;. You
+can test them by enabling the updates-testing repository and give feedback on
+these updates (documented &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/QA:Updates_Testing&quot;&gt;here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A number of packages need to be updated to their latest versions.
+Unfortunately, a few of these bundle software that must be removed, so it
+takes more time than simple updates: &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1674578&quot;&gt;InsightToolkit&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1371436&quot;&gt;vxl&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1674946&quot;&gt;gdcm&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We announced NeuroFedora on &lt;a class=&quot;reference external&quot; href=&quot;https://neurostars.org/t/neurofedora-free-software-for-free-neuroscience/3594&quot;&gt;Neurostars&lt;/a&gt;
+today also.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other news, &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!topic/neuralensemble/a4xnnPQ7dpM&quot;&gt;PyNN is being considered as an INCF standard/best practice&lt;/a&gt;. If you
+do use it, please provide your comments.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neurofedora.github.io/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neurofedora.github.io/feeds/all.atom.xml"/>
+			<id>https://neurofedora.github.io/</id>
+			<updated>2019-02-17T13:32:27+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Tooth plaque shows drinking milk goes back 3,000 years in Mongolia</title>
@@ -17,13 +68,13 @@
  The hardened plaque on teeth is helping scientists trace the history of dairying in Mongolia.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -56,13 +107,13 @@
  Tiny protrusions are from chemical reactions in the paint, say scientists who developed an imaging method that could help curators track the knobs.</content>
 		<author>
 			<name>Jeremy Rehm</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -75,13 +126,13 @@
  Quantum squeezing of light will help scientists make better gravitational wave detectors.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -196,13 +247,13 @@
  Seeing intelligence as fixed can result in lower grades, especially for certain minorities</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -235,13 +286,13 @@
  Particle physics sheds new light on the electric potential of thunderstorms.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -383,13 +434,13 @@
  Extreme heat and temperature swings are no match for this lightweight insulator.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -442,13 +493,13 @@
  Warmer, more lively house flies could spread more Campylobacter bacteria by landing on more food.</content>
 		<author>
 			<name>Susan Milius</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -487,13 +538,13 @@
  In 1969, peregrine falcons were at risk of extinction. But a ban on the pesticide DDT and new captive breeding programs allowed the raptors to recover.</content>
 		<author>
 			<name>Allie Wilkinson</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -580,13 +631,13 @@
  A new study describes how sperm navigate narrow straits in the reproductive tract’s obstacle course to reach an egg.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -599,13 +650,13 @@
  After 15 years of exploring Mars, a dust storm led to the demise of NASA’s longest-lived rover.</content>
 		<author>
 			<name>Lisa Grossman</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -694,13 +745,13 @@
  Quantum particles seem to disobey a fundamental principle of mathematics.</content>
 		<author>
 			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -767,13 +818,13 @@
  A newly designed material uses only light to speedily remove 99.9999 percent of microbes from water.</content>
 		<author>
 			<name>Jeremy Rehm</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -875,13 +926,13 @@
  There may be yet another large crater buried beneath Greenland’s ice sheet. But it’s probably not related to the first one found last year.</content>
 		<author>
 			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -914,13 +965,13 @@
  Educational robots show promise for helping kids in the classroom or at home, but researchers are still figuring out how these bots should behave.</content>
 		<author>
 			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1119,13 +1170,13 @@
  The first multidrug clinical trial of Ebola treatments is underway amid an outbreak in Congo.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1138,13 +1189,13 @@
  Megaliths spread across the continent due to seafarers’ influence, researcher says.</content>
 		<author>
 			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1164,7 +1215,7 @@
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2019-02-17T12:00:36+00:00</updated>
+			<updated>2019-02-17T18:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1217,13 +1268,13 @@
  A 240-million-year-old fossil reveals the oldest known case of bone cancer in an amniote, a group that includes mammals, birds and reptiles.</content>
 		<author>
 			<name>Aimee Cunningham</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1342,13 +1393,13 @@
  Readers had comments and questions about defining artificial intelligence, the New Horizons space mission and more.</content>
 		<author>
 			<name>Science News Staff</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1361,13 +1412,13 @@
  Editor in Chief Nancy Shute discusses the history of neuroscience and new techniques scientists are using to influence the brain.</content>
 		<author>
 			<name>Nancy Shute</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1380,13 +1431,13 @@
  Researchers are using electric jolts to correct the faulty brain activity that sparks depression.</content>
 		<author>
 			<name>Laura Sanders</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
+			<uri>https://www.sciencenews.org/feeds/headlines.rss/favicon.ico</uri>
 		</author>
 		<source>
 			<title type="html">Science News</title>
 			<link rel="self" href=""/>
 			<id></id>
-			<updated>2019-02-17T12:00:35+00:00</updated>
+			<updated>2019-02-17T18:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2432,7 +2483,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neurofedora.github.io/feeds/all.atom.xml"/>
 			<id>https://neurofedora.github.io/</id>
-			<updated>2019-02-02T18:21:32+00:00</updated>
+			<updated>2019-02-17T13:32:27+00:00</updated>
 		</source>
 	</entry>
 
@@ -2583,25 +2634,6 @@ Emergence refers to the idea that a system can exhibit behavior or propert</cont
 			<link rel="self" href="https://blog.scienceexchange.com/feed/"/>
 			<id>https://blog.scienceexchange.com</id>
 			<updated>2019-02-16T00:00:36+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">NSF science research funds are flowing again after the shutdown</title>
-		<link href="https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown"/>
-		<id>https://www.sciencenews.org/article/nsf-science-research-funds-are-flowing-again-after-shutdown</id>
-		<updated>2019-02-01T21:45:26+00:00</updated>
-		<content type="html">
- Assessing the scope of the shutdown’s impact on NSF-funded science will be a long process.</content>
-		<author>
-			<name>Cassie Martin</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2019-02-08T12:00:37+00:00</updated>
 		</source>
 	</entry>
 
