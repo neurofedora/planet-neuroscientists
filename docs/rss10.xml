@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/mars-lake-underground-volcano" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/quest-quasicrystals-physics-adventure-tale" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86981" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tidal-floods-climate-change-hurt-small-businesses" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36291" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=36880" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/space-rock-collision-may-explain-how-exoplanet-was-born" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-extinct-red-wolves-lives-some-mysterious-texas-coyotes" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/mars-lake-underground-volcano">
+	<title>Science News: Mars’ lake may need an underground volcano to exist</title>
+	<link>https://www.sciencenews.org/article/mars-lake-underground-volcano</link>
+	<content:encoded>If a lake under Martian ice is real, there must be a subsurface magma pool to keep conditions warm enough for water to remain liquid, scientists say.</content:encoded>
+	<dc:date>2019-02-19T18:04:31+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/quest-quasicrystals-physics-adventure-tale">
 	<title>Science News: The quest for quasicrystals is a physics adventure tale</title>
 	<link>https://www.sciencenews.org/article/quest-quasicrystals-physics-adventure-tale</link>
@@ -1403,13 +1410,6 @@ Ovsepian points out that numerous studies have found that only a minority of the
 	<content:encoded>Simulations suggest a planet roughly 2,000 light-years away formed when two space rocks collided, supporting the idea that such events are universal.</content:encoded>
 	<dc:date>2019-02-04T18:40:48+00:00</dc:date>
 	<dc:creator>Jeremy Rehm</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dna-extinct-red-wolves-lives-some-mysterious-texas-coyotes">
-	<title>Science News: DNA from extinct red wolves lives on in some mysterious Texas coyotes</title>
-	<link>https://www.sciencenews.org/article/dna-extinct-red-wolves-lives-some-mysterious-texas-coyotes</link>
-	<content:encoded>Mystery canids on Texas’ Galveston Island carry red wolf DNA, thought to be extinct in the wild for 40 years.</content:encoded>
-	<dc:date>2019-02-04T15:00:04+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
