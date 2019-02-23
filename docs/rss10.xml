@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/japan-hayabusa2-spacecraft-first-sample-asteroid-dust" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/colliding-neutron-stars-light-speed-space" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/african-hominid-ardipithecus-ramidus-fossils-upright-walking" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/supernova-show-universe-expands-same-rate-all-directions" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/pills-needles-injection-medication" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dengue-virus-antibodies-zika-infection" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/grandmothers-survival-evolution" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/pregnant-women-personal-space" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/japan-hayabusa2-spacecraft-first-sample-asteroid-dust">
+	<title>Science News: Hayabusa2 just tried to collect asteroid dust for the first time</title>
+	<link>https://www.sciencenews.org/article/japan-hayabusa2-spacecraft-first-sample-asteroid-dust</link>
+	<content:encoded>The Japanese Hayabusa2 spacecraft touched down on asteroid Ryugu and attempted to gather a sample of its rock to bring back to Earth.</content:encoded>
+	<dc:date>2019-02-22T20:07:42+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/colliding-neutron-stars-light-speed-space">
 	<title>Science News: Colliding neutron stars shot a light-speed jet through space</title>
 	<link>https://www.sciencenews.org/article/colliding-neutron-stars-light-speed-space</link>
@@ -1343,13 +1350,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Women may live past their reproductive years because they help their grandchildren survive, but there are limits to that benefit.</content:encoded>
 	<dc:date>2019-02-07T16:00:05+00:00</dc:date>
 	<dc:creator>Sujata Gupta</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/pregnant-women-personal-space">
-	<title>Science News: In the third trimester, a pregnant woman’s sense of personal space grows</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/pregnant-women-personal-space</link>
-	<content:encoded>Women’s sense of personal space grows to accommodate a larger belly during pregnancy, a small study suggests.</content:encoded>
-	<dc:date>2019-02-07T12:00:05+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
