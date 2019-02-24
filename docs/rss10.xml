@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/top-10-science-anniversaries-celebrate-2019" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=87268" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/japan-hayabusa2-spacecraft-first-sample-asteroid-dust" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/colliding-neutron-stars-light-speed-space" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-mating-asian-herders-european-farmers" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36337" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/pills-needles-injection-medication" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dengue-virus-antibodies-zika-infection" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/context/top-10-science-anniversaries-celebrate-2019">
+	<title>Science News: Top 10 science anniversaries to celebrate in 2019</title>
+	<link>https://www.sciencenews.org/blog/context/top-10-science-anniversaries-celebrate-2019</link>
+	<content:encoded>Top 10 science anniversaries in 2019 include expeditions, treatises and tabulations.</content:encoded>
+	<dc:date>2019-02-24T13:00:05+00:00</dc:date>
+	<dc:creator>Tom Siegfried</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=87268">
 	<title>Retraction watch: Weekend reads: Retractions at Nature and NEJM; editor resigns after paper with “racist characterizations;” CRISPR babies ethics paper retracted</title>
 	<link>https://retractionwatch.com/2019/02/23/weekend-reads-retractions-at-nature-and-nejm-editor-resigns-after-paper-with-racist-characterizations-crispr-babies-ethics-paper-retracted/</link>
@@ -1343,13 +1350,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>High-tech pills equipped with medicinal needles could administer painless shots inside the body.</content:encoded>
 	<dc:date>2019-02-07T19:00:05+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dengue-virus-antibodies-zika-infection">
-	<title>Science News: In some cases, getting dengue may protect against Zika</title>
-	<link>https://www.sciencenews.org/article/dengue-virus-antibodies-zika-infection</link>
-	<content:encoded>A Zika outbreak in a Brazilian slum suggests that the timing of dengue infections may matter for protection against Zika.</content:encoded>
-	<dc:date>2019-02-07T19:00:05+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
