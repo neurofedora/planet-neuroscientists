@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/hermit-crabs-are-drawn-smell-their-own-dead" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=87315" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fda-young-plasma-therapies-aging-research" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9848" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-new-horizons-ultima-thule-mu69-pancakes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-fabric-becomes-more-breathable-you-work-sweat" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/hermit-crabs-are-drawn-smell-their-own-dead">
+	<title>Science News: Hermit crabs are drawn to the smell of their own dead</title>
+	<link>https://www.sciencenews.org/article/hermit-crabs-are-drawn-smell-their-own-dead</link>
+	<content:encoded>A new study finds that the smell of hermit crab flesh attracts other hermit crabs of the same species desperately looking for a larger shell.</content:encoded>
+	<dc:date>2019-02-25T13:00:06+00:00</dc:date>
+	<dc:creator>Yao-Hua Law</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=87315">
 	<title>Retraction watch: New study finds “important deficiencies” in university reports of misconduct</title>
 	<link>https://retractionwatch.com/2019/02/25/new-study-finds-important-deficiencies-in-university-reports-of-misconduct/</link>
@@ -1386,13 +1393,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Newly described patterns of brain activity may help reveal the level of awareness in people with brain injuries.</content:encoded>
 	<dc:date>2019-02-08T17:23:13+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-fabric-becomes-more-breathable-you-work-sweat">
-	<title>Science News: A new fabric becomes more breathable as you work up a sweat</title>
-	<link>https://www.sciencenews.org/article/new-fabric-becomes-more-breathable-you-work-sweat</link>
-	<content:encoded>A yarn-based textile can switch from breathable to insulating and back again, depending on how much you sweat.</content:encoded>
-	<dc:date>2019-02-08T16:05:54+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
