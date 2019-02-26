@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-angkor-mysterious-decline-slow-not-sudden" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hermit-crabs-are-drawn-smell-their-own-dead" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=87315" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fda-young-plasma-therapies-aging-research" />
@@ -31,6 +32,7 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36500" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/fee9fde03e3e4fd08e071001468e9216" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ban-artificial-trans-fats-nyc-restaurants-appears-be-working" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/largest-bee-rediscovered-indonesia" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/largest-bee-rediscovered-Indonesia" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dueling-dates-volcanic-eruption-debate-dinosaurs-death" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8447" />
@@ -113,12 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-electric-implants-treat-depression-closer-reality" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86283" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-new-horizons-ultima-thule-mu69-pancakes" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ancient-angkor-mysterious-decline-slow-not-sudden">
+	<title>Science News: Ancient Angkor’s mysterious decline may have been slow, not sudden</title>
+	<link>https://www.sciencenews.org/article/ancient-angkor-mysterious-decline-slow-not-sudden</link>
+	<content:encoded>Analyzing sediment from the massive city’s moat challenges the idea that the last capital of the Khmer Empire collapsed suddenly.</content:encoded>
+	<dc:date>2019-02-25T20:00:05+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/hermit-crabs-are-drawn-smell-their-own-dead">
 	<title>Science News: Hermit crabs are drawn to the smell of their own dead</title>
 	<link>https://www.sciencenews.org/article/hermit-crabs-are-drawn-smell-their-own-dead</link>
@@ -298,6 +305,13 @@ Cognitive benefits aside, music can also be a great &lt;a href=&quot;http://www.
 	<content:encoded>New Yorkers’ levels of artificial trans fats dropped, especially in people who ate out the most, after a citywide ban on the fats in restaurant foods.</content:encoded>
 	<dc:date>2019-02-21T21:05:07+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/largest-bee-rediscovered-indonesia">
+	<title>Science News: The world’s largest bee has been rediscovered after 38 years</title>
+	<link>https://www.sciencenews.org/article/largest-bee-rediscovered-indonesia</link>
+	<content:encoded>Researchers rediscovered the world’s largest bee living in the forests of an island of Indonesia.</content:encoded>
+	<dc:date>2019-02-21T19:31:52+00:00</dc:date>
+	<dc:creator>Jeremy Rehm</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/largest-bee-rediscovered-Indonesia">
 	<title>Science News: The world’s largest bee has been rediscovered after 38 years</title>
@@ -1379,20 +1393,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Scientists are rethinking the shape of the space rock, once thought to be a snowman.</content:encoded>
 	<dc:date>2019-02-08T23:00:41+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg">
-	<title>Science News: An Antarctic expedition will search for what lived under the Larsen C ice shelf</title>
-	<link>https://www.sciencenews.org/article/antarctic-expedition-search-life-larsen-c-ice-shelf-iceberg</link>
-	<content:encoded>The fourth attempt to investigate the seafloor once hidden by the Larsen C iceberg may have the best chance yet of success.</content:encoded>
-	<dc:date>2019-02-08T19:59:13+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness">
-	<title>Science News: Brain scans decode an elusive signature of consciousness</title>
-	<link>https://www.sciencenews.org/article/brain-scans-decode-elusive-signature-consciousness</link>
-	<content:encoded>Newly described patterns of brain activity may help reveal the level of awareness in people with brain injuries.</content:encoded>
-	<dc:date>2019-02-08T17:23:13+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
