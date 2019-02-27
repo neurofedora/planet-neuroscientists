@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/long-handshake-spread-your-dna-objects-you-didnt-touch" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2290" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/shingles-virus-rash-chicken-pox-complications" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=87411" />
@@ -114,13 +115,19 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rare-ancient-case-bone-cancer-has-been-found-turtle-ancestor" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36339" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8423" />
-			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3756" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/long-handshake-spread-your-dna-objects-you-didnt-touch">
+	<title>Science News: A long handshake can spread your DNA to objects you didn’t touch</title>
+	<link>https://www.sciencenews.org/article/long-handshake-spread-your-dna-objects-you-didnt-touch</link>
+	<content:encoded>Two new studies show that even brief contact with another person or object could transfer your DNA far and wide.</content:encoded>
+	<dc:date>2019-02-26T19:53:06+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="https://blog.scienceexchange.com/?p=2290">
-	<title>The Science Exchange Blog: Webinar: Clinical trial considerations in neurodegenerative disease</title>
+	<title>The Science Exchange Blog: Webinar Apr. 10: Clinical trial considerations in neurodegenerative disease</title>
 	<link>https://blog.scienceexchange.com/2019/02/webinar-clinical-trial-considerations-in-neurodegenerative-disease/</link>
 	<content:encoded>&lt;div class=&quot;elementor elementor-2290&quot;&gt;
 			&lt;div class=&quot;elementor-inner&quot;&gt;
@@ -133,7 +140,7 @@
 					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
 				&lt;div class=&quot;elementor-element elementor-element-9ff5ae9 elementor-widget elementor-widget-text-editor&quot; data-element_type=&quot;text-editor.default&quot; data-id=&quot;9ff5ae9&quot;&gt;
 				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-text-editor elementor-clearfix&quot;&gt;&lt;p&gt;Running clinical trials for neurodegenerative disease can be challenging, due to the complexity of studies, rapidly evolving knowledge of disease areas, regulatory considerations, obstacles facing patient recruitment, and difficulties in patient retention.&lt;/p&gt;&lt;p&gt;Drawing from her extensive experience in managing clinical trials in Alzheimer’s Disease, Parkinson’s Disease, Huntington’s Disease, and multiple other neurological disorders, Dr. Tina Soulis of Neuroscience Trials Australia will share best practices and helpful tips for moving clinical stage research forward.&lt;/p&gt;&lt;/div&gt;
+					&lt;div class=&quot;elementor-text-editor elementor-clearfix&quot;&gt;&lt;p&gt;&lt;strong&gt;Date/Time: April 10, 2019 • 1pm PDT | 4pm EDT&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Running clinical trials for neurodegenerative disease can be challenging, due to the complexity of studies, rapidly evolving knowledge of disease areas, regulatory considerations, obstacles facing patient recruitment, and difficulties in patient retention.&lt;/p&gt;&lt;p&gt;Drawing from her extensive experience in managing clinical trials in Alzheimer’s Disease, Parkinson’s Disease, Huntington’s Disease, and multiple other neurological disorders, Dr. Tina Soulis of Neuroscience Trials Australia will share best practices and helpful tips for moving clinical stage research forward.&lt;/p&gt;&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
 						&lt;/div&gt;
@@ -1497,13 +1504,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/DZ2jXvoUwQw&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-02-11T06:59:07+00:00</dc:date>
 	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="http://pillowlab.wordpress.com/?p=3756">
-	<title>Pillow Lab: Reductions in representation learning with rate-distortion theory</title>
-	<link>https://pillowlab.wordpress.com/2019/02/10/reductions-in-representation-learning-with-rate-distortion-theory/</link>
-	<content:encoded>In lab meeting this week, we discussed unsupervised learning in the context of deep generative models, namely -variational auto-encoders (-VAEs), drawing from the original, Higgins et al. 2017 (ICLR), and its follow-up, Burgess et al. 2018. The classic VAE represents … &lt;a href=&quot;https://pillowlab.wordpress.com/2019/02/10/reductions-in-representation-learning-with-rate-distortion-theory/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-02-10T18:00:00+00:00</dc:date>
-	<dc:creator>mikemorais</dc:creator>
 </item>
 
 </rdf:RDF>
