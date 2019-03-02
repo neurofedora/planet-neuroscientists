@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8469" />
+			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11878" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/eating-lot-fiber-could-improve-some-cancer-treatments" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/periodic-table-life-spans-unstable-radioactive-elements" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sleep-recovery-weekend-health" />
@@ -58,8 +60,10 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/long-handshake-spread-your-dna-objects-you-didnt-touch" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2290" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/shingles-virus-rash-chicken-pox-complications" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-set-sail-elusive-island-stability" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=87411" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-book-showcases-emotional-lives-animals" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-ponder-mitochondria-neandertal-diets-deep-sea-corals-and-more" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/the-lancet-targets-the-gender-gap-in-science-medicine-and-global-health" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36545" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-angkor-mysterious-decline-slow-not-sudden" />
@@ -111,14 +115,47 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tooth-plaque-shows-drinking-milk-goes-back-3000-years-mongolia" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=86829" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-some-georgia-okeeffe-paintings-have-art-acne" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-gravitational-wave-detector-quantum-upgrade" />
-			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2158" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/stem-professors-beliefs-intelligence-may-widen-racial-achievement-gap" />
-			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-2789625904323210769" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.plos.org/plos/?p=8469">
+	<title>The Official PLOS Blog: Celebrate Open Data Day with Us!</title>
+	<link>http://feeds.plos.org/~r/plos/Blog/~3/eCMuFBXT4t4/</link>
+	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/plos/files/2019/03/screenshot-3-1-150x150.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Around the world tomorrow groups from all sectors will be celebrating &lt;a href=&quot;https://opendataday.org/&quot;&gt;Open Data Day&lt;/a&gt; – an annual event that highlights the benefits of open data and encourages the adoption of open data policies in government, business and civil society. As publishers, &lt;a href=&quot;https://journals.plos.org/plosone/s/data-availability&quot;&gt;data availability&lt;/a&gt; is crucial for the validation and foundation of new research and key to our mission to help researchers advance the scientific record. In the spirit of Open Data Day, we’ve decided to defer to researchers and data enthusiasts to answer the questions: why is data important and how can we make it better?&lt;/p&gt;
+&lt;p&gt;We got our answers from &lt;a href=&quot;https://prabakaran-group.org/index.html&quot;&gt;Sudhakaran Prabakaran&lt;/a&gt;, one of a number of dedicated volunteers at Cambridge University known as the &lt;a href=&quot;https://www.data.cam.ac.uk/intro-data-champions&quot;&gt;Data Champions&lt;/a&gt; who are helping advise members of the research community on managing their data. Read his thoughts below.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Who are the Data Champions? What kinds of data questions do you help researchers navigate?&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;I think it’s a fantastic forum. [We have] a lot of discussions and people exchange ideas and not necessarily just in the sciences but also in every other field. [Data management] can be kind of confusing, even simple things like can I put my [datasets] in Dropbox? Can I share them in Google Drive? You’re talking about even labeling stuff in desktop computers. There is no clarity because this landscape is fast-moving and people are not trained to catch up with that kind of speed at which things change.&lt;/em&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;What are you working on right now? How does open data play a role in it?&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;Our lab thrives on open data. We train machine learning algorithms that looks at specific regions of the human genome and trying to identify the most important mutations and then identify drugs to target them. Most of the datasets I work with people have already published and analyzed those datasets and they’ve extracted what they want. I’m kind of looking at things that they don’t want – I’m looking at non-coding regions, just kind of digging deeper into the datasets.&lt;/em&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;Why do you think open data is important? What do you think the future open data landscape looks like?&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;I don’t think open data is enough…it’s the analysis also. For example, we train a lot of machine learning algorithms and in the process we fail many, many times and we know the pitfalls we know what to avoid. But if you share that process with other people that will enable them to overcome it, to get there. It is very difficult and that process can be shared with people.&lt;/em&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;I think future young people are going to be brought up in an environment where they can just click something and get access to the code and get access to the data themselves. And then the issues of reproducibility would be mitigated if you can share what you’ve done and the data set is there for other people to work with.&lt;/em&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;strong&gt;What advice would you give to authors and researchers to encourage them to share their data?&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;I think we have encountered these scenarios even as a data champion in my own department. I think if you if you have incentives, as in [getting] your DOI and authorships for the dataset even before publication then it’s easy to share. It’s your data, [someone] can probably do a different kind of analysis and publish it but they have to cite this data and you will be benefited by that.&lt;/em&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;And it’s in the best interest of the authors to share it ahead of time because of reproducibility.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What can you do to encourage good data management?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can practice the open data lifestyle by sharing your research data in an open repository and making it available when you submit your manuscript. If you’re reviewing a submission, knowing how to evaluate the associated datasets can be tricky which is why we’ve worked with the Data Champions to cover everything you need to know in this &lt;a href=&quot;https://plos-marketing.s3.amazonaws.com/Marketing/Peer+Reviewing+Datasets.pdf&quot;&gt;&lt;strong&gt;Reviewer’s Quick Guide to Assessing Datasets&lt;/strong&gt;&lt;/a&gt;. If the manuscript you’re reviewing doesn’t have an associated dataset, request it!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About the Data Champions Program&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Data Champions Programme is a network of volunteers who advise members of the research community on proper handling of research data. In this, they promote good research data management (RDM) and support Findable, Accessible, Interoperable, and Re-usable (&lt;a href=&quot;https://www.ukdataservice.ac.uk/news-and-events/newsitem/?id=4615&quot;&gt;FAIR&lt;/a&gt;) research principles. It is run by the Research Data Management Facility at the University of Cambridge.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/eCMuFBXT4t4&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2019-03-01T22:08:55+00:00</dc:date>
+	<dc:creator>Madison Crystal</dc:creator>
+</item>
+<item rdf:about="https://www.maxplanckflorida.org/?p=11878">
+	<title>Max Plank Florida Institute for Neuroscience: Ryohei Yasuda Receives $2.9M NIH Grant</title>
+	<link>https://www.maxplanckflorida.org/news-and-media/news/ryohei-yasuda-receives-2-9m-nih-grant/</link>
+	<content:encoded>&lt;p&gt;Dr. Ryohei Yasuda of the Max Planck Florida Institute for Neuroscience (MPFI) has received a grant by the National Institute of Mental Health of the NIH. The award is for $2.9 million over 5 years and will continue the funding of Yasuda’s work with Rab proteins.&lt;/p&gt;
+&lt;p&gt;Using cutting-edge imaging techniques, Dr. Yasuda is studying Rab proteins’ impact on learning and memory by tracking how molecules become activated and interact with each other. By better understanding how these proteins communicate with each other, scientists may one day be able to develop interventions for Alzheimer’s, Parkinson’s Disease and other brain disorders.&lt;/p&gt;
+&lt;p&gt;Dr. Yasuda is a Scientific Director of MPFI and leads the Neuronal Signal Transduction Lab. He has received many recognitions for his outstanding research in neuroscience, including the 2015 National Institute of Health’s (NIH) Pioneer Award, which recognizes scientists demonstrating creativity and groundbreaking approaches in biomedical or behavioral science. Dr. Yasuda was one of only 13 scientists in the country to receive the NIH Pioneer Award in 2015.&lt;/p&gt;
+&lt;p&gt;Additional awards include the Career Award at the Scientific Interface from the Burroughs Wellcome Fund, the Alfred P. Sloan Fellowship, the New Investigator Award from the Alzheimer’s Association, and Research Award for Innovative Neuroscience from the Society for Neuroscience.&lt;/p&gt;
+&lt;p&gt;Dr. Yasuda received his PhD in Physics in 1998 from Keio University Graduate School of Science and Technology in Yokohama, Japan. In his PhD studies, he demonstrated that the enzyme ATP synthase is a rotary motor made of single molecule and that its energy conversion efficiency is close to 100%. From 2000 to 2005, he was a post-doctoral fellow at the Cold Spring Harbor Laboratory where he built an imaging device to monitor protein interactions in living cells with high sensitivity and resolution. From 2005 to 2012, he was an assistant professor of the Neurobiology department at the Duke University Medical Center where he developed a number of techniques to visualize signaling activity in single synapses. From 2009 to 2012, Dr. Yasuda served as an Early Career Scientist at the Howard Hughes Medical Institute before coming to MPFI in 2012.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-03-01T20:20:52+00:00</dc:date>
+	<dc:creator>Katie Edwards</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/eating-lot-fiber-could-improve-some-cancer-treatments">
 	<title>Science News: Eating a lot of fiber could improve some cancer treatments</title>
 	<link>https://www.sciencenews.org/article/eating-lot-fiber-could-improve-some-cancer-treatments</link>
@@ -868,6 +905,13 @@
 	<dc:date>2019-02-26T14:00:05+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
+<item rdf:about="https://www.sciencenews.org/article/scientists-set-sail-elusive-island-stability">
+	<title>Science News: Scientists set sail for the elusive island of stability</title>
+	<link>https://www.sciencenews.org/article/scientists-set-sail-elusive-island-stability</link>
+	<content:encoded>Editor in Chief Nancy Shute discusses the search for the island of stability and the future of the periodic table.</content:encoded>
+	<dc:date>2019-02-26T11:15:00+00:00</dc:date>
+	<dc:creator>Nancy Shute</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=87411">
 	<title>Retraction watch: Study claiming hate cuts 12 years off gay lives retracted</title>
 	<link>https://retractionwatch.com/2019/02/26/study-claiming-hate-cuts-12-years-off-gay-lives-retracted/</link>
@@ -881,6 +925,13 @@
 	<content:encoded>In ‘Mama’s Last Hug,’ Frans de Waal argues that emotions occur throughout the animal world.</content:encoded>
 	<dc:date>2019-02-26T11:00:05+00:00</dc:date>
 	<dc:creator>Erin Wayman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/readers-ponder-mitochondria-neandertal-diets-deep-sea-corals-and-more">
+	<title>Science News: Readers ponder mitochondria, Neandertal diets, deep sea corals and more</title>
+	<link>https://www.sciencenews.org/article/readers-ponder-mitochondria-neandertal-diets-deep-sea-corals-and-more</link>
+	<content:encoded>Readers had questions about mitochondrial DNA, Neandertal diets, deep ocean corals and more.</content:encoded>
+	<dc:date>2019-02-26T11:00:00+00:00</dc:date>
+	<dc:creator>Science News Staff</dc:creator>
 </item>
 <item rdf:about="https://www.elsevier.com/connect/the-lancet-targets-the-gender-gap-in-science-medicine-and-global-health">
 	<title>Elsevier Connect: The Lancet targets the gender gap in science, medicine and global health</title>
@@ -1430,116 +1481,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Tiny protrusions are from chemical reactions in the paint, say scientists who developed an imaging method that could help curators track the knobs.</content:encoded>
 	<dc:date>2019-02-16T14:00:05+00:00</dc:date>
 	<dc:creator>Jeremy Rehm</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ligo-gravitational-wave-detector-quantum-upgrade">
-	<title>Science News: LIGO will be getting a quantum upgrade</title>
-	<link>https://www.sciencenews.org/article/ligo-gravitational-wave-detector-quantum-upgrade</link>
-	<content:encoded>Quantum squeezing of light will help scientists make better gravitational wave detectors.</content:encoded>
-	<dc:date>2019-02-15T19:54:29+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://blog.scienceexchange.com/?p=2158">
-	<title>The Science Exchange Blog: Navitas Life Sciences Joins Science Exchange to Offer Online Access to Clinical Trial and FSP / BPO Services</title>
-	<link>https://blog.scienceexchange.com/2019/02/navitas-life-sciences-joins-science-exchange-to-offer-online-access-to-clinical-trial-and-fsp-bpo-services/</link>
-	<content:encoded>&lt;div class=&quot;elementor elementor-2158&quot;&gt;
-			&lt;div class=&quot;elementor-inner&quot;&gt;
-				&lt;div class=&quot;elementor-section-wrap&quot;&gt;
-							&lt;section class=&quot;elementor-element elementor-element-9c6265f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;9c6265f&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-14e8ffb elementor-column elementor-col-100 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;14e8ffb&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-44164d9 elementor-widget elementor-widget-text-editor&quot; data-element_type=&quot;text-editor.default&quot; data-id=&quot;44164d9&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-text-editor elementor-clearfix&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Science Exchange, the world’s leading R&amp;amp;D services marketplace, announced a collaboration with &lt;a href=&quot;https://www.scienceexchange.com/labs/navitas-life-sciences&quot;&gt;Navitas Life Sciences&lt;/a&gt; to offer online access to its suite of service offerings across consulting, support for phase I-IV studies, bioequivalence and bioavailability (BA/BE) studies, and other biosimilars sudies. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Navitas Life Sciences will also provide access to its Functional Service Provider (FSP / BPO) services across regulatory, artwork and labeling, pharmacovigilance / individual case safety reports (PV/ICSR) processing, reporting and signal detection and technology through a proven deliverables/unit pricing model.  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Navitas Life Sciences is a global consulting, technology and services provider, whose mission is to enable insights-driven services that will deliver improved outcomes for the Life Sciences Industry.  &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;elementor-element elementor-element-a659f00 elementor-align-center elementor-widget elementor-widget-button&quot; data-element_type=&quot;button.default&quot; data-id=&quot;a659f00&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-button-wrapper&quot;&gt;
-			&lt;a class=&quot;elementor-button-link elementor-button elementor-size-sm&quot; href=&quot;https://www.scienceexchange.com/labs/navitas-life-sciences&quot;&gt;
-						&lt;span class=&quot;elementor-button-content-wrapper&quot;&gt;
-						&lt;span class=&quot;elementor-button-text&quot;&gt;Explore navitas life sciences' services&lt;/span&gt;
-		&lt;/span&gt;
-					&lt;/a&gt;
-		&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;div class=&quot;elementor-element elementor-element-d04d4f6 elementor-widget elementor-widget-divider&quot; data-element_type=&quot;divider.default&quot; data-id=&quot;d04d4f6&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-divider&quot;&gt;
-			&lt;span class=&quot;elementor-divider-separator&quot;&gt;&lt;/span&gt;
-		&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-				&lt;section class=&quot;elementor-element elementor-element-5d8fb72 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;5d8fb72&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-21149bc elementor-column elementor-col-33 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;21149bc&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-bac68db elementor-widget elementor-widget-text-editor&quot; data-element_type=&quot;text-editor.default&quot; data-id=&quot;bac68db&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-text-editor elementor-clearfix&quot;&gt;&lt;p&gt;&lt;b&gt;About &lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;strong&gt;Navitas Life Sciences&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Navitas Life Sciences is a TAKE Solutions Enterprise, comprised of dedicated life science professionals operating in North and South America, Europe, and Asia Pacific. With a rich legacy of experience in life sciences, they have worked with 9 of the top 10 global pharma companies.  &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-				&lt;div class=&quot;elementor-element elementor-element-eba0d2e elementor-column elementor-col-66 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;eba0d2e&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-f689394 elementor-widget elementor-widget-testimonial&quot; data-element_type=&quot;testimonial.default&quot; data-id=&quot;f689394&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-testimonial-wrapper elementor-testimonial-text-align-center&quot;&gt;
-							&lt;div class=&quot;elementor-testimonial-content&quot;&gt;“We are proud to team up with Science Exchange to offer a comprehensive suite of services across clinical, regulatory and safety for reduced cycle times, improved quality and compliance and reduced cost of operations, leveraging state of the art technology platforms and tools.” stated Dr. Krishnan Rajagopalan, Chief Growth Officer. &quot;We pride ourselves on being flexible, innovative, reliable, and passionate. We are motivated by the success of our clients and thrive on working together with clients as partners, across geographies and cultures.”&lt;/div&gt;
-			
-						&lt;div class=&quot;elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside&quot;&gt;
-				&lt;div class=&quot;elementor-testimonial-meta-inner&quot;&gt;
-											&lt;div class=&quot;elementor-testimonial-image&quot;&gt;
-							&lt;img alt=&quot;Navitas logo&quot; class=&quot;attachment-thumbnail size-thumbnail&quot; height=&quot;1&quot; src=&quot;https://blog.scienceexchange.com/wp-content/uploads/2019/02/Navitas-logo.png&quot; width=&quot;1&quot; /&gt;						&lt;/div&gt;
-					
-										&lt;div class=&quot;elementor-testimonial-details&quot;&gt;
-													&lt;div class=&quot;elementor-testimonial-name&quot;&gt;Dr. Krishnan Rajagopalan&lt;/div&gt;
-																			&lt;div class=&quot;elementor-testimonial-job&quot;&gt;Chief Growth Officer&lt;/div&gt;
-											&lt;/div&gt;
-									&lt;/div&gt;
-			&lt;/div&gt;
-					&lt;/div&gt;
-			&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;</content:encoded>
-	<dc:date>2019-02-15T19:51:13+00:00</dc:date>
-	<dc:creator>Max Smith-Gee</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/stem-professors-beliefs-intelligence-may-widen-racial-achievement-gap">
-	<title>Science News: STEM professors’ beliefs on intelligence may widen the racial achievement gap</title>
-	<link>https://www.sciencenews.org/article/stem-professors-beliefs-intelligence-may-widen-racial-achievement-gap</link>
-	<content:encoded>Seeing intelligence as fixed can result in lower grades, especially for certain minorities</content:encoded>
-	<dc:date>2019-02-15T19:00:05+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="tag:blogger.com,1999:blog-7961882.post-2789625904323210769">
-	<title>Open and Shut?: Plan S: What strategy now for the Global South?</title>
-	<link>https://poynder.blogspot.com/2019/02/plan-s-what-strategy-now-for-global.html</link>
-	<content:encoded>&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;span&gt;Since the 2002 Budapest Open Access Initiative (&lt;a href=&quot;https://www.budapestopenaccessinitiative.org/&quot;&gt;BOAI&lt;/a&gt;) the OA movement has had many successes, many surprises, and many disappointments. OA initiatives have also often had unintended consequences and the movement has been beset with disagreement, divisiveness, and confusion.&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/div&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; margin-left: 1em; text-align: right;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-mwNAVpK-du8/XGbdx6UctZI/AAAAAAAAjSA/75L8fW-9KMQvddJSK4Pu-Fh9bgphnaHtwCLcBGAs/s1600/OJS.jpg&quot; style=&quot;clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;478&quot; data-original-width=&quot;940&quot; height=&quot;160&quot; src=&quot;https://4.bp.blogspot.com/-mwNAVpK-du8/XGbdx6UctZI/AAAAAAAAjSA/75L8fW-9KMQvddJSK4Pu-Fh9bgphnaHtwCLcBGAs/s320/OJS.jpg&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;&lt;div class=&quot;MsoCaption&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;Image Courtesy of &lt;/span&gt;&lt;/b&gt;&lt;span class=&quot;MsoHyperlink&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;&lt;a href=&quot;https://pkp.sfu.ca/ojs/ojs-usage/ojs-map/&quot;&gt;PKP&lt;/a&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt; CC BY-SA&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;span&gt;In that sense, the noise and rancour surrounding &lt;a href=&quot;https://www.coalition-s.org/&quot;&gt;Plan S&lt;/a&gt; is nothing new, although the discord is perceptibly greater. What seems clear is that Plan S raises challenging questions for those in the Global South.  &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;span&gt;And even if Plan S fails to win sufficient support to achieve its objectives, ongoing efforts in Europe to trigger a “global flip” to open access, and the way in which open content is likely to be monetised by commercial publishers, both suggest that the South needs to develop its own (alternative) strategy.&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;span&gt;I have explored what I see as the issues and discuss a possible strategy in the attached essay &lt;a href=&quot;https://richardpoynder.co.uk/Plan_S.pdf&quot;&gt;here&lt;/a&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;span&gt;The essay ends with an interview with Omar Barreneche, Executive Secretary of Uruguay’s National Agency for Research and Innovation (&lt;/span&gt;&lt;a href=&quot;http://www.anii.org.uy/&quot;&gt;ANII&lt;/a&gt;&lt;span&gt;). &lt;/span&gt;&lt;/div&gt;</content:encoded>
-	<dc:date>2019-02-15T15:48:02+00:00</dc:date>
-	<dc:creator>Richard Poynder</dc:creator>
 </item>
 
 </rdf:RDF>
