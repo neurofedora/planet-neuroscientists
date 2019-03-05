@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/oldest-tattoo-tool-western-north-america" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hidden-ancient-neutrinos-may-shape-patterns-galaxies" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10856" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/welfare-reform-single-moms-teenage-kids-behavior" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3892466254533220635" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36423" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/this-researcher-created-a-niche-in-a-field-not-always-associated-with-science" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/neurons-combine-place-and-taste-make-food-maps" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/oldest-tattoo-tool-western-north-america">
+	<title>Science News: A 2,000-year-old tattoo tool is the oldest in western North America</title>
+	<link>https://www.sciencenews.org/article/oldest-tattoo-tool-western-north-america</link>
+	<content:encoded>The artifact is made of two pigment-stained cactus spines, and has been sitting in storage since its discovery in 1972.</content:encoded>
+	<dc:date>2019-03-04T21:00:06+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/hidden-ancient-neutrinos-may-shape-patterns-galaxies">
 	<title>Science News: Hidden ancient neutrinos may shape the patterns of galaxies</title>
 	<link>https://www.sciencenews.org/article/hidden-ancient-neutrinos-may-shape-patterns-galaxies</link>
@@ -1481,13 +1488,6 @@ Cognitive benefits aside, music can also be a great &lt;a href=&quot;http://www.
 	<link>https://www.elsevier.com/connect/this-researcher-created-a-niche-in-a-field-not-always-associated-with-science</link>
 	<content:encoded>She follows the advice a professor once gave her: “Write about something that interests you, and publish only when you have something to say.”</content:encoded>
 	<dc:date>2019-02-19T09:18:14+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/neurons-combine-place-and-taste-make-food-maps">
-	<title>Science News: Brain cells combine place and taste to make food maps</title>
-	<link>https://www.sciencenews.org/article/neurons-combine-place-and-taste-make-food-maps</link>
-	<content:encoded>A select group of brain cells responds to both flavor and location, a specialty that may help an animal find the next good meal.</content:encoded>
-	<dc:date>2019-02-18T18:00:05+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
