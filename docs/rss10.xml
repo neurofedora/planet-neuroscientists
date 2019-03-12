@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/one-strongest-known-solar-storms-blasted-earth-660-bc" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-male-bees-spotted-babysitting-are-mostly-stepdads" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2195" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36630" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tibetan-plateau-height-roof-world" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/shingles-virus-rash-chicken-pox-complications" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-set-sail-elusive-island-stability" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=87411" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-book-showcases-emotional-lives-animals" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-ponder-mitochondria-neandertal-diets-deep-sea-corals-and-more" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/one-strongest-known-solar-storms-blasted-earth-660-bc">
+	<title>Science News: One of the strongest known solar storms blasted Earth in 660 B.C.</title>
+	<link>https://www.sciencenews.org/article/one-strongest-known-solar-storms-blasted-earth-660-bc</link>
+	<content:encoded>Ice cores and tree rings reveal that Earth was blasted with a powerful solar storm 2,610 years ago.</content:encoded>
+	<dc:date>2019-03-11T19:26:43+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/first-male-bees-spotted-babysitting-are-mostly-stepdads">
+	<title>Science News: The first male bees spotted babysitting are mostly stepdads</title>
+	<link>https://www.sciencenews.org/article/first-male-bees-spotted-babysitting-are-mostly-stepdads</link>
+	<content:encoded>Some male bees guard young that are likely not their own while mom looks for pollen, a study finds.</content:encoded>
+	<dc:date>2019-03-11T19:01:34+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="http://blog.scienceexchange.com/?p=2195">
 	<title>The Science Exchange Blog: AIT Bioscience Joins Science Exchange to Offer Online Access to Bioanalytical Solutions</title>
 	<link>https://blog.scienceexchange.com/2019/03/ait-bioscience-joins-science-exchange-to-offer-online-access-to-bioanalytical-solutions/</link>
@@ -1584,20 +1598,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 	<content:encoded>After years of back and forth, a highly cited paper that appeared to show that gay people who live in areas where people were highly prejudiced against them had a significantly shorter life expectancy has been retracted. The paper, “Structural stigma and all-cause mortality in sexual minority populations,”  was published in 2014 by Mark Hatzenbuehler … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/02/26/study-claiming-hate-cuts-12-years-off-gay-lives-retracted/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Study claiming hate cuts 12 years off gay lives retracted&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-02-26T11:00:31+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-book-showcases-emotional-lives-animals">
-	<title>Science News: ‘Mama’s Last Hug’ showcases the emotional lives of animals</title>
-	<link>https://www.sciencenews.org/article/new-book-showcases-emotional-lives-animals</link>
-	<content:encoded>In ‘Mama’s Last Hug,’ Frans de Waal argues that emotions occur throughout the animal world.</content:encoded>
-	<dc:date>2019-02-26T11:00:05+00:00</dc:date>
-	<dc:creator>Erin Wayman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-ponder-mitochondria-neandertal-diets-deep-sea-corals-and-more">
-	<title>Science News: Readers ponder mitochondria, Neandertal diets, deep sea corals and more</title>
-	<link>https://www.sciencenews.org/article/readers-ponder-mitochondria-neandertal-diets-deep-sea-corals-and-more</link>
-	<content:encoded>Readers had questions about mitochondrial DNA, Neandertal diets, deep ocean corals and more.</content:encoded>
-	<dc:date>2019-02-26T11:00:00+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
 </item>
 
 </rdf:RDF>
