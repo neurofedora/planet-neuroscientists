@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/origami-design-helps-robot-lift-delicate-and-heavy-cargo" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-03-13:/2019/03/13/what-is-decidable-about-low-dimensional-hybrid-systems-.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hidden-inactive-ingredients-medications-trigger-allergies" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/geneticists-push-5-year-global-ban-gene-edited-babies" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2281" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2217" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/parasitic-cuckoo-bird-shows-cheaters-dont-always-get-ahead" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/gene-people-dogs-scent-smell-stress" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/origami-design-helps-robot-lift-delicate-and-heavy-cargo">
+	<title>Science News: An origami design helps this robot lift delicate and heavy cargo</title>
+	<link>https://www.sciencenews.org/article/origami-design-helps-robot-lift-delicate-and-heavy-cargo</link>
+	<content:encoded>Fragile items, such as soft fruits, as well as heavier goods are in safe hands with a new robotic gripper.</content:encoded>
+	<dc:date>2019-03-14T04:05:01+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="tag:biocomputation.herts.ac.uk,2019-03-13:/2019/03/13/what-is-decidable-about-low-dimensional-hybrid-systems-.html">
 	<title>UH Biocomputation group: What Is Decidable About Low Dimensional Hybrid Systems?</title>
 	<link>http://biocomputation.herts.ac.uk/2019/03/13/what-is-decidable-about-low-dimensional-hybrid-systems-.html</link>
@@ -1350,13 +1357,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 	<content:encoded>Birds called greater anis that can slip extra eggs into other nests create a natural test of the benefits of honest parenting.</content:encoded>
 	<dc:date>2019-02-27T20:22:10+00:00</dc:date>
 	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/gene-people-dogs-scent-smell-stress">
-	<title>Science News: Genes might explain why dogs can’t sniff out some people under stress</title>
-	<link>https://www.sciencenews.org/article/gene-people-dogs-scent-smell-stress</link>
-	<content:encoded>Genes and stress may change a person’s body odor, confusing police dogs.</content:encoded>
-	<dc:date>2019-02-27T19:45:05+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
