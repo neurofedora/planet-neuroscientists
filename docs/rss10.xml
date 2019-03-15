@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=38666" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rise-farming-altered-our-bite-and-changed-how-people-talk" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2180" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sound-light-mice-brains-alzheimers-plaques" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2329" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2328" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2327" />
-			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2325" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=38666">
+	<title>For Better Science: Bremen Rector Scholz-Reiter: never a plagiarist!</title>
+	<link>https://forbetterscience.com/2019/03/15/bremen-rector-scholz-reiter-never-a-plagiarist/</link>
+	<content:encoded>Bremen rector Bernd Scholz-Reiter previously explained his predatory publishing and self-plagiarism as a personal crusade for Open Access. Now a closed access conference paper he coauthored was declared by his university as definitely not plagiarised.</content:encoded>
+	<dc:date>2019-03-15T06:00:06+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/rise-farming-altered-our-bite-and-changed-how-people-talk">
 	<title>Science News: The rise of farming altered our bite and changed how people talk</title>
 	<link>https://www.sciencenews.org/article/rise-farming-altered-our-bite-and-changed-how-people-talk</link>
@@ -1421,16 +1428,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 &lt;p&gt;&lt;label for=&quot;pwbox-2327&quot;&gt;Password: &lt;input id=&quot;pwbox-2327&quot; name=&quot;post_password&quot; size=&quot;20&quot; type=&quot;password&quot; /&gt;&lt;/label&gt; &lt;input name=&quot;Submit&quot; type=&quot;submit&quot; value=&quot;Enter&quot; /&gt;&lt;/p&gt;
 &lt;/form&gt;</content:encoded>
 	<dc:date>2019-02-28T06:28:18+00:00</dc:date>
-	<dc:creator>Science Exchange Team</dc:creator>
-</item>
-<item rdf:about="https://blog.scienceexchange.com/?p=2325">
-	<title>The Science Exchange Blog: Protected: Providers – Custom Contracts</title>
-	<link>https://blog.scienceexchange.com/2019/02/providers-custom-contracts/</link>
-	<content:encoded>&lt;form action=&quot;https://blog.scienceexchange.com/wp-login.php?action=postpass&amp;amp;wpe-login=true&quot; class=&quot;post-password-form&quot; method=&quot;post&quot;&gt;
-&lt;p&gt;This content is password protected. To view it please enter your password below:&lt;/p&gt;
-&lt;p&gt;&lt;label for=&quot;pwbox-2325&quot;&gt;Password: &lt;input id=&quot;pwbox-2325&quot; name=&quot;post_password&quot; size=&quot;20&quot; type=&quot;password&quot; /&gt;&lt;/label&gt; &lt;input name=&quot;Submit&quot; type=&quot;submit&quot; value=&quot;Enter&quot; /&gt;&lt;/p&gt;
-&lt;/form&gt;</content:encoded>
-	<dc:date>2019-02-28T06:24:13+00:00</dc:date>
 	<dc:creator>Science Exchange Team</dc:creator>
 </item>
 
