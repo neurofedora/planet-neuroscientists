@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9868" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88342" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/3d-printed-shrimp-claw-make-plasma" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-heart-attack-mortality-reached-two-decade-low-2014" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/singing-mice-duets-brain-patterns-human-speech" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/oceans-are-warming-due-climate-change-yield-fewer-fish" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/spider-tarantula-eating-weird-stuff-complex-amazon-food-webs" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/watching-hours-tv-tied-verbal-memory-decline-older-people" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9868">
+	<title>Discovery magazine - Neuroskeptic: Are Atheists Genetically Damaged?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9868</link>
+	<content:encoded>I just came across a paper with an interesting title: The Mutant Says in His Heart, “There Is No God”.
+
+The conclusions of this work are even more interesting. According to the authors, Edward Dutton et al., humans evolved to be religious and atheism is caused (in part) by mutational damage to our normal, religious DNA. Atheists, in other words, are genetic degenerates.
+
+
+
+
+
+Despite the talk of mutations, there is no genetics in this paper. No atheist genomes were sequenced and found to</content:encoded>
+	<dc:date>2019-03-16T19:31:38+00:00</dc:date>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=88342">
 	<title>Retraction watch: Weekend reads: Lancet cardiac stem cell paper retracted; predatory journals pivot to video and get stung; reviews that cite retracted papers</title>
 	<link>https://retractionwatch.com/2019/03/16/weekend-reads-lancet-cardiac-stem-cell-paper-retracted-predatory-journals-pivot-to-video-and-get-stung-reviews-that-cite-retracted-papers/</link>
@@ -1421,13 +1435,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 	<content:encoded>By documenting rare events of invertebrates eating small vertebrates, scientists are shedding new light on the Amazon rainforest’s intricate ecosystem.</content:encoded>
 	<dc:date>2019-02-28T16:09:44+00:00</dc:date>
 	<dc:creator>Jeremy Rehm</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/watching-hours-tv-tied-verbal-memory-decline-older-people">
-	<title>Science News: Watching hours of TV is tied to verbal memory decline in older people</title>
-	<link>https://www.sciencenews.org/article/watching-hours-tv-tied-verbal-memory-decline-older-people</link>
-	<content:encoded>The more television people age 50 and up watched, the worse they recalled a list of words in tests years later, a study finds.</content:encoded>
-	<dc:date>2019-02-28T14:00:06+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
