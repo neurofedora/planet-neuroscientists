@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/epic-yellowstone-captures-thriving-ecosystem-world-famous-park" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9868" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88342" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/3d-printed-shrimp-claw-make-plasma" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/wireless-patches-can-comfortably-monitor-sick-babies-health" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/singing-mice-duets-brain-patterns-human-speech" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/oceans-are-warming-due-climate-change-yield-fewer-fish" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/spider-tarantula-eating-weird-stuff-complex-amazon-food-webs" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/epic-yellowstone-captures-thriving-ecosystem-world-famous-park">
+	<title>Science News: ‘Epic Yellowstone’ captures the thriving ecosystem of the world-famous park</title>
+	<link>https://www.sciencenews.org/article/epic-yellowstone-captures-thriving-ecosystem-world-famous-park</link>
+	<content:encoded>A new documentary series about Yellowstone displays the dynamic, dramatic and exciting ecosystem that thrives within the park’s gates.</content:encoded>
+	<dc:date>2019-03-17T11:00:05+00:00</dc:date>
+	<dc:creator>Jeremy Rehm</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9868">
 	<title>Discovery magazine - Neuroskeptic: Are Atheists Genetically Damaged?</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9868</link>
@@ -1428,13 +1435,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 	<content:encoded>Warming water due to climate change is diminishing sustainable fishery yields in the world’s oceans.</content:encoded>
 	<dc:date>2019-02-28T19:00:06+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/spider-tarantula-eating-weird-stuff-complex-amazon-food-webs">
-	<title>Science News: What spiders eating weird stuff tell us about complex Amazon food webs</title>
-	<link>https://www.sciencenews.org/article/spider-tarantula-eating-weird-stuff-complex-amazon-food-webs</link>
-	<content:encoded>By documenting rare events of invertebrates eating small vertebrates, scientists are shedding new light on the Amazon rainforest’s intricate ecosystem.</content:encoded>
-	<dc:date>2019-02-28T16:09:44+00:00</dc:date>
-	<dc:creator>Jeremy Rehm</dc:creator>
 </item>
 
 </rdf:RDF>
