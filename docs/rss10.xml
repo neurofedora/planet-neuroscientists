@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=38737" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/epic-yellowstone-captures-thriving-ecosystem-world-famous-park" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9868" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88342" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2337" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/wireless-patches-can-comfortably-monitor-sick-babies-health" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/singing-mice-duets-brain-patterns-human-speech" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/oceans-are-warming-due-climate-change-yield-fewer-fish" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=38737">
+	<title>For Better Science: The Wonderful Adventures of Nils Billestrup with Swedish gels</title>
+	<link>https://forbetterscience.com/2019/03/18/the-wonderful-adventures-of-nils-billestrup-with-swedish-gels/</link>
+	<content:encoded>I obtained the full report on the case of Karin Dahlman-Wright, Vice-Rector of the Karolinska Institutet. The investigation by Danish researcher Nils Billestrup for CEPN found 6 out of 8 papers contained data manipulations, but only in 2 cases serious enough to affect the conclusions.</content:encoded>
+	<dc:date>2019-03-18T06:00:14+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/epic-yellowstone-captures-thriving-ecosystem-world-famous-park">
 	<title>Science News: ‘Epic Yellowstone’ captures the thriving ecosystem of the world-famous park</title>
 	<link>https://www.sciencenews.org/article/epic-yellowstone-captures-thriving-ecosystem-world-famous-park</link>
@@ -1428,13 +1435,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 	<content:encoded>A precise timing system in the brain helps musical rodents from the cloud forests of Costa Rica sing to one another.</content:encoded>
 	<dc:date>2019-02-28T19:00:06+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/oceans-are-warming-due-climate-change-yield-fewer-fish">
-	<title>Science News: Oceans that are warming due to climate change yield fewer fish</title>
-	<link>https://www.sciencenews.org/article/oceans-are-warming-due-climate-change-yield-fewer-fish</link>
-	<content:encoded>Warming water due to climate change is diminishing sustainable fishery yields in the world’s oceans.</content:encoded>
-	<dc:date>2019-02-28T19:00:06+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
