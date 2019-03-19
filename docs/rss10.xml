@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-horizons-mu69-ultima-thule-frankenworld" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/people-can-sense-earth-magnetic-field-brain-waves-suggest" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11896" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/india-starry-dwarf-frog-species-no-close-relatives" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11878" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/eating-lot-fiber-could-improve-some-cancer-treatments" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/periodic-table-life-spans-unstable-radioactive-elements" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/sleep-recovery-weekend-health" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-horizons-mu69-ultima-thule-frankenworld">
+	<title>Science News: Ultima Thule may be a frankenworld</title>
+	<link>https://www.sciencenews.org/article/new-horizons-mu69-ultima-thule-frankenworld</link>
+	<content:encoded>The first geologic map of Ultima Thule shows it might be made of many smaller rocks that clumped together under the force of their own gravity.</content:encoded>
+	<dc:date>2019-03-18T21:35:19+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/people-can-sense-earth-magnetic-field-brain-waves-suggest">
 	<title>Science News: People can sense Earth’s magnetic field, brain waves suggest</title>
 	<link>https://www.sciencenews.org/article/people-can-sense-earth-magnetic-field-brain-waves-suggest</link>
@@ -1491,13 +1498,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 	<content:encoded>Most elements on the periodic table have at least one stable form. But some don’t. Here’s how long those unstable members endure.</content:encoded>
 	<dc:date>2019-03-01T16:02:37+00:00</dc:date>
 	<dc:creator>Carmen Drahl</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/sleep-recovery-weekend-health">
-	<title>Science News: Sleeping in on the weekend can’t make up for lost sleep</title>
-	<link>https://www.sciencenews.org/article/sleep-recovery-weekend-health</link>
-	<content:encoded>Using the weekend to catch up on sleep is ineffective at making-up for lost sleep and offsetting the consequences to a person’s health.</content:encoded>
-	<dc:date>2019-03-01T12:54:57+00:00</dc:date>
-	<dc:creator>Jeremy Rehm</dc:creator>
 </item>
 
 </rdf:RDF>
