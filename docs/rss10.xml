@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/asteroid-bennu-surprises-spits-plumes-dust-space" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/learning-gap-rich-poor-students-remains-high" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36702" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-tiger-transforms-man-eater" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/q-and-a-amref-leader-on-why-universal-health-coverage-is-crucial-for-africa" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-machine-learning-can-speed-up-annoyingly-hard-medical-research" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36608" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=87651" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/asteroid-bennu-surprises-spits-plumes-dust-space">
+	<title>Science News: Surprising astronomers, Bennu spits plumes of dust into space</title>
+	<link>https://www.sciencenews.org/article/asteroid-bennu-surprises-spits-plumes-dust-space</link>
+	<content:encoded>Bennu spews dust from its rocky surface, which may be a new kind of asteroid activity.</content:encoded>
+	<dc:date>2019-03-19T18:55:40+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/learning-gap-rich-poor-students-remains-high">
 	<title>Science News: The learning gap between rich and poor students hasn’t changed in decades</title>
 	<link>https://www.sciencenews.org/article/learning-gap-rich-poor-students-remains-high</link>
@@ -1514,13 +1521,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 &lt;p&gt; &lt;/p&gt;</content:encoded>
 	<dc:date>2019-03-04T09:44:37+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=87651">
-	<title>Retraction watch: Weekend reads: The fake sex doctor and his bizarre research; prof alleged to have stolen student’s work; worst scientific scandal of all time?</title>
-	<link>https://retractionwatch.com/2019/03/02/weekend-reads-the-fake-sex-doctor-and-his-bizarre-research-prof-alleged-to-have-stolen-students-work-worst-scientific-scandal-of-all-time/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured the retraction of a highly cited paper on the effects … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/03/02/weekend-reads-the-fake-sex-doctor-and-his-bizarre-research-prof-alleged-to-have-stolen-students-work-worst-scientific-scandal-of-all-time/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: The fake sex doctor and his bizarre research; prof alleged to have stolen student’s work; worst scientific scandal of all time?&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-03-02T14:37:18+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
