@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ryugu-came-two-other-asteroids" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/x-ray-chimneys-connect-milky-way-mysterious-gamma-ray-bubbles" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9875" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-03-20:/2019/03/20/the-potential-for-student-performance-prediction-in-small-cohorts-with-minimal-available-attributes-using-learning-analytics-techniques.html" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ripples-brain-memories-recall" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=87800" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36571" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/oldest-tattoo-tool-western-north-america" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ryugu-came-two-other-asteroids">
+	<title>Science News: Ryugu is probably a chip off one of these two other asteroids</title>
+	<link>https://www.sciencenews.org/article/ryugu-came-two-other-asteroids</link>
+	<content:encoded>Japan’s Hayabusa2 team has narrowed down the asteroid Ryugu’s origins based on its color.</content:encoded>
+	<dc:date>2019-03-20T19:20:32+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/x-ray-chimneys-connect-milky-way-mysterious-gamma-ray-bubbles">
 	<title>Science News: X-ray ‘chimneys’ connect the Milky Way to mysterious gamma-ray bubbles</title>
 	<link>https://www.sciencenews.org/article/x-ray-chimneys-connect-milky-way-mysterious-gamma-ray-bubbles</link>
@@ -1485,13 +1492,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 &lt;p&gt;&lt;strong&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;@Psych_Writer&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;) is Editor of &lt;/span&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;span class=&quot;s2&quot;&gt;BPS Research Digest&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-03-05T09:24:42+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/oldest-tattoo-tool-western-north-america">
-	<title>Science News: A 2,000-year-old tattoo tool is the oldest in western North America</title>
-	<link>https://www.sciencenews.org/article/oldest-tattoo-tool-western-north-america</link>
-	<content:encoded>The artifact is made of two pigment-stained cactus spines, and has been sitting in storage since its discovery in 1972.</content:encoded>
-	<dc:date>2019-03-04T21:00:06+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
