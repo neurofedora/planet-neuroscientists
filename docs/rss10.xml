@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/saber-toothed-cats-smilodon" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88723" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3886659995248953164" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brexanolone-postpartum-depression" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36618" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10872" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fda-has-approved-first-ketamine-based-antidepressant" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/hominids-hunt-rabbits-stone-age" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/saber-toothed-cats-smilodon">
+	<title>Science News: Saber-toothed cats were fierce and family-oriented</title>
+	<link>https://www.sciencenews.org/article/saber-toothed-cats-smilodon</link>
+	<content:encoded>New details shift the debate on whether Smilodon lived and hunted in packs, and answer questions about other behaviors and abilities.</content:encoded>
+	<dc:date>2019-03-24T10:00:05+00:00</dc:date>
+	<dc:creator>John Pickrell</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=88723">
 	<title>Retraction watch: Weekend reads: Controversial paper on transgender teens revised; e-cigarette maker touts study in a questionable journal; Science warns readers about monkey HIV study</title>
 	<link>https://retractionwatch.com/2019/03/23/weekend-reads-controversial-paper-on-transgender-teens-revised-e-cigarette-maker-touts-study-in-a-questionable-journal-science-warns-readers-about-monkey-hiv-study/</link>
@@ -1475,13 +1482,6 @@ Yet there may be more to FAS than meets the eye (or ear). According to a new pap
 	<content:encoded>A nasal spray with a ketamine-based drug promises faster relief from depression for some people.</content:encoded>
 	<dc:date>2019-03-06T21:02:28+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/hominids-hunt-rabbits-stone-age">
-	<title>Science News: Hominids may have hunted rabbits as far back as 400,000 years ago</title>
-	<link>https://www.sciencenews.org/article/hominids-hunt-rabbits-stone-age</link>
-	<content:encoded>Stone Age groups in Europe put small game on the menu surprisingly early.</content:encoded>
-	<dc:date>2019-03-06T19:00:04+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
