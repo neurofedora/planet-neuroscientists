@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=39340" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/bioengineered-blood-vessels-patient-cells-dialysis" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/treating-cystic-fibrosis-patients-birth-could-safeguard-organs" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11918" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10901" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/3-trends-that-will-impact-pathology-in-2019" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88113" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-doctors-lamented-dearth-organ-donors" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=39340">
+	<title>For Better Science: Sally Assmann, right EiC choice for Plant Cell?</title>
+	<link>https://forbetterscience.com/2019/03/28/sally-assmann-right-eic-choice-for-plant-cell/</link>
+	<content:encoded>The Plant Cell is getting a new Editor-in-Chief, Sally Assmann. In a sense, she brings with her the necessary expertise in research integrity this journal sorely needs.</content:encoded>
+	<dc:date>2019-03-28T06:00:04+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/bioengineered-blood-vessels-patient-cells-dialysis">
 	<title>Science News: Blood vessels built from a patient’s cells could help people on dialysis</title>
 	<link>https://www.sciencenews.org/article/bioengineered-blood-vessels-patient-cells-dialysis</link>
@@ -1505,13 +1512,6 @@ Despite the talk of mutations, there is no genetics in this paper. No atheist ge
 	<content:encoded>Same tea, different mug. Biomolecules, an MDPI journal, has retracted a 2018 paper by on the salubrious effects of tea because the authors had previously published the same article in a Chinese-language journal. The paper, “Evaluation of anti-obesity activity, acute toxicity, and subacute toxicity of probiotic dark tea,” came from researchers in China and one … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/03/12/when-a-paper-duplicates-one-in-another-language-how-can-editors-spot-it/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;When a paper duplicates one in another language, how can editors spot it?&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-03-12T10:00:36+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/50-years-ago-doctors-lamented-dearth-organ-donors">
-	<title>Science News: 50 years ago, doctors lamented a dearth of organ donors</title>
-	<link>https://www.sciencenews.org/article/50-years-ago-doctors-lamented-dearth-organ-donors</link>
-	<content:encoded>Fifty years ago, surgeons’ supply of heart donations was woefully low.</content:encoded>
-	<dc:date>2019-03-12T10:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
