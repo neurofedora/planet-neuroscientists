@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/single-dose-antidote-may-help-prevent-fentanyl-overdoses" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89175" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/watch-desert-kangaroo-rat-drop-kick-rattlesnake" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-fossil-denisovan-skull-cave-siberia" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9868" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88342" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/3d-printed-shrimp-claw-make-plasma" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-heart-attack-mortality-reached-two-decade-low-2014" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/single-dose-antidote-may-help-prevent-fentanyl-overdoses">
+	<title>Science News: A single-dose antidote may help prevent fentanyl overdoses</title>
+	<link>https://www.sciencenews.org/article/single-dose-antidote-may-help-prevent-fentanyl-overdoses</link>
+	<content:encoded>Packing overdose medication into nanoparticles could help it better counteract dangerous synthetic opioids.</content:encoded>
+	<dc:date>2019-03-31T09:00:04+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=89175">
 	<title>Retraction watch: Weekend reads: Autism-“male brain” paper retracted; impact factor poison; meet a data detective</title>
 	<link>https://retractionwatch.com/2019/03/30/weekend-reads-autism-male-brain-paper-retracted-impact-factor-poison-meet-a-data-detective/</link>
@@ -2492,13 +2499,6 @@ Despite the talk of mutations, there is no genetics in this paper. No atheist ge
 	<content:encoded>Scientists used a replica of a shrimp claw to re-create the extreme pressures and temperatures that the animals produce underwater.</content:encoded>
 	<dc:date>2019-03-15T18:00:06+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/us-heart-attack-mortality-reached-two-decade-low-2014">
-	<title>Science News: U.S. heart attack mortality reached a two-decade low in 2014</title>
-	<link>https://www.sciencenews.org/article/us-heart-attack-mortality-reached-two-decade-low-2014</link>
-	<content:encoded>Deaths within 30 days of a heart attack have declined from 20 percent in 1995 to 12.4 percent in 2014, according to an analysis of Medicare patient data.</content:encoded>
-	<dc:date>2019-03-15T15:30:04+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
 
 </rdf:RDF>
