@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/pumping-may-be-linked-altered-microbial-mix-breast-milk" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-3886659995248953164" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10912" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-and-virgo-gravitational-wave-detectors-are-back" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/people-can-sense-earth-magnetic-field-brain-waves-suggest" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11896" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/india-starry-dwarf-frog-species-no-close-relatives" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/resurrecting-woolly-mammoth-cells-dna" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/growth-curve/pumping-may-be-linked-altered-microbial-mix-breast-milk">
+	<title>Science News: Pumping may be linked to an altered microbial mix in breast milk</title>
+	<link>https://www.sciencenews.org/blog/growth-curve/pumping-may-be-linked-altered-microbial-mix-breast-milk</link>
+	<content:encoded>Beneficial bacteria are more abundant in the milk of mothers whose babies feed straight from the breast.</content:encoded>
+	<dc:date>2019-04-01T18:33:47+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-3886659995248953164">
 	<title>The Neurocritic: #CNS2019</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/jUa7UOhW2UI/cns2019.html</link>
@@ -2463,13 +2470,6 @@ The authors begin by noting that while the reproducibility crisis has focussed a
 	<content:encoded>The newly identified starry dwarf frog represents a new species, genus and potentially even a new family.</content:encoded>
 	<dc:date>2019-03-18T14:00:05+00:00</dc:date>
 	<dc:creator>Jeremy Rehm</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/resurrecting-woolly-mammoth-cells-dna">
-	<title>Science News: Resurrecting woolly mammoth cells is hard to do</title>
-	<link>https://www.sciencenews.org/article/resurrecting-woolly-mammoth-cells-dna</link>
-	<content:encoded>Japanese scientists say some proteins in frozen mammoth cells may still work after 28,000 years. But that activity may be more mouse than mammoth.</content:encoded>
-	<dc:date>2019-03-18T11:00:05+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
