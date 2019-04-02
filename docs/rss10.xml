@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-fossils-north-dakota-dinosaur-killing-asteroid-impact" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/bacteria-can-be-coaxed-making-toughest-kind-spider-silk" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-2756037649012648940" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89328" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mysterious-hyksos-dynasty-conquered-ancient-egypt-marriage" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/saving-monkey-testicles-puberty-hints-new-way-preserve-male-fertility" />
 			<rdf:li rdf:resource="https://www.mariannebezaire.com/?p=211" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-ketamine-based-antidepressant-raises-hope-questions" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=88563" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/teaching-data-science-through-the-lens-of-social-justice-issues" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/new-fossils-north-dakota-dinosaur-killing-asteroid-impact">
+	<title>Science News: New fossils may capture the minutes after the dinosaur-killing asteroid impact</title>
+	<link>https://www.sciencenews.org/article/new-fossils-north-dakota-dinosaur-killing-asteroid-impact</link>
+	<content:encoded>North Dakota fossils may depict the aftermath of the dinosaur-killing asteroid, but controversial claims about the breadth of the find are unproven.</content:encoded>
+	<dc:date>2019-04-02T21:35:16+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/bacteria-can-be-coaxed-making-toughest-kind-spider-silk">
+	<title>Science News: Bacteria can be coaxed into making the toughest kind of spider silk</title>
+	<link>https://www.sciencenews.org/article/bacteria-can-be-coaxed-making-toughest-kind-spider-silk</link>
+	<content:encoded>Lab-altered bacteria have made a copy of a spider’s strongest silk strands, which could one day be used to make more sturdy materials.</content:encoded>
+	<dc:date>2019-04-02T21:17:11+00:00</dc:date>
+	<dc:creator>Jeremy Rehm</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-7961882.post-2756037649012648940">
 	<title>Open and Shut?: eLife and my unanswered questions</title>
 	<link>https://poynder.blogspot.com/2019/04/elife-and-my-unanswered-questions.html</link>
@@ -3429,19 +3443,6 @@ In conclusion, by modelling repair following deafferentation that is faithful to
 	<content:encoded>Little is known about the long-term effects on people of a newly approved antidepressant based on the anesthetic ketamine.</content:encoded>
 	<dc:date>2019-03-21T11:00:04+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=88563">
-	<title>Retraction watch: Time to say goodbye to “statistically significant” and embrace uncertainty, say statisticians</title>
-	<link>https://retractionwatch.com/2019/03/21/time-to-say-goodbye-to-statistically-significant-and-embrace-uncertainty-say-statisticians/</link>
-	<content:encoded>Three years ago, the American Statistical Association (ASA) expressed hope that the world would move to a “post-p-value era.” The statement in which they made that recommendation has been cited more than 1,700 times, and apparently, the organization has decided that era’s time has come. (At least one journal had already banned p values by … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/03/21/time-to-say-goodbye-to-statistically-significant-and-embrace-uncertainty-say-statisticians/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Time to say goodbye to “statistically significant” and embrace uncertainty, say statisticians&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-03-21T10:00:59+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/teaching-data-science-through-the-lens-of-social-justice-issues">
-	<title>Elsevier Connect: Teaching data science through the lens of social justice issues</title>
-	<link>https://www.elsevier.com/connect/teaching-data-science-through-the-lens-of-social-justice-issues</link>
-	<content:encoded>Girls Inc of New York City and the Elsevier Foundation partner to teach girls data analytics skills</content:encoded>
-	<dc:date>2019-03-21T09:56:13+00:00</dc:date>
 </item>
 
 </rdf:RDF>
