@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/metal-asteroids-may-have-once-had-iron-spewing-volcanoes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/greek-philosopher-had-right-idea-just-too-few-elements" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-we-know-how-mass-trauma-affects-mental-health" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89384" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-03-25:/2019/03/25/investigating-the-activity-dependent-dynamics-of-synaptic-structures-using-biologically-realistic-modelling-of-peripheral-lesion-experiments.html" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88753" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/saber-toothed-cats-smilodon" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=88723" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/metal-asteroids-may-have-once-had-iron-spewing-volcanoes">
+	<title>Science News: Metal asteroids may have once had iron-spewing volcanoes</title>
+	<link>https://www.sciencenews.org/article/metal-asteroids-may-have-once-had-iron-spewing-volcanoes</link>
+	<content:encoded>Two groups of scientists introduce the idea of “ferrovolcanism,” or iron volcanoes, that could have occurred on metal asteroids like Psyche.</content:encoded>
+	<dc:date>2019-04-03T17:23:39+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/context/greek-philosopher-had-right-idea-just-too-few-elements">
 	<title>Science News: This Greek philosopher had the right idea, just too few elements</title>
 	<link>https://www.sciencenews.org/blog/context/greek-philosopher-had-right-idea-just-too-few-elements</link>
@@ -3412,13 +3419,6 @@ In conclusion, by modelling repair following deafferentation that is faithful to
 	<content:encoded>New details shift the debate on whether Smilodon lived and hunted in packs, and answer questions about other behaviors and abilities.</content:encoded>
 	<dc:date>2019-03-24T10:00:05+00:00</dc:date>
 	<dc:creator>John Pickrell</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=88723">
-	<title>Retraction watch: Weekend reads: Controversial paper on transgender teens revised; e-cigarette maker touts study in a questionable journal; Science warns readers about monkey HIV study</title>
-	<link>https://retractionwatch.com/2019/03/23/weekend-reads-controversial-paper-on-transgender-teens-revised-e-cigarette-maker-touts-study-in-a-questionable-journal-science-warns-readers-about-monkey-hiv-study/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a researcher who faked earthquake data, an ambivalent co-author, and a … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/03/23/weekend-reads-controversial-paper-on-transgender-teens-revised-e-cigarette-maker-touts-study-in-a-questionable-journal-science-warns-readers-about-monkey-hiv-study/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Controversial paper on transgender teens revised; e-cigarette maker touts study in a questionable journal; Science warns readers about monkey HIV study&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-03-23T13:27:38+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
