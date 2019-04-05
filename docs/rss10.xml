@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/testing-mosquito-pee-could-help-track-spread-diseases" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89512" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-scientists-were-unlocking-secrets-bacteria-infecting-viruses" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36157" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88904" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/sperm-damaged-dna-may-cause-some-repeat-miscarriages" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/single-workout-exercise-benefits-memory-improvement" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=39295" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/testing-mosquito-pee-could-help-track-spread-diseases">
+	<title>Science News: Testing mosquito pee could help track the spread of diseases</title>
+	<link>https://www.sciencenews.org/article/testing-mosquito-pee-could-help-track-spread-diseases</link>
+	<content:encoded>A new way to monitor the viruses that wild mosquitoes are spreading passes its first outdoor test.</content:encoded>
+	<dc:date>2019-04-05T12:00:05+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=89512">
 	<title>Retraction watch: Former university president up to ten retractions</title>
 	<link>https://retractionwatch.com/2019/04/05/former-university-president-up-to-ten-retractions/</link>
@@ -3358,13 +3365,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Memory improvements after a short bout of exercise mirrored those seen after months of training.</content:encoded>
 	<dc:date>2019-03-26T10:00:04+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=39295">
-	<title>For Better Science: Yubing Sun: contaminated science, Synchrotron fraud and citation scam</title>
-	<link>https://forbetterscience.com/2019/03/26/yubing-sun-contaminated-science-synchrotron-fraud-and-citation-scam/</link>
-	<content:encoded>Smut Clyde and TigerBB8 investigate another case of nanotechnology research in China. Connected teams of authors pretended to work on cleaning up the environment of radioactive pollution, and instead released a toxic sludge of fraudulent data and citations.</content:encoded>
-	<dc:date>2019-03-26T09:39:59+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
