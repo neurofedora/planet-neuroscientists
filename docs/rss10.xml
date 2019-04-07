@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/rna-molecules-crucial-roles-human-health-disease" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9886" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89585" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/peru-fossils-four-legged-otter-whale-hooves" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36768" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=88959" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/a721b28ef72546d5851ff7eb9c5e01e2" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/epilepsy-seizures-may-scramble-memories-during-sleep" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/rna-molecules-crucial-roles-human-health-disease">
+	<title>Science News: Here are 5 RNAs that are stepping out of DNA’s shadow</title>
+	<link>https://www.sciencenews.org/article/rna-molecules-crucial-roles-human-health-disease</link>
+	<content:encoded>RNAs do a lot more than act as middlemen for protein building. Here are a few of the ways they affect your health and disease.</content:encoded>
+	<dc:date>2019-04-07T10:00:05+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9886">
 	<title>Discovery magazine - Neuroskeptic: The Driver is the Brain of the Car</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9886</link>
@@ -3280,13 +3287,6 @@ DOI: &lt;a href=&quot;https://doi.org/10.1016/j.neuron.2019.03.010&quot;&gt;http
 	<link>http://brainsciencepodcast.libsyn.com/155-premium-transcript-pdf</link>
 	<content:encoded>&lt;p&gt;BS 155 is an interview with Paul Middlebrooks from the Brain Inspired podcast. This is the premium episode transcript. Please scroll down for the audio mp3 file.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-03-26T19:06:54+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/epilepsy-seizures-may-scramble-memories-during-sleep">
-	<title>Science News: Epileptic seizures may scramble memories during sleep</title>
-	<link>https://www.sciencenews.org/article/epilepsy-seizures-may-scramble-memories-during-sleep</link>
-	<content:encoded>Overnight seizures seemed to muddle memories in people with epilepsy.</content:encoded>
-	<dc:date>2019-03-26T17:47:15+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
