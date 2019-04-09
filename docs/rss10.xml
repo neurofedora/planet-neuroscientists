@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/chickens-mosquito-borne-disease-florida" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/antarctica-iceberg-graveyard-climate-change" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brains-sculpt-each-other-social-interactions" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=39650" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89042" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36784" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10934" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=39340" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/chickens-mosquito-borne-disease-florida">
+	<title>Science News: Chickens stand sentinel against mosquito-borne disease in Florida</title>
+	<link>https://www.sciencenews.org/article/chickens-mosquito-borne-disease-florida</link>
+	<content:encoded>To learn where mosquitoes are transmitting certain viruses, Florida officials deploy chickens and test them for antibodies to the pathogens.</content:encoded>
+	<dc:date>2019-04-09T19:00:05+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/antarctica-iceberg-graveyard-climate-change">
 	<title>Science News: Antarctica’s iceberg graveyard could reveal the ice sheet’s future</title>
 	<link>https://www.sciencenews.org/article/antarctica-iceberg-graveyard-climate-change</link>
@@ -3269,13 +3276,6 @@ Funds used are the funds that have been committed for any active order and invoi
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2019/03/28/how-many-cigarettes-bottle-wine/&quot; rel=&quot;nofollow&quot;&gt;How many cigarettes are there in a bottle of wine?&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-03-28T09:00:57+00:00</dc:date>
 	<dc:creator>Dr. Theresa Hydes</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=39340">
-	<title>For Better Science: Sally Assmann, right EiC choice for Plant Cell?</title>
-	<link>https://forbetterscience.com/2019/03/28/sally-assmann-right-eic-choice-for-plant-cell/</link>
-	<content:encoded>The Plant Cell is getting a new Editor-in-Chief, Sally Assmann. In a sense, she brings with her the necessary expertise in research integrity this journal sorely needs.</content:encoded>
-	<dc:date>2019-03-28T06:00:04+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
