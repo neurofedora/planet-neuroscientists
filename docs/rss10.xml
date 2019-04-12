@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/chemical-exposure-early-life-health" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-some-low-income-neighborhoods-are-better-others" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/black-hole-image-validates-imagining-unimaginable" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10939" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36914" />
@@ -52,6 +54,7 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/you-shouldnt-make-yourself-shine-more-than-others-how-collaboration-sparks-innovation-at-pure-hq" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89676" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36872" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/delight-discovering-asteroid-spits" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rna-molecules-crucial-roles-human-health-disease" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9886" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89585" />
@@ -112,13 +115,24 @@
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2439" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2437" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2435" />
-			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2432" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/watch-desert-kangaroo-rat-drop-kick-rattlesnake" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-fossil-denisovan-skull-cave-siberia" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/chemical-exposure-early-life-health">
+	<title>Science News: How chemical exposure early in life is ‘like a ticking time bomb’</title>
+	<link>https://www.sciencenews.org/article/chemical-exposure-early-life-health</link>
+	<content:encoded>Some early life experiences can affect health, but only if unmasked by events in adulthood.</content:encoded>
+	<dc:date>2019-04-12T14:00:06+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/why-some-low-income-neighborhoods-are-better-others">
+	<title>Science News: Why some low-income neighborhoods are better than others</title>
+	<link>https://www.sciencenews.org/article/why-some-low-income-neighborhoods-are-better-others</link>
+	<content:encoded>Levels of violence, incarceration and lead exposure in a neighborhood can predict a low-income child’s future earnings and outcome, a study suggests.</content:encoded>
+	<dc:date>2019-04-12T12:00:07+00:00</dc:date>
+	<dc:creator>Sujata Gupta</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/context/black-hole-image-validates-imagining-unimaginable">
 	<title>Science News: Black hole image validates imagining the unimaginable</title>
 	<link>https://www.sciencenews.org/blog/context/black-hole-image-validates-imagining-unimaginable</link>
@@ -168,9 +182,9 @@
 	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/israel-moon-mission-spacecraft-crash">
-	<title>Science News: Israel’s first moon mission ends in failure</title>
+	<title>Science News: Israel’s first moon mission lost moments before landing</title>
 	<link>https://www.sciencenews.org/article/israel-moon-mission-spacecraft-crash</link>
-	<content:encoded>Israel’s first bid for a lunar landing has failed.</content:encoded>
+	<content:encoded>The spacecraft’s engine cut out just before it was to touch down in the Sea of Serenity.</content:encoded>
 	<dc:date>2019-04-11T21:06:13+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
 </item>
@@ -531,6 +545,13 @@
 &lt;p&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt; &lt;/span&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-04-08T08:44:47+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/delight-discovering-asteroid-spits">
+	<title>Science News: The delight of discovering an asteroid that spits</title>
+	<link>https://www.sciencenews.org/article/delight-discovering-asteroid-spits</link>
+	<content:encoded>Editor in Chief Nancy Shute discusses recent news about the asteroid Bennu and Kuiper Belt–object Ultima Thule.</content:encoded>
+	<dc:date>2019-04-07T11:15:00+00:00</dc:date>
+	<dc:creator>Nancy Shute</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/rna-molecules-crucial-roles-human-health-disease">
 	<title>Science News: Here are 5 RNAs that are stepping out of DNA’s shadow</title>
@@ -1880,138 +1901,6 @@ Cars clearly exhibit intelligent behaviour, being able to navigate around obstac
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2019-03-29T19:19:17+00:00</dc:date>
 	<dc:creator>Chandreyee Das</dc:creator>
-</item>
-<item rdf:about="https://blog.scienceexchange.com/?p=2432">
-	<title>The Science Exchange Blog: Enterprise Admins: How do I view and edit all of the sites/affiliations associated with my enterprise group?</title>
-	<link>https://blog.scienceexchange.com/2019/03/enterprise-admins-how-do-i-view-and-edit-all-of-the-sites-affiliations-associated-with-my-enterprise-group/</link>
-	<content:encoded>&lt;div class=&quot;elementor elementor-2432 elementor-bc-flex-widget&quot; data-elementor-id=&quot;2432&quot; data-elementor-settings=&quot;[]&quot; data-elementor-type=&quot;post&quot;&gt;
-			&lt;div class=&quot;elementor-inner&quot;&gt;
-				&lt;div class=&quot;elementor-section-wrap&quot;&gt;
-							&lt;section class=&quot;elementor-element elementor-element-f71cfaa elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;f71cfaa&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-9cdb6da elementor-column elementor-col-100 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;9cdb6da&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap  elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-aa46578 elementor-widget elementor-widget-spacer&quot; data-element_type=&quot;widget&quot; data-id=&quot;aa46578&quot; data-widget_type=&quot;spacer.default&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-spacer&quot;&gt;
-			&lt;div class=&quot;elementor-spacer-inner&quot;&gt;&lt;/div&gt;
-		&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-				&lt;section class=&quot;elementor-element elementor-element-059bcf6 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;059bcf6&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-1e712a5 elementor-column elementor-col-100 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;1e712a5&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap  elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-3817ecf elementor-widget elementor-widget-text-editor&quot; data-element_type=&quot;widget&quot; data-id=&quot;3817ecf&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-text-editor elementor-clearfix&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://blog.scienceexchange.com/2019/02/help-for-enterprise-administrators/&quot;&gt;&lt;span style=&quot;font-size: 1.2rem; color: #008cff; font-weight: bold;&quot;&gt;HELP FOR ENTERPRISE ADMINISTRATORS&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-				&lt;section class=&quot;elementor-element elementor-element-29008b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;29008b5&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-8647033 elementor-column elementor-col-100 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;8647033&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap  elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-ca814d8 elementor-widget elementor-widget-text-editor&quot; data-element_type=&quot;widget&quot; data-id=&quot;ca814d8&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-text-editor elementor-clearfix&quot;&gt;&lt;h1&gt;&lt;strong&gt;How do I view and edit all of the sites/affiliations associated with my enterprise group?&lt;/strong&gt;&lt;/h1&gt;&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-				&lt;section class=&quot;elementor-element elementor-element-1d3cefb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;1d3cefb&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-4b6773d elementor-column elementor-col-100 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;4b6773d&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap  elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-d6e1130 elementor-widget elementor-widget-text-editor&quot; data-element_type=&quot;widget&quot; data-id=&quot;d6e1130&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-text-editor elementor-clearfix&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;You have the ability to see the sites and affiliations associated with your enterprise group under the “Settings” tab of your Enterprise dashboard. You can add additional sites by clicking “Add Site” and filling in the additional information. &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-				&lt;section class=&quot;elementor-element elementor-element-0ecd43e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;0ecd43e&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-e4f49f5 elementor-column elementor-col-100 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;e4f49f5&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap  elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-2a031b8 elementor-widget elementor-widget-image&quot; data-element_type=&quot;widget&quot; data-id=&quot;2a031b8&quot; data-widget_type=&quot;image.default&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-image&quot;&gt;
-										&lt;img alt=&quot;How to add and edit sites&quot; class=&quot;attachment-large size-large&quot; height=&quot;312&quot; src=&quot;https://blog.scienceexchange.com/wp-content/uploads/2019/03/Edit-sites-1024x499.png&quot; width=&quot;640&quot; /&gt;											&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-				&lt;section class=&quot;elementor-element elementor-element-021bff3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section&quot; data-element_type=&quot;section&quot; data-id=&quot;021bff3&quot;&gt;
-						&lt;div class=&quot;elementor-container elementor-column-gap-default&quot;&gt;
-				&lt;div class=&quot;elementor-row&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-58b4637 elementor-column elementor-col-100 elementor-top-column&quot; data-element_type=&quot;column&quot; data-id=&quot;58b4637&quot;&gt;
-			&lt;div class=&quot;elementor-column-wrap  elementor-element-populated&quot;&gt;
-					&lt;div class=&quot;elementor-widget-wrap&quot;&gt;
-				&lt;div class=&quot;elementor-element elementor-element-06921da elementor-widget elementor-widget-image&quot; data-element_type=&quot;widget&quot; data-id=&quot;06921da&quot; data-widget_type=&quot;image.default&quot;&gt;
-				&lt;div class=&quot;elementor-widget-container&quot;&gt;
-					&lt;div class=&quot;elementor-image&quot;&gt;
-										&lt;img alt=&quot;&quot; class=&quot;attachment-large size-large&quot; height=&quot;623&quot; src=&quot;https://blog.scienceexchange.com/wp-content/uploads/2019/03/Edit-site-info-1024x997.png&quot; width=&quot;640&quot; /&gt;											&lt;/div&gt;
-				&lt;/div&gt;
-				&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/section&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;</content:encoded>
-	<dc:date>2019-03-29T19:09:38+00:00</dc:date>
-	<dc:creator>Chandreyee Das</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/watch-desert-kangaroo-rat-drop-kick-rattlesnake">
-	<title>Science News: Watch a desert kangaroo rat drop-kick a rattlesnake</title>
-	<link>https://www.sciencenews.org/article/watch-desert-kangaroo-rat-drop-kick-rattlesnake</link>
-	<content:encoded>Desert kangaroo rats have a wide arsenal for dodging rattlesnake ambushes. But the most dramatic might be their powerful midair kick.</content:encoded>
-	<dc:date>2019-03-29T17:54:11+00:00</dc:date>
-	<dc:creator>Mike Denison</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/first-fossil-denisovan-skull-cave-siberia">
-	<title>Science News: The first known fossil of a Denisovan skull has been found in a Siberian cave</title>
-	<link>https://www.sciencenews.org/article/first-fossil-denisovan-skull-cave-siberia</link>
-	<content:encoded>A new fossil and evidence that the hominids interbred with humans as recently as 15,000 years ago only add to Denisovans’ mystery.</content:encoded>
-	<dc:date>2019-03-29T15:01:02+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
