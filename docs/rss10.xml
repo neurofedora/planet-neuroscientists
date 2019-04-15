@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/meteor-showers-dig-water-moon-nasa" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-measles-outbreaks-not-slowing-down-vaccines" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-microplastics-travel-far-wind" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/saturn-moon-titan-hydrocarbon-lakes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-and-virgo-gravitational-wave-detectors-are-back" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89246" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/perfect-predator-phages-deadly-superbug" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-quantum-engine-packs-more-power-its-standard-counterparts" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/meteor-showers-dig-water-moon-nasa">
+	<title>Science News: Meteor showers dig up water on the moon</title>
+	<link>https://www.sciencenews.org/article/meteor-showers-dig-water-moon-nasa</link>
+	<content:encoded>Meteorites release water from the moon’s soil, hinting that the moon has water buried all across its surface.</content:encoded>
+	<dc:date>2019-04-15T17:14:52+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/us-measles-outbreaks-not-slowing-down-vaccines">
 	<title>Science News: U.S. measles outbreaks show no signs of slowing down</title>
 	<link>https://www.sciencenews.org/article/us-measles-outbreaks-not-slowing-down-vaccines</link>
@@ -1404,13 +1411,6 @@ Cars clearly exhibit intelligent behaviour, being able to navigate around obstac
 	<content:encoded>In ‘The Perfect Predator,’ an epidemiologist recounts the battle to save her husband from an antibiotic-resistant infection.</content:encoded>
 	<dc:date>2019-04-01T13:00:04+00:00</dc:date>
 	<dc:creator>Allie Wilkinson</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-quantum-engine-packs-more-power-its-standard-counterparts">
-	<title>Science News: A new quantum engine packs more power than its standard counterparts</title>
-	<link>https://www.sciencenews.org/article/new-quantum-engine-packs-more-power-its-standard-counterparts</link>
-	<content:encoded>A new type of tiny machine harnesses quantum physics to produce more power than a normal engine, under certain conditions.</content:encoded>
-	<dc:date>2019-04-01T11:00:04+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
