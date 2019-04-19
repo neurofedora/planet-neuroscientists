@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/invisible-women-book-dangerous-gender-data-gap-health-safety" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientist-used-chalk-box-show-bats-use-sunsets-migrate" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90536" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/herbal-supplement-kratom-comes-risks" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/more-million-tiny-earthquakes-revealed-southern-california" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36825" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/metal-asteroids-may-have-once-had-iron-spewing-volcanoes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/greek-philosopher-had-right-idea-just-too-few-elements" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-we-know-how-mass-trauma-affects-mental-health" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=89384" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/invisible-women-book-dangerous-gender-data-gap-health-safety">
+	<title>Science News: ‘Invisible Women’ spotlights a gaping and dangerous gender data gap</title>
+	<link>https://www.sciencenews.org/article/invisible-women-book-dangerous-gender-data-gap-health-safety</link>
+	<content:encoded>‘Invisible Women’ explains how neglecting to collect or use data on women harms their health and safety.</content:encoded>
+	<dc:date>2019-04-19T14:31:22+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/scientist-used-chalk-box-show-bats-use-sunsets-migrate">
+	<title>Science News: A scientist used chalk in a box to show that bats use sunsets to migrate</title>
+	<link>https://www.sciencenews.org/article/scientist-used-chalk-box-show-bats-use-sunsets-migrate</link>
+	<content:encoded>A new device for investigating bat migration suggests that the flying mammals orient themselves by the setting sun.</content:encoded>
+	<dc:date>2019-04-19T12:00:05+00:00</dc:date>
+	<dc:creator>Yao-Hua Law</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=90536">
 	<title>Retraction watch: Harvard cancer lab subject to federal misconduct probe</title>
 	<link>https://retractionwatch.com/2019/04/19/harvard-cancer-lab-subject-to-federal-misconduct-probe/</link>
@@ -1403,20 +1417,6 @@ Cars clearly exhibit intelligent behaviour, being able to navigate around obstac
 	<content:encoded>The ancient Greek philosopher Empedocles wrongly believed matter to consist of just four elements, but he grasped the basic idea of forces governing unchanging matter.</content:encoded>
 	<dc:date>2019-04-03T16:00:05+00:00</dc:date>
 	<dc:creator>Tom Siegfried</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/what-we-know-how-mass-trauma-affects-mental-health">
-	<title>Science News: What we know and don’t know about how mass trauma affects mental health</title>
-	<link>https://www.sciencenews.org/article/what-we-know-how-mass-trauma-affects-mental-health</link>
-	<content:encoded>Three people connected to mass shootings have recently killed themselves. Here’s what we know, and don’t, about the lingering effects of mass trauma.</content:encoded>
-	<dc:date>2019-04-03T15:26:18+00:00</dc:date>
-	<dc:creator>Sujata Gupta</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=89384">
-	<title>Retraction watch: Here we go again: Paper linking vaccines to cognitive damage (in sheep) retracted</title>
-	<link>https://retractionwatch.com/2019/04/03/here-we-go-again-paper-linking-vaccines-to-cognitive-damage-in-sheep-retracted/</link>
-	<content:encoded>In what seems like another entry in our occasional “Retraction Watch Mad Libs” series, Elsevier has withdrawn a paper that claimed to link the aluminum in vaccines to behavioral changes in sheep. The paper, which appeared online in Pharmacological Research in November of last year, was swiftly picked up by antivaccine advocates such as Celeste … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/04/03/here-we-go-again-paper-linking-vaccines-to-cognitive-damage-in-sheep-retracted/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Here we go again: Paper linking vaccines to cognitive damage (in sheep) retracted&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-04-03T13:30:19+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
