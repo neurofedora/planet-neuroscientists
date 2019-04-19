@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9894" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/invisible-women-book-dangerous-gender-data-gap-health-safety" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientist-used-chalk-box-show-bats-use-sunsets-migrate" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90536" />
@@ -114,11 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/major-crop-pest-can-make-tomato-plants-lie-their-neighbors" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36825" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/metal-asteroids-may-have-once-had-iron-spewing-volcanoes" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/greek-philosopher-had-right-idea-just-too-few-elements" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9894">
+	<title>Discovery magazine - Neuroskeptic: Premature Commercialization in Suicide Prediction</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9894</link>
+	<content:encoded>A Swedish company called Emotra make a device to detect someone's risk of suicide based on measuring the body's autonomic responses to certain sounds. It's called EDOR®.
+
+
+
+I've been blogging about this machine for the past 18 months (1, 2, 3) because such a product, if it worked, would be very important. It could help save countless lives. Unfortunately, I don't think EDOR® has been proven to be effective. As I've argued in my previous posts, the evidence just isn't there yet.
+
+
+
+Now, i</content:encoded>
+	<dc:date>2019-04-19T17:31:23+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/invisible-women-book-dangerous-gender-data-gap-health-safety">
 	<title>Science News: ‘Invisible Women’ spotlights a gaping and dangerous gender data gap</title>
 	<link>https://www.sciencenews.org/article/invisible-women-book-dangerous-gender-data-gap-health-safety</link>
@@ -1410,13 +1424,6 @@ Cars clearly exhibit intelligent behaviour, being able to navigate around obstac
 	<content:encoded>Two groups of scientists introduce the idea of “ferrovolcanism,” or iron volcanoes, that could have occurred on metal asteroids like Psyche.</content:encoded>
 	<dc:date>2019-04-03T17:23:39+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/context/greek-philosopher-had-right-idea-just-too-few-elements">
-	<title>Science News: This Greek philosopher had the right idea, just too few elements</title>
-	<link>https://www.sciencenews.org/blog/context/greek-philosopher-had-right-idea-just-too-few-elements</link>
-	<content:encoded>The ancient Greek philosopher Empedocles wrongly believed matter to consist of just four elements, but he grasped the basic idea of forces governing unchanging matter.</content:encoded>
-	<dc:date>2019-04-03T16:00:05+00:00</dc:date>
-	<dc:creator>Tom Siegfried</dc:creator>
 </item>
 
 </rdf:RDF>
