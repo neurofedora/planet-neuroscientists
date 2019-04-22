@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/m87-black-hole-image-best-mass-estimates-star-motion" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-anxiety-happens-early-preschool-treatments-can-help" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90601" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9894" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-are-mirror-journals-and-can-they-offer-a-new-world-of-open-access" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cats-recognize-their-own-names" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=39486" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/major-crop-pest-can-make-tomato-plants-lie-their-neighbors" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/m87-black-hole-image-best-mass-estimates-star-motion">
+	<title>Science News: The M87 black hole image showed the best way to measure black hole masses</title>
+	<link>https://www.sciencenews.org/article/m87-black-hole-image-best-mass-estimates-star-motion</link>
+	<content:encoded>The first image of M87’s black hole suggests it is 6.5 billion times the mass of the sun — close to what was expected based on how stars move around it.</content:encoded>
+	<dc:date>2019-04-22T10:00:05+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/when-anxiety-happens-early-preschool-treatments-can-help">
 	<title>Science News: When anxiety happens as early as preschool, treatments can help</title>
 	<link>https://www.sciencenews.org/article/when-anxiety-happens-early-preschool-treatments-can-help</link>
@@ -1407,13 +1414,6 @@ Cars clearly exhibit intelligent behaviour, being able to navigate around obstac
 	<content:encoded>Sir Martin Evans, winner of Nobel prize 2007, founded in 2009 the stem cell start-up Celixir, together with a struck-off dentist Ajan Reginald. With the help of the British heart surgeon Stephen Westaby, they ran a very profitable clinical trial in Greece, which now moved into UK.</content:encoded>
 	<dc:date>2019-04-04T12:17:40+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/major-crop-pest-can-make-tomato-plants-lie-their-neighbors">
-	<title>Science News: A major crop pest can make tomato plants lie to their neighbors</title>
-	<link>https://www.sciencenews.org/article/major-crop-pest-can-make-tomato-plants-lie-their-neighbors</link>
-	<content:encoded>Insects called silverleaf whiteflies exploit tomatoes’ ability to detect damage caused to nearby plants.</content:encoded>
-	<dc:date>2019-04-04T10:00:04+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
