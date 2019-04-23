@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-mars-insight-lander-first-recording-marsquake" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/medicaid-expansion-health-gaps-black-white-babies" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/voodoo-dolls-the-ig-nobel-prize-and-why-headlines-matter-in-academia" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=40183" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2481" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hayabusa2-blasted-surface-asteroid-ryugu-crater-dust" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2478" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/testing-mosquito-pee-could-help-track-spread-diseases" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/nasa-mars-insight-lander-first-recording-marsquake">
+	<title>Science News: NASA’s Mars InSight lander may have the first recording of a Marsquake</title>
+	<link>https://www.sciencenews.org/article/nasa-mars-insight-lander-first-recording-marsquake</link>
+	<content:encoded>NASA’s InSight mission appears to have detected a Marsquake for the first time.</content:encoded>
+	<dc:date>2019-04-23T21:59:28+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/medicaid-expansion-health-gaps-black-white-babies">
 	<title>Science News: Medicaid expansion may help shrink health gaps between black and white babies</title>
 	<link>https://www.sciencenews.org/article/medicaid-expansion-health-gaps-black-white-babies</link>
@@ -480,7 +487,7 @@ Now, i</content:encoded>
 &lt;ul&gt;
 &lt;li&gt;FAU High Team 1: Pedro Almeida, Lili Mueller, and Yasmine Zerrouki&lt;/li&gt;
 &lt;li&gt;FAU High Team 2: Sajeev Sarkar, Zachariah John, and Mauricio Barba (Second Place)&lt;/li&gt;
-&lt;li&gt;FAU High Team 3: Kiran Shirazi, Noa Abiri, and Sajana Chandran (First Place)&lt;/li&gt;
+&lt;li&gt;FAU High Team 3: Kiran Shirazi, Noa Abiri, and Sanjana Chandran (First Place)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;u&gt;Jupiter High School&lt;/u&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1378,13 +1385,6 @@ Cars clearly exhibit intelligent behaviour, being able to navigate around obstac
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2019-04-05T17:29:06+00:00</dc:date>
 	<dc:creator>Chandreyee Das</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/testing-mosquito-pee-could-help-track-spread-diseases">
-	<title>Science News: Testing mosquito pee could help track the spread of diseases</title>
-	<link>https://www.sciencenews.org/article/testing-mosquito-pee-could-help-track-spread-diseases</link>
-	<content:encoded>A new way to monitor the viruses that wild mosquitoes are spreading passes its first outdoor test.</content:encoded>
-	<dc:date>2019-04-05T12:00:05+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
