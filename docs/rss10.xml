@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-measles-cases-record-high-disease-eliminated-2000" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/marine-parasite-mitochondria-no-dna-energy" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hunter-gatherers-lived-amazon-early-farming" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/slowest-radioactive-decay-atom-ever-spotted" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36872" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/delight-discovering-asteroid-spits" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/rna-molecules-crucial-roles-human-health-disease" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9886" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/us-measles-cases-record-high-disease-eliminated-2000">
+	<title>Science News: U.S. measles cases hit a record high since the disease was eliminated in 2000</title>
+	<link>https://www.sciencenews.org/article/us-measles-cases-record-high-disease-eliminated-2000</link>
+	<content:encoded>Each year from 2010 to 2017, 21 million children did not get vaccinated against measles, according to UNICEF.</content:encoded>
+	<dc:date>2019-04-25T00:05:01+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/marine-parasite-mitochondria-no-dna-energy">
 	<title>Science News: A marine parasite’s mitochondria lack DNA but still churn out energy</title>
 	<link>https://www.sciencenews.org/article/marine-parasite-mitochondria-no-dna-energy</link>
@@ -1193,16 +1200,6 @@ The source of the scan isn't clear but I'm 99% sure that the image was taken at 
 	<content:encoded>RNAs do a lot more than act as middlemen for protein building. Here are a few of the ways they affect your health and disease.</content:encoded>
 	<dc:date>2019-04-07T10:00:05+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9886">
-	<title>Discovery magazine - Neuroskeptic: The Driver is the Brain of the Car</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9886</link>
-	<content:encoded>Suppose, if you will, that alien scientists came down to Earth and began to study the local lifeforms. But let's suppose that these aliens arrive by the side of a busy expressway, and stay there. Our extraterrestrials might conclude that cars are the dominant inhabitants of Earth.
-
-
-
-Cars clearly exhibit intelligent behaviour, being able to navigate around obstacles and follow complex instructions on road signs. How, the aliens may wonder, do the cars manage this? What is the seat of car int</content:encoded>
-	<dc:date>2019-04-06T20:34:25+00:00</dc:date>
 </item>
 
 </rdf:RDF>
