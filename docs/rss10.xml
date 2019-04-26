@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=40305" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/lack-circular-rna-may-trigger-lupus" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/global-survey-arctic-ocean-viruses" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-scientists-fought-over-element-104-discovery" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=89753" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/common-food-additive-may-make-flu-vaccine-less-effective" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-stimulation-memory-boost-dementia" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-deadly-fast-moving-flows-volcanic-rock-and-gas-cheat-friction" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=40305">
+	<title>For Better Science: Ying and Yang nanoquackery at Royal Society of Chemistry</title>
+	<link>https://forbetterscience.com/2019/04/26/ying-and-yang-nanoquackery-at-royal-society-of-chemistry/</link>
+	<content:encoded>Royal Society of Chemistry published a research paper which unashamedly peddled TCM, under the title: &quot;Probing the Qi of traditional Chinese herbal medicines by the biological synthesis of nano-Au&quot;. Both Editor-in-Chief and publisher executive saw no problem there because the paper passed peer review.</content:encoded>
+	<dc:date>2019-04-26T05:00:52+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/lack-circular-rna-may-trigger-lupus">
 	<title>Science News: A lack of circular RNAs may trigger lupus</title>
 	<link>https://www.sciencenews.org/article/lack-circular-rna-may-trigger-lupus</link>
@@ -1191,13 +1198,6 @@ The source of the scan isn't clear but I'm 99% sure that the image was taken at 
 	<content:encoded>A brain stimulation treatment that nudges older people’s brain waves into sync could lead to noninvasive therapies for dementia and other disorders.</content:encoded>
 	<dc:date>2019-04-08T15:40:07+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-deadly-fast-moving-flows-volcanic-rock-and-gas-cheat-friction">
-	<title>Science News: How deadly, fast-moving flows of volcanic rock and gas cheat friction</title>
-	<link>https://www.sciencenews.org/article/how-deadly-fast-moving-flows-volcanic-rock-and-gas-cheat-friction</link>
-	<content:encoded>Mixtures of hot volcanic rock and gas called pyroclastic flows travel so far by gliding on air, a new study suggests.</content:encoded>
-	<dc:date>2019-04-08T15:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
