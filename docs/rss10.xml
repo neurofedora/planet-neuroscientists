@@ -47,7 +47,9 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/voodoo-dolls-the-ig-nobel-prize-and-why-headlines-matter-in-academia" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=40183" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/elegant-defense-book-explores-immune-system" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/seeing-very-far-away-and-hitting-closer-home" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90742" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-ponder-opportunity-future-animal-consciousness-and-more" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/obscure-sexually-transmitted-parasite-immune-system-microbes" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36954" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90705" />
@@ -113,8 +115,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/event-horizon-telescope-black-hole-picture" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/history-black-holes-science-news" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/black-hole-first-picture-event-horizon-telescope" />
-			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-04-10:/2019/04/10/an-emg-ct-method-using-multiple-surface-electrodes-in-the-forearm.html" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=89726" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -428,12 +428,26 @@
 	<dc:date>2019-04-23T12:00:05+00:00</dc:date>
 	<dc:creator>Cassandra Willyard</dc:creator>
 </item>
+<item rdf:about="https://www.sciencenews.org/article/seeing-very-far-away-and-hitting-closer-home">
+	<title>Science News: Seeing very far away and hitting closer to home</title>
+	<link>https://www.sciencenews.org/article/seeing-very-far-away-and-hitting-closer-home</link>
+	<content:encoded>Editor in Chief Nancy Shute discusses the first-ever image of a black hole and what can be done to help young children with anxiety.</content:encoded>
+	<dc:date>2019-04-23T10:30:00+00:00</dc:date>
+	<dc:creator>Nancy Shute</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=90742">
 	<title>Retraction watch: “A new form of plagiarism:” When researchers fake co-authors’ names</title>
 	<link>https://retractionwatch.com/2019/04/23/a-new-form-of-plagiarism-when-researcher-fake-co-authors-names/</link>
 	<content:encoded>There’s a new publishing trend in town, says Mario Biagioli: Faking co-authors’ names. Biagioli, distinguished professor of law and science and technology studies and director of the Center for Innovation Studies at the University of California, Davis, writes in an article in Trends in Chemistry that it’s “the emergence of a new form of plagiarism … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/04/23/a-new-form-of-plagiarism-when-researcher-fake-co-authors-names/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;“A new form of plagiarism:” When researchers fake co-authors’ names&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-04-23T10:26:58+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/readers-ponder-opportunity-future-animal-consciousness-and-more">
+	<title>Science News: Readers ponder Opportunity’s future, animal consciousness and more</title>
+	<link>https://www.sciencenews.org/article/readers-ponder-opportunity-future-animal-consciousness-and-more</link>
+	<content:encoded>Readers had questions about NASA’s Opportunity rover, pollen shapes and more.</content:encoded>
+	<dc:date>2019-04-23T10:15:00+00:00</dc:date>
+	<dc:creator>Science News Staff</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/obscure-sexually-transmitted-parasite-immune-system-microbes">
 	<title>Science News: How an obscure sexually transmitted parasite tangos with the immune system</title>
@@ -1141,29 +1155,6 @@ The source of the scan isn't clear but I'm 99% sure that the image was taken at 
 	<content:encoded>Astronomers used a network of telescopes around the world to take a picture of the supermassive black hole in the galaxy M87.</content:encoded>
 	<dc:date>2019-04-10T13:10:20+00:00</dc:date>
 	<dc:creator>Lisa Grossman, Emily Conover</dc:creator>
-</item>
-<item rdf:about="tag:biocomputation.herts.ac.uk,2019-04-10:/2019/04/10/an-emg-ct-method-using-multiple-surface-electrodes-in-the-forearm.html">
-	<title>UH Biocomputation group: An EMG-CT method using multiple surface electrodes in the forearm</title>
-	<link>http://biocomputation.herts.ac.uk/2019/04/10/an-emg-ct-method-using-multiple-surface-electrodes-in-the-forearm.html</link>
-	<content:encoded>&lt;p&gt;Emil Dmitruk's journal club session, where he will present an overview of an EMG-CT method, while referencing various papers.&lt;/p&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;Electromyography computed tomography (EMG-CT) method is proposed for visualizing the individual muscle activities in the human forearm. An EMG conduction model was formulated for reverse-estimation of muscle activities using EMG signals obtained with multi surface electrodes. The optimization process was calculated using sequential quadratic programming by comparing the estimated EMG values from the model with the measured values. The individual muscle activities in the deep region were estimated and used to produce an EMG tomographic image.&lt;/p&gt;
-&lt;p&gt;Emil will reference the following papers:&lt;/p&gt;
-&lt;p&gt;&quot;&lt;a class=&quot;reference external&quot; href=&quot;https://www.sciencedirect.com/science/article/pii/S1050641114001515&quot;&gt;An EMG-CT method using multiple surface electrodes in the forearm (Y. Nakajima et al, 2014)&lt;/a&gt;&quot;&lt;/p&gt;
-&lt;p&gt;&quot;&lt;a class=&quot;reference external&quot; href=&quot;https://www.jstage.jst.go.jp/article/jbse/4/2/4_2_212/_article/-char/ja/&quot;&gt;An Experimental Model on the Activity of Forearm Muscles Using Surface Electromyography (Y. Nakajima et al, 2009)&lt;/a&gt;&quot;&lt;/p&gt;
-&lt;p&gt;&quot;&lt;a class=&quot;reference external&quot; href=&quot;https://link.springer.com/chapter/10.1007/978-3-540-92841-6_472&quot;&gt;Surface Conduction Analysis of EMG Signal from Forearm Muscles (Y. Nakajima et al, 2009)&lt;/a&gt;&quot;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 12/04/2019 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: D118&lt;/p&gt;</content:encoded>
-	<dc:date>2019-04-10T10:08:44+00:00</dc:date>
-	<dc:creator>Rebecca Miko</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=89726">
-	<title>Retraction watch: Author of retracted PLOS ONE paper wonders if he was punished for being honest</title>
-	<link>https://retractionwatch.com/2019/04/10/there-goes-the-sun-errors-prompt-retraction-of-paper-on-solar-pictography/</link>
-	<content:encoded>The stars did not align for a 2016 paper ancient astronomy in the Amazon region after the author discovered errors in his work that the journal deemed fatal to the case, although the author has objected to the retraction. And the author feels as though he was punished for being honest.  The article, “Solar-Aligned Pictographs … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/04/10/there-goes-the-sun-errors-prompt-retraction-of-paper-on-solar-pictography/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Author of retracted PLOS ONE paper wonders if he was punished for being honest&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-04-10T10:00:07+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
 </item>
 
 </rdf:RDF>
