@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=91030" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/transparency-project/how-we-reported-challenges-using-ancestry-tests-solve-crimes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/transparency-project/how-we-reported-controversial-story-about-day-dinosaurs-died" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/transparency-project/introducing-transparency-project" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://medium.com/p/2ed0ac869b1f" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/event-horizon-telescope-black-hole-picture" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/history-black-holes-science-news" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/black-hole-first-picture-event-horizon-telescope" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=91030">
+	<title>Retraction watch: Weekend reads: A U.S. gov’t memo on publishing leaves scientists in disbelief; money wasted on flawed research; an eye doctor whose research subjects were at risk</title>
+	<link>https://retractionwatch.com/2019/04/27/weekend-reads-a-u-s-govt-memo-on-publishing-leaves-scientists-in-disbelief-money-wasted-on-flawed-research-an-eye-doctor-whose-research-subjects-were-at-risk/</link>
+	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured the retraction of a paper on red wine, tea, and … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/04/27/weekend-reads-a-u-s-govt-memo-on-publishing-leaves-scientists-in-disbelief-money-wasted-on-flawed-research-an-eye-doctor-whose-research-subjects-were-at-risk/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: A U.S. gov’t memo on publishing leaves scientists in disbelief; money wasted on flawed research; an eye doctor whose research subjects were at risk&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-04-27T12:40:02+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/blog/transparency-project/how-we-reported-challenges-using-ancestry-tests-solve-crimes">
 	<title>Science News: How we reported on the challenges of using ancestry tests to solve crimes</title>
 	<link>https://www.sciencenews.org/blog/transparency-project/how-we-reported-challenges-using-ancestry-tests-solve-crimes</link>
@@ -1148,13 +1155,6 @@ The source of the scan isn't clear but I'm 99% sure that the image was taken at 
 	<content:encoded>From dreaming up black holes to snapping the first picture of one, the history of black holes has had many twists.</content:encoded>
 	<dc:date>2019-04-10T13:14:46+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/black-hole-first-picture-event-horizon-telescope">
-	<title>Science News: The first picture of a black hole opens a new era of astrophysics</title>
-	<link>https://www.sciencenews.org/article/black-hole-first-picture-event-horizon-telescope</link>
-	<content:encoded>Astronomers used a network of telescopes around the world to take a picture of the supermassive black hole in the galaxy M87.</content:encoded>
-	<dc:date>2019-04-10T13:10:20+00:00</dc:date>
-	<dc:creator>Lisa Grossman, Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
