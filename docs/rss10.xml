@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/war-emotional-wounds-ptsd-syria-refugee-children" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-4692901487175759394" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=91030" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/transparency-project/how-we-reported-challenges-using-ancestry-tests-solve-crimes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/a-lifes-journey-comes-full-circle-for-this-woman-in-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-hominid-species-homo-luzonensis-philippines" />
 			<rdf:li rdf:resource="https://medium.com/p/2ed0ac869b1f" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/event-horizon-telescope-black-hole-picture" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/war-emotional-wounds-ptsd-syria-refugee-children">
+	<title>Science News: Why war’s emotional wounds run deeper for some kids and not others</title>
+	<link>https://www.sciencenews.org/article/war-emotional-wounds-ptsd-syria-refugee-children</link>
+	<content:encoded>Researchers examine why war’s emotional wounds run deep in some youngsters, not others.</content:encoded>
+	<dc:date>2019-04-28T12:00:04+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-4692901487175759394">
 	<title>The Neurocritic: The Paracetamol Papers</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/KB2AooH0k8Q/the-paracetamol-papers.html</link>
@@ -1150,13 +1157,6 @@ The source of the scan isn't clear but I'm 99% sure that the image was taken at 
 	<content:encoded>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/the-spike/why-scientists-feel-dumb-2ed0ac869b1f?source=rss----c92c31591e3a---4&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/640/1*nZ-XS0SPYIvM7yedAZmZcA.png&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Or: the crushing inevitability of imposter syndrome&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/the-spike/why-scientists-feel-dumb-2ed0ac869b1f?source=rss----c92c31591e3a---4&quot;&gt;Continue reading on The Spike »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded>
 	<dc:date>2019-04-10T15:10:37+00:00</dc:date>
 	<dc:creator>Mark Humphries</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/event-horizon-telescope-black-hole-picture">
-	<title>Science News: How scientists took the first picture of a black hole</title>
-	<link>https://www.sciencenews.org/article/event-horizon-telescope-black-hole-picture</link>
-	<content:encoded>Here’s how scientists connected eight observatories across the world to create one Earth-sized telescope in order to create an image of a black hole.</content:encoded>
-	<dc:date>2019-04-10T13:57:12+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
