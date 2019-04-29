@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/holes-herd-immunity-led-25-year-high-us-measles-cases" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/science-themed-escape-room-gives-brain-workout" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=91180" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-aphids-sacrifice-themselves-fix-their-homes-fatty-goo" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-twins-study-reveals-effects-space-scott-kelly-health" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ketamine-new-nerve-cell-connections-mice-depression" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-change-arctic-browning" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=89921" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/holes-herd-immunity-led-25-year-high-us-measles-cases">
+	<title>Science News: How holes in herd immunity led to a 25-year-high in U.S. measles cases</title>
+	<link>https://www.sciencenews.org/article/holes-herd-immunity-led-25-year-high-us-measles-cases</link>
+	<content:encoded>U.S. measles cases have surged to 704. Outbreaks reveal pockets of vulnerability where too many unvaccinated people are helping the virus spread.</content:encoded>
+	<dc:date>2019-04-29T20:04:35+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/science-themed-escape-room-gives-brain-workout">
 	<title>Science News: A science-themed escape room gives the brain a workout</title>
 	<link>https://www.sciencenews.org/article/science-themed-escape-room-gives-brain-workout</link>
@@ -1153,13 +1160,6 @@ The source of the scan isn't clear but I'm 99% sure that the image was taken at 
 	<content:encoded>Arctic browning could have far-reaching consequences for people and wildlife, affecting habitat and atmospheric carbon uptake as well as increasing wildfire risk.</content:encoded>
 	<dc:date>2019-04-11T11:00:06+00:00</dc:date>
 	<dc:creator>Hannah Hoag</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=89921">
-	<title>Retraction watch: Retraction Watch readers, we need your help to be able to continue our work</title>
-	<link>https://retractionwatch.com/2019/04/11/retraction-watch-readers-we-need-your-help-to-be-able-to-continue-our-work-5/</link>
-	<content:encoded>Dear Retraction Watch readers: Maybe you’re a researcher who likes keeping up with developments in scientific integrity. Maybe you’re a reporter who has found a story idea on the blog. Maybe you’re an ethics instructor who uses the site to find case studies. Or a publisher who uses our blog to screen authors who submit … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/04/11/retraction-watch-readers-we-need-your-help-to-be-able-to-continue-our-work-5/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Retraction Watch readers, we need your help to be able to continue our work&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-04-11T10:00:19+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
