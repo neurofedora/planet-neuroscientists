@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=40689" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/silicon-valley-entrepreneurs-insect-cricket-farming-food-agriculture" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37028" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11011" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/meteor-showers-dig-water-moon-nasa" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-measles-outbreaks-not-slowing-down-vaccines" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-microplastics-travel-far-wind" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/saturn-moon-titan-hydrocarbon-lakes" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=40689">
+	<title>For Better Science: Naughty dentists, or how UCLA hunts a whistleblower</title>
+	<link>https://forbetterscience.com/2019/05/02/naughty-dentists-or-how-ucla-hunts-a-whistleblower/</link>
+	<content:encoded>Dentistry professors at UCLA published manipulated data in top-level journals. When a colleague reported them, the university retaliated against the whistleblower.</content:encoded>
+	<dc:date>2019-05-02T12:32:26+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/silicon-valley-entrepreneurs-insect-cricket-farming-food-agriculture">
 	<title>Science News: Can Silicon Valley entrepreneurs make crickets the next chicken?</title>
 	<link>https://www.sciencenews.org/article/silicon-valley-entrepreneurs-insect-cricket-farming-food-agriculture</link>
@@ -1263,13 +1270,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Airborne bits of plastic that originated in cities ended up in pristine mountains at least 95 kilometers away, a study finds.</content:encoded>
 	<dc:date>2019-04-15T15:00:05+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/saturn-moon-titan-hydrocarbon-lakes">
-	<title>Science News: Saturn’s moon Titan sports phantom hydrocarbon lakes</title>
-	<link>https://www.sciencenews.org/article/saturn-moon-titan-hydrocarbon-lakes</link>
-	<content:encoded>Three lakes on Saturn’s moon Titan have pulled a vanishing act, a study finds.</content:encoded>
-	<dc:date>2019-04-15T15:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
