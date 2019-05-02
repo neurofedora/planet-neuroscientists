@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/pandas-eat-much-protein-carnivores-despite-their-bamboo-diet" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dinosaur-running-gait-reveals-insights-history-bird-flight" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/artificial-intelligence-art-monkey-neurons" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-virgo-made-5-likely-gravitational-wave-detections-month" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=40689" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/silicon-valley-entrepreneurs-insect-cricket-farming-food-agriculture" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37028" />
@@ -111,14 +115,38 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/newly-translated-cherokee-cave-writings-reveal-sacred-messages" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/people-stress-disorders-ptsd-are-higher-risk-heart-disease" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90373" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/cities-book-common-ground-between-ancient-modern-urban-life" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/meteor-showers-dig-water-moon-nasa" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-measles-outbreaks-not-slowing-down-vaccines" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-microplastics-travel-far-wind" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/pandas-eat-much-protein-carnivores-despite-their-bamboo-diet">
+	<title>Science News: Pandas eat as much protein as carnivores despite their bamboo diet</title>
+	<link>https://www.sciencenews.org/article/pandas-eat-much-protein-carnivores-despite-their-bamboo-diet</link>
+	<content:encoded>The panda gut digests protein in bamboo so well that the animal’s nutritional profile for calories resembles a wolf’s.</content:encoded>
+	<dc:date>2019-05-02T19:22:45+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/dinosaur-running-gait-reveals-insights-history-bird-flight">
+	<title>Science News: A dinosaur’s running gait may reveal insights into the history of bird flight</title>
+	<link>https://www.sciencenews.org/article/dinosaur-running-gait-reveals-insights-history-bird-flight</link>
+	<content:encoded>In what may have been a precursor to avian flight, a flightless winged dinosaur may have flapped its wings as it jogged.</content:encoded>
+	<dc:date>2019-05-02T18:11:53+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/artificial-intelligence-art-monkey-neurons">
+	<title>Science News: An AI used art to control monkeys’ brain cells</title>
+	<link>https://www.sciencenews.org/article/artificial-intelligence-art-monkey-neurons</link>
+	<content:encoded>Art created by an artificial intelligence exacts unprecedented control over nerve cells tied to vision in monkey brains, and could lead to new neuroscience experiments.</content:encoded>
+	<dc:date>2019-05-02T18:00:06+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/ligo-virgo-made-5-likely-gravitational-wave-detections-month">
+	<title>Science News: LIGO and Virgo made 5 likely gravitational wave detections in a month</title>
+	<link>https://www.sciencenews.org/article/ligo-virgo-made-5-likely-gravitational-wave-detections-month</link>
+	<content:encoded>It took decades to find the first gravitational wave event, and now they’re a weekly occurrence.</content:encoded>
+	<dc:date>2019-05-02T17:41:28+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://forbetterscience.com/?p=40689">
 	<title>For Better Science: Naughty dentists, or how UCLA hunts a whistleblower</title>
 	<link>https://forbetterscience.com/2019/05/02/naughty-dentists-or-how-ucla-hunts-a-whistleblower/</link>
@@ -1242,34 +1270,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>We often praise authors for doing the right thing by retracting with transparency. Here’s a journal that deserves recognition for its handling of a case of duplicate publication. Acta Dermatovenerologica Alpina, Pannonica et Adriatica (ADAPA), a European derm publication, has retracted a 2018 article in smack-down fashion, calling out a co-author for deceit. The paper … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/04/16/too-much-skin-in-the-game-derm-journal-calls-out-author-for-duplication/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Too much skin in the game: Derm journal calls out author for duplication&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-04-16T10:27:48+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/cities-book-common-ground-between-ancient-modern-urban-life">
-	<title>Science News: ‘Cities’ reveals common ground between ancient and modern urban life</title>
-	<link>https://www.sciencenews.org/article/cities-book-common-ground-between-ancient-modern-urban-life</link>
-	<content:encoded>In the book ‘Cities,’ archaeologist Monica Smith sees the positives in past and present metropolises.</content:encoded>
-	<dc:date>2019-04-16T09:00:04+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/meteor-showers-dig-water-moon-nasa">
-	<title>Science News: Meteor showers dig up water on the moon</title>
-	<link>https://www.sciencenews.org/article/meteor-showers-dig-water-moon-nasa</link>
-	<content:encoded>Meteorites release water from the moon’s soil, hinting that the moon has water buried all across its surface.</content:encoded>
-	<dc:date>2019-04-15T17:14:52+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/us-measles-outbreaks-not-slowing-down-vaccines">
-	<title>Science News: U.S. measles outbreaks show no signs of slowing down</title>
-	<link>https://www.sciencenews.org/article/us-measles-outbreaks-not-slowing-down-vaccines</link>
-	<content:encoded>This year’s measles cases have blown by 2018’s total, raising the specter that the disease could once more become endemic in the United States.</content:encoded>
-	<dc:date>2019-04-15T15:54:20+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/tiny-microplastics-travel-far-wind">
-	<title>Science News: Tiny microplastics travel far on the wind</title>
-	<link>https://www.sciencenews.org/article/tiny-microplastics-travel-far-wind</link>
-	<content:encoded>Airborne bits of plastic that originated in cities ended up in pristine mountains at least 95 kilometers away, a study finds.</content:encoded>
-	<dc:date>2019-04-15T15:00:05+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
