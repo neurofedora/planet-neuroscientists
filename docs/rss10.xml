@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/antimatter-quantum-theory-particle-wave-double-slit-experiment" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/award-winning-photographs-rarely-seen-wildlife-landscapes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/facebook-data-show-how-many-people-left-puerto-rico-after-hurricane-maria" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37038" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/statisticians-standard-measure-significance-p-values" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-can-we-work-together-to-open-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2014-meteor-another-solar-system-oumuamua" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/added-sugar-food-labels-heart-disease-diabetes" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/antimatter-quantum-theory-particle-wave-double-slit-experiment">
+	<title>Science News: Antimatter keeps with quantum theory. It’s both particle and wave</title>
+	<link>https://www.sciencenews.org/article/antimatter-quantum-theory-particle-wave-double-slit-experiment</link>
+	<content:encoded>A new variation of the classic double-slit experiment confirms that antimatter, like normal matter, has wave-particle duality.</content:encoded>
+	<dc:date>2019-05-03T18:00:06+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/award-winning-photographs-rarely-seen-wildlife-landscapes">
 	<title>Science News: These award-winning photographs capture rarely seen wildlife and landscapes</title>
 	<link>https://www.sciencenews.org/article/award-winning-photographs-rarely-seen-wildlife-landscapes</link>
@@ -1301,13 +1308,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Scientists have identified a possible interstellar meteor, and think it could be one of millions that have visited Earth over the planet’s history.</content:encoded>
 	<dc:date>2019-04-16T18:29:17+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/added-sugar-food-labels-heart-disease-diabetes">
-	<title>Science News: ‘Added sugar’ food labels may prevent heart disease and diabetes</title>
-	<link>https://www.sciencenews.org/article/added-sugar-food-labels-heart-disease-diabetes</link>
-	<content:encoded>Nutrition labeling changes that highlight sugar added to food or drink may have large benefits for public health, researchers say.</content:encoded>
-	<dc:date>2019-04-16T18:00:05+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
 </item>
 
 </rdf:RDF>
