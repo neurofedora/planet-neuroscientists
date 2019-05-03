@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/award-winning-photographs-rarely-seen-wildlife-landscapes" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/facebook-data-show-how-many-people-left-puerto-rico-after-hurricane-maria" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37038" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/pandas-eat-much-protein-carnivores-despite-their-bamboo-diet" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-can-we-work-together-to-open-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2014-meteor-another-solar-system-oumuamua" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/added-sugar-food-labels-heart-disease-diabetes" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/newly-translated-cherokee-cave-writings-reveal-sacred-messages" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/award-winning-photographs-rarely-seen-wildlife-landscapes">
+	<title>Science News: These award-winning photographs capture rarely seen wildlife and landscapes</title>
+	<link>https://www.sciencenews.org/article/award-winning-photographs-rarely-seen-wildlife-landscapes</link>
+	<content:encoded>Winners of the California Academy of Sciences’ annual photo contest dove deep underwater and hiked to great heights to create these striking images.</content:encoded>
+	<dc:date>2019-05-03T13:00:06+00:00</dc:date>
+	<dc:creator>Maanvi Singh</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/facebook-data-show-how-many-people-left-puerto-rico-after-hurricane-maria">
 	<title>Science News: Facebook data show how many people left Puerto Rico after Hurricane Maria</title>
 	<link>https://www.sciencenews.org/article/facebook-data-show-how-many-people-left-puerto-rico-after-hurricane-maria</link>
@@ -1301,13 +1308,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Nutrition labeling changes that highlight sugar added to food or drink may have large benefits for public health, researchers say.</content:encoded>
 	<dc:date>2019-04-16T18:00:05+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/newly-translated-cherokee-cave-writings-reveal-sacred-messages">
-	<title>Science News: Newly translated Cherokee cave writings reveal sacred messages</title>
-	<link>https://www.sciencenews.org/article/newly-translated-cherokee-cave-writings-reveal-sacred-messages</link>
-	<content:encoded>Cherokee inscriptions highlight the tribe’s rituals nearly 200 years ago in what’s now a tourist cave in Alabama.</content:encoded>
-	<dc:date>2019-04-16T13:00:05+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
