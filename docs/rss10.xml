@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ecologists-restore-war-wrecked-ecosystem-mozambique" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=91613" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/antimatter-quantum-theory-particle-wave-double-slit-experiment" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/award-winning-photographs-rarely-seen-wildlife-landscapes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-type-molecule-form-universe-has-been-seen-space" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/parenting-chores-cheating-black-coucal-bird-dads" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/statisticians-standard-measure-significance-p-values" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-can-we-work-together-to-open-science" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ecologists-restore-war-wrecked-ecosystem-mozambique">
+	<title>Science News: War wrecked an African ecosystem. Ecologists are trying to restore it</title>
+	<link>https://www.sciencenews.org/article/ecologists-restore-war-wrecked-ecosystem-mozambique</link>
+	<content:encoded>Bringing back big predators to Gorongosa, once a wildlife paradise in Mozambique, is just one piece of the puzzle in undoing the damage there.</content:encoded>
+	<dc:date>2019-05-05T12:00:04+00:00</dc:date>
+	<dc:creator>Jeremy Rehm</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=91613">
 	<title>Retraction watch: Weekend reads: The Trump administration gets something right about science; a journal refuses a metaphor; should journals use Nazi science?</title>
 	<link>http://retractionwatch.com/2019/05/04/weekend-reads-the-trump-administration-gets-something-right-about-science-a-journal-refuses-a-metaphor-should-journals-use-nazi-science/</link>
@@ -1302,12 +1309,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>For years, scientists have declared P values of less than 0.05 to be “statistically significant.” Now statisticians are saying the cutoff needs to go.</content:encoded>
 	<dc:date>2019-04-17T10:00:05+00:00</dc:date>
 	<dc:creator>Bethany Brookshire</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/how-can-we-work-together-to-open-science">
-	<title>Elsevier Connect: How can we work together to open science?</title>
-	<link>https://www.elsevier.com/connect/how-can-we-work-together-to-open-science</link>
-	<content:encoded>Research leaders from government, nonprofits and academia share their challenges and strategies</content:encoded>
-	<dc:date>2019-04-17T09:38:25+00:00</dc:date>
 </item>
 
 </rdf:RDF>
