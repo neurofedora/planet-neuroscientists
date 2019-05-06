@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/medical-student-evaluations-skewed-race-gender-biases" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=91675" />
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=40887" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ecologists-restore-war-wrecked-ecosystem-mozambique" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=91613" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/antimatter-quantum-theory-particle-wave-double-slit-experiment" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2474" />
 			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=11960" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dead-pig-brains-bathed-artificial-fluid-showed-signs-cellular-life" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-type-molecule-form-universe-has-been-seen-space" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/parenting-chores-cheating-black-coucal-bird-dads" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/statisticians-standard-measure-significance-p-values" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/medical-student-evaluations-skewed-race-gender-biases">
+	<title>Science News: Medical student evaluations appear riddled with racial and gender biases</title>
+	<link>https://www.sciencenews.org/article/medical-student-evaluations-skewed-race-gender-biases</link>
+	<content:encoded>Women and minorities are more frequently described by personality in medical student evaluations, but men are described by their skills, a study says.</content:encoded>
+	<dc:date>2019-05-06T11:00:06+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=91675">
+	<title>Retraction watch: Article retracted after critics say it has “racist ideological underpinnings”</title>
+	<link>http://retractionwatch.com/2019/05/06/article-retracted-after-critics-say-it-has-racist-ideological-underpinnings/</link>
+	<content:encoded>A psychology journal has retracted a controversial article about mental ability in South African women after a petition calling on the publication to withdraw the paper generated more than 5,000 signatures.   The paper, “Age- and education-related effects on cognitive functioning in Colored South African women,” was published in Aging, Neuropsychology, and Cognition in March. … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/05/06/article-retracted-after-critics-say-it-has-racist-ideological-underpinnings/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Article retracted after critics say it has “racist ideological underpinnings”&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-05-06T10:00:14+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
+<item rdf:about="http://forbetterscience.com/?p=40887">
+	<title>For Better Science: Open Access dystopia arrives at Karolinska</title>
+	<link>https://forbetterscience.com/2019/05/06/open-access-dystopia-arrives-at-karolinska/</link>
+	<content:encoded>A former Karolinska researcher is subject of research misconduct investigation, for forwarding to university OA publishing bills for her past research there. To save €3k, no trick is too dirty for Karolinska Institutet.</content:encoded>
+	<dc:date>2019-05-06T06:47:44+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/ecologists-restore-war-wrecked-ecosystem-mozambique">
 	<title>Science News: War wrecked an African ecosystem. Ecologists are trying to restore it</title>
 	<link>https://www.sciencenews.org/article/ecologists-restore-war-wrecked-ecosystem-mozambique</link>
@@ -1288,27 +1309,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<content:encoded>Four hours after pigs died, the animals’ brain cell activity was restored by a sophisticated artificial system.</content:encoded>
 	<dc:date>2019-04-17T17:15:53+00:00</dc:date>
 	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/first-type-molecule-form-universe-has-been-seen-space">
-	<title>Science News: The first type of molecule to form in the universe has been seen in space</title>
-	<link>https://www.sciencenews.org/article/first-type-molecule-form-universe-has-been-seen-space</link>
-	<content:encoded>The chemistry of the universe began with helium hydride. Scientists have just seen it in outer space for the first time.</content:encoded>
-	<dc:date>2019-04-17T17:00:04+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/parenting-chores-cheating-black-coucal-bird-dads">
-	<title>Science News: Parenting chores cut into how much these bird dads fool around</title>
-	<link>https://www.sciencenews.org/article/parenting-chores-cheating-black-coucal-bird-dads</link>
-	<content:encoded>Frantic parenting demands after eggs hatch curtail male black coucals’ philandering excursions the most, a study finds.</content:encoded>
-	<dc:date>2019-04-17T12:00:05+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/statisticians-standard-measure-significance-p-values">
-	<title>Science News: Statisticians want to abandon science’s standard measure of ‘significance’</title>
-	<link>https://www.sciencenews.org/article/statisticians-standard-measure-significance-p-values</link>
-	<content:encoded>For years, scientists have declared P values of less than 0.05 to be “statistically significant.” Now statisticians are saying the cutoff needs to go.</content:encoded>
-	<dc:date>2019-04-17T10:00:05+00:00</dc:date>
-	<dc:creator>Bethany Brookshire</dc:creator>
 </item>
 
 </rdf:RDF>
