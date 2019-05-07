@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/belly-full-wriggling-worms-makes-wood-beetles-better-recyclers" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=91754" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37062" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-pouch-reveals-hallucinogen-stash-andes-shaman" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/genetic-scorecard-could-predict-your-risk-being-obese" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-to-deal-with-the-growing-complexity-of-clinical-care-when-you-dont-know-what-you-dont-know" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/preventing-diagnostic-errors-by-uniting-the-clinical-laboratory-with-direct-patient-care" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/immigrants-pave-way-gentrification-black-neighborhoods" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/belly-full-wriggling-worms-makes-wood-beetles-better-recyclers">
+	<title>Science News: A belly full of wriggling worms makes wood beetles better recyclers</title>
+	<link>https://www.sciencenews.org/article/belly-full-wriggling-worms-makes-wood-beetles-better-recyclers</link>
+	<content:encoded>Common beetles that eat rotten logs chew up more wood when filled with a roundworm larvae, releasing nutrients more quickly back to the forest floor.</content:encoded>
+	<dc:date>2019-05-07T11:00:05+00:00</dc:date>
+	<dc:creator>Kathleen O'Neil</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=91754">
 	<title>Retraction watch: Authors’ remorse: Researchers retract paper so they can publish it in a journal with a higher impact factor</title>
 	<link>http://retractionwatch.com/2019/05/07/authors-remorse-researchers-retract-paper-so-they-can-publish-it-in-a-journal-with-a-higher-impact-factor/</link>
@@ -1124,13 +1131,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<link>https://www.elsevier.com/connect/preventing-diagnostic-errors-by-uniting-the-clinical-laboratory-with-direct-patient-care</link>
 	<content:encoded>Doctoral programs are preparing experts to lead diagnostic management teams at hospitals, with promising early results</content:encoded>
 	<dc:date>2019-04-18T13:31:40+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/immigrants-pave-way-gentrification-black-neighborhoods">
-	<title>Science News: Immigrants pave the way for the gentrification of black neighborhoods</title>
-	<link>https://www.sciencenews.org/article/immigrants-pave-way-gentrification-black-neighborhoods</link>
-	<content:encoded>A study using U.S. census data shows primarily Asian and Hispanic immigrants may trigger gentrification in U.S. neighborhoods.</content:encoded>
-	<dc:date>2019-04-18T12:00:06+00:00</dc:date>
-	<dc:creator>Sujata Gupta</dc:creator>
 </item>
 
 </rdf:RDF>
