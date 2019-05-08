@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dying-stars-called-collapsars-may-forge-much-universe-gold" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-near-earth-kilonova-would-look-like" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=91950" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37077" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/obscure-sexually-transmitted-parasite-immune-system-microbes" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36954" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90705" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/mercury-has-massive-solid-inner-core" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/dying-stars-called-collapsars-may-forge-much-universe-gold">
+	<title>Science News: Dying stars called collapsars may forge much of the universe’s gold</title>
+	<link>https://www.sciencenews.org/article/dying-stars-called-collapsars-may-forge-much-universe-gold</link>
+	<content:encoded>Spinning stars that collapse into black holes could help explain the origins of heavy elements such as gold and silver.</content:encoded>
+	<dc:date>2019-05-08T17:02:15+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/what-near-earth-kilonova-would-look-like">
 	<title>Science News: What a nearby kilonova would look like</title>
 	<link>https://www.sciencenews.org/article/what-near-earth-kilonova-would-look-like</link>
@@ -1223,13 +1230,6 @@ Ella Rhodes, journalist for &lt;em&gt;The Psychologist&lt;/em&gt; magazine, delv
 	<content:encoded>According to the internet, Bear Grylls, the TV survivalist, said he “was always brought up to have a cup of tea at halfway up a rock face.” Which sounds too cute to be true and, given Grylls’ history of, um, buffing the hard edges of reality, almost certainly isn’t. But Grylls appears to be far … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/04/22/maybe-combining-red-wine-and-tea-doesnt-kill-tumors-after-all/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Maybe combining red wine and tea doesn’t kill tumors after all&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-04-22T16:38:21+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/mercury-has-massive-solid-inner-core">
-	<title>Science News: Mercury has a massive solid inner core</title>
-	<link>https://www.sciencenews.org/article/mercury-has-massive-solid-inner-core</link>
-	<content:encoded>The distribution of Mercury’s mass and small stutters in the planet’s spin suggest it has a giant solid inner core.</content:encoded>
-	<dc:date>2019-04-22T13:58:29+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
