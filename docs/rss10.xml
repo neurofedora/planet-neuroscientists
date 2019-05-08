@@ -15,7 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/what-near-earth-kilonova-would-look-like" />
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=91950" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37077" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/datasets-are-an-important-output-in-their-own-right-how-openaire-eurocris-and-elsevier-are-stimulating-open-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/1-million-species-under-threat-humans-speed-extinction" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=40975" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37074" />
@@ -112,13 +115,24 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36954" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=90705" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mercury-has-massive-solid-inner-core" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-sculptures-guatemala-magnetic-rocks-struck-lightning" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/m87-black-hole-image-best-mass-estimates-star-motion" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/when-anxiety-happens-early-preschool-treatments-can-help" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/what-near-earth-kilonova-would-look-like">
+	<title>Science News: What a nearby kilonova would look like</title>
+	<link>https://www.sciencenews.org/article/what-near-earth-kilonova-would-look-like</link>
+	<content:encoded>Physicists imagined what we’d see in the sky if two neutron stars collided just 1,000 light-years from Earth.</content:encoded>
+	<dc:date>2019-05-08T13:16:14+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="http://retractionwatch.com/?p=91950">
+	<title>Retraction watch: How often do authors with retractions for misconduct continue to publish?</title>
+	<link>http://retractionwatch.com/2019/05/08/how-often-do-authors-with-retractions-for-misconduct-continue-to-publish/</link>
+	<content:encoded>How does retraction change publishing behavior? Mark Bolland and Andrew Grey, who were two members of a team whose work led to dozens of retractions for Yoshihiro Sato, now third on the Retraction Watch leaderboard, joined forces with Vyoma Mistry to find out. We asked Bolland to answer several questions about the new University of … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/05/08/how-often-do-authors-with-retractions-for-misconduct-continue-to-publish/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;How often do authors with retractions for misconduct continue to publish?&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-05-08T11:39:28+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=37077">
 	<title>The British Psychological Society - Research Digest: Exploratory Research Identifies A Novel Way To Beat Anxiety – Zapping The Vestibular System</title>
 	<link>https://digest.bps.org.uk/2019/05/08/exploratory-research-identifies-a-novel-way-to-beat-anxiety-zapping-the-vestibular-system/</link>
@@ -136,6 +150,12 @@
 &lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-05-08T10:47:39+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/datasets-are-an-important-output-in-their-own-right-how-openaire-eurocris-and-elsevier-are-stimulating-open-science">
+	<title>Elsevier Connect: “Datasets are an important output in their own right”: How OpenAIRE, euroCRIS and Elsevier are stimulating open science</title>
+	<link>https://www.elsevier.com/connect/datasets-are-an-important-output-in-their-own-right-how-openaire-eurocris-and-elsevier-are-stimulating-open-science</link>
+	<content:encoded>An increased metadata exchange between Elsevier's research solutions and OpenAIRE will make datasets more available and reusable</content:encoded>
+	<dc:date>2019-05-08T10:16:34+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/1-million-species-under-threat-humans-speed-extinction">
 	<title>Science News: 1 million species are under threat. Here are 5 ways we speed up extinctions</title>
@@ -1210,27 +1230,6 @@ Ella Rhodes, journalist for &lt;em&gt;The Psychologist&lt;/em&gt; magazine, delv
 	<content:encoded>The distribution of Mercury’s mass and small stutters in the planet’s spin suggest it has a giant solid inner core.</content:encoded>
 	<dc:date>2019-04-22T13:58:29+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/ancient-sculptures-guatemala-magnetic-rocks-struck-lightning">
-	<title>Science News: Ancient sculptors made magnetic figures from rocks struck by lightning</title>
-	<link>https://www.sciencenews.org/article/ancient-sculptures-guatemala-magnetic-rocks-struck-lightning</link>
-	<content:encoded>Carved ‘potbelly’ stone sculptures suggest people in what’s now Guatemala knew about magnetism more than 2,000 years ago.</content:encoded>
-	<dc:date>2019-04-22T12:00:04+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/m87-black-hole-image-best-mass-estimates-star-motion">
-	<title>Science News: The M87 black hole image showed the best way to measure black hole masses</title>
-	<link>https://www.sciencenews.org/article/m87-black-hole-image-best-mass-estimates-star-motion</link>
-	<content:encoded>The first image of M87’s black hole suggests it is 6.5 billion times the mass of the sun — close to what was expected based on how stars move around it.</content:encoded>
-	<dc:date>2019-04-22T10:00:05+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/when-anxiety-happens-early-preschool-treatments-can-help">
-	<title>Science News: When anxiety happens as early as preschool, treatments can help</title>
-	<link>https://www.sciencenews.org/article/when-anxiety-happens-early-preschool-treatments-can-help</link>
-	<content:encoded>Researchers are seeking ways to break the link between preschool worries and adult anxiety.</content:encoded>
-	<dc:date>2019-04-21T10:00:05+00:00</dc:date>
-	<dc:creator>Sujata Gupta</dc:creator>
 </item>
 
 </rdf:RDF>
