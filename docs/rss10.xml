@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-south-american-populations-dipped-due-erratic-climate" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37096" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=92015" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-scientists-tried-transplant-part-human-eye" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=40183" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/elegant-defense-book-explores-immune-system" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/seeing-very-far-away-and-hitting-closer-home" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=90742" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ancient-south-american-populations-dipped-due-erratic-climate">
+	<title>Science News: Ancient South American populations dipped due to an erratic climate</title>
+	<link>https://www.sciencenews.org/article/ancient-south-american-populations-dipped-due-erratic-climate</link>
+	<content:encoded>Scientists link bouts of intense rainfall and drought around 8,600 to 6,000 years ago to declining numbers of South American hunter-gatherers.</content:encoded>
+	<dc:date>2019-05-09T17:17:52+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=37096">
 	<title>The British Psychological Society - Research Digest: First Study To Investigate How Attachment Style Changes Through Multiple Decades Of Life</title>
 	<link>https://digest.bps.org.uk/2019/05/09/first-study-to-investigate-how-attachment-style-changes-through-multiple-decades-of-life/</link>
@@ -1219,13 +1226,6 @@ Ella Rhodes, journalist for &lt;em&gt;The Psychologist&lt;/em&gt; magazine, delv
 	<content:encoded>Editor in Chief Nancy Shute discusses the first-ever image of a black hole and what can be done to help young children with anxiety.</content:encoded>
 	<dc:date>2019-04-23T10:30:00+00:00</dc:date>
 	<dc:creator>Nancy Shute</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=90742">
-	<title>Retraction watch: “A new form of plagiarism:” When researchers fake co-authors’ names</title>
-	<link>http://retractionwatch.com/2019/04/23/a-new-form-of-plagiarism-when-researcher-fake-co-authors-names/</link>
-	<content:encoded>There’s a new publishing trend in town, says Mario Biagioli: Faking co-authors’ names. Biagioli, distinguished professor of law and science and technology studies and director of the Center for Innovation Studies at the University of California, Davis, writes in an article in Trends in Chemistry that it’s “the emergence of a new form of plagiarism … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/04/23/a-new-form-of-plagiarism-when-researcher-fake-co-authors-names/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;“A new form of plagiarism:” When researchers fake co-authors’ names&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-04-23T10:26:58+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
