@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/deep-sea-fish-eye-chemistry-might-let-them-see-colors-near-dark" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/only-third-longest-rivers-run-free-earth" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=91843" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37106" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/iconic-fossils-some-worlds-top-cambrian-sites" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=36960" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-mars-insight-lander-first-recording-marsquake" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/medicaid-expansion-health-gaps-black-white-babies" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/deep-sea-fish-eye-chemistry-might-let-them-see-colors-near-dark">
+	<title>Science News: Deep-sea fishes’ eye chemistry might let them see colors in near darkness</title>
+	<link>https://www.sciencenews.org/article/deep-sea-fish-eye-chemistry-might-let-them-see-colors-near-dark</link>
+	<content:encoded>An unexpected abundance of proteins for catching dim light evolved independently in three groups of weird deep-sea fishes.</content:encoded>
+	<dc:date>2019-05-10T19:02:31+00:00</dc:date>
+	<dc:creator>Susan Milius</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/only-third-longest-rivers-run-free-earth">
 	<title>Science News: Only a third of Earth’s longest rivers still run free</title>
 	<link>https://www.sciencenews.org/article/only-third-longest-rivers-run-free-earth</link>
@@ -1232,13 +1239,6 @@ Ella Rhodes, journalist for &lt;em&gt;The Psychologist&lt;/em&gt; magazine, delv
 	<content:encoded>NASA’s InSight mission appears to have detected a Marsquake for the first time.</content:encoded>
 	<dc:date>2019-04-23T21:59:28+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/medicaid-expansion-health-gaps-black-white-babies">
-	<title>Science News: Medicaid expansion may help shrink health gaps between black and white babies</title>
-	<link>https://www.sciencenews.org/article/medicaid-expansion-health-gaps-black-white-babies</link>
-	<content:encoded>States that expanded Medicaid as part of the Affordable Care Act shrunk racial disparities between black and white infants, a new study shows.</content:encoded>
-	<dc:date>2019-04-23T15:05:12+00:00</dc:date>
-	<dc:creator>Sujata Gupta</dc:creator>
 </item>
 
 </rdf:RDF>
