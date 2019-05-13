@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/apollo-era-moonquakes-reveal-moon-may-be-tectonically-active" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-ai-acquired-humanlike-number-sense-its-own" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=92034" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37124" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=92258" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=10975" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-measles-cases-record-high-disease-eliminated-2000" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/marine-parasite-mitochondria-no-dna-energy" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/hunter-gatherers-lived-amazon-early-farming" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/slowest-radioactive-decay-atom-ever-spotted" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/apollo-era-moonquakes-reveal-moon-may-be-tectonically-active">
+	<title>Science News: Apollo-era moonquakes reveal that the moon may be tectonically active</title>
+	<link>https://www.sciencenews.org/article/apollo-era-moonquakes-reveal-moon-may-be-tectonically-active</link>
+	<content:encoded>Moonquakes recorded during the Apollo landings suggest the moon is still tectonically active. Knowing more about that activity could help scientists identify where — and where not — to land future spacecraft.</content:encoded>
+	<dc:date>2019-05-13T15:00:05+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/new-ai-acquired-humanlike-number-sense-its-own">
+	<title>Science News: A new AI acquired humanlike ‘number sense’ on its own</title>
+	<link>https://www.sciencenews.org/article/new-ai-acquired-humanlike-number-sense-its-own</link>
+	<content:encoded>A new artificial intelligence seems to share our intuitive ability to estimate numbers at a glance.</content:encoded>
+	<dc:date>2019-05-13T11:00:05+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=92034">
 	<title>Retraction watch: Just how common is positive publication bias? Here’s one researcher who’s trying to figure that out</title>
 	<link>http://retractionwatch.com/2019/05/13/just-how-common-is-positive-publication-bias-heres-one-researcher-whos-trying-to-figure-that-out/</link>
@@ -1226,20 +1240,6 @@ Ella Rhodes, journalist for &lt;em&gt;The Psychologist&lt;/em&gt; magazine, delv
 	<content:encoded>Missing mitochondrial DNA inside a parasitic marine microbe turned up inside the organism’s nucleus.</content:encoded>
 	<dc:date>2019-04-24T18:52:29+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/hunter-gatherers-lived-amazon-early-farming">
-	<title>Science News: Excavations show hunter-gatherers lived in the Amazon more than 10,000 years ago</title>
-	<link>https://www.sciencenews.org/article/hunter-gatherers-lived-amazon-early-farming</link>
-	<content:encoded>Early foragers may have laid the foundation for farming’s ascent in South America’s tropical forests.</content:encoded>
-	<dc:date>2019-04-24T18:00:04+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/slowest-radioactive-decay-atom-ever-spotted">
-	<title>Science News: This is the slowest radioactive decay ever spotted</title>
-	<link>https://www.sciencenews.org/article/slowest-radioactive-decay-atom-ever-spotted</link>
-	<content:encoded>Scientists have made the first direct observations of an exotic type of radioactive decay called two-neutrino double electron capture.</content:encoded>
-	<dc:date>2019-04-24T17:00:06+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
