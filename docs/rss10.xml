@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/peacock-spiders-superblack-spots-reflect-just-05-percent-light" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ai-learns-playing-video-games-starcraft-minecraft" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tweaking-one-gene-crispr-switched-way-snail-shell-spirals" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=92576" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/4-reasons-to-publish-software-articles-even-if-youre-not-a-computer-scientist" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/meet-the-research-team-transforming-lives-through-renewable-energy-technologies" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-scientists-fought-over-element-104-discovery" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=90805" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/peacock-spiders-superblack-spots-reflect-just-05-percent-light">
+	<title>Science News: Peacock spiders’ superblack spots reflect just 0.5 percent of light</title>
+	<link>https://www.sciencenews.org/article/peacock-spiders-superblack-spots-reflect-just-05-percent-light</link>
+	<content:encoded>By manipulating light with tiny structures, patches on peacock spiders appear superblack, helping accentuate the arachnids’ bright colors.</content:encoded>
+	<dc:date>2019-05-14T23:05:01+00:00</dc:date>
+	<dc:creator>Carolyn Wilke</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/ai-learns-playing-video-games-starcraft-minecraft">
 	<title>Science News: AI can learn real-world skills from playing StarCraft and Minecraft</title>
 	<link>https://www.sciencenews.org/article/ai-learns-playing-video-games-starcraft-minecraft</link>
@@ -1200,13 +1207,6 @@ Ella Rhodes, journalist for &lt;em&gt;The Psychologist&lt;/em&gt; magazine, delv
 	<content:encoded>A conflict known as the Transfermium Wars marked a contentious struggle over the search for new elements beginning in the 1960s.</content:encoded>
 	<dc:date>2019-04-25T11:00:06+00:00</dc:date>
 	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=90805">
-	<title>Retraction watch: How one journal became a “major retraction engine”</title>
-	<link>http://retractionwatch.com/2019/04/25/how-one-journal-became-a-major-retraction-engine/</link>
-	<content:encoded>If you think you’ve noticed more and more retractions at PLoS ONE recently, you’re not wrong. The journal retracted 53 papers last year. That’s not a record — that belongs to a journal that retracted more than 400 papers at once — nor is it that many more than the Journal of Biological Chemistry, which … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/04/25/how-one-journal-became-a-major-retraction-engine/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;How one journal became a “major retraction engine”&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-04-25T10:00:23+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
