@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/top-10-metrology-landmarks-history-making-measurements" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/kilogram-just-got-revamp-unit-time-might-be-next" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=93565" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/early-sauropod-went-walking-four-legs-two-it-grew" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37150" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/water-found-dust-itokawa-asteroid-thought-be-bone-dry" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/jawbone-shows-denisovans-lived-tibetan-plateau-long-humans" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37011" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=91385" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/scientists-trace-uranium-cube-nazi-germany-nuclear-reactor-program" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/context/top-10-metrology-landmarks-history-making-measurements">
+	<title>Science News: These are the top 10 landmarks in the history of making measurements</title>
+	<link>https://www.sciencenews.org/blog/context/top-10-metrology-landmarks-history-making-measurements</link>
+	<content:encoded>Little appreciated but vastly important, metrology celebrates a long history with the adoption of new definitions for key units.</content:encoded>
+	<dc:date>2019-05-20T13:00:05+00:00</dc:date>
+	<dc:creator>Tom Siegfried</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/kilogram-just-got-revamp-unit-time-might-be-next">
+	<title>Science News: The kilogram just got a revamp. A unit of time might be next</title>
+	<link>https://www.sciencenews.org/article/kilogram-just-got-revamp-unit-time-might-be-next</link>
+	<content:encoded>After years of preparation, new definitions for the basic units of mass, temperature and more have now gone into effect.</content:encoded>
+	<dc:date>2019-05-20T11:00:05+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=93565">
 	<title>Retraction watch: A university requested retractions of eight papers. It took journals a year to yank four of them.</title>
 	<link>http://retractionwatch.com/2019/05/20/a-university-requested-retractions-of-eight-papers-it-took-journals-a-year-to-yank-four-of-them/</link>
@@ -1241,20 +1255,6 @@ Ella Rhodes, journalist for &lt;em&gt;The Psychologist&lt;/em&gt; magazine, delv
 &lt;b&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-05-01T12:26:11+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=91385">
-	<title>Retraction watch: Compression plagiarism: An “under-recognized variety” that software will miss</title>
-	<link>http://retractionwatch.com/2019/05/01/compression-plagiarism-an-under-recognized-variety-that-software-will-miss/</link>
-	<content:encoded>If you’re interested in plagiarism in the scholarly literature nowadays, you’ve probably come across the name Michael Dougherty. Dougherty’s efforts to root out plagiarism has led to dozens of retractions, including several by a prominent priest. In a new paper in Argumentation, Dougherty, author of the recent book Correcting the Scholarly Record for Research Integrity: … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/05/01/compression-plagiarism-an-under-recognized-variety-that-software-will-miss/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Compression plagiarism: An “under-recognized variety” that software will miss&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-05-01T10:00:19+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/scientists-trace-uranium-cube-nazi-germany-nuclear-reactor-program">
-	<title>Science News: How scientists traced a uranium cube to Nazi Germany’s nuclear reactor program</title>
-	<link>https://www.sciencenews.org/article/scientists-trace-uranium-cube-nazi-germany-nuclear-reactor-program</link>
-	<content:encoded>New research suggests that the Nazis had enough uranium to make a working nuclear reactor.</content:encoded>
-	<dc:date>2019-05-01T07:00:06+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
