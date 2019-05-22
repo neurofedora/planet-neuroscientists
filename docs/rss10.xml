@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/faulty-cellular-antennae-may-cause-heart-valve-disorder" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/emissions-banned-ozone-destroying-chemical-have-been-traced-china" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8562" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cognitive-neuroscientist-warns-us-justice-system-harms-teen-brains" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/some-plants-use-hairy-roots-acid-access-nutrients-rock" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-pouch-reveals-hallucinogen-stash-andes-shaman" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-virgo-searching-sources-gravitational-waves" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/medical-student-evaluations-skewed-race-gender-biases" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=91675" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=40887" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/faulty-cellular-antennae-may-cause-heart-valve-disorder">
+	<title>Science News: Faulty cellular antennae may cause a heart valve disorder</title>
+	<link>https://www.sciencenews.org/article/faulty-cellular-antennae-may-cause-heart-valve-disorder</link>
+	<content:encoded>Mitral valve prolapse might be caused by dysfunctional primary cilia meant to signal cells during development.</content:encoded>
+	<dc:date>2019-05-22T18:00:04+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/emissions-banned-ozone-destroying-chemical-have-been-traced-china">
+	<title>Science News: Emissions of a banned ozone-destroying chemical have been traced to China</title>
+	<link>https://www.sciencenews.org/article/emissions-banned-ozone-destroying-chemical-have-been-traced-china</link>
+	<content:encoded>Since 2013, eastern China has increased its annual emissions of a banned chlorofluorocarbon by about 7,000 metric tons, a study finds.</content:encoded>
+	<dc:date>2019-05-22T17:00:05+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://blogs.plos.org/plos/?p=8562">
 	<title>The Official PLOS Blog: PLOS Journals Now OPEN for Published Peer Review</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/8cOKqikbOOA/</link>
@@ -1249,20 +1263,6 @@ The authors go on to note that even though &quot;the brain imaging took place de
 	<content:encoded>Women and minorities are more frequently described by personality in medical student evaluations, but men are described by their skills, a study says.</content:encoded>
 	<dc:date>2019-05-06T11:00:06+00:00</dc:date>
 	<dc:creator>Bethany Brookshire</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=91675">
-	<title>Retraction watch: Article retracted after critics say it has “racist ideological underpinnings”</title>
-	<link>http://retractionwatch.com/2019/05/06/article-retracted-after-critics-say-it-has-racist-ideological-underpinnings/</link>
-	<content:encoded>A psychology journal has retracted a controversial article about mental ability in South African women after a petition calling on the publication to withdraw the paper generated more than 5,000 signatures.   The paper, “Age- and education-related effects on cognitive functioning in Colored South African women,” was published in Aging, Neuropsychology, and Cognition in March. … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/05/06/article-retracted-after-critics-say-it-has-racist-ideological-underpinnings/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Article retracted after critics say it has “racist ideological underpinnings”&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-05-06T10:00:14+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=40887">
-	<title>For Better Science: Open Access dystopia arrives at Karolinska</title>
-	<link>https://forbetterscience.com/2019/05/06/open-access-dystopia-arrives-at-karolinska/</link>
-	<content:encoded>A former Karolinska researcher is subject of research misconduct investigation, for forwarding to university OA publishing bills for her past research there. To save €3k, no trick is too dirty for Karolinska Institutet.</content:encoded>
-	<dc:date>2019-05-06T06:47:44+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
