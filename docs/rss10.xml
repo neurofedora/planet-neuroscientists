@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/mathematicians-progress-riemann-hypothesis-proof" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/being-bilingual-may-not-boost-some-brain-functions" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=95086" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37207" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37077" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/datasets-are-an-important-output-in-their-own-right-how-openaire-eurocris-and-elsevier-are-stimulating-open-science" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/1-million-species-under-threat-humans-speed-extinction" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=40975" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/mathematicians-progress-riemann-hypothesis-proof">
+	<title>Science News: Mathematicians report possible progress on proving the Riemann hypothesis</title>
+	<link>https://www.sciencenews.org/article/mathematicians-progress-riemann-hypothesis-proof</link>
+	<content:encoded>A new study advances one strategy in the quest to solve the notoriously difficult problem, which is still stumping researchers after 160 years.</content:encoded>
+	<dc:date>2019-05-24T16:03:08+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/being-bilingual-may-not-boost-some-brain-functions">
 	<title>Science News: Being bilingual is great. But it may not boost some brain functions</title>
 	<link>https://www.sciencenews.org/article/being-bilingual-may-not-boost-some-brain-functions</link>
@@ -1259,13 +1266,6 @@ The authors go on to note that even though &quot;the brain imaging took place de
 	<content:encoded>One million of the world’s plant and animal species are now under threat of extinction, a new report finds.</content:encoded>
 	<dc:date>2019-05-08T10:00:04+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=40975">
-	<title>For Better Science: Fraud Simple</title>
-	<link>https://forbetterscience.com/2019/05/08/fraud-simple/</link>
-	<content:encoded>US cancer research professors Paul B Fisher, Paul Dent and Stephen Grant look like the characters of a Joel and Ethan Coen crime movie, unfortunately never filmed. Smut Clyde will give you a peek into their spree of data manipulation</content:encoded>
-	<dc:date>2019-05-08T09:59:11+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
