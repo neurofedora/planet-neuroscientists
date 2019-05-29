@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-million-year-old-fossil-captures-swimming-school-fish" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=96601" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/one-number-can-help-explain-why-measles-so-contagious" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-are-the-potential-harms-and-benefits-of-e-cigarettes" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/celebrating-scientists-who-ask-big-questions" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-were-curious-about-green-icebergs-aliens-and-more" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9914" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/deep-sea-fish-eye-chemistry-might-let-them-see-colors-near-dark" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/50-million-year-old-fossil-captures-swimming-school-fish">
+	<title>Science News: A 50-million-year-old fossil captures a swimming school of fish</title>
+	<link>https://www.sciencenews.org/article/50-million-year-old-fossil-captures-swimming-school-fish</link>
+	<content:encoded>Analysis of a fossilized fish shoal suggests that animals may have evolved coordinated group movement around 50 million year ago.</content:encoded>
+	<dc:date>2019-05-28T23:05:02+00:00</dc:date>
+	<dc:creator>Carolyn Wilke</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=96601">
 	<title>Retraction watch: CrossFit demands retraction of paper claiming their participants are more likely to be injured</title>
 	<link>http://retractionwatch.com/2019/05/28/crossfit-demands-retraction-of-paper-claiming-their-participants-are-more-likely-to-be-injured/</link>
@@ -1309,13 +1316,6 @@ May begins the paper by discussing conversion di</content:encoded>
 A dramatic primary association of brain resting-state network (RSN) connectivity abnormalities with a history of childhood trauma in major depressive disorder (MDD).
 The authors go on to note that even though &quot;the brain imaging took place decades after trauma</content:encoded>
 	<dc:date>2019-05-11T10:42:47+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/deep-sea-fish-eye-chemistry-might-let-them-see-colors-near-dark">
-	<title>Science News: Deep-sea fishes’ eye chemistry might let them see colors in near darkness</title>
-	<link>https://www.sciencenews.org/article/deep-sea-fish-eye-chemistry-might-let-them-see-colors-near-dark</link>
-	<content:encoded>An unexpected abundance of proteins for catching dim light evolved independently in three groups of weird deep-sea fishes.</content:encoded>
-	<dc:date>2019-05-10T19:02:31+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
