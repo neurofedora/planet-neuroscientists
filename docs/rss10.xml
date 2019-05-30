@@ -15,7 +15,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/watch-oldest-surviving-film-total-solar-eclipse" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/fungus-weaponized-spider-toxin-can-kill-malaria-mosquitoes" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/africa-ancient-herders-spread-pastoralism-mating-foragers" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2500" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/3-ways-to-see-the-bigger-picture-in-radiology-and-be-a-part-of-it" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37241" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/vaping-sweetener-sucralose-may-produce-toxic-chemicals" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=97135" />
@@ -111,14 +115,31 @@
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8555" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/china-lunar-rover-may-have-found-minerals-moon-mantle" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/everyone-agrees-your-method-is-not-going-to-work-william-borucki-on-the-power-of-resolve-in-nasas-kepler-mission" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=92688" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37137" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/peacock-spiders-superblack-spots-reflect-just-05-percent-light" />
-			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-05-14:/2019/05/14/revisiting-a-theory-of-cerebellar-cortex.html" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/watch-oldest-surviving-film-total-solar-eclipse">
+	<title>Science News: Watch the oldest surviving film of a total solar eclipse</title>
+	<link>https://www.sciencenews.org/article/watch-oldest-surviving-film-total-solar-eclipse</link>
+	<content:encoded>A short film of the 1900 total solar eclipse was restored by conservation experts and is now available to view online.</content:encoded>
+	<dc:date>2019-05-30T21:03:03+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/fungus-weaponized-spider-toxin-can-kill-malaria-mosquitoes">
+	<title>Science News: A fungus weaponized with a spider toxin can kill malaria mosquitoes</title>
+	<link>https://www.sciencenews.org/article/fungus-weaponized-spider-toxin-can-kill-malaria-mosquitoes</link>
+	<content:encoded>In controlled field experiments in Burkina Faso, a genetically engineered fungus reduced numbers of insecticide-resistant mosquitoes that can carry malaria.</content:encoded>
+	<dc:date>2019-05-30T18:00:04+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/africa-ancient-herders-spread-pastoralism-mating-foragers">
+	<title>Science News: Africa’s first herders spread pastoralism by mating with foragers</title>
+	<link>https://www.sciencenews.org/article/africa-ancient-herders-spread-pastoralism-mating-foragers</link>
+	<content:encoded>DNA unveils long-ago hookups between early pastoralists and native hunter-gatherers in Africa.</content:encoded>
+	<dc:date>2019-05-30T18:00:04+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://blog.scienceexchange.com/?p=2500">
 	<title>The Science Exchange Blog: Providers: How can I manage milestones and upfront payments?</title>
 	<link>https://blog.scienceexchange.com/2019/05/providers-how-can-i-manage-milestones-and-upfront-payments/</link>
@@ -241,6 +262,12 @@
 		&lt;/div&gt;</content:encoded>
 	<dc:date>2019-05-30T16:27:36+00:00</dc:date>
 	<dc:creator>Science Exchange Team</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/3-ways-to-see-the-bigger-picture-in-radiology-and-be-a-part-of-it">
+	<title>Elsevier Connect: 3 ways to see the bigger picture in radiology – and be a part of it</title>
+	<link>https://www.elsevier.com/connect/3-ways-to-see-the-bigger-picture-in-radiology-and-be-a-part-of-it</link>
+	<content:encoded>Experts give their best advice to succeeding in the evermore challenging world of radiology</content:encoded>
+	<dc:date>2019-05-30T13:50:41+00:00</dc:date>
 </item>
 <item rdf:about="http://digest.bps.org.uk/?p=37241">
 	<title>The British Psychological Society - Research Digest: The Dissatisfaction of Being Sexually Rejected By A Partner Lasts Longer Than The Pleasure Of Having An Advance Accepted</title>
@@ -1424,52 +1451,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<link>https://www.elsevier.com/connect/everyone-agrees-your-method-is-not-going-to-work-william-borucki-on-the-power-of-resolve-in-nasas-kepler-mission</link>
 	<content:encoded>The primary investigator of NASA’s historic Kepler mission talks data, algorithms and determination</content:encoded>
 	<dc:date>2019-05-15T14:36:44+00:00</dc:date>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=92688">
-	<title>Retraction watch: Study of autism and vitamin D earns retraction after questions about reliability</title>
-	<link>http://retractionwatch.com/2019/05/15/study-of-autism-and-vitamin-d-earns-retraction-after-questions-about-reliability/</link>
-	<content:encoded>A pediatrics journal has retracted a 2016 article purporting to be the first randomized controlled trial on the effects of vitamin D supplements on autism over concerns about the reliability of the findings. The paper, “Randomized controlled trial of vitamin D supplementation in children with autism spectrum disorder,” appeared in the Journal of Child Psychology … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/05/15/study-of-autism-and-vitamin-d-earns-retraction-after-questions-about-reliability/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Study of autism and vitamin D earns retraction after questions about reliability&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-05-15T10:00:15+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=37137">
-	<title>The British Psychological Society - Research Digest: An Exciting New Approach To Personality Testing Involves Psychologists Analysing Your Decisions In Game Scenarios</title>
-	<link>https://digest.bps.org.uk/2019/05/15/an-exciting-new-approach-to-personality-testing-involves-psychologists-analysing-your-decisions-in-game-scenarios/</link>
-	<content:encoded>&lt;p&gt;&lt;img alt=&quot;GettyImages-908974278.jpg&quot; class=&quot;alignnone size-full wp-image-37140&quot; data-attachment-id=&quot;37140&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Business concept vector illustration of an optimistic businessman holding a sword and shield standing on top of a mountain,  preparation, protection, precaution in business concept&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;I Came I Saw I Conquered&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;I Came I Saw I Conquered&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/05/gettyimages-908974278.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/05/gettyimages-908974278.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/05/gettyimages-908974278.jpg&quot; data-orig-size=&quot;2059,1456&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/05/15/an-exciting-new-approach-to-personality-testing-involves-psychologists-analysing-your-decisions-in-game-scenarios/i-came-i-saw-i-conquered/&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/05/gettyimages-908974278.jpg?w=845&quot; /&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;http://www.christianjarrett.com/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;You’ve been transported deep beneath the earth into a labyrinth of tunnels. You have a sword and a communications device, and your objective is to return to the surface. A figure appears in the dark ahead of you. Do you: (a) Use your communication device to say hello; (b) Formulate a contingency plan for escape and then approach the figure; or (c) Pause a moment to try to read its body language before stepping forward to approach the figure? &lt;/em&gt;[to interpret your preference, see end of post]&lt;/p&gt;
-&lt;p&gt;Personality traits are traits are traditionally assessed by asking people to rate how much various descriptive statements match their own personality, like “I enjoy talking to strangers”. This cheap and easy approach has enjoyed great success – people’s scores on such tests tend to be impressively consistent over time, and they predict important outcomes from health to career success. However, the questionnaires are far from perfect. Research volunteers might not properly engage out of boredom, for instance. Job candidates might deliberately fake their scores to give a favourable impression.&lt;/p&gt;
-&lt;p&gt;An exciting possibility for overcoming these issues, according to a &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0191886919301266?dgcid=raven_sd_via_email&quot;&gt;new paper&lt;/a&gt; in &lt;em&gt;Personality and Individual Differences&lt;/em&gt; is to use a “gamification” approach – present people with behavioural options in engaging game-like scenarios and deduce their personality traits from their choices.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-37137&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;To test the gamification approach to personality testing, John-Luke McCord at Louisiana State University and his colleagues consulted 11 personality psychology experts to help develop their tunnel-based game scenario. They ended up with 27 choice situations with the various options carefully worded to reflect the likely preferences of high scorers in the main “Big Five” personality traits (extraversion, conscientiousness, neuroticism, openness, and agreeableness).&lt;/p&gt;
-&lt;p&gt;The team then recruited 77 volunteers on Reddit (r/SampleSize) and had them work their way through the game and also complete an established questionnaire based method of assessing the Big Five traits, the IPIP-50. Based on the results, they tweaked the game and in a follow-up study gave the revised version to 98 undergrads, who also took the IPIP-50.&lt;/p&gt;
-&lt;p&gt;Combining results from these two studies showed that participants’ trait scores based on their game choices correlated moderately with their trait scores as ascertained from the established personality questionnaire. This was true for all five main traits, with the correlation being weakest for openness (correlation was 0.14) and highest for extraversion (0.41).&lt;/p&gt;
-&lt;p&gt;Finally, the team tried to obtain higher correlations between the game scores and questionnaire scores by trying out a new version of the game with more Reddit volunteers, this time with the choice options in each scenario worded to reflect different levels of one specific trait (more or less extraversion, for instance, rather than interpreting the choices as reflecting the influence of different traits). The game scores correlated with the questionnaire scores for all traits, except conscientiousness, perhaps because all players, regardless of their own personality, recognised the most conscientious option as optimal.&lt;/p&gt;
-&lt;p&gt;On reflection, however, McCord and his team said that perhaps they were barking up the wrong tree by trying to make the game and questionnaire results correlate as highly as possible, “as the ultimate goal is to accurately measure personality, not perfectly reflect an existing measure.” As their core motivation is to create a more realistic measure of personality (and especially personality-driven decision making), they added that it might be better to evaluate their game “with field studies or naturalistic observations”.&lt;/p&gt;
-&lt;p&gt;This paper was intended as a proof of concept, which the researchers believe they’ve achieved. Further refinement and a more technologically complex game could provide an even more accurate and realistic way to measure personality. “We believe that the future of game-like personality testing has promising potential for both research and practice,” the researchers said.&lt;/p&gt;
-&lt;p&gt;—&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0191886919301266?dgcid=raven_sd_via_email&quot;&gt;Game-like personality testing: An emerging mode of personality assessment&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Interpreting the scenario options&lt;/strong&gt;: The researchers say that choosing (a) would indicate higher trait extraversion; choosing (b) would indicate higher trait conscientiousness; and (c) would be taken as a sign of openness. My own preference – to immediately leg it in the opposite direction – is not given as an option, but would presumably reflect high trait neuroticism.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;strong&gt; (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;@Psych_Writer&lt;/span&gt;&lt;/a&gt;) is Editor of &lt;span class=&quot;s3&quot;&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt; and the author of a forthcoming book on personality change&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2019-05-15T09:28:48+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/peacock-spiders-superblack-spots-reflect-just-05-percent-light">
-	<title>Science News: Peacock spiders’ superblack spots reflect just 0.5 percent of light</title>
-	<link>https://www.sciencenews.org/article/peacock-spiders-superblack-spots-reflect-just-05-percent-light</link>
-	<content:encoded>By manipulating light with tiny structures, patches on peacock spiders appear superblack, helping accentuate the arachnids’ bright colors.</content:encoded>
-	<dc:date>2019-05-14T23:05:01+00:00</dc:date>
-	<dc:creator>Carolyn Wilke</dc:creator>
-</item>
-<item rdf:about="tag:biocomputation.herts.ac.uk,2019-05-14:/2019/05/14/revisiting-a-theory-of-cerebellar-cortex.html">
-	<title>UH Biocomputation group: Revisiting a theory of cerebellar cortex</title>
-	<link>http://biocomputation.herts.ac.uk/2019/05/14/revisiting-a-theory-of-cerebellar-cortex.html</link>
-	<content:encoded>&lt;p&gt;Ohki Katakura's journal club session, where he presented the paper &quot;&lt;a class=&quot;reference external&quot; href=&quot;https://doi.org/10.1016/j.neures.2019.03.001&quot;&gt;Revisiting a theory of cerebellar cortex (Yamazaki &amp;amp; Lennon 2019 in press)&lt;/a&gt;&quot;.&lt;/p&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;Long-term depression at parallel fiber-Purkinje cell synapses plays a principal role in learning in the cerebellum, which acts as a supervised learning machine. Recent experiments demonstrate various forms of synaptic plasticity at different sites within the cerebellum. In this article, we take into consideration synaptic plasticity at parallel fiber-molecular layer interneuron synapses as well as at parallel fiber-Purkinje cell synapses, and propose that the cerebellar cortex performs reinforcement learning, another form of learning that is more capable than supervised learning. We posit that through the use of reinforcement learning, the need for explicit teacher signals for learning in the cerebellum is eliminated; instead, learning can occur via responses from evaluative feedback. We demonstrate the learning capacity of cerebellar reinforcement learning using simple computer simulations of delay eyeblink conditioning and the cart-pole balancing task.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 03/05/2019 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: D118&lt;/p&gt;</content:encoded>
-	<dc:date>2019-05-14T20:28:45+00:00</dc:date>
-	<dc:creator>Ohki Katakura</dc:creator>
 </item>
 
 </rdf:RDF>
