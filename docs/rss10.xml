@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/southern-ocean-antarctica-absorbs-less-carbon-expected" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=97727" />
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2534" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/puffins-birds-died-bering-sea-arctic-warming" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=5928" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41375" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/eating-ultraprocessed-food-weight-gain-nutrition-studies" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/some-dog-breeds-may-have-trouble-breathing-because-mutated-gene" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/southern-ocean-antarctica-absorbs-less-carbon-expected">
+	<title>Science News: The Southern Ocean may be less of a carbon sink than we thought</title>
+	<link>https://www.sciencenews.org/article/southern-ocean-antarctica-absorbs-less-carbon-expected</link>
+	<content:encoded>The Southern Ocean’s ability to suck up much of the carbon that humans pump into the atmosphere is in question.</content:encoded>
+	<dc:date>2019-06-02T10:00:04+00:00</dc:date>
+	<dc:creator>Alexandra Witze</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=97727">
 	<title>Retraction watch: Weekend reads: “Banished” data used in a paper; cancer group’s database draws ethical scrutiny; company employees banned as peer reviewers</title>
 	<link>http://retractionwatch.com/2019/06/01/weekend-reads-banished-data-used-in-a-paper-cancer-groups-database-draws-ethical-scrutiny-company-employees-banned-as-peer-reviewers/</link>
@@ -1469,13 +1476,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<content:encoded>Laying off ultraprocessed foods and switching to whole foods may help some people manage their weight, a small study finds.</content:encoded>
 	<dc:date>2019-05-16T20:21:48+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/some-dog-breeds-may-have-trouble-breathing-because-mutated-gene">
-	<title>Science News: Some dog breeds may have trouble breathing because of a mutated gene</title>
-	<link>https://www.sciencenews.org/article/some-dog-breeds-may-have-trouble-breathing-because-mutated-gene</link>
-	<content:encoded>Norwich terriers don’t have flat snouts, but can suffer the same wheezing as bulldogs. It turns out that a gene mutation tied to swelling could be to blame.</content:encoded>
-	<dc:date>2019-05-16T18:00:00+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
 </item>
 
 </rdf:RDF>
