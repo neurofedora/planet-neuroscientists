@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/gut-bacteria-may-change-way-many-drugs-work-body" />
+			<rdf:li rdf:resource="https://medium.com/p/9bfa5d6a4df9" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/tabletop-device-turns-quantum-definition-kilogram-real-mass" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=97855" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37243" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11079" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-allergens-pollen-help-plants-do-more-make-you-sneeze" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=93194" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fruit-fly-jumping-gene-chromosome-centromere" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/experiment-hints-quantum-entanglement-inside-protons" />
-			<rdf:li rdf:resource="https://www.maxplanckflorida.org/?p=12024" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/vaccines-may-help-bats-fight-white-nose-syndrome" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/gut-bacteria-may-change-way-many-drugs-work-body">
+	<title>Science News: Gut bacteria may change the way many drugs work in the body</title>
+	<link>https://www.sciencenews.org/article/gut-bacteria-may-change-way-many-drugs-work-body</link>
+	<content:encoded>A new survey of interactions between microbes and medications suggests that gut bacteria play a crucial role in how the body processes drugs.</content:encoded>
+	<dc:date>2019-06-03T15:00:05+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://medium.com/p/9bfa5d6a4df9">
+	<title>The Spike: What Should Systems Neuroscience Do Next? Voltage Imaging</title>
+	<link>https://medium.com/the-spike/what-should-systems-neuroscience-do-next-voltage-imaging-9bfa5d6a4df9?source=rss----c92c31591e3a---4</link>
+	<content:encoded>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/the-spike/what-should-systems-neuroscience-do-next-voltage-imaging-9bfa5d6a4df9?source=rss----c92c31591e3a---4&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*vHX6HGwPyNVbe_ogiNRIyA.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;The firing and the wiring at the same time&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/the-spike/what-should-systems-neuroscience-do-next-voltage-imaging-9bfa5d6a4df9?source=rss----c92c31591e3a---4&quot;&gt;Continue reading on The Spike »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<dc:date>2019-06-03T12:56:32+00:00</dc:date>
+	<dc:creator>Mark Humphries</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/tabletop-device-turns-quantum-definition-kilogram-real-mass">
+	<title>Science News: This tabletop device turns the quantum definition of a kilogram into a real mass</title>
+	<link>https://www.sciencenews.org/article/tabletop-device-turns-quantum-definition-kilogram-real-mass</link>
+	<content:encoded>The mini Kibble balance will measure 10 grams to an accuracy of a few ten-thousandths of a percent.</content:encoded>
+	<dc:date>2019-06-03T11:00:05+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=97855">
 	<title>Retraction watch: Researchers retract a paper because it turns out not to be about bullshit</title>
 	<link>http://retractionwatch.com/2019/06/03/researchers-retract-a-paper-because-it-turns-out-not-to-be-about-bullshit/</link>
@@ -1429,30 +1450,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<content:encoded>Jumping genes may make it possible to divvy up chromosomes.</content:encoded>
 	<dc:date>2019-05-17T16:05:50+00:00</dc:date>
 	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/experiment-hints-quantum-entanglement-inside-protons">
-	<title>Science News: An experiment hints at quantum entanglement inside protons</title>
-	<link>https://www.sciencenews.org/article/experiment-hints-quantum-entanglement-inside-protons</link>
-	<content:encoded>Particles inside protons seem to be linked on a scale smaller than a trillionth of a millimeter.</content:encoded>
-	<dc:date>2019-05-17T15:18:12+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.maxplanckflorida.org/?p=12024">
-	<title>Max Plank Florida Institute for Neuroscience: Max Planck Society Named Top Biomedical Research Nonprofit in the World</title>
-	<link>https://www.maxplanckflorida.org/news-and-media/general/max-planck-society-named-number-one-research-nonprofit-in-the-world/</link>
-	<content:encoded>&lt;p&gt;Germany’s Max Planck Society, the research powerhouse that includes the Max Planck Florida Institute for Neuroscience, has been ranked as the top biomedical nonprofit organization in the world by Nature Index. &lt;a href=&quot;https://www.natureindex.com/supplements/nature-index-2019-biomedical-sciences/tables/npo-ngo&quot;&gt;The rankings&lt;/a&gt; examine prominent research institutions and scientists across the world whose publications profoundly impact biomedical research. In addition to taking the top spot among nonprofit/NGO institutions, the Max Planck Society ranked fifth overall when compared to all research organizations, including major universities and government health agencies.&lt;/p&gt;
-&lt;p&gt;“The Max Planck Society’s unique ‘science-first’ core values create an environment for unparalleled research excellence. We are proud to be a part of the leading nonprofit research organization in the world, and to represent the Max Planck Society in the United States,” said David Fitzpatrick, CEO and Scientific Director of the Max Planck Florida Institute.&lt;/p&gt;
-&lt;p&gt;The Max Planck Florida Institute for Neuroscience is the only Max Planck Institute in North America. Besides the one in Jupiter, Florida, the Max Planck Society operates another 83 institutes, most of them in Germany, one in Luxemburg, two in Italy, and one in the Netherlands.&lt;/p&gt;
-&lt;p&gt;Since its establishment in 1948, 18 Nobel laureates have emerged from the ranks of its scientists. As its first U.S. institution, MPFI brings together exceptional neuroscientists from around the world to answer fundamental questions about brain function and development and to advance new technologies that make groundbreaking scientific discoveries possible. Their research is shared publicly with scholars, universities and other organizations around the globe, providing the necessary foundation of knowledge to develop treatments and cures for brain disorders such as autism, schizophrenia, Parkinson’s disease and Alzheimer’s disease.&lt;/p&gt;</content:encoded>
-	<dc:date>2019-05-17T14:47:53+00:00</dc:date>
-	<dc:creator>Katie Edwards</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/vaccines-may-help-bats-fight-white-nose-syndrome">
-	<title>Science News: Vaccines may help bats fight white nose syndrome</title>
-	<link>https://www.sciencenews.org/article/vaccines-may-help-bats-fight-white-nose-syndrome</link>
-	<content:encoded>Researchers are developing an oral vaccine that helps little brown bats survive the fungal disease white nose syndrome.</content:encoded>
-	<dc:date>2019-05-17T11:00:06+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
 </item>
 
 </rdf:RDF>
