@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9935" />
+			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=3909" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/pfas-chemicals-biodegradable-food-containers-compost" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8592" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/smithsonian-deep-time-exhibit-dinosaurs-fossil-hall" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=98475" />
@@ -112,13 +115,38 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37187" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11014" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41404" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/bad-moods-could-be-contagious-among-ravens" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/top-10-metrology-landmarks-history-making-measurements" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-novel-melanoma-treatments-are-improving-outcomes-for-patients" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9935">
+	<title>Discovery magazine - Neuroskeptic: Neuroscience's Shoe Saga</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9935</link>
+	<content:encoded>If you delve into the wildest depths of the scientific literature, you will find a trilogy of papers so weird, that they have become legendary.
+
+
+
+In these articles, spanning a 12 year period, author Jarl Flensmark says that heeled shoes cause mental illness, while flat footwear promotes brain health:
+
+
+
+Is there an association between the use of heeled footwear and schizophrenia? (2004)Physical activity, eccentric contractions of plantar flexors, and  neurogenesis: therapeutic potential of fla</content:encoded>
+	<dc:date>2019-06-04T21:04:14+00:00</dc:date>
+</item>
+<item rdf:about="http://pillowlab.wordpress.com/?p=3909">
+	<title>Pillow Lab: The Lottery Ticket Hypothesis</title>
+	<link>https://pillowlab.wordpress.com/2019/06/04/the-lottery-ticket-hypothesis/</link>
+	<content:encoded>Deep learning is black magic. For some reason, a neural network with millions of parameters is not cursed to overfit. Somewhere, either in the architecture or the training or the weights themselves, exists a magic that allows deep neural networks … &lt;a href=&quot;https://pillowlab.wordpress.com/2019/06/04/the-lottery-ticket-hypothesis/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-06-04T19:16:56+00:00</dc:date>
+	<dc:creator>benjocowley</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/pfas-chemicals-biodegradable-food-containers-compost">
+	<title>Science News: Chemicals in biodegradable food containers can leach into compost</title>
+	<link>https://www.sciencenews.org/article/pfas-chemicals-biodegradable-food-containers-compost</link>
+	<content:encoded>PFAS compounds from compostable food containers could end being absorbed by plants and later eaten by people, though the health effects are unclear.</content:encoded>
+	<dc:date>2019-06-04T18:00:05+00:00</dc:date>
+	<dc:creator>Carolyn Wilke</dc:creator>
+</item>
 <item rdf:about="http://blogs.plos.org/plos/?p=8592">
 	<title>The Official PLOS Blog: Looking Good: Tips for creating your PLOS figures graphics</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/cMZuq99n1yk/</link>
@@ -1438,26 +1466,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<content:encoded>This guest post by Elisabeth Bik will conclude the Fraud Triptych started by Smut Clyde. We shall meet a former mentee of Paul B Fisher, Sujit Bhutia, who is now busy fabricating data at his own lab at National Institute of Technology in India. Our next encounter will be with Fisher's and Benjamin Bonavida's past collaborator Devasis Chatterjee, who recently abruptly stopped being a principal investigator at the Brown University.</content:encoded>
 	<dc:date>2019-05-21T05:00:24+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/bad-moods-could-be-contagious-among-ravens">
-	<title>Science News: Bad moods could be contagious among ravens</title>
-	<link>https://www.sciencenews.org/article/bad-moods-could-be-contagious-among-ravens</link>
-	<content:encoded>Ravens may pick up and share their compatriots’ negativity, a study on the social intelligence of these animals suggests.</content:encoded>
-	<dc:date>2019-05-20T21:37:03+00:00</dc:date>
-	<dc:creator>Carolyn Wilke</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/context/top-10-metrology-landmarks-history-making-measurements">
-	<title>Science News: These are the top 10 landmarks in the history of making measurements</title>
-	<link>https://www.sciencenews.org/blog/context/top-10-metrology-landmarks-history-making-measurements</link>
-	<content:encoded>Little appreciated but vastly important, metrology celebrates a long history with the adoption of new definitions for key units.</content:encoded>
-	<dc:date>2019-05-20T13:00:05+00:00</dc:date>
-	<dc:creator>Tom Siegfried</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/how-novel-melanoma-treatments-are-improving-outcomes-for-patients">
-	<title>Elsevier Connect: How novel melanoma treatments are improving outcomes for patients</title>
-	<link>https://www.elsevier.com/connect/how-novel-melanoma-treatments-are-improving-outcomes-for-patients</link>
-	<content:encoded>Advances in the research and treatment of metastatic melanoma are helping patients live longer</content:encoded>
-	<dc:date>2019-05-20T11:03:16+00:00</dc:date>
 </item>
 
 </rdf:RDF>
