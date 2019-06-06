@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/magnetic-fields-between-galaxy-clusters" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/healthy-people-mutations-cancer-tissue-cells" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=98994" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/two-new-species-hopping-rats-discovered-worms" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mirco-plastic-debris-accumulating-far-beneath-ocean-surface" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37197" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-8658996628838668943" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/faulty-cellular-antennae-may-cause-heart-valve-disorder" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/emissions-banned-ozone-destroying-chemical-have-been-traced-china" />
-			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8562" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/magnetic-fields-between-galaxy-clusters">
+	<title>Science News: In a first, magnetic fields have been spotted between two galaxy clusters</title>
+	<link>https://www.sciencenews.org/article/magnetic-fields-between-galaxy-clusters</link>
+	<content:encoded>The discovery of magnetic fields in the gaseous filament between two galaxy clusters suggests that some large cosmic structures are magnetized.</content:encoded>
+	<dc:date>2019-06-06T18:00:05+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/healthy-people-mutations-cancer-tissue-cells">
+	<title>Science News: Almost all healthy people harbor patches of mutated cells</title>
+	<link>https://www.sciencenews.org/article/healthy-people-mutations-cancer-tissue-cells</link>
+	<content:encoded>Even healthy tissues can build up mutations, some of which have been tied to cancer.</content:encoded>
+	<dc:date>2019-06-06T18:00:05+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=98994">
 	<title>Retraction watch: Chaos as Chaos retracts paper it apparently never should have published in the first place</title>
 	<link>http://retractionwatch.com/2019/06/06/chaos-as-chaos-retracts-paper-it-apparently-never-should-have-published-in-the-first-place/</link>
@@ -1601,39 +1615,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<content:encoded>Mitral valve prolapse might be caused by dysfunctional primary cilia meant to signal cells during development.</content:encoded>
 	<dc:date>2019-05-22T18:00:04+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/emissions-banned-ozone-destroying-chemical-have-been-traced-china">
-	<title>Science News: Emissions of a banned ozone-destroying chemical have been traced to China</title>
-	<link>https://www.sciencenews.org/article/emissions-banned-ozone-destroying-chemical-have-been-traced-china</link>
-	<content:encoded>Since 2013, eastern China has increased its annual emissions of a banned chlorofluorocarbon by about 7,000 metric tons, a study finds.</content:encoded>
-	<dc:date>2019-05-22T17:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="http://blogs.plos.org/plos/?p=8562">
-	<title>The Official PLOS Blog: PLOS Journals Now OPEN for Published Peer Review</title>
-	<link>http://feeds.plos.org/~r/plos/Blog/~3/8cOKqikbOOA/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/plos/files/2015/10/5-690x3202-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Starting today, ALL PLOS journals will offer authors the option to publish their peer review history alongside their accepted manuscript! We’ve been excited to make this announcement, and make major strides towards a more open publication process, since last fall when we signed ASAPbio’s &lt;/span&gt;&lt;a href=&quot;https://asapbio.org/letter&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;open letter&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; committing to transparent peer review options.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;What will it look like?&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Our philosophy going into this project has been to open up the peer review process in a way that gives authors and reviewers more choices about how they publish and claim credit for their work. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As before, our peer review process defaults to single-blind, although reviewers have the option to sign their names to their reviews if they wish. What we’ve added to our process is an option at acceptance for authors to decide whether to publish the full peer review history alongside their work. This package includes the editor’s full decision letter, complete with reviewer comments and authors’ responses for each revision of the manuscript. Peer review history will have its own DOI enabling reviewers to take credit and earn citations for their contributions. If the reviewers have chosen to sign their reviews, their name will also appear on the published reviews but they can also chose to remain anonymous.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;All manuscripts submitted after May 22, 2019 will be eligible for this option if accepted at a PLOS Journal. Here’s a look at the variations of open our opt-in model provides:&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/05/TPR_chart-final-edited-003.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8582&quot; height=&quot;1452&quot; src=&quot;http://blogs.plos.org/plos/files/2019/05/TPR_chart-final-edited-003.jpg&quot; width=&quot;3000&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;b&gt;A major step for PLOS, and scholarly communication&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The peer review history reveals crucial perspectives and decisions that supply additional context for readers and researchers. Because of the potential benefits, we’re making this option available &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;now&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; on all seven PLOS journals.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Other journals that have experimented with published peer review models have shown that the quality of feedback provided is at least as good as other models – we think it has the potential to be even better through increased accountability and transparency. We’re building off the foundations and lessons learned by these examples and are confident our model can offer authors more choices to make their research and the publishing process open, and showcase the rigorous review of their work. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Through the scale of our publishing output across all seven PLOS journals, we see this as an opportunity to make a significant change in the scholarly communication landscape and lay the foundation for a more open view of the manuscript handling process from start to finish.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Open beyond Open Access&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;While the benefits of transparency are numerous, we see published peer review as a crucial first step towards solving two fundamental problems: reviewer credit and public understanding of the peer review process. So far, Open Access has made it possible for research to reach a global community of readers but we have not yet demonstrated the work that goes on behind the scenes to validate scientific claims.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Publishing peer review history is a means of enriching the scientific record by giving context to evaluation and publication decisions. We hope this is also an important step toward elevating peer reviews to scholarly outputs in their own right that reviewers can take credit for. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In conjunction with the work it describes, peer review history can also be a source of material for educating students and the general public about peer review. Our content is also machine readable, paving the way for deeper analysis and discussion by the community. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Looking ahead&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We’ve developed this option in consultation with our editors who are dedicated to improving our journals, and we also committed to reporting back our findings. As we learn more about how published peer review shapes author and reviewer choices, and reader experience, we’ll continue to update you on what we find.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/8cOKqikbOOA&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-05-22T15:58:11+00:00</dc:date>
-	<dc:creator>Madison Crystal</dc:creator>
 </item>
 
 </rdf:RDF>
