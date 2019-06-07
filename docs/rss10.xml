@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/medicaid-expansion-states-cardiovascular-deaths" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-reveals-ancient-siberians-set-stage-first-americans" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-scientists-wanted-build-solar-panels-moon" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=99149" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/physicists-figured-out-how-pentaquarks-are-built" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-8658996628838668943" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11055" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41109" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-black-holes-can-settle-outskirts-small-galaxies" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/spherical-flames-space-could-solve-mystery-soot-free-fires" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-chocolate-smell-odor-sweet-sweat-vinegar" />
-			<rdf:li rdf:resource="http://retractionwatch.com/?p=94701" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/medicaid-expansion-states-cardiovascular-deaths">
+	<title>Science News: Medicaid-expanding states had fewer cardiovascular deaths than other states</title>
+	<link>https://www.sciencenews.org/article/medicaid-expansion-states-cardiovascular-deaths</link>
+	<content:encoded>Counties in states with expanded Medicaid eligibility had 4.3 fewer cardiovascular deaths per 100,000 residents, on average, than if they hadn’t expanded.</content:encoded>
+	<dc:date>2019-06-07T17:00:06+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/dna-reveals-ancient-siberians-set-stage-first-americans">
+	<title>Science News: DNA reveals ancient Siberians who set the stage for the first Americans</title>
+	<link>https://www.sciencenews.org/article/dna-reveals-ancient-siberians-set-stage-first-americans</link>
+	<content:encoded>A previously unknown population of Ice Age people who traveled across Beringia was discovered in Russia.</content:encoded>
+	<dc:date>2019-06-07T16:00:05+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/50-years-ago-scientists-wanted-build-solar-panels-moon">
+	<title>Science News: 50 years ago, scientists wanted to build solar panels on the moon</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-scientists-wanted-build-solar-panels-moon</link>
+	<content:encoded>In 1969, scientists proposed building solar panels on the moon to convert the sun’s energy into electricity that can be used on Earth.</content:encoded>
+	<dc:date>2019-06-07T12:00:06+00:00</dc:date>
+	<dc:creator>Kyle Plantz</dc:creator>
+</item>
 <item rdf:about="http://retractionwatch.com/?p=99149">
 	<title>Retraction watch: Forensics Friday: What’s the best way to present these findings in a figure?</title>
 	<link>http://retractionwatch.com/2019/06/07/forensics-friday-whats-the-best-way-to-present-these-findings-in-a-figure/</link>
@@ -1567,27 +1588,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<content:encoded>Astronomers have found dozens of surprisingly massive black holes far from the centers of their host dwarf galaxies.</content:encoded>
 	<dc:date>2019-05-23T14:57:30+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/spherical-flames-space-could-solve-mystery-soot-free-fires">
-	<title>Science News: Spherical flames in space could solve the mystery of soot-free fires</title>
-	<link>https://www.sciencenews.org/article/spherical-flames-space-could-solve-mystery-soot-free-fires</link>
-	<content:encoded>In microgravity, flames are sphere-shaped. Tests of fire on the International Space Station are helping show how gases flow within flames.</content:encoded>
-	<dc:date>2019-05-23T13:00:05+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dark-chocolate-smell-odor-sweet-sweat-vinegar">
-	<title>Science News: Sweaty, vinegary and sweet odors mingle to make dark chocolate’s smell</title>
-	<link>https://www.sciencenews.org/article/dark-chocolate-smell-odor-sweet-sweat-vinegar</link>
-	<content:encoded>Scientists have worked out the chemistry of dark chocolate’s smell and reconstructed the aroma.</content:encoded>
-	<dc:date>2019-05-23T11:00:05+00:00</dc:date>
-	<dc:creator>Carolyn Wilke</dc:creator>
-</item>
-<item rdf:about="http://retractionwatch.com/?p=94701">
-	<title>Retraction watch: Up to 19% plagiarism is just fine, journal tells authors</title>
-	<link>http://retractionwatch.com/2019/05/23/up-to-19-plagiarism-is-just-fine-journal-tells-authors/</link>
-	<content:encoded>Apparently, you can be a little bit pregnant. We’ll explain. The other day we received an email from a researcher tipping us off to a remarkable admission from a journal in Pakistan about how much (as in, precisely how much) plagiarism it was willing to accept in its pages. The publication, the Punjab University Journal … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/05/23/up-to-19-plagiarism-is-just-fine-journal-tells-authors/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Up to 19% plagiarism is just fine, journal tells authors&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-05-23T10:00:58+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
 </item>
 
 </rdf:RDF>
