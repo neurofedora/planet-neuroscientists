@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://retractionwatch.com/?p=99500" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/medicaid-expansion-states-cardiovascular-deaths" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dna-reveals-ancient-siberians-set-stage-first-americans" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-scientists-wanted-build-solar-panels-moon" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/d3d0dbf14e214268976f7b3a7afff5b4" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11055" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41109" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/big-black-holes-can-settle-outskirts-small-galaxies" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://retractionwatch.com/?p=99500">
+	<title>Retraction watch: Weekend reads: Dean withdraws from post after retraction of Lancet book review; star researcher committed misconduct; a new way to game peer review?</title>
+	<link>http://retractionwatch.com/2019/06/08/weekend-reads-dean-withdraws-from-post-after-retraction-of-lancet-book-review-star-researcher-committed-misconduct-journalism-investigation-leads-to-disclosures/</link>
+	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured a reminder that sometimes science just needs more bullshit; a … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/06/08/weekend-reads-dean-withdraws-from-post-after-retraction-of-lancet-book-review-star-researcher-committed-misconduct-journalism-investigation-leads-to-disclosures/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Dean withdraws from post after retraction of Lancet book review; star researcher committed misconduct; a new way to game peer review?&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-06-08T13:00:26+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/medicaid-expansion-states-cardiovascular-deaths">
 	<title>Science News: Medicaid-expanding states had fewer cardiovascular deaths than other states</title>
 	<link>https://www.sciencenews.org/article/medicaid-expansion-states-cardiovascular-deaths</link>
@@ -1581,13 +1588,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<content:encoded>Gary Stacey is soybean researcher at University of Missouri and ASPB member. Whatever problems you might have with his science, the university already attested him a &quot;clean bill of health&quot;. Get a life.</content:encoded>
 	<dc:date>2019-05-24T05:00:27+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/big-black-holes-can-settle-outskirts-small-galaxies">
-	<title>Science News: Big black holes can settle in the outskirts of small galaxies</title>
-	<link>https://www.sciencenews.org/article/big-black-holes-can-settle-outskirts-small-galaxies</link>
-	<content:encoded>Astronomers have found dozens of surprisingly massive black holes far from the centers of their host dwarf galaxies.</content:encoded>
-	<dc:date>2019-05-23T14:57:30+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
