@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/khipus-knotted-cords-incas-taxes" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41573" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=100085" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37311" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/bacteria-nearly-killed-antibiotics-recover-gain-resistance" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37210" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/iconic-humboldt-map-may-need-crucial-updates" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9924" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/khipus-knotted-cords-incas-taxes">
+	<title>Science News: These knotted cords may hide the first evidence that the Incas collected taxes</title>
+	<link>https://www.sciencenews.org/article/khipus-knotted-cords-incas-taxes</link>
+	<content:encoded>Some knotted string devices point to crop levies imposed by the Incan empire, researchers say. But other khipus continue to evade description.</content:encoded>
+	<dc:date>2019-06-11T11:00:05+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://forbetterscience.com/?p=41573">
 	<title>For Better Science: Researchers reject APC-based OA publishing as promoted by Plan S</title>
 	<link>https://forbetterscience.com/2019/06/11/researchers-reject-apc-based-oa-publishing-as-promoted-by-plan-s/</link>
@@ -1583,32 +1590,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>A seminal, 212-year-old diagram of Andean plants by German explorer Alexander von Humboldt is still groundbreaking — but outdated, researchers say.</content:encoded>
 	<dc:date>2019-05-27T19:00:05+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9924">
-	<title>Discovery magazine - Neuroskeptic: Was Stephen Hawking's Illness Psychosomatic? (No.)</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9924</link>
-	<content:encoded>A paper in a peer-reviewed medical journal makes the suggestion that physicist Stephen Hawking's disability, which famously confined him to a wheelchair and robbed him of his speech, was psychosomatic in nature.
-
-
-
-Hmm. I think this says more about the author than it does about Hawking.
-
-
-
-
-
-
-
-The paper is called Delusional Health Beliefs and it comes by British doctor Peter May. It was published a few days ago in the Medico-Legal Journal.
-
-
-
-
-
-
-
-May begins the paper by discussing conversion di</content:encoded>
-	<dc:date>2019-05-25T19:40:33+00:00</dc:date>
 </item>
 
 </rdf:RDF>
