@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/common-cold-viruses-may-new-weak-point-shell" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/khipus-knotted-cords-incas-taxes" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41573" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=100085" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=96041" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/bacteria-nearly-killed-antibiotics-recover-gain-resistance" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37210" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/iconic-humboldt-map-may-need-crucial-updates" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/common-cold-viruses-may-new-weak-point-shell">
+	<title>Science News: A tiny crater on viruses behind the common cold may be their Achilles’ heel</title>
+	<link>https://www.sciencenews.org/article/common-cold-viruses-may-new-weak-point-shell</link>
+	<content:encoded>Researchers have discovered a potential new drug target in a family of viruses responsible for the common cold and more serious infections.</content:encoded>
+	<dc:date>2019-06-11T18:00:05+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/khipus-knotted-cords-incas-taxes">
 	<title>Science News: These knotted cords may hide the first evidence that the Incas collected taxes</title>
 	<link>https://www.sciencenews.org/article/khipus-knotted-cords-incas-taxes</link>
@@ -1583,13 +1590,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 &lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://www.psychologywriter.org.uk/&quot;&gt;Christian Jarrett&lt;/a&gt;&lt;strong&gt; (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/psych_Writer&quot;&gt;&lt;span class=&quot;s3&quot;&gt;@Psych_Writer&lt;/span&gt;&lt;/a&gt;) is Editor of &lt;span class=&quot;s3&quot;&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-05-28T08:02:44+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/iconic-humboldt-map-may-need-crucial-updates">
-	<title>Science News: This iconic Humboldt map may need crucial updates</title>
-	<link>https://www.sciencenews.org/article/iconic-humboldt-map-may-need-crucial-updates</link>
-	<content:encoded>A seminal, 212-year-old diagram of Andean plants by German explorer Alexander von Humboldt is still groundbreaking — but outdated, researchers say.</content:encoded>
-	<dc:date>2019-05-27T19:00:05+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
