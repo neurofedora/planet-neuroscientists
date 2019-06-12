@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/national-weather-service-launches-new-us-forecasting-model" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/evidence-marijuana-smoking-rituals-ancient-western-china" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/bats-beat-dogs-main-cause-rabies-deaths-united-states" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ghost-galaxy-milky-way-antila" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37317" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/having-six-fingers-can-offer-major-dexterity-advantages" />
@@ -112,13 +115,31 @@
 			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-05-29:/2019/05/29/fedora-science-research-get-together-at-flock.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-million-year-old-fossil-captures-swimming-school-fish" />
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=96601" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/one-number-can-help-explain-why-measles-so-contagious" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-are-the-potential-harms-and-benefits-of-e-cigarettes" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-optical-atomic-clock-heart-small-coffee-bean" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/national-weather-service-launches-new-us-forecasting-model">
+	<title>Science News: The National Weather Service has launched its new U.S. forecasting model</title>
+	<link>https://www.sciencenews.org/article/national-weather-service-launches-new-us-forecasting-model</link>
+	<content:encoded>The United States has finally unveiled its new, highly touted weather prediction model, but some scientists worry that it’s not ready for prime time.</content:encoded>
+	<dc:date>2019-06-12T19:11:18+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/evidence-marijuana-smoking-rituals-ancient-western-china">
+	<title>Science News: People may have smoked marijuana in rituals 2,500 years ago in western China</title>
+	<link>https://www.sciencenews.org/article/evidence-marijuana-smoking-rituals-ancient-western-china</link>
+	<content:encoded>Cannabis may have been altering minds at an ancient high-altitude cemetery, researchers say</content:encoded>
+	<dc:date>2019-06-12T18:01:48+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/bats-beat-dogs-main-cause-rabies-deaths-united-states">
+	<title>Science News: Bats beat out dogs as the main cause of rabies deaths in the U.S.</title>
+	<link>https://www.sciencenews.org/article/bats-beat-dogs-main-cause-rabies-deaths-united-states</link>
+	<content:encoded>In the United States, bats are mostly to blame for rabies deaths, while rabies transmitted by overseas dogs comes in second.</content:encoded>
+	<dc:date>2019-06-12T17:14:37+00:00</dc:date>
+	<dc:creator>Carolyn Wilke</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/ghost-galaxy-milky-way-antila">
 	<title>Science News: Astronomers may have spotted the ghost galaxy that hit the Milky Way long ago</title>
 	<link>https://www.sciencenews.org/article/ghost-galaxy-milky-way-antila</link>
@@ -1514,26 +1535,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Saying that a paper has “fatal and disqualifying errors,” CrossFit is demanding the retraction of a recently published article that claimed those participating in CrossFit “are more likely to be injured and to seek medical treatment compared with participants in traditional weightlifting.” The paper, “Likelihood of Injury and Medical Care Between CrossFit and Traditional Weightlifting … &lt;a class=&quot;more-link&quot; href=&quot;http://retractionwatch.com/2019/05/28/crossfit-demands-retraction-of-paper-claiming-their-participants-are-more-likely-to-be-injured/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;CrossFit demands retraction of paper claiming their participants are more likely to be injured&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-05-28T18:37:08+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/one-number-can-help-explain-why-measles-so-contagious">
-	<title>Science News: One number can help explain why measles is so contagious</title>
-	<link>https://www.sciencenews.org/article/one-number-can-help-explain-why-measles-so-contagious</link>
-	<content:encoded>The basic reproduction number, or &quot;R naught,&quot; of measles shows how contagious the disease is compared with other pathogens.</content:encoded>
-	<dc:date>2019-05-28T17:00:05+00:00</dc:date>
-	<dc:creator>Helen Thompson</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/what-are-the-potential-harms-and-benefits-of-e-cigarettes">
-	<title>Elsevier Connect: What are the potential harms and benefits of e-cigarettes?</title>
-	<link>https://www.elsevier.com/connect/what-are-the-potential-harms-and-benefits-of-e-cigarettes</link>
-	<content:encoded>The US Surgeon General declared vaping an ‘epidemic’ – what prompted this extraordinary step?</content:encoded>
-	<dc:date>2019-05-28T12:28:27+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-optical-atomic-clock-heart-small-coffee-bean">
-	<title>Science News: A new optical atomic clock’s heart is as small as a coffee bean</title>
-	<link>https://www.sciencenews.org/article/new-optical-atomic-clock-heart-small-coffee-bean</link>
-	<content:encoded>Optical atomic clocks are extremely good at keeping time, and they’re on their way to becoming pocket watches.</content:encoded>
-	<dc:date>2019-05-28T12:00:05+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
