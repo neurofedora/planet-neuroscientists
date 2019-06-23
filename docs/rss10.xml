@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/ticks-lyme-disease-testing-new-approaches" />
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9943" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/parasites-ruin-songs-darwin-finches-galapagos-islands" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cosmic-cow-may-be-strange-supernova" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-portable-atomic-clock-could-revolutionize-space-travel" />
@@ -113,12 +115,43 @@
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-8643079142044142360" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/global-warming-heat-related-deaths" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/soil-eroded-glaciers-may-have-kick-started-plate-tectonics" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/accretion-disk-milky-way-galaxy-black-hole" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dragonfish-teeth-transparent-prey" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/ticks-lyme-disease-testing-new-approaches">
+	<title>Science News: New approaches may help solve the Lyme disease diagnosis dilemma</title>
+	<link>https://www.sciencenews.org/article/ticks-lyme-disease-testing-new-approaches</link>
+	<content:encoded>Lyme disease is hard to detect, but scientists are investigating new diagnostic approaches.</content:encoded>
+	<dc:date>2019-06-23T11:00:20+00:00</dc:date>
+	<dc:creator>Laura Beil</dc:creator>
+</item>
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9943">
+	<title>Discovery magazine - Neuroskeptic: Nanobacteria in the Brain?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9943</link>
+	<content:encoded>A paper just out in eccentric medical journal Medical Hypotheses caught my eye yesterday:
+
+
+
+Potential role of calcifying nanoparticles in the etiology of multiple sclerosis
+
+
+
+Hmm, I thought, this looks interesting. I'd never heard of the idea that nanoparticles could cause neurological illness.
+
+
+
+So I read the paper and quickly found myself falling down a (nano)rabbithole into a fascinating and little-known tale of strange science.
+
+
+
+
+
+
+
+It turns out that the 'calcifying nanoparticles' ment</content:encoded>
+	<dc:date>2019-06-23T10:49:42+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/parasites-ruin-songs-darwin-finches-galapagos-islands">
 	<title>Science News: Parasites ruin some finches’ songs by chewing through the birds’ beaks</title>
 	<link>https://www.sciencenews.org/article/parasites-ruin-songs-darwin-finches-galapagos-islands</link>
@@ -1552,20 +1585,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 	<content:encoded>How plate tectonics got going is a mystery. Now scientists say they’ve found a key part of the story: massive piles of sediment dumped in the ocean.</content:encoded>
 	<dc:date>2019-06-05T17:36:58+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/accretion-disk-milky-way-galaxy-black-hole">
-	<title>Science News: The accretion disk around our galaxy’s black hole has been spotted at last</title>
-	<link>https://www.sciencenews.org/article/accretion-disk-milky-way-galaxy-black-hole</link>
-	<content:encoded>The Milky Way's central black hole has a disk of gas and dust orbiting it, astronomers can finally say with confidence.</content:encoded>
-	<dc:date>2019-06-05T17:02:32+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dragonfish-teeth-transparent-prey">
-	<title>Science News: Tiny structures in dragonfish teeth turn them into invisible daggers</title>
-	<link>https://www.sciencenews.org/article/dragonfish-teeth-transparent-prey</link>
-	<content:encoded>The teeth of deep-sea dragonfish are transparent because of nanoscale crystals and rods that let light pass through without being scattered.</content:encoded>
-	<dc:date>2019-06-05T15:00:05+00:00</dc:date>
-	<dc:creator>Carolyn Wilke</dc:creator>
 </item>
 
 </rdf:RDF>
