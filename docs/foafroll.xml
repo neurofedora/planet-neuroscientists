@@ -702,6 +702,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>arXiv.org blog</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://blogs.cornell.edu/arxiv">
+					<dc:title>arXiv.org blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>xcorr.net</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="">
