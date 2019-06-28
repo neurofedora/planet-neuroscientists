@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/hydrogen-metal-claim-diamond-pressure" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/earliest-known-galaxy-merger-occurred-shortly-after-big-bang" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/585597b6dd26497cba5aeacd6b2d09d9" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37420" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8562" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41416" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8570" />
-			<rdf:li rdf:resource="https://medium.com/p/12def144f6be" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/hydrogen-metal-claim-diamond-pressure">
+	<title>Science News: Latest claim of turning hydrogen into a metal may be the most solid yet</title>
+	<link>https://www.sciencenews.org/article/hydrogen-metal-claim-diamond-pressure</link>
+	<content:encoded>If true, the study would complete a decades-long quest to find the elusive material. But such claims have been made prematurely many times before.</content:encoded>
+	<dc:date>2019-06-28T12:00:44+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/earliest-known-galaxy-merger-occurred-shortly-after-big-bang">
 	<title>Science News: The earliest known galaxy merger occurred shortly after the Big Bang</title>
 	<link>https://www.sciencenews.org/article/earliest-known-galaxy-merger-occurred-shortly-after-big-bang</link>
@@ -1781,13 +1788,6 @@ May begins the paper by discussing conversion di</content:encoded>
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/5heI_SH4-1I&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-05-21T14:35:26+00:00</dc:date>
 	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="https://medium.com/p/12def144f6be">
-	<title>The Spike: Selective Journals Are The A&amp;R Of Science</title>
-	<link>https://medium.com/the-spike/selective-journals-are-the-a-r-of-science-12def144f6be?source=rss----c92c31591e3a---4</link>
-	<content:encoded>&lt;div class=&quot;medium-feed-item&quot;&gt;&lt;p class=&quot;medium-feed-image&quot;&gt;&lt;a href=&quot;https://medium.com/the-spike/selective-journals-are-the-a-r-of-science-12def144f6be?source=rss----c92c31591e3a---4&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1280/1*HdOLaK8J9KYUk0A8Krr0jQ.jpeg&quot; width=&quot;1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;medium-feed-snippet&quot;&gt;Why selective journals have thrived in the online era&lt;/p&gt;&lt;p class=&quot;medium-feed-link&quot;&gt;&lt;a href=&quot;https://medium.com/the-spike/selective-journals-are-the-a-r-of-science-12def144f6be?source=rss----c92c31591e3a---4&quot;&gt;Continue reading on The Spike »&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded>
-	<dc:date>2019-05-21T10:56:14+00:00</dc:date>
-	<dc:creator>Mark Humphries</dc:creator>
 </item>
 
 </rdf:RDF>
