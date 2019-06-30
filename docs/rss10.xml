@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/2019-total-solar-eclipse-south-america" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9947" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=142147" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-change-europe-heat-wave" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9924" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/d3d0dbf14e214268976f7b3a7afff5b4" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41109" />
-			<rdf:li rdf:resource="https://blogs.loc.gov/thesignal/2019/05/visualizing-chronicling-america-data-15-million-pages-of-digitized-historical-newspapers/" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/2019-total-solar-eclipse-south-america">
+	<title>Science News: How the 2019 eclipse will differ from 2017’s — and what that means for science</title>
+	<link>https://www.sciencenews.org/article/2019-total-solar-eclipse-south-america</link>
+	<content:encoded>This year’s total solar eclipse is visible late in the day from a relatively small slice of South America.</content:encoded>
+	<dc:date>2019-06-30T09:00:18+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9947">
 	<title>Discovery magazine - Neuroskeptic: &quot;Terrorist Fiske Jab&quot; Revisited</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9947</link>
@@ -1759,12 +1766,6 @@ May begins the paper by discussing conversion di</content:encoded>
 	<content:encoded>Gary Stacey is soybean researcher at University of Missouri and ASPB member. Whatever problems you might have with his science, the university already attested him a &quot;clean bill of health&quot;. Get a life.</content:encoded>
 	<dc:date>2019-05-24T05:00:27+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://blogs.loc.gov/thesignal/2019/05/visualizing-chronicling-america-data-15-million-pages-of-digitized-historical-newspapers/">
-	<title>Open Access Tracking Project: news: Visualizing Chronicling America Data: 15 million pages of digitized historical newspapers | The Signal</title>
-	<link>https://blogs.loc.gov/thesignal/2019/05/visualizing-chronicling-america-data-15-million-pages-of-digitized-historical-newspapers/</link>
-	<content:encoded>&lt;p&gt;&quot;This week we celebrate an exciting milestone. &lt;a href=&quot;https://chroniclingamerica.loc.gov/?loclr=blogsig&quot;&gt;Chronicling America&lt;/a&gt;, the online searchable database of historic U.S. newspapers, now includes more than 15 million pages! To mark the occasion, we are throwing a &lt;a href=&quot;https://twitter.com/hashtag/ChronAmParty?src=hash&amp;amp;lang=en&quot;&gt;#ChronAmParty&lt;/a&gt; on Twitter and unveiling a set of interactive data visualizations that help reveal the variety of content available in a corpus of 15 million digitized newspaper pages....&quot;&lt;/p&gt;</content:encoded>
-	<dc:date>2019-05-23T09:15:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
