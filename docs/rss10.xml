@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-07-01:/2019/07/01/new-badge-stickers-and-software-updates.html" />
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=41608" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-1566683991340579929" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2019-total-solar-eclipse-south-america" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9947" />
@@ -98,6 +100,7 @@
 			<rdf:li rdf:resource="https://blog.oup.com/?p=141992" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8603" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-8658996628838668943" />
+			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-06-06:/2019/06/06/keeping-software-in-neurofedora-up-to-date.html" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7961882.post-8643079142044142360" />
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1626" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9935" />
@@ -112,13 +115,80 @@
 			<rdf:li rdf:resource="http://blog.scienceexchange.com/?p=2500" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41499" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41470" />
-			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8588" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9924" />
-			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/d3d0dbf14e214268976f7b3a7afff5b4" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:neurofedora.github.io,2019-07-01:/2019/07/01/new-badge-stickers-and-software-updates.html">
+	<title>NeuroFedora blog: New badge, stickers, and software updates</title>
+	<link>https://neurofedora.github.io/2019/07/01/new-badge-stickers-and-software-updates.html</link>
+	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;A Fedora badge for NeuroFedora contributors.&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190701-neuro-fedora-badge.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&quot;You are a member of the NeuroFedora SIG&quot; badge by &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Tanvi&quot;&gt;tanvi&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Blackfile&quot;&gt;blackfile&lt;/a&gt; for &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/fedora-badges/issue/678&quot;&gt;Fedora Badges #678&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;This post departs from the usual template, mainly because we have new artwork
+to show off and so will, for once, not use the logo in this post.&lt;/p&gt;
+&lt;p&gt;I had only half jokingly suggested a &quot;terminator panda&quot; to give the badge a bit
+of a fun feel and was very pleasantly surprised when &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Tanvi&quot;&gt;tanvi&lt;/a&gt; came up with a
+concept art! After an iteration or two, the &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Blackfile&quot;&gt;blackfile&lt;/a&gt;'s concept that included
+the logo was merged with the panda terminator to give us the final one that's
+shown here.&lt;/p&gt;
+&lt;p&gt;For those who may not be aware, &quot;&lt;a class=&quot;reference external&quot; href=&quot;https://badges.fedoraproject.org/&quot;&gt;Fedora badges&lt;/a&gt; is a fun website built to
+recognize contributors to the Fedora Project, help new and existing Fedora
+contributors find different ways to get involved, and encourage the improvement
+of Fedora's infrastructure.&quot; You can learn about them more on the website's
+about page, &lt;a class=&quot;reference external&quot; href=&quot;https://badges.fedoraproject.org/about&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So, please &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/contributing/&quot;&gt;join the team&lt;/a&gt;, do
+whatever interests you: software packaging, testing, designing, documentation
+writing, simply speak about Free Software, or absolutely anything that will
+help us make Science similarly Free for everyone. The current team is listed
+&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/group/neuro-sig&quot;&gt;here in the Pagure neuro-sig group&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since we're going to present a poster at &lt;a class=&quot;reference external&quot; href=&quot;https://www.cnsorg.org/cns-2019-quick&quot;&gt;CNS*2019&lt;/a&gt;, and meet at &lt;a class=&quot;reference external&quot; href=&quot;https://flocktofedora.org/&quot;&gt;Flock&lt;/a&gt;, we also &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/627&quot;&gt;requested&lt;/a&gt; the &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Design&quot;&gt;Fedora Design team&lt;/a&gt; to make us a sticker that we could
+give out. They, of course, delivered---they always do! After a few iterations
+under &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Duffy&quot;&gt;duffy&lt;/a&gt;'s guidance, &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Tanvi&quot;&gt;tanvi&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Terezahl&quot;&gt;terezahl&lt;/a&gt;, and &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Asrootuser&quot;&gt;asrootuser&lt;/a&gt; put forward ideas
+that resulted in this beauty:&lt;/p&gt;
+&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;The NeuroFedora sticker!&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190701-sticker.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;PNG version of the NeuroFedora sticker by &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Tanvi&quot;&gt;tanvi&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Terezahl&quot;&gt;terezahl&lt;/a&gt;, and &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Asrootuser&quot;&gt;asrootuser&lt;/a&gt; for &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/627&quot;&gt;Fedora Design #627&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;I've &lt;a class=&quot;reference external&quot; href=&quot;https://www.stickermule.com/uk/artworks/3195402?token=caa3f965c743f145a3d15e133565452a&quot;&gt;ordered a batch of stickers off Stickermule&lt;/a&gt;
+already. Since the artwork is now part of Stickermule's catalogue, I can also
+easily re-order more in the future. I &lt;em&gt;think&lt;/em&gt; others can too, but I'm not sure.
+In any case, the sources for the stickers, like our logo are on &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/blob/master/f/Artwork&quot;&gt;here on our
+Pagure repository&lt;/a&gt;. In the
+future, depending on how much funding we can gather, we may even be able to
+send stickers to folks. For the moment, though, we'll only give them out to
+people we meet at conferences to save on postage.&lt;/p&gt;
+&lt;p&gt;(Please read through the &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Legal:Trademark_guidelines&quot;&gt;Trademark Guidelines&lt;/a&gt; before using and
+sharing any Fedora related content, by the way.)&lt;/p&gt;
+&lt;p&gt;At the end of the post, here the usual short update on the state of software in
+&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-elephant&quot;&gt;python-elephant&lt;/a&gt; is
+now included in the Fedora repositories.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-pylatex&quot;&gt;python-PyLaTeX&lt;/a&gt; also.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-neurosynth&quot;&gt;python-neurosynth&lt;/a&gt;
+was also added.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're still working on including more tools. NEST 2.18.0 &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nest/nest-simulator/releases/tag/v2.18.0&quot;&gt;was recently released&lt;/a&gt; so we'll
+update that soon also. Still &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Needs+packaging&quot;&gt;quite a queue for us to work through&lt;/a&gt;,
+but we're making steady progress!&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-01T09:39:11+00:00</dc:date>
+	<dc:creator>NeuroFedora</dc:creator>
+</item>
+<item rdf:about="http://forbetterscience.com/?p=41608">
+	<title>For Better Science: May Griffith innocent of misconduct, decide Montreal, Swedish Court and Ethics Board</title>
+	<link>https://forbetterscience.com/2019/07/01/may-griffith-innocent-of-misconduct-say-cepn-montreal-and-appeal-court/</link>
+	<content:encoded>After her lawyers threatened Linköping whistleblower Jaywant Phopase, accusing him of slander and demanding money, regmed researcher May Griffith wrote to me. She sent me a whole dossier: all misconduct findings against her were overruled, even in court.  Turns out, ethics dumping is good and anyway, she is not responsible for her own publications.</content:encoded>
+	<dc:date>2019-07-01T05:00:59+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-1566683991340579929">
 	<title>The Neurocritic: The Shock of the Unknown in Aphantasia: Learning that Visual Imagery Exists</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/IVvH1xN0kSQ/the-shock-of-unknown-in-aphantasia.html</link>
@@ -1319,6 +1389,213 @@ Senior Advisor, Ithaka S+R&lt;/p&gt;
 	<dc:date>2019-06-10T15:33:06+00:00</dc:date>
 	<dc:creator>Open &amp; Shut</dc:creator>
 </item>
+<item rdf:about="tag:neurofedora.github.io,2019-06-06:/2019/06/06/keeping-software-in-neurofedora-up-to-date.html">
+	<title>NeuroFedora blog: Keeping software in NeuroFedora up to date</title>
+	<link>https://neurofedora.github.io/2019/06/06/keeping-software-in-neurofedora-up-to-date.html</link>
+	<content:encoded>&lt;p&gt;Given the large number of software updates we published recently, we thought
+this is a good chance to explain how the &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; team (and the Fedora
+package maintainers team in general) stays on top of all of this software that
+is constantly being updated and improved.&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/PackageMaintainerFlowChart.png&quot;&gt;&lt;img alt=&quot;Simplified schematic of the package maintenance workflow in Fedora&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/PackageMaintainerFlowChart.png&quot; style=&quot;width: 50%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As the (simplified) figure shows, there is a well defined process to ensure
+that we keep our software in good shape---updating it all in a timely manner.
+The &lt;a class=&quot;reference external&quot; href=&quot;https://apps.fedoraproject.org&quot;&gt;Fedora Infrastructure team&lt;/a&gt; maintains
+lots of tools to enable the community in this aspect too, and all of these
+tools continuously evolve as the community moves to newer directions.&lt;/p&gt;
+&lt;p&gt;In the sections below, we go over the process step by step.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;upstream-releases-a-new-version&quot;&gt;
+&lt;h2&gt;1. Upstream releases a new version&lt;/h2&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip.png&quot;&gt;&lt;img alt=&quot;Screenshot: upstream releases a new version of indexed-gzip on Github&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip.png&quot; style=&quot;width: 90%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;It all starts with &lt;em&gt;upstream&lt;/em&gt; releasing a new version.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Upstream&lt;/em&gt; are the developers of the software. We at &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; (and most
+Linux distributions) are &lt;em&gt;downstream&lt;/em&gt;: we take developed software, build and
+integrate it all, and provide it in easily installable &lt;em&gt;packages&lt;/em&gt; to users.&lt;/p&gt;
+&lt;p&gt;On Fedora, these packages are provided as &lt;code&gt;rpm&lt;/code&gt; archives via the
+repositories. Other distributions may use other formats.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;anitya-notifies-us-maintainers-via-bugzilla&quot;&gt;
+&lt;h2&gt;2. Anitya notifies us maintainers via Bugzilla&lt;/h2&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-anitya.png&quot;&gt;&lt;img alt=&quot;Screenshot: Anitya detects the new version.&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-anitya.png&quot; style=&quot;width: 90%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Anitya&lt;/strong&gt;  runs at &lt;a class=&quot;reference external&quot; href=&quot;https://release-monitoring.org&quot;&gt;https://release-monitoring.org&lt;/a&gt; and monitors upstream for
+new versions.  &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/release-monitoring/anitya&quot;&gt;Anitya&lt;/a&gt; is
+able to monitor different upstream release methods such as Github, PyPi,
+Sourceforge, Gitlab, and so on.  When Anitya detects a new version it first
+checks to see what version of this software we are currently providing in
+Fedora. If it sees that the Fedora version is older than the new upstream
+version that it has detected, it files a bug on our community bug tracker at
+&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com&quot;&gt;https://bugzilla.redhat.com&lt;/a&gt; notifying the maintainers.&lt;/p&gt;
+&lt;p&gt;TIP: you can use the Fedora packages application at
+&lt;a class=&quot;reference external&quot; href=&quot;https://apps.fedoraproject.org/packages&quot;&gt;https://apps.fedoraproject.org/packages&lt;/a&gt; to search the full list of software
+that is currently included in Fedora. If you already know the name of the
+package, you can use &lt;code&gt;https://bugz.fedoraproject.org/&amp;lt;package name&amp;gt;&lt;/code&gt;
+(replace &lt;code&gt;&amp;lt;package name&amp;gt;&lt;/code&gt; with the name of the package, such as
+&lt;code&gt;nest&lt;/code&gt;) to go straight to a package's summary page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;maintainers-test-and-update-the-fedora-package&quot;&gt;
+&lt;h2&gt;3. Maintainers test and update the Fedora package&lt;/h2&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-bugzilla.png&quot;&gt;&lt;img alt=&quot;Screenshot: Anitya files a bug notifying the maintainers&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-bugzilla.png&quot; style=&quot;width: 90%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Once the bug has been filed, the next steps require manual work. There are
+tools to make it all easier, but this is where we humans come in.&lt;/p&gt;
+&lt;p&gt;One of the &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;NeuroFedora package maintainers&lt;/a&gt; notices the bug and begins
+to work on it. All notifications from bugzilla are sent to the &lt;a class=&quot;reference external&quot; href=&quot;https://lists.fedoraproject.org/archives/list/neuro-sig@lists.fedoraproject.org/&quot;&gt;neuro-sig
+mailing list&lt;/a&gt;,
+so the team is usually always aware of these.&lt;/p&gt;
+&lt;p&gt;First, we fetch the new source code and test it to see how it has changed in
+the new release. Is it a minor release with bug-fixes and enhancements, or is
+it a major release where lots of functionality has changed?&lt;/p&gt;
+&lt;p&gt;Sometimes, especially with development libraries, there are API/ABI changes
+that make the new version incompatible with the older ones. In such cases, we
+have to see how &lt;em&gt;all&lt;/em&gt; other software that depends on these is affected.  This
+is documented in the &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/fesco/Updates_Policy/&quot;&gt;community policy on updating software&lt;/a&gt;. The idea is
+that when new versions of software are released, as package maintainers, one of
+our duties is to ensure that the new versions do not break existing
+systems for our users.&lt;/p&gt;
+&lt;p&gt;If there is software that does not work with the latest versions, we
+maintainers try to help developers update their code. Here are some examples
+where we've notified maintainers:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/neuronsimulator/nrn/issues/145&quot;&gt;Neuron: use newer libstdc++&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/neuronsimulator/nrn/issues/113&quot;&gt;Neuron: use a more recent SUNDIALS version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/vxl/vxl/issues/627&quot;&gt;VXL: use newer openjpeg2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/vxl/vxl/issues/550&quot;&gt;VXL: use newer DCMTK&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When possible, we do try to provide patches and open pull requests. However,
+this depends on how much time we maintainers have and of course, it also
+depends on the complexity of the codebase.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/NeuralEnsemble/libNeuroML/pull/86&quot;&gt;libNeuroML: tweaks to manifest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/genesis-sim/genesis-2.4/pull/3&quot;&gt;genesis: update scripts to use python3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In general, &lt;strong&gt;we try to stay as close to upstream as possible&lt;/strong&gt;. This page
+lists the advantages of doing so:
+&lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Staying_close_to_upstream_projects&quot;&gt;https://fedoraproject.org/wiki/Staying_close_to_upstream_projects&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;a-maintainers-update-the-spec-file-and-build-new-rpms&quot;&gt;
+&lt;h3&gt;3a. Maintainers update the spec file and build new rpms&lt;/h3&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-sources.png&quot;&gt;&lt;img alt=&quot;Screenshot: A package maintainer updates the *spec* file.&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-sources.png&quot; style=&quot;width: 90%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If everything seems to work fine after we've managed to fix any issues, we
+begin to update the Fedora package. The first step here is to update the &lt;em&gt;spec&lt;/em&gt;
+file. The &lt;em&gt;spec&lt;/em&gt; file resides in the package's dist-git repository on
+&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/&quot;&gt;https://src.fedoraproject.org/rpms/&lt;/a&gt; where other Fedora tools can access it.
+When this has been updated to build the newest release, we queue up a new build
+on the &lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/&quot;&gt;Koji build system&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;spec&lt;/em&gt; files provide instructions that tell the &lt;code&gt;rpmbuild&lt;/code&gt; tool how to
+build the software, and where all its files should go in the &lt;code&gt;rpm&lt;/code&gt;
+package. More information on the process can be found &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Category:Package_Maintainers#Introduction_to_packaging&quot;&gt;here&lt;/a&gt;.
+You can see a relatively simple &lt;em&gt;spec&lt;/em&gt; file for &lt;code&gt;python-indexed_gzip&lt;/code&gt; &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/python-indexed_gzip/blob/master/f/python-indexed_gzip.spec&quot;&gt;here&lt;/a&gt;.
+&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/nest/blob/master/f/nest.spec&quot;&gt;This one&lt;/a&gt;
+for the &lt;code&gt;nest&lt;/code&gt; simulator, however, is a lot more complex since we must
+build it with MPI support also. If you want to see a real scary &lt;em&gt;spec&lt;/em&gt; file,
+though, look at &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/texlive/blob/master/f/texlive.spec&quot;&gt;this one&lt;/a&gt; for
+the &lt;code&gt;texlive&lt;/code&gt; package. It is auto generated from the &lt;a class=&quot;reference external&quot; href=&quot;http://www.tug.org/texlive/&quot;&gt;texlive&lt;/a&gt; sources, but you can imagine how hard it must
+be to debug.&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-koji.png&quot;&gt;&lt;img alt=&quot;Screenshot: A package maintainer queues up a new build.&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-koji.png&quot; style=&quot;width: 90%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The build system handles all our supported arches unless told not to do so.
+Currently, the Fedora community supports: &lt;code&gt;x86_64, i686, armv7hl,
+aarch64, ppc64le, s390x&lt;/code&gt;. More information on these architectures can be found
+&lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Architectures&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;quality-assurance-the-community-tests-the-updated-packages&quot;&gt;
+&lt;h2&gt;4. Quality assurance: the community tests the updated packages&lt;/h2&gt;
+&lt;p&gt;Once the builds have completed successfully, we push the builds to our &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/QA&quot;&gt;Quality
+Assurance&lt;/a&gt; pipeline for testing.&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi.png&quot;&gt;&lt;img alt=&quot;Screenshot: The Bodhi QA system manages our updates and their testing.&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi.png&quot; style=&quot;width: 90%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;It isn't enough to get the software to build correctly. We must also ensure
+that it &lt;em&gt;works&lt;/em&gt; correctly.  The pipeline lets community members (including
+users) &lt;em&gt;test&lt;/em&gt; these updated packages in a &lt;em&gt;staging repository&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can help test these updates.&lt;/em&gt; All you need to do is install them, and
+provide feedback. This is all explained &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/QA:Updates_Testing&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi-ind.png&quot;&gt;&lt;img alt=&quot;Screenshot: An update on Bodhi that has been pushed to stable.&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190603-indexed-gzip-bodhi-ind.png&quot; style=&quot;width: 90%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If the packages pass the community's battery of automated checks, and testers
+provide positive feedback on their functioning, they are then moved from the
+staging repositories to the &lt;em&gt;stable&lt;/em&gt; repositories where they are available to
+all users.&lt;/p&gt;
+&lt;p&gt;These general steps are not limited to the &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; team. They are followed
+by all &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/project/#_what_is_fedora_all_about&quot;&gt;Fedora community&lt;/a&gt;.
+&lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Join_the_package_collection_maintainers&quot;&gt;package maintainers&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;the-community-uses-develops-extends-shares-their-work&quot;&gt;
+&lt;h2&gt;5. The community uses/develops/extends/shares their work&lt;/h2&gt;
+&lt;p&gt;When all this is done and the packages available to install via the different
+package management tools (&lt;code&gt;dnf&lt;/code&gt;/Gnome-software/DNFDragora/Discover),
+other community members are able to use, develop, extend, share and do more
+with these tools.&lt;/p&gt;
+&lt;p&gt;I don't like to use the word &quot;users&quot; because unlike let's say Nvidia who is a
+&quot;vendor&quot; and provides software to its &quot;users&quot;, Fedora is a community with a
+large portion of people using our software also helping maintain and develop
+it. Everyone who uses Fedora is already a community member, for they help us
+achieve our goal---to spread Free/Open source software and awareness about it.
+This is perhaps worth a whole post in itself, though.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;join-the-community&quot;&gt;
+&lt;h2&gt;Join the community!&lt;/h2&gt;
+&lt;p&gt;Since community projects aren't profit focussed, instead of money, the resource
+we most need is man-power. Each new contributor increases the sum total man-power
+possessed by the community and this enables us to work with more software, help
+more developers, improve all of this software in general---get more work done.&lt;/p&gt;
+&lt;p&gt;If you've gotten this far, you would have probably realised that there is quite
+a bit of work to be done, and there are ample opportunities where you can help
+in this area of &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;/Fedora.  You can:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;suggest software for inclusion&lt;/li&gt;
+&lt;li&gt;package and maintain software&lt;/li&gt;
+&lt;li&gt;test packaged software&lt;/li&gt;
+&lt;li&gt;file bugs and report issues&lt;/li&gt;
+&lt;li&gt;help maintain the tools that are required to keep the community ticking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information on all of this is included in our documentation &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/contributing/&quot;&gt;here&lt;/a&gt;. The
+easiest way, though, is probably just to have a chat with the team. Catch us
+anytime on our &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&quot;&gt;communication channels&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;</content:encoded>
+	<dc:date>2019-06-06T10:55:58+00:00</dc:date>
+	<dc:creator>Ankur Sinha</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-7961882.post-8643079142044142360">
 	<title>Open and Shut?: Why did Riksbankens Jubileumsfond decide to leave cOAlition S?</title>
 	<link>https://poynder.blogspot.com/2019/06/why-did-riksbankens-jubileumsfond.html</link>
@@ -1716,58 +1993,6 @@ We hypothesize that, even before combat, soldiers with a childhood background of
 	<content:encoded>Professor Shukla is a bigwig in Indian toxicology because he uses fresh fruit, tea and curry spices to cure cancer. For maximum effect, his lab resorts to fabricating data in Photoshop.</content:encoded>
 	<dc:date>2019-05-29T18:57:12+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="http://blogs.plos.org/plos/?p=8588">
-	<title>The Official PLOS Blog: Depositing and reporting of reagents: Accelerating open and reproducible science.</title>
-	<link>http://feeds.plos.org/~r/plos/Blog/~3/kenJ3zbESX0/</link>
-	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/plos/files/2019/05/Add-Gene-Image-150x150.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The following blog was written by Angela Abitua (ORCiD ID: &lt;/span&gt;&lt;/i&gt;&lt;a href=&quot;https://orcid.org/0000-0002-8059-4050&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;0000-0002-8059-4050&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;) and Joanne Kamens (ORCiD ID: &lt;/span&gt;&lt;/i&gt;&lt;a href=&quot;https://orcid.org/0000-0002-7000-1477&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;0000-0002-7000-1477&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;) from Addgene. PLOS is excited to support reagent repositories such as Addgene as yet another step to improve scientific reproducibility. Open access to research findings and the underlying methods, materials and data, and issues surrounding reproducibility, replication, and research waste will be discussed this June 2-5 at the&lt;/span&gt;&lt;/i&gt;&lt;a href=&quot;http://www.wcri2019.org/index/programme/conference-theme&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; 6&lt;/span&gt;&lt;/i&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;th&lt;/span&gt;&lt;/i&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; World Conference on Research Integrity in Hong Kong&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, where PLOS ONE’s Senior Editor, Renee Hoch, will present a talk on data availability and image integrity.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Without materials and data, there is no research. Barriers to scientific progress can result from something as basic as not having access to reliable, validated information for research materials. That barrier is raised further when scientists cannot obtain samples or data in a timely fashion. Data and material repositories are breaking down these barriers. As a publisher, PLOS is supporting better, more open science by recommending repositories and encouraging use of standardized, unique identifiers &lt;/span&gt;&lt;a href=&quot;https://journals.plos.org/plosbiology/s/materials-and-software-sharing#loc-sharing-materials&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;for materials&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Centralized depositing of materials advances science in so many ways. It saves authors the time and burden of shipping requested materials. Researchers who request from repositories save time by not having to recreate reagents or wait months or years to receive samples. Many scientists have been on the receiving end of a request that was filled by an incorrect or degraded sample, which further delays research. Repositories like the ones recommended by &lt;/span&gt;&lt;a href=&quot;https://journals.plos.org/plosone/s/materials-and-software-sharing#loc-sharing-materials&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PLOS&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; handle the logistics of material requests, letting the scientists focus on what’s important: doing research.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For example, repositories make it possible for researchers to get access to different cell lines (&lt;/span&gt;&lt;a href=&quot;http://www.atcc.org/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;American Type Culture Collection&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://www.coriell.org/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Coriell Institute&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;), plant materials (&lt;/span&gt;&lt;a href=&quot;https://abrc.osu.edu/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Arabidopsis Biological Resource Center&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;), organisms (&lt;/span&gt;&lt;a href=&quot;https://bdsc.indiana.edu/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bloomington Drosophila Stock Center&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://cbs.umn.edu/cgc/home&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Caenorhabditis Genetics Center&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://xenopusresource.org/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;European Xenopus Resource Centre&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://www.jax.org/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Jackson Laboratory&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;), plasmids (&lt;/span&gt;&lt;a href=&quot;https://www.addgene.org/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Addgene&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://dnasu.org/DNASU/Home.do&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;DNASU&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://plasmid.med.harvard.edu/PLASMID/Home.xhtml&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PlasmID&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;) and many other biological materials. Moreover, many of these repositories provide web-based databases that are easy to search and provide openly available information about each material. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For reagent reporting, many repositories also support&lt;/span&gt;&lt;a href=&quot;https://blog.addgene.org/unique-and-persistent-plasmid-ids-available-addgene-plasmid-ids-rrids&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; unique and persistent identification of reagents&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Identifiers like &lt;/span&gt;&lt;a href=&quot;https://scicrunch.org/resources&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Research Resource Identifiers (RRIDs)&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; make it easy for authors to cite materials and improves reporting through standardized identification and a permanent link to information about each reagent. For example, each &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Drosophila&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; strain at the Bloomington Fly stock Center is assigned a &lt;/span&gt;&lt;a href=&quot;https://scicrunch.org/resources/Any/search?q=BDSC_722&amp;amp;l=BDSC_722&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;fly stock RRID&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. For mice, the Mutant Mouse Resource and Research Centers (MMRRC) provides a &lt;/span&gt;&lt;a href=&quot;https://scicrunch.org/resources/Any/search?q=MMRRC_026409-UCD&amp;amp;l=MMRRC_026409-UCD&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;mouse RRID&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for mutant mouse strains. For plasmids, Addgene will automatically register a &lt;/span&gt;&lt;a href=&quot;https://scicrunch.org/resources/Plasmids/search?q=Addgene_44362&amp;amp;l=Addgene_44362&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;plasmid RRID&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; upon deposit. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Depositing increases materials transparency and reproducibility&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Addgene currently contains over 70,000 unique plasmids and has distributed &lt;/span&gt;&lt;a href=&quot;https://blog.addgene.org/celebrating-one-million-plasmids-shared&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;over 1,000,000 plasmids&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; worldwide since 2004. At Addgene, depositing plasmids is free and straightforward, with the added bonus that it provides quality control measures that contribute to improved reproducibility. Addgene performs full plasmid sequencing and each plasmid is assigned a unique &lt;/span&gt;&lt;a href=&quot;https://scicrunch.org/resources/Plasmids/search?q=Addgene_44362&amp;amp;l=Addgene_44362&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;RRID identifier&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, along with &lt;/span&gt;&lt;a href=&quot;https://www.addgene.org/44362/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;a plasmid webpage&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; that provides sequence data, cloning information, and associated protocols. This ensures researchers have detailed information about each plasmid reagent. Moreover, each Addgene plasmid page provides an &lt;/span&gt;&lt;a href=&quot;https://blog.addgene.org/more-data-for-you-find-articles-citing-addgene-plasmids&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Articles Citing this Plasmid&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; section which allows researchers to learn how the plasmid was used and validated by different labs.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Recognition and credit for depositing authors&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Depositing materials at the time of publication also provides benefits to both authors and publishers. Depositing authors gain recognition and are cited whenever requestors use the published materials in their own research articles. In fact, data from Addgene supports that depositing published plasmids in Addgene’s repository increases their use and &lt;/span&gt;&lt;a href=&quot;https://blog.addgene.org/addgene-depositors-get-more-citations&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;results in increased article citations&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Deposition at the point of publication also ensures timely distribution of materials. Finally, the information linked to each deposited reagent serves as reliable open data for the materials reported in the publication, simplifying the manuscript-writing process. Overall, PLOS’s support of reagent repositories, follows the publisher’s steps in improving &lt;/span&gt;&lt;a href=&quot;https://journals.plos.org/plosone/s/data-availability&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;data availability&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;https://journals.plos.org/plosbiology/s/submission-guidelines#loc-materials-and-methods&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;protocol sharing&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and is a welcome addition for improving materials access and scientific reproducibility.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;New sharing practices will change science for the better&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;By encouraging authors to deposit materials at the time of publication, journals will help accelerate research through timely distribution and accurate identification of reagents. Biological repositories exist to serve the scientific community. Take &lt;/span&gt;&lt;a href=&quot;https://www.liebertpub.com/doi/10.1089/crispr.2018.0022&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Addgene’s involvement&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; in the explosive advancement of CRISPR research. Since 2012, over 8,400 CRISPR plasmids have been deposited and Addgene has distributed over 144,000 CRISPR plasmids worldwide, enabling researchers to share, modify, and improve this game-changing molecular tool. It is a prime example of the positive impact that biological repositories are making on research. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Thanks to PLOS’s updated recommendations, the importance of depositing and sharing reagents is finally getting some much-needed recognition. If the positive outcomes of PLOS’s &lt;/span&gt;&lt;a href=&quot;https://blogs.plos.org/everyone/2017/05/08/making-progress-toward-open-data/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;data availability&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;a href=&quot;https://blogs.plos.org/plos/2018/04/reproducibility-and-recognition-one-year-later/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;protocol sharing&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; policies is any indication of what’s in store for open material sharing, the future of science looks bright: speedier, more transparent, and more reproducible research.&lt;/span&gt;&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/kenJ3zbESX0&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2019-05-29T16:05:21+00:00</dc:date>
-	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9924">
-	<title>Discovery magazine - Neuroskeptic: Was Stephen Hawking's Illness Psychosomatic? (No.)</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9924</link>
-	<content:encoded>A paper in a peer-reviewed medical journal makes the suggestion that physicist Stephen Hawking's disability, which famously confined him to a wheelchair and robbed him of his speech, was psychosomatic in nature.
-
-
-
-Hmm. I think this says more about the author than it does about Hawking.
-
-
-
-
-
-
-
-The paper is called Delusional Health Beliefs and it comes by British doctor Peter May. It was published a few days ago in the Medico-Legal Journal.
-
-
-
-
-
-
-
-May begins the paper by discussing conversion di</content:encoded>
-	<dc:date>2019-05-25T19:40:33+00:00</dc:date>
-</item>
-<item rdf:about="http://brainsciencepodcast.libsyn.com/d3d0dbf14e214268976f7b3a7afff5b4">
-	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 157 Donald MacKay, author of &quot;Remembering: What 50 Years of Research with Famous Amnesia Patient H.M. Can Teach Us about Memory and How It Works&quot;</title>
-	<link>http://brainsciencepodcast.libsyn.com/bs-157-mackay</link>
-	<content:encoded>&lt;p&gt;This episode of &lt;em&gt;Brain Science&lt;/em&gt; features Dr. Donald MacKay, author of &lt;em&gt;&lt;a href=&quot;https://amzn.to/2PXGGTK&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Remembering: What 50 Years of Research with Famous Amnesia Patient H.M. Can Teach Us about Memory and How It Works&lt;/a&gt;&lt;/em&gt;. H.M. may have been the most studied patient in history, but Mackay's work uncovers some surprising discoveries about the role of the hippocampus in language, as well as important implications for the aging brain.&lt;/p&gt; &lt;p&gt;Please go to &lt;a href=&quot;http://brainsciencepodcast.com&quot;&gt;http://brainsciencepodcast.com&lt;/a&gt; for complete show notes and episode transcripts.&lt;/p&gt; &lt;p&gt; Announcements:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Send email to brainsciencepodcast@gmail.com or post voice feedback at &lt;a href=&quot;http://speakpipe.com/docartemis&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;.&lt;/li&gt; &lt;li&gt;To win an Amazon gift certificate: post a review of &lt;em&gt;Brain Science&lt;/em&gt; in iTunes and send me a screenshot.&lt;/li&gt; &lt;li&gt;Learn about Premium Content at &lt;a href=&quot;http://brainsciencepodcast.com/donations&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;http://brainsciencepodcast.com/donations&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Connect on Social Media:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Twitter: &lt;a href=&quot;http://twitter.com/docartemis&quot;&gt;@&lt;/a&gt;&lt;a href=&quot;http://twitter.com/docartemis&quot;&gt;docartemis&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Facebook page: &lt;a href=&quot;http://www.facebook.com/brainsciencepodcast&quot;&gt;http://www.facebook.com/brainsciencepodcast&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Please Visit Our Sponsors:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;http://brainsciencepodcast.libsyn.com/babbel.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Babbel:&lt;/a&gt; the worlds leading language learning app&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://textexpander.com/lp/podcast?utm_source=brainscience&amp;amp;utm_medium=podcast&amp;amp;utm_campaign=textexpa&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;TextExpander:&lt;/a&gt; an app for Mac and Windows that saves you lots of time&lt;/li&gt; &lt;/ul&gt;</content:encoded>
-	<dc:date>2019-05-24T09:00:00+00:00</dc:date>
-	<dc:creator>Ginger Campbell, MD</dc:creator>
 </item>
 
 </rdf:RDF>
