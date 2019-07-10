@@ -17,6 +17,7 @@
 		<rdf:Seq>
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moons-escape-their-planets-could-become-ploonets" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-time-calendar-ancient-human-art" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/aspire-prize-finalists-use-laboratory-of-nature-to-tackle-global-challenges" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102396" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mysterious-coral-disease-ravaging-caribbean-reefs" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mri-scan-most-detailed-look-yet-whole-human-brain" />
@@ -114,7 +115,6 @@
 			<rdf:li rdf:resource="http://retractionwatch.com/?p=100930" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37366" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/cold-war-spy-satellite-images-himalayan-glaciers-rapid-melting" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/body-chip-mimics-how-organs-cancer-cells-react-drugs" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -132,6 +132,12 @@
 	<content:encoded>Whether the moon was a timekeeper for early humans, as first argued during the Apollo missions, is still up for debate.</content:encoded>
 	<dc:date>2019-07-09T12:00:02+00:00</dc:date>
 	<dc:creator>Rebecca Boyle</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/aspire-prize-finalists-use-laboratory-of-nature-to-tackle-global-challenges">
+	<title>Elsevier Connect: ASPIRE Prize finalists use ‘laboratory of nature’ to tackle global challenges</title>
+	<link>https://www.elsevier.com/connect/aspire-prize-finalists-use-laboratory-of-nature-to-tackle-global-challenges</link>
+	<content:encoded>This year’s ASPIRE Prize recognizes young scientists for “innovative research that advances society through natural laboratories”</content:encoded>
+	<dc:date>2019-07-09T10:54:16+00:00</dc:date>
 </item>
 <item rdf:about="https://retractionwatch.com/?p=102396">
 	<title>Retraction watch: Stanford calling for retractions of work by deceased star cancer researcher</title>
@@ -1291,13 +1297,6 @@ It turns out that the 'calcifying nanoparticles' ment</content:encoded>
 	<content:encoded>Declassified spy satellite photographs reveal that glacier melt in the Himalayas has sped up dramatically in the last two decades.</content:encoded>
 	<dc:date>2019-06-19T18:00:25+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/body-chip-mimics-how-organs-cancer-cells-react-drugs">
-	<title>Science News: This body-on-a-chip mimics how organs and cancer cells react to drugs</title>
-	<link>https://www.sciencenews.org/article/body-chip-mimics-how-organs-cancer-cells-react-drugs</link>
-	<content:encoded>The multiorgan system could help test new and existing drugs for effectiveness and unwanted side effects.</content:encoded>
-	<dc:date>2019-06-19T18:00:25+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
