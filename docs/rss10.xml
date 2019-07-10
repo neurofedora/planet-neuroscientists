@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/both-fish-and-humans-have-rem-sleep" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/greek-skull-oldest-human-homo-sapiens-outside-africa" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8681" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/toddlers-tend-opt-last-thing-set-so-craft-your-questions-carefully" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41793" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-honeybees-had-worst-winter-die-more-decade" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/baby-fish-connect-world-fisheries-computer-simulation" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8628" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/elsevier-and-500-queer-scientists-to-hold-nyc-event-for-world-pride" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/mice-bats-brains-neural-synchrony" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/both-fish-and-humans-have-rem-sleep">
+	<title>Science News: Both fish and humans have REM-like sleep</title>
+	<link>https://www.sciencenews.org/article/both-fish-and-humans-have-rem-sleep</link>
+	<content:encoded>Sleeping zebrafish have brain and body activity similar to snoozing mammals, suggesting that sleep evolved at least 450 million years ago.</content:encoded>
+	<dc:date>2019-07-10T17:38:50+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/greek-skull-oldest-human-homo-sapiens-outside-africa">
+	<title>Science News: A Greek skull may belong to the oldest human found outside of Africa</title>
+	<link>https://www.sciencenews.org/article/greek-skull-oldest-human-homo-sapiens-outside-africa</link>
+	<content:encoded>Humans possibly reached southeastern Europe by 210,000 years ago.</content:encoded>
+	<dc:date>2019-07-10T17:00:08+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
 <item rdf:about="http://blogs.plos.org/plos/?p=8681">
 	<title>The Official PLOS Blog: Birds, bees, Beethoven–and other PLOS research making June headlines!</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/wpAJFpKUpCo/</link>
@@ -178,9 +192,9 @@
 	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 <item rdf:about="https://retractionwatch.com/?p=102300">
-	<title>Retraction watch: Chemistry researcher who studies oil wells is up to eight retractions</title>
+	<title>Retraction watch: Chemistry researcher who studies oil wells is up to seven retractions</title>
 	<link>https://retractionwatch.com/2019/07/10/chemistry-researcher-up-to-eight-retractions/</link>
-	<content:encoded>A chemistry researcher in India is up to eight retractions for problematic images and other issues.  The researcher, Mahendra Yadav, was the first author on an article titled “Corrosion inhibition of tubing steel during acidization of oil and gas wells,” which appeared in 2013 in the Journal of Petroleum Engineering (JPE). Yadav, who also has … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/10/chemistry-researcher-up-to-eight-retractions/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Chemistry researcher who studies oil wells is up to eight retractions&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<content:encoded>A chemistry researcher in India is up to seven retractions and one correction for problematic images and other issues.  The researcher, Mahendra Yadav, was the first author on an article titled “Corrosion inhibition of tubing steel during acidization of oil and gas wells,” which appeared in 2013 in the Journal of Petroleum Engineering (JPE). Yadav, … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/10/chemistry-researcher-up-to-eight-retractions/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Chemistry researcher who studies oil wells is up to seven retractions&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-07-10T10:00:25+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
 </item>
@@ -1303,19 +1317,6 @@ It turns out that the 'calcifying nanoparticles' ment</content:encoded>
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/0YH0Z6XoRFo&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-06-20T16:00:27+00:00</dc:date>
 	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/elsevier-and-500-queer-scientists-to-hold-nyc-event-for-world-pride">
-	<title>Elsevier Connect: Elsevier and 500 Queer Scientists to hold NYC event for World Pride</title>
-	<link>https://www.elsevier.com/connect/elsevier-and-500-queer-scientists-to-hold-nyc-event-for-world-pride</link>
-	<content:encoded>Six members of the LGBTQI community will talk about how their experiences in science and academia have shaped their outlook on work, life and society</content:encoded>
-	<dc:date>2019-06-20T15:21:22+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/mice-bats-brains-neural-synchrony">
-	<title>Science News: Mice and bats’ brains sync up as they interact with their own kind</title>
-	<link>https://www.sciencenews.org/article/mice-bats-brains-neural-synchrony</link>
-	<content:encoded>The brain activity of mice and bats aligns in social settings, a coordination that may hold clues about how social context influences behavior.</content:encoded>
-	<dc:date>2019-06-20T15:00:11+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
