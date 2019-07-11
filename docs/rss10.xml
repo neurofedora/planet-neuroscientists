@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/artificial-intelligence-has-now-pretty-much-conquered-poker" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102686" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/southern-right-whale-moms-calves-may-whisper-evade-orcas" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-bird-found-encased-amber-had-bizarrely-long-toe" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ticks-lyme-disease-testing-new-approaches" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9943" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/parasites-ruin-songs-darwin-finches-galapagos-islands" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/cosmic-cow-may-be-strange-supernova" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/artificial-intelligence-has-now-pretty-much-conquered-poker">
+	<title>Science News: Artificial intelligence has now pretty much conquered poker</title>
+	<link>https://www.sciencenews.org/article/artificial-intelligence-has-now-pretty-much-conquered-poker</link>
+	<content:encoded>A new artificial intelligence called Pluribus is a real card shark at six-player no-limit Texas Hold’em.</content:encoded>
+	<dc:date>2019-07-11T18:00:26+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=102686">
 	<title>Retraction watch: US government watchdog gets new director</title>
 	<link>https://retractionwatch.com/2019/07/11/us-government-watchdog-gets-new-director/</link>
@@ -1295,13 +1302,6 @@ It turns out that the 'calcifying nanoparticles' ment</content:encoded>
 	<content:encoded>Parasitic fly larvae damage the beaks of Galápagos finches, changing their mating songs and possibly causing females to pick males of a different species.</content:encoded>
 	<dc:date>2019-06-21T15:39:59+00:00</dc:date>
 	<dc:creator>Carolyn Wilke</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/cosmic-cow-may-be-strange-supernova">
-	<title>Science News: The cosmic ‘Cow’ may be a strange supernova</title>
-	<link>https://www.sciencenews.org/article/cosmic-cow-may-be-strange-supernova</link>
-	<content:encoded>New observations suggest the strange bright burst called the ‘Cow’ was a supernova, rather than a shredded star.</content:encoded>
-	<dc:date>2019-06-21T14:54:45+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
