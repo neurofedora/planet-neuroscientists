@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/apollo-moon-landing-anniversary-books" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102816" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/tiny-glasses-praying-mantis-3d-vision-nerve-cells" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/solar-powered-device-produces-energy-cleans-water" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dried-earth-microbes-could-grow-mars-just-little-humidity" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/3d-mammograms-popular-breast-cancer-screening-evidence" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/gut-microbes-elite-athletes-physical-performance-enhancement" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/capuchin-monkey-stone-tool-use-evolution-3000-years" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/apollo-moon-landing-anniversary-books">
+	<title>Science News: Celebrate the moon landing anniversary with books that go beyond the small step</title>
+	<link>https://www.sciencenews.org/article/apollo-moon-landing-anniversary-books</link>
+	<content:encoded>New books about Apollo 11 and the mission to the moon offer something for everyone, from astronomy lovers to fans of graphic novels and self-improvement buffs.</content:encoded>
+	<dc:date>2019-07-14T10:00:17+00:00</dc:date>
+	<dc:creator>Science News</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=102816">
 	<title>Retraction watch: Weekend reads: Researcher resigns following questions about ties to China; grad student’s suicide sparks misconduct investigation; study of chronic fatigue syndrome corrected</title>
 	<link>https://retractionwatch.com/2019/07/13/weekend-reads-researcher-resigns-following-questions-about-ties-to-china-grad-students-suicide-sparks-misconduct-investigation-study-of-chronic-fatigue-syndrome-corrected/</link>
@@ -1276,13 +1283,6 @@ Fiske's post (which later appeared in a more moderate version) was seen as pushb
 	<content:encoded>Veillonella bacteria increased in some runners’ guts after a marathon, and may make a compound that might boost endurance, a mouse study suggests.</content:encoded>
 	<dc:date>2019-06-24T15:00:18+00:00</dc:date>
 	<dc:creator>Carolyn Wilke</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/capuchin-monkey-stone-tool-use-evolution-3000-years">
-	<title>Science News: Capuchin monkeys’ stone-tool use has evolved over 3,000 years</title>
-	<link>https://www.sciencenews.org/article/capuchin-monkey-stone-tool-use-evolution-3000-years</link>
-	<content:encoded>A Brazilian archaeological site reveals capuchins’ long history of practical alterations to pounding implements, researchers say.</content:encoded>
-	<dc:date>2019-06-24T15:00:18+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 
 </rdf:RDF>
