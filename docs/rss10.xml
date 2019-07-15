@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/sunny-day-high-tide-floods-are-rise-along-us-coasts" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/probiotic-bacteria-spray-bats-deadly-white-nose-syndrome" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-apollo-anniversary-moon-rocks-preservation" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41829" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37408" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41692" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/signs-color-blue-found-fossil-bird-first-time" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/massospora-fungi-cicadas-psilocybin-amphetamine-nonstop-mating" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/sunny-day-high-tide-floods-are-rise-along-us-coasts">
+	<title>Science News: ‘Sunny day’ high tide floods are on the rise along U.S. coasts</title>
+	<link>https://www.sciencenews.org/article/sunny-day-high-tide-floods-are-rise-along-us-coasts</link>
+	<content:encoded>Sea level rise led to record-breaking tidal flooding in cities along the U.S. East Coast, a NOAA report found.</content:encoded>
+	<dc:date>2019-07-15T17:01:25+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/probiotic-bacteria-spray-bats-deadly-white-nose-syndrome">
 	<title>Science News: Spraying bats with ‘good’ bacteria may combat deadly white nose syndrome</title>
 	<link>https://www.sciencenews.org/article/probiotic-bacteria-spray-bats-deadly-white-nose-syndrome</link>
@@ -1269,13 +1276,6 @@ Fiske's post (which later appeared in a more moderate version) was seen as pushb
 	<content:encoded>Scientists think they’ve spotted hints of blue plumage in a fossilized bird from 48 million years ago.</content:encoded>
 	<dc:date>2019-06-25T23:01:16+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/massospora-fungi-cicadas-psilocybin-amphetamine-nonstop-mating">
-	<title>Science News: These fungi drug cicadas with psilocybin or amphetamine to make them mate nonstop</title>
-	<link>https://www.sciencenews.org/article/massospora-fungi-cicadas-psilocybin-amphetamine-nonstop-mating</link>
-	<content:encoded>Massospora fungi use a compound found in magic mushrooms or an amphetamine to drive infected cicadas to mate and mate and mate.</content:encoded>
-	<dc:date>2019-06-25T18:42:50+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
