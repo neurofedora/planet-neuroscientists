@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/deadly-fungus-gives-zombie-ants-lockjaw" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/who-declares-public-health-emergency-over-congo-ebola-outbreak" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8691" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/planting-trees-could-buy-more-time-fight-climate-change-thought" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37549" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/585597b6dd26497cba5aeacd6b2d09d9" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37420" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dragonfly-nasa-saturn-moon-titan" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/telescopes-tracked-fast-radio-burst-faraway-galaxy" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/high-fat-diet-brain-appetite-mice" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/deadly-fungus-gives-zombie-ants-lockjaw">
+	<title>Science News: A deadly fungus gives ‘zombie’ ants a case of lockjaw</title>
+	<link>https://www.sciencenews.org/article/deadly-fungus-gives-zombie-ants-lockjaw</link>
+	<content:encoded>Clues left on infected ant jaws may reveal how the ‘zombie-ant-fungus’ contracts ant muscles to make their death grip.</content:encoded>
+	<dc:date>2019-07-17T22:00:21+00:00</dc:date>
+	<dc:creator>Carolyn Wilke</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/who-declares-public-health-emergency-over-congo-ebola-outbreak">
+	<title>Science News: WHO declares a public health emergency over Congo’s Ebola outbreak</title>
+	<link>https://www.sciencenews.org/article/who-declares-public-health-emergency-over-congo-ebola-outbreak</link>
+	<content:encoded>The yearlong Ebola outbreak in the Congo has been declared a public health emergency by the World Health Organization.</content:encoded>
+	<dc:date>2019-07-17T20:42:55+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="http://blogs.plos.org/plos/?p=8691">
 	<title>The Official PLOS Blog: Get to know an Academic Editor: Lars Juhl Jensen</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/MapXfdR5AYA/</link>
@@ -1345,20 +1359,6 @@ Fiske's post (which later appeared in a more moderate version) was seen as pushb
 	<content:encoded>NASA’s next robotic mission to explore the solar system is headed to Saturn’s largest moon, Titan.</content:encoded>
 	<dc:date>2019-06-27T22:16:12+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/telescopes-tracked-fast-radio-burst-faraway-galaxy">
-	<title>Science News: In a first, telescopes tracked a lone fast radio burst to a faraway galaxy</title>
-	<link>https://www.sciencenews.org/article/telescopes-tracked-fast-radio-burst-faraway-galaxy</link>
-	<content:encoded>First-time observations suggest that the cause of one-time fast radio bursts is different from what triggers repeatedly flashing radio bursts.</content:encoded>
-	<dc:date>2019-06-27T18:00:27+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/high-fat-diet-brain-appetite-mice">
-	<title>Science News: In mice, a high-fat diet cuts a ‘brake’ used to control appetite</title>
-	<link>https://www.sciencenews.org/article/high-fat-diet-brain-appetite-mice</link>
-	<content:encoded>A fatty diet changes the behavior of key appetite-regulating cells in a mouse brain.</content:encoded>
-	<dc:date>2019-06-27T18:00:27+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
