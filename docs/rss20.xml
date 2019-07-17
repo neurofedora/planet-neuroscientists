@@ -9,6 +9,120 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Science News: This gene may help worms live longer, but not healthier</title>
+	<guid isPermaLink="true">https://www.sciencenews.org/article/gene-may-help-worms-live-longer-not-healthier</guid>
+	<link>https://www.sciencenews.org/article/gene-may-help-worms-live-longer-not-healthier</link>
+	<description>Anti-aging therapies may have trade-offs, research on worms suggests.</description>
+	<pubDate>Wed, 17 Jul 2019 09:00:04 +0000</pubDate>
+        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2019/07/main/articles/071619_ti_longevity_feat.jpg?itok=nG0Yvj3-" length="31946" type="image/jpeg"/>
+  <source url=""></source>
+</item>
+<item>
+	<title>NeuroFedora blog: NEURON in NeuroFedora needs testing</title>
+	<guid isPermaLink="false">tag:neurofedora.github.io,2019-07-17:/2019/07/17/neuron-in-neurofedora-needs-testing.html</guid>
+	<link>https://neurofedora.github.io/2019/07/17/neuron-in-neurofedora-needs-testing.html</link>
+	<description>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We have been working on including the &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt; simulator in &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; for a
+while now. The build process that &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt; uses has certain peculiarities that
+make it a little harder to build.&lt;/p&gt;
+&lt;p&gt;For those that are interested in the technical details, while the main &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt;
+core is built using the standard &lt;code&gt;./configure; make ; make install&lt;/code&gt;
+process that cleanly differentiates the &quot;build&quot; and &quot;install&quot; phases, the
+Python bits are built as a &quot;post-install hook&quot;. That is to say, they are built
+after the other bits in the &quot;install&quot; step instead of the &quot;build&quot; step. This
+implies that the build is not quite straightforward and must be slightly
+tweaked to ensure that the &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/&quot;&gt;Fedora packaging guidelines&lt;/a&gt; are met.&lt;/p&gt;
+&lt;p&gt;After discussing things on this &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/neuronsimulator/nrn/issues/238&quot;&gt;Github issue&lt;/a&gt;, the developers,
+&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/nrnhines&quot;&gt;@nrnhines&lt;/a&gt; (Michael Hines) and &lt;a class=&quot;reference external&quot; href=&quot;https://ramcdougal.com/&quot;&gt;@ramcdougal&lt;/a&gt; (Robert A McDougal) helped me understand the
+complexities of the build process and get it done. They have also mentioned
+that &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt; is now moving to a &lt;a class=&quot;reference external&quot; href=&quot;https://cmake.org/&quot;&gt;CMake&lt;/a&gt; based build system and should be simpler
+to work with in the future. &lt;a class=&quot;reference external&quot; href=&quot;https://cmake.org/&quot;&gt;CMake&lt;/a&gt; is generally nicer for projects that include
+different languages and build systems.&lt;/p&gt;
+&lt;p&gt;After a few hours of work, &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt; is now ready to use in &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;. It is
+built with Python 3, and does not currently provide IV and MPI bits. These will
+be worked upon later. Since &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/INCF/MUSIC&quot;&gt;MUSIC&lt;/a&gt; is not yet in &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt; does not
+support &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/INCF/MUSIC&quot;&gt;MUSIC&lt;/a&gt; either currently. This is also a &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/28&quot;&gt;work in progress&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have tested the &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt; build on my machine with a few example simulations
+and it works well, but this cannot be considered exhaustive testing of the
+package. If you have a &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; system, please test &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt; and let us know if
+you notice any issues. Here's how.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;step-1-set-up-a-fedora-installation&quot;&gt;
+&lt;h2&gt;Step 1: Set up a Fedora installation&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is based on &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt;, so the simplest way to use it is to install a
+Fedora Workstation using the live images available on &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;https://getfedora.org&lt;/a&gt;.
+You can either install it on a system or use a virtual machine if you wish.
+&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; includes lots of other software for neuroscience also. You can
+learn more in our &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/software/&quot;&gt;documentation&lt;/a&gt;.  &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt;, in
+general, provides lots of other software too. You can search them using the
+&lt;a class=&quot;reference external&quot; href=&quot;https://apps.fedoraproject.org/packages/s/&quot;&gt;Fedora Packages web application&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;step-2-install-neuron&quot;&gt;
+&lt;h2&gt;Step 2: Install NEURON&lt;/h2&gt;
+&lt;p&gt;I would recommend updating your system before proceeding using &lt;code&gt;dnf&lt;/code&gt; in a
+terminal:&lt;/p&gt;
+&lt;pre class=&quot;code bash literal-block&quot;&gt;sudo dnf update --refresh
+&lt;/pre&gt;
+&lt;p&gt;Then, you can install &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt;. It is currently in the testing repositories, so
+they will need to be enabled for the command:&lt;/p&gt;
+&lt;pre class=&quot;code bash literal-block&quot;&gt;sudo dnf --enablerepo&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;updates-testing install neuron python3-neuron
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;step-3-test-it-out&quot;&gt;
+&lt;h2&gt;Step 3: Test it out&lt;/h2&gt;
+&lt;p&gt;Test it out with your models. Hopefully, everything will work fine. The &lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/&quot;&gt;NEURON&lt;/a&gt;
+documentation is here for those that would like to tinker with it too:
+&lt;a class=&quot;reference external&quot; href=&quot;https://www.neuron.yale.edu/neuron/docs&quot;&gt;https://www.neuron.yale.edu/neuron/docs&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;step-4-give-feedback&quot;&gt;
+&lt;h2&gt;Step 4: Give feedback&lt;/h2&gt;
+&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;Bodhi logo&quot; class=&quot;img-responsive&quot; src=&quot;https://neurofedora.github.io/images/20190716-Bodhi.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org&quot;&gt;Bodhi&lt;/a&gt;, the Fedora Quality Assurance web application.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;This step is optional, especially if everything works fine. If you experience
+any issues, please do get in touch with us. You can either contact us directly
+using one of our &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&quot;&gt;communication channels&lt;/a&gt;, or you
+can &lt;strong&gt;give karma&lt;/strong&gt; to the update on &lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org&quot;&gt;Bodhi&lt;/a&gt;. The latter is preferred.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org&quot;&gt;Bodhi&lt;/a&gt; is the system &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; uses for pushing updates to users. In a nutshell:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;a new version of software is released&lt;/li&gt;
+&lt;li&gt;the &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; maintainer updates the &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; package.&lt;/li&gt;
+&lt;li&gt;the maintainer submits the new &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; package to &lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org&quot;&gt;Bodhi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the package remains in the &lt;code&gt;updates-testing&lt;/code&gt; repositories while users
+test it out and provide feedback.&lt;/li&gt;
+&lt;li&gt;if the update receives positive feedback (positive karma), it is
+automatically pushed to the &lt;code&gt;updates&lt;/code&gt; repository for all users to
+receive the new version.&lt;/li&gt;
+&lt;li&gt;if the update receives negative feedback, the new version is not sent out to
+users and the maintainer must fix the reported issues and submit a new
+version of the package for testing again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This workflow applies to all &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; packages, thus ensuring that there's
+plenty of time for issues to be flagged before the software reaches users.  So,
+if you have a few minutes to spare, please help us by testing these packages
+out. The updates for Fedora 29 and Fedora 30 are both here:
+&lt;a class=&quot;reference external&quot; href=&quot;https://bodhi.fedoraproject.org/updates/?packages=neuron&quot;&gt;https://bodhi.fedoraproject.org/updates/?packages=neuron&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please note that this requires an &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; account, since that's the account
+system that links all &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; community infrastructure. This Fedora Magazine
+post provides an excellent resource on setting up a &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; Account:
+&lt;a class=&quot;reference external&quot; href=&quot;https://fedoramagazine.org/getting-set-up-with-fedora-project-services/&quot;&gt;https://fedoramagazine.org/getting-set-up-with-fedora-project-services/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Detailed information on testing updates in &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;Fedora&lt;/a&gt; can be found here on the
+Quality Assurance (QA) team's documentation:
+&lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/QA:Updates_Testing&quot;&gt;https://fedoraproject.org/wiki/QA:Updates_Testing&lt;/a&gt;&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;</description>
+	<pubDate>Wed, 17 Jul 2019 07:52:51 +0000</pubDate>
+  <source url="https://neurofedora.github.io/feeds/all.atom.xml">NeuroFedora: Blog</source>
+</item>
+<item>
 	<title>Science News: Scientists still can’t agree on the universe’s expansion rate</title>
 	<guid isPermaLink="true">https://www.sciencenews.org/article/universe-expansion-rate-mystery</guid>
 	<link>https://www.sciencenews.org/article/universe-expansion-rate-mystery</link>
@@ -1271,23 +1385,6 @@ Fiske's post (which later appeared in a more moderate version) was seen as pushb
 	<description>Investment in research is important, but a research culture needs attention and celebration to truly thrive</description>
 	<pubDate>Thu, 27 Jun 2019 11:13:59 +0000</pubDate>
   <source url="https://www.elsevier.com/connect/feed">Elsevier Connect</source>
-</item>
-<item>
-	<title>Elsevier Connect: New guide can help the public ask the right questions about data science claims</title>
-	<guid isPermaLink="true">https://www.elsevier.com/connect/new-guide-can-help-the-public-ask-the-right-questions-about-data-science-claims</guid>
-	<link>https://www.elsevier.com/connect/new-guide-can-help-the-public-ask-the-right-questions-about-data-science-claims</link>
-	<description>Guide aims to spark conversation between the public, policymakers and journalists about the quality and reliability of data and how it’s used</description>
-	<pubDate>Thu, 27 Jun 2019 10:07:41 +0000</pubDate>
-  <source url="https://www.elsevier.com/connect/feed">Elsevier Connect</source>
-</item>
-<item>
-	<title>Science News: DNA reveals a European Neandertal lineage that lasted 80,000 years</title>
-	<guid isPermaLink="true">https://www.sciencenews.org/article/cave-fossil-dna-reveals-ancient-european-neandertal-lineage</guid>
-	<link>https://www.sciencenews.org/article/cave-fossil-dna-reveals-ancient-european-neandertal-lineage</link>
-	<description>Ancient DNA from cave fossils in Belgium and Germany shows an unbroken genetic line of the extinct hominids emerged at least 120,000 years ago.</description>
-	<pubDate>Wed, 26 Jun 2019 18:00:21 +0000</pubDate>
-        <enclosure url="http://www.sciencenews.org/sites/default/files/styles/620px_wide/public/2019/06/main/articles/062519_BB_european-neandertal_feat.jpg?itok=litElRCd" length="26662" type="image/jpeg"/>
-  <source url=""></source>
 </item>
 
 </channel>

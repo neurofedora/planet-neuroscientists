@@ -85,11 +85,122 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on July 17, 2019 05:01 AM on behalf of Ankur Sinha.
+          on July 17, 2019 11:01 AM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/gene-may-help-worms-live-longer-not-healthier" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/gene-may-help-worms-live-longer-not-healthier" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/gene-may-help-worms-live-longer-not-healthier&title=This gene may help worms live longer, but not healthier" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://www.sciencenews.org/article/gene-may-help-worms-live-longer-not-healthier">This gene may help worms live longer, but not healthier</a></h4>
+
+Anti-aging therapies may have trade-offs, research on worms suggests.
+                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on July 17, 2019 09:00 AM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://neurofedora.github.io/2019/07/17/neuron-in-neurofedora-needs-testing.html" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://neurofedora.github.io/2019/07/17/neuron-in-neurofedora-needs-testing.html" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://neurofedora.github.io/2019/07/17/neuron-in-neurofedora-needs-testing.html&title=NEURON in NeuroFedora needs testing" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://neurofedora.github.io/2019/07/17/neuron-in-neurofedora-needs-testing.html">NEURON in NeuroFedora needs testing</a></h4>
+
+<center><div class="figure">
+<img alt="NeuroFedora logo" class="img-responsive" src="https://neurofedora.github.io/images/NeuroFedoraLogo01.png" style="width: 30%;" />
+<p class="caption"><a class="reference external" href="https://pagure.io/design/issue/602">NeuroFedora logo by Terezahl from the Fedora Design Team</a></p>
+</div>
+</center><p>We have been working on including the <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> simulator in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> for a
+while now. The build process that <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> uses has certain peculiarities that
+make it a little harder to build.</p>
+<p>For those that are interested in the technical details, while the main <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a>
+core is built using the standard <code>./configure; make ; make install</code>
+process that cleanly differentiates the "build" and "install" phases, the
+Python bits are built as a "post-install hook". That is to say, they are built
+after the other bits in the "install" step instead of the "build" step. This
+implies that the build is not quite straightforward and must be slightly
+tweaked to ensure that the <a class="reference external" href="https://docs.fedoraproject.org/en-US/packaging-guidelines/">Fedora packaging guidelines</a> are met.</p>
+<p>After discussing things on this <a class="reference external" href="https://github.com/neuronsimulator/nrn/issues/238">Github issue</a>, the developers,
+<a class="reference external" href="https://github.com/nrnhines">@nrnhines</a> (Michael Hines) and <a class="reference external" href="https://ramcdougal.com/">@ramcdougal</a> (Robert A McDougal) helped me understand the
+complexities of the build process and get it done. They have also mentioned
+that <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> is now moving to a <a class="reference external" href="https://cmake.org/">CMake</a> based build system and should be simpler
+to work with in the future. <a class="reference external" href="https://cmake.org/">CMake</a> is generally nicer for projects that include
+different languages and build systems.</p>
+<p>After a few hours of work, <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> is now ready to use in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a>. It is
+built with Python 3, and does not currently provide IV and MPI bits. These will
+be worked upon later. Since <a class="reference external" href="https://github.com/INCF/MUSIC">MUSIC</a> is not yet in <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a>, <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> does not
+support <a class="reference external" href="https://github.com/INCF/MUSIC">MUSIC</a> either currently. This is also a <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/28">work in progress</a>.</p>
+<p>I have tested the <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> build on my machine with a few example simulations
+and it works well, but this cannot be considered exhaustive testing of the
+package. If you have a <a class="reference external" href="https://getfedora.org">Fedora</a> system, please test <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a> and let us know if
+you notice any issues. Here's how.</p>
+<div class="section" id="step-1-set-up-a-fedora-installation">
+<h2>Step 1: Set up a Fedora installation</h2>
+<p><a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> is based on <a class="reference external" href="https://getfedora.org">Fedora</a>, so the simplest way to use it is to install a
+Fedora Workstation using the live images available on <a class="reference external" href="https://getfedora.org">https://getfedora.org</a>.
+You can either install it on a system or use a virtual machine if you wish.
+<a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> includes lots of other software for neuroscience also. You can
+learn more in our <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/software/">documentation</a>.  <a class="reference external" href="https://getfedora.org">Fedora</a>, in
+general, provides lots of other software too. You can search them using the
+<a class="reference external" href="https://apps.fedoraproject.org/packages/s/">Fedora Packages web application</a>.</p>
+</div>
+<div class="section" id="step-2-install-neuron">
+<h2>Step 2: Install NEURON</h2>
+<p>I would recommend updating your system before proceeding using <code>dnf</code> in a
+terminal:</p>
+<pre class="code bash literal-block">sudo dnf update --refresh
+</pre>
+<p>Then, you can install <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a>. It is currently in the testing repositories, so
+they will need to be enabled for the command:</p>
+<pre class="code bash literal-block">sudo dnf --enablerepo<span class="o">=</span>updates-testing install neuron python3-neuron
+</pre>
+</div>
+<div class="section" id="step-3-test-it-out">
+<h2>Step 3: Test it out</h2>
+<p>Test it out with your models. Hopefully, everything will work fine. The <a class="reference external" href="https://www.neuron.yale.edu/neuron/">NEURON</a>
+documentation is here for those that would like to tinker with it too:
+<a class="reference external" href="https://www.neuron.yale.edu/neuron/docs">https://www.neuron.yale.edu/neuron/docs</a></p>
+</div>
+<div class="section" id="step-4-give-feedback">
+<h2>Step 4: Give feedback</h2>
+<center><div class="figure">
+<img alt="Bodhi logo" class="img-responsive" src="https://neurofedora.github.io/images/20190716-Bodhi.png" style="width: 30%;" />
+<p class="caption"><a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a>, the Fedora Quality Assurance web application.</p>
+</div>
+</center><p>This step is optional, especially if everything works fine. If you experience
+any issues, please do get in touch with us. You can either contact us directly
+using one of our <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/communicating/">communication channels</a>, or you
+can <strong>give karma</strong> to the update on <a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a>. The latter is preferred.</p>
+<p><a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a> is the system <a class="reference external" href="https://getfedora.org">Fedora</a> uses for pushing updates to users. In a nutshell:</p>
+<ul class="simple">
+<li>a new version of software is released</li>
+<li>the <a class="reference external" href="https://getfedora.org">Fedora</a> maintainer updates the <a class="reference external" href="https://getfedora.org">Fedora</a> package.</li>
+<li>the maintainer submits the new <a class="reference external" href="https://getfedora.org">Fedora</a> package to <a class="reference external" href="https://bodhi.fedoraproject.org">Bodhi</a></li>
+<li>the package remains in the <code>updates-testing</code> repositories while users
+test it out and provide feedback.</li>
+<li>if the update receives positive feedback (positive karma), it is
+automatically pushed to the <code>updates</code> repository for all users to
+receive the new version.</li>
+<li>if the update receives negative feedback, the new version is not sent out to
+users and the maintainer must fix the reported issues and submit a new
+version of the package for testing again.</li>
+</ul>
+<p>This workflow applies to all <a class="reference external" href="https://getfedora.org">Fedora</a> packages, thus ensuring that there's
+plenty of time for issues to be flagged before the software reaches users.  So,
+if you have a few minutes to spare, please help us by testing these packages
+out. The updates for Fedora 29 and Fedora 30 are both here:
+<a class="reference external" href="https://bodhi.fedoraproject.org/updates/?packages=neuron">https://bodhi.fedoraproject.org/updates/?packages=neuron</a></p>
+<p>Please note that this requires an <a class="reference external" href="https://getfedora.org">Fedora</a> account, since that's the account
+system that links all <a class="reference external" href="https://getfedora.org">Fedora</a> community infrastructure. This Fedora Magazine
+post provides an excellent resource on setting up a <a class="reference external" href="https://getfedora.org">Fedora</a> Account:
+<a class="reference external" href="https://fedoramagazine.org/getting-set-up-with-fedora-project-services/">https://fedoramagazine.org/getting-set-up-with-fedora-project-services/</a></p>
+<p>Detailed information on testing updates in <a class="reference external" href="https://getfedora.org">Fedora</a> can be found here on the
+Quality Assurance (QA) team's documentation:
+<a class="reference external" href="https://fedoraproject.org/wiki/QA:Updates_Testing">https://fedoraproject.org/wiki/QA:Updates_Testing</a></p>
+<hr class="docutils" />
+<p><a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help">here</a>.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.</p>
+</div>
+                <p class="text-muted">in <a href="https://neurofedora.github.io/">NeuroFedora blog</a> on July 17, 2019 07:52 AM.</p>
+              </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/universe-expansion-rate-mystery" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/universe-expansion-rate-mystery" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/universe-expansion-rate-mystery&title=Scientists still can’t agree on the universe’s expansion rate" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/universe-expansion-rate-mystery">Scientists still can’t agree on the universe’s expansion rate</a></h4>
@@ -1201,20 +1312,6 @@ Fossil teeth of extinct crocodyliforms suggest that some ate plants and that her
 
 Investment in research is important, but a research culture needs attention and celebration to truly thrive
                 <p class="text-muted">in <a href="">Elsevier Connect</a> on June 27, 2019 11:13 AM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.elsevier.com/connect/new-guide-can-help-the-public-ask-the-right-questions-about-data-science-claims" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.elsevier.com/connect/new-guide-can-help-the-public-ask-the-right-questions-about-data-science-claims" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.elsevier.com/connect/new-guide-can-help-the-public-ask-the-right-questions-about-data-science-claims&title=New guide can help the public ask the right questions about data science claims" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://www.elsevier.com/connect/new-guide-can-help-the-public-ask-the-right-questions-about-data-science-claims">New guide can help the public ask the right questions about data science claims</a></h4>
-
-Guide aims to spark conversation between the public, policymakers and journalists about the quality and reliability of data and how it’s used
-                <p class="text-muted">in <a href="">Elsevier Connect</a> on June 27, 2019 10:07 AM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/cave-fossil-dna-reveals-ancient-european-neandertal-lineage" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/cave-fossil-dna-reveals-ancient-european-neandertal-lineage" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/cave-fossil-dna-reveals-ancient-european-neandertal-lineage&title=DNA reveals a European Neandertal lineage that lasted 80,000 years" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://www.sciencenews.org/article/cave-fossil-dna-reveals-ancient-european-neandertal-lineage">DNA reveals a European Neandertal lineage that lasted 80,000 years</a></h4>
-
-Ancient DNA from cave fossils in Belgium and Germany shows an unbroken genetic line of the extinct hominids emerged at least 120,000 years ago.
-                <p class="text-muted">in <a href="https://www.sciencenews.org/feeds/headlines.rss">Science News</a> on June 26, 2019 06:00 PM.</p>
               </li>
           </ul>
         </div>
