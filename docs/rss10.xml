@@ -15,7 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/increased-control-over-ion-motions-improve-quantum-computers" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/boosting-gut-bacterium-helps-mice-fight-als-disease" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=103683" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-is-the-future-of-ai-the-experts-view" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/india-first-lunar-lander-launch-moon" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-1884759695791808268" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-1566683991340579929" />
@@ -112,19 +115,36 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/3-tips-on-preparing-a-literature-review" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/q-and-a-with-mark-scott-winner-of-the-cochin-institute-elsevier-innovation-prize" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/europe-france-june-heat-wave-climate-change" />
-			<rdf:li rdf:resource="https://pro.europeana.eu/post/extra-extra-europeana-newspapers-is-out-now" />
-			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=447" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/brain-region-uncanny-valley-sensation-robots" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/increased-control-over-ion-motions-improve-quantum-computers">
+	<title>Science News: Increased control over ions’ motions may help improve quantum computers</title>
+	<link>https://www.sciencenews.org/article/increased-control-over-ion-motions-improve-quantum-computers</link>
+	<content:encoded>Scientists precisely manipulated the ion’s oscillations and energy levels, a key step toward building better quantum computers.</content:encoded>
+	<dc:date>2019-07-22T15:00:20+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/boosting-gut-bacterium-helps-mice-fight-als-disease">
+	<title>Science News: Boosting a gut bacterium helps mice fight an ALS-like disease</title>
+	<link>https://www.sciencenews.org/article/boosting-gut-bacterium-helps-mice-fight-als-disease</link>
+	<content:encoded>Gut bacteria may alter ALS symptoms for good or ill.</content:encoded>
+	<dc:date>2019-07-22T15:00:20+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=103683">
 	<title>Retraction watch: Leech paper nets expression of concern</title>
 	<link>https://retractionwatch.com/2019/07/22/contamination-leech-data-lead-to-expression-of-concern/</link>
 	<content:encoded>An article claiming to uproot the evolutionary tree of leeches has received an expression of concern after a reader notified the journal about potential problems with the data.  The article, “Phylogenomic analysis of a putative missing link sparks reinterpretation of leech evolution,” appeared online in Genome Biology and Evolution, an Oxford University Press title, on … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/22/contamination-leech-data-lead-to-expression-of-concern/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Leech paper nets expression of concern&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-07-22T10:00:02+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/what-is-the-future-of-ai-the-experts-view">
+	<title>Elsevier Connect: What is the future of AI? The experts’ view</title>
+	<link>https://www.elsevier.com/connect/what-is-the-future-of-ai-the-experts-view</link>
+	<content:encoded>Four AI experts weigh in on what the future holds for AI and related technologies</content:encoded>
+	<dc:date>2019-07-22T09:36:17+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/article/india-first-lunar-lander-launch-moon">
 	<title>Science News: India’s first lunar lander is on its way to the moon</title>
@@ -1320,96 +1340,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Global warming made the June heat wave at least five times more likely to happen.</content:encoded>
 	<dc:date>2019-07-02T17:26:10+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://pro.europeana.eu/post/extra-extra-europeana-newspapers-is-out-now">
-	<title>Open Access Tracking Project: news: Extra, extra: Europeana Newspapers is out now | Europeana Pro</title>
-	<link>https://pro.europeana.eu/post/extra-extra-europeana-newspapers-is-out-now</link>
-	<content:encoded>&quot;With the new Europeana Newspapers collection, Europeana Collections gives access to hundreds of newspaper titles and millions of newspaper pages, spanning four centuries and 20 countries from across Europe....&quot;</content:encoded>
-	<dc:date>2019-07-02T17:03:00+00:00</dc:date>
-</item>
-<item rdf:about="https://blogs.cornell.edu/arxiv/?p=447">
-	<title>arXiv.org blog: We’re hiring: arXiv User Experience Specialist</title>
-	<link>https://blogs.cornell.edu/arxiv/2019/07/02/were-hiring-arxiv-user-experience-specialist/</link>
-	<content:encoded>&lt;p dir=&quot;LTR&quot;&gt;We are seeking a User Experience Specialist to join our team building arXiv’s next generation (“NG”) system and maintaining the service’s daily operations. As a member of a broader team that is passionate about arXiv’s mission and legacy, you will be part of our supportive work culture that highly values inclusivity, team-work, collegiality and work-life balance.&lt;/p&gt;
-&lt;p dir=&quot;LTR&quot;&gt;The User Experience Specialist will be directly embedded in the software development team, collaborating closely with other developers and reporting to the IT Team Lead. You will have a leading role in defining and championing user-centered design, usability, and accessibility for arXiv NG. With a self-driven, process-oriented approach to design, you will perform analyses on user interfaces and develop workflows, prototypes, mockups, final revisions, and template code for highly complex, rapidly-evolving web applications within the arXiv NG architecture. You will promote and apply current best practices in information architecture, usability, responsive design, accessibility, and relevant supporting technologies.&lt;/p&gt;
-&lt;p dir=&quot;LTR&quot;&gt;The User Experience Specialist will meet with diverse stakeholders to gather requirements and develop a scope and timeline for each project. Throughout the lifetime of each project, you will identify and prepare features for all phases of user testing, and facilitate testing and the collection of feedback from the stakeholder groups. You will also actively participate in review processes for relevant parts of the codebase, planning sessions, and retrospectives.&lt;/p&gt;
-&lt;p dir=&quot;LTR&quot;&gt;This position requires excellent interpersonal skills and the ability to collaborate with project team members, subject matter experts, and project managers. The ability to prioritize and manage competing demands, as well as the ability to clearly communicate and negotiate with stakeholders, are essential skills for this position.&lt;/p&gt;
-&lt;p dir=&quot;LTR&quot;&gt;&lt;b&gt;Required Qualifications:&lt;/b&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Bachelor’s degree with 5-7 years of relevant experience&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Deep practical knowledge of web standards, accessibility, and user-centered design processes and methodologies&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Expert level knowledge of HTML, CSS&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Deep understanding of grid responsive designs&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Expert level skills using tools such as Photoshop, Sketch, and/or InVision creating wireframes and prototypes to facilitate and define functional specifications&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Ability to develop sophisticated templates for web applications in templating languages such as Jinja2 or Twig&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Ability to modify complex, interdependent web services based on end-user/stakeholder specifications&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Excellent interpersonal, oral, and written communication skills&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Evidence of team-based collaboration experience and a strong orientation&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Ability to conduct usability testing and identify resulting patterns of user behavior&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Ability to leverage and integrate off-the-shelf and open source technologies, to identify when and how customized tools and solutions must be developed&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p dir=&quot;LTR&quot;&gt;&lt;b&gt;Preferred Qualifications:&lt;/b&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Experience using development tools such as JIRA issue tracking, git version control, and foundations or libraries such as Bulma or Bootstrap&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Experience with designing for optimum accessibility and responsive design&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Strong visual design skills&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Familiarity with Python/Flask&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Knowledge of modern JavaScript frameworks such as React, Angular.js, or Vue&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Familiarity with templating and markdown frameworks, such as Jinja2, Sphinx, or similar&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Understanding of the software development life cycle&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p dir=&quot;LTR&quot;&gt;Experience with web usage analysis tools and assessment practice&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p dir=&quot;LTR&quot;&gt;&lt;em&gt;This is a three year term, benefits-eligible position, continuation contingent upon additional funding. This position is eligible to work remotely or on-premises. Visa sponsorship is not available with this position.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Cornell receives national recognition as an award-winning workplace for our health, wellbeing, sustainability, and diversity initiatives. Benefits include &lt;a href=&quot;https://hr.cornell.edu/summaries-benefits&quot;&gt;comprehensive health care options, paid leave, and other benefits&lt;/a&gt;. Cornell supports Work/Life balance, flexible work arrangements, and continued professional development.&lt;/p&gt;
-&lt;p&gt;Diversity and Inclusion are a part of Cornell University’s heritage. We are a recognized employer and educator valuing AA/EEO, Protected Veterans and Individuals with Disabilities. Cornell University is an innovative Ivy League university and a great place to work. Our inclusive community of scholars, students, and staff impart an uncommon sense of larger purpose, and contribute creative ideas to further the university’s mission of teaching, discovery, and engagement.&lt;/p&gt;
-&lt;p&gt;If you are interested in applying, please click &lt;a href=&quot;http://bit.ly/arXivUXSpecialist1&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; to see the complete job posting and application instructions.&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-02T16:21:57+00:00</dc:date>
-	<dc:creator>Janelle Morano</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/brain-region-uncanny-valley-sensation-robots">
-	<title>Science News: This brain region may be why some robots send chills down your spine</title>
-	<link>https://www.sciencenews.org/article/brain-region-uncanny-valley-sensation-robots</link>
-	<content:encoded>Scientists may have traced the source of the “uncanny valley” sensation in the brain.</content:encoded>
-	<dc:date>2019-07-02T16:00:17+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
