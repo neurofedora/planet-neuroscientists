@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/droplets-acid-molecules-may-have-helped-kick-start-life-earth" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/increased-control-over-ion-motions-improve-quantum-computers" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/boosting-gut-bacterium-helps-mice-fight-als-disease" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=103683" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37458" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/3-tips-on-preparing-a-literature-review" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/q-and-a-with-mark-scott-winner-of-the-cochin-institute-elsevier-innovation-prize" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/europe-france-june-heat-wave-climate-change" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/droplets-acid-molecules-may-have-helped-kick-start-life-earth">
+	<title>Science News: Droplets of these simple molecules may have helped kick-start life on Earth</title>
+	<link>https://www.sciencenews.org/article/droplets-acid-molecules-may-have-helped-kick-start-life-earth</link>
+	<content:encoded>Simple molecules called alpha hydroxy acids form cell-sized structures in conditions mimicking early Earth chemistry.</content:encoded>
+	<dc:date>2019-07-22T19:24:58+00:00</dc:date>
+	<dc:creator>Carmen Drahl</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/increased-control-over-ion-motions-improve-quantum-computers">
 	<title>Science News: Increased control over ions’ motions may help improve quantum computers</title>
 	<link>https://www.sciencenews.org/article/increased-control-over-ion-motions-improve-quantum-computers</link>
@@ -1333,13 +1340,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<link>https://www.elsevier.com/connect/q-and-a-with-mark-scott-winner-of-the-cochin-institute-elsevier-innovation-prize</link>
 	<content:encoded>Award-winning scientist talks about his cancer research and the importance of science communication</content:encoded>
 	<dc:date>2019-07-02T17:51:02+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/europe-france-june-heat-wave-climate-change">
-	<title>Science News: Europe’s latest heat wave has been linked to climate change</title>
-	<link>https://www.sciencenews.org/article/europe-france-june-heat-wave-climate-change</link>
-	<content:encoded>Global warming made the June heat wave at least five times more likely to happen.</content:encoded>
-	<dc:date>2019-07-02T17:26:10+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
