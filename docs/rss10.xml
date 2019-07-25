@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/immune-system-defects-seem-contribute-obesity-mice" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-thalidomide-drug-found-new-life-leprosy-treatment" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/on-being-lgbtq-in-science-yes-it-matters-and-heres-why" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37483" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ground-beetle-genitals-genetics-evolution-battle-sexes" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102248" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-animals-light-behavior-lunar-phases" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=41767" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/immune-system-defects-seem-contribute-obesity-mice">
+	<title>Science News: Immune system defects seem to contribute to obesity in mice</title>
+	<link>https://www.sciencenews.org/article/immune-system-defects-seem-contribute-obesity-mice</link>
+	<content:encoded>Subtle defects affecting T cells altered the animals’ microbiome and fat absorption, providing hints of what might also be going on in people.</content:encoded>
+	<dc:date>2019-07-25T18:00:19+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/50-years-ago-thalidomide-drug-found-new-life-leprosy-treatment">
+	<title>Science News: 50 years ago, a drug that crippled a generation found new life as a leprosy treatment</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-thalidomide-drug-found-new-life-leprosy-treatment</link>
+	<content:encoded>In 1969, a drug that crippled a generation found new life as a treatment for leprosy.</content:encoded>
+	<dc:date>2019-07-25T17:00:13+00:00</dc:date>
+	<dc:creator>Cassie Martin</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space">
 	<title>Science News: NASA’s Chandra X-ray telescope celebrates 20 years in space</title>
 	<link>https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space</link>
@@ -1492,20 +1506,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>The Journal of Biological Chemistry has retracted two papers by a Georgia State University researcher, as well as flagged eight more with expressions of concern, a move the scientist called “unfair and unjustified.” Ming-Hui Zou, the common author on all ten papers — as well as on two more that have been corrected by the … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/08/georgia-state-researcher-has-two-papers-retracted-eight-flagged-hes-not-happy-about-it/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Georgia State researcher has two papers retracted, eight flagged. He’s not happy about it.&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-07-08T10:00:33+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/moon-animals-light-behavior-lunar-phases">
-	<title>Science News: Moonlight shapes how some animals move, grow and even sing</title>
-	<link>https://www.sciencenews.org/article/moon-animals-light-behavior-lunar-phases</link>
-	<content:encoded>The moon’s light influences lion prey behavior, dung beetle navigation, fish growth, mass migrations and birdsong.</content:encoded>
-	<dc:date>2019-07-08T10:00:14+00:00</dc:date>
-	<dc:creator>Erin Wayman</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=41767">
-	<title>For Better Science: The return of David Latchman Show</title>
-	<link>https://forbetterscience.com/2019/07/08/the-return-of-david-latchman-show/</link>
-	<content:encoded>In the David Latchman affair, UCL denied me access to investigative reports. The university however did give same files to proper journalists now. The censored documents still do not reveal fraudulent papers, but at least we know the Master of Birkbeck was found guilty of misconduct by recklessness. Trice.</content:encoded>
-	<dc:date>2019-07-08T05:00:04+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
