@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/on-being-lgbtq-in-science-yes-it-matters-and-heres-why" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=103933" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts" />
@@ -113,18 +115,29 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102248" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-animals-light-behavior-lunar-phases" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41767" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=102281" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/science-summer-activities-swimming-pool-hiking-heat" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space">
+	<title>Science News: NASA’s Chandra X-ray telescope celebrates 20 years in space</title>
+	<link>https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space</link>
+	<content:encoded>The U.S. space agency has released new images for the Chandra X-ray Observatory’s 20th birthday.</content:encoded>
+	<dc:date>2019-07-25T14:33:48+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/on-being-lgbtq-in-science-yes-it-matters-and-heres-why">
+	<title>Elsevier Connect: On being LGBTQ+ in science – yes it matters, and here’s why</title>
+	<link>https://www.elsevier.com/connect/on-being-lgbtq-in-science-yes-it-matters-and-heres-why</link>
+	<content:encoded>Six scientists share their challenges and breakthroughs at ‘An Evening with 500 Queer Scientists, Elsevier and Cell’</content:encoded>
+	<dc:date>2019-07-25T13:23:14+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you">
 	<title>Science News: Dark matter particles won’t kill you. If they could, they would have already</title>
 	<link>https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you</link>
 	<content:encoded>The fact that no one has been killed by shots of dark matter suggests the mysterious substance is relatively small and light.</content:encoded>
 	<dc:date>2019-07-25T10:00:20+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
+	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 <item rdf:about="https://retractionwatch.com/?p=103933">
 	<title>Retraction watch: Cock and bull story leads to retraction of bovine herpesvirus paper</title>
@@ -1493,20 +1506,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>In the David Latchman affair, UCL denied me access to investigative reports. The university however did give same files to proper journalists now. The censored documents still do not reveal fraudulent papers, but at least we know the Master of Birkbeck was found guilty of misconduct by recklessness. Trice.</content:encoded>
 	<dc:date>2019-07-08T05:00:04+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=102281">
-	<title>Retraction watch: Weekend reads: Questions swirl over kidney transplant papers from China; author apologizes for paper of whether women performed medical procedures as well as men; reports detail widespread fraud in UK lab</title>
-	<link>https://retractionwatch.com/2019/07/07/weekend-reads-questions-swirl-over-kidney-transplant-papers-from-china-author-apologizes-for-paper-of-whether-women-performed-medical-procedures-as-well-as-men-reports-detail-widespread-fraud-in-uk/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. Retraction Watch came back online on Wednesday of this week, after a 10-day outage for technical … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/07/weekend-reads-questions-swirl-over-kidney-transplant-papers-from-china-author-apologizes-for-paper-of-whether-women-performed-medical-procedures-as-well-as-men-reports-detail-widespread-fraud-in-uk/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Questions swirl over kidney transplant papers from China; author apologizes for paper of whether women performed medical procedures as well as men; reports detail widespread fraud in UK lab&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-07-07T12:03:50+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/science-summer-activities-swimming-pool-hiking-heat">
-	<title>Science News: Here’s the science behind some of your favorite things to do in summer</title>
-	<link>https://www.sciencenews.org/article/science-summer-activities-swimming-pool-hiking-heat</link>
-	<content:encoded>Inject some science into your summer.</content:encoded>
-	<dc:date>2019-07-05T11:00:09+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
 </item>
 
 </rdf:RDF>
