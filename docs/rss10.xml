@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=103933" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-fungus-known-host-complex-algae-inside-its-cells" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/frog-study-may-point-where-parenting-begins-brain" />
@@ -112,13 +114,25 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-animals-light-behavior-lunar-phases" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41767" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102281" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=102216" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/science-summer-activities-swimming-pool-hiking-heat" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/largest-seaweed-bloom-ever-detected-atlantic-ocean-2018" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you">
+	<title>Science News: Dark matter particles won’t kill you. If they could, they would have already</title>
+	<link>https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you</link>
+	<content:encoded>The fact that no one has been killed by shots of dark matter suggests the mysterious substance is relatively small and light.</content:encoded>
+	<dc:date>2019-07-25T10:00:20+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=103933">
+	<title>Retraction watch: Cock and bull story leads to retraction of bovine herpesvirus paper</title>
+	<link>https://retractionwatch.com/2019/07/25/cock-and-bull-story-leads-to-retraction-of-bovine-herpesvirus-paper/</link>
+	<content:encoded>The ancients had a thing for hybrids (think animals, not cars): half goat-half humans, horses with human torsos, winged horses and lions, you get the picture. But a chicken-cow mix wasn’t on that list … until now.  A group of researchers in Brazil has lost a paper in a veterinary journal for trying to reuse … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/25/cock-and-bull-story-leads-to-retraction-of-bovine-herpesvirus-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Cock and bull story leads to retraction of bovine herpesvirus paper&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-07-25T10:00:17+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts">
 	<title>Science News: How today’s global warming is unlike the last 2,000 years of climate shifts</title>
 	<link>https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts</link>
@@ -1487,26 +1501,12 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<dc:date>2019-07-07T12:03:50+00:00</dc:date>
 	<dc:creator>Ivan Oransky</dc:creator>
 </item>
-<item rdf:about="https://retractionwatch.com/?p=102216">
-	<title>Retraction watch: Weekend reads: Plagiarism and death threats; peer review by robot; a university apologizes for a job ad</title>
-	<link>https://retractionwatch.com/2019/07/06/weekend-reads-plagiarism-and-death-threats-peer-review-by-robot-a-university-apologizes-for-a-job-ad/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. Retraction Watch came back online on Wednesday of this week, after a 10-day outage for technical … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/06/weekend-reads-plagiarism-and-death-threats-peer-review-by-robot-a-university-apologizes-for-a-job-ad/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Plagiarism and death threats; peer review by robot; a university apologizes for a job ad&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-07-06T11:36:47+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
 <item rdf:about="https://www.sciencenews.org/article/science-summer-activities-swimming-pool-hiking-heat">
 	<title>Science News: Here’s the science behind some of your favorite things to do in summer</title>
 	<link>https://www.sciencenews.org/article/science-summer-activities-swimming-pool-hiking-heat</link>
 	<content:encoded>Inject some science into your summer.</content:encoded>
 	<dc:date>2019-07-05T11:00:09+00:00</dc:date>
 	<dc:creator>Cassie Martin</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/largest-seaweed-bloom-ever-detected-atlantic-ocean-2018">
-	<title>Science News: The largest seaweed bloom ever detected spanned the Atlantic in 2018</title>
-	<link>https://www.sciencenews.org/article/largest-seaweed-bloom-ever-detected-atlantic-ocean-2018</link>
-	<content:encoded>Nutrient-rich water from the Amazon River may be helping massive seaweed mats to flourish each summer in the Atlantic Ocean.</content:encoded>
-	<dc:date>2019-07-04T18:00:21+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
