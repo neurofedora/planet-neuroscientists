@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/mapping-how-immortal-hydra-regrows-cells-may-demystify-regeneration" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/giving-cats-food-antibody-may-help-people-cat-allergies" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=103995" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-change-could-raise-risk-deadly-fungal-infections-humans" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/6901dc9683a34fbbab9aa0dd33460793" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-time-calendar-ancient-human-art" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/aspire-prize-finalists-use-laboratory-of-nature-to-tackle-global-challenges" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102396" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/mysterious-coral-disease-ravaging-caribbean-reefs" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/mri-scan-most-detailed-look-yet-whole-human-brain" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/mapping-how-immortal-hydra-regrows-cells-may-demystify-regeneration">
+	<title>Science News: Mapping how the ‘immortal’ hydra regrows cells may demystify regeneration</title>
+	<link>https://www.sciencenews.org/article/mapping-how-immortal-hydra-regrows-cells-may-demystify-regeneration</link>
+	<content:encoded>In the continually regenerating hydra, fluorescent markers help researchers track stem cells on the way to their cellular fate.</content:encoded>
+	<dc:date>2019-07-26T16:14:53+00:00</dc:date>
+	<dc:creator>Carolyn Wilke</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/giving-cats-food-antibody-may-help-people-cat-allergies">
+	<title>Science News: Giving cats food with an antibody may help people with cat allergies</title>
+	<link>https://www.sciencenews.org/article/giving-cats-food-antibody-may-help-people-cat-allergies</link>
+	<content:encoded>Research by pet-food maker Purina aims to disable the major allergen carried in cat saliva, a protein called Fel d1.</content:encoded>
+	<dc:date>2019-07-26T13:00:35+00:00</dc:date>
+	<dc:creator>Erika Engelhaupt</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=103995">
 	<title>Retraction watch: Forensics Friday: Would you flag this paper if it were under review?</title>
 	<link>https://retractionwatch.com/2019/07/26/forensics-friday-would-you-flag-this-paper-if-it-were-under-review/</link>
@@ -1480,20 +1494,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>The Journal of Clinical Investigation has retracted two papers from the lab of one of Stanford University’s most prominent cancer researchers over concerns about the integrity of the data.  The articles, published in 2012 and 2014, described work on ways of priming the immune system to enhance the activity of drugs to fight cancer.  The … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/09/stanford-calling-for-retractions-of-work-by-deceased-star-cancer-doc/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Stanford calling for retractions of work by deceased star cancer researcher&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-07-09T10:00:48+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/mysterious-coral-disease-ravaging-caribbean-reefs">
-	<title>Science News: A mysterious coral disease is ravaging Caribbean reefs</title>
-	<link>https://www.sciencenews.org/article/mysterious-coral-disease-ravaging-caribbean-reefs</link>
-	<content:encoded>Scientists are racing to learn what’s behind a disease that’s “annihilating” whole coral species in hopes of stopping it.</content:encoded>
-	<dc:date>2019-07-09T10:00:12+00:00</dc:date>
-	<dc:creator>Cassie Martin</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/mri-scan-most-detailed-look-yet-whole-human-brain">
-	<title>Science News: A 100-hour MRI scan captured the most detailed look yet at a whole human brain</title>
-	<link>https://www.sciencenews.org/article/mri-scan-most-detailed-look-yet-whole-human-brain</link>
-	<content:encoded>Researchers report ultraprecise imaging of a postmortem human brain.</content:encoded>
-	<dc:date>2019-07-08T14:00:13+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
