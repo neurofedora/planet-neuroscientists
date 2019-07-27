@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=41876" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2676" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mapping-how-immortal-hydra-regrows-cells-may-demystify-regeneration" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/giving-cats-food-antibody-may-help-people-cat-allergies" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/see-how-visualizations-moon-have-changed-over-time" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moons-escape-their-planets-could-become-ploonets" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/moon-time-calendar-ancient-human-art" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/aspire-prize-finalists-use-laboratory-of-nature-to-tackle-global-challenges" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=41876">
+	<title>For Better Science: Blagosklonny’s lawyer threatens me to love Oncotarget or else</title>
+	<link>https://forbetterscience.com/2019/07/27/blagosklonnys-lawyer-threatens-me-to-love-oncotarget-or-else/</link>
+	<content:encoded>Oncotarget, the somewhat controversial OA journal, switched from pretend-soliciting my services to threatening to sue me for defamation. Their lawyer writes my disrespect caused them financial damage.</content:encoded>
+	<dc:date>2019-07-27T07:09:48+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://blog.scienceexchange.com/?p=2676">
 	<title>The Science Exchange Blog: Science Exchange tackles the gender gap in R&amp;D leadership: notes from the field</title>
 	<link>https://blog.scienceexchange.com/2019/07/science-exchange-tackles-the-gender-gap-in-rd-leadership-notes-from-the-field/</link>
@@ -1614,12 +1621,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>Whether the moon was a timekeeper for early humans, as first argued during the Apollo missions, is still up for debate.</content:encoded>
 	<dc:date>2019-07-09T12:00:02+00:00</dc:date>
 	<dc:creator>Rebecca Boyle</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/aspire-prize-finalists-use-laboratory-of-nature-to-tackle-global-challenges">
-	<title>Elsevier Connect: ASPIRE Prize finalists use ‘laboratory of nature’ to tackle global challenges</title>
-	<link>https://www.elsevier.com/connect/aspire-prize-finalists-use-laboratory-of-nature-to-tackle-global-challenges</link>
-	<content:encoded>This year’s ASPIRE Prize recognizes young scientists for “innovative research that advances society through natural laboratories”</content:encoded>
-	<dc:date>2019-07-09T10:54:16+00:00</dc:date>
 </item>
 
 </rdf:RDF>
