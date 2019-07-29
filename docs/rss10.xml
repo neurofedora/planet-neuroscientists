@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-radioactive-plume-europe-russia-plant-neutrino-experiment" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2681" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/physicists-solar-wind-inside-lab" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=104074" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/both-fish-and-humans-have-rem-sleep" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/greek-skull-oldest-human-homo-sapiens-outside-africa" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8681" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/growth-curve/toddlers-tend-opt-last-thing-set-so-craft-your-questions-carefully" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/2017-radioactive-plume-europe-russia-plant-neutrino-experiment">
+	<title>Science News: How a 2017 radioactive plume may be tied to Russia and nixed neutrino research</title>
+	<link>https://www.sciencenews.org/article/2017-radioactive-plume-europe-russia-plant-neutrino-experiment</link>
+	<content:encoded>A botched attempt at producing radioactive material needed for a neutrino experiment may have released ruthenium-106 to the atmosphere in 2017.</content:encoded>
+	<dc:date>2019-07-29T19:45:41+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://blog.scienceexchange.com/?p=2681">
 	<title>The Science Exchange Blog: Science Exchange Integrates with Box Cloud Content Management Solution to Improve R&amp;D Efficiency</title>
 	<link>https://blog.scienceexchange.com/2019/07/science-exchange-integrates-with-box-cloud-content-management-solution-to-improve-rd-efficiency/</link>
@@ -1676,13 +1683,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/wpAJFpKUpCo&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2019-07-10T16:00:00+00:00</dc:date>
 	<dc:creator>Charlotte Bhaskar</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/growth-curve/toddlers-tend-opt-last-thing-set-so-craft-your-questions-carefully">
-	<title>Science News: Toddlers tend to opt for the last thing in a set, so craft your questions carefully</title>
-	<link>https://www.sciencenews.org/blog/growth-curve/toddlers-tend-opt-last-thing-set-so-craft-your-questions-carefully</link>
-	<content:encoded>Two-year-olds demonstrate a verbal quirk that makes their answers less reliable.</content:encoded>
-	<dc:date>2019-07-10T12:00:24+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
 </item>
 
 </rdf:RDF>
