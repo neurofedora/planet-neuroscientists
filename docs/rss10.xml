@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-tess-first-ultrahot-neptune-exoplanet" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=104219" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/debate-universe-expansion-rate-hubble-constant-physics-crisis" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41890" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-07-11:/2019/07/11/neurofedora-poster-at-cns-2019.html" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=41805" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=102652" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/moon-myth-voyages-preceded-apollo-landing" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/nasa-tess-first-ultrahot-neptune-exoplanet">
+	<title>Science News: TESS has found the first-ever ‘ultrahot Neptune’</title>
+	<link>https://www.sciencenews.org/article/nasa-tess-first-ultrahot-neptune-exoplanet</link>
+	<content:encoded>NASA’s TESS telescope has spotted a world that could be a bridge between other types of exoplanets: hot Jupiters and scorched Earths.</content:encoded>
+	<dc:date>2019-07-30T14:39:57+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=104219">
 	<title>Retraction watch: Authors object as “doubtful” data doom dermatology paper</title>
 	<link>https://retractionwatch.com/2019/07/30/authors-object-as-doubtful-data-doom-dermatology-paper/</link>
@@ -1663,13 +1670,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 	<content:encoded>A group of cancer researchers in Mexico has lost their third paper over concerns about the integrity of their data.  Neither the new retraction, in the journal Hematology, nor the previous two, cite misconduct as the reason for the removals. However, the statements do refer to lack of reliability of results,  “ambiguities and inconsistencies” in … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/11/cancer-specialists-in-mexico-earn-third-retraction-following-questions-about-their-data/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Cancer specialists in Mexico earn third retraction following questions about their data&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-07-11T10:44:43+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/blog/context/moon-myth-voyages-preceded-apollo-landing">
-	<title>Science News: Many fictional moon voyages preceded the Apollo landing</title>
-	<link>https://www.sciencenews.org/blog/context/moon-myth-voyages-preceded-apollo-landing</link>
-	<content:encoded>Landing on the moon for real dramatically demonstrated the confluence of science with the moon’s cultural mystique.</content:encoded>
-	<dc:date>2019-07-11T10:00:25+00:00</dc:date>
-	<dc:creator>Tom Siegfried</dc:creator>
 </item>
 
 </rdf:RDF>
