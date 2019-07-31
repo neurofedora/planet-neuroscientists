@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/newfound-predator-may-have-terrorized-cambrian-seafloor" />
 			<rdf:li rdf:resource="https://medium.com/p/c7a8e160e566" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-tess-first-ultrahot-neptune-exoplanet" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=104219" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-bird-found-encased-amber-had-bizarrely-long-toe" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hayabusa2-touchdown-asteroid-ryugu-second-sample-subsurface" />
 			<rdf:li rdf:resource="tag:neurofedora.github.io,2019-07-11:/2019/07/11/neurofedora-poster-at-cns-2019.html" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=41805" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/newfound-predator-may-have-terrorized-cambrian-seafloor">
+	<title>Science News: This newfound predator may have terrorized the Cambrian seafloor</title>
+	<link>https://www.sciencenews.org/article/newfound-predator-may-have-terrorized-cambrian-seafloor</link>
+	<content:encoded>A newly discovered spaceship-shaped predator raked through the Cambrian seafloor in search of food.</content:encoded>
+	<dc:date>2019-07-30T23:01:03+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://medium.com/p/c7a8e160e566">
 	<title>The Spike: Why Model the Brain?</title>
 	<link>https://medium.com/the-spike/why-model-the-brain-c7a8e160e566?source=rss----c92c31591e3a---4</link>
@@ -1663,13 +1670,6 @@ In fact, that is one of the major goals of the initiative---to spread technical
 knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-11T12:25:47+00:00</dc:date>
 	<dc:creator>Ankur Sinha</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=41805">
-	<title>For Better Science: Frontiers and Robert-Jan Smits emails reveal how Plan S was conceived</title>
-	<link>https://forbetterscience.com/2019/07/11/frontiers-and-robert-jan-smits-emails-reveal-how-plan-s-was-conceived/</link>
-	<content:encoded>The emails published here prove that EU Special Envoy for OA, Robert Jan Smits, received constant counselling from Frontiers CEO Kamila Markram when designing Plan S. It seems, Frontiers and Smits share exactly same vision for the future of scholarly publishing.</content:encoded>
-	<dc:date>2019-07-11T12:11:54+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
