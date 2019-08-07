@@ -15,6 +15,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/mercury-levels-fish-are-rising-despite-reduced-emissions" />
+			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2019-08-07:/2019/08/07/open-position-neurofedora-is-looking-for-a-spin-lab-master.html" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-people-celiac-disease-suffer-so-soon-after-eating-gluten" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/giant-active-galaxies-early-universe-may-have-finally-been-found" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/5-pitfalls-to-writing-a-winning-grant-application-for-your-research" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=105544" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/experiment-live-human-brain-helps-scientists-map-nerve-cells" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11142" />
@@ -110,15 +115,127 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=103482" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/longer-gaps-between-births-can-halve-infant-deaths-developing-nations" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37561" />
-			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=6000" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/permanent-liquid-magnets-have-now-been-created-lab" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/manipulating-nerve-cells-makes-mice-see-something-not-there" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/flexible-bone-helps-mammals-chew-dates-back-jurassic-period" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=103383" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/mercury-levels-fish-are-rising-despite-reduced-emissions">
+	<title>Science News: Mercury levels in fish are rising despite reduced emissions</title>
+	<link>https://www.sciencenews.org/article/mercury-levels-fish-are-rising-despite-reduced-emissions</link>
+	<content:encoded>Climate change and overfishing can increase how much mercury accumulates in fish, counteracting efforts to reduce human-caused emissions.</content:encoded>
+	<dc:date>2019-08-07T19:37:32+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="tag:neuroblog.fedoraproject.org,2019-08-07:/2019/08/07/open-position-neurofedora-is-looking-for-a-spin-lab-master.html">
+	<title>NeuroFedora blog: Open Position: NeuroFedora is looking for a Spin/Lab master</title>
+	<link>https://neuroblog.fedoraproject.org/2019/08/07/open-position-neurofedora-is-looking-for-a-spin-lab-master.html</link>
+	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;Now that we are about a year into the project, we have &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;quite a bit of software
+ready for users to use&lt;/a&gt;. Here
+is a dump of the complete list (find your tool!):&lt;/p&gt;
+&lt;p&gt;auryn, bionetgen, biosig4c++, calcium-calculator, COPASI, ctk, dcm2niix, dcmtk, DiffusionKurtosisFit, dlib, drawtk, gdcm, getdp, gifticlib, InsightToolkit, isis, libb64, liblsl, libminc, libneurosim, libsbml, nest, neuron, neurord, nipy-data, octave-metch, openigtlink, openmeeg, openvibe, petpvc, python-airspeed, python-amico, python-baker, python-bids-validator, python-biopython, python-brian2, python-chaospy, python-citeproc-py, python-dipy, python-duecredit, python-elephant, python-fastavro, python-fsleyes, python-fsleyes-props, python-fsleyes-widgets, python-fslpy, python-grabbit, python-gradunwarp, python-h5io, python-hdfs, python-hdmf, python-indexed_gzip, python-interfile, python-klusta, python-lazyarray, python-libNeuroML, python-matplotlib-scalebar, python-missingno, python-mne, python-mne-bids, python-moss, python-neo, python-neurosynth, python-nibabel, python-nilearn, python-nineml, python-nipy, python-nistats, python-nitime, python-nixio, python-num2words, python-patsy, python-petlink, python-pyactivetwo, python-pybids, python-pydicom, python-pydotplus, python-pyelectro, python-pyemd, python-pyfim, python-pygiftiio, python-pylatex, python-PyLEMS, python-PyLink, python-pymatreader, python-pynwb, python-pyoptical, python-pyphi, python-pyriemann, python-pysb, python-pyscaffold, python-pytest-lazy-fixture, python-pytest-sugar, python-pyxid, python-quantities, python-rangehttpserver, python-resumable-urlretrieve, python-simplewrap, python-tabulate, python-transforms3d, python-tvb-data, python-tvb-gdist, python-visionegg-quest, python-wxnatpy, python-xnat, rubygem-nifti, rudeconfig, smoldyn, teem, vrpn, vxl.&lt;/p&gt;
+&lt;p&gt;All of these tools can now be used in three simple steps:&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;Install a Fedora system. You can get the installable image from
+&lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;https://getfedora.org&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install your software! For example: &lt;code&gt;sudo dnf install python-fsleyes&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Get to work!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Even though it is only three steps, it could still be made simpler. What if we
+could have a Fedora Remix that you could simply download and use?&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-is-a-fedora-spin-lab&quot;&gt;
+&lt;h2&gt;What is a Fedora Spin/Lab?&lt;/h2&gt;
+&lt;p&gt;The Fedora community produces three &quot;editions&quot; that are featured on
+&lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;https://getfedora.org&lt;/a&gt;. However, these are not all! The community is full of
+volunteers with different interests, and so we also produce lots of secondary
+products---Fedora &lt;a class=&quot;reference external&quot; href=&quot;https://spins.fedoraproject.org&quot;&gt;Spins&lt;/a&gt; and Fedora &lt;a class=&quot;reference external&quot; href=&quot;https://labs.fedoraproject.org&quot;&gt;Labs&lt;/a&gt;. They are both downloadable images
+like the Fedora editions, with the difference being that they are contain
+different software sets.  The &lt;a class=&quot;reference external&quot; href=&quot;https://spins.fedoraproject.org&quot;&gt;Spins&lt;/a&gt; for example, include different default
+desktop environments: KDE, LXDE, LXQT, and so on. The &lt;a class=&quot;reference external&quot; href=&quot;https://labs.fedoraproject.org&quot;&gt;Labs&lt;/a&gt; consist of
+different &quot;functional bundles&quot;, for different target audiences: Astronomy,
+Design, Games, Security, and so on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;neurofedora-lab&quot;&gt;
+&lt;h2&gt;NeuroFedora Lab?&lt;/h2&gt;
+&lt;p&gt;So, the plan now is to have a similar downloadable image for &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;. If
+not a single image, maybe two: one each for the two main functional classes:
+one for computational modelling, and one for neuroimaging. So, effectively that
+will mean the process would become even simpler for users:&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;Download the image (and optionally install it).&lt;/li&gt;
+&lt;li&gt;Get to work!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here's why installing is optional. All Fedora images are &quot;Live&quot;. This means
+that you don't really need to install them to use them. You can boot into them
+off a USB drive and use them straight away---without installing them on a
+computer.  This could be very very useful for tutorials and hackathons where
+the organisers could have a bunch of these images ready for users to work on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;we-are-looking-for-a-spin-lab-master&quot;&gt;
+&lt;h2&gt;We are looking for a Spin/Lab master&lt;/h2&gt;
+&lt;p&gt;So, we are looking for someone to manage the image. We have a small team
+already, but we would like to keep the team focussed on including more
+software---&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=T%3A+Software&quot;&gt;there are still 160 tools in queue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Spin/Lab master shall:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;help decide what tools should be included in the image,&lt;/li&gt;
+&lt;li&gt;lead the effort by using existing Fedora community infrastructure to create
+the images,&lt;/li&gt;
+&lt;li&gt;ensure the images are always functional and ready to use,&lt;/li&gt;
+&lt;li&gt;poke the rest of the team when needed to fix issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The time commitment would be: 2-3 hours a week.&lt;/p&gt;
+&lt;p&gt;What skills do you need for this? None---like all other tasks, you can learn on
+the go. In general, you will use/learn:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Git (since most things in Fedora now use Git),&lt;/li&gt;
+&lt;li&gt;how to create a &quot;kickstart&quot; recipe---the configuration file that defines what
+the image contains. This is very well documented and mostly, you only have to
+copy paste the recipe off another image and tweak it.&lt;/li&gt;
+&lt;li&gt;how to use the Fedora community infrastructure to build these images---this
+is also quite easy since there are helper tools for all of it. All you have
+to do is run the commands in the right order.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is quite an easy role, and there are lots of people in the Fedora community
+who would be happy to help when needed. There is a whole &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/Spins_SIG&quot;&gt;Spins Special
+Interest Group (SIG)&lt;/a&gt;, as a matter
+of fact. The toughest bit would be learning the process that is to be followed.&lt;/p&gt;
+&lt;p&gt;Does that sound interesting? Do you want to learn new skills and help us make
+&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; better and easier for neuroscience enthusiasts? Have any
+questions? &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&quot;&gt;Get in touch with us&lt;/a&gt;!&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;</content:encoded>
+	<dc:date>2019-08-07T19:29:22+00:00</dc:date>
+	<dc:creator>Ankur Sinha</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/why-people-celiac-disease-suffer-so-soon-after-eating-gluten">
+	<title>Science News: Why people with celiac disease suffer so soon after eating gluten</title>
+	<link>https://www.sciencenews.org/article/why-people-celiac-disease-suffer-so-soon-after-eating-gluten</link>
+	<content:encoded>In people with celiac disease, some T cells release immune chemicals within hours of encountering gluten, triggering the fast onset of symptoms.</content:encoded>
+	<dc:date>2019-08-07T18:00:08+00:00</dc:date>
+	<dc:creator>Tina Hesman Saey</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/giant-active-galaxies-early-universe-may-have-finally-been-found">
+	<title>Science News: Giant, active galaxies from the early universe may have finally been found</title>
+	<link>https://www.sciencenews.org/article/giant-active-galaxies-early-universe-may-have-finally-been-found</link>
+	<content:encoded>Overlooked galaxies from when the universe was younger than 2 billion years old could be the ancestors of other ancient and modern monster galaxies.</content:encoded>
+	<dc:date>2019-08-07T17:00:11+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/5-pitfalls-to-writing-a-winning-grant-application-for-your-research">
+	<title>Elsevier Connect: 5 pitfalls to writing a winning grant application for your research</title>
+	<link>https://www.elsevier.com/connect/5-pitfalls-to-writing-a-winning-grant-application-for-your-research</link>
+	<content:encoded>Get tips to secure your dream grant from two Reaxys PhD Prize winners and a research funder</content:encoded>
+	<dc:date>2019-08-07T12:09:01+00:00</dc:date>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=105544">
 	<title>Retraction watch: Conflicts of disinterest: Why does it take a publisher 18 months, and counting, to correct papers?</title>
 	<link>https://retractionwatch.com/2019/08/07/conflicts-of-disinterest-why-does-it-take-a-publisher-18-months-and-counting-to-correct-papers/</link>
@@ -1399,124 +1516,6 @@ In the case o</content:encoded>
 &lt;p&gt;&lt;strong&gt;Matthew Warren (&lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;@MattbWarren&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-19T09:09:21+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="http://yourbrainhealth.com.au/?p=6000">
-	<title>Yourbrainhealth: Why women live longer than men (Part 4 of Your Brain at 100).</title>
-	<link>http://yourbrainhealth.com.au/why-women-live-longer-than-men-part-4-of-your-brain-at-100/</link>
-	<content:encoded>&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-6002&quot; height=&quot;459&quot; src=&quot;http://yourbrainhealth.com.au/wp/wp-content/uploads/2019/07/adults-community-culture-2228703-1-300x229.jpg&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This is part 4 of a series of lessons in brain health from our elders — those folk who lived the longest and healthiest.&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://theneuroscienceacademy.mykajabi.com/100-year-old-brain-pdf&quot;&gt;Click here to download the entire series as a PDF&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;All over the world, women live longer than men.&lt;/h2&gt;
-&lt;p&gt;In Australia in 2016, the median age at death was 85.0 years for women and 78.9 years for men. The gender gap grows with age, among centenarians worldwide, women outnumber men nine to one.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4994139/&quot;&gt;female advantage&lt;/a&gt; is not restricted to humans as in other species, from honeybees to orca whales to rodents, females outlive males.&lt;/p&gt;
-&lt;h2&gt;The longevity gender gap has always ebbed and flowed.&lt;/h2&gt;
-&lt;p&gt;Mortality before modernity was influenced by wars, infection and death during childbirth. In nineteenth century Europe, life expectancy was less than forty years and the longevity of men and women was generally very similar.&lt;/p&gt;
-&lt;p&gt;High female mortality due to pregnancy and childbirth corresponded to a high male mortality from causes related to work, accidental injury or war (both sexes succumbed to infection and disease in equal numbers.)&lt;/p&gt;
-&lt;p&gt;The greatest gap was seen during in the middle decades of the twentieth century. For example, in the UK in the 1970s, life expectancy between men and women was about seven years apart. In the early years of the twentieth century, men smoked and drank, went to war and worked in physically stressful jobs. The men who died at middle age during the 70s were the ‘carriers’ of an excess mortality determined by their misspent youth.&lt;/p&gt;
-&lt;h2&gt;The longevity gender gap is beginning to close&lt;/h2&gt;
-&lt;p&gt;Teenagers and young men are three times more likely than young women to die by accidents (usually in a car), suicide, drowning and violence. These rates ensure that by age twenty-five, more women are alive than men.&lt;/p&gt;
-&lt;p&gt;In middle age, men are still more likely to die in car accidents or from suicide, but illnesses related to smoking, alcohol and poor diet start to emerge, with death from heart disease being the main cause of the gender gap.&lt;/p&gt;
-&lt;p&gt;For men, the risk of heart disease begins in their forties.&lt;/p&gt;
-&lt;p&gt;For women, it doesn’t start to increase until after menopause. By late life, men are more likely than women to die from heart disease, cancer and diabetes. Of course, women are not immortal, and we lead the statistics in death from dementia, chronic lower respiratory (lung) disease, cerebrovascular disease, influenza and pneumonia.&lt;/p&gt;
-&lt;h2&gt;Each generation ‘carries’ their lifestyle load of risk forward.&lt;/h2&gt;
-&lt;p&gt;The past few decades have seen the gap close. Harvard scientist &lt;a href=&quot;https://www.researchgate.net/publication/248446318_Why_Women_Live_Longer_Than_Men&quot;&gt;Thomas Perls&lt;/a&gt;, who heads up NECS and the Long Life Family Study, suggests it’s primarily the reduction in male mortality, as opposed to the increase in female mortality, that closes the gap.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;In general, the higher a nation’s level of social and economic development, the greater the life expectancy for both men and women and the greater the convergence in the two figures.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;The life experiences and circumstances of women now in their eighties and nineties have been different from those of their daughters and granddaughters. Each generation ‘carries’ their lifestyle load of risk forward.&lt;/p&gt;
-&lt;p&gt;Only time will tell if girls and boys born today reach ‘equality’ in mortality.&lt;/p&gt;
-&lt;h2&gt;The influence of biological sex on lifespan&lt;/h2&gt;
-&lt;p&gt;The secret to longevity is actually quite simple. Avoid dying young!&lt;/p&gt;
-&lt;p&gt;So, do women live longer because we pay closer attention to Blue Zones lifestyle advice or because we make more visits to the doctor thereby avoiding an early death?&lt;/p&gt;
-&lt;p&gt;Probably not.&lt;/p&gt;
-&lt;p&gt;As mentioned, elderly women often spend their extra few years of life in poor health, and female non-human species generally outlive their male counterparts, so it’s doubtful whether we can attribute healthy lifestyle practices for the gender gap.&lt;/p&gt;
-&lt;h2&gt;Female longevity theories include…&lt;/h2&gt;
-&lt;h3&gt;X Chromosomes.&lt;/h3&gt;
-&lt;p&gt;Clearly, men and women differ genetically, and one theory posits that the female ‘backup’ X chromosome provides a survival advantage. Men, in contrast, have only one X chromosome, so they cannot rely on a backup if a gene is defective.&lt;/p&gt;
-&lt;h3&gt;Mitochondria.&lt;/h3&gt;
-&lt;p&gt;Another &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/22863313&quot;&gt;theory&lt;/a&gt; implicates mitochondria, which exist in almost all animal cells, and convert our food into the energy that powers the body. Genetic variation in mitochondria reliably predicts life expectancy in males, but not in females. We receive copies of genes from both parents, except for mitochondrial genes that come only from our mother. It’s possible natural selection, which is evolution’s ‘quality control process’, only screens the quality of mitochondrial genes in females, so the mutations related to ageing are carried by males.&lt;/p&gt;
-&lt;h3&gt;Grandmothers!&lt;/h3&gt;
-&lt;p&gt;Finally, longevity in women might to be advantageous for a rather warm and fuzzy reason: grandmothers!&lt;/p&gt;
-&lt;p&gt;Menopausal orcas contribute to the survival of young whales by guiding the pod to hunting grounds, and a similar theory proposes human matriarchs confer the same survival benefits through the practice known as ‘alloparenting’.&lt;/p&gt;
-&lt;p&gt;The cute but contentious ‘grandmother hypothesis’ was first proposed in the 1980s, when anthropologists Kristen Hawkes spent time with the Hadza hunter–gather communities in Tanzania.&lt;/p&gt;
-&lt;p&gt;Hawkes noticed when grandmothers were involved in supporting their daughters by babysitting and gathering food, the grandchildren and the entire tribe were healthier and lived longer.&lt;/p&gt;
-&lt;p&gt;Hawkes took this idea one step further and claimed that grandmothers provide the foundation for human social connection, pair bonding and evolution of bigger brains. Hawkes has since watered down her original hypothesis based on mathematical modelling of human populations, but still claims&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Grandmothers make us human.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2&gt;The influence of reproductive history on the lifespan&lt;/h2&gt;
-&lt;p&gt;Your reproductive history includes the length of time from menarche to menopause, number of pregnancies, your age at your first and last pregnancies, and duration of breastfeeding.&lt;/p&gt;
-&lt;p&gt;This history reflects the cumulative exposure to sex hormones and your exposure to parenting.&lt;/p&gt;
-&lt;h3&gt;The older you are when give birth to your last child, the longer you’ll live.&lt;/h3&gt;
-&lt;p&gt;This phenomenon was first noticed in centenarian women — a remarkable number of them had babies late in life.&lt;/p&gt;
-&lt;p&gt;According to the &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4270889/&quot;&gt;LLFS&lt;/a&gt;, women who gave birth to a child after the age of forty have four times greater odds of reaching 100 compared to women who have their last child before the age of forty.&lt;/p&gt;
-&lt;p&gt;And women who have their last child after the age of thirty-three years have twice the odds of exceptional longevity compared to women who had their last child before age twenty-nine.&lt;/p&gt;
-&lt;h3&gt;The age at which you give birth to your first baby matters too.&lt;/h3&gt;
-&lt;p&gt;Time and time again, &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0277953616300983&quot;&gt;studies&lt;/a&gt; have found women who give birth in their teens experience worse health as they age, and they die younger than women who delay their first pregnancy. Socioeconomic status contributes to this statistic.&lt;/p&gt;
-&lt;p&gt;For example, teenage mothers are more likely to have grown up in disadvantaged households than women who delay their first pregnancy, and by virtue of raising a child from a young age, they’re less likely to stay in education, and more likely to continue the cycle of disadvantage.&lt;/p&gt;
-&lt;h3&gt;The optimal number of children is two or three&lt;/h3&gt;
-&lt;p&gt;Over the years, there have been conflicting reports on whether the number of children you have influences lifespan. It turns out that the relationship between motherhood and mortality follows a J-shaped curve.&lt;/p&gt;
-&lt;p&gt;If, like me, you’re partial to a glass of red wine, you may be familiar with the ‘J-shaped’ curve for alcohol consumption and health, whereby a glass or two of wine a day is more beneficial for health than nothing, or drinking to excess. Like glasses of wine, having two or three children is better for your health and longevity than remaining childless, or giving birth to four or more.&lt;/p&gt;
-&lt;h3&gt;Space your children out by two to three years&lt;/h3&gt;
-&lt;p&gt;Finally, having short birth intervals between your children (less than eighteen months apart or having twins or triplets) is linked to worse health, increased prescriptions for antidepressants (hardly a surprise), and earlier death compared to parents who space their children out by two to three years.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://jech.bmj.com/content/68/10/958&quot;&gt;Researchers&lt;/a&gt; state the ‘emotional, psychological and social strains of raising multiple children’ does the damage.&lt;/p&gt;
-&lt;p&gt;I concur: the stresses and strains of having two boys under two with no extended family on hand quickly took its toll on my mental health. I only hope the fact I snuck my two in just after the magic age of 33 will somehow counterbalance the strain!&lt;/p&gt;
-&lt;h3&gt;Children reduce life expectancy in dads too!&lt;/h3&gt;
-&lt;p&gt;Interestingly, the J-shaped relationship between health and number of children, and birth spacing is also present for fathers. The more children men have, the higher their risk of death from alcohol-related disease, heart disease and accidents. While it might be tempting to say children drive men (and women) to drink (or justify their glasses of wine), there’s no evidence the relationship between your children and your health is causal&lt;em&gt;, &lt;/em&gt;rather, a correlation exists.&lt;/p&gt;
-&lt;h2&gt;Like an apple a day, oestrogen protects and keeps the doctor away&lt;/h2&gt;
-&lt;p&gt;It remains to be seen whether ovarian hormones such as oestrogen and pregnancy &lt;em&gt;per se&lt;/em&gt; contribute to longevity.&lt;/p&gt;
-&lt;p&gt;Certainly, there is data showing that having babies and breastfeeding them protect against cancers, especially breast and ovarian cancer.&lt;/p&gt;
-&lt;p&gt;The protective effect is strongest if you have children before the age of 30 and breastfeed them for a year or more. We think protection is due to reduced exposure to monthly fluctuations of oestrogen and progesterone, rather than overall exposure.&lt;/p&gt;
-&lt;h2&gt;Does HRT increase or decrease lifespan?&lt;/h2&gt;
-&lt;p&gt;For women who make the decision to take HRT, the results of eighteen years of follow-up on HRT trials should provide reassurance.&lt;/p&gt;
-&lt;p&gt;A report published in &lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2653735&quot;&gt;&lt;em&gt;JAMA&lt;/em&gt; in 2017&lt;/a&gt; found:&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;No long-term increase in all-cause mortality or mortality from specific causes, such as cardiovascular disease or cancer, among women who received hormone replacement therapy (HRT) for five to seven years.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;There is a reduced risk of Alzheimer’s disease (AD) and improved cognition if you start using HRT within the critical window (i.e. beginning when menopausal symptoms begin, not years later).&lt;/p&gt;
-&lt;p&gt;Earlier age at menarche, later age at last pregnancy and use of the pill also protect against cognitive decline in later life.&lt;/p&gt;
-&lt;p&gt;It’s important to note all this data on reproductive history, hormonal status and longevity are crunched from large population-based studies, often from Scandinavian countries where the government keeps particularly detailed health records. For example, the birth-spacing finding came from Norway where researchers were able to gather complete health histories for all women and men ever born and living in the country after 1935. Similarly, the data on family size comes from the Swedish population register for all people born and living in the country between 1932 and 1960.&lt;/p&gt;
-&lt;h2&gt;Family planning for longevity — is that even a thing?&lt;/h2&gt;
-&lt;p&gt;We have a tendency to turn ‘research’ into ‘me-search’ and view the data through our own life lens.&lt;/p&gt;
-&lt;p&gt;So, it’s important to keep in mind the benefits and harms I’m discussing are based on averages across large populations, and not always directly applicable to each of us.&lt;/p&gt;
-&lt;p&gt;Eliminating risks merely tips the scale in your favour.&lt;/p&gt;
-&lt;p&gt;Thomas Perls agrees:&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;This does not mean women should wait to have children at older ages in order to improve their own chances of living longer. The age at last childbirth can be a rate-of-aging indicator. The natural ability to have a child at an older age likely indicates that a woman’s reproductive system is aging slowly, and therefore so is the rest of her body.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;So, if you’re in your teens or twenties, it’s probably unwise to apply data on longevity to your future family planning.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;This is part 4 of a series of lessons in brain health from our elders — those folk who lived the longest and healthiest.&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://theneuroscienceacademy.mykajabi.com/100-year-old-brain-pdf&quot;&gt;Click here to download the entire series as a PDF&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://yourbrainhealth.com.au/why-women-live-longer-than-men-part-4-of-your-brain-at-100/&quot; rel=&quot;nofollow&quot;&gt;Why women live longer than men (Part 4 of Your Brain at 100).&lt;/a&gt; appeared first on &lt;a href=&quot;http://yourbrainhealth.com.au&quot; rel=&quot;nofollow&quot;&gt;Your Brain Health&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2019-07-19T03:33:26+00:00</dc:date>
-	<dc:creator>Sarah McKay</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/permanent-liquid-magnets-have-now-been-created-lab">
-	<title>Science News: Permanent liquid magnets have now been created in the lab</title>
-	<link>https://www.sciencenews.org/article/permanent-liquid-magnets-have-now-been-created-lab</link>
-	<content:encoded>Magnets that generate persistent magnetic fields are usually solid. But new little bar magnets have the mechanical properties of liquids.</content:encoded>
-	<dc:date>2019-07-18T18:00:09+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/manipulating-nerve-cells-makes-mice-see-something-not-there">
-	<title>Science News: Manipulating nerve cells makes mice ‘see’ something that’s not there</title>
-	<link>https://www.sciencenews.org/article/manipulating-nerve-cells-makes-mice-see-something-not-there</link>
-	<content:encoded>Using optogenetics to stimulate about 20 nerve cells causes mice to perceive nonexistent vertical or horizontal lines.</content:encoded>
-	<dc:date>2019-07-18T18:00:09+00:00</dc:date>
-	<dc:creator>Laura Sanders</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/flexible-bone-helps-mammals-chew-dates-back-jurassic-period">
-	<title>Science News: A flexible bone that helps mammals chew dates back to the Jurassic Period</title>
-	<link>https://www.sciencenews.org/article/flexible-bone-helps-mammals-chew-dates-back-jurassic-period</link>
-	<content:encoded>A flexible bone that helps with chewing may have helped give rise to the Age of Mammals, a new fossil shows.</content:encoded>
-	<dc:date>2019-07-18T18:00:09+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=103383">
-	<title>Retraction watch: Exclusive: Russian site says it has brokered authorships for more than 10,000 researchers</title>
-	<link>https://retractionwatch.com/2019/07/18/exclusive-russian-site-says-it-has-brokered-authorships-for-more-than-10000-researchers/</link>
-	<content:encoded>Want to be a first author on a scholarly paper? A Russian company has you covered — starting at about $500. The company claims to have added the names of more than 10,000 researchers to more than 2,000 published articles in scholarly journals over the past three years. Think eBay — or perhaps StubHub — … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/18/exclusive-russian-site-says-it-has-brokered-authorships-for-more-than-10000-researchers/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Exclusive: Russian site says it has brokered authorships for more than 10,000 researchers&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-07-18T16:35:05+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
 </item>
 
 </rdf:RDF>
