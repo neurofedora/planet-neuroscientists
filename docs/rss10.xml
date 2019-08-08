@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-fermilab-turned-bubbles" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=105700" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/one-4-people-live-places-high-risk-running-out-water" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mercury-levels-fish-are-rising-despite-reduced-emissions" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=103508" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8700" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/botox-may-relieve-persistent-pelvic-pain-caused-endometriosis" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=103482" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/50-years-ago-fermilab-turned-bubbles">
+	<title>Science News: 50 years ago, Fermilab turned to bubbles</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-fermilab-turned-bubbles</link>
+	<content:encoded>The National Accelerator Laboratory, now called Fermilab, used to have a bubble chamber to study particles. Today, most bubble chambers have gone flat.</content:encoded>
+	<dc:date>2019-08-08T12:00:15+00:00</dc:date>
+	<dc:creator>Bethany Brookshire</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=105700">
 	<title>Retraction watch: Prof who lost emeritus status for views on race and intelligence has paper flagged</title>
 	<link>https://retractionwatch.com/2019/08/08/prof-who-lost-emeritus-status-for-views-on-race-and-intelligence-has-paper-flagged/</link>
@@ -1511,13 +1518,6 @@ In the case o</content:encoded>
 	<content:encoded>The wrinkle-smoothing treatment Botox may relieve pain from muscle spasms in the pelvic floor of women with endometriosis.</content:encoded>
 	<dc:date>2019-07-19T14:00:20+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=103482">
-	<title>Retraction watch: Forensics Friday: Can you find clues that indicate these two blots have been spliced?</title>
-	<link>https://retractionwatch.com/2019/07/19/forensics-friday-can-you-find-clues-that-indicate-these-two-blots-have-been-spliced/</link>
-	<content:encoded>Ever wanted to hone your skills as a scientific sleuth? Now’s your chance. Thanks to the American Society for Biochemistry and Molecular Biology (ASBMB), which is committed to educating authors on best practices in publishing, figure preparation, and reproducibility, we’re presenting the ninth in a series, Forensics Friday. Take a look at the image below, and then take our poll. … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/19/forensics-friday-can-you-find-clues-that-indicate-these-two-blots-have-been-spliced/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Forensics Friday: Can you find clues that indicate these two blots have been spliced?&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-07-19T11:01:25+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 
 </rdf:RDF>
