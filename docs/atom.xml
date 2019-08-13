@@ -5,8 +5,127 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2019-08-13T05:00:37+00:00</updated>
+	<updated>2019-08-13T11:00:54+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Doing the right thing: Psychology researchers retract paper three days after learning of coding error</title>
+		<link href="https://retractionwatch.com/2019/08/13/doing-the-right-thing-psychology-researchers-retract-paper-three-days-after-learning-of-coding-error/"/>
+		<id>https://retractionwatch.com/?p=106949</id>
+		<updated>2019-08-13T10:00:08+00:00</updated>
+		<content type="html">
+ We always hesitate to call retraction statements “models” of anything, but this one comes pretty close to being a paragon.  Psychology researchers in Germany and Scotland have retracted their 2018 paper in Acta Psychologica after learning of a coding error in their work that proved fatal to the results. That much is routine. Remarkable in … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/08/13/doing-the-right-thing-psychology-researchers-retract-paper-three-days-after-learning-of-coding-error/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Doing the right thing: Psychology researchers retract paper three days after learning of coding error&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Adam Marcus</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2019-08-13T11:00:36+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">NEST 2.18.0 (and 2.16.0) are ready for use on NeuroFedora</title>
+		<link href="https://neuroblog.fedoraproject.org/2019/08/13/nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora.html"/>
+		<id>tag:neuroblog.fedoraproject.org,2019-08-13:/2019/08/13/nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora.html</id>
+		<updated>2019-08-13T08:27:17+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;The NEST simulator&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20190813-nest-logo.png&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;After a bit of work and testing, NEST 2.18.0 and 2.16.0 are now both available
+for use on &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;. The docs have also been updated to include complete
+instructions on how to install and use these tools:
+&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/nest/&quot;&gt;https://docs.fedoraproject.org/en-US/neurofedora/nest/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are a few quick FAQs for your convenience:&lt;/p&gt;
+&lt;p&gt;Q: How do I use NEST on NeuroFedora?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It only takes two steps to install NEST using &lt;code&gt;dnf&lt;/code&gt; (the default package manager):&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Download and run (optionally install) a &quot;live&quot; Fedora Workstation image from &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;https://getfedora.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install NEST 2.18.0: Run &lt;code&gt;sudo dnf install python3-nest&lt;/code&gt; in a terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: How do I use version 2.16.0?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2.16.0 is provided as a &quot;module&quot;. To install the 2.16.0 version:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Download and run (optionally install) a &quot;live&quot; Fedora Workstation image from &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;https://getfedora.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install NEST 2.16.0: Run &lt;code&gt;sudo dnf module install nest:2.16.0&lt;/code&gt; in a terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note that only one version of NEST can be installed at once.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: Does NEST in NeuroFedora include MPI support?&lt;/p&gt;
+&lt;blockquote&gt;
+Yes---variants built with both MPICH and OpenMPI are available to use.&lt;/blockquote&gt;
+&lt;p&gt;Q: Does NEST in NeuroFedora include libneurosim/MUSIC/CSA: support?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not all of them yet.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;libneurosim: Yes&lt;/li&gt;
+&lt;li&gt;MUSIC: No (under review: &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/28&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/28&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;CSA:  No (WIP: &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/33&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/33&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: Where do I get help?&lt;/p&gt;
+&lt;blockquote&gt;
+The NeuroFedora team maintains multiple communication channels for support and general discussion: &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&quot;&gt;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Q: What other tools does NeuroFedora provide?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The complete list includes neuron, auryn, PyLEMS, NineML and lots more: &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;https://src.fedoraproject.org/group/neuro-sig&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fedora also includes more software that is not specific to computational neuroscience---such as productivity and development tools, a variety of desktop environments, server and container focussed editions, and other science related software:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org/&quot;&gt;https://getfedora.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://labs.fedoraproject.org/&quot;&gt;https://labs.fedoraproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://spins.fedoraproject.org/&quot;&gt;https://spins.fedoraproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neuroblog.fedoraproject.org/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
+			<id>https://neuroblog.fedoraproject.org/</id>
+			<updated>2019-08-13T08:27:17+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Pier Paolo and Pier Giuseppe, the titans of IFOM-IEO</title>
+		<link href="https://forbetterscience.com/2019/08/13/pier-paolo-and-pier-giuseppe-the-titans-of-ifom-ieo/"/>
+		<id>http://forbetterscience.com/?p=42007</id>
+		<updated>2019-08-13T06:00:00+00:00</updated>
+		<content type="html">
+ Meet two grand cancer researchers from Milan: Pier Paolo Di Fiore and Pier Giuseppe Pelicci. Then decide if you want to give them your tax and charity money.</content>
+		<author>
+			<name>Leonid Schneider</name>
+			<uri>https://forbetterscience.com</uri>
+		</author>
+		<source>
+			<title type="html">For Better Science</title>
+			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
+			<link rel="self" href="https://forbetterscience.com/feed/"/>
+			<id>https://forbetterscience.com</id>
+			<updated>2019-08-13T11:00:35+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Two of four Ebola treatments prove highly effective in a clinical trial</title>
@@ -62,7 +181,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -144,7 +263,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -241,7 +360,7 @@ A: Problem solving requires cooperation, coordination and large amounts of data 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -408,7 +527,7 @@ A: Problem solving requires cooperation, coordination and large amounts of data 
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -549,7 +668,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2019-08-07T19:29:22+00:00</updated>
+			<updated>2019-08-13T08:27:17+00:00</updated>
 		</source>
 	</entry>
 
@@ -626,7 +745,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -703,7 +822,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-08-12T23:00:34+00:00</updated>
+			<updated>2019-08-13T11:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -784,7 +903,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1023,7 +1142,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1090,7 +1209,7 @@ However, while the gamma-clock hypothesis is intriguing, direct</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1167,7 +1286,7 @@ However, while the gamma-clock hypothesis is intriguing, direct</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-08-12T17:00:42+00:00</updated>
+			<updated>2019-08-13T11:00:36+00:00</updated>
 		</source>
 	</entry>
 
@@ -1527,7 +1646,7 @@ However, while the gamma-clock hypothesis is intriguing, direct</content>
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2019-08-13T05:00:32+00:00</updated>
+			<updated>2019-08-13T11:00:33+00:00</updated>
 		</source>
 	</entry>
 
@@ -1624,7 +1743,7 @@ However, while the gamma-clock hypothesis is intriguing, direct</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-08-12T23:00:34+00:00</updated>
+			<updated>2019-08-13T11:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1875,7 +1994,7 @@ Bertamini suggests that the illusion is caused by</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-08-12T23:00:34+00:00</updated>
+			<updated>2019-08-13T11:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2570,64 +2689,6 @@ Bertamini suggests that the illusion is caused by</content>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
 			<updated>2019-07-29T11:00:38+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">‘Fruit from the Sands’ explores the Silk Road origins of apples, tea and more</title>
-		<link href="https://www.sciencenews.org/article/fruit-sands-book-explores-silk-road-origins-apples-tea"/>
-		<id>https://www.sciencenews.org/article/fruit-sands-book-explores-silk-road-origins-apples-tea</id>
-		<updated>2019-07-23T14:56:34+00:00</updated>
-		<content type="html">
- A new book explains how many of today’s popular foods got started on Central Asia’s ancient Silk Road trade networks.</content>
-		<author>
-			<name>Bruce Bower</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2019-07-31T23:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Gravitational fields, silkworm excrement, and “putor” programs: How did this “pure, utter nonsense” get into in a peer-reviewed journal?</title>
-		<link href="https://retractionwatch.com/2019/07/23/gravitational-fields-fish-excrement-and-putor-programs-how-did-this-pure-utter-nonsense-get-into-in-a-peer-reviewed-journal/"/>
-		<id>https://retractionwatch.com/?p=103803</id>
-		<updated>2019-07-23T10:24:29+00:00</updated>
-		<content type="html">
- Sometimes, a paper comes along that is so revolutionary, it defies description. So rather than try to do justice to a recent paper in Parasitology Research, we’ll reproduce a few paragraphs here: A certain point between the center of the earth and the center of a certain outer planet is where the gravities of each … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/23/gravitational-fields-fish-excrement-and-putor-programs-how-did-this-pure-utter-nonsense-get-into-in-a-peer-reviewed-journal/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Gravitational fields, silkworm excrement, and “putor” programs: How did this “pure, utter nonsense” get into in a peer-reviewed journal?&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Ivan Oransky</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2019-08-02T17:00:37+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">U.S. wells are pumping up groundwater from increasing depths</title>
-		<link href="https://www.sciencenews.org/article/us-wells-are-pumping-groundwater-increasing-depths"/>
-		<id>https://www.sciencenews.org/article/us-wells-are-pumping-groundwater-increasing-depths</id>
-		<updated>2019-07-23T10:00:23+00:00</updated>
-		<content type="html">
- Around the United States, groundwater wells are getting deeper in search of new sources of freshwater, a new study shows.</content>
-		<author>
-			<name>Carolyn Gramling</name>
-			<uri>https://www.sciencenews.org/feeds/headlines.rss</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<link rel="self" href=""/>
-			<id></id>
-			<updated>2019-07-31T17:00:35+00:00</updated>
 		</source>
 	</entry>
 

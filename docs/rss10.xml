@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=106949" />
+			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2019-08-13:/2019/08/13/nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora.html" />
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=42007" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/two-ebola-treatments-prove-highly-effective-clinical-trial" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/without-concussions-one-football-season-may-damage-brains" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=106407" />
@@ -112,13 +115,90 @@
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2667" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2666" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37593" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/fruit-sands-book-explores-silk-road-origins-apples-tea" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=103803" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/us-wells-are-pumping-groundwater-increasing-depths" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://retractionwatch.com/?p=106949">
+	<title>Retraction watch: Doing the right thing: Psychology researchers retract paper three days after learning of coding error</title>
+	<link>https://retractionwatch.com/2019/08/13/doing-the-right-thing-psychology-researchers-retract-paper-three-days-after-learning-of-coding-error/</link>
+	<content:encoded>We always hesitate to call retraction statements “models” of anything, but this one comes pretty close to being a paragon.  Psychology researchers in Germany and Scotland have retracted their 2018 paper in Acta Psychologica after learning of a coding error in their work that proved fatal to the results. That much is routine. Remarkable in … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/08/13/doing-the-right-thing-psychology-researchers-retract-paper-three-days-after-learning-of-coding-error/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Doing the right thing: Psychology researchers retract paper three days after learning of coding error&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-08-13T10:00:08+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
+<item rdf:about="tag:neuroblog.fedoraproject.org,2019-08-13:/2019/08/13/nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora.html">
+	<title>NeuroFedora blog: NEST 2.18.0 (and 2.16.0) are ready for use on NeuroFedora</title>
+	<link>https://neuroblog.fedoraproject.org/2019/08/13/nest-2-18-0-and-2-16-0-are-ready-for-use-on-neurofedora.html</link>
+	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;The NEST simulator&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20190813-nest-logo.png&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;After a bit of work and testing, NEST 2.18.0 and 2.16.0 are now both available
+for use on &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;. The docs have also been updated to include complete
+instructions on how to install and use these tools:
+&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/nest/&quot;&gt;https://docs.fedoraproject.org/en-US/neurofedora/nest/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are a few quick FAQs for your convenience:&lt;/p&gt;
+&lt;p&gt;Q: How do I use NEST on NeuroFedora?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It only takes two steps to install NEST using &lt;code&gt;dnf&lt;/code&gt; (the default package manager):&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Download and run (optionally install) a &quot;live&quot; Fedora Workstation image from &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;https://getfedora.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install NEST 2.18.0: Run &lt;code&gt;sudo dnf install python3-nest&lt;/code&gt; in a terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: How do I use version 2.16.0?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2.16.0 is provided as a &quot;module&quot;. To install the 2.16.0 version:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Download and run (optionally install) a &quot;live&quot; Fedora Workstation image from &lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org&quot;&gt;https://getfedora.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install NEST 2.16.0: Run &lt;code&gt;sudo dnf module install nest:2.16.0&lt;/code&gt; in a terminal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note that only one version of NEST can be installed at once.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: Does NEST in NeuroFedora include MPI support?&lt;/p&gt;
+&lt;blockquote&gt;
+Yes---variants built with both MPICH and OpenMPI are available to use.&lt;/blockquote&gt;
+&lt;p&gt;Q: Does NEST in NeuroFedora include libneurosim/MUSIC/CSA: support?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not all of them yet.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;libneurosim: Yes&lt;/li&gt;
+&lt;li&gt;MUSIC: No (under review: &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/28&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/28&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;CSA:  No (WIP: &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/33&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issue/33&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q: Where do I get help?&lt;/p&gt;
+&lt;blockquote&gt;
+The NeuroFedora team maintains multiple communication channels for support and general discussion: &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&quot;&gt;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Q: What other tools does NeuroFedora provide?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The complete list includes neuron, auryn, PyLEMS, NineML and lots more: &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/group/neuro-sig&quot;&gt;https://src.fedoraproject.org/group/neuro-sig&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fedora also includes more software that is not specific to computational neuroscience---such as productivity and development tools, a variety of desktop environments, server and container focussed editions, and other science related software:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://getfedora.org/&quot;&gt;https://getfedora.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://labs.fedoraproject.org/&quot;&gt;https://labs.fedoraproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://spins.fedoraproject.org/&quot;&gt;https://spins.fedoraproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-13T08:27:17+00:00</dc:date>
+	<dc:creator>Ankur Sinha</dc:creator>
+</item>
+<item rdf:about="http://forbetterscience.com/?p=42007">
+	<title>For Better Science: Pier Paolo and Pier Giuseppe, the titans of IFOM-IEO</title>
+	<link>https://forbetterscience.com/2019/08/13/pier-paolo-and-pier-giuseppe-the-titans-of-ifom-ieo/</link>
+	<content:encoded>Meet two grand cancer researchers from Milan: Pier Paolo Di Fiore and Pier Giuseppe Pelicci. Then decide if you want to give them your tax and charity money.</content:encoded>
+	<dc:date>2019-08-13T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/two-ebola-treatments-prove-highly-effective-clinical-trial">
 	<title>Science News: Two of four Ebola treatments prove highly effective in a clinical trial</title>
 	<link>https://www.sciencenews.org/article/two-ebola-treatments-prove-highly-effective-clinical-trial</link>
@@ -1473,27 +1553,6 @@ Bertamini suggests that the illusion is caused by</content:encoded>
 &lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-07-23T15:47:23+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/fruit-sands-book-explores-silk-road-origins-apples-tea">
-	<title>Science News: ‘Fruit from the Sands’ explores the Silk Road origins of apples, tea and more</title>
-	<link>https://www.sciencenews.org/article/fruit-sands-book-explores-silk-road-origins-apples-tea</link>
-	<content:encoded>A new book explains how many of today’s popular foods got started on Central Asia’s ancient Silk Road trade networks.</content:encoded>
-	<dc:date>2019-07-23T14:56:34+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=103803">
-	<title>Retraction watch: Gravitational fields, silkworm excrement, and “putor” programs: How did this “pure, utter nonsense” get into in a peer-reviewed journal?</title>
-	<link>https://retractionwatch.com/2019/07/23/gravitational-fields-fish-excrement-and-putor-programs-how-did-this-pure-utter-nonsense-get-into-in-a-peer-reviewed-journal/</link>
-	<content:encoded>Sometimes, a paper comes along that is so revolutionary, it defies description. So rather than try to do justice to a recent paper in Parasitology Research, we’ll reproduce a few paragraphs here: A certain point between the center of the earth and the center of a certain outer planet is where the gravities of each … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/23/gravitational-fields-fish-excrement-and-putor-programs-how-did-this-pure-utter-nonsense-get-into-in-a-peer-reviewed-journal/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Gravitational fields, silkworm excrement, and “putor” programs: How did this “pure, utter nonsense” get into in a peer-reviewed journal?&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-07-23T10:24:29+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/us-wells-are-pumping-groundwater-increasing-depths">
-	<title>Science News: U.S. wells are pumping up groundwater from increasing depths</title>
-	<link>https://www.sciencenews.org/article/us-wells-are-pumping-groundwater-increasing-depths</link>
-	<content:encoded>Around the United States, groundwater wells are getting deeper in search of new sources of freshwater, a new study shows.</content:encoded>
-	<dc:date>2019-07-23T10:00:23+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
