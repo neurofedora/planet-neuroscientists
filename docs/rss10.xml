@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/astronomers-just-quintupled-number-known-repeating-fast-radio-bursts" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/jupiter-weird-core-may-have-resulted-early-collision" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37630" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=107428" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/crispr-gene-editor-first-human-clinical-trials" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/on-being-lgbtq-in-science-yes-it-matters-and-heres-why" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=103933" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/astronomers-just-quintupled-number-known-repeating-fast-radio-bursts">
+	<title>Science News: Astronomers just quintupled the number of known repeating fast radio bursts</title>
+	<link>https://www.sciencenews.org/article/astronomers-just-quintupled-number-known-repeating-fast-radio-bursts</link>
+	<content:encoded>A Canadian telescope spotted eight more repeating fast radio bursts. What causes these cryptic flashes of radio waves from deep space remains unclear.</content:encoded>
+	<dc:date>2019-08-14T19:10:51+00:00</dc:date>
+	<dc:creator>Lisa Grossman</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/article/jupiter-weird-core-may-have-resulted-early-collision">
+	<title>Science News: A planetary body may have smashed into Jupiter, creating its weird core</title>
+	<link>https://www.sciencenews.org/article/jupiter-weird-core-may-have-resulted-early-collision</link>
+	<content:encoded>A planetary body smashing into Jupiter may have jostled the gas giant’s insides during its formative years, creating the strange interior seen today.</content:encoded>
+	<dc:date>2019-08-14T17:00:03+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=37630">
 	<title>The British Psychological Society - Research Digest: “Lack Of Scientific Proof” That Microdosing Psychedelic Drugs Improves Wellbeing Or Creativity</title>
 	<link>https://digest.bps.org.uk/2019/08/14/lack-of-scientific-proof-that-microdosing-psychedelic-drugs-improves-wellbeing-or-creativity/</link>
@@ -1373,20 +1387,6 @@ Bertamini suggests that the illusion is caused by</content:encoded>
 	<content:encoded>The fact that no one has been killed by shots of dark matter suggests the mysterious substance is relatively small and light.</content:encoded>
 	<dc:date>2019-07-25T10:00:20+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=103933">
-	<title>Retraction watch: Cock and bull story leads to retraction of bovine herpesvirus paper</title>
-	<link>https://retractionwatch.com/2019/07/25/cock-and-bull-story-leads-to-retraction-of-bovine-herpesvirus-paper/</link>
-	<content:encoded>The ancients had a thing for hybrids (think animals, not cars): half goat-half humans, horses with human torsos, winged horses and lions, you get the picture. But a chicken-cow mix wasn’t on that list … until now.  A group of researchers in Brazil has lost a paper in a veterinary journal for trying to reuse … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/25/cock-and-bull-story-leads-to-retraction-of-bovine-herpesvirus-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Cock and bull story leads to retraction of bovine herpesvirus paper&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-07-25T10:00:17+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts">
-	<title>Science News: How today’s global warming is unlike the last 2,000 years of climate shifts</title>
-	<link>https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts</link>
-	<content:encoded>Temperatures at the end of the 20th century were hotter almost everywhere on the planet than in the previous two millennia.</content:encoded>
-	<dc:date>2019-07-24T18:16:57+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 
 </rdf:RDF>
