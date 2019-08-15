@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/first-chlamydia-vaccine-has-passed-major-test" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/astronomers-just-quintupled-number-known-repeating-fast-radio-bursts" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/jupiter-weird-core-may-have-resulted-early-collision" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37630" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/50-years-ago-thalidomide-drug-found-new-life-leprosy-treatment" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-chandra-x-ray-telescope-celebrates-20-years-space" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/on-being-lgbtq-in-science-yes-it-matters-and-heres-why" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/first-chlamydia-vaccine-has-passed-major-test">
+	<title>Science News: The first chlamydia vaccine has passed a major test</title>
+	<link>https://www.sciencenews.org/article/first-chlamydia-vaccine-has-passed-major-test</link>
+	<content:encoded>A clinical trial for a vaccine against the sexually transmitted disease found that the product provoked an immune response.</content:encoded>
+	<dc:date>2019-08-15T10:00:04+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/astronomers-just-quintupled-number-known-repeating-fast-radio-bursts">
 	<title>Science News: Astronomers just quintupled the number of known repeating fast radio bursts</title>
 	<link>https://www.sciencenews.org/article/astronomers-just-quintupled-number-known-repeating-fast-radio-bursts</link>
@@ -1380,13 +1387,6 @@ Bertamini suggests that the illusion is caused by</content:encoded>
 	<link>https://www.elsevier.com/connect/on-being-lgbtq-in-science-yes-it-matters-and-heres-why</link>
 	<content:encoded>Six scientists share their challenges and breakthroughs at ‘An Evening with 500 Queer Scientists, Elsevier and Cell’</content:encoded>
 	<dc:date>2019-07-25T13:23:14+00:00</dc:date>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you">
-	<title>Science News: Dark matter particles won’t kill you. If they could, they would have already</title>
-	<link>https://www.sciencenews.org/article/dark-matter-particles-macros-wont-kill-you</link>
-	<content:encoded>The fact that no one has been killed by shots of dark matter suggests the mysterious substance is relatively small and light.</content:encoded>
-	<dc:date>2019-07-25T10:00:20+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
 </item>
 
 </rdf:RDF>
