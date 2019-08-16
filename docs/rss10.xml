@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/alzheimers-targets-brain-cells-help-people-stay-awake" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=107659" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-fda-approved-drug-takes-aim-deadly-form-tuberculosis" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37644" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ligo-virgo-gravitational-waves-first-black-hole-swallowing-neutron-star" />
@@ -113,12 +115,24 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=104074" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/positive-attitudes-about-aging-may-pay-better-health" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-inquire-about-measles-vaccine-hesitancy-and-more" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/youre-only-old-you-perceive-yourself-be" />
-			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9971" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/alzheimers-targets-brain-cells-help-people-stay-awake">
+	<title>Science News: Alzheimer’s targets brain cells that help people stay awake</title>
+	<link>https://www.sciencenews.org/article/alzheimers-targets-brain-cells-help-people-stay-awake</link>
+	<content:encoded>Nerve cells in the brain that are tied to wakefulness are destroyed in people with Alzheimer’s, a finding that may refocus dementia research.</content:encoded>
+	<dc:date>2019-08-16T15:30:21+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=107659">
+	<title>Retraction watch: Forensics Friday: Is this paper worth reading?</title>
+	<link>https://retractionwatch.com/2019/08/16/forensics-friday-is-this-paper-worth-reading/</link>
+	<content:encoded>Ever wanted to hone your skills as a scientific sleuth? Now’s your chance. Thanks to the American Society for Biochemistry and Molecular Biology (ASBMB), which is committed to educating authors on best practices in publishing, figure preparation, and reproducibility, we’re presenting the thirteenth in a series, Forensics Friday. Take a look at the image below, and then take our poll. … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/08/16/forensics-friday-is-this-paper-worth-reading/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Forensics Friday: Is this paper worth reading?&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-08-16T12:08:10+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/new-fda-approved-drug-takes-aim-deadly-form-tuberculosis">
 	<title>Science News: A new FDA-approved drug takes aim at a deadly form of tuberculosis</title>
 	<link>https://www.sciencenews.org/article/new-fda-approved-drug-takes-aim-deadly-form-tuberculosis</link>
@@ -1297,35 +1311,6 @@ However, while the gamma-clock hypothesis is intriguing, direct</content:encoded
 	<content:encoded>Readers had questions about vaccine-hesitant parents, measles and DNA sequencing.</content:encoded>
 	<dc:date>2019-07-28T10:15:00+00:00</dc:date>
 	<dc:creator>Science News Staff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/youre-only-old-you-perceive-yourself-be">
-	<title>Science News: You’re only as old as you perceive yourself to be</title>
-	<link>https://www.sciencenews.org/article/youre-only-old-you-perceive-yourself-be</link>
-	<content:encoded>Editor in Chief Nancy Shute discusses how people’s attitudes about aging can impact our physical health.</content:encoded>
-	<dc:date>2019-07-28T10:00:00+00:00</dc:date>
-	<dc:creator>Nancy Shute</dc:creator>
-</item>
-<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9971">
-	<title>Discovery magazine - Neuroskeptic: The Strange &quot;Bathtub Illusion&quot;</title>
-	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9971</link>
-	<content:encoded>Arrange your fingers like the image below, and then look at them closely.
-
-
-
-From Bertamini (2019) i-Perception
-
-
-
-Do you notice anything odd?
-
-
-
-Psychologist Marco Bertamini of the University of Liverpool describes this test in a fun new paper. According to Bertamini, seven of the ten people he surveyed reported that their little fingers clearly appeared to be 'too far away', to the extent that they did not appear to be part of their hands.
-
-
-
-Bertamini suggests that the illusion is caused by</content:encoded>
-	<dc:date>2019-07-27T14:47:25+00:00</dc:date>
 </item>
 
 </rdf:RDF>
