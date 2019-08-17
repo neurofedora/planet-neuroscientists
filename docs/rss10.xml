@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=107832" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/alzheimers-targets-brain-cells-help-people-stay-awake" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=107659" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-fda-approved-drug-takes-aim-deadly-form-tuberculosis" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/physicists-solar-wind-inside-lab" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=104074" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/positive-attitudes-about-aging-may-pay-better-health" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/readers-inquire-about-measles-vaccine-hesitancy-and-more" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://retractionwatch.com/?p=107832">
+	<title>Retraction watch: Weekend reads: A week of whistleblower news, including what happens when one gets it wrong; questions about a widely covered study of men with guitar bags</title>
+	<link>https://retractionwatch.com/2019/08/17/weekend-reads-a-week-of-whistleblower-news-including-what-happens-when-one-gets-it-wrong-questions-about-a-widely-covered-study-of-men-with-guitar-bags/</link>
+	<content:encoded>Before we present this week’s Weekend Reads, a request: Our co-founder Ivan Oransky is celebrating a birthday this coming week, and he’d like nothing more than a gift to Retraction Watch to support our work. Here’s your chance. The week at Retraction Watch featured a psychology researcher who did the right thing; 15 retractions by … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/08/17/weekend-reads-a-week-of-whistleblower-news-including-what-happens-when-one-gets-it-wrong-questions-about-a-widely-covered-study-of-men-with-guitar-bags/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: A week of whistleblower news, including what happens when one gets it wrong; questions about a widely covered study of men with guitar bags&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2019-08-17T12:30:50+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/article/alzheimers-targets-brain-cells-help-people-stay-awake">
 	<title>Science News: Alzheimer’s targets brain cells that help people stay awake</title>
 	<link>https://www.sciencenews.org/article/alzheimers-targets-brain-cells-help-people-stay-awake</link>
@@ -1304,13 +1311,6 @@ However, while the gamma-clock hypothesis is intriguing, direct</content:encoded
 	<content:encoded>Research into the mind-body connection shows that attitude is everything when it comes to healthy aging.</content:encoded>
 	<dc:date>2019-07-29T10:00:17+00:00</dc:date>
 	<dc:creator>Robin Marantz Henig</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/readers-inquire-about-measles-vaccine-hesitancy-and-more">
-	<title>Science News: Readers inquire about measles, vaccine hesitancy and more</title>
-	<link>https://www.sciencenews.org/article/readers-inquire-about-measles-vaccine-hesitancy-and-more</link>
-	<content:encoded>Readers had questions about vaccine-hesitant parents, measles and DNA sequencing.</content:encoded>
-	<dc:date>2019-07-28T10:15:00+00:00</dc:date>
-	<dc:creator>Science News Staff</dc:creator>
 </item>
 
 </rdf:RDF>
