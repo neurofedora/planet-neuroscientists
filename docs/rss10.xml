@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/blog/context/murray-gell-mann-totalitarian-principle-modern-plato-plenitude" />
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9981" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=107832" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/alzheimers-targets-brain-cells-help-people-stay-awake" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/2017-radioactive-plume-europe-russia-plant-neutrino-experiment" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2681" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/physicists-solar-wind-inside-lab" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=104074" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/blog/context/murray-gell-mann-totalitarian-principle-modern-plato-plenitude">
+	<title>Science News: Murray Gell-Mann’s ‘totalitarian principle’ is the modern version of Plato’s plenitude</title>
+	<link>https://www.sciencenews.org/blog/context/murray-gell-mann-totalitarian-principle-modern-plato-plenitude</link>
+	<content:encoded>The ancient principle of plenitude is reborn in the modern belief that whatever can exist must exist.</content:encoded>
+	<dc:date>2019-08-18T12:00:16+00:00</dc:date>
+	<dc:creator>Tom Siegfried</dc:creator>
+</item>
 <item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=9981">
 	<title>Discovery magazine - Neuroskeptic: Neuroimaging's Bias Against Left-handers</title>
 	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=9981</link>
@@ -1319,13 +1326,6 @@ However, while the gamma-clock hypothesis is intriguing, direct</content:encoded
 	<content:encoded>Some of the sun’s fundamental physics have been re-created with plasma inside a vacuum chamber</content:encoded>
 	<dc:date>2019-07-29T15:00:16+00:00</dc:date>
 	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=104074">
-	<title>Retraction watch: Kyoto University suspends first author of retracted Kumamoto quake paper</title>
-	<link>https://retractionwatch.com/2019/07/29/kyoto-university-suspends-first-author-of-retracted-kumamoto-quake-paper/</link>
-	<content:encoded>The first author of a now-retracted paper in Science about the effects of the deadly 2016 Kumamoto earthquake in Japan has been suspended from his university position for one year.  Aiming Lin, of the Department of Geophysics at Kyoto University, was sanctioned by the institution for misconduct stemming from his misuse of data and plagiarism … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/29/kyoto-university-suspends-first-author-of-retracted-kumamoto-quake-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Kyoto University suspends first author of retracted Kumamoto quake paper&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2019-07-29T10:00:53+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
 </item>
 
 </rdf:RDF>
