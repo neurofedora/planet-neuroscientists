@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/article/electrodes-show-glimpse-memories-emerging-brain" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37652" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/climate-misinformation-may-be-thriving-youtube-social-scientist-warns" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=107949" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/nasa-tess-first-ultrahot-neptune-exoplanet" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/can-you-quantify-trust-in-a-world-of-technology-watch-gregg-gordons-tedx-talk" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=104219" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/debate-universe-expansion-rate-hubble-constant-physics-crisis" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/article/electrodes-show-glimpse-memories-emerging-brain">
+	<title>Science News: Electrodes show a glimpse of memories emerging in a brain</title>
+	<link>https://www.sciencenews.org/article/electrodes-show-glimpse-memories-emerging-brain</link>
+	<content:encoded>Nerve cells in an important memory center in the brain sync their firing and create fast ripples of activity seconds before a recollection resurfaces.</content:encoded>
+	<dc:date>2019-08-19T12:00:18+00:00</dc:date>
+	<dc:creator>Laura Sanders</dc:creator>
+</item>
 <item rdf:about="http://digest.bps.org.uk/?p=37652">
 	<title>The British Psychological Society - Research Digest: Left-Handed People Are Being Unnecessarily Excluded From Neuroimaging Research, Study Finds</title>
 	<link>https://digest.bps.org.uk/2019/08/19/left-handed-people-are-being-unnecessarily-excluded-from-neuroimaging-research-study-finds/</link>
@@ -1292,13 +1299,6 @@ However, while the gamma-clock hypothesis is intriguing, direct</content:encoded
 	<content:encoded>A dermatology journal has retracted a 2017 article by a pair of researchers in Saudi Arabia after receiving a “serious complaint” about the integrity of the data. But the first author of the paper pushed back, saying the move was unjustified.  The article, “Successful use of combined corticosteroids and rituximab in a patient with refractory … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/07/30/authors-object-as-doubtful-data-doom-dermatology-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Authors object as “doubtful” data doom dermatology paper&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2019-07-30T10:00:48+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/debate-universe-expansion-rate-hubble-constant-physics-crisis">
-	<title>Science News: Debate over the universe’s expansion rate may unravel physics. Is it a crisis?</title>
-	<link>https://www.sciencenews.org/article/debate-universe-expansion-rate-hubble-constant-physics-crisis</link>
-	<content:encoded>Measurements of the Hubble constant don’t line up. Scientists debate what that means.</content:encoded>
-	<dc:date>2019-07-30T10:00:18+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
 </item>
 
 </rdf:RDF>
