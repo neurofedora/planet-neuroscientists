@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=42317" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=110588" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/trust-in-research" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=110187" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=9975" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/arctic-burning-greenland-melting-thanks-record-heat" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/hospitalizations-highlight-potential-dangers-e-cigs-teen-lungs" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/public-trust-scientists-work-good-society-growing" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=42317">
+	<title>For Better Science: Who owns the brains in Moscow, Amunts lawyer’s version</title>
+	<link>https://forbetterscience.com/2019/08/27/who-owns-the-brains-in-moscow-amunts-lawyers-version/</link>
+	<content:encoded>Katrin Amunts and University of Düsseldorf deploy lawyers to silence whistleblowers. After I was threatened with lawsuit, this post replaces the previous one. Learn the truth of who owns the brains in Moscow.</content:encoded>
+	<dc:date>2019-08-27T19:35:18+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=110588">
 	<title>Retraction watch: Cancer researcher up to five retractions</title>
 	<link>https://retractionwatch.com/2019/08/27/cancer-researcher-up-to-five-retractions/</link>
@@ -1294,13 +1301,6 @@ However, while the gamma-clock hypothesis is intriguing, direct</content:encoded
 	<content:encoded>E-cigarette use can harm the lungs, and eight Wisconsin teens who developed severe lung injuries after vaping may be the latest victims.</content:encoded>
 	<dc:date>2019-08-02T19:09:55+00:00</dc:date>
 	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/public-trust-scientists-work-good-society-growing">
-	<title>Science News: Public trust that scientists work for the good of society is growing</title>
-	<link>https://www.sciencenews.org/article/public-trust-scientists-work-good-society-growing</link>
-	<content:encoded>More Americans trust the motives of scientists than of journalists or politicians.</content:encoded>
-	<dc:date>2019-08-02T14:45:47+00:00</dc:date>
-	<dc:creator>Katy Daigle</dc:creator>
 </item>
 
 </rdf:RDF>
