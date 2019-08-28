@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-is-the-core-model-and-how-can-it-help-solve-the-global-healthcare-crisis" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8725" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=111414" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37691" />
@@ -114,11 +115,16 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-warmer-world-not-just-passing-phase" />
 			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=6010" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/ancient-maya-warfare-flared-surprisingly-early" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/new-map-best-view-yet-how-fast-antarctica-shedding-ice" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/what-is-the-core-model-and-how-can-it-help-solve-the-global-healthcare-crisis">
+	<title>Elsevier Connect: What is the core model, and how can it help solve the global pharmaceutical and healthcare crises?</title>
+	<link>https://www.elsevier.com/connect/what-is-the-core-model-and-how-can-it-help-solve-the-global-healthcare-crises</link>
+	<content:encoded>Elsevier author develops a new collaborative approach to improve the productivity of drug development and enable affordable access</content:encoded>
+	<dc:date>2019-08-28T16:25:49+00:00</dc:date>
+</item>
 <item rdf:about="http://blogs.plos.org/plos/?p=8725">
 	<title>The Official PLOS Blog: Get to Know an Academic Editor: Yasuko Bando</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/r7F2-94IrkM/</link>
@@ -1334,13 +1340,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 	<content:encoded>Extreme conflicts broke out well before the decline of the Maya civilization, researchers say.</content:encoded>
 	<dc:date>2019-08-05T15:00:18+00:00</dc:date>
 	<dc:creator>Bruce Bower</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/new-map-best-view-yet-how-fast-antarctica-shedding-ice">
-	<title>Science News: A new map is the best view yet of how fast Antarctica is shedding ice</title>
-	<link>https://www.sciencenews.org/article/new-map-best-view-yet-how-fast-antarctica-shedding-ice</link>
-	<content:encoded>Stitching together data from several satellite missions allowed scientists to create the most comprehensive map of Antarctic ice flow ever.</content:encoded>
-	<dc:date>2019-08-05T12:00:10+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
