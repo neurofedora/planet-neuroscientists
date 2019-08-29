@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/combatting-bias-preserving-research-integrity-its-all-part-of-scientific-review" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=486" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=42420" />
 			<rdf:li rdf:resource="https://blog.scienceexchange.com/?p=2706" />
@@ -114,11 +115,16 @@
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-4481700050034800713" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/fungus-makes-chemical-neutralizes-stench-skunk-spray" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/top-five-us-coastal-cities-risk-flooding-rising-sea-levels" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/boston-adapting-rising-sea-level-coastal-flooding" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/combatting-bias-preserving-research-integrity-its-all-part-of-scientific-review">
+	<title>Elsevier Connect: Combating bias, preserving research integrity – it’s all part of scientific review</title>
+	<link>https://www.elsevier.com/connect/combatting-bias-preserving-research-integrity-its-all-part-of-scientific-review</link>
+	<content:encoded>When reviewing scientific grant proposals, the stakes are high; here’s how funders are working to safeguard the process</content:encoded>
+	<dc:date>2019-08-29T16:16:18+00:00</dc:date>
+</item>
 <item rdf:about="https://blogs.cornell.edu/arxiv/?p=486">
 	<title>arXiv.org blog: Our Moderation Process</title>
 	<link>https://blogs.cornell.edu/arxiv/2019/08/29/our-moderation-process/</link>
@@ -1429,13 +1435,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 	<title>Science News: How the 5 riskiest U.S. cities for coastal flooding are preparing for rising tides</title>
 	<link>https://www.sciencenews.org/article/top-five-us-coastal-cities-risk-flooding-rising-sea-levels</link>
 	<content:encoded>The five U.S. cities most at risk of coastal flooding from rising sea levels are in various stages of preparedness.</content:encoded>
-	<dc:date>2019-08-06T10:00:13+00:00</dc:date>
-	<dc:creator>Mary Caperton Morton</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/boston-adapting-rising-sea-level-coastal-flooding">
-	<title>Science News: With nowhere to hide from rising seas, Boston prepares for a wetter future</title>
-	<link>https://www.sciencenews.org/article/boston-adapting-rising-sea-level-coastal-flooding</link>
-	<content:encoded>Boston has armed itself with a science-driven master plan to protect itself from increasingly inevitable storm surges and rising seas.</content:encoded>
 	<dc:date>2019-08-06T10:00:13+00:00</dc:date>
 	<dc:creator>Mary Caperton Morton</dc:creator>
 </item>
