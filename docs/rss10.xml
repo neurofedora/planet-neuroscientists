@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-you-dont-know-about-research4life" />
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-to-turn-a-great-idea-into-a-product-medical-students-share-their-secrets" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=114732" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37738" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/science-into-society" />
@@ -113,12 +115,22 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/one-4-people-live-places-high-risk-running-out-water" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/mercury-levels-fish-are-rising-despite-reduced-emissions" />
 			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2019-08-07:/2019/08/07/open-position-neurofedora-is-looking-for-a-spin-lab-master.html" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/why-people-celiac-disease-suffer-so-soon-after-eating-gluten" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/giant-active-galaxies-early-universe-may-have-finally-been-found" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/what-you-dont-know-about-research4life">
+	<title>Elsevier Connect: What you don’t know about Research4Life</title>
+	<link>https://www.elsevier.com/connect/what-you-dont-know-about-research4life</link>
+	<content:encoded>Research4Life champions reveal the formula for this thriving partnership and its far-reaching impact</content:encoded>
+	<dc:date>2019-09-03T13:44:43+00:00</dc:date>
+</item>
+<item rdf:about="https://www.elsevier.com/connect/how-to-turn-a-great-idea-into-a-product-medical-students-share-their-secrets">
+	<title>Elsevier Connect: What’s the difference between a great idea and a great product? Medical students share their insight</title>
+	<link>https://www.elsevier.com/connect/how-to-turn-a-great-idea-into-a-product-medical-students-share-their-secrets</link>
+	<content:encoded>Hackathon winners work with Elsevier to create a component for ClinicalKey Student</content:encoded>
+	<dc:date>2019-09-03T13:27:42+00:00</dc:date>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=114732">
 	<title>Retraction watch: “A flooding accident:” Engineer has seven papers retracted at once</title>
 	<link>https://retractionwatch.com/2019/09/03/a-flooding-accident-engineer-has-seven-papers-retracted-at-once/</link>
@@ -1506,20 +1518,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 &lt;/div&gt;</content:encoded>
 	<dc:date>2019-08-07T19:29:22+00:00</dc:date>
 	<dc:creator>Ankur Sinha</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/why-people-celiac-disease-suffer-so-soon-after-eating-gluten">
-	<title>Science News: Why people with celiac disease suffer so soon after eating gluten</title>
-	<link>https://www.sciencenews.org/article/why-people-celiac-disease-suffer-so-soon-after-eating-gluten</link>
-	<content:encoded>In people with celiac disease, some T cells release immune chemicals within hours of encountering gluten, triggering the fast onset of symptoms.</content:encoded>
-	<dc:date>2019-08-07T18:00:08+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/giant-active-galaxies-early-universe-may-have-finally-been-found">
-	<title>Science News: Giant, active galaxies from the early universe may have finally been found</title>
-	<link>https://www.sciencenews.org/article/giant-active-galaxies-early-universe-may-have-finally-been-found</link>
-	<content:encoded>Overlooked galaxies from when the universe was younger than 2 billion years old could be the ancestors of other ancient and modern monster galaxies.</content:encoded>
-	<dc:date>2019-08-07T17:00:11+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 
 </rdf:RDF>
