@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.discovermagazine.com/neuroskeptic/?p=10000" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=115459" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=115290" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37766" />
@@ -114,11 +115,36 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/are-researchers-asking-right-questions-prevent-mass-shootings" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/exploding-stars-scattered-traces-iron-over-antarctic-snow" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11176" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/how-these-tiny-insect-larvae-leap-without-legs" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.discovermagazine.com/neuroskeptic/?p=10000">
+	<title>Discovery magazine - Neuroskeptic: Brainwaves in Organoids?</title>
+	<link>http://blogs.discovermagazine.com/neuroskeptic/?p=10000</link>
+	<content:encoded>A paper about electrical activity in cultured human brain cells got a lot of attention this week:
+
+
+
+Scientists Just Detected Brain Waves in Mini Lab-Grown Brains
+
+
+
+Mini-brains grown in a lab show neural activity like preterm babies
+
+
+
+The study, published in Cell Stem Cell, was about cortical organoids, three dimensional blobs of brain-like tissue that are created from induced pluripotent stem cells (iPSCs).
+
+
+
+
+
+
+
+Researchers Trujillo et al. recorded electrical activity from the organoids as</content:encoded>
+	<dc:date>2019-09-07T19:15:06+00:00</dc:date>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=115459">
 	<title>Retraction watch: Weekend reads: The scale of misconduct in China; toxic peer reviews; license to publish?; an editorial revolt</title>
 	<link>https://retractionwatch.com/2019/09/07/weekend-reads-the-scale-of-misconduct-in-china-toxic-peer-reviews-license-to-publish-an-editorial-revolt/</link>
@@ -1453,13 +1479,6 @@ A: Problem solving requires cooperation, coordination and large amounts of data 
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2019/08/09/highlights-of-the-bmc-series-july-2019/&quot; rel=&quot;nofollow&quot;&gt;Highlights of the BMC series: July 2019&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2019-08-09T08:55:33+00:00</dc:date>
 	<dc:creator>Alison Cuff</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/how-these-tiny-insect-larvae-leap-without-legs">
-	<title>Science News: How these tiny insect larvae leap without legs</title>
-	<link>https://www.sciencenews.org/article/how-these-tiny-insect-larvae-leap-without-legs</link>
-	<content:encoded>High-speed filming reveals how a blob of an insect can leap more efficiently than it crawls.</content:encoded>
-	<dc:date>2019-08-08T22:20:27+00:00</dc:date>
-	<dc:creator>Susan Milius</dc:creator>
 </item>
 
 </rdf:RDF>
