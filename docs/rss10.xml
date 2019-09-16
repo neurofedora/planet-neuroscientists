@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=42807" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=115958" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11268" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=8760" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/astronomers-just-quintupled-number-known-repeating-fast-radio-bursts" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/article/jupiter-weird-core-may-have-resulted-early-collision" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37630" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/article/crispr-gene-editor-first-human-clinical-trials" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=42807">
+	<title>For Better Science: Alfonsina Desiderio and her pathological Bully Boys</title>
+	<link>https://forbetterscience.com/2019/09/16/alfonsina-desiderio-and-her-pathological-bully-boys/</link>
+	<content:encoded>Smut Clyde and Clare Francis studied the works of Milanese cancer researchers around Maria Alfonsina Desiderio. There are even ideas for T-shirts!</content:encoded>
+	<dc:date>2019-09-16T05:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=115958">
 	<title>Retraction watch: Weekend reads: Citation manipulation gone wild; astrology meets research; a classic mistake in a study of free will</title>
 	<link>https://retractionwatch.com/2019/09/14/weekend-reads-citation-manipulation-gone-wild-astrology-meets-research-a-classic-mistake-in-a-study-of-free-will/</link>
@@ -1737,13 +1744,6 @@ These findings are hardly unexpected. The exclusion of non-right-handed people f
 &lt;p&gt;&lt;strong&gt;&lt;b&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is Staff Writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-08-14T12:55:28+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/article/crispr-gene-editor-first-human-clinical-trials">
-	<title>Science News: CRISPR enters its first human clinical trials</title>
-	<link>https://www.sciencenews.org/article/crispr-gene-editor-first-human-clinical-trials</link>
-	<content:encoded>The gene editor will be used in lab dishes in cancer and blood disorder trials, and to directly edit a gene in human eyes in a blindness therapy test.</content:encoded>
-	<dc:date>2019-08-14T12:00:17+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
 </item>
 
 </rdf:RDF>
