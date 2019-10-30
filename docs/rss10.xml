@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2019-10-30:/2019/10/30/clique-topology-reveals-intrinsic-geometric-structure-in-neural-correlations.html" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=43783" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=38322" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=118177" />
@@ -114,11 +115,43 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=115953" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=37833" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/pressures-in-system-cause-researcher-concerns-over-quality-per-new-peer-review-survey" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=42807" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:biocomputation.herts.ac.uk,2019-10-30:/2019/10/30/clique-topology-reveals-intrinsic-geometric-structure-in-neural-correlations.html">
+	<title>UH Biocomputation group: Clique topology reveals intrinsic geometric structure in neural correlations</title>
+	<link>http://biocomputation.herts.ac.uk/2019/10/30/clique-topology-reveals-intrinsic-geometric-structure-in-neural-correlations.html</link>
+	<content:encoded>&lt;p&gt;This week on Jurnal Club session Shabnam Kadir will present the paper
+&quot;Clique topology reveals intrinsic geometric structure in neural correlations&quot;,
+by C. Giusti, E. Pastalkova, C. Curto and V. Itskov, Arxiv Prepr., pp. 1–29, 2015.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Detecting meaningful structure in neural activity and connectivity data is
+challenging in the presence of hidden nonlinearities, where traditional
+eigenvalue-based methods may be misleading. We introduce a novel approach
+to matrix analysis, called clique topology, that extracts features of the
+data invariant under nonlinear monotone transformations. These features
+can be used to detect both random and geometric structure, and depend only
+on the relative ordering of matrix entries. We then analyzed the activity
+of pyramidal neurons in rat hippocampus, recorded while the animal was
+exploring a two-dimensional environment, and confirmed that our method
+is able to detect geometric organization using only the intrinsic pattern
+of neural correlations. Remarkably, we found similar results during
+non-spatial behaviors such as wheel running and REM sleep. This suggests
+that the geometric structure of correlations is shaped by the underlying
+hippocampal circuits, and is not merely a consequence of position coding.
+We propose that clique topology is a powerful new tool for matrix analysis
+in biological settings, where the relationship of observed quantities to
+more meaningful variables is often nonlinear and unknown.&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 01/11/2019 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: D449&lt;/p&gt;</content:encoded>
+	<dc:date>2019-10-30T17:04:05+00:00</dc:date>
+	<dc:creator>Emil Dmitruk</dc:creator>
+</item>
 <item rdf:about="http://forbetterscience.com/?p=43783">
 	<title>For Better Science: No Time Toulouse!</title>
 	<link>https://forbetterscience.com/2019/10/30/no-time-toulouse/</link>
@@ -2406,13 +2439,6 @@ This &quot;Readiness Potential&quot; or Bereitschaftspotential threatened to deb
 	<link>https://www.elsevier.com/connect/pressures-in-system-cause-researcher-concerns-over-quality-per-new-peer-review-survey</link>
 	<content:encoded>An international survey by Sense About Science and Elsevier finds that 82% researchers want more information to accompany research papers</content:encoded>
 	<dc:date>2019-09-16T09:29:04+00:00</dc:date>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=42807">
-	<title>For Better Science: Alfonsina Desiderio and her pathological Bully Boys</title>
-	<link>https://forbetterscience.com/2019/09/16/alfonsina-desiderio-and-her-pathological-bully-boys/</link>
-	<content:encoded>Smut Clyde and Clare Francis studied the works of Milanese cancer researchers around Maria Alfonsina Desiderio. There are even ideas for T-shirts!</content:encoded>
-	<dc:date>2019-09-16T05:00:00+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
