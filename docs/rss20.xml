@@ -9,6 +9,14 @@
 	<atom:link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>For Better Science: The Lancet, UNSW and Khachigian's cancer cure</title>
+	<guid isPermaLink="false">http://forbetterscience.com/?p=44618</guid>
+	<link>https://forbetterscience.com/2019/12/02/the-lancet-unsw-and-khachigians-cancer-cure/</link>
+	<description>A dishonest cancer researcher. A dud cancer drug based on rigged lab data. A clinical trial in The Lancet. A greedy university which finds no misconduct. And a medical journal which tramples over patients.</description>
+	<pubDate>Mon, 02 Dec 2019 06:59:07 +0000</pubDate>
+  <source url="https://forbetterscience.com/feed/">For Better Science</source>
+</item>
+<item>
 	<title>Retraction watch: Weekend reads: Disgraced surgeon earns prison sentence; politicians and plagiarism; parents who help their kids cheat</title>
 	<guid isPermaLink="false">https://retractionwatch.com/?p=118520</guid>
 	<link>https://retractionwatch.com/2019/11/30/weekend-reads-disgraced-surgeon-earns-prison-sentence-politicians-and-plagiarism-parents-who-help-their-kids-cheat/</link>
@@ -160,9 +168,8 @@
 
 
 
-&lt;figure class=&quot;wp-block-embed is-type-rich&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
-&lt;div class=&quot;wp-video&quot; style=&quot;width: 640px;&quot;&gt;
-&lt;video class=&quot;wp-video-shortcode&quot; controls=&quot;controls&quot; height=&quot;360&quot; id=&quot;video-7171-1&quot; width=&quot;640&quot;&gt;&lt;source src=&quot;https://video.twimg.com/tweet_video/EJqxQa2XsAErgWY.mp4?_=1&quot; type=&quot;video/mp4&quot; /&gt;&lt;a href=&quot;https://video.twimg.com/tweet_video/EJqxQa2XsAErgWY.mp4&quot;&gt;https://video.twimg.com/tweet_video/EJqxQa2XsAErgWY.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;figure class=&quot;wp-block-video wp-block-embed is-type-video is-provider-videopress&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+
 &lt;/div&gt;Treadmill navigation in &lt;a href=&quot;https://www.nature.com/articles/s41562-019-0767-3&quot;&gt;Bellmund et al. 2019&lt;/a&gt;.&lt;/figure&gt;
 
 
@@ -183,19 +190,19 @@
 
 
 
-&lt;p&gt;The tools have come a long way since then. To give you a concrete example of this, this tutorial shows Valem &lt;a href=&quot;https://www.youtube.com/watch?v=gh4k0Q1Pl7E&quot;&gt;making a Beat Saber clone in VR in Unity3d in 10 minutes&lt;/a&gt;! Experiences can be developed in a GUI and immediately tried on a development PC. They’re accessible for someone with a programming background, and are often free for personal or academic use. The most commonly used tools are game engines with support for VR experiences:&lt;/p&gt;
+&lt;p&gt;The tools have come a long way since then. To give you a concrete example of this, this tutorial shows Valem &lt;a href=&quot;https://www.youtube.com/watch?v=gh4k0Q1Pl7E&quot;&gt;making a Beat Saber clone in VR in Unity3d in 10 minutes&lt;/a&gt;! Experiences can be developed in a GUI and immediately tested on a development PC. They’re accessible for someone with a programming background, and are often free for personal or academic use. The most commonly used tools are game engines with support for VR experiences:&lt;/p&gt;
 
 
 
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://unity.com/&quot;&gt;Unity&lt;/a&gt;, which is programmed in C# and is quite approachable for beginners. There is a framework built on top of Unity called &lt;a href=&quot;https://link.springer.com/article/10.3758/s13428-019-01242-0&quot;&gt;the Unity Experiment Framework&lt;/a&gt; to help create human behaviour experiments.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.unrealengine.com/en-US/&quot;&gt;Unreal Engine&lt;/a&gt;, which is scripted in C++. It tends to have a steeper learning curve but the rendering is top-notch, which can be important for immersion.&lt;/li&gt;&lt;/ul&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://unity.com/&quot;&gt;Unity&lt;/a&gt;, which is programmed in C# and is quite approachable for beginners. There are frameworks built on top of Unity, &lt;a href=&quot;https://link.springer.com/article/10.3758/s13428-019-01242-0&quot;&gt;the Unity Experiment Framework&lt;/a&gt; and &lt;a href=&quot;https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-017-0173-4&quot;&gt;VREX&lt;/a&gt; to make it easier to create human behaviour experiments.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.unrealengine.com/en-US/&quot;&gt;Unreal Engine&lt;/a&gt;, which is scripted in C++. It tends to have a steeper learning curve but the rendering is top-notch, which can be important for immersion.&lt;/li&gt;&lt;/ul&gt;
 
 
 
-&lt;p&gt;In addition, there are tools that are built especially for researchers. &lt;a href=&quot;https://www.worldviz.com/vizard-virtual-reality-software&quot;&gt;Vizard is a research platform&lt;/a&gt; that allows one to script experiences in Python. It has plugins for a lot of specialized research-grade hardware (extra trackers, data gloves) and has comprehensive data management features built-in, e.g. replaying interactions, processing data in realtime with numpy/scipy, and streaming data out in realtime.&lt;/p&gt;
+&lt;p&gt;In addition, there are tools that are built especially for researchers. &lt;a href=&quot;https://www.worldviz.com/vizard-virtual-reality-software&quot;&gt;Vizard is a research platform&lt;/a&gt; that allows one to script experiences in Python. It has plugins for a lot of specialized research-grade hardware (extra trackers, data gloves). It also has comprehensive data management features built-in, e.g. replaying interactions, processing data in realtime with numpy/scipy, and streaming data out in realtime.&lt;/p&gt;
 
 
 
-&lt;p&gt;For more specialized visual psychophysics, &lt;a href=&quot;https://www.psychopy.org/api/visual/rift.html&quot;&gt;PsychoPy&lt;/a&gt; and &lt;a href=&quot;http://psychtoolbox.org/docs/PsychVRToolbox&quot;&gt;Psychtoolbox&lt;/a&gt; support the Oculus Rift, Rift S and the Quest via the Oculus Link. Rounding out the picture is WebVR and frameworks built on top of it like &lt;a href=&quot;https://aframe.io/&quot;&gt;aframe&lt;/a&gt;, which allow VR content to be authored in HTML and delivered via a web browser. &lt;/p&gt;
+&lt;p&gt;For more specialized visual psychophysics, &lt;a href=&quot;https://www.psychopy.org/api/visual/rift.html&quot;&gt;PsychoPy&lt;/a&gt; and &lt;a href=&quot;http://psychtoolbox.org/docs/PsychVRToolbox&quot;&gt;Psychtoolbox&lt;/a&gt; support the Oculus Rift, Rift S and the Quest via the Oculus Link. Rounding out the picture is WebVR and frameworks built on top of it like &lt;a href=&quot;https://aframe.io/&quot;&gt;aframe&lt;/a&gt; and &lt;a href=&quot;https://threejs.org/&quot;&gt;THREE.js&lt;/a&gt; which allow VR content to be authored in HTML and delivered via a web browser. &lt;/p&gt;
 
 
 
@@ -265,7 +272,7 @@
 
 &lt;p&gt;VR commodification means is that you don’t have to be a &lt;em&gt;VR lab&lt;/em&gt; to do VR in your lab. Development is straightforward and the equipment is cheap, so it can be integrated as one component into a larger project. That offers many  new opportunities for enterprising labs to learn more about the brain.&lt;/p&gt;</description>
 	<pubDate>Thu, 28 Nov 2019 14:00:00 +0000</pubDate>
-        <enclosure url="http://video.twimg.com/tweet_video/EJqxQa2XsAErgWY.mp4" length="190236" type="video/mp4"/>
+        <enclosure url="https://xcorr.files.wordpress.com/2019/11/ejqxqa2xsaergwy.mp4" length="190236" type="video/mp4"/>
   <source url="https://xcorr.net/feed/">xcorr: comp neuro</source>
 </item>
 <item>
@@ -2374,14 +2381,6 @@ Lecture Notes in Computer Science, vol 11700. Springer, Cham.&lt;/li&gt;
 &lt;p style=&quot;font-weight: 400;&quot;&gt;&lt;em&gt;The Psychologist has a &lt;a href=&quot;https://thepsychologist.bps.org.uk/volume-32/december-2019/building-resilience&quot;&gt;collection of archive resources&lt;/a&gt; on resilence, including a new British Psychological Society briefing paper on the topic.&lt;/em&gt;&lt;/p&gt;</description>
 	<pubDate>Tue, 05 Nov 2019 12:57:30 +0000</pubDate>
   <source url="https://digest.bps.org.uk/feed/">Research Digest</source>
-</item>
-<item>
-	<title>For Better Science: Opera Buffa di Guido Kroemer a La Scala</title>
-	<guid isPermaLink="false">http://forbetterscience.com/?p=43919</guid>
-	<link>https://forbetterscience.com/2019/11/05/opera-buffa-di-guido-kroemer-a-la-scala/</link>
-	<description>Guido Kroemer receives on 8 November 2019 the €1mn Lombardy Award for Healthy Ageing, at La Scala in Milan. And why not, one panel member was Carlo Croce.</description>
-	<pubDate>Tue, 05 Nov 2019 10:19:42 +0000</pubDate>
-  <source url="https://forbetterscience.com/feed/">For Better Science</source>
 </item>
 
 </channel>
