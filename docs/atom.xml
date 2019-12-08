@@ -5,16 +5,97 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2019-12-08T08:00:39+00:00</updated>
+	<updated>2019-12-08T19:00:41+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Updated NeuroFedora Computational Neuroscience ISO image available</title>
+		<link href="https://neuroblog.fedoraproject.org/2019/12/08/updated-neurofedora-computational-neuroscience-iso-image-available.html"/>
+		<id>tag:neuroblog.fedoraproject.org,2019-12-08:/2019/12/08/updated-neurofedora-computational-neuroscience-iso-image-available.html</id>
+		<updated>2019-12-08T12:14:11+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;img alt=&quot;NeuroFedora logo&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/NeuroFedoraLogo01.png&quot; style=&quot;width: 30%;&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/design/issue/602&quot;&gt;NeuroFedora logo by Terezahl from the Fedora Design Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;&lt;p&gt;We've been working on making more software available in &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;. &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/neuron&quot;&gt;Neuron&lt;/a&gt;
+is now built with &lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/iv&quot;&gt;IV&lt;/a&gt; support, so models from &lt;a class=&quot;reference external&quot; href=&quot;https://senselab.med.yale.edu/ModelDB/&quot;&gt;ModelDB&lt;/a&gt; that use these should
+now be runnable using &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a class=&quot;reference external&quot; href=&quot;https://neuroblog.fedoraproject.org/2019/11/05/neurofedora-computational-neuroscience-iso-image-is-now-available.html&quot;&gt;Computational Neuroscience ISO image&lt;/a&gt;
+has been updated to include these improvements. After receiving some feedback,
+we've also added Julia and R to the image. The new version, 20191201, is
+available for download &lt;a class=&quot;reference external&quot; href=&quot;https://fedorapeople.org/groups/neuro-sig/&quot;&gt;here&lt;/a&gt;.
+The checksum file is also provided. So please test your download for
+correctness before you proceed to use it.&lt;/p&gt;
+&lt;p&gt;On a Linux system, please download both files (ISO and CHECKSUM), and run the
+following command in a terminal, in the directory where the files were
+downloaded, to verify the downloaded ISO:&lt;/p&gt;
+&lt;pre class=&quot;code bash literal-block&quot;&gt;sha256sum -c Fedora-31-Comp-Neuro-20191201-1-x86_64-CHECKSUM
+&lt;/pre&gt;
+&lt;div class=&quot;section&quot; id=&quot;other-updates&quot;&gt;
+&lt;h2&gt;Other updates&lt;/h2&gt;
+&lt;p&gt;In the meantime, we continue to package more software from our (rather long)
+&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=F%3A+Computational+neuroscience&quot;&gt;list&lt;/a&gt;.
+&lt;a class=&quot;reference external&quot; href=&quot;https://src.fedoraproject.org/rpms/jlems&quot;&gt;jLEMS&lt;/a&gt; is now in testing; &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/arbor-sim/arbor&quot;&gt;Arbor&lt;/a&gt; is in ready for &lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=1780906&quot;&gt;review&lt;/a&gt;; &lt;a class=&quot;reference external&quot; href=&quot;http://napari.org/&quot;&gt;Napari&lt;/a&gt; is being
+&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issue/305&quot;&gt;worked upon&lt;/a&gt;; along with
+a bunch of other tools. Help is always welcome. So if you'd have the software
+development skills required to build tools from source or would like to
+develop these, please get in touch with us!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;neurofedora-at-fosdem&quot;&gt;
+&lt;h2&gt;NeuroFedora at FOSDEM&lt;/h2&gt;
+&lt;p&gt;We've submitted an abstract to the &lt;a class=&quot;reference external&quot; href=&quot;https://fosdem.org/2020/schedule/track/open_research_tools_and_technologies/&quot;&gt;Open Research Tools and Technologies
+Devroom&lt;/a&gt;
+at FOSDEM which will be held Brussels on February 1 and 2. There will also be
+general Fedora presence at the event, with a booth too. You can learn more
+about Fedora at FOSDEM &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/FOSDEM_2020&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please get in touch with the people listed on the event page for more
+information on Fedora at FOSDEM. For &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; specific inquiries, you can
+contact &lt;a class=&quot;reference external&quot; href=&quot;https://fedoraproject.org/wiki/User:Major&quot;&gt;major&lt;/a&gt; who is the
+&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; team member organising our presence at the event (or ping the team
+on our communication channels).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;where-we-need-help&quot;&gt;
+&lt;h2&gt;Where we need help&lt;/h2&gt;
+&lt;p&gt;There's always lots to do. Here's a short list of where we need help:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;including new software: &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues&quot;&gt;https://pagure.io/neuro-sig/NeuroFedora/issues&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;using and testing the software, to ensure that it works correctly: just
+download the ISO or install tools and use them, and &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/quick-docs/howto-file-a-bug/&quot;&gt;file bugs if (when,
+rather) you find them&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;keeping our &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;documentation&lt;/a&gt; up to date:
+documentation is paramount, so we need to keep it up to date,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I won't list the skills that these tasks need, because we're not simply looking
+for people who have them already. We are looking for people who'd like to
+promote Open Science, and we will help them learn the skills.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is volunteer driven initiative and contributions in any form always
+welcome.  You can get in touch with us &lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/overview/#_communicating_and_getting_help&quot;&gt;here&lt;/a&gt;.
+We are happy to help you learn the skills needed to contribute to the project.
+In fact, that is one of the major goals of the initiative---to spread technical
+knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neuroblog.fedoraproject.org/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
+			<id>https://neuroblog.fedoraproject.org/</id>
+			<updated>2019-12-08T12:14:11+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">Open access: Could defeat be snatched from the jaws of victory?</title>
 		<link href="https://poynder.blogspot.com/2019/11/open-access-could-defeat-be-snatched.html"/>
 		<id>tag:blogger.com,1999:blog-7961882.post-549317360599042695</id>
-		<updated>2019-12-08T07:55:58+00:00</updated>
+		<updated>2019-12-08T08:08:13+00:00</updated>
 		<content type="html">
- &lt;br /&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;When news broke early in 2019 that the University of California had walked away from licensing negotiations with the world’s largest scholarly publisher (Elsevier), a wave of &lt;a href=&quot;https://www.timeshighereducation.com/news/university-california-break-elsevier-tipped-boost-global-revolt&quot;&gt;triumphalism&lt;/a&gt; &lt;/span&gt;&lt;span&gt;spread through the OA Twittersphere. &lt;/span&gt;&lt;/div&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; margin-left: 1em; text-align: right;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-pz_keNQT-1w/XdI8MAxOylI/AAAAAAAAoDE/U1HU9CbsopwPid9jMK6z80mKM7SrItjBgCNcBGAsYHQ/s1600/Curtain.jpg&quot; style=&quot;clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto; text-align: left;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;1067&quot; data-original-width=&quot;1600&quot; height=&quot;133&quot; src=&quot;https://1.bp.blogspot.com/-pz_keNQT-1w/XdI8MAxOylI/AAAAAAAAoDE/U1HU9CbsopwPid9jMK6z80mKM7SrItjBgCNcBGAsYHQ/s200/Curtain.jpg&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;a href=&quot;https://unsplash.com/@philbotha?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;&lt;span&gt;Phil Botha&lt;/span&gt;&lt;/a&gt;&lt;span&gt; on &lt;/span&gt;&lt;a href=&quot;https://unsplash.com/search/photos/border?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;&lt;span&gt;Unsplash&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;The talks had &lt;a href=&quot;https://news.berkeley.edu/2019/02/28/why-uc-split-with-publishing-giant-elsevier/&quot;&gt;collapsed&lt;/a&gt; because &lt;/span&gt;&lt;span&gt;of Elsevier&lt;/span&gt;&lt;i&gt;&lt;span&gt;’&lt;/span&gt;&lt;/i&gt;&lt;span&gt;s failure to offer UC what it demanded: a &lt;/span&gt;&lt;a href=&quot;https://poynder.blogspot.com/2018/03/the-open-access-big-deal-back-to-future.html&quot;&gt;&lt;span&gt;new-style Big Deal&lt;/span&gt;&lt;/a&gt;&lt;span&gt; in which the university got access to all of Elsevier’s paywalled content &lt;b&gt;plus&lt;/b&gt; OA publishing rights for all UC authors – what UC refers to as a “&lt;/span&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2019/02/university-california-boycotts-publishing-giant-elsevier-over-journal-costs-and-open&quot;&gt;&lt;span&gt;Read and Publish&lt;/span&gt;&lt;/a&gt;&lt;span&gt;” agreement. In addition, UC wanted Elsevier to provide this at &lt;/span&gt;&lt;a href=&quot;https://phys.org/news/2019-03-university-california-terminates-subscriptions-elsevier.html&quot;&gt;&lt;span&gt;a reduced cost&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. Given its size and influence, UC’s decision was &lt;a href=&quot;https://psmag.com/education/why-should-taxpayer-funded-research-be-put-behind-a-paywall&quot;&gt;hailed as&lt;/a&gt; &lt;/span&gt;&lt;span&gt;“a shot heard around the academic world”. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;The news had added piquancy coming as it did in the wake of a radical new European OA initiative called &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://www.coalition-s.org/&quot;&gt;Plan S&lt;/a&gt;&lt;/span&gt;&lt;span&gt;. Proposed in 2018 by a group of European funders calling themselves &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://www.coalition-s.org/funders/&quot;&gt;cOAlition S&lt;/a&gt;&lt;/span&gt;&lt;span&gt;, the aim of Plan S is to make all publicly funded research open access by 2021. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;Buoyed up by these two developments open access advocates concluded that – 17 years after the Budapest Open Access Initiative (&lt;a href=&quot;https://www.budapestopenaccessinitiative.org/&quot;&gt;BOAI&lt;/a&gt;)&lt;/span&gt;&lt;span&gt; – the goal of universal (or near-universal) open access is finally within reach. Or as the Berkeley librarian who led the UC negotiations put it, “&lt;/span&gt;&lt;a href=&quot;https://www.timeshighereducation.com/opinion/push-open-access-finally-reaching-tipping-point&quot;&gt;&lt;span&gt;a tipping point&lt;/span&gt;&lt;/a&gt;&lt;span&gt;” has been reached. But could defeat be snatched from the jaws of success?&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;For my take on this topic please download the &lt;a href=&quot;https://richardpoynder.co.uk/Jaws.pdf&quot;&gt;attached pdf&lt;/a&gt;. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span&gt;Please note that this document is more eBook than essay. It is &lt;i&gt;very&lt;/i&gt; long. I know, I know, people will complain, but that is what I do. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Any brave soul willing to give it a go but who (like me) does not like to read long documents on the screen may like to print it out as a folded book. I have long used the Blue Squirrel software &lt;a href=&quot;https://www.bluesquirrel.com/products/clickbook/&quot;&gt;ClickBook&lt;/a&gt; to do this. Alternatively, you can print booklets directly from word processing software like Word, and I am happy to send over a Word file to anyone who would like to do that&lt;/span&gt;&lt;span&gt;. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Meanwhile, the eBook is available as a pdf file &lt;a href=&quot;https://richardpoynder.co.uk/Jaws.pdf&quot;&gt;here&lt;/a&gt;. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Rick Anderson has published a summary of and commentary on this eBook on &lt;i&gt;The Scholarly Kitchen&lt;/i&gt; &lt;a href=&quot;https://scholarlykitchen.sspnet.org/2019/11/25/the-tyranny-of-unintended-consequences-richard-poynder-on-open-access-and-the-open-access-movement/&quot;&gt;here&lt;/a&gt;. &lt;/b&gt;&lt;br /&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;b&gt;A second post on &lt;i&gt;The Scholarly Kitchen&lt;/i&gt; referencing this eBook was posted a 10 days later &lt;a href=&quot;https://scholarlykitchen.sspnet.org/2019/12/05/tldr-that-is-too-long-didnt-read/&quot;&gt;here&lt;/a&gt;. &lt;/b&gt;&lt;/div&gt;</content>
+ &lt;br /&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;When news broke early in 2019 that the University of California had walked away from licensing negotiations with the world’s largest scholarly publisher (Elsevier), a wave of &lt;a href=&quot;https://www.timeshighereducation.com/news/university-california-break-elsevier-tipped-boost-global-revolt&quot;&gt;triumphalism&lt;/a&gt; &lt;/span&gt;&lt;span&gt;spread through the OA Twittersphere. &lt;/span&gt;&lt;/div&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; margin-left: 1em; text-align: right;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-pz_keNQT-1w/XdI8MAxOylI/AAAAAAAAoDE/U1HU9CbsopwPid9jMK6z80mKM7SrItjBgCNcBGAsYHQ/s1600/Curtain.jpg&quot; style=&quot;clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto; text-align: left;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;1067&quot; data-original-width=&quot;1600&quot; height=&quot;133&quot; src=&quot;https://1.bp.blogspot.com/-pz_keNQT-1w/XdI8MAxOylI/AAAAAAAAoDE/U1HU9CbsopwPid9jMK6z80mKM7SrItjBgCNcBGAsYHQ/s200/Curtain.jpg&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; margin-bottom: 0cm;&quot;&gt;&lt;a href=&quot;https://unsplash.com/@philbotha?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;&lt;span&gt;Phil Botha&lt;/span&gt;&lt;/a&gt;&lt;span&gt; on &lt;/span&gt;&lt;a href=&quot;https://unsplash.com/search/photos/border?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;&lt;span&gt;Unsplash&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;The talks had &lt;a href=&quot;https://news.berkeley.edu/2019/02/28/why-uc-split-with-publishing-giant-elsevier/&quot;&gt;collapsed&lt;/a&gt; because &lt;/span&gt;&lt;span&gt;of Elsevier&lt;/span&gt;&lt;i&gt;&lt;span&gt;’&lt;/span&gt;&lt;/i&gt;&lt;span&gt;s failure to offer UC what it demanded: a &lt;/span&gt;&lt;a href=&quot;https://poynder.blogspot.com/2018/03/the-open-access-big-deal-back-to-future.html&quot;&gt;&lt;span&gt;new-style Big Deal&lt;/span&gt;&lt;/a&gt;&lt;span&gt; in which the university got access to all of Elsevier’s paywalled content &lt;b&gt;plus&lt;/b&gt; OA publishing rights for all UC authors – what UC refers to as a “&lt;/span&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2019/02/university-california-boycotts-publishing-giant-elsevier-over-journal-costs-and-open&quot;&gt;&lt;span&gt;Read and Publish&lt;/span&gt;&lt;/a&gt;&lt;span&gt;” agreement. In addition, UC wanted Elsevier to provide this at &lt;/span&gt;&lt;a href=&quot;https://phys.org/news/2019-03-university-california-terminates-subscriptions-elsevier.html&quot;&gt;&lt;span&gt;a reduced cost&lt;/span&gt;&lt;/a&gt;&lt;span&gt;. Given its size and influence, UC’s decision was &lt;a href=&quot;https://psmag.com/education/why-should-taxpayer-funded-research-be-put-behind-a-paywall&quot;&gt;hailed as&lt;/a&gt; &lt;/span&gt;&lt;span&gt;“a shot heard around the academic world”. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;The news had added piquancy coming as it did in the wake of a radical new European OA initiative called &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://www.coalition-s.org/&quot;&gt;Plan S&lt;/a&gt;&lt;/span&gt;&lt;span&gt;. Proposed in 2018 by a group of European funders calling themselves &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://www.coalition-s.org/funders/&quot;&gt;cOAlition S&lt;/a&gt;&lt;/span&gt;&lt;span&gt;, the aim of Plan S is to make all publicly funded research open access by 2021. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;Buoyed up by these two developments open access advocates concluded that – 17 years after the Budapest Open Access Initiative (&lt;a href=&quot;https://www.budapestopenaccessinitiative.org/&quot;&gt;BOAI&lt;/a&gt;)&lt;/span&gt;&lt;span&gt; – the goal of universal (or near-universal) open access is finally within reach. Or as the Berkeley librarian who led the UC negotiations put it, “&lt;/span&gt;&lt;a href=&quot;https://www.timeshighereducation.com/opinion/push-open-access-finally-reaching-tipping-point&quot;&gt;&lt;span&gt;a tipping point&lt;/span&gt;&lt;/a&gt;&lt;span&gt;” has been reached. But could defeat be snatched from the jaws of success?&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;For my take on this topic please download the &lt;a href=&quot;https://richardpoynder.co.uk/Jaws.pdf&quot;&gt;attached pdf&lt;/a&gt;. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal; text-align: left;&quot;&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;span&gt;Please note that this document is more eBook than essay. It is &lt;i&gt;very&lt;/i&gt; long. I know, I know, people will complain, but that is what I do. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Any brave soul willing to give it a go but who (like me) does not like to read long documents on the screen may like to print it out as a folded book. I have long used the Blue Squirrel software &lt;a href=&quot;https://www.bluesquirrel.com/products/clickbook/&quot;&gt;ClickBook&lt;/a&gt; to do this. Alternatively, you can print booklets directly from word processing software like Word, and I am happy to send over a Word file to anyone who would like to do that&lt;/span&gt;&lt;span&gt;. &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span&gt;Meanwhile, the eBook is available as a pdf file &lt;a href=&quot;https://richardpoynder.co.uk/Jaws.pdf&quot;&gt;here&lt;/a&gt;. &lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;line-height: normal;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Rick Anderson has published a summary of and commentary on this eBook on &lt;i&gt;The Scholarly Kitchen&lt;/i&gt; &lt;a href=&quot;https://scholarlykitchen.sspnet.org/2019/11/25/the-tyranny-of-unintended-consequences-richard-poynder-on-open-access-and-the-open-access-movement/&quot;&gt;here&lt;/a&gt;. &lt;/b&gt;&lt;br /&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;b&gt;A second post on &lt;i&gt;The Scholarly Kitchen&lt;/i&gt; referencing this eBook was posted 10 days later &lt;a href=&quot;https://scholarlykitchen.sspnet.org/2019/12/05/tldr-that-is-too-long-didnt-read/&quot;&gt;here&lt;/a&gt;. &lt;/b&gt;&lt;/div&gt;</content>
 		<author>
 			<name>Open &amp;amp; Shut</name>
 			<email>noreply@blogger.com</email>
@@ -24,7 +105,7 @@
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2019-12-08T07:55:58+00:00</updated>
+			<updated>2019-12-08T17:05:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -44,7 +125,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -64,7 +145,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -97,7 +178,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:31+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -290,7 +371,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:30+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -310,7 +391,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -444,7 +525,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -515,7 +596,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:30+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -590,7 +671,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -630,7 +711,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:31+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -687,7 +768,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -720,7 +801,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:30+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -760,7 +841,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -783,7 +864,7 @@
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2019-12-08T06:52:35+00:00</updated>
+			<updated>2019-12-08T10:37:58+00:00</updated>
 		</source>
 	</entry>
 
@@ -878,7 +959,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:30+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -917,7 +998,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1138,7 +1219,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:31+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1170,7 +1251,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:30+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1209,7 +1290,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1296,7 +1377,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-07T19:00:33+00:00</updated>
+			<updated>2019-12-08T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1349,7 +1430,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:31+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -1498,7 +1579,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-07T19:00:31+00:00</updated>
+			<updated>2019-12-08T19:00:31+00:00</updated>
 		</source>
 	</entry>
 
@@ -2065,7 +2146,7 @@ construct high-dimensional population codes and learn complex functions of their
 			<subtitle type="html">Alternative Energy, Endangered Species, Environmental Policy, Global Warming, and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2019-12-08T08:00:29+00:00</updated>
+			<updated>2019-12-08T19:00:28+00:00</updated>
 			<rights type="html">Copyright © 2019 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -2620,7 +2701,7 @@ construct high-dimensional population codes and learn complex functions of their
 			<subtitle type="html">Alternative Energy, Endangered Species, Environmental Policy, Global Warming, and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2019-12-08T08:00:29+00:00</updated>
+			<updated>2019-12-08T19:00:28+00:00</updated>
 			<rights type="html">Copyright © 2019 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -3074,7 +3155,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;</con
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2019-11-13T11:37:58+00:00</updated>
+			<updated>2019-12-08T12:14:11+00:00</updated>
 		</source>
 	</entry>
 
@@ -3278,40 +3359,7 @@ Pattern Recognition Letters, vol 128, Pages 183-189.&lt;/li&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2019-12-08T06:52:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">When We’re Hungry, We Remain Surprisingly Helpful And Co-operative</title>
-		<link href="https://digest.bps.org.uk/2019/11/11/when-were-hungry-we-remain-surprisingly-helpful-and-co-operative/"/>
-		<id>http://digest.bps.org.uk/?p=38443</id>
-		<updated>2019-11-11T13:10:26+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;img alt=&quot;GettyImages-472116420.jpg&quot; class=&quot;alignnone size-full wp-image-38454&quot; data-attachment-id=&quot;38454&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Furious little boy waiting for dinner. Holding a spoon and fork in the hand&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;djedzura&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Furious little boy waiting for dinner&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Furious little boy waiting for dinner&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-472116420.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-472116420.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-472116420.jpg&quot; data-orig-size=&quot;2119,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/11/11/when-were-hungry-we-remain-surprisingly-helpful-and-co-operative/furious-little-boy-waiting-for-dinner/&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-472116420.jpg?w=845&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;“You wouldn’t like me when I’m angry”: for the more mild-mannered among us, Bruce Banner’s famous catchphrase may not resonate. But add some hunger — “you wouldn’t like me when I’m &lt;em&gt;hangry”&lt;/em&gt; — and many of us can start to relate.&lt;/p&gt;
-&lt;p&gt;Being hungry, whilst a daily occurrence, can have multiple negative psychological impacts. For one, and most obviously, it simply doesn’t feel good, often leading us to the aforementioned rattiness of “hanger”. But acute hunger has also been &lt;a href=&quot;https://psycnet.apa.org/doiLanding?doi=10.1037%2F0003-066X.44.3.513&quot;&gt;linked&lt;/a&gt; to an increase in self-interest and a decrease in helping behaviour, too. If your resources are low, the theory goes, you’re much less likely to cooperate with others as you want to keep food for yourself and are unwilling to expend valuable resources like time and energy on helping others.&lt;/p&gt;
-&lt;p&gt;But this isn’t always the case — at least not according to a new piece of research from &lt;a href=&quot;https://www.nature.com/articles/s41467-019-12579-7&quot;&gt;&lt;em&gt;Nature&lt;/em&gt;&lt;em&gt;&lt;u&gt; Communications&lt;/u&gt;&lt;/em&gt;&lt;/a&gt;. The team argues that acute hunger doesn’t always have an impact on prosociality, even though people strongly believe it does.&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-38443&quot;&gt;&lt;/span&gt;Together with their colleagues, Jan Häusser and Christina Stahlecker from Justus-Liebig-University Gießen conducted four studies to examine the phenomenon. In the first, acute hunger was experimentally manipulated, with participants instructed not to eat anything after 10pm the previous night. Those in the control condition were given food before completing tasks, whilst those in the hunger condition were not.&lt;/p&gt;
-&lt;p&gt;Participants completed the Public Goods Game, a task which sees players deciding whether or not to contribute money to a shared pool. A prosocial response would be the contribution of everything to the shared pot to maximise resources. But those who don’t behave in a prosocial way would also profit, receiving both contributions from the shared pot and their own resources.&lt;/p&gt;
-&lt;p&gt;But despite the first group’s hunger, they didn’t significantly differ in their contributions compared to the control group. This was even true in a second study, where sessions were scheduled later to make participants even hungrier, and control participants given a higher level of sugar before completing tasks.&lt;/p&gt;
-&lt;p&gt;In the third and fourth studies, students were recruited in front of a cafe before and after lunch, and had levels of prosociality measured through several tasks. These included a request to participate in a future, follow-up study — for absolutely no financial compensation. And again, the team found that hunger did not predict participants’ levels of prosociality: 45% of hungry participants agreed to volunteer for this future study compared to 47% of sated participants. Another task showed that these participants were &lt;span&gt;also&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;just as willing to share money with a partner as the non-hungry participants.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;But despite these findings, our beliefs about what happens when we need food are somewhat different. In an online survey, the team found that people &lt;em&gt;expected&lt;/em&gt; hungry people to be more selfish, less helpful and less cooperative. They also believed the same of themselves.&lt;/p&gt;
-&lt;p&gt;So why the disparity? The team suggests such beliefs are grounded in the “widespread myth of self-interest” — the idea that people are essentially and inherently selfish. If we ascribe to this belief, of course it makes sense that we think people would shed all prosociality when times get tough: underneath the surface, after all, we care about ourselves more than anything.&lt;/p&gt;
-&lt;p&gt;The findings, as the team points out, only apply to hunger “within the upper boundaries of the natural daily fluctuation typical in Western industrialized societies” — in other words, the results may not be relevant when considering the sort of existential hunger that many experience through poverty, war or natural disasters. The cafe studies also depended on subjective measurements of hunger, making it difficult to tell exactly how hungry participants were and therefore how this may affect their behaviour and choices.&lt;/p&gt;
-&lt;p&gt;But the idea that people are not inherently selfish — even when going through unpleasant or uncomfortable experiences — may be a valuable takeaway. And as we continue to experience political and environmental turmoil, it may be a lesson we sorely need.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.nature.com/articles/s41467-019-12579-7&quot;&gt;Acute hunger does not always undermine prosociality&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/rey_z&quot;&gt;@rey_z&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2019-11-23T19:00:31+00:00</updated>
+			<updated>2019-12-08T10:37:58+00:00</updated>
 		</source>
 	</entry>
 
