@@ -312,6 +312,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Neurdiness: thinking about brains</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://neurdiness.wordpress.com">
+					<dc:title>Neurdiness</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>NeuroFedora blog</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="https://neuroblog.fedoraproject.org/">
