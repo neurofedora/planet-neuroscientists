@@ -5,8 +5,118 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2019-12-18T08:00:39+00:00</updated>
+	<updated>2019-12-18T19:00:45+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Multi-panel figures: Using GIMP to combine individual images for use in PLOS articles</title>
+		<link href="http://feeds.plos.org/~r/plos/Blog/~3/XXWjN2-_CSM/"/>
+		<id>http://blogs.plos.org/plos/?p=8947</id>
+		<updated>2019-12-18T16:53:28+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/plos/files/2019/05/art-color-color-palette-159560-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;Note:    This post was written by Eric Cain, a member of PLOS’ Production Team. This is the second installment in a “Format for Success” series from this team. The first post was about  &lt;a href=&quot;https://blogs.plos.org/plos/2019/06/looking-good-tips-for-creating-your-plos-figures-graphics/&quot;&gt;Formatting figures&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Communicating scientific findings often requires images, charts, graphs, and more to support results and conclusions. When multiple visualizations all relate to one core aspect, it may be useful to include two or more panels to demonstrate this relationship and further distinguish your findings.&lt;/p&gt;
+&lt;p&gt;To help you submit a figure image that includes multiple panels and strengthens the presentation of your work, consider these steps to combine individual parts and still meet PLOS requirements, helping to get you on your way to a published, visually-appealing journal article.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Decide: Evaluate the implications of combining related pieces into a greater whole&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-1.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8948&quot; height=&quot;485&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-1.png&quot; width=&quot;864&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you have two or more images of individual parts demonstrating a larger concept, you may want to include them as a single figure image, rather than submitting the images as two or more separate figures, each with their own titles and captions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Align: Choose a presentation that conveys the desired arrangement &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You first want to decide the alignment of the panels in the figure image. We recommend you consider the size and shape of individual panels and what type of relationship between them that you wish to demonstrate, then determine the arrangement. Here are a few examples of common arrangements we see:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-2-1.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8962&quot; height=&quot;484&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-2-1.png&quot; width=&quot;856&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-3.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8950&quot; height=&quot;483&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-3.png&quot; width=&quot;862&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/slide-4.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8951&quot; height=&quot;484&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/slide-4.png&quot; width=&quot;861&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Combine: Import and edit each of your panels using an image editing software&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To create a multi-panel figure, use a presentation program such as Microsoft PowerPoint, OpenOffice Impress, GIMP, or Keynote for Mac. Here, let’s consider how GIMP can combine panels into a single figure:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigate to &lt;strong&gt;File &lt;/strong&gt;&amp;gt; &lt;strong&gt;Open as Layers…&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/open_as_layers.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8952&quot; height=&quot;188&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/open_as_layers.png&quot; width=&quot;286&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Select each of the files containing your desired panels and click &lt;strong&gt;Open&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Each file will open as a separate layer, one on top of the next. From the &lt;strong&gt;Image&lt;/strong&gt; menu, select &lt;strong&gt;Canvas size…&lt;/strong&gt; in order to resize the background layer to expand the working space for all the layers in your new figure once you have rearranged them.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/canvas_size.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8953&quot; height=&quot;468&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/canvas_size.png&quot; width=&quot;413&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Choose an approximate size for the canvas, considering your desired alignment. Use the &lt;strong&gt;Width&lt;/strong&gt; and &lt;strong&gt;Height&lt;/strong&gt; selection boxes to set a new size for your background canvas and then click &lt;strong&gt;Resize&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select&lt;/strong&gt; the first layer you wish to arrange and use the &lt;strong&gt;Move Tool&lt;/strong&gt; to reposition the layer in the area of your background canvas. Click on the layer and drag it into intended location. Continue to arrange each layer as needed.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/move_tool.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8954&quot; height=&quot;98&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/move_tool.png&quot; width=&quot;383&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Next, use the &lt;strong&gt;Text Tool&lt;/strong&gt; to add labels (eg. A, B, C or 1, 2, 3). Click in the area intended for text, drag diagonally to reserve space for a text box, release, and then click inside the new text box to type in labels. Letters are recommended, as they easily distinguish between panels and avoid confusion between figure numbers that exist elsewhere.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/text_tool.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8955&quot; height=&quot;92&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/text_tool.png&quot; width=&quot;280&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;When all layers of images and text are complete, then select &lt;strong&gt;Crop Tool&lt;/strong&gt; to cut out unnecessary space from your figure edges. Click in a corner at the desired edge of your figure, hold and drag the cursor to the opposite corner of the desired edge of your figure, then release. Hit &lt;strong&gt;Enter &lt;/strong&gt;to crop to the selected surface area.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/crop_tool.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8956&quot; height=&quot;102&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/crop_tool.png&quot; width=&quot;390&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Navigate to &lt;strong&gt;Image&lt;/strong&gt; &amp;gt; &lt;strong&gt;Flatten Image&lt;/strong&gt; to combine all layers into a single, flat image.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/flatten_image.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8957&quot; height=&quot;422&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/flatten_image.png&quot; width=&quot;370&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Scale your image to fit page size and resolution requirements. Select &lt;strong&gt;Image&lt;/strong&gt; &amp;gt; &lt;strong&gt;Scale Image…&lt;/strong&gt; and use the Width and Height image size boxes to set a print size, while also considering a resolution between 300 and 600 DPI. Note that as resolution increases, print size decreases unless the image is scaled larger, and vice versa. When ready, click &lt;strong&gt;Scale&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/scale_image.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8958&quot; height=&quot;343&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/scale_image.png&quot; width=&quot;412&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lastly, export your new figure image to your computer by choosing &lt;strong&gt;File &lt;/strong&gt;&amp;gt; &lt;strong&gt;Export As… &lt;/strong&gt;and adding in the corresponding name for your new file (eg. Fig1.tif or Fig2.tif). Click &lt;strong&gt;Export&lt;/strong&gt;. When prompted, choose &lt;strong&gt;LZW&lt;/strong&gt; as compression type and select &lt;strong&gt;Export&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-5.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-8960&quot; height=&quot;488&quot; src=&quot;http://blogs.plos.org/plos/files/2019/12/Slide-5.png&quot; width=&quot;870&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Congratulations! You now have combined panels into a single image.&lt;/p&gt;
+&lt;p&gt;A few considerations while combining panels: If your figures have numerous pictures, charts, or small text, they will render best at a resolution of 600dpi. It is preferable to scale each panel to a uniform resolution before combining, so that some panels do not appear blurry and others clear. You may also export your new figure as another file type and use &lt;a href=&quot;https://pacev2.apexcovantage.com/&quot;&gt;PACE&lt;/a&gt; to convert your files to TIF. Finally, if you do not wish to combine multiple panels into a single image file, then you must break them apart into separate figures. If you proceed in this direction, renumber all figures and in-text citations accordingly so that new figure numbers and labels correspond correctly. The PLOS publishing platform and community databases such as PMC only allow for one figure file per designated figure in the article text.&lt;/p&gt;
+&lt;p&gt;Presentation software like PowerPoint or GIMP may be new to some authors who have not previously compiled multi-panel figures for use. In order to assist working in these programs, use the steps above and also check out tutorials for &lt;a href=&quot;https://www.gimp.org/tutorials/&quot;&gt;GIMP&lt;/a&gt;, if you have further needs for special modification.&lt;/p&gt;
+&lt;p&gt;Combining multiple, related panels into a single figure image improves the visual organization of scientific concepts that cannot fit into a single panel. This post offers insight on figure presentation options and includes a simple guide to help you to create the most effective figure image possible for your PLOS journal article.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/XXWjN2-_CSM&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>PLOS</name>
+			<uri>https://blogs.plos.org/plos</uri>
+		</author>
+		<source>
+			<title type="html">Public Library of Science</title>
+			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
+			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
+			<id>https://blogs.plos.org/plos</id>
+			<updated>2019-12-18T19:00:32+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Embattled cancer researcher loses legal bid to be reinstated as department chair at OSU</title>
+		<link href="https://retractionwatch.com/2019/12/18/embattled-cancer-researcher-loses-legal-bid-to-be-reinstated-as-department-chair-at-osu/"/>
+		<id>https://retractionwatch.com/?p=118596</id>
+		<updated>2019-12-18T12:06:00+00:00</updated>
+		<content type="html">
+ Carlo Croce, a cancer researcher at The Ohio State University who has waged legal battles against those he feels have wronged him, has lost another of those fights. A judge in Franklin County, Ohio, ruled against Croce in a case he brought against OSU to stop them from removing him as chair of his department. … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/12/18/embattled-cancer-researcher-loses-legal-bid-to-be-reinstated-as-department-chair-at-osu/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Embattled cancer researcher loses legal bid to be reinstated as department chair at OSU&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Ivan Oransky</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2019-12-18T19:00:35+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Thinking About Past Generations Could Help Us Tackle Climate Change</title>
+		<link href="https://digest.bps.org.uk/2019/12/18/thinking-about-past-generations-could-help-us-tackle-climate-change/"/>
+		<id>http://digest.bps.org.uk/?p=38800</id>
+		<updated>2019-12-18T09:00:14+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;&lt;img alt=&quot;GettyImages-1167565215.jpg&quot; class=&quot;alignnone size-full wp-image-38803&quot; data-attachment-id=&quot;38803&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;1.6&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark IV&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Grandparent spending time with grandson&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1563379119&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;35&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;400&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.005&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Grandparent spending time with grandson&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Grandparent spending time with grandson&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/12/gettyimages-1167565215.jpg?w=724&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/12/gettyimages-1167565215.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/12/gettyimages-1167565215.jpg&quot; data-orig-size=&quot;724,483&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/12/18/thinking-about-past-generations-could-help-us-tackle-climate-change/grandparent-spending-time-with-grandson/&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/12/gettyimages-1167565215.jpg?w=845&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rhetoric around climate change often calls on us to think of future generations: if we don’t suffer the effects, then our children and our children’s children will. For some, this sense of obligation could be motivating. But for others, the distant time frame may be a barrier to truly grappling with the issue.&lt;/p&gt;
+&lt;p&gt;Now, a &lt;a href=&quot;https://journals.sagepub.com/doi/abs/10.1177/0146167219883610&quot;&gt;new study&lt;/a&gt; in &lt;em&gt;Personality and Social Psychology Bulletin &lt;/em&gt;suggests one method to get people thinking about their duty to future generations is to think about the past.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-38800&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In their new paper, Hanne Watkins from the University of Massachusetts and Geoffrey Goodwin from the University of Pennsylvania suggest that reflecting on the actions of previous generations could cause a greater sense of “intergenerational reciprocity”: thinking about past sacrifices, in other words, could make us more likely to make sacrifices ourselves. At the moment, they argue, key decision makers are faced with a dilemma: their own interests conflict with the interests of future generations. Working out how to increase this intergenerational reciprocity, therefore, could be an important way to influence positive policymaking.&lt;/p&gt;
+&lt;p&gt;To understand the impact our understanding of the past has on our actions in the future, 200 participants were first asked to respond to a writing prompt, which encouraged them to reflect on either the sacrifices made by previous generations (“which sacrifices made by members of past generations are most important in allowing you to enjoy your current way of life?”) or simply on their fashion choices.&lt;/p&gt;
+&lt;p&gt;Next, participants were asked to rate how grateful they felt towards past generations on a scale of one to seven, as well as rating how obligated they felt towards future generations. Finally, they rated the importance of twelve social and political issues, including environmental pollution, sustainability and global warming.&lt;/p&gt;
+&lt;p&gt;As expected, gratitude towards past generations was significantly higher in the group asked to reflect on sacrifice. But so too was obligation to &lt;em&gt;future&lt;/em&gt; generations, suggesting that reflection on the past really did have an impact on how people thought about what’s required to make change. However, the two groups didn’t show any differences in the perceived importance of environmental issues.&lt;/p&gt;
+&lt;p&gt;A second study explored these findings further, asking some participants to reflect on the &lt;em&gt;lack &lt;/em&gt;of sacrifices made by past generations. There was also an additional measure at the end of the study, with participants asked if they would be willing to give money or pay more tax to help with environmental issues. In this case, again, reflecting on sacrifice increased gratitude, though there was no significant effect on how willing someone was to give up money for the cause.&lt;/p&gt;
+&lt;p&gt;And in a final study, some participants were asked to reflect on specific sacrifices — those made during World War II — rather than coming up with their own. Again, participants in the sacrifices condition were more likely to feel more gratitude towards past generations and also reported that the current generation was more “unworthy” and had an easier life. But in this case reflection on sacrifice did not increase obligation towards future generations in any significant sense.&lt;/p&gt;
+&lt;p&gt;So is thinking about the sacrifices of past generations a sufficient strategy when it comes to encouraging pro-environmental behaviour? Frustratingly, it’s rather difficult to say. While the results of the studies were mixed, overall the team found it did have an impact on our sense of duty towards our descendants. But even if this strategy does increase people’s sense of obligation, this alone may not be enough to change behaviour, as results on donating money seem to indicate.&lt;/p&gt;
+&lt;p&gt;The question of whose behaviour needs to be changed is also important — although making pro-environmental choice on a day-to-day basis may be a positive foundation for an ethical life, it is key policymakers and influential people who really need to be convinced. For these figures, many of whom have vested interests in decidedly non pro-environmental processes and institutions, shifting opinion may be a little harder.&lt;/p&gt;
+&lt;p&gt;– &lt;a href=&quot;https://journals.sagepub.com/doi/abs/10.1177/0146167219883610&quot;&gt;Reflecting on Sacrifices Made by Past Generations Increases a Sense of Obligation Towards Future Generations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/rey_z&quot;&gt;@rey_z&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+		<author>
+			<name>BPS Research Digest</name>
+			<uri>https://digest.bps.org.uk</uri>
+		</author>
+		<source>
+			<title type="html">Research Digest</title>
+			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
+			<id>https://digest.bps.org.uk</id>
+			<updated>2019-12-18T19:00:34+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-CA">Update on mobile-friendly abstract page edits</title>
@@ -55,7 +165,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-12-18T08:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -75,7 +185,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -106,7 +216,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -126,7 +236,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -158,7 +268,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -199,7 +309,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -253,7 +363,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -313,7 +423,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -518,7 +628,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-12-18T08:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -551,7 +661,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:32+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -671,7 +781,7 @@
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -863,7 +973,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -958,7 +1068,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:32+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -978,7 +1088,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1029,7 +1139,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1076,7 +1186,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1156,7 +1266,7 @@
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1195,7 +1305,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-12-18T08:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1215,7 +1325,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1252,7 +1362,7 @@
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1353,7 +1463,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2019-12-17T10:01:48+00:00</updated>
+			<updated>2019-12-18T14:22:22+00:00</updated>
 		</source>
 	</entry>
 
@@ -1373,7 +1483,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2019-12-17T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1426,7 +1536,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1478,7 +1588,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1619,7 +1729,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-17T19:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1753,7 +1863,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1793,7 +1903,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-12-18T08:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -1880,7 +1990,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1996,7 +2106,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2069,7 +2179,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-12-18T08:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2112,7 +2222,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2019-12-18T00:48:57+00:00</updated>
+			<updated>2019-12-18T17:21:20+00:00</updated>
 		</source>
 	</entry>
 
@@ -2145,7 +2255,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2558,7 +2668,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-12-18T08:00:33+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -2585,7 +2695,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2019-12-12T08:00:34+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -2867,27 +2977,7 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2019-12-18T08:00:33+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Weekend reads: Double-dipping with industry funding; a bully is rehired; organized crime scholar charged with money laundering</title>
-		<link href="https://retractionwatch.com/2019/11/23/weekend-reads-double-dipping-with-industry-funding-a-bully-is-rehired-organized-crime-scholar-charged-with-money-laundering/"/>
-		<id>https://retractionwatch.com/?p=118476</id>
-		<updated>2019-11-23T14:25:26+00:00</updated>
-		<content type="html">
- Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured: A look at why an infamous paper on autism and … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2019/11/23/weekend-reads-double-dipping-with-industry-funding-a-bully-is-rehired-organized-crime-scholar-charged-with-money-laundering/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Double-dipping with industry funding; a bully is rehired; organized crime scholar charged with money laundering&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Ivan Oransky</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2019-12-05T19:00:35+00:00</updated>
+			<updated>2019-12-18T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
@@ -3334,101 +3424,8 @@ construct high-dimensional population codes and learn complex functions of their
 			<subtitle type="html">Alternative Energy, Endangered Species, Environmental Policy, Global Warming, and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2019-12-18T08:00:30+00:00</updated>
+			<updated>2019-12-18T19:00:32+00:00</updated>
 			<rights type="html">Copyright © 2019 Kalmbach Media Co.</rights>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">What can a neuroscientist do about climate change?</title>
-		<link href="https://xcorr.net/2019/11/20/what-can-a-neuroscientist-do-about-climate-change/"/>
-		<id>http://xcorr.net/?p=7129</id>
-		<updated>2019-11-20T15:00:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;The climate crisis is a defining challenge of the 21st century. If we keep on the same emissions path, we expect a sea rise of 2 meters, hundreds of millions of climate refugees, a mass extinction of over half of animal species, and decreases agricultural productivity that could leave a billion people starving by 2100. The IPCC report shows 4 paths of carbon reduction that keep warming to 1.5 degrees, each requiring massive changes in personal behaviours, political structure, economy and technology. Every sector of society will need to join the effort.&lt;/p&gt;
-&lt;p&gt;Neuroscientists are taking notice. &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScA7q3Ob5CiKmub1UPKa1bIIB18mz2p-2Eo2ZDvfsW-0V9Z7g/viewform&quot;&gt;The Society for Neuroscience (SFN) recently hosted a satellite event about tackling climate change – more than 80 people participated&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/thefreemanlab/status/1182379104110120960&quot;&gt;Jeremy Freeman stepped down from CZI to focus on climate change&lt;/a&gt;; &lt;a href=&quot;https://twitter.com/swaziadam&quot;&gt;Adam Aron&lt;/a&gt; at UCSD &lt;a href=&quot;https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30202-5#.XW8Fxc-2-Z8.twitter&quot;&gt;published an editorial on why climate change needs attention from cognitive neuroscientists&lt;/a&gt;; and people like &lt;a href=&quot;https://arxiv.org/abs/1906.05433&quot;&gt;Konrad Kording, Demis Hassabis&lt;/a&gt; and &lt;a href=&quot;http://www.adammarblestone.org/&quot;&gt;Adam Marblestone&lt;/a&gt; are publishing detailed breakdowns of the climate crisis.&lt;/p&gt;
-&lt;p&gt;So what can a neuroscientist do about climate change? Neuroscience is not an engineering discipline, so it’s easy to feel powerless, but I’m going to try to show here we have a surprising amount of agency: personal agency, the power to convince, and the power to invent.&lt;/p&gt;
-&lt;h1&gt;Personal agency&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScA7q3Ob5CiKmub1UPKa1bIIB18mz2p-2Eo2ZDvfsW-0V9Z7g/viewform&quot;&gt;The SFN event ended in a petition to decarbonize the conference&lt;/a&gt;. This includes suggestions such as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;hosting satellite events closer to home to limit the amount of travel&lt;/li&gt;
-&lt;li&gt;skipping the conference every other year&lt;/li&gt;
-&lt;li&gt;integrating teleconferencing to attend remotely&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As academics, much of our carbon footprint stems from flight. Assuming that the 30,000 attendees travel on average 10,000 kilometers to get to the conference, it’s roughly 70,000 tons of carbon in the atmosphere from air travel only – or the average annual CO2 emitted by 10,000 EU citizens. In research universities, air travel accounts for a large proportion of the carbon footprint of the institutions; for example, it’s estimated that &lt;a href=&quot;https://iopscience.iop.org/article/10.1088/1748-9326/ab33e6/meta&quot;&gt;over 50% of the carbon footprint of Université de Montréal is from air travel&lt;/a&gt;. &lt;a href=&quot;https://hiltner.english.ucsb.edu/index.php/ncnc-guide/&quot;&gt;There are already excellent models for zero-carbon conferences&lt;/a&gt;. Traditional international conferences don’t make sense in a carbon-constrained world, and we can refuse to participate in them.&lt;/p&gt;
-&lt;p&gt;Flying is one of most carbon-intensive behaviours scientists participate in, and one of the highest leverage items. Neuroscientists also consume resources to run their labs, and these resources – and the embodied carbon – are wasted when the products of the research are not shared. This is a strong argument for open science. A salient example of resource use is training state-of-the-art deep learning models, trading GPU cycles for classification accuracy. &lt;a href=&quot;https://arxiv.org/abs/1906.02243&quot;&gt;One recent analysis estimated a carbon footprint of half a ton of CO2 for training a single NLP model (BERT); an architecture search over different networks yielded numbers in the hundreds of thousands of tons&lt;/a&gt;. Computational neuroscientists should share their trained models to prevent the wasted resources from re-training. Experimentalists should also share their data for the same reason. Data carries an embodied carbon footprint from the materials used to collect it (plastics, animal facilities, the carbon used to ship materials across borders, etc.), and publishing the existing data makes more use of the same amount of resources.&lt;/p&gt;
-&lt;p&gt;Although I’ve focused on activities specific to scientists, we can participate in the same carbon-cutting behaviours recommended for everyone:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;having fewer children&lt;/li&gt;
-&lt;li&gt;living car-less&lt;/li&gt;
-&lt;li&gt;eating a plant-based diet&lt;/li&gt;
-&lt;li&gt;using green energy&lt;/li&gt;
-&lt;li&gt;living in more modest houses&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure class=&quot;wp-caption aligncenter&quot; data-shortcode=&quot;caption&quot; id=&quot;attachment_7152&quot; style=&quot;width: 758px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7152 size-large&quot; data-attachment-id=&quot;7152&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;The most effective individual actions&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2019/11/themosteffec.jpg?w=748&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2019/11/themosteffec.jpg?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2019/11/themosteffec.jpg&quot; data-orig-size=&quot;1500,872&quot; data-permalink=&quot;https://xcorr.net/2019/11/20/what-can-a-neuroscientist-do-about-climate-change/themosteffec/&quot; height=&quot;435&quot; src=&quot;https://xcorr.files.wordpress.com/2019/11/themosteffec.jpg?w=748&quot; width=&quot;748&quot; /&gt;From &lt;a href=&quot;https://phys.org/news/2017-07-effective-individual-tackle-climate-discussed.html&quot;&gt;Wynes and Nicolas (2017)&lt;/a&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h1&gt;The power to convince&lt;/h1&gt;
-&lt;p&gt;About 70% of people in the US believe that climate change is happening; that leaves 30% of people that remain to be convinced. Furthermore, only a small fraction of believers act. Neuroscientists, as teachers and science communicators, can help people graduate from disbelief to disengagement to action.&lt;/p&gt;
-&lt;p&gt;Scientists have a lot of influence. They are consistently ranked among the most trusted professions in the US, and they can bring attention to important matters via teaching, their online presence and their political influence. &lt;a href=&quot;https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30202-5#.XW8Fxc-2-Z8.twitter&quot;&gt;As Adam Aron points out in his editorial&lt;/a&gt;, people are more convinced about the urgency of the climate crisis when communicators adopt themselves a low-carbon lifestyle. So scientists’ power to convince is gated by their own adoption of the behaviours they want to see in the world.&lt;/p&gt;
-&lt;p&gt;As academics, we have a higher standard of what it means to understand something, so before we go convincing, we have the duty to become well-informed. I think we can all take time to better understand the mechanisms of climate, the evidence for it, and its consequences. Plenty of resources are available to learn these materials; &lt;a href=&quot;https://www.edx.org/course/climate-change-the-science-and-global-impact&quot;&gt;a very good starting point is Michael Mann’s class on edX&lt;/a&gt;. Those more inclined to learn about the solution space should read the &lt;a href=&quot;https://www.withouthotair.com/&quot;&gt;late David Mackay’s book&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Given that we’ve changed our own behaviours and learned how climate change works, we need to find ways to amplify our own actions and convince others to act. This forum can be the classroom; &lt;a href=&quot;https://osf.io/t8s4k/&quot;&gt;Adam Aron’s class on climate change psychology&lt;/a&gt; gives us a template. This also has to include political activism; we can vote for parties that support carbon taxes and decarbonization; join grassroots advocacy groups; and support and participate in civil disobedience.&lt;/p&gt;
-&lt;p&gt;At the research level, Adam Aron argues that cognitive neuroscientists can help the climate crisis by studying the mechanisms by which people acquire beliefs about climate change, how they propagate through their social networks, what kinds of messages they best respond to, and what motivates them to act.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mila.quebec/en/ai-society/visualizing-climate-change/&quot;&gt;For example, a group at MILA is working on generating flooded images&lt;/a&gt; of people’s homes so they can experience for themselves what it will be like to live in with a 6 foot sea level rise. The hypothesis is that people are emotional decision makers and will respond best to emotionally-loaded messages. These kinds of approaches are ripe to be studied from both a neuroscientific decision-making perspective and an econometric efficacy perspective. What causes people to graduate for disbelievers to believers? What causes people to move from belief to action? And how many tons of CO2 could we keep in the ground if we convinced 1,000 people?&lt;/p&gt;
-&lt;h1&gt;The power to invent&lt;/h1&gt;
-&lt;p&gt;Many readers of this blog are technologists, engineers and programmers in addition to neuroscientists. Technological innovation will be crucial to limit climate change to 1.5 degrees. Software allows us to communicate climate change, to visualize it, predict it, plan for it, and mitigate it. Physical engineering will allow us to build the large-scale structures required to keep carbon in the ground. &lt;a href=&quot;http://worrydream.com/ClimateChange/&quot;&gt;Bret Victor wrote an excellent blog post&lt;/a&gt; on how technologists can help climate change, and it is a very encouraging read. A  consortium of machine learning researchers, including Yoshua Bengio, Demis Hassabis and Konrad Kording wrote &lt;a href=&quot;https://www.climatechange.ai/&quot;&gt;a sprawling 100-page paper with a companion website&lt;/a&gt; on how artificial intelligence can help climate change. By all means, if you’re a machine learning expert, pick a section in the paper labeled high leverage, and go work on it.&lt;/p&gt;
-&lt;p&gt;Engineering is a very small part of neuroscience today, but it will grow in near future. Mainstream (i.e. 10M+ units) consumer-grade BCIs will likely appear on the market in the next 10 years. Meanwhile, decarbonization scenarios that will keep warming to 1.5 degrees will require sustained efforts over the next 80 years. Neuroscience research that might be considered far out has the potential to have massive impact in the future.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;figure class=&quot;wp-caption aligncenter&quot; data-shortcode=&quot;caption&quot; id=&quot;attachment_7143&quot; style=&quot;width: 758px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-large wp-image-7143&quot; data-attachment-id=&quot;7143&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;Screenshot from 2019-11-19 22-54-35&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2019/11/screenshot-from-2019-11-19-22-54-35-e1574222173294.png?w=748&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2019/11/screenshot-from-2019-11-19-22-54-35-e1574222173294.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2019/11/screenshot-from-2019-11-19-22-54-35-e1574222173294.png&quot; data-orig-size=&quot;2224,976&quot; data-permalink=&quot;https://xcorr.net/2019/11/20/what-can-a-neuroscientist-do-about-climate-change/screenshot-from-2019-11-19-22-54-35/&quot; height=&quot;328&quot; src=&quot;https://xcorr.files.wordpress.com/2019/11/screenshot-from-2019-11-19-22-54-35-e1574222173294.png?w=748&quot; width=&quot;748&quot; /&gt;&lt;a href=&quot;https://www.ipcc.ch/sr15/&quot;&gt;Emissions scenarios leading to 1.5 degree warming&lt;/a&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Warning: speculation, thought experiments, future episodes of Black Mirror ahead&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;There are opportunities at the growing convergence of AI and neuroscience. Suppose, for instance, that by studying the brain, we discover an algorithm that opens up a rich area of AI (e.g. reinforcement learning, multi-agent learning, few-shot learning, causal inference, etc.). Some of the applications of this algorithm could be used effectively to mitigate climate change. For instance, suppose one of the downstream applications is counterfactual reasoning in life-cycle analysis; then we could very easily optimize a supply chain to minimize the carbon footprint of a given product. In this case, we’re augmenting human reasoning using AI, itself inspired by human reasoning, with the end goal of tackling climate change.&lt;/p&gt;
-&lt;p&gt;Computers are cognitive enhancers – Steve Jobs called them bicycles for the mind. People also use drugs to make themselves smarter, caffeine being the most salient example. People working on climate change may choose – indeed, may feel a moral imperative – to enhance themselves cognitively. The enhancement of well people (whether with nootropics, psychedelics or empathogens) is a taboo subject, but neuroscientists working on these areas  enhance the human potential to solve problems. The same point can be made about invasive BCIs for cognitive enhancement. Supplementing our memory, or having immediate access to a library of all human knowledge, could make us radically smarter, and more effective at fighting climate change.&lt;/p&gt;
-&lt;p&gt;Finally, humans could eventually choose to radically decrease their carbon footprint by leaving their physical bodies and uploading themselves to the cloud. &lt;a href=&quot;https://en.wikipedia.org/wiki/Mind_uploading&quot;&gt;While the capacity to emulate a single human brain in real-time using simplified biophysical models is not here yet, it should be feasible within the next 15 years&lt;/a&gt;. The cost of that simulation with today’s efficiency would be around a tenth of the power envelope of the United States. However, efficiency follows a similar trend to Moore’s law, with a doubling in operations per second every 1.5 years or so. At this rate, we could have whole brain emulation at a carbon intensity similar to that of 2019 human by 2055 – at which point uploading becomes carbon efficient, and rapidly more so over time. The carbon-negative technologies introduced in the 2060s might thus include foregoing our physical bodies.&lt;/p&gt;
-&lt;h1&gt;Conclusions&lt;/h1&gt;
-&lt;p&gt;I’ve highlighted three ways in which neuroscientists can help tackle the climate crisis: by changing their personal habits, by convincing others, and by inventing new ways to a carbonless future. We have to soberly evaluate our actions with respect to their causal impact, and live our lives accordingly. Neuroscience, like every sector of society, will have to change to tackle the defining challenge of this century.&lt;/p&gt;</content>
-		<author>
-			<name>xcorr</name>
-			<uri>https://xcorr.net</uri>
-		</author>
-		<source>
-			<title type="html">xcorr: comp neuro</title>
-			<subtitle type="html">computational neuroscience, machine learning</subtitle>
-			<link rel="self" href="https://xcorr.net/feed/"/>
-			<id>https://xcorr.net</id>
-			<updated>2019-12-02T08:00:30+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Simply Imagining Other People Can Change Our Own Sense Of Self</title>
-		<link href="https://digest.bps.org.uk/2019/11/20/simply-imagining-other-people-can-change-our-own-sense-of-self/"/>
-		<id>http://digest.bps.org.uk/?p=38542</id>
-		<updated>2019-11-20T11:15:36+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;img alt=&quot;GettyImages-1128065494.jpg&quot; class=&quot;alignnone size-full wp-image-38551&quot; data-attachment-id=&quot;38551&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;9&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5DS R&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Woman portrait double exposure&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1549538121&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;62&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;250&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.008&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Multiple Image Of Young Women Against&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Multiple Image Of Young Women Against&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-1128065494.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-1128065494.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-1128065494.jpg&quot; data-orig-size=&quot;2121,1414&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/11/20/simply-imagining-other-people-can-change-our-own-sense-of-self/multiple-image-of-young-women-against/&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/11/gettyimages-1128065494.jpg?w=845&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;By&lt;/i&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p style=&quot;text-align: left;&quot;&gt;&lt;i style=&quot;color: #2c3338; background-color: #ffffff;&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;“The sense of self is a hallmark of human experience. Each of us maintains a constellation of personal memories and personality traits that collectively define ‘who we really are'”.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;So begins a &lt;span class=&quot;Hyperlink0&quot;&gt;&lt;a href=&quot;https://psycnet.apa.org/record/2019-23055-001&quot;&gt;&lt;span style=&quot;color: black;&quot;&gt;new paper&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;None&quot;&gt;, published in the &lt;em&gt;Journal of Experimental Psychology&lt;/em&gt;, which reveals that who you “are” can easily be manipulated. Just imagining somebody else can alter all kinds of aspects of how you see yourself, even including your personality and memories.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-38542&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Meghan Meyer at Dartmouth College and colleagues first asked 185 adults to recall a series of personal memories — a time they received good news or helped a friend in need, for example — and rate how they had felt during that event (on a scale ranging from completely negative to completely positive). Using the same scale, participants were prompted to imagine how others would have felt in reaction to the same events: both an “average American” and also a genuine friend who was similar to them in in personality, temperament, major likes and dislikes, beliefs and values.&lt;/p&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span class=&quot;None&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;The participants were then given the original prompts again and asked to rate for a second time their own feelings at the time of the events. The team found these ratings had changed, to become closer to each participant’s assessments of how the others would feel. This effect was particularly strong when the other person was more similar to them — a friend, rather than an “average American”.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span class=&quot;None&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;For the next study, a fresh group of participants rated themselves on 60 character traits (such as “charming” and “unreliable”), then rated both a friend who was similar to them and also an actual other person — in this case, Walter Cronkite, a former US news anchor — on a subset of 20 of these traits. Next, they rated themselves again. As in the previous study, the participants’ self-ratings changed, becoming closer to those for their friend in particular.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span class=&quot;None&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;In a second, remarkable part to this study, a very similar result was found when people were asked to imagine the characteristics of something radically different to themselves: the Empire State Building. The participants first rated themselves on various physical traits, such as being “clean” and “asymmetrical”, and then rated a similar friend and the Empire State Building. Finally, they rated themselves again — and as before, their own ratings had become more similar to those given for the two targets (and especially the friend). The team then went on to find that these “simulation-induced” changes in self-knowledge can still be in place 24 hours on.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span class=&quot;None&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;How might thinking about other people, or even buildings, reshape your own self-knowledge? The researchers suspect that it happens because when you imagine how someone else looks or would feel and act in a given situation, you’re simultaneously retrieving memories about how you look and how you have felt and behaved in such situations in the past. When your own memories are retrieved, they become vulnerable to modification, which means those imagined reactions can influence your own real ones. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span class=&quot;None&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;For example, in thinking about how a friend might respond to being dumped, you may find yourself thinking, “Claire tends to be pretty thick-skinned”. When that knowledge and your relevant self-knowledge (eg. “I was embarrassed when I got dumped last year”) are retrieved simultaneously, considering your friend’s predicted response can tweak your own pre-existing self-knowledge. You might then recollect being less embarrassed about your own experience.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The effect might be especially potent when you’re considering someone who is similar (rather than different) to you, because thinking about such a person should trigger more self-related memories, which would then be vulnerable to being altered, the researchers suggest.&lt;/p&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span class=&quot;None&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;So far, the researchers have only checked whether the changes they observed were still in place after a day. It’s not clear yet how long they might last, or whether they would result in any meaningful differences in behaviour. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;BodyA&quot;&gt;&lt;span class=&quot;None&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;But the work does suggest that self-knowledge is just as susceptible to misinformation effects as other types of knowledge, the researchers conclude, adding: “Such findings offer a qualification to the argument that the self is ‘special’.”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;– &lt;a href=&quot;https://psycnet.apa.org/record/2019-23055-001&quot;&gt;Simulating other people changes the self&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2019-12-04T08:00:41+00:00</updated>
 		</source>
 	</entry>
 
