@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=45037" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-5776014058899490778" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=118665" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=118660" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://blog.oup.com/?p=143138" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=143133" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=38599" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/new-elsevier-report-charts-global-trends-in-hivaids-research" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=45037">
+	<title>For Better Science: Euroimmun: Graphic Art, Made in Germany</title>
+	<link>https://forbetterscience.com/2020/01/02/euroimmun-graphic-art-made-in-germany/</link>
+	<content:encoded>EuroImmun is a German diagnostics biotech, founded by the most charming Professor Stöcker and recently sold to PerkinElmer. Elisabeth Bik checked some of company's papers, many coauthored by Stöcker himself, and she raised questions. The company says this &quot;testifies to a lack of knowledge of the matter&quot;.</content:encoded>
+	<dc:date>2020-01-02T06:00:08+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-5776014058899490778">
 	<title>The Neurocritic: Computational Psychiatry, Self-Care, and The Mind-Body Problem</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/oBDz5pmvALA/computational-psychiatry-self-care-and.html</link>
@@ -2080,12 +2087,6 @@ knowledge that is necessary to develop software for Neuroscience.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/rey_z&quot;&gt;@rey_z&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2019-11-26T10:19:24+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/new-elsevier-report-charts-global-trends-in-hivaids-research">
-	<title>Elsevier Connect: New Elsevier report charts global trends in HIV/AIDS research</title>
-	<link>https://www.elsevier.com/connect/new-elsevier-report-charts-global-trends-in-hivaids-research</link>
-	<content:encoded>The UK and South Africa are chasing the US in the run for top producer of HIV/AIDS-related research, per new analysis for #WAD2019</content:encoded>
-	<dc:date>2019-11-26T10:04:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
