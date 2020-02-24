@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=46574" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=143528" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-1679487179297647596" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=118975" />
@@ -114,11 +115,17 @@
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/a-rat-with-no-brain" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-8635145244146858320" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11601" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/coronavirus-information-center" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=46574">
+	<title>For Better Science: George Iliakis, the pride of Ruhrgebiet</title>
+	<link>https://forbetterscience.com/2020/02/24/george-iliakis-the-pride-of-ruhrgebiet/</link>
+	<content:encoded>With the German professor George Iliakis, I would like to celebrate all the grand old patriarchs of cancer research who built this gigantic field  and saved the lives of many patients, with good, solid and hard work. In Photoshop.</content:encoded>
+	<dc:date>2020-02-24T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://blog.oup.com/?p=143528">
 	<title>OUPblog - Psychology and Neuroscience: Seven psychology books that explore why we are who we are [reading list]</title>
 	<link>https://feeds.feedblitz.com/~/618926050/0/oupblogpsychology/</link>
@@ -2271,12 +2278,6 @@ Proceedings of the Twenty-Eighth International Joint Conference on Artificial In
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/01/27/the-aging-simulation-experience-an-innovative-educational-training-to-enhance-health-professionals-empathy-towards-older-patients/&quot; rel=&quot;nofollow&quot;&gt;The aging-simulation experience: an innovative educational training to enhance health professionals’ empathy towards older patients&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2020-01-27T09:00:56+00:00</dc:date>
 	<dc:creator>Julie Giner-Pérot &#38; Joël Belmin</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/coronavirus-information-center">
-	<title>Elsevier Connect: Novel Coronavirus Information Center</title>
-	<link>https://www.elsevier.com/connect/coronavirus-information-center</link>
-	<content:encoded>Elsevier’s free health and medical research on novel coronavirus (2019-nCoV)</content:encoded>
-	<dc:date>2020-01-27T05:19:27+00:00</dc:date>
 </item>
 
 </rdf:RDF>
