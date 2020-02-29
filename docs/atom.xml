@@ -5,8 +5,192 @@
 	<link rel="self" href="https://sanjayankur31.github.io/planet-neuroscientists/atom.xml"/>
 	<link href="https://sanjayankur31.github.io/planet-neuroscientists/"/>
 	<id>https://sanjayankur31.github.io/planet-neuroscientists/atom.xml</id>
-	<updated>2020-02-29T08:00:42+00:00</updated>
+	<updated>2020-02-29T19:00:44+00:00</updated>
     <generator uri="https://sanjayankur31.github.io/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en">Orienting yourself through Python</title>
+		<link href="https://xcorr.net/2020/02/29/orienting-yourself-through-python/"/>
+		<id>http://xcorr.net/?p=7287</id>
+		<updated>2020-02-29T14:30:00+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;I was surprised by the amount of positive response to my &lt;a href=&quot;https://xcorr.net/2020/02/21/transitioning-away-from-matlab/&quot;&gt;last article on transitioning away from Matlab&lt;/a&gt;. Many people are ready to switch – but they’re facing some significant challenges. One of the biggest things I’ve heard beginners say is that they are overwhelmed with the number of choices they have to make with Python. Python is open-source, has a decentralized contribution model, and has been around for more than 25 years. For everything that you can do one way in Matlab, there are at least 10 different ways of doing it in Python. Picking the best one is stressful!&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-group&quot;&gt;&lt;div class=&quot;wp-block-group__inner-container&quot;&gt;
+&lt;div class=&quot;wp-block-jetpack-markdown&quot;&gt;&lt;p&gt;This is my rough guide to orienting yourself with Python. Don’t read it all in one go, it will make your head spin! The goal is not to overwhelm you with information, but to have this information as a reference when you’re ready to use it. The recommendations are based on my personal opinions and experiences. They’re written with the intent of minimizing the amount of research and pain you’ll have to go through as a beginner. Don’t agree? Post in the comments! Feedback is a gift.&lt;/p&gt;
+&lt;h4&gt;Which distribution should I choose?&lt;/h4&gt;
+&lt;p&gt;The Python distribution on the python.org website &lt;em&gt;does not&lt;/em&gt; include a lot of core packages needed for data science. It also does not include a package manager. A package manager allows you to automatically download and install a set of scripts and modules of a specific version – a package. People recommend using &lt;a href=&quot;https://www.anaconda.com/distribution/&quot;&gt;the Anaconda distribution&lt;/a&gt;, which is more fully-featured. It includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ipython&lt;/code&gt;, the interactive python console.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;conda&lt;/code&gt; package manager. Note that conda and the Anaconda distribution are two different (though similarly named) things.&lt;/li&gt;
+&lt;li&gt;Many of the core packages needed for data science.&lt;/li&gt;
+&lt;li&gt;An installer that sets your path correctly, which is especially important on Windows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You should pick the &lt;a href=&quot;https://www.anaconda.com/distribution/&quot;&gt;latest stable version of Python 3 that conda comes in, in its 64-bit incarnation&lt;/a&gt;. Python 2 has been deprecated for several years, and you should not be using it.&lt;/p&gt;
+&lt;h4&gt;Which package manager should I use?&lt;/h4&gt;
+&lt;p&gt;When you try to install packages like &lt;code&gt;tensorflow&lt;/code&gt; and &lt;code&gt;pytorch&lt;/code&gt;, you’ll quickly find that there are often two ways to install the same thing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pip&lt;/code&gt;: the lightweight package manager. Originally pip could only install Python packages, but these days it can install non-Python system-wide dependencies to Python packages.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;conda&lt;/code&gt;: the heavy-duty package manager. It’s not just for Python, it’s for everything! This includes Python packages with weird dependencies, R and Julia packages, text editors, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Generally, packages will tell you how you should install them. Just follow the instructions. In either program manager, the process is similar: open the command line, type in a command, for example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pip install pytorch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;conda install pytorch&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then confirm, and wait for the install to finish. No need to set the path or anything. Generally, I find that conda is slower but it can install a wider range of things.&lt;/p&gt;
+&lt;h4&gt;Where should I install my packages?&lt;/h4&gt;
+&lt;p&gt;When you install a package in Python, you can either install it in the base (or root) environment or in a custom environment.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A virtual environment is a named, isolated, working copy of Python that that maintains its own files, directories, and paths so that you can work with specific versions of libraries or Python itself without affecting other Python projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you’re coming from the Matlab world, you know all the annoyances that come with managing the path. Imagine removing the path and replacing it wholesale when you switch projects. That’s sort of what environments do in Python. Another metaphor you might like is a virtual machine or a container. It’s a little sandbox in which you can put packages. If you bonk your environment, you delete it and create a new one. No need to reinstall your computer!&lt;/p&gt;
+&lt;p&gt;There are a few different environment managers, but since you installed Anaconda (above) and you have &lt;code&gt;conda&lt;/code&gt; installed, you want to use &lt;code&gt;conda&lt;/code&gt; environments. When you get started, you can put everything in the &lt;code&gt;base&lt;/code&gt; environment. Later on, you’ll find this limiting (maybe you’ll have messed up your install with incompatible dependencies after a bit), so you’ll create another environment, perhaps called &lt;code&gt;py3&lt;/code&gt;. Later still, you might start creating one environment per project (with its own Github repo!).&lt;/p&gt;
+&lt;p&gt;Packages that have very specific sets of dependencies will sometimes ask you to recreate an environment &lt;em&gt;exactly&lt;/em&gt;. In that case, follow the instructions to the letter; the package probably needs an old version of a package or has esoteric system-wide dependencies that you will waste hours trying to track down. &lt;a href=&quot;https://github.com/AlexEMG/DeepLabCut/blob/master/conda-environments/README.md&quot;&gt;One package that requires this is DeepLabCut&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Which packages should I install?&lt;/h4&gt;
+&lt;p&gt;Many of the packages included by default in anaconda are your standard bread-and-butter for data science, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;matplotlib for plotting&lt;/li&gt;
+&lt;li&gt;numpy for matrices&lt;/li&gt;
+&lt;li&gt;scipy for signal processing&lt;/li&gt;
+&lt;li&gt;pandas for dataframes&lt;/li&gt;
+&lt;li&gt;sklearn for machine learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these packages has millions of users, they are very active and they’re supported by grants and commercial entities. You can rely on them. I also list &lt;a href=&quot;https://xcorr.net/2020/02/21/transitioning-away-from-matlab/&quot;&gt;well-supported packages for neuroscience&lt;/a&gt; in the previous article.&lt;/p&gt;
+&lt;p&gt;What about more esoteric needs? How do I intuit whether I’m going to waste a bunch of time on a package that doesn’t work? Here are a few heuristics:&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7292&quot; data-attachment-id=&quot;7292&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;github-stars-highlights&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/02/github-stars-highlights.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/02/github-stars-highlights.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/02/github-stars-highlights.png&quot; data-orig-size=&quot;1980,694&quot; data-permalink=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/github-stars-highlights/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/02/github-stars-highlights.png?w=723&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;div class=&quot;wp-block-jetpack-markdown&quot;&gt;&lt;ul&gt;
+&lt;li&gt;How many stars does it have on Github (1 in the above picture)? If it has 1k+ stars, it’s a very well-used project. If it’s smaller than 100 – beware.&lt;/li&gt;
+&lt;li&gt;When is the last commit on Github (2 in the above picture)? If it’s more than a year, chances are the package is abandoned. This may make it difficult to install.&lt;/li&gt;
+&lt;li&gt;When in doubt, ask! Ask your labmates, on Twitter, on your favorite Discourse or at a local meetup. Use whatever everybody else is using – this way, it will be easier to get support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Which IDE should I use?&lt;/h4&gt;
+&lt;p&gt;There are two categories of integrated development environment for Python:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Code editors. You edit code that you can run from inside the editor. Code editors will have a file explorer, variables explorer, a plotting window, a console window, a graphical debugger, etc. These programs can approximate more or less faithfully the experience you have with Matlab. In some cases, they offer many, many more features. They run as standalone programs on your computer.&lt;/li&gt;
+&lt;li&gt;Notebook editors. You edit a visual document consisting of cells that can be run in any arbitrary order. Plots are saved inline and code can be interspersed with formatted text and formulas. Notebooks run inside in your browser and can connect to remote workers (Python doesn’t have to be on your computer, it can be in the cloud).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I asked on Twitter what people tend to use, and it’s fairly evenly split. Many commented that they use both code editors and notebook editors in their day-to-day work. If I want to train a deep neural net for example, I might:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Write a script in a code editor, testing it on toy data with the built-in command line&lt;/li&gt;
+&lt;li&gt;Run the script inside of a terminal overnight&lt;/li&gt;
+&lt;li&gt;Analyze the results inside of a notebook the next day.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7291&quot; data-attachment-id=&quot;7291&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;ide-poll&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/02/ide-poll.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/02/ide-poll.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/02/ide-poll.png&quot; data-orig-size=&quot;1036,548&quot; data-permalink=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/ide-poll/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/02/ide-poll.png?w=723&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;https://www.datacamp.com/community/tutorials/top-python-ides-for-2019&quot;&gt;Here is a very good article that weighs all the different options&lt;/a&gt; – it’s long! Here is my current hot take:&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt;Code editors: &lt;a href=&quot;https://www.spyder-ide.org/&quot;&gt;Spyder is the most bare-bones IDE of the bunch, and approximates Matlab well&lt;/a&gt;. It’s a great starter IDE. I love Atom in general but I find &lt;a href=&quot;https://nteract.gitbooks.io/hydrogen/docs/Installation.html&quot;&gt;Hydrogen&lt;/a&gt;‘s lack of a console limiting. I prefer &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VSCode&lt;/a&gt; with &lt;a href=&quot;https://code.visualstudio.com/docs/languages/python&quot;&gt;the Python extension&lt;/a&gt;. &lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt; is by far the most advanced editor, with intelligent inferences on your code and automated fixes that feel like magic. It can also be overwhelming because it has so many features, and it also isn’t free (a license is 89$ a year). If you spend 8 hours a day doing Python, PyCharm might the editor for you.&lt;/li&gt;&lt;li&gt;Notebook editors: &lt;a href=&quot;https://jupyterlab.readthedocs.io/en/stable/&quot;&gt;Jupyterlab&lt;/a&gt; does everything jupyter does and more. &lt;a href=&quot;https://colab.research.google.com/notebooks/intro.ipynb#recent=true&quot;&gt;Colab&lt;/a&gt; adds sharing capabilities, and you can use a &lt;a href=&quot;https://cloud.google.com/tpu/docs/colabs&quot;&gt;free-tier TPU&lt;/a&gt; with it.&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;h4&gt;Which GUI toolkit should I use?&lt;/h4&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7290&quot; data-attachment-id=&quot;7290&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;gui-toolkits&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/02/gui-toolkits.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/02/gui-toolkits.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/02/gui-toolkits.png&quot; data-orig-size=&quot;1030,526&quot; data-permalink=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/gui-toolkits/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/02/gui-toolkits.png?w=723&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;I asked on Twitter recently, and it seems that many people are choosing &lt;a href=&quot;https://wiki.python.org/moin/PyQt&quot;&gt;PyQt5&lt;/a&gt; to build desktop applications. Qt has a very nice builder to graphically design your GUI, as well as code generators to eliminate writing your own boilerplate. wxPython is also well-loved for larger-scale applications, while tkinter doesn’t have quite all the knobs and options you’d want for a fully-fledged app.&lt;/p&gt;
+
+
+
+&lt;h4&gt;PyTorch or Tensorflow?&lt;/h4&gt;
+
+
+
+&lt;p&gt;That’s a tough one! I’ve worked with both in a professional setting at Google and Facebook. As an end-user, &lt;a href=&quot;https://pytorch.org/&quot;&gt;PyTorch&lt;/a&gt; is generally considered to be easier to use. &lt;a href=&quot;https://tensorflow.org&quot;&gt;Tensorflow&lt;/a&gt; has a lot of support for advanced features, like probabilistic programming, and is used by downstream libraries for this reason, for example in the up-and-coming PyMC4. If you use Tensorflow, you probably want to start with &lt;a href=&quot;https://keras.io/&quot;&gt;Keras&lt;/a&gt;, which has a higher-level API.&lt;/p&gt;
+
+
+
+&lt;h4&gt;What about plotting? How do I make nice figures?&lt;/h4&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;https://matplotlib.org/&quot;&gt;&lt;code&gt;matplotlib&lt;/code&gt; is the package that most people start with&lt;/a&gt;. Its API is very similar to Matlab, by design. It creates plots which are not very aesthetically pleasing, by default, but &lt;a href=&quot;https://seaborn.pydata.org/tutorial/aesthetics.html&quot;&gt;you can easily improve them by using seaborn’s styling&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()  # From now on matplotlib will use the seaborn theme.
+&lt;/pre&gt;
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7295&quot; src=&quot;https://xcorr.files.wordpress.com/2020/02/aesthetics_7_0.png&quot; /&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7295&quot; data-attachment-id=&quot;7295&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;aesthetics_7_0&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/02/aesthetics_7_0.png?w=370&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/02/aesthetics_7_0.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/02/aesthetics_7_0.png&quot; data-orig-size=&quot;370,248&quot; data-permalink=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/aesthetics_7_0/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/02/aesthetics_9_0.png&quot; /&gt;Matplotlib plot before and after seaborn styling&lt;/figure&gt;
+
+
+
+&lt;p&gt;Many other packages build on &lt;code&gt;matplotlib&lt;/code&gt;, including:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://seaborn.pydata.org/&quot;&gt;&lt;code&gt;seaborn&lt;/code&gt;&lt;/a&gt;, which includes a number of useful plot types, including violin plots and histograms.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/has2k1/plotnine&quot;&gt;&lt;code&gt;plotnine&lt;/code&gt;&lt;/a&gt;, which implements the grammar of graphics (&lt;code&gt;ggplot2&lt;/code&gt; in R).&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;There are a number of up-and-coming visualization libraries that are not using matplotlib under the hood. The one with the most support behind it is &lt;a href=&quot;https://github.com/plotly/plotly.py&quot;&gt;plotly&lt;/a&gt;. It creates interactive plots that can be shared easily, includes support for other languages outside of Python, and is supported commercially by the plotly company.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+
+
+&lt;p&gt;Picking up Python can feel overwhelming as an outsider – so many decisions to make! I was endlessly reading through articles and doing comparison shopping when I was starting out. Picking what others around you are already using will help you get support when you’re starting out. Ask around! Enjoy the ride!&lt;/p&gt;</content>
+		<author>
+			<name>xcorr</name>
+			<uri>https://xcorr.net</uri>
+		</author>
+		<source>
+			<title type="html">xcorr: comp neuro</title>
+			<subtitle type="html">computational neuroscience, machine learning</subtitle>
+			<link rel="self" href="https://xcorr.net/feed/"/>
+			<id>https://xcorr.net</id>
+			<updated>2020-02-29T19:00:32+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">People Like Songs About &quot;You&quot;</title>
+		<link href="https://www.discovermagazine.com/mind/people-like-songs-about-you"/>
+		<id>https://www.discovermagazine.com/mind/people-like-songs-about-you</id>
+		<updated>2020-02-29T00:00:00+00:00</updated>
+		<content type="html">
+ Songs with lyrics that frequently address &quot;you&quot; are more popular, perhaps because this helps us imagine that &quot;you&quot; refers to people in our own lives</content>
+		<author>
+			<name>Neuroskeptic</name>
+			<email>neuroskeptic@googlemail.com</email>
+			<uri>https://www.discovermagazine.com/rss/blog/neuroskeptic</uri>
+		</author>
+		<source>
+			<title type="html">Neuroskeptic | Discover Magazine</title>
+			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
+			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
+			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
+			<updated>2020-02-29T19:00:29+00:00</updated>
+			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html">CRL Opens African News Content | CRL</title>
@@ -193,7 +377,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -283,7 +467,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-02-29T08:00:31+00:00</updated>
+			<updated>2020-02-29T19:00:29+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -341,7 +525,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -729,7 +913,7 @@ Front. Comput. Neurosci. 11:48. doi: 10.3389/fncom.2017.00048&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -772,7 +956,7 @@ Front. Comput. Neurosci. 11:48. doi: 10.3389/fncom.2017.00048&lt;/li&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2020-02-29T01:16:13+00:00</updated>
+			<updated>2020-02-29T17:30:53+00:00</updated>
 		</source>
 	</entry>
 
@@ -974,7 +1158,7 @@ print(c)
 			<subtitle type="html">computational neuroscience, machine learning</subtitle>
 			<link rel="self" href="https://xcorr.net/feed/"/>
 			<id>https://xcorr.net</id>
-			<updated>2020-02-22T08:00:31+00:00</updated>
+			<updated>2020-02-29T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1088,7 +1272,7 @@ print(c)
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2020-02-29T01:16:13+00:00</updated>
+			<updated>2020-02-29T17:30:53+00:00</updated>
 		</source>
 	</entry>
 
@@ -1244,7 +1428,7 @@ print(c)
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-02-29T08:00:31+00:00</updated>
+			<updated>2020-02-29T19:00:29+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -1265,7 +1449,7 @@ print(c)
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2020-02-28T11:46:48+00:00</updated>
+			<updated>2020-02-29T09:28:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -1395,7 +1579,7 @@ Sci. Rep. 7, 44006; doi: 10.1038/srep44006&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -1810,7 +1994,7 @@ Sci. Rep. 7, 44006; doi: 10.1038/srep44006&lt;/li&gt;
 			<subtitle type="html">computational neuroscience, machine learning</subtitle>
 			<link rel="self" href="https://xcorr.net/feed/"/>
 			<id>https://xcorr.net</id>
-			<updated>2020-02-22T08:00:31+00:00</updated>
+			<updated>2020-02-29T19:00:32+00:00</updated>
 		</source>
 	</entry>
 
@@ -1977,7 +2161,7 @@ Sci. Rep. 7, 44006; doi: 10.1038/srep44006&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2292,7 +2476,7 @@ Sci. Rep. 7, 44006; doi: 10.1038/srep44006&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2517,7 +2701,7 @@ Utilizing Artificial Intelligence Technologies&quot;&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -2777,7 +2961,7 @@ Utilizing Artificial Intelligence Technologies&quot;&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -3231,7 +3415,7 @@ Science Advances  29 Aug 2018: Vol. 4, no. 8.&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-02-29T08:00:36+00:00</updated>
+			<updated>2020-02-29T19:00:34+00:00</updated>
 		</source>
 	</entry>
 
@@ -3271,77 +3455,6 @@ Science Advances  29 Aug 2018: Vol. 4, no. 8.&lt;/li&gt;
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
 			<updated>2020-02-28T08:00:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">London Global Cancer Week 2019 – New Solutions to evolving challenges</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2020/02/04/london-global-cancer-week-2019-new-solutions-to-evolving-challenges/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=11616</id>
-		<updated>2020-02-04T09:00:38+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/01/london-global-cancer-week_logo_cropped2-1-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;Increasing recognition for the importance of global cancer control in society is reflected by a growth in global meetings, initiatives and new policies. &lt;a href=&quot;https://www.royalmarsden.nhs.uk/our-consultants-units-and-wards/consultant-directory/dr-susannah-stanway&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Dr. Susannah Stanway’s&lt;/a&gt; (Consultant Medical Oncology, Royal Marsden NHS Foundation Trust) enthusiastic opening speech was an especially warm welcome to us all at the Royal Society of Medicine on a rather grey Monday morning in November. Dr. Stanway has organised the meeting at the Royal Society of Medicine since 2016, continuously gathering stakeholders and experts in the field and establishing it as an essential meeting in the global oncology agenda. Her passionate engagement across successful global projects on top of her commitments in the clinic, made her the perfect candidate to officially launch the first &lt;a href=&quot;http://www.lgcw.org.uk/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;London Global Cancer Week&lt;/a&gt; which ran from 25&lt;sup&gt;th&lt;/sup&gt;-29&lt;sup&gt;th&lt;/sup&gt; November 2019.&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;The promise of universal coverage for global cancer care&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;The choice of invited speakers was excellent with plenary talks and workshops thought-provoking and motivating, although unfortunately, not all talks can be covered here. &lt;a href=&quot;https://www.thelancet.com/lanonc/about&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Prof. David Collingride&lt;/a&gt; (Editor-in-Chief, &lt;em&gt;Lancet Oncology&lt;/em&gt;) has led numerous editorial commissions that focus on cancer control in low and middle income countries (LMICs) over the years. Together with &lt;a href=&quot;https://www.otago.ac.nz/wellington/departments/publichealth/staff/otago024461.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Dr. Diana Sarfati&lt;/a&gt;, he was an excellent co-chair for the first panel.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;How can we prevent the migration of trained cancer surgeons to higher income settings?&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;First up on stage, &lt;a href=&quot;https://www.kcl.ac.uk/people/richard-sullivan&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Prof. Richard Sullivan&lt;/a&gt; (Cancer and Global Health, King’s College London and Guy’s and St Thomas’ NHS Foundation Trust) evaluated how countries have so far committed to delivering &lt;a href=&quot;https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Universal Health Coverage (UHC)&lt;/a&gt; to their respective populations. A promise that is not easy to keep in terms of population covered, interventions covered and financial protection, especially in LMICs. In settings of ongoing armed conflicts, forces of nature or macroeconomic fragility, we often find health is not a top political priority. Corruption and large population migration add further difficulties into the mix. Yet, cancer and its treatment remains the most challenging for any system to address within UHC. How can it be done? Who is in charge when people cross borders to get access to health care in reality? How can the migration of trained cancer surgeons to higher income settings be prevented in the future? Prof. Sullivan raised several fundamental questions that need to be addressed moving forward and that were discussed at length during our coffee break.&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;The global challenges of substandard and falsified medicine&lt;/u&gt;&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignleft&quot; id=&quot;attachment_11619&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-11619 size-medium&quot; height=&quot;200&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/01/cancer-treatment_CR_somkku_istock-300x200.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;© somkku/iStock&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;a href=&quot;https://commonwealthpharmacy.org/who-we-are/staff/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Chloe Tuck&lt;/a&gt; (International Project Lead, Commonwealth Pharmacists Association) and &lt;a href=&quot;https://www.ucl.ac.uk/pharmacy/people/ms-oksana-pyzik&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Oksana Pyzik&lt;/a&gt; (University of London, UCL, School of Pharmacy) shed light on the challenges of availability, acceptability and affordability of cancer treatment in LMICs and introduced their successful work on &lt;a href=&quot;http://fightthefakes.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Fight the Fakes – Speak up to Falsified Medicine&lt;/a&gt;. Whilst having heard previously about fake medical products, I was not aware of the extent of the problem and the resulting damage done worldwide. Most attendees were shocked when the data was presented and we learnt that in some cases old bottles are simply emptied and filled either with the wrong medicine or non-active substances. Leading to bankrupted and dying cancer patients and a massive decrease in trust and confidence in the local health systems and regulations – not just in LMICs but across the Western world as well. Chloe and Oksana pointed us to the latest version of &lt;a href=&quot;https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(19)30426-7/fulltext&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;The Oxford statement and Call for Action&lt;/a&gt; (&lt;em&gt;Lancet Oncology&lt;/em&gt;, Dec 2019) and made it clear; education and raising awareness worldwide are key in fighting the growing threat to human health. Initiatives such as the &lt;a href=&quot;https://medswecantrust.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;#MedsWeCanTrust campaign&lt;/a&gt; launched in 2018 have already connected over 300 partners in more than 45 countries around the globe to discuss, to inform and to consult. Additionally, we will need a robust legal frame work and secure medical product trace technology to validate the drug and its origin.&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;Opportunities provided by digital health in low and middle income countries&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;Digital innovations can be crucial and provide a major opportunity in cancer control across LMICs. &lt;a href=&quot;https://www.england.nhs.uk/atnhs/curator-archive/shafi-ahmed/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Prof. Shafti Ahmed&lt;/a&gt; (Consultant surgeon, Barts Health NHS Trust and The Royal London Hospital) gave us a sneak peek into the future of hospitals and introduced us to the first &lt;a href=&quot;https://www.medicalrealities.com/osce&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;virtual reality (VR) interactive surgical training module&lt;/a&gt;s launched by &lt;a href=&quot;https://www.medicalrealities.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Medical Realities&lt;/a&gt; in 2017. This tool allows medical trainers to deliver an immersive learning experience, offering medical students, doctors and surgeons around the world the ability to see interactive VR un-obscured views of operations and to learn directly from specialists. It is further used for live consulting with experts globally while operating on a patient in the theater.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignnone&quot; id=&quot;attachment_11637&quot; style=&quot;width: 756px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-11637 size-full&quot; height=&quot;203&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/01/surgeon_AI.jpg&quot; width=&quot;746&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;©Media Reality UK ©Seattle Children’s Hospital&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;It was fascinating to watch Prof. Shafti’s video examples. Other tools using artificial intelligence for cervical cancer screening and projects on the usage of low-cost, virtual, augmented and mixed reality to overcome critical gaps in cancer control in LIMCs and beyond are on its way. We will definitely hear more about these in the future.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_11625&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-11625 size-medium&quot; height=&quot;208&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/01/cancer-care_hands_CR_-photographee.eu_.stockadobe.com_-300x208.jpg&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;© Photographee.eu/istock&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;With a bright AI future in mind the talk that followed could not have been more contrasting. &lt;a href=&quot;https://www.kcl.ac.uk/people/carlo-caduff&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Dr. Carlo Caduff&lt;/a&gt; (Reader in Global Health and Social Medicine, King’s College London) reminded us of fundamental struggles in cancer screening in LMICs and that an understanding of anthropology, local socioeconomic and traditional settings are crucial when it comes to cancer control worldwide. We need to build the evidence base of what people already know and are aware of in order to encourage them or family members to even see doctors, go to hospitals and undergo initial cancer screening. It can be a challenging task that goes beyond the simple survey question of “Do you know the name cancer” where existing religious or traditional beliefs or local dialects can add difficulties into the mix. Identifying those who have influence in a local community is fundamental to progression and utilizing these individuals has been instrumental in overcoming these obstacles in order to successfully run cancer awareness campaigns across rural areas.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;‘The future is here. It is just not equally distributed yet.’ William Gibson&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;u&gt;The vital importance of engaging with decision makers&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.otago.ac.nz/wellington/departments/publichealth/staff/otago024461.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Prof. Diana Sarfati&lt;/a&gt; (Head of Department of Public Health, University of Otago, Canada) opened the conversations and topic on a political level. We need to identify feasible global cancer control solutions and to identify those in power to act. We need to know what motivates key stakeholders and communicate well in order to drive change and cancer control globally. Her selected best practice examples showed local solutions need to be found for local projects. Prof. Sarfati’s large body of research further revealed ethnic disparities in cancer outcomes, particularly those affecting indigenous people and has identified key patient and health system factors that influence cancer survival. It has been extensively used by health policy makers, clinicians and other researchers to develop policies and practices that have reduced inequities in cancer outcomes. Diana is currently a member of the &lt;a href=&quot;https://www.health.govt.nz/about-ministry/leadership-ministry/expert-groups/cancer-programme-leadership-board&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;National Cancer Leadership Board&lt;/a&gt; in New Zealand, the Advisory Committee to &lt;a href=&quot;https://gicr.iarc.fr/hub/pacific-islands/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;International Agency for Research on Cancer’s (IARC) Pacific cancer hub&lt;/a&gt;, &lt;a href=&quot;https://www.iarc.fr/news-events/reducing-social-inequalities-in-cancer-setting-priorities-for-research/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;IARC’s international expert group on social inequalities in cancer&lt;/a&gt; and the Academic Advisory Committee on the International &lt;a href=&quot;https://www.cancerresearchuk.org/health-professional/data-and-statistics/international-cancer-benchmarking-partnership-icbp&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Cancer Benchmarking Project&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;Global cancer initiatives and collaborations&lt;/u&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;  ‘There is no time to lose – we need an urgent call for meaningful action!’ Princess Dina Mired of Jordan&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;The meeting was graced by &lt;a href=&quot;http://www.uicc.org/sites/main/files/atoms/files/Bio_HRH_Princess_Dina-Mired_October2018.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;HRH Princess Dina Mired of Jordan&lt;/a&gt; entering the stage as the president of the &lt;a href=&quot;https://www.uicc.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Union for International Cancer Control&lt;/a&gt; (UICC). She is a well-known &lt;a href=&quot;http://www.cancercontrol.info/wp-content/uploads/2019/07/HRH-Princess-Dina-Mired-of-Jordan.pdf&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;passionate global advocate&lt;/a&gt; for cancer control and non-communicable diseases and a mother of a cancer survivor. It has been fascinating to hear her on the lectern. Her engaging talk on the need for a new paradigm shift on building sustainable partnerships and solutions to tackle cancer control has sent a very strong message and has none of us left in doubt: There is no time to lose – we need an urgent call for meaningful action!&lt;/p&gt;
-&lt;p&gt;Later in the day, I was given the opportunity to attend a workshop session entitled ‘Africa’. The workshop and discussion forum highlighted examples of successful ongoing collaborations between African institutions and institutions in the UK or the US, including any challenges they are facing.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption alignnone&quot; id=&quot;attachment_11631&quot; style=&quot;width: 650px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-11631 size-large&quot; height=&quot;348&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/01/Workshop_Africa_pannel-2-1024x557.jpg&quot; width=&quot;640&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;Panel of meeting workshop entitled ‘Africa’: Dr. Ajay Aggarwal (l.), Prof. Grosbeck Parham, Dr. Warren Phipps, Beatrice Wiaf and Dr. Nazima Dharsee (r.)&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
-&lt;p&gt;We heard about cancer program cooperation between the &lt;a href=&quot;https://global.unc.edu/global-partners/strategic-partners/malawi-zambia/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;University of North Carolina and the University of Zambia&lt;/a&gt; and the collaboration of the &lt;a href=&quot;https://www.fredhutch.org/en/research/institutes-networks-ircs/global-oncology/uganda.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Uganda Cancer Institute with the Fred Hutchison Cancer Alliance&lt;/a&gt; which has resulted in jointly run clinical cancer trials. &lt;a href=&quot;http://www.breastcareinternational.org/about-us/the-founder&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Beatrice Waife&lt;/a&gt; presented interesting insights into her Breast cancer control strategy in Ghana; the &lt;a href=&quot;https://ascopubs.org/doi/abs/10.1200/jgo.18.95100&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Breast Care International Approach&lt;/a&gt;. Again, major challenges remain here too, e.g. to keep well-trained oncology surgeons who often leave due to lack of infrastructure and schools for their children. Patients are often presenting at late tumor stage (e.g. stage III-VI) and hospitals do not have enough beds and chemotherapy drugs and the majority of care and treatment takes part in homes.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;‘Patients often present at late tumor stage and the majority of treatment takes part in homes’ &lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;The whole day was very inspiring and motivating. We explored the important &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)31393-9/fulltext&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;role of primary care in global oncology&lt;/a&gt; with &lt;a href=&quot;https://nyulangone.org/doctors/1912445255/ophira-m-ginsburg&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Prof. Ophira Ginsburg&lt;/a&gt; (the Director of &lt;a href=&quot;https://nyulangone.org/news/cancer-geneticist-lead-new-high-risk-cancer-program-nyu-langones-perlmutter-cancer-center&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Perlmutter Cancer High Risk Program&lt;/a&gt;, University of New York and a &lt;a href=&quot;https://www.who.int/ncds/management/ginsburg/en/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Medical Officer for Cancer Control&lt;/a&gt; at WHO). We learned first-hand from &lt;a href=&quot;http://www.shrikhandeclinic.org/doctors-profile/dr-shailesh-v-shrikhande/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Dr. Shailesh V. Shrikhande&lt;/a&gt; about his experiences, the challenges and opportunities when setting up cancer centers in India. We were introduced to development of crucial &lt;a href=&quot;https://ascopubs.org/go/special/guidelines&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;resource-stratified oncology guidelines&lt;/a&gt; by &lt;a href=&quot;https://www.dur.ac.uk/geography/staff/geogstaffhidden/?id=985&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Prof Ben Anderson&lt;/a&gt; (University of Washington) and learned about a successfully run &lt;a href=&quot;https://breastcancertz.org/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Breast Cancer Survivorship programme&lt;/a&gt; in Tanzania by &lt;a href=&quot;https://www.uicc.org/case-studies/developing-resource-centre-patients-metastatic-breast-cancer-tanzania&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Dr. Nazima Dharsee&lt;/a&gt;, a Consultant Clinical Oncologist, Ocean Road Cancer Institute who also took the &lt;a href=&quot;https://www.rsm.ac.uk/prizes-and-awards/prizes-for-trainees/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vanessa Moss Prize&lt;/a&gt; vicarious for the winner &lt;a href=&quot;https://trialect.com/members/43?page=4&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Dr. Nono Ahuka&lt;/a&gt;. Overall, global cancer control is an absolutely overwhelming challenge but nevertheless not impossible. Let us stick together to control and fight cancer united and globally!&lt;/p&gt;
-&lt;p&gt;Upcoming: &lt;a href=&quot;https://www.worldcancercongress.org/programme/2020/session-schedule&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;World Cancer Congress&lt;/a&gt; in Muscat, Oman from 20-22&lt;sup&gt;nd&lt;/sup&gt; October&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/02/04/london-global-cancer-week-2019-new-solutions-to-evolving-challenges/&quot; rel=&quot;nofollow&quot;&gt;London Global Cancer Week 2019 – New Solutions to evolving challenges&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Linda Gummlich</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2020-02-27T19:00:35+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">Marijuana laws and marijuana use among US youth</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2020/02/04/marijuana-laws-and-marijuana-use-among-us-youth/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=11606</id>
-		<updated>2020-02-04T08:00:03+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/01/marijuana-2174302_640-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;Marijuana or cannabis is one of the most commonly used drugs among youth in the US.  To date, 33 US states and the District of Columbia have legalized medical marijuana use. 11 of these as well as the District of Columbia have legalized the drug for recreational use. The detailed state information can be found &lt;a href=&quot;https://medicalmarijuana.procon.org/legal-medical-marijuana-states-and-dc/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;How do these policies influence marijuana use behaviors among youth?&lt;/p&gt;
-&lt;p&gt;To answer these questions, many researchers have studied the relationship between marijuana laws and marijuana use behaviors in different populations using individual or ecological level data. Results have been inconsistent. A majority of these studies indicated no effect or protective effect of marijuana laws on youth’s marijuana use behaviors, and several studies reported opposite findings (see the summaries &lt;a href=&quot;https://journals.sagepub.com/doi/abs/10.1177/0047237918803361&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;After an in-depth review of those published studies either supporting a protective effect or no effect, or indicating a risk effect of the legalization of marijuana use, we identified several crucial limitations of the statistical methods used in previous studies. These can be found in our &lt;a href=&quot;https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-020-8253-4&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;study published today&lt;/a&gt; in&lt;a href=&quot;https://bmcpublichealth.biomedcentral.com/?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2019_bmcseriesblog&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;em&gt; BMC Public Health&lt;/em&gt;&lt;/a&gt; as well as our &lt;a href=&quot;https://journals.sagepub.com/doi/abs/10.1177/0047237918803361&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;research&lt;/a&gt; published in the &lt;a href=&quot;https://journals.sagepub.com/home/drea&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Journal of Drug Education&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignright size-medium wp-image-11609&quot; height=&quot;240&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/01/drugs-300x240.png&quot; width=&quot;300&quot; /&gt;To address the limitations of the previous studies and figure out the potential relationship between historical events (e.g. drug use policies in general, marijuana policies in particular, and other marijuana-related social movements and events) and marijuana use behaviors among US youth, we analyzed data from &lt;a href=&quot;https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;National Survey on Drug Use and Health&lt;/a&gt; which is a 31-wave nationwide survey. The &lt;a href=&quot;https://www.mailman.columbia.edu/research/population-health-methods/age-period-cohort-analysis&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Age-Period-Cohort modeling analysis&lt;/a&gt; was used for data analysis, and can provide more precise and unbiased estimation of the time trend by controlling for the effects from age and birth cohort. &lt;a href=&quot;https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2749783&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;One of our studies&lt;/a&gt; published in &lt;a href=&quot;https://jamanetwork.com/journals/jamanetworkopen&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;JAMA Network Open&lt;/em&gt;&lt;/a&gt; applied the same method to estimate the unbiased time trend of suicide among US youth.&lt;/p&gt;
-&lt;p&gt;Findings of the adjusted time trend in the current research indicate that when there were national or state policies or movements against marijuana use, such as the &lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=14&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwjoxbPvr6jnAhXB0qQKHUFmA1oQFjANegQIBBAB&amp;amp;url=https%3A%2F%2Fwww.dea.gov%2Fcontrolled-substances-act&amp;amp;usg=AOvVaw2pwcONg-tDJVcpCma0kzYV&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Controlled Substances Act&lt;/a&gt;, &lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwio3JD-r6jnAhXC26QKHT-ODc8QFjAAegQIARAB&amp;amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAnti-Drug_Abuse_Act_of_1986&amp;amp;usg=AOvVaw1GidgFEJSpg8QbCFigqasX&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Anti-Drug Abuse Act&lt;/a&gt;, and &lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=3&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwjh9KCLsKjnAhWOC-wKHWUqC4oQFjACegQIARAB&amp;amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWar_on_drugs&amp;amp;usg=AOvVaw1apE-cEJOsBJV1nPSI8xrl&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;War on Drugs&lt;/a&gt; movement, marijuana use among youth would decrease. On the other hand, when there were relatively loose marijuana policies, or movements, such as marijuana decriminalization movements, Medical Marijuana Laws, and Recreational Marijuana Laws, marijuana use among youth would increase accordingly. Additionally, the adjusted time trend was significantly associated with the proportion of the US population covered by Medical Marijuana Laws, especially in the last 15 years.&lt;/p&gt;
-&lt;p&gt;Considering the fact that more and more US states are legalizing medical and recreational marijuana use, emphasizing the responsible use and developing potential prevention programs targeting youth are essential to protect youth from using marijuana.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/02/04/marijuana-laws-and-marijuana-use-among-us-youth/&quot; rel=&quot;nofollow&quot;&gt;Marijuana laws and marijuana use among US youth&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Bin Yu</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2020-02-27T19:00:35+00:00</updated>
 		</source>
 	</entry>
 
