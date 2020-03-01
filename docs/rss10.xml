@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=119007" />
 			<rdf:li rdf:resource="http://xcorr.net/?p=7287" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/people-like-songs-about-you" />
 			<rdf:li rdf:resource="https://www.crl.edu/news/crl-opens-african-news-content" />
@@ -99,7 +100,6 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=39096" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11661" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=46245" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=118882" />
 			<rdf:li rdf:resource="http://yourbrainhealth.com.au/?p=6144" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=143441" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=39077" />
@@ -119,6 +119,13 @@
 	</items>
 </channel>
 
+<item rdf:about="https://retractionwatch.com/?p=119007">
+	<title>Retraction watch: Weekend reads: A big change in China; revealing a paper mill; plagiarism detection put to the test</title>
+	<link>https://retractionwatch.com/2020/02/29/weekend-reads-a-big-change-in-china-revealing-a-paper-mill-plagiarism-detection-put-to-the-test/</link>
+	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured: a letter about coronavirus retracted from a Lancet journal because … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/02/29/weekend-reads-a-big-change-in-china-revealing-a-paper-mill-plagiarism-detection-put-to-the-test/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: A big change in China; revealing a paper mill; plagiarism detection put to the test&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2020-02-29T14:40:39+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="http://xcorr.net/?p=7287">
 	<title>xcorr.net: Orienting yourself through Python</title>
 	<link>https://xcorr.net/2020/02/29/orienting-yourself-through-python/</link>
@@ -724,6 +731,10 @@ Front. Comput. Neurosci. 11:48. doi: 10.3389/fncom.2017.00048&lt;/li&gt;
 
 
 
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;This is part 1 of an ongoing series on learning Python. &lt;a href=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/&quot;&gt;Part 2 – orienting yourself in Python is here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
 &lt;div class=&quot;wp-block-jetpack-markdown&quot;&gt;&lt;h3&gt;Learn Python the hard way&lt;/h3&gt;
 &lt;p&gt;Python is one of the most popular languages out there – &lt;a href=&quot;http://pypl.github.io/PYPL.html&quot;&gt;more popular than Matlab by a factor of at least 10&lt;/a&gt; – and it’s the language the vast majority people transitioning from Matlab will choose. There’s two basic strategies you can apply here:&lt;/p&gt;
 &lt;ul&gt;
@@ -843,7 +854,11 @@ print(c)
 &lt;li&gt;The Mathworks is a single-source vendor, and their software is closed-source. What happens if they run out of business?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It’s time to move away from Matlab. Take the first step today!&lt;/p&gt;
-&lt;/div&gt;</content:encoded>
+&lt;/div&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/&quot;&gt;Part 2 of this ongoing series on learning Python is here! Orient yourself in Python&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
 	<dc:date>2020-02-21T14:45:00+00:00</dc:date>
 	<dc:creator>xcorr</dc:creator>
 </item>
@@ -1999,13 +2014,6 @@ Utilizing Artificial Intelligence Technologies&quot;&lt;/li&gt;
 	<content:encoded>Charbel Massaad is head of biomedical sciences at University of Paris Descartes. He even put forward his candidacy as rector, advocating for science ethics. Unironically.</content:encoded>
 	<dc:date>2020-02-10T11:30:53+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=118882">
-	<title>Retraction watch: ‘Those unfortunate events:’ Second retraction for stem cell scientist in Canada accused of misconduct</title>
-	<link>https://retractionwatch.com/2020/02/10/those-unfortunate-events-second-retraction-for-stem-cell-scientist-in-canada-accused-of-misconduct/</link>
-	<content:encoded>Citing a misconduct investigation, the journal Stem Cells has retracted a 2009 article coauthored by a researcher whose work has been under suspicion for roughly five years.  The paper was titled “Cell adhesion and spreading affect adipogenesis from embryonic stem cells: the role of calreticulin.” The retraction notice, which is behind a paywall, states:  The … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/02/10/those-unfortunate-events-second-retraction-for-stem-cell-scientist-in-canada-accused-of-misconduct/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;‘Those unfortunate events:’ Second retraction for stem cell scientist in Canada accused of misconduct&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2020-02-10T11:00:00+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
 </item>
 <item rdf:about="http://yourbrainhealth.com.au/?p=6144">
 	<title>Yourbrainhealth: 10 science-based steps to reduce your risk of dementia</title>
