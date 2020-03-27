@@ -9,6 +9,428 @@
 	<atom:link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>xcorr.net: Reverse correlation: linearizing black-box functions</title>
+	<guid isPermaLink="false">http://xcorr.net/?p=7315</guid>
+	<link>https://xcorr.net/2020/03/27/reverse-correlation-linearizing-black-box-functions/</link>
+	<description>&lt;p&gt;Reverse correlation is a tried-and-tested nonlinear systems identification method to understand biological neurons. The idea is to open the black box that is a biological neuron by using random stimuli to probe how the neuron responds. We present a series of random stimuli to a sensory neuron. By averaging those that generated a response, we obtain the spike-triggered average. The spike-triggered average is equal to the weights of a linear filter that approximates the response of a neuron. Under this linearity assumption, it is also a neuron’s preferred stimulus.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image&quot;&gt;&lt;img alt=&quot;Reverse correlation in a nutshell. Source: https://en.wikipedia.org/wiki/File:Illustration_diagram_for_the_Spike-triggered_average.pdf&quot; src=&quot;https://xcorr.files.wordpress.com/2020/03/sta.jpeg&quot; /&gt;Reverse correlation in a nutshell. Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/File:Illustration_diagram_for_the_Spike-triggered_average.pdf&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/figure&gt;
+
+
+
+&lt;p&gt;Reverse correlation has fallen out of favour as people have graduated to more complex models (e.g. GLMs and deep nets) with more complex stimuli (natural scenes) to probe brain representations. However, the machinery underlying reverse correlation is making somewhat of an unexpected comeback in different corners of machine learning. This is something that I’m sure will surprise many machine learning people as well as neuroscientists. Digging deeper into these subfields yields some insights on improvements in nonlinear systems identification that we can take back to computational neuroscience. In this article, I discuss two of these ideas:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;evolution strategies, which are black-box optimization methods&lt;/li&gt;&lt;li&gt;locally interpretable models, which are linearization models to open up black box models like deep neural nets&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;Before I dig into these methods, let’s dig into the theory behind reverse correlation so we can understand its deep structure.&lt;/p&gt;
+
+
+
+&lt;h3&gt;The theory behind reverse correlation&lt;/h3&gt;
+
+
+
+&lt;p&gt;Reverse correlation seemed pretty magical when I first encountered it! Put noise into a system, measure responses – out comes the kernel (?!). I ended up &lt;a href=&quot;https://xcorr.files.wordpress.com/2008/03/thesis-superduperfinal.pdf&quot;&gt;writing my PhD thesis on systems identification&lt;/a&gt;, so you’d think that by the time I graduated my thinking on this was solidified. In the years since, I’ve found that reverse correlation is actually pretty darn subtle, and I’ve developed a new appreciation for all the subtle aspects of the technique.&lt;/p&gt;
+
+
+
+&lt;p&gt;There’s a good exposition of the ideas behind reverse correlation in &lt;a href=&quot;https://www.mitpressjournals.org/doi/10.1162/neco.2006.18.12.3097&quot;&gt;Franz &amp;amp; Schölkopf (2006)&lt;/a&gt;. Let’s say that we are trying to characterize a nonlinear system that receives &lt;img alt=&quot;N&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=N&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;N&quot; /&gt; real inputs and outputs a noisy scalar &lt;img alt=&quot;y&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=y&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;y&quot; /&gt;:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\mathbb E [y|x] = f(\bold x) \newline \text{where } \bold x \in \mathbb R^N&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cmathbb+E+%5By%7Cx%5D+%3D+f%28%5Cbold+x%29+%5Cnewline+%5Ctext%7Bwhere+%7D+%5Cbold+x+%5Cin+%5Cmathbb+R%5EN&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\mathbb E [y|x] = f(\bold x) \newline \text{where } \bold x \in \mathbb R^N&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Then, under certain regularity conditions, we can write the mean response function of the system &lt;img alt=&quot;f(\bold x)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=f%28%5Cbold+x%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;f(\bold x)&quot; /&gt; as a polynomial expansion, the Volterra expansion:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;f(\bold x) \approx h_0 + (\bold x - \bold x_0)^T \cdot h_1 + (\bold x - \bold x_0)^T h_2 (\bold x - \bold x_0) + \ldots&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=f%28%5Cbold+x%29+%5Capprox+h_0+%2B+%28%5Cbold+x+-+%5Cbold+x_0%29%5ET+%5Ccdot+h_1+%2B+%28%5Cbold+x+-+%5Cbold+x_0%29%5ET+h_2+%28%5Cbold+x+-+%5Cbold+x_0%29+%2B+%5Cldots&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;f(\bold x) \approx h_0 + (\bold x - \bold x_0)^T \cdot h_1 + (\bold x - \bold x_0)^T h_2 (\bold x - \bold x_0) + \ldots&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Note that the kernels &lt;img alt=&quot;h_i&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=h_i&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;h_i&quot; /&gt; have increasing order: &lt;img alt=&quot;h_0&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=h_0&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;h_0&quot; /&gt; is a scalar, &lt;img alt=&quot;h_1&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=h_1&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;h_1&quot; /&gt; a vector, &lt;img alt=&quot;h_2&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=h_2&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;h_2&quot; /&gt; a matrix, &lt;img alt=&quot;h_3&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=h_3&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;h_3&quot; /&gt; a three-index tensor, etc. The form of the expansion is similar to a Taylor expansion, and it’s tempting to identify the two.&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Misconception: the Volterra expansion is a Taylor expansion&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;The Volterra expansion is more general than a Taylor expansion: a Taylor expansion requires well-defined derivatives to every order, while a Volterra expansion does not. For example, the function &lt;img alt=&quot;f(x) = \exp(-1/x^2)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=f%28x%29+%3D+%5Cexp%28-1%2Fx%5E2%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;f(x) = \exp(-1/x^2)&quot; /&gt; has 0 derivatives everywhere. Hence, its Taylor expansion around 0 is exactly 0. However, it has a perfectly good non-null Volterra expansion, which can be found through polynomial regression. &lt;a href=&quot;https://github.com/patrickmineault/xcorr-notebooks/blob/master/Expansion-Schmexpansion.ipynb&quot;&gt;Here’s a notebook that shows you how it’s done&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image&quot;&gt;&lt;img alt=&quot;Approximating a function with zero derivatives with a Volterra expansion&quot; src=&quot;https://xcorr.files.wordpress.com/2020/03/volterra2.png&quot; /&gt;Approximating a function with a null Taylor series with polynomials.&lt;/figure&gt;
+
+
+
+&lt;p&gt;This subtle difference might seem like some nit-picking, but in practice, it is very important: discontinuous functions and stochastic functions can both be approximated with Volterra series. Biological Neurons are both stochastic and have potentially very sharp nonlinearities, yet we can still approximate them using a Volterra expansion.&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;The Wiener expansion is an orthogonalized version of the Volterra expansion.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;To estimate the coefficients of the Volterra expansion, conventional reverse correlation first rearranges the Volterra expansion into an equivalent series of functionals, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wiener_series&quot;&gt;Wiener expansion&lt;/a&gt;:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;f(\bold x) = \sum_i G_i[\bold x]&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=f%28%5Cbold+x%29+%3D+%5Csum_i+G_i%5B%5Cbold+x%5D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;f(\bold x) = \sum_i G_i[\bold x]&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;And imposes that these functionals are orthogonal to each other:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\mathbb E_D[G_i(x)G_j(x)] = 0 \text{ for } i \ne j&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cmathbb+E_D%5BG_i%28x%29G_j%28x%29%5D+%3D+0+%5Ctext%7B+for+%7D+i+%5Cne+j&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\mathbb E_D[G_i(x)G_j(x)] = 0 \text{ for } i \ne j&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Here &lt;img alt=&quot;D&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;D&quot; /&gt; is the data distribution. Orthogonality is imposed via a Gram-Schmidt orthogonalization process:&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt;Set &lt;img alt=&quot;G_0&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_0&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_0&quot; /&gt; to the output of the Volterra kernel of order 0&lt;/li&gt;&lt;li&gt;Set &lt;img alt=&quot;G_1&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_1&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_1&quot; /&gt; to the output of the Volterra kernel of order 1, and back-project &lt;img alt=&quot;G_0&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_0&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_0&quot; /&gt; from &lt;img alt=&quot;G_1&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_1&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_1&quot; /&gt; to make &lt;img alt=&quot;G_1&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_1&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_1&quot; /&gt; orthogonal to &lt;img alt=&quot;G_0&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_0&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_0&quot; /&gt;&lt;/li&gt;&lt;li&gt;Set &lt;img alt=&quot;G_2&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_2&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_2&quot; /&gt; to the output of the Volterra kernel of order 2, and back-project &lt;img alt=&quot;G_0&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_0&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_0&quot; /&gt; and &lt;img alt=&quot;G_1&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_1&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_1&quot; /&gt; from &lt;img alt=&quot;G_2&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_2&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_2&quot; /&gt; to make &lt;img alt=&quot;G_2&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_2&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_2&quot; /&gt; orthogonal to both, etc.&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;p&gt;This is the itty-bitty subtle bit: it turns out that the expectations of every order are straightforward to calculate when the data distribution &lt;img alt=&quot;D&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;D&quot; /&gt; is normal. The 0’th order and 1st order functionals are simply the constant and linear Volterra kernels. The 2nd order functional is the quadratic kernel minus a correction for the diagonal terms of the kernel, since the square of a normally-distributed variable distribution has a mean equal to the square of the standard deviation, &lt;img alt=&quot;\mathbb E[x^2] = \sigma^2&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cmathbb+E%5Bx%5E2%5D+%3D+%5Csigma%5E2&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\mathbb E[x^2] = \sigma^2&quot; /&gt;. Thus:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;G_0 = k_0 \newline G_1 = (x - x_0)^T k_1 \newline G_2 = (x - x_0)^T k_2 (x - x_0) - \sigma^2 \sum_j k_2^{jj}\newline&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_0+%3D+k_0+%5Cnewline+G_1+%3D+%28x+-+x_0%29%5ET+k_1+%5Cnewline+G_2+%3D+%28x+-+x_0%29%5ET+k_2+%28x+-+x_0%29+-+%5Csigma%5E2+%5Csum_j+k_2%5E%7Bjj%7D%5Cnewline&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_0 = k_0 \newline G_1 = (x - x_0)^T k_1 \newline G_2 = (x - x_0)^T k_2 (x - x_0) - \sigma^2 \sum_j k_2^{jj}\newline&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Since each functional are orthogonal over the data distribution, we can easily calculate them using an iterative procedure:&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt;Estimate the Wiener kernel &lt;img alt=&quot;k_0&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=k_0&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;k_0&quot; /&gt; from the measured response &lt;img alt=&quot;y&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=y&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;y&quot; /&gt;&lt;/li&gt;&lt;li&gt;Project the 0’th order functional out of &lt;img alt=&quot;y&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=y&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;y&quot; /&gt; to obtain &lt;img alt=&quot;y_{res}&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=y_%7Bres%7D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;y_{res}&quot; /&gt;&lt;/li&gt;&lt;li&gt;Estimate the Wiener kernel &lt;img alt=&quot;k_1&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=k_1&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;k_1&quot; /&gt; from the residual &lt;img alt=&quot;y_{res}&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=y_%7Bres%7D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;y_{res}&quot; /&gt;, etc.&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Estimating Wiener series with white noise means finding estimates that minimize sum-of-squares between prediction and measurement over the stimulus ensemble. We use a few shortcuts enabled by properties of white noise.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;What does &lt;em&gt;estimate&lt;/em&gt; mean in this context? Least-squares! To estimate the zero-order kernel, we have:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\hat k_0 = \arg \min_{k_0} \sum(y - k_0)^2 = \bar y&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Chat+k_0+%3D+%5Carg+%5Cmin_%7Bk_0%7D+%5Csum%28y+-+k_0%29%5E2+%3D+%5Cbar+y&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\hat k_0 = \arg \min_{k_0} \sum(y - k_0)^2 = \bar y&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;For the first-order kernel:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\hat k_1 = \arg \min_{k_1} \sum(y - \bar y - (x - x_0)^T k_1 )^2 \newline = ((x - x_0)^T (x-x_0))^{-1} (x-x_0)^T (y - \bar y) \newline \approx \frac{1}{N \sigma^2} (x-x_0)^T (y - \bar y)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Chat+k_1+%3D+%5Carg+%5Cmin_%7Bk_1%7D+%5Csum%28y+-+%5Cbar+y+-+%28x+-+x_0%29%5ET+k_1+%29%5E2+%5Cnewline+%3D+%28%28x+-+x_0%29%5ET+%28x-x_0%29%29%5E%7B-1%7D+%28x-x_0%29%5ET+%28y+-+%5Cbar+y%29+%5Cnewline+%5Capprox+%5Cfrac%7B1%7D%7BN+%5Csigma%5E2%7D+%28x-x_0%29%5ET+%28y+-+%5Cbar+y%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\hat k_1 = \arg \min_{k_1} \sum(y - \bar y - (x - x_0)^T k_1 )^2 \newline = ((x - x_0)^T (x-x_0))^{-1} (x-x_0)^T (y - \bar y) \newline \approx \frac{1}{N \sigma^2} (x-x_0)^T (y - \bar y)&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Here the approximate sign comes from the fact that with normally distributed data, &lt;img alt=&quot;(x - x_0)^T (x-x_0) \approx N\sigma^2 I&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%28x+-+x_0%29%5ET+%28x-x_0%29+%5Capprox+N%5Csigma%5E2+I&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;(x - x_0)^T (x-x_0) \approx N\sigma^2 I&quot; /&gt;. The second order kernel is a little more tricky. We first define &lt;img alt=&quot;r = y - \bar y - (x - x_0)^T&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=r+%3D+y+-+%5Cbar+y+-+%28x+-+x_0%29%5ET&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;r = y - \bar y - (x - x_0)^T&quot; /&gt;. Then:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;k_2 = \arg \min_{k_2} \sum \left(r - (x - x_0)^T k_2 (x - x_0) + \sigma^2 \sum_j k_2^{jj} \right)^2 \newline = \text{unstack}((D^T D)^{-1} D^T r) \newline&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=k_2+%3D+%5Carg+%5Cmin_%7Bk_2%7D+%5Csum+%5Cleft%28r+-+%28x+-+x_0%29%5ET+k_2+%28x+-+x_0%29+%2B+%5Csigma%5E2+%5Csum_j+k_2%5E%7Bjj%7D+%5Cright%29%5E2+%5Cnewline+%3D+%5Ctext%7Bunstack%7D%28%28D%5ET+D%29%5E%7B-1%7D+D%5ET+r%29+%5Cnewline&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;k_2 = \arg \min_{k_2} \sum \left(r - (x - x_0)^T k_2 (x - x_0) + \sigma^2 \sum_j k_2^{jj} \right)^2 \newline = \text{unstack}((D^T D)^{-1} D^T r) \newline&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;The columns of the matrix &lt;img alt=&quot;D&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;D&quot; /&gt; is composed of all the cross-products &lt;img alt=&quot;x_i x_j - \delta_{ij} \sigma^2&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=x_i+x_j+-+%5Cdelta_%7Bij%7D+%5Csigma%5E2&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;x_i x_j - \delta_{ij} \sigma^2&quot; /&gt; for &lt;img alt=&quot;i \ge j&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=i+%5Cge+j&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;i \ge j&quot; /&gt;. The operator &lt;img alt=&quot;\text{unstack}&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Ctext%7Bunstack%7D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\text{unstack}&quot; /&gt; takes this linear representation of the coefficients and transforms them into a matrix. Here again, we find that for normally distributed inputs, the non-diagonal terms in the covariance matrix &lt;img alt=&quot;D^TD&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=D%5ETD&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;D^TD&quot; /&gt; have an expected value of zero. The inverse of the diagonal is a bit more tricky to calculate, but a little bit of grinding shows that we pick up a scalar factor &lt;img alt=&quot;\frac{1}{2!\sigma^{4}}&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cfrac%7B1%7D%7B2%21%5Csigma%5E%7B4%7D%7D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\frac{1}{2!\sigma^{4}}&quot; /&gt;. In fact, we can show that the estimate of the kernels can be written as:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;k_i(j_1, j_2, \ldots j_i) = \frac{1}{i!\sigma^{2i}N} [y - \sum_{m=0}^{i-1} G_m(\mathbf x)] x_{j_1} x_{j_2} \ldots x_{j_i}&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=k_i%28j_1%2C+j_2%2C+%5Cldots+j_i%29+%3D+%5Cfrac%7B1%7D%7Bi%21%5Csigma%5E%7B2i%7DN%7D+%5By+-+%5Csum_%7Bm%3D0%7D%5E%7Bi-1%7D+G_m%28%5Cmathbf+x%29%5D+x_%7Bj_1%7D+x_%7Bj_2%7D+%5Cldots+x_%7Bj_i%7D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;k_i(j_1, j_2, \ldots j_i) = \frac{1}{i!\sigma^{2i}N} [y - \sum_{m=0}^{i-1} G_m(\mathbf x)] x_{j_1} x_{j_2} \ldots x_{j_i}&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Where &lt;img alt=&quot;G_j&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G_j&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G_j&quot; /&gt; are the orthogonalized Wiener functionals (equation 2, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/3382067&quot;&gt;Korenberg et al. 1988&lt;/a&gt;). Notice the &lt;img alt=&quot;i!&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=i%21&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;i!&quot; /&gt; factors, which look an awful lot like a Taylor expansion. &lt;a href=&quot;https://github.com/patrickmineault/xcorr-notebooks/blob/master/Second-order-estimate.ipynb&quot;&gt;This formula actually works! Here’s a notebook to show you how it’s done for a second order Wiener expansion&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Is your head spinning yet? Mine sure was! Grinding through the kernels one by one makes a few things clear:&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt;Wiener-Volterra analysis isn’t magic. It’s orthogonal polynomial regression estimated through least-squares, with approximations that are enabled by the use of a very special distribution of the inputs, the normal distribution. This means that expectations of different moments can be analytically calculated.&lt;/li&gt;&lt;li&gt;The Wiener kernel definitions change when you change the distribution of the input. This is because orthogonalization is dependent on the input distribution.&lt;/li&gt;&lt;li&gt;The easy estimation of the kernels via backprojection and simple multiplication with cross-products of the inputs is lost when the input distribution is not normal.&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;p&gt;The special properties of white noise were very important technically in 1958 when the series was proposed: the kernels could be estimated with very minimal computing resources. A memoryless accumulator is sufficient. Today, we’re no longer bound by these limitations, and we can do Wiener-Volterra analysis in a much wider range of contexts. Casting Wiener-Volterra analysis as polynomial regression fit via least-squares immediately opens up many extensions:&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt;Finding better estimates via the minimum variance unbiased estimator, that is, maximum likelihood&lt;/li&gt;&lt;li&gt;Finding better estimates by better modeling the noise, for example, taking into account the Poisson nature of neural noise&lt;/li&gt;&lt;li&gt;Generalizing to non-normally distributed ensembles of inputs, again using maximum likelihood&lt;/li&gt;&lt;li&gt;Using alternative expansions, for example, cascades of linear-nonlinear filters (i.e. deep nets), fit with stochastic gradient descent&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;p&gt;Remarkably, some of the ideas behind Wiener-Volterra theory – local polynomial expansion, probing stimuli at random – have made their way into far-flung machine learning methods. Let’s take a look.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Evolution strategies (ES)&lt;/h3&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.scholarpedia.org/article/Evolution_strategies&quot;&gt;Evolution strategies&lt;/a&gt; (ES) are a family of black-box, gradient-free optimizers for potentially non-differentiable functions. At the heart of most optimizers over continuous variables is the computation of the gradient. If the gradient is unaccessible because of discontinuities, or because it is very expensive to calculate, we can obtain a &lt;em&gt;smoothed&lt;/em&gt; gradient via the ES method.&lt;/p&gt;
+
+
+
+&lt;p&gt;The setup is quite clever. We have a function &lt;img alt=&quot;f&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=f&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;f&quot; /&gt; that we are trying to optimize. Instead of computing its derivative &lt;img alt=&quot;\nabla f(z)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cnabla+f%28z%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\nabla f(z)&quot; /&gt; directly, we compute the derivative of the expectation of the function, &lt;img alt=&quot;\mathbb \nabla \mathbb E_\pi[f(z)]&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cmathbb+%5Cnabla+%5Cmathbb+E_%5Cpi%5Bf%28z%29%5D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\mathbb \nabla \mathbb E_\pi[f(z)]&quot; /&gt; in a local neighborhood &lt;img alt=&quot;\pi(\theta, z)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cpi%28%5Ctheta%2C+z%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\pi(\theta, z)&quot; /&gt;. Think of this expectation as a smoothed derivative.&lt;/p&gt;
+
+
+
+&lt;p&gt;To compute the expected value, we expand it via its definition, and obtain:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\nabla_\theta \mathbb E_\pi(z, \theta)[f(z)] = \nabla \int \pi(z, \theta) f(z) dz \newline = \int \nabla \pi(z, \theta) f(z) dz \newline = \int \nabla \log \pi(z, \theta) \pi(z, \theta) f(z) dz&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cnabla_%5Ctheta+%5Cmathbb+E_%5Cpi%28z%2C+%5Ctheta%29%5Bf%28z%29%5D+%3D+%5Cnabla+%5Cint+%5Cpi%28z%2C+%5Ctheta%29+f%28z%29+dz+%5Cnewline+%3D+%5Cint+%5Cnabla+%5Cpi%28z%2C+%5Ctheta%29+f%28z%29+dz+%5Cnewline+%3D+%5Cint+%5Cnabla+%5Clog+%5Cpi%28z%2C+%5Ctheta%29+%5Cpi%28z%2C+%5Ctheta%29+f%28z%29+dz&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\nabla_\theta \mathbb E_\pi(z, \theta)[f(z)] = \nabla \int \pi(z, \theta) f(z) dz \newline = \int \nabla \pi(z, \theta) f(z) dz \newline = \int \nabla \log \pi(z, \theta) \pi(z, \theta) f(z) dz&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;The last equality, which is also called the &lt;a href=&quot;http://blog.shakirm.com/2015/11/machine-learning-trick-of-the-day-5-log-derivative-trick/&quot;&gt;log-derivative trick&lt;/a&gt;, is derived from:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\nabla \log \pi(z,\theta) = \frac{\nabla \pi(z, \theta)}{\pi(z, \theta)}&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cnabla+%5Clog+%5Cpi%28z%2C%5Ctheta%29+%3D+%5Cfrac%7B%5Cnabla+%5Cpi%28z%2C+%5Ctheta%29%7D%7B%5Cpi%28z%2C+%5Ctheta%29%7D&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\nabla \log \pi(z,\theta) = \frac{\nabla \pi(z, \theta)}{\pi(z, \theta)}&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;A neighbourhood which is often used in practice is the isotropic Gaussian centered at $\mu$ with a standard deviation $\sigma$. If we take a Monte Carlo estimate of the expectation, we find an approximation for the gradient as:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\nabla \mathbb E[f] \approx \frac{1}{N} \sum_{1}^N \nabla_\mu \log N(\mu, \sigma^2) \newline = \frac{1}{N} \sum_{1}^N \frac{1}{\sigma^2} (z-\mu) f(z)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cnabla+%5Cmathbb+E%5Bf%5D+%5Capprox+%5Cfrac%7B1%7D%7BN%7D+%5Csum_%7B1%7D%5EN+%5Cnabla_%5Cmu+%5Clog+N%28%5Cmu%2C+%5Csigma%5E2%29+%5Cnewline+%3D+%5Cfrac%7B1%7D%7BN%7D+%5Csum_%7B1%7D%5EN+%5Cfrac%7B1%7D%7B%5Csigma%5E2%7D+%28z-%5Cmu%29+f%28z%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\nabla \mathbb E[f] \approx \frac{1}{N} \sum_{1}^N \nabla_\mu \log N(\mu, \sigma^2) \newline = \frac{1}{N} \sum_{1}^N \frac{1}{\sigma^2} (z-\mu) f(z)&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Notice this remarkable equation: this is exactly the response-triggered average with an isotropic gaussian stimulus ensemble. This reveals an unexpected link between reverse correlation and optimization: we can view reverse correlation as estimating an approximate gradient of the response function of a neuron.&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;The response-triggered average tells us how we should change a stimulus locally to increase the response of the system.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;h4&gt;Taking ES to reverse correlation&lt;/h4&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image&quot;&gt;&lt;img alt=&quot;From the OpenAI blog, https://openai.com/blog/evolution-strategies/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/03/es.png&quot; /&gt;&lt;a href=&quot;https://openai.com/blog/evolution-strategies/&quot;&gt;From the OpenAI blog&lt;/a&gt;.&lt;/figure&gt;
+
+
+
+&lt;p&gt;The unexpected link between reverse correlation and optimization opens up a lot of different avenues. For instance, we could adapt ES to maximize the response of a neuron in a closed-loop fashion. This strategy has the advantage of being trivial to compute and highly intuitive (i.e. no complaints from reviewer 2 about the method being inscrutable).&lt;/p&gt;
+
+
+
+&lt;p&gt;ES is also embarrassingly parallel, which has been used to good effect in the context of reinforcement learning – OpenAI showcased ES with 1024 parallel evaluations. We could consider evaluating the gradient of a neuron’s response function in parallel with several other neurons – perhaps in a different animal, in a different lab – and optimize for a stimulus that maximizes the sum of the responses. Indeed, we don’t have to focus on maximizing just the mean response of a neuron: we can maximize the diversity of responses, their dimensionality, etc. This works as long as the metric that we’re measuring is a scalar function of the measured responses.&lt;/p&gt;
+
+
+
+&lt;p&gt;ES comes in a variety of different flavours that aim to increase the efficiency of the method. Two of the most popular variants are:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/CMA-ES&quot;&gt;CMA-ES (Covariance-matrix-adaptation)&lt;/a&gt;. This takes the derivative of the neighborhood with respect to the covariance of the normal distribution, in addition to its mean. Thus, the covariance stimulus ensemble is tweaked to capture the largest dimensions of descent.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://jmlr.org/papers/v15/wierstra14a.html&quot;&gt;NES (Natural evolution strategies)&lt;/a&gt;. This uses natural gradients rather than gradients, which naturally deals with rescaling of the axes.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;Both of these more efficient variants could be applied to find preferred stimuli in a population of neurons.&lt;/p&gt;
+
+
+
+&lt;p&gt;Finally, because the ES objective is a Monte Carlo estimate, we can import many of the tricks from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Variance_reduction&quot;&gt;variance reduction literature&lt;/a&gt; to increase the efficiency of reverse correlation. For example, we can use control variates or use stratified sampling strategies. My favourite trick to increase the efficiency of estimation: pairing every stimulus with its negative. With this trick, the mean of the realized stimulus ensemble is exactly the mean of the distribution. &lt;a href=&quot;https://nbviewer.jupyter.org/github/patrickmineault/xcorr-notebooks/blob/master/Paired-sampling.ipynb&quot;&gt;This antithetic sampling can, in some circumstances, increase the efficiency of the estimation of the preferred stimulus&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Locally interpretable models&lt;/h3&gt;
+
+
+
+&lt;p&gt;There’s another area where the ideas underlying reverse correlation have recently come together: &lt;a href=&quot;https://christophm.github.io/interpretable-ml-book/lime.html&quot;&gt;locally interpretable models&lt;/a&gt;. Suppose that we have a complex black-box model that we are trying to better understand. This black box model can be, for example, a deep neural network. We can locally approximate this complex function with a simpler, local expansion. This local explanation does not capture all the subtleties of the model, but it can reveal insights that are useful for humans that want to understand the model.&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Black-box models are good for predictions by machines. White-box models are good for understanding by humans. LIME transforms black-box models into locally white-box models.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image&quot;&gt;&lt;img alt=&quot;Toy example to present intuition for LIME.The black-box model’s complex decision function f(unknown to LIME) is represented by the blue/pinkbackground, which cannot be approximated well bya linear model. The bold red cross is the instancebeing explained. LIME samples instances, gets pre-dictions using f, and weighs them by the proximityto the instance being explained (represented hereby size). The dashed line is the learned explanationthat is locally (but not globally) faithful. From Ribeiro et al. 2016&quot; src=&quot;https://xcorr.files.wordpress.com/2020/03/lime-caption.png&quot; /&gt;From the LIME paper, &lt;a href=&quot;https://arxiv.org/abs/1602.04938&quot;&gt;Ribeiro et al. 2016&lt;/a&gt;.&lt;/figure&gt;
+
+
+
+&lt;p&gt;In general, we try to find a model &lt;img alt=&quot;g&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=g&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;g&quot; /&gt; which approximates a complex function &lt;img alt=&quot;f&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=f&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;f&quot; /&gt; according to a weight window &lt;img alt=&quot;\pi&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Cpi&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\pi&quot; /&gt;:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;\arg \min_{g\in G} L(f, g, \pi) + \Omega(g)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5Carg+%5Cmin_%7Bg%5Cin+G%7D+L%28f%2C+g%2C+%5Cpi%29+%2B+%5COmega%28g%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\arg \min_{g\in G} L(f, g, \pi) + \Omega(g)&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Here &lt;img alt=&quot;L&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=L&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;L&quot; /&gt; is a loss function and &lt;img alt=&quot;\Omega(g)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5COmega%28g%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\Omega(g)&quot; /&gt; captures the complexity of &lt;img alt=&quot;g&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=g&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;g&quot; /&gt;. &lt;a href=&quot;https://xcorr.wordpress.com/wp-admin/post.php?post=7315&amp;amp;action=edit&quot;&gt;In LIME, or locally interpretable model explanations&lt;/a&gt;, the authors suggest to use a Gaussian-shaped neighborhood around an anchor &lt;img alt=&quot;a&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=a&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;a&quot; /&gt;, and a sum-of-squares loss, leading to the weighted loss:&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;&lt;img alt=&quot;L = \sum_i \exp \left(-\frac{||x_i - a||^2}{\sigma^2} \right) (f(x_i) - g(x_i)) ^ 2&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=L+%3D+%5Csum_i+%5Cexp+%5Cleft%28-%5Cfrac%7B%7C%7Cx_i+-+a%7C%7C%5E2%7D%7B%5Csigma%5E2%7D+%5Cright%29+%28f%28x_i%29+-+g%28x_i%29%29+%5E+2&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;L = \sum_i \exp \left(-\frac{||x_i - a||^2}{\sigma^2} \right) (f(x_i) - g(x_i)) ^ 2&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Several choices are possible for &lt;img alt=&quot;\Omega(g)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5COmega%28g%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\Omega(g)&quot; /&gt;. For example, we may privilege functions that focus on few input dimensions; we can impose that &lt;img alt=&quot;g&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=g&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;g&quot; /&gt; is sparse in parameter space using an L1 penalty as &lt;img alt=&quot;\Omega(g)&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=%5COmega%28g%29&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;\Omega(g)&quot; /&gt;. The model class &lt;img alt=&quot;G&quot; class=&quot;latex&quot; src=&quot;https://s0.wp.com/latex.php?latex=G&amp;amp;bg=ffffff&amp;amp;fg=3a3a3a&amp;amp;s=0&quot; title=&quot;G&quot; /&gt; can be anything that is “easy to interpret” for humans. This could mean:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;a GAM&lt;/li&gt;&lt;li&gt;a decision tree&lt;/li&gt;&lt;li&gt;a linear model&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;If we choose no penalty for complexity and choose a linear model class, our model and error function is equivalent to reverse correlation and evolutionary strategies. This highlight something that’s underappreciated about reverse correlation:&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;The spike-triggered average is a simplified, locally valid explanation for how a neuron works. While complex models like deep nets can capture more of the variance in the data, the goal in reverse correlation is different: explaining neurons to humans.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;h4&gt;Taking LIME to reverse correlation&lt;/h4&gt;
+
+
+
+&lt;p&gt;An underappreciated fact about reverse correlation is that the size of the neighbourhood around which we’re linearizing is arbitrary and that different neighbourhoods will lead to different estimates.&lt;/p&gt;
+
+
+
+&lt;p&gt;Many articles have documented that &lt;a href=&quot;https://www.jneurosci.org/content/24/31/6991.short&quot;&gt;receptive fields appear to change with changing stimulus ensembles&lt;/a&gt;, for example natural vs. artificial stimuli. However, this has been explained in terms of a special, adaptive response of neurons to natural image statistics; for instance, that they increase the degree of feedforward inhibition they receive. In fact, the same phenomenon could happen simply because we’re measuring a nonlinear function, so that its locally linear expansion depends on the stimulus ensemble.&lt;/p&gt;
+
+
+
+&lt;p&gt;Many of the parameters of the probing distribution are arbitrary:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;the size of the neighborhood (big vs. small)&lt;/li&gt;&lt;li&gt;the shape of the neighborhood (isotropic Gaussian vs. non-isotropic vs. natural stimuli)&lt;/li&gt;&lt;li&gt;the center of the neighborhood (gray image or another reference)&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;Some of the most interesting applications of nonlinear systems identification have manipulated each of these factors. For example, by shifting the center of the neighbourhood to an appropriate anchor point, we can locally linearize quadratic responses (i.e. complex cells) by choosing an appropriate anchor point. This is the idea behind Movshon et al. (1978), where the line weighting function of a complex cell is found by using another line in the center as an anchor:&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image&quot;&gt;&lt;img alt=&quot;Local linearization of receptive fields&quot; src=&quot;https://xcorr.files.wordpress.com/2020/03/movshon-1978.png&quot; /&gt;From &lt;a href=&quot;https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1978.sp012489&quot;&gt;Movshon et al. 1978&lt;/a&gt;.&lt;/figure&gt;
+
+
+
+&lt;p&gt;There are some other excellent nuggets in the LIME paper that could serve us well. For instance, they suggest using a maximally diverse ensemble of examples (SP-LIME) to illustrate the functioning of the models to humans. &lt;a href=&quot;http://arxiv.org/abs/1807.10589&quot;&gt;A similar idea was used in Cadena et al. (2018) to visualize diverse features&lt;/a&gt; that triggered large responses in early stages of a deep neural net around an anchor point (invariant or equivariant features).&lt;/p&gt;
+
+
+
+&lt;p&gt;Finally, we can have our cake and eat it too: we can fit very complex models of neurons that explain much of the variance in sensory systems using deep nets, and visualize how these models work using locally linear explanations. It sounds a little silly to fit a model to a model, but it’s a technique that has been used fruitfully both to &lt;a href=&quot;https://www.pnas.org/content/109/16/E972.short&quot;&gt;explain sensory neurons&lt;/a&gt; and to &lt;a href=&quot;https://arxiv.org/abs/1503.02531&quot;&gt;compress neural networks&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Conclusions&lt;/h3&gt;
+
+
+
+&lt;p&gt;Both ES and LIME use local linearization strategies similar to reverse correlation to explain complex black box function. From ES, we learn that the reverse correlation estimate gives us a local approximation for the gradient, which can be used as a starting point for closed-loop experiments. From LIME, we see that we can perform reverse correlation centered around different neighbourhoods, yielding different results. By following these new research trends in machine learning, we can find innovative ways of opening the black boxes that are biological neurons.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-jetpack-markdown&quot;&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 27 Mar 2020 17:58:47 +0000</pubDate>
+  <source url="https://xcorr.net/feed/">xcorr: comp neuro</source>
+</item>
+<item>
+	<title>Retraction watch: A German vocabulary lesson: Paper retracted because an “individuelle Heilversuche” is not a clinical trial</title>
+	<guid isPermaLink="false">https://retractionwatch.com/?p=119166</guid>
+	<link>https://retractionwatch.com/2020/03/27/a-german-vocabulary-lesson-paper-retracted-because-an-individuelle-heilversuche-is-not-a-clinical-trial/</link>
+	<description>A co-editor of the Journal of Neurology has retracted a 2018 paper he helped write because the way the paper was written misled readers about the nature of the research.  The article, “Menière’s disease: combined pharmacotherapy with betahistine and the MAO-B inhibitor selegiline—an observational study,” purported to describe the effects of a combination treatment to … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/03/27/a-german-vocabulary-lesson-paper-retracted-because-an-individuelle-heilversuche-is-not-a-clinical-trial/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;A German vocabulary lesson: Paper retracted because an “individuelle Heilversuche” is not a clinical trial&lt;/span&gt;&lt;/a&gt;</description>
+	<pubDate>Fri, 27 Mar 2020 11:16:17 +0000</pubDate>
+  <source url="http://retractionwatch.com/feed/">Retraction Watch</source>
+</item>
+<item>
+	<title>BMC Series blog: A mother’s intuition:  successful trial of labor after Cesarean when women make an informed decision</title>
+	<guid isPermaLink="false">http://blogs.biomedcentral.com/bmcseriesblog/?p=11799</guid>
+	<link>http://blogs.biomedcentral.com/bmcseriesblog/2020/03/27/a-mothers-intuition-successful-trial-of-labor-after-cesarean-when-women-make-an-informed-decision/</link>
+	<description>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/03/IS098TI3W-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;In recent years, the Cesarean section (CS) &lt;a href=&quot;https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-019-2689-5?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;rate has been increasing&lt;/a&gt; with the main reason being a woman’s prior CS history. Trial of labor after Cesarean (TOLAC), with the aim of achieving vaginal birth rather than repeat CS, is considered a safe and reasonable option. However, the &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/14662227&quot;&gt;rate of TOLAC is decreasing&lt;/a&gt;, especially in Japan, and most women who are eligible for TOLAC choose elective repeat Cesarean delivery (ERCD) without receiving detailed information about the merit of TOLAC. Obstetricians who do not offer the option of TOLAC underline for these women that TOLAC is a “dangerous” option even though the &lt;a href=&quot;https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-017-1440-3?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;risk of uterine rupture&lt;/a&gt; is around 0.5% and ERCD has also a variety of complications, in contrast to successful TOLAC.&lt;/p&gt;
+&lt;p&gt;We have been thinking that the patient’s decision, rather than the doctor’s, is the most important to improve success rate of TOLAC. Therefore, we have performed a prospective study based on women’s decisions after receiving a detailed explanation of the risks and benefits of both TOLAC and ERCD. &lt;a href=&quot;https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-020-2833-2?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;Our new paper&lt;/a&gt; in &lt;a href=&quot;https://bmcpregnancychildbirth.biomedcentral.com/?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;em&gt;BMC Pregnancy and Childbirth&lt;/em&gt;&lt;/a&gt; showed promising results.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Our criteria&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Our TOLAC criteria, which are based on earlier studies, are shown in Table 1.  For pregnant women who met all these TOLAC criteria, we explained the risks and benefits of both TOLAC and ERCD with detailed documents, at 32 weeks of gestation. The documents about TOLAC included the risks of uterine rupture which occurs in around 0.5% of women, which is much higher than that of ERCD, and carries a risk of mortality for the fetus and/or the mother. On the other hand, ERCD has higher risks of bleeding, infection, thrombosis, and complication of subsequent pregnancies. The women in our study could choose their delivery mode after counseling on these risks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Table 1. Criteria for TOLAC in this study&lt;br /&gt;
+&lt;/strong&gt;&lt;/p&gt;
+&lt;table style=&quot;height: 447px;&quot; width=&quot;573&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;1) only one previous Cesarean delivery&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;2) former Cesarean delivery was a low transverse Cesarean&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;3) no obstetric contraindications for vaginal delivery&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;3) singleton pregnancy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;4) vertex presentation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;5) no history of myomectomy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;6) in general, no medical induction of labor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;566&quot;&gt;7) well informed on the risks of TOLAC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We screened 1,086 pregnant women for eligibility and 735 met the above criteria. Of these, 64.1% opted for TOLAC. Earlier studies also showed the same rate, which means that if women receive sufficient education and support, they tend to choose TOLAC as their desirable mode of delivery. Obstetricians should understand this fact and should not underline only the risk of rare complications.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;High success rate&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Our study had a rate of successful TOLAC (vaginal birth) of 91.3%, similar to the vaginal birth rate of women who have no history of Cesarean, with the rate of uterine rupture being 0.6%. There were no infant deaths or long-term sequelae among all 471 TOLAC attempts. Apgar scores of &amp;lt;7 at 5 minutes, which is a marker of fetal asphyxia, did not significantly differ between the two groups. Women with history of vaginal birth in addition to a prior CS had a high chance of successful TOLAC (96.4%), and when labor spontaneously occurred before 40 weeks of gestation, the success rate was favorable (97.6%).&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;We have shown that TOLAC can be considered a reasonable means of birth.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;We have tried to reveal the reasons for this high success rate and showed that in the successful TOLAC group, 70.5% of women had a previous CS without labor due to non-recurrent indications, including breech presentation, placenta previa, severe preeclampsia, or suspected cephalopelvic disproportion. On the other hand, over 40% of women who chose repeat ERCD had a previous CS that followed unsuccessful labor due to indications such as labor arrest disorders or non-reassuring fetal status (p&amp;lt;0.01). We believe these differences may have positively impacted the TOLAC success rate, partly because unsuitable candidates may have self-excluded from the TOLAC group.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Factors associated with failed TOLAC&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This study revealed that factors related to failed TOLAC included ≥40 weeks of gestation and prelabor rupture of membranes (PROM). After 40 weeks of gestation, success rates decreased (from 97.6% to 76.9%). Half of failed TOLAC cases experienced PROM. Until now, there have been limited studies into the impact of PROM on TOLAC. Obstetricians should be encouraged to have ongoing discussions with women about their mode of delivery after the due date or PROM, as these may be indications to change from planned TOLAC to ERCD. Ongoing discussions throughout pregnancy are important for preventing complications.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Conclusions and recommendations&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We have shown that TOLAC can be considered a reasonable means of birth not only for mothers but also for neonates, with over 60% of eligible women choosing TOLAC and over 90% of those achieving successful TOLAC. History of vaginal birth in addition to CS increased odds of successful TOLAC, while PROM or ≥40 weeks of gestation were risk factors for failed TOLAC. Obstetricians have to discuss the planned mode of birth throughout pregnancy in order to prevent complications.&lt;/p&gt;
+&lt;p&gt;Based on our results we would recommend that mothers who have elected ERCD choose a date of CS later than 39 weeks of gestation as some studies suggest a &lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMoa0803267&quot;&gt;risk of increased negative respiratory outcomes&lt;/a&gt; in elective CS before 39 weeks. If spontaneous labor occurs before the planned date of ERCD, these women could be encouraged to attempt TOLAC instead of emergency CS, because when labor spontaneously occurred before 40 weeks of gestation, the success rate of TOLAC was favorable.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/03/27/a-mothers-intuition-successful-trial-of-labor-after-cesarean-when-women-make-an-informed-decision/&quot; rel=&quot;nofollow&quot;&gt;A mother’s intuition:  successful trial of labor after Cesarean when women make an informed decision&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Fri, 27 Mar 2020 09:00:37 +0000</pubDate>
+        <enclosure url="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/03/IS098TI3W-125x125.jpg" length="" type="image/jpeg"/>
+  <source url="http://blogs.biomedcentral.com/bmcseriesblog/feed/">BMC Series blog</source>
+</item>
+<item>
+	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 170 Numbers in the Brain with Andreas Nieder</title>
+	<guid isPermaLink="false">http://brainsciencepodcast.libsyn.com/896372aa-f577-46f5-8e6d-90e44b6c4e8e</guid>
+	<link>https://brainsciencepodcast.com/bsp/2020/bs170-nieder-numbers</link>
+	<description>&lt;p&gt;&lt;a href=&quot;https://brainsciencepodcast.com/bsp/2020/bs170-nieder-numbers&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;permalink&quot;&gt;BS 170&lt;/a&gt; is an interview with Andreas Nieder, author of &lt;a href=&quot;https://amzn.to/31JP7rr&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Amazon&quot;&gt;&quot;A Brain for Numbers: The Biology of the Number Instinct.&quot;&lt;/a&gt; We talk about the surprising discovery that a wide variety of animals have a number instinct, which is called the approximate number system. This appears to provide the basis for the more abstract mathematical abilities that are seen in humans. We also explore the relationship between mathematics and language.&lt;/p&gt; &lt;p&gt;Links and References:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://amzn.to/31JP7rr&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Amazon link&quot;&gt;&lt;em&gt;A Brain for Numbers: The Biology of the Number Instinct&lt;/em&gt;&lt;/a&gt; by Andreas Nieder&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://amzn.to/2OhcvHs&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Amazon link&quot;&gt;&lt;em&gt;The Number Sense: How the Mind Creates Mathematics&lt;/em&gt;&lt;/a&gt;, Revised and Updated Edition (2011) by Stanislas Dehaene&lt;/li&gt; &lt;li&gt;Please visit &lt;a href=&quot;http://brainsciencepodcast.com/&quot;&gt;http://brainsciencepodcast.com&lt;/a&gt; for additional references and episode transcripts.&lt;/li&gt; &lt;/ul&gt; &lt;p style=&quot;text-align: center;&quot;&gt;Please Visit Our Sponsors:&lt;/p&gt; &lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://textexpander.com/podcast?utm_source=brainscience&amp;amp;utm_medium=podcast&amp;amp;utm_campaign=textexpander-Mar-2020&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;TextExpander&quot;&gt;TextExpander at http://textexpander.com/podcast&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot;text-align: left;&quot;&gt; Announcements:&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;ul&gt; &lt;li&gt;In April 2020 &lt;em&gt;Brain Science&lt;/em&gt; returns to a monthly schedule: it return to the 4th Friday of every month.&lt;/li&gt; &lt;li&gt;The expanded 2nd Edition of &lt;em&gt;Are You Sure? The Unconscious Origins of Certainty&lt;/em&gt; will be published in late April or early May. See newsletter below for updates.&lt;/li&gt; &lt;li&gt;Sign up for the &lt;a href=&quot;http://brainsciencepodcast.com/newsletter-&quot;&gt;free &lt;em&gt;Brain Science&lt;/em&gt; Newsletter&lt;/a&gt; to get show notes automatically every month.&lt;/li&gt; &lt;li&gt;To win an Amazon gift certificate: post a review of &lt;em&gt;Brain Science&lt;/em&gt; in iTunes and send me a screenshot.&lt;/li&gt; &lt;li&gt;Learn how you can support &lt;em&gt;Brain Science&lt;/em&gt; at &lt;a href=&quot;http://brainsciencepodcast.com/donations&quot;&gt;http://brainsciencepodcast.com/donations&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Check out the &lt;a href=&quot;http://brainsciencepodcast.com/iphone-apps/&quot;&gt;free &lt;em&gt;Brain Science&lt;/em&gt; Mobile app&lt;/a&gt; for iOS, Android, and Windows. (It's a great way to get both new episodes and premium content.)&lt;/li&gt; &lt;li&gt;Send email to brainsciencepodcast@gmail.com or post voice feedback at &lt;a href=&quot;http://speakpipe.com/docartemis&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; Connect on Social Media:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Twitter: &lt;a href=&quot;http://twitter.com/docartemis&quot;&gt;@docartemis&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Facebook page: &lt;a href=&quot;http://www.facebook.com/brainsciencepodcast&quot;&gt;http://www.facebook.com/brainsciencepodcast&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Contact Dr. Campbell:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Email: brainsciencepodcast@gmail.com&lt;/li&gt; &lt;li&gt;Voicemail: &lt;a href=&quot;http://speakpipe.com/docartemis&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Speakpipe&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;</description>
+	<pubDate>Fri, 27 Mar 2020 09:00:00 +0000</pubDate>
+        <enclosure url="http://traffic.libsyn.com/brainsciencepodcast/BS_Ep170_Nieder.mp3?dest-id=12241" length="71285554" type="audio/mpeg"/>
+  <source url="http://brainsciencepodcast.libsyn.com/rss">Brain Science with Ginger Campbell, MD: Neuroscience for Everyone</source>
+</item>
+<item>
+	<title>Elsevier Connect: Gender equity: Where will we be in 10 years’ time?</title>
+	<guid isPermaLink="true">https://www.elsevier.com/connect/gender-equity-where-will-we-be-in-10-years-time</guid>
+	<link>https://www.elsevier.com/connect/gender-equity-where-will-we-be-in-10-years-time</link>
+	<description>3 women researchers share their thoughts on where progress will take us</description>
+	<pubDate>Fri, 27 Mar 2020 08:51:41 +0000</pubDate>
+  <source url="https://www.elsevier.com/connect/feed">Elsevier Connect</source>
+</item>
+<item>
 	<title>For Better Science: Chloroquine genius Didier Raoult to save the world from COVID-19</title>
 	<guid isPermaLink="false">http://forbetterscience.com/?p=47188</guid>
 	<link>https://forbetterscience.com/2020/03/26/chloroquine-genius-didier-raoult-to-save-the-world-from-covid-19/</link>
@@ -20,7 +442,7 @@
 	<title>BMC Series blog: Solidarity in Social Distancing: Flattening the Curve</title>
 	<guid isPermaLink="false">http://blogs.biomedcentral.com/bmcseriesblog/?p=11794</guid>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2020/03/26/solidarity-in-social-distancing-flattening-the-curve/</link>
-	<description>&lt;p&gt;Closure of schools and offices has wreaked havoc on families. The cancellation of airline flights, public events, social functions, and the disruption of our economy has been exasperating. We have been thrown into an era dominated by uncertainty, anxiety, and fear.&lt;/p&gt;
+	<description>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/03/Figure-1_Flattening-the-Curve-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;Closure of schools and offices has wreaked havoc on families. The cancellation of airline flights, public events, social functions, and the disruption of our economy has been exasperating. We have been thrown into an era dominated by uncertainty, anxiety, and fear.&lt;/p&gt;
 &lt;p&gt;Are these measures truly necessary to mitigate the current COVID-19 pandemic? The answer is yes. With the lack of a preventive vaccine or definitive treatment for COVID-19, the only way to stop spread is by social distancing and “flattening the curve”. This previously unfamiliar expression is now part of the vernacular. Flattening the curve refers to reducing the number of cases to allow doctors, hospitals and government officials to function at their best without being overwhelmed. It is important to recognize that hospitals have only a finite number of rooms, ventilators and healthcare personnel.&lt;/p&gt;
 &lt;p&gt;The info-graphic below demonstrates why slowing the spread of the infection is nearly as important as stopping it. While shaped differently, the 2 bell-shaped curves below represent the same number of infected patients. The y-axis or peak of the bell indicates the daily number of cases and the x-axis indicates the time since the first case. The dotted line across the center represents the point at which too many cases in a short period of time will overwhelm the healthcare system.&lt;/p&gt;
 &lt;p&gt;A large number of people becoming severely ill with COVID-19 over a short period of time as shown in the tall, narrow curve, could result in a shortage of hospital beds, equipment or doctors. On the other hand, as shown in the flatter, longer curve, if the same number of patients presented to the hospital at a slower rate, the likelihood of the hospital to have adequate supplies, beds and health care providers would be higher (Figure 1).&lt;/p&gt;
@@ -34,7 +456,7 @@
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/03/26/solidarity-in-social-distancing-flattening-the-curve/&quot; rel=&quot;nofollow&quot;&gt;Solidarity in Social Distancing: Flattening the Curve&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</description>
 	<pubDate>Thu, 26 Mar 2020 16:13:31 +0000</pubDate>
-        <enclosure url="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/03/Figure-1_Flattening-the-Curve.jpg" length="" type="image/jpeg"/>
+        <enclosure url="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/03/Figure-1_Flattening-the-Curve-125x125.jpg" length="" type="image/jpeg"/>
   <source url="http://blogs.biomedcentral.com/bmcseriesblog/feed/">BMC Series blog</source>
 </item>
 <item>
@@ -3906,183 +4328,6 @@ acknowledgement: JM Tepper for original music.</description>
 	<link>http://www.crl.edu/news/crl-and-east-view-release-second-open-access-collection</link>
 	<pubDate>Tue, 14 Jan 2020 20:52:00 +0000</pubDate>
   <source url="http://tagteam.harvard.edu/hubs/oatp/tag/rss/oa.news">Items tagged with oa.news in Open Access Tracking Project (OATP)</source>
-</item>
-<item>
-	<title>OUPblog - Psychology and Neuroscience: The problem of consciousness</title>
-	<guid isPermaLink="false">https://blog.oup.com/?p=143268</guid>
-	<link>https://feeds.feedblitz.com/~/615834256/0/oupblogpsychology/</link>
-	<description>&lt;p&gt;Many people find consciousness deeply puzzling. It is often described as one of the few remaining problems for science to address that is genuinely deep—perhaps even unsolvable.&lt;/p&gt;&lt;p&gt;Indeed, consciousness is thought to present a challenge to the prevailing scientific image of the universe as physical through-and-through. In part this puzzlement arises because people are (at least tacitly, on an unconscious level) innate dualists—they consider there to be a division between the mental and physical, the mind and body—resulting from a deep disconnect between the core principles of our intuitive, common-sense, or so-called “folk” psychology and the structure of our intuitive (pre-scientific) physics.&lt;/p&gt;&lt;p&gt;This is why people the world over have always been open to belief in ghosts and spirits, as well as the possibility of an afterlife. It is hard for them to see how the mind could be comprised of arrangements and interactions of physical matter. But this problem—the problem of how mental states in general can be physical—has arguably been solved by cognitive science through some combination of functionalism and the representational theory of mind. That is, the mind is comprised of physical states that perform distinctive functional roles—such as motivating actions in the case of desires, or guiding them in the case of beliefs—while carrying information about (and representing) objects and properties in the world outside of the thinker.&lt;/p&gt;&lt;p&gt;Even cognitive scientists continue to find &lt;em&gt;consciousness&lt;/em&gt; mysterious, however. But this is not the consciousness of being awake versus asleep, nor the sort of consciousness involved in being conscious of (that is, perceiving) some event in one’s environment. Neither of these is mysterious from the standpoint of cognitive science. What is thought to be puzzling is so-called &lt;em&gt;phenomenal &lt;/em&gt;consciousness—the introspectively accessible felt properties of our experiences. The nature of this puzzlement is best captured through—and arguably depends on—philosophers’ thought experiments. (My view is that cognitive scientists wouldn’t take these thought experiments seriously were it not for their own tacit dualism about the mind; and non-scientists find the consciousness-debate so fascinating because it confirms their tacit dualism about the mind.) For it seems that I can imagine a creature for whom perceiving the greenness of grass feels introspectively to it in just the same way that seeing the redness of a rose feels to me. Indeed, it seems that I can imagine a creature exactly like myself in all respects (physical, functional, and representational) except that it lacks &lt;em&gt;this&lt;/em&gt; (the way my current experience of red feels to me). Many think, in consequence, that phenomenal consciousness involves special properties—often called “qualia”—that aren’t explicable in physical terms.&lt;/p&gt;&lt;p&gt;In fact, however, there are no special properties. There are no qualia. The temptation to think otherwise derives from the special way in which we can think introspectively about our own perceptual states, deploying concepts such as &lt;em&gt;this&lt;/em&gt; (feel of my experience of red). The “problem” of consciousness merely arises out of the contrast between first- and third-person modes of thinking about our own states. For it is one-and-the-same state, with one-and-the-same set of physical and functional properties, that can be thought of now as &lt;em&gt;a perception of red&lt;/em&gt; and now as &lt;em&gt;this feel&lt;/em&gt;. The latter is just a different way of thinking of the very same state as the former.&lt;/p&gt;&lt;p&gt;Given that there is no extra property that enters the world with phenomenal consciousness, it follows that the question of consciousness in non-human animals is of no scientific importance. There are many important questions that arise when comparing the minds of ourselves and other animals. We can ask about capacities for long-term planning in animals, for example, and we can ask to what extent their working-memory capacities resemble our own. But the question of qualia isn’t among those questions. For there are no qualia. There are just perceptual states that are available to be thought about (in humans) using a distinctive set of first-person concepts like &lt;em&gt;this feel&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Some will say that although the question of animal consciousness might not matter for science, it surely matters for ethics. And indeed, as the continuities between human and animal minds have been increasingly recognized, so people have come to feel that it is urgent to identify the set of creatures that are capable of consciousness. This may be because consciousness is a prerequisite for &lt;em&gt;empathy&lt;/em&gt;. One can’t enter imaginatively into the experience of another creature unless those experiences, like one’s own, are &lt;em&gt;like something&lt;/em&gt; to undergo, it is thought. But empathy arguably is not, and shouldn’t be, foundational to ethical thinking. And the emotion of &lt;em&gt;sympathy&lt;/em&gt;, in contrast, can be grounded in a third-person understanding of the desires and sufferings of the creature in question. Perhaps this may be all that is necessary for questions about the ethical treatment of animals to arise.&lt;/p&gt;&lt;p&gt;Photo by &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://unsplash.com/@anthonyintraversato?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Anthony Intraversato&lt;/a&gt; on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://unsplash.com/?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2020/01/the-problem-of-consciousness/&quot;&gt;The problem of consciousness&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/615834256/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/615834256/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/615834256/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/03/yesterdays-fake-news-donald-trump-as-a-1980s-literary-critic/&quot; rel=&quot;nofollow&quot;&gt;Yesterday’s fake news: Donald Trump as a 1980s literary critic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/03/why-its-so-hard-to-write-a-william-wordsworth-biography/&quot; rel=&quot;nofollow&quot;&gt;Why it’s so hard to write a William Wordsworth biography&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/03/seven-classics-for-comfort-reading-reading-list/&quot; rel=&quot;nofollow&quot;&gt;Seven classics for comfort reading [reading list]&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</description>
-	<pubDate>Tue, 14 Jan 2020 10:30:35 +0000</pubDate>
-  <source url="http://blog.oup.com/category/science_medicine/psychology/feed/">OUPblog » Psychology</source>
-</item>
-<item>
-	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: BS 165: Magic as a Tool for Understanding the Brain</title>
-	<guid isPermaLink="false">http://brainsciencepodcast.libsyn.com/1ac3832d-7952-49c9-bcf6-0899dc492293</guid>
-	<link>http://brainsciencepodcast.libsyn.com/165-macknik-replay</link>
-	<description>&lt;p&gt;This episode is an encore presentation of an interview with neuroscientists Stephen L. Macknik and Susana Martinez-Conde. We talk about their international bestseller &lt;a href=&quot;https://amzn.to/2sX8Wy8&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;&quot;Sleights of Mind: What the Neuroscience of Magic Reveals about Our Everyday Deceptions.&quot;&lt;/em&gt;&lt;/a&gt; Macknik and Martinez-Conde are neuroscientists who study vision, but several years ago they had the innovative idea of collaborating with magicians to explore how their use of both visual and cognitive illusions reveals secrets about how our brains work.&lt;/p&gt; &lt;p&gt;This may sound esoteric, but it has practical consequences, especially for making sound decisions in our complex world.&lt;/p&gt; &lt;p&gt;I will be back in 2 weeks with a new interview with Stephen Macknik.&lt;/p&gt; &lt;p&gt;Links and References:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://amzn.to/2sX8Wy8&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Sleights of Mind: What the Neuroscience of Magic Reveals about Our Everyday Deceptions&lt;/em&gt;&lt;/a&gt; by Stephen Macknik and Susana Martinez-Conde&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://www.downstate.edu/ophthalmology/faculty/macknik.html&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Stephen Macknik&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://www.downstate.edu/ophthalmology/faculty/martinez-conde.html&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Susana Martinez-Conde&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p style=&quot;text-align: center;&quot;&gt;Please Visit Our Sponsors:&lt;/p&gt; &lt;p style=&quot;text-align: center;&quot;&gt;BetterHelp at &lt;a href=&quot;http://betterhelp.com/ginger&quot;&gt;http://betterhelp.com/ginger&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://textexpander.com/podcast?utm_source=brainscience&amp;amp;utm_medium=podcast&amp;amp;utm_campaign=textexpander-Dec-2019&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;TextExpander at TextExpander.com/podcast&lt;/a&gt;  Announcements:&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://brainsciencepodcast.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Brain Science&lt;/a&gt;&lt;/em&gt; will be coming out twice a month in 2020 on the second and 4th Friday.&lt;/li&gt; &lt;li&gt;Send email to brainsciencepodcast@gmail.com or post voice feedback at &lt;a href=&quot;http://speakpipe.com/docartemis&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;.&lt;/li&gt; &lt;li&gt;To win an Amazon gift certificate: post a review of &lt;em&gt;Brain Science&lt;/em&gt; in iTunes and send me a screenshot.&lt;/li&gt; &lt;li&gt;Learn you can support &lt;em&gt;Brain Science&lt;/em&gt; at &lt;a href=&quot;http://brainsciencepodcast.com/donations&quot;&gt;http://brainsciencepodcast.com/donations&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Learn about Dr. Campbell's new coaching efforts at &lt;a href=&quot;http://brainsciencepodcast.com/coaching&quot;&gt;http://brainsciencepodcast.com/coaching&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Sign up for the &lt;a href=&quot;http://brainsciencepodcast.com/newsletter-&quot;&gt;free &lt;em&gt;Brain Science&lt;/em&gt; Newsletter&lt;/a&gt; to get show notes automatically every month.&lt;/li&gt; &lt;li&gt;Check out the &lt;a href=&quot;http://brainsciencepodcast.com/iphone-apps/&quot;&gt;free &lt;em&gt;Brain Science&lt;/em&gt; Mobile app&lt;/a&gt; for iOS, Android, and Windows.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Connect on Social Media:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Twitter: &lt;a href=&quot;http://twitter.com/docartemis&quot;&gt;@docartemis&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Facebook page: &lt;a href=&quot;http://www.facebook.com/brainsciencepodcast&quot;&gt;http://www.facebook.com/brainsciencepodcast&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Contact Dr. Campbell:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Email: brainsciencepodcast@gmail.com&lt;/li&gt; &lt;li&gt;Voicemail: http://speakpipe.com/docartemis&lt;/li&gt; &lt;/ul&gt;</description>
-	<pubDate>Fri, 10 Jan 2020 10:00:00 +0000</pubDate>
-        <enclosure url="http://traffic.libsyn.com/brainsciencepodcast/BS_Ep165_Macknik.mp3?dest-id=12241" length="38528397" type="audio/mpeg"/>
-  <source url="http://brainsciencepodcast.libsyn.com/rss">Brain Science with Ginger Campbell, MD: Neuroscience for Everyone</source>
-</item>
-<item>
-	<title>xcorr.net: The eyes of scallops</title>
-	<guid isPermaLink="false">http://xcorr.net/?p=7219</guid>
-	<link>https://xcorr.net/2020/01/07/the-eyes-of-scallops/</link>
-	<description>&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large is-resized&quot;&gt;&lt;img alt=&quot;https://upload.wikimedia.org/wikipedia/commons/0/09/Argopecten_irradians.jpg&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/09/Argopecten_irradians.jpg&quot; /&gt;&lt;em&gt;A scallop. Each of the blue dots lining the shell is an eye. Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/Scallop#/media/File:Argopecten_irradians.jpg&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Scallops are a family of bivalves. These modest saltwater clams often end up on seafood dinner plates, but did you know that scallops have dozens of image-forming eyes? They focus light onto a multi-layered retina through a telescope-like parabolic mirror. Their super-sensitive visual system, which contains multiple types of opsins typical of both invertebrates and vertebrates, allows them to detect predators from afar and swim away to safety. No wonder they have survived and thrived for hundreds of millions of years! Follow me in this journey through one of the most interesting visual systems in the animal kingdom.&lt;/p&gt;
-
-
-
-&lt;h2&gt;The eyes&lt;/h2&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/23/Scallop_eyes2.jpg&quot; /&gt;&lt;em&gt;Macro photo of a scallop’s eyes. Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/Scallop#/media/File:Scallop_eyes2.jpg&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Scallops have up to 200 individual eyes about 1 mm across arranged along the edge of their mantle. When scallops grow, new eyes sprout in locations where there are fewer eyes. These eyes can regenerate within about 40 days when damaged, recapitulating their initial growth.&lt;/p&gt;
-
-
-
-&lt;p&gt;The eyes have an unusual optical path compared to most vertebrates and invertebrates, using reflection as the primary focusing mechanism. The light goes through a cornea and a lens, as in humans, but is then reflected by a mirror-like layer in the back of the eye. &lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7237&quot; data-attachment-id=&quot;7237&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image-2&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-2.png?w=358&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-2.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-2.png&quot; data-orig-size=&quot;358,348&quot; data-permalink=&quot;https://xcorr.net/image-2-2/&quot; height=&quot;223&quot; src=&quot;https://xcorr.files.wordpress.com/2020/01/image-2.png?w=358&quot; width=&quot;229&quot; /&gt;&lt;em&gt;Schematic light path in the scallop eye. &lt;a href=&quot;https://science.sciencemag.org/content/313/5795/1914&quot;&gt;From Fernald et al. (2006)&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Guanine crystals carefully aligned in the back of the eye act as a photonic material, reflecting light maximally around 500 nm wavelength. This layer of crystals is curved like a parabolic mirror, focusing light primarily on a double-layered retina located about three quarters of the way into the eye.&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://science.sciencemag.org/content/sci/358/6367/1172/F2.large.jpg?width=800&amp;amp;height=600&amp;amp;carousel=1&quot; /&gt;&lt;em&gt;Guanine crystals form a set of reflective square tiles in the back of the eyes. From &lt;a href=&quot;https://science.sciencemag.org/content/358/6367/1172&quot;&gt;Palmer et al. (2017).&lt;/a&gt;&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;This is functionally similar to a telescope with a parabolic mirror, with a few twists. One twist is that the lens and the mirror are slightly tilted with respect to one another, which means that the image is in focus at different distances depending on the position within the retina, giving the eye multiple focal lengths. A second twist is that scallop eyes have pupils that can contract by up to 50%, decreasing their sensitivity but increasing their spatial resolution. Overall, these eyes give scallop eyes a spatial resolution of roughly 2 degrees, enviable compared to, say, the common mouse. &lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large is-resized&quot;&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/31063719&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7233&quot; data-attachment-id=&quot;7233&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/01/image.png?w=262&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/01/image.png?w=101&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/01/image.png&quot; data-orig-size=&quot;262,780&quot; data-permalink=&quot;https://xcorr.net/image-2/&quot; height=&quot;387&quot; src=&quot;https://xcorr.files.wordpress.com/2020/01/image.png?w=262&quot; width=&quot;130&quot; /&gt;&lt;/a&gt;&lt;em&gt;A scallop pupil slowly contracting. From &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/31063719&quot;&gt;Miller et al. (2019).&lt;/a&gt;&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;h2&gt;The retinas and the evolution of vision&lt;/h2&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7246&quot; data-attachment-id=&quot;7246&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image-5&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-5.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-5.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-5.png&quot; data-orig-size=&quot;2520,990&quot; data-permalink=&quot;https://xcorr.net/image-5/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/01/image-5.png?w=1024&quot; /&gt;&lt;em&gt;Section of a scallop eye (left) with the different subsections (right). &lt;a href=&quot;https://jeb.biologists.org/content/214/3/422&quot;&gt;From Speiser et al. (2011)&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Scallop eyes have two retinas, the proximal and the distal retina, at different distances from the mirror at the back of the eye. These retinas have led to one of the most fundamental rethinking of the evolution of opsins (light-sensing proteins) and vision. The textbook story used to go that: &lt;/p&gt;
-
-
-
-&lt;ul&gt;&lt;li&gt;vertebrates have c-opsins, their photoreceptors are shaped like cilia, and they hyperpolarize when they receive light (they are OFF-cells). &lt;a href=&quot;https://www.nature.com/articles/334348a0&quot;&gt;The sensitivity of these photoreceptors is limited by thermal noise, or dark current&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;inverteberates have r-opsins, their photoreceptors are shaped like rhabdomeres, and they depolarize when they receive light (they are ON-cells). &lt;a href=&quot;https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1982.sp014398&quot;&gt;These photoreceptors have extremely high gain and act as single photon detectors&lt;/a&gt;; however, they consume more energy than vertebrate receptors.&lt;/li&gt;&lt;/ul&gt;
-
-
-
-&lt;p&gt;From this observation it was easy to conclude that eyes evolved independently in vertebrates and invertebrates. An early crack in this tidy story of vertebrate vs. invertebrate eyes was the discovery of two different layers in the scallop retina. The proximal retina shows ON-responses (depolarizes) while the distal retina has OFF-responses (hyperpolarizes in response to light). It’s like there’s two different evolutionary pathways (vertebrate and invertebrate) in the same eye! &lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7235&quot; data-attachment-id=&quot;7235&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image-1&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-1.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-1.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-1.png&quot; data-orig-size=&quot;1832,896&quot; data-permalink=&quot;https://xcorr.net/image-1/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/01/image-1.png?w=1024&quot; /&gt;&lt;em&gt;Prototypical vertebrate and invertebrate signal transduction pathways. &lt;a href=&quot;https://science.sciencemag.org/content/313/5795/1914&quot;&gt;From Fernald et al. (2007)&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Functionally, the two types of layers seem to have highly complementary roles. The images on the distal retina are in much better focus than the ones in the proximal retina, with linear resolution better by a factor 10. They form the basis for shape vision in scallops. On the other hand, the proximal retina with its invertebrate-like ON-cells is much more sensitive to light, by a factor of 100X. It could underlie vision at night or in very turbulent water.&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7239&quot; data-attachment-id=&quot;7239&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image-3&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-3.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-3.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-3.png&quot; data-orig-size=&quot;1610,700&quot; data-permalink=&quot;https://xcorr.net/image-3/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/01/image-3.png?w=1024&quot; /&gt;&lt;em&gt;Depolarizing and hyperpolarizing photoreceptor responses in the same animal. &lt;a href=&quot;https://www.elsevier.com/books/scallops-biology-ecology-and-aquaculture/shumway/978-0-444-50482-1&quot;&gt;From Wilkens, Chapter 5 in Shumway and Parsons (Eds.), 2006&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;In the early 2000’s, the evidence vertebrates and invertebrates use both types of opsins started accumulating. In fact, we now know many examples of r-opsins in vertebrates and c-opsins in invertebrates. The most famous example, perhaps, is melanopsin, the r-opsin in intrinsically photosensitive retinal ganglion cells (ipRGCs), which regulate sleep and other circadian rhythms in mammals. We now think that r- and c-opsins evolved in the common ancestor of vertebrates, molluscs, arthropods and many other invertebrate families: the urbilateria. This is the posited great ancestor of multicellular animals with bilateral symmetry, the first example of which unambigously appeared in the fossil record 555 million years ago. &lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image&quot;&gt;&lt;img alt=&quot;Figure 2&quot; src=&quot;https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41559-017-0120/MediaObjects/41559_2017_Article_BFs415590170120_Fig2_HTML.jpg&quot; /&gt;&lt;em&gt;Alignment of genomes of different species and presumed ancestral linkage groups. Scallop (top left) has best alignment. &lt;a href=&quot;https://www.nature.com/articles/s41559-017-0120&quot;&gt;From Wang et al. (2017).&lt;/a&gt;&lt;/em&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;What did urbilateria look like? Recent evidence shows that urbilateria may have looked like… modern scallops! A recent genetic analysis in Wang et al. (&lt;a href=&quot;https://www.nature.com/articles/s41559-017-0120&quot;&gt;2017&lt;/a&gt;) revealed a striking correspondence between scallop genome and reconstructed ancestral linkage groups. This suggests that ancient bilaterians have a similar karyotype to modern scallops. The opsins carried in all vertebrates and many bilaterally symmetric invertebrates must have existed all the way back in our common ancestor, which, like modern day scallops, would have contained both c- and r-opsins. It is tempting to say that the urbilateria might well have looked like modern day scallops. This is by no means a settled debate, however – many alternative body plans have been proposed for urbilateria.&lt;/p&gt;
-
-
-
-&lt;h2&gt;Visual behaviour&lt;/h2&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter&quot;&gt;&lt;img alt=&quot;ocean running GIF&quot; src=&quot;https://media2.giphy.com/media/resZn3KENQLsc/giphy.gif?cid=790b7611571efa22bc2cfd1b2d57781cd58a8de42d32e010&amp;amp;rid=giphy.gif&quot; /&gt;&lt;em&gt;Scallop running on the sea floor. &lt;a href=&quot;https://giphy.com/gifs/running-ocean-gif-resZn3KENQLsc/media&quot;&gt;GIPHY&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Scallops have been preserved without much change for hundreds of millions of years – and indeed they are very well adapted to their environment. Unlike other kinds of bivalves – like mussels, which tend to stick in one spot – scallops move quite a bit. They have three basic moves:&lt;/p&gt;
-
-
-
-&lt;ul&gt;&lt;li&gt;Swim forward. They siphon water into their shells and expulse it in near the hinge, in short bursts. They look delightful doing so. See the gif above.&lt;/li&gt;&lt;li&gt;Swim backward (the jump or burst response). They close their shells very fast, which causes them to expulse water and move backwards in short bursts. This can lift a lot of dust as well, helping them escape. You can see this in action in the video below at the 25 second mark.&lt;/li&gt;&lt;li&gt;Righting reflex. They do a complicated spinning maneuver so that the larger valve ends up at the bottom of the ocean floor.&lt;/li&gt;&lt;/ul&gt;
-
-
-
-&lt;figure class=&quot;wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
-
-&lt;/div&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;They can both swim and jump in response to a decrease in light. This decrease in light is often caused by a predator – often a starfish or snail – coming a little too close for the comfort of the scallop. They will also close their shells in response to a decrease in light to block intruders, presenting their tough exterior to the predator.&lt;/p&gt;
-
-
-
-&lt;p&gt;Scallops open and close their valves in response to their visual environment, influenced by &lt;a href=&quot;https://jeb.biologists.org/content/211/13/2066&quot;&gt;the size of floating particles (turbidity) and their speed&lt;/a&gt;. They can also orient to light. Some species of scallops prefer to swim towards the light, while others avoid it. &lt;/p&gt;
-
-
-
-&lt;p&gt;Interestingly, these behaviours persist with only one eye! Although scallops have many known visual behaviours, it’s still a mystery why their eyes are so numerous, and why they have such high resolution. Larger number of eyes can offer the scallop a larger field of view, but it’s unlikely that there’s any increase in field of view beyond 2-3 eyes given that each eye has a rather large field of view. &lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7244&quot; data-attachment-id=&quot;7244&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image-4&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-4.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-4.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/01/image-4.png&quot; data-orig-size=&quot;1634,1478&quot; data-permalink=&quot;https://xcorr.net/image-4/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/01/image-4.png?w=1024&quot; /&gt;&lt;em&gt;Movement of scallops. Panels A, B: swimming; C: jump, D: upright reflex. Arrows labeled D: direction of movement, W: direction of water. &lt;a href=&quot;https://www.elsevier.com/books/scallops-biology-ecology-and-aquaculture/shumway/978-0-444-50482-1&quot;&gt;From Wilkens, Chapter 5 in Shumway and Parsons (Eds.), 2006&lt;/a&gt;.&lt;/em&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;It’s been speculated that some species of scallops migrate, and that they could use their eyes for visual guidance. Another theory is the multiocular overlap and high resolution give the scallop depth perception, which would be useful to avoid predators. A big impediment moving this research forward is that it has proven very difficult to record in the lateral lobes of the parieto-visceral ganglia of scallops, the site of visual processing (scallops have no brain). &lt;/p&gt;
-
-
-
-&lt;h2&gt;Conclusion&lt;/h2&gt;
-
-
-
-&lt;p&gt;Scallops have an amazing array of image-forming eyes that are highly sensitive to light. Their unusual retina has brought us insight into the evolution of modern day vertebrates, arthropods and mollusks. They support complex behaviours of which we probably know only a small fraction. As better recording tools become available, we will start to be able to study vision in this ancient and underappreciated animal. The biggest mystery in my book is why scallops have so many eyes. Perhaps once we understand their environment, behaviours and visual processing better, we will be able to untangle this mystery.&lt;/p&gt;</description>
-	<pubDate>Tue, 07 Jan 2020 15:01:27 +0000</pubDate>
-  <source url="https://xcorr.net/feed/">xcorr: comp neuro</source>
-</item>
-<item>
-	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: 165 Free Episode Transcript</title>
-	<guid isPermaLink="false">http://brainsciencepodcast.libsyn.com/09b9a114-213e-4420-9dce-5d3b009a974d</guid>
-	<link>http://brainsciencepodcast.libsyn.com/165-free-episode-transcript</link>
-	<description>&lt;p&gt;I am including the transcript of this episode for free because it is an encore presentation of an interview that originally aired as BSP 72. It features Stephen Macknik and Susana Martinez-Conde, authors of &lt;a href=&quot;https://amzn.to/2sX8Wy8&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Sleights of Mind: What the Neuroscience of Magic Reveals about Our Everyday Deceptions&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Mon, 06 Jan 2020 20:15:54 +0000</pubDate>
-        <enclosure url="http://traffic.libsyn.com/brainsciencepodcast/165-brainscience-magic.pdf?dest-id=12241" length="226371" type="application/pdf"/>
-  <source url="http://brainsciencepodcast.libsyn.com/rss">Brain Science with Ginger Campbell, MD: Neuroscience for Everyone</source>
-</item>
-<item>
-	<title>Brain Science with Ginger Campbell, MD: Neuroscience for Everyone: Brain Science 2020 (Trailer)</title>
-	<guid isPermaLink="false">http://brainsciencepodcast.libsyn.com/48e8bf2a-d9be-4f3e-85b4-da607051205d</guid>
-	<link>http://brainsciencepodcast.libsyn.com/brain-science-2020</link>
-	<description>&lt;p&gt;&lt;a href=&quot;http://brainsciencepodcast.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Brain Science&lt;/em&gt;&lt;/a&gt; is entering its 14th year and for the first time since 2008 I will be producing two episodes a month. They will come out  on the 2nd and 4th Friday every month.&lt;/p&gt; &lt;p&gt;This trailer provides a brief introduction to new listeners and a few announcements. The next full episode will be released on January 10, 2020.&lt;/p&gt;</description>
-	<pubDate>Fri, 03 Jan 2020 10:00:00 +0000</pubDate>
-        <enclosure url="http://traffic.libsyn.com/brainsciencepodcast/BS_Trailer_2020.mp3?dest-id=12241" length="5615838" type="audio/mpeg"/>
-  <source url="http://brainsciencepodcast.libsyn.com/rss">Brain Science with Ginger Campbell, MD: Neuroscience for Everyone</source>
 </item>
 
 </channel>
