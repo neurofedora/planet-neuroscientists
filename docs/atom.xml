@@ -5,8 +5,440 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2020-04-02T08:19:54+00:00</updated>
+	<updated>2020-04-02T18:00:53+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en">Scraping webpages with developer tools and Selenium</title>
+		<link href="https://xcorr.net/2020/04/02/scraping-webpages-with-developer-tools-and-selenium/"/>
+		<id>http://xcorr.net/?p=7473</id>
+		<updated>2020-04-02T16:41:42+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;There’s a lot of interesting statistics you can do by scraping websites, whether it’s reading tables from Wikipedia, grabbing and aggregating climate change tables from government websites, or quantifying the exponential growth of covid-19 articles on Medium. Many of these pages will have easy-to-use methods to download the data in a develop-friendly format, for example CSV or JSON. For others, you’ll have to rely on scraping web pages, an ancient, dark art. In this article, I’ll introduce you to some of the tools of the trade to do so in Python.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Identifying targets with developer tools&lt;/h2&gt;
+
+
+
+&lt;p&gt;Both Chrome and Firefox have developer tools (Shortcut: Ctrl+Shift+I). These tools allow you:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;Visualize the HTML, JavaScript, and CSS behind a webpage&lt;/li&gt;&lt;li&gt;See the traffic between your browser and the internet, include late http requests triggered by JavaScript&lt;/li&gt;&lt;li&gt;Execute custom JavaScript that can read and modify the DOM of a webpage&lt;/li&gt;&lt;li&gt;Identify where a particular UI element is created in the page’s HTML&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;These can help you identify which part of a page you need to scrape. Let’s say, for instance, that we want to find out how the top article of a major news website changes as a function of time during a time of crisis (as of now, covid-19). Perhaps we’ll want to retroactively run an analysis of the sentiment behind the headline, the focus (health, business, etc.), the frequency of updates, or of how these headers co-vary with numbers released by different governments.&lt;/p&gt;
+
+
+
+&lt;p&gt;Here I’ll use the New York Times as the example webpage. What we’d like is to grab, every half-hour, the title of the biggest headline. With developer tools, I can easily use the Picker tool (Ctrl+Shift+C) to highlight the biggest headline on the page.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7487&quot; data-attachment-id=&quot;7487&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;scraping&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/04/scraping.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/04/scraping.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/04/scraping.png&quot; data-orig-size=&quot;3070,1752&quot; data-permalink=&quot;https://xcorr.net/scraping/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/04/scraping.png?w=1024&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Here I find that the biggest headline is a &lt;code&gt;span&lt;/code&gt; with a class name of &lt;code&gt;balancedHeadline&lt;/code&gt;. Let’s look at how we can grab this information with Selenium.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Selenium: remote control browsers&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;https://www.selenium.dev/&quot;&gt;The method I’ll showcase here uses Selenium&lt;/a&gt;: we use a headless browser (that is, an instance of Firefox or Chrome that’s running “invisibly”) that navigates to the website we care about. Once on the webpage, we can inject javascript, simulate clicks or manipulate the DOM to get to the information we need. This is a rather heavyweight solution compared to, say, using &lt;code&gt;&lt;a href=&quot;https://docs.python.org/3/library/urllib.html&quot;&gt;urllib&lt;/a&gt;&lt;/code&gt; to grab the data and parsing it with &lt;code&gt;&lt;a href=&quot;https://pypi.org/project/beautifulsoup4/&quot;&gt;BeautifulSoup&lt;/a&gt;&lt;/code&gt;. However, the big advantage we get is that the headless browser actually runs the javascript on the page and loads all the extra assets – it’s literally like a person navigating to the website. Sometimes, it can be the only solution, especially if the information we need:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;is dynamically loaded&lt;/li&gt;&lt;li&gt;is hidden behind authentication layers&lt;/li&gt;&lt;li&gt;requires emulating clicks and interacting with JavaScript&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;In Python, we can easily install Selenium with:`&lt;/p&gt;
+
+
+
+&lt;pre class=&quot;wp-block-preformatted&quot;&gt;pip install selenium&lt;/pre&gt;
+
+
+
+&lt;p&gt;Then we’ll need to install a WebDriver – this will allow your favorite web browser to be manipulated via Python. Here I installed the Firefox webdriver on the Ubuntu platform. &lt;a href=&quot;https://selenium-python.readthedocs.io/installation.html&quot;&gt;I followed the instructions here on the Selenium website,&lt;/a&gt; &lt;a href=&quot;https://github.com/mozilla/geckodriver/releases&quot;&gt;downloading the gecko webdriver&lt;/a&gt; and extracting the binary to &lt;code&gt;/usr/bin&lt;/code&gt;. You can check that you’ve done the installation by running a tiny bit of Python:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: python; title: ; notranslate&quot;&gt;from selenium import webdriver
+
+driver = webdriver.Firefox()
+driver.get('https://nytimes.com/')
+
+&lt;/pre&gt;
+
+
+&lt;p&gt;Running this code opens up Firefox and navigates to the website. Notice the unusual appearance of the browser: the url bar is a different color than usual, and there’s a robot icon next to the address.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large is-style-default&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7477&quot; data-attachment-id=&quot;7477&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;nytimes-robot&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png&quot; data-orig-size=&quot;2176,192&quot; data-permalink=&quot;https://xcorr.net/nytimes-robot/&quot; src=&quot;https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png?w=723&quot; /&gt;A remote-controlled version of Firefox&lt;/figure&gt;
+
+
+
+&lt;p&gt;We can grab the information in at least a couple of ways: &lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;We could inject some Javascript into the page and use   &lt;code&gt;document.querySelectorAll(&quot;span.balancedHeadline&quot;)&lt;/code&gt; to grab the headline&lt;/li&gt;&lt;li&gt;We could read the DOM to find the right span&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;Let’s use the second method:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: python; title: ; notranslate&quot;&gt;from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Firefox()
+driver.get('https://nytimes.com/')
+element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, &quot;balancedHeadline&quot;))
+)
+print(element.text)
+driver.quit()
+&lt;/pre&gt;
+
+
+&lt;h2&gt;Running headless and automating&lt;/h2&gt;
+
+
+
+&lt;p&gt;Although the explicit window is useful for debugging, if you want to run this script every half-hour, you’ll want to run this in a headless browser. A headless browser doesn’t display a window, so it won’t pop up over your other windowsand capture your inputs. In addition, we’ll want to save the data to disk, which we can easily accomplish like so:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
+
+options = Options()
+options.headless = True
+
+driver = webdriver.Firefox(options=options)
+driver.get('https://nytimes.com/')
+element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, &quot;balancedHeadline&quot;))
+)
+with open('/home/pmin/Documents/headless-browser/top_news.txt', 'a') as f:
+    f.write('&quot;' + str(datetime.datetime.now()) + '&quot;,&quot;' + element.text + '&quot;\n')
+driver.quit()
+&lt;/pre&gt;
+
+
+&lt;h3&gt;Cron job&lt;/h3&gt;
+
+
+
+&lt;p&gt;All that’s left now is to set up a cron job to run this script every 15 minutes. First, we’ll need a shell file. We could run python directly, but I installed selenium inside of a special conda environment called &lt;code&gt;headless-browser&lt;/code&gt;, so my shell file activates this environment before, like so:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot;&gt;#!/bin/bash
+source /home/pmin/miniconda3/etc/profile.d/conda.sh &amp;amp;&amp;amp; \
+conda activate headless-browser &amp;amp;&amp;amp; \
+python /home/pmin/Documents/headless-browser/grab_headline.py
+&lt;/pre&gt;
+
+
+&lt;p&gt;I saved this file as &lt;code&gt;/home/pmin/Documents/headless-browser/grab_headline.sh&lt;/code&gt;. Running  &lt;code&gt;crontab -e&lt;/code&gt;, I added an entry that looks like this:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;# m h  dom mon dow   command
+*/15 * * * * /home/pmin/Documents/headless-browser/grab_headline.sh 2&amp;gt;&amp;amp;1 /var/log/grab-headline.log
+&lt;/pre&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;You can use this website&lt;/a&gt; to figure out what incantations to give to cron for different schedules. I also captured any output or error into an error log. If you don’t want to have to leave your computer on all the time to do this, &lt;a href=&quot;https://cloud.google.com/scheduler/docs/creating&quot;&gt;you can run cron jobs inside of a cloud service&lt;/a&gt; instead.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Authentication&lt;/h2&gt;
+
+
+
+&lt;p&gt;A final tweak we’ll need to deal with is authenticating. Sometimes the website we’re trying to scrape requires us to be logged in. It’s possible for the headless browser to use the same cookies and credentials as the regular browser you use. To do so, you need to locate the name of the default profile in Firefox. Locate a directory that finished with &lt;code&gt;.default&lt;/code&gt; with:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;ls ~/.mozilla/firefox/
+&lt;/pre&gt;
+
+
+&lt;p&gt;In my case, I found a directory called &lt;code&gt;lasd74g9.default&lt;/code&gt;. Putting everything together, here’s my final script:&lt;/p&gt;
+
+
+&lt;pre class=&quot;brush: python; title: ; notranslate&quot;&gt;import datetime
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
+
+options = Options()
+options.headless = True
+
+profile = profile = webdriver.FirefoxProfile(profile_directory='/home/pmin/.mozilla/firefox/lasd74g9.default')
+driver = webdriver.Firefox(firefox_profile=profile, options=options)
+driver.get('https://nytimes.com/')
+element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, &quot;balancedHeadline&quot;))
+)
+with open('/home/pmin/Documents/headless-browser/grim_news.txt', 'a') as f:
+    f.write('&quot;' + str(datetime.datetime.now()) + '&quot;,&quot;' + element.text + '&quot;\n')
+driver.quit()
+
+&lt;/pre&gt;
+
+
+&lt;p&gt;&lt;/p&gt;</content>
+		<author>
+			<name>xcorr</name>
+			<uri>https://xcorr.net</uri>
+		</author>
+		<source>
+			<title type="html">xcorr: comp neuro</title>
+			<subtitle type="html">computational neuroscience, machine learning</subtitle>
+			<link rel="self" href="https://xcorr.net/feed/"/>
+			<id>https://xcorr.net</id>
+			<updated>2020-04-02T18:00:43+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Psychopathic Prisoners With Higher Levels Of Emotional Impairment Make Less Eye Contact</title>
+		<link href="https://digest.bps.org.uk/2020/04/02/psychopathic-prisoners-with-higher-levels-of-emotional-impairment-make-less-eye-contact/"/>
+		<id>http://digest.bps.org.uk/?p=39418</id>
+		<updated>2020-04-02T13:44:33+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;&lt;i&gt;By&lt;/i&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Imagine going to sit in a room with a violent, imprisoned psychopath and having a chat about what you both like to eat. (It’s impossible not to think of liver, fava beans and Chianti, isn’t it….?)&lt;/p&gt;
+&lt;p&gt;This is exactly what one researcher did recently in Germany. But the purpose of &lt;a href=&quot;https://psycnet.apa.org/record/2020-17706-001&quot;&gt;the study&lt;/a&gt;, reported in &lt;em&gt;Personality Disorders: Theory, Research, and Treatment&lt;/em&gt; wasn’t to gather data on criminal psychopaths’ dining preferences, but rather on how they make — or don’t make — eye contact during a conversation.&lt;/p&gt;
+&lt;p&gt;This was the first study to explore psychopaths’ eye movements in a naturalistic setting. And it reveals that prisoners who scored highly on one aspect of psychopathy, in particular, were much less likely to look at the interviewer’s eyes. This finding not only helps with understanding how psychopathy develops, but also suggests that finding ways to encourage at-risk children to make more eye contact might be a useful intervention, argue Nina Gehrer at the University of Tübingen and her colleagues.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-39418&quot;&gt;&lt;/span&gt;The team studied 30 men who had been convicted of serious crimes (including murder, rape and hostage-taking) and who were incarcerated in two institutions in Germany.&lt;/p&gt;
+&lt;p&gt;One researcher led all the interactions, which were divided into talking and listening stages. For one minute, the participant listened while the researcher talked about one of three neutral topics (eating habits/food, job/work or typical daily routine). Then, after a brief exchange on the topic, the second stage began: the participant talked for about a minute on the same topic. This was then repeated for the other two topics.&lt;/p&gt;
+&lt;p&gt;Throughout both stages, the experimenter maintained eye contact (this was later verified by two independent raters). And at all times, the prisoner wore an eye-tracking headset. This allowed the team to monitor where they were looking while they were listening and talking.&lt;/p&gt;
+&lt;p&gt;For the purposes of the study, the team divided the face into two sections: the eyes and the philtrum (the nose and mouth region). They then examined whether time spent looking at the eyes or philtrum correlated with the participants’ scores on the PCL-R, a standard psychopathy assessment.&lt;/p&gt;
+&lt;p&gt;Psychopathy is generally thought to have four facets, or components: manipulating other people, affective impairments (deficits in feeling emotion and empathy and in showing remorse or guilt), having an erratic lifestyle and demonstrating antisocial behaviour. Each of these is measured within the PCL-R. And the team found that during both listening and talking, prisoners with higher affective psychopathy scores made less eye contact. “These results are in line with previous research suggesting impaired attention to social cues in psychopathy,” the researchers write.&lt;/p&gt;
+&lt;p&gt;Current theories about how psychopathy develops assume that a failure to view important social cues (from the eyes, especially) is a key factor. For children who go on to be diagnosed with psychopathy, there’s evidence that emotion-related impairments emerge early, in the form of callous unemotional traits. There’s some evidence that young children who pay less attention to other people’s eyes are more likely to develop these traits, the researchers note. Now that this link has been found for adult, criminal psychopaths, this suggests that eye contact, or rather a lack of it, could be important for understanding the development of the disorder.&lt;/p&gt;
+&lt;p&gt;There are some limitations to the study, however. The number of participants was quite small, and all were men. The researchers themselves call for a replication before any firm conclusions can be drawn. It will also be important to investigate whether it’s possible to fix this particular deficit in eye contact, and, if so, whether that reduces the risk of developing emotion-related problems.&lt;/p&gt;
+&lt;p&gt;“To date, evidence for lasting changes in eye gaze through social attention bias modification training is still elusive,” they note. “Thus, these promising approaches and further opportunities that target impaired eye contact need to be further investigated and enhanced.”&lt;/p&gt;
+&lt;p&gt;– &lt;a href=&quot;https://psycnet.apa.org/record/2020-17706-001?CheckAccess=1&quot;&gt;Eye contact during live social interaction in incarcerated psychopathic offenders.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</content>
+		<author>
+			<name>BPS Research Digest</name>
+			<uri>https://digest.bps.org.uk</uri>
+		</author>
+		<source>
+			<title type="html">Research Digest</title>
+			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
+			<id>https://digest.bps.org.uk</id>
+			<updated>2020-04-02T18:00:42+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">How large a gathering is too large during the coronavirus pandemic?</title>
+		<link href="https://www.sciencenews.org/article/coronavirus-covid19-social-gathering-size-math-pandemic"/>
+		<id>https://www.sciencenews.org/?p=3086577</id>
+		<updated>2020-04-02T10:00:00+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;A question has perplexed
+public officials trying to curb the COVID-19 pandemic: How large of a group of
+people is too large? &lt;/p&gt;
+
+
+
+&lt;p&gt;As the spread of the
+coronavirus has gathered speed, U.S. officials urged limits on large
+gatherings, constantly scrambling to reduce the definition of “large.” First, meetings
+of more than 1,000 were discouraged, then 250, 100, 50 and 10. As &lt;a href=&quot;https://www.kff.org/health-costs/issue-brief/state-data-and-policy-actions-to-address-coronavirus/#socialdistancing&quot;&gt;many states institute orders to stay at home&lt;/a&gt;, &lt;em&gt;all&lt;/em&gt;
+nonessential gatherings are being banned. &lt;/p&gt;
+
+
+
+&lt;p&gt;But no scientific rationale has
+been cited for any particular number. Getting the right answer is crucial. Too
+large and you don’t control the epidemic. Too small, and people’s lives and
+livelihoods may be upended, for insufficient social benefit.&lt;/p&gt;
+
+
+
+&lt;p&gt;“I am not aware of any
+quantitative modeling informing those decisions,” says Lydia Bourouiba, a
+physicist and epidemiologist at MIT. “They weren’t based on events.”&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Now, a new study is providing
+one roadmap for coming up with an answer. There is no gathering size that can
+eliminate all risk. But there is a threshold between curbing the epidemic and
+having it spread like wildfire, and that number is most likely not zero, the
+researchers conclude. The finding could have implications not only for slowing
+the pandemic, but also for figuring out &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-when-will-coronavirus-pandemic-social-distancing-end&quot;&gt;how to eventually return to normal life&lt;/a&gt; without causing a new surge in cases (&lt;em&gt;SN: 3/24/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;In the study, posted online
+March 12 at arXiv.org, five epidemic modelers showed &lt;a href=&quot;https://arxiv.org/abs/2003.05924&quot;&gt;mathematically
+how an epidemic can be controlled&lt;/a&gt; without
+banning all get-togethers. Their model includes a version of the “friendship
+paradox,” which says that your friends in a social network on average have more
+friends than you. When an epidemic strikes such a network, large gatherings are
+especially bad because they attract people who have more contacts than average
+— and hence are more likely to already be infected.&lt;/p&gt;
+
+
+
+&lt;p&gt;It’s possible to determine
+the dividing line between an effective and an ineffective intervention, the
+team found. In one hypothetical epidemic, if you banned gatherings larger than
+30, the epidemic would rage on. But if you banned groups larger than 20, it
+would eventually die out. The threshold of effectiveness, for this particular social
+network model (one in which the friendship paradox was fairly strong), was 23.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;“I’m confident that there is
+a threshold,” says Laurent Hébert-Dufresne, a computer scientist at the University
+of Vermont in Burlington who developed the model. “I don’t have confidence in
+the exact number 23.” The threshold for COVID-19 is still unknown, and, he
+adds, “the cutoff could be very population specific.” &lt;/p&gt;
+
+
+
+&lt;p&gt;What’s significant, Bourouiba
+says, is the idea of computing the size of the safe group, not the actual
+number in this hypothetical case. A maximum gathering size of “23 leading to a
+collapse of the epidemic has to be taken with a grain of salt,” she says. “But
+the concept is important, because sheltering at home is not going to be
+sustainable forever.”&lt;/p&gt;
+
+
+
+&lt;p&gt;So far, public officials have
+been reducing maximum allowed group size without any precise formula. “The
+declining number of recommended people is a way of signaling that we are
+getting more and more serious about the need to be socially distanced,” says
+Marc Lipsitch, an epidemiologist at the Harvard T.H. Chan School of Public
+Health in Boston. “I’m not sure that there is a particular number that is
+magical.”&lt;/p&gt;
+
+
+
+&lt;p&gt;In part, the recommendations
+are based on the idea that the risk of a large gathering increases as the
+square of the gathering size. That is, a gathering that is 10 times larger will
+offer 100 times more “transmission opportunities,” says Lipsitch. &lt;/p&gt;
+
+
+
+&lt;p&gt;But according to Hébert-Dufresne,
+this rough calculation actually underestimates the danger of large meetings,
+because of the friendship paradox. It also doesn’t take into account the
+dynamics of the epidemic, which is precisely what creates the threshold between
+large and small gatherings.&lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
+&lt;h4&gt;
+&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the 2019 novel coronavirus outbreak&lt;/a&gt;
+&lt;/h4&gt;
+&lt;/aside&gt;
+
+
+
+&lt;p&gt;The model in the new study,
+which hasn’t yet been peer-reviewed, represents gatherings as highly connected cliques,
+in which all people present are exposed to all the others. Hébert-Dufresne, who
+worked with colleagues from Université Laval in Quebec, compares an epidemic in
+such a network to a bonfire. You need two things to build a fire: kindling,
+which gets the first flame started, and larger branches, which transmit the
+fire from place to place. In Hébert-Dufresne’s model, small gatherings form the
+kindling, and large gatherings are the branches. To keep the fire from
+spreading, you don’t need to remove the kindling — only
+the branches. &lt;/p&gt;
+
+
+
+&lt;p&gt;Telling the difference between
+kindling and branches is where the mathematical model comes in. The dividing
+line between small groups and large groups depends on three factors: the disease
+transmission rate, the distribution of clique sizes, and the distribution of
+clique membership (how many cliques do highly social people belong to?).&lt;/p&gt;
+
+
+
+&lt;p&gt;Right now, the last two numbers
+are completely unknown, Hébert-Dufresne says. But with enough data on social
+networks, it might be possible to figure them out.&lt;/p&gt;
+
+
+
+&lt;p&gt;“The people with vast network
+knowledge are Google, Amazon, Apple, Twitter,” says Simon DeDeo, a professor of
+decision science at Carnegie-Mellon University in Pittsburgh. “If I were the
+government right now, I would fly out to Silicon Valley and get this data.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Lauren Ancel Meyers, an
+epidemiologist at the University of Texas at Austin, agrees: “I’ve written a
+plea for sharing of geolocation and social media data,” she says. “We really
+need a better understanding of how people move and come into contact with each
+other in schools, workplaces and their everyday lives.”&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Hébert-Dufresne’s network is
+far from being the last word. It ignores many other kinds of heterogeneity,
+such as the age structure of the population (which is especially important for
+COVID-19, as the &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-questions-covid19-symptoms-deaths-spread#mostrisk&quot;&gt;elderly are the most vulnerable&lt;/a&gt; (&lt;em&gt;SN:
+3/4/20&lt;/em&gt;)) and differences between cliques. “A school is different from a
+factory,” says Bourouiba. &lt;/p&gt;
+
+
+
+&lt;p&gt;Many other network models do
+take into account these variables. Lipsitch, Meyers and others all work with
+models that include a great deal more detail, going down to the level of
+contacts between individuals. “You can incorporate an incredible amount of
+detail,” Meyers says, “but then it takes many simulations to extract general
+results.” And that can take a lot of time.&lt;/p&gt;
+
+
+
+&lt;p&gt;The one developed by Hébert-Dufresne and his colleagues is comparatively simple, but unique in treating gathering size itself as a source of diversity. “Some people are doing more complex models, but just in terms of getting at the idea of a cutoff, it’s a powerful idea,” says Hébert-Dufresne.&lt;/p&gt;</content>
+		<author>
+			<name>Dana Mackenzie</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2020-04-02T18:00:42+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-GB">What impact do tobacco-style health warning labels have when applied to alcohol and food products, and how acceptable might they be?</title>
@@ -43,6 +475,39 @@
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
 			<updated>2020-04-02T08:19:40+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Cyberspecies Proximiy</title>
+		<link href="http://biocomputation.herts.ac.uk/2020/04/01/cyberspecies-proximiy.html"/>
+		<id>tag:biocomputation.herts.ac.uk,2020-04-01:/2020/04/01/cyberspecies-proximiy.html</id>
+		<updated>2020-04-01T21:36:53+00:00</updated>
+		<content type="html">
+ &lt;p&gt;This week on Journal Club session Anna Dumituru and Alex May will talk about their project named &quot;Cyberspecies Proximity&quot;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Cyberspecies Proximity explores what it will mean to share our sidewalks, elevators and transport systems in close proximity with mobile intelligent robots. The work challenges audiences to confront the technological, ethical, and societal questions raised by the advent of urban socially-aware robots.&lt;/p&gt;
+&lt;p&gt;The robotic artwork combines the way-finding technologies of delivery and maintenance robots with an ability to communicate non-verbally, and to manipulate our emotions through body-language. The robot is able to move around an exhibition space using a predefined map created using SLAM technology. It reacts and responds to the body language of audience members through a multi-layered face, skeleton and movement tracking algorithm.&lt;/p&gt;
+&lt;p&gt;The small and fragile humanoid form is dressed in the clothes of a worker, its frail and insignificant body reminds us of the social groups that will be most affected by future automation. The robot’s head and hands are made from 3D printed grey PLA and it intentionally avoids categorisations of race and gender. The project forces us to consider issues of ownership of public spaces as well as the broader ethical implications of how we design robots and behave towards them.&lt;/p&gt;
+&lt;p&gt;Cyberspecies Proximity is a project by Anna Dumitriu and Alex May, created in collaboration with the Human Robot Co-Mobility Project of the New Technologies Team at Schindler. The project was supported by a Vertigo STARTS Residency, and the artwork was programmed in C++ and FUGIO, the Open Source Visual Programming System created by Alex May.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;NOTICE!&lt;/p&gt;
+&lt;p&gt;Due to current unusual circumstances, this Journal Club will be held online as a conference on 8COM0108-0000-2019 module. In order to attend, you must be a member of that module. The conference room will be created on Friday and all of the module members will be notified about that with an email. Once the conference is created and started, module members will be able to join it by visiting the module website on Canvas, and then selecting &quot;Conferences&quot; section. Any queries should be directed to Emil Dmitruk via email (&lt;a class=&quot;reference external&quot; href=&quot;mailto:e.dmitruk@herts.ac.uk&quot;&gt;e.dmitruk@herts.ac.uk&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 03/04/2020 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: Online conference on 8COM0108-0000-2019 module- more details will be announced on Biocomputation Slack group.&lt;/p&gt;</content>
+		<author>
+			<name>Emil Dmitruk</name>
+			<uri>http://biocomputation.herts.ac.uk/</uri>
+		</author>
+		<source>
+			<title type="html">UH Biocomputation Group</title>
+			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
+			<id>http://biocomputation.herts.ac.uk/</id>
+			<updated>2020-04-01T21:36:53+00:00</updated>
 		</source>
 	</entry>
 
@@ -172,7 +637,7 @@ keep it.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -194,12 +659,7 @@ horrific as those numbers are, it could be a lot worse. &lt;/p&gt;
 
 
 
-&lt;p&gt;In the
-first global assessment of the impact of the coronavirus, researchers at
-Imperial College London estimate that if governments weren’t taking any
-actions, the coronavirus would infect an estimated 7 billion people in 2020,
-nearly 90 percent of people on Earth. Roughly 40 million would die and no
-health-care system anywhere would be able to keep up. &lt;/p&gt;
+&lt;p&gt;In the first global assessment of the impact of the coronavirus, researchers at Imperial College London estimate that if governments weren’t taking any actions, the &lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-12-global-impact-covid-19/&quot;&gt;coronavirus would infect an estimated 7 billion people in 2020&lt;/a&gt;, nearly 90 percent of people on Earth. Roughly 40 million would die and no health care system anywhere would be able to keep up. &lt;/p&gt;
 
 
 
@@ -398,7 +858,7 @@ societal disruption.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -534,7 +994,7 @@ Gomez-Robles to withhold judgment on the brains of Lucy’s kind.&lt;/p&gt;</con
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -549,12 +1009,7 @@ superconductor’s wave.&lt;/p&gt;
 
 
 
-&lt;p&gt;The first direct evidence of a phase of
-matter known as a pair-density wave helps reveal the physics that underlies mysterious
-high-temperature superconductors, which conduct electricity without resistance
-at surprisingly high temperatures. The &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2143-x&quot;&gt;wave was detected using a scanning tunneling electron
-microscope&lt;/a&gt;, researchers report April
-1 in &lt;em&gt;Nature.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The first direct evidence of a phase of matter known as a pair-density wave helps reveal the physics that underlies mysterious high-temperature superconductors, which conduct electricity without resistance at surprisingly high temperatures. The &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2143-x&quot;&gt;wave was detected using a scanning tunneling microscope&lt;/a&gt;, researchers report April 1 in &lt;em&gt;Nature.&lt;/em&gt;&lt;/p&gt;
 
 
 
@@ -648,7 +1103,7 @@ how these materials behave as they warm up.&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -731,7 +1186,7 @@ can’t easily be compared to one another, she contends.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -762,7 +1217,7 @@ can’t easily be compared to one another, she contends.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -803,7 +1258,7 @@ can’t easily be compared to one another, she contends.&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-02T08:19:39+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -859,7 +1314,7 @@ can’t easily be compared to one another, she contends.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -884,7 +1339,7 @@ can’t easily be compared to one another, she contends.&lt;/p&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -1002,7 +1457,7 @@ positive results&lt;/a&gt;, as of March 25. &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1094,7 +1549,7 @@ positive results&lt;/a&gt;, as of March 25. &lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1220,7 +1675,7 @@ understand the evolution of galaxies and the evolution of black holes.”&lt;/p&
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1383,7 +1838,7 @@ sushi.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1465,7 +1920,7 @@ sushi.”&lt;/p&gt;</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1606,7 +2061,7 @@ has been turned upside down.” &lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1774,7 +2229,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1980,7 +2435,7 @@ instance, that &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/31241496&quo
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -2001,7 +2456,7 @@ instance, that &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/31241496&quo
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-02T08:19:39+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -2217,7 +2672,7 @@ outside the lab.  &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -2573,7 +3028,7 @@ outside the lab.  &lt;/p&gt;
 			<subtitle type="html">computational neuroscience, machine learning</subtitle>
 			<link rel="self" href="https://xcorr.net/feed/"/>
 			<id>https://xcorr.net</id>
-			<updated>2020-03-30T07:00:40+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -2751,7 +3206,7 @@ placed in. “Why not?” Livingston says. “It makes sense.” &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -2915,7 +3370,7 @@ habitable.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3075,7 +3530,7 @@ transmitting the virus to people, which had been suggested.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3215,7 +3670,7 @@ instance, shell beads, a demanding ornament to make, have mainly been found at &
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3275,7 +3730,7 @@ it’s not dark matter.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3295,7 +3750,7 @@ it’s not dark matter.”&lt;/p&gt;</content>
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -3391,7 +3846,7 @@ agility while on the hunt. &lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3439,7 +3894,7 @@ agility while on the hunt. &lt;/p&gt;</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3733,7 +4188,7 @@ hypothesis,” he says.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3753,93 +4208,6 @@ hypothesis,” he says.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Squid edit their genetic material in a uniquely weird place</title>
-		<link href="https://www.sciencenews.org/article/squid-edit-their-genetic-material-uniquely-weird-place"/>
-		<id>https://www.sciencenews.org/?p=3086352</id>
-		<updated>2020-03-25T18:20:19+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;Squid can edit their
-genetic information in a place scientists didn’t expect.&lt;/p&gt;
-
-
-
-&lt;p&gt;Longfin inshore squid (&lt;em&gt;Doryteuthis pealeii&lt;/em&gt;) are the first known
-animals that can tweak strings of RNA outside of a nerve cell’s nucleus. These
-genetic couriers, called messenger RNA, or mRNA, carry a cell’s blueprints for
-building proteins. &lt;/p&gt;
-
-
-
-&lt;p&gt;All creatures make edits
-to RNA —
-including other types besides mRNA — and do so sparingly, based on limited
-studies in mammals and fruit flies.
-Those changes typically take place inside the nucleus and are then exported to
-the rest of the cell. &lt;/p&gt;
-
-
-
-&lt;p&gt;The &lt;a href=&quot;https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa172/5809668&quot;&gt;squids’ ability to make genetic edits in
-cytoplasm&lt;/a&gt;, the jellylike
-material that makes up much of a cell, may let the animals make adjustments to
-mRNAs on the fly. That skill could help squids produce proteins tailored to meet a cell’s
-needs and hone crucial cell processes, researchers
-report March 23 in &lt;em&gt;Nucleic Acids Research&lt;/em&gt;. &lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Knowing how the squids make the edits in nerve cells could help
-researchers hijack the technique to develop therapeutics for health conditions
-such as chronic pain by genetically editing cells that create inappropriate
-pain signals, says Joshua Rosenthal, a biologist at the Marine Biological
-Laboratory in Woods Hole, Mass. The method would be much like the DNA-editing
-technique CRISPR, but for RNA.&lt;/p&gt;
-
-
-
-&lt;p&gt;In the new study, Rosenthal and colleagues first looked at where an
-mRNA-editing protein is found in squid nerve cells, or neurons. The team discovered
-that the protein, called ADAR2, is located in both the jellylike cytoplasm and the
-nucleus of squid neurons, a hint that the protein could edit mRNAs in both
-areas. &lt;/p&gt;
-
-
-
-&lt;p&gt;The team then extracted cytoplasm from squid axons — the slender
-stalk of a neuron — “kind of like you’re squeezing toothpaste out of the tube,”
-Rosenthal says. ADAR2 extensively edited an mRNA within the cytoplasm siphoned
-from the axons, which help send electrical impulses along nerve cells, the
-researchers found.&lt;/p&gt;
-
-
-
-&lt;p&gt;Developing an RNA-editing technique similar to CRISPR could come
-with key advantages.  While
-CRISPR-generated &lt;a href=&quot;https://www.sciencenews.org/article/new-crispr-gene-editors-can-fix-rna-and-dna-one-typo-time&quot;&gt;edits in DNA are permanent&lt;/a&gt;, RNA is transient,
-and edited genetic information would disappear when the RNA is broken down in
-the cell (&lt;em&gt;SN: 10/25/17&lt;/em&gt;). &lt;/p&gt;
-
-
-
-&lt;p&gt;“There are a lot of advantages for trying to manipulate genetic
-information in RNA,” Rosenthal says. “If you make a mistake, it’s not nearly so
-dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</content>
-		<author>
-			<name>Erin Garcia de Jesus</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
 			<updated>2020-04-02T07:00:32+00:00</updated>
 		</source>
 	</entry>
@@ -3875,7 +4243,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -3953,7 +4321,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -4003,7 +4371,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -4053,7 +4421,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -4191,7 +4559,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -4257,7 +4625,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -4277,7 +4645,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -4312,7 +4680,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-04-01T18:00:45+00:00</updated>
+			<updated>2020-04-02T18:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -4378,7 +4746,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -4539,7 +4907,7 @@ dangerous. If you make mistakes in DNA, you’re stuck with it.” &lt;/p&gt;</c
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -4881,7 +5249,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-02T08:19:40+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4902,7 +5270,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -5065,7 +5433,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -5168,7 +5536,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -5200,7 +5568,7 @@ PLOS Computational Biology 15(10): e1007472&lt;/li&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2020-03-11T17:34:06+00:00</updated>
+			<updated>2020-04-01T21:36:53+00:00</updated>
 		</source>
 	</entry>
 
@@ -5370,7 +5738,7 @@ PLOS Computational Biology 15(10): e1007472&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -5517,7 +5885,7 @@ We see it as our duty to allow anyone, not just our subscribers, to stay up to d
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -5768,7 +6136,7 @@ ans =
 			<subtitle type="html">computational neuroscience, machine learning</subtitle>
 			<link rel="self" href="https://xcorr.net/feed/"/>
 			<id>https://xcorr.net</id>
-			<updated>2020-03-30T07:00:40+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -5788,7 +6156,7 @@ ans =
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -6048,7 +6416,7 @@ sns.set()  # From now on matplotlib will use the seaborn theme.
 			<subtitle type="html">computational neuroscience, machine learning</subtitle>
 			<link rel="self" href="https://xcorr.net/feed/"/>
 			<id>https://xcorr.net</id>
-			<updated>2020-03-30T07:00:40+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -6069,7 +6437,7 @@ sns.set()  # From now on matplotlib will use the seaborn theme.
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-02T08:19:40+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6152,7 +6520,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -6222,7 +6590,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-02T08:19:39+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6260,7 +6628,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -6280,7 +6648,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-02T07:00:32+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -6323,7 +6691,7 @@ Front. Comput. Neurosci. 11:48. doi: 10.3389/fncom.2017.00048&lt;/li&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2020-03-11T17:34:06+00:00</updated>
+			<updated>2020-04-01T21:36:53+00:00</updated>
 		</source>
 	</entry>
 
@@ -6469,7 +6837,7 @@ Front. Comput. Neurosci. 11:48. doi: 10.3389/fncom.2017.00048&lt;/li&gt;
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 
@@ -6687,7 +7055,7 @@ print(c)
 			<subtitle type="html">computational neuroscience, machine learning</subtitle>
 			<link rel="self" href="https://xcorr.net/feed/"/>
 			<id>https://xcorr.net</id>
-			<updated>2020-03-30T07:00:40+00:00</updated>
+			<updated>2020-04-02T18:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -6852,7 +7220,7 @@ print(c)
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-02T08:19:40+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6902,198 +7270,7 @@ print(c)
 			<subtitle type="html">Diverse Perspectives on Science and Medicine</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://blogs.plos.org/plos</id>
-			<updated>2020-04-02T07:00:31+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Autaptic Connections Shift Network Excitability and Bursting</title>
-		<link href="http://biocomputation.herts.ac.uk/2020/02/19/autaptic-connections-shift-network-excitability-and-bursting.html"/>
-		<id>tag:biocomputation.herts.ac.uk,2020-02-19:/2020/02/19/autaptic-connections-shift-network-excitability-and-bursting.html</id>
-		<updated>2020-02-19T15:26:55+00:00</updated>
-		<content type="html">
- &lt;p&gt;This week on Journal Club session Yaqoob Muhammad will talk about the paper &quot;Autaptic Connections Shift Network Excitability and Bursting&quot;.&lt;/p&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;We examine the role of structural autapses, when a neuron synapses onto itself, in driving network-
-wide bursting behavior. Using a simple spiking model of neuronal activity, we study how autaptic
-connections affect activity patterns, and evaluate if controllability significantly affects changes in
-bursting from autaptic connections. Adding more autaptic connections to excitatory neurons increased
-the number of spiking events and the number of network-wide bursts. We observed excitatory synapses
-contributed more to bursting behavior than inhibitory synapses. We evaluated if neurons with high
-average controllability, predicted to push the network into easily achievable states, affected bursting
-behavior differently than neurons with high modal controllability, thought to influence the network
-into difficult to reach states. Results show autaptic connections to excitatory neurons with high average
-controllability led to higher burst frequencies than adding the same number of self-looping connections
-to neurons with high modal controllability. The number of autapses required to induce bursting was
-lowered by adding autapses to high degree excitatory neurons. These results suggest a role of autaptic
-connections in controlling network-wide bursts in diverse cortical and subcortical regions of mammalian
-brain. Moreover, they open up new avenues for the study of dynamic neurophysiological correlates of
-structural controllability.&lt;/p&gt;
-&lt;p&gt;Papers:&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;Wiles, L. et al. (2017) &lt;a class=&quot;reference external&quot; href=&quot;https://www.nature.com/articles/srep44006#Sec23&quot;&gt;&quot;Autaptic Connections Shift Network Excitability and Bursting&quot;&lt;/a&gt; ,
-Sci. Rep. 7, 44006; doi: 10.1038/srep44006&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;line-block&quot;&gt;
-&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 21/02/2020 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: B200&lt;/p&gt;</content>
-		<author>
-			<name>Emil Dmitruk</name>
-			<uri>http://biocomputation.herts.ac.uk/</uri>
-		</author>
-		<source>
-			<title type="html">UH Biocomputation Group</title>
-			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
-			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2020-03-11T17:34:06+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">CEA declares Anne Peyroche’s data fakery scientifically correct</title>
-		<link href="https://forbetterscience.com/2020/02/19/cea-declares-anne-peyroches-data-fakery-scientifically-correct/"/>
-		<id>http://forbetterscience.com/?p=46512</id>
-		<updated>2020-02-19T11:42:32+00:00</updated>
-		<content type="html">
- Former CNRS president Anne Peyroche has been symbolically sanctioned for research misconduct. Despite previous fraud findings, conclusions are not affected, and so is her employment by the Atomic Energy Commission. I present two more falsified figures.</content>
-		<author>
-			<name>Leonid Schneider</name>
-			<uri>https://forbetterscience.com</uri>
-		</author>
-		<source>
-			<title type="html">For Better Science</title>
-			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
-			<link rel="self" href="https://forbetterscience.com/feed/"/>
-			<id>https://forbetterscience.com</id>
-			<updated>2020-03-24T19:00:41+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Three facts about teenage brains all neuroscientists agree on.</title>
-		<link href="http://yourbrainhealth.com.au/three-facts-about-teenage-brain/"/>
-		<id>http://yourbrainhealth.com.au/?p=5928</id>
-		<updated>2020-02-19T06:39:55+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;div class=&quot;page&quot; title=&quot;Page 126&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 119&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;h2&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-5929&quot; height=&quot;453&quot; src=&quot;http://yourbrainhealth.com.au/wp/wp-content/uploads/2019/05/Screen-Shot-2019-05-17-at-4.34.07-pm-300x160.png&quot; width=&quot;850&quot; /&gt;&lt;/h2&gt;
-&lt;h2&gt;The three facts about the teenage brain scholars can agree on&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;1. Brain structures continue to change between childhood and adulthood.&lt;/em&gt; Grey matter volume peaks at puberty then declines throughout adolescence and into the twenties. White matter volume increases throughout childhood, adolescence and into adulthood.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;2. Girls’ brains mature slightly faster than boys’.&lt;/em&gt; But boys catch up. This sex difference in brain development is in sync with physical development where, on average, girls enter puberty a year or two before boys, who then quickly catch up.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;3. Different brain regions mature at different rates.&lt;/em&gt; Development of the limbic system, which drives emotions, speeds up at puberty, but the PFC, which is involved in thinking and judgement, doesn’t mature until our twenties. This causes a ‘developmental mismatch’ between emotion and reward processing, and thinking and judgement. The mismatch determines aspects of teenage behaviour such as being overly emotional, impulsive and hypersensitive to social situations.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 120&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;h2&gt;Grey matter thins as connections are refined&lt;/h2&gt;
-&lt;p&gt;The prefrontal cortex, as its name suggests, sits at the front of the brain and is sometimes called the brain’s CEO because it acts as an experienced decision-maker. The PFC is involved direction attention, judgement calls, emotion regulation, strategy, impulse control, working memory and social cognition – navigating complex social relationships such as discerning friend from ‘frenemy’ from foe.&lt;/p&gt;
-&lt;p&gt;During childhood, the grey matter of the PFC thickens as neurons make new connections or synapses. Much like a tree growing extra branches, twigs and roots.&lt;/p&gt;
-&lt;p&gt;However, during the teens, PFC &lt;em&gt;thinning&lt;/em&gt; occurs. Loss or ‘thinning’ of grey matter always sounds unhealthy, but as is often the case with the brain, less is more. Grey matter loss is vitally important and is due to pruning away of unwanted ‘twigs and branches’, which partly depends on experience in a ‘use it or lose it’ manner. Connections that are being used are strengthened and those that aren’t being used are pruned away.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 121&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;h2&gt;More white matter enables faster communication&lt;/h2&gt;
-&lt;p&gt;MRI scans have revealed ever-increasing volumes of white matter in the tracts leading to and from the PFC during adolescence. Recall that axons are insulated by myelin, which speeds up signalling between brain regions. Myelinated axons transmit impulses up to 100 times faster than unmyelinated axons, and faster transmission means faster mental processing.&lt;/p&gt;
-&lt;p&gt;Jay Giedd, a neuroscientist at the University of California, San Diego, has found that increased white matter means the connections between brain regions become stronger and more numerous. The brain matures by becoming more interconnected and more specialised.&lt;/p&gt;
-&lt;p&gt;To use Giedd’s metaphor, brain maturation is not so much a matter of adding new letters to the alphabet but one of combining existing letters into words, words into sentences and sentences into paragraphs.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;‘These changes ultimately help the brain to specialise in everything from complex thinking to being socially adept.’&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2&gt;Subcortical brain areas shrink and grow&lt;/h2&gt;
-&lt;p&gt;Changes to white and grey matter structure are not restricted to the PFC. Subcortical brain structures start to mature right around puberty, and development is more or less complete by the mid-teenage years.&lt;/p&gt;
-&lt;p&gt;Subcortical brain regions are those deep inside the brain under (‘sub’) the cortex in the frontal and temporal lobes. They include the limbic system (hippocampus and amygdala), and the corpus striatum, which is made up of four parts: nucleus accumbens, caudate, putamen and globus pallidus. They’re connected to the PFC and to each other by bundles of axons.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 122&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;p&gt;In girls, the amygdala and hippocampus get bigger during puberty. At the same time, the four structures making up the corpus striatum all shrink. Maturation of subcortical structures is fastest in late childhood and early adolescence but the rate of growth or shrinkage slows right down after age sixteen.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2&gt;Teenage girls can be very emotional (no kidding!).&lt;/h2&gt;
-&lt;p&gt;But not all teenage girls experience ‘storm and stress’. When I was seventeen, my levels of anxiety during final-year high-school exams were so out of control I ended up at the family GP being treated for panic attacks. But the vast majority of my teen years were joyful, empowering and a whole lot of fun.&lt;/p&gt;
-&lt;p&gt;Sarah Whittle is an associate professor of psychiatry at the University of Melbourne, where she specialises in adolescent brain development and resilience. Whittle explained to me that the emotional lives of teenage girls differ from adults because of the ‘developmental mismatch’ between their &lt;em&gt;‘rational PFC’&lt;/em&gt; and &lt;em&gt;‘emotional limbic brain’&lt;/em&gt;.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;It’s still only a theory, but the evidence is stacking up that hyperactivity of the limbic system is responsible for heightened emotional reactivity in adolescents. As the PFC matures, its ability to regulate the activity in subcortical structures improves.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 127&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;h2&gt;Learning to regulate emotions is a vital skill to learn in adolescence&lt;/h2&gt;
-&lt;p&gt;Being able to calmly assess and keep emotions in check is a crucial life skill. Emotional regulation lets us navigate changing social landscapes and foster mental wellbeing. One of the most effective ways to regulate your emotions is a technique called cognitive reappraisal. Cognitive reappraisal changes the way you interpret a situation, which in turn calms your hot-headed response.&lt;/p&gt;
-&lt;p&gt;Imagine you’re fourteen and walking up to the front door of a party. Inside you can hear all your girlfriends laughing hysterically. Your appraisal of the situation might be, &lt;em&gt;‘OMG! They’re laughing about me behind my back.’&lt;/em&gt; That appraisal (correct or not) will likely trigger intense feelings of sadness and rejection, and might quickly be followed by the thought, &lt;em&gt;‘They hate me. I’m going home!’&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A different way of thinking about the situation – the reappraisal – might be, &lt;em&gt;‘Sure, they’re laughing. Perhaps someone told a funny joke. Maybe I should go inside and find out.’&lt;/em&gt; The reappraisal (correct or not) encourages you to consider different perspectives and leads to a way of thinking that keeps a lid on emotional distress.&lt;/p&gt;
-&lt;h2&gt;Adults are much better at cognitive reappraisal than children and teens.&lt;/h2&gt;
-&lt;p&gt;We’re more experienced with a range of social situations and better at deploying the thinking skills required.&lt;/p&gt;
-&lt;p&gt;The neural basis of cognitive reappraisal is studied by eliciting negative emotions with provocative or distressing photos comprised of images that range from neutral (furniture or landscapes) to horrific or exciting scenes (mutilated bodies or erotic nudes).&lt;/p&gt;
-&lt;p&gt;Whittle’s research shows that teenage girls find the photos much more emotionally disturbing or arousing than adults. In her lab, fMRI shows that deploying the skill of cognitive reappraisal activates a distributed cortical network including the PFC, which in turn down-regulates excitability in the limbic system.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 128&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;h2&gt;Emotional regulation skills don’t always magically appear as we mature, but they can be formally taught.&lt;/h2&gt;
-&lt;p&gt;Whittle coaches her teenage volunteers in cognitive reappraisal by encouraging them to think, &lt;em&gt;‘This isn’t real, it’s a scene from a movie’,&lt;/em&gt; or, ‘The situation looks worse than it is’, or, &lt;em&gt;‘It could be a lot worse’, or, ‘At least it is not me in that situation’.&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 128&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;h2&gt;Is mental illness emotional development gone wrong?&lt;/h2&gt;
-&lt;p&gt;One theme in adolescent brain research can be summed up by the phrase ‘moving parts get broken’. Because the teenage brain is undergoing such extensive remodelling, it’s thought that it’s easy for the wiring to go awry, predisposing girls to depression, anxiety and eating disorders.&lt;/p&gt;
-&lt;p&gt;The emotional life of teenage girls is complex both inside and out. It’s clear that ‘inside’ hormones are fluctuating and neural networks are fine-tuning. But we tend to forget the dynamic shifts taking place ‘outside’.&lt;/p&gt;
-&lt;h2&gt;Many emotions teens experience are novel&lt;/h2&gt;
-&lt;p&gt;Especially those taking place in new social contexts. There is a first time for everything and that includes your first crush (especially if it’s unrequited), experience of jealousy, being left off the party invite list, and getting likes on Instagram. The newness of these experiences heightens their emotional impact. Sometimes this is positive – falling in love for the first time is pretty wonderful! Sometimes this is negative – being rejected by your first love is rather painful.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 129&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;h2&gt;Girls’ preference for emotional intimacy increases during their early teenage years.&lt;/h2&gt;
-&lt;p&gt;Intense ‘bosom buddy’ friendships form around the same time girls ‘break up’ with their families. This leaves girls potentially vulnerable if those friendships break down or are less than ideal. Loss of friendship is a significant and overlooked potential cause of stress.&lt;/p&gt;
-&lt;p&gt;While the ‘wrong’ friendships can lead teens astray, the ‘right’ kinds of friends are powerful and protective. I had one such dear friend all through high school (we’re still close now and I’ve called on her psychiatric training to inform sections of this book). While writing this chapter we talked about how our devoted friendship buffered us from the tumult so many of our peers experienced. We know the happiest teens aren’t the ones who have the most ‘friends’ on Instagram but the ones who have a few close supportive friendships, and sometimes that means having one terrific friend.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;page&quot; title=&quot;Page 129&quot;&gt;
-&lt;div class=&quot;layoutArea&quot;&gt;
-&lt;div class=&quot;column&quot;&gt;
-&lt;hr /&gt;
-&lt;p&gt;This is an excerpt from The Women’s Brain Book. The neuroscience of health, hormones and happiness. (Hachette 2018).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://yourbrainhealth.com.au/three-facts-about-teenage-brain/&quot; rel=&quot;nofollow&quot;&gt;Three facts about teenage brains all neuroscientists agree on.&lt;/a&gt; appeared first on &lt;a href=&quot;http://yourbrainhealth.com.au&quot; rel=&quot;nofollow&quot;&gt;Your Brain Health&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Sarah McKay</name>
-			<uri>http://yourbrainhealth.com.au</uri>
-		</author>
-		<source>
-			<title type="html">Your Brain Health</title>
-			<subtitle type="html">Discover neuroscience. Explore the brain. Understand your mind.</subtitle>
-			<link rel="self" href="http://yourbrainhealth.com.au/feed/"/>
-			<id>http://yourbrainhealth.com.au</id>
-			<updated>2020-03-19T15:47:36+00:00</updated>
+			<updated>2020-04-02T18:00:41+00:00</updated>
 		</source>
 	</entry>
 

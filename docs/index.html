@@ -86,11 +86,405 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on April 02, 2020 08:19 AM on behalf of Ankur Sinha.
+          on April 02, 2020 06:00 PM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://xcorr.net/2020/04/02/scraping-webpages-with-developer-tools-and-selenium/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://xcorr.net/2020/04/02/scraping-webpages-with-developer-tools-and-selenium/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://xcorr.net/2020/04/02/scraping-webpages-with-developer-tools-and-selenium/&title=Scraping webpages with developer tools and Selenium" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://xcorr.net/2020/04/02/scraping-webpages-with-developer-tools-and-selenium/">Scraping webpages with developer tools and Selenium</a></h4>
+
+<p>There’s a lot of interesting statistics you can do by scraping websites, whether it’s reading tables from Wikipedia, grabbing and aggregating climate change tables from government websites, or quantifying the exponential growth of covid-19 articles on Medium. Many of these pages will have easy-to-use methods to download the data in a develop-friendly format, for example CSV or JSON. For others, you’ll have to rely on scraping web pages, an ancient, dark art. In this article, I’ll introduce you to some of the tools of the trade to do so in Python.</p>
+
+
+
+<h2>Identifying targets with developer tools</h2>
+
+
+
+<p>Both Chrome and Firefox have developer tools (Shortcut: Ctrl+Shift+I). These tools allow you:</p>
+
+
+
+<ul><li>Visualize the HTML, JavaScript, and CSS behind a webpage</li><li>See the traffic between your browser and the internet, include late http requests triggered by JavaScript</li><li>Execute custom JavaScript that can read and modify the DOM of a webpage</li><li>Identify where a particular UI element is created in the page’s HTML</li></ul>
+
+
+
+<p>These can help you identify which part of a page you need to scrape. Let’s say, for instance, that we want to find out how the top article of a major news website changes as a function of time during a time of crisis (as of now, covid-19). Perhaps we’ll want to retroactively run an analysis of the sentiment behind the headline, the focus (health, business, etc.), the frequency of updates, or of how these headers co-vary with numbers released by different governments.</p>
+
+
+
+<p>Here I’ll use the New York Times as the example webpage. What we’d like is to grab, every half-hour, the title of the biggest headline. With developer tools, I can easily use the Picker tool (Ctrl+Shift+C) to highlight the biggest headline on the page.</p>
+
+
+
+<figure class="wp-block-image size-large"><img alt="" class="wp-image-7487" data-attachment-id="7487" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="scraping" data-large-file="https://xcorr.files.wordpress.com/2020/04/scraping.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2020/04/scraping.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2020/04/scraping.png" data-orig-size="3070,1752" data-permalink="https://xcorr.net/scraping/" src="https://xcorr.files.wordpress.com/2020/04/scraping.png?w=1024" /></figure>
+
+
+
+<p>Here I find that the biggest headline is a <code>span</code> with a class name of <code>balancedHeadline</code>. Let’s look at how we can grab this information with Selenium.</p>
+
+
+
+<h2>Selenium: remote control browsers</h2>
+
+
+
+<p><a href="https://www.selenium.dev/">The method I’ll showcase here uses Selenium</a>: we use a headless browser (that is, an instance of Firefox or Chrome that’s running “invisibly”) that navigates to the website we care about. Once on the webpage, we can inject javascript, simulate clicks or manipulate the DOM to get to the information we need. This is a rather heavyweight solution compared to, say, using <code><a href="https://docs.python.org/3/library/urllib.html">urllib</a></code> to grab the data and parsing it with <code><a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a></code>. However, the big advantage we get is that the headless browser actually runs the javascript on the page and loads all the extra assets – it’s literally like a person navigating to the website. Sometimes, it can be the only solution, especially if the information we need:</p>
+
+
+
+<ul><li>is dynamically loaded</li><li>is hidden behind authentication layers</li><li>requires emulating clicks and interacting with JavaScript</li></ul>
+
+
+
+<p>In Python, we can easily install Selenium with:`</p>
+
+
+
+<pre class="wp-block-preformatted">pip install selenium</pre>
+
+
+
+<p>Then we’ll need to install a WebDriver – this will allow your favorite web browser to be manipulated via Python. Here I installed the Firefox webdriver on the Ubuntu platform. <a href="https://selenium-python.readthedocs.io/installation.html">I followed the instructions here on the Selenium website,</a> <a href="https://github.com/mozilla/geckodriver/releases">downloading the gecko webdriver</a> and extracting the binary to <code>/usr/bin</code>. You can check that you’ve done the installation by running a tiny bit of Python:</p>
+
+
+<pre class="brush: python; title: ; notranslate">from selenium import webdriver
+
+driver = webdriver.Firefox()
+driver.get('https://nytimes.com/')
+
+</pre>
+
+
+<p>Running this code opens up Firefox and navigates to the website. Notice the unusual appearance of the browser: the url bar is a different color than usual, and there’s a robot icon next to the address.</p>
+
+
+
+<figure class="wp-block-image size-large is-style-default"><img alt="" class="wp-image-7477" data-attachment-id="7477" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="nytimes-robot" data-large-file="https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png" data-orig-size="2176,192" data-permalink="https://xcorr.net/nytimes-robot/" src="https://xcorr.files.wordpress.com/2020/03/nytimes-robot-e1585845303421.png?w=723" />A remote-controlled version of Firefox</figure>
+
+
+
+<p>We can grab the information in at least a couple of ways: </p>
+
+
+
+<ul><li>We could inject some Javascript into the page and use   <code>document.querySelectorAll("span.balancedHeadline")</code> to grab the headline</li><li>We could read the DOM to find the right span</li></ul>
+
+
+
+<p>Let’s use the second method:</p>
+
+
+<pre class="brush: python; title: ; notranslate">from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Firefox()
+driver.get('https://nytimes.com/')
+element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "balancedHeadline"))
+)
+print(element.text)
+driver.quit()
+</pre>
+
+
+<h2>Running headless and automating</h2>
+
+
+
+<p>Although the explicit window is useful for debugging, if you want to run this script every half-hour, you’ll want to run this in a headless browser. A headless browser doesn’t display a window, so it won’t pop up over your other windowsand capture your inputs. In addition, we’ll want to save the data to disk, which we can easily accomplish like so:</p>
+
+
+<pre class="brush: plain; title: ; notranslate">from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
+
+options = Options()
+options.headless = True
+
+driver = webdriver.Firefox(options=options)
+driver.get('https://nytimes.com/')
+element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "balancedHeadline"))
+)
+with open('/home/pmin/Documents/headless-browser/top_news.txt', 'a') as f:
+    f.write('"' + str(datetime.datetime.now()) + '","' + element.text + '"\n')
+driver.quit()
+</pre>
+
+
+<h3>Cron job</h3>
+
+
+
+<p>All that’s left now is to set up a cron job to run this script every 15 minutes. First, we’ll need a shell file. We could run python directly, but I installed selenium inside of a special conda environment called <code>headless-browser</code>, so my shell file activates this environment before, like so:</p>
+
+
+<pre class="brush: bash; title: ; notranslate">#!/bin/bash
+source /home/pmin/miniconda3/etc/profile.d/conda.sh &amp;&amp; \
+conda activate headless-browser &amp;&amp; \
+python /home/pmin/Documents/headless-browser/grab_headline.py
+</pre>
+
+
+<p>I saved this file as <code>/home/pmin/Documents/headless-browser/grab_headline.sh</code>. Running  <code>crontab -e</code>, I added an entry that looks like this:</p>
+
+
+<pre class="brush: plain; title: ; notranslate"># m h  dom mon dow   command
+*/15 * * * * /home/pmin/Documents/headless-browser/grab_headline.sh 2&gt;&amp;1 /var/log/grab-headline.log
+</pre>
+
+
+<p><a href="https://crontab.guru/">You can use this website</a> to figure out what incantations to give to cron for different schedules. I also captured any output or error into an error log. If you don’t want to have to leave your computer on all the time to do this, <a href="https://cloud.google.com/scheduler/docs/creating">you can run cron jobs inside of a cloud service</a> instead.</p>
+
+
+
+<h2>Authentication</h2>
+
+
+
+<p>A final tweak we’ll need to deal with is authenticating. Sometimes the website we’re trying to scrape requires us to be logged in. It’s possible for the headless browser to use the same cookies and credentials as the regular browser you use. To do so, you need to locate the name of the default profile in Firefox. Locate a directory that finished with <code>.default</code> with:</p>
+
+
+<pre class="brush: plain; title: ; notranslate">ls ~/.mozilla/firefox/
+</pre>
+
+
+<p>In my case, I found a directory called <code>lasd74g9.default</code>. Putting everything together, here’s my final script:</p>
+
+
+<pre class="brush: python; title: ; notranslate">import datetime
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
+
+options = Options()
+options.headless = True
+
+profile = profile = webdriver.FirefoxProfile(profile_directory='/home/pmin/.mozilla/firefox/lasd74g9.default')
+driver = webdriver.Firefox(firefox_profile=profile, options=options)
+driver.get('https://nytimes.com/')
+element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "balancedHeadline"))
+)
+with open('/home/pmin/Documents/headless-browser/grim_news.txt', 'a') as f:
+    f.write('"' + str(datetime.datetime.now()) + '","' + element.text + '"\n')
+driver.quit()
+
+</pre>
+
+
+<p></p>
+                <p class="text-muted">in <a href="https://xcorr.net">xcorr.net</a> on April 02, 2020 04:41 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2020/04/02/psychopathic-prisoners-with-higher-levels-of-emotional-impairment-make-less-eye-contact/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2020/04/02/psychopathic-prisoners-with-higher-levels-of-emotional-impairment-make-less-eye-contact/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2020/04/02/psychopathic-prisoners-with-higher-levels-of-emotional-impairment-make-less-eye-contact/&title=Psychopathic Prisoners With Higher Levels Of Emotional Impairment Make Less Eye Contact" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://digest.bps.org.uk/2020/04/02/psychopathic-prisoners-with-higher-levels-of-emotional-impairment-make-less-eye-contact/">Psychopathic Prisoners With Higher Levels Of Emotional Impairment Make Less Eye Contact</a></h4>
+
+<p><i>By</i> <a href="https://emmayoung.net/">Emma Young</a></p>
+<p>Imagine going to sit in a room with a violent, imprisoned psychopath and having a chat about what you both like to eat. (It’s impossible not to think of liver, fava beans and Chianti, isn’t it….?)</p>
+<p>This is exactly what one researcher did recently in Germany. But the purpose of <a href="https://psycnet.apa.org/record/2020-17706-001">the study</a>, reported in <em>Personality Disorders: Theory, Research, and Treatment</em> wasn’t to gather data on criminal psychopaths’ dining preferences, but rather on how they make — or don’t make — eye contact during a conversation.</p>
+<p>This was the first study to explore psychopaths’ eye movements in a naturalistic setting. And it reveals that prisoners who scored highly on one aspect of psychopathy, in particular, were much less likely to look at the interviewer’s eyes. This finding not only helps with understanding how psychopathy develops, but also suggests that finding ways to encourage at-risk children to make more eye contact might be a useful intervention, argue Nina Gehrer at the University of Tübingen and her colleagues.</p>
+<p><span id="more-39418"></span>The team studied 30 men who had been convicted of serious crimes (including murder, rape and hostage-taking) and who were incarcerated in two institutions in Germany.</p>
+<p>One researcher led all the interactions, which were divided into talking and listening stages. For one minute, the participant listened while the researcher talked about one of three neutral topics (eating habits/food, job/work or typical daily routine). Then, after a brief exchange on the topic, the second stage began: the participant talked for about a minute on the same topic. This was then repeated for the other two topics.</p>
+<p>Throughout both stages, the experimenter maintained eye contact (this was later verified by two independent raters). And at all times, the prisoner wore an eye-tracking headset. This allowed the team to monitor where they were looking while they were listening and talking.</p>
+<p>For the purposes of the study, the team divided the face into two sections: the eyes and the philtrum (the nose and mouth region). They then examined whether time spent looking at the eyes or philtrum correlated with the participants’ scores on the PCL-R, a standard psychopathy assessment.</p>
+<p>Psychopathy is generally thought to have four facets, or components: manipulating other people, affective impairments (deficits in feeling emotion and empathy and in showing remorse or guilt), having an erratic lifestyle and demonstrating antisocial behaviour. Each of these is measured within the PCL-R. And the team found that during both listening and talking, prisoners with higher affective psychopathy scores made less eye contact. “These results are in line with previous research suggesting impaired attention to social cues in psychopathy,” the researchers write.</p>
+<p>Current theories about how psychopathy develops assume that a failure to view important social cues (from the eyes, especially) is a key factor. For children who go on to be diagnosed with psychopathy, there’s evidence that emotion-related impairments emerge early, in the form of callous unemotional traits. There’s some evidence that young children who pay less attention to other people’s eyes are more likely to develop these traits, the researchers note. Now that this link has been found for adult, criminal psychopaths, this suggests that eye contact, or rather a lack of it, could be important for understanding the development of the disorder.</p>
+<p>There are some limitations to the study, however. The number of participants was quite small, and all were men. The researchers themselves call for a replication before any firm conclusions can be drawn. It will also be important to investigate whether it’s possible to fix this particular deficit in eye contact, and, if so, whether that reduces the risk of developing emotion-related problems.</p>
+<p>“To date, evidence for lasting changes in eye gaze through social attention bias modification training is still elusive,” they note. “Thus, these promising approaches and further opportunities that target impaired eye contact need to be further investigated and enhanced.”</p>
+<p>– <a href="https://psycnet.apa.org/record/2020-17706-001?CheckAccess=1">Eye contact during live social interaction in incarcerated psychopathic offenders.</a></p>
+<p><b><a href="https://emmayoung.net/">Emma Young</a> (<a href="https://twitter.com/EmmaELYoung">@EmmaELYoung</a>) is a staff writer at <a href="https://digest.bps.org.uk/">BPS Research Digest</a></b></p>
+                <p class="text-muted">in <a href="https://digest.bps.org.uk">The British Psychological Society - Research Digest</a> on April 02, 2020 01:44 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/coronavirus-covid19-social-gathering-size-math-pandemic" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/coronavirus-covid19-social-gathering-size-math-pandemic" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/coronavirus-covid19-social-gathering-size-math-pandemic&title=How large a gathering is too large during the coronavirus pandemic?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://www.sciencenews.org/article/coronavirus-covid19-social-gathering-size-math-pandemic">How large a gathering is too large during the coronavirus pandemic?</a></h4>
+
+<p>A question has perplexed
+public officials trying to curb the COVID-19 pandemic: How large of a group of
+people is too large? </p>
+
+
+
+<p>As the spread of the
+coronavirus has gathered speed, U.S. officials urged limits on large
+gatherings, constantly scrambling to reduce the definition of “large.” First, meetings
+of more than 1,000 were discouraged, then 250, 100, 50 and 10. As <a href="https://www.kff.org/health-costs/issue-brief/state-data-and-policy-actions-to-address-coronavirus/#socialdistancing">many states institute orders to stay at home</a>, <em>all</em>
+nonessential gatherings are being banned. </p>
+
+
+
+<p>But no scientific rationale has
+been cited for any particular number. Getting the right answer is crucial. Too
+large and you don’t control the epidemic. Too small, and people’s lives and
+livelihoods may be upended, for insufficient social benefit.</p>
+
+
+
+<p>“I am not aware of any
+quantitative modeling informing those decisions,” says Lydia Bourouiba, a
+physicist and epidemiologist at MIT. “They weren’t based on events.”</p>
+
+
+
+
+
+<p>Now, a new study is providing
+one roadmap for coming up with an answer. There is no gathering size that can
+eliminate all risk. But there is a threshold between curbing the epidemic and
+having it spread like wildfire, and that number is most likely not zero, the
+researchers conclude. The finding could have implications not only for slowing
+the pandemic, but also for figuring out <a href="https://www.sciencenews.org/article/covid-19-when-will-coronavirus-pandemic-social-distancing-end">how to eventually return to normal life</a> without causing a new surge in cases (<em>SN: 3/24/20</em>).</p>
+
+
+
+<p>In the study, posted online
+March 12 at arXiv.org, five epidemic modelers showed <a href="https://arxiv.org/abs/2003.05924">mathematically
+how an epidemic can be controlled</a> without
+banning all get-togethers. Their model includes a version of the “friendship
+paradox,” which says that your friends in a social network on average have more
+friends than you. When an epidemic strikes such a network, large gatherings are
+especially bad because they attract people who have more contacts than average
+— and hence are more likely to already be infected.</p>
+
+
+
+<p>It’s possible to determine
+the dividing line between an effective and an ineffective intervention, the
+team found. In one hypothetical epidemic, if you banned gatherings larger than
+30, the epidemic would rage on. But if you banned groups larger than 20, it
+would eventually die out. The threshold of effectiveness, for this particular social
+network model (one in which the friendship paradox was fairly strong), was 23.</p>
+
+
+
+
+
+<p>“I’m confident that there is
+a threshold,” says Laurent Hébert-Dufresne, a computer scientist at the University
+of Vermont in Burlington who developed the model. “I don’t have confidence in
+the exact number 23.” The threshold for COVID-19 is still unknown, and, he
+adds, “the cutoff could be very population specific.” </p>
+
+
+
+<p>What’s significant, Bourouiba
+says, is the idea of computing the size of the safe group, not the actual
+number in this hypothetical case. A maximum gathering size of “23 leading to a
+collapse of the epidemic has to be taken with a grain of salt,” she says. “But
+the concept is important, because sheltering at home is not going to be
+sustainable forever.”</p>
+
+
+
+<p>So far, public officials have
+been reducing maximum allowed group size without any precise formula. “The
+declining number of recommended people is a way of signaling that we are
+getting more and more serious about the need to be socially distanced,” says
+Marc Lipsitch, an epidemiologist at the Harvard T.H. Chan School of Public
+Health in Boston. “I’m not sure that there is a particular number that is
+magical.”</p>
+
+
+
+<p>In part, the recommendations
+are based on the idea that the risk of a large gathering increases as the
+square of the gathering size. That is, a gathering that is 10 times larger will
+offer 100 times more “transmission opportunities,” says Lipsitch. </p>
+
+
+
+<p>But according to Hébert-Dufresne,
+this rough calculation actually underestimates the danger of large meetings,
+because of the friendship paradox. It also doesn’t take into account the
+dynamics of the epidemic, which is precisely what creates the threshold between
+large and small gatherings.</p>
+
+
+
+<aside class="wp-block-sciencenews-inline-related-post alignleft">
+<h4>
+<a href="https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak">See all our coverage of the 2019 novel coronavirus outbreak</a>
+</h4>
+</aside>
+
+
+
+<p>The model in the new study,
+which hasn’t yet been peer-reviewed, represents gatherings as highly connected cliques,
+in which all people present are exposed to all the others. Hébert-Dufresne, who
+worked with colleagues from Université Laval in Quebec, compares an epidemic in
+such a network to a bonfire. You need two things to build a fire: kindling,
+which gets the first flame started, and larger branches, which transmit the
+fire from place to place. In Hébert-Dufresne’s model, small gatherings form the
+kindling, and large gatherings are the branches. To keep the fire from
+spreading, you don’t need to remove the kindling — only
+the branches. </p>
+
+
+
+<p>Telling the difference between
+kindling and branches is where the mathematical model comes in. The dividing
+line between small groups and large groups depends on three factors: the disease
+transmission rate, the distribution of clique sizes, and the distribution of
+clique membership (how many cliques do highly social people belong to?).</p>
+
+
+
+<p>Right now, the last two numbers
+are completely unknown, Hébert-Dufresne says. But with enough data on social
+networks, it might be possible to figure them out.</p>
+
+
+
+<p>“The people with vast network
+knowledge are Google, Amazon, Apple, Twitter,” says Simon DeDeo, a professor of
+decision science at Carnegie-Mellon University in Pittsburgh. “If I were the
+government right now, I would fly out to Silicon Valley and get this data.”</p>
+
+
+
+<p>Lauren Ancel Meyers, an
+epidemiologist at the University of Texas at Austin, agrees: “I’ve written a
+plea for sharing of geolocation and social media data,” she says. “We really
+need a better understanding of how people move and come into contact with each
+other in schools, workplaces and their everyday lives.”</p>
+
+
+
+
+
+<p>Hébert-Dufresne’s network is
+far from being the last word. It ignores many other kinds of heterogeneity,
+such as the age structure of the population (which is especially important for
+COVID-19, as the <a href="https://www.sciencenews.org/article/coronavirus-questions-covid19-symptoms-deaths-spread#mostrisk">elderly are the most vulnerable</a> (<em>SN:
+3/4/20</em>)) and differences between cliques. “A school is different from a
+factory,” says Bourouiba. </p>
+
+
+
+<p>Many other network models do
+take into account these variables. Lipsitch, Meyers and others all work with
+models that include a great deal more detail, going down to the level of
+contacts between individuals. “You can incorporate an incredible amount of
+detail,” Meyers says, “but then it takes many simulations to extract general
+results.” And that can take a lot of time.</p>
+
+
+
+<p>The one developed by Hébert-Dufresne and his colleagues is comparatively simple, but unique in treating gathering size itself as a source of diversity. “Some people are doing more complex models, but just in terms of getting at the idea of a cutoff, it’s a powerful idea,” says Hébert-Dufresne.</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org">Science News</a> on April 02, 2020 10:00 AM.</p>
+              </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://blogs.biomedcentral.com/bmcseriesblog/2020/04/02/what-impact-do-tobacco-style-health-warning-labels-have-when-applied-to-alcohol-and-food-products-and-how-acceptable-might-they-be/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://blogs.biomedcentral.com/bmcseriesblog/2020/04/02/what-impact-do-tobacco-style-health-warning-labels-have-when-applied-to-alcohol-and-food-products-and-how-acceptable-might-they-be/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://blogs.biomedcentral.com/bmcseriesblog/2020/04/02/what-impact-do-tobacco-style-health-warning-labels-have-when-applied-to-alcohol-and-food-products-and-how-acceptable-might-they-be/&title=What impact do tobacco-style health warning labels have when applied to alcohol and food products, and how acceptable might they be?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="http://blogs.biomedcentral.com/bmcseriesblog/2020/04/02/what-impact-do-tobacco-style-health-warning-labels-have-when-applied-to-alcohol-and-food-products-and-how-acceptable-might-they-be/">What impact do tobacco-style health warning labels have when applied to alcohol and food products, and how acceptable might they be?</a></h4>
@@ -116,6 +510,27 @@
 <p>Further experimental studies are now needed to directly assess the potential effectiveness of health warning labels to reduce selection and consumption of <a href="https://psyarxiv.com/rv2p6/">alcohol</a> and <a href="https://psyarxiv.com/zyca2/">energy-dense snacks</a>. Studies in field and naturalistic laboratory settings will enable us to examine whether these labels are likely to be effective in real-world settings.</p>
 <p>The post <a href="http://blogs.biomedcentral.com/bmcseriesblog/2020/04/02/what-impact-do-tobacco-style-health-warning-labels-have-when-applied-to-alcohol-and-food-products-and-how-acceptable-might-they-be/" rel="nofollow">What impact do tobacco-style health warning labels have when applied to alcohol and food products, and how acceptable might they be?</a> appeared first on <a href="http://blogs.biomedcentral.com/bmcseriesblog" rel="nofollow">BMC Series blog</a>.</p>
                 <p class="text-muted">in <a href="http://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on April 02, 2020 06:39 AM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://biocomputation.herts.ac.uk/2020/04/01/cyberspecies-proximiy.html" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://biocomputation.herts.ac.uk/2020/04/01/cyberspecies-proximiy.html" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://biocomputation.herts.ac.uk/2020/04/01/cyberspecies-proximiy.html&title=Cyberspecies Proximiy" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="http://biocomputation.herts.ac.uk/2020/04/01/cyberspecies-proximiy.html">Cyberspecies Proximiy</a></h4>
+
+<p>This week on Journal Club session Anna Dumituru and Alex May will talk about their project named "Cyberspecies Proximity".</p>
+<hr class="docutils" />
+<p>Cyberspecies Proximity explores what it will mean to share our sidewalks, elevators and transport systems in close proximity with mobile intelligent robots. The work challenges audiences to confront the technological, ethical, and societal questions raised by the advent of urban socially-aware robots.</p>
+<p>The robotic artwork combines the way-finding technologies of delivery and maintenance robots with an ability to communicate non-verbally, and to manipulate our emotions through body-language. The robot is able to move around an exhibition space using a predefined map created using SLAM technology. It reacts and responds to the body language of audience members through a multi-layered face, skeleton and movement tracking algorithm.</p>
+<p>The small and fragile humanoid form is dressed in the clothes of a worker, its frail and insignificant body reminds us of the social groups that will be most affected by future automation. The robot’s head and hands are made from 3D printed grey PLA and it intentionally avoids categorisations of race and gender. The project forces us to consider issues of ownership of public spaces as well as the broader ethical implications of how we design robots and behave towards them.</p>
+<p>Cyberspecies Proximity is a project by Anna Dumitriu and Alex May, created in collaboration with the Human Robot Co-Mobility Project of the New Technologies Team at Schindler. The project was supported by a Vertigo STARTS Residency, and the artwork was programmed in C++ and FUGIO, the Open Source Visual Programming System created by Alex May.</p>
+<hr class="docutils" />
+<p>NOTICE!</p>
+<p>Due to current unusual circumstances, this Journal Club will be held online as a conference on 8COM0108-0000-2019 module. In order to attend, you must be a member of that module. The conference room will be created on Friday and all of the module members will be notified about that with an email. Once the conference is created and started, module members will be able to join it by visiting the module website on Canvas, and then selecting "Conferences" section. Any queries should be directed to Emil Dmitruk via email (<a class="reference external" href="mailto:e.dmitruk@herts.ac.uk">e.dmitruk@herts.ac.uk</a>).</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Date:</strong> 03/04/2020 <br />
+<strong>Time:</strong> 16:00 <br />
+<strong>Location</strong>: Online conference on 8COM0108-0000-2019 module- more details will be announced on Biocomputation Slack group.</p>
+                <p class="text-muted">in <a href="http://biocomputation.herts.ac.uk/">UH Biocomputation group</a> on April 01, 2020 09:36 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/rainforest-antarctica-south-pole-roughly-90-million-years-ago" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/rainforest-antarctica-south-pole-roughly-90-million-years-ago" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/rainforest-antarctica-south-pole-roughly-90-million-years-ago&title=Roughly 90 million years ago, a rainforest grew near the South Pole" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -250,12 +665,7 @@ horrific as those numbers are, it could be a lot worse. </p>
 
 
 
-<p>In the
-first global assessment of the impact of the coronavirus, researchers at
-Imperial College London estimate that if governments weren’t taking any
-actions, the coronavirus would infect an estimated 7 billion people in 2020,
-nearly 90 percent of people on Earth. Roughly 40 million would die and no
-health-care system anywhere would be able to keep up. </p>
+<p>In the first global assessment of the impact of the coronavirus, researchers at Imperial College London estimate that if governments weren’t taking any actions, the <a href="https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-12-global-impact-covid-19/">coronavirus would infect an estimated 7 billion people in 2020</a>, nearly 90 percent of people on Earth. Roughly 40 million would die and no health care system anywhere would be able to keep up. </p>
 
 
 
@@ -579,12 +989,7 @@ superconductor’s wave.</p>
 
 
 
-<p>The first direct evidence of a phase of
-matter known as a pair-density wave helps reveal the physics that underlies mysterious
-high-temperature superconductors, which conduct electricity without resistance
-at surprisingly high temperatures. The <a href="https://www.nature.com/articles/s41586-020-2143-x">wave was detected using a scanning tunneling electron
-microscope</a>, researchers report April
-1 in <em>Nature.</em></p>
+<p>The first direct evidence of a phase of matter known as a pair-density wave helps reveal the physics that underlies mysterious high-temperature superconductors, which conduct electricity without resistance at surprisingly high temperatures. The <a href="https://www.nature.com/articles/s41586-020-2143-x">wave was detected using a scanning tunneling microscope</a>, researchers report April 1 in <em>Nature.</em></p>
 
 
 
@@ -3222,80 +3627,6 @@ Two years ago, Julia Strand, an assistant professor of psychology at Carleton Co
                 <p class="text-muted">in <a href="https://retractionwatch.com">Retraction watch</a> on March 26, 2020 10:00 AM.</p>
               </li>
               <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/squid-edit-their-genetic-material-uniquely-weird-place" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/squid-edit-their-genetic-material-uniquely-weird-place" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/squid-edit-their-genetic-material-uniquely-weird-place&title=Squid edit their genetic material in a uniquely weird place" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://www.sciencenews.org/article/squid-edit-their-genetic-material-uniquely-weird-place">Squid edit their genetic material in a uniquely weird place</a></h4>
-
-<p>Squid can edit their
-genetic information in a place scientists didn’t expect.</p>
-
-
-
-<p>Longfin inshore squid (<em>Doryteuthis pealeii</em>) are the first known
-animals that can tweak strings of RNA outside of a nerve cell’s nucleus. These
-genetic couriers, called messenger RNA, or mRNA, carry a cell’s blueprints for
-building proteins. </p>
-
-
-
-<p>All creatures make edits
-to RNA —
-including other types besides mRNA — and do so sparingly, based on limited
-studies in mammals and fruit flies.
-Those changes typically take place inside the nucleus and are then exported to
-the rest of the cell. </p>
-
-
-
-<p>The <a href="https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa172/5809668">squids’ ability to make genetic edits in
-cytoplasm</a>, the jellylike
-material that makes up much of a cell, may let the animals make adjustments to
-mRNAs on the fly. That skill could help squids produce proteins tailored to meet a cell’s
-needs and hone crucial cell processes, researchers
-report March 23 in <em>Nucleic Acids Research</em>. </p>
-
-
-
-
-
-<p>Knowing how the squids make the edits in nerve cells could help
-researchers hijack the technique to develop therapeutics for health conditions
-such as chronic pain by genetically editing cells that create inappropriate
-pain signals, says Joshua Rosenthal, a biologist at the Marine Biological
-Laboratory in Woods Hole, Mass. The method would be much like the DNA-editing
-technique CRISPR, but for RNA.</p>
-
-
-
-<p>In the new study, Rosenthal and colleagues first looked at where an
-mRNA-editing protein is found in squid nerve cells, or neurons. The team discovered
-that the protein, called ADAR2, is located in both the jellylike cytoplasm and the
-nucleus of squid neurons, a hint that the protein could edit mRNAs in both
-areas. </p>
-
-
-
-<p>The team then extracted cytoplasm from squid axons — the slender
-stalk of a neuron — “kind of like you’re squeezing toothpaste out of the tube,”
-Rosenthal says. ADAR2 extensively edited an mRNA within the cytoplasm siphoned
-from the axons, which help send electrical impulses along nerve cells, the
-researchers found.</p>
-
-
-
-<p>Developing an RNA-editing technique similar to CRISPR could come
-with key advantages.  While
-CRISPR-generated <a href="https://www.sciencenews.org/article/new-crispr-gene-editors-can-fix-rna-and-dna-one-typo-time">edits in DNA are permanent</a>, RNA is transient,
-and edited genetic information would disappear when the RNA is broken down in
-the cell (<em>SN: 10/25/17</em>). </p>
-
-
-
-<p>“There are a lot of advantages for trying to manipulate genetic
-information in RNA,” Rosenthal says. “If you make a mistake, it’s not nearly so
-dangerous. If you make mistakes in DNA, you’re stuck with it.” </p>
-                <p class="text-muted">in <a href="https://www.sciencenews.org">Science News</a> on March 25, 2020 06:20 PM.</p>
-              </li>
-              <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2020/03/25/behavioural-nudges-are-ineffective-at-encouraging-commuters-to-carpool-or-take-the-bus/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2020/03/25/behavioural-nudges-are-ineffective-at-encouraging-commuters-to-carpool-or-take-the-bus/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2020/03/25/behavioural-nudges-are-ineffective-at-encouraging-commuters-to-carpool-or-take-the-bus/&title=Behavioural “Nudges” Are Ineffective At Encouraging Commuters To Carpool Or Take The Bus" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://digest.bps.org.uk/2020/03/25/behavioural-nudges-are-ineffective-at-encouraging-commuters-to-carpool-or-take-the-bus/">Behavioural “Nudges” Are Ineffective At Encouraging Commuters To Carpool Or Take The Bus</a></h4>
 
@@ -5110,159 +5441,6 @@ Reflections on a new case of apparent data manipulation.
 <p> </p>
 <img alt="" height="1" src="http://feeds.feedburner.com/~r/plos/Blog/~4/R0F4q7pU-O0" width="1" />
                 <p class="text-muted">in <a href="https://blogs.plos.org/plos">The Official PLOS Blog</a> on February 19, 2020 04:59 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://biocomputation.herts.ac.uk/2020/02/19/autaptic-connections-shift-network-excitability-and-bursting.html" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://biocomputation.herts.ac.uk/2020/02/19/autaptic-connections-shift-network-excitability-and-bursting.html" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://biocomputation.herts.ac.uk/2020/02/19/autaptic-connections-shift-network-excitability-and-bursting.html&title=Autaptic Connections Shift Network Excitability and Bursting" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://biocomputation.herts.ac.uk/2020/02/19/autaptic-connections-shift-network-excitability-and-bursting.html">Autaptic Connections Shift Network Excitability and Bursting</a></h4>
-
-<p>This week on Journal Club session Yaqoob Muhammad will talk about the paper "Autaptic Connections Shift Network Excitability and Bursting".</p>
-<hr class="docutils" />
-<p>We examine the role of structural autapses, when a neuron synapses onto itself, in driving network-
-wide bursting behavior. Using a simple spiking model of neuronal activity, we study how autaptic
-connections affect activity patterns, and evaluate if controllability significantly affects changes in
-bursting from autaptic connections. Adding more autaptic connections to excitatory neurons increased
-the number of spiking events and the number of network-wide bursts. We observed excitatory synapses
-contributed more to bursting behavior than inhibitory synapses. We evaluated if neurons with high
-average controllability, predicted to push the network into easily achievable states, affected bursting
-behavior differently than neurons with high modal controllability, thought to influence the network
-into difficult to reach states. Results show autaptic connections to excitatory neurons with high average
-controllability led to higher burst frequencies than adding the same number of self-looping connections
-to neurons with high modal controllability. The number of autapses required to induce bursting was
-lowered by adding autapses to high degree excitatory neurons. These results suggest a role of autaptic
-connections in controlling network-wide bursts in diverse cortical and subcortical regions of mammalian
-brain. Moreover, they open up new avenues for the study of dynamic neurophysiological correlates of
-structural controllability.</p>
-<p>Papers:</p>
-<ul class="simple">
-<li>Wiles, L. et al. (2017) <a class="reference external" href="https://www.nature.com/articles/srep44006#Sec23">"Autaptic Connections Shift Network Excitability and Bursting"</a> ,
-Sci. Rep. 7, 44006; doi: 10.1038/srep44006</li>
-</ul>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p><strong>Date:</strong> 21/02/2020 <br />
-<strong>Time:</strong> 16:00 <br />
-<strong>Location</strong>: B200</p>
-                <p class="text-muted">in <a href="http://biocomputation.herts.ac.uk/">UH Biocomputation group</a> on February 19, 2020 03:26 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com/2020/02/19/cea-declares-anne-peyroches-data-fakery-scientifically-correct/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com/2020/02/19/cea-declares-anne-peyroches-data-fakery-scientifically-correct/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com/2020/02/19/cea-declares-anne-peyroches-data-fakery-scientifically-correct/&title=CEA declares Anne Peyroche’s data fakery scientifically correct" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://forbetterscience.com/2020/02/19/cea-declares-anne-peyroches-data-fakery-scientifically-correct/">CEA declares Anne Peyroche’s data fakery scientifically correct</a></h4>
-
-Former CNRS president Anne Peyroche has been symbolically sanctioned for research misconduct. Despite previous fraud findings, conclusions are not affected, and so is her employment by the Atomic Energy Commission. I present two more falsified figures.
-                <p class="text-muted">in <a href="https://forbetterscience.com">For Better Science</a> on February 19, 2020 11:42 AM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://yourbrainhealth.com.au/three-facts-about-teenage-brain/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://yourbrainhealth.com.au/three-facts-about-teenage-brain/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://yourbrainhealth.com.au/three-facts-about-teenage-brain/&title=Three facts about teenage brains all neuroscientists agree on." target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://yourbrainhealth.com.au/three-facts-about-teenage-brain/">Three facts about teenage brains all neuroscientists agree on.</a></h4>
-
-<div class="page" title="Page 126">
-<div class="layoutArea">
-<div class="column">
-<div class="page" title="Page 119">
-<div class="layoutArea">
-<div class="column">
-<h2><img alt="" class="aligncenter wp-image-5929" height="453" src="http://yourbrainhealth.com.au/wp/wp-content/uploads/2019/05/Screen-Shot-2019-05-17-at-4.34.07-pm-300x160.png" width="850" /></h2>
-<h2>The three facts about the teenage brain scholars can agree on</h2>
-<p><em>1. Brain structures continue to change between childhood and adulthood.</em> Grey matter volume peaks at puberty then declines throughout adolescence and into the twenties. White matter volume increases throughout childhood, adolescence and into adulthood.</p>
-<p><em>2. Girls’ brains mature slightly faster than boys’.</em> But boys catch up. This sex difference in brain development is in sync with physical development where, on average, girls enter puberty a year or two before boys, who then quickly catch up.</p>
-<p><em>3. Different brain regions mature at different rates.</em> Development of the limbic system, which drives emotions, speeds up at puberty, but the PFC, which is involved in thinking and judgement, doesn’t mature until our twenties. This causes a ‘developmental mismatch’ between emotion and reward processing, and thinking and judgement. The mismatch determines aspects of teenage behaviour such as being overly emotional, impulsive and hypersensitive to social situations.</p>
-</div>
-</div>
-</div>
-<div class="page" title="Page 120">
-<div class="layoutArea">
-<div class="column">
-<h2>Grey matter thins as connections are refined</h2>
-<p>The prefrontal cortex, as its name suggests, sits at the front of the brain and is sometimes called the brain’s CEO because it acts as an experienced decision-maker. The PFC is involved direction attention, judgement calls, emotion regulation, strategy, impulse control, working memory and social cognition – navigating complex social relationships such as discerning friend from ‘frenemy’ from foe.</p>
-<p>During childhood, the grey matter of the PFC thickens as neurons make new connections or synapses. Much like a tree growing extra branches, twigs and roots.</p>
-<p>However, during the teens, PFC <em>thinning</em> occurs. Loss or ‘thinning’ of grey matter always sounds unhealthy, but as is often the case with the brain, less is more. Grey matter loss is vitally important and is due to pruning away of unwanted ‘twigs and branches’, which partly depends on experience in a ‘use it or lose it’ manner. Connections that are being used are strengthened and those that aren’t being used are pruned away.</p>
-</div>
-</div>
-<div class="layoutArea">
-<div class="column"></div>
-</div>
-</div>
-<div class="page" title="Page 121">
-<div class="layoutArea">
-<div class="column">
-<h2>More white matter enables faster communication</h2>
-<p>MRI scans have revealed ever-increasing volumes of white matter in the tracts leading to and from the PFC during adolescence. Recall that axons are insulated by myelin, which speeds up signalling between brain regions. Myelinated axons transmit impulses up to 100 times faster than unmyelinated axons, and faster transmission means faster mental processing.</p>
-<p>Jay Giedd, a neuroscientist at the University of California, San Diego, has found that increased white matter means the connections between brain regions become stronger and more numerous. The brain matures by becoming more interconnected and more specialised.</p>
-<p>To use Giedd’s metaphor, brain maturation is not so much a matter of adding new letters to the alphabet but one of combining existing letters into words, words into sentences and sentences into paragraphs.</p>
-<blockquote><p>‘These changes ultimately help the brain to specialise in everything from complex thinking to being socially adept.’</p></blockquote>
-<h2>Subcortical brain areas shrink and grow</h2>
-<p>Changes to white and grey matter structure are not restricted to the PFC. Subcortical brain structures start to mature right around puberty, and development is more or less complete by the mid-teenage years.</p>
-<p>Subcortical brain regions are those deep inside the brain under (‘sub’) the cortex in the frontal and temporal lobes. They include the limbic system (hippocampus and amygdala), and the corpus striatum, which is made up of four parts: nucleus accumbens, caudate, putamen and globus pallidus. They’re connected to the PFC and to each other by bundles of axons.</p>
-</div>
-</div>
-</div>
-<div class="page" title="Page 122">
-<div class="layoutArea">
-<div class="column">
-<p>In girls, the amygdala and hippocampus get bigger during puberty. At the same time, the four structures making up the corpus striatum all shrink. Maturation of subcortical structures is fastest in late childhood and early adolescence but the rate of growth or shrinkage slows right down after age sixteen.</p>
-</div>
-</div>
-</div>
-<h2>Teenage girls can be very emotional (no kidding!).</h2>
-<p>But not all teenage girls experience ‘storm and stress’. When I was seventeen, my levels of anxiety during final-year high-school exams were so out of control I ended up at the family GP being treated for panic attacks. But the vast majority of my teen years were joyful, empowering and a whole lot of fun.</p>
-<p>Sarah Whittle is an associate professor of psychiatry at the University of Melbourne, where she specialises in adolescent brain development and resilience. Whittle explained to me that the emotional lives of teenage girls differ from adults because of the ‘developmental mismatch’ between their <em>‘rational PFC’</em> and <em>‘emotional limbic brain’</em>.</p>
-<blockquote><p>It’s still only a theory, but the evidence is stacking up that hyperactivity of the limbic system is responsible for heightened emotional reactivity in adolescents. As the PFC matures, its ability to regulate the activity in subcortical structures improves.</p></blockquote>
-</div>
-</div>
-</div>
-<div class="page" title="Page 127">
-<div class="layoutArea">
-<div class="column">
-<h2>Learning to regulate emotions is a vital skill to learn in adolescence</h2>
-<p>Being able to calmly assess and keep emotions in check is a crucial life skill. Emotional regulation lets us navigate changing social landscapes and foster mental wellbeing. One of the most effective ways to regulate your emotions is a technique called cognitive reappraisal. Cognitive reappraisal changes the way you interpret a situation, which in turn calms your hot-headed response.</p>
-<p>Imagine you’re fourteen and walking up to the front door of a party. Inside you can hear all your girlfriends laughing hysterically. Your appraisal of the situation might be, <em>‘OMG! They’re laughing about me behind my back.’</em> That appraisal (correct or not) will likely trigger intense feelings of sadness and rejection, and might quickly be followed by the thought, <em>‘They hate me. I’m going home!’</em></p>
-<p>A different way of thinking about the situation – the reappraisal – might be, <em>‘Sure, they’re laughing. Perhaps someone told a funny joke. Maybe I should go inside and find out.’</em> The reappraisal (correct or not) encourages you to consider different perspectives and leads to a way of thinking that keeps a lid on emotional distress.</p>
-<h2>Adults are much better at cognitive reappraisal than children and teens.</h2>
-<p>We’re more experienced with a range of social situations and better at deploying the thinking skills required.</p>
-<p>The neural basis of cognitive reappraisal is studied by eliciting negative emotions with provocative or distressing photos comprised of images that range from neutral (furniture or landscapes) to horrific or exciting scenes (mutilated bodies or erotic nudes).</p>
-<p>Whittle’s research shows that teenage girls find the photos much more emotionally disturbing or arousing than adults. In her lab, fMRI shows that deploying the skill of cognitive reappraisal activates a distributed cortical network including the PFC, which in turn down-regulates excitability in the limbic system.</p>
-</div>
-</div>
-</div>
-<div class="page" title="Page 128">
-<div class="layoutArea">
-<div class="column">
-<h2>Emotional regulation skills don’t always magically appear as we mature, but they can be formally taught.</h2>
-<p>Whittle coaches her teenage volunteers in cognitive reappraisal by encouraging them to think, <em>‘This isn’t real, it’s a scene from a movie’,</em> or, ‘The situation looks worse than it is’, or, <em>‘It could be a lot worse’, or, ‘At least it is not me in that situation’.</em></p>
-<div class="page" title="Page 128">
-<div class="layoutArea">
-<div class="column">
-<h2>Is mental illness emotional development gone wrong?</h2>
-<p>One theme in adolescent brain research can be summed up by the phrase ‘moving parts get broken’. Because the teenage brain is undergoing such extensive remodelling, it’s thought that it’s easy for the wiring to go awry, predisposing girls to depression, anxiety and eating disorders.</p>
-<p>The emotional life of teenage girls is complex both inside and out. It’s clear that ‘inside’ hormones are fluctuating and neural networks are fine-tuning. But we tend to forget the dynamic shifts taking place ‘outside’.</p>
-<h2>Many emotions teens experience are novel</h2>
-<p>Especially those taking place in new social contexts. There is a first time for everything and that includes your first crush (especially if it’s unrequited), experience of jealousy, being left off the party invite list, and getting likes on Instagram. The newness of these experiences heightens their emotional impact. Sometimes this is positive – falling in love for the first time is pretty wonderful! Sometimes this is negative – being rejected by your first love is rather painful.</p>
-</div>
-</div>
-</div>
-<div class="page" title="Page 129">
-<div class="layoutArea">
-<div class="column">
-<h2>Girls’ preference for emotional intimacy increases during their early teenage years.</h2>
-<p>Intense ‘bosom buddy’ friendships form around the same time girls ‘break up’ with their families. This leaves girls potentially vulnerable if those friendships break down or are less than ideal. Loss of friendship is a significant and overlooked potential cause of stress.</p>
-<p>While the ‘wrong’ friendships can lead teens astray, the ‘right’ kinds of friends are powerful and protective. I had one such dear friend all through high school (we’re still close now and I’ve called on her psychiatric training to inform sections of this book). While writing this chapter we talked about how our devoted friendship buffered us from the tumult so many of our peers experienced. We know the happiest teens aren’t the ones who have the most ‘friends’ on Instagram but the ones who have a few close supportive friendships, and sometimes that means having one terrific friend.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="page" title="Page 129">
-<div class="layoutArea">
-<div class="column">
-<hr />
-<p>This is an excerpt from The Women’s Brain Book. The neuroscience of health, hormones and happiness. (Hachette 2018).</p>
-</div>
-</div>
-</div>
-<p>The post <a href="http://yourbrainhealth.com.au/three-facts-about-teenage-brain/" rel="nofollow">Three facts about teenage brains all neuroscientists agree on.</a> appeared first on <a href="http://yourbrainhealth.com.au" rel="nofollow">Your Brain Health</a>.</p>
-                <p class="text-muted">in <a href="http://yourbrainhealth.com.au">Yourbrainhealth</a> on February 19, 2020 06:39 AM.</p>
               </li>
           </ul>
         </div>
