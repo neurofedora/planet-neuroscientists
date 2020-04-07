@@ -5,8 +5,72 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2020-04-06T18:00:57+00:00</updated>
+	<updated>2020-04-07T07:01:19+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en">Swedish scientists call for evidence-based policy on COVID-19</title>
+		<link href="https://forbetterscience.com/2020/04/07/swedish-scientists-call-for-evidence-based-policy-on-covid-19/"/>
+		<id>http://forbetterscience.com/?p=47409</id>
+		<updated>2020-04-07T06:39:26+00:00</updated>
+		<content type="html">
+ Swedish academics Nele Brusselaers, Lynn Kamerlin and Pernilla Wittung-Stafshede react to COVID-19 pandemic and ask Swedish authorities: &quot;Yes, it is important to avoid panic - but is it not better to be over-prepared?&quot;</content>
+		<author>
+			<name>Leonid Schneider</name>
+			<uri>https://forbetterscience.com</uri>
+		</author>
+		<source>
+			<title type="html">For Better Science</title>
+			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
+			<link rel="self" href="https://forbetterscience.com/feed/"/>
+			<id>https://forbetterscience.com</id>
+			<updated>2020-04-07T07:01:07+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Nerd Food: Computational Finance, Part I: Introduction</title>
+		<link href="http://mcraveiro.blogspot.com/2020/04/nerd-food-computational-finance-part-i.html"/>
+		<id>tag:blogger.com,1999:blog-2672427473119923109.post-2980982236020395413</id>
+		<updated>2020-04-06T19:45:40+00:00</updated>
+		<content type="html">
+ Nerd Food: Computational Finance, Part I: Introduction&lt;div id=&quot;content&quot;&gt;&lt;p&gt;Welcome to the first part of what we hope will be a long series of articles exploring &lt;a href=&quot;https://www.quantlib.org/&quot;&gt;QuantLib&lt;/a&gt;, &lt;a href=&quot;https://github.com/OpenSourceRisk/Engine&quot;&gt;Open Source Risk Engine&lt;/a&gt; (ORE), &lt;a href=&quot;https://github.com/libbitcoin/libbitcoin-system&quot;&gt;libbitcoin&lt;/a&gt;and other interesting finance-related FOSS (Free and Open Source) projects. However, I'm afraid this will be a bit of a dull first post, as we need to clarify our objectives before we can jump into the fray. &lt;/p&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-orgc99cdfe&quot;&gt;&lt;h2 id=&quot;orgc99cdfe&quot;&gt;About&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orgc99cdfe&quot;&gt;&lt;p&gt;Even though I've been a software engineer in the financial sector for over fifteen years, I've always felt I lacked a &lt;i&gt;deep understanding&lt;/i&gt;of the foundational concepts that make up the domain. As a self-confessed reductionist, I find this state of affairs extremely uncomfortable, akin to hearing a continuous loop of David Hilbert's words: &lt;i&gt;wir müssen wissen, wir werden wissen&lt;/i&gt;&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.1&quot; id=&quot;fnr.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The situation &lt;i&gt;had&lt;/i&gt; to be remedied, somehow, and the material you are now reading is the proposed fix for my ailments. As to the methodology: given I've had some success in applying the Feynman Technique&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.2&quot; id=&quot;fnr.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; to &lt;a href=&quot;http://mcraveiro.blogspot.com/2015/08/nerd-food-neurons-for-computer-geeks.html&quot;&gt;other complex domains&lt;/a&gt;, it seemed only natural to try to use it for this endeavour as well. Past experience also demonstrated writing is an adequate replacement for &lt;i&gt;in vivo&lt;/i&gt;communication, which is just as well in this brave new world of social distancing. &lt;/p&gt; &lt;p&gt;So that's that for the &lt;i&gt;why&lt;/i&gt; and the &lt;i&gt;how&lt;/i&gt;. But, just &lt;i&gt;what&lt;/i&gt; exactly are we researching? &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-org038ff83&quot;&gt;&lt;h3 id=&quot;org038ff83&quot;&gt;Scope&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-org038ff83&quot;&gt;&lt;p&gt;These posts shall largely amble where our fancy takes us, within the porous boundaries of finance. Alas, we can hardly keep calling our target domain &quot;trading, accounting, crypto and a bit of quantitative finance, when viewed through the lens of FOSS&quot; - descriptive though that might sound. We are Software Engineers after all, and if there is one thing we do is to name things, &lt;i&gt;especially&lt;/i&gt; when we lack competence to do so&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.3&quot; id=&quot;fnr.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. In this vein, I decided to call this motley domain of ours &quot;Computational Finance&quot;. Should the name have merit, I'm afraid I have little claim to it, as it was shamelessly stolen from this passage in &lt;a href=&quot;https://writings.stephenwolfram.com/2016/09/how-to-teach-computational-thinking/&quot;&gt;Wolfram's writings&lt;/a&gt;: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;Doctors, lawyers, teachers, farmers, whatever. The future of all these professions will be full of computational thinking. Whether it’s sensor-based medicine, computational contracts, education analytics or computational agriculture - success is going to rely on being able to do computational thinking well. &lt;/p&gt; &lt;p&gt;I’ve noticed an interesting trend. Pick any field X, from archeology to zoology. There either is now a “computational X” or there soon will be. And it’s widely viewed as the future of the field. &lt;/p&gt;&lt;/blockquote&gt; &lt;p&gt;These seemed like inspiring words for anyone embarking on a long and uncertain journey, so we made them our own and, in turn, it gave us a name to rally around. But what of its boundaries? One of the biggest challenges facing the reductionist is that, in the limit, &lt;i&gt;everything is interconnected with everything else&lt;/i&gt;, for there is no natural halting function. Thus, if you are not careful, all paths will eventually lead you into the realm of quarks and particle physics, regardless of your starting point. Now, that would not be an entirely useful outcome. I have never found a completely satisfactory answer to this question in any on my previous meanderings, but in general I tend to follow an empiric approach and let &lt;i&gt;taste&lt;/i&gt; be my guide&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.4&quot; id=&quot;fnr.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. Granted, its probably not the scientific solution you were expecting, but it seems that there are &quot;intuitive&quot; boundaries in subjects, and when we hit one of those we shall stop&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.5&quot; id=&quot;fnr.5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. As an example, for our purposes we need not look in detail at legal frameworks when trying to understand financial concepts, though the two disciplines are deeply intertwined. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-orgd3a5007&quot;&gt;&lt;h3 id=&quot;orgd3a5007&quot;&gt;Structure&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-orgd3a5007&quot;&gt;&lt;p&gt;An issue which is closely interrelated with the previous one is on how to strike a balance between computational exploration versus domain definitions. Too much exploration and you proceed full steam ahead without knowing the meaning of things; too many boring definitions and they become just words without bringing any light to the subject under scrutiny. The sweet spot lies somewhere in the middle. &lt;/p&gt; &lt;p&gt;Our approach can be described as follows. We shall try to progress very slowly and methodically through the concepts in the domain, building them up as we climb the abstraction ladder but without making them too dense and technical. We'll make extensive use of Wikipedia definitions, where possible, but keeping these focused only on the point at hand rather than exploring the myriad of possibilities around a theme. &lt;/p&gt;  &lt;p&gt;Finally, we shall try to marry domain concepts with our chosen implementations - the computational experiments part - in order to illustrate their purpose and get a better understanding at what it is that they are trying to do. So, each post will be focused on one fairly narrow subject area, start with a bunch of definitions which are hopefully self-explanatory and then proceed to explore the available implementations on that topic, or code that we write ourselves. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-org81de0c9&quot;&gt;&lt;h3 id=&quot;org81de0c9&quot;&gt;Audience&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-org81de0c9&quot;&gt;&lt;p&gt;The target audience for this material is the fabled &lt;i&gt;homo developus&lt;/i&gt;, that non-existent &quot;standard developer&quot; - in this particular case, one moderately competent on C++ but unfamiliar with computational finance. On the &quot;finance&quot; part, if you are already familiar with the domain, you will no doubt find the content &lt;i&gt;very&lt;/i&gt; slow going. I'm afraid this is by design: the objective is to try to build the concepts on a solid foundation for those &lt;i&gt;not in the know&lt;/i&gt;, so slowness is unavoidable&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.6&quot; id=&quot;fnr.6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;. &lt;/p&gt; &lt;p&gt;With regards to the computational part: the astute reader will likely point out that there are a great deal of tutorials on QuantLib, ORE and many other libraries of a similar ilk, and many books have been written on quantitative finance. One could be forgiven for wondering if there is a need to pile on more literature onto a seemingly already crowded subject. &lt;/p&gt; &lt;p&gt;In our defence, we are yet to find work that directly targets &quot;plain&quot; software developers and provides them with a sufficiently broad view of the domain. In addition, most of the existing material is aimed at either those with strong mathematical abilities but no domain knowledge, or its converse, leaving many gaps in the understanding. What we are instead aiming for is to target those with strong programming abilities but no particular knowledge of either computational finance &lt;i&gt;or&lt;/i&gt; mathematics. And this leads us nicely to our next topic. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-org04a295b&quot;&gt;&lt;h3 id=&quot;org04a295b&quot;&gt;Mathematics&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-org04a295b&quot;&gt;&lt;p&gt;Our assumption is that you, dear reader, are not able to attain deep levels of understanding by staring at page after page of complex mathematical formulae. I, for one, certainly cannot. Unfortunately, non-trivial mathematics is difficult to avoid when covering a subject matter of this nature so, as a counterweight, we shall strive to use it sparingly and only from a software engineering &lt;i&gt;application&lt;/i&gt;perspective. Note that this approach is clearly not suitable for the mathematically savvy amongst us, as they will find it unnecessarily laboured; then again, our focus lies elsewhere. &lt;/p&gt; &lt;p&gt;Our core belief is that an &lt;i&gt;average reader&lt;/i&gt; (like me) should be able to attain a software engineer's intuition of &lt;i&gt;how things work&lt;/i&gt; just by fooling around with software models of formulae. The reason why I am very confident on this regard is because that's how developers learn: by coding and seeing what happens. In fact, it is this very tight feedback loop between having an idea and experimenting with it that got many of us hooked into programming in the first place, so its a very powerful tool in the motivational arsenal. And, as it turns out, these ideas are related to Wolfram's concept of &lt;a href=&quot;https://www.wolframscience.com/nks/notes-3-12--history-of-experimental-mathematics/&quot;&gt;Experimental Mathematics&lt;/a&gt;. Ultimately, our aspiration is to copy the approach taken by Klein in &lt;a href=&quot;https://codingthematrix.com/&quot;&gt;Coding the Matrix&lt;/a&gt;, though perhaps that sets the bar a tad too high. Well, at least you get the spirit of the approach. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-org3d4740f&quot;&gt;&lt;h3 id=&quot;org3d4740f&quot;&gt;Cryptos&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-org3d4740f&quot;&gt;&lt;p&gt;Another rather peculiar idea we pursued is the use of cryptocurrencies throughout, to the exclusion of &lt;i&gt;everything else&lt;/i&gt;. Whilst very popular in the media, where they are known as &lt;i&gt;cryptos&lt;/i&gt;, in truth cryptocurrencies still have a limited presence in the &quot;real&quot; world of finance, and nowhere more so than in derivatives - &lt;i&gt;i.e.&lt;/i&gt;, the bulk of our analysis. So at first blush, this is a most puzzling choice. We have decided to do so for three reasons. &lt;/p&gt; &lt;p&gt;Firstly, just because I wanted to learn more about cryptos. Secondly, because there is a need to bridge the knowledge gap between these two distinct worlds of finance; to blend the old with the new if you will. Personally, I think it will be interesting to see what the proliferation of derivatives will do to cryptos - but for that we need to disseminate financial knowledge. Finally, and most important of all, because in order to properly illustrate all of the concepts we shall cover, and to drive the open source libraries to their potential, one needs &lt;i&gt;vast amounts of data of the right kind&lt;/i&gt;. Lets elaborate further on this point. &lt;/p&gt; &lt;p&gt;One of the biggest problems with any material in quantitative finance is in obtaining data sets which are sufficiently rich to cover all of the concepts being explained. This, in my opinion, is one of the key shortcomings with most tutorials: they either assume users can source the data themselves, or provide a small data set to prove a very specific point but which is insufficient for wider exploration&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.7&quot; id=&quot;fnr.7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. This document takes a slightly different approach. We will base ourselves on a &lt;i&gt;simulated world&lt;/i&gt; - a parallel reality if you'd like, thinly anchored to our reality by freely available data taken from the crypto markets. We shall then generate &lt;i&gt;all&lt;/i&gt; of the remaining data, to the level of precision, richness and consistency required both to drive the code samples, but also to allow for &quot;immersive&quot; exploration. In fact, the &lt;i&gt;very processes for data generation&lt;/i&gt; will be used as a pathway for domain exploration. &lt;/p&gt; &lt;p&gt;Of course, generated data is not perfect - &lt;i&gt;i.e.&lt;/i&gt;, &lt;i&gt;realistic&lt;/i&gt; it is not, by definition - but our point is to understand the concepts, not to create new quant models that trade in the real world, so it is adequate for our needs. In addition, the data sets and code samples, as well as the means used to derive them shall be part of a git repository under an open source licence, so they can be extended and improved over time. &lt;/p&gt; &lt;p&gt;If you are not familiar with cryptos, don't worry. For starters, we can &lt;i&gt;assume&lt;/i&gt; the intricate mechanistic details to a large extent - the blockchain and so forth - and introduce key concepts as required. We need not concern ourselves with this because there is plenty of freely available material covering it in excruciating detail, and designed specifically for software engineers. Instead, we shall treat cryptos &lt;i&gt;as if they were regular currencies&lt;/i&gt;, except where they are just &lt;i&gt;too different&lt;/i&gt; - in which case we'll point out the differences. Its a bit of a strange approach, but hopefully it will produce the desired results. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-org92cf76f&quot;&gt;&lt;h3 id=&quot;org92cf76f&quot;&gt;Non Goals&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-org92cf76f&quot;&gt;&lt;p&gt;If you are trying to learn techniques on how to trade, this is not the material for you. Even when we discuss trading strategies and other similar topics, our focus is always on trying to understand how the machinery works rather than on how to make money with it. Similarly, if you are a quant or are trying to become one, you are probably better off reading the traditional books such as Hull or Wilmott rather than these posts, as our treatment of mathematics will be far too basic for your requirements. However, if you are an expert in this subject area, or if you find any mistakes please do point them out. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-orge684ba8&quot;&gt;&lt;h2 id=&quot;orge684ba8&quot;&gt;Legalese&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orge684ba8&quot;&gt;&lt;p&gt;As with anything to do with finance, we need to set out the standard disclaimers. To make sure these are seen, we shall add them to each post. &lt;/p&gt;&lt;/div&gt; &lt;div class=&quot;outline-3&quot; id=&quot;outline-container-org8f32d9b&quot;&gt;&lt;h3 id=&quot;org8f32d9b&quot;&gt;Legal Disclaimer&lt;/h3&gt;&lt;div class=&quot;outline-text-3&quot; id=&quot;text-org8f32d9b&quot;&gt;&lt;p&gt;All of the content, including source code, is either written by the author of the posts, or obtained from freely available sites in the internet, with suitable software licences. All content sources shall be clearly identified at the point of use. No proprietary information &lt;i&gt;of any kind&lt;/i&gt; - including, but not limited to, source code, text, market data or mathematical models - shall be used within this material. &lt;/p&gt; &lt;p&gt;All of the views expressed here represent exclusively myself and are not those of any corporation I may be engaged in commercial activities with. &lt;/p&gt; &lt;p&gt;The information available in these blog posts is for your general information and use and is not intended to address your particular requirements. In particular, the information does not constitute any form of financial advice or recommendation and is not intended to be relied upon by users in making (or refraining from making) any investment decisions.&lt;sup&gt;&lt;a class=&quot;footref&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fn.8&quot; id=&quot;fnr.8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;All software written by the author for these posts is licensed under the Gnu GPL v3. As per the licence, it is &quot;distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details.&quot; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;outline-2&quot; id=&quot;outline-container-orge15bb5d&quot;&gt;&lt;h2 id=&quot;orge15bb5d&quot;&gt;Next&lt;/h2&gt;&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orge15bb5d&quot;&gt;&lt;p&gt;With all of the preliminaries out of the way, we can move on to the meat of the subject. On Part II we shall discuss our first real topic, and it could not be much more fundamental: &lt;i&gt;Money&lt;/i&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;footnotes&quot;&gt;&lt;h2 class=&quot;footnotes&quot;&gt;Footnotes: &lt;/h2&gt;&lt;div id=&quot;text-footnotes&quot;&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.1&quot; id=&quot;fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;&quot;We must know, we will know&quot;. As per &lt;a href=&quot;https://en.wikipedia.org/wiki/David_Hilbert&quot;&gt;Wikipedia&lt;/a&gt;: &lt;/p&gt; &lt;blockquote&gt;&lt;p&gt;The epitaph on his tombstone in Göttingen consists of the famous lines he spoke at the conclusion of his retirement address to the Society of German Scientists and Physicians on 8 September 1930. The words were given in response to the Latin maxim: &quot;Ignoramus et ignorabimus&quot; or &quot;We do not know, we shall not know&quot;. &lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.2&quot; id=&quot;fn.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;The &lt;a href=&quot;https://www.farnamstreetblog.com/2012/04/learn-anything-faster-with-the-feynman-technique/&quot;&gt;Feynman Technique&lt;/a&gt; is a well-established learning methodology. For more details, see &lt;a href=&quot;https://www.farnamstreetblog.com/2015/01/richard-feynman-knowing-something/&quot;&gt;Richard Feynman: The Difference Between Knowing the Name of Something and Knowing Something&lt;/a&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.3&quot; id=&quot;fn.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;There are no circumstances under which I have seen software developers lacking confidence. I feel that the motto of our profession should be the Latin translation of &lt;i&gt;Make up with confidence that which you lack for in competence.&lt;/i&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.4&quot; id=&quot;fn.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;An idea that was most likely inspired by Linus' views on &lt;i&gt;good taste&lt;/i&gt;. For details see &lt;a href=&quot;https://medium.com/@bartobri/applying-the-linus-tarvolds-good-taste-coding-requirement-99749f37684a&quot;&gt;Applying the Linus Torvalds “Good Taste” Coding Requirement&lt;/a&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.5&quot; id=&quot;fn.5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;Of course, &lt;i&gt;your&lt;/i&gt; intuition is not &lt;i&gt;my&lt;/i&gt; intuition. I'm afraid you will have to take my taste as a given, even where you disagree. Feel free to make your views heard though. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.6&quot; id=&quot;fn.6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;As they say in my home country of Angola, &lt;i&gt;malembe malembe&lt;/i&gt;. The expression can be loosely translated to English as &quot;slowly but surely&quot;, or &quot;slowly does it&quot;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.7&quot; id=&quot;fn.7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;As an example, the latter approach is taken by a library I respect very much, the &lt;a href=&quot;https://github.com/OpenSourceRisk/Engine&quot;&gt;Open Source Risk Engine (ORE)&lt;/a&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt; &lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a class=&quot;footnum&quot; href=&quot;http://mcraveiro.blogspot.com/feeds/posts/default#fnr.8&quot; id=&quot;fn.8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;This paragraph was obtained from the &lt;a href=&quot;https://trulyifa.co.uk/disclaimer/&quot;&gt;Truly Independent Ltd&lt;/a&gt; and modified to suit our needs. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content>
+		<author>
+			<name>Marco Craveiro</name>
+			<email>noreply@blogger.com</email>
+			<uri>http://mcraveiro.blogspot.com/</uri>
+		</author>
+		<source>
+			<title type="html">Marco Craveiro</title>
+			<link rel="self" href="http://www.blogger.com/feeds/2672427473119923109/posts/default"/>
+			<id>tag:blogger.com,1999:blog-2672427473119923109</id>
+			<updated>2020-04-06T19:45:40+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-CA">arXiv recognizes the work of the scientific community</title>
+		<link href="https://blogs.cornell.edu/arxiv/2020/04/06/arxiv-recognizes-the-work-of-the-scientific-community/"/>
+		<id>https://blogs.cornell.edu/arxiv/?p=592</id>
+		<updated>2020-04-06T19:24:36+00:00</updated>
+		<content type="html" xml:lang="en-CA">
+ &lt;p&gt;As the world continues to grapple with the COVID-19 pandemic, &lt;a href=&quot;http://arxiv.org/&quot;&gt;arXiv&lt;/a&gt; staff and leadership would like to extend a heartfelt thanks to our community of volunteers, as well as the authors submitting their work to &lt;a href=&quot;http://arXiv.org&quot;&gt;arXiv.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;More than &lt;a href=&quot;https://arxiv.org/moderators/&quot;&gt;180 moderators&lt;/a&gt;, representing 22 countries across the globe, have continued to sift through thousands of submissions, ensure quality, and post research on arxiv.org despite significant disruptions to their personal and professional lives.&lt;/p&gt;
+&lt;p&gt;Since the World Health Organization declared the outbreak a “public health emergency of international concern” on January 30, 2020, more than 26,000 scholarly works have been announced on the site, including &lt;a href=&quot;https://arxiv.org/covid19search&quot;&gt;many related to the coronavirus&lt;/a&gt;. March 2020 was the second busiest month in arXiv history, with 14,415 new papers posted. This is a testament to the astounding effectiveness of arXiv’s moderators. It also reflects the incredible vibrancy of the global research community and the fact that the pursuit of knowledge continues despite the pandemic. We’re proud that arXiv is used extensively to share knowledge across disciplines and across the world.&lt;/p&gt;
+&lt;p&gt;Members of the &lt;a href=&quot;https://arxiv.org/about/people/scientific_ad_board&quot;&gt;Scientific&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/about/people/member_ad_board&quot;&gt;Member Advisory Boards&lt;/a&gt; also continue to honor their commitment to arXiv, meeting with the new executive director, corresponding via email, and contributing their perspectives on operations and aspirations for 2020 and beyond.&lt;/p&gt;
+&lt;p&gt;Here at arXiv, our staff has been working remotely for several weeks now, like so many of our colleagues. And so it is from our home offices that, again, we thank our volunteers and share our gratitude for the strong arXiv community that remains connected during this difficult time. Thank you.&lt;/p&gt;</content>
+		<author>
+			<name>ame5</name>
+			<uri>https://blogs.cornell.edu/arxiv</uri>
+		</author>
+		<source>
+			<title type="html">arXiv.org blog</title>
+			<subtitle type="html">news from arXiv.org</subtitle>
+			<link rel="self" href="https://blogs.cornell.edu/arxiv/feed/"/>
+			<id>https://blogs.cornell.edu/arxiv</id>
+			<updated>2020-04-07T07:01:07+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Hydroxychloroquine-COVID-19 study did not meet publishing society’s “expected standard”</title>
@@ -134,7 +198,26 @@ is going to be really key to knowing if we’ve licked this problem or not.” &
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-gb">Engineering resources for the COVID-19 response</title>
+		<link href="https://www.elsevier.com/connect/engineering-resources-for-the-covid-19-response"/>
+		<id>https://www.elsevier.com/connect/engineering-resources-for-the-covid-19-response</id>
+		<updated>2020-04-06T14:31:50+00:00</updated>
+		<content type="html">
+ Information for all phases of emergency preparation and response, curated by Elsevier’s Engineering Solutions team</content>
+		<author>
+			<name>Elsevier Connect</name>
+			<uri></uri>
+		</author>
+		<source>
+			<title type="html">Elsevier Connect</title>
+			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
+			<id>https://www.elsevier.com/connect/feed</id>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -218,7 +301,7 @@ as the abrupt pullback.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -302,7 +385,7 @@ of systems in nature. And that was quite a surprising result.”&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -568,7 +651,7 @@ body’s inflammatory response can be contributing to the damage.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -639,7 +722,7 @@ cultures, tests show.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -699,7 +782,7 @@ cultures, tests show.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -777,7 +860,7 @@ cultures, tests show.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -797,7 +880,7 @@ cultures, tests show.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -864,7 +947,7 @@ must breathe in to get infected isn’t known. &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -996,7 +1079,7 @@ published with the new &lt;em&gt;Science&lt;/em&gt; report&lt;/a&gt;.&lt;/p&gt;<
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -1063,7 +1146,7 @@ known to be involved in human emotions, too. &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -1515,7 +1598,7 @@ results.” And that can take a lot of time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -1716,7 +1799,7 @@ keep it.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -1937,7 +2020,7 @@ societal disruption.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2073,7 +2156,7 @@ Gomez-Robles to withhold judgment on the brains of Lucy’s kind.&lt;/p&gt;</con
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2182,7 +2265,7 @@ how these materials behave as they warm up.&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2265,7 +2348,7 @@ can’t easily be compared to one another, she contends.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2337,7 +2420,7 @@ can’t easily be compared to one another, she contends.&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-06T18:00:42+00:00</updated>
+			<updated>2020-04-07T07:01:01+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -2536,7 +2619,7 @@ positive results&lt;/a&gt;, as of March 25. &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2555,7 +2638,7 @@ positive results&lt;/a&gt;, as of March 25. &lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2754,7 +2837,7 @@ understand the evolution of galaxies and the evolution of black holes.”&lt;/p&
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2917,7 +3000,7 @@ sushi.”&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -2965,7 +3048,7 @@ sushi.”&lt;/p&gt;</content>
 			<subtitle type="html">news from arXiv.org</subtitle>
 			<link rel="self" href="https://blogs.cornell.edu/arxiv/feed/"/>
 			<id>https://blogs.cornell.edu/arxiv</id>
-			<updated>2020-03-30T18:00:52+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -3140,7 +3223,7 @@ has been turned upside down.” &lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -3308,7 +3391,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-04-06T18:00:45+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -3349,7 +3432,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-06T18:00:42+00:00</updated>
+			<updated>2020-04-07T07:01:01+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -3912,7 +3995,7 @@ women.”&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -3932,7 +4015,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4145,7 +4228,7 @@ women.”&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -4164,7 +4247,7 @@ women.”&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -4184,7 +4267,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4203,7 +4286,7 @@ women.”&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -4303,7 +4386,7 @@ women.”&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -4461,7 +4544,7 @@ women.”&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -4508,7 +4591,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4628,7 +4711,7 @@ women.”&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-04-03T18:00:44+00:00</updated>
+			<updated>2020-04-07T07:01:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -4770,7 +4853,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4943,7 +5026,7 @@ women.”&lt;/p&gt;
 			<subtitle type="html">news from arXiv.org</subtitle>
 			<link rel="self" href="https://blogs.cornell.edu/arxiv/feed/"/>
 			<id>https://blogs.cornell.edu/arxiv</id>
-			<updated>2020-03-30T18:00:52+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5092,7 +5175,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-06T18:00:42+00:00</updated>
+			<updated>2020-04-07T07:01:01+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -5113,7 +5196,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5213,7 +5296,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">news from arXiv.org</subtitle>
 			<link rel="self" href="https://blogs.cornell.edu/arxiv/feed/"/>
 			<id>https://blogs.cornell.edu/arxiv</id>
-			<updated>2020-03-30T18:00:52+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5319,7 +5402,7 @@ to the function. If the signature file cannot be found, it'll list available one
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5501,7 +5584,7 @@ PLOS Computational Biology 15(10): e1007472&lt;/li&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5886,7 +5969,7 @@ ans =
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-04-06T18:00:50+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -5946,7 +6029,7 @@ ans =
 			<subtitle type="html">news from arXiv.org</subtitle>
 			<link rel="self" href="https://blogs.cornell.edu/arxiv/feed/"/>
 			<id>https://blogs.cornell.edu/arxiv</id>
-			<updated>2020-03-30T18:00:52+00:00</updated>
+			<updated>2020-04-07T07:01:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6167,7 +6250,7 @@ sns.set()  # From now on matplotlib will use the seaborn theme.
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-06T18:00:42+00:00</updated>
+			<updated>2020-04-07T07:01:01+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6320,7 +6403,7 @@ Over 60 titles across 20 countries of Sub-Saharan Africa were recently ingested 
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-04-06T18:00:42+00:00</updated>
+			<updated>2020-04-07T07:01:01+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6631,249 +6714,6 @@ Front. Comput. Neurosci. 11:48. doi: 10.3389/fncom.2017.00048&lt;/li&gt;
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
 			<updated>2020-04-06T10:31:18+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Transitioning away from Matlab</title>
-		<link href="https://xcorr.net/2020/02/21/transitioning-away-from-matlab/"/>
-		<id>http://xcorr.net/?p=7273</id>
-		<updated>2020-02-21T14:45:00+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;a href=&quot;https://xcorr.net/2020/02/18/how-i-got-a-job-in-industry/&quot;&gt;In my last article&lt;/a&gt;, I talked about how I got a job in industry. I had been programming Python on and off for 10 years when I got my first non-academic job. Having proficiency in a language that people use outside of academia will improve your chances of getting a job in industry. Learning a new language will also grow your abilities as a programmer and will unlock new projects and analyses you might have otherwise been afraid to tackle.&lt;/p&gt;
-
-
-
-&lt;p&gt;What if you’re in a lab that’s been using Matlab for years and you haven’t had a chance to learn Python? Here’s my guide to transition off of Matlab to Python. There are a few specific links to neuroscience at the end of the article, but it should be useful to anybody approaching Python from a Matlab background.&lt;/p&gt;
-
-
-
-&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;This is part 1 of an ongoing series on learning Python. &lt;a href=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/&quot;&gt;Part 2 – picking Python environments, packages and IDEs is here&lt;/a&gt;. &lt;a href=&quot;https://xcorr.net/2020/02/21/transitioning-away-from-matlab/&quot;&gt;Part 3 – translating old code with test-driven development is here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
-
-
-
-&lt;div class=&quot;wp-block-jetpack-markdown&quot;&gt;&lt;h3&gt;Learn Python the hard way&lt;/h3&gt;
-&lt;p&gt;Python is one of the most popular languages out there – &lt;a href=&quot;http://pypl.github.io/PYPL.html&quot;&gt;more popular than Matlab by a factor of at least 10&lt;/a&gt; – and it’s the language the vast majority people transitioning from Matlab will choose. There’s two basic strategies you can apply here:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Transfer learning (aka the easy way). You have things in Matlab you use every day – array operations, plotting, signal processing, etc. You learn to do the same thing in Python, &lt;a href=&quot;https://cheatsheets.quantecon.org/&quot;&gt;perhaps with the aid of a cheatsheet&lt;/a&gt;. A lot of the Python data science API (numpy, scipy and matplotlib in particular) are very  similar to Matlab. They were originally built to replicate functionality in Matlab. With this route, you’ll get moderately productive very fast.&lt;/li&gt;
-&lt;li&gt;Starting from scratch (aka the hard way). Learn the syntax, then do something you couldn’t do in Matlab, for example:
-&lt;ul&gt;
-&lt;li&gt;Learn algorithms and data structures&lt;/li&gt;
-&lt;li&gt;Make a GUI application (e.g. in PyQT)&lt;/li&gt;
-&lt;li&gt;Make a game&lt;/li&gt;
-&lt;li&gt;Make a dynamic website&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;My &lt;em&gt;slightly&lt;/em&gt; controversial opinion is you’re better off starting from scratch. If you use the transfer learning method you will be less productive than you currently are for a long time. You will feel annoyed at your own incompetence (&lt;em&gt;&quot;why am I doing this to myself? I could do the same thing twice as fast!&quot;&lt;/em&gt;). Furthermore, you will have a tendency of doing things &lt;em&gt;the Matlab way&lt;/em&gt; (using matrices for everything, index chaining, avoiding for loops) that are error-prone and you shouldn’t be doing in a general purpose programming language.&lt;/p&gt;
-&lt;p&gt;By starting from scratch you will learn new things you couldn’t do before at all – you will feel like you have new powers. You can write a GUI! You can make dynamic visualizations! You can make games! You can do deep learning! Your day-to-day productivity won’t suffer because you’ll be learning &lt;em&gt;new&lt;/em&gt; skills instead of relearning old ones poorly. You’ll end up being more productive in Python than you ever were in Matlab. You’ll write idiomatic code.&lt;/p&gt;
-&lt;h3&gt;How long will it take to learn Python?&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.quora.com/How-do-I-become-a-professional-python-programmer&quot;&gt;500 hours&lt;/a&gt;. Ok, that number is made up, but it’s probably not far from the truth. You can learn the syntax in a weekend. You can make your first significant project in a few days. &lt;a href=&quot;https://norvig.com/21-days.html&quot;&gt;However, proficiency comes with time&lt;/a&gt;. Don’t wait until 3 weeks before a technical interview to start learning. I’ve seen candidates do this, it’s not good. You’re better off asking for an interview in Matlab if you don’t have hundreds of hours of Python under your belt. Start today, keep at it every day (1-2 hours a day will suffice) and it will pay off.&lt;/p&gt;
-&lt;h3&gt;Why is Python so popular anyway?&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Yoshua_Bengio&quot;&gt;Yoshua Bengio&lt;/a&gt;. Again, I’m halfway joking, but one of the biggest reasons people have moved away from Matlab was the adoption of Python for deep learning. It started with Theano, which came out of Bengio’s lab. It built on numpy, scipy, sklearn and jupyter, all of which predated the rise of deep learning. Then came Tensorflow. People at Google were already using Python; Guido van Rossum, creator of Python, was famously employed by Google at one point. Google needed a high-level language to iterate quickly on models; many of the people involved in Theano were involved in Tensorflow. Python made sense.&lt;/p&gt;
-&lt;p&gt;It could have landed another way. &lt;a href=&quot;http://torch.ch/&quot;&gt;We might all be using Lua instead if Yann had prevailed over Yoshua&lt;/a&gt;! But combine industry pressure, lots of money, the education sector needing a good first language, and open source, and Python is a runaway success now. And it might change in the future. Maybe we’ll all be using Swift in the future. Or Rust. Or Julia (my personal favorite!). For now, Python is the language to learn.&lt;/p&gt;
-&lt;h3&gt;I don’t even hate Matlab&lt;/h3&gt;
-&lt;p&gt;I’ve used Matlab extensively. I’ve been deep enough to create my own mex files and using Java. I’ve created GUIs in GUIDE. I have created pretty big codebases and classes. I even coded up my own neural net framework which I never published.&lt;/p&gt;
-&lt;p&gt;I’m not going to bash Matlab here. You can write good code in Matlab – and many people that have been using Matlab for years end up writing disciplined code. However, I have seen a lot of Matlab code of a certain kind – using matrices for everything (even though Matlab has dataframes and hashmaps!), avoiding for loops (even though it has a great JIT!), using a giant set of globals in GUIDE (there’s a way of writing good GUIDE apps, I’m sure!). It will take a little bit of work to unlearn these old habits if you have them.&lt;/p&gt;
-&lt;h3&gt;A curriculum&lt;/h3&gt;
-&lt;p&gt;If you have never seen or touched Python, you can start by learning the syntax and the basic data structures (tuples, dicts, and lists) through online resources.&lt;/p&gt;
-&lt;p&gt;Some sample websites are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.learnpython.org/&quot;&gt;Learn Python&lt;/a&gt;. Skip the numpy and pandas tutorials, we’ll get back to that later.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-python&quot;&gt;Codecademy&lt;/a&gt;. Similar.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://learnpythonthehardway.org/python3/&quot;&gt;Learn Python The Hard Way&lt;/a&gt;. A lot of practical exercises in this one. 30$.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.makeartwithpython.com/&quot;&gt;Make Art With Python&lt;/a&gt;. If you’re interested in games and interactive art this might hold your attention. 30$.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Most of these websites will have some sort of live evaluation directly on the website. Pretty soon you’ll need a local install of Python. I recommend installing the &lt;a href=&quot;https://www.anaconda.com/distribution/&quot;&gt;Anaconda distribution of Python 3&lt;/a&gt;. This includes the &lt;code&gt;conda&lt;/code&gt; environment manager, which will allow you to maintain different sets of packages.&lt;/p&gt;
-&lt;h3&gt;Picking a first project&lt;/h3&gt;
-&lt;p&gt;At this point, you could consider using Python for a project (no data science stuff yet). The first app I made was a GUI to upload files to a website. A few years later I made an app in PyQT to annotate physiological recordings with notes. You could make a website. Lots of different projects but basically make sure you cover the basics, meaning:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;functions – these will trip you up. Python has pass-by-reference semantics for object types. In Matlab, a function cannot modify its arguments (unless it’s a reference object, but these are pretty uncommon). But in Python you can mess with your arguments:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def my_append_fun(a)
-    a.append('b')
-
-c = ['a']
-my_append_fun(c)
-print(c)
-# Prints ['a', 'b']
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It’s not good practice to do this, but you might do it accidentally and you will be very confused.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;modules – in Matlab, one file = one function (unless it’s an internal function private to that file). In Python you can have multiple functions and classes inside a file. Each file defines a module that can be imported. Then there are other people’s modules! pip! Understanding how and when a certain module or function is accessible is one of the subtle things about Python.&lt;/li&gt;
-&lt;li&gt;tuples, dicts and lists. A simple write-only type for fixed-length groups; a super-powerful hashmap type; and a variable-length vector. It will take you a while to understand the trade-offs for each of these types. Your assumptions will be wrong! You might think appending to a list in a for loop is super slow because appending to a vector is super slow in Matlab. Wrong! It’s actually super fast.&lt;/li&gt;
-&lt;li&gt;classes. Classes are behaviour + data. Maybe you’ve been doing OOP in Matlab. If not, it’s time to pick it up!&lt;/li&gt;
-&lt;li&gt;strings and file IO. Format strings, &lt;code&gt;with&lt;/code&gt; statements, StringIO, regex – all workaday things in a general purpose programming language that you might never have touched in Matlab.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Data structures and algorithms&lt;/h3&gt;
-&lt;p&gt;Consider learning about data structures and algorithms. Many professional programmers are self-taught and never really learn about these fundamentals. They learn intuitively what is slow and fast, and can code many non-trivial algorithms. They might even use complexity analysis (O notation).&lt;/p&gt;
-&lt;p&gt;Once you learn data structures, your world will open up. This is especially true for people with a Matlab background because the language tends to force you to use the same structure over and over again (the matrix). You might not know what to do with tuples, dicts, lists and objects. You need some solid foundations to transition out of the weird programming model Matlab imposes.&lt;/p&gt;
-&lt;p&gt;Take the &lt;a href=&quot;https://www.coursera.org/specializations/algorithms&quot;&gt;Algorithms and data structures classes on Coursera by Tim Roughgarden&lt;/a&gt;. These are the same classes you’d get in CS at Stanford, and they are very good. Really tough. You will feel like your mind is melting – in a good way.&lt;/p&gt;
-&lt;p&gt;You might try a daily challenge, like &lt;a href=&quot;https://www.hackerrank.com/&quot;&gt;hackerrank&lt;/a&gt;. There’s &lt;a href=&quot;https://projecteuler.net/&quot;&gt;Project Euler&lt;/a&gt; if you’re more math-inclined.&lt;/p&gt;
-&lt;h3&gt;The data science ecosystem&lt;/h3&gt;
-&lt;p&gt;It’s finally time learn the data science pipeline. Because you will have learned basic Python well, and the tools are very similar to Matlab, your transition will be very smooth. Here’s one tutorial that guides you through the &lt;a href=&quot;https://realpython.com/matlab-vs-python/&quot;&gt;Python data science ecosystem&lt;/a&gt;. This means getting familiarized with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;matplotlib for plotting&lt;/li&gt;
-&lt;li&gt;numpy for matrices&lt;/li&gt;
-&lt;li&gt;scipy for signal processing&lt;/li&gt;
-&lt;li&gt;pandas for dataframes&lt;/li&gt;
-&lt;li&gt;sklearn for machine learning&lt;/li&gt;
-&lt;li&gt;jupyter for dynamic notebooks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The hardest package to learn for many people coming from a Matlab background is &lt;code&gt;pandas&lt;/code&gt;. Why would anyone want to use pandas? &lt;em&gt;Can’t I just use a matrix?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;How many times has your PhD advisor told you to label your axes in your plots? A thousand times? Labeling axes is important to understand what the data means. When you index into an unlabelled matrix, say &lt;code&gt;df(:, 7)&lt;/code&gt;, you’re giving yourself the possibility of forgetting what the data means. Wouldn’t it be better to use &lt;code&gt;df.reaction_time_ms&lt;/code&gt;? Yes!&lt;/p&gt;
-&lt;p&gt;You might even have learned how to do reductions, querying and aggregations on raw matrix. This code might give you the mean reaction time for participant 10:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-matlab&quot;&gt;mean(df(df(:, 1)==10, 7))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That’s bad! What if you add a column in your CSV? Then column 7 becomes column 8, your stats are wrong and you’ll lose months tracking down the issue. This code is super error-prone and makes kittens cry. I’m not saying it’s impossible to do this the right way in Matlab – I’m just saying that’s often how people do it. Compare the pandas way:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;df.query('participant_id == 10').reaction_time_ms.mean()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html&quot;&gt;Take the time to read the pandas tutorial in full&lt;/a&gt;. You might want to pick up a book as well after a little while, for instance &lt;a href=&quot;https://www.oreilly.com/library/view/python-for-data/9781491957653/&quot;&gt;Python for Data Science&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;At this point, you’ll need to practice your new skills. &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Join a Kaggle competition&lt;/a&gt;, or &lt;a href=&quot;https://www.coursera.org/specializations/jhu-data-science&quot;&gt;follow a data science MOOC&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Specialized tools for neuroscience&lt;/h3&gt;
-&lt;p&gt;At this point you might be productive enough to use Python on a daily basis. Congratulations! It’s a good time to learn about Python neuroscience tools:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://nilearn.github.io/&quot;&gt;nilearn&lt;/a&gt; for machine learning with MRI&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://brian2.readthedocs.io/en/stable/&quot;&gt;brian&lt;/a&gt; for spiking neural net simulations&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://pytorch.org/&quot;&gt;pytorch&lt;/a&gt; or &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;tensorflow&lt;/a&gt; for fitting ANNs&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.mousemotorlab.org/deeplabcut&quot;&gt;deeplabcut&lt;/a&gt; to track animals without markers&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.psychopy.org/&quot;&gt;Psychopy&lt;/a&gt; for visual stimulus presentation&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/NeuralEnsemble/python-neo&quot;&gt;neo&lt;/a&gt; for managing electrophysiology data in Python&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://mne.tools/dev/auto_tutorials/intro/plot_10_overview.html&quot;&gt;MNE&lt;/a&gt; for EEG analysis&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.pymc.io/&quot;&gt;PyMC3&lt;/a&gt; for Bayesian inference&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Know of another indispensable tool? Write it in the comments.&lt;/p&gt;
-&lt;h3&gt;Transition existing pipelines to Matlab&lt;/h3&gt;
-&lt;p&gt;It will be hard to transition pipelines developed over years wholesale out of Matlab and into Python. You’ll want to freeze data obtained after running a pipeline into a file format that you can transport from Matlab to Python. &lt;a href=&quot;https://scipy-cookbook.readthedocs.io/items/Reading_mat_files.html&quot;&gt;Matlab’s .mat file format is readable in Python&lt;/a&gt;. Since v7.3 .mat files are in the hdf5 file format, for which Python has excellent support.&lt;/p&gt;
-&lt;p&gt;In the future, you might find that you need Matlab for very little, and only one or two recalcitrant pipelines will need to be maintained. &lt;a href=&quot;https://github.com/mathworks-ref-arch/matlab-dockerfile&quot;&gt;You could wrap these pipelines in a docker image&lt;/a&gt;, so they keep working for years to come, despite changes in OS and Matlab versions.&lt;/p&gt;
-&lt;h3&gt;Becoming proficient&lt;/h3&gt;
-&lt;p&gt;You might start developing significant codebases. Will you be putting everything in Dropbox? No, you’ll be using &lt;code&gt;git&lt;/code&gt;! You’ll need to know the command line. &lt;a href=&quot;https://software-carpentry.org/lessons/index.html&quot;&gt;Follow the software carpentry class&lt;/a&gt; and learn about the Unix terminal and source control.&lt;/p&gt;
-&lt;p&gt;To really step up your game, contribute to an open-source project. If you’re unsure where to start, &lt;a href=&quot;https://www.brainhack.org/&quot;&gt;join a Brainhack event&lt;/a&gt; – people will ask for volunteers for their projects and they’ll guide you through the process of making a submission. Friendships will be created! Collaborations hatched! Bagels will be had!&lt;/p&gt;
-&lt;p&gt;Perhaps you’ll feel the need for speed at this point. Tear through billion row datasets with &lt;a href=&quot;https://docs.pymc.io/&quot;&gt;Spark&lt;/a&gt; or &lt;a href=&quot;https://dask.org/&quot;&gt;dask&lt;/a&gt;. JIT your for loops or compile them down to C with &lt;a href=&quot;https://cython.org/&quot;&gt;Cython&lt;/a&gt;, &lt;a href=&quot;https://numba.pydata.org/&quot;&gt;numba&lt;/a&gt; or &lt;a href=&quot;https://github.com/google/jax&quot;&gt;jax&lt;/a&gt;. &lt;a href=&quot;https://rlouf.github.io/post/jax-random-walk-metropolis/&quot;&gt;Monte Carlo simulations with a thousand parallel chains&lt;/a&gt;? Not a problem!&lt;/p&gt;
-&lt;h3&gt;Make it social&lt;/h3&gt;
-&lt;p&gt;People don’t realize how social programming is. As a software engineer at Google, I:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Learned about the core tooling in seminars with other engineers&lt;/li&gt;
-&lt;li&gt;Had people review my code&lt;/li&gt;
-&lt;li&gt;Reviewed other people’s code&lt;/li&gt;
-&lt;li&gt;Pair programmed&lt;/li&gt;
-&lt;li&gt;Shared analyses with other people who critiqued the analysis (both the content and the method)&lt;/li&gt;
-&lt;li&gt;Went to retreats to learn new tools&lt;/li&gt;
-&lt;li&gt;Organized a reading group&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I learned more from these experiences than from much of the book reading and solitary programming I’ve done. You don’t have to make your learning journey an isolating one. When you do Kaggle, join a team. Go to local meetups – in Montreal for instance, there’s &lt;a href=&quot;https://www.meetup.com/pitonneux/&quot;&gt;Les Pitonneux&lt;/a&gt;, who meet up almost daily. Many groups focus on supporting underrepresented groups in computer science, for example &lt;a href=&quot;https://www.pyladies.com/&quot;&gt;PyLadies&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;There are hackerspaces where you might find people in the same situation. You can go to tutorial sessions at conferences. Make friends and create a social support system to help you on your journey.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;I’ve had to relearn programming many times over the years. Toolbook, QBasic, VB, Delphi, Actionscript, Perl, PHP – I’ve written significant chunks of code in each of these languages. They’re all either dead or on their way out. Having seen the trajectory of these languages, it feels to me like Matlab is on its way out as well. This doesn’t mean it won’t be used at all – after all, PHP is 10 times less popular today than at its peak, but it still runs Facebook! But it does mean that:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;There will be more people who know Matlab than people who are hiring people who know Matlab. It won’t do you any favors on your CV.&lt;/li&gt;
-&lt;li&gt;Professionals software engineers have already switched away from Matlab. You will have a lot of trouble hiring professional programmers to create Matlab-based infrastructure in your future lab if you choose to stay in academia.&lt;/li&gt;
-&lt;li&gt;The Mathworks is a single-source vendor, and their software is closed-source. What happens if they run out of business?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It’s time to move away from Matlab. Take the first step today!&lt;/p&gt;
-&lt;/div&gt;
-
-
-
-&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;This was part 1 of an ongoing series on learning Python. &lt;a href=&quot;https://xcorr.net/2020/02/29/orienting-yourself-through-python/&quot;&gt;Part 2 – picking Python environments, packages and IDEs is here&lt;/a&gt;. &lt;a href=&quot;https://xcorr.net/2020/02/21/transitioning-away-from-matlab/&quot;&gt;Part 3 – translating old code with test-driven development is here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;</content>
-		<author>
-			<name>xcorr</name>
-			<uri>https://xcorr.net</uri>
-		</author>
-		<source>
-			<title type="html">xcorr: comp neuro</title>
-			<subtitle type="html">computational neuroscience, machine learning</subtitle>
-			<link rel="self" href="https://xcorr.net/feed/"/>
-			<id>https://xcorr.net</id>
-			<updated>2020-04-04T18:00:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="fr-FR">Une analyse globale de la nouvelle politique de recherche (III) - Faut-il évaluer la recherche ?</title>
-		<link href="http://romainbrette.fr/une-analyse-globale-de-la-nouvelle-politique-de-recherche-iii-faut-il-evaluer-la-recherche/"/>
-		<id>http://romainbrette.fr/?p=1696</id>
-		<updated>2020-02-21T13:24:15+00:00</updated>
-		<content type="html" xml:lang="fr-FR">
- &lt;p&gt;Dans les billets précédents (&lt;a href=&quot;http://romainbrette.fr/une-analyse-globale-de-la-nouvelle-politique-de-recherche-i-le-contexte-ideologique/&quot;&gt;1&lt;/a&gt; et &lt;a href=&quot;http://romainbrette.fr/une-analyse-globale-de-la-nouvelle-politique-de-recherche-ii-prejuges-psychologiques-de-lideologie-manageriale/&quot;&gt;2&lt;/a&gt;), j’ai exposé le contexte idéologique des réformes structurelles de la recherche qui sont en cours. J’ai tenté de montrer qu’il s’agit de théories bureaucratiques dont l’argumentation est essentiellement obscurantiste, c’est-à-dire que non seulement une série de poncifs (il vaut mieux financer les excellents que les mauvais) et d’analogies douteuses (les vertus supposées du « darwinisme ») tiennent lieu d’argumentation, mais en outre les éléments empiriques contradictoires sont tout simplement ignorés.&lt;/p&gt;
-&lt;p&gt;Face à ce type de critique, une réaction courante est : mais alors, vous refusez d’être évalués ? On convoque alors l’image du savant dans sa tour d’ivoire, ou pire, celle du fonctionnaire fainéant. En effet, un point central des réformes managériales en cours est la notion d’évaluation : il faudrait développer une « culture de l’évaluation », avec des « indicateurs de performance ». Faut-il évaluer la recherche ? Pour répondre à cette question, encore faut-il préciser ce que l’on entend par « évaluer » et quels sont précisément les sujets et objets de ce verbe (qui évalue, et qu’est-ce qui est évalué).&lt;/p&gt;
-&lt;p&gt;Pour cela, il me semble utile de faire une petite digression philosophique pour comprendre la nature de l’activité scientifique qu’il s’agit d’évaluer.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Digression philosophique&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Qu’est-ce que la science ? Vaste question philosophique qui a été abordée par de nombreux angles et que je me propose de résumer en quelques paragraphes. Je me contenterai pour le sujet de ce billet d’une description assez grossière : la science, en tant qu’activité sociale, est la poursuite de la vérité. Description néanmoins un peu plus subtile qu’elle en a l’air : il s’agit bien de tendre vers un idéal de vérité sur le monde, mais c’est un idéal, c’est-à-dire quelque chose que l’on poursuit sans jamais vraiment atteindre.&lt;/p&gt;
-&lt;p&gt;Comment la science est-elle produite ? Une position philosophique historiquement importante, qui date du 19&lt;sup&gt;e&lt;/sup&gt; siècle et début du 20&lt;sup&gt;e&lt;/sup&gt;, est le positivisme : la science consiste à observer des faits élémentaires, puis à en déduire logiquement des lois de la nature. Il y a donc une méthode que l’on peut suivre pour produire des vérités scientifiques avec certitude. C’est en quelque sorte un modèle industriel de la science, et ce n’est sans doute pas un hasard si cette position est apparue au 19&lt;sup&gt;e&lt;/sup&gt; siècle. De ce point de vue découle la conception naïve de la revue par les pairs comme certification des connaissances produites ou des méthodes employées. Point crucial, selon ce modèle de la science, il est trivial de distinguer la bonne science de la mauvaise science : la bonne science est tout simplement celle qui suit correctement la méthode scientifique (d’où le rôle présumé des journaux comme « gate-keepers » ; voir mon &lt;a href=&quot;http://romainbrette.fr/revues-predatrices-quel-est-le-probleme/&quot;&gt;texte sur ce sujet&lt;/a&gt;). Dans ce modèle, on peut donc appliquer des méthodes industrielles de gestion, de « management » dirait-on aujourd’hui, parce qu’il existe des mesures objectives (externes) de qualité. Là est la justification de l’usage de la bibliométrie comme outil d’évaluation.&lt;/p&gt;
-&lt;p&gt;Or, si cette position reste populaire, en particulier chez les non chercheurs (mais pas seulement), elle a été essentiellement démolie par les travaux en philosophie et histoire des sciences au cours du siècle dernier. Le plus connu est sans doute Karl Popper, qui sous un angle logique a établi que l’on ne peut pas établir en science des vérités mais uniquement des faussetés - simplement parce qu’une proposition s’applique à une infinité de cas que l’on ne peut tous vérifier. Il s’agit alors de tester des théories, et non de déduire des vérités scientifiques. D’autres travaux, moins connus des scientifiques mais néanmoins très importants, ont montré que la difficulté est plus profonde que cela. Quine a montré que la notion même de fait élémentaire est une erreur conceptuelle. C’est une forme de réductionnisme de la connaissance (je reformule), l’idée que la connaissance est un ensemble de faits et lois indépendants les uns des autres. Or c’est impossible, car pour énoncer un fait il faut utiliser des concepts, c’est-à-dire des théories. Par conséquent, il n’y a pas de fait élémentaire mais plutôt un système (plus ou moins) cohérent de connaissances. Kuhn a montré historiquement que co-existent généralement des théories scientifiques contradictoires portant sur les mêmes observations, ou encore que différentes théories (ou écoles de pensée) considèrent comme pertinents des corpus d’observations différents. Lakatos (élève de Popper) a montré qu’une théorie scientifique est non seulement une théorie qui en principe doit être falsifiable, mais également qui en pratique est falsifiée, et que cette caractéristique n’est pas forcément dysfonctionnelle. C’est-à-dire qu’il arrive couramment que des observations inattendues semblent contredire la théorie dominante, mais pour autant la théorie n’est pas forcément remise en cause. A la place, l’observation est interprétée en postulant une hypothèse auxiliaire. C’est le cas presque systématiquement aujourd’hui dans de nombreuses branches de la physique parce que l’on considère les théories physiques bien établies. Par exemple : la trajectoire de telle planète dévie des prédictions des lois de Newton (ou Einstein), conclusion : il doit y avoir un satellite autour de cette planète (et non : les lois de Newton sont fausses).&lt;/p&gt;
-&lt;p&gt;Je pourrais citer de nombreuses autres contributions importantes. Pour le sujet qui nous occupe, le point important est qu’il n’existe pas de méthode scientifique que l’on pourrait appliquer pour produire des vérités scientifiques. Cela ne veut pas dire que la science est arbitraire, au contraire. Cela veut dire que la réflexion sur la méthodologie et plus globalement l’épistémologie font elles-mêmes partie intégrale de l’activité scientifique : il n’y a pas de norme objective externe à la communauté scientifique. Cela signifie que la science progresse non par la production et la certification des savoirs, mais par le débat scientifique. Ce point est crucial, car il fonde la justification fondamentale de la nécessaire autonomie scientifique. Il ne peut y avoir d’évaluation de la production scientifique selon des normes externes (notamment bibliométriques), tout simplement parce que ces normes n’existent pas.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Evaluer la recherche&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Revenons donc à notre question : faut-il évaluer la recherche ?&lt;/p&gt;
-&lt;p&gt;Premièrement, commençons par la motivation de cette question. La motivation, c’est que l’argent public doit être bien utilisé, c’est-à-dire dans l’intérêt de la société. Cela implique sans doute que les politiques publiques doivent être évaluées, c’est-à-dire que lorsque l’on modifie la structure du système de recherche par des réformes, l’impact global de ces réformes devrait être analysé. Or c’est précisément le type d’évaluation utile qui n’est pas effectué, ou qui est ignoré. Les réformes engagées depuis 15 ans, introduisant des nouveaux modes d’organisation (financement par projets par exemple) n’ont manifestement pas donné les résultats escomptés. Il serait donc logique de revenir sur ces réformes et de les modifier. Or ce n’est pas le cas : au contraire, il s’agirait d’amplifier ces réformes.&lt;/p&gt;
-&lt;p&gt;Ce qui doit être évalué donc, c’est l’efficacité globale du système de recherche, en relation avec son organisation. Si le système global doit être évalué, est-ce qu’il en découle que les agents individuels de ce système doivent être évalués ? Il y a ici un glissement qui est tout à fait fallacieux. Bien sûr, si l’on veut connaître, disons, la production scientifique totale du pays, on va additionner la production scientifique de chacun des chercheurs. Du point de vue individuel, cette « évaluation » est donc faite dans un but de mesure uniquement ; c’est seulement au niveau du système global que cette mesure sert à influencer l’action publique. Mais quand on dit qu’il faut évaluer les chercheurs, ce dont on parle c’est une évaluation qui a une conséquence individuelle et qui est donc utilisée comme outil de gestion. Par exemple, on donne une prime aux chercheurs qui publient plus, de façon à les inciter à augmenter leur productivité. Il ne s’agit donc ici pas simplement d’évaluer les politiques publiques, ce qui semble assez consensuel, mais d’instaurer un mode de gestion bien particulier, à savoir une gestion bureaucratique managériale, reposant sur des indicateurs individuels objectifs.&lt;/p&gt;
-&lt;p&gt;Or comme je l’ai expliqué plus haut, il n’existe pas d’indicateurs objectifs de la qualité scientifique à un niveau individuel. On peut dire d’un pays qu’il produit plus ou moins d’articles scientifiques, ou mesurer différents indicateurs macroscopiques. Mais aucune bureaucratie ne peut dire ce qui est « vrai » ou « important » en termes de vérité scientifique, puisque c’est justement là le cœur de l’activité des chercheurs. Une conséquence immédiate de cet état de fait est qu’instaurer une gestion par objectifs est nécessairement contre-productif, puisque les agents vont alors être incités à optimiser des choses qui ne sont pas alignées avec la qualité scientifique, chose non mesurable. C’est d’ailleurs un phénomène tellement bien connu qu’il a un nom, la &lt;a href=&quot;https://fr.wikipedia.org/wiki/Loi_de_Goodhart&quot;&gt;loi de Goodhart&lt;/a&gt;. Par exemple, demander aux chercheurs de produire davantage d’articles a pour résultat que les chercheurs produisent davantage d’articles. Par exemple en saucissonnant les articles, en faisant des articles bâclés, etc. Cela fonctionne pour toute métrique qu’un bureaucrate pourra inventer.&lt;/p&gt;
-&lt;p&gt;Mais alors, il ne faut pas évaluer ? Premièrement, l’évaluation, comme je l’ai expliqué, est un aspect central et quotidien de l’activité du chercheur, si l’on entend cela comme la discussion critique des productions scientifiques. C’est le métier du chercheur que d’évaluer ses pairs - le mot « évaluer » est sans doute mauvais, du fait qu’il ne s’agit bien sûr pas de mettre cinq étoiles à la loi de la relativité. Simplement, cette évaluation n’est pas un mode de gestion, mais de débat, et ce débat ne peut se faire qu’entre pairs, pas avec une bureaucratie.&lt;/p&gt;
-&lt;p&gt;Deuxièmement, l’évaluation des personnes (et non plus des énoncés scientifiques) est naturellement inévitable à au moins un moment de la carrière : le recrutement (et, sans doute, la promotion). Mais encore une fois, cette évaluation ne peut être faite de manière bureaucratique selon des métriques objectives pour les raisons déjà énoncées. Elle ne peut se faire que par des pairs, de manière subjective donc. De quel genre d’évaluation parle-t-on ici ? Le discours managérial parle de « culture du résultat » : il s’agirait d’évaluer la production des individus ; à charge des individus que faire en sorte que cette production soit bonne – d’où une forme de « sélection darwinienne ». D’où un certain nombre d’indicateurs (nombre de publications, prestige des journaux dans lesquels elles apparaissent, etc). Mais d’une part on retombe encore une fois dans l’erreur positiviste (il n’y a pas, surtout sur des résultats récents, de mesure consensuelle de l’« importance » de résultats scientifiques) et d’autre part on commet ce qu’on appelle en psychologie un &lt;a href=&quot;https://en.wikipedia.org/wiki/Attribute_substitution&quot;&gt;biais de substitution&lt;/a&gt;, c’est-à-dire que le facteur que l’on cherche à évaluer est complexe et par conséquent on en utilise un autre plus simple (voir une &lt;a href=&quot;http://romainbrette.fr/category/blog/hiring-committees/&quot;&gt;série de textes&lt;/a&gt; que j’ai écrits il y a quelques années sur les biais cognitifs dans les recrutements académiques). Que cherche-t-on à évaluer lors d’un recrutement de chercheur permanent ? Il s’agit d’estimer si, au cours de sa carrière &lt;em&gt;future&lt;/em&gt;, le chercheur produira des connaissances nouvelles et intéressantes. Bien sûr on ne connait pas sa carrière future, on doit donc la deviner. Et qu’est-ce qui détermine la qualité de la production scientifique d’un individu ? Un certain nombre de facteurs, dont certains sont propres à la personne, comme ses compétences et ses qualités (rigueur intellectuelle et intégrité par exemple), et d’autres sont contextuels (collaborateurs, conditions de travail, et bien sûr hasard puisqu’on parle de recherche, donc de choses non connues à l’avance). Ce que l’on doit donc déterminer, dans le contexte d’un recrutement, ce sont les facteurs propres, c’est-à-dire les compétences et qualités scientifiques de l’individu. La production passée est bien sûr corrélée à ces facteurs, mais ce n’est pas ce que l’on cherche à déterminer. Enfin il y a un risque bien connu à substituer un facteur indirect au facteur causal que l’on cherche à évaluer. En plus de l’erreur dans la sélection elle-même, cette substitution induit des changements de comportement des individus visant à optimiser ce facteur non causal, ce qui finit par rendre la sélection arbitraire (loi de Goodhart). Par exemple, un étudiant ira dans un laboratoire connu non parce qu’il pense y apprendre quelque chose, mais parce qu’il a plus de chances d’être co-auteur d’un article dans un journal prestigieux.&lt;/p&gt;
-&lt;p&gt;L’évaluation, donc, doit être une évaluation des compétences et non des résultats. Naturellement, les compétences ne peuvent être correctement évaluées que par des gens eux-mêmes compétents, et non par une bureaucratie.&lt;/p&gt;
-&lt;p&gt;Faut-il évaluer la recherche ? D’abord, il faut principalement évaluer les politiques publiques de recherche. Celles qui sont instituées depuis 15 ans sont manifestement mauvaises et il faut donc les repenser et non les amplifier. Voilà l’évidence. Ensuite, oui bien sûr, il est nécessaire d’évaluer les chercheurs, au moment du recrutement ou de la promotion, et non comme mode de gestion quotidien. Et ce sont les compétences qui doivent être évaluées et non les « résultats ». Ces compétences, enfin, ne peuvent être évaluées que par des gens eux-mêmes compétents et non par des bureaucrates. Voilà en quel sens on peut dire qu’il faut « évaluer la recherche ».&lt;/p&gt;</content>
-		<author>
-			<name>romain</name>
-			<uri>http://romainbrette.fr</uri>
-		</author>
-		<source>
-			<title type="html">Romain Brette</title>
-			<subtitle type="html">Theoretical Neuroscience</subtitle>
-			<link rel="self" href="http://romainbrette.fr/feed/"/>
-			<id>http://romainbrette.fr</id>
-			<updated>2020-04-01T18:00:47+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">02202020</title>
-		<link href="http://feedproxy.google.com/~r/TheNeurocritic/~3/OpXfLdWw90g/02202020.html"/>
-		<id>tag:blogger.com,1999:blog-21605329.post-2300497698596029706</id>
-		<updated>2020-02-21T06:54:49+00:00</updated>
-		<content type="html">
- &lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-pp5Aq2Hlg2k/Xk92GMCsWnI/AAAAAAAANCo/T3xbTWo225k79Tb8S39PR0uUYr6OeMFYwCLcBGAsYHQ/s1600/Dyophobia_fear%2Bof%2B2.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;289&quot; data-original-width=&quot;759&quot; height=&quot;162&quot; src=&quot;https://1.bp.blogspot.com/-pp5Aq2Hlg2k/Xk92GMCsWnI/AAAAAAAANCo/T3xbTWo225k79Tb8S39PR0uUYr6OeMFYwCLcBGAsYHQ/s400/Dyophobia_fear%2Bof%2B2.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;New and exciting content will be available for you this weekend. Until then, please enjoy Lena Lovich and my four part series on money, religion, and numerology from 2008.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2008/08/080808-god-is-number-part-1.html&quot;&gt;080808 (god is a number part 1)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2008/08/01-1-01-1-01-god-is-number-part-2.html&quot;&gt;01 1 01 1 01 (god is a number part 2)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2008/08/314159265-god-is-number-part-3.html&quot;&gt;3.14159265 (god is a number part 3)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2008/08/7-god-is-number-part-4.html&quot;&gt;7 (god is a number part 4)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;You certainly do have a strange effect on me &lt;/span&gt;&lt;br /&gt;&lt;span&gt;I never thought that I could feel the way I feel &lt;/span&gt;&lt;br /&gt;&lt;span&gt;There's something in your eyes gives me a wild idea &lt;/span&gt;&lt;br /&gt;&lt;span&gt;I never want to be apart from you my dear &lt;/span&gt;&lt;br /&gt;&lt;span&gt;I guess it must be true &lt;/span&gt;&lt;br /&gt;&lt;span&gt;My lucky number's two &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt; &lt;span&gt;--Lena Lovich, &lt;a href=&quot;https://www.lyrics.com/lyric/2734552/Lene+Lovich/Lucky+Number&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;Lucky Number&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;feedflare&quot;&gt;
-&lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=OpXfLdWw90g:TksTb_mHNNo:yIl2AUoC8zA&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=yIl2AUoC8zA&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=OpXfLdWw90g:TksTb_mHNNo:JUhcmGiK9AQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=JUhcmGiK9AQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=OpXfLdWw90g:TksTb_mHNNo:qj6IDK7rITs&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=qj6IDK7rITs&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=OpXfLdWw90g:TksTb_mHNNo:cGdyc7Q-1BI&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=cGdyc7Q-1BI&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=OpXfLdWw90g:TksTb_mHNNo:gIN9vFwOqvQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=OpXfLdWw90g:TksTb_mHNNo:gIN9vFwOqvQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=OpXfLdWw90g:TksTb_mHNNo:F7zBnMyn0Lo&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=OpXfLdWw90g:TksTb_mHNNo:F7zBnMyn0Lo&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/OpXfLdWw90g&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>The Neurocritic</name>
-			<email>noreply@blogger.com</email>
-			<uri>https://neurocritic.blogspot.com/</uri>
-		</author>
-		<source>
-			<title type="html">The Neurocritic</title>
-			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
-			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
-			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2020-04-06T10:31:18+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">How do people bereaved by suicide react to media reports on the death?</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2020/02/20/how-do-people-bereaved-by-suicide-react-to-media-reports-on-the-death/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=11689</id>
-		<updated>2020-02-20T10:00:27+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/02/people-2592030_640-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;&lt;strong&gt;You are a junior reporter on a busy local newspaper. Your editor has asked you to cover the suicide of a young man who lived in the town with his parents. You have been to their house but they would only speak to you through the door. It was clear they were not keen to be interviewed. Your editor is putting pressure on you to meet the copy deadline with something that will engage readers. What do you do?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-020-8211-1&quot;&gt;Our research study&lt;/a&gt; published today in &lt;em&gt;BMC Public Health&lt;/em&gt; describes the perspectives of bereaved relatives like those portrayed in this vignette, and provides examples of conflicts between their need for privacy and journalists’ need to do their job. Among the 140 suicide-bereaved relatives or friends who responded to our online survey, many described perceptions of journalists’ intrusive behavior, a failure to consult them appropriately, and inaccuracy in reporting. However, some individuals described the press coverage as an opportunity to raise awareness and prevent further suicides.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignright size-medium wp-image-11691&quot; height=&quot;184&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/02/samaritans-volunteer-image-1-for-jan18-issue-300x184.jpeg&quot; width=&quot;300&quot; /&gt;Samaritans has published &lt;a href=&quot;https://www.samaritans.org/about-samaritans/media-guidelines/&quot;&gt;media guidelines on how to safely report on suicide &lt;/a&gt;and additional &lt;a href=&quot;https://media.samaritans.org/documents/Media_guidelines_-_Working_with_bereaved_families_factsheet_UK_Final.pdf&quot;&gt;guidance on working with bereaved families&lt;/a&gt;, to protect bereaved relatives from unnecessary distress, as well as protecting the public from the potential harms of irresponsible reporting. This is important because research shows that people bereaved by suicide are at &lt;a href=&quot;https://linkinghub.elsevier.com/retrieve/pii/S2215-0366(14)70224-X&quot;&gt;greater risk of suicide&lt;/a&gt; themselves, and insensitive reporting can increase their distress. It is also important because &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6066401/&quot;&gt;irresponsible reporting is implicated in inducing further suicides&lt;/a&gt;. Supporting the media to report on suicide responsibly is a key feature of &lt;a href=&quot;https://www.who.int/publications-detail/preventing-suicide-a-global-imperative&quot;&gt;public health policy on suicide prevention&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Public health researchers recognize that journalists find themselves in a difficult position when expected to report on someone’s suicide, whether the deceased was in the public eye or otherwise. On reading our research findings Lorna Fraser, Samaritans’ Media Advice Service lead, commented:&lt;/p&gt;
-&lt;p&gt;“Reporting suicides can be one of the most challenging issues journalists face, where they must balance reporting a topic which is in the public interest, with avoiding any intrusion into the grief and shock of the bereaved loved ones left behind. It’s vitally important that journalists are aware of media guidelines and follow this best practice advice, due to the many sensitivities and risks surrounding this topic. We regularly hear from bereaved families with concerns about approaches from journalists and a lack of sensitivity with how their loved one’s death was reported. We ask journalists to bear in mind these are people who may be in shock and struggling to come to terms with their devastating loss. They may not even be aware that their relative’s death will be reported in the press. Many will consider this a personal issue and value the space to grieve in private. In addition to our media guidelines, Samaritans provides an advice service to media. Journalists can email us at: &lt;a href=&quot;mailto:mediaadvice@samaritans.org&quot;&gt;mediaadvice@samaritans.org&lt;/a&gt;.”&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-11692 alignleft&quot; height=&quot;135&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/02/supportaftersuicide-300x135.png&quot; width=&quot;300&quot; /&gt;Sarah Bates, Executive Lead of the &lt;a href=&quot;https://supportaftersuicide.org.uk/&quot;&gt;Support after Suicide Partnership&lt;/a&gt; added “Suicide is absolutely devastating, and insensitive reporting of suicide can have a hugely damaging impact on both people directly affected by the death being reported, as well as anyone who has had a similar experience in the past, sometimes going back many years. At the same time, the press face real challenges when reporting on suicide in the public interest. There is such a need for responsible, informed, and sensitive reporting, consistent with &lt;a href=&quot;https://www.samaritans.org/about-samaritans/media-guidelines/&quot;&gt;Samaritans media guidelines&lt;/a&gt;. Reporting must put the grieving family, friends, colleagues and professionals at the heart of every journalists’ approach. As Lorna mentions, journalists are often involved very soon after a death is reported, often before support services are able to establish a relationship with a grieving family. Therefore, the journalist may suggest that the family nominate a ‘spokesperson’ who can act as a bridge between the press and those most impacted – and have honest, open, and sensitive communication.  We feel that some of the vital aspects to responsible reporting include not giving too much detail when mentioning method or location, avoiding unnecessary use of images and always making sure that readers are directed towards the support that is available.”&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mybrotherkilledhimself.wordpress.com/about/&quot;&gt;Emma Bird&lt;/a&gt;, a journalist and blogger who has experienced suicide bereavement herself, commented:  “I welcome this research. Having lost my brother to suicide, I am now an unquestionably better journalist than I was before he died. I have the qualities that good journalists are supposed to have: I’m a good listener, I’m empathetic and people confide in me. But even so, if I had known back then what I know now, I wouldn’t have made such a hash up of door knocks and inquests. I have no qualms about suicides being reported but this must be done in a way that is sensitive to the bereaved and with an awareness for what they are going through.”&lt;/p&gt;
-&lt;p&gt;A key message of our research is that if the right approach is taken, journalists can potentially collaborate with bereaved relatives to write a story that both respects the bounds of their privacy and avoids misrepresenting the deceased. Additionally, by providing information on how to contact appropriate local and national sources of support, a news article can encourage people experiencing emotional problems or suicidal thoughts to seek help. In this way, journalism can be used to positive ends, reducing the potential for distress to relatives and enhancing communication of suicide prevention messages.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/02/20/how-do-people-bereaved-by-suicide-react-to-media-reports-on-the-death/&quot; rel=&quot;nofollow&quot;&gt;How do people bereaved by suicide react to media reports on the death?&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Alexandra Pitman</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2020-03-19T15:47:01+00:00</updated>
 		</source>
 	</entry>
 
