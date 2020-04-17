@@ -29,7 +29,7 @@
 			<foaf:name>Anna Dumitriu: Bioart and Bacteria</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="https://annadumitriu.tumblr.com/">
-					<dc:title>Please click on image to visit https://annadumitriu.co.uk/</dc:title>
+					<dc:title>Click here for new site https://annadumitriu.co.uk/</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
@@ -43,6 +43,19 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blogs.biomedcentral.com/bmcseriesblog">
 					<dc:title>BMC Series blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Bits of DNA</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://liorpachter.wordpress.com">
+					<dc:title>Bits of DNA</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
