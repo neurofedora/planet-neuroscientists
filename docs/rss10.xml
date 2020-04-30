@@ -15,7 +15,12 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=42993" />
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2020-04-30:/2020/04/30/phd-studentship-in-computational-neuroscience-and-rehabilitation-robotics.html" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3087491" />
+			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=39547" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=144117" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=119356" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3087481" />
 			<rdf:li rdf:resource="http://blogs.plos.org/plos/?p=43006" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3087464" />
@@ -56,7 +61,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3087312" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=119313" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3087276" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3087249" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=39517" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11843" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=119303" />
@@ -111,7 +115,6 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=47409" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-2672427473119923109.post-2980982236020395413" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=592" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=119224" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/engineering-resources-for-the-covid-19-response" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=39433" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=143906" />
@@ -131,7 +134,6 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=39407" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=143833" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=582" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=39396" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/is-covid-19-not-disgusting-enough" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-696752628262244300" />
 			<rdf:li rdf:resource="https://www.nytimes.com/article/coronavirus-county-data-us.html" />
@@ -163,18 +165,166 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/research-2030-podcast-episode-4" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=576" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=143718" />
-			<rdf:li rdf:resource="tag:ankursinha.in,2020-03-15:/2020/03/15/a-vimscript-function-to-select-signatures-in-neomutt.html" />
-			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/the-amazing-psychedelic-bamboozle" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://blogs.plos.org/plos/?p=42993">
+	<title>The Official PLOS Blog: The Digital Migration: Lessons About Open Science Arising from the COVID19 Crisis</title>
+	<link>http://feeds.plos.org/~r/plos/Blog/~3/nDWucwgFJaA/</link>
+	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; height=&quot;150&quot; src=&quot;https://blogs.plos.org/plos/files/2017/02/1459055735_8121219fb4_o-150x150.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;150&quot; /&gt;&lt;p&gt;&lt;em&gt;This blog post was written Dylan Roskams-Edris, Open Science Alliance Officer, Tanenbaum Open Science Institute, The Neuro. This piece resulted from an ongoing discussion with members of the Canadian open science community, in particular Estrid Jakobsen, Elizabeth DuPre, Zoha Deldar, Nikola Stikov, Stephanie Dyke, Rachel Harding, Jean-Baptiste Poline, and Christine Tardif.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Open Science Easing the Transition from Lab to e-Lab&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the wake of COVID19, the world is scrambling to figure out how to continue the functions of normal life while confined to a much smaller world of couches and home offices. Work, family and friend relationships, exercise, entertainment, and all the other elements of normalcy have been upended. The effort to maintain productivity (and, to be frank, sanity) has initiated a mass digital migration; a movement from life to e-life.&lt;/p&gt;
+&lt;p&gt;If you are a researcher you are likely dealing with your own unique micro-version of the predicament: how to continue working when you and your lab are self-isolated? In other words, how to replicate as many of the normal functions of a lab as possible in a digital environment; a movement from lab to e-lab.&lt;/p&gt;
+&lt;p&gt;Lab meetings have &lt;a href=&quot;https://mcbridelab.princeton.edu/covid19-zoom-lab-meeting/&quot;&gt;migrated to video-conferencing&lt;/a&gt; with relatively little friction; &lt;a href=&quot;https://www.nature.com/articles/d41586-020-00786-y&quot;&gt;conferences have gone virtual astoundingly quickly&lt;/a&gt;; manuscripts are being drafted and figures created – perhaps a tad earlier than originally planned; grants and proposals are being written. These are, however, only a small portion of what researchers do, and leave a huge swath of scientific work untouched and in stasis.&lt;/p&gt;
+&lt;p&gt;Those most able to continue useful work are those who, for whatever reason, have access to as much of their work as possible from home. Pictures of researchers lugging multiple work computers home in order to continue data analysis were common in the early days of the crisis.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-1.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-42994&quot; height=&quot;512&quot; src=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-1.png&quot; width=&quot;496&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is a subgroup of researchers, however, who can continue work without having to cram several computer towers into the trunk of a car: those who created an up-to-date digital, online representation of their research activities right up to the moment they had to be abandoned. These lucky few, who put in the time and effort to create a comprehensive e-lab prior to the crisis, are for the most part those who already commited to open science. This is, of course, no accident.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Open Science and e-Labs&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Open science is, at its most practical base, the effort to (1) create an accurate and well organized digital representation of research activities and (2) share that representation with as few barriers as possible so others can effectively check, replicate, rework, reuse, and remix findings. Even the concentration within open science on sharing physical materials – like cell lines, biospecimens, and model organisms – is to enable replication and follow-on research when sharing the information about those materials does not to allow others to generate them themselves due to the unique nature of the material or an inability to make materials locally.&lt;/p&gt;
+&lt;p&gt;Researchers who have incorporated open, online sharing of research resources throughout their work – sharing experimental designs and protocols, lab notebooks, data, software, etc – have, in effect, created a digital representation of a significant portion of their activities that can be accessed from anywhere with an internet connection.&lt;/p&gt;
+&lt;p&gt;Not to oversell things, open sharing of research resources does not mean that researchers and labs can continue functioning without a hitch in their experimental stride. Much of the actual physical work has necessarily halted. It does mean, however, that many of the inputs to and outputs of their research are available in a digital form; accessible from a couch, desk, or apartment window-sill. While the emphasis from open science advocates in the past has been on ensuring that these digital representations exist so they can be shared, an added advantage has now jumped to the fore: the ability to share your e-lab with your quarantined-self.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sharing Your e-Lab with Yourself&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-2.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-42996&quot; height=&quot;148&quot; src=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-2.png&quot; width=&quot;461&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Labs that have, for example, stored experimental data immediately upon collection on open science platforms such as the &lt;a href=&quot;https://osf.io/&quot;&gt;Open Science Framework&lt;/a&gt;, &lt;a href=&quot;https://zenodo.org/&quot;&gt;Zenodo&lt;/a&gt;, &lt;a href=&quot;https://figshare.com/&quot;&gt;Figshare&lt;/a&gt;, &lt;a href=&quot;https://www.synapse.org/&quot;&gt;Synapse&lt;/a&gt;, &lt;a href=&quot;https://openneuro.org/&quot;&gt;OpenNeuro&lt;/a&gt;, and &lt;a href=&quot;https://datadryad.org/stash&quot;&gt;Dryad&lt;/a&gt; now have seamless access to the last bit collected before retreating into quarantine. Analyzing this data may be impossible if the requisite software only exists on a work computer, or you don’t have a license to use it at home; if, however, research software has been openly shared via a platform like &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; then it can be accessed from a park bench (assuming a decent wifi signal).&lt;/p&gt;
+&lt;p&gt;If the collected data needs to be put into the context of how it was collected, perhaps to elicit input from other lab members about the best way to analyze it, there is no easier way than accessing the relevant protocols through &lt;a href=&quot;https://www.protocols.io/&quot;&gt;protocols.io&lt;/a&gt; or an &lt;a href=&quot;https://openlabnotebooks.org/&quot;&gt;Open Lab Notebook&lt;/a&gt;. Need to know exactly what reagents or model organisms were used in an experiment? If one cannot go check the freezer, cage, or delivery invoice, then checking the relevant &lt;a href=&quot;https://www.rrids.org/&quot;&gt;Research Resource Identifier&lt;/a&gt; (RRID) listed in your shared protocol or notebook is the next best (if not better) thing.&lt;/p&gt;
+&lt;p&gt;The list of unanticipated advantages continues. Perhaps you need to get input from a normally-down-the-hall colleague about how to improve your protocol for the future, or eliminate an artifact from some data, or iron out a persnickety bug in analysis software. In the lab you could invite them to pull up a chair as you took them through the issue. Now that is, obviously, impossible. If the protocol, data, or software were shared, however, you could email them the link (or, better yet, &lt;a href=&quot;https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-&quot;&gt;persistent identifier&lt;/a&gt;), open a videochat window, and collaborate from a distance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sharing Your e-Lab with Your Research Community&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-3.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-42997&quot; height=&quot;379&quot; src=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-3.png&quot; width=&quot;467&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One of the most heartening things I have seen while scrolling through my twitter-feed-turned-emotional-roller-coaster is that self-isolated researchers are engaging with openly shared research resources.&lt;/p&gt;
+&lt;p&gt;This is of course the case with COVID19 research, where openly shared software, data, manuscripts, and protocols relevant to the virus are being shared, collected, curated and adapted with blinding speed; but it goes farther than that. Every day I see someone in the neuroscience research community tweet something along the lines of “thank goodness for X piece of openly shared software/data that I can learn about and use from home!”&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;a href=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-4.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-full wp-image-42998 aligncenter&quot; height=&quot;1081&quot; src=&quot;http://blogs.plos.org/plos/files/2020/04/Tweet-4.png&quot; width=&quot;1059&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When people are cut off from their physical labs and don’t have an e-lab of their own, it is wonderful to see them being able to pick up the tools and resources shared by others. The lessons we are being forced to learn about the fluidity, dynamism, and capacity for collective creativity enabled by sharing research resources will serve us well in the future.&lt;/p&gt;
+&lt;p&gt;My sincere hope is that those working with these new found tools and resources take the open ethos to heart and openly &lt;em&gt;reshare&lt;/em&gt; any modifications, derived data, and new insights with the research community. Doing so closes the loop, creating a community-based feedback mechanism that encourages further sharing in the future and, more importantly, uses the expertise of the world-wide research community to create ever better science.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benefiting the Public and Less Well-off Researchers with an Open e-Lab&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Some of the people involved in shaping (see: arguing about) what open science is quail at the idea that open science has anything to do with equity and equality. They say that it is merely about replicability and transparency and that is it, harumph. What I hope this situation brings to light – as you swear at your institutional VPN for once again dropping you, or find yourself unable to download important papers because of paywalls your institutional account would normally breeze through – is that you are receiving a taste of what it is like outside the gilded ivory tower.&lt;/p&gt;
+&lt;p&gt;Such restrictions on access and use are what interested members of the public, or those at research institutes that cannot afford staggering subscription prices, or those in labs not well funded enough to pay for the licenses to fancy analysis software, face every day. The act of openly sharing a paper, a piece of software, a dataset, an equipment design, or whatever else is not just about replicability. Doing so is an act that expands the borders of science, allowing the participation of the previously excluded. It is an act of inclusion not in some abstract post-modern sense, but in the very real sense of choosing where and why to put the fences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sharing Your Open e-Lab with the World&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Beyond the fact that open sharing is useful to the isolated-sharer and their research community, shared research resources have taken on an unprecedented importance in the COVID19 crisis. Stories abound of how &lt;a href=&quot;https://horizon-magazine.eu/article/covid-19-how-unprecedented-data-sharing-has-led-faster-ever-outbreak-research.html&quot;&gt;sharing genetic sequences&lt;/a&gt; and &lt;a href=&quot;https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html&quot;&gt;protein structures&lt;/a&gt; have led to the discovery of novel treatment targets, diagnostic testing protocols, and the &lt;a href=&quot;https://www.sciencemag.org/news/2020/03/record-setting-speed-vaccine-makers-take-their-first-shots-new-coronavirus&quot;&gt;initiation of clinical trials&lt;/a&gt; on a timescale that, in the pre-COVID19 era, would be unbelievable. Moreover, the rapid release of results via preprints has allowed the creation of &lt;a href=&quot;https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge&quot;&gt;competitions to apply machine learning&lt;/a&gt; to generate yet more insights. Though similar mass sharing has occurred during previous outbreaks (e.g. &lt;a href=&quot;https://www.sciencemag.org/news/2016/02/plea-open-science-zika&quot;&gt;Zika&lt;/a&gt; and &lt;a href=&quot;https://www.nature.com/news/data-sharing-make-outbreak-research-open-access-1.16966&quot;&gt;Ebola&lt;/a&gt;), the fact that COVID19’s impact has been global (and, not to put too fine a point on it, has impacted the global north) holds the hope that this time it will stick.&lt;/p&gt;
+&lt;p&gt;There is no reason that the same strategies cannot be applied to the ongoing crises in neurological disorders, antibiotic development, and the treatment of rare diseases, to name only a few. Indeed, the kind of massive online collaboration to solve issues around testing, creating ventilators and personal protective equipment, solving protein structures, and identifying novel treatment targets in the context of COVID19 is &lt;em&gt;exactly&lt;/em&gt; what open science advocates have been dreaming of for years.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Barriers to e-Labs and Global Collaboration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Open science has laid the groundwork for the creation of e-labs and for them to be linked up to enable global collaboration. The COVID19 crisis has, on so many levels, highlighted the importance and promise sharable, digital representations of research activity hold for the future of research. More people than ever are glimpsing the potential that e-labs interlinked into a global digital research ecosystem represents.&lt;/p&gt;
+&lt;p&gt;This bright future does not, however, come free of complications. Just as open science reveals the potential of sharing, it also reveals difficulties of coordination and consensus. If research is going to be conducted collaboratively on a global scale we need to make sure that shared resources are findable, accessible, interoperable, and reusable (e.g. &lt;a href=&quot;https://www.force11.org/group/fairgroup/fairprinciples&quot;&gt;FAIR&lt;/a&gt;). Doing so can be made easier through technology and sharing platforms, but what it requires most are education, communities collaboratively setting norms around standards and sharing practices, and a commitment to embed open science practices throughout the research lifecycle. The necessary changes in behaviour will require social and cultural innovation on the part of research communities at least as important as any technical advance.&lt;/p&gt;
+&lt;p&gt;Another big coordination problem has to do with eliminating research redundancies. Individual researchers within the global community need to coordinate so as to pursue different but complementary efforts. Doing so requires researchers to move past the stage of sharing resources in the hopes that those in their community will find it to engagement with that community. In the old, closed model such coordination was handled (albeit inefficiently) through journals and conferences where community members would be apprised of the work being done by others. The same task now must be undertaken in the digital world. Those of us interested in advancing open science are busily documenting how this is being done for COVID19 research in the hope that we can, after this is over, present an iron-clad case for how research communities can be rebuilt with digitally-mediated coordination planted deep in their hearts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Making an Open Future to Benefit Everyone&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I would ask you to deeply consider how you can begin adopting open, collaborative, community based approaches in the future of your research, once the world is rightside-up again. Doing so isn’t just about some abstract idea of openness; it has real benefits for you, your lab, your research community, and the world. COVID is, it is true, producing never before seen destruction of research efforts from which many projects may never recover. Within this destruction, however, lay clues to how research can be remade better, more collaborative, more coordinated and, of course, more open.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/nDWucwgFJaA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2020-04-30T15:40:52+00:00</dc:date>
+	<dc:creator>PLOS</dc:creator>
+</item>
+<item rdf:about="tag:biocomputation.herts.ac.uk,2020-04-30:/2020/04/30/phd-studentship-in-computational-neuroscience-and-rehabilitation-robotics.html">
+	<title>UH Biocomputation group: PhD Studentship in Computational Neuroscience and Rehabilitation Robotics</title>
+	<link>http://biocomputation.herts.ac.uk/2020/04/30/phd-studentship-in-computational-neuroscience-and-rehabilitation-robotics.html</link>
+	<content:encoded>&lt;p&gt;Biocomputation Research Group&lt;/p&gt;
+&lt;p&gt;Centre for Computer Science and Informatics Research&lt;/p&gt;
+&lt;p&gt;University of Hertfordshire, UK&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Application deadline 1 June 2020&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bursary GBP 15,285 p.a.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Applications are invited for PhD positions in the Biocomputation Research Group at the University of Hertfordshire.  (&lt;a class=&quot;reference external&quot; href=&quot;http://biocomputation.herts.ac.uk/&quot;&gt;http://biocomputation.herts.ac.uk/&lt;/a&gt;).&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Project description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Stroke is a major cause of disability in adults. More than 15 million strokes occur every year in the world, and more than 100,000 of these affect patients in the UK. Stroke patients often have an impaired ability to control their upper limbs and need assistance with every-day tasks. Relearning motor skills after stroke is similar to learning new motor skills, for example learning to play tennis, but a problem for stroke survivors is that their impaired movements often restrict the ability to use sensory feedback for re-learning.&lt;/p&gt;
+&lt;p&gt;Rehabilitation robotics has shown promise to augment the rehabilitation process and to offer feedback on performance. However, the personalisation of the therapy to individual needs remains a major challenge to date.&lt;/p&gt;
+&lt;p&gt;The proposed project will use a computational model of the cerebellum that is being developed by the Biocomputation Research Group (biocomputation.herts.ac.uk) to optimise robotic rehabilitation for individual subjects. The cerebellum has been optimised throughout vertebrate evolution to become an adaptive controller of biological skeletomuscular structures that is unrivalled by any artificial adaptive motor control algorithm. This has led and is still leading to the development of a rapidly increasing number of computational models of cerebellar learning, and to the successful applications of these cerebellar models to controlling simulated and real robots. The PhD project will involve the development and application of personalised cerebellar models in order to optimise rehabilitation robots for individual subjects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Applicants&lt;/strong&gt; should have excellent computational and numerical skills and a very good first degree in computer science, biology, maths, physics, neuroscience, or a related discipline. Successful candidates are eligible for a research studentship award from the University (GBP 15,285 per annum bursary plus payment of the student fees). Applicants from outside the UK or EU are eligible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research in Computer Science at the University of Hertfordshire&lt;/strong&gt; has been recognised as excellent in the latest Research Excellence Framework Assessment, with 50% of the research submitted rated as internationally excellent or world leading. The Centre for Computer Science and Informatics Research  provides a very stimulating environment, offering a large number of specialised and interdisciplinary seminars as well as general training and researcher development opportunities. The University  is situated in Hatfield, in the green belt just north of London.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please contact Dr Volker Steuber or Prof Farshid Amirabdollahian for informal enquiries. Application forms are available under&lt;/strong&gt; &lt;a class=&quot;reference external&quot; href=&quot;https://www.herts.ac.uk/study/schools-of-study/engineering-and-computer-science/research-in-engineering-and-computer-science/the-phd-programme-in-computer-science&quot;&gt;https://www.herts.ac.uk/study/schools-of-study/engineering-and-computer-science/research-in-engineering-and-computer-science/the-phd-programme-in-computer-science&lt;/a&gt; and should be returned to &lt;code&gt;doctoralcollegeadmissions AT herts DOT ac DOT uk&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The short-listing process will begin on 1 June 2020.&lt;/strong&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2020-04-30T15:40:02+00:00</dc:date>
+	<dc:creator>Volker Steuber</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3087491">
+	<title>Science News: 16th century skeletons suggest the slave trade brought some diseases to Mexico</title>
+	<link>https://www.sciencenews.org/article/slave-trade-skeletons-disease-mexico</link>
+	<content:encoded>&lt;p&gt;Slavery proved contagious when Spain colonized 16th century
+Mexico. Africans abducted into the transatlantic slave trade and taken to
+Mexico around that time &lt;a href=&quot;https://www.cell.com/current-biology/fulltext/S0960-9822(20)30482-6&quot;&gt;may
+have introduced forms of two infectious diseases&lt;/a&gt;, hepatitis B and yaws, to
+the Americas, researchers say.&lt;/p&gt;
+
+
+
+&lt;p&gt;DNA of three men whose skeletons were previously excavated
+near a Mexico City hospital indicates that all were from western or southern
+Africa, say archaeogeneticist Rodrigo Barquera of the Max Planck Institute for
+the Science of Human History in Jena, Germany, and his colleagues. The men’s
+upper front teeth had been filed down, a practice known to have characterized
+African slaves in the Americas, the scientists report online April 30 in &lt;em&gt;Current Biology&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Forms of strontium, carbon and nitrogen in the men’s teeth,
+which indicate the region where a person grew up, also suggest childhood
+origins outside Mexico.&lt;/p&gt;
+
+
+
+&lt;p&gt;One man’s tooth carried DNA from a
+strain of &lt;a href=&quot;https://www.sciencenews.org/article/genetic-fossils-betray-hepatitis-bs-ancient-roots&quot;&gt;the
+hepatitis B virus&lt;/a&gt; (&lt;em&gt;SN: 4/30/13&lt;/em&gt;)
+typically found in present-day West Africans, the investigators say. While it’s
+unclear when hepatitis B infections first occurred in the Americas, the
+researchers contend that African slaves brought a novel genetic form of
+hepatitis B to Mexico. &lt;/p&gt;
+
+
+
+&lt;p&gt;Another man’s tooth yielded
+bacterial DNA from a yaws strain also observed in modern West Africans. Yaws is
+a painful &lt;a href=&quot;https://www.sciencenews.org/article/measles-global-spread-vaccination&quot;&gt;infection
+of the bones, joints and skin&lt;/a&gt; (&lt;em&gt;SN: 5/21/19&lt;/em&gt;).
+Previous research found a closely related West African yaws strain in the
+skeleton of a 17th century individual with European ancestry who was buried in
+Mexico City, suggesting that yaws carried by African slaves around a century
+earlier continued to infect people in the region.&lt;/p&gt;
+
+
+
+&lt;p&gt;The three men lived sometime between 1436 and 1626, based on
+radiocarbon dates of their teeth. They are the oldest genetically identified
+first-generation Africans in the Americas. As slaves, the men likely reached
+Mexico in a transatlantic bondage system Spain started in the early 1500s, the
+scientists suspect.&lt;/p&gt;
+
+
+
+&lt;p&gt;These individuals died in their 20s before being placed in a mass grave, Barquera’s team estimates. The men’s bones display evidence of hard labor, including signs of carrying heavy loads, injuries such as leg fractures and damage from malnutrition or parasitic infections. &lt;/p&gt;</content:encoded>
+	<dc:date>2020-04-30T15:00:00+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="http://digest.bps.org.uk/?p=39547">
+	<title>The British Psychological Society - Research Digest: Here’s How The Online Status Indicators In Apps Influence Our Behaviour</title>
+	<link>https://digest.bps.org.uk/2020/04/30/heres-how-the-online-status-indicators-in-apps-influence-our-behaviour/</link>
+	<content:encoded>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In basic terms, online status indicators convey availability: whether someone is on or offline, or when they last logged into a particular app. But if you’ve ever anxiously awaited a response from a prospective partner or suspected your friend might be ignoring you, you’ll be painfully aware of just how much weight that indicator can actually hold.&lt;/p&gt;
+&lt;p&gt;Now a new study has found that many users are not only aware of all that online status indicators can convey, but also change their behaviour accordingly. The research is &lt;a href=&quot;https://www.washington.edu/news/2020/04/13/how-online-status-indicators-shape-our-behavior/&quot;&gt;due to be published&lt;/a&gt; in the &lt;em&gt;Proceedings of the 2020 ACM conference on Human Factors in Computing Systems&lt;/em&gt;.&lt;span id=&quot;more-39547&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Previous research has already shown that such indicators can inadvertently reveal a lot about our lives: &lt;a href=&quot;https://research.utwente.nl/en/publications/privacy-implications-of-presence-sharing-in-mobile-messaging-appl&quot;&gt;one 2014 study&lt;/a&gt; found that online status on WhatsApp was enough to identify daily routines, unusual messaging patterns, or even who users were talking to.&lt;/p&gt;
+&lt;p&gt;To investigate this further, Camille Cobb and her team recruited 200 participants to answer questions about their experiences with online status indicators. First, participants were presented with a list of 38 apps and asked to select those they use at least once a week. They were then asked a series of questions to gauge their familiarity with the design of status indicators and knowledge of how to control their visibility in apps.&lt;/p&gt;
+&lt;p&gt;Finally, participants were asked questions about their own experiences adjusting their visibility online (“is there anyone who would notice if you were offline for longer than usual?” or “have you ever changed your behaviour because you didn’t want to appear online?”) and behaviour towards others (“have you ever been surprised to notice that someone was online?” or “have you ever opened an app specifically to check if someone was online?”).&lt;/p&gt;
+&lt;p&gt;Use of apps with online status indicators was hugely common: 99% of participants reported regular use of at least one app with the feature, with Facebook, Instagram, and Messenger the most widely used.&lt;/p&gt;
+&lt;p&gt;Many participants wanted to control their online status, and had changed behaviour in order to do so: 23% had changed settings, 37% had avoided opening an app or quickly signed out to avoid a specific person, and three participants deleted an app from their phone altogether so that they didn’t appear “online”. This behaviour was usually aimed at a specific person: 43% had changed settings to avoid a particular person — often a current or former partner — versus just 25% who were trying to avoid people in general. Many stated that online status indicators had led them to feel under surveillance, aware that friends, partners or family members would be watching to see if or when they had signed in.&lt;/p&gt;
+&lt;p&gt;Checking for others’ online status was also prevalent: over half of participants said they had signed into or opened an app just to check somebody else’s status, and 41% said they had been “surprised” to see someone online, which in turn led to inferences about real-world behaviour and well-being and feelings around being ignored.&lt;/p&gt;
+&lt;p&gt;Online status indicators can be useful: as participants noted, they can be handy for working out when somebody might be available to chat or play a game, or knowing whether it might be better to message someone or call them instead. But the frequency with which participants anxiously checked others’ online status or sought to hide their own suggests that platforms should be offering better ways to meet user needs. Settings could be more transparent, for a start, or users could select not to appear online altogether — an option which many apps don’t yet offer.&lt;/p&gt;
+&lt;p&gt;Running into someone you really don’t want to see or speak to is an unfortunate fact of life, both on and offline: eliminating that altogether is probably unlikely to happen. But ensuring that users are able to adequately manage their online status may be something apps or messaging platforms could improve upon. Until then, it’s likely that online statuses will be a source of both community and anxiety.&lt;/p&gt;
+&lt;p&gt;– &lt;a href=&quot;https://www.washington.edu/news/2020/04/13/how-online-status-indicators-shape-our-behavior/&quot;&gt;User Experiences with Online Status Indicators&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2020-04-30T13:16:52+00:00</dc:date>
+	<dc:creator>BPS Research Digest</dc:creator>
+</item>
 <item rdf:about="https://blog.oup.com/?p=144117">
 	<title>OUPblog - Psychology and Neuroscience: How childhood trauma resurfaces during COVID-19</title>
 	<link>https://feeds.feedblitz.com/~/622804842/0/oupblogpsychology/</link>
 	<content:encoded>&lt;p&gt;Children who are victims of bullying often suffer a sense of helplessness. They don’t know what to do during bullying episodes and they don’t really believe anything will change or anyone can intervene effectively. Children subjected to bullying say it makes them feel sick, afraid, and helpless. It can also lead to feelings of anxiety, anger and depression. We know that as adults former victims can undergo similar feelings in the right circumstances.&lt;/p&gt;&lt;p&gt;Due to my research in the area of childhood bullying, I am contacted by many people about their own bullying incidents as children. They describe how they coped at the time. Often, they comment on how they’ve managed their lives in the wake of bullying.   The great majority have survived and gone on to live productive lives. However, during this world-wide COVID-19 crisis, adults relate that their mental state is similar to how they felt as children. I have received messages describing the reactivation of childhood memories of being captive to someone while feeling powerless.  In the face of the uncertainty generated by the coronavirus, the same emotions are rekindled: fear, anxiety, anger, and a certain amount of depression. While most are doing what they can in terms of preparedness and health precautions, helplessness is once again a prevailing emotion. Substance abuse held at bay has reemerged as a problem.&lt;/p&gt;&lt;p&gt;By this point, perhaps the majority of people are aware of a sense of helplessness while trying to outwait and outwit COVID-19 by using every best effort. It is a helpless feeling to see the numbers of deaths and to witness the struggles in the healthcare system. While everyone may feel some amount of anxiety related to the virus, survivors of bullying experience a heightened degree of fear, anxiety, and depression based on triggered childhood feelings. Helplessness is a familiar but unwelcome manifestation impacting their daily mood. Sheltering-in-place is difficult emotionally in general. But for victims of childhood bullying it is reminiscent of and activates the loneliness that was an everyday burden.&lt;/p&gt;&lt;p&gt;Trauma is an aspect of this health crisis. The loss of family and friends, and the fear of their loss, is overwhelming. Trauma results when such overwhelming stress exceeds one’s ability to cope. There are three distinct types of trauma: acute, chronic, and complex. Acute trauma describes what people are living through now, meaning the trauma is the result of a single event- the corona virus. Trauma can become chronic depending on the duration of an event; in this case how long people are required to shelter-in-place with all the problems attendant to that (loss of income, lack of childcare, family violence, etc.). Chronic bullying is traumatizing for children and it leads to changes in the brains’ ability to think clearly. At the very least, bullied children worry and their worries influence their actions. They try to hide and they learn to avoid their bullies. They often become worried, anxious adults. For those who endured bullying victimization as children, the trauma is complex. Those adults deal with childhood trauma and its effects in an ongoing way. Now they are dealing with the very personal nature of the fear of the virus as well.&lt;/p&gt;&lt;p&gt;Children can do very little when they are helpless. They don’t have the tools, the wisdom, the resources, or the maturity needed to ameliorate adverse childhood conditions. Adults by virtue of greater years, greater resources, and greater mental capacity are able, much of the time, to deal with difficult circumstances. But COVID-19 extracts its toll despite wisdom, years, or great resources. The virus is an equalizer in this respect. It exerts power over its victims. It is relentless in pursuing a host to control. It searches for any weakness to exploit. COVID-19 acts exactly like a bully. For those who have already been a victim in childhood, this new terror is another bully forcing people to stay inside hiding from its power. In this way, victims of childhood bullying, even with their adult resources, are revisited by an age-old sense of helplessness unique to them.&lt;/p&gt;&lt;p&gt;For adults intimidated and threatened throughout childhood, helplessness is not new. It has come back again in the shape of something even more powerful and intimidating.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://unsplash.com/@foxfox?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Natalia Y&lt;/a&gt; on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://unsplash.com/s/photos/depression?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2020/04/how-childhood-trauma-resurfaces-during-covid-19/&quot;&gt;How childhood trauma resurfaces during COVID-19&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/622804842/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/622804842/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/622804842/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/04/six-tips-for-teachers-who-see-emotional-abuse/&quot; rel=&quot;nofollow&quot;&gt;Six tips for teachers who see emotional abuse&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/04/the-ethics-of-defeating-covid-19/&quot; rel=&quot;nofollow&quot;&gt;The ethics of defeating COVID-19&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/04/how-austerity-measures-hurt-the-covid-19-response/&quot; rel=&quot;nofollow&quot;&gt;How austerity measures hurt the COVID-19 response&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content:encoded>
 	<dc:date>2020-04-30T12:30:25+00:00</dc:date>
 	<dc:creator>Sarah Ryan</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=119356">
+	<title>Retraction watch: Journal retracts paper on gender dysphoria after 900 critics petition</title>
+	<link>https://retractionwatch.com/2020/04/30/journal-retracts-paper-on-gender-dysphoria-after-900-critics-petition/</link>
+	<content:encoded>A journal has retracted a controversial paper that questioned what it called the “existing dogma” about gender. The article, “A new theory of gender dysphoria incorporating the distress, social behavioral, and body-ownership networks,” was written by Stephen Gliske, a physicist-turned-neuroscientist at the University of Michigan. Gliske’s paper, which received a modest amount of media attention, … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/04/30/journal-retracts-paper-on-gender-dysphoria-after-900-critics-petition/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Journal retracts paper on gender dysphoria after 900 critics petition&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2020-04-30T10:00:00+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/?p=3087481">
 	<title>Science News: Remdesivir is the first drug found to block the coronavirus</title>
@@ -274,12 +424,7 @@ might even be used to prevent infections, Denison says.  &lt;/p&gt;
 
 
 
-&lt;p&gt;Gilead also announced results of another
-remdesivir trial on April 29. That study compared a five-day course of
-remedisivir with 10 days of treatment. There was no control group that didn’t
-get the drug. It took 10 days for half of people on the shorter course of
-remdesivir to have clinical improvement compared with 11 days for those in the
-longer-treatment group. &lt;/p&gt;
+&lt;p&gt;Gilead also announced results of another remdesivir trial on April 29. That study compared a five-day course of remdesivir with 10 days of treatment. There was no control group that didn’t get the drug. It took 10 days for half of people on the shorter course of remdesivir to have clinical improvement compared with 11 days for those in the longer-treatment group. &lt;/p&gt;
 
 
 
@@ -2983,177 +3128,6 @@ Reports&lt;/em&gt;.  &lt;/p&gt;
 	<dc:date>2020-04-23T15:00:00+00:00</dc:date>
 	<dc:creator>Maria Temming</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3087249">
-	<title>Science News: COVID-19 kills more men than women. The immune system may be why</title>
-	<link>https://www.sciencenews.org/article/coronavirus-covid-19-kills-more-men-than-women-why-immune-system</link>
-	<content:encoded>&lt;p&gt;With more men than women developing
-severe illness and dying from COVID-19, sex differences that influence the
-immune system may offer answers.&lt;/p&gt;
-
-
-
-&lt;p&gt;The bias in COVID-19 deaths appeared
-in the first reports out of China and has also been revealed in countries that
-break down their mortality data by sex. Of Italy’s 21,551 deaths recorded as of
-April 20, &lt;a href=&quot;https://www.epicentro.iss.it/coronavirus/sars-cov-2-decessi-italia&quot;&gt;64 percent were men&lt;/a&gt;. In Spain, &lt;a href=&quot;https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm&quot;&gt;59 percent of the 12,634 deaths&lt;/a&gt; as of April 21 occurred in men. Germany had recorded 4,598
-deaths by April 21, with &lt;a href=&quot;https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Situationsberichte/2020-04-20-en.pdf?__blob=publicationFile&quot;&gt;58 percent in men&lt;/a&gt;. &lt;/p&gt;
-
-
-
-&lt;p&gt;The United States does not
-separate out national COVID-19 mortality by sex, but some states do. New York has
-the highest number COVID-19 deaths in the country, and as of April 21, &lt;a href=&quot;https://www1.nyc.gov/site/doh/covid/covid-19-data.page&quot;&gt;60 percent of 15,302 deaths&lt;/a&gt; were in men. &lt;/p&gt;
-
-
-
-&lt;p&gt;Some of that discrepancy
-could be because men are more likely than women to have other health problems,
-such as hypertension and diabetes. These are among the underlying conditions
-that &lt;a href=&quot;https://www.cdc.gov/mmwr/volumes/69/wr/mm6913e2.htm&quot;&gt;raise the risk for severe COVID-19 disease&lt;/a&gt;, the U.S. Centers for Disease Control and Prevention
-reported April 3. &lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Another possible culprit is
-the immune system itself. The many proteins that work together to defend the
-body against viruses do not operate exactly the same way in males and females. Those
-biological differences, driven by sex hormones and genes, may be guarding some
-women from the deadliest complications of COVID-19. &lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;In general, females mount a
-stronger immune response than males, studies have found. This makes women
-overall less susceptible to viral infections than men, although how each individual
-fares is another matter. A stronger immune response also means females are more
-likely to develop autoimmune diseases, when the immune system attacks one’s own
-tissue; conversely, a toned down immune response makes males more prone to
-having a host of malignant cancers. &lt;/p&gt;
-
-
-
-&lt;p&gt;The sources of the stronger female
-immune response can be found in both the innate and adaptive immune systems,
-says Sabra Klein, a virologist at the Johns Hopkins University Bloomberg School
-of Public Health. The innate system provides the first response against a virus,
-while the adaptive system’s contribution is slightly delayed by the time needed
-to ramp up antibody production against a new intruder. &lt;/p&gt;
-
-
-
-&lt;p&gt;One component of the innate
-immune system is called toll-like receptor 7. This protein can recognize
-molecules found on viruses, thereby outing the pathogens as foreign. The gene
-for toll-like receptor 7 resides on the X chromosome. Because females have two
-copies of the X, &lt;a href=&quot;https://www.sciencenews.org/article/silence-xs&quot;&gt;the body silences one&lt;/a&gt; (&lt;em&gt;SN: 4/8/03&lt;/em&gt;),
-allowing for the right “dose” of X chromosome genes. But some genes escape the shut
-down, and there is &lt;a href=&quot;https://immunology.sciencemag.org/content/3/19/eaap8855&quot;&gt;evidence that this is true for the gene for toll-like
-receptor 7&lt;/a&gt;, researchers reported in &lt;em&gt;Science Immunology&lt;/em&gt; in 2018. That can
-lead to more of the protein being made, giving females more guards looking out
-for intruders. &lt;/p&gt;
-
-
-
-&lt;p&gt;Having more toll-like
-receptor 7 can help jump start and enhance the next steps of the innate immune system.
-“You want fast recognition, you want fast responses,” Klein says. “This is how
-you start to activate the army of immune responses that are going to be needed
-to clear an infection.” One of those steps is the release of interferons,
-proteins that direct major factions of the body’s immune response. In studies
-that measure levels of interferons in blood or in cells grown in a dish, researchers
-overall see “greater production of these interferons in females as compared
-with males,” says Klein. &lt;/p&gt;
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
-&lt;h4&gt;
-&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
-&lt;/h4&gt;
-&lt;/aside&gt;
-
-
-
-&lt;p&gt;As the adaptive immune
-system gears up, women can get a boost over men again. The amount of antibody
-produced, as well as the quality of those antibodies, or the strength with
-which they bind to the virus, tends to be greater in females compared with
-males, Klein says. Female mice &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3206291/&quot;&gt;produced more neutralizing antibodies&lt;/a&gt; — the type which stop an infection by preventing the
-virus from entering cells — and more total antibodies against influenza A virus after infection compared
-with males, Klein and colleagues reported in &lt;em&gt;Vaccine&lt;/em&gt; in 2011.&lt;/p&gt;
-
-
-
-&lt;p&gt;The female hormone estrogen
-also influences the innate and adaptive immune systems. The hormone can regulate
-a variety of different genes for immune system proteins. For example, estrogen can
-stimulate the production of interferons, says Klein. And some of the genes that
-are associated with directing the response of B cells, which make antibodies,
-are regulated by estrogen.&lt;/p&gt;
-
-
-
-&lt;p&gt;All of these findings come
-from research with other viruses, and haven’t yet been studied in the context
-of COVID-19, Klein says, but “they provide us with some clues.” At this point,
-some of the best clues as to why there are discrepancies in how men and women
-fare with COVID-19 may come from a study of the disease SARS in mice. The &lt;a href=&quot;https://www.sciencenews.org/article/sars-new-coronavirus-target-same-cellular-lock-infect-cells&quot;&gt;virus that causes SARS&lt;/a&gt; shares similarities with the culprit behind COVID-19,
-SARS-CoV-2 (&lt;em&gt;SN: 2/3/20&lt;/em&gt;). And there is
-evidence that during the SARS epidemic of 2002-2003, which had close to 800
-deaths, men had a higher case fatality rate than women.&lt;/p&gt;
-
-
-
-&lt;p&gt;It’s helpful to study sex
-differences in mice because it takes behavioral influences out of the equation,
-says Stanley Perlman, a virologist at the University of Iowa in Iowa City. For
-example, as reports from China indicated that more men than women were having
-severe cases of COVID-19, some also noted this could be due to the fact that
-more Chinese men than women smoke. China was also among the five countries that
-SARS cases were concentrated in. &lt;/p&gt;
-
-
-
-&lt;p&gt;Perlman’s team compared &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5450662/&quot;&gt;how male and female mice did&lt;/a&gt; when infected with a mouse-adapted version of SARS-CoV,
-the virus that causes SARS, and reported the results in the &lt;em&gt;Journal of Immunology &lt;/em&gt;in 2017. Among middle-aged
-mice, those 8 to 9 months old, all of the males died within eight days of being
-infected, but only 10 percent of the females did by day 12. Males had higher
-amounts of the virus in their lungs than females did, suggesting the males
-weren’t clearing the virus effectively. The males also had a prolonged,
-unhelpful inflammatory response.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;When the research team
-removed the ovaries from 12 female mice to prevent estrogen from being made, about
-85 percent of the mice died after infection, compared with close to 20 percent
-of 12 females with their ovaries. Without estrogen, “the female mice were now
-as sensitive to the infection as male mice,” Perlman says. “While I wouldn’t
-claim it’s the whole story, estrogen is a big part of the story.” &lt;/p&gt;
-
-
-
-&lt;p&gt;Klein and Perlman both have
-plans to study differences in the male and female response to COVID-19. In cases
-when the body’s own immune response contributes to a viral disease, it might be
-expected women would fare worse, Klein says, because a strong immune response
-can lead to too much damaging inflammation. And with COVID-19, there’s a lot of
-concern about the detrimental effect of increased inflammation in the lungs. &lt;/p&gt;
-
-
-
-&lt;p&gt;But what happens during COVID-19
-might be different. “This aberrant inflammation might be higher in males than
-females,” Klein says. &lt;/p&gt;</content:encoded>
-	<dc:date>2020-04-23T12:00:00+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
 <item rdf:about="http://digest.bps.org.uk/?p=39517">
 	<title>The British Psychological Society - Research Digest: Pop Concert, Opera — Or Both? What Drives People To Become “Cultural Omnivores”</title>
 	<link>https://digest.bps.org.uk/2020/04/23/pop-concert-opera-or-both-what-drives-people-to-become-cultural-omnivores/</link>
@@ -3866,13 +3840,6 @@ females,” Klein says. &lt;/p&gt;</content:encoded>
 	<dc:date>2020-04-06T19:24:36+00:00</dc:date>
 	<dc:creator>ame5</dc:creator>
 </item>
-<item rdf:about="https://retractionwatch.com/?p=119224">
-	<title>Retraction watch: Hydroxychloroquine-COVID-19 study did not meet publishing society’s “expected standard”</title>
-	<link>https://retractionwatch.com/2020/04/06/hydroxychlorine-covid-19-study-did-not-meet-publishing-societys-expected-standard/</link>
-	<content:encoded>The paper that appears to have triggered the Trump administration’s obsession with hydroxychloroquine as a treatment for infection with the novel coronavirus has received a statement of concern from the society that publishes the journal in which the work appeared.  The April 3, 2020, notice, from the International Journal of Antimicrobial Agents, states that the … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/04/06/hydroxychlorine-covid-19-study-did-not-meet-publishing-societys-expected-standard/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Hydroxychloroquine-COVID-19 study did not meet publishing society’s “expected standard”&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2020-04-06T15:18:16+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
-</item>
 <item rdf:about="https://www.elsevier.com/connect/engineering-resources-for-the-covid-19-response">
 	<title>Elsevier Connect: Engineering resources for the COVID-19 response</title>
 	<link>https://www.elsevier.com/connect/engineering-resources-for-the-covid-19-response</link>
@@ -4367,28 +4334,6 @@ driver.quit()
 &lt;p&gt;Official coronavirus and COVID-19 health information, policies, and resources for the general public can be found at the&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt; World Health Organization&lt;/a&gt; and the&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/index.html&quot;&gt; Centers for Disease Control&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2020-03-30T13:00:52+00:00</dc:date>
 	<dc:creator>ame5</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=39396">
-	<title>The British Psychological Society - Research Digest: Can’t Get Over Your Ex? Blame The Algorithm</title>
-	<link>https://digest.bps.org.uk/2020/03/30/cant-get-over-your-ex-blame-the-algorithm/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Breaking up is never easy, particularly when you’re confronted with memories of happier times. A &lt;a href=&quot;https://digest.bps.org.uk/2020/03/18/trouble-sleeping-the-scent-of-your-lover-might-help/&quot;&gt;smell&lt;/a&gt;, an old photograph, a note somebody left you — weeks or even months after a break-up and you can still be reminded of your ex-partner, whether you like it or not.&lt;/p&gt;
-&lt;p&gt;On social media, this can be even worse. If you’re still friends with your ex, you’re likely to still see their posts on your feed; if you’re not, you can still rub salt into the wound by checking their profile anyway. ‘On this Day’ features are also notoriously bad for bringing up unhappy memories at the worst possible time.&lt;/p&gt;
-&lt;p&gt;According to a&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://dl.acm.org/doi/10.1145/3359172&quot;&gt;new study&lt;/a&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;published in&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;em&gt;Proceedings of the ACM on Human-Computer Interaction, &lt;/em&gt;we also see our exes so much because of the so-called “social periphery” — the networks of people we know tangentially through our ex-partners&lt;span&gt;. So why not design an algorithm that causes us less pain? &lt;/span&gt;&lt;span&gt;The new work suggests that this could be the answer to our online break-up woes.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-39396&quot;&gt;&lt;/span&gt;The study, conducted by Anthony Pinter and colleagues at the University of Colorado Boulder, focused on 19 adult Facebook users based in the US. Semi-structured interviews were held with each of the users on their feelings around break-ups and social media. Each had been in a relationship prior to the interview — either dating, cohabiting, or marriage — and were aged between 19 and 46.&lt;/p&gt;
-&lt;p&gt;Participants described a range of experiences in which they came into contact with their ex-partners online, from anything between six days to five years after the break-up. They were then asked to focus on specific features that could stop them from coming across their ex — unfriending or unfollowing, for example, or changing the way they view their newsfeed.&lt;/p&gt;
-&lt;p&gt;Unsurprisingly, emotions ran high. Participants reported feeling pained by seeing content involving their ex-partners, whether that was new information (such as an ex’s new relationship status) or past memories (such as anniversary posts or photographs). “The most upsetting thing on Facebook is On This Day,” one participant said. “It said I was the best husband ever and she loved me the most… I remember that, and obviously not physically being hurt, but just feeling an emotional wallop of like ‘Fuck, that wasn’t that long ago’”.&lt;/p&gt;
-&lt;p&gt;This was all fairly unexpected: unwanted contact with an ex-partner is obviously going to be difficult in some regard. But while the problem may be well-established and familiar, there could still be a novel response.&lt;/p&gt;
-&lt;p&gt;The problem, the authors argue, is that machine learning has focused on methods that “fail to capture social nuances, relationships and other human-centred concerns” — in other words, that the algorithms present to us an unnatural or unhelpful model of our social relationships.&lt;/p&gt;
-&lt;p&gt;There are workarounds when it comes to existing platforms — unfriending, unfollowing or blocking ex-partners, or opting out of features like ‘On This Day’. But because of the social periphery, distant connections still linger after a break-up: one participant talked of their ex-partner’s mother’s frequent appearance on their feed.&lt;/p&gt;
-&lt;p&gt;Being clear about what will happen when you mute or block someone is a good first step. But such fixes, the authors believe, are far from perfect. It’s the algorithms themselves that need changing, taking into consideration our complex social peripheries as well as our one-to-one connections.&lt;/p&gt;
-&lt;p&gt;Currently, algorithms mainly take notice of binary connections — how much or little we choose to see from one particular person. By tweaking these algorithms to take into consideration not only peripheral &lt;em&gt;relationships&lt;/em&gt; but also events, interests, photos and groups could mean our social periphery is both better represented online and easier to evade post-break up.&lt;/p&gt;
-&lt;p&gt;The complexities of such encounters should also be taken into consideration. It’s unlikely to matter if an ex has clicked ‘attending’ on a large event that spans multiple days or takes place in multiple locations, so seeing that they’ve done so may cause unnecessary pain. Knowing they’re likely to attend a small gathering of friends, however, may be more useful information if you’re keen to avoid an awkward meeting.&lt;/p&gt;
-&lt;p&gt;When, or if, algorithms become more human-focused, we may find ourselves having less stressful interactions with our ex-partners online. Blocking and unfriending might not be perfect, but at the moment may be the next best thing.&lt;/p&gt;
-&lt;p&gt;– &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3359172&quot;&gt;“Am I Never Going to Be Free of All This Crap?”: Upsetting Encounters with Algorithmically Curated Content About Ex-Partners&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/rey_z&quot;&gt;@rey_z&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2020-03-30T12:23:57+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 <item rdf:about="https://www.discovermagazine.com/mind/is-covid-19-not-disgusting-enough">
 	<title>Discovery magazine - Neuroskeptic: Is COVID-19 Not Disgusting Enough?</title>
@@ -5087,75 +5032,6 @@ driver.quit()
 	<content:encoded>&lt;p&gt;The human brain is often described as the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.bbc.co.uk/news/uk-scotland-18233409&quot;&gt;most complex object in the known universe&lt;/a&gt; – we know so much, and yet so little, about the way it works. It’s no wonder then that the study of brain today encompasses an enormous range of topics, from abstract understanding of consciousness to microscopic exploration of billions of neurons. Brain Awareness Week takes place this year March 16-22. To mark the occasion, we’ve put together a list of books that explore the matter between your ears.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;em&gt; &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/birth-of-intelligence-9780190908324&quot;&gt;Birth of Intelligence&lt;/a&gt;&lt;/em&gt; &lt;strong&gt;Daeyeol Lee &lt;/strong&gt;&lt;br /&gt;What is intelligence? Does a high level of biological intelligence require a complex brain? Can man-made machines be truly intelligent? In &lt;em&gt;Birth of Intelligence&lt;/em&gt;, distinguished neuroscientist Daeyeol Lee tackles pressing issues that will be key to preparing for future society and its technology, including how the use of AI will impact our lives.&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/how-not-to-train-the-brain-9780198789673&quot;&gt;How (not) to train the brain&lt;/a&gt;&lt;/em&gt;&lt;em&gt; &lt;/em&gt;&lt;strong&gt;Amir Raz and Sheida Rabipour &lt;img height=&quot;220&quot; src=&quot;https://blog.oup.com/wp-content/uploads/2020/03/ENihhJkDjS0-143x220.jpg&quot; width=&quot;143&quot; /&gt;&lt;/strong&gt;&lt;br /&gt;Can we improve cognitive performance through deliberate training? The short answer is yes, albeit with some caveats. In this book, the authors review data from hundreds of articles and provide an overarching account of the field, separating scientific evidence from publicity myth and guiding readers through how they should – and should not – train the brain.&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/the-evolutionary-road-to-human-memory-9780198828051&quot;&gt;The Evolutionary Road to Human Memory&lt;/a&gt;&lt;/em&gt; &lt;strong&gt;Elisabeth A. Murray, Steven P. Wise, Mary K. L. Baldwin, and Kim S. Graham &lt;/strong&gt;&lt;br /&gt;This book tells an intriguing story about how evolution shaped human memory. As our ancestors faced the problems and opportunities of their time, their brains developed new forms of memory that helped them gain an advantage in life. Sometime during human evolution, another new kind of memory emerged that ignited the human imagination, and empowered every individual, day upon day, to add new pages to the story of a life.&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/musical-illusions-and-phantom-words-9780190206833&quot;&gt;Musical Illusions and Phantom Words&lt;/a&gt;&lt;/em&gt; &lt;strong&gt;Diana Deutsch &lt;img height=&quot;220&quot; src=&quot;https://blog.oup.com/wp-content/uploads/2020/03/EF4XXCFsD6Q-145x220.png&quot; width=&quot;145&quot; /&gt; &lt;/strong&gt;&lt;br /&gt;Why is perfect pitch so rare? Why do some people hallucinate music or speech? In this ground-breaking synthesis of art and science, Diana Deutsch, one of the world’s leading experts on the psychology of music, shows how illusions of music and speech—many of which she herself discovered—have fundamentally altered thinking about the brain.&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/sex-lies-and-brain-scans-9780198752882&quot;&gt;Sex, Lies, and Brain Scans&lt;/a&gt;&lt;/em&gt;&lt;em&gt; &lt;/em&gt;&lt;strong&gt;Barbara J. Sahakian and Julia Gottwald &lt;/strong&gt;&lt;em&gt;&lt;br /&gt;Sex, Lies, and Brain Scans&lt;/em&gt; takes readers beyond the media headlines. The authors consider what the technique of fMRI entails, and important ethical questions these techniques raise. Should individuals applying for jobs be screened for unconscious racial bias? How far will we allow neuroscience to go? It is time to make up our minds.&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/the-elephant-in-the-brain-9780190495992&quot;&gt;The Elephant in the Brain&lt;/a&gt;&lt;/em&gt; &lt;strong&gt;Kevin Simler and Robin Hanson &lt;img height=&quot;220&quot; src=&quot;https://blog.oup.com/wp-content/uploads/2020/03/EOGhBuYI0KI-145x220.jpg&quot; width=&quot;145&quot; /&gt;&lt;/strong&gt;&lt;br /&gt;Our brains are designed not just to hunt and gather, but also to help us get ahead socially, often via deception and self-deception. But while we may be self-interested schemers, we benefit by pretending otherwise. The less we know about our own ugly motives, the better – and thus we don’t like to talk or even think about the extent of our selfishness. This is “the elephant in the brain.”&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/your-brain-on-food-9780190932794&quot;&gt;Your Brain on Food, Third Edition&lt;/a&gt;&lt;/em&gt; &lt;strong&gt;Gary L. Wenk &lt;/strong&gt;&lt;br /&gt;This essential book vividly demonstrates how a little knowledge about the foods and drugs we eat can teach us a lot about how our brain functions. The intersection between brain science, drugs, food and our cultural and religious traditions is plainly illustrated in an entirely new light. Wenk tackles fundamental and fascinating questions, such as: &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://medium.com/@OUPAcademic/feed-an-injured-brain-fad1cb8b729d&quot;&gt;Are some foods better to eat after brain injury&lt;/a&gt;?&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;These books showcase some fascinating areas of brain research. But we’ve still got a long way to go before most of our questions about this intricate organ are answered. A comprehensive understanding of the brain is especially critical to combating public health issues, including rising rates of dementia and psychiatric disorders. As such, the continuing progress of brain research will be beneficial to us all.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Featured Image Credit: Owned by Oxford University Press.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2020/03/seven-books-on-the-fascinating-human-brain-reading-list/&quot;&gt;Seven books on the fascinating human brain [reading list]&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/619898700/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/619898700/oupblogpsychology,https%3a%2f%2fblog.oup.com%2fwp-content%2fuploads%2f2020%2f03%2fENihhJkDjS0-143x220.jpg&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/619898700/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;/div&gt;</content:encoded>
 	<dc:date>2020-03-16T12:30:32+00:00</dc:date>
 	<dc:creator>Jazmyn Fields</dc:creator>
-</item>
-<item rdf:about="tag:ankursinha.in,2020-03-15:/2020/03/15/a-vimscript-function-to-select-signatures-in-neomutt.html">
-	<title>Ankur Sinha: A Vim script function to select signatures in Neomutt</title>
-	<link>http://ankursinha.in/2020/03/15/a-vimscript-function-to-select-signatures-in-neomutt.html</link>
-	<content:encoded>&lt;p&gt;I've been using &lt;a class=&quot;reference external&quot; href=&quot;https://neomutt.org/&quot;&gt;Neomutt&lt;/a&gt; for a &lt;a class=&quot;reference external&quot; href=&quot;http://ankursinha.in/2017/12/16/transitioning-to-neomutt-and-friends-for-e-mail.html&quot;&gt;while now&lt;/a&gt;.
-It allows me to stick to the &lt;a class=&quot;reference external&quot; href=&quot;https://www.byobu.org/&quot;&gt;Byobu&lt;/a&gt; based terminal workflow that I'm used to.
-Most importantly, it lets me use &lt;a class=&quot;reference external&quot; href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; to write my e-mails, so I don't need to
-really learn another tool now.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neomutt.org/&quot;&gt;Neomutt&lt;/a&gt; can be configured to add a signature at the end of the e-mail, and one
-can select a signature depending on various parameters, such as the senders
-address using &lt;a class=&quot;reference external&quot; href=&quot;https://neomutt.org/man/neomuttrc&quot;&gt;hooks&lt;/a&gt;. However,
-sometimes, one does need to select other signatures.&lt;/p&gt;
-&lt;p&gt;The simple &lt;a class=&quot;reference external&quot; href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; way, of course, is to simply delete the last few lines, and
-then read in the new signature using &lt;code&gt;:r &amp;lt;filename&amp;gt;&lt;/code&gt;. This takes a few
-more key strokes than one would like (well, than I like) so I thought I'd
-dabble in &lt;a class=&quot;reference external&quot; href=&quot;https://en.wikipedia.org/wiki/Vim_(text_editor)#Vim_script&quot;&gt;Vim script&lt;/a&gt; a bit and automate it. Here's what I've come up with:&lt;/p&gt;
-&lt;pre class=&quot;code vim literal-block&quot;&gt;&lt;span class=&quot;c&quot;&gt;&quot; A function to load the right signature when I'm using neomutt&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt; LoadSignature&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;signature&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;    &quot; Only work for mail files&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; this_file_type &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &amp;amp;&lt;span class=&quot;k&quot;&gt;filetype&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; this_file_type &lt;span class=&quot;p&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;mail&quot;&lt;/span&gt;
-        echo &lt;span class=&quot;s2&quot;&gt;&quot;This is not a mail file! Not running!&quot;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;endif&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;
-    &quot; Get the current signature's line&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;    &quot; Go to last line&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; saved_cursor_position &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; getpos&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;    &quot; Set cursor to file end and search backwards&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;call&lt;/span&gt; cursor&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;99999999999999999999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;l&lt;/span&gt;:sigstart &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; search&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'-- '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;    &quot; Confirm that the line was found&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; sigstart &lt;span class=&quot;p&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;
-        echo &lt;span class=&quot;s2&quot;&gt;&quot;No signatures detected.&quot;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;endif&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;
-    &quot; Check if signature file exists&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;l&lt;/span&gt;:sigdir &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; escape&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;expand&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'$HOME'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; . &lt;span class=&quot;s2&quot;&gt;&quot;/Sync/99_private/neomuttdir/&quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;l&lt;/span&gt;:sigfile &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; sigdir . &lt;span class=&quot;k&quot;&gt;a&lt;/span&gt;:signature . &lt;span class=&quot;s2&quot;&gt;&quot;.sig&quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; filereadable&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;sigfile&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;        &quot; delete the current lines after the &quot;-- &quot; line&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;l&lt;/span&gt;:delstart &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; sigstart &lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
-        execute delstart . &lt;span class=&quot;s2&quot;&gt;&quot;,$d&quot;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;        &quot; Read the new signature&lt;/span&gt;
-        execute sigstart . &lt;span class=&quot;s2&quot;&gt;&quot;read &quot;&lt;/span&gt; . sigfile
-&lt;span class=&quot;c&quot;&gt;        &quot; Return cursor to wherever it was&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;call&lt;/span&gt; setpos&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; saved_cursor_position&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
-        echo &lt;span class=&quot;s2&quot;&gt;&quot;File &quot;&lt;/span&gt; . sigfile . &lt;span class=&quot;s2&quot;&gt;&quot; not found!&quot;&lt;/span&gt;
-        echo &lt;span class=&quot;s2&quot;&gt;&quot;Available signature files:\n&quot;&lt;/span&gt; . globpath&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;sigdir&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.sig'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;endif&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;endfunction&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;So, adding this to &lt;code&gt;~/.vimrc&lt;/code&gt; would let one run &lt;code&gt;:call
-LoadSignature('signature')&lt;/code&gt; in &lt;a class=&quot;reference external&quot; href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; to select a signature. Each signature is a
-different file with a &lt;code&gt;.sig&lt;/code&gt; file extension in the location given by
-&lt;code&gt;sigdir&lt;/code&gt;, and the name of the file is the argument that needs to be given
-to the function. If the signature file cannot be found, it'll list available ones.&lt;/p&gt;
-&lt;p&gt;It's quite simple really, and I'm sure it can be made better, but it works.&lt;/p&gt;</content:encoded>
-	<dc:date>2020-03-15T09:39:20+00:00</dc:date>
-	<dc:creator>ankur</dc:creator>
-</item>
-<item rdf:about="https://www.discovermagazine.com/mind/the-amazing-psychedelic-bamboozle">
-	<title>Discovery magazine - Neuroskeptic: The Amazing Psychedelic Bamboozle</title>
-	<link>https://www.discovermagazine.com/mind/the-amazing-psychedelic-bamboozle</link>
-	<content:encoded>An experiment on the effects of psychedelic drugs on creativity was actually a creative deception.</content:encoded>
-	<dc:date>2020-03-15T00:00:00+00:00</dc:date>
-	<dc:creator>Neuroskeptic</dc:creator>
 </item>
 
 </rdf:RDF>
