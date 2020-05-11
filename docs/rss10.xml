@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=48235" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3087830" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=119416" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=144243" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/4-reasons-article-transfer-systems-are-great-for-authors-and-societies" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/infographic-global-research-trends-in-infectious-disease" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=47136" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/coronavirus-initiatives" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=48235">
+	<title>For Better Science: The Chloroquine Elephant in the Room, by Christian Lehmann</title>
+	<link>https://forbetterscience.com/2020/05/11/the-chloroquine-elephant-in-the-room-by-christian-lehmann/</link>
+	<content:encoded>&quot;How I would have loved it if a brilliant genius, in the style of Jeff Goldblum, had discovered, on a corner of a grubby lab bench, THE miracle treatment for SARS-cov-2! But we're not in a Hollywood style blockbuster.&quot;</content:encoded>
+	<dc:date>2020-05-11T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3087830">
 	<title>Science News: Florence Nightingale understood the power of visualizing science</title>
 	<link>https://www.sciencenews.org/article/florence-nightingale-birthday-power-visualizing-science</link>
@@ -4429,12 +4436,6 @@ driver.quit()
 	<content:encoded>A 2006 Nature paper from Stanford is retracted. We all know the first author Janine Erler, but why is nobody talking of its last author, Amato Giaccia? I celebrate here another Oxford star scientist.</content:encoded>
 	<dc:date>2020-03-25T07:16:17+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/coronavirus-initiatives">
-	<title>Elsevier Connect: COVID-19 resources for librarians, campuses and health professionals</title>
-	<link>https://www.elsevier.com/connect/coronavirus-initiatives</link>
-	<content:encoded>How to get free access to our coronavirus research, textbooks, text and data mining, clinical information and remote access</content:encoded>
-	<dc:date>2020-03-24T21:25:17+00:00</dc:date>
 </item>
 
 </rdf:RDF>
