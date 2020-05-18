@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2020-05-17:/2020/05/17/open-positions-neurofedora-is-looking-to-take-on-trainees.html" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=119470" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3088112" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3088083" />
@@ -164,11 +165,73 @@
 			<rdf:li rdf:resource="http://xcorr.net/?p=7315" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=11799" />
 			<rdf:li rdf:resource="http://brainsciencepodcast.libsyn.com/896372aa-f577-46f5-8e6d-90e44b6c4e8e" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/gender-equity-where-will-we-be-in-10-years-time" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:neuroblog.fedoraproject.org,2020-05-17:/2020/05/17/open-positions-neurofedora-is-looking-to-take-on-trainees.html">
+	<title>NeuroFedora blog: Open positions: NeuroFedora is looking to take on trainees</title>
+	<link>https://neuroblog.fedoraproject.org/2020/05/17/open-positions-neurofedora-is-looking-to-take-on-trainees.html</link>
+	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Teamwork by Perry Grone on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200517.png&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@perrygrone?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Perry Grone&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/teamwork?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;After the recent release of the &lt;a class=&quot;reference external&quot; href=&quot;https://labs.fedoraproject.org/en/comp-neuro&quot;&gt;Computational Neuroscience installable OS
+image&lt;/a&gt;, the &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; team
+is looking to work on to the next set of deliverables. For this, we need to
+expand the team.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I want to note that we are not only looking for people that may already have
+the necessary skills. We are looking for anyone interested in working in these
+areas that would perhaps like to acquire the required skills. We will teach the
+skills that we can, and where we cannot, we will involve experienced members of
+the Free/Open Source software community to help us. All one really needs is a
+few hours a week of free time.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We are looking for people interested in:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Scientific communication, marketing, outreach, and community engagement:&lt;ul&gt;
+&lt;li&gt;To spread information on the staggering amount of Free/Open Source Software
+that is available for Neuroscience to researchers and the community in
+general,&lt;/li&gt;
+&lt;li&gt;To disseminate the progress that the &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; team makes regularly to
+the community.&lt;/li&gt;
+&lt;li&gt;To just generally monitor our various communication channels to answer
+queries and participate in discussions with the team and users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Software development:&lt;ul&gt;
+&lt;li&gt;There are still about &lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues&quot;&gt;200 tools&lt;/a&gt; to include in
+&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;, so still lots of work to do here. Some tools related to
+computational neuroscience remain, so we are working on those. However, we
+want to start making some headway on the next deliverable that will be
+focussed on neuroimaging and data analysis. Not only do we need to build
+these tools from source, we also need to test them regularly, and push new
+versions to our users when developers make new releases.&lt;/li&gt;
+&lt;li&gt;We also want to provide easy to use containers for all the tools that we
+are including in &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Neuro-imaging and data analysis in Neuroscience:&lt;ul&gt;
+&lt;li&gt;A lot of tools on our list are related to Neuro-imaging and data analysis.
+To effectively integrate these with the rest of &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;, we need more
+people with domain knowledge. If you work these areas or want to work in
+them and would like to learn more about these tools, &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is a
+great informal environment to start in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is common knowledge that joining Free/Open source communities is an excellent
+way to pick up skills and experience. So, I especially encourage students to
+join one, even if it is not &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also have first hand experience of how busy a PhD candidate can get, but in
+my experience I also found it possible to free up a few hours a week to work on
+developing general skills that one may not necessarily be able to learn from
+daily research work. So, I also strongly encourage undergraduate/postgraduate
+research students and Ph.D. candidates to do the same.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://docs.fedoraproject.org/en-US/neurofedora/communicating/&quot;&gt;Get in touch with us today!&lt;/a&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2020-05-17T22:38:51+00:00</dc:date>
+	<dc:creator>Ankur Sinha</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=119470">
 	<title>Retraction watch: Weekend reads: Revelations about a controversial COVID-19 study; weaponizing uncertainty; a ‘super-spotter’ of duplicated images</title>
 	<link>https://retractionwatch.com/2020/05/16/weekend-reads-revelations-about-a-controversial-covid-19-study-weaponizing-uncertainty-a-super-spotter-of-duplicated-images/</link>
@@ -5527,12 +5590,6 @@ driver.quit()
 	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://brainsciencepodcast.com/bsp/2020/bs170-nieder-numbers&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;permalink&quot;&gt;BS 170&lt;/a&gt; is an interview with Andreas Nieder, author of &lt;a href=&quot;https://amzn.to/31JP7rr&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Amazon&quot;&gt;&quot;A Brain for Numbers: The Biology of the Number Instinct.&quot;&lt;/a&gt; We talk about the surprising discovery that a wide variety of animals have a number instinct, which is called the approximate number system. This appears to provide the basis for the more abstract mathematical abilities that are seen in humans. We also explore the relationship between mathematics and language.&lt;/p&gt; &lt;p&gt;Links and References:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://amzn.to/31JP7rr&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Amazon link&quot;&gt;&lt;em&gt;A Brain for Numbers: The Biology of the Number Instinct&lt;/em&gt;&lt;/a&gt; by Andreas Nieder&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://amzn.to/2OhcvHs&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Amazon link&quot;&gt;&lt;em&gt;The Number Sense: How the Mind Creates Mathematics&lt;/em&gt;&lt;/a&gt;, Revised and Updated Edition (2011) by Stanislas Dehaene&lt;/li&gt; &lt;li&gt;Please visit &lt;a href=&quot;http://brainsciencepodcast.com/&quot;&gt;http://brainsciencepodcast.com&lt;/a&gt; for additional references and episode transcripts.&lt;/li&gt; &lt;/ul&gt; &lt;p style=&quot;text-align: center;&quot;&gt;Please Visit Our Sponsors:&lt;/p&gt; &lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://textexpander.com/podcast?utm_source=brainscience&amp;amp;utm_medium=podcast&amp;amp;utm_campaign=textexpander-Mar-2020&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;TextExpander&quot;&gt;TextExpander at http://textexpander.com/podcast&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot;text-align: left;&quot;&gt; Announcements:&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;ul&gt; &lt;li&gt;In April 2020 &lt;em&gt;Brain Science&lt;/em&gt; returns to a monthly schedule: it return to the 4th Friday of every month.&lt;/li&gt; &lt;li&gt;The expanded 2nd Edition of &lt;em&gt;Are You Sure? The Unconscious Origins of Certainty&lt;/em&gt; will be published in late April or early May. See newsletter below for updates.&lt;/li&gt; &lt;li&gt;Sign up for the &lt;a href=&quot;http://brainsciencepodcast.com/newsletter-&quot;&gt;free &lt;em&gt;Brain Science&lt;/em&gt; Newsletter&lt;/a&gt; to get show notes automatically every month.&lt;/li&gt; &lt;li&gt;To win an Amazon gift certificate: post a review of &lt;em&gt;Brain Science&lt;/em&gt; in iTunes and send me a screenshot.&lt;/li&gt; &lt;li&gt;Learn how you can support &lt;em&gt;Brain Science&lt;/em&gt; at &lt;a href=&quot;http://brainsciencepodcast.com/donations&quot;&gt;http://brainsciencepodcast.com/donations&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Check out the &lt;a href=&quot;http://brainsciencepodcast.com/iphone-apps/&quot;&gt;free &lt;em&gt;Brain Science&lt;/em&gt; Mobile app&lt;/a&gt; for iOS, Android, and Windows. (It's a great way to get both new episodes and premium content.)&lt;/li&gt; &lt;li&gt;Send email to brainsciencepodcast@gmail.com or post voice feedback at &lt;a href=&quot;http://speakpipe.com/docartemis&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt; Connect on Social Media:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Twitter: &lt;a href=&quot;http://twitter.com/docartemis&quot;&gt;@docartemis&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Facebook page: &lt;a href=&quot;http://www.facebook.com/brainsciencepodcast&quot;&gt;http://www.facebook.com/brainsciencepodcast&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Contact Dr. Campbell:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Email: brainsciencepodcast@gmail.com&lt;/li&gt; &lt;li&gt;Voicemail: &lt;a href=&quot;http://speakpipe.com/docartemis&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Speakpipe&quot;&gt;http://speakpipe.com/docartemis&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;</content:encoded>
 	<dc:date>2020-03-27T09:00:00+00:00</dc:date>
 	<dc:creator>Ginger Campbell, MD</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/gender-equity-where-will-we-be-in-10-years-time">
-	<title>Elsevier Connect: Gender equity: Where will we be in 10 years’ time?</title>
-	<link>https://www.elsevier.com/connect/gender-equity-where-will-we-be-in-10-years-time</link>
-	<content:encoded>3 women researchers share their thoughts on where progress will take us</content:encoded>
-	<dc:date>2020-03-27T08:51:41+00:00</dc:date>
 </item>
 
 </rdf:RDF>
