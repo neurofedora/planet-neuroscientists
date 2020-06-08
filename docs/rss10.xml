@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=49100" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=119647" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=119641" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3088639" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/8-steps-to-hosting-a-productive-virtual-meeting" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=47720" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/the-sciences/civil-disobedience-in-science-publishing" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/10-rules-to-survive-in-the-marvellous-but-sinuous-world-of-academia" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=49100">
+	<title>For Better Science: Cheese against COVID-19</title>
+	<link>https://forbetterscience.com/2020/06/08/cheese-against-covid-19/</link>
+	<content:encoded>Dutch scientists, including two Vitamin K fraudsters, claim this blood clotting factor is the cure for COVID-19. The lead author and The Guardian advise everyone to eat cheese.</content:encoded>
+	<dc:date>2020-06-08T05:44:21+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=119647">
 	<title>Retraction watch: Group withdraws COVID-19 scoring tool based on Surgisphere  data following NEJM, Lancet retractions</title>
 	<link>https://retractionwatch.com/2020/06/06/group-withdraws-covid-19-scoring-tool-based-on-surgisphere-data-following-nejm-lancet-retractions/</link>
@@ -4775,12 +4782,6 @@ representations.&lt;/p&gt;
 	<content:encoded>Fighting the system of scientific authorship, one author list at a time?</content:encoded>
 	<dc:date>2020-04-18T23:00:00+00:00</dc:date>
 	<dc:creator>Neuroskeptic</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/10-rules-to-survive-in-the-marvellous-but-sinuous-world-of-academia">
-	<title>Elsevier Connect: 10 rules to survive in the marvelous but sinuous world of academia</title>
-	<link>https://www.elsevier.com/connect/10-rules-to-survive-in-the-marvellous-but-sinuous-world-of-academia</link>
-	<content:encoded>A professor shares the (unwritten) rules he wants PhD students to know before embarking on their academic careers</content:encoded>
-	<dc:date>2020-04-17T13:11:29+00:00</dc:date>
 </item>
 
 </rdf:RDF>
