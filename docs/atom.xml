@@ -5,8 +5,439 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2020-06-18T13:00:59+00:00</updated>
+	<updated>2020-06-18T18:00:55+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Machine learning helped demystify a California earthquake swarm</title>
+		<link href="https://www.sciencenews.org/article/machine-learning-california-earthquake-swarm"/>
+		<id>https://www.sciencenews.org/?p=3088969</id>
+		<updated>2020-06-18T18:00:00+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;Circulating groundwater &lt;a href=&quot;https://science.sciencemag.org/cgi/doi/10.1126/science.abb0779&quot;&gt;triggered a four-year-long swarm&lt;/a&gt; of tiny earthquakes that rumbled beneath the Southern California town of Cahuilla, researchers report in the June 19 &lt;em&gt;Science&lt;/em&gt;. By training computers to recognize such faint rumbles, the scientists were able not only to identify the probable culprit behind the quakes, but also to track how such mysterious swarms can spread through complex fault networks in space and time.&lt;/p&gt;
+
+
+
+&lt;p&gt;Seismic signals are constantly being recorded in tectonically active Southern California, says seismologist Zachary Ross of Caltech. Using that rich database, Ross and colleagues &lt;a href=&quot;https://www.sciencenews.org/article/more-million-tiny-earthquakes-revealed-southern-california&quot;&gt;have been training computers to distinguish&lt;/a&gt; the telltale ground movements of minute earthquakes from other things that gently shake the ground, such as construction reverberations or distant rumbles of the ocean (&lt;em&gt;SN: 4/18/19&lt;/em&gt;). The millions of tiny quakes revealed by this machine learning technique, he says, can be used to create high-resolution, 3-D images of what lies beneath the ground’s surface in a particular region.&lt;/p&gt;
+
+
+
+&lt;p&gt;In 2017, the researchers noted an uptick in tiny quake activity in the Cahuilla region that had, at that point, been going on for about a year. Most of the quakes were far too small to be felt but were detectable by the sensors. Over the next few years, the team used their computer algorithm to identify 22,000 such quakes from early 2016 to late 2019, ranging in magnitude from 0.7 to 4.4.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar alignleft&quot;&gt;
+&lt;h3&gt;Quakes galore&lt;/h3&gt;
+
+
+
+
+
+&lt;p&gt;From early 2016 to late 2019, about 22,000 earthquakes rumbled beneath Cahuilla, Calif. The quakes ranged in magnitude from 0.7 to 4.4. The earliest quakes (in red) were all within a small region just tens of meters long. Over the next few years, the number of quakes grew and moved outward (from orange to blue). That evolving, diffusive earthquake front suggests that circulating groundwater triggered the long-lasting swarm of tremors.&lt;/p&gt;
+
+
+
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;Evolution of an earthquake swarm, 2016–2019&lt;/h6&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Evolution of an earthquake swarm, 2016–2019&quot; class=&quot;wp-image-3088977&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061820_cg_earthquakecluster_inline1_vertical-1.png&quot; /&gt;&lt;span class=&quot;credit wp-credit-3088977&quot;&gt;Z.E. Ross et al/&lt;em&gt;Science &lt;/em&gt;2020&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Such a cluster of small quakes, with no standout, large mainshock, is called a swarm. “Swarms are different from a standard mainshock-aftershock sequence,” which are typically linked to the transfer of stress from fault to fault in the subsurface, Ross says. The leading candidates for swarm triggering come down to groundwater circulation or a kind of slow slippage on an active fault, known as fault creep.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Swarms have been somewhat enigmatic for quite a while,” says David Shelly, a U.S. Geological Survey geophysicist based in Golden, Colo., who was not connected with the study. They are particularly common &lt;a href=&quot;https://www.sciencenews.org/article/mauna-kea-volcano-dormant-tiny-earthquakes-gas-magma&quot;&gt;in volcanic and hydrothermal areas&lt;/a&gt;, he says, “and so sometimes, it’s a bit harder to interpret the ones that aren’t in those types of areas,” like the Cahuilla swarm (&lt;em&gt;SN: 5/14/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;“This one is particularly cool, because it’s [a] rare, slow-motion swarm,” Shelly adds. “Most might last a few days, weeks or months. This one lasted four years. Having it spread out in time like that gives a little more opportunity to examine some of the nuances of what’s going on.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Data from the Cahuilla swarm, which is winding down but “not quite over,” Ross says, revealed not only the complex network of faults beneath the surface, but also the evolution of the fault zone over time. “You can see that the sequence [of earthquakes] originated from a region that’s only on the order of tens of meters wide,” Ross says. But over the next four years, he adds, that region grew, creating an expanding front of earthquake epicenters that spread out at a rate of about 5 meters per day, until it became about 30 times the size of the original zone.&lt;/p&gt;
+
+
+
+&lt;p&gt;That diffusive spread, Ross says, suggests that moving groundwater is triggering the swarm. Although the team didn’t directly observe fluids moving underground, the scientists speculate that beneath the fault zone lies a reservoir of groundwater that previously had been sealed off from the zone. At some point, that seal broke, and the groundwater was able to seep into one of the faults, triggering the first quakes. From there, it moved through the fault system over the next few years, triggering more quakes in its wake. Eventually, the seeping groundwater probably ran up against an impermeable barrier, which is bringing the swarm to a gradual halt. &lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Being able to identify what causes such mysterious events is extremely important when it comes to communicating with people about earthquake hazards, Ross says. “Typically, we have very limited explanations that we can provide to the public on what’s happening,” he says. “It gives us something that we can explain in concrete terms.”&lt;/p&gt;
+
+
+
+&lt;p&gt;And this discovery, he adds, “gives me a lot of confidence” to continue to apply this technique, such as on the last 40 years of amassed seismic data in Southern California, which likely contains many more previously undetected swarms.&lt;/p&gt;
+
+
+
+&lt;p&gt;The study highlights how seismologists are increasingly acknowledging the importance of fluids in the crust, Shelly says. And, he adds, it emphasizes how having so many tiny quakes can illuminate the hidden world of the subsurface. “It’s kind of like having a special telescope to look down into the crust,” he adds. Combining this wealth of seismic data with machine learning is “the future of earthquake analysis.”&lt;/p&gt;</content>
+		<author>
+			<name>Carolyn Gramling</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2020-06-18T18:00:50+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">How to make a mouse smell a smell that doesn’t actually exist</title>
+		<link href="https://www.sciencenews.org/article/scientists-built-artificial-smell-mouse-brain-nerve-cells"/>
+		<id>https://www.sciencenews.org/?p=3088965</id>
+		<updated>2020-06-18T18:00:00+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;Scientists have implanted an artificial odor directly in the brains of mice. It doesn’t mean that mental Smell-O-Vision technology is coming soon. But the results, published June 18 in &lt;em&gt;Science&lt;/em&gt;, deliver clues to how the brain processes information.&lt;/p&gt;
+
+
+
+&lt;p&gt;Details about the synthetic smell may help answer “fundamental questions in olfaction,” says computational biologist &lt;a&gt;Saket Navlakha&lt;/a&gt; of Cold Spring Harbor Laboratory in New York, who wasn’t involved in the study. Studies on the senses offer a window into how brains shape signals from the outside world into perceptions, and how those perceptions can &lt;a href=&quot;https://www.sciencenews.org/article/manipulating-nerve-cells-makes-mice-see-something-not-there&quot;&gt;guide behavior&lt;/a&gt; (&lt;em&gt;SN: 7/18/19&lt;/em&gt;). &lt;/p&gt;
+
+
+
+&lt;p&gt;To build artificial smells in mice’s brains, researchers used &lt;a href=&quot;https://www.sciencenews.org/article/let-there-be-light-1&quot;&gt;optogenetics&lt;/a&gt;, a technique in which light prods genetically engineered nerve cells to fire signals &lt;em&gt;(SN: 1/15/10&lt;/em&gt;). Neuroscientist &lt;a&gt;Dima Rinberg&lt;/a&gt; of New York University’s Grossman School of Medicine and colleagues targeted nerve cells in mice’s olfactory bulbs. There, clusters of nerve endings called glomeruli organize the smell signals picked up in the nose.&lt;/p&gt;
+
+
+
+&lt;p&gt;Like playing a short ditty on a piano, Rinberg and colleagues activated nerve cells in six spots (each of which might include between one and three glomeruli) in a certain order. This neural melody was designed to be a simplified version of how a real odor might play those nerve cells. (It’s not known what the artificial odor actually smells like to a mouse.)&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;smell nerve bundles mouse brain&quot; class=&quot;wp-image-3088966&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061820_ls_fakesmells_inline1.gif&quot; /&gt;&lt;span class=&quot;caption wp-caption-3088966&quot;&gt;In response to a real odor, nerve bundles called glomeruli become active (red) in a particular sequence in a mouse’s brain.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3088966&quot;&gt;Hirofumi Nakayama/Rinberg Lab/NYU Langone Health&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Mice learned to signal the presence of this artificial smell by licking one of two spouts. The synthetic odor didn’t objectively exist, but the mice behaved as though they smelled it anyway, the researchers found. After “smelling” the synthetic odor, mice reliably licked the correct spout. Other scrambled signals, also delivered by optogenetics, didn’t cause the same reaction.&lt;/p&gt;
+
+
+
+&lt;p&gt;Together, the individual spots the researchers stimulated built the perception of the odor, just as a string of notes makes a melody. Because the smell was completely synthetic, though, researchers could mess with it. By slightly changing some of the signals generating the artificial odor, the researchers could test which qualities of the sequence were important, and which changes rendered the odor unrecognizable.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;The beginning of the smell sequence seemed to be key. When the researchers swapped the order of the first few spots’ activity, the mice had more trouble identifying the smell than they did when the spots toward the end of the sequence were changed. And delays near the beginning mattered more than delays toward the end. “If you modify the first few notes, you more easily ruin the song,” Rinberg says.&lt;/p&gt;
+
+
+
+&lt;p&gt;This result supports an idea called the primacy effect, which holds that the neural signals that come first in a sequence carry more weight, says &lt;a&gt;Tatyana Sharpee&lt;/a&gt;, a computational neuroscientist at the Salk Institute for Biological Studies in La Jolla, Calif., who was not involved in the study.&lt;/p&gt;
+
+
+
+&lt;p&gt;More generally, these results offer an example of how changes in neural activity can affect a perception, Sharpee says. “Ultimately, this hints at the fundamental properties of the neural code.” &lt;/p&gt;
+
+
+
+&lt;p&gt;Sharpee suspects that similar properties might apply to other kinds of information processed by the brain, including vision and hearing signals, and perhaps even to more complex tasks such as memory. Such processes all rely on the same basic transformation, she says — “a general mathematical problem of coding inputs to outputs.” In this way, the brain takes incoming information about the world and stitches it into useful perceptions.  &lt;/p&gt;
+
+
+
+&lt;p&gt;In addition to following the synthetic smells into other parts of the brain, Rinberg and his colleagues want to test whether similar rules apply to real smells. “A synthetic odor is fantastic. It’s a super interesting tool,” Rinberg says. “But at the end of the day, I want to know how odors are formed in the brain.”&lt;/p&gt;</content>
+		<author>
+			<name>Laura Sanders</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2020-06-18T18:00:50+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Authors of article on IQ, religiosity and crime retract it to do “a level of vetting we should have done before submitting”</title>
+		<link href="https://retractionwatch.com/2020/06/18/authors-of-article-on-iq-religiosity-and-crime-retract-it-to-do-a-level-of-vetting-we-should-have-done-before-submitting/"/>
+		<id>https://retractionwatch.com/?p=119745</id>
+		<updated>2020-06-18T14:51:12+00:00</updated>
+		<content type="html">
+ The authors of a paper that some critics have labeled white supremacy in academic robes say they will be retracting the article because some of the data they’d used for their analysis were “highly questionable.”  The January 2020 article, from a group led by Cory Clark, of Heterodox Academy and New York University, was titled … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/06/18/authors-of-article-on-iq-religiosity-and-crime-retract-it-to-do-a-level-of-vetting-we-should-have-done-before-submitting/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Authors of article on IQ, religiosity and crime retract it to do “a level of vetting we should have done before submitting”&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Adam Marcus</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="http://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2020-06-18T18:00:49+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">For Political Candidates, Making Jokes Online Might Backfire</title>
+		<link href="https://digest.bps.org.uk/2020/06/18/for-political-candidates-making-jokes-online-might-backfire/"/>
+		<id>http://digest.bps.org.uk/?p=39800</id>
+		<updated>2020-06-18T13:46:05+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Over the last few years, memes have played an increasingly important part in online political discussion: in 2016, the &lt;em&gt;Washington Post &lt;/em&gt;dubbed the 2016 presidential election “the most-memed election in U.S. history”, and CNN has already christened the 2020 race “the meme election”.&lt;/p&gt;
+&lt;p&gt;But politicians may want to pause for thought before they hit send on that jokey tweet. &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/08824096.2020.1767047&quot;&gt;New research&lt;/a&gt; in &lt;em&gt;Communication Research Reports, &lt;/em&gt;from Ohio State University’s Olivia Bullock and Austin Huber,&lt;i&gt; &lt;/i&gt;suggests that humour doesn’t always go down well online — and that this can impact what voters think of particular candidates and potentially how they vote.&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-39800&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The researchers showed 407 participants the Twitter profile of a fictional politician, Alex Smith, displayed as either male or female and either young or old. Smith was not given a political affiliation. The profile contained five tweets related to various hot-button issues including education, healthcare and voting and campaign issues.&lt;/p&gt;
+&lt;p&gt;Half of participants saw formal, serious tweets on the topic (“we’re tired of getting bad healthcare! It’s time to fix our broken system”) while the other half saw informal tweets containing puns or plays on words (we’re &lt;em&gt;sick&lt;/em&gt; of getting bad health care! It’s time to &lt;em&gt;heal&lt;/em&gt; our broken system”).&lt;/p&gt;
+&lt;p&gt;After viewing the profile, participants completed a questionnaire about their perceptions of Smith. First, they indicated how humorous they found the messages, before rating how appropriate they felt the tweets were for someone running for office and how surprised they were by them (that is, how much the tweets violated expectations about a candidate’s behaviour). They also answered questions on perceived credibility and how knowledgeable, trustworthy and likeable they found the candidate. Finally, participants were asked how likely they would be to vote, campaign or donate to the candidate were they running in their area.&lt;/p&gt;
+&lt;p&gt;Participants did find the punny tweets more humorous compared to the more formal ones &lt;span&gt;—&lt;/span&gt; but that wasn’t necessarily a good thing. Those in the informal condition felt the tweets they saw violated their expectations about how a candidate should behave far more than those in the formal condition. This, in turn, led to feelings that the candidate was less credible, and to reduced levels of support. These findings held across sex and age, neither of which had a significant impact on how participants responded to the tweets.&lt;/p&gt;
+&lt;p&gt;The study suggests that informal or jokey tweets could have a tangible impact on a politician’s success in the polls. But none of this is to say that well-executed jokes might not have a positive impact sometimes. &lt;a href=&quot;https://journals.openedition.org/ejas/12158&quot;&gt;Other work&lt;/a&gt; has suggested that Trump and his supporters were actively boosted during the 2016 election by their successful memeing, and it’s a strategy his camp continues to use in the run-up to the next one. And in some cases, humour clearly &lt;em&gt;is&lt;/em&gt; working &lt;span&gt;—&lt;/span&gt; Democratic congresswoman Alexandria Ocasio-Cortez has been &lt;a href=&quot;https://www.theguardian.com/us-news/2019/feb/12/alexandria-ocasio-cortez-twitter-social-media&quot;&gt;widely lauded&lt;/a&gt; for her often humorous social media presence. This could relate to a &lt;em&gt;lack&lt;/em&gt; of expectancy violation: politicians like Trump and Ocasio-Cortez have built their brands on more informal (though very different) communication styles, meaning voters are not surprised by jokes online.&lt;/p&gt;
+&lt;p&gt;Puns, the “informal” form of communication used in this study, are not a particularly sophisticated form of humour, so future work might look at different types: irony, sarcasm or surrealism, for example. The relationship between jokes and political affiliation would also be interesting to look at: what impact humour has on floating voters, for example, or whether partisan voters have different interpretations of jokes that come from their own party or a rival party.&lt;/p&gt;
+&lt;p&gt;It’s unlikely that political campaigns will become any less “online” &lt;span&gt;—&lt;/span&gt; if anything, the influence of the internet is only set to increase. But caution is probably needed for political candidates looking to get a laugh &lt;span&gt;—&lt;/span&gt; otherwise, they may &lt;a href=&quot;https://money.cnn.com/2015/08/12/news/hillary-clinton-tweet-emoji-reaction/index.html&quot;&gt;find themselves&lt;/a&gt; the butt of the joke.&lt;/p&gt;
+&lt;p&gt;– &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/08824096.2020.1767047&quot;&gt;Candidates’ use of informal communication on social media reduces credibility and support: Examining the consequences of expectancy violations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+		<author>
+			<name>BPS Research Digest</name>
+			<uri>https://digest.bps.org.uk</uri>
+		</author>
+		<source>
+			<title type="html">Research Digest</title>
+			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
+			<id>https://digest.bps.org.uk</id>
+			<updated>2020-06-18T18:00:49+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">COVID-19 case clusters offer lessons and warnings for reopening</title>
+		<link href="https://www.sciencenews.org/article/coronavirus-covid-19-case-clusters-lessons-warnings-reopening"/>
+		<id>https://www.sciencenews.org/?p=3088924</id>
+		<updated>2020-06-18T13:00:00+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p class=&quot;has-drop-cap&quot;&gt;Several months into the COVID-19 pandemic, countries are looking for ways to restart their economies, public health officials are looking to guide safe reopening and people are eagerly looking to escape cabin fever. But tough lessons have surfaced from countries that were hit early in the pandemic and have already reopened.&lt;/p&gt;
+
+
+
+&lt;p&gt;Consider South Korea: In April, after new cases had steadily declined to single digits, the country began easing lockdown restrictions. But that respite was short-lived. On May 6, a 29-year-old man &lt;a href=&quot;https://www.youtube.com/watch?v=XxSc5RNccSg&quot;&gt;tested positive&lt;/a&gt; for SARS-CoV-2, just a few days after visiting &lt;a href=&quot;https://www.youtube.com/watch?v=fNVcAhuUaBM&quot;&gt;five dance clubs&lt;/a&gt; in one night in Seoul’s Itaewon district. On May 8, South Korea responded quickly, &lt;a href=&quot;https://www.npr.org/sections/coronavirus-live-updates/2020/05/12/854407305/south-korea-delays-reopening-schools-as-coronavirus-cases-resurge&quot;&gt;postponing plans&lt;/a&gt; to reopen schools and urging bars and clubs to shut down again for a month. As of June 8, the Korean Centers for Disease Control &lt;a href=&quot;https://is.cdc.go.kr/upload_comm/syview/doc.html?fn=159160814965400.pdf&amp;amp;rs=/upload_comm/docu/0030/&quot;&gt;had linked&lt;/a&gt; the sick man to 96 other clubgoers who got COVID-19, plus 178 people with whom those clubgoers came into contact.&lt;/p&gt;
+
+
+
+&lt;p&gt;That wasn’t the only cluster that put the brakes on South Korea’s reopening plans. Soon more clusters popped up in an online retail center, a theme park, a table tennis club and a handful of churches.&lt;/p&gt;
+
+
+
+&lt;p&gt;Other countries should expect similar starts and stops upon relaxing stay-at-home rules. “Reopening is not a one-way street, and we may need to make a U-turn,” says Andrew Noymer, an epidemiologist at the University of California, Irvine.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Studying these kinds of transmission clusters as well as common environments where COVID-19 moves easily from person to person provides a glimpse of how to avoid the U-turns. To that end, epidemiologist Gwenan Knight and her colleagues at the London School of Hygiene and Tropical Medicine &lt;a href=&quot;https://wellcomeopenresearch.org/articles/5-83/v2&quot;&gt;compiled a massive database of worldwide COVID-19 case clusters&lt;/a&gt; based on media accounts, published scientific studies and government health department reports.&lt;/p&gt;
+
+
+
+&lt;p&gt;As of June 10, their database included 231 cluster events, or groups of cases tied to the same place. The data are limited to known clusters and to what the patients involved could recall and what they told investigators.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar alignwide&quot;&gt;
+&lt;h3&gt;Where does COVID-19 spread?&lt;/h3&gt;
+
+
+
+&lt;p&gt;A team at the London School of Hygiene and Tropical Medicine has compiled a database of 231 known COVID-19 case clusters, represented in the graphic here. The settings are color-coded based on whether the virus spread in an indoor vs. outdoor setting, and each bubble’s size represents the number of cases in the cluster. As much as possible, the team looked at the first round of transmission, in hopes of getting an accurate snapshot of the risks different types of settings pose. When data were available, the team also calculated a cluster’s attack rate, or the percentage of people who got sick out of the total number of people present.&lt;/p&gt;
+
+
+
+&lt;p&gt;The most prevalent setting among reported clusters is in households, and the largest clusters occurred aboard ships. The London team’s database includes some entries that represent more than one cluster; in this chart, those have been separated out so each bubble shown represents a single cluster.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;Some interesting trends have emerged. Indoor settings dominate, partly because the virus hit during winter, when people spend most of their time indoors, and partly because in outdoor settings an abundant flow of fresh air helps dissipate virus particles exhaled by an infected person. Ultraviolet rays from the sun might also help kill virus particles.&lt;/p&gt;
+
+
+
+&lt;p&gt;Households were the most common place for transmission, accounting for 15 percent, or 38 of 231, cluster events. And mealtime was prime time. “It’s not the eating. It’s the sitting around and talking,” Noymer suspects. SARS-CoV-2 primarily spreads via respiratory droplets and direct contact. While sharing food or utensils could theoretically pose a risk for infection, no clusters have been linked to eating itself. A study published June 3 in &lt;em&gt;Emerging Infectious Diseases&lt;/em&gt; found &lt;a href=&quot;https://wwwnc.cdc.gov/eid/article/26/9/20-2135_article&quot;&gt;traces of SARS-CoV-2 genetic material on chopsticks&lt;/a&gt; used by patients in Hong Kong, but whether virus particles could survive on a chopstick and actually infect someone remains unknown.&lt;/p&gt;
+
+
+
+&lt;p&gt;The largest known clusters occurred in settings that are by now well publicized: ships (the &lt;em&gt;Diamond Princess&lt;/em&gt; cruise ship and the USS &lt;em&gt;Teddy Roosevelt&lt;/em&gt; aircraft carrier), food packing plants and prisons. Dormitories in Singapore, where &lt;a href=&quot;https://theconversation.com/this-is-why-singapores-coronavirus-cases-are-growing-a-look-inside-the-dismal-living-conditions-of-migrant-workers-136959&quot;&gt;migrant workers live in cramped conditions&lt;/a&gt;, also saw large numbers of infections. In all of these places, people live or work in close quarters over long periods of time.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image alignwide size-large&quot;&gt;&lt;img alt=&quot;worker dormitory in Singapore&quot; class=&quot;wp-image-3088931&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061120_ht_clusters_inline_dorm-800x450.jpg&quot; /&gt;&lt;span class=&quot;caption wp-caption-3088931&quot;&gt;Worker dormitories have had several outbreaks of COVID-19. Singapore’s Minister for Manpower Josephine Teo visited a foreign worker dormitory in May called Westlite Papan, where health officials are carrying out daily testing for COVID-19.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3088931&quot;&gt;WALLACE WOON/​EPA-EFE/​Shutterstock&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;The dataset also points to settings where one activity may be riskier than another, says Quentin Leclerc, an epidemiologist on Knight’s team who manages the database. “For example, why have we found clusters associated with one type of indoor sport, but not another?” In a cluster of &lt;a href=&quot;https://wwwnc.cdc.gov/eid/article/26/8/20-0633_article&quot;&gt;112 cases stemming from Zumba classes&lt;/a&gt; in Cheonan, South Korea, a pilates and yoga instructor from the same gym was among those infected. But that instructor did not subsequently pass the virus on to any students. High intensity sports that involve a lot of heavy breathing in confined spaces &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-coronavirus-indoor-high-intensity-fitness-classes&quot;&gt;could be prime spots for transmission&lt;/a&gt;, while lower intensity activities, like yoga, might not be as risky (&lt;em&gt;SN: 5/19/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;Only one transportation cluster — three cases on a bus — appears in the database, but that doesn’t mean the virus doesn’t spread on buses or trains. “Transport outbreaks are very difficult to identify,” says Yuguo Li, an engineer at the University of Hong Kong who studies infectious disease transmission.&lt;/p&gt;
+
+
+
+&lt;p&gt;Of course there could be other possible transmission settings that researchers don’t know about or haven’t been able to study. But the case clusters below might offer some useful insights.&lt;/p&gt;
+
+
+
+&lt;h4&gt;A restaurant with poor ventilation&lt;/h4&gt;
+
+
+
+&lt;p&gt;A cautionary tale of poor ventilation comes from Guangzhou, China, on the eve of Lunar New Year. A 63-year-old woman and her family walked into a crowded restaurant for lunch, after returning from Wuhan the day before. That same day she developed a fever and cough; she later tested positive for the coronavirus.&lt;/p&gt;
+
+
+
+&lt;p&gt;Of the 89 other customers who visited the restaurant that day, 10 fell ill with COVID-19, including the woman and four members of her family. Patients are most contagious &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-19-infection-contagious-days-before-symptoms-appear&quot;&gt;around the time their symptoms emerge&lt;/a&gt;, so this woman was most likely the index case — the first person in the cluster to become infected.&lt;/p&gt;
+
+
+
+&lt;p&gt;The five other infections occurred in families seated at the tables on either side of hers, less than three feet away. Security footage shows that the three families didn’t interact or touch the same objects. The droplets the woman produced as she chatted with her family were unlikely to reach the other tables on their own. So the virus probably &lt;a href=&quot;https://wwwnc.cdc.gov/eid/article/26/7/20-0764_article&quot;&gt;got some help from the air conditioning unit blowing directly over the row of three tables&lt;/a&gt;, researchers from the Guangzhou Center for Disease Control and Prevention report in the July &lt;em&gt;Emerging Infectious Diseases&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;The restaurant had no windows. The only source of outside air was an exhaust fan in a bathroom. The air conditioning unit only recirculated indoor air, blowing the woman’s respiratory droplets to the nearby tables. With very little fresh air coming in, the concentration of droplets would get higher and higher, says Yan Chen, an engineer at Purdue University in West Lafayette, Ind.  &lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar alignwide&quot;&gt;
+&lt;h3&gt;In the zone&lt;/h3&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot; data-amp-lightbox=&quot;true&quot;&gt;&lt;figure class=&quot;alignright size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-3088942&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061120_ht_clusters_inline_airflow_REV-450x450.jpg&quot; /&gt;&lt;span class=&quot;credit wp-credit-3088942&quot;&gt;Y. Li et al/medRxiv 2020&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;In the Guangzhou restaurant illustrated here, one sick patron infected nine others. Air conditioning units cooled different zones, and one unit blew directly over the three tables where COVID-19 cases arose. The woman believed to be the index case (magenta, just left of center at top of image) was seated with her family at the middle table. Air flowing from the air conditioning unit may have blown her respiratory droplets over to the table farthest from the AC unit. The air then bounced off the wall and brought those droplets back in the direction of the table on the other side, next to the AC unit.&lt;/p&gt;
+
+
+
+&lt;p&gt;In this computer simulation based on trace gas tests conducted at the restaurant, droplets (turquoise) congregate in the air around the three tables due to the airflow from the air conditioning unit and poor ventilation in the room. The red figures represent the other people who fell ill with COVID-19 after eating at the restaurant at the same time.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;When the restaurant was empty during lockdown, Li and his colleagues tested the theory with a few human volunteers, some mannequins and harmless gas droplets to trace and simulate the spread. &lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.04.16.20067728v1.full.pdf&quot;&gt;Their preliminary simulations&lt;/a&gt;, posted online April 22 at medRxiv.org, show that the air conditioning flow in the room could have created a bubble of small droplets around the three tables, and that there was an exceptionally low amount of fresh air in the room. That’s where the blame for infection lies, Li’s team argues. With more fresh air in the mix, droplet concentration would probably have been lower.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Long work shifts at close proximity&lt;/h4&gt;
+
+
+
+&lt;p&gt;A case cluster in a South Korean call center provides an example of how COVID-19 can emerge in a bustling open-office setting — and how to intervene and stop transmission.&lt;/p&gt;
+
+
+
+&lt;p&gt;The call center in downtown Seoul occupies four floors in a 19-story building that has commercial offices and residences. When almost all of building users — 1,143 people — were tested, 97 were positive for SARS-CoV-2; &lt;a href=&quot;https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article&quot;&gt;94 of them worked in call center offices on the 11th floor&lt;/a&gt;, researchers report in the August &lt;em&gt;Emerging Infectious Diseases&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Employees sat side by side, talking on the phone for long shifts. Because a striking majority of cases were concentrated in a single open work area on one side of the building, researchers suspect that prolonged proximity, rather than, say, touching the same elevator button drove the spread.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar&quot;&gt;
+&lt;h3&gt;Crowded call center&lt;/h3&gt;
+
+
+
+&lt;p&gt;Most of the 97 COVID-19 cases in a mixed residential and commercial building in downtown Seoul, South Korea, were concentrated on the 11th floor. There, 94 call center employees tested positive for COVID-19 (workstations of people who got infected shown in blue), most of them concentrated on one side of the building.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-3088930&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061120_ht_clusters_inline_call-center.jpg&quot; /&gt;&lt;span class=&quot;credit wp-credit-3088930&quot;&gt;S. Park &lt;em&gt;et al&lt;/em&gt;/&lt;em&gt;Emerging Infectious Diseases&lt;/em&gt; 2020&lt;/span&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;At the call center, the Korean CDC was extremely thorough in its attempts to find cases and stop their spread, testing 99.8 percent of the people who had any contact with the building and quickly isolating all positive cases. Beyond the building, investigators tracked 225 household contacts of those positive cases, and 34 tested positive. Through this intense screening process, the agency cut transmission chains and prevented new cases from emerging. “It shows how intervention can work,” says Werner Bischoff, an epidemiologist at Wake Forest University in Winston-Salem, N.C.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Sharing more than memories&lt;/h4&gt;
+
+
+
+&lt;p&gt;A sobering warning about the importance of social distancing comes from a family in Irbid, Jordan, about 60 miles north of Amman. Defying a local ban on large gatherings, the family held a wedding celebration in March. Of the roughly 360 people who attended, &lt;a href=&quot;https://wwwnc.cdc.gov/eid/article/26/9/20-1469_article&quot;&gt;76 tested positive for the coronavirus&lt;/a&gt; in the four weeks that followed, researchers report in the September &lt;em&gt;Emerging Infectious Diseases&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
+
+
+
+&lt;p&gt;Two days before the ceremony the bride’s 58-year-old father, who had traveled from Spain, felt feverish and developed a runny nose and cough. He tested positive for the coronavirus two days after the wedding.&lt;/p&gt;
+
+
+
+&lt;p&gt;Though he did not recall having contact with anyone who had COVID-19 in Spain, scientists believe he sparked the cluster. In Jordan, it’s common for the bride’s family to greet all of the guests at the reception entrance, usually with a hug or a kiss. “These factors, in addition to crowded dancing and close face-to-face communication, likely contributed to the large number of infections from this wedding,” the researchers write.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Lockdown exit strategies&lt;/h4&gt;
+
+
+
+&lt;p&gt;Some unknown variables — like the &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-can-fabric-cloth-masks-stem-coronavirus-spread&quot;&gt;effectiveness of fabric masks&lt;/a&gt; and the degree to which infected people &lt;a href=&quot;https://www.sciencenews.org/article/first-case-coronavirus-spread-person-no-symptoms-found-germany&quot;&gt;without symptoms&lt;/a&gt; spread the virus — could influence the risk equation for coronavirus in any of these and other settings.&lt;/p&gt;
+
+
+
+&lt;p&gt;As restrictions lift, people will have to make tough choices about in-person interactions. Social distancing is still important. You might limit your contacts, but other people you encounter might not. As restrictions ease, some &lt;a href=&quot;https://slate.com/news-and-politics/2020/05/new-zealand-quarantine-bubble-concept-america.html&quot;&gt;public health officials&lt;/a&gt; suggest creating &lt;a href=&quot;https://www.technologyreview.com/2020/05/09/1001547/coronavirus-bubble-pod-quaranteam-social-distancing-negotiation/&quot;&gt;COVID-19 “bubbles,”&lt;/a&gt; or expanding social circles to people who agree to observe the same precautionary measures.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image alignwide size-large&quot;&gt;&lt;img alt=&quot;People eating at a restaurant with plexiglass barriers&quot; class=&quot;wp-image-3088932&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061120_ht_clusters_inline_plexiglass-800x450.jpg&quot; /&gt;&lt;span class=&quot;caption wp-caption-3088932&quot;&gt;In South Korea, some restaurants like this food hall have erected plexiglass barriers between diners, in hopes of reducing the spread of COVID-19.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3088932&quot;&gt;Chung Sung-Jun/Getty Image&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Restaurants and workplaces can take steps when they reopen to try to limit transmission, as some have already done. Installing plexiglass barriers between tables and improving ventilation by opening windows, serving customers outside, turning on exhaust fans and using HEPA filters could help lower transmission risk. Keeping tables or desks at least six feet apart is also a good idea. The CDC has released &lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/community/reopen-guidance.html&quot;&gt;reopening guidelines&lt;/a&gt; for everything from restaurants to water parks.&lt;/p&gt;
+
+
+
+&lt;p&gt;Whether more outdoor cases will emerge as temperatures rise and people spend more time outside is an open question. Fresh air and sunlight could limit cases in outdoor settings, or clusters could emerge in newly opened outdoor settings, such as swimming pools or summer camps. Data on how the virus behaves in summer just don’t exist yet.&lt;/p&gt;
+
+
+
+&lt;p&gt;If South Korea’s thwarted first attempt at loosening restrictions has taught us anything, it’s that reopening and lifting social distancing practices comes with one certainty: New COVID-19 infections will happen. Hugs and high-fives are still a long way off. “This isn’t a marathon,” Noymer says. “It’s a 26.2-mile sprint.”&lt;/p&gt;</content>
+		<author>
+			<name>Helen Thompson</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2020-06-18T18:00:50+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Black hole plasma jets are shaped like bell-bottoms</title>
@@ -112,7 +543,7 @@ pushed and less smooshed.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -132,7 +563,7 @@ pushed and less smooshed.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -152,7 +583,7 @@ pushed and less smooshed.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -216,7 +647,7 @@ pushed and less smooshed.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -256,7 +687,7 @@ pushed and less smooshed.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -310,7 +741,7 @@ pushed and less smooshed.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -365,7 +796,7 @@ pushed and less smooshed.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -432,7 +863,7 @@ tie could be critically important,” Wilson says.&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -560,7 +991,7 @@ tie could be critically important,” Wilson says.&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -646,7 +1077,7 @@ tie could be critically important,” Wilson says.&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -678,7 +1109,7 @@ tie could be critically important,” Wilson says.&lt;/p&gt;</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -724,7 +1155,7 @@ tie could be critically important,” Wilson says.&lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -744,7 +1175,7 @@ tie could be critically important,” Wilson says.&lt;/p&gt;</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -863,7 +1294,7 @@ and even siblicide,” he says.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -989,7 +1420,7 @@ and even siblicide,” he says.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1009,7 +1440,7 @@ and even siblicide,” he says.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -1163,7 +1594,7 @@ Australian smoke plume reached even greater heights now gives the researchers
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1294,7 +1725,7 @@ have a special resonance: “We did a lot of head-scratching when I was a postdo
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1314,7 +1745,7 @@ have a special resonance: “We did a lot of head-scratching when I was a postdo
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -1476,7 +1907,7 @@ reading with them, I think that would be a really positive impact.”&lt;/p&gt;<
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1516,7 +1947,7 @@ reading with them, I think that would be a really positive impact.”&lt;/p&gt;<
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -1537,7 +1968,7 @@ reading with them, I think that would be a really positive impact.”&lt;/p&gt;<
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-06-18T13:00:44+00:00</updated>
+			<updated>2020-06-18T18:00:48+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -1665,7 +2096,7 @@ sense.” &lt;/p&gt;</content>
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1781,7 +2212,7 @@ to a wide range of situations,” she says. &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1886,7 +2317,7 @@ years ago, &lt;em&gt;Carnufex carolinensis&lt;/em&gt; — &lt;a href=&quot;https
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1920,7 +2351,7 @@ years ago, &lt;em&gt;Carnufex carolinensis&lt;/em&gt; — &lt;a href=&quot;https
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -1940,7 +2371,7 @@ years ago, &lt;em&gt;Carnufex carolinensis&lt;/em&gt; — &lt;a href=&quot;https
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -2106,7 +2537,7 @@ the virus moved into the woman’s brain from her nose. &lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -2177,300 +2608,7 @@ the alveoli.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Bringing sea otters back to the Pacific coast pays off, but not for everyone</title>
-		<link href="https://www.sciencenews.org/article/sea-otters-pacific-northwest-indigenous-communities"/>
-		<id>https://www.sciencenews.org/?p=3088788</id>
-		<updated>2020-06-11T20:42:16+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;Sea otters are staging a comeback
-along Canada’s North Pacific coast, but not everyone is happy about it.&lt;/p&gt;
-
-
-
-&lt;p&gt;The disappearance of otters, once trapped for their fur, allowed their food supplies — sea urchins, crabs and clams — to flourish. Now, otters threaten to deplete these profitable invertebrate fisheries, which have sustained coastal indigenous communities. But a new analysis shows that &lt;a href=&quot;https://science.sciencemag.org/content/368/6496/1243&quot;&gt;the benefits of bringing back otters may outweigh those costs&lt;/a&gt;, researchers report June 11 in &lt;em&gt;Science.&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;With more otters and thus fewer kelp-grazing urchins, kelp forests can thrive, storing carbon and sheltering salmon, ling cod and other fishes. Plus, tourists will pay to snap photos of adorable otters snoozing on beds of kelp. In all, such increased sources of revenue could total $46 million Canadian dollars (equivalent to nearly $34 million in U.S. dollars on June 11) a year if sea otters fully recover along Canada’s Pacific coast, the study suggests.&lt;/p&gt;
-
-
-
-&lt;p&gt;Sea otters, which can grow as big
-as a medium-sized dog, were common from the Baja Peninsula to the Aleutian
-Islands of Alaska until the fur trade of the 18th and 19th centuries nearly
-wiped them out. As top predators in coastal ecosystems, these furry floaters gobble
-down a quarter of their body weight in urchins, crabs and clams each day. &lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Safe from the capable paws of otters,
-urchins and other invertebrates ballooned along the Pacific coast, both in body
-size and number, enabling profitable invertebrate fisheries and sustaining many
-First Nations communities that rely on this resource for food. &lt;/p&gt;
-
-
-
-&lt;p&gt;Since being reintroduced in the 1970s, this population of sea otters (&lt;em&gt;Enhydra lutris) &lt;/em&gt;has grown from just thousands &lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/fmars.2018.00510/full&quot;&gt;to about 150,000 by 2019&lt;/a&gt;, gradually reclaiming parts of their range and radically transforming these ecosystems. The otters’ resurgence comes at a significant cost — $7.3 million Canadian dollars a year — to the humans who depend on the otters’ prey, especially indigenous communities, which weren’t consulted in reintroduction plans. Rooted to the coasts they’ve inhabited for centuries, these communities, some of which are 50 kilometers from the nearest grocery store, can’t always easily shift to another source of food or business. &lt;/p&gt;
-
-
-
-&lt;p&gt;But the otters also affect positive
-change, too. It can be difficult to compare the clear loss of shellfish stock
-revenue to the more diffuse benefits of having more kelp and sea otters, says
-Inge Liekens, an environmental economist at Vito, a research institution in
-Mol, Belgium who wasn’t involved in the study. &lt;/p&gt;
-
-
-
-&lt;p&gt;“It’s easy to just focus on the
-negative, but this study does a good job broadening the view and incorporating
-biological, economic and social factors,” she says, and relating them to a common
-currency: money. Their framework is applicable to other ecosystems too, she
-says. “But some losses are emotional or cultural, and you can’t put those in
-the numbers.”&lt;/p&gt;
-
-
-
-&lt;p&gt;To tally benefits and losses in
-otter-free versus otter-full sites, the researchers compared total biomass, the
-sheer amount and diversity of biological material present. “The best-known
-effect of sea otters is an increase in kelp,” says Jane Watson, a marine
-ecologist at Vancouver Island University in Nanaimo. Kelp forests were on
-average 20 times larger in areas where sea otters have lived for decades on
-Vancouver Island, compared with bays where the otters were absent, Watson and
-her colleagues found. With fewer urchins, different kinds of kelp could thrive,
-creating a more diverse and resilient forest.&lt;/p&gt;
-
-
-
-&lt;p&gt;Robust kelp forests boost the
-overall productivity of the ecosystem by providing shelter and food to a whole
-host of organisms, including commercially valuable finfish like halibut and
-rockfish. Overall, biomass was 37 percent higher where sea otters thrived.
-Urchin, Dungeness crab and clam biomass fell when otters were present, but
-these losses were offset by gains in fish and other invertebrates that rely on
-kelp.&lt;/p&gt;
-
-
-
-&lt;p&gt;Using these biological data, the
-researchers developed a statistical model to estimate the range of possible
-payoffs of having otters around for fisheries, carbon sequestration and
-tourism. The team found that with the full recovery of sea otter populations
-along the Canadian Pacific coast, an increase in commercial fish such as salmon
-and halibut could provide $9.4 million Canadian dollars annually, while additional
-carbon stored by kelp forests equates to about $2.2 million Canadian dollars per
-year, based on European carbon market pricing. &lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image alignwide size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-3088790&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061120_JL_otter_inline-800x329.jpg&quot; /&gt;&lt;span class=&quot;caption wp-caption-3088790&quot;&gt;A raft of sea otters floats along the west coast of Vancouver Island, British Columbia. Sea otters don’t have much blubber, so to keep warm they must eat a quarter of their body weight each day.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3088790&quot;&gt;James Thompson Photography&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;The biggest monetary payoff from
-sea otters was from increased tourism. The researchers combined park visitation
-data with surveys detailing people’s willingness to pay to see otters, and estimated
-that otter-dominated ecosystems could generate an additional $41.5 million
-dollars a year in tourism revenue.&lt;/p&gt;
-
-
-
-&lt;p&gt;Of course, there is a lot of
-uncertainty around these estimates. Tourism can dry up due to unforeseen events
-(like the &lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;COVID-19 pandemic&lt;/a&gt;). And
-market prices for fish can change with demand. But the researchers present a
-range of possible futures, and in all scenarios, the benefits outweigh the lost
-revenue from shellfish harvesting. &lt;/p&gt;
-
-
-
-&lt;p&gt;This study represents “a beacon of
-hope,” says coauthor Kai Chan, a conservation scientist at the University of
-British Columbia in Vancouver. “It shows that when people invest in restoring
-ecosystems, including by restoring top predators like sea otters, it can have
-large positive benefits for people,” though he and his colleagues acknowledge
-that those benefits won’t always be shared equally.&lt;/p&gt;
-
-
-
-&lt;p&gt;“This is a beautifully done study,” says Anne Salomon, a marine ecologist at Simon Fraser University in Burnaby, Canada. But she notes it doesn’t factor in the effects of climate change, which &lt;a href=&quot;https://www.sciencenews.org/article/ocean-heat-waves-are-becoming-more-common-and-lasting-longer&quot;&gt;threatens kelp forests with more frequent and intense ocean heat waves&lt;/a&gt; (&lt;em&gt;SN: 4/10/18&lt;/em&gt;). Nor does it account for the deep history between sea otters and First Nations communities. For thousands of years, sea otters enabled rich kelp forests in some areas, and indigenous communities managed productive shellfish beds through traditional hunting practices. The researchers “start from this assumption that historically the coasts weren’t exploited, but that’s not the case,” she says. &lt;/p&gt;
-
-
-
-&lt;p&gt;Moving forward, “indigenous
-communities need to have the collaborative authority with federal governments
-to manage their relationship with sea otters,” Salomon says, which could lessen
-the costs for indigenous communities. “Incorporating traditional knowledge can
-help us maintain resilient otter and kelp populations as well as shellfish
-fisheries,” she says. “We can have both.”&lt;/p&gt;</content>
-		<author>
-			<name>Jonathan Lambert</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Scientists want to build a Noah’s Ark for the human microbiome</title>
-		<link href="https://www.sciencenews.org/article/scientists-want-build-noah-ark-human-microbiome"/>
-		<id>https://www.sciencenews.org/?p=3088781</id>
-		<updated>2020-06-11T19:28:01+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;Our bodies host a vast
-ecosystem of bacteria, viruses and fungi. Just as scientists are beginning to
-understand how this microbiome supports human health, hallmarks of modern life such
-as antibiotics and processed foods may be pushing many of our microbial
-residents toward extinction. &lt;/p&gt;
-
-
-
-&lt;p&gt;Now an international team of
-scientists wants to safeguard humanity’s long-term health by creating a Noah’s Ark
-for microbes. Taking inspiration from the &lt;a href=&quot;https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.croptrust.org%2Four-work%2Fsvalbard-global-seed-vault%2F&amp;amp;data=02%7C01%7Cneal.buccino%40echo.rutgers.edu%7Ce390b86778264d628cd808d7fda32dce%7Cb92d2b234d35447093ff69aca6632ffe%7C1%7C0%7C637256749606111083&amp;amp;sdata=mmkpLBisnqTqCT4cnpksH4wWHfcwsjIiFbiW3yoDTyo%3D&amp;amp;reserved=0&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Svalbard Global Seed Vault&lt;/a&gt;, which protects the world’s crop diversity from
-natural or human-made disasters, the team proposes to create the &lt;a href=&quot;http://www.microbiotavault.org/&quot;&gt;Microbiota
-Vault&lt;/a&gt; to preserve human microbiome
-collections that may one day be used to prevent disease. &lt;/p&gt;
-
-
-
-&lt;p&gt;The project is &lt;a href=&quot;http://www.microbiotavault.org/feasibility/Microbiota_Vault_Report_Final_20200611.pdf&quot;&gt;both possible and prudent&lt;/a&gt;, a team of independent experts at two Switzerland-based
-firms, EvalueScience and advocacy. reports June 11.  “If we are just at the beginning of really
-understanding and elucidating what is the role of the microbiota, it is of
-course precautionary to at least safeguard part of this diversity before it
-just goes away,” says Dominik Steiger, chief operating officer of EvalueScience,
-which is based in Zurich.&lt;/p&gt;
-
-
-
-&lt;p&gt;Studies, mostly in animals,
-suggest that a missing microbe or a dearth of microbial diversity may
-contribute to a wide range of health conditions, from &lt;a href=&quot;https://www.sciencenews.org/article/gut-fungi-might-be-linked-obesity-and-inflammatory-bowel-disorders&quot;&gt;obesity and inflammatory bowel disorders&lt;/a&gt; (&lt;em&gt;SN: 10/16/17&lt;/em&gt;)
-to &lt;a href=&quot;https://www.sciencenews.org/article/why-some-people-may-be-more-susceptible-deadly-c-difficile-infections&quot;&gt;&lt;em&gt;C. difficile&lt;/em&gt; infection&lt;/a&gt;
-(&lt;em&gt;SN: 10/24/18&lt;/em&gt;) and &lt;a href=&quot;https://www.sciencenews.org/article/boosting-gut-bacterium-helps-mice-fight-als-disease&quot;&gt;Lou Gehrig’s disease&lt;/a&gt; (&lt;em&gt;SN: 7/22/19&lt;/em&gt;). &lt;/p&gt;
-
-
-
-&lt;p&gt;Researchers suspect that
-many modern practices contribute to the decline of our beneficial microbial partners,
-including being born by &lt;a href=&quot;https://www.sciencenews.org/article/c-section-babies-have-more-potentially-infectious-gut-bacteria&quot;&gt;cesarean section&lt;/a&gt; (&lt;em&gt;SN: 9/18/19&lt;/em&gt;), &lt;a href=&quot;https://www.sciencenews.org/blog/scicurious/low-fiber-diets-make-gut-microbes-poop-out&quot;&gt;eating a low-fiber diet&lt;/a&gt; (&lt;em&gt;SN: 1/15/16&lt;/em&gt;)
-and &lt;a href=&quot;https://www.sciencenews.org/blog/growth-curve/antibiotics-early-life-may-have-lingering-effects&quot;&gt;overusing antibiotics&lt;/a&gt; (&lt;em&gt;SN: 7/31/15&lt;/em&gt;).
-&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Global Seed Vault&quot; class=&quot;wp-image-3088782&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/061120_cb_microbe-ark_inline1.jpg&quot; /&gt;&lt;span class=&quot;caption wp-caption-3088782&quot;&gt;The Svalbard Global Seed Vault on Norway’s Svalbard archipelago protects the world’s crop diversity from natural or human-made disasters. Scientists are now proposing a Microbiota Vault to similarly safeguard the future of the human microbiome.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3088782&quot;&gt;RelaxedPace/iStock/Getty Images Plus&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;“Rural peoples are
-urbanizing and traditional peoples living in savannas and in jungles are moving
-to cities,” says Maria Gloria Dominguez-Bello, a microbiologist at Rutgers
-University in New Brunswick, N.J., and a leader of the Microbiota Vault
-initiative. “What we see is that we are losing [microbiome] diversity, and in
-parallel there is a correlation with increase in chronic diseases.” &lt;/p&gt;
-
-
-
-&lt;p&gt;Dominguez-Bello has worked
-with local researchers in Venezuela, Bolivia, Peru and Brazil to collect and study
-stool samples from indigenous populations in those countries. In 2017, she and her
-colleagues published a study in &lt;em&gt;Science &lt;/em&gt;that
-shows that &lt;a href=&quot;https://science.sciencemag.org/content/357/6353/802&quot;&gt;the more industrialized a society, the less diverse
-its microbiome&lt;/a&gt;. The gut diversity of
-people in the United States is almost half that of the most isolated
-Amerindians living in South America, she says.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Dominguez-Bello’s research
-collections have been in jeopardy many times, from
-political unrest when her lab was based in Venezuela to Hurricane Sandy
-after she’d moved her lab to New York University.&lt;/p&gt;
-
-
-
-&lt;p&gt;So &lt;a href=&quot;https://science.sciencemag.org/content/362/6410/33&quot;&gt;the idea for the Microbiota Vault&lt;/a&gt;, first proposed in a 2018 &lt;em&gt;Science&lt;/em&gt; paper, is that microbiome collections, many of which like
-Dominguez-Bello’s already exist in research or health facilities all over the
-world, would be maintained locally, as well as stored in a backup vault in a
-politically stable location. The feasibility report recommends Switzerland or
-Norway, possibly even alongside or within the Svalbard Global Seed Vault. &lt;/p&gt;
-
-
-
-&lt;p&gt;The report also suggests
-that specimens could be preserved by cryopreservation, cooling them to very low
-temperatures. As a backup, researchers should also consider using a less tested
-freeze-drying technique known as lyophilization.&lt;/p&gt;
-
-
-
-&lt;p&gt;The initiative, run as a
-global nonprofit, would encourage the development of more microbiome
-collections by creating courses to train researchers across the globe to
-collect samples from indigenous populations in their regions. In a pilot phase,
-Dominguez-Bello plans to host a course in Lima, Peru with collaborators from
-local universities, but the timing is uncertain due to the &lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;coronavirus pandemic&lt;/a&gt;. &lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Funding for such an
-initiative would likely originally come from research entities and philanthropic
-organizations but could grow to include a larger portion of government funding
-once the project becomes more established, says Steiger. &lt;/p&gt;
-
-
-
-&lt;p&gt;“The Microbiota Vault really
-seems like it has huge potential to benefit human health,” says Matthew Kelly,
-a pediatrician and global health specialist at Duke University, who is not
-involved with the initiative. But Kelly cautions that the ethics of the project
-are complex, and researchers will need to clearly communicate with indigenous
-communities about the benefits, if any, to their participation in this
-research. &lt;/p&gt;
-
-
-
-&lt;p&gt;Ethics will be a major
-component of the courses, says Dominguez-Bello. In a 2016 opinion piece in &lt;em&gt;Nature Microbiology&lt;/em&gt;, she and coauthors
-state that &lt;a href=&quot;https://www.nature.com/articles/nmicrobiol201697&quot;&gt;any commercialization resulting from samples collected
-from indigenous peoples&lt;/a&gt; “should be
-done with the highest ethical standards, respect for native cultures, and
-involving a mediator of their choice, familiarized with financial systems and
-terms, who can defend their interests.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Many indigenous communities
-also recognize the potential health benefit of banking their microbes, as they
-too are moving toward industrialization, she says.   &lt;/p&gt;</content>
-		<author>
-			<name>Carolyn Beans</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -2521,7 +2659,7 @@ too are moving toward industrialization, she says.   &lt;/p&gt;</content>
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -2541,7 +2679,7 @@ too are moving toward industrialization, she says.   &lt;/p&gt;</content>
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="http://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2020-06-18T13:00:48+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -2561,47 +2699,7 @@ too are moving toward industrialization, she says.   &lt;/p&gt;</content>
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2020-06-18T13:00:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">50 years ago, scientists were getting a better glimpse inside storms</title>
-		<link href="https://www.sciencenews.org/article/50-years-ago-scientists-better-glimpse-inside-storms"/>
-		<id>https://www.sciencenews.org/?p=3088631</id>
-		<updated>2020-06-11T11:00:00+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignleft size-thumbnail&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-3088633&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/06/060620_50ya_cover-140x186.jpg&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Into the eye of a storm&lt;/strong&gt;, &lt;a href=&quot;https://www.sciencenews.org/archive/eye-storm&quot;&gt;&lt;em&gt;Science News&lt;/em&gt;, June 27, 1970&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Meteorologists,
-it has been said, too often are forced to combine inadequate observations with
-unsupportable assumptions…. To draw more information from the atmosphere and
-the hearts of storms, meteorologists are turning to a host of electronic aids.
-Laser beams, microwaves and sound, radio and infrared waves are all being used.&lt;/p&gt;
-
-
-
-&lt;h4&gt;Update&lt;/h4&gt;
-
-
-
-&lt;p&gt;Improvements to radar and satellite t­echnologies have enhanced researchers’ abilities to forecast severe storms. Data collected from airplanes flying through hurricanes and thunderstorms have helped clarify how the storms form and provided &lt;a href=&quot;https://www.sciencenews.org/article/storm-front&quot;&gt;insights into the strength and speed of storm winds&lt;/a&gt; (&lt;em&gt;SN: 6/2/12, p. 26&lt;/em&gt;). In the early 2010s, the U.S. radar network, which tracks nationwide storm a­ctivity, added dual-polarized radar t­echnology to strengthen estimates for rain or snowfall in locations across the United States. In terms of satellites, GOES-16, launched by the United States in 2016, &lt;a href=&quot;https://www.sciencenews.org/article/intense-storms-provide-first-test-powerful-new-hurricane-forecast-tools&quot;&gt;provides images at four times better resolution&lt;/a&gt; than previous GOES satellites (&lt;em&gt;SN Online: 9/21/17&lt;/em&gt;). &lt;/p&gt;</content>
-		<author>
-			<name>Erin Garcia de Jesus</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -2678,7 +2776,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -2855,7 +2953,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -3100,7 +3198,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -3253,7 +3351,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -3363,7 +3461,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-18T13:00:47+00:00</updated>
+			<updated>2020-06-18T18:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -3576,26 +3674,6 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-US">NEJM, Lancet place expressions of concern on controversial studies of drugs for COVID-19</title>
-		<link href="https://retractionwatch.com/2020/06/02/nejm-places-expression-of-concern-on-controversial-study-of-drugs-for-covid-19/"/>
-		<id>https://retractionwatch.com/?p=119601</id>
-		<updated>2020-06-02T16:07:42+00:00</updated>
-		<content type="html">
- [See update on this story.] As controversy swirls around two papers that used data from Surgisphere, the New England Journal of Medicine and The Lancet have placed expression of concerns on the relevant papers. Here’s the NEJM expression of concern: On May 1, 2020, we published “Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19,” a … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/06/02/nejm-places-expression-of-concern-on-controversial-study-of-drugs-for-covid-19/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;NEJM, Lancet place expressions of concern on controversial studies of drugs for COVID-19&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Ivan Oransky</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="http://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2020-06-09T07:00:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en">Women Are More Likely Than Men To Be Told “White Lies” In Performance Reviews</title>
 		<link href="https://digest.bps.org.uk/2020/06/02/women-are-more-likely-than-men-to-be-told-white-lies-in-performance-reviews/"/>
 		<id>http://digest.bps.org.uk/?p=39708</id>
@@ -3772,7 +3850,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-06-18T13:00:44+00:00</updated>
+			<updated>2020-06-18T18:00:48+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -3814,7 +3892,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-06-18T13:00:44+00:00</updated>
+			<updated>2020-06-18T18:00:48+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4281,7 +4359,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-06-18T13:00:44+00:00</updated>
+			<updated>2020-06-18T18:00:48+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4354,7 +4432,7 @@ Laser beams, microwaves and sound, radio and infrared waves are all being used.&
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2020-06-18T13:00:49+00:00</updated>
+			<updated>2020-06-18T18:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -4898,40 +4976,6 @@ research students and Ph.D. candidates to do the same.&lt;/p&gt;
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
 			<updated>2020-05-17T22:38:51+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">New Norms And Difficult Dogs: The Week’s Best Psychology Links</title>
-		<link href="https://digest.bps.org.uk/2020/05/15/new-norms-and-difficult-dogs-the-weeks-best-psychology-links/"/>
-		<id>http://digest.bps.org.uk/?p=39610</id>
-		<updated>2020-05-15T11:40:59+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;img alt=&quot;Keyboard for idea&quot; class=&quot;  wp-image-37971 alignleft&quot; data-attachment-id=&quot;37971&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;NIKON D800&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;@alubalish (@alubalish (Photographer) - [None]&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Keyboard for idea&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg&quot; data-orig-size=&quot;2122,1413&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/09/27/trump-tweets-and-cat-attachment-the-weeks-best-psychology-links/keyboard-for-idea/&quot; height=&quot;212&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=318&amp;amp;h=212&quot; width=&quot;318&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Our weekly round-up of the best psychology coverage from elsewhere on the web&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sharing the content of your dreams with others can improve your relationships and increase your empathy levels&lt;/strong&gt;, &lt;a href=&quot;https://theconversation.com/the-science-of-sleep-how-sharing-your-dreams-could-help-to-improve-your-relationships-137193&quot;&gt;write Mark Blagrove and Julia Lockheart&lt;/a&gt; at &lt;em&gt;The Conversation&lt;/em&gt;. Listening to someone discuss their dreams can help you enter their world and better understand their perspective, the pair write, while the act of story-telling can strengthen social bonds.&lt;span id=&quot;more-39610&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Scientists have used electrical stimulation in the brain to allow blind people to “see” traces of letters and other shapes, &lt;/strong&gt;&lt;a href=&quot;https://www.sciencenews.org/article/blind-vision-brain-stimulation-trace-letters&quot;&gt;reports Laura Sanders&lt;/a&gt; at &lt;em&gt;Science News&lt;/em&gt;&lt;strong&gt;. &lt;/strong&gt;Using electrodes implanted in a grid on the visual cortex, the researchers produced patterns of electrical stimulation that represented letters. This resulted in participants seeing patterns of light called phosphenes in the shape of each letter.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;In most Western countries, mask-wearing has (until recently) been uncommon — but it seems to be becoming a new norm&lt;em&gt;,&lt;/em&gt; &lt;/strong&gt;&lt;a href=&quot;https://www.scientificamerican.com/article/masks-reveal-new-social-norms-what-a-difference-a-plague-makes/&quot;&gt;argues Lydia Denworth&lt;/a&gt; at Scientific American.  Perhaps masks will be a common sight during the flu season even several years down the road.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Researchers are worried that anti-vaccine misinformation on social media could hinder efforts to fight coronavirus&lt;/strong&gt;. A new report has mapped out the connections between various Facebook pages, finding that anti-vaccination groups, while still small, are numerous and often linked to by other pages, &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01423-4&quot;&gt;writes Philip Ball&lt;/a&gt; at &lt;em&gt;Nature&lt;/em&gt;. However, pro-vaccination pages are not as well-connected, meaning they may not be reaching people who are undecided about vaccine safety.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;There’s an ongoing debate among psychologists as to how much the field can contribute during the crisis.&lt;/strong&gt; At &lt;em&gt;Undark, &lt;/em&gt;&lt;a href=&quot;https://undark.org/2020/05/06/psychologists-covid-19/&quot;&gt;Teresa Carr explores&lt;/a&gt; what psychologists’ role should be right now &lt;strong&gt;— &lt;/strong&gt;and where they might need to take a step back.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Like many others, I’m spending a lot of time reading the news at the moment. But how does consuming so much negative and distressing information affect our mental health?&lt;/strong&gt; &lt;a href=&quot;https://www.bbc.com/future/article/20200512-how-the-news-changes-the-way-we-think-and-behave&quot;&gt;Zaria Gorvett looks at the research&lt;/a&gt; over at &lt;em&gt;BBC Future.&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;Finally, some canine psychology: new work suggests that, just like humans, dogs have awkward “teenage” years. &lt;/strong&gt;Researchers studied the development of dogs being raised as guide dogs, finding that when they reached their adolescence &lt;strong&gt;—&lt;/strong&gt; at about 8 months old &lt;strong&gt;— &lt;/strong&gt;they often refused to obey their caregivers. Their attachment style also influenced how they obeyed orders and even how old they were when they entered puberty, &lt;a href=&quot;https://www.sciencemag.org/news/2020/05/dogs-get-difficult-when-they-reach-adolescence-just-human-teenagers&quot;&gt;reports Virginia Morell&lt;/a&gt; at &lt;em&gt;Science&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Compiled by Matthew Warren (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;&lt;strong&gt;@MattbWarren&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;), Editor of &lt;/strong&gt;&lt;strong&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2020-06-02T18:00:46+00:00</updated>
 		</source>
 	</entry>
 
