@@ -351,6 +351,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Neuroscientifically Challenged</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://www.neuroscientificallychallenged.com/">
+					<dc:title>Neuroscientifically Challenged</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Neuroscientists talk shop</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://snrp.utsa.edu/POD_html/Podcast/Podcast.html">
