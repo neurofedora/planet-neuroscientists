@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/research-2030-podcast-episode-8" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120344" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3090602" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3090465" />
@@ -164,11 +165,16 @@
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5ef8658efe8b687d4e6e543b" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/are-there-purposeless-behaviours" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/us-business-students-visit-elsevier-to-learn-about-pride-and-i-and-d-in-the-workplace" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=49516" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/research-2030-podcast-episode-8">
+	<title>Elsevier Connect: Research 2030 podcast: Can the reward system learn to love open science? Part 1 with Jean-Claude Burgelman</title>
+	<link>https://www.elsevier.com/connect/research-2030-podcast-episode-8</link>
+	<content:encoded>An open science professor and policy leader talks about how open science can affect the researcher reward system</content:encoded>
+	<dc:date>2020-08-21T15:30:57+00:00</dc:date>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=120344">
 	<title>Retraction watch: ‘Beggers’ can’t be choosers as another meta-analysis is retracted</title>
 	<link>https://retractionwatch.com/2020/08/21/beggers-cant-be-choosers-as-another-meta-analysis-is-retracted/</link>
@@ -3212,13 +3218,6 @@ Dr. Ignarro disputes any accusations of wrongdoing. There was no fabrication of 
 	<link>https://www.elsevier.com/connect/us-business-students-visit-elsevier-to-learn-about-pride-and-i-and-d-in-the-workplace</link>
 	<content:encoded>“I learned how a multinational company supports and encourages their employees to be themselves.” – @UofSC business major after visiting Elsevier in Amsterdam</content:encoded>
 	<dc:date>2020-06-26T12:07:11+00:00</dc:date>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=49516">
-	<title>For Better Science: Judy Mikovits’ Plandemic COVID-portunism</title>
-	<link>https://forbetterscience.com/2020/06/24/judy-mikovits-plandemic-covid-portunism/</link>
-	<content:encoded>Smut Clyde takes on Dr Judy Mikovits and guides you through her career, from fake Science to antivax and cancer quackery, and over to COVID-19 conspiracies, in 5 acts plus Coda.</content:encoded>
-	<dc:date>2020-06-24T12:45:21+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
