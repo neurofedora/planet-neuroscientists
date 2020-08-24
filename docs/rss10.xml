@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=50664" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3090640" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120349" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/research-2030-podcast-episode-8" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=49630" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5ef8658efe8b687d4e6e543b" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/are-there-purposeless-behaviours" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/us-business-students-visit-elsevier-to-learn-about-pride-and-i-and-d-in-the-workplace" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=50664">
+	<title>For Better Science: O du lieber Augustine MK Choi</title>
+	<link>https://forbetterscience.com/2020/08/24/o-du-lieber-augustine-mk-choi/</link>
+	<content:encoded>Augustine Choi is Dean of Weill Cornell and a misunderstood genius. He discovered that carbon monoxide is a cure for all possible diseases, just add a bit of Photoshop.</content:encoded>
+	<dc:date>2020-08-24T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3090640">
 	<title>Science News: Genetically modified mosquitoes have been OK’d for a first U.S. test flight</title>
 	<link>https://www.sciencenews.org/article/genetically-modified-mosquitoes-florida-test-release</link>
@@ -3246,12 +3253,6 @@ Dr. Ignarro disputes any accusations of wrongdoing. There was no fabrication of 
 	<content:encoded>Are habits goal-free behaviors, or does every habit actually serve a purpose?</content:encoded>
 	<dc:date>2020-06-27T23:00:00+00:00</dc:date>
 	<dc:creator>Neuroskeptic</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/us-business-students-visit-elsevier-to-learn-about-pride-and-i-and-d-in-the-workplace">
-	<title>Elsevier Connect: US business students visit Elsevier to learn about Pride and I&amp;D in the workplace</title>
-	<link>https://www.elsevier.com/connect/us-business-students-visit-elsevier-to-learn-about-pride-and-i-and-d-in-the-workplace</link>
-	<content:encoded>“I learned how a multinational company supports and encourages their employees to be themselves.” – @UofSC business major after visiting Elsevier in Amsterdam</content:encoded>
-	<dc:date>2020-06-26T12:07:11+00:00</dc:date>
 </item>
 
 </rdf:RDF>
