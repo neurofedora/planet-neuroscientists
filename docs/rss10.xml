@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=663" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3090997" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40170" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3090971" />
@@ -164,11 +165,28 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=49960" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/going-beyond-what-we-know-how-we-can-break-down-barriers-between-disciplines" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=649" />
-			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=654" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://blogs.cornell.edu/arxiv/?p=663">
+	<title>arXiv.org blog: arXiv News: Summer 2020</title>
+	<link>https://blog.arxiv.org/2020/09/02/arxiv-news-summer-2020/</link>
+	<content:encoded>&lt;p&gt;We’re always working to improve your experience on arXiv.org. Here’s a summary of recent changes that we hope will make your life as an author easier.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Improvements for the author experience:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are now allowing more time for TeX to run the compilation, so “time out” errors will occur less frequently.&lt;/li&gt;
+&lt;li&gt;arXiv will detect cases where a second compilation process is needed and run it automatically. This ensures that your bibliography will display correctly.&lt;/li&gt;
+&lt;li&gt;Triggering a second compilation also fixes related footnote formatting issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Smaller bug fixes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix on the automatic recognition of arXiv IDs links&lt;/li&gt;
+&lt;li&gt;Fix to hyperref options to support more options for web links&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2020-09-02T19:22:37+00:00</dc:date>
+	<dc:creator>ame5</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3090997">
 	<title>Science News: Steroids reduce deaths of critically ill COVID-19 patients, WHO confirms</title>
 	<link>https://www.sciencenews.org/article/coronavirus-steroids-reduce-deaths-covid19-patients-who</link>
@@ -4377,16 +4395,6 @@ Dr. Ignarro disputes any accusations of wrongdoing. There was no fabrication of 
 &lt;/span&gt;&lt;/p&gt;
 &lt;p dir=&quot;LTR&quot;&gt;This is a one year position with the potential for renewal, located at either of the Cornell University campuses in Ithaca, NY or New York, NY. Remote work is also a possibility. &lt;a href=&quot;https://bit.ly/arXivSoftwareArchitect&quot;&gt;Click here for the full job description and application.&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2020-07-09T14:00:31+00:00</dc:date>
-	<dc:creator>ame5</dc:creator>
-</item>
-<item rdf:about="https://blogs.cornell.edu/arxiv/?p=654">
-	<title>arXiv.org blog: Update: Submission Agreement and Instructions</title>
-	<link>https://blog.arxiv.org/2020/07/08/update-submission-agreement-and-instructions/</link>
-	<content:encoded>&lt;p&gt;arXiv has updated its &lt;a href=&quot;https://arxiv.org/help/policies/submission_agreement&quot;&gt;submittal agreement terms and conditions&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/help/policies/instructions_for_submission&quot;&gt;instructions for submissions&lt;/a&gt;. These changes will go into effect this week.&lt;/p&gt;
-&lt;p&gt;Among other updates, these agreements clarify the submitter’s representations and warranties, the license granted to arXiv, the waiver of rights and indemnification, and management of copyright. Authors who submit their work to arXiv will now be presented with the new agreements during the submission process. Authors who have currently have submissions in progress will be prompted to view and accept the new agreements before finalizing their submissions.&lt;/p&gt;
-&lt;p&gt;arXiv encourages authors to review the agreements thoroughly before submitting their work. The full text of the updated agreements can be found here: &lt;a href=&quot;https://arxiv.org/help/policies/submission_agreement&quot;&gt;submittal agreement&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/help/policies/instructions_for_submission&quot;&gt;instructions for submissions&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</content:encoded>
-	<dc:date>2020-07-08T14:00:19+00:00</dc:date>
 	<dc:creator>ame5</dc:creator>
 </item>
 
