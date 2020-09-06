@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=51191" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120450" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3091172" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120443" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=50039" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5f0ae61360bdf33133423220" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/6-things-to-consider-when-transitioning-from-academia-to-industry" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=49960" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=51191">
+	<title>For Better Science: New JACS EiC Erick Carreira: “correct your work-ethic immediately”</title>
+	<link>https://forbetterscience.com/2020/09/06/new-jacs-eic-erick-carreira-correct-your-work-ethic-immediately/</link>
+	<content:encoded>Erick Carreira's letter to Guido, from 1996. You all saw it probably at some point, and now it's being discussed again.</content:encoded>
+	<dc:date>2020-09-06T13:08:53+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=120450">
 	<title>Retraction watch: Weekend reads: A pay-for-peer review movement; toxic PIs; why plagiarism is not a victimless crime</title>
 	<link>https://retractionwatch.com/2020/09/05/weekend-reads-a-pay-for-peer-review-movement-toxic-pis-why-plagiarism-is-not-a-victimless-crime/</link>
@@ -4368,13 +4375,6 @@ Dr. Ignarro disputes any accusations of wrongdoing. There was no fabrication of 
 	<link>https://www.elsevier.com/connect/6-things-to-consider-when-transitioning-from-academia-to-industry</link>
 	<content:encoded>Thinking about switching from academia to industry? These skills and mindsets will help you make the most of your new career</content:encoded>
 	<dc:date>2020-07-13T10:32:59+00:00</dc:date>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=49960">
-	<title>For Better Science: Extraordinary results of the Olomouc Nano-con</title>
-	<link>https://forbetterscience.com/2020/07/13/extraordinary-results-of-the-olomouc-nano-con/</link>
-	<content:encoded>This is a guest post by two whistleblowers from the Palacky University in Olomouc. In the centre of the growing research misconduct and retaliation scandal: the nanotechnology professor Radek Zboril</content:encoded>
-	<dc:date>2020-07-13T06:00:00+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
