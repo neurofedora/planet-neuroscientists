@@ -9,6 +9,249 @@
 	<atom:link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Science News: How next-gen computer generated maps detect partisan gerrymandering</title>
+	<guid isPermaLink="false">https://www.sciencenews.org/?p=3091015</guid>
+	<link>https://www.sciencenews.org/article/gerrymandering-elections-next-gen-computer-generated-maps</link>
+	<description>&lt;p&gt;In October 2019, a state court determined that North Carolina’s congressional districts had been severely gerrymandered and &lt;a href=&quot;https://www.brennancenter.org/sites/default/files/2019-10/2019-10-28-Harper%20v_%20Lewis-Order.pdf&quot;&gt;struck down the state’s map&lt;/a&gt;. The court’s ruling was informed, in part, by tens of thousands of alternative maps demonstrating that the district boundaries had very likely been manipulated for political gain, the very definition of gerrymandering.&lt;/p&gt;
+
+
+
+&lt;p&gt;Researchers had generated a slew of alternative, computer-generated maps designed to help identify potential patterns of bias. The approach is increasingly used, alongside other tests, to ferret out alleged gerrymandering. District manipulations can be so subtle that they’re undetectable just by looking at them. “The eyeball test is no good,” says Jonathan Katz, a political scientist and statistician at Caltech.&lt;/p&gt;
+
+
+
+&lt;p&gt;U.S. states redraw their district lines every 10 years to adjust for changing demographics picked up by the national census. The last round a decade ago raised eyebrows, most notably for districts drawn in Michigan, North Carolina and Pennsylvania.&lt;/p&gt;
+
+
+
+&lt;p&gt;“The post-2010 round of redistricting is widely viewed as a time of &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/ssqu.12744&quot;&gt;extreme, even egregious, partisan gerrymandering&lt;/a&gt;,” retired political scientist Richard Engstrom wrote in the January 2020 &lt;em&gt;Social Science Quarterly&lt;/em&gt;.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;A 2017 report by the nonpartisan Brennan Center for Justice at New York University School of Law noted that existing congressional maps were largely biased in favor of the Republican Party. In 26 states, which account for 85 percent of U.S. congressional districts, &lt;a href=&quot;https://www.brennancenter.org/sites/default/files/publications/Extreme Maps 5.16_0.pdf&quot;&gt;as many as 17 Republicans in the House of Representatives owe their seats to gerrymandering&lt;/a&gt;. In states where Democrats controlled the redistricting process, partisan bias is also a problem, but the effect is smaller because those states are often made up of fewer districts.&lt;/p&gt;
+
+
+
+&lt;p&gt;Since 2011, legal scholars, political scientists and mathematicians conducting gerrymandering research have served as expert witnesses in more than 250 state and federal court cases regarding redistricting.&lt;/p&gt;
+
+
+
+&lt;p&gt;With the 2020 U.S. census now under way, legislators will soon be revising electoral districts again. This time around, researchers hope that instead of serving as expert witnesses in court, they can help identify problematic districting before the new maps even go into effect.&lt;/p&gt;
+
+
+
+&lt;p&gt;“In 2010, the politicians were thinking very hard on how to draw maps,” while the public and academics weren’t paying a lot of attention, says Jon Eguia, an applied game theorist at Michigan State University in East Lansing. “So in 2011, [those politicians] drew a lot of very bad maps in very many states. Now we’re all paying attention.”&lt;/p&gt;
+
+
+
+&lt;h4&gt;Measuring bias&lt;/h4&gt;
+
+
+
+&lt;p&gt;According to the U.S. Constitution and the Voting Rights Act of 1965, a state’s voting districts must each contain about the same number of people and be drawn in a way that doesn’t disenfranchise racial or ethnic minorities. States can have additional rules, such as contiguity of districts or that cities or counties be kept intact.&lt;/p&gt;
+
+
+
+&lt;p&gt;That leaves two main tactics for gerrymandering: “packing” the opposing political party’s supporters into a few districts in hopes your party dominates the rest, or “cracking” these supporters by spreading them across many districts to dilute their collective voting power. Those skilled in gerrymandering draw district boundaries that ensure decade-long protection for the ruling party.  &lt;/p&gt;
+
+
+
+&lt;p&gt;Early methods to test a state map for gerrymandering, which are still in use today, rely on a concept known as partisan symmetry. If a map provides symmetric, or equal, opportunity for all parties in a contest to convert votes into seats, that map is deemed fair. States with packed and cracked districts won’t pass tests based on symmetry.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar alignwide&quot;&gt;
+&lt;h3&gt;Puzzle power &lt;/h3&gt;
+
+
+
+&lt;p&gt;The party that controls the maps can grab power through packing or cracking. In packing, politicians cram voters from the opposing party into just a few districts, securing the remaining districts for their own party. The blue ruling party created one all-red district, and three majority blue districts. In cracking, politicians spread voters from the opposing party across districts, blocking them from gaining a majority. The ruling red party split up blue voters at the “city center” to create three reliably red districts.&lt;/p&gt;
+
+
+
+&lt;h5 class=&quot;has-text-align-center&quot;&gt;Three ways to divide a city’s voters&lt;/h5&gt;
+
+
+
+&lt;div class=&quot;wp-block-columns&quot;&gt;
+&lt;div class=&quot;wp-block-column&quot;&gt;
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;Competitive&lt;/h6&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Competitive map of a hypothetical district&quot; class=&quot;wp-image-3091106&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/09/091220_SG_gerrymandering_crack-pack_1-rev.png&quot; /&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;wp-block-column&quot;&gt;
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;Packing&lt;/h6&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Packing map of a hypothetical district&quot; class=&quot;wp-image-3091107&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/09/091220_SG_gerrymandering_crack-pack_2-rev.png&quot; /&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;wp-block-column&quot;&gt;
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;Cracking&lt;/h6&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Cracking map of a hypothetical district&quot; class=&quot;wp-image-3091108&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/09/091220_SG_gerrymandering_crack-pack_3-rev.png&quot; /&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div style=&quot;line-height: 12px; font-size: 10px; height: auto; text-align: right;&quot;&gt;T. Tibbitts&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;Source: Azavea 2018&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;Symmetry-based tests gained prominence after&lt;em&gt; LULAC v. Perry&lt;/em&gt;, a 2006 Supreme Court case that reviewed a mid-decade redistricting plan in Texas. In that case, scientists entered into evidence a partisan bias test — a simulation of what would have happened in an election if the parties’ vote shares were reversed. For instance, if Party A wins 10 out of 15 seats with 70 percent of the vote in an actual election, then Party B, in a hypothetical election, should win 10 seats if it had 70 percent of the vote. Deviation from that “symmetry” equals the level of partisan bias.&lt;/p&gt;
+
+
+
+&lt;p&gt;In &lt;em&gt;LULAC&lt;/em&gt;, the justices largely upheld Texas’ map. But the court indicated willingness to use a symmetry-based method in a future case, though perhaps not solely the partisan bias test. Justice Anthony Kennedy expressed concerns about that particular test, saying it was unclear how much bias was too much. Kennedy also questioned the method’s reliance on statistical simulations rather than real-world results. “We are wary of adopting a constitutional standard that invalidates a map based on unfair results that would occur in a hypothetical state of affairs,” he wrote in the plurality opinion for &lt;em&gt;LULAC&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Real-world symmetry&lt;/h4&gt;
+
+
+
+&lt;p&gt;Kennedy’s feedback on &lt;em&gt;LULAC&lt;/em&gt; prompted researchers to develop other symmetry-based tests that used actual election results.&lt;/p&gt;
+
+
+
+&lt;p&gt;One such approach is the median-mean difference test. That test arises from the basic statistical principle that the difference between the median and the mean indicates the level of skew in the data, with values closer to zero less skewed and vice versa. In 2015 in the &lt;em&gt;Election Law Journal&lt;/em&gt;, political scientists Michael McDonald and Robin Best of Binghamton University in New York explained how a &lt;a href=&quot;https://www.brennancenter.org/sites/default/files/legal-work/McDonald_Best_Unfair_Gerrymanders_2015.pdf&quot;&gt;median-mean analysis could help identify partisan skew in a state&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;A party’s mean vote share comes from averaging vote shares across all districts in a state. A party’s median vote share comes from the district in the middle of a distribution, with the party’s worst-performing district in terms of vote share at one end and the best-performing district at the other. If the difference between a party’s median and mean vote shares is high, that indicates a possibly biased skew, though McDonald and Best noted that some natural skew is inevitable and must be factored into any analysis.&lt;/p&gt;
+
+
+
+&lt;p&gt;Another approach is called the &lt;a href=&quot;https://chicagounbound.uchicago.edu/uclrev/vol82/iss2/4/&quot;&gt;efficiency gap&lt;/a&gt;, which measures the difference in packing and cracking between parties by tallying “wasted” votes. So, if Party A draws an electoral map that spreads Party B’s voters across districts, votes cast for Candidate B in districts won by A are wasted. Conversely, if Party A packs Party B’s voters into a few districts, votes cast for Candidate B beyond the majority needed to win are also wasted. Each party should have about the same number of wasted votes in an election. So the efficiency gap, first described in 2015 in the&lt;em&gt; University of Chicago Law Review&lt;/em&gt;, is calculated by taking the difference in wasted votes between parties and dividing that by the total number of votes cast.&lt;/p&gt;
+
+
+
+&lt;p&gt;PlanScore, a nonpartisan group of legal, political and mapping experts, has shown &lt;a href=&quot;https://planscore.org/north_carolina/#!2012-plan-ushouse-pb&quot;&gt;how the various symmetry tests can be used in tandem&lt;/a&gt; to flag possible gerrymandering. In its analysis of the congressional map used in North Carolina’s 2018 congressional elections, where Republicans won 10 seats and Democrats three, PlanScore found bias using all three tests: The partisan bias test showed that in a hypothetical, tied election, Republicans would win 26.9 percent extra seats. In the median-mean test, the median Republican vote share was 5.8 percent higher than its mean vote share. And the efficiency gap was 27.7 percent in favor of Republicans.&lt;/p&gt;
+
+
+
+
+
+&lt;h4&gt;Natural advantage&lt;/h4&gt;
+
+
+
+&lt;p&gt;Critics of symmetry-based tests, though, say that the presence of packing and cracking does not prove that the governing party has intentionally gerrymandered the state’s districts. Instead, asymmetries can also arise from natural variations in where voters live. Crucially, Republicans tend to be more dispersed across states while Democrats are concentrated in cities.&lt;/p&gt;
+
+
+
+&lt;p&gt;“The party that’s more spread out has a geographic advantage,” says applied mathematician Jonathan Mattingly of Duke University. “That’s our system.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Tests that have emerged over the last few years, known broadly as ensemble methods, accept that natural advantage. These tests rely on computers to generate thousands, or even millions, of possible maps. The programs draw myriad boundary lines around a given district and estimate which party would win that district under each scenario.&lt;/p&gt;
+
+
+
+&lt;p&gt;Consider a state in which one party wins four to seven seats in almost all maps generated, while the state is using a map that regularly gives that party nine seats, Eguia says. That discrepancy suggests partisan gerrymandering.&lt;/p&gt;
+
+
+
+&lt;p&gt;Lawyers working on gerrymandering cases tend to use ensemble and symmetry methods in tandem, says Ruth Greenwood, an attorney in Cambridge, Mass., with PlanScore and the nonpartisan nonprofit Campaign Legal Center. That’s because each alternative map can also be evaluated for symmetry using the various tests. Averaging symmetry scores in the ensemble maps and comparing those values with the symmetry scores of the real-life map can illuminate when the difference is stark and therefore can’t be chalked up to any “natural advantage.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Using all methods together also means that when a map’s fairness is questioned, the lawyers can show that “on any metric, the result is terrible,” Greenwood says.&lt;/p&gt;
+
+
+
+&lt;h4&gt;States at the helm&lt;/h4&gt;
+
+
+
+&lt;p&gt;The issue of gerrymandering was weaving through the federal courts until June 2019, when the Supreme Court ruled 5–4 in &lt;em&gt;Rucho v. Common Cause &lt;/em&gt;that partisan gerrymandering fell outside federal jurisdiction. The decision was in response to an appeal challenging a federal court’s January 2018 ruling that North Carolina’s congressional district map had been gerrymandered along partisan lines, giving Republicans 10 out of 13 seats in 2016 and 2018, despite the fact that in both elections Republicans won only about half the popular vote.&lt;/p&gt;
+
+
+
+&lt;p&gt;By removing the federal court system from gerrymandering cases, the Supreme Court left the issue to the states, a charge a North Carolina state court quickly took up in&lt;em&gt; Harper v. Lewis&lt;/em&gt;. The state court relied on much of the same evidence presented in &lt;em&gt;Rucho&lt;/em&gt;. That evidence included testimony by Mattingly showing that in a universe with 24,518 alternative congressional district maps, the map North Carolina was using was an egregious outlier. In the maps Mattingly generated, Republicans carried 10 or more seats less than 1 percent of the time.&lt;/p&gt;
+
+
+
+&lt;p&gt;In October 2019, the three-judge panel in the &lt;em&gt;Harper&lt;/em&gt; case ruled that state lawmakers needed to &lt;a href=&quot;https://www.brennancenter.org/sites/default/files/2019-10/2019-10-28-Harper%20v_%20Lewis-Order.pdf&quot;&gt;redraw the congressional district map for 2020&lt;/a&gt;. Plaintiffs, however, then challenged the state’s remedial map, which would likely result in Republicans winning eight out of 13 seats. Mattingly &lt;a href=&quot;https://sites.duke.edu/quantifyinggerrymandering/files/2019/12/Mattingly-Nov.-26-Declaration.pdf&quot;&gt;again provided expert testimony&lt;/a&gt;, this time adding 57,202 more maps made using less stringent constraints than the first batch. His research showed a much more purple state, with a 7–6 or 6–7 party split arising in the majority of those alternative maps.&lt;/p&gt;
+
+
+
+&lt;p&gt;But with the state’s 2020 primary fast approaching, a state court approved the remedial map in December 2019. That new map will stand for only a short time, though. Along with every other state, North Carolina will go through redistricting again in 2021 after the census tallies are in. New Jersey and Virginia — which hold statewide elections in odd years — may struggle to finish their maps before the 2021 elections, since the census was delayed due to the pandemic.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar alignwide&quot;&gt;
+&lt;h3&gt;Slightly fairer &lt;/h3&gt;
+
+
+
+&lt;p&gt;For the last decade, Republican legislators in North Carolina have strategically packed and cracked Democratic voters across congressional districts, limiting their voting power. A state court struck down the maps from 2016 and 2018 that created only three Democratic-leaning districts (blue). The 2020 map creates two more blue-leaning districts, but researchers say the new map still gives Republicans an extra one or two seats. &lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-columns&quot;&gt;
+&lt;div class=&quot;wp-block-column&quot;&gt;
+&lt;p&gt;&lt;strong&gt;North Carolina congressional map, 2016 and 2018&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;2016 and 2018 map of North Carolina&quot; class=&quot;wp-image-3091039&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/09/091220_SG_gerrymandering_map-1.png&quot; /&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;wp-block-column&quot;&gt;
+&lt;p&gt;&lt;strong&gt;North Carolina congressional map, 2020&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;2020 map of North Carolina&quot; class=&quot;wp-image-3091040&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/09/091220_SG_gerrymandering_map-2.png&quot; /&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div style=&quot;line-height: 12px; font-size: 10px; height: auto; text-align: right;&quot;&gt;T. Tibbitts&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;Source: North Carolina General Assembly&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;Meanwhile, census watchers worry that the Trump administration’s recent decision to move the completion deadline for the population count from October 31 to September 30 could lead to undercounts among hard-to-reach groups, thereby affecting the placement of district boundaries.&lt;/p&gt;
+
+
+
+&lt;p&gt;Greenwood expects a spike in lawsuits, though now at the state rather than federal level, challenging the newly drawn maps. And a small cadre of researchers is now ready to serve as expert witnesses in those cases, Eguia says.&lt;/p&gt;
+
+
+
+&lt;p&gt;The upcoming mapmaking process doesn’t have to repeat the mistakes of a decade ago, he adds. In 2011, lawmakers drew maps largely behind closed doors without researchers present — resulting in a decade of lawsuits, he says. Why not, instead, bring researchers into the room, with their tests and myriad maps, from the get-go? “That’s what the community of experts would prefer,” he says. “That’s what I would advocate for.”&lt;/p&gt;</description>
+	<pubDate>Mon, 07 Sep 2020 10:00:00 +0000</pubDate>
+        <enclosure url="https://www.sciencenews.org/wp-content/uploads/2020/09/091220_SG_gerrymandering_feat-330x186.jpg" length="154119" type="image/jpeg"/>
+  <source url="https://www.sciencenews.org/feed">Science News</source>
+</item>
+<item>
 	<title>For Better Science: New JACS EiC Erick Carreira: “correct your work-ethic immediately”</title>
 	<guid isPermaLink="false">http://forbetterscience.com/?p=51191</guid>
 	<link>https://forbetterscience.com/2020/09/06/new-jacs-eic-erick-carreira-correct-your-work-ethic-immediately/</link>
@@ -2456,43 +2699,6 @@
 &lt;p&gt;“Once you figure out the mechanism [by which] this is working, maybe you can figure what goes wrong in everyone else and fine-tune it,” Roth says. The researchers have eliminated some possibilities, but haven’t solved the mystery yet of how elite controllers achieve their status. “The big question is, how do you do it? It’s a cliffhanger in the paper.”&lt;/p&gt;</description>
 	<pubDate>Wed, 26 Aug 2020 18:21:39 +0000</pubDate>
         <enclosure url="https://www.sciencenews.org/wp-content/uploads/2020/08/082520_TI_HIV-blood_feat-330x186.jpg" length="199933" type="image/jpeg"/>
-  <source url="https://www.sciencenews.org/feed">Science News</source>
-</item>
-<item>
-	<title>Science News: Carbon dioxide from Earth’s mantle may trigger some Italian earthquakes</title>
-	<guid isPermaLink="false">https://www.sciencenews.org/?p=3090791</guid>
-	<link>https://www.sciencenews.org/article/carbon-dioxide-earth-mantle-italy-earthquakes</link>
-	<description>&lt;p&gt;Italy may owe some of its seismic activity to carbon dioxide bubbling up from deep underground.&lt;/p&gt;
-
-
-
-&lt;p&gt;The country’s central Apennine Mountains region has been rattled by several destructive earthquakes in recent years, including the devastating &lt;a href=&quot;https://www.sciencenews.org/article/shaky-forecasts&quot;&gt;magnitude 6.3 quake that wracked the city of L’Aquila&lt;/a&gt; in 2009 (&lt;em&gt;SN: 8/14/09&lt;/em&gt;). A new decade-long record of natural carbon dioxide emissions in the area reveals that &lt;a href=&quot;https://advances.sciencemag.org/lookup/doi/10.1126/sciadv.abc2938&quot;&gt;spikes in CO&lt;sub&gt;2&lt;/sub&gt; release coincided with the biggest earthquakes&lt;/a&gt;. That finding hints that CO&lt;sub&gt;2&lt;/sub&gt; rising toward Earth’s surface can change pressure along faults to trigger earthquakes, researchers report online August 26 in &lt;em&gt;Science Advances&lt;/em&gt;. Understanding the relationship between CO&lt;sub&gt;2&lt;/sub&gt; and seismicity could someday lead to better earthquake forecasts.&lt;/p&gt;
-
-
-
-&lt;p&gt;Earth &lt;a href=&quot;https://www.sciencenews.org/article/where-earth-stores-its-carbon&quot;&gt;naturally releases carbon dioxide&lt;/a&gt; when tectonic forces melt carbonate rock in the mantle, a process that frees CO&lt;sub&gt;2&lt;/sub&gt; (&lt;em&gt;SN: 10/1/19&lt;/em&gt;). That CO&lt;sub&gt;2&lt;/sub&gt; rises, gathers in pressurized pockets in Earth’s crust and seeps into groundwater that feeds springs aboveground. Previous studies have noted that CO&lt;sub&gt;2&lt;/sub&gt; tends to escape Earth in seismic hot spots. But without long-term records of CO&lt;sub&gt;2&lt;/sub&gt; emissions in earthquake-prone areas, no one knew exactly how the timing of carbon emissions compared with earthquake occurrence. &lt;/p&gt;
-
-
-
-&lt;p&gt;From 2009 to 2018, researchers measured the carbon content of springwater fed by the Velino aquifer, which is near the epicenter of the 2009 L’Aquila quake and sits atop a reservoir of CO&lt;sub&gt;2&lt;/sub&gt; in Earth’s crust. Those data show that jumps in CO&lt;sub&gt;2&lt;/sub&gt; emissions happened at about the same time as strong earthquakes, and emissions dropped off when quakes were smaller and farther between. When the region was struck by quakes of magnitude 6 or higher, the Velino aquifer springs released more than 600 metric tons of CO&lt;sub&gt;2 &lt;/sub&gt;per day. During more seismically quiet periods, the springs emitted some 400 to 500 tons of CO&lt;sub&gt;2 &lt;/sub&gt;daily.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;San Vittorino spring&quot; class=&quot;wp-image-3090794&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/08/082520_mt_earthquakeCO2_inline.jpg&quot; /&gt;&lt;span class=&quot;caption wp-caption-3090794&quot;&gt;Carbon dioxide from deep within Earth’s mantle can rise up through the crust, seep into groundwater and reach the surface in springwater, such as in the San Vittorino spring (shown) in central Italy.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3090794&quot;&gt;G. Chiodini/INGV&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Still, these data do not conclusively show whether rising CO&lt;sub&gt;2&lt;/sub&gt; helps incite earthquakes, or if the shaking ground simply brings more CO&lt;sub&gt;2&lt;/sub&gt; to the surface, says Andrea Billi, a geologist at the Italian National Research Council in Rome not involved in the work. “It’s a chicken-and-egg problem.” Continuously monitoring these types of carbon dioxide emissions in the Apennines and other seismically active regions, such as California and Japan, could reveal whether uprising gas is a precursor or product of quakes, he says.&lt;/p&gt;
-
-
-
-&lt;p&gt;“I think there is feedback between the two,” says study coauthor Giovanni Chiodini, a geologist at the Italian National Institute of Geophysics and Volcanology in Bologna. Continuous buildup of carbon dioxide underground, he says, could drive earthquakes, which fracture Earth’s crust and allow more CO&lt;sub&gt;2&lt;/sub&gt; to creep upward, which in turn generates more quakes.&lt;/p&gt;
-
-
-
-&lt;p&gt;If uprising CO&lt;sub&gt;2 &lt;/sub&gt;does aggravate seismic activity in some areas, then tracking the chemistry of local springwater may offer forecasters a new tool to make their predictions, which scientists did not have when the deadly earthquake took L’Aquila by surprise in 2009, Billi says. In the wake of that disaster, &lt;a href=&quot;https://www.sciencenews.org/article/italian-earthquake-verdict-exposes-rifts-between-science-and-society&quot;&gt;six Italian scientists and a government official were convicted&lt;/a&gt; of manslaughter for failing to adequately warn the public of seismic risks in the region — although the defendants were later acquitted or got reduced sentences (&lt;em&gt;SN: 1/23/13&lt;/em&gt;).&lt;/p&gt;</description>
-	<pubDate>Wed, 26 Aug 2020 18:00:00 +0000</pubDate>
-        <enclosure url="https://www.sciencenews.org/wp-content/uploads/2020/08/082520_mt_earthquakeCO2_feat-330x186.jpg" length="706185" type="image/jpeg"/>
   <source url="https://www.sciencenews.org/feed">Science News</source>
 </item>
 <item>
