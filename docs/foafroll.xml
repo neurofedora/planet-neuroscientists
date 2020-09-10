@@ -468,6 +468,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Peter Rupprecht</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://ptrrupprecht.wordpress.com">
+					<dc:title>A blog about neurophysiology</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Pillow Lab</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="https://pillowlab.wordpress.com">
