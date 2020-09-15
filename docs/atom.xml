@@ -5,8 +5,80 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2020-09-14T18:00:56+00:00</updated>
+	<updated>2020-09-15T07:00:53+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en">Discrepancies between calcium imaging and extracellular ephys recordings</title>
+		<link href="https://ptrrupprecht.wordpress.com/2020/09/14/discrepancies-between-calcium-imaging-and-extracellular-ephys-recordings/"/>
+		<id>http://ptrrupprecht.wordpress.com/?p=6578</id>
+		<updated>2020-09-14T20:18:10+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;To record the activity from a  population of neurons, calcium imaging and extracellular recordings with small electrodes are the two most widely used methods that are still  able to disentangle the contributions from single units. Here, I would like to briefly mention two papers that try to connect these two approaches by comparing them more or less directly.&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt;Wei et al., &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/840686v1&quot;&gt;A comparison of neuronal population dynamics measured with calcium imaging and electrophysiology&lt;/a&gt;, bioRxiv, 2019&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Siegle, Ledochowitsch et al., &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.10.244723v1&quot;&gt;Reconciling functional differences in populations of neuronsrecorded with two-photon imaging and electrophysiology&lt;/a&gt;, bioRxiv, 2019&lt;br /&gt;&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;p&gt;Both papers compare calcium imaging datasets and extracellular ephys datasets, try to connect the results and point out the difficulties in reconciling the approaches.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Wei et al. &lt;/strong&gt;use datasets recorded in mouse anterio-lateral motor cortex (ALM). They first focus on approaches to reconstruct spike rates from calcium imaging data (deconvolution) and find several limitations of this approach. On the other hand, they find that a forward model that transforms spiking activity to calcium fluorescence data can reconcile most of these differences.&lt;/p&gt;
+
+
+
+&lt;p&gt;The authors also provide a user-friendly website which can be used to explore the transformations between ephys and imaging data (also including a dataset with simultaneous ephys-imaging): &lt;a href=&quot;http://im-phys.org&quot;&gt;http://im-phys.org&lt;/a&gt;. (Understanding the figures of the paper is however quite useful before exploring the website.)&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-6583&quot; data-attachment-id=&quot;6583&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;screenshot-from-2020-09-14-21-19-33&quot; data-large-file=&quot;https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png?w=640&quot; data-medium-file=&quot;https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png?w=300&quot; data-orig-file=&quot;https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png&quot; data-orig-size=&quot;692,383&quot; data-permalink=&quot;https://ptrrupprecht.wordpress.com/screenshot-from-2020-09-14-21-19-33/&quot; height=&quot;370&quot; src=&quot;https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png?w=692&quot; width=&quot;670&quot; /&gt;From &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/840686v1&quot;&gt;Wei et al., &lt;em&gt;bioRxiv&lt;/em&gt; (2019)&lt;/a&gt;, used under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot;&gt;CC BY 4.0&lt;/a&gt; license (excerpt from Fig. 7).&lt;/figure&gt;
+
+
+
+&lt;p&gt;A large part of the paper focuses on high-level analyses (principal component analysis, decoding of behavior and decision). This serves as an educational tale of caution which highlights wrong conclusions that could be made based on simple analysis. For example, deconvolution of calcium data can lead to a dispersion of peak activity that was absent in the ephys data. This dispersion can smear out clearly timed activations of neuronal population into something more similar to a sequence (see Figure 7, of which I have pasted an excerpt above).&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Siegle, Ledochowitsch et al.&lt;/strong&gt; from the Allen Institute, rather than investigating the effects on high-level analyses of population activity, focus their attention on the effects seen in single neurons. When comparing a calcium imaging and an ephys dataset recorded in the same brain region (visual cortex V1) in mice that do the same standardized tasks, what differences can be seen when trying to describe the firing properties of single neurons?&lt;/p&gt;
+
+
+
+&lt;p&gt;Due to the high standardization requirements at the Allen Institute, their datasets are probably uniquely qualified to be the basis for such a comparison. Interestingly, they find a couple of large, first-order-effect differences. For example, extracellular ephys data suggest typical firing rates of around 3 Hz (see Figure 2A), which is almost an order of magnitude higher than what has been recorded and estimated from calcium imaging data (see also &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.31.272450v1&quot;&gt;Figure 7 in our preprint&lt;/a&gt;, which is based on the same dataset).&lt;/p&gt;
+
+
+
+&lt;p&gt;The authors go to great lengths to use forward transformations (similar to Wei et al.) in order to reconcile differences seen for various response metrics (responsiveness, tuning preference, selectivity). However, their conclusion seemed to me quite a bit less optimistic compared to the Wei et al. paper. The authors also go into more detail when discussing the potential reasons for the discrepancies, and paper focuses on the recording methods themselves rather than on methods to transform between them. In particular their analysis of inter-spike-interval (ISI) violations in ephys recordings (which indicate that spikes from different neurons contaminate the recording of the neuron of interest) was in my opinion particularly interesting and convincing. I really recommend to anybody the last paragraph of their discussion, from which I only want to cite their note of caution about extracellular ephys recordings:&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;From this study, we have learned that extracellular electrophysiology overestimates the fraction of neurons that elevate their activity in response to visual stimuli, in a manner that is consistent with the effects of selection bias and contamination. – Siegle, Ledochowitsch et al.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;One of the reasons why I am writing about these two studies is that I have been working at the interface of calcium imaging and ephys myself, addressing the question, &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.31.272450v1&quot;&gt;How much information about spike rates can we get out of calcium imaging data?&lt;/a&gt; Wei et al. and Siegle, Ledochowitsch et al. take a slightly broader perspective. And, in some way, they show how hard it is to reconcile two (methodological) perspectives on the same phenomenon.  I noticed this in my &lt;a href=&quot;https://www.fmi.ch/research-groups/groupleader.html?group=119&quot;&gt;PhD lab&lt;/a&gt; as well, when it came to reconciling results from electron microscopy reconstructions of neuronal anatomy and functional calcium measurements of the same brain sample. Since almost any method in systems neuroscience is technically challenging, we often have in a single lab only a single perspective of a phenomenon, and we should always be aware that our conclusions might be strongly biased by that.&lt;/p&gt;
+
+
+
+&lt;p&gt;Calcium imaging and extracellular ephys are extremely valuable tools to observe the living brain, and we better do anything to understand the properties and limitations of these tools. These studies sometimes might feel a bit like negative results and therefore not very attractive to those who want to advance neuroscience, and I therefore understand why not many are willing to undertake these projects. So I am glad to be able to highlight these two publications here.&lt;/p&gt;</content>
+		<author>
+			<name>P.T.R. Rupprecht</name>
+			<uri>https://ptrrupprecht.wordpress.com</uri>
+		</author>
+		<source>
+			<title type="html">A blog about neurophysiology</title>
+			<subtitle type="html">A Neuroscientific Blog</subtitle>
+			<link rel="self" href="https://ptrrupprecht.wordpress.com/feed/"/>
+			<id>https://ptrrupprecht.wordpress.com</id>
+			<updated>2020-09-15T07:00:48+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Phosphine gas found in Venus’ atmosphere may be ‘a possible sign of life’</title>
@@ -102,7 +174,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -207,7 +279,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -370,7 +442,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -410,7 +482,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -563,7 +635,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -723,7 +795,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -797,7 +869,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1231,7 +1303,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1372,7 +1444,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1454,7 +1526,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1560,7 +1632,15 @@
 
 
 
-&lt;p&gt;We’ll have to wait to see if there really is a safety concern or if this was a false alarm, she says. “In normal times this would happen and it wouldn’t be international news. But right now the whole world is watching these vaccine trials and we’re all holding our breath waiting for the results.” &lt;em&gt;Science News&lt;/em&gt; spoke with experts about what a pause might mean for the future of a coronavirus vaccine.&lt;/p&gt;
+&lt;p&gt;We’ll have to wait to see if there really is a safety concern or if this was a false alarm, she says. “In normal times this would happen and it wouldn’t be international news. But right now the whole world is watching these vaccine trials and we’re all holding our breath waiting for the results.” &lt;/p&gt;
+
+
+
+&lt;p&gt;Vaccine &lt;a href=&quot;https://www.astrazeneca.com/media-centre/press-releases/2020/covid-19-vaccine-azd1222-clinical-trials-resumed-in-the-uk.html&quot;&gt;trials resumed&lt;/a&gt; in the United Kingdom on September 12 after the U.K.’s Medicines &amp;amp; Healthcare products Regulatory Agency said it was safe to do so, AstraZeneca said in a statement. Brazil’s trial also resumed September 12. In the United States, AstraZeneca had &lt;a href=&quot;https://www.astrazeneca.com/content/astraz/media-centre/press-releases/2020/development-of-covid-19-vaccine-azd1222-expands-into-us-phase-iii-clinical-trial-across-all-adult-age-groups.html#!&quot;&gt;just started recruiting volunteers&lt;/a&gt; for a Phase III trial when the pause occurred. The company, citing privacy concerns, declined to release any more medical information about the participant involved in the incident.&lt;/p&gt;
+
+
+
+&lt;p&gt;Prior to the restart, &lt;em&gt;Science News&lt;/em&gt; spoke with experts about what a pause might mean for the future of a coronavirus vaccine.&lt;/p&gt;
 
 
 
@@ -1680,7 +1760,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1746,7 +1826,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1811,7 +1891,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1960,7 +2040,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2000,7 +2080,7 @@
 			<subtitle type="html">&lt;p&gt;An educational neuroscience website that includes a wide selection of articles, videos, and images to help anyone learn more about neuroscience.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/</id>
-			<updated>2020-09-14T13:00:51+00:00</updated>
+			<updated>2020-09-15T07:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -2040,7 +2120,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2094,7 +2174,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2245,7 +2325,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2453,7 +2533,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2507,7 +2587,7 @@
 			<title type="html">Computational Neuroscience Unit (Erik De Schutter)</title>
 			<link rel="self" href="https://www.oist.jp/taxonomy/term/424/feed"/>
 			<id>https://www.oist.jp/groups/computational-neuroscience-unit-erik-de-schutter</id>
-			<updated>2020-09-08T13:00:48+00:00</updated>
+			<updated>2020-09-15T07:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2547,7 +2627,7 @@
 			<title type="html">Computational Neuroscience Unit (Erik De Schutter)</title>
 			<link rel="self" href="https://www.oist.jp/taxonomy/term/424/feed"/>
 			<id>https://www.oist.jp/groups/computational-neuroscience-unit-erik-de-schutter</id>
-			<updated>2020-09-08T13:00:48+00:00</updated>
+			<updated>2020-09-15T07:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2594,7 +2674,7 @@
 			<title type="html">Computational Neuroscience Unit (Erik De Schutter)</title>
 			<link rel="self" href="https://www.oist.jp/taxonomy/term/424/feed"/>
 			<id>https://www.oist.jp/groups/computational-neuroscience-unit-erik-de-schutter</id>
-			<updated>2020-09-08T13:00:48+00:00</updated>
+			<updated>2020-09-15T07:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2925,7 +3005,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2945,7 +3025,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2995,7 +3075,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:46+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3073,7 +3153,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3161,7 +3241,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3323,7 +3403,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3605,7 +3685,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3774,7 +3854,7 @@
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:44+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -3965,7 +4045,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4407,7 +4487,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4447,7 +4527,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:44+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4579,7 +4659,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4753,7 +4833,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -5001,7 +5081,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">A Neuroscientific Blog</subtitle>
 			<link rel="self" href="https://ptrrupprecht.wordpress.com/feed/"/>
 			<id>https://ptrrupprecht.wordpress.com</id>
-			<updated>2020-09-10T13:01:02+00:00</updated>
+			<updated>2020-09-15T07:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -5155,7 +5235,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;An educational neuroscience website that includes a wide selection of articles, videos, and images to help anyone learn more about neuroscience.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/</id>
-			<updated>2020-09-14T13:00:51+00:00</updated>
+			<updated>2020-09-15T07:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -5240,7 +5320,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-09-14T18:00:44+00:00</updated>
+			<updated>2020-09-15T07:00:44+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -5350,7 +5430,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-09-14T18:00:47+00:00</updated>
+			<updated>2020-09-15T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -5836,7 +5916,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;An educational neuroscience website that includes a wide selection of articles, videos, and images to help anyone learn more about neuroscience.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/</id>
-			<updated>2020-09-14T13:00:51+00:00</updated>
+			<updated>2020-09-15T07:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -6035,7 +6115,7 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-09-14T18:00:44+00:00</updated>
+			<updated>2020-09-15T07:00:44+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6161,7 +6241,7 @@ I mention the 100% male team because if you look at all the people mentioned in 
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-09-14T18:00:45+00:00</updated>
+			<updated>2020-09-15T07:00:44+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6203,7 +6283,7 @@ I mention the 100% male team because if you look at all the people mentioned in 
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-09-14T18:00:44+00:00</updated>
+			<updated>2020-09-15T07:00:44+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6488,26 +6568,6 @@ The Independent and Revolutionary Mexican Newspapers collection, with a prelim
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
 			<updated>2020-09-10T07:00:43+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Jan van Deursen’s bullying: lab members speak out</title>
-		<link href="https://forbetterscience.com/2020/07/17/jan-van-deursens-bullying-lab-members-speak-out/"/>
-		<id>http://forbetterscience.com/?p=50163</id>
-		<updated>2020-07-17T14:01:27+00:00</updated>
-		<content type="html">
- &quot;There is a clear difference between being a taskmaster and a bully. There just is. Jan was definitely both.&quot; - Robin Ricke, former postdoc in van Deursen's Mayo Clinic lab</content>
-		<author>
-			<name>Leonid Schneider</name>
-			<uri>https://forbetterscience.com</uri>
-		</author>
-		<source>
-			<title type="html">For Better Science</title>
-			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
-			<link rel="self" href="https://forbetterscience.com/feed/"/>
-			<id>https://forbetterscience.com</id>
-			<updated>2020-08-27T07:00:45+00:00</updated>
 		</source>
 	</entry>
 

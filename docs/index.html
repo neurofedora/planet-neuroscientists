@@ -86,11 +86,70 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on September 14, 2020 06:00 PM on behalf of Ankur Sinha.
+          on September 15, 2020 07:00 AM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://ptrrupprecht.wordpress.com/2020/09/14/discrepancies-between-calcium-imaging-and-extracellular-ephys-recordings/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://ptrrupprecht.wordpress.com/2020/09/14/discrepancies-between-calcium-imaging-and-extracellular-ephys-recordings/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://ptrrupprecht.wordpress.com/2020/09/14/discrepancies-between-calcium-imaging-and-extracellular-ephys-recordings/&title=Discrepancies between calcium imaging and extracellular ephys recordings" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://ptrrupprecht.wordpress.com/2020/09/14/discrepancies-between-calcium-imaging-and-extracellular-ephys-recordings/">Discrepancies between calcium imaging and extracellular ephys recordings</a></h4>
+
+<p>To record the activity from a  population of neurons, calcium imaging and extracellular recordings with small electrodes are the two most widely used methods that are still  able to disentangle the contributions from single units. Here, I would like to briefly mention two papers that try to connect these two approaches by comparing them more or less directly.</p>
+
+
+
+<ol><li>Wei et al., <a href="https://www.biorxiv.org/content/10.1101/840686v1">A comparison of neuronal population dynamics measured with calcium imaging and electrophysiology</a>, bioRxiv, 2019<br /></li><li>Siegle, Ledochowitsch et al., <a href="https://www.biorxiv.org/content/10.1101/2020.08.10.244723v1">Reconciling functional differences in populations of neuronsrecorded with two-photon imaging and electrophysiology</a>, bioRxiv, 2019<br /></li></ol>
+
+
+
+<p>Both papers compare calcium imaging datasets and extracellular ephys datasets, try to connect the results and point out the difficulties in reconciling the approaches.</p>
+
+
+
+<p><strong>Wei et al. </strong>use datasets recorded in mouse anterio-lateral motor cortex (ALM). They first focus on approaches to reconstruct spike rates from calcium imaging data (deconvolution) and find several limitations of this approach. On the other hand, they find that a forward model that transforms spiking activity to calcium fluorescence data can reconcile most of these differences.</p>
+
+
+
+<p>The authors also provide a user-friendly website which can be used to explore the transformations between ephys and imaging data (also including a dataset with simultaneous ephys-imaging): <a href="http://im-phys.org">http://im-phys.org</a>. (Understanding the figures of the paper is however quite useful before exploring the website.)</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img alt="" class="wp-image-6583" data-attachment-id="6583" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screenshot-from-2020-09-14-21-19-33" data-large-file="https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png?w=640" data-medium-file="https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png?w=300" data-orig-file="https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png" data-orig-size="692,383" data-permalink="https://ptrrupprecht.wordpress.com/screenshot-from-2020-09-14-21-19-33/" height="370" src="https://ptrrupprecht.files.wordpress.com/2020/09/screenshot-from-2020-09-14-21-19-33.png?w=692" width="670" />From <a href="https://www.biorxiv.org/content/10.1101/840686v1">Wei et al., <em>bioRxiv</em> (2019)</a>, used under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY 4.0</a> license (excerpt from Fig. 7).</figure>
+
+
+
+<p>A large part of the paper focuses on high-level analyses (principal component analysis, decoding of behavior and decision). This serves as an educational tale of caution which highlights wrong conclusions that could be made based on simple analysis. For example, deconvolution of calcium data can lead to a dispersion of peak activity that was absent in the ephys data. This dispersion can smear out clearly timed activations of neuronal population into something more similar to a sequence (see Figure 7, of which I have pasted an excerpt above).</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Siegle, Ledochowitsch et al.</strong> from the Allen Institute, rather than investigating the effects on high-level analyses of population activity, focus their attention on the effects seen in single neurons. When comparing a calcium imaging and an ephys dataset recorded in the same brain region (visual cortex V1) in mice that do the same standardized tasks, what differences can be seen when trying to describe the firing properties of single neurons?</p>
+
+
+
+<p>Due to the high standardization requirements at the Allen Institute, their datasets are probably uniquely qualified to be the basis for such a comparison. Interestingly, they find a couple of large, first-order-effect differences. For example, extracellular ephys data suggest typical firing rates of around 3 Hz (see Figure 2A), which is almost an order of magnitude higher than what has been recorded and estimated from calcium imaging data (see also <a href="https://www.biorxiv.org/content/10.1101/2020.08.31.272450v1">Figure 7 in our preprint</a>, which is based on the same dataset).</p>
+
+
+
+<p>The authors go to great lengths to use forward transformations (similar to Wei et al.) in order to reconcile differences seen for various response metrics (responsiveness, tuning preference, selectivity). However, their conclusion seemed to me quite a bit less optimistic compared to the Wei et al. paper. The authors also go into more detail when discussing the potential reasons for the discrepancies, and paper focuses on the recording methods themselves rather than on methods to transform between them. In particular their analysis of inter-spike-interval (ISI) violations in ephys recordings (which indicate that spikes from different neurons contaminate the recording of the neuron of interest) was in my opinion particularly interesting and convincing. I really recommend to anybody the last paragraph of their discussion, from which I only want to cite their note of caution about extracellular ephys recordings:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>From this study, we have learned that extracellular electrophysiology overestimates the fraction of neurons that elevate their activity in response to visual stimuli, in a manner that is consistent with the effects of selection bias and contamination. – Siegle, Ledochowitsch et al.</p></blockquote>
+
+
+
+<p>One of the reasons why I am writing about these two studies is that I have been working at the interface of calcium imaging and ephys myself, addressing the question, <a href="https://www.biorxiv.org/content/10.1101/2020.08.31.272450v1">How much information about spike rates can we get out of calcium imaging data?</a> Wei et al. and Siegle, Ledochowitsch et al. take a slightly broader perspective. And, in some way, they show how hard it is to reconcile two (methodological) perspectives on the same phenomenon.  I noticed this in my <a href="https://www.fmi.ch/research-groups/groupleader.html?group=119">PhD lab</a> as well, when it came to reconciling results from electron microscopy reconstructions of neuronal anatomy and functional calcium measurements of the same brain sample. Since almost any method in systems neuroscience is technically challenging, we often have in a single lab only a single perspective of a phenomenon, and we should always be aware that our conclusions might be strongly biased by that.</p>
+
+
+
+<p>Calcium imaging and extracellular ephys are extremely valuable tools to observe the living brain, and we better do anything to understand the properties and limitations of these tools. These studies sometimes might feel a bit like negative results and therefore not very attractive to those who want to advance neuroscience, and I therefore understand why not many are willing to undertake these projects. So I am glad to be able to highlight these two publications here.</p>
+                <p class="text-muted">in <a href="https://ptrrupprecht.wordpress.com">Peter Rupprecht</a> on September 14, 2020 08:18 PM.</p>
+              </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/phosphine-gas-found-venus-atmosphere-possible-sign-life" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/phosphine-gas-found-venus-atmosphere-possible-sign-life" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/phosphine-gas-found-venus-atmosphere-possible-sign-life&title=Phosphine gas found in Venus’ atmosphere may be ‘a possible sign of life’" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/phosphine-gas-found-venus-atmosphere-possible-sign-life">Phosphine gas found in Venus’ atmosphere may be ‘a possible sign of life’</a></h4>
@@ -1335,7 +1394,15 @@ Karin Dahlman-Wright, Karolinska Institute's former president, then vice-preside
 
 
 
-<p>We’ll have to wait to see if there really is a safety concern or if this was a false alarm, she says. “In normal times this would happen and it wouldn’t be international news. But right now the whole world is watching these vaccine trials and we’re all holding our breath waiting for the results.” <em>Science News</em> spoke with experts about what a pause might mean for the future of a coronavirus vaccine.</p>
+<p>We’ll have to wait to see if there really is a safety concern or if this was a false alarm, she says. “In normal times this would happen and it wouldn’t be international news. But right now the whole world is watching these vaccine trials and we’re all holding our breath waiting for the results.” </p>
+
+
+
+<p>Vaccine <a href="https://www.astrazeneca.com/media-centre/press-releases/2020/covid-19-vaccine-azd1222-clinical-trials-resumed-in-the-uk.html">trials resumed</a> in the United Kingdom on September 12 after the U.K.’s Medicines &amp; Healthcare products Regulatory Agency said it was safe to do so, AstraZeneca said in a statement. Brazil’s trial also resumed September 12. In the United States, AstraZeneca had <a href="https://www.astrazeneca.com/content/astraz/media-centre/press-releases/2020/development-of-covid-19-vaccine-azd1222-expands-into-us-phase-iii-clinical-trial-across-all-adult-age-groups.html#!">just started recruiting volunteers</a> for a Phase III trial when the pause occurred. The company, citing privacy concerns, declined to release any more medical information about the participant involved in the incident.</p>
+
+
+
+<p>Prior to the restart, <em>Science News</em> spoke with experts about what a pause might mean for the future of a coronavirus vaccine.</p>
 
 
 
@@ -4676,13 +4743,6 @@ A technology course for underserved youth in Amsterdam shows them they can achie
 <p> </p>
 <p>The post <a href="http://blogs.biomedcentral.com/bmcseriesblog/2020/07/20/bmc-series-highlights-june-2020/" rel="nofollow">BMC Series highlights: June 2020</a> appeared first on <a href="http://blogs.biomedcentral.com/bmcseriesblog" rel="nofollow">BMC Series blog</a>.</p>
                 <p class="text-muted">in <a href="http://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on July 20, 2020 01:39 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com/2020/07/17/jan-van-deursens-bullying-lab-members-speak-out/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com/2020/07/17/jan-van-deursens-bullying-lab-members-speak-out/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com/2020/07/17/jan-van-deursens-bullying-lab-members-speak-out/&title=Jan van Deursen’s bullying: lab members speak out" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://forbetterscience.com/2020/07/17/jan-van-deursens-bullying-lab-members-speak-out/">Jan van Deursen’s bullying: lab members speak out</a></h4>
-
-"There is a clear difference between being a taskmaster and a bully. There just is. Jan was definitely both." - Robin Ricke, former postdoc in van Deursen's Mayo Clinic lab
-                <p class="text-muted">in <a href="https://forbetterscience.com">For Better Science</a> on July 17, 2020 02:01 PM.</p>
               </li>
           </ul>
         </div>
