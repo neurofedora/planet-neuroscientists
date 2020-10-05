@@ -15,6 +15,11 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=51883" />
+			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=692" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092086" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092066" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=120593" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092046" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092008" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40435" />
@@ -60,10 +65,8 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3091800" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40393" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120537" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3091768" />
 			<rdf:li rdf:resource="http://ptrrupprecht.wordpress.com/?p=6555" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=666" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3091776" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/mental-health-researcher-uses-ai-to-achieve-whats-important-to-patients" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40380" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120533" />
@@ -106,7 +109,6 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=51227" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12103" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-2929680325694966274" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=120477" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40277" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/in-this-tech-job-the-difference-you-make-gets-right-to-the-customer" />
 			<rdf:li rdf:resource="http://liorpachter.wordpress.com/?p=14504" />
@@ -163,12 +165,220 @@
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18344" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=50490" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=144911" />
-			<rdf:li rdf:resource="https://blog.oup.com/?p=144910" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=50391" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=51883">
+	<title>For Better Science: Dirty diseased Neanderthals</title>
+	<link>https://forbetterscience.com/2020/10/05/dirty-diseased-neanderthals/</link>
+	<content:encoded>Who brought us COVID-19? The Neanderthals. The susceptibility to the SARS-CoV2 coronavirus, but also to diabetes, obesity, allergies, skin diseases, smoking and autism all happened because your great-[...]-great-grandfather could not keep his todger in his trousers many thousands of years ago.</content:encoded>
+	<dc:date>2020-10-05T06:05:33+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
+<item rdf:about="https://blogs.cornell.edu/arxiv/?p=692">
+	<title>arXiv.org blog: New classifier adds transparency to arXiv submission process</title>
+	<link>https://blog.arxiv.org/2020/10/05/new-classifier-adds-transparency-to-arxiv-submission-process/</link>
+	<content:encoded>&lt;p&gt;arXiv’s classification tool is now based on an algorithm developed by &lt;a href=&quot;https://paperswithcode.com/about&quot;&gt;Papers with Code&lt;/a&gt;. Like the &lt;a href=&quot;https://blog.arxiv.org/2020/05/20/new-user-driven-classification-tool-released/&quot;&gt;previous classifier&lt;/a&gt;, this one helps place research articles in proper categories. This process is vitally important because proper categorization helps readers find the information they seek — and assures authors that their work will be found by the right audience.&lt;/p&gt;
+&lt;p&gt;The arXiv author experience will remain the same during the article submission process. The classifier automatically uses the title and abstract of a submitted article as input. Then, a machine learning model matches the research article to existing arXiv categories. If the model finds a match with a category different from the author selected category, a new recommendation will be proposed. Authors can either accept the new category recommendation or ignore it.&lt;/p&gt;
+&lt;p&gt;The new &lt;a href=&quot;https://github.com/arXiv/arxiv-classifier&quot;&gt;arXiv classifier code is publicly available on github&lt;/a&gt;, and this transparency is one key difference between the new classifier and its predecessor. arXiv values openness, and providing the machine learning methodology that underlies the classifier ensures that anyone can use and build upon it. arXiv only collaborates with partners that share arXiv’s values of openness, community, excellence, and user data privacy.&lt;/p&gt;
+&lt;p&gt;The developers, who are avid arXiv readers and authors, offered their expertise to help arXiv improve the user experience. They experimented with several approaches and ended up using two open source models, &lt;a href=&quot;https://arxiv.org/abs/1801.06146&quot;&gt;ULMFiT&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/abs/1607.01759&quot;&gt;fastText&lt;/a&gt;, trained on over 1.6 million abstracts and 120 thousand full text articles, respectively. Combined with a standard method that stratifies the data to address large category imbalance, this approach ensures that the new classifier proposes appropriate categories.&lt;/p&gt;
+&lt;p&gt;arXiv continues to explore new and innovative ways to categorize articles and input from the community is welcome.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</content:encoded>
+	<dc:date>2020-10-05T05:00:11+00:00</dc:date>
+	<dc:creator>ame5</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3092086">
+	<title>Science News: Cannibalism in the womb may have helped megalodon sharks become giants</title>
+	<link>https://www.sciencenews.org/article/ancient-megalodon-shark-teeth-cannabilism-womb</link>
+	<content:encoded>&lt;p&gt;The largest sharks ever to hunt in Earth’s oceans &lt;a href=&quot;https://doi.org/10.1080/08912963.2020.1812598&quot;&gt;may have gotten so big&lt;/a&gt; thanks to their predatory behavior in the womb, scientists report October 5 in &lt;em&gt;Historical Biology&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;The idea emerged from a study that first analyzed the sizes and shapes of modern and ancient shark teeth, using those data to estimate body sizes of the fish. Paleobiologist Kenshu Shimada of DePaul University in Chicago and colleagues focused on &lt;a href=&quot;https://www.sciencenews.org/article/fossil-teeth-show-how-mass-extinction-scrambled-shark-evolution&quot;&gt;an order of sharks called lamniformes&lt;/a&gt;, of which only about 15 species still exist today, including fierce, fast great white and mako sharks as well as filter-feeding basking sharks (&lt;em&gt;SN: 8/2/18&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;Well over 200 lamniform species existed in the past, some of them quite large, Shimada says. But none is thought to have rivaled &lt;em&gt;Otodus megalodon,&lt;/em&gt; commonly called megalodon, which lived between about 23 million and 2.5 million years ago. Determining just how giant these creatures were is challenging, though, because sharks’ skeletons are made of cartilage, not bone, and little remains of now-extinct species but their teeth. However, those teeth are abundant in the fossil record: A single shark &lt;a href=&quot;https://www.sciencenews.org/article/what-meg-movie-gets-wrong-right-about-megalodon-sharks&quot;&gt;can shed tens of thousands of teeth&lt;/a&gt; in its lifetime (&lt;em&gt;SN: 8/10/18&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;Shimada and his colleagues found that the height of megalodon’s tooth crowns was an extreme outlier among their data, suggesting a total body length of at least 14 meters, twice as long as any other shark that isn’t a filter feeder. But four other extinct species of lamniforms exhibited “gigantism,” growing to over six meters long — not megalodon-scale, but still quite large, Shimada says. Gigantism also occurs in several modern species, including great white, mako and thresher sharks.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Megalodon shark tooth compared to great white shark tooth&quot; class=&quot;wp-image-3092088&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/10/100220_CG_megalodon_inline-1.jpg&quot; /&gt;&lt;span class=&quot;caption wp-caption-3092088&quot;&gt;&lt;em&gt;Otodus megalodon&lt;/em&gt;’s tooth (left) is far larger than that of a great white shark (right). Both sharks belong to a group with a unique reproductive strategy: The first pup to hatch in the womb cannibalizes the other eggs, growing bigger and stronger before leaving its mother. That strategy, scientists say, could have put species like megalodon and great whites on the path to warm-bloodedness, and, ultimately, gigantism.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3092088&quot;&gt;Mark Kostich/iStock / Getty Images Plus&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;The study “gives a broad overview on the relationships between tooth, jaw and body size in an important number of lamniform fossil lineages,” says Humberto Férron, a paleobiologist at the University of Bristol in England. &lt;/p&gt;
+
+
+
+&lt;p&gt;Yet &lt;em&gt;why&lt;/em&gt; megalodon and its relatives could get so big remains unclear. The extinct and modern lamniform species that can grow to these sizes also all happen to be warm-blooded. Regulating body temperature enables them to swim faster and catch more energetic prey. So warm-bloodedness, or endothermy, may be one key to their gigantism.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;But Shimada and colleagues felt that explanation was incomplete, because it didn’t address why this group of sharks in particular might have developed the endothermy that led to gigantism. So, in the new study, the team suggests that a behavior unique to this order may also play a role — a kind of cannibalism that occurs in the womb.&lt;/p&gt;
+
+
+
+&lt;p&gt;Sharks in general have a reproductive strategy known as ovoviviparity: The embryos develop inside eggs that stay inside their mothers until they are ready to hatch. But ovoviviparity turns extreme among all lamniform sharks — from the fierce predators to the gentle filter-feeders. The first shark pup to hatch inside the mother proceeds to eat the rest of the eggs, a behavior called intrauterine cannibalism. By the time the pup emerges from its mother, it’s already quite large and ready to defend itself against predators.&lt;/p&gt;
+
+
+
+&lt;p&gt;That behavior, combined with the right environmental conditions such as favorable water temperatures and the availability of food, may give some lamniforms the green light to grow gigantic, the researchers say.&lt;/p&gt;
+
+
+
+&lt;p&gt;It’s an interesting, out-of-the-box idea, says Stephen Godfrey, a paleontologist at Calvert Marine Museum in Solomons, Md. It’s possible that intrauterine cannibalism is linked to some lamniforms becoming warm-blooded in the first place, he says. It could help these sharks grow big enough to take on bigger prey — and, in turn, require more energy, such as that provided by an evolutionary adaptation like warm-bloodedness, to maintain such an active lifestyle.&lt;/p&gt;
+
+
+
+&lt;p&gt;But it still doesn’t quite explain the unique super-gigantism of megalodon, Godfrey adds. For that, you also would need a food source. “If there had been no large prey, I very much doubt that there would have been macro-predatory giant sharks,” he says.  &lt;/p&gt;
+
+
+
+&lt;p&gt;Férron agrees. “The idea is novel,” he says. “In my opinion, the evolution of gigantism in megalodon was the result of a combination of factors,” he says. The reproductive strategy may have helped them grow big, endothermy would have kept them active, and abundant large prey would have kept them fed.&lt;/p&gt;</content:encoded>
+	<dc:date>2020-10-05T04:00:00+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3092066">
+	<title>Science News: What does COVID-19 vaccine efficacy mean?</title>
+	<link>https://www.sciencenews.org/article/coronavirus-what-does-covid-19-vaccine-efficacy-mean</link>
+	<content:encoded>&lt;p&gt;With several vaccines against COVID-19 in late-phase testing, the business of measuring efficacy is front and center.&lt;/p&gt;
+
+
+
+&lt;p&gt;Determining the efficacy, or how well a vaccine works in a randomized, controlled trial, gives a sense of how much a vaccine could help alleviate the suffering caused by COVID-19. The U.S. Food and Drug Administration recommends vaccines tested against COVID-19 reach &lt;a href=&quot;https://www.fda.gov/media/139638/download&quot;&gt;an efficacy of 50 percent, at minimum&lt;/a&gt;. That means at least a 50 percent reduction in cases of COVID-19 disease in those who are vaccinated compared with those who receive the placebo.&lt;/p&gt;
+
+
+
+&lt;p&gt;Johnson &amp;amp; Johnson, Moderna, Pfizer and AstraZeneca have each begun phase III trials of their vaccines in the United States. These late-phase trials, which will each assess safety and efficacy in tens of thousands of people, randomly assign some participants to receive vaccinations and others a placebo. The companies and the U.S. government, &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-19-vaccine-clinical-trials-speed-safety&quot;&gt;working together&lt;/a&gt; as part of Operation Warp Speed, have set a goal of having initial doses of a vaccine available by January 2021 (&lt;em&gt;SN: 7/10/20&lt;/em&gt;). It won’t be clear how well any of these vaccines do their job until the companies report full results from those trials; some preliminary results may come out as early as October.&lt;/p&gt;
+
+
+
+&lt;p&gt;The FDA setting a minimum recommendation for efficacy doesn’t mean vaccines couldn’t perform better. The benchmark is also a reminder that COVID-19 vaccine development is in its early days. If the first vaccines made available only meet the minimum, they may be replaced by others that prove to protect more people. But with more than 1 million deaths from COVID-19 worldwide — and U.S. deaths surpassing 200,000 — the urgency in finding a vaccine that safely helps at least some people is at the forefront.&lt;/p&gt;
+
+
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
+
+
+
+&lt;p&gt;“You want to set the bar [for efficacy] high enough so that it is clinically and epidemiologically significant, but low enough that a ‘good enough’ vaccine can be licensed until something better comes along,” says Kawsar Talaat, a vaccine researcher at the Johns Hopkins Bloomberg School of Public Health.&lt;/p&gt;
+
+
+
+&lt;p&gt;The World Health Organization has also set a minimum target of 50 percent efficacy for vaccines tested against COVID-19, but its “&lt;a href=&quot;https://www.who.int/docs/default-source/blue-print/who-target-product-profiles-for-covid-19-vaccines.pdf?sfvrsn=1d5da7ca_5&quot;&gt;preferred efficacy” is at least 70 percent&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Efficacy specifically applies to how a vaccine works in a clinical trial. For the four vaccine candidates now in phase III trials in the United States, the primary goal is not necessarily to stop an infection but to prevent a person from experiencing symptoms of COVID-19 or, in Johnson &amp;amp; Johnson’s case, to guard against moderate to severe illness. Researchers will count cases of symptomatic COVID-19 in the vaccinated group and in the placebo group (who get injections of saline, for example) and calculate how much of a reduction there was with vaccination.&lt;/p&gt;
+
+
+
+&lt;p&gt;“At least with the first generation of vaccines,” Talaat says, “what we’re really trying to do is prevent severe disease and hospitalization and death.”&lt;/p&gt;
+
+
+
+&lt;p&gt;A vaccine that prevents people from developing symptoms may not stop them from becoming infected and passing the virus to others. If such a vaccine gets approved, what the vaccine does and doesn’t do would need to be communicated very clearly, says Maria Bottazzi, a vaccinologist at the Baylor College of Medicine in Houston. People would still need to wear masks and practice social distancing to help keep the virus from spreading, she says.&lt;/p&gt;
+
+
+
+&lt;p&gt;The efficacy results won’t be the final word on how effective the vaccine is in the real world. That’s one reason “why it’s always a good idea to have a more diverse population in your trials,” says Saad Omer, a vaccine researcher at Yale University. That way, researchers can gather data on how the vaccine works for different people in a variety of scenarios.&lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
+&lt;h4&gt;
+&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
+&lt;/h4&gt;
+&lt;/aside&gt;
+
+
+
+&lt;p&gt;Studies of other vaccines in which a trial took place in different locations have reported different results based on the incidence of disease in those areas; some vaccines haven’t worked as well in populations where the risk of exposure is higher. In this pandemic, Black and Latino Americans are disproportionately represented in the essential jobs that can’t be done at home, &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-pandemic-six-months-covid-19-symptoms&quot;&gt;putting them at risk for more exposures&lt;/a&gt; to the coronavirus (&lt;em&gt;SN: 7/2/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;A person’s age also affects how well a vaccine will work. Our immune system “ages as we age too,” says Bottazzi. When older adults get the flu vaccine, for example, the shot doesn’t elicit as strong an immune response as it does in younger adults. In the United States, adults ages 65 and older can get specially formulated flu vaccines that create a stronger immune response and better protection for this age group.&lt;/p&gt;
+
+
+
+&lt;p&gt;For the COVID-19 vaccine trials, the FDA has strongly encouraged “enrollment of populations most affected by COVID-19, specifically racial and ethnic minorities.” The agency also states that the phase III trials should include enough older adults and people with certain underlying medical conditions, two groups at increased risk for COVID-19, to be able to evaluate efficacy for them.&lt;/p&gt;
+
+
+
+&lt;p&gt;How well the first COVID-19 vaccines work, and for whom, will influence who is initially prioritized to receive the vaccine. The Advisory Committee on Immunization Practices of the U.S. Centers for Disease Control and Prevention issues guidance on the use of vaccines in the general population. To recommend a COVID-19 vaccine for older adults, for example, there has to be data to show that it works for them.&lt;/p&gt;
+
+
+
+&lt;p&gt;There are other COVID-19 vaccines in development and testing; some aren’t very far behind the front runners. Even if one or more of the vaccines now in phase III trials gets the green light, “the story wouldn’t be over,” says Omer. “It would be the end of the beginning.”&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar&quot;&gt;
+&lt;h3&gt;Vaccine matchup&lt;/h3&gt;
+
+
+
+&lt;p&gt;The next testing hurdle for the initial COVID-19 vaccines in development is to determine efficacy, or how they perform in a clinical trial. The U.S. Food and Drug Administration recommends COVID-19 vaccines have an efficacy — measured by the reduction in cases of COVID-19 disease among those vaccinated versus those not — of at least 50 percent. How a vaccine performs once it’s used in the wider world is called effectiveness. See how the minimum goal for a COVID-19 vaccine stacks up against some other common vaccines.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;image-desktop&quot;&gt;&lt;figure class=&quot;wp-block-table&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Vaccine&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Disease&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;How well it works&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Shingrix vaccine&lt;/td&gt;&lt;td&gt;Shingles&lt;/td&gt;&lt;td&gt;97 percent overall efficacy in adults 50 and older; 90 percent efficacy for those 70 and older&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Seasonal flu vaccine&lt;/td&gt;&lt;td&gt;Flu&lt;/td&gt;&lt;td&gt;Typically 30–60 percent effective, depending on the year and how well it matches with circulating flu viruses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Inactivated polio vaccine&lt;/td&gt;&lt;td&gt;Polio&lt;/td&gt;&lt;td&gt;90 percent effective or more with two doses; 99–100 percent effective with three doses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;COVID-19 vaccine&lt;/td&gt;&lt;td&gt;COVID-19&lt;/td&gt;&lt;td&gt;FDA recommends a minimum of 50 percent efficacy, could be higher&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&quot;image-mobile&quot;&gt;
+
+&lt;h5&gt;Shingrix vaccine&lt;/h5&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Disease&lt;/strong&gt;: Shingles&lt;br /&gt;&lt;strong&gt;How well it works&lt;/strong&gt;: 97 percent overall efficacy in adults 50 and older; 90 percent efficacy for those 70 and older&lt;/p&gt;
+
+
+
+&lt;h5&gt;Seasonal flu vaccine&lt;/h5&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Disease&lt;/strong&gt;: Flu&lt;br /&gt;&lt;strong&gt;How well it works&lt;/strong&gt;: Typically 30–60 percent effective, depending on the year and how well it matches with circulating flu viruses&lt;/p&gt;
+
+
+
+&lt;h5&gt;Inactivated polio vaccine&lt;/h5&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Disease&lt;/strong&gt;: Polio&lt;br /&gt;&lt;strong&gt;How well it works&lt;/strong&gt;: 90 percent effective or more with two doses; 99–100 percent effective with three doses&lt;/p&gt;
+
+
+
+&lt;h5&gt;COVID-19 vaccine&lt;/h5&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Disease&lt;/strong&gt;: COVID-19&lt;br /&gt;&lt;strong&gt;How well it works&lt;/strong&gt;: FDA recommends a minimum of 50 percent efficacy, could be higher&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;</content:encoded>
+	<dc:date>2020-10-04T12:00:00+00:00</dc:date>
+	<dc:creator>Aimee Cunningham</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=120593">
+	<title>Retraction watch: Weekend reads: ‘Unicorn poo’ and other fraudulent COVID-19 treatments; disgraced researchers and drug company payouts; a fictional account of real fraud</title>
+	<link>https://retractionwatch.com/2020/10/03/weekend-reads-unicorn-poo-and-other-fraudulent-covid-19-treatments-disgraced-researchers-and-drug-company-payouts-a-fictional-account-of-real-fraud/</link>
+	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured: Two retractions of an Oxford lab’s papers from a major … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/10/03/weekend-reads-unicorn-poo-and-other-fraudulent-covid-19-treatments-disgraced-researchers-and-drug-company-payouts-a-fictional-account-of-real-fraud/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: ‘Unicorn poo’ and other fraudulent COVID-19 treatments; disgraced researchers and drug company payouts; a fictional account of real fraud&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2020-10-03T13:54:46+00:00</dc:date>
+	<dc:creator>Ivan Oransky</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3092046">
 	<title>Science News: Neandertal genes in people today may raise risk of severe COVID-19</title>
 	<link>https://www.sciencenews.org/article/covid-19-coronavirus-neandertal-genes-risk-severe-infection</link>
@@ -364,7 +574,7 @@
 	<link>https://retractionwatch.com/2020/10/02/duo-that-used-legal-threats-to-force-scientists-to-pay-for-a-tool-face-off-in-court/</link>
 	<content:encoded>Steven Trubow and Donald Morisky made a small fortune through a controversial company that licensed, often at what researchers thought were exorbitant rates, a tool to scientists, wielding the cudgel of costly legal action if they balked at payment.  Now, in what critics of the pair will doubtless find a delicious irony, the pair is … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/10/02/duo-that-used-legal-threats-to-force-scientists-to-pay-for-a-tool-face-off-in-court/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Duo that used legal threats to force scientists to pay for a tool face off in court&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2020-10-02T10:00:00+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
+	<dc:creator>Adam Marcus</dc:creator>
 </item>
 <item rdf:about="https://www.elsevier.com/connect/the-power-and-weakness-of-data-and-modeling-in-covid-19">
 	<title>Elsevier Connect: The power and weakness of data and modeling in COVID-19</title>
@@ -379,15 +589,15 @@
 
 
 
-&lt;p&gt;Since 2019, 12 of the hornets — five trapped and dead, the rest photographed but escaped — have turned up in Washington state. That includes &lt;a href=&quot;https://www.bellinghamherald.com/news/local/article246107290.html&quot;&gt;three recently reported&lt;/a&gt; in Whatcom County, Wash. Others have been found in British Columbia, Canada.&lt;/p&gt;
+&lt;p&gt;Fifteen hornets — including 11 dead ones — have turned up in Washington state since 2019, as well as others in British Columbia, Canada. “We’re pretty sure there’s at least one nest” somewhere near Birch Bay along the Washington coast, says Karla Salp, a spokesperson for the Washington State Department of Agriculture in Olympia.&lt;/p&gt;
 
 
 
-&lt;p&gt;“We’re pretty sure there’s at least one nest” somewhere near Birch Bay along the Washington coast, says Karla Salp, a spokesperson for the Washington State Department of Agriculture in Olympia.&lt;/p&gt;
+&lt;p&gt;Efforts are under way to attach a radio tag to a live hornet and track it back to a nest. In an Oct. 2 news conference, department officials described catching their first live giant hornet just east of Birch Bay. The team glued a tiny transmitter to its abdomen. “Unfortunately the glue did not dry fast enough,” entomologist Sven Spichiger said. The tag fell off and glue got on the hornet’s wings, ruining its ability to fly.&lt;/p&gt;
 
 
 
-&lt;p&gt;Efforts are under way to catch a live hornet, attach a radio tag and track it back to a nest, Salp says. The plan is to destroy the nest, hopefully before hornets that can start nests of their own hatch. That usually happens in mid to late October, she says.&lt;/p&gt;
+&lt;p&gt;The department is using live traps and “sentinel hives” — honeybee hives with a grate that allows bees to pass through but stops the larger hornets — to attract more hornets. The goal is to find and destroy any nests, hopefully before hornets that can start nests of their own hatch. That usually happens in mid to late October, Salp says.&lt;/p&gt;
 
 
 
@@ -2549,67 +2759,6 @@
 	<dc:date>2020-09-25T11:41:53+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3091768">
-	<title>Science News: Hope for life on Venus survives for centuries against all odds</title>
-	<link>https://www.sciencenews.org/article/hope-life-venus-survives-centuries-against-all-odds</link>
-	<content:encoded>&lt;p&gt;If you’re looking for an exemplar of mastering multiple identities, find a telescope and point it at Venus.&lt;/p&gt;
-
-
-
-&lt;p&gt;In both astronomy and popular culture, Venus has always assumed a diversity of guises. Morning star, evening star. Goddess. Planet. Frankie Avalon song. A plant that eats flies. And the realm ruled by women in the unforgettable film &lt;a href=&quot;https://www.imdb.com/title/tt0052104/&quot;&gt;&lt;em&gt;Queen of Outer Space&lt;/em&gt;&lt;/a&gt; (starring Zsa Zsa Gabor as the nemesis of the evil queen).&lt;/p&gt;
-
-
-
-&lt;p&gt;So it’s not surprising that Venus enjoys sufficient celebrity status to warrant big-type headlines when it makes news, or at least a lot of social media hype. In the latest such instance, all it took was a whiff of a noxious gaseous chemical in the planet’s clouds, hinting that Venus might harbor life, to stop the presses and start the tweetstorms. After all, life on Venus would be a big surprise. Scientists have long considered it the hell of the solar system, hotter than molten lead and with an unbreathable atmosphere.&lt;/p&gt;
-
-
-
-&lt;p&gt;Yet, as it was so ably &lt;a href=&quot;https://www.sciencenews.org/article/phosphine-gas-found-venus-atmosphere-possible-sign-life&quot;&gt;reported by Lisa Grossman&lt;/a&gt; for &lt;em&gt;Science News&lt;/em&gt;, the chemical in question, phosphine, is no guarantee of life on Venus. It’s just that the known nonbiologic ways to make phosphine do not seem plausible in the Venusian environment. Phosphine’s persistence in the clouds shrouding Venus suggests something must be currently producing it — otherwise the sulfuric acid in the planet’s upper atmosphere would have destroyed any signs of the gas by now. So phosphine might be a signal of life — perhaps some form of anaerobic bacteria (which do not require oxygen), as phosphine would be deadly to life that relied on oxygen.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;On the other hand, maybe there’s just a gap in Earthling chemistry textbooks, and some weird geochemical reactions produce Venusian phosphine. That’s probably a better bet than airborne anaerobic alien organisms. Phosphine as evidence of life on Venus may turn out to be as reliable as the famous “canals” once regarded as evidence for life on Mars.&lt;/p&gt;
-
-
-
-&lt;p&gt;Still, hope for life on Venus never dies. In centuries past, in fact, many scientists simply assumed that Venus possessed life. In the late 17th century, Bernard le Bovier de Fontenelle, a French popularizer of science, surmised Venus to be inhabited by a gallant race of lovers. “The climate is most favorable for love matches,” he wrote. About the same time, the Dutch physicist and astronomer Christiaan Huygens contemplated life on Venus. Venusians would receive twice the light and heat from the sun as Earthlings do, he knew, but noted that Earth’s tropics, though much hotter than northern lands, are successfully occupied by people. For that matter, Huygens believed much hotter Mercury to be populated as well, and that the Mercurians would no doubt consider Earth much too cold and dark to support life.&lt;/p&gt;
-
-
-
-&lt;p&gt;In the 19th century, spectroscopic examination of Venus suggested that its atmosphere was similar to Earth’s, containing water vapor and oxygen. Since Earth’s atmospheric composition owed so much to life, it seemed obvious that life — at least plants— must exist on Venus as well. “If there be oxygen in the atmosphere of Venus, then it would seem possible that there might be life on that globe not essentially different in character from some forms of life on the earth,” astronomer Robert S. Ball wrote in his widely read late 19th century book &lt;a href=&quot;http://www.gutenberg.org/ebooks/27378&quot;&gt;&lt;em&gt;The Story of the Heavens&lt;/em&gt;&lt;/a&gt;. “If water be present on the surface of Venus and if oxygen be a constituent of its atmosphere, we might expect to find in that planet a luxuriant tropical life.”&lt;/p&gt;
-
-
-
-&lt;p&gt;As late as 1918, &lt;a href=&quot;https://www.nobelprize.org/prizes/chemistry/1903/arrhenius/biographical/&quot;&gt;Svante Arrhenius&lt;/a&gt;, a Nobel chemistry laureate, estimated that water was especially abundant on Venus, with humidity six times the average on Earth. “We must therefore conclude that everything on Venus is dripping wet” — thereby accelerating the growth of vegetation, Arrhenius wrote.&lt;/p&gt;
-
-
-
-&lt;p&gt;But the early observations of Venus’ atmosphere were crude. About a century ago, refined techniques at the Mount Wilson Observatory in California contradicted the previous findings; oxygen and water vapor actually seemed scarce in the Venusian clouds. (In fact, as spacecraft visiting Venus in recent decades have shown, the air there is &lt;a href=&quot;https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html&quot;&gt;nearly all carbon dioxide with a little bit of nitrogen&lt;/a&gt;, plus only slight traces of water.) “It may be that the exacting conditions for the origin of life have not been satisfied” on Venus, Charles E. St. John and Seth B. Nicholson wrote &lt;a href=&quot;http://adsabs.harvard.edu/full/1922ApJ....56..380S&quot;&gt;in 1922 in &lt;em&gt;the Astrophysical Journal&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;Of course, it was possible that conditions on the surface, hidden by the thick clouds, might still allow life to find a way. &lt;/p&gt;
-
-
-
-&lt;p&gt;“There is a possibility that the atmosphere of Venus is permeated with a finely divided dust, a possible product of intense volcanic activity, which would act as an excellent reflector of the sun’s rays and would at the same time effectually conceal the surface,” Isabel Lewis of the U.S. Naval Observatory wrote in &lt;em&gt;Science News-Letter&lt;/em&gt;, the predecessor of &lt;em&gt;Science News&lt;/em&gt;, in 1922. In 1926, the prominent astronomer Harlow Shapley maintained that in the solar system, Venus “more nearly fulfills the conditions [for life] than any planet other than the Earth…. But we cannot penetrate the dense covering of clouds and seek out the secrets of its surface.”&lt;/p&gt;
-
-
-
-&lt;p&gt;In 1927, &lt;em&gt;Science News-Letter&lt;/em&gt; writer Frank Thone surveyed the prospects for life on other planets and declared Venus “the darling of the solar system” (excepting Earth, of course). While Mars seemed “wry and withered,” he wrote, “our sister Venus seems to have the vigor and sap of life in her.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Yet as Thone acknowledged, the thick atmosphere guarding Venus’ surface from view made the question of life there unanswerable — probably, Thone guessed, for many generations.&lt;/p&gt;
-
-
-
-&lt;p&gt;And so today, the mystery remains unsolved. Phosphine sightings leave the question of whether Venus hosts life in a situation similar to that of Mars, long ago, when the newspaper publisher William Randolph Hearst (legend has it) cabled an astronomer asking for an article on the topic. “Is there life on Mars? Please cable one thousand words,” Hearst wrote. To which the astronomer cabled back: “Nobody knows. Repeat 500 times.”&lt;/p&gt;</content:encoded>
-	<dc:date>2020-09-25T10:00:00+00:00</dc:date>
-	<dc:creator>Tom Siegfried</dc:creator>
-</item>
 <item rdf:about="http://ptrrupprecht.wordpress.com/?p=6555">
 	<title>Peter Rupprecht: Interview with Bruno Pichler</title>
 	<link>https://ptrrupprecht.wordpress.com/2020/09/25/interview-with-bruno-pichler/</link>
@@ -3233,79 +3382,6 @@
 &lt;p&gt;&lt;a href=&quot;https://arxiv.org/help/faq/whytex&quot;&gt;TeX has many advantages&lt;/a&gt; that make it ideal for the archives: it is plain text, compact, and freely available for all platforms, and it also produces high-quality output.&lt;/p&gt;</content:encoded>
 	<dc:date>2020-09-24T19:35:07+00:00</dc:date>
 	<dc:creator>ame5</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3091776">
-	<title>Science News: A Brazilian city devastated by COVID-19 may have reached herd immunity</title>
-	<link>https://www.sciencenews.org/article/coronavirus-covid-19-brazil-city-manaus-herd-immunity</link>
-	<content:encoded>&lt;p&gt;The Brazilian city of Manaus was hit hard by COVID-19. At the peak of its epidemic in late spring, the city of over 2 million people had 4.5 times as many deaths as expected for that time of year. Hospitals and cemeteries struggled to keep up, and mass graves were dug to bury the dead. But then, cases and deaths steadily declined, despite a relaxing of social distancing measures. &lt;/p&gt;
-
-
-
-&lt;p&gt;That trajectory has prompted some researchers to suggest that Manaus has reached herd immunity. In a report posted September 21 at medRxiv.org that has yet to be peer reviewed, researchers propose that herd immunity developed in the city after &lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.09.16.20194787v1&quot;&gt;44 to 52 percent of the population was infected&lt;/a&gt; at the epidemic’s peak, and that slowed subsequent spread of the virus.&lt;/p&gt;
-
-
-
-&lt;p&gt;“These are the highest [infection] levels I’ve seen,” says Elitza Theel, a clinical microbiologist at the Mayo Clinic in Rochester, Minn., who wasn’t involved in the study. That high infection rate may very well have impacted the trajectory of the epidemic. “That is how herd immunity works,” she says. “But it comes at a high cost … their death rate was very high.”&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://www.sciencenews.org/article/covid-19-when-will-coronavirus-pandemic-social-distancing-end&quot;&gt;Herd immunity&lt;/a&gt; occurs when enough people become immune to an infectious disease, either through infection or a vaccine, causing an epidemic to slow down as the pathogen is starved of susceptible hosts (&lt;em&gt;SN: 3/24/20&lt;/em&gt;). Scientists are still working out what the herd immunity threshold would be for COVID-19; most estimates are around 40 to 60 percent of a population.&lt;/p&gt;
-
-
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
-
-
-
-&lt;p&gt;The precise threshold likely varies from region to region, but virtually all of the globe remains well below this threshold, experts say. Most of the United States remains in the single digits, though around 20 percent of the population in parts of New York City may have already contracted the virus.&lt;/p&gt;
-
-
-
-&lt;p&gt;To investigate whether herd immunity developed in Manaus, researchers from Brazil and the United Kingdom turned to blood donations, looking for antibodies to SARS-CoV-2, the coronavirus that causes COVID-19. Blood donations aren’t a random sample of the population. They tend to come from healthy, asymptomatic adults, and so could miss infections in older people who may be more vulnerable to infection, as well as in kids. Still, the donations offer a way to measure seroprevalence, the proportion of a population that’s been exposed to a virus and has developed antibodies against it.&lt;/p&gt;
-
-
-
-&lt;p&gt;Researchers tested about 800 to 1,000 blood donations each month from February to August, and attempted to control for potential confounding factors, such as the sensitivity of different tests and the fact that &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-coronavirus-what-antibody-tests-tell-us&quot;&gt;antibodies can wane over time&lt;/a&gt; (&lt;em&gt;SN: 4/28/20&lt;/em&gt;). They also tested blood donations from São Paolo, another Brazilian city. “This is one of the best papers that I’ve seen that really does try to account waning antibody levels over time” and other factors, Theel says.&lt;/p&gt;
-
-
-
-&lt;p&gt;In Manaus, the prevalence of antibodies to the coronavirus in blood donors hovered below 1 percent early on in the pandemic, the team found. In April, it rose to 4.8 percent and then rocketed to 44.2 percent in May and reached a peak of 51.8 percent in June, a trajectory that roughly followed the curve of accumulating deaths.&lt;/p&gt;
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
-&lt;h4&gt;
-&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
-&lt;/h4&gt;
-&lt;/aside&gt;
-
-
-
-&lt;p&gt;After that peak, seroprevalence fell, reaching 30 percent in August, a consequence of both waning antibody levels in people already infected and lower transmission rates, the researchers say.&lt;/p&gt;
-
-
-
-&lt;p&gt;While social distancing measures probably helped slow the spread of the virus, the team argues that high population immunity played a bigger role in curbing the epidemic. As of August, the researchers estimate 66 percent of the population had been infected. Whether the city will avoid another outbreak remains to be seen, and will depend in part on how long protective immunity lasts.&lt;/p&gt;
-
-
-
-&lt;p&gt;The researchers warn that their findings can’t be directly translated to other cites because of differences in factors such as demographics, behavior and adherence to social distancing measures.&lt;/p&gt;
-
-
-
-&lt;p&gt;Why Manaus may reached herd immunity when other cities haven’t remains unclear. São Paolo for instance, a bustling city of over 12 million, never topped 14 percent seroprevalence despite both cities implementing similar social distancing measures, the analyzed blood donations show. The study authors point to Manaus’ lower socioeconomic conditions, more crowded housing and reliance on boat travel, as factors that could have accelerated the spread of the virus there.&lt;/p&gt;
-
-
-
-&lt;p&gt;The researchers estimate close to 4,000 people died from COVID-19 in Manaus, a high death toll for a city where only &lt;a href=&quot;https://cidades.ibge.gov.br/brasil/am/manaus/pesquisa/23/25888?detalhes=true&quot;&gt;6 percent of the population is over 60&lt;/a&gt;. The city had an infection fatality rate between 0.17 and 0.28 percent, the study suggests. The costs of reaching herd immunity via infection in other cities, especially where there are more older people could be much, much higher. Estimates of São Paolo’s infection fatality rate range as high as 0.72 percent.&lt;/p&gt;
-
-
-
-&lt;p&gt;Overall, Manaus’ experience reveals “that an unmitigated outbreak will lead to very significant morbidity and mortality,” says Bill Hanage, an epidemiologist at Harvard University, “which is basically what we’ve been saying since February.”&lt;/p&gt;</content:encoded>
-	<dc:date>2020-09-24T16:21:34+00:00</dc:date>
-	<dc:creator>Jonathan Lambert</dc:creator>
 </item>
 <item rdf:about="https://www.elsevier.com/connect/mental-health-researcher-uses-ai-to-achieve-whats-important-to-patients">
 	<title>Elsevier Connect: Mental health researcher uses AI to achieve what’s important to patients</title>
@@ -4542,13 +4618,6 @@
 &lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/VNPvvgWofOs&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2020-09-13T20:19:18+00:00</dc:date>
 	<dc:creator>The Neurocritic</dc:creator>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=120477">
-	<title>Retraction watch: Weekend reads: Questions about Russian COVID-19 vaccine data; a p-value pledge; why one author removed her name from a paper</title>
-	<link>https://retractionwatch.com/2020/09/12/weekend-reads-questions-about-russian-covid-19-vaccine-data-a-p-value-pledge-why-one-author-removed-her-name-from-a-paper/</link>
-	<content:encoded>Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured: An Elsevier book chapter that claims COVID-19 came from space; … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/09/12/weekend-reads-questions-about-russian-covid-19-vaccine-data-a-p-value-pledge-why-one-author-removed-her-name-from-a-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Weekend reads: Questions about Russian COVID-19 vaccine data; a p-value pledge; why one author removed her name from a paper&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2020-09-12T14:22:23+00:00</dc:date>
-	<dc:creator>Ivan Oransky</dc:creator>
 </item>
 <item rdf:about="http://digest.bps.org.uk/?p=40277">
 	<title>The British Psychological Society - Research Digest: Passive-Aggressive Texts And Polygraph Machines: The Week’s Best Psychology Links</title>
@@ -5813,20 +5882,6 @@ The start date of the PhD will be January 2021.&lt;/p&gt;
 	<content:encoded>&lt;p&gt;One death every 52 minutes occurs in the United States as a direct result of an eating disorder, according to a &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.hsph.harvard.edu/striped/report-economic-costs-of-eating-disorders/&quot;&gt;report&lt;/a&gt; by the Strategic Training Initiative for the Prevention of Eating Disorders, the Academy for Eating Disorders, and Deloitte Access Economics. I have studied eating disorders for over 30 years, and I was shocked by this finding. From 2018-2019, roughly 6,910 females and 3,290 males between the ages of 15 and 64 years lost their lives due to an eating disorder. The personal tragedy for each family member and friend is beyond the scope of even the most comprehensive study of social and economic costs of eating disorders. But the economic cost of these deaths came to $8.8 billion dollars ($8,800,000,000.00), dwarfing the $4.6 billion dollar investment our nation makes to understand and treat eating disorders. If I were an economist, I might try to explain how the difference between investment and costs represents a margin, but I’m not. Instead, I want to focus on how these deaths occur in the margins of our health care system and the steps needed to prevent these fatalities.&lt;/p&gt;&lt;p&gt;The report includes a case study of Hannah and demonstrates the need for better health care coverage for eating disorders. When Hannah was 13-years old, she developed anorexia, lost a third of her body weight and developed a serious heart problem that required hospitalization. After approximately six months of inpatient treatment, she was discharged and experienced a relapse that required intensive outpatient care. This was not covered by her parents’ insurance. Her mother estimated spending $10,000 in a single month to keep her daughter alive. Hannah is now recovered and advocates for better insurance coverage for eating disorder treatment, particularly for military families, like her own.&lt;/p&gt;&lt;p&gt;This story does not represent an isolated case. Two weeks after the report was released, the following crossed my Twitter feed: “Friend diagnosed with AN (female in midlife). Kaiser wrongfully denying her authorization to a higher LOC [level of care]. Although she’s suffered for many years, she is not treatment resistant, as Kaiser claims. Resting heart rate is 35.”&lt;/p&gt;&lt;p&gt;A resting heart rate of 35 beats per minute meets &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aedweb.org/resources/online-library/publications/medical-care-standards&quot;&gt;criteria&lt;/a&gt; for hospitalization. Low heart rate signifies that the body is shutting down. Denying medical care to an eating disorder patient in medical crisis is wrong. But it happens too often in a health care system that interprets parity for mental health as only applying to brain-based disorders. The &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aedweb.org/resources/online-library/publications/nine-truths&quot;&gt;myth&lt;/a&gt; that people choose to have an eating disorder is as misguided as the idea that someone would choose to have cancer.&lt;/p&gt;&lt;p&gt;Researchers and advocates have made huge efforts to increase recognition that eating disorders are &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://onlinelibrary.wiley.com/doi/abs/10.1002/eat.20589&quot;&gt;biologically-based disorders&lt;/a&gt;, with genetic make-up contributing as much to their development as it does to the development of schizophrenia or asthma. If this stops a single person from being denied treatment to save their lives, good. But I’m still waiting for any explanation for why the cause of an eating disorder has anything to do with whether or not we should try to save a person’s life. In &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://jamanetwork.com/journals/jamapsychiatry/fullarticle/207163&quot;&gt;one study&lt;/a&gt;, we found that the leading cause of death in anorexia nervosa was suicide. If treatment prevents a person from taking her life, that saved life is easily worth the investment. It makes no difference whether the prevented death would have been caused by self-poisoning, self-starvation, or self-induced vomiting.&lt;/p&gt;&lt;p&gt;We need more money in research funding to find better treatments, preventions, and cures for eating disorders. In 2019, the single largest funder of research, the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://report.nih.gov/categorical_spending.aspx&quot;&gt;National Institutes of Health&lt;/a&gt;, invested roughly $8/person with an eating disorder compared to $60,831/person with &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.cdc.gov/tb/statistics/tbcases.htm&quot;&gt;tuberculosis&lt;/a&gt;. The gap between funding for mental health and almost any other domain of health is well-known. But beyond that gap, eating disorders are marginalized within the field of mental health, receiving $8/person compared to $33/person for &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.nimh.nih.gov/health/statistics/major-depression.shtml&quot;&gt;depression&lt;/a&gt; and &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1267/2020/07/Social-Economic-Cost-of-Eating-Disorders-in-US.pdf&quot;&gt;$69/person for schizophrenia&lt;/a&gt; research in 2019. This funding gap contributes to the gaping difference between &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.fda.gov/consumers/free-publications-women/depression-medicines&quot;&gt;28 FDA-approved medications for depression&lt;/a&gt; versus 0 for anorexia. Without greater funding to produce better treatments, we won’t see better outcomes. And the best time intervene is at the first sign of a problem. Catching any disease in its earliest stages produces the best outcomes.&lt;/p&gt;&lt;p&gt;We need universal screening to promote early identification and intervention before the eating disorder progresses to a critical stage. While eating disorders lurk in the margins of awareness, we won’t see who is affected, we won’t see how they are affected, and we won’t know the full cost we pay for our ignorance. In the absence of universal screening, we will never know the true number of people killed by their eating disorder. No pathologist will ever “see” the eating disorder in a post-mortem exam, no matter how obvious the signs may be. In that same &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://jamanetwork.com/journals/jamapsychiatry/fullarticle/207163&quot;&gt;study&lt;/a&gt; where we found that suicide was the leading cause of death, we found that an eating disorder was never listed as the cause of death on the death certificate. Instead, we saw causes such as heart and liver failure in a 39-year-old woman who weighed less than half what a woman her age and height should weigh – less than half. In the absence of universal screening, we lose our best opportunity to prevent those deaths.&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;We need to recognize eating disorders as serious mental illnesses that pose a threat to the health of our nation.&lt;/p&gt;&lt;p&gt;We need better health care coverage.&lt;/p&gt;&lt;p&gt;We need more funding for research.&lt;/p&gt;&lt;p&gt;We need universal screening.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;em&gt;Featured Image Credit: &lt;/em&gt;&lt;em&gt;by Daan Stevens via &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://unsplash.com/photos/yGUuMIqjIrU&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2020/08/how-the-healthcare-system-is-failing-people-with-eating-disorders/&quot;&gt;How the healthcare system is failing people with eating disorders&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/633090054/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/633090054/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/633090054/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/08/raising-a-teenager-with-an-eating-disorder-in-a-pandemic/&quot; rel=&quot;nofollow&quot;&gt;Raising a teenager with an eating disorder in a pandemic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/09/do-you-feel-sorry-for-first-year-university-students/&quot; rel=&quot;nofollow&quot;&gt;Do you feel sorry for first year university students?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/09/searching-for-magic-bullet-antibodies-to-combat-covid-19/&quot; rel=&quot;nofollow&quot;&gt;Searching for “magic bullet” antibodies to combat COVID-19&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content:encoded>
 	<dc:date>2020-08-10T12:30:22+00:00</dc:date>
 	<dc:creator>Jazmyn Fields</dc:creator>
-</item>
-<item rdf:about="https://blog.oup.com/?p=144910">
-	<title>OUPblog - Psychology and Neuroscience: How to prepare students for jobs in the 21st century</title>
-	<link>https://feeds.feedblitz.com/~/632979100/0/oupblogpsychology/</link>
-	<content:encoded>&lt;p&gt;A common goal for educators is to identify, and then teach, cognitive skills that are needed for the workplace. In 2017 a group of investigators at the Educational Testing Service in Princeton, New Jersey, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://journals.sagepub.com/doi/full/10.3102/0013189X19890600&quot;&gt;investigated&lt;/a&gt; which skills are needed as a result of the rapid changes occurring as the United States shifted from an industrial to an information-based economy. The organization analyzed 142,000 online job advertisements that were posted between February and April of that year. The most highly requested skills were oral communication (28%), written communication (23%), collaboration (22%), and problem solving (19%). The Educational Testing Service decided to label them “21&lt;sup&gt;st&lt;/sup&gt;-century skills.” These skills are a combination of cognitive (nonroutine problem solving, critical thinking, metacognition), interpersonal (social), and intrapersonal (emotional, self-regulation) talents.&lt;/p&gt;&lt;p&gt;The World Economic Forum’s &lt;em&gt;&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~www3.weforum.org/docs/WEF_Future_of_Jobs_2018.pdf&quot;&gt;Future of Jobs Report 2018&lt;/a&gt;&lt;/em&gt; took a different approach by asking executives of some of the world’s largest employers to report on the latest employment, skills, and human investment trends across their industries. The survey revealed an accelerating demand for new specialist roles related to understanding and using the latest emerging technologies – AI and machine learning specialists, big data specialists, process automation experts, information security analysts, human-machine interaction designers, and robotics engineers. Skills such as creativity, originality, critical thinking, negotiation, and complex problem solving will, according to the report, become more valuable. The World Economic Forum predicted that there will also be more demand for leadership, emotional intelligence, and social influence skills.&lt;/p&gt;&lt;p&gt;These cognitive skills should be incorporated within courses taught at high schools, community colleges, and universities. An introduction to technological skills can begin in high school. In 2016, the College Board’s Advanced Placement Program oversaw the largest course launch in the program’s 60-year history with the release of &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-course-and-exam-description.pdf?course=ap-computer-science-principles&quot;&gt;AP Computer Science Principles&lt;/a&gt;. The course introduces students to the foundational concepts of the field and challenges them to explore how computing and technology can impact the world. In the 2018-19 school year more than 5,000 schools were offering the course. A second course, AP Computer Science A, focuses on computing skills related to programming in Java. The course teaches the foundational concepts of computer science to encourage broader participation. Its big ideas are creativity, abstraction, data and information, algorithms, programming, the internet, and global impact.&lt;/p&gt;&lt;p&gt;The College Board &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.collegeboard.org/releases/2019/participation-csp-nearly-doubles&quot;&gt;announced&lt;/a&gt; that nearly 100,000 students took the AP Computer Science Principles Exam in 2019, more than double the participation since the course launched during 2016-17 school year. During that period the number of female students, the number of Black/African American students, and the number of Hispanic/Latino students more than doubled.&lt;/p&gt;&lt;p&gt;A challenge for community colleges and universities is to design instruction for the increasing number of students who enter higher education without a declared major. A 2019 &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www-chronicle-com.libproxy.sdsu.edu/article/How-Some-Colleges-Are-Helping/246913/?key=HngGmpmDh1Ozp8Ik-2G6XFI1SVT7LuhTKYD-bCGURaIwoJii8aqjFMQgzE4V6mzHbS1aVXR1NU9Xdmc4dEd5T0ZOVERfejRzVkRPVWx1NnV3OVBnOS1wdXVJQQ#.Xw8uKR9LEa0.gmail&quot;&gt;article&lt;/a&gt; in &lt;em&gt;The Chronicle of Higher Education&lt;/em&gt; discussed how some institutions are preventing these students from wandering among courses. One solution is to ask incoming students to select an academic focus area or meta-major to help them explore topics that should appeal to them. In the fall of 2019, the entire University System of Georgia asked incoming freshmen to declare an academic focus area if unable to select a major. The University of Houston has a similar program based on the same concept.  These programs have been influenced by studies that find college students have trouble succeeding because they are faced with an overwhelming number of options.&lt;/p&gt;&lt;p&gt;Community colleges are evaluating a related project. The Association of American Colleges and Universities &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aacu.org/press/press-releases/aacu-announces-twenty-institutions-new-guided-pathways-project&quot;&gt;announced&lt;/a&gt; that it had selected 20 colleges to participate in a two-year evaluation project. The goals of the project are to map students’ goals to pathways, help students choose and enter a program pathway, keep students on the path, and ensure that students are learning.&lt;/p&gt;&lt;p&gt;A guided approach can also be helpful for reducing changes in majors. Within three years of their initial enrollment &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://nces.ed.gov/pubs2018/2018434.pdf&quot;&gt;approximately 30%&lt;/a&gt; of undergraduates in associate and bachelor’s degree programs change their major at least once. But Georgia State University reduced changes in a major by 30 percent since it began its meta-majors program seven years ago. Those students who did change majors were more likely to have crossover credits.&lt;/p&gt;&lt;p&gt;Although clustering courses around a meta-major may be helpful for students with undeclared majors, the courses do not necessarily teach skills that are important for the future workplace. These skills include oral communication, written communication, collaboration, and problem solving. They also include creativity, originality, critical thinking, negotiation, and complex problem solving. These cognitive skills should be incorporated within cluster courses to prepare freshmen for skills that are likely to be in demand when they graduate. The creation of generic courses for all majors should also focus on these skills because they are relevant to all college graduates. Such generic courses have the advantage that they do not require students to select a major or even a cluster area.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Featured Image credit: &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://pixabay.com/photos/businesswoman-skills-ability-can-3641630/&quot;&gt;Image&lt;/a&gt; by Gerd Altmann via Pixabay&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2020/08/how-to-prepare-students-for-jobs-in-the-21st-century/&quot;&gt;How to prepare students for jobs in the 21st century&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/632979100/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/632979100/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/632979100/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/09/do-you-feel-sorry-for-first-year-university-students/&quot; rel=&quot;nofollow&quot;&gt;Do you feel sorry for first year university students?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/07/its-cheaper-to-preserve-the-amazon-than-we-might-think/&quot; rel=&quot;nofollow&quot;&gt;It’s cheaper to preserve the Amazon than we might think&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2020/09/the-role-of-masculinity-in-reforming-police-departments/&quot; rel=&quot;nofollow&quot;&gt;The role of masculinity in reforming police departments&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content:encoded>
-	<dc:date>2020-08-09T09:30:53+00:00</dc:date>
-	<dc:creator>Sarah Ryan</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=50391">
-	<title>For Better Science: BethAnn McLaughlin affair: now also research fraud?</title>
-	<link>https://forbetterscience.com/2020/08/09/bethann-mclaughlin-affair-now-also-research-fraud/</link>
-	<content:encoded>BethAnn McLaughlin is a liar, a racist, an embezzler, and a dangerous manipulative bully. But surely she is at least a great neuroscientist?</content:encoded>
-	<dc:date>2020-08-09T05:37:39+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
