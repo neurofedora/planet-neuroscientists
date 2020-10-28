@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=52774" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/recording-brain-activity-through-the-mouth" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18507" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092527" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-2929680325694966274" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/in-this-tech-job-the-difference-you-make-gets-right-to-the-customer" />
 			<rdf:li rdf:resource="http://liorpachter.wordpress.com/?p=14504" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=51319" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=52774">
+	<title>For Better Science: For Better Science is 5 years old</title>
+	<link>https://forbetterscience.com/2020/10/28/for-better-science-is-5-years-old/</link>
+	<content:encoded>My website is now 5 years old. A look back at what my readers and I achieved.</content:encoded>
+	<dc:date>2020-10-28T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.discovermagazine.com/mind/recording-brain-activity-through-the-mouth">
 	<title>Discovery magazine - Neuroskeptic: Recording Brain Activity Through the Mouth</title>
 	<link>https://www.discovermagazine.com/mind/recording-brain-activity-through-the-mouth</link>
@@ -5311,13 +5318,6 @@ The money has now been used to buy 30% OA from Elsevier. But for the 100% that 
 &lt;p&gt;We must do better.&lt;/p&gt;</content:encoded>
 	<dc:date>2020-09-10T12:29:00+00:00</dc:date>
 	<dc:creator>Lior Pachter</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=51319">
-	<title>For Better Science: The Karin Dahlman-Wright Show</title>
-	<link>https://forbetterscience.com/2020/09/10/the-karin-dahlman-wright-show/</link>
-	<content:encoded>Karin Dahlman-Wright, Karolinska Institute's former president, then vice-president, now rector's counsellor was found guilty of research misconduct, again. This time in 4 papers.</content:encoded>
-	<dc:date>2020-09-10T10:38:41+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
