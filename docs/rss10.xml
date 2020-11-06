@@ -15,6 +15,13 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093263" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=120807" />
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2020-11-06:/2020/11/06/navigation-along-windborne-plumes-of-pheromone-and-resource-linked-odors.html" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093286" />
+			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40767" />
+			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12159" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093331" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092656" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40758" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093225" />
@@ -58,9 +65,6 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=52830" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/hackathon-help-provide-insights-for-bcgcovid-19-clinical-trials" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120771" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092670" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092627" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3092542" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120765" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/why-we-can-be-optimistic-about-the-post-covid-future" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=52774" />
@@ -103,7 +107,6 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-machine-learning-to-accelerate-materials-science" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120700" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40561" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=120693" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/research-manager-shares-tips-to-succeed-in-a-post-covid-world" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/research-2030-podcast-episode-9" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/transition-to-open-access-creates-a-challenge-for-global-south" />
@@ -129,7 +132,6 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/kumsal-bayazit-at-eu-gender-in-science-symposium" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12126" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=694" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40477" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/honoring-the-2020-nobel-laureates" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/4-ways-we-can-support-racial-equality-as-publishers" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-agile-technology-to-accelerate-covid-research-publication" />
@@ -163,12 +165,275 @@
 			<rdf:li rdf:resource="http://ptrrupprecht.wordpress.com/?p=6527" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-do-chinese-researchers-think-about-the-peer-review-process" />
 			<rdf:li rdf:resource="http://liorpachter.wordpress.com/?p=14497" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=51385" />
-			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/has-the-stress-of-covid-affected-our-brains" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/?p=3093263">
+	<title>Science News: A smartwatch app alerts users with hearing loss to nearby sounds</title>
+	<link>https://www.sciencenews.org/article/smart-watch-app-hearing-loss-sounds</link>
+	<content:encoded>&lt;p&gt;A new smartwatch app alerts users who are deaf or hard of hearing of nearby sounds, such as microwave beeps or car horns.&lt;/p&gt;
+
+
+
+&lt;p&gt;“The main motivation [for the app] came from my own experience, and conversations that my colleagues and I have had with deaf and hard of hearing people over several years,” says Dhruv Jain, who presented the system, called &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.wearable.sound&quot;&gt;SoundWatch&lt;/a&gt;, at the virtual ASSETS conference on October 28.&lt;/p&gt;
+
+
+
+&lt;p&gt;Jain, who is hard of hearing, uses SoundWatch at home to avoid sleeping through a smoke alarm. “On a nature walk, it’ll tell me that there’s birds chirping, or there might be a waterfall nearby,” he says. “Those sounds make me feel more present and connected to the world.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Sound awareness apps for smartphones exist. But Jain prefers the immediacy of sound notifications on his wrist, rather than in his pocket — and surveys of people who are deaf or hard of hearing show he’s not alone. &lt;/p&gt;
+
+
+
+&lt;p&gt;The SoundWatch app pairs an Android smartwatch and phone. The watch records ambient noises and sends that data to the phone for processing. When the phone detects a sound of interest, the smartwatch vibrates and displays a notification.&lt;/p&gt;
+
+
+
+&lt;p&gt;Jain, a computer scientist at the University of Washington in Seattle, and colleagues designed the app to identify 20 noises. In experiments, SoundWatch &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3373625.3416991&quot;&gt;correctly identified those 20 sounds 81.2 percent of the time&lt;/a&gt;. When set to listen only for urgent noises — a fire alarm, door knock or alarm clock — the app was 97.6 percent accurate. Eight deaf and hard of hearing people who used SoundWatch around a university campus gave the app broadly favorable reviews, but noted that the app misclassified some sounds in noisy outdoor settings.&lt;/p&gt;
+
+
+
+&lt;p&gt;Jain and colleagues are now working on a version of SoundWatch that users can train to recognize new sounds, such as their own house alarm, using just a few recordings.&lt;/p&gt;</content:encoded>
+	<dc:date>2020-11-06T13:00:00+00:00</dc:date>
+	<dc:creator>Maria Temming</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=120807">
+	<title>Retraction watch: Researchers tried to correct a figure after questions on PubPeer. Then the real trouble started.</title>
+	<link>https://retractionwatch.com/2020/11/06/researchers-tried-to-correct-a-figure-after-questions-on-pubpeer-then-the-real-trouble-started/</link>
+	<content:encoded>Pro tip to would-be fraudsters: If you’re going to submit new figures to support your claims, make sure they’re not obviously fake.  That’s a lesson a group of cancer researchers learned the hard way for their 2016 article in DNA and Cell Biology titled “Molecular mechanisms of disease full access miR-106a-5p suppresses the proliferation, migration, … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/11/06/researchers-tried-to-correct-a-figure-after-questions-on-pubpeer-then-the-real-trouble-started/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Researchers tried to correct a figure after questions on PubPeer. Then the real trouble started.&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2020-11-06T11:52:28+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
+<item rdf:about="tag:biocomputation.herts.ac.uk,2020-11-06:/2020/11/06/navigation-along-windborne-plumes-of-pheromone-and-resource-linked-odors.html">
+	<title>UH Biocomputation group: Navigation Along Windborne Plumes of Pheromone and Resource-Linked Odors</title>
+	<link>http://biocomputation.herts.ac.uk/2020/11/06/navigation-along-windborne-plumes-of-pheromone-and-resource-linked-odors.html</link>
+	<content:encoded>&lt;p&gt;This week on Journal Club session Samuel Sutton will talk about the paper &quot;Navigation Along Windborne Plumes of Pheromone and Resource-Linked Odors&quot;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Many insects locate resources such as a mate, a host, or food by flying upwind along the odor plumes that these resources emit to their source. A windborne plume has a turbulent structure comprised of odor filaments interspersed with clean air. As it propagates downwind, the plume becomes more dispersed and dilute, but filaments with concentrations above the threshold required to elicit a behavioral response from receiving organisms can persist for long distances. Flying insects orient along plumes by steering upwind, triggered by the optomotor reaction. Sequential measurements of differences in odor concentration are unreliable indicators of distance to or direction of the odor source. Plume intermittency and the plume's fine-scale structure can play a role in setting an insect's upwind course. The prowess of insects in navigating to odor sources has spawned bioinspired virtual models and even odor-seeking robots, although some of these approaches use mechanisms that are unnecessarily complex and probably exceed an insect's processing capabilities.&lt;/p&gt;
+&lt;p&gt;Papers:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Carde, Ring T. &lt;a class=&quot;reference external&quot; href=&quot;https://www.annualreviews.org/doi/pdf/10.1146/annurev-ento-011019-024932#article-denial&quot;&gt;&quot;Navigation Along Windborne Plumes of Pheromone and Resource-Linked Odors&quot;&lt;/a&gt; , Annual Review of Entomology 2021 66:1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 06/11/2020
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
+	<dc:date>2020-11-06T11:23:21+00:00</dc:date>
+	<dc:creator>Emil Dmitruk</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3093286">
+	<title>Science News: A blue-green glow adds to platypuses’ long list of bizarre features</title>
+	<link>https://www.sciencenews.org/article/platypus-glow-blue-green-ultraviolet-light-fluorescent-fur</link>
+	<content:encoded>&lt;p&gt;Between the electricity-sensing bill, venomous heel spurs and egg laying, the platypus was already &lt;a href=&quot;https://www.sciencenews.org/article/duckbill-decoded&quot;&gt;one of the strangest mammals alive today&lt;/a&gt; (&lt;em&gt;SN: 5/8/08&lt;/em&gt;). Now, researchers have found that this Australian oddity has another unexpected feature: It fluoresces under ultraviolet light.&lt;/p&gt;
+
+
+
+&lt;p&gt;Platypuses’ dense, waterproof fur absorbs ultraviolet light and emits a blue-green glow, mammologist Paula Spaeth Anichand colleagues discovered somewhat serendipitously. A chance sighting of a fluorescent flying squirrel in the wild had led the researchers to the mammal collection at the Field Museum in Chicago. After examining the museum’s &lt;a href=&quot;https://academic.oup.com/jmammal/article/100/1/21/5299493&quot;&gt;preserved squirrel skins and finding that fluorescence occurred in at least three flying squirrel species&lt;/a&gt;, the team decided to examine pelts from marsupials too, as those were the only mammals previously &lt;a href=&quot;https://doi.org/10.1515/mamm.1985.49.2.249&quot;&gt;known to possess fluorescent fur&lt;/a&gt;. And it just so happened that the drawer of monotremes — an early branch of mammals that, today, is represented only by platypuses (&lt;em&gt;Ornithorhynchus anatinus&lt;/em&gt;) and echidnas — was the next one over from marsupials.&lt;/p&gt;
+
+
+
+&lt;p&gt;“We were curious,” says Anich, of Northland College in Ashland, Wis. “So, we pulled the monotreme drawer, and we shined our [ultraviolet] light on the platypuses. And they were incredibly, vividly fluorescent green and blue.”&lt;/p&gt;
+
+
+
+&lt;p&gt;To make sure the glow wasn’t something unusual about the Field Museum’s pelts, the team also examined a platypus specimen at the University of Nebraska State Museum in Lincoln. Sure enough, &lt;a href=&quot;https://www.degruyter.com/view/journals/mamm/ahead-of-print/article-10.1515-mammalia-2020-0027/article-10.1515-mammalia-2020-0027.xml&quot;&gt;it also glowed&lt;/a&gt;, the researchers report online October 15 in &lt;em&gt;Mammalia&lt;/em&gt;.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Anich is confident that the glow isn’t an artifact of preservation, because several of the examined squirrel species and the echidna pelts didn’t fluoresce. It’s also likely that the living animals glow like their pelts, she says, as that’s been the case for all other known fluorescent mammals.&lt;/p&gt;
+
+
+
+&lt;p&gt;“I’m curious to know myself now,” says Josh Griffiths, a wildlife ecologist with the environmental consulting company Cesar in Parkville, Australia, who has been working with platypuses for over a decade. “Next time I’m out trapping, I’ll take a UV light with me and test it out.”&lt;/p&gt;
+
+
+
+&lt;p&gt;What, if any, purpose this fluorescence may have remains a mystery. Anich’s hunch is that it helps camouflage the mostly nocturnal platypuses from nighttime predators that have UV vision, since, by absorbing some of the UV light, platypuses reflect less of it.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;platypus&quot; class=&quot;wp-image-3093288&quot; height=&quot;453&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/11/110420_cw_platypus_inline1.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3093288&quot;&gt;The platypus’s distinctive bill contains electricity sensors for detecting prey underwater — and that’s not even the animal’s wildest feature. Scientists have discovered platypuses also emit a cyan glow under ultraviolet light.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3093288&quot;&gt;Goddard Photography&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Griffiths isn’t convinced. “Maybe up in northern Queensland, they get chomped by a crocodile every now and then,” he says. “But essentially, they just don’t have any predators.” Instead, he thinks that the glow could be helping the usually solitary animals spot one another or communicate when they do meet up. Something similar &lt;a href=&quot;https://www.sciencenews.org/article/first-fluorescent-frogs-might-see-each-others-glow&quot;&gt;is thought to occur in some nocturnal frogs&lt;/a&gt; (&lt;em&gt;SN: 4/3/17&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;In fact, all known cases of fluorescence in mammals occur in species that are active at night or the low light of dawn and dusk, so Anich thinks the glow has something to do with darkness. “We don’t know as much about the nocturnal world,” she notes, so it’s possible &lt;a href=&quot;https://www.sciencenews.org/article/glowing-frogs-salamanders-may-be-surprisingly-common&quot;&gt;there are lots of other fluorescent mammals awaiting discovery&lt;/a&gt; (&lt;em&gt;SN: 2/27/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;It may even be that the ancestor of all mammals glowed this way. To see this feature in “all three of the major branches” of mammals — placental mammals, marsupials and monotremes — “is really indicative that it is an ancestral trait,” Anich says, and she’d like to see further research explore that possibility. &lt;/p&gt;
+
+
+
+&lt;p&gt;Evolutionary and ecological significance aside, Griffiths is excited to see if these findings can help biologists who study these shy, elusive animals. “Platypuses are just bloody difficult to study in the wild,” he explains, so perhaps fluorescence will allow researchers to detect these creatures more reliably.&lt;/p&gt;
+
+
+
+&lt;p&gt;Even if not, the glowing fur certainly adds to platypuses’ reputation for bizarreness. “It’s another weird thing about this weird creature,” he says.&lt;/p&gt;</content:encoded>
+	<dc:date>2020-11-06T11:00:00+00:00</dc:date>
+	<dc:creator>Christie Wilcox</dc:creator>
+</item>
+<item rdf:about="http://digest.bps.org.uk/?p=40767">
+	<title>The British Psychological Society - Research Digest: Failed Nudges And A Digital Christmas: The Week’s Best Psychology Links</title>
+	<link>https://digest.bps.org.uk/2020/11/06/failed-nudges-and-a-digital-christmas-the-weeks-best-psychology-links/</link>
+	<content:encoded>&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignleft size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-37971&quot; data-attachment-id=&quot;37971&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;NIKON D800&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;@alubalish (@alubalish (Photographer) - [None]&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Keyboard for idea&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg&quot; data-orig-size=&quot;2122,1413&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/09/27/trump-tweets-and-cat-attachment-the-weeks-best-psychology-links/keyboard-for-idea/&quot; height=&quot;213&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=845&quot; width=&quot;318&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;Our weekly round-up of the best psychology coverage from elsewhere on the web&lt;/em&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Christmas is likely to be very different this year, with many family reunions potentially taking place remotely&lt;/strong&gt;. But why do we struggle so much with the idea of a “digital Christmas”?  &lt;a href=&quot;https://www.theguardian.com/science/2020/nov/01/why-a-digital-christmas-goes-against-our-instincts&quot;&gt;David Robson takes a look&lt;/a&gt; at what the psychology has to say at &lt;em&gt;The Observer&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;span id=&quot;more-40767&quot;&gt;&lt;/span&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Many efforts to “nudge” people’s behaviour don’t work — but &lt;a href=&quot;https://digest.bps.org.uk/2020/03/25/behavioural-nudges-are-ineffective-at-encouraging-commuters-to-carpool-or-take-the-bus/&quot;&gt;as we’ve written before&lt;/a&gt;, it’s important that even failed attempts are published so that we can learn from them. &lt;/strong&gt;Now a new study has found that these failed interventions often share common features, such as an emphasis on encouraging people to behave in line with social norms, &lt;a href=&quot;https://www.newscientist.com/article/2258396-what-can-we-learn-from-failed-attempts-to-change-peoples-behaviour&quot;&gt;reports Layal Liverpool at &lt;em&gt;New Scientist&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Could Alzheimer’s disease be triggered by microbes like the herpes virus?&lt;/strong&gt; At &lt;em&gt;Nature&lt;/em&gt;, &lt;a href=&quot;https://www.nature.com/articles/d41586-020-03084-9&quot;&gt;Alison Abbott has a feature&lt;/a&gt; exploring what was once a “fringe theory”, but which researchers are now beginning to take seriously.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Artificial neural networks took their inspiration from the way that the brain processes information &lt;strong&gt;—&lt;/strong&gt; and now they are helping to us understand more about those brain pathways&lt;/strong&gt;. &lt;a href=&quot;https://www.wired.com/story/deep-neural-networks-are-helping-decipher-how-brains-work/&quot;&gt;Anil Ananthaswamy explores the parallels between the brain and these models&lt;/a&gt; in a longread at &lt;em&gt;Wired&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Whether a psychology study supports a liberal or conservative worldview seems to make no difference to how replicable it is. &lt;/strong&gt;That’s according to an analysis of nearly 200 studies which &lt;a href=&quot;https://digest.bps.org.uk/2019/04/02/has-the-liberal-bias-in-psychology-contributed-to-the-replication-crisis/&quot;&gt;we reported on last year&lt;/a&gt; when it was still in pre-print form. Now the paper has been published and the authors, &lt;a href=&quot;https://www.scientificamerican.com/article/researchers-politics-dont-undermine-their-scientific-results/&quot;&gt;Diego Reinero and Jay Van Bavel, have written an interesting summary&lt;/a&gt; over at &lt;em&gt;Scientific American.&lt;/em&gt;&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Psychologists are trying to better understand the experience of people who hear voices, in order to make sure that they receive the support they need&lt;/strong&gt;. Those who hear voices can end up withdrawing from others and feeling isolated, &lt;a href=&quot;https://theconversation.com/hearing-voices-can-be-frightening-and-isolating-but-talking-can-help-148953&quot;&gt;writes researcher Bryony Sheaves&lt;/a&gt; at &lt;em&gt;The Conversation &lt;/em&gt;—&lt;em&gt; &lt;/em&gt;but it can help to have support in the form of social connection, and for other people to be open to conversations about their experiences.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;There’s a lot of hype about the potential clinical or cognitive benefits of electrical brain stimulation — much of it unfounded&lt;/strong&gt;. At &lt;em&gt;Psyche&lt;/em&gt;, &lt;a href=&quot;https://psyche.co/ideas/these-are-truly-exciting-times-for-the-science-of-brain-zapping&quot;&gt;Hannah Filmer takes a measured but optimistic look&lt;/a&gt; at the future of the technology.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Compiled by Matthew Warren (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;&lt;strong&gt;@MattbWarren&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;), Editor of &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2020-11-06T10:55:48+00:00</dc:date>
+	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=12159">
+	<title>BMC Series blog: Quality of life and future risk of dying</title>
+	<link>http://blogs.biomedcentral.com/bmcseriesblog/2020/11/06/quality-of-life-and-future-risk-of-dying/</link>
+	<content:encoded>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/11/Blog-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;In contemporary society, &lt;a href=&quot;https://www.who.int/healthinfo/survey/whoqol-qualityoflife/en/&quot;&gt;quality of life (QoL)&lt;/a&gt; is a term used by economists, politicians, and people working across a range of other sectors and fields.  It is a concept used to measure the well-being of a population and societies, with various dimensions that can include material living situation and the environment, as well as subjective perceptions of an individual’s level of contentment with their life.&lt;/p&gt;
+&lt;p&gt;To healthcare professionals, quality of life has a more specific meaning, and is sometimes referred to as &lt;a href=&quot;https://www.cdc.gov/hrqol/index.htm&quot;&gt;Health-Related Quality of Life (HRQoL)&lt;/a&gt;. HRQoL is an individual’s perception of how they view their general health status which includes physical wellness, emotional well-being, and social functioning. HRQoL is now frequently used in the clinical setting to monitor the quality of healthcare services given to patients, as patients are increasingly recognised as the centre of the healthcare system in today’s era.&lt;/p&gt;
+&lt;p&gt;A patient’s self-reported HRQoL has been shown to provide a good measure of their overall health status; reflecting their disease burden, mental well-being and social wellness that they experience. Indeed, there is increasing evidence that for patients with various health conditions, their self-report of HRQoL provides a good measure of their future health outcomes. What is less clear however, is whether HRQoL could also be used in the general community population, rather than just patients, to predict an individual’s future health; and thus, to help identify those individuals who are at risk of poorer health outcomes and where active interventions might be required. A systematic review is needed to provide robust evidence to address this question.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cochrane.org/news/what-are-systematic-reviews&quot;&gt;A systematic review&lt;/a&gt; is important because it provide a comprehensive summary that includes all of the published studies which have investigated a given research question. For this reason, it is considered less prone to bias, including all relevant data rather than selecting data which confirms an existing hypothesis. Therefore, the finding from a clearly defined and robustly conducted systematic review can provide solid evidence which can then be used for developing clinical recommendations and making evidence-based policies. This was the premise for our study.&lt;/p&gt;
+&lt;p&gt;We undertook the first systematic review to determine whether an individual’s HRQoL was a good predictor of their future risk of dying. Our review included data from 47 studies with a total of approximately 1,200,000 participants living in the community (both with and without existing health conditions). Most participants were aged 65 years and older.&lt;/p&gt;
+&lt;p&gt;The studies varied in their duration, with some being very short (9 months between when the HRQoL was measured and death was recorded), and others much longer, by following participants for up to 18 years after HRQoL was assessed.&lt;/p&gt;
+&lt;p&gt;Our study found that individuals who reported poorer HRQoL were more likely to die and in a shorter time. Interestingly, we found that poorer physical HRQoL rather than mental HRQoL was most predictive of their risk of dying during the study.&lt;/p&gt;
+&lt;p&gt;Ultimately, we suggest that doctors should incorporate a HRQoL questionnaire into an annual screening checklist for individuals attending their clinical practice. This could be used to identify individuals at higher risk for future adverse health outcomes, and who may not otherwise be detected. This practice could in turn enable initiation of active interventions for those individuals at high risk of poorer health outcomes.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/11/06/quality-of-life-and-future-risk-of-dying/&quot; rel=&quot;nofollow&quot;&gt;Quality of life and future risk of dying&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2020-11-06T07:57:54+00:00</dc:date>
+	<dc:creator>Aung Phyo &#38; Joanne Ryan</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3093331">
+	<title>Science News: An ancient amphibian is the oldest known animal with a slingshot tongue</title>
+	<link>https://www.sciencenews.org/article/ancient-amphibian-oldest-known-animal-slingshot-tongue</link>
+	<content:encoded>&lt;p&gt;A tiny amphibian that lived 99 million years ago had a secret weapon: A tongue that shot out of its mouth like a bullet to snatch its prey. It’s the earliest known example of this “ballistic tongue” style of predation, researchers say.&lt;/p&gt;
+
+
+
+&lt;p&gt;The amphibian is a new species, represented by a few tiny bits of skeleton and soft tissue discovered in chunks of Myanmar amber. The centerpiece of these finds is a newly discovered complete skull, exquisitely preserved in 3-D, that includes a long thin bone connected to the creature’s neck, with some remnants of tongue attached to the end.&lt;/p&gt;
+
+
+
+&lt;p&gt;The creature, which measured just 52 millimeters long from snout to pelvis (not including a tail), used this bone to shoot its tongue out of its mouth and catch prey. This &lt;a href=&quot;https://science.sciencemag.org/cgi/doi/10.1126/science.abe7826&quot;&gt;“sit-and-wait” style of predation&lt;/a&gt; is similar to that of a modern chameleon, researchers report in the Nov. 6 &lt;em&gt;Science&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Led by paleontologist Juan Daza of Sam Houston State University in Huntsville, Texas, the team dubbed the creature &lt;em&gt;Yaksha perettii&lt;/em&gt;. “Yaksha” is a type of nature spirit in Myanmar folklore, thought to protect the roots of trees, and “perettii” is in honor of Swiss mineralogist Adolf Peretti, who discovered the fossil.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;&lt;em&gt;Y. perettii&lt;/em&gt; has a lot in common with chameleons, including its scaly skin and tongue-flicking feeding style, Daza says. In fact, &lt;a href=&quot;https://advances.sciencemag.org/content/2/3/e1501080&quot;&gt;in a previous study&lt;/a&gt;, he and Edward Stanley of the Florida Museum of Natural History in Gainesville described a separate fossil, also preserved in amber, of what they now know to be a juvenile &lt;em&gt;Y. peretti&lt;/em&gt; as one of those reptiles. At the time, “we agreed that it &lt;em&gt;was&lt;/em&gt; a chameleon,” says Stanley, who is also a coauthor on the new study.&lt;/p&gt;
+
+
+
+&lt;p&gt;Then paleontologist Susan Evans of University College London stepped in. The creature was not a reptile at all, she said: It was an albanerpetontid, an extinct group of weird amphibians that Evans has been studying for decades. Albanerpetontids first appear in the fossil record as far back as 165 million years ago and were last found in rocks dating to just a million years ago.&lt;/p&gt;
+
+
+
+&lt;p&gt;These amphibians were widespread — scientists have dug up thousands of albanerpetontid fossils in locations from Spain to Canada to Japan. These fossils built a picture of a wacky, salamander-like creature with pointy claws, an unusual jaw structure and a four-legged body covered in scales. Based on their scaly heads and claws, scientists thought that the creatures were probably burrowers, like some modern salamanders. But that didn’t explain some of the features.&lt;/p&gt;
+
+
+
+&lt;p&gt;“They were strange little things with weird jaw joints and neck joints,” says Evans, a coauthor on the new study.&lt;/p&gt;
+
+
+
+&lt;p&gt;Unlike modern amphibians, this group had two separate neck joints, allowing for more flexibility, and an odd jaw joint “that seems to do a kind of flexing movement. It was clearly doing something rather specialized,” Evans says. There was one known albanerpetontid specimen that did have a long, thin bone preserved near its skull, and “I suspected for a long time that they had some sort of ballistic tongue mechanism,” she says. But without more detailed fossils, the hypothesis was hard to prove.&lt;/p&gt;
+
+
+
+&lt;p&gt;That all changed with the discovery of the skull, which shows in beautiful detail the entire tongue apparatus. “The fact that you could see the long, rodlike bone actually embedded at the base of the tongue pad — that’s really strong evidence that this animal was a tongue-flicker to catch its prey,” says David DeMar, a paleobiologist at Smithsonian Museum of Natural History in Washington, D.C., who was not involved in the study.&lt;/p&gt;
+
+
+
+&lt;p&gt;“These specimens completely change our understanding about albanerpetonids,” DeMar says.&lt;/p&gt;
+
+
+
+&lt;p&gt;Rather than being burrowers, these ballistic-style feeders were arboreal predators, clinging to tree limbs with sharp claws as the animals waited for invertebrate prey to buzz or stroll by, the researchers say.&lt;/p&gt;
+
+
+
+&lt;p&gt;That interpretation “looks spot-on to me,” says James Gardner, a paleontologist at the Royal Tyrrell Museum in Drumheller, Canada, who was not involved in the study.&lt;/p&gt;
+
+
+
+&lt;p&gt;The skull fossil clears up a lot of confusion about this amphibian group’s lifestyle, Gardner says, but in other ways, albanerpetontids remain as enigmatic as ever. That’s because they’re so unusual, with so many odd features, that it’s difficult to sort out where they belong on the evolutionary tree of life, and how they’re related to other amphibians, living and extinct.&lt;/p&gt;
+
+
+
+&lt;p&gt;Still, this find just goes to show that “one or two fossils can really upset the apple cart,” says Gardner, who admits that he, like many paleontologists, previously thought that this group were burrowers. “It’s very exciting. And I’m quite happy to be wrong.” &lt;/p&gt;</content:encoded>
+	<dc:date>2020-11-05T20:53:30+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3092656">
 	<title>Science News: How passion, luck and sweat saved some of North America’s rarest plants</title>
 	<link>https://www.sciencenews.org/article/plants-endangered-extinct-species-conservation</link>
@@ -2118,229 +2383,6 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 	<dc:date>2020-10-29T10:00:00+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3092670">
-	<title>Science News: LIGO and Virgo’s gravitational wave tally more than quadrupled in six months</title>
-	<link>https://www.sciencenews.org/article/ligo-virgo-gravitational-wave-quadruple-black-hole</link>
-	<content:encoded>&lt;p&gt;Earth is awash in gravitational waves.&lt;/p&gt;
-
-
-
-&lt;p&gt;Over a six-month period, scientists captured a bounty of 39 sets of gravitational waves. The waves, which stretch and squeeze the fabric of spacetime, were caused by violent events such as the melding of two black holes into one.&lt;/p&gt;
-
-
-
-&lt;p&gt;The haul was reported by scientists with the LIGO and Virgo experiments in several studies posted October 28 on a collaboration website and at arXiv.org. The addition &lt;a href=&quot;https://dcc.ligo.org/P2000061/public&quot;&gt;brings the tally of known gravitational wave events to 50&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;The bevy of data, which includes sightings from April to October 2019, suggests that scientists’ gravitational wave–spotting skills have leveled up. Before this round of searching, only 11 events had been detected in the years since the effort began in 2015. Improvements to the detectors — two that make up the Advanced Laser Interferometer Gravitational-Wave Observatory, or LIGO, in the United States, and another, Virgo, in Italy — have dramatically boosted the rate of gravitational wave sightings.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;While colliding black holes produced most of the ripples, a few collisions seem to have involved neutron stars, ultradense nuggets of matter left behind when stars explode.&lt;/p&gt;
-
-
-
-&lt;p&gt;Some of the events added to the gravitational wave register had been previously reported individually, including the &lt;a href=&quot;https://www.sciencenews.org/article/physics-gravitational-waves-midsize-black-hole-collision-ligo-virgo&quot;&gt;biggest black hole collision&lt;/a&gt; spotted so far (&lt;em&gt;SN: 9/2/20&lt;/em&gt;) and a collision between a black hole and an object that &lt;a href=&quot;https://www.sciencenews.org/article/ligo-virgo-detected-collision-black-hole-mystery-object&quot;&gt;couldn’t be identified&lt;/a&gt; as either a neutron star or black hole (&lt;em&gt;SN: 6/23/20&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
-
-&lt;/div&gt;Gravitational waves are produced when two massive objects, such as black holes, spiral around one another and merge. These visualizations, which are based on computer simulations, show these merging objects for 38 of the 50 known gravitational wave events.&lt;/figure&gt;
-
-
-
-&lt;p&gt;What’s more, some of the coalescing black holes seem to be very large and spinning rapidly, says astrophysicist Richard O’Shaughnessy of the Rochester Institute of Technology in New York, a member of the LIGO collaboration. That’s something “really compelling in the data now that we hadn’t seen before,” he says. Such information &lt;a href=&quot;https://dcc.ligo.org/LIGO-P2000077/public/&quot;&gt;might help reveal the processes&lt;/a&gt; by which &lt;a href=&quot;https://www.sciencenews.org/article/more-events-needed-pin-down-gravitational-waves-backstory&quot;&gt;black holes get partnered up&lt;/a&gt; before they collide (&lt;em&gt;SN: 6/19/16&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;p&gt;Scientists also used the smorgasbord of smashups to further check Albert Einstein’s theory of gravity, general relativity, which predicts the existence of gravitational waves. When &lt;a href=&quot;https://dcc.ligo.org/LIGO-P2000091/public&quot;&gt;tested with the new data&lt;/a&gt; — surprise, surprise — Einstein came up a winner.&lt;/p&gt;</content:encoded>
-	<dc:date>2020-10-29T00:00:57+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3092627">
-	<title>Science News: Doubts over a ‘possible sign of life’ on Venus show how science works</title>
-	<link>https://www.sciencenews.org/article/venus-phosphine-possible-sign-life-doubts-how-science-works</link>
-	<content:encoded>&lt;p&gt;It was one of those “big, if true” stories. In September, scientists reported that Venus’ atmosphere seems to be laced with phosphine, a possible sign of life.&lt;/p&gt;
-
-
-
-&lt;p&gt;Now there’s increasing emphasis on the “if.” As scientists take fresh looks at the data behind the Venus announcement, and add other datasets to the mix, the original claim of inexplicable amounts of phosphine is being called into doubt. And that’s a good thing, many scientists say.&lt;/p&gt;
-
-
-
-&lt;p&gt;“It’s exactly how science should work,” says planetary scientist Paul Byrne of North Carolina State University in Raleigh, who studies Venus but was not involved in any of the phosphine papers. “It’s too early to say one way or the other what this detection means for Venus.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Here’s a closer look at efforts to get from “if” to “true:”&lt;/p&gt;
-
-
-
-
-
-&lt;h4&gt;The big claim&lt;/h4&gt;
-
-
-
-&lt;p&gt;On September 14, astronomer Jane Greaves of Cardiff University in Wales and colleagues reported that they had seen &lt;a href=&quot;https://www.sciencenews.org/article/phosphine-gas-found-venus-atmosphere-possible-sign-life&quot;&gt;signs of phosphine in Venus’ clouds&lt;/a&gt; using two different telescopes (&lt;em&gt;SN: 9/14/20&lt;/em&gt;). The phosphine seemed to be too abundant to exist without some kind of source replenishing it. That source could be strange microbes living in the clouds, or some weird unknown Venusian chemistry, the team said.&lt;/p&gt;
-
-
-
-&lt;p&gt;Greaves and colleagues first spotted phosphine with the James Clerk Maxwell Telescope in Hawaii and followed up with the powerful ALMA telescope array in Chile. But those ALMA data, and particularly the way they were handled, are now being called into question.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;ALMA&quot; class=&quot;wp-image-3092629&quot; height=&quot;382&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/10/102720_lg_venus_inline1.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3092629&quot;&gt;Scientists used ALMA, a powerful radio telescope array in Chile, to confirm the detection of Venus’ phosphine. Now those data are being questioned.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3092629&quot;&gt;© ALMA (ESO, NAOJ, NRAO)&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;h4&gt;Reading the data: Real molecules or random wiggles?&lt;/h4&gt;
-
-
-
-&lt;p&gt;The key Venus observations were spectra, or plots of the light coming from the planet in a range of wavelengths. Different molecules block or absorb light at specific wavelengths, so searching for dips in a spectrum can reveal the chemicals in a planet’s atmosphere.&lt;/p&gt;
-
-
-
-&lt;p&gt;Phosphine showed up as a dip in Venus’ spectrum at about 1.12 millimeters, a wavelength of light that the molecule was thought to be absorbing. If Venus’ spectrum could be drawn as a straight line across all wavelengths of light, phosphine would make a deep valley at that wavelength.&lt;/p&gt;
-
-
-
-&lt;p&gt;But real data are never that easy to read. In real life, other sources — from Earth’s atmosphere to the inner workings of the telescope itself — introduce wiggles, or “noise,” into that nice straight line. The bigger the wiggles, the less scientists believe that the dips represent interesting molecules. Any particular dip might instead be just a random, extra-large wiggle.&lt;/p&gt;
-
-
-
-&lt;p&gt;That problem gets even worse when looking at a bright object such as Venus with a powerful telescope like ALMA, says Martin Cordiner, an astrochemist at NASA’s Goddard Space Flight Center in Greenbelt, Md. Cordiner uses ALMA to observe other objects in the solar system, like Saturn’s moon Titan, but was not involved in the Venus work.&lt;/p&gt;
-
-
-
-&lt;p&gt;“The reason those bumps and wiggles are here at all is because of the intrinsic brightness of Venus, which makes it difficult to get a reliable measurement,” Cordiner says. “You could think of it as being dazzled by a bright light: If there’s a bright light in your vision, then your ability to pick out fainter details becomes diminished.”&lt;/p&gt;
-
-
-
-&lt;p&gt;So astronomers do a few different things to smooth out the data and let real signals shine through. One strategy is to write an equation that describes the wiggles caused by the noise. Scientists can then subtract that equation from the data to highlight the signal they’re interested in, like fuzzing out the background of a photo to let a portrait subject pop. That’s a standard practice, says Cordiner.&lt;/p&gt;
-
-
-
-&lt;p&gt;But it’s possible to write an equation that fits the noise too well. The simplest equation one could use is just a straight line, also known as a first-order polynomial, described by the equation &lt;em&gt;y=mx+b. &lt;/em&gt;A second-order polynomial adds a term with &lt;em&gt;x &lt;/em&gt;squared, third-order with &lt;em&gt;x&lt;/em&gt; cubed, and so on.&lt;/p&gt;
-
-
-
-&lt;p&gt;Greaves and colleagues used a twelfth-order polynomial, or an equation with twelve terms (plus a constant, the &lt;em&gt;+b&lt;/em&gt; in the equation), to describe the noise in their ALMA data.&lt;/p&gt;
-
-
-
-&lt;p&gt;“That was a red flag that this needed to be looked at in more detail, and that the results of that polynomial fitting could be untrustworthy,” says Cordiner. Going all the way out to the power of 12 could mean a researcher subtracts more noise than is truly random, allowing them to find things in the data that aren’t really there.&lt;/p&gt;
-
-
-
-&lt;p&gt;To see if the researchers were a little overzealous in their polynomial fitting, astrophysicist Ignas Snellen, of Leiden University in the Netherlands, and colleagues reapplied the same noise reduction recipe to the ALMA data on Venus and &lt;a href=&quot;https://arxiv.org/abs/2010.09761&quot;&gt;found no statistically significant sign of phosphine&lt;/a&gt;, they report in a paper posted at arXiv.org on October 19.&lt;/p&gt;
-
-
-
-&lt;p&gt;Then the researchers tried the same noise filtering on other parts of Venus’ spectrum, where no interesting molecules should be found. They found five different signals of molecules that aren’t really there.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Our analysis … shows that at least a handful of spurious features can be obtained with their method, and therefore [we] conclude that the presented analysis does not provide a solid basis to infer the presence of [phosphine] in the Venus atmosphere,” the team wrote.&lt;/p&gt;
-
-
-
-
-
-&lt;h4&gt;Looking for other data — and getting no help yet&lt;/h4&gt;
-
-
-
-&lt;p&gt;Meanwhile, scientists at ALMA discovered a separate, unspecified issue in the data that were used to detect the phosphine and took those data off the observatory’s public archive to scrutinize and reprocess, according to a statement from the European Southern Observatory, of which ALMA is a part.&lt;/p&gt;
-
-
-
-&lt;p&gt;“This does not happen very often,” says Martin Zwaan of the ESO ALMA Regional Center in Garching, Germany, but this isn’t a first. When issues are discovered, it is standard practice to reprocess the data. “In many cases, it does not affect the science outcome significantly,” Zwaan says. “In the case of the phosphine on Venus, this [outcome] has not been established yet.”&lt;/p&gt;
-
-
-
-&lt;p&gt;What can scientists do while they wait? One of the best ways to confirm the phosphine is to see an equivalent signal at a different wavelength in Venus’ spectrum. Unfortunately, &lt;a href=&quot;https://www.aanda.org/component/article?access=doi&amp;amp;doi=10.1051/0004-6361/202039559&quot;&gt;the news isn’t great there either&lt;/a&gt;. In a paper to appear in &lt;em&gt;Astronomy &amp;amp; Astrophysics&lt;/em&gt;, astronomer Thérèse Encrenaz of the Paris Observatory and colleagues (including Greaves and some other authors of the original paper) looked at archived data from an infrared spectrograph called TEXES that operates in Hawaii. Those observations could have spotted phosphine in Venus’ cloud tops, a lower part of the sky than what ALMA could see.&lt;/p&gt;
-
-
-
-&lt;p&gt;Greaves and colleagues had approached Encrenaz to look for phosphine in infrared wavelengths before the original paper came out, but those observations were cancelled by the COVID-19 pandemic. So Encrenaz looked through data she had collected between 2012 and 2015 — and found nothing.&lt;/p&gt;
-
-
-
-&lt;p&gt;“At the level of the cloud tops, there is no [phosphine] at all,” Encrenaz says. That doesn’t necessarily mean there’s no phosphine higher up in the sky — there’s just no clear explanation for how it would get there. “The reasoning in the paper by Jane Greaves was that phosphine was coming from the clouds,” Encrenaz says. “So there is a big problem.”&lt;/p&gt;
-
-
-
-&lt;h4&gt;‘This is just what science looks like.’&lt;/h4&gt;
-
-
-
-&lt;p&gt;There are still ways for Venus’ phosphine to pull through. If it varies with time, for instance, it might be there some of the times that astronomers look and not at others. It’s too early to invoke that scenario, though, Cordiner says. “There’s no point of talking about the time variability of a signal if it isn’t there.”&lt;/p&gt;
-
-
-
-&lt;p&gt;But this is not a crisis, says Clara Sousa-Silva, an astrochemist at the Harvard-Smithsonian Center for Astrophysics in Cambridge, Mass., and a coauthor of the original paper. Other groups challenging the finding “is completely normal and what I expected (nay, hoped) would happen,” she wrote in an e-mail. “This is usually a phase of a project that I enjoy, and I am hoping people will realize this is just what science looks like.”&lt;/p&gt;
-
-
-
-&lt;p&gt;The silver lining in all of this is that it’s gotten people excited about Venus, says Byrne, who is a member of NASA’s Venus Exploration Analysis Group.&lt;/p&gt;
-
-
-
-&lt;p&gt;“These papers provide much value and a needed assessment of these extraordinary claims,” he says. “If nothing else, it has shone a light on just how little we understand about Venus. And the only way we get those answers is if we go to Venus.”&lt;/p&gt;</content:encoded>
-	<dc:date>2020-10-28T15:20:33+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3092542">
-	<title>Science News: Galileo’s famous gravity experiment holds up, even with individual atoms</title>
-	<link>https://www.sciencenews.org/article/galileo-gravity-experiment-atoms-general-relativity-einstein</link>
-	<content:encoded>&lt;p&gt;According to legend, Galileo dropped weights off of the Leaning Tower of Pisa, showing that gravity causes objects of different masses to fall with the same acceleration. In recent years, researchers have taken to replicating this test in a way that the Italian scientist probably never envisioned — by dropping atoms.&lt;/p&gt;
-
-
-
-&lt;p&gt;A new study describes the most sensitive atom-drop test so far and shows that Galileo’s gravity experiment still holds up — even for individual atoms. Two different types of &lt;a href=&quot;https://journals.aps.org/prl/accepted/05071Ya2G641dd7a267f77358e05d5ec64f38c023&quot;&gt;atoms had the same acceleration&lt;/a&gt; within about a part per trillion, or 0.0000000001 percent, physicists report in a paper in press in &lt;em&gt;Physical Review Letters&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;Compared with a previous atom-drop test, the new research is a thousand times as sensitive. “It represents a leap forward,” says physicist Guglielmo Tino of the University of Florence, who was not involved with the new study.&lt;/p&gt;
-
-
-
-&lt;p&gt;Researchers compared rubidium atoms of two different isotopes, atoms that contain different numbers of neutrons in their nuclei. The team launched clouds of these atoms about 8.6 meters high in a tube under vacuum. As the atoms rose and fell, both varieties accelerated at essentially the same rate, the researchers found.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;In confirming Galileo’s gravity experiment yet again, the result upholds the equivalence principle, a foundation of Albert Einstein’s theory of gravity, general relativity. That principle states that an object’s inertial mass, which determines how much it accelerates when force is applied, is equivalent to its gravitational mass, which determines how strong a gravitational force it feels. The upshot: An object’s acceleration under gravity doesn’t depend on its mass or composition.&lt;/p&gt;
-
-
-
-&lt;p&gt;So far, the equivalence principle has withstood all tests. But atoms, which are subject to the strange laws of quantum mechanics, could reveal its weak points. “When you do the test with atoms … you’re testing the equivalence principle and stressing it in new ways,” says physicist Mark Kasevich of Stanford University.&lt;/p&gt;
-
-
-
-&lt;p&gt;Kasevich and colleagues studied the tiny particles using atom interferometry, which takes advantage of quantum mechanics to make extremely precise measurements. During the atoms’ flight, the scientists put the atoms in a state called a quantum superposition, in which particles don’t have one definite location. Instead, each atom existed in a superposition of two locations, separated by up to seven centimeters. When the atoms’ two locations were brought back together, the atoms interfered with themselves in a way that precisely revealed their relative acceleration.&lt;/p&gt;
-
-
-
-&lt;p&gt;Many scientists think that the equivalence principle will eventually falter. “We have reasonable expectations that our current theories … are not the end of the story,” says physicist Magdalena Zych of the University of Queensland in Brisbane, Australia, who was not involved with the research. That’s because quantum mechanics — the branch of physics that describes the counterintuitive physics of the very small — doesn’t mesh well with general relativity, leading scientists on a hunt for a theory of quantum gravity that could unite these ideas. Many scientists suspect that the new theory will violate the equivalence principle by an amount too small to have been detected with tests performed thus far.&lt;/p&gt;
-
-
-
-&lt;p&gt;But physicists hope to improve such atom-based tests in the future, for example by performing them in space, where objects can free-fall for extended periods of time. An equivalence principle test in space has already been &lt;a href=&quot;https://www.sciencenews.org/article/first-galileo-gravity-experiment-re-created-space-einstein&quot;&gt;performed with metal cylinders&lt;/a&gt;, but not yet with atoms (&lt;em&gt;SN: 12/4/17&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;p&gt;So there’s still a chance to prove Galileo wrong.&lt;/p&gt;</content:encoded>
-	<dc:date>2020-10-28T10:00:00+00:00</dc:date>
-	<dc:creator>Emily Conover</dc:creator>
-</item>
 <item rdf:about="https://retractionwatch.com/?p=120765">
 	<title>Retraction watch: Following Retraction Watch and PubPeer posts, journal upgrades correction to a retraction</title>
 	<link>https://retractionwatch.com/2020/10/28/following-retraction-watch-and-pubpeer-posts-journal-upgrades-correction-to-a-retraction/</link>
@@ -3583,13 +3625,6 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 	<dc:date>2020-10-16T14:27:02+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
 </item>
-<item rdf:about="https://retractionwatch.com/?p=120693">
-	<title>Retraction watch: Study finding patients of female surgeons fare better is temporarily removed</title>
-	<link>https://retractionwatch.com/2020/10/16/study-finding-patients-of-female-surgeons-fare-better-is-temporarily-removed/</link>
-	<content:encoded>An Elsevier journal has, for the moment, removed a paper which found that the patients of female surgeons fare better than those treated by men. Although the journal didn’t provide an explanation for the move — unfortunately not unusual for Elsevier — a spokesman for the publisher told us that reader complaints about the methodology … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/10/16/study-finding-patients-of-female-surgeons-fare-better-is-temporarily-removed/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Study finding patients of female surgeons fare better is temporarily removed&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2020-10-16T10:00:00+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
-</item>
 <item rdf:about="https://www.elsevier.com/connect/research-manager-shares-tips-to-succeed-in-a-post-covid-world">
 	<title>Elsevier Connect: Research manager shares tips to succeed in a post-COVID world</title>
 	<link>https://www.elsevier.com/connect/research-manager-shares-tips-to-succeed-in-a-post-covid-world</link>
@@ -4267,67 +4302,6 @@ Passcode: 954076&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;</content:encoded>
 	<dc:date>2020-10-08T14:42:48+00:00</dc:date>
 	<dc:creator>ame5</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=40477">
-	<title>The British Psychological Society - Research Digest: Phone Calls Help Create Closer Bonds Than Texting</title>
-	<link>https://digest.bps.org.uk/2020/10/08/phone-calls-help-create-closer-bonds-than-texting/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;For its many flaws, it’s hard to deny that technology has improved our ability to communicate with one another. We now have a huge range of options when it comes to speaking to our friends and family, whether we’re texting, IMing, or sending them emails.&lt;/p&gt;
-
-
-
-&lt;p&gt;With such a smorgasbord of choices available to us, it can be easy to forget the humble phone call. And &lt;a href=&quot;https://psycnet.apa.org/doiLanding?doi=10.1037%2Fxge0000962&quot;&gt;according to new work&lt;/a&gt; published in the &lt;em&gt;Journal of Experimental Psychology: General&lt;/em&gt;, a reticence to pick up the phone might also be robbing us of stronger connections with those we love.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;span id=&quot;more-40477&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-
-&lt;p&gt;In their first study, Amit Kumar from the University of Texas at Austin and Nicholas Epley from the University of Chicago looked at the experience of reconnecting with an old friend. Participants were first asked to think of someone they had fallen out of touch with, stating how long it had been since they interacted and rating the current closeness of their relationship.&lt;/p&gt;
-
-
-
-&lt;p&gt;Participants then imagined reconnecting with their old friend, and were asked whether they would prefer to contact them by phone or email and how they felt the interaction would go. They were then randomly assigned to actually connect with the friend either via email or by phone over the next week.&lt;/p&gt;
-
-
-
-&lt;p&gt;Even though the majority of participants believed they would form a stronger bond over the phone than via email, 67% stated they would prefer to get in touch by email (a number that rose to 72% among participants who successfully completed the full experiment). This may be because of perceived awkwardness: the majority also felt that a phone call would be more awkward. Of the participants who managed to get in touch with an old friend, those assigned to the phone condition reported feeling a significantly stronger bond than those assigned to the email condition — and in the end felt no more awkward.&lt;/p&gt;
-
-
-
-&lt;p&gt;The next study looked at &lt;em&gt;new&lt;/em&gt; friends. Participants were put into pairs and assigned to one of three groups — text chat, audio chat, or video chat. To get close to their new friend, participants interacted via a “sharing game”, in which both parties ask and answer intimate questions (e.g. “can you describe a time you cried in front of another person?”). Before completing the tasks, participants predicted how well they would get to know their partner, how much they would enjoy the conversation, how strong a bond it would foster, and how awkward it would be to chat.&lt;/p&gt;
-
-
-
-&lt;p&gt;Although participants did not expect different outcomes across the different forms of communication, they again felt more connected with their partner via voice-based media than when simply using text. Participants anticipated awkwardness across all three categories (which may be more to do with the very intimate and unusual task than with specific communication methods themselves), though those expectations were unfounded.&lt;/p&gt;
-
-
-
-&lt;p&gt;In a final study, participants were again asked to imagine reconnecting with an old friend, rating how connected or awkward they expected to feel over email or phone and indicating their preferred method on a seven-point scale. The results suggested that expectations are a key driver of our choices — the more participants expected to feel connected via phone or email, the more they preferred to communicate in that form, and the more awkward they anticipated feeling the more likely they were to avoid that method.&lt;/p&gt;
-
-
-
-&lt;p&gt;The study suggests that worries about negative interactions could make people avoid potentially meaningful phone chats. But it doesn’t explain &lt;em&gt;why&lt;/em&gt; calls are apparently so powerful. What is it about voice-based chats that make them so fulfilling? And do new forms of communication such as voice notes — voice recordings almost like voicemail — have the same effect? It would be worth exploring whether this kind of asynchronous communication has similar benefits to real-time audio and video calls.&lt;/p&gt;
-
-
-
-&lt;p&gt;There are plenty of jokes and memes about younger generations hating voice calls, and &lt;a href=&quot;https://www.theguardian.com/news/datablog/2015/sep/08/one-in-four-uk-smartphone-weekly-phone-calls&quot;&gt;consumer research&lt;/a&gt; has suggested that many of us do indeed use our devices for everything &lt;em&gt;other&lt;/em&gt; than speaking on the phone. The idea that people (sometimes incorrectly) anticipate awkwardness is not too much of a reach and is backed up by findings from this paper.&lt;/p&gt;
-
-
-
-&lt;p&gt;But there are likely to be some individual differences here which haven’t been fully explored. A voice note might allow someone who’s shy and really does hate phone calls to communicate within their boundaries. For others, instant messaging might make them feel more present in their loved ones’ daily lives. And a long email back-and-forth might take the pressure off needing to reply instantly and give time to engage more deeply, potentially fostering a more philosophical bent to a conversation. Personality and context surely has a role to play here — and might make interesting grounds for future research into the nuances of digital communication.&lt;/p&gt;
-
-
-
-&lt;p&gt;– &lt;a href=&quot;https://psycnet.apa.org/record/2020-64844-001&quot;&gt;It’s Surprisingly Nice to Hear You: Misunderstanding the Impact of Communication Media Can Lead to Suboptimal Choices of How to Connect With Others&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2020-10-08T13:32:39+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 <item rdf:about="https://www.elsevier.com/connect/honoring-the-2020-nobel-laureates">
 	<title>Elsevier Connect: Honoring the 2020 Nobel Laureates with free access to their research</title>
@@ -5498,20 +5472,6 @@ The money has now been used to buy 30% OA from Elsevier. But for the 100% that 
 &lt;p&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2020-09-21T09:44:36+00:00</dc:date>
 	<dc:creator>Lior Pachter</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=51385">
-	<title>For Better Science: Jan van Deursen’s senolytics: from bench to failed clinical trial</title>
-	<link>https://forbetterscience.com/2020/09/21/jan-van-deursens-senolytics-from-bench-to-failed-clinical-trial/</link>
-	<content:encoded>Jan van Deursen had to resign from Mayo Clinic over bullying charges. With his company Unity Biotech's phase 2 clinical trial failed, stock devalued and staff laid-off, van Deursen sued me in German court about the reproducibility of his senolytics research.</content:encoded>
-	<dc:date>2020-09-21T06:00:00+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.discovermagazine.com/mind/has-the-stress-of-covid-affected-our-brains">
-	<title>Discovery magazine - Neuroskeptic: Has the Stress of COVID Affected Our Brains?</title>
-	<link>https://www.discovermagazine.com/mind/has-the-stress-of-covid-affected-our-brains</link>
-	<content:encoded>A preprint reports increases in the volume of parts of the brain after lockdown.</content:encoded>
-	<dc:date>2020-09-19T12:00:00+00:00</dc:date>
-	<dc:creator>Neuroskeptic</dc:creator>
 </item>
 
 </rdf:RDF>
