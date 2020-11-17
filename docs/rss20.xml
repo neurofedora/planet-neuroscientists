@@ -678,6 +678,30 @@ Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 East
   <source url="https://www.sciencenews.org/feed">Science News</source>
 </item>
 <item>
+	<title>arXiv.org blog: Error detected! A new feature helps authors submit their work</title>
+	<guid isPermaLink="false">https://blogs.cornell.edu/arxiv/?p=767</guid>
+	<link>https://blog.arxiv.org/2020/11/12/error-detected-a-new-feature-helps-authors-submit-their-work/</link>
+	<description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;No one wants to find errors in their work, but there’s something even worse: errors that pass through undetected, causing headaches later.&lt;/p&gt;
+&lt;p&gt;arXiv relies on TeXLive 2020 as a compilation system to ensure precise formatting of the submissions from our authors. During the submission process, authors upload their TeX files to the arXiv system, which then compiles them into a PDF. Now, compilation errors will be highlighted during the submission process, helping authors save time and submit their work smoothly.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_796&quot; style=&quot;width: 583px;&quot;&gt;&lt;img alt=&quot;Image of TeX error highlighting&quot; class=&quot;wp-image-796 size-full&quot; height=&quot;243&quot; src=&quot;https://blog.arxiv.org/files/2020/10/TeX-Error-Highlighting-Key.png&quot; width=&quot;583&quot; /&gt;TeX errors detected by the arXiv submission system are now color-coded&lt;/figure&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Different types of compilation errors might arise during the submission process. Some errors are so severe that the submission system will not compile the source files into a PDF until they are resolved. For example, if the TeX source references a file that the author forgot to include, processing will fail. Other errors are less obvious at first glance. For example, an error might interfere with formatting, making the content less understandable, or, if references are missing, a question mark will appear instead of numbers corresponding to the bibliography.&lt;/p&gt;
+&lt;p&gt;During the compilation process, AutoTeX log files are produced automatically and errors are noted within. In the past, many users found the large block of text challenging to read and interpret quickly.&lt;/p&gt;
+&lt;p&gt;Now, errors are highlighted with different colors within the AutoTeX logs during the submission process. Authors can quickly scan a summary of errors, understand their severity, and follow links to relevant arXiv help pages. Additionally, if the source did compile, the number of pages produced is also noted, so authors can confirm that the paper length matches their expectation.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_801&quot; style=&quot;width: 1024px;&quot;&gt;&lt;a href=&quot;https://blog.arxiv.org/files/2020/10/Critical-TeX-Error.png&quot;&gt;&lt;img alt=&quot;image of critical tex error summary&quot; class=&quot;wp-image-801 size-large&quot; height=&quot;311&quot; src=&quot;https://blog.arxiv.org/files/2020/10/Critical-TeX-Error-1024x311.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;This example shows the summary of critical errors, attempted compilation runs, and a link to the relevant arXiv help page.&lt;/figure&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;By scrolling down the AutoTeX log, authors will find specific errors highlighted in various colors.&lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_802&quot; style=&quot;width: 818px;&quot;&gt;&lt;a href=&quot;https://blog.arxiv.org/files/2020/10/TeX-Error-Example.png&quot;&gt;&lt;img alt=&quot;TeX Error highlighting example&quot; class=&quot;wp-image-802 size-full&quot; height=&quot;693&quot; src=&quot;https://blog.arxiv.org/files/2020/10/TeX-Error-Example.png&quot; width=&quot;818&quot; /&gt;&lt;/a&gt;In this example, an error log shows where the specific errors occurred.&lt;/figure&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;arXiv aims to serve both readers and authors by ensuring that research can be shared quickly and easily. This AutoTeX log highlighting feature was specifically requested by arXiv authors and will likely improve their experience. Readers will also benefit because, with fewer technical errors, articles will be easier to read.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+	<pubDate>Thu, 12 Nov 2020 18:24:33 +0000</pubDate>
+  <source url="https://blog.arxiv.org/feed/">arXiv.org blog</source>
+</item>
+<item>
 	<title>Elsevier Connect: 3 factors for a successful university-business collaboration</title>
 	<guid isPermaLink="true">https://www.elsevier.com/connect/3-factors-for-a-successful-university-business-collaboration</guid>
 	<link>https://www.elsevier.com/connect/3-factors-for-a-successful-university-business-collaboration</link>
@@ -3182,30 +3206,6 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 	<description>If you’re looking for more evidence that researchers are flooding the zone with COVID-19 papers that do little to advance the state of the science, we present Psychology, Health &amp;amp; Medicine.  The journal, a Taylor &amp;amp; Francis title, in April published “Mental health burden for the public affected by the COVID-19 outbreak in China: Who … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/10/29/researchers-publish-the-same-covid-19-paper-three-times/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Researchers publish the same COVID-19 paper three times&lt;/span&gt;&lt;/a&gt;</description>
 	<pubDate>Thu, 29 Oct 2020 10:00:00 +0000</pubDate>
   <source url="https://retractionwatch.com/feed/">Retraction Watch</source>
-</item>
-<item>
-	<title>arXiv.org blog: Error detected! A new feature helps authors submit their work</title>
-	<guid isPermaLink="false">https://blogs.cornell.edu/arxiv/?p=767</guid>
-	<link>https://blog.arxiv.org/2020/10/28/error-detected-a-new-feature-helps-authors-submit-their-work/</link>
-	<description>&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;No one wants to find errors in their work, but there’s something even worse: errors that pass through undetected, causing headaches later.&lt;/p&gt;
-&lt;p&gt;arXiv relies on TeXLive 2020 as a compilation system to ensure precise formatting of the submissions from our authors. During the submission process, authors upload their TeX files to the arXiv system, which then compiles them into a PDF. Now, compilation errors will be highlighted during the submission process, helping authors save time and submit their work smoothly.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_796&quot; style=&quot;width: 583px;&quot;&gt;&lt;img alt=&quot;Image of TeX error highlighting&quot; class=&quot;wp-image-796 size-full&quot; height=&quot;243&quot; src=&quot;https://blog.arxiv.org/files/2020/10/TeX-Error-Highlighting-Key.png&quot; width=&quot;583&quot; /&gt;TeX errors detected by the arXiv submission system are now color-coded&lt;/figure&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Different types of compilation errors might arise during the submission process. Some errors are so severe that the submission system will not compile the source files into a PDF until they are resolved. For example, if the TeX source references a file that the author forgot to include, processing will fail. Other errors are less obvious at first glance. For example, an error might interfere with formatting, making the content less understandable, or, if references are missing, a question mark will appear instead of numbers corresponding to the bibliography.&lt;/p&gt;
-&lt;p&gt;During the compilation process, AutoTeX log files are produced automatically and errors are noted within. In the past, many users found the large block of text challenging to read and interpret quickly.&lt;/p&gt;
-&lt;p&gt;Now, errors are highlighted with different colors within the AutoTeX logs during the submission process. Authors can quickly scan a summary of errors, understand their severity, and follow links to relevant arXiv help pages. Additionally, if the source did compile, the number of pages produced is also noted, so authors can confirm that the paper length matches their expectation.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_801&quot; style=&quot;width: 1024px;&quot;&gt;&lt;a href=&quot;https://blog.arxiv.org/files/2020/10/Critical-TeX-Error.png&quot;&gt;&lt;img alt=&quot;image of critical tex error summary&quot; class=&quot;wp-image-801 size-large&quot; height=&quot;311&quot; src=&quot;https://blog.arxiv.org/files/2020/10/Critical-TeX-Error-1024x311.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;This example shows the summary of critical errors, attempted compilation runs, and a link to the relevant arXiv help page.&lt;/figure&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;By scrolling down the AutoTeX log, authors will find specific errors highlighted in various colors.&lt;/p&gt;
-&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_802&quot; style=&quot;width: 818px;&quot;&gt;&lt;a href=&quot;https://blog.arxiv.org/files/2020/10/TeX-Error-Example.png&quot;&gt;&lt;img alt=&quot;TeX Error highlighting example&quot; class=&quot;wp-image-802 size-full&quot; height=&quot;693&quot; src=&quot;https://blog.arxiv.org/files/2020/10/TeX-Error-Example.png&quot; width=&quot;818&quot; /&gt;&lt;/a&gt;In this example, an error log shows where the specific errors occurred.&lt;/figure&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;arXiv aims to serve both readers and authors by ensuring that research can be shared quickly and easily. This AutoTeX log highlighting feature was specifically requested by arXiv authors and will likely improve their experience. Readers will also benefit because, with fewer technical errors, articles will be easier to read.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</description>
-	<pubDate>Wed, 28 Oct 2020 18:24:33 +0000</pubDate>
-  <source url="https://blog.arxiv.org/feed/">arXiv.org blog</source>
 </item>
 <item>
 	<title>Retraction watch: Following Retraction Watch and PubPeer posts, journal upgrades correction to a retraction</title>
