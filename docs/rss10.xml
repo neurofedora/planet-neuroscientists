@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=53374" />
 			<rdf:li rdf:resource="http://liorpachter.wordpress.com/?p=14589" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120913" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093797" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12126" />
 			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/43012715-c08c-46f0-b22f-15fe0b4e9f56" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=694" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/honoring-the-2020-nobel-laureates" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=53374">
+	<title>For Better Science: mTOR: conclusions not affected?</title>
+	<link>https://forbetterscience.com/2020/11/23/mtor-conclusions-not-affected/</link>
+	<content:encoded>David Sabatini, remember that story? Well, it seems the conclusions were not affected. I take an ill-informed look at the mTOR signalling research field, to understand how photoshopped data gets to be independently verified by other labs.</content:encoded>
+	<dc:date>2020-11-23T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="http://liorpachter.wordpress.com/?p=14589">
 	<title>Bits of DNA: Williams math professor investigating voter fraud in Pennsylvania finds no evidence</title>
 	<link>https://liorpachter.wordpress.com/2020/11/22/williams-math-professor-investigating-voter-fraud-in-pennsylvania-finds-no-evidence/</link>
@@ -5049,12 +5056,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 &lt;p&gt; &lt;/p&gt;</content:encoded>
 	<dc:date>2020-10-08T14:42:48+00:00</dc:date>
 	<dc:creator>ame5</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/honoring-the-2020-nobel-laureates">
-	<title>Elsevier Connect: Honoring the 2020 Nobel Laureates with free access to their research</title>
-	<link>https://www.elsevier.com/connect/honoring-the-2020-nobel-laureates</link>
-	<content:encoded>Read the Nobel Prize winners’ most relevant papers published by Elsevier, as we celebrate their achievements in science</content:encoded>
-	<dc:date>2020-10-08T13:17:34+00:00</dc:date>
 </item>
 
 </rdf:RDF>
