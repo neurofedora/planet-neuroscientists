@@ -15,8 +15,13 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=4117" />
+			<rdf:li rdf:resource="https://www.theguardian.com/education/2020/jan/22/people-cant-learn-about-treatments-they-need-why-open-access-to-medical-research-matters" />
+			<rdf:li rdf:resource="https://www.newswise.com/articles/american-academy-of-ophthalmology-to-launch-its-first-open-access-journal-in-early-2021?ta=home" />
+			<rdf:li rdf:resource="https://sparcopen.org/" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093831" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40903" />
+			<rdf:li rdf:resource="https://theconversation.com/open-access-to-higher-education-is-about-much-more-than-axing-atars-147447" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093752" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=53543" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093791" />
@@ -160,15 +165,35 @@
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=702" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18453" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18440" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/why-open-access-is-at-the-core-of-our-publishing-mission" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=52118" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/kumsal-bayazit-at-eu-gender-in-science-symposium" />
-			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12126" />
-			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/43012715-c08c-46f0-b22f-15fe0b4e9f56" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://pillowlab.wordpress.com/?p=4117">
+	<title>Pillow Lab: Tutorial on Normalizing Flows</title>
+	<link>https://pillowlab.wordpress.com/2020/11/24/tutorial-on-normalizing-flows/</link>
+	<content:encoded>Today in lab meeting, we continued our discussion of deep unsupervised learning with a tutorial on Normalizing Flows. Similar to VAEs, which we have discussed previously, flow-based models are used to learn a generative distribution, , when this is arbitrarily … &lt;a href=&quot;https://pillowlab.wordpress.com/2020/11/24/tutorial-on-normalizing-flows/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2020-11-25T02:20:09+00:00</dc:date>
+	<dc:creator>zashwood</dc:creator>
+</item>
+<item rdf:about="https://www.theguardian.com/education/2020/jan/22/people-cant-learn-about-treatments-they-need-why-open-access-to-medical-research-matters">
+	<title>Open Access Tracking Project: news: Coronavirus and Ebola: could open access medical research find a cure? | Universities | The Guardian</title>
+	<link>https://www.theguardian.com/education/2020/jan/22/people-cant-learn-about-treatments-they-need-why-open-access-to-medical-research-matters</link>
+	<content:encoded>Coronavirus and Ebola: could open access medical research find a cure?</content:encoded>
+	<dc:date>2020-11-24T16:58:00+00:00</dc:date>
+</item>
+<item rdf:about="https://www.newswise.com/articles/american-academy-of-ophthalmology-to-launch-its-first-open-access-journal-in-early-2021?ta=home">
+	<title>Open Access Tracking Project: news: American Academy of Ophthalmology to Launch its First Open Access Journal in Early 2021</title>
+	<link>https://www.newswise.com/articles/american-academy-of-ophthalmology-to-launch-its-first-open-access-journal-in-early-2021?ta=home</link>
+	<content:encoded>American Academy of Ophthalmology to Launch its First Open Access Journal in Early 2021</content:encoded>
+	<dc:date>2020-11-24T16:50:00+00:00</dc:date>
+</item>
+<item rdf:about="https://sparcopen.org/">
+	<title>Open Access Tracking Project: news: SPARC: Advancing Open Access, Open Data, Open Education</title>
+	<link>https://sparcopen.org/</link>
+	<content:encoded>SPARC (the Scholarly Publishing and Academic Resources Coalition) works to enable the open sharing of research outputs and educational materials in order to democratize access to knowledge, accelerate discovery, and increase the return on our investment in research and education. As a catalyst for action, SPARC focuses on collaborating with other stakeholders—including authors, publishers, libraries, students, funders, policymakers and the public—to build on the opportunities created by the Internet, promoting changes to both infrastructure and culture needed to make open the default for research and education.</content:encoded>
+	<dc:date>2020-11-24T16:19:00+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3093831">
 	<title>Science News: Mineral body armor helps some leaf-cutting ants win fights with bigger kin</title>
 	<link>https://www.sciencenews.org/article/leaf-cutting-ant-body-armor-mineral-exoskeleton-fight</link>
@@ -276,6 +301,12 @@
 &lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2020-11-24T14:46:36+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="https://theconversation.com/open-access-to-higher-education-is-about-much-more-than-axing-atars-147447">
+	<title>Open Access Tracking Project: news: Open access to higher education is about much more than axing ATARs</title>
+	<link>https://theconversation.com/open-access-to-higher-education-is-about-much-more-than-axing-atars-147447</link>
+	<content:encoded>The importance of higher education for the growth and development of society is generally accepted. But openness and access to education for all is essential to maximise its benefits. Leaders in higher education must be ready to examine what it will take to achieve this.</content:encoded>
+	<dc:date>2020-11-24T14:36:00+00:00</dc:date>
 </item>
 <item rdf:about="https://www.sciencenews.org/?p=3093752">
 	<title>Science News: A face mask may turn up a male wrinkle-faced bat’s sex appeal</title>
@@ -4918,61 +4949,6 @@ Passcode: 954076&lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/_MRchp5tKOc&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2020-10-12T14:37:37+00:00</dc:date>
 	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/why-open-access-is-at-the-core-of-our-publishing-mission">
-	<title>Elsevier Connect: Why open access is at the core of our publishing mission</title>
-	<link>https://www.elsevier.com/connect/why-open-access-is-at-the-core-of-our-publishing-mission</link>
-	<content:encoded>An Elsevier leader talks about how we’re expanding our support for open access and open science</content:encoded>
-	<dc:date>2020-10-12T08:37:54+00:00</dc:date>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=52118">
-	<title>For Better Science: Sperm teleportation between Massimo Fioranelli and Alireza Sepehri</title>
-	<link>https://forbetterscience.com/2020/10/12/sperm-teleportation-between-massimo-fioranelli-and-alireza-sepehri/</link>
-	<content:encoded>&quot;Even if we be under force and have to return to Galileo times, theories are going theirselves. [...] Describing some subjects for them is similar to speaking of flying with airplane for people around 1000 years ago. I don’t wonder if they kill us for these theories as in Galileo times.&quot; - Massimo Fioranelli, a looney</content:encoded>
-	<dc:date>2020-10-12T06:00:00+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/kumsal-bayazit-at-eu-gender-in-science-symposium">
-	<title>Elsevier Connect: Kumsal Bayazit at EU Gender in Science Symposium: “ We must make progress across all dimensions of diversity.”</title>
-	<link>https://www.elsevier.com/connect/kumsal-bayazit-at-eu-gender-in-science-symposium</link>
-	<content:encoded>Elsevier CEO stresses inclusion, diversity and intersectionality in keynote at EU Gender in Science Symposium</content:encoded>
-	<dc:date>2020-10-09T09:14:14+00:00</dc:date>
-</item>
-<item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=12126">
-	<title>BMC Series blog: Getting real about kidney transplant timelines</title>
-	<link>http://blogs.biomedcentral.com/bmcseriesblog/2020/10/08/getting-real-about-kidney-transplant-timelines/</link>
-	<content:encoded>&lt;img alt=&quot;Getty images&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/10/Blog-140x110.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;One of the biggest aspects in taking care of patients with advanced chronic kidney disease is planning for future renal replacement needs, either dialysis or transplant options. The benefits of transplantation over dialysis are widely accepted and if someone is a medically cleared, they should be encouraged to &lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJM199912023412303&quot;&gt;pursue transplantation&lt;/a&gt;. Dialysis counseling and education is individualized for patients depending on their other medical conditions, support systems, and transplant candidacy.   For those patients that are cleared medically and have potential live donors, discussions about home dialysis training and permanent dialysis access are curtailed. The assumption that the time on dialysis will be short and therefore effort towards arteriovenous access creation or home dialysis training seems wasted. But is the wait time really that short?&lt;/p&gt;
-&lt;p&gt;This week in &lt;em&gt;&lt;a href=&quot;https://bmcnephrol.biomedcentral.com/articles/10.1186/s12882-020-02080-5&quot;&gt;BMC Nephrology&lt;/a&gt;,&lt;/em&gt; Dr. Slyvestre &lt;em&gt;et al.&lt;/em&gt; report on 9300 incident dialysis patients listed and cleared for transplantation, and highlight the potential complications of catheter procedures or infections and associated increased risk of death during the wait time. Most striking was the median time to transplantation for both deceased donor recipients of 15 months and 9 months for those with live donors.&lt;/p&gt;
-&lt;p&gt;The potential year on dialysis therapy, even with potential donors, raises a few questions for nephrologists. Are we adequately preparing patients for that time on dialysis while they are waiting for workup and the potential delays? Should we be looking at the home dialysis options more? Are we putting patients at risk of a tunneled dialysis catheter infection that could have more significant complications such as disseminated infection requiring prolonged antibiotics or delay their surgery. The wait times also suggest perhaps a closer look at the process of workup for donors to see if there are ways to &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1111/ajt.14732&quot;&gt;streamline&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;Are we putting patients at risk of a tunneled dialysis catheter infection that could have more significant complications&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Having a discussion with the patient’s transplant team to get a realistic time frame for the live donor surgery is going to be an important part of the decision making process. It will be a very different approach if a patient has a surgical date in 2 months versus a patient who has a potential donor but it is very early in the process. On the flip side, it would be important to share the information with patients so they are not getting discouraged with the wait times. Additionally, the decisions that they will make about dialysis options would be more informed.&lt;/p&gt;
-&lt;p&gt;This need is further amplified against the &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1111/ajt.16167&quot;&gt;backdrop of the COVID-19&lt;/a&gt; pandemic and it’s impact on transplantation. While healthcare systems around the world were overwhelmed by the influx of cases, there was a need to pause on “elective” procedures. Kidney transplantation rates fell as providers scrambled to balance the risk of immunosuppression and the risk of infection from COVID-19. The transplant evaluation process is further slowed by the inability to do in person visits for a multi-disclipinary team evaluation and delays in necessary testing for medical clearance as routine testing for things like mammograms and colonoscopy were on hold. Transplant centers are actively surveilling local rates of infections and mortality rates from COVID-19 and modifying evaluation and listing processes based on the resources available.&lt;/p&gt;
-&lt;p&gt;While there is desire to move forward with transplantation, it needs to be done in a way to maintain the safety of donors and recipients. Nephrologists need to recognize the fluid nature of the transplantation process and help guide their patients through this process.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2020/10/08/getting-real-about-kidney-transplant-timelines/&quot; rel=&quot;nofollow&quot;&gt;Getting real about kidney transplant timelines&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2020-10-08T16:10:04+00:00</dc:date>
-	<dc:creator>Sumeska Thavarajah</dc:creator>
-</item>
-<item rdf:about="http://snrp.utsa.edu/Podcast/43012715-c08c-46f0-b22f-15fe0b4e9f56">
-	<title>Neuroscientists talk shop: Michael Hasselmo PhD</title>
-	<link>http://snrp.utsa.edu/POD_html/Podcast/Entries/2020/10/8_Michael_Hasselmo_PhD.html</link>
-	<content:encoded>On October 8, 2020, University of Texas San Antonio neuroscientists sat down with Michael Hasselmo for an episode of Neuroscientists Talk Shop.  Charles J. Wilson, Isabel Muzzio, Francesco Savelli and Salma Quraishi chatted with him about how models have guided the search for neural correlates of episodic memory, from grid cells, to time representations to egocentric boundary cells. 
-
-Dr. Hasselmo is Warren Professor of Psychological &amp;amp; Brain Sciences &amp;amp; Director of the Center for Systems Neuroscience at Boston University  
-http://www.bu.edu/psych/profile/micha...
-
-Charles J. Wilson PhD is Ewing Halsell Chair of Biology at UTSA &amp;amp; Director of the UTSA Neurosciences Institute. https://marlin.life.utsa.edu
-
-Isabel Muzzio PhD is Associate Professor of Biology at UTSA. https://www.utsa.edu/biology/faculty/...
-Francesco Savelli PhD is Assistant Professor of Biology at UTSA. https://www.utsa.edu/biology/faculty/...
-Salma Quraishi PhD is Assistant Professor Research at UTSA &amp;amp; Associate Director of the UTSA Neurosciences Institute. https://neuroscience.utsa.edu
-
-Neuroscientists Talk Shop podcast: https://tinyurl.com/yxatz6fq
-UTSA Neurosciences Institute: https://neuroscience.utsa.edu
-The University of Texas San Antonio: https://www.utsa.edu
-
-acknowledgement: JM Tepper for original music.</content:encoded>
-	<dc:date>2020-10-08T15:08:15+00:00</dc:date>
-	<dc:creator>Michael Hasselmo PhD</dc:creator>
 </item>
 
 </rdf:RDF>
