@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.elsevier.com/connect/early-career-researchers-share-thoughts-on-life-under-coronavirus" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093933" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-employee-resource-groups-can-help-build-an-inclusive-culture" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/evolving-the-academic-conference-during-covid-and-beyond" />
@@ -164,11 +165,16 @@
 			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/81b2ae81-aea7-4585-9443-62b92f5a7f83" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5f8821c9ecb5636a92033310" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=716" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=52359" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.elsevier.com/connect/early-career-researchers-share-thoughts-on-life-under-coronavirus">
+	<title>Elsevier Connect: Early-career researchers share thoughts on life under coronavirus</title>
+	<link>https://www.elsevier.com/connect/early-career-researchers-share-thoughts-on-life-under-coronavirus</link>
+	<content:encoded>Winners of EuroScience award say life under Corona has posed challenges for their research – and a few opportunities</content:encoded>
+	<dc:date>2020-11-26T08:48:20+00:00</dc:date>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3093933">
 	<title>Science News: Coronavirus shutdowns don’t need to be all or nothing</title>
 	<link>https://www.sciencenews.org/article/coronavirus-covid-19-shutdowns-lockdowns-all-or-nothing</link>
@@ -4890,13 +4896,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 &lt;p&gt;&lt;a href=&quot;https://blog.arxiv.org/files/2020/10/CORE-Screen-Shot-2020-10-08-at-8.27.37-AM.png&quot;&gt;&lt;img alt=&quot;arXiv abstract page with CORE recommender&quot; class=&quot;alignnone size-large wp-image-717&quot; height=&quot;745&quot; src=&quot;https://blog.arxiv.org/files/2020/10/CORE-Screen-Shot-2020-10-08-at-8.27.37-AM-1024x745.png&quot; width=&quot;1024&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2020-10-15T14:00:34+00:00</dc:date>
 	<dc:creator>ame5</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=52359">
-	<title>For Better Science: The Adventures of a Mouse Malignancy Group Portraitist</title>
-	<link>https://forbetterscience.com/2020/10/15/the-adventures-of-a-mouse-malignancy-group-portraitist/</link>
-	<content:encoded>Smut Clyde was busy with yet another Chinese paper mill. A plastic ruler was deployed.</content:encoded>
-	<dc:date>2020-10-15T10:15:04+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
 </rdf:RDF>
