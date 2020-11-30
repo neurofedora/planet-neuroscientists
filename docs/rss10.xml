@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=53674" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093858" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/health/on-pivotal-mental-states" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120951" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18475" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=735" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-machine-learning-to-accelerate-materials-science" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/research-manager-shares-tips-to-succeed-in-a-post-covid-world" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=53674">
+	<title>For Better Science: Satoshi Kanazawa and other racist “Galileos”</title>
+	<link>https://forbetterscience.com/2020/11/30/satoshi-kanazawa-and-other-racist-galileos/</link>
+	<content:encoded>Outright racism and misogyny became rare in academia, eugenics and bigotry lurk these days not in Mankind Quarterly but in respected journals, wrapped in fancy genetics and neuroscience. Meet one of the last of the old school racist IQ psychologists, Satoshi Kanazawa.</content:encoded>
+	<dc:date>2020-11-30T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3093858">
 	<title>Science News: Betelgeuse went dark, but didn’t go supernova. What happened?</title>
 	<link>https://www.sciencenews.org/article/betelgeuse-star-dim-supernova-death-what-happened</link>
@@ -5216,12 +5223,6 @@ acknowledgement: JM Tepper for original music.</content:encoded>
 	<link>https://www.elsevier.com/connect/using-machine-learning-to-accelerate-materials-science</link>
 	<content:encoded>Award-winning researcher develops high-throughput software to automate the calculation of materials properties</content:encoded>
 	<dc:date>2020-10-19T08:41:58+00:00</dc:date>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/research-manager-shares-tips-to-succeed-in-a-post-covid-world">
-	<title>Elsevier Connect: Research manager shares tips to succeed in a post-COVID world</title>
-	<link>https://www.elsevier.com/connect/research-manager-shares-tips-to-succeed-in-a-post-covid-world</link>
-	<content:encoded>Dr. Charlotte Wray coordinates a birth cohort study on the relationships between childhood development and adult outcomes</content:encoded>
-	<dc:date>2020-10-16T09:57:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
