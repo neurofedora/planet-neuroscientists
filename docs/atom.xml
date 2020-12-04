@@ -5,8 +5,107 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2020-12-03T19:00:59+00:00</updated>
+	<updated>2020-12-04T08:00:52+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">The new light-based quantum computer Jiuzhang has achieved quantum supremacy</title>
+		<link href="https://www.sciencenews.org/article/new-light-based-quantum-computer-jiuzhang-supremacy"/>
+		<id>https://www.sciencenews.org/?p=3094070</id>
+		<updated>2020-12-03T19:00:27+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;A new type of quantum computer has proven that it can reign supreme, too.&lt;/p&gt;
+
+
+
+&lt;p&gt;A photonic quantum computer, which harnesses particles of light, or photons, &lt;a href=&quot;https://science.sciencemag.org/lookup/doi/10.1126/science.abe8770&quot;&gt;performed a calculation that’s impossible for a conventional computer&lt;/a&gt;, researchers in China report online December 3 in &lt;em&gt;Science&lt;/em&gt;. That milestone, known as quantum supremacy, has been met only once before, in 2019 by &lt;a href=&quot;https://www.sciencenews.org/article/google-quantum-computer-supremacy-claim&quot;&gt;Google’s quantum computer&lt;/a&gt; (&lt;em&gt;SN: 10/23/19&lt;/em&gt;). Google’s computer, however, is based on superconducting materials, not photons.&lt;/p&gt;
+
+
+
+&lt;p&gt;“This is the first independent confirmation of Google’s claim that you really can achieve quantum supremacy,” says theoretical computer scientist Scott Aaronson of the University of Texas at Austin. “That’s exciting.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Named Jiuzhang after an ancient Chinese mathematical text, the new quantum computer can perform a calculation in 200 seconds that would take more than half a billion years on the world’s fastest non-quantum, or classical, computer.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;“My first impression was, ‘wow,’” says quantum physicist Fabio Sciarrino of Sapienza University of Rome.&lt;/p&gt;
+
+
+
+&lt;p&gt;Google’s device, called Sycamore, is based on tiny quantum bits made of superconducting materials, which conduct energy without resistance. In contrast, Jiuzhang consists of a complex array of optical devices that shuttle photons around. Those devices include light sources, hundreds of beam splitters, dozens of mirrors and 100 photon detectors.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;quantum computer Jiuzhang&quot; class=&quot;wp-image-3094072&quot; height=&quot;383&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/12/120320_ec_quantum_inline_680.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3094072&quot;&gt;The quantum computer Jiuzhang manipulates light via a complex arrangement of optical devices (shown).&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3094072&quot;&gt;Hansen Zhong&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Employing a process called boson sampling, Jiuzhang generates a distribution of numbers that is exceedingly difficult for a classical computer to replicate. Here’s how it works: Photons are first sent into a network of channels. There, each photon encounters a series of beam splitters, each of which sends the photon down two paths simultaneously, in what’s called a quantum superposition. Paths also merge together, and the repeated splitting and merging causes the photons to interfere with one another according to quantum rules.&lt;/p&gt;
+
+
+
+&lt;p&gt;Finally, the number of photons in each of the network’s output channels is measured at the end. When repeated many times, this process produces a distribution of numbers based on how many photons were found in each output.&lt;/p&gt;
+
+
+
+&lt;p&gt;If operated with large numbers of photons and many channels, the quantum computer will produce a distribution of numbers that is too complex for a classical computer to calculate. In the new experiment, up to 76 photons traversed a network of 100 channels. For one of the world’s most powerful classical computers, the Chinese supercomputer Sunway TaihuLight, predicting the results that the quantum computer would get for anything beyond about 40 photons was intractable.&lt;/p&gt;
+
+
+
+&lt;p&gt;While Google was the first to break the quantum supremacy barrier, the milestone is “not a single-shot achievement,” says study coauthor and quantum physicist Chao-Yang Lu of the University of Science and Technology of China in Hefei. “It’s a continuous competition between constantly improved quantum hardware and constantly improved classical simulation.” After Google’s quantum supremacy claim, for example, IBM proposed a type of calculation that might allow a supercomputer to perform the task Google’s computer completed, at least theoretically.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;And achieving quantum supremacy doesn’t necessarily indicate that the quantum computers are yet very useful, because the calculations are esoteric ones designed to be difficult for classical computers.&lt;/p&gt;
+
+
+
+&lt;p&gt;The result does boost the profile of photonic quantum computers, which haven’t always received as much attention as other technologies, says quantum physicist Christian Weedbrook, CEO of Xanadu, a Toronto-based company focused on building photonic quantum computers.  “Historically, photonics has been the dark horse.”&lt;/p&gt;
+
+
+
+&lt;p&gt;One limitation of Jiuzhang, Weedbrook notes, is that it can perform only a single type of task, namely, boson sampling. In contrast, Google’s quantum computer could be programmed to execute a variety of algorithms. But other types of photonic quantum computers, including Xanadu’s, are programmable.&lt;/p&gt;
+
+
+
+&lt;p&gt;Demonstrating quantum supremacy with a different type of device reveals how rapidly quantum computing is progressing, Sciarrino says. “The fact that now the two different platforms are able to achieve this regime … shows that the whole field is advancing in a very mature way.”&lt;/p&gt;</content>
+		<author>
+			<name>Emily Conover</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2020-12-04T08:00:45+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-gb">FlashSci Talks: Insights from research leaders</title>
+		<link href="https://www.elsevier.com/connect/flashsci-talks"/>
+		<id>https://www.elsevier.com/connect/flashsci-talks</id>
+		<updated>2020-12-03T17:45:01+00:00</updated>
+		<content type="html">
+ Elsevier’s new video series features short interviews with research leaders on topical issues for universities</content>
+		<author>
+			<name>Elsevier Connect</name>
+			<uri></uri>
+		</author>
+		<source>
+			<title type="html">Elsevier Connect</title>
+			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
+			<id>https://www.elsevier.com/connect/feed</id>
+			<updated>2020-12-04T08:00:46+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">Ancient humans may have deliberately voyaged to Japan’s Ryukyu Islands</title>
@@ -66,7 +165,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -372,7 +471,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -412,7 +511,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -458,7 +557,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -565,7 +664,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -803,7 +902,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -949,7 +1048,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1035,7 +1134,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1147,7 +1246,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1166,7 +1265,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1319,7 +1418,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1401,7 +1500,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1444,7 +1543,7 @@ brain’s structural architecture.&lt;/p&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2020-12-03T18:48:59+00:00</updated>
+			<updated>2020-12-04T01:20:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -1533,7 +1632,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1599,7 +1698,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1639,7 +1738,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1660,7 +1759,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-12-03T19:00:46+00:00</updated>
+			<updated>2020-12-04T08:00:42+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -2052,7 +2151,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2073,7 +2172,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-12-03T19:00:46+00:00</updated>
+			<updated>2020-12-04T08:00:42+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -2296,7 +2395,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-12-03T19:00:46+00:00</updated>
+			<updated>2020-12-04T08:00:42+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -2336,7 +2435,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2536,7 +2635,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2555,7 +2654,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2574,7 +2673,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2857,7 +2956,7 @@ We are already changing over our OCR to Tesseract/OCRopus and leveraging many PD
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3057,7 +3156,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3202,7 +3301,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3222,7 +3321,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3320,7 +3419,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3442,7 +3541,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3482,43 +3581,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Newton’s groundbreaking Principia may have been more popular than previously thought</title>
-		<link href="https://www.sciencenews.org/article/isaac-newton-groundbreaking-principia-book-popular"/>
-		<id>https://www.sciencenews.org/?p=3093780</id>
-		<updated>2020-11-23T13:00:00+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;Isaac Newton’s 17th century book, the &lt;em&gt;Principia&lt;/em&gt;, gave the famed English scientist a reputation: “[T]here goes the man that writt a book that neither he nor any body else understands,” a Cambridge student is said to have remarked as Newton passed by one day.&lt;/p&gt;
-
-
-
-&lt;p&gt;Likewise, historians have assumed that only a select few scientists and mathematicians were able to comprehend the highly technical book, which introduced game-changing physics concepts such as the universal law of gravitation.&lt;/p&gt;
-
-
-
-&lt;p&gt;But a new census, described September 2 in &lt;em&gt;Annals of Science&lt;/em&gt;, of the remaining copies of the book’s first edition suggests that the student’s quip was misleading. “An anecdote only tells you part of the story,” says study coauthor and historian of science Mordechai Feingold of Caltech.&lt;/p&gt;
-
-
-
-&lt;p&gt;A 1950s search found only 189 copies of the first edition, &lt;a href=&quot;https://www.sciencenews.org/archive/celebrating-newton&quot;&gt;published in 1687&lt;/a&gt; under the full title &lt;em&gt;Philosophiae Naturalis Principia Mathematica&lt;/em&gt; (&lt;em&gt;SN: 7/4/87&lt;/em&gt;). But Feingold and his former student Andrej Svorenčík, now at the University of Mannheim in Germany, &lt;a href=&quot;https://www.tandfonline.com/toc/tasc20/77/3?nav=tocList&quot;&gt;unearthed 386 copies&lt;/a&gt;, suggesting a more substantial readership.&lt;/p&gt;
-
-
-
-&lt;p&gt;By tracking down original owners and studying the annotations that readers made, the researchers conclude that, in addition to scientists, well-educated laypeople were reading the book too.&lt;/p&gt;</content>
-		<author>
-			<name>Emily Conover</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
-			<updated>2020-12-03T19:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3558,7 +3621,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3638,7 +3701,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Reviews and commentary on computational biology by Lior Pachter</subtitle>
 			<link rel="self" href="https://liorpachter.wordpress.com/feed/"/>
 			<id>https://liorpachter.wordpress.com</id>
-			<updated>2020-12-03T19:00:50+00:00</updated>
+			<updated>2020-12-04T08:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -3835,7 +3898,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3874,7 +3937,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4190,7 +4253,7 @@ cortical depth.&lt;/p&gt;
 			<subtitle type="html">Reviews and commentary on computational biology by Lior Pachter</subtitle>
 			<link rel="self" href="https://liorpachter.wordpress.com/feed/"/>
 			<id>https://liorpachter.wordpress.com</id>
-			<updated>2020-12-03T19:00:50+00:00</updated>
+			<updated>2020-12-04T08:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -4209,7 +4272,7 @@ cortical depth.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4387,7 +4450,7 @@ cortical depth.&lt;/p&gt;
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2020-12-03T19:00:50+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4442,7 +4505,7 @@ cortical depth.&lt;/p&gt;
 			<title type="html">Elsevier Connect</title>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-12-02T14:00:49+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4501,7 +4564,7 @@ cortical depth.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4827,7 +4890,7 @@ Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 East
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -5199,7 +5262,7 @@ Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 East
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -5863,7 +5926,7 @@ The paper raises the question that preprints are misused by the news media. In r
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -6075,7 +6138,7 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-12-03T19:00:46+00:00</updated>
+			<updated>2020-12-04T08:00:42+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6099,7 +6162,7 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2020-12-03T18:48:59+00:00</updated>
+			<updated>2020-12-04T01:20:02+00:00</updated>
 		</source>
 	</entry>
 
@@ -6261,7 +6324,7 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -6319,7 +6382,7 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2020-12-03T08:00:47+00:00</updated>
+			<updated>2020-12-04T08:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -6340,7 +6403,7 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2020-12-03T19:00:46+00:00</updated>
+			<updated>2020-12-04T08:00:42+00:00</updated>
 			<rights type="html">Copyright © 2020 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6847,25 +6910,6 @@ acknowledgement: JM Tepper for original music.</content>
 			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
 			<id>https://www.elsevier.com/connect/feed</id>
 			<updated>2020-11-12T19:00:41+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-gb">5 ways clinical pathways can improve oncology care</title>
-		<link href="https://www.elsevier.com/connect/5-ways-clinical-pathways-can-improve-oncology-care"/>
-		<id>https://www.elsevier.com/connect/5-ways-clinical-pathways-can-improve-oncology-care</id>
-		<updated>2020-10-22T12:39:30+00:00</updated>
-		<content type="html">
- High-quality pathways support the standardization of oncology care, helping your institution perform more predictably and sustainably in value-based models</content>
-		<author>
-			<name>Elsevier Connect</name>
-			<uri></uri>
-		</author>
-		<source>
-			<title type="html">Elsevier Connect</title>
-			<link rel="self" href="https://www.elsevier.com/connect/feed"/>
-			<id>https://www.elsevier.com/connect/feed</id>
-			<updated>2020-11-11T19:00:41+00:00</updated>
 		</source>
 	</entry>
 
