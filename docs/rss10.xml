@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://ptrrupprecht.wordpress.com/?p=6665" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3094367" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3094316" />
+			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40981" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121005" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3094178" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2020-12-09:/2020/12/09/a-comparison-between-mouse-in-silico-and-robot-odor-plume-navigation-reveals-advantages-of-mouse-odor-tracking.html" />
@@ -63,8 +67,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093992" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/7-challenges-to-overcome-for-a-more-inclusive-research-ecosystem" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40930" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093766" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3093944" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=120959" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-2647065696922753606" />
 			<rdf:li rdf:resource="https://jisc.onlinesurveys.ac.uk/what-do-you-think-about-publishing-open-access-academic-bo" />
@@ -147,7 +149,6 @@
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2020-11-06:/2020/11/06/navigation-along-windborne-plumes-of-pheromone-and-resource-linked-odors.html" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40767" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12159" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40758" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/nurses-are-vital-in-safeguarding-children-against-covid-fallout" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=52950" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5f9fecad03e56c25d6594d40" />
@@ -164,11 +165,156 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=52774" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/recording-brain-activity-through-the-mouth" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18507" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/ai-big-data-cybersecurity-and-iot-in-the-era-of-coronavirus" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://ptrrupprecht.wordpress.com/?p=6665">
+	<title>Peter Rupprecht: Hodgkin-Huxley model in current clamp and voltage clamp</title>
+	<link>https://ptrrupprecht.wordpress.com/2020/12/09/hodgkin-huxley-model-in-current-clamp-and-voltage-clamp/</link>
+	<content:encoded>&lt;p&gt;As a short modeling session for an electrophysiology course at the University of Zurich, I made a short programming tutorial for students to play around with the Hodgkin-Huxley equations in a Colab Notebook / Python. You’ll find the code online on a small Github repository: &lt;a href=&quot;https://github.com/PTRRupprecht/Hodgkin-Huxley-CC-VC&quot; rel=&quot;nofollow&quot;&gt;https://github.com/PTRRupprecht/Hodgkin-Huxley-CC-VC&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;The Python Notebook can be used without installation, by using Google’s computing resources, so the students do not need to install Python to work with the code.&lt;/p&gt;
+
+
+
+&lt;p&gt;A nice aspect of this toy exercise for students is that they can not only explore by themselves the Hodgkin-Huxley equations in a minimalistic code. In addition, they can also replicate experiments they have done while patching cells in slices (voltage clamp, identification of active conductances) in silico.&lt;/p&gt;
+
+
+
+&lt;p&gt;It is really an interesting thing to be able to reproduce the experimental techniques current clamp (recording the membrane potential) and voltage clamp (recording the currents while clamping the voltage to a constant value), because this also allows to replicate the experiments and plots generated experimentally by &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392413/&quot;&gt;Hodgkin and Huxley&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Below, you see a part of the code, the result of a simulation of a Hodgkin-Huxley model. The top configuration was run in current clamp, with a 40 ms current pulse injected, which triggered a single action potential. The lower configuration was run in voltage clamp, with the holding potential stepping from -70 mV to -30 mV between 40 and 80 ms. You can clearly see the active conductanves (deactivating sodium conductance in blue and non-deactivating potassium conductance in orange):&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-6670&quot; data-attachment-id=&quot;6670&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;hh_examples&quot; data-large-file=&quot;https://ptrrupprecht.files.wordpress.com/2020/12/hh_examples.png?w=640&quot; data-medium-file=&quot;https://ptrrupprecht.files.wordpress.com/2020/12/hh_examples.png?w=300&quot; data-orig-file=&quot;https://ptrrupprecht.files.wordpress.com/2020/12/hh_examples.png&quot; data-orig-size=&quot;736,392&quot; data-permalink=&quot;https://ptrrupprecht.wordpress.com/hh_examples/&quot; src=&quot;https://ptrrupprecht.files.wordpress.com/2020/12/hh_examples.png?w=736&quot; /&gt;&lt;/figure&gt;</content:encoded>
+	<dc:date>2020-12-09T16:24:15+00:00</dc:date>
+	<dc:creator>P.T.R. Rupprecht</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3094367">
+	<title>Science News: In the past 15 years, climate change has transformed the Arctic</title>
+	<link>https://www.sciencenews.org/article/climate-change-arctic-warming-noaa-report-card-2020</link>
+	<content:encoded>&lt;p&gt;Fifteen years of grading warming’s impact on the Arctic has made one thing abundantly clear: Climate change has drastically altered the Arctic in that short time period.&lt;/p&gt;
+
+
+
+&lt;p&gt;Breaking unfortunate records is “like whack-a-mole,” says Jackie Richter-Menge, a climate scientist at the University of Alaska Fairbanks and an editor of the &lt;a href=&quot;https://arctic.noaa.gov/Report-Card/Report-Card-2020&quot;&gt;2020 Arctic Report Card&lt;/a&gt;, released December 8 at the virtual meeting of the American Geophysical Union. From sea ice lows to temperature highs, records keep popping up all over the place. For instance, in June, a &lt;a href=&quot;https://www.sciencenews.org/article/siberia-verkhoyansk-record-heat-wave-arctic-circle&quot;&gt;record-high 38° Celsius (100.4° Fahrenheit) temperature&lt;/a&gt; was recorded in the Arctic Circle (&lt;em&gt;SN:6/23/20&lt;/em&gt;). And in 2018, &lt;a href=&quot;https://www.sciencenews.org/article/climate-change-bering-sea-ice-winter-melt-lowest-level&quot;&gt;winter ice on the Bering Sea shrank&lt;/a&gt; to a 5,500 year low (&lt;em&gt;SN:9/3/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;“But quite honestly, the biggest headline is the persistence and robustness of the warming,” Richter-Menge says. In 2007, only a year after the first Arctic Report Card, summer sea ice reached a record low, shrinking to an area 1.6 million square kilometers smaller than the previous year. Then, only five years later, the report card noted a new low, 18 percent below 2007. In 2020, sea ice didn’t set a record but not for lack of trying: It still was the second lowest on record in the last 42 years.  &lt;/p&gt;
+
+
+
+&lt;p&gt;“The transformation of the Arctic to a warmer, less frozen and biologically changed region is well under way,” the report concludes. And it’s changing faster than expected when researchers launched the report card in 2006. The annual average air temperature in the Arctic is rising two to three times faster than the rest of the globe, Richter-Menge says. Over the last 20 years, it’s warmed at a rate of 0.77 degrees C per decade, compared with the global average of 0.29 degrees C per decade.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Improvements in research techniques over the last 15 years have helped researchers more thoroughly observe warming’s impact and how different aspects of Arctic climate change are linked to one another, she says. These improvements include the ability to measure ice mass via gravity measurements taken by the Gravity Recovery and Climate Experiment (GRACE) satellite. Other satellites have provided additional observations from above while on-the-ground measurements, such as by the Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAiC), have &lt;a href=&quot;https://www.sciencenews.org/article/arctic-winter-night-food-web-life-microbes-expedition-north-pole&quot;&gt;provided up-close sea ice measurements&lt;/a&gt; (&lt;em&gt;SN:4/8/20&lt;/em&gt;). The report has also begun to include on-the-ground &lt;a href=&quot;https://www.sciencenews.org/article/arctic-report-card-how-poor-environmental-health-affects-everyday-life&quot;&gt;observations of the Arctic’s Indigenous people&lt;/a&gt;, who experiences these changes directly (&lt;em&gt;SN:12/11/19&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;The changes have revealed few bright spots but one is the rebound of bowhead whales, which were hunted almost to extinction around the turn of the 20th century. While researchers are careful to note that the whales are still vulnerable, the four populations of the whales (&lt;em&gt;Balaena mysticetus&lt;/em&gt;) now range from 218 in the Okhotsk Sea to around 16,800 in the Bering, Chukchi and Beaufort seas. Researchers suggest that the whales’ rebound is due, at least in part, to the warming that has occurred over the last 30 years. Earlier sea ice melting and warmer surface water means more krill and other food for these baleen feeders.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;bowhead whale&quot; class=&quot;wp-image-3094369&quot; height=&quot;383&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/12/120820_cc_arctic-report_inline_680.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3094369&quot;&gt;In a rare bit of good news from the Arctic, researchers report that bowhead whales are on the rebound. Unfortunately, the same warming that has aided the whales has melted ice sheets and increased hardships for Indigenous hunters.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3094369&quot;&gt;Nature Picture Library/Alamy Stock Photo&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;But don’t be fooled. The potential good news is overshadowed by the bad news. There’s been “this accumulation of knowledge and insights that we’ve gained over 15 years,” says Mark Serreze, a climate scientist at the National Snow and Ice Data Center in Boulder, Colo., who wasn’t involved in this year’s report. The 2020 research is “an exclamation point on the changes that have been unfolding,” he says. “The bowhead whales are doing OK, but that’s about it.”&lt;/p&gt;</content:encoded>
+	<dc:date>2020-12-09T16:16:20+00:00</dc:date>
+	<dc:creator>Curtis Segarra</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3094316">
+	<title>Science News: Enormous X-ray bubbles balloon from the center of the Milky Way</title>
+	<link>https://www.sciencenews.org/article/x-ray-bubbles-center-milky-way-galaxy</link>
+	<content:encoded>&lt;p&gt;Two giant, mysterious bubbles spew from the Milky Way’s heart, and now it appears the bubbles may have doubles.&lt;/p&gt;
+
+
+
+&lt;p&gt;Scientists have known for a decade that two bubbles of charged particles, or plasma, flank the plane of the Milky Way. Those structures, &lt;a href=&quot;https://www.sciencenews.org/article/milky-ways-black-hole-may-blow-bubbles&quot;&gt;known as the Fermi bubbles&lt;/a&gt; after the telescope that detected them, are visible in high-energy light called gamma rays (&lt;em&gt;SN: 11/9/10&lt;/em&gt;). But now, the eROSITA X-ray telescope has revealed larger bubbles, seen in X-rays. The X-ray bubbles extend about &lt;a href=&quot;https://www.nature.com/articles/s41586-020-2979-0&quot;&gt;45,000 light-years above and below the center of the galaxy&lt;/a&gt;, researchers report online December 9 in &lt;em&gt;Nature&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Previously, researchers had seen an &lt;a href=&quot;https://www.sciencenews.org/article/xray-map-sky-erosita-telescope-milky-way&quot;&gt;X-ray arc&lt;/a&gt; above the galactic plane (&lt;em&gt;SN: 7/8/20&lt;/em&gt;). But no such feature was evident below the plane of the galaxy. That lack of symmetry led some scientists to discount the possibility of X-ray bubbles. With the new results, “this argument now has fallen,” says study coauthor Andrea Merloni, an astronomer at the Max Planck Institute for Extraterrestrial Physics in Garching, Germany. The eROSITA data reveal a faint and previously unknown bubble below the galactic plane, and a matching bubble above. The gamma-ray bubbles are nested inside the X-ray bubbles, suggesting that the two features are connected, says Merloni.&lt;/p&gt;
+
+
+
+&lt;p&gt;Studying the bubbles could help reveal violent events that may have taken place in the galaxy’s past. The supermassive black hole at the center of the Milky Way is currently fairly quiet, as far as black holes go. But a past feeding frenzy might have spewed its leftovers outward, forming the structures. Or the bubbles could have been the result of a period when many stars formed and exploded in the galaxy’s heart. Further study of the X-ray and gamma-ray bubbles could help reveal the cause.&lt;/p&gt;</content:encoded>
+	<dc:date>2020-12-09T16:00:00+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="http://digest.bps.org.uk/?p=40981">
+	<title>The British Psychological Society - Research Digest: Why Are We Better At Remembering Vocal Melodies Than Instrumental Tunes?</title>
+	<link>https://digest.bps.org.uk/2020/12/09/why-are-we-better-at-remembering-vocal-melodies-than-instrumental-tunes/</link>
+	<content:encoded>&lt;p&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;Matthew Warren&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;When it comes to memory for music, humans show an interesting quirk: we’re better at remembering melodies that are sung by voice, compared to those played on an instrument. Even a melody sung without any lyrics — just a series of &lt;em&gt;la la las&lt;/em&gt;, for instance — becomes lodged in our memory in a way that a tune played on the piano, say, does not.&lt;/p&gt;
+
+
+
+&lt;span id=&quot;more-40981&quot;&gt;&lt;/span&gt;
+
+
+
+&lt;p&gt;Now a &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0010027720303334&quot;&gt;new study published in &lt;em&gt;Cognition&lt;/em&gt;&lt;/a&gt; has looked into &lt;em&gt;why &lt;/em&gt;our memory is so much better for sung melodies. Researchers have suggested that listening to a voice singing a melody leads us to perform “subvocalisations” — internal speech that involves tiny movements of the muscles involved in speaking (you’re probably doing it right now as you read this text). But we can’t mimic an instrumental piece in the same way. After all, it’s easy to repeat “la la la” in your head, but not to reproduce the sound of piano keys.&lt;/p&gt;
+
+
+
+&lt;p&gt;Psychologists already know that this kind of silent rehearsal boosts memory for words — and that memory is impaired if we speak or make movements of the mouth and tongue, which interferes with these subvocalisations. So, theorised Michael Weiss and colleagues at the University of Montreal, if a similar process is responsible for our superior memory for vocal melodies, then people’s memory should be compromised if they make other mouth movements or sounds while listening.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the first study, the team asked 38 participants to listen to 24 melodies, which were based on British and Irish folk tunes. Half of the tunes were played on the piano, and half were sung (as “la la la”). While listening to the melodies, half of the participants chewed gum vigorously, while the others squeezed a bean bag with their hand.&lt;/p&gt;
+
+
+
+&lt;p&gt;After taking a break to fill in questionnaires, the participants then completed a surprise recognition task, in which they heard the same 24 melodies as well as 24 new ones. They simply had to indicate whether or not they had heard each tune previously.&lt;/p&gt;
+
+
+
+&lt;p&gt;Similar to the findings of past work, participants were better at recognising the vocal melodies than the piano ones. But this “voice advantage” was the same whether participants had been chewing gum or squeezing the bean bag while listening. That is, the chewing motion — which uses the same muscles as articulating a word— had no effect on participants’ memory, suggesting that silent rehearsal &lt;em&gt;wasn’t&lt;/em&gt; responsible for their superior recognition of the sung tunes.&lt;/p&gt;
+
+
+
+&lt;p&gt;Still, chewing gum is considerably different from actually mouthing words or making sounds, so might not be enough to interfere with any subvocalisations. So next, the team asked a new group of participants to either mouth “la” over and over again (without making any noise), or make a humming sound. In a subsequent study, participants whispered “la la la”.&lt;/p&gt;
+
+
+
+&lt;p&gt;In both studies, participants still recognised the vocal melodies better than the piano ones, despite making mouth movements or sounds. This again suggested that silent rehearsal of the sung melodies wasn’t responsible for boosting participants’ memories.&lt;/p&gt;
+
+
+
+&lt;p&gt;It’s worth noting that there wasn’t a control group in either of these studies, which makes it hard to completely rule out the possibility that making mouth movements or sounds could have &lt;em&gt;reduced&lt;/em&gt; memory for vocal melodies, even if it didn’t entirely get rid of the memory advantage over instrumental tunes. However, the team did compare their results with an earlier study, in which participants listened to vocal and instrumental melodies &lt;em&gt;without&lt;/em&gt; doing a task, and found no difference in memory performance between the two papers.&lt;/p&gt;
+
+
+
+&lt;p&gt;Overall, then, the studies suggest that our superior memory for sung melodies isn’t down to internal, silent rehearsal of the tunes. So what could explain the effect? Well, perhaps it’s just that humans are more attuned to voices than other sounds, the authors say. “The best current account of the voice advantage in memory remains that the voice is special, by virtue of being a conspecific, communicative, and biological signal, which is more engaging or distinctive to listeners than instrumental sounds,” they conclude.&lt;/p&gt;
+
+
+
+&lt;p&gt;– &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0010027720303334&quot;&gt;The singing voice is special: Persistence of superior memory for vocal melodies despite vocal-motor distractions&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Matthew Warren (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;&lt;strong&gt;@MattBWarren&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;) is Editor of &lt;/strong&gt;&lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;&lt;strong&gt;BPS Research Digest&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2020-12-09T14:37:39+00:00</dc:date>
+	<dc:creator>BPS Research Digest</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=121005">
 	<title>Retraction watch: Authors of meta-analysis on heart disease retract it when they realize a NEJM reference had been retracted</title>
 	<link>https://retractionwatch.com/2020/12/09/authors-of-meta-analysis-on-heart-disease-retract-it-when-they-realize-a-nejm-reference-had-been-retracted/</link>
@@ -2651,152 +2797,6 @@ brain’s structural architecture.&lt;/p&gt;
 	<dc:date>2020-12-01T15:03:46+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3093766">
-	<title>Science News: Astronomers spotted colliding neutron stars that may have formed a magnetar</title>
-	<link>https://www.sciencenews.org/article/astronomers-spotted-colliding-neutron-stars-magnetar</link>
-	<content:encoded>&lt;p&gt;A surprisingly bright cosmic blast might have marked the birth of a magnetar. If so, it would be the first time that astronomers have witnessed the formation of this kind of rapidly spinning, extremely magnetized stellar corpse.&lt;/p&gt;
-
-
-
-&lt;p&gt;That &lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2020arXiv200808593F/abstract&quot;&gt;dazzling flash of light&lt;/a&gt; was made when two neutron stars collided and merged into one massive object, astronomers report in an upcoming issue of the&lt;em&gt; Astrophysical Journal&lt;/em&gt;. Though the especially bright light could mean that a magnetar was produced, other explanations are possible, the researchers say.&lt;/p&gt;
-
-
-
-&lt;p&gt;Astrophysicist Wen-fai Fong of Northwestern University in Evanston, Ill., and colleagues first spotted the site of the neutron star crash as a burst of gamma-ray light detected with NASA’s orbiting Neil Gehrels Swift Observatory on May 22. Follow-up observations in X-ray, visible and infrared wavelengths of light showed that the gamma rays were accompanied by a characteristic glow called a kilonova.&lt;/p&gt;
-
-
-
-&lt;p&gt;Kilonovas are thought to form after two neutron stars, the ultradense cores of dead stars, collide and merge. The merger sprays neutron-rich material “not seen anywhere else in the universe” around the collision site, Fong says. That material &lt;a href=&quot;https://www.sciencenews.org/article/strontium-heavy-element-neutron-star-merger&quot;&gt;quickly produces unstable heavy elements&lt;/a&gt;, and those elements soon decay, heating the neutron cloud and making it glow in optical and infrared light (&lt;em&gt;SN: 10/23/19&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
-
-&lt;/div&gt;A new study finds that two neutron stars collided and merged, producing an especially bright flash of light and possibly creating a kind of rapidly spinning, extremely magnetized stellar corpse called a magnetar (shown in this animation). &lt;/figure&gt;
-
-
-
-&lt;p&gt;Astronomers think that kilonovas form every time a pair of neutron stars merge. But mergers produce other, brighter light as well, which can swamp the kilonova signal. As a result, astronomers have seen &lt;a href=&quot;https://www.sciencenews.org/article/neutron-star-collision-gravitational-waves&quot;&gt;only one definitive kilonova before&lt;/a&gt;, in August 2017, though there are other potential candidates (&lt;em&gt;SN: 10/16/17&lt;/em&gt;).&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;The glow that Fong’s team saw, however, put the 2017 kilonova to shame. “It’s potentially the most luminous kilonova that we’ve ever seen,” she says. “It basically breaks our understanding of the luminosities and brightnesses that kilonovae are supposed to have.”&lt;/p&gt;
-
-
-
-&lt;p&gt;The biggest difference in brightness was in infrared light, measured by the Hubble Space Telescope about 3 and 16 days after the gamma-ray burst. That light was 10 times as bright as infrared light seen in previous neutron star mergers.&lt;/p&gt;
-
-
-
-&lt;p&gt;“That was the real eye-opening moment, and that’s when we scrambled to find an explanation,” Fong says. “We had to come up with an extra source [of energy] that was boosting that kilonova.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Her favorite explanation is that the crash produced a magnetar, which is a type of neutron star. Normally, when neutron stars merge, the mega-neutron star that they produce is too heavy to survive. Almost immediately, the star succumbs to intense gravitational forces and produces a black hole.&lt;/p&gt;
-
-
-
-&lt;p&gt;But if the supermassive neutron star is spinning rapidly and is highly magnetically charged (in other words, is a magnetar), it could save itself from collapsing. Both the support of its own rotation and dumping energy, and thus some mass, into the surrounding neutron-rich cloud could keep the star from turning into a black hole, the researchers suggest. That extra energy in turn would make the cloud give off more light — the extra infrared glow that Hubble spotted.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;But there are other possible explanations for the extra bright light, Fong says. If the colliding neutron stars produced a black hole, that black hole could have &lt;a href=&quot;https://www.sciencenews.org/article/colliding-neutron-stars-light-speed-space&quot;&gt;launched a jet of charged plasma&lt;/a&gt; moving at nearly the speed of light (&lt;em&gt;SN: 2/22/19&lt;/em&gt;). The details of how the jet interacts with the neutron-rich material surrounding the collision site could also explain the extra kilonova glow, she says.&lt;/p&gt;
-
-
-
-&lt;p&gt;If a magnetar was produced, “that could tell us something about the stability of neutron stars and how massive they can get,” Fong says. “We don’t know the maximum mass of neutron stars, but we do know that in most cases they would collapse into a black hole [after a merger]. If a neutron star did survive, it tells us about under what conditions a neutron star can exist.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Finding a baby magnetar would be exciting, says astrophysicist Om Sharan Salafia of Italy’s National Institute for Astrophysics in Merate, who was not involved in the new research. “A newborn highly magnetized, highly rotating neutron star that forms from the merger of two neutron stars has never been observed before,” he says.&lt;/p&gt;
-
-
-
-&lt;p&gt;But he agrees that it’s too soon to rule out other explanations. What’s more, recent computer simulations suggest that it might be difficult to see a newborn magnetar even if it formed, he says. “I wouldn’t say this is settled.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Observing how the object’s light behaves over the next four months to six years, Fong and her colleagues have calculated, will prove whether or not a magnetar was born.&lt;/p&gt;
-
-
-
-&lt;p&gt;Fong herself plans to keep following up on the mysterious object with existing and future observatories for a long time. “I’ll be tracking this till I’m old and grey, probably,” she says. “I’ll train my students to do it, and their students.”&lt;/p&gt;</content:encoded>
-	<dc:date>2020-12-01T13:00:00+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3093944">
-	<title>Science News: Long-lasting shots work better than daily pills to prevent HIV in at-risk women</title>
-	<link>https://www.sciencenews.org/article/hiv-prevention-women-prep-truvada-pill-shot</link>
-	<content:encoded>&lt;p&gt;Worldwide, nearly half of new HIV infections among adults in 2019 occurred in women. Yet a long list of obstacles has kept many women from taking advantage of medicine that can prevent an HIV infection.&lt;/p&gt;
-
-
-
-&lt;p&gt;Recent, promising news about a different HIV prevention regimen could help. A long-acting injection of an HIV drug given once every eight weeks was safe and more effective in preventing infection in women than a daily pill of two HIV drugs, a large clinical trial found.&lt;/p&gt;
-
-
-
-&lt;p&gt;“This is incredibly exciting,” says infectious disease physician Bisola Ojikutu of Brigham and Women’s Hospital and Massachusetts General Hospital in Boston, who was not involved in the trial. If the injection is approved by the U.S. Food and Drug Administration, she says, women will have the option of a discretely administered HIV prevention drug that doesn’t require daily attention.&lt;/p&gt;
-
-
-
-&lt;p&gt;Although women make up a minority of those newly diagnosed with HIV in the United States, &lt;a href=&quot;https://www.cdc.gov/mmwr/volumes/69/wr/mm6946a1.htm?s_cid=mm6946a1_w&quot;&gt;their HIV-related death rate&lt;/a&gt;, 5.4 per 1,000 people with diagnoses, was higher than that of males (4.5 per 1,000) or transgender women (4.3 per 1,000) in 2017, researchers report November 20 in &lt;em&gt;Morbidity and Mortality Weekly Report&lt;/em&gt;.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Women face many barriers when it comes to protecting themselves against an HIV infection. A &lt;a href=&quot;https://www.sciencenews.org/article/hiv-aids-undetectable-virus-means-untransmittable-disease&quot;&gt;woman’s HIV risk&lt;/a&gt; is tied not only to measures within her control, but also to the amount of HIV transmission in her community, whether she has reliable health care and whether she lives in poverty or experiences intimate partner violence (&lt;em&gt;SN: 11/15/19&lt;/em&gt;). But studies have found that women at high risk due to societal factors tend to underestimate their individual risk.&lt;/p&gt;
-
-
-
-&lt;p&gt;Most cisgender women acquire HIV during heterosexual contact; women have twice the risk that men do of contracting HIV during vaginal sex with an infected partner. Condoms are a helpful HIV prevention tool but their use is not fully under a woman’s control. Medicine to prevent an infection in an HIV-negative person at risk, called pre-exposure prophylaxis or PrEP, was approved in the United States in 2012. Taken consistently, the daily pill form of PrEP can lower the risk of getting HIV during vaginal sex by up to 90 percent, and as much as 99 during anal sex.&lt;/p&gt;
-
-
-
-&lt;p&gt;Even if a woman knows she’s at heightened risk for HIV, she may not know about PrEP. Awareness and use of the PrEP pill, called Truvada, in the United States remains low among women; they were only &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6286244/&quot;&gt;6 percent of the more than 100,000 U.S. users&lt;/a&gt; in 2017, according to a 2018 &lt;em&gt;Annals of Epidemiology&lt;/em&gt; study of a national prescription database. And for women taking the PrEP pill, sticking to the daily routine can be challenging, due to side effects from the medication or because of stigma, studies have found.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Most of my female patients living with HIV have told nobody,” says Ojikutu. That stigma can extend to the PrEP pill. Taking a daily medicine to prevent HIV can appear to others as if the person is getting treatment for HIV.&lt;/p&gt;
-
-
-
-&lt;p&gt;Fears that family and friends would assume they were HIV-positive or that a partner would accuse them of infidelity were among those &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5708581/&quot;&gt;raised about PrEP by women&lt;/a&gt; in the Washington D.C. area, researchers reported in the &lt;em&gt;Journal of AIDS Clinical Research&lt;/em&gt; in 2017. Adolescent girls and young women in Zimbabwe and South Africa were also &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/full/10.1002/jia2.25463&quot;&gt;worried about being thought HIV-positive&lt;/a&gt; or being called promiscuous if they took PrEP, according to a March 2020 study in the &lt;em&gt;Journal of the International AIDS Society&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;A nurse prepares prepares to test a woman for HIV&quot; class=&quot;wp-image-3093949&quot; height=&quot;450&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/11/112320_ac_hiv-prep_inline1-677x450.jpg&quot; width=&quot;677&quot; /&gt;&lt;span class=&quot;caption wp-caption-3093949&quot;&gt;A woman in Mozambique gets tested for HIV in 2014. Women in east and southern Africa bear the brunt of the HIV epidemic. Some 12.3 million women and adolescent girls age 15 and older are living with HIV in this region, according to UNAIDS.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3093949&quot;&gt;GIANLUIGI GUERCIA/AFP via Getty Images&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Having a more discreet way to take PrEP — such as an infrequent injection — could be appealing for many women. “It’s private,” says infectious disease physician Mina Hosseinipour of the University of North Carolina School of Medicine in Chapel Hill. “This just allows [women] a lot of autonomy.”&lt;/p&gt;
-
-
-
-&lt;p&gt;In the Phase III trial, which began in 2017, Hosseinipour and her colleagues enrolled more than 3,000 HIV-negative, sexually active cisgender women ages 18 to 45 in east and southern Africa. In this region, women accounted for 61 percent of new HIV infections among those 15 and older in 2019, with young women making up 73 percent of new infections among 15- to 24-year-olds, according to UNAIDS. These women are not always able “to advocate for themselves and their prevention needs,” because of their societal position and vulnerability, says Hosseinipour, who has lived and worked in Malawi, in southeastern Africa, since 2001.&lt;/p&gt;
-
-
-
-&lt;p&gt;The trial participants were randomly assigned to receive an injection of the HIV drug cabotegravir once every eight weeks and a daily placebo pill or a placebo injection on the same schedule and a daily PrEP pill.&lt;/p&gt;
-
-
-
-&lt;p&gt;Of the 38 women who became infected with HIV, four were getting the cabotegravir injection and 34 were taking the PrEP pills, the National Institutes of Health announced on November 9. That’s an &lt;a href=&quot;https://www.nih.gov/news-events/news-releases/nih-study-finds-long-acting-injectable-drug-prevents-hiv-acquisition-cisgender-women&quot;&gt;HIV incidence rate of 0.21 percent in the injection group&lt;/a&gt; and 1.79 percent in the pill group. These interim results were so good — the injection reduced infections by 89 percent compared with the pill — that the safety board monitoring the trial recommended participants be told which medicine they are getting, so that women have the option to switch to the injection. The investigators will continue to follow trial participants to assess long-term safety.&lt;/p&gt;
-
-
-
-&lt;p&gt;The promising results follow those reported for a trial of cisgender men and transgender women who have sex with men; the &lt;a href=&quot;https://www.hptn.org/news-and-events/press-releases/hptn-083-study-demonstrates-superiority-cabotegravir-prevention-hiv&quot;&gt;injections reduced infections&lt;/a&gt; by 66 percent compared with daily PrEP pills in that trial, researchers reported in July 2020 at the International AIDS Conference.&lt;/p&gt;
-
-
-
-&lt;p&gt;Having a new PrEP option doesn’t change the fact that more outreach on HIV prevention directed at women needs to happen, through public health campaigns and community engagement, says Ojikutu. And as for doctors, asking about HIV risk “needs to be part of our routine engagement with patients,” she says. “It needs to be an ongoing interaction” to understand “the determinants of risk in each woman’s life.”&lt;/p&gt;</content:encoded>
-	<dc:date>2020-12-01T11:00:00+00:00</dc:date>
-	<dc:creator>Aimee Cunningham</dc:creator>
-</item>
 <item rdf:about="https://retractionwatch.com/?p=120959">
 	<title>Retraction watch: A year after a federal misconduct finding, a cancer researcher loses a paper</title>
 	<link>https://retractionwatch.com/2020/12/01/a-year-after-a-federal-misconduct-finding-a-cancer-researcher-loses-a-paper/</link>
@@ -4617,53 +4617,6 @@ The paper raises the question that preprints are misused by the news media. In r
 	<dc:date>2020-11-06T07:57:54+00:00</dc:date>
 	<dc:creator>Aung Phyo &#38; Joanne Ryan</dc:creator>
 </item>
-<item rdf:about="http://digest.bps.org.uk/?p=40758">
-	<title>The British Psychological Society - Research Digest: Children Can Acquire Fear Vicariously, By Watching Their Parents’ Reactions</title>
-	<link>https://digest.bps.org.uk/2020/11/05/children-can-acquire-fear-vicariously-by-watching-their-parents-reactions/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;How do children learn to fear things that aren’t obviously scary, but that do pose a threat — to learn, say, that touching the base of a lit barbecue is a very bad idea, so should never be done? A parent might explain that it’s dangerously hot. But as a &lt;a href=&quot;https://www.nature.com/articles/s41598-020-74170-1&quot;&gt;new paper&lt;/a&gt; published in &lt;em&gt;Scientific Reports&lt;/em&gt; explores in detail, we also benefit from another more direct, wordless method of learning about threats. Or rather, we may typically benefit from it — but, Marie-France Marin at the University of Quebec and her colleagues argue, it might also help to explain how anxiety disorders are transmitted down through generations.&lt;/p&gt;
-
-
-
-&lt;span id=&quot;more-40758&quot;&gt;&lt;/span&gt;
-
-
-
-&lt;p&gt;Marin and her team set out to explore so-called vicarious learning between 83 child-parent pairs. This entails learning by observing another person’s reactions to objects or events. So if a child sees a parent flinch after touching  a lit barbecue, despite never having experienced that pain themselves, they can learn never to do it. The team wanted to look, though, at how this type of learning might manifest at the physiological level. Fear and anxiety are characterised by an increase in physiological arousal — a raised heart rate, blood pressure, sweating, and so on — all of which gear up the individual for fight or flight.&lt;/p&gt;
-
-
-
-&lt;p&gt;For this study, the team focused on skin conductance as an indicator of general physiological arousal. Each parent was fitted with sensors to measure this, as well as electrodes that were set to deliver an “annoying” rather than painful shock. The parent was then videotaped while they watched, via a monitor, a lamp that flashed various colours. When one particular colour flashed (either red or blue), five times out of eight the parent received a shock. When another colour (yellow) was flashed, a shock was never administered. They learned, then, to associate one particular colour with receiving a shock, and one with being safe.&lt;/p&gt;
-
-
-
-&lt;p&gt;Each child was shown the video of their own parent’s reactions and also a video of a stranger of the same sex as their parent undergoing the same procedure. (The shocks were associated with a different colour for the stranger and parent: if the parent was shocked when a red light flashed, for instance, the stranger was shocked when the blue light flashed). The child was then put in the same experimental set-up as the adults, except that they were never actually shocked.&lt;/p&gt;
-
-
-
-&lt;p&gt;The skin conductance data showed that children reacted with alarm to the red and blue lights, but not the yellow light. They had, then, learned to fear the colours associated with a shock to either their parent or a stranger. This suggests that children can learn from any adult, at least to some extent. But the team also found that children who showed greater “physiological synchrony” with their parent — so the child’s shifts in skin conductance levels more closely mirrored those of its parent during the course of the experiment — had stronger alarm reactions when they saw their parent being shocked. This suggests that children who are better “tuned” into their parents’ emotional states vicariously learn fear faster. (Exactly what underpins “better tuning” is not clear, but the quality of the parent/child relationship and the expressiveness of the adult will play a role.)&lt;/p&gt;
-
-
-
-&lt;p&gt;In the real world, the team notes, “parents transmit a lot of information to their children through their body language and their reactions to environmental stimuli”. If a parent responds appropriately to objects or events in the environment — signalling an appropriate level of fear or pain in response to something that is genuinely dangerous, but not to non-threats — then the child will clearly benefit. However, if the parent has a fear or anxiety disorder and becomes afraid or anxious when there is no genuine threat, their child could then learn these inappropriate responses.&lt;/p&gt;
-
-
-
-&lt;p&gt;Anxiety disorders often emerge in childhood, with a median age of onset of 11. “Given that [the] risk for anxiety and fear-based disorders is transmitted within families, it is essential to study how children form fearful associations when learning from their parent’s experience,” the researchers stress. Clearly, there’s more work to be done to understand these processes, but this research suggests that the level of physiological synchrony between a child and parent has an influence. This is an area that the team now plans to explore further, in the hope of finding new approaches to preventing or treating anxiety disorders in children.&lt;/p&gt;
-
-
-
-&lt;p&gt;–&lt;a href=&quot;https://www.nature.com/articles/s41598-020-74170-1&quot;&gt; Vicarious conditioned fear acquisition and extinction in child–parent dyads&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2020-11-05T15:07:38+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
 <item rdf:about="https://www.elsevier.com/connect/nurses-are-vital-in-safeguarding-children-against-covid-fallout">
 	<title>Elsevier Connect: Nurses are vital in safeguarding children against COVID fallout</title>
 	<link>https://www.elsevier.com/connect/nurses-are-vital-in-safeguarding-children-against-covid-fallout</link>
@@ -4977,12 +4930,6 @@ The Royal Library (KB) has, by opening up its entire digitized newspaper archive
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/Kucfd8ARAo8&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2020-10-27T14:19:18+00:00</dc:date>
 	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/ai-big-data-cybersecurity-and-iot-in-the-era-of-coronavirus">
-	<title>Elsevier Connect: AI, big data, cybersecurity and IoT in the era of coronavirus</title>
-	<link>https://www.elsevier.com/connect/ai-big-data-cybersecurity-and-iot-in-the-era-of-coronavirus</link>
-	<content:encoded>More healthcare providers are turning to automated technologies to help them manage the pandemic</content:encoded>
-	<dc:date>2020-10-27T10:46:58+00:00</dc:date>
 </item>
 
 </rdf:RDF>
