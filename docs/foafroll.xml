@@ -221,6 +221,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>Malin Sandström's blog</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://malinsandstrom.blog">
+					<dc:title>Malins blogg.</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Marco Craveiro</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://mcraveiro.blogspot.com/">
