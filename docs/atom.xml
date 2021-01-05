@@ -5,8 +5,56 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2021-01-04T19:00:49+00:00</updated>
+	<updated>2021-01-05T08:00:58+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en-US">2021 projects, #9: RRIDs on everything</title>
+		<link href="https://malinsandstrom.blog/2021/01/04/2021-projects-9-rrids-on-everything/"/>
+		<id>https://malinsandstrom.blog/?p=1744</id>
+		<updated>2021-01-04T21:46:41+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;This project is work-focused, but will surely frame my thinking and actions also beyond work. My latest work strategy meeting can pretty much be summed up in one sentence: RRIDs on &lt;em&gt;everythin&lt;/em&gt;g (and if it doesn’t have an RRID yet, get one for it).&lt;/p&gt;
+
+
+
+&lt;p&gt;RRID is short for Research Resource ID, and is a type of identifier to inambiguously identify, mention and cite a research resource, taken broadly. Web portals, software tools, antibodies, cell/animal lines or bacterial strains. RRIDs grew out of the Research Resource Identification Initiative, whose key members also are part of the INCF community in the US, ands was launched as a recommendation in 2014, re-emphasized by successful trial results published in 2016.&lt;/p&gt;
+
+
+
+&lt;p&gt;If you have ever experienced an everyday name or identity collision – a similarly named classmate, a repeatedly mis-dialed phone number, getting emails meant for another person, having a neighbour or office colleague who gets your mail and you get theirs – you should already have a hunch about why identifiers are important, and what not having them means.&lt;/p&gt;
+
+
+
+&lt;p&gt;Simply put, identifiers give us a way to be more specific and precise than mere words can offer. There are existing identifiers for research papers (DOI:s, since old, ~2000s), people (ORCID:s, even older, Oct 2012), and research institutions (ROR in 2019, GRID in 2015). And since even longer, books have identifiers. ISBN, the International Standard Book Number, was published in &lt;strong&gt;1970&lt;/strong&gt; as international standard ISO 2108. And identifiers typically are compact strings of characters, put together after a pattern, because you want them to be easy to use AND computer-readable .&lt;/p&gt;
+
+
+
+&lt;p&gt;But the existing set of identifiers did not cover all of research nearly enough: there were (and are still) problems with, for example: exactly and unambigously stating which antibod(ies) from which producer(s) you actually used. Or which breed of lab rat. Citing tools and specifying transparently which tools you use. Hence, RRIDs were conceived, and there is an ongoing campaign to get them broadly used.&lt;/p&gt;
+
+
+
+&lt;p&gt;Identifiers are useful on their own, but there are broader aspects – if you want to make science FAIR (Findable, Accessible, Internoperable, Reusable), &lt;a href=&quot;https://www.mitpressjournals.org/doi/pdf/10.1162/dint_a_00025&quot;&gt;identifiers will be a part of your toolset&lt;/a&gt;. They also need to be machine readable, because computers deal with thousands of data points a lot better than most humans do, and it would be nice to be able to automate identification and information gathering. They need to be persistent, i.e stay the same and not start meaning something different regardless of how tech develops. They also need to be resolveable – there needs to be a service at the other end, likely a database – storing the associated info.&lt;/p&gt;
+
+
+
+&lt;p&gt;The idea is, if everything has an RRID, it doesn’t matter if information is spread out like a box of dropped tooth picks all over the formal and informal scientific digital landscape in preprints, papers, posters, websites, blog posts, social media – it is still findable, as long as it is digital, attached to a PID, and available for indexing. So my mission is, simply, to find out which important-to-neuroinformatics research objects are not yet findable, and change that.&lt;/p&gt;
+
+
+
+&lt;p&gt;Read more: &lt;br /&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5854161/&quot;&gt;RRIDs: A Simple Step toward Improving Reproducibility through Rigor and Transparency of Experimental Methods&lt;/a&gt; &lt;br /&gt;&lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/frma.2018.00028/full&quot;&gt;Using ORCID, DOI, and Other Open Identifiers in Research Evaluation&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.mitpressjournals.org/doi/pdf/10.1162/dint_a_00025&quot;&gt;Unique, Persistent, Resolvable: Identifiers as the&lt;br /&gt;Foundation of FAIR&lt;/a&gt;&lt;/p&gt;</content>
+		<author>
+			<name>Dr Sandstorm</name>
+			<uri>https://malinsandstrom.blog</uri>
+		</author>
+		<source>
+			<title type="html">Malins blogg.</title>
+			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
+			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
+			<id>https://malinsandstrom.blog</id>
+			<updated>2021-01-05T08:00:54+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-US">These spiders may sew leaves into fake shelters to lure frogs to their doom</title>
@@ -158,7 +206,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -256,7 +304,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -288,7 +336,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -308,7 +356,7 @@
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2021-01-03T07:18:07+00:00</updated>
+			<updated>2021-01-05T07:51:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -328,7 +376,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -532,7 +580,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -726,7 +774,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -762,7 +810,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -782,7 +830,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -814,7 +862,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -850,7 +898,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -886,7 +934,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -907,7 +955,7 @@
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-01-04T19:00:42+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -1059,7 +1107,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1091,7 +1139,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -1115,7 +1163,7 @@
 			<subtitle type="html">Anekdoter från tio år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -1135,7 +1183,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1156,7 +1204,7 @@
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-01-04T19:00:42+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -1212,7 +1260,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -1288,7 +1336,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1410,7 +1458,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1642,7 +1690,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1682,7 +1730,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -1842,7 +1890,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-01-04T14:00:52+00:00</updated>
+			<updated>2021-01-05T08:00:55+00:00</updated>
 		</source>
 	</entry>
 
@@ -2001,7 +2049,7 @@ In summary, the Board finds therefore that the notified researchers have been gu
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -2223,7 +2271,7 @@ In summary, the Board finds therefore that the notified researchers have been gu
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-01-03T14:00:56+00:00</updated>
+			<updated>2021-01-05T08:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2740,7 +2788,7 @@ Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 East
 			<subtitle type="html">The science of the brain, from the scientists of the brain - Medium</subtitle>
 			<link rel="self" href="https://medium.com/feed/the-spike"/>
 			<id>https://medium.com/the-spike?source=rss----c92c31591e3a---4</id>
-			<updated>2021-01-04T19:00:45+00:00</updated>
+			<updated>2021-01-05T08:00:54+00:00</updated>
 		</source>
 	</entry>
 
@@ -2967,7 +3015,7 @@ Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 East
 			<subtitle type="html">&lt;p&gt;An educational neuroscience website that includes a wide selection of articles, videos, and images to help anyone learn more about neuroscience.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/</id>
-			<updated>2021-01-04T14:00:51+00:00</updated>
+			<updated>2021-01-05T08:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -3086,7 +3134,7 @@ puppeteering businessman. Exactly the kind of &quot;fringe scientist&quot; Smut 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -3207,7 +3255,7 @@ puppeteering businessman. Exactly the kind of &quot;fringe scientist&quot; Smut 
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-01-04T19:00:42+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -3929,7 +3977,7 @@ puppeteering businessman. Exactly the kind of &quot;fringe scientist&quot; Smut 
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-01-03T14:00:55+00:00</updated>
+			<updated>2021-01-05T08:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -4262,7 +4310,7 @@ this project.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -4765,7 +4813,7 @@ this project.&lt;/p&gt;
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-01-03T14:00:56+00:00</updated>
+			<updated>2021-01-05T08:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -4956,7 +5004,7 @@ this project.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -5239,7 +5287,7 @@ odor localization&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -5487,7 +5535,7 @@ odor localization&lt;/p&gt;
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-01-03T14:00:56+00:00</updated>
+			<updated>2021-01-05T08:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5611,7 +5659,7 @@ odor localization&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;An educational neuroscience website that includes a wide selection of articles, videos, and images to help anyone learn more about neuroscience.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/</id>
-			<updated>2021-01-04T14:00:51+00:00</updated>
+			<updated>2021-01-05T08:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -5835,7 +5883,7 @@ With this realization has come a concomitant expectation: each digital humanitie
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -6162,7 +6210,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 
@@ -6183,7 +6231,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-01-04T19:00:42+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6205,7 +6253,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-01-04T19:00:42+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6368,7 +6416,7 @@ This survey is for university academics who have (co-)authored, or are intend
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-01-04T19:00:42+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6921,27 +6969,7 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-01-04T19:00:44+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">mTOR: conclusions not affected?</title>
-		<link href="https://forbetterscience.com/2020/11/23/mtor-conclusions-not-affected/"/>
-		<id>http://forbetterscience.com/?p=53374</id>
-		<updated>2020-11-23T06:00:00+00:00</updated>
-		<content type="html">
- David Sabatini, remember that story? Well, it seems the conclusions were not affected. I take an ill-informed look at the mTOR signalling research field, to understand how photoshopped data gets to be independently verified by other labs.</content>
-		<author>
-			<name>Leonid Schneider</name>
-			<uri>https://forbetterscience.com</uri>
-		</author>
-		<source>
-			<title type="html">For Better Science</title>
-			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
-			<link rel="self" href="https://forbetterscience.com/feed/"/>
-			<id>https://forbetterscience.com</id>
-			<updated>2021-01-03T14:01:01+00:00</updated>
+			<updated>2021-01-05T08:00:48+00:00</updated>
 		</source>
 	</entry>
 

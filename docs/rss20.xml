@@ -9,6 +9,42 @@
 	<atom:link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Malin Sandström's blog: 2021 projects, #9: RRIDs on everything</title>
+	<guid isPermaLink="false">https://malinsandstrom.blog/?p=1744</guid>
+	<link>https://malinsandstrom.blog/2021/01/04/2021-projects-9-rrids-on-everything/</link>
+	<description>&lt;p&gt;This project is work-focused, but will surely frame my thinking and actions also beyond work. My latest work strategy meeting can pretty much be summed up in one sentence: RRIDs on &lt;em&gt;everythin&lt;/em&gt;g (and if it doesn’t have an RRID yet, get one for it).&lt;/p&gt;
+
+
+
+&lt;p&gt;RRID is short for Research Resource ID, and is a type of identifier to inambiguously identify, mention and cite a research resource, taken broadly. Web portals, software tools, antibodies, cell/animal lines or bacterial strains. RRIDs grew out of the Research Resource Identification Initiative, whose key members also are part of the INCF community in the US, ands was launched as a recommendation in 2014, re-emphasized by successful trial results published in 2016.&lt;/p&gt;
+
+
+
+&lt;p&gt;If you have ever experienced an everyday name or identity collision – a similarly named classmate, a repeatedly mis-dialed phone number, getting emails meant for another person, having a neighbour or office colleague who gets your mail and you get theirs – you should already have a hunch about why identifiers are important, and what not having them means.&lt;/p&gt;
+
+
+
+&lt;p&gt;Simply put, identifiers give us a way to be more specific and precise than mere words can offer. There are existing identifiers for research papers (DOI:s, since old, ~2000s), people (ORCID:s, even older, Oct 2012), and research institutions (ROR in 2019, GRID in 2015). And since even longer, books have identifiers. ISBN, the International Standard Book Number, was published in &lt;strong&gt;1970&lt;/strong&gt; as international standard ISO 2108. And identifiers typically are compact strings of characters, put together after a pattern, because you want them to be easy to use AND computer-readable .&lt;/p&gt;
+
+
+
+&lt;p&gt;But the existing set of identifiers did not cover all of research nearly enough: there were (and are still) problems with, for example: exactly and unambigously stating which antibod(ies) from which producer(s) you actually used. Or which breed of lab rat. Citing tools and specifying transparently which tools you use. Hence, RRIDs were conceived, and there is an ongoing campaign to get them broadly used.&lt;/p&gt;
+
+
+
+&lt;p&gt;Identifiers are useful on their own, but there are broader aspects – if you want to make science FAIR (Findable, Accessible, Internoperable, Reusable), &lt;a href=&quot;https://www.mitpressjournals.org/doi/pdf/10.1162/dint_a_00025&quot;&gt;identifiers will be a part of your toolset&lt;/a&gt;. They also need to be machine readable, because computers deal with thousands of data points a lot better than most humans do, and it would be nice to be able to automate identification and information gathering. They need to be persistent, i.e stay the same and not start meaning something different regardless of how tech develops. They also need to be resolveable – there needs to be a service at the other end, likely a database – storing the associated info.&lt;/p&gt;
+
+
+
+&lt;p&gt;The idea is, if everything has an RRID, it doesn’t matter if information is spread out like a box of dropped tooth picks all over the formal and informal scientific digital landscape in preprints, papers, posters, websites, blog posts, social media – it is still findable, as long as it is digital, attached to a PID, and available for indexing. So my mission is, simply, to find out which important-to-neuroinformatics research objects are not yet findable, and change that.&lt;/p&gt;
+
+
+
+&lt;p&gt;Read more: &lt;br /&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5854161/&quot;&gt;RRIDs: A Simple Step toward Improving Reproducibility through Rigor and Transparency of Experimental Methods&lt;/a&gt; &lt;br /&gt;&lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/frma.2018.00028/full&quot;&gt;Using ORCID, DOI, and Other Open Identifiers in Research Evaluation&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.mitpressjournals.org/doi/pdf/10.1162/dint_a_00025&quot;&gt;Unique, Persistent, Resolvable: Identifiers as the&lt;br /&gt;Foundation of FAIR&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Mon, 04 Jan 2021 21:46:41 +0000</pubDate>
+  <source url="https://malinsandstrom.blog/feed/">Malins blogg.</source>
+</item>
+<item>
 	<title>Science News: These spiders may sew leaves into fake shelters to lure frogs to their doom</title>
 	<guid isPermaLink="false">https://www.sciencenews.org/?p=3094879</guid>
 	<link>https://www.sciencenews.org/article/hunstman-spiders-leaves-fake-shelters-frogs</link>
@@ -5209,14 +5245,6 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 	<link>https://forbetterscience.com/2020/11/24/yuqing-zhangs-10-years-of-fraud-a-whistleblower-account/</link>
 	<description>&quot;All these SEM, EDX, TEM, BET, XRD, FT-IR, and contact angles in the theses and papers from our lab, where do they come from?  We made them up. &quot;</description>
 	<pubDate>Tue, 24 Nov 2020 12:12:49 +0000</pubDate>
-  <source url="https://forbetterscience.com/feed/">For Better Science</source>
-</item>
-<item>
-	<title>For Better Science: mTOR: conclusions not affected?</title>
-	<guid isPermaLink="false">http://forbetterscience.com/?p=53374</guid>
-	<link>https://forbetterscience.com/2020/11/23/mtor-conclusions-not-affected/</link>
-	<description>David Sabatini, remember that story? Well, it seems the conclusions were not affected. I take an ill-informed look at the mTOR signalling research field, to understand how photoshopped data gets to be independently verified by other labs.</description>
-	<pubDate>Mon, 23 Nov 2020 06:00:00 +0000</pubDate>
   <source url="https://forbetterscience.com/feed/">For Better Science</source>
 </item>
 
