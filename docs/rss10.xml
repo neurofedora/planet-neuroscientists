@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5ffae2c7267a1278ba6c4bfb" />
 			<rdf:li rdf:resource="https://malinsandstrom.blog/2021/01/09/project-update-gunhild-cardigan/" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121234" />
 			<rdf:li rdf:resource="http://brainupdate.nih.gov/?p=2937" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="https://www.the-scientist.com/news-opinion/qa-science-has-been-resilient-during-pandemic-survey-finds-68182" />
 			<rdf:li rdf:resource="https://oapen.org/article/14134953-niels-stern-appointed-as-director-of-oapen-and-co-director-of-doab" />
 			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=4117" />
-			<rdf:li rdf:resource="https://www.theguardian.com/education/2020/jan/22/people-cant-learn-about-treatments-they-need-why-open-access-to-medical-research-matters" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5ffae2c7267a1278ba6c4bfb">
+	<title>Neuroscientifically Challenged: 2-Minute Neuroscience: Tourette Syndrome</title>
+	<link>http://feedproxy.google.com/~r/neuroscientificallychallenged/neurochallenged/~3/SRnZ4V-wagA/2-minute-neuroscience-tourette-syndrome</link>
+	<content:encoded>&lt;p class=&quot;&quot;&gt;In this video, I discuss what is hypothesized to occur in the brain to cause Tourette syndrome, a disorder characterized by recurrent involuntary movements or sounds called tics.&lt;/p&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/neuroscientificallychallenged/neurochallenged/~4/SRnZ4V-wagA&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2021-01-10T11:29:17+00:00</dc:date>
+	<dc:creator>Neurosci</dc:creator>
+</item>
 <item rdf:about="https://malinsandstrom.blog/2021/01/09/project-update-gunhild-cardigan/">
 	<title>Malin Sandström's blog: Project update: Gunhild Cardigan</title>
 	<link>https://malinsandstrom.blog/2021/01/09/project-update-gunhild-cardigan/</link>
@@ -5214,12 +5221,6 @@ Eelco Ferwerda said: “I have been very fortunate to have had a role in the dev
 	<content:encoded>Today in lab meeting, we continued our discussion of deep unsupervised learning with a tutorial on Normalizing Flows. Similar to VAEs, which we have discussed previously, flow-based models are used to learn a generative distribution, , when this is arbitrarily … &lt;a href=&quot;https://pillowlab.wordpress.com/2020/11/24/tutorial-on-normalizing-flows/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
 	<dc:date>2020-11-25T02:20:09+00:00</dc:date>
 	<dc:creator>zashwood</dc:creator>
-</item>
-<item rdf:about="https://www.theguardian.com/education/2020/jan/22/people-cant-learn-about-treatments-they-need-why-open-access-to-medical-research-matters">
-	<title>Open Access Tracking Project: news: Coronavirus and Ebola: could open access medical research find a cure? | Universities | The Guardian</title>
-	<link>https://www.theguardian.com/education/2020/jan/22/people-cant-learn-about-treatments-they-need-why-open-access-to-medical-research-matters</link>
-	<content:encoded>Coronavirus and Ebola: could open access medical research find a cure?</content:encoded>
-	<dc:date>2020-11-24T16:58:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
