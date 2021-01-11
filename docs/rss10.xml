@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=54645" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5ffae2c7267a1278ba6c4bfb" />
 			<rdf:li rdf:resource="https://malinsandstrom.blog/2021/01/09/project-update-gunhild-cardigan/" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121234" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="http://blog.archive.org/2020/11/23/foss-wins-again-free-and-open-source-communities-comes-through-on-19th-century-newspapers-and-books-and-periodicals/" />
 			<rdf:li rdf:resource="https://www.the-scientist.com/news-opinion/qa-science-has-been-resilient-during-pandemic-survey-finds-68182" />
 			<rdf:li rdf:resource="https://oapen.org/article/14134953-niels-stern-appointed-as-director-of-oapen-and-co-director-of-doab" />
-			<rdf:li rdf:resource="http://pillowlab.wordpress.com/?p=4117" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=54645">
+	<title>For Better Science: Steven Houser and the Temple of Fraud</title>
+	<link>https://forbetterscience.com/2021/01/11/steven-houser-and-the-temple-of-fraud/</link>
+	<content:encoded>&quot;We all hype our work. We want to tell people our work is important. These patients, many of them coming to enroll in these trials, they have no other hope.” -Steven Houser, Hero of Research Ethics, temple University</content:encoded>
+	<dc:date>2021-01-11T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5ffae2c7267a1278ba6c4bfb">
 	<title>Neuroscientifically Challenged: 2-Minute Neuroscience: Tourette Syndrome</title>
 	<link>http://feedproxy.google.com/~r/neuroscientificallychallenged/neurochallenged/~3/SRnZ4V-wagA/2-minute-neuroscience-tourette-syndrome</link>
@@ -5214,13 +5221,6 @@ On behalf of the Board of the OAPEN Foundation, chairman Bas Savenije said: “I
 
 Eelco Ferwerda said: “I have been very fortunate to have had a role in the development of OAPEN and DOAB and it has been a joy to work with so many people from all over the world with a passion for open access. I am thrilled that Niels is taking over and can’t imagine anyone better suited to lead OAPEN and DOAB in the years ahead. Although I am now retiring, I do hope to remain involved in OAPEN and DOAB in new ways, and do new things in the area of OA books.”</content:encoded>
 	<dc:date>2020-11-25T04:10:00+00:00</dc:date>
-</item>
-<item rdf:about="http://pillowlab.wordpress.com/?p=4117">
-	<title>Pillow Lab: Tutorial on Normalizing Flows</title>
-	<link>https://pillowlab.wordpress.com/2020/11/24/tutorial-on-normalizing-flows/</link>
-	<content:encoded>Today in lab meeting, we continued our discussion of deep unsupervised learning with a tutorial on Normalizing Flows. Similar to VAEs, which we have discussed previously, flow-based models are used to learn a generative distribution, , when this is arbitrarily … &lt;a href=&quot;https://pillowlab.wordpress.com/2020/11/24/tutorial-on-normalizing-flows/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2020-11-25T02:20:09+00:00</dc:date>
-	<dc:creator>zashwood</dc:creator>
 </item>
 
 </rdf:RDF>
