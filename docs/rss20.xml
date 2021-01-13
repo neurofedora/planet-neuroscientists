@@ -9,6 +9,53 @@
 	<atom:link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>For Better Science: The Ballad of Claudio Hetz</title>
+	<guid isPermaLink="false">http://forbetterscience.com/?p=54781</guid>
+	<link>https://forbetterscience.com/2021/01/13/the-ballad-of-claudio-hetz/</link>
+	<description>&quot;Patients affected with ALS now need to know that we are working for them [...] We feel completely motivated and convinced to dedicate our careers to fight ALS.&quot; Claudio Hetz, Photoshop artist.</description>
+	<pubDate>Wed, 13 Jan 2021 06:00:00 +0000</pubDate>
+  <source url="https://forbetterscience.com/feed/">For Better Science</source>
+</item>
+<item>
+	<title>NeuroFedora blog: Next Open NeuroFedora meeting: 18 January 1500 UTC</title>
+	<guid isPermaLink="false">tag:neuroblog.fedoraproject.org,2021-01-12:/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html</guid>
+	<link>https://neuroblog.fedoraproject.org/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html</link>
+	<description>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Photo by William White on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200112-image.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;William White&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 18 January at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class=&quot;reference external&quot; href=&quot;https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io&quot;&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210118T13&amp;amp;p1=1440&amp;amp;ah=1&quot;&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'TZ=&quot;UTC&quot; 1300 next Monday'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by @ankursinha (me).
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2020-11-30-13.01.html&quot;&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting&quot;&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://tinyurl.com/neurofedora-bugs&quot;&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro&quot;&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koschei.fedoraproject.org/groups/neuro-sig&quot;&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/packageinfo?packageID=30691&quot;&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+	<pubDate>Tue, 12 Jan 2021 19:56:40 +0000</pubDate>
+  <source url="https://neuroblog.fedoraproject.org/feeds/all.atom.xml">NeuroFedora: Blog</source>
+</item>
+<item>
 	<title>Science News: Rats with poisonous hairdos live surprisingly sociable private lives</title>
 	<guid isPermaLink="false">https://www.sciencenews.org/?p=3095287</guid>
 	<link>https://www.sciencenews.org/article/rats-poisonous-hair-fur-africa-tree-toxins-social-lives</link>
@@ -802,7 +849,7 @@
 
 
 
-&lt;p&gt;“These are safe and effective vaccines. We have good data to show that,” Messonnier said. The country’s surveillance systems for vaccine side effects are “incredibly robust,” she said, and “the only thing that we that have seen is these severe allergic reactions.”&lt;/p&gt;
+&lt;p&gt;“These are safe and effective vaccines. We have good data to show that,” Messonnier said. The country’s surveillance systems for vaccine side effects are “incredibly robust,” she said, and “the only thing that we have seen is these severe allergic reactions.”&lt;/p&gt;
 
 
 
@@ -4880,22 +4927,6 @@ This survey is for university academics who have (co-)authored, or are intend
 	<link>https://dailynous.com/2020/11/06/british-society-philosophy-science-launches-open-access-book-publishing/</link>
 	<description>BSPS Open aims to publish “landmark, cutting edge works that represent the full breadth and diversity of the philosophy of science.” The monographs it publishes will be “beautiful, freely downloadable” files with print-on-demand versions available for purchase. It will be a so-called “platinum” open access service, in that it charges fees to neither readers nor authors. It will publish works “on the basis of merit alone, and not on an author’s ability to pay a fee.”</description>
 	<pubDate>Wed, 25 Nov 2020 14:13:00 +0000</pubDate>
-  <source url="http://tagteam.harvard.edu/hubs/oatp/tag/rss/oa.news">Items tagged with oa.news in Open Access Tracking Project (OATP)</source>
-</item>
-<item>
-	<title>Open Access Tracking Project: news: For a Hefty Fee, Nature Journals Offer Open-Access Publishing | The Scientist Magazine®</title>
-	<guid isPermaLink="true">https://www.the-scientist.com/news-opinion/for-a-hefty-fee-nature-journals-offer-open-access-publishing-68181</guid>
-	<link>https://www.the-scientist.com/news-opinion/for-a-hefty-fee-nature-journals-offer-open-access-publishing-68181</link>
-	<description>Academics will soon be able to make articles freely available in Nature-branded journals for €9,500—with a discounted option available under a pilot program that provides review, but no guarantee of acceptance.</description>
-	<pubDate>Wed, 25 Nov 2020 14:00:00 +0000</pubDate>
-  <source url="http://tagteam.harvard.edu/hubs/oatp/tag/rss/oa.news">Items tagged with oa.news in Open Access Tracking Project (OATP)</source>
-</item>
-<item>
-	<title>Open Access Tracking Project: news: IOP Publishing unveils new open access environmental journal series | EurekAlert! Science News</title>
-	<guid isPermaLink="true">https://www.eurekalert.org/pub_releases/2020-11/ip-ipu112420.php</guid>
-	<link>https://www.eurekalert.org/pub_releases/2020-11/ip-ipu112420.php</link>
-	<description>IOP Publishing (IOPP) is launching a suite of new open access (OA) environmental journals, marking the creation of the Environmental Research series.</description>
-	<pubDate>Wed, 25 Nov 2020 13:48:00 +0000</pubDate>
   <source url="http://tagteam.harvard.edu/hubs/oatp/tag/rss/oa.news">Items tagged with oa.news in Open Access Tracking Project (OATP)</source>
 </item>
 
