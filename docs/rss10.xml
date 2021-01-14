@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3095447" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=121266" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121271" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3095436" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18605" />
@@ -62,7 +64,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3094915" />
 			<rdf:li rdf:resource="https://malinsandstrom.blog/?p=1755" />
 			<rdf:li rdf:resource="https://malinsandstrom.blog/?p=1744" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3094879" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12228" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=54577" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121149" />
@@ -90,7 +91,6 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121137" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121131" />
 			<rdf:li rdf:resource="https://scroll.in/article/982146/push-to-ban-sci-hub-pirate-website-will-blunt-indian-research-projects-warn-academics" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=121125" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=54309" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18583" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=854" />
@@ -169,6 +169,36 @@
 	</items>
 </channel>
 
+<item rdf:about="https://www.sciencenews.org/?p=3095447">
+	<title>Science News: Drones could help create a quantum internet</title>
+	<link>https://www.sciencenews.org/article/physics-drones-could-help-create-quantum-internet</link>
+	<content:encoded>&lt;p&gt;The quantum internet may be coming to you via drone.&lt;/p&gt;
+
+
+
+&lt;p&gt;Scientists have now used drones to transmit particles of light, or photons, that share the quantum linkage called entanglement. The photons were sent to &lt;a href=&quot;https://journals.aps.org/prl/accepted/76075Y87Ec7100684732013842235e3a3930a9c39?utm_source=tip-sheet&amp;amp;utm_medium=email&amp;amp;utm_campaign=press&quot;&gt;two locations a kilometer apart&lt;/a&gt;, researchers from Nanjing University in China report in a study to appear in &lt;em&gt;Physical Review Letters&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Entangled quantum particles can retain their interconnected properties even when separated by long distances. Such counterintuitive behavior can be harnessed to allow new types of communication. Eventually, scientists aim to build a global quantum internet that relies on transmitting quantum particles to enable ultrasecure communications by using the particles to create secret codes to encrypt messages. A quantum internet could also allow distant quantum computers to work together, or perform experiments that test the limits of quantum physics.&lt;/p&gt;
+
+
+
+&lt;p&gt;Quantum networks made with &lt;a href=&quot;https://www.sciencenews.org/article/book-schrodingers-web-offers-sneak-peek-quantum-internet&quot;&gt;fiber-optic cables&lt;/a&gt; are already beginning to be used (&lt;em&gt;SN: 9/28/20&lt;/em&gt;). And a &lt;a href=&quot;https://www.sciencenews.org/article/quantum-satellite-shatters-entanglement-record&quot;&gt;quantum satellite&lt;/a&gt; can transmit photons across China (&lt;em&gt;SN: 6/15/17&lt;/em&gt;). Drones could serve as another technology for such networks, with the advantages of being easily movable as well as relatively quick and cheap to deploy.&lt;/p&gt;
+
+
+
+&lt;p&gt;The researchers used two drones to transmit the photons. One drone created pairs of entangled particles, sending one particle to a station on the ground while relaying the other to the second drone. That machine then transmitted the particle it received to a second ground station a kilometer away from the first. In the future, fleets of drones could work together to send entangled particles to recipients in a variety of locations.&lt;/p&gt;</content:encoded>
+	<dc:date>2021-01-14T11:00:00+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=121266">
+	<title>Retraction watch: Journal expresses concern over study of potential treatment for autism</title>
+	<link>https://retractionwatch.com/2021/01/14/journal-expresses-concern-over-study-of-potential-treatment-for-autism/</link>
+	<content:encoded>A journal has issued an expression of concern for a 2014 paper on a study of a potential treatment for autism.  The article, by a group in Slovakia, purported to show for the first time that the drug ubiquinol — a form of the compound  coenzyme Q₁₀ — could improve the ability of children with … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/01/14/journal-expresses-concern-over-study-of-potential-treatment-for-autism/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Journal expresses concern over study of potential treatment for autism&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2021-01-14T11:00:00+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=121271">
 	<title>Retraction watch: ‘Deeply unfair’: First author of newly retracted paper on weight and honesty speaks out</title>
 	<link>https://retractionwatch.com/2021/01/13/deeply-unfair-first-author-of-newly-retracted-paper-on-weight-and-honesty-speaks-out/</link>
@@ -1981,51 +2011,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	<dc:date>2021-01-04T21:46:41+00:00</dc:date>
 	<dc:creator>Dr Sandstorm</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3094879">
-	<title>Science News: These spiders may sew leaves into fake shelters to lure frogs to their doom</title>
-	<link>https://www.sciencenews.org/article/hunstman-spiders-leaves-fake-shelters-frogs</link>
-	<content:encoded>&lt;p&gt;On a sweltering afternoon in northeastern Madagascar, the coolness of a leaf’s shade is an attractive respite for a frog. But some of these oases may hide hungry architects: huntsman spiders.&lt;/p&gt;
-
-
-
-&lt;p&gt;New observations show that the gangly spiders partially attach two leaves together using silk, creating a leafy hollow. One of the arachnids was spotted eating a frog inside one of the pockets, suggesting that the spiders &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1002/ece3.7102&quot;&gt;create the structures to lure and trap frogs&lt;/a&gt;, researchers report December 11 in &lt;em&gt;Ecology and Evolution&lt;/em&gt;. &lt;/p&gt;
-
-
-
-&lt;p&gt;In 2017 and 2018, biologist Thio Rosin Fulgence and colleagues were conducting an ecological survey in Madagascar when Dominic Martin, an ecologist at the University of Göttingen in Germany, spotted a large huntsman spider (&lt;em&gt;Damastes &lt;/em&gt;sp&lt;em&gt;.&lt;/em&gt;) eating a small Madagascar reed frog (&lt;em&gt;Heterixalus andrakata&lt;/em&gt;). The spider was on a small tree, near a pair of overlapping leaves that had been attached together with spider silk to create a pocket. Upon approach, the spider backed into its leafy lair, amphibian prize in tow. &lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;huntsman spider feeds on Madagascar reed frog&quot; class=&quot;wp-image-3094880&quot; height=&quot;366&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2020/12/122320_jb_frog-eating-spiders_inline_680.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3094880&quot;&gt;A huntsman spider feeds on a Madagascar reed frog inside a pocket built from leaves and spider silk.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3094880&quot;&gt;Dominic Andreas Martin&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;“The first time that we found this phenomenon, we were very excited,” says Fulgence, of the University of Antananarivo in Madagascar. The next year, while conducting reptile and amphibian surveys in roughly the same region, Fulgence found three more of the spiders hiding in similar leaf retreats. These spiders weren’t spotted with prey, he says.&lt;/p&gt;
-
-
-
-&lt;p&gt;Some spiders are known to &lt;a href=&quot;https://www.sciencenews.org/article/spider-tarantula-eating-weird-stuff-complex-amazon-food-webs&quot;&gt;prey on larger and stronger vertebrates&lt;/a&gt; such as a mouse opossum and even frogs, if given the opportunity (&lt;em&gt;SN: 2/28/19&lt;/em&gt;). When that happens, the arachnids are commonly seen as winning the vertebrate jackpot. But huntsman spiders, in contrast, may be specifically targeting frogs as prey, the researchers say. By attaching the leaves together, the spiders are creating cool and dark microhabitats that would be desirable in a dry, searing environment with plenty of predatory birds, Fulgence says.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Still, these spiders could simply be hiding in the leafy retreats and ambushing prey passing by, not using the structures as traps, says Stano Pekár, a behavioral biologist at Masaryk University in Brno, the Czech Republic, who was not involved with the research.&lt;/p&gt;
-
-
-
-&lt;p&gt;That’s true, agrees Jose Valdez, a conservation biologist at the German Centre for Integrative Biodiversity Research in Leipzig. But “what makes me think otherwise is that not only did the researchers find [the leaf retreats] multiple times, but that the spider was weaving the edges of the leaves,” says Valdez, who was not involved with the study. “I would think there would be much easier places for these spiders to hide in a forest.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Part of the reason for the uncertainty is that the spider spotted eating a frog was first seen outside its leaf pocket as the arachnid was consuming its prey. “Only detailed observations and experiments” can confirm if the leaves are a frog trap, says Rodrigo Willemart, a zoologist at the University of São Paulo, who also was not involved in the research.&lt;/p&gt;
-
-
-
-&lt;p&gt;If so, such a tool could be unique among spiders, Willemart says. “I don´t know of papers that have reported on traps built by spiders specifically for capturing vertebrates.”  &lt;/p&gt;</content:encoded>
-	<dc:date>2021-01-04T14:00:00+00:00</dc:date>
-	<dc:creator>Jake Buehler</dc:creator>
-</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=12228">
 	<title>BMC Series blog: Highlights from the BMC Series – November</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2021/01/04/highlights-from-the-bmc-series-november/</link>
@@ -2556,13 +2541,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	<link>https://scroll.in/article/982146/push-to-ban-sci-hub-pirate-website-will-blunt-indian-research-projects-warn-academics</link>
 	<content:encoded>An article on the lawsuit filed by Wiley, Elsevier, and ACS again Sci-Hub at Delhi High Court, India.</content:encoded>
 	<dc:date>2020-12-25T23:42:00+00:00</dc:date>
-</item>
-<item rdf:about="https://retractionwatch.com/?p=121125">
-	<title>Retraction watch: ‘Misconduct on a grand and terrible scale’: Dental scientist up to 26 retractions</title>
-	<link>https://retractionwatch.com/2020/12/24/misconduct-on-a-grand-and-terrible-scale-dental-scientist-up-to-26-retractions/</link>
-	<content:encoded>A dentistry researcher in Spain with a history of reusing and manipulating images has notched two more retractions, giving him 26.  The new retractions move Jose´ Luis Calvo-Guirado, of Universidad Católica San Antonio de Murcia, into a tie for 24th place on the Retraction Watch leaderboard.  Calvo-Guirado has in the past disputed the retractions of … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2020/12/24/misconduct-on-a-grand-and-terrible-scale-dental-scientist-up-to-26-retractions/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;‘Misconduct on a grand and terrible scale’: Dental scientist up to 26 retractions&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2020-12-24T12:58:05+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
 </item>
 <item rdf:about="http://forbetterscience.com/?p=54309">
 	<title>For Better Science: Omer Nour and Magnus Willander guilty of research misconduct</title>
