@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=55413" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3095581" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121321" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18626" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2020-12-02:/2020/12/02/cliques-and-cavities-in-human-connectome.html" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=40935" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/employee-group-improves-work-for-colleagues-with-disabilities" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/7-challenges-to-overcome-for-a-more-inclusive-research-ecosystem" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=55413">
+	<title>For Better Science: Communist Party gives Xuetao Cao, Meiyu Geng, Hongliang Li a slap on the wrist</title>
+	<link>https://forbetterscience.com/2021/01/21/communist-party-gives-xuetao-cao-meiyu-geng-hongliang-li-a-slap-on-the-wrist/</link>
+	<content:encoded>&quot;The 63 papers of Academician Cao Xuetao were questioned on the Internet. After investigation, no fraud, plagiarism and plagiarism were found, but many papers were found to have misuse of pictures, reflecting the lack of a strict laboratory management.&quot;</content:encoded>
+	<dc:date>2021-01-21T20:27:22+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3095581">
 	<title>Science News: Space station detectors found the source of weird ‘blue jet’ lightning</title>
 	<link>https://www.sciencenews.org/article/space-station-detectors-found-source-weird-blue-jet-lightning</link>
@@ -5105,12 +5112,6 @@ brain’s structural architecture.&lt;/p&gt;
 	<link>https://www.elsevier.com/connect/employee-group-improves-work-for-colleagues-with-disabilities</link>
 	<content:encoded>Elsevier Enabled plans to celebrate #IDPWD, marking two years of this global employee initiative for awareness and accessibility</content:encoded>
 	<dc:date>2020-12-02T09:20:57+00:00</dc:date>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/7-challenges-to-overcome-for-a-more-inclusive-research-ecosystem">
-	<title>Elsevier Connect: 7 challenges to overcome for a more inclusive research ecosystem</title>
-	<link>https://www.elsevier.com/connect/7-challenges-to-overcome-for-a-more-inclusive-research-ecosystem</link>
-	<content:encoded>At Falling Walls, key players in the science community talk about how we can advance research inclusivity — and why it’s so crucial</content:encoded>
-	<dc:date>2020-12-01T15:33:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
