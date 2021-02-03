@@ -15,6 +15,8 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=55739" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=121427" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096060" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3095637" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41286" />
@@ -96,7 +98,6 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121287" />
 			<rdf:li rdf:resource="http://brainupdate.nih.gov/?p=2980" />
 			<rdf:li rdf:resource="https://medium.com/p/ed0fe9cfb711" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=121282" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18605" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=54781" />
 			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2021-01-12:/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html" />
@@ -164,11 +165,26 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/driving-inclusive-health-and-research-through-global-partnerships" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12216" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41023" />
-			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18559" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=55739">
+	<title>For Better Science: France’s Ugly Brown Derriere</title>
+	<link>https://forbetterscience.com/2021/02/03/frances-ugly-brown-derriere/</link>
+	<content:encoded>&quot;legions d'honneurs, prix, promotion....
+Le champ du cygne de ce système politico médical qui n'a plus le choix que de se soutenir mutuellement.
+Patience, en d'autre temps, on a donné des médailles aux derniers combatants. On connait la fin&quot; - Capitaine Eric Chabriere.</content:encoded>
+	<dc:date>2021-02-03T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=121427">
+	<title>Retraction watch: Okinawa university suspends researcher for six months following findings of plagiarism and faked data</title>
+	<link>https://retractionwatch.com/2021/02/02/okinawa-university-suspends-researcher-for-six-months-following-findings-of-plagiarism-and-faked-data/</link>
+	<content:encoded>A materials scientist in Japan was found guilty of plagiarism and fabrication of data in a May 2019 paper, resulting in a six-month suspension, according to her institution.  Ye Zhang, of the Bioinspired Soft Matter Unit at the Okinawa Institute of Science and Technology Graduate University (OIST), was the senior author of “Enzyme-mediated dual-targeted-assembly realizes … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/02/02/okinawa-university-suspends-researcher-for-six-months-following-findings-of-plagiarism-and-faked-data/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Okinawa university suspends researcher for six months following findings of plagiarism and faked data&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2021-02-02T23:00:00+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3096060">
 	<title>Science News: The Milky Way’s newfound high-energy glow hints at the secrets of cosmic rays</title>
 	<link>https://www.sciencenews.org/article/milky-way-new-high-energy-light-gamma-glow-secrets-cosmic-rays</link>
@@ -3161,13 +3177,6 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 	<dc:date>2021-01-15T14:17:15+00:00</dc:date>
 	<dc:creator>Viacheslav Osaulenko</dc:creator>
 </item>
-<item rdf:about="https://retractionwatch.com/?p=121282">
-	<title>Retraction watch: “There can be no justification for such studies”: Paper on artificial eyes for dogs earns expression of concern</title>
-	<link>https://retractionwatch.com/2021/01/15/there-can-be-no-justification-for-such-studies-paper-on-artificial-eyes-for-dogs-earns-expression-of-concern/</link>
-	<content:encoded>A journal has issued an expression of concern for a 2020 paper by researchers in Korea who have used 3-D printing to create artificial eyes for dogs. The study triggered a slew of critical comments from readers, who were outraged by the ethics of the research and what they saw as inadequate protections for the … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/01/15/there-can-be-no-justification-for-such-studies-paper-on-artificial-eyes-for-dogs-earns-expression-of-concern/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;“There can be no justification for such studies”: Paper on artificial eyes for dogs earns expression of concern&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2021-01-15T11:00:00+00:00</dc:date>
-	<dc:creator>Adam Marcus</dc:creator>
-</item>
 <item rdf:about="https://theplosblog.plos.org/?p=18605">
 	<title>The Official PLOS Blog: Imagining a Transformed Scientific Publication Landscape</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/iKO_nh8kZdA/</link>
@@ -5310,127 +5319,6 @@ this project.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Compiled by Matthew Warren (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;&lt;strong&gt;@MattbWarren&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;), Editor of &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2020-12-11T12:00:33+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
-</item>
-<item rdf:about="https://theplosblog.plos.org/?p=18559">
-	<title>The Official PLOS Blog: Reimagine Biomedical Research for a Healthier Future: Essay Challenge</title>
-	<link>http://feeds.plos.org/~r/plos/Blog/~3/ggtXoRqpVeM/</link>
-	<content:encoded>&lt;p&gt;The &lt;a href=&quot;https://www.healthra.org/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Health Research Alliance&lt;/a&gt; (HRA) and the &lt;a href=&quot;https://plos.org/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Public Library of Science&lt;/a&gt; (PLOS) have partnered to launch the &lt;strong&gt;Reimagine Biomedical Research for a Healthier Future &lt;/strong&gt;Essay Challenge.&lt;/p&gt;
-
-
-
-&lt;p&gt;The biomedical research enterprise experienced a year of reckoning in 2020. Global cooperation to create a COVID-19 vaccine at an unprecedented pace shows the promise of research. Yet the pandemic, the resulting economic and social uncertainties, and the urgency of addressing systemic racial and regional inequities all add to longstanding concerns about the sustainability of the biomedical research enterprise. We need a new vision for a healthier future. The &lt;strong&gt;Reimagine Biomedical Research for a Healthier Future &lt;/strong&gt;Essay Challenge is your opportunity to propose systemic changes that re-commit to serving society and achieving an equitable, diverse, and creative environment for &lt;strong&gt;all &lt;/strong&gt;those working to advance scientific discovery and improve human well-being.&lt;/p&gt;
-
-
-
-&lt;h3&gt;&lt;strong&gt;The Challenge&lt;/strong&gt;&lt;/h3&gt;
-
-
-
-&lt;p&gt;We invite you to submit a 1500-word essay following these &lt;a href=&quot;https://drive.google.com/file/d/1vg4rQ26IOuBmY_cC8C1CRmQFlISIr3UU/view?usp=sharing&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;submission guidelines&lt;/a&gt;. The winning essay will be published in either &lt;em&gt;PLOS Biology&lt;/em&gt; or &lt;em&gt;PLOS Medicine, &lt;/em&gt;and will also receive a US $5,000 prize. There will also be recognition for up to four essays receiving honorable mentions.&lt;/p&gt;
-
-
-
-&lt;p&gt;We encourage you to think critically about the current state of biomedical research, globally. We hope our challenge stimulates you to confer with colleagues and consider submitting an individual or multi-authored essay that will propose and elaborate new ideas addressing the challenges for the field – for example:&lt;/p&gt;
-
-
-
-&lt;ul&gt;&lt;li&gt;Innovative ways to move away from contemporary and reductive metrics of success and towards efforts that measurably improve everyday lives (e.g. advances in diagnostics, therapy, drug discovery, health services, and novel solutions to reduce health inequities).&lt;/li&gt;&lt;li&gt;Bold ideas to realign incentives for behaviors that advance discovery, support healthcare decision makers, and benefit society.&lt;/li&gt;&lt;li&gt;New ways to frame transparency and rigor as Open Scholarship values, not just checklists or hurdles, to improve societal trust in science.&lt;/li&gt;&lt;li&gt;Strategies to build an equitable, open, and transparent research ecosystem that values, empowers, and nurtures diversity. &lt;/li&gt;&lt;li&gt;Approaches that depend on creativity and innovation and not on the need for “more” (e.g.  more money, more data, more publications, etc.)&lt;/li&gt;&lt;/ul&gt;
-
-
-
-&lt;h3&gt;&lt;strong&gt;Winner, and Honorable Mentions&lt;/strong&gt;&lt;/h3&gt;
-
-
-
-&lt;p&gt;The winning essay judged to have the most potential for inspiring change will be published either in &lt;em&gt;PLOS Biology&lt;/em&gt; or &lt;em&gt;PLOS Medicine&lt;/em&gt;, whichever is deemed by PLOS the most appropriate venue for the essay. It will also be awarded US $5,000.&lt;/p&gt;
-
-
-
-&lt;p&gt;Up to four essays will be recognized by an honorable mention, and these will be published on the PLOS Blogs Network and will each receive a US $2,500 prize.&lt;/p&gt;
-
-
-
-&lt;h3&gt;&lt;strong&gt;Symposium&lt;/strong&gt;&lt;/h3&gt;
-
-
-
-&lt;p&gt;The authors of the winning essay, and authors from honorably mentioned essays, will be invited to present their ideas in a &lt;strong&gt;Reimagine Biomedical Research for a Healthier Future &lt;/strong&gt;Symposium hosted by HRA and PLOS in September 2021. &lt;/p&gt;
-
-
-
-&lt;h3&gt;&lt;strong&gt;Deadline: March 11, 2021&lt;/strong&gt;&lt;/h3&gt;
-
-
-
-&lt;p&gt;This date is the one-year anniversary of the World Health Organization declaring COVID-19 a global pandemic. It has been chosen to honor those who have experienced so much suffering during this pandemic, and to help convey the real-world importance of this reimagining.&lt;/p&gt;
-
-
-
-&lt;h3&gt;&lt;strong&gt;Eligibility&lt;/strong&gt;&lt;/h3&gt;
-
-
-
-&lt;p&gt;We welcome essay submissions from individuals or from teams, noting that diverse perspectives are critical to solving our most pressing global challenges. Submissions will be considered from those working in academic, private sector, governmental, or non-profit institutions. Authors must commit to abiding by PLOS policies for publication which include Open Access publication under CC BY license, and editorial policies such as disclosure of competing interests. (See full &lt;a href=&quot;https://drive.google.com/file/d/1vg4rQ26IOuBmY_cC8C1CRmQFlISIr3UU/view?usp=sharing&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;submission guidelines&lt;/a&gt;.)&lt;/p&gt;
-
-
-
-&lt;h3&gt;&lt;strong&gt;Review Criteria and Process&lt;/strong&gt;&lt;/h3&gt;
-
-
-
-&lt;p&gt;There is a 1500-word limit to keep essays succinct and to the point. &lt;/p&gt;
-
-
-
-&lt;p&gt;You should include a brief description of the problem you propose to solve, and devote the majority of the essay to the proposed solutions.&lt;/p&gt;
-
-
-
-&lt;p&gt;A panel representing HRA member organizations (&lt;a href=&quot;https://www.healthra.org/members/member-profiles/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;HRA members&lt;/a&gt;) will score applications based on the review criteria outlined below, to create a shortlist of up to ten essays.&lt;/p&gt;
-
-
-
-&lt;ul&gt;&lt;li&gt;Magnitude of the change envisioned &lt;/li&gt;&lt;li&gt;Potential for achieving lasting impact and change&lt;/li&gt;&lt;li&gt;Novelty and timeliness &lt;/li&gt;&lt;li&gt;Feasibility &lt;/li&gt;&lt;li&gt;Diversity of thought and perspective &lt;/li&gt;&lt;/ul&gt;
-
-
-
-&lt;p&gt;No single criterion outweighs another; all are important. &lt;/p&gt;
-
-
-
-&lt;p&gt;The overall winner, and honorable mentions, will then be selected from this shortlist by the panel of judges, including: &lt;/p&gt;
-
-
-
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Maryrose Franko&lt;/strong&gt;, Executive Director, Health Research Alliance&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Nonia Pariente&lt;/strong&gt;, Editor-in-Chief, &lt;em&gt;PLOS Biology&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Lara Bethke&lt;/strong&gt;, Chief Scientific Officer, Health Resources in Action&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Sindy Escobar Alvarez&lt;/strong&gt;, Senior Program Officer, Medical Research Program, Doris Duke Charitable Foundation&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Susan M. Fitzpatrick&lt;/strong&gt;, President, James S. McDonnell Foundation &lt;/li&gt;&lt;li&gt;&lt;strong&gt;Lynne Garner,&lt;/strong&gt; President, The Donaghue Foundation&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Marc Hurlbert&lt;/strong&gt;, Chief Science Officer, Melanoma Research Alliance&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Judy Keen&lt;/strong&gt;, Director of Scientific Affairs, American Society of Hematology&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Amy Laster&lt;/strong&gt;, Vice President, Science and Awards Programs, Foundation Fighting Blindness &lt;/li&gt;&lt;li&gt;&lt;strong&gt;Dawid Potgieter&lt;/strong&gt;, Director, Programs in Discovery Science, Templeton World Charity Foundation&lt;/li&gt;&lt;/ul&gt;
-
-
-
-&lt;p&gt;The panel reserves the right to reach out to other reviewers, in confidence, for input into the decision. &lt;/p&gt;
-
-
-
-&lt;p&gt;Before publication, the &lt;strong&gt;winning essay&lt;/strong&gt; may be edited by a PLOS editor for length and style to conform to the PLOS &lt;a href=&quot;https://drive.google.com/file/d/1vg4rQ26IOuBmY_cC8C1CRmQFlISIr3UU/view?usp=sharing&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt; journal format&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;h3&gt;&lt;strong&gt;To submit&lt;/strong&gt;&lt;/h3&gt;
-
-
-
-&lt;p&gt;Please go to &lt;a href=&quot;https://proposalcentral.com&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;ProposalCentral&lt;/a&gt;  and create a user account (or login if you have one). Please note you will need an &lt;a href=&quot;https://orcid.org/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;ORCID&lt;/a&gt; ID. &lt;/p&gt;
-
-
-
-&lt;p&gt;Under the “Grant Opportunities” tab search for “Health Research Alliance”. Click the &lt;strong&gt;Apply Now&lt;/strong&gt; button next to the &lt;strong&gt;Health Research Alliance | Reimagine Biomedical Research for a Healthier Future Essay Challenge&lt;/strong&gt;. &lt;/p&gt;
-
-
-
-&lt;p&gt;Any questions, please email: &lt;a href=&quot;mailto:info@healthra.org&quot; rel=&quot;noreferrer noopener nofollow&quot; target=&quot;_blank&quot;&gt;info@healthra.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://theplosblog.plos.org/2020/12/reimagine-biomedical-research-for-a-healthier-future/&quot; rel=&quot;nofollow&quot;&gt;Reimagine Biomedical Research for a Healthier Future: Essay Challenge&lt;/a&gt; appeared first on &lt;a href=&quot;https://theplosblog.plos.org&quot; rel=&quot;nofollow&quot;&gt;The Official PLOS Blog&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/ggtXoRqpVeM&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2020-12-10T15:00:55+00:00</dc:date>
-	<dc:creator>PLOS</dc:creator>
 </item>
 
 </rdf:RDF>
