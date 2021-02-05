@@ -9,6 +9,213 @@
 	<atom:link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>BMC Series blog: A ‘furever’ home: AI to the rescue!</title>
+	<guid isPermaLink="false">http://blogs.biomedcentral.com/bmcseriesblog/?p=12269</guid>
+	<link>http://blogs.biomedcentral.com/bmcseriesblog/2021/02/05/a-furever-home-ai-to-the-rescue/</link>
+	<description>&lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/Animal-Shelter-140x110.jpg&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;p&gt;How many of us love animals and think of our pets as part of the family? Well, what if I told you that among the 6-8 million animals that enter the rescue shelters every year, nearly 3-4 million (i.e., 50% of the incoming animals) are euthanized. Even more heartbreaking is that 10% – 25% of them are put to death specifically because of shelter overcrowding each year.&lt;/p&gt;
+&lt;p&gt;The problem of overpopulation of domestic animals continues to rise, leaving shelters faced with the challenge of how to increase adoption rates. Though animal shelters provide incentives such as reduced adoption fees and sterilizing animals before adoption, only a quarter of total animals living in the shelter are adopted.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Among the 6-8 million animals that enter rescue shelters every year, nearly 3-4 million are euthanized&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;These staggering statistics led us to investigate the length of stay of animals at shelters and the factors influencing the rate of animal adoption. The overarching goal of this study was to use these factors to predict and then minimize how long an animal will stay in a shelter, thereby decreasing the number of animals euthanized due to overcrowding. Several steps must be conducted to accomplish this goal, such as a literature search for the factors, collection of data from databases and animal shelters, and utilizing machine learning algorithms on this data to make predictions on length of stay in the shelters.&lt;/p&gt;
+&lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-12273 size-medium&quot; height=&quot;209&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/animal-rescue-300x209.jpg&quot; width=&quot;300&quot; /&gt;
+&lt;p&gt;To answer the question of what factors influence the length of stay, a thorough literature review was conducted. Several factors were found to influence the length of stay including color, gender, breed, animal type, and age. To make the predictions about the length of stay using these factors, we evaluated using machine learning algorithms and predictive analytics.&lt;/p&gt;
+&lt;p&gt;Machine learning is just the ability to program computers to learn and improve by itself using training experience. The developed system needs to analyze big data, quickly deliver accurate and repeatable results, and adapt to new data. A system can be trained to make accurate predictions by learning from examples of desired input-output data. In other words, we wanted to utilize a labeled data set with the output (length of stay) already known, so that the computer could learn from it. The next step was to obtain this data from databases and animal shelters across the country.&lt;/p&gt;
+&lt;img alt=&quot;&quot; class=&quot;wp-image-12274 size-medium aligncenter&quot; height=&quot;200&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/Machine-learning-300x200.jpg&quot; width=&quot;300&quot; /&gt;
+&lt;p&gt;The data that was collected from the databases and animal shelters included information such as animal type, intake and outcome date, gender, color, breed, and intake and outcome status (behavior of animal entering the shelter and behavior of animal at outcome type). These data sets included information from mostly southern and southwestern states. For the length of stay, the categories included “low”, “medium”, “high”, and “very high” (euthanized).  Once the data was collected and cleaned, it was time to input it into the machine learning algorithms.&lt;/p&gt;
+&lt;p&gt;There are so many different types of algorithms that can be used on a data set to make predictions. The hard part is determining which algorithm will perform the best on the given data set, as the performance of the models depends on the application. Simple classification algorithms such as logistic regression, artificial neural network, gradient boosting, and random forest were used in this study.&lt;/p&gt;
+&lt;p&gt;Examining the results, the most proficient predictive model was developed by the gradient boosting algorithm for this dataset, followed by the random forest algorithm. The logistic regression algorithm appeared to have the worst performance metrics for all categories of length of stay. What was interesting was that the gradient boosting and random forest algorithms performed well when predicting the very high length of stay or when the outcome was euthanization at around 70-80%.&lt;/p&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_12270&quot; style=&quot;width: 522px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-12270 size-full&quot; height=&quot;333&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/Blog_Shelters.png&quot; width=&quot;512&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;Age vs. Days in Shelter for Cats and Dogs&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Looking at the results from the exploratory data above, it was observed that the number of days a dog stays in the shelter decreases as the age increases. This was not expected, as it is predicted that the number of days in a shelter would be lower for younger dogs and puppies. This observation could be due to having more data points for younger dogs.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Results showed that age, size, and color have a significant impact or influence on the length of stay.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Another interesting result from the study was the top features or factors from each machine learning algorithm. Results showed that age (senior, super senior, and puppy), size (large and small), and color (multicolor) have a significant impact or influence on the length of stay.&lt;/p&gt;
+&lt;p&gt;For future studies, a prescriptive analytics approach will be utilized. Not only is our goal to increase adoption rates of pets in animal shelters, but to also determine the optimal animal shelter location where the animal will have the least amount stay in a shelter and most likely be adopted.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2021/02/05/a-furever-home-ai-to-the-rescue/&quot; rel=&quot;nofollow&quot;&gt;A ‘furever’ home: AI to the rescue!&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Fri, 05 Feb 2021 13:50:31 +0000</pubDate>
+        <enclosure url="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/Animal-Shelter-125x125.jpg" length="" type="image/jpeg"/>
+  <source url="http://blogs.biomedcentral.com/bmcseriesblog/feed/">BMC Series blog</source>
+</item>
+<item>
+	<title>Science News: The animals that ticks bite in the U.S. South can impact Lyme disease spread</title>
+	<guid isPermaLink="false">https://www.sciencenews.org/?p=3096065</guid>
+	<link>https://www.sciencenews.org/article/ticks-animals-skinks-lyme-disease-united-states-south</link>
+	<description>&lt;p&gt;The paucity of Lyme disease cases in the southern United States may be partly due to what black-legged ticks in southern locales bite.&lt;/p&gt;
+
+
+
+&lt;p&gt;Although black-legged ticks (&lt;em&gt;Ixodes scapularis)&lt;/em&gt; claim much of the eastern half of the country as their home, the Lyme disease they spread is largely concentrated in the Northeast and increasingly in the upper Midwest.&lt;/p&gt;
+
+
+
+&lt;p&gt;It’s well known that ticks in the Northeast commonly latch on to white-footed mice. This relationship turns out to be a boon for Lyme disease. When infected with the bacteria &lt;em&gt;Borrelia burgdorferi&lt;/em&gt;, which causes Lyme disease, these mice very efficiently spread it to the ticks, which can then pass it on to people.&lt;/p&gt;
+
+
+
+&lt;p&gt;But &lt;a href=&quot;https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001066&quot;&gt;southern-residing ticks are different&lt;/a&gt;. They are more likely to bite lizards called skinks, which are poor transmitters of the bacteria, researchers report January 28 in &lt;em&gt;PLOS Biology&lt;/em&gt;.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;This study “shows that there’s this really interesting switch” north to south in the predominant tick host, says disease ecologist Shannon LaDeau of the Cary Institute of Ecosystem Studies in Millbrook, N.Y., who was not part of the research team. “It looks like that is reducing the transmission” in the South of the bacteria that causes Lyme disease.&lt;/p&gt;
+
+
+
+&lt;p&gt;An estimated 476,000 people are &lt;a href=&quot;https://wwwnc.cdc.gov/eid/article/27/2/20-2731_article&quot;&gt;diagnosed with Lyme disease&lt;/a&gt; each year in the United States, according to insurance data from 2010 to 2018. In about 70 to 80 percent of cases, &lt;a href=&quot;https://www.cdc.gov/lyme/signs_symptoms/rashes.html&quot;&gt;a rash in the area of the tick bite&lt;/a&gt; is an early sign of the disease; other symptoms include fever, fatigue and achiness. Most people recover with early antibiotic treatment. If the diagnosis is missed, &lt;a href=&quot;https://www.sciencenews.org/article/ticks-lyme-disease-testing-new-approaches&quot;&gt;the infection can spread&lt;/a&gt; in the body and cause arthritis and nerve pain (&lt;em&gt;SN: 6/22/19&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;Scanning for and removing ticks after a hike is one part of Lyme disease control. Understanding the ticks’ behavior and their relationship to the environment can inform other prevention methods.&lt;/p&gt;
+
+
+
+&lt;p&gt;Black-legged ticks need blood meals to progress through several developmental stages. The larvae that emerge from eggs are the first to seek out a host for blood; this is the point when they can first become infected with Lyme bacteria. The next blood meal is at the nymph stage. Nymphs infected as larvae can spread the bacteria to other hosts, including people.&lt;/p&gt;
+
+
+
+&lt;p&gt;There’s been a long debate about the difference in Lyme disease cases between the North and the South, says research ecologist Howard Ginsberg at the Patuxent Coastal Field Station at the University of Rhode Island in Kingston. The ticks are in the South, so “why isn’t there much Lyme disease?”&lt;/p&gt;
+
+
+
+&lt;p&gt;One possible reason is that nymphal ticks in the North seek hosts on top of or above leaf litter, which puts them in the path of passing hikers. But nymphal ticks in the South are &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/30709659/&quot;&gt;more likely to stay under leaf litter&lt;/a&gt;, reducing the chance of such encounters, researchers reported in &lt;em&gt;Ticks and Tick-borne Diseases&lt;/em&gt; in 2019. It may be that the ticks remain below the leaf litter in the hotter South to avoid drying out.&lt;/p&gt;
+
+
+
+&lt;p&gt;This host-seeking behavior and the results of the new study help to explain the North-South difference, Ginsberg says. In 2011 and 2012, he and his colleagues captured host animals in live traps and collected and tested ticks at eight sites in the eastern half of the United States. “We tried to catch everything that crawled on the ground that the tick might attach to,” he says.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the North, the most common hosts were mice, while in the South, the ticks selectively attached to skinks, Ginsberg says. At the Massachusetts site, for example, 75 percent of the larvae and 93 percent of the nymphs were removed from mice, which accounted for 79 percent of the captured host animals. The team caught no skinks.&lt;/p&gt;
+
+
+
+&lt;p&gt;But at the Florida site, although around 40 percent of the animals captured were mice, they had only 3 percent of the larvae and less than 1 percent of the nymphs. Meanwhile, skinks — which made up 28 percent of the host animals captured — had 92 percent of the larvae and 98 percent of the nymphs. The team also found that the ticks at the northern sites were much more likely to be infected with Lyme bacteria than ticks from southern sites.&lt;/p&gt;
+
+
+
+&lt;p&gt;Understanding the ecological context of Lyme disease can help identify targets to try to reduce human risk, LaDeau says. For example, the possibility of &lt;a href=&quot;https://www.sciencenews.org/article/ticks-here-stay-scientists-finding-ways-outsmart-bloodsuckers&quot;&gt;vaccinating mice&lt;/a&gt; against Lyme bacteria (&lt;em&gt;SN: 8/9/17&lt;/em&gt;) may be more useful in the North.&lt;/p&gt;
+
+
+
+&lt;p&gt;The differences seen north to south also influence predictions of how climate change could impact Lyme disease. Black-legged ticks have moved farther north, bringing Lyme disease to Canada, in part due to warming. Perhaps the behaviors and biting patterns in the South will eventually expand to Maryland, Delaware and Virginia, reducing Lyme disease cases there, says Ginsberg. It will take more research to learn how climate change will affect skink populations and how warming might change tick behavior, he says.&lt;/p&gt;</description>
+	<pubDate>Fri, 05 Feb 2021 13:00:00 +0000</pubDate>
+        <enclosure url="https://www.sciencenews.org/wp-content/uploads/2021/02/012921_ac_tick_feat-330x186.jpg" length="160085" type="image/jpeg"/>
+  <source url="https://www.sciencenews.org/feed">Science News</source>
+</item>
+<item>
+	<title>Retraction watch: On COVID-19 PCR testing paper, “the criteria for a retraction of the article have not been fulfilled”</title>
+	<guid isPermaLink="false">https://retractionwatch.com/?p=121458</guid>
+	<link>https://retractionwatch.com/2021/02/05/on-covid-19-pcr-testing-paper-the-criteria-for-a-retraction-of-the-article-have-not-been-fulfilled/</link>
+	<description>Two months after announcing it would review an early 2020 paper on a way to detect the virus that causes COVID-19, a journal says that “the criteria for a retraction of the article have not been fulfilled.” The review of the paper, “Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR, by the journal, Eurosurveillance, … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/02/05/on-covid-19-pcr-testing-paper-the-criteria-for-a-retraction-of-the-article-have-not-been-fulfilled/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;On COVID-19 PCR testing paper, “the criteria for a retraction of the article have not been fulfilled”&lt;/span&gt;&lt;/a&gt;</description>
+	<pubDate>Fri, 05 Feb 2021 12:24:19 +0000</pubDate>
+  <source url="https://retractionwatch.com/feed/">Retraction Watch</source>
+</item>
+<item>
+	<title>Science News: Two exoplanet families redefine what planetary systems can look like</title>
+	<guid isPermaLink="false">https://www.sciencenews.org/?p=3096160</guid>
+	<link>https://www.sciencenews.org/article/exoplanet-families-planetary-systems-density-resonance</link>
+	<description>&lt;p&gt;Two tightly packed families of exoplanets are pushing the boundaries of what a planetary system can look like. New studies of the makeup of worlds orbiting two different stars show a wide range of planetary possibilities, all of them different from our solar system.&lt;/p&gt;
+
+
+
+&lt;p&gt;“When we study multiplanet systems, there’s simply more information kept in these systems” than any single planet by itself, says geophysicist Caroline Dorn of the University of Zurich. Studying the planets together “tells us about the diversity within a system that we can’t get from looking at individual planets.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Dorn and colleagues studied an old favorite planetary system called TRAPPIST-1, which hosts seven Earth-sized planets orbiting a small dim star about 40 light-years away. Another team studied a recently identified system called TOI-178, which has at least six planets — three already known and three newly found — circling a bright, hot star roughly 200 light-years away.&lt;/p&gt;
+
+
+
+&lt;p&gt;Both systems offer planetary scientists an advantage over the more than 3,000 other exoplanet families spotted to date: All seven planets in TRAPPIST-1 and all six in TOI-178 have well-known masses and radii. That means planetary scientists can figure out their densities, a &lt;a href=&quot;https://www.sciencenews.org/article/recipes-solar-system-exoplanets-formation-rewrite&quot;&gt;clue to the planets’ composition&lt;/a&gt; (&lt;em&gt;SN: 5/11/18&lt;/em&gt;).&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;The two systems also offer another advantage: The planets are packed in so close to their stars that most are engaged in a delicate orbital dance called a resonance chain. Every time an outer planet completes an orbit around its star, some of its closer-in sibling planets complete multiple orbits.&lt;/p&gt;
+
+
+
+&lt;p&gt;Resonance chains are fragile arrangements, and knocking a planet even slightly out of its orbit can destroy them. That means the TRAPPIST-1 and TOI-178 systems must have formed slowly and gently, says astronomer Adrien Leleu of the University of Geneva.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+
+&lt;/div&gt;TOI-178’s planets are engaged in a delicate orbital dance called a resonance chain that suggests the system formed gently. This video illustrates this rhythmic dance: as an outer planet completes one full orbit, the inner planets complete multiple orbits. Each full and half orbit is assigned a musical note. When planets align, the notes harmonize.&lt;/figure&gt;
+
+
+
+&lt;p&gt;“We don’t think there could have been giant impacts, or strong interactions where one planet ejected another planet,” Leleu says. That gentle evolution gives astronomers a unique opportunity to use TRAPPIST-1 and TOI-178 as testbeds for planetary theory.&lt;/p&gt;
+
+
+
+&lt;p&gt;In a pair of papers, two teams describe these systems in unprecedented detail. Both buck the trend astronomers expected from theories of how planetary systems form.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the TOI-178 system, &lt;a href=&quot;https://www.aanda.org/component/article?access=doi&amp;amp;doi=10.1051/0004-6361/202039767&quot;&gt;the planets’ densities are all jumbled up&lt;/a&gt;, Leleu and colleagues report January 25 in &lt;em&gt;Astronomy &amp;amp; Astrophysics&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;“In the most vanilla scenario, we expect that planets farther from the star…would have larger components of hydrogen and helium gas than the planets closer in,” says astrophysicist Leslie Rogers of the University of Chicago, who was not involved in either study. The closer to the star, the denser a planet should be. That’s because farther-out planets probably formed where it’s cold, and there was more low-density material like frozen water, rather than rock, to begin with. Plus, starlight can &lt;a href=&quot;https://www.sciencenews.org/article/newfound-exoplanet-may-be-exposed-core-gas-giant&quot;&gt;strip atmospheres from close-in planets&lt;/a&gt; more easily than far-out ones, leaving the inner planets with thinner atmospheres — or no atmospheres at all (&lt;em&gt;SN: 7/1/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;TOI-178 flouts that trend entirely. The innermost planets seem to be rocky, with densities similar to Earth’s. The third one is “very fluffy,” Leleu says, with a density like Jupiter’s, but in a much smaller planet. The next planet out has a density like Neptune’s, about one-third Earth’s density. Then, there’s one with about 60 percent Earth’s density, still fluffy enough to float if you could put it in a tub of water, and the final planet is Jupiter-like.&lt;/p&gt;
+
+
+
+&lt;p&gt;“The orbits seem to point out that there was no strong evolution from [the system’s] formation,” Leleu says. “But the compositions are not what we would have expected from a gentle formation in the disk.”&lt;/p&gt;
+
+
+
+&lt;p&gt;TRAPPIST-1’s planet septet, on the other hand, has an eerie self-similarity. Each world is &lt;a href=&quot;https://www.sciencenews.org/article/seven-earth-sized-planets-orbit-nearby-supercool-star&quot;&gt;roughly the same size as Earth&lt;/a&gt;, between 0.76 and 1.13 times Earth’s radius, astrophysicist Eric Agol of the University of Washington in Seattle and colleagues reported in 2017 (&lt;em&gt;SN: 2/22/17&lt;/em&gt;). Plus, at least three of them appear to be in the star’s habitable zone, the region where temperatures might be right for liquid water.&lt;/p&gt;
+
+
+
+&lt;p&gt;Now, Agol, Dorn and colleagues have made the most precise measurements of the TRAPPIST-1 masses yet. All seven worlds &lt;a href=&quot;https://iopscience.iop.org/article/10.3847/PSJ/abd022&quot;&gt;are almost identical to each other but slightly less dense than Earth&lt;/a&gt;, the team reports in the February &lt;em&gt;Planetary Science Journal&lt;/em&gt;. That means the planets could be rocky yet have a lower proportion of heavy elements such as iron compared with Earth. Or it could mean they have more oxygen bound to the iron in their rocks, “basically rusting it,” Agol says.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;image-desktop&quot;&gt;
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Three planets with different compositions&quot; class=&quot;wp-image-3096163&quot; height=&quot;290&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/02/012921_lg_multiplanet_inline_desktop_680.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3096163&quot;&gt;TRAPPIST-1’s seven planets seem to have similar compositions to each other, but different from Earth. They could have an Earthlike makeup but with a smaller iron-rich core (center), or have no core at all (left). They could also have deep oceans (right), but the inner three planets are probably too hot for that much water to last.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3096163&quot;&gt;JPL-Caltech/NASA&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&quot;image-mobile&quot;&gt;
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Three planets with different compositions&quot; class=&quot;wp-image-3096164&quot; height=&quot;308&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/02/012921_lg_multiplanet_inline_mobile_680.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3096164&quot;&gt;TRAPPIST-1’s seven planets seem to have similar compositions to each other, but different from Earth. They could have an Earthlike makeup but with a smaller iron-rich core (center), or have no core at all (left). They could also have deep oceans (right), but the inner three planets are probably too hot for that much water to last.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3096164&quot;&gt;JPL-Caltech/NASA&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;Oxidized iron wouldn’t form a planetary core, which could be bad news for life, Rogers says. No core might mean no magnetic field to protect the planets from the star’s &lt;a href=&quot;https://www.sciencenews.org/article/proxima-centauri-flare-may-have-fried-earths-nearest-exoplanet&quot;&gt;damaging flares&lt;/a&gt; (&lt;em&gt;SN: 3/5/18&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;However, it’s not clear how to form coreless planets. “There are propositions for how to form such planets, but we don’t actually have one candidate in the solar system where we see this,” Dorn says. The analogs in the solar system are all asteroid-sized bodies much less massive than Earth.&lt;/p&gt;
+
+
+
+&lt;p&gt;Astronomers may soon get a better handle on the compositions of TRAPPIST-1’s planets. The James Webb Space Telescope, set to launch in October, will probe the planets’ atmospheres (if they have any) for signs of chemical elements that would reveal in more detail what they’re made of.&lt;/p&gt;
+
+
+
+&lt;p&gt;The TRAPPIST-1 planets’ similarities to each other are not as surprising as the differences among TOI-178’s planets, Rogers says. But they’re still unexpected. If all the planets have identical compositions, then any formation model needs to explain that, she says.&lt;/p&gt;
+
+
+
+&lt;p&gt;While these systems challenge astronomers’ views of what sorts of planets are possible, Dorn says, it will take discovering more multiplanet systems to tell how weird they truly are.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;p&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 05 Feb 2021 11:00:00 +0000</pubDate>
+        <enclosure url="https://www.sciencenews.org/wp-content/uploads/2021/02/012921_lg_multiplanet_feat-330x186.jpg" length="29341" type="image/jpeg"/>
+  <source url="https://www.sciencenews.org/feed">Science News</source>
+</item>
+<item>
 	<title>Retraction watch: Engineering professor up to nine retractions for image problems</title>
 	<guid isPermaLink="false">https://retractionwatch.com/?p=121454</guid>
 	<link>https://retractionwatch.com/2021/02/04/engineering-professor-up-to-nine-retractions-for-image-problems/</link>
@@ -62,6 +269,38 @@
 	<description>Five award-winning women scientists from the developing world will present virtually at AAAS</description>
 	<pubDate>Thu, 04 Feb 2021 21:51:38 +0000</pubDate>
   <source url="https://www.elsevier.com/connect/feed">Elsevier Connect</source>
+</item>
+<item>
+	<title>UH Biocomputation group: Rapid online learning and robust recall in a neuromorphic olfactory circuit</title>
+	<guid isPermaLink="false">tag:biocomputation.herts.ac.uk,2021-02-04:/2021/02/04/rapid-online-learning-and-robust-recall-in-a-neuromorphic-olfactory-circuit.html</guid>
+	<link>http://biocomputation.herts.ac.uk/2021/02/04/rapid-online-learning-and-robust-recall-in-a-neuromorphic-olfactory-circuit.html</link>
+	<description>&lt;p&gt;This week on Journal Club session Damien Drix will talk about a paper &quot;Rapid online learning and robust recall in a neuromorphic olfactory circuit&quot;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;We present a neural algorithm for the rapid online learning and identification
+of odourant samples under noise, based on the architecture of the mammalian
+olfactory bulb and implemented on the Intel Loihi neuromorphic system. As with
+biological olfaction, the spike timing-based algorithm utilizes distributed,
+event-driven computations and rapid (one shot) online learning. Spike
+timing-dependent plasticity rules operate iteratively over sequential
+gamma-frequency packets to construct odour representations from the activity of
+chemosensor arrays mounted in a wind tunnel. Learned odourants then are
+reliably identified despite strong destructive interference. Noise resistance
+is further enhanced by neuromodulation and contextual priming. Lifelong
+learning capabilities are enabled by adult neurogenesis. The algorithm is
+applicable to any signal identification problem in which high-dimensional
+signals are embedded in unknown backgrounds.&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Papers:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Imam, N., Cleland, T.A. &lt;a class=&quot;reference external&quot; href=&quot;https://www.nature.com/articles/s42256-020-0159-4&quot;&gt;&quot;Rapid online learning and robust recall in a neuromorphic olfactory circuit&quot;&lt;/a&gt;, Nat Mach Intell 2, 181–191 (2020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2021/02/05 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</description>
+	<pubDate>Thu, 04 Feb 2021 18:51:50 +0000</pubDate>
+  <source url="http://biocomputation.herts.ac.uk/feeds/all.atom.xml">UH Biocomputation Group</source>
 </item>
 <item>
 	<title>Science News: A new chameleon species may be the world’s tiniest reptile</title>
@@ -2092,162 +2331,6 @@ The agenda for the meeting is:&lt;/p&gt;
   <source url="https://www.sciencenews.org/feed">Science News</source>
 </item>
 <item>
-	<title>Science News: Novavax’s COVID-19 vaccine is effective, but less so with some variants</title>
-	<guid isPermaLink="false">https://www.sciencenews.org/?p=3095810</guid>
-	<link>https://www.sciencenews.org/article/covid-19-coronavirus-novavax-vaccine-results-south-africa-variant</link>
-	<description>&lt;p&gt;A COVID-19 vaccine made by Novavax is about 89 percent effective against illness, but doesn’t protect as well against a virus variant that arose in South Africa. The data also suggest that people who previously had coronavirus infections may not be immune to the South Africa variant, known as 501Y.V2 or B.1.351, which is now circulating in at least 30 countries.&lt;/p&gt;
-
-
-
-&lt;p&gt;The results came the same day that health officials reported the &lt;a href=&quot;https://scdhec.gov/news-releases/south-carolina-public-health-officials-detect-nations-first-known-cases-covid-19&quot;&gt;first two U.S. cases of COVID-19 caused by the South Africa variant&lt;/a&gt;. It turned up in two people in separate parts of South Carolina with no connection to each other. Neither had traveled recently, so it’s unclear where they picked up the virus. &lt;/p&gt;
-
-
-
-&lt;p&gt;Novavax Inc., based in Gaithersburg, Md., presented the interim data from clinical trials in South Africa and the United Kingdom in a &lt;a href=&quot;https://ir.novavax.com/news-releases/news-release-details/novavax-covid-19-vaccine-demonstrates-893-efficacy-uk-phase-3&quot;&gt;news release&lt;/a&gt; January 28. The studies are not yet complete and final effectiveness data are expected in February. The company is also conducting a large trial in the United States and Mexico for which data are not yet available.&lt;/p&gt;
-
-
-
-&lt;p&gt;Novavax’s vaccine, given in two shots 21 days apart, contains a rod-shaped nanoparticle studded with the coronavirus’s spike protein. It is the first protein-based COVID-19 vaccine for which there are effectiveness results. That signature protein prompts the body to recognize and make antibodies against the virus, setting up the tools to fight a later infection.&lt;/p&gt;
-
-
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
-
-
-
-&lt;p&gt;In the United Kingdom, the company did a Phase III clinical trial to test the vaccine’s efficacy against a placebo in more than 15,000 people. Of the 62 cases of COVID-19 that arose among study participants, 56 were in the placebo group and six in the vaccine group. Most cases were mild or moderate. One severe case occurred in the placebo group.&lt;/p&gt;
-
-
-
-&lt;p&gt;Those data indicate that the vaccine protects against severe illness with 89.3 percent effectiveness. The vaccine protected nearly as well — with 85.6 percent effectiveness — against illness from a &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-19-uk-variant-pandemic-spread&quot;&gt;more transmissible variant&lt;/a&gt; of the virus known as B.1.1.7 that has become prominent in the United Kingdom (&lt;em&gt;SN: 12/22/20&lt;/em&gt;). In the United States, that strain has also been detected in more than half of the states and may become the &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-uk-variant-more-contagious-us-dominant-strain&quot;&gt;dominant strain by March&lt;/a&gt; (&lt;em&gt;SN: 1/15/21&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;p&gt;The South African trial included about 4,400 adults. As the trial got started, a variant of the coronavirus called 501Y.V2 became the predominant variant in the country. That variant is of concern because some evidence suggests it &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-vaccines-coronavirus-variants-challenges&quot;&gt;can escape antibodies&lt;/a&gt; that prevent the virus from entering cells (&lt;em&gt;SN: 1/27/20&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;p&gt;In the preliminary analysis of the South African trial, 44 participants got COVID-19. Of those, 29 — including the sole severe case — were in the placebo group and 15 were in the vaccine group.  The vaccine showed 60 percent efficacy at preventing severe COVID-19 in people who are HIV-negative. When HIV-positive people were added to equation, the vaccine was 49.4 percent effective at preventing disease.&lt;/p&gt;
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
-&lt;h4&gt;
-&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
-&lt;/h4&gt;
-&lt;/aside&gt;
-
-
-
-&lt;p&gt;Researchers have determined the genetic makeup of the virus in 27 of the 44 cases in the study. The 501Y.V2 variant accounted for 25 of those 27 cases, or 92.6 percent.&lt;/p&gt;
-
-
-
-&lt;p&gt;About a third of the participants had antibodies in their blood at the start of the study indicating that they’d had previous infections with SARS-CoV-2, the virus that causes COVID-19. But those previous infections didn’t protect against the new variant.&lt;/p&gt;
-
-
-
-&lt;p&gt;“The wave one illness experience is not providing immunity to wave two,” Gregory Glenn, president of research and development for Novavax said January 28 during a conference call with investors.&lt;/p&gt;
-
-
-
-&lt;p&gt;Still, the company is encouraged that the vaccine showed some protection against the variant, Glenn said. Other companies are testing whether their vaccines can also head off illness caused by the new variant.&lt;/p&gt;
-
-
-
-&lt;p&gt;Novavax already has new versions of its vaccine, including one that includes the 501Y.V2 variant, in development and expects to start clinical trials in the second quarter of 2021, Glenn said.&lt;/p&gt;</description>
-	<pubDate>Fri, 29 Jan 2021 01:08:26 +0000</pubDate>
-        <enclosure url="https://www.sciencenews.org/wp-content/uploads/2021/01/012821_TI_novavax_feat-330x186.jpg" length="105282" type="image/jpeg"/>
-  <source url="https://www.sciencenews.org/feed">Science News</source>
-</item>
-<item>
-	<title>Science News: Naked mole-rat colonies speak with unique dialects</title>
-	<guid isPermaLink="false">https://www.sciencenews.org/?p=3095792</guid>
-	<link>https://www.sciencenews.org/article/naked-mole-rat-colonies-speak-communicate-unique-dialects</link>
-	<description>&lt;p&gt;When one naked mole-rat encounters another, the accent of their chirps might reveal whether they’re friends or foes.&lt;/p&gt;
-
-
-
-&lt;p&gt;These social rodents are famous for their wrinkly, hairless appearance. But hang around one of their colonies for a while, and you’ll notice something else — they’re a chatty bunch. Their underground burrows resound with near-constant chirps, grunts, squeaks and squeals.&lt;/p&gt;
-
-
-
-&lt;p&gt;Now, computer algorithms have uncovered &lt;a href=&quot;https://science.sciencemag.org/content/371/6528/503&quot;&gt;a hidden order within this cacophony&lt;/a&gt;, researchers report in the Jan. 29 &lt;em&gt;Science&lt;/em&gt;. These distinctive chirps, which pups learn when they’re young, help the mostly blind, xenophobic rodents discern who belongs, strengthening the bonds that maintain cohesion in these highly cooperative groups.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Language is really important for extreme social behavior, in humans, dolphins, elephants or birds,” says Thomas Park, a biologist at the University of Illinois Chicago who wasn’t involved in the study. This work shows naked mole-rats (&lt;em&gt;Heterocephalus glaber&lt;/em&gt;) belong in those ranks as well, Park says.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Naked mole-rat groups seem more like ant or termite colonies than mammalian societies. Every colony has a &lt;a href=&quot;https://www.sciencenews.org/article/first-mammal-joins-eusocial-club&quot;&gt;single breeding queen who suppresses the reproduction&lt;/a&gt; of tens to hundreds of nonbreeding worker rats that dig elaborate subterranean tunnels in search of tubers in eastern Africa (&lt;em&gt;SN: 10/18/04&lt;/em&gt;). Food is scarce, and the rodents vigorously attack intruders from other colonies. While researchers have long noted the rat’s raucous chatter, few actually studied it. &lt;/p&gt;
-
-
-
-&lt;p&gt;“Naked mole-rats are incredibly cooperative and incredibly vocal, and no one has really looked into how these two features influence one another,” says Alison Barker, a neuroscientist at the Max Delbrück Center for Molecular Medicine in Berlin.&lt;/p&gt;
-
-
-
-&lt;p&gt;To start, she and her colleagues leveraged the computing power of machine learning to analyze over 30,000 “soft chirps” — a common vocalization — from seven laboratory colonies over two years. The analysis revealed that each colony had a unique sound, varying primarily in frequency and how much that frequency changes within a single chirp.&lt;/p&gt;
-
-
-
-&lt;p&gt;Naked mole-rats pick up on these differences too, replying to the sounds of their own colony with frequent chirping, but largely ignoring foreign dialects, the researchers found. “That surprised us, and suggests soft chirps might signal that a naked mole-rat belongs to the colony,” Barker says. The naked mole-rats aren’t just responding to voices they’ve heard before either, as artificially concocted calls matched to a specific dialect also elicited a response.&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-sciencenews-content-sidebar&quot;&gt;
-&lt;h3&gt;Mole-rat greeting&lt;/h3&gt;
-
-
-
-&lt;p&gt;Naked mole-rats often greet each other with a soft chirp, which can be used to communicate individual and colony identity. Different colonies have distinctive dialects, often varying in frequency, as can be heard by comparing these soft chirps from two separate colonies.&lt;/p&gt;
-
-
-
-&lt;div style=&quot;font-size: 10px; color: #cccccc; overflow: hidden; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/science-news-magazine&quot; rel=&quot;noopener noreferrer&quot; style=&quot;color: #cccccc; text-decoration: none;&quot; target=&quot;_blank&quot; title=&quot;Science News Magazine&quot;&gt;Science News Magazine&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/science-news-magazine/soft-chirp-colony-baratheon/s-SVx1WuZrxrZ&quot; rel=&quot;noopener noreferrer&quot; style=&quot;color: #cccccc; text-decoration: none;&quot; target=&quot;_blank&quot; title=&quot;Baratheon mole rat colony soft chirps | Science News&quot;&gt;Baratheon mole rat colony soft chirps | Science News&lt;/a&gt;&lt;/div&gt;
-
-
-
-&lt;div style=&quot;font-size: 10px; color: #cccccc; overflow: hidden; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;&quot;&gt;&lt;a href=&quot;https://soundcloud.com/science-news-magazine&quot; rel=&quot;noopener noreferrer&quot; style=&quot;color: #cccccc; text-decoration: none;&quot; target=&quot;_blank&quot; title=&quot;Science News Magazine&quot;&gt;Science News Magazine&lt;/a&gt; · &lt;a href=&quot;https://soundcloud.com/science-news-magazine/soft-chirp-colony-dothraki-mdc/s-YLa2eAu4fS5&quot; rel=&quot;noopener noreferrer&quot; style=&quot;color: #cccccc; text-decoration: none;&quot; target=&quot;_blank&quot; title=&quot;Dothraki mole rat colony soft chirps | Science News&quot;&gt;Dothraki mole rat colony soft chirps | Science News&lt;/a&gt;&lt;/div&gt;
-
-
-
-&lt;div style=&quot;line-height: 12px; font-size: 10px; height: auto; text-align: right;&quot;&gt;Audio: Alison Barker/Lewin Lab/Max Delbrück Center; Image: Felix Petermann/Max Delbrück Center&lt;/div&gt;
-&lt;/div&gt;
-
-
-
-&lt;p&gt;A bit of luck allowed Barker and her colleagues to test whether these dialects are learned or genetically encoded. Most colonies reject outsiders, but &lt;a href=&quot;https://www.sciencenews.org/article/naked-mole-rats-colonies-territory-pups&quot;&gt;sometimes pups from other groups can get adopted by a colony&lt;/a&gt; (&lt;em&gt;SN: 10/20/20&lt;/em&gt;). Multiple laboratory populations produced new litters around the same time, allowing the researchers to switch three youngsters to new colonies. If dialect stems from genetics, these outsiders should still sound like outsiders. But if dialects are learned, transplanted pups should sound like their new brethren.&lt;/p&gt;
-
-
-
-&lt;p&gt;The latter was true. And the closer to birth a pup was moved, the more closely it matched the dialect of its new home. &lt;/p&gt;
-
-
-
-&lt;p&gt;“A sample size of three is small, but these are really difficult experiments to do,” says Chris Faulkes, an evolutionary biologist at Queen Mary University of London who wasn’t involved in the study. Still, he says the results strongly suggest that dialects of naked mole-rats are learned, similar to those of humans, cetaceans and &lt;a href=&quot;https://www.sciencenews.org/article/white-throated-sparrow-song-variation&quot;&gt;some birds&lt;/a&gt; (&lt;em&gt;SN: 7/2/20&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;p&gt;While a colony’s sound is distinctive, it’s not fixed. In periods of anarchy — when a queen dies and is not yet replaced — dialects started to dissolve, becoming much more variable, the researchers found. Once a new queen emerged, the colony cohered again, suggesting that in addition to suppressing reproduction, queens also somehow control a colony’s voice.&lt;/p&gt;
-
-
-
-&lt;p&gt;Dialects probably play a role in maintaining the “exquisite cooperation” of naked mole-rat societies, Barker says. But they also reflect how vocal communication is another means by which queens suppress the individual interests of colony members for the good of the group.&lt;/p&gt;
-
-
-
-&lt;p&gt;“We tend to think of this communication and cooperation as positive aspects of naked mole-rat culture, but individuals are rigidly controlled in their behavior by the queen,” Barker says. “It gives them a huge survival advantage, but it’s a bit like living in an oppressive regime.”&lt;/p&gt;</description>
-	<pubDate>Thu, 28 Jan 2021 19:00:40 +0000</pubDate>
-        <enclosure url="https://www.sciencenews.org/wp-content/uploads/2021/01/012721_jl_nakedmolerat_feat-330x186.jpg" length="335843" type="image/jpeg"/>
-  <source url="https://www.sciencenews.org/feed">Science News</source>
-</item>
-<item>
 	<title>Retraction watch: Former Texas postdoc earns 10-year federal funding ban for faking authors and papers to boost metrics</title>
 	<guid isPermaLink="false">https://retractionwatch.com/?p=121382</guid>
 	<link>https://retractionwatch.com/2021/01/28/former-texas-postdoc-earns-10-year-federal-funding-ban-for-faking-authors-and-papers-to-boost-metrics/</link>
@@ -2846,14 +2929,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	<pubDate>Thu, 21 Jan 2021 15:06:52 +0000</pubDate>
         <enclosure url="http://traffic.libsyn.com/secure/psychcrunch/PsychCrunch_Ep23.mp3" length="32830316" type="audio/mpeg"/>
   <source url="https://digest.bps.org.uk/feed/">Research Digest</source>
-</item>
-<item>
-	<title>Retraction watch: Why one biologist says it’s not too late to retract the “arsenic life” paper</title>
-	<guid isPermaLink="false">https://retractionwatch.com/?p=121309</guid>
-	<link>https://retractionwatch.com/2021/01/21/why-one-biologist-says-its-not-too-late-to-retract-the-arsenic-life-paper/</link>
-	<description>An anniversary has prompted this reconsideration of the revolution in biochemistry that wasn’t: the “arsenic bacteria.” Just over 10 years have passed since an infamous Dec. 2, 2010, NASA press conference, which promised the revelation of “an astrobiology finding that will impact the search for evidence of extraterrestrial life.”  Of course, nothing of the kind … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/01/21/why-one-biologist-says-its-not-too-late-to-retract-the-arsenic-life-paper/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Why one biologist says it’s not too late to retract the “arsenic life” paper&lt;/span&gt;&lt;/a&gt;</description>
-	<pubDate>Thu, 21 Jan 2021 11:00:00 +0000</pubDate>
-  <source url="https://retractionwatch.com/feed/">Retraction Watch</source>
 </item>
 <item>
 	<title>For Better Science: Victims as perpetrators</title>
@@ -5001,100 +5076,6 @@ puppeteering businessman. Exactly the kind of &quot;fringe scientist&quot; Smut 
 &lt;p&gt;&lt;/p&gt;</description>
 	<pubDate>Wed, 16 Dec 2020 14:30:00 +0000</pubDate>
   <source url="https://brainupdate.nih.gov/feed/">BRAIN Update</source>
-</item>
-<item>
-	<title>The British Psychological Society - Research Digest: People Take Better Care Of Public Parks If They Feel A Greater Sense Of Ownership Over Them</title>
-	<guid isPermaLink="false">http://digest.bps.org.uk/?p=41056</guid>
-	<link>https://digest.bps.org.uk/2020/12/16/people-take-better-care-of-public-parks-if-they-feel-a-greater-sense-of-ownership-over-them/</link>
-	<description>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;The “tragedy of the commons” was popularised in the 1960s as a way of explaining how public or shared resources which we’re incentivised to use can become depleted or ruined by individual self-interest. And because we have &lt;em&gt;shared&lt;/em&gt; ownership of public resources we feel we have less responsibility for them and therefore less of an impetus to contribute time, energy or money to keeping them going.&lt;/p&gt;
-
-
-
-&lt;p&gt;As we become more aware (and more concerned) about threats to the environment, the tragedy of the commons seems even more pertinent. How do we keep parks, rivers, lakes and other local resources well-maintained? According to a &lt;a href=&quot;https://journals.sagepub.com/doi/10.1177/0022242920952084&quot;&gt;new study&lt;/a&gt;, published in the &lt;em&gt;Journal of Marketing, &lt;/em&gt;it might come down to a sense of ownership — the more we feel a property or resource is ours, the better we’ll take care of it.&lt;/p&gt;
-
-
-
-&lt;span id=&quot;more-41056&quot;&gt;&lt;/span&gt;
-
-
-
-&lt;p&gt;The focus of the first study was a lake, where 135 participants had rented kayaks. The rental service largely catered to those with no experience of the lake, meaning they were unlikely to have any sense of ownership of the area before their visit. Some of the kayak renters were asked to think of and write down a nickname for the lake, while others were not; all renters were then told that they should pick up objects or trash they found floating in the lake.&lt;/p&gt;
-
-
-
-&lt;p&gt;Two experimenters then watched the participants and recorded any attempts to pick up floating objects (which had been planted in the lake by the team). When the participants returned their kayaks, they indicated whether or not they had picked up any rubbish and how much ownership they felt toward the lake.&lt;/p&gt;
-
-
-
-&lt;p&gt;Those who had given the lake a nickname reported significantly higher levels of psychological ownership of the lake than those who had not. They were also more likely to actually take care of the lake: 41% attempted to pick up the floating objects, compared to just 7% of those in the control condition.&lt;/p&gt;
-
-
-
-&lt;p&gt;In the second study, participants imagined walking in a park, seeing a sign that said either “welcome to the park” or “welcome to &lt;em&gt;your&lt;/em&gt; park” (emphasis added). Participants were then asked how much responsibility they felt for the park, how obligated they felt towards the park, how accountable they felt for it, and whether or not they would pick up rubbish in the park. Participants were also asked how much of $100 they would donate to the park.&lt;/p&gt;
-
-
-
-&lt;p&gt;Again, boosting feelings of ownership by highlighting that it was “your” park increased participants’ perceived responsibility for the park. This led these participants to say they would be more likely to pick up rubbish, and to increase their intended donation amount by an average of $8. &lt;/p&gt;
-
-
-
-&lt;p&gt;The third study, back in the real world, looked at cross country skiers. When renting skis, participants were offered a map of the park: some were asked to plan their route on the map before they set out, while others were not. All renters were then asked whether or not they wanted to add a dollar to the rental fee to help the park, before indicating how likely they would be to volunteer for the park, donate in the future, or engage with the park on social media. Participants who planned their route again reported greater responsibility for the park, and were also more likely to say they’d donate to the park and volunteer in future.&lt;/p&gt;
-
-
-
-&lt;p&gt;A final study, lab-based study found that a commonly used device — an attendance sign which highlighted that a participant was the 22,452th visitor of the week — reduced the beneficial effects of boosting feelings of psychological ownership. This suggests that when people see themselves as just one individual in a larger group, they felt less responsibility towards the environment.&lt;/p&gt;
-
-
-
-&lt;p&gt;While the results do suggest clear interventions that could benefit publicly owned goods, the whole point of such resources is that they’re &lt;em&gt;shared&lt;/em&gt; — the fact they’re collectively owned is exactly why we’re able to enjoy their many benefits. So should we be encouraging people to think of them as their &lt;em&gt;individual&lt;/em&gt; property? Collectivism puts an emphasis on group collaboration and shared interests — factors that could play a part in preserving local resources. &lt;/p&gt;
-
-
-
-&lt;p&gt;Further research could look into interventions that seek to increase feelings of local collectivity, exploring how that, rather than individualism, might change people’s relationship with their surroundings.&lt;/p&gt;
-
-
-
-&lt;p&gt;– &lt;a href=&quot;https://journals.sagepub.com/doi/10.1177/0022242920952084&quot;&gt;Caring for the Commons: Using Psychological Ownership to Enhance Stewardship Behavior for Public Goods&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-	<pubDate>Wed, 16 Dec 2020 13:53:25 +0000</pubDate>
-  <source url="https://digest.bps.org.uk/feed/">Research Digest</source>
-</item>
-<item>
-	<title>UH Biocomputation group: Speech Emotion recognition using deep neural networks using Mel Frequency Cepstral coefficients</title>
-	<guid isPermaLink="false">tag:biocomputation.herts.ac.uk,2020-12-16:/2020/12/16/speech-emotion-recognition-using-deep-neural-networks-using-mel-frequency-cepstral-coefficients.html</guid>
-	<link>http://biocomputation.herts.ac.uk/2020/12/16/speech-emotion-recognition-using-deep-neural-networks-using-mel-frequency-cepstral-coefficients.html</link>
-	<description>&lt;p&gt;This week on Journal Club session Shreyah Iyer will talk about her project &quot;Speech Emotion recognition using deep neural networks using Mel Frequency Cepstral coefficients&quot;.&lt;/p&gt;
-&lt;hr class=&quot;docutils&quot; /&gt;
-&lt;p&gt;Speech is a very important context in understanding human emotions for example
-in psychology and criminology as the effects of emotions in voice can be
-recognized by all people irrespective of the language of speech. In this
-presentation I will talk about an ongoing KTP Project on Speech Emotion
-Recognition system.&lt;/p&gt;
-&lt;p&gt;The aim of the project is to build a system which can interpret the underlying
-emotion from an audio/speech signal. So far, I have worked on using Deep
-Learning architectures, i.e CNN’s with most widely used features for emotion
-detection such as MFCC’s and Mel-spectrograms. I have especially investigated
-what the best way is to use the coefficients extracted from MFCC’s. I have
-worked on are two publicly available Speech Emotion Corpus i.e., TESS and
-RAVDESS. Results conducted on these experiments show that the MFCC’s features
-with an optimal stack length supersedes the other CNN architectures used.&lt;/p&gt;
-&lt;p&gt;In this presentation I will also talk about the challenges and future work for
-this project.&lt;/p&gt;
-&lt;div class=&quot;line-block&quot;&gt;
-&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 16/12/2020 &lt;br /&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 16:00 &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</description>
-	<pubDate>Wed, 16 Dec 2020 12:28:04 +0000</pubDate>
-  <source url="http://biocomputation.herts.ac.uk/feeds/all.atom.xml">UH Biocomputation Group</source>
 </item>
 
 </channel>
