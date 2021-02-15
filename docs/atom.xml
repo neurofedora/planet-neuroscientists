@@ -5,8 +5,547 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2021-02-15T08:00:57+00:00</updated>
+	<updated>2021-02-15T14:00:59+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Next Open NeuroFedora meeting: 15 February 1300 UTC</title>
+		<link href="https://neuroblog.fedoraproject.org/2021/02/15/next-open-neurofedora-meeting-15-february-1500-utc.html"/>
+		<id>tag:neuroblog.fedoraproject.org,2021-02-15:/2021/02/15/next-open-neurofedora-meeting-15-february-1500-utc.html</id>
+		<updated>2021-02-15T12:11:05+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Photo by William White on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200112-image.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;William White&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 15 February at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class=&quot;reference external&quot; href=&quot;https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io&quot;&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210215T13&amp;amp;p1=1440&amp;amp;ah=1&quot;&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'TZ=&quot;UTC&quot; 1300 today'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by @ankursinha.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-02-01-13.00.html&quot;&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting&quot;&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://tinyurl.com/neurofedora-bugs&quot;&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro&quot;&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koschei.fedoraproject.org/groups/neuro-sig&quot;&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/packageinfo?packageID=30691&quot;&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neuroblog.fedoraproject.org/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
+			<id>https://neuroblog.fedoraproject.org/</id>
+			<updated>2021-02-15T12:11:05+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Next Open NeuroFedora meeting: 1 February 1300 UTC</title>
+		<link href="https://neuroblog.fedoraproject.org/2021/02/01/next-open-neurofedora-meeting-1-february-1500-utc.html"/>
+		<id>tag:neuroblog.fedoraproject.org,2021-02-01:/2021/02/01/next-open-neurofedora-meeting-1-february-1500-utc.html</id>
+		<updated>2021-02-15T12:11:05+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Photo by William White on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200112-image.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;William White&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 1 February at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class=&quot;reference external&quot; href=&quot;https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io&quot;&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210201T13&amp;amp;p1=1440&amp;amp;ah=1&quot;&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'TZ=&quot;UTC&quot; 1300 today'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by @bt0dotninja.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-01-18-13.06.html&quot;&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting&quot;&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://tinyurl.com/neurofedora-bugs&quot;&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro&quot;&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koschei.fedoraproject.org/groups/neuro-sig&quot;&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/packageinfo?packageID=30691&quot;&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neuroblog.fedoraproject.org/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
+			<id>https://neuroblog.fedoraproject.org/</id>
+			<updated>2021-02-15T12:11:05+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Next Open NeuroFedora meeting: 18 January 1300 UTC</title>
+		<link href="https://neuroblog.fedoraproject.org/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html"/>
+		<id>tag:neuroblog.fedoraproject.org,2021-01-12:/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html</id>
+		<updated>2021-02-15T12:11:05+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Photo by William White on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200112-image.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;William White&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 18 January at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class=&quot;reference external&quot; href=&quot;https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io&quot;&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210118T13&amp;amp;p1=1440&amp;amp;ah=1&quot;&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'TZ=&quot;UTC&quot; 1300 next Monday'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by @ankursinha (me).
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2020-11-30-13.01.html&quot;&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting&quot;&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://tinyurl.com/neurofedora-bugs&quot;&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro&quot;&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koschei.fedoraproject.org/groups/neuro-sig&quot;&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/packageinfo?packageID=30691&quot;&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neuroblog.fedoraproject.org/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
+			<id>https://neuroblog.fedoraproject.org/</id>
+			<updated>2021-02-15T12:11:05+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Saying That Girls Are “Just As Good” As Boys At Maths Can Inadvertently Perpetuate Gender Stereotypes</title>
+		<link href="https://digest.bps.org.uk/2021/02/15/saying-that-girls-are-just-as-good-as-boys-at-maths-can-inadvertently-perpetuate-gender-stereotypes/"/>
+		<id>http://digest.bps.org.uk/?p=41375</id>
+		<updated>2021-02-15T12:10:55+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p class=&quot;has-normal-font-size&quot;&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;Though girls and boys do equally well on maths tests, the stereotype that girls aren’t as naturally able at maths — or as likely to be extremely smart — is adopted early; even 6-year-olds in the US endorse it. Of course, these stereotypes harm women in an educational setting and in their professional lives, point out the authors of a &lt;a href=&quot;https://psycnet.apa.org/record/2020-99409-003&quot;&gt;new study&lt;/a&gt; in &lt;em&gt;Developmental Psychology&lt;/em&gt;. So it’s important to understand what gives rise to them. Eleanor Chestnut at Stanford University and her colleagues now report that one common and well-intentioned way of attempting to convey girls’ equality with boys actually backfires: saying that girls are “just as good” as boys at something leads the listener to conclude that boys are naturally better, and girls must work harder to equal them.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;Earlier work has shown that we use the syntax of a sentence to make inferences about the relative status of objects and social groups. Typically, we view the thing or person that is being compared to as the more typical or superior reference example. So, if you were to read “Molly’s cake is as good as Jessica’s”, you’d be likely to infer that Jessica’s is the exemplar that Molly is striving to equal. &lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;“Girls are just as good at boys at maths” is something that family members, caregivers, teachers and public figures all say to try to promote gender equality, note the researchers. And in 2018, Chestnut and her colleague Ellen M Markman reported that &lt;a href=&quot;https://doi.org/10.1111/cogs.12637&quot;&gt;adults who hear that statement infer that boys are more skilled at maths and have more natural ability&lt;/a&gt;. Unfortunately, then, it seems to perpetuate the very stereotype that it seeks to counteract. In the new study, the team set out to discover whether stereotypes can not only be perpetuated but learned, based on syntax alone.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;First, the team studied 288 adults, who were recruited online. These participants read sentences that incorporated nonsense words for abilities or traits. The team found that people who read that girls are “as good as boys” at “thrupping”, say, or “trewting”, inferred more natural skill to the boys, and that girls had to work harder to be “trewtic”, and so on. When the boys were reported to be “as good as girls”, though, the &lt;em&gt;girls &lt;/em&gt;were perceived to be superior — showing the influence of syntax in the participant’s judgements. When the sentence read, “Suppose someone tells you that boys and girls [or girls and boys] are equally good at thrupping”, and so on, neither gender was perceived to be naturally superior. &lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;The team then ran a similar study with 337 children, aged 7 to 11, who were recruited from museums in the San Francisco Bay area. This time, the researchers used puppets (who said they wanted to tell the children about boys and girls on their planet) as well as written statements. And instead of using nonsense words, the researchers referred to activities that the children would understand but which the team didn’t think they’d have a strong pre-existing gender bias about — whistling, hopping on one foot, doing handstands and snapping.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;When these children were told that boys [or girls] are “as good as” girls [or boys] at one of these things, the children more likely to report that the gender in the reference position, at the end of the sentence, was naturally better, and would have to work less hard to be skilled at it. Also in line with the findings from adults, when the boys and girls on the alien planet were presented as being “equally as good” at an activity, the children didn’t view either gender as being naturally superior. The children’s age made no difference; they all made similar inferences.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;“We conclude that is critically important to consider how we frame equality when talking to children,” the researchers write. The work suggests that if a child does not already hold the stereotype that boys are better than girls at maths, or more likely to be extremely smart, hearing that girls are “as good as boys” in these spheres could actually teach it. Public figures, websites, statements on Twitter, and even psychological research articles readily equate girls’ abilities with boys’ or women’s with men’s, the team notes.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-normal-font-size&quot;&gt;Their work suggests that presenting girls and boys, and men and women, as being “equally as good” at something is a far better strategy. “Until women and men are on equal syntactic footing, they will not be on equal social footing,” they conclude. &lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;https://psycnet.apa.org/record/2020-99409-003&quot;&gt;“Just as good”: Learning gender stereotypes from attempts to counteract them.&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;</content>
+		<author>
+			<name>BPS Research Digest</name>
+			<uri>https://digest.bps.org.uk</uri>
+		</author>
+		<source>
+			<title type="html">Research Digest</title>
+			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
+			<id>https://digest.bps.org.uk</id>
+			<updated>2021-02-15T14:00:47+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">In the social distancing era, boredom may pose a public health threat</title>
+		<link href="https://www.sciencenews.org/article/social-distancing-boredom-covid-19-public-health-pandemic"/>
+		<id>https://www.sciencenews.org/?p=3096361</id>
+		<updated>2021-02-15T11:00:00+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;In recent months, journalists and public health experts have bandied about the term “pandemic fatigue.” Though not clearly defined, the general gist is that people have grown tired of the pandemic and keeping apart for almost a year and running. &lt;a href=&quot;https://www.psychologytoday.com/us/blog/hot-thought/202011/what-is-covid-fatigue&quot;&gt;That fatigue&lt;/a&gt; can manifest as feelings of anxiety, hopelessness, frustration, anger and boredom.&lt;/p&gt;
+
+
+
+&lt;p&gt;Seeing boredom on that list worries those who study the phenomenon. “Usually boredom tells you that you should do something else,” says sports psychologist Wanja Wolff of the University of Konstanz in Germany. “In the context of a pandemic … that might not be the best thing.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Recently, those fears have received more traction. Two similar yet independent studies, one by Wolff and colleagues and another by a U.S.-Canadian research team, found that people who frequently feel bored are more likely than others to flout social distancing guidelines. Those boredom-prone individuals also appear to be at higher risk of contracting the coronavirus.&lt;/p&gt;
+
+
+
+&lt;p&gt;Boredom, these studies suggest, may well constitute a real, yet underappreciated, public health threat.&lt;/p&gt;
+
+
+
+
+
+&lt;h4&gt;Defining boredom&lt;/h4&gt;
+
+
+
+&lt;p&gt;Across the Western humanities, boredom has typically been depicted as an individual failing. The 19th century German pessimist Arthur Schopenhauer defined boredom as the sensation of the emptiness of existence. French philosopher Jean-Paul Sartre called it a “leprosy of the soul.”&lt;/p&gt;
+
+
+
+&lt;p&gt;But researchers studying boredom say it merits a more neutral reading. That feeling of having nothing to do — what Russian author Leo Tolstoy called “the desire for desires” — serves as a signal, a call to the body to shift gears, goes the current thinking.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Boredom is a sign that you’re not meaningfully engaged in the world,” says social psychologist Erin Westgate of the University of Florida in Gainesville. Researchers, including Westgate, have identified two paths to boredom: a loss of focus or a loss of meaning.&lt;/p&gt;
+
+
+
+&lt;p&gt;Certainly, many of us have lost the focus, or mental acuity, of the Before Times, Westgate says. In addition to a deadly pandemic that has brought city shutdowns and remote schooling, there have been civil rights protests, political unrest, a crippling recession and myriad other stressors both big and small. Those disturbances, which hobble our ability to stay mentally sharp, can lead to dullness. When boredom is defined this way, the busyness of, say, parents of young children provides little protection against feeling blah. In fact, Westgate and others have found that both understimulation and overstimulation can &lt;a href=&quot;https://psycnet.apa.org/record/2018-30815-001&quot;&gt;short-circuit one’s ability to pay attention&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Meanwhile, many of our lives have come unraveled. Research by personality and social psychologist Samantha Heintzelman of Rutgers University-Newark in New Jersey shows that simple routines, like getting coffee from the same café every day or a standing lunch date with a friend, actually&lt;a href=&quot;https://journals.sagepub.com/doi/full/10.1177/0146167218795133&quot;&gt; imbue life with meaning&lt;/a&gt;. “We’re in a collective loss of routine right now,” Heintzelman says. That is to say, the social distancing guidelines aimed at protecting us from a deadly disease have also stolen the seemingly &lt;a href=&quot;https://www.sciencenews.org/article/rituals-religion-coronavirus-covid-19-pandemic&quot;&gt;little things that give life meaning&lt;/a&gt; (&lt;em&gt;SN: 8/14/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;When people lose both focus and meaning in their lives, this form of boredom is “doubly bad,” Westgate says. “You can be bored because something is meaningful, but you can’t pay attention because it’s too easy or too hard. You can also be bored because you can pay attention, but it’s meaningless,” she says. “But if something is meaningless and you can’t pay attention, you’re like double bored.”&lt;/p&gt;
+
+
+
+&lt;h4&gt;Prone to the blahs&lt;/h4&gt;
+
+
+
+&lt;p&gt;Those two new boredom studies — each including almost 1,000 North American participants — show how elevated boredom levels among those prone to the feeling may be playing out during this pandemic.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the study by the U.S.-Canadian team, researchers sought to quantify the link between a person’s innate propensity for boredom and rule-breaking behaviors during the pandemic, such as spending fewer hours apart from others or holding a social gathering. &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S019188692030578X&quot;&gt;Boredom proneness across the sample explained 25 percent of the variance in rule-breaking behaviors&lt;/a&gt;, the team reports in the March&lt;em&gt; Personality and Individual Differences&lt;/em&gt;. The researchers did not find a strong relationship between rule-breaking and other factors that might influence it, such as age or gender. (Young adults and men tend to score higher on boredom than other groups.)&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar&quot;&gt;
+&lt;h3&gt;Social distancing struggles&lt;/h3&gt;
+
+
+
+&lt;p&gt;In a recent study, individuals who scored high on a five-point scale of proneness to boredom and relatively low on a five-point scale of self-control typically found it more difficult to adhere to social distancing guidelines (larger circles) than others.&lt;/p&gt;
+
+
+
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;Relationship between boredom proneness, self-control and difficulty adhering to social distancing measures&lt;/h6&gt;
+
+
+
+&lt;div class=&quot;image-desktop&quot;&gt;&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;graph showing overlap in boredom proneness, self-control and difficulty adhering to social distancing measures&quot; class=&quot;wp-image-3096363&quot; height=&quot;450&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/02/012821_SG_pandemic-boredom_inline1_desktop.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3096363&quot;&gt;W. Wolff et al/ Int. J. Environ. Res. Public Health 2020 (&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;CC BY 4.0&lt;/a&gt;)&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&quot;image-mobile&quot;&gt;&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;graph showing overlap in boredom proneness, self-control and difficulty adhering to social distancing measures&quot; class=&quot;wp-image-3096364&quot; height=&quot;500&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/02/012821_SG_pandemic-boredom_inline1_mobile.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3096364&quot;&gt;W. Wolff et al/ Int. J. Environ. Res. Public Health 2020 (&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;CC BY 4.0&lt;/a&gt;)&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;No single factor can explain 100 percent of any human behavior, says study coauthor and cognitive neuroscientist James Danckert of the University of Waterloo in Canada. But “25 percent is a huge amount.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Wolff and colleagues, whose findings appeared online July 28 in the &lt;em&gt;International Journal of Environmental Research and Public Health&lt;/em&gt;, meanwhile found that &lt;a href=&quot;https://www.mdpi.com/1660-4601/17/15/5420&quot;&gt;boredom-prone people ranked social distancing as more difficult&lt;/a&gt; than others did, and were less likely to adhere to social distancing guidelines. Both teams showed that those who scored higher in boredom were also slightly more likely than those scoring lower to report having gotten COVID-19.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Boredom is an incredibly powerful motivator for behavior,” Wolff says. Yet, he adds, people can struggle with how to respond to that signal in safe and meaningful ways.&lt;/p&gt;
+
+
+
+&lt;h4&gt;The danger of the doldrums&lt;/h4&gt;
+
+
+
+&lt;p&gt;Westgate is not surprised that people who are especially prone to boredom, yet able to socially distance, find staying home mind-numbingly dull. She does wonder, though, about the rest of us: How are people who aren’t used to being bored contending with the loss of focus and meaning brought on by the pandemic? Are they also breaking the rules?&lt;/p&gt;
+
+
+
+&lt;p&gt;The research here is less direct but suggestive. In a 2014 study in &lt;em&gt;Science&lt;/em&gt;, Westgate and colleagues asked 42 undergraduate students to sit alone with their thoughts for several minutes, no cell phones allowed. The students, though, had the option to push a button to receive a painful electric shock. About &lt;a href=&quot;https://science.sciencemag.org/content/345/6192/75.abstract&quot;&gt;two-thirds of the male and a quarter of the female students&lt;/a&gt; pushed that button, some repeatedly, suggesting that &lt;a href=&quot;https://www.sciencenews.org/article/people-will-take-pain-over-being-left-alone-their-thoughts&quot;&gt;even pain can be preferable to boredom&lt;/a&gt; for some (&lt;em&gt;SN: &lt;/em&gt;&lt;em&gt;7/3/14&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;Similarly, a 2019 study in &lt;em&gt;Behavioral Decision Making&lt;/em&gt; by social psychologist Wijnand Van Tilburg and colleagues showed that inducing boredom in people through a repetitive gambling game prompted them to &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1002/bdm.2160&quot;&gt;make riskier decisions&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
+&lt;h4&gt;
+&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
+&lt;/h4&gt;
+&lt;/aside&gt;
+
+
+
+&lt;p&gt;Momentary boredom is not inherently bad, says Van Tilburg, of the University of Essex in England. But over a longer period, boredom can lead to serious public health outcomes if the situation “is unresolved or the resolution to it is harmful, like overeating or becoming aggressive or not wearing a mask,” he says.  &lt;/p&gt;
+
+
+
+&lt;p&gt;A recent study provides clues to how unresolved boredom may be playing out. Most epidemiological models assume that people will start and maintain social distancing as soon as COVID-19 cases begin going up in an area. That would cause deaths, which lag cases by a few weeks, to spike but then plummet in response to the social distancing — causing the model forecasts of deaths to resemble a mountain with a sharp peak.&lt;/p&gt;
+
+
+
+&lt;p&gt;But researchers reporting in the Dec. 22 &lt;em&gt;Proceedings of the National Academy of Sciences &lt;/em&gt;found, based on &lt;a href=&quot;https://www.google.com/covid19/mobility/&quot;&gt;Google’s COVID-19 Mobility Reports&lt;/a&gt;,that in most U.S. states, people did initially hunker down as cases rose in the spring and summer, but then increased their movements before the threat had passed. As a result, true curves of COVID-19 fatalities &lt;a href=&quot;https://www.pnas.org/content/117/51/32764.abstract&quot;&gt;resemble not a peak but plateaus or short dips followed by a rapid increase&lt;/a&gt;. That is, death rates did not plummet as expected but remained high. When the researchers incorporated that premature resurgence of activity into epidemiological models, the predicted curves better replicated real-life fatality patterns.&lt;/p&gt;
+
+
+
+&lt;p&gt;The authors attribute people’s actions, and the higher-than-expected death toll, to pandemic fatigue, which includes boredom.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the coming months, boredom from pandemic fatigue may well intensify. The spread of the coronavirus, including &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-uk-variant-more-contagious-us-dominant-strain&quot;&gt;new and even more contagious variants&lt;/a&gt; (&lt;em&gt;SN: 1/15/21&lt;/em&gt;), in the United States and many other places continues to spiral out of control. Though hope is at hand with the rollout of vaccines, public health experts warn that vaccinating enough people to halt the virus’ spread in the United States could take us well into 2021. What is that collision of hope and despair doing to our levels of boredom? How many of us will drop our guard?&lt;/p&gt;
+
+
+
+&lt;h4&gt;What now?&lt;/h4&gt;
+
+
+
+&lt;p&gt;Wolff is now investigating how to help those experiencing boredom follow social distancing rules. His July paper showed that when boredom-prone people exhibit high self-control, they do a better job with adherence. Training people to have more self-control may be difficult though, Wolff says. Instead, he suggests that people reduce the need for self-control by creating contingency plans.&lt;/p&gt;
+
+
+
+&lt;p&gt;His preliminary research, posted online June 25 at PsyArXiv.com, suggests that such “if-then” plans can help. For instance, if an indoor gym is too dangerous, a person could instead plan to start running outside. Wolff suggests people take small steps to make it easier to follow such a change in routine, such as putting workout clothes out on the bed the night before and sneakers by the front door. “The idea is to make behavior more automatic,” he says.&lt;/p&gt;
+
+
+
+&lt;p&gt;But even with the best-laid plans, retaining focus and meaning during the pandemic is no easy task. Researchers say it’s worth reminding ourselves that boredom is a neutral signal, neither bad nor good. And some people who hunker down right now and explore that feeling may discover that the boredom has deeper roots that may even predate the pandemic.&lt;/p&gt;
+
+
+
+&lt;p&gt;So perhaps the most optimistic framing of the situation is that some people will use this protracted moment of boredom to think about larger life goals, Van Tilburg says. “It is possible to get meaning out of these negative situations.”  &lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;</content>
+		<author>
+			<name>Sujata Gupta</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2021-02-15T14:00:46+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">The one that got away: Researchers retract fish genome paper after species mix-up</title>
+		<link href="https://retractionwatch.com/2021/02/15/the-one-that-got-away-researchers-retract-fish-genome-paper-after-species-mix-up/"/>
+		<id>https://retractionwatch.com/?p=121516</id>
+		<updated>2021-02-15T11:00:00+00:00</updated>
+		<content type="html">
+ A group of researchers in Canada has retracted their 2018 paper on the gene sequence of the Arctic charr — a particularly hearty member of the Salmonidae family that includes salmon and trout — after discovering that the sample they’d used for their analysis was from a different kind of fish. The paper, “The Arctic … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/02/15/the-one-that-got-away-researchers-retract-fish-genome-paper-after-species-mix-up/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;The one that got away: Researchers retract fish genome paper after species mix-up&lt;/span&gt;&lt;/a&gt;</content>
+		<author>
+			<name>Adam Marcus</name>
+			<uri>https://retractionwatch.com</uri>
+		</author>
+		<source>
+			<title type="html">Retraction Watch</title>
+			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
+			<link rel="self" href="https://retractionwatch.com/feed/"/>
+			<id>https://retractionwatch.com</id>
+			<updated>2021-02-15T14:00:50+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-us">What role does culture play in shaping children’s school experiences?</title>
+		<link href="https://feeds.feedblitz.com/~/644350254/0/oupblogpsychology/"/>
+		<id>https://blog.oup.com/?p=145669</id>
+		<updated>2021-02-15T10:30:12+00:00</updated>
+		<content type="html" xml:lang="en-us">
+ &lt;p&gt;One way to think of culture is as a context in which we learn and develop. We share, live, perform, and experience culture through our participation in daily activities, customs, and routines with social others. Culture helps us make sense of our social worlds and shapes our actions, thoughts, and feelings. For example, culture plays a role in the way we experience emotions, construct our self-concepts, and learn and problem-solve.&lt;/p&gt;&lt;p&gt;With increasing migration and the movement of people in the twenty-first century, many children in the US and worldwide are attending school in formal settings where cultural norms and practices at home may conflict with those children encounter at school. This experience places children in the position of having to navigate two different social worlds—home and school. One broad question we can explore is: “what role does culture play in shaping children’s school experiences and academic success?” Let’s visit three specific areas: parental beliefs and socialization practices, teacher perceptions, and school curricula and children’s learning.&lt;/p&gt;&lt;h2&gt;Parental beliefs and socialization practices&lt;/h2&gt;&lt;p&gt;Parental expectations, beliefs, and attitudes about education shape children’s academic experiences. Many parents in diverse cultural communities view education as a path to future success. For example, as a group many Asian and Asian American children attain academic success. What role does culture play in these outcomes? &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://books.google.co.uk/books?hl=en&amp;amp;lr=&amp;amp;id=l4wwBgAAQBAJ&amp;amp;oi=fnd&amp;amp;pg=PA119&amp;amp;dq=Understanding+Taiwanese+children%E2%80%99s+play+via+constructing+and+reconstructing:+a+prospective+vision&amp;amp;ots=s3ofAeiKoG&amp;amp;sig=ocrn2krrERVpHnGg2WA_A4j09bI#v=onepage&amp;amp;q=Understanding%20Taiwanese%20children%E2%80%99s%20play%20via%20constructing%20and%20reconstructing%3A%20a%20prospective%20vision&amp;amp;f=false&quot;&gt;Chang&lt;/a&gt; notes that as a group, Chinese and Taiwanese parents place a high value on education. &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://onlinelibrary.wiley.com/doi/abs/10.1080/00207590544000068&quot;&gt;Kim and Park&lt;/a&gt;  note the same is true for Korean parents. Parenting approaches in these communities highlight training and disciplining children, parent self-sacrifice, and devotion to children. Parents believe perseverance and hard work is the key to success and socialization practices reinforce these values and traits. These cultural practices help children internalize the values their parents place upon education and behaving according to social norms. Children acquire these values and are loyal, appreciative, and dedicated to their parents for their support and encouragement. In part, they attain academic success to honor their parents and the broader social groups to which they belong.&lt;/p&gt;&lt;h2&gt;Teacher perceptions&lt;/h2&gt;&lt;p&gt;Teachers play an important role in children’s academic success too. What practices work best to motivate children to do well at school? The answer depends upon numerous factors. For example, many teachers will be entrusted with educating children who may not share their cultural heritage. How might this cultural mismatch shape children’s school experiences and potential for academic success?&lt;/p&gt;&lt;p&gt;Most American school practices reflect dominant, mainstream American values, norms, and behavioral scripts. For most European American children who value independence and uniqueness, teacher praise and rewards can be highly motivating. However, for children who come from families that value humility and modesty, receiving praise in front of classmates might be an uncomfortable interaction.&lt;/p&gt;&lt;p&gt;Student engagement norms are another example. Many American teachers using a mainstream cultural lens, connect active student engagement with student attentiveness. &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.karger.com/Article/Abstract/331021&quot;&gt;Yamamoto and Li&lt;/a&gt;noted that for many Asian and Asian American students, knowing when to be quiet is a desirable skill which caregivers socialize their children to acquire. Teachers using mainstream, American cultural values and norms may perceive quiet students as disengaged and inattentive. These perceptions impact children’s motivation to learn and academic success.&lt;/p&gt;&lt;h2&gt;School curricula and children’s learning&lt;/h2&gt;&lt;p&gt;Dominant, mainstream American values tend to permeate curricular and teaching practices. Many American schools promote individual learning and problem-solving approaches rather than group or collaborative problem-solving strategies. The focus upon individualized learning connects to the cultural ideology of individualism and the independent self. These approaches promote the self as separate and unique from social others. Many European American children participate in cultural practices and routines that reinforce this worldview and values.&lt;/p&gt;&lt;p&gt;However, many Latinx and indigenous children participate in cultural practices and activities at home that value group and collaborative problem solving. These practices connect to the cultural ideology of collectivism and the interdependent self. At home children participate in practices and routines that emphasize the importance of the group, especially family. Thus, there is a disconnect between the approaches at home with the practices and routines the child encounters at school. Consequently, many of these children often have difficulty reaching their maximum potential in classrooms that promote individual problem-solving skills. Why does this happen and does this necessarily have be the outcome?&lt;/p&gt;&lt;p&gt;For many children from cultural heritages that promote collectivist values and an interdependent cultural model of the self, the cultural practices in which the child participates at home may conflict with those the child encounters at school. Often, teachers are unaware of these sources of conflict. However, this conflict between home and school does not need to impede students’ success or invalidate the child’s cultural heritage. One solution is for schools to meet students halfway and bridge the gap between the two contexts.&lt;/p&gt;&lt;p&gt;Two fine examples are &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.wested.org/resources/bridging-cultures-in-our-schools-new-approaches-that-work-knowledge-brief/&quot;&gt;The Bridging Cultures Project&lt;/a&gt; designed to assist immigrant and indigenous children in the US and the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.taylorfrancis.com/books/e/9781351237109/chapters/10.4324/9781351237109-2&quot;&gt;Kamehameha Early Education Program (KEEP)&lt;/a&gt; designed to assist native Hawaiian children. Both programs highlight how helping teachers become more aware, respectful, accepting, and inclusive of all their students’ cultural values and goals shapes children’s motivation and academic success at school.&lt;/p&gt;&lt;h2&gt;Final thoughts&lt;/h2&gt;&lt;p&gt;Numerous cultural forces connect to children’s school experiences and academic achievement. These include parental beliefs, socialization practices, and cultural worldviews. Cultural values, practices, and ways of learning at home both shape and connect to children’s formal school experiences. Educational initiatives such as &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.wested.org/project/bridging-cultures-project/&quot;&gt;The Bridging Cultures Project&lt;/a&gt;  and KEEP highlight the importance of cultural compatibility and connectedness in fostering children’s active engagement in school. Acknowledging and incorporating cultural knowledge, patterns, and ways of learning at home when they disconnect with those at school is one important way to ensure all children’s academic success.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Featured image: School children in India, by Richard Veit&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/02/what-role-does-culture-play-in-shaping-childrens-school-experiences/&quot;&gt;What role does culture play in shaping children’s school experiences?&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/644350254/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/644350254/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/644350254/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/02/dead-zones-growing-areas-of-aquatic-hypoxia-are-threatening-our-oceans-and-rivers/&quot; rel=&quot;nofollow&quot;&gt;Dead zones: growing areas of aquatic hypoxia are threatening our oceans and rivers&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/02/how-the-covid-19-pandemic-may-permanently-change-our-childrens-world/&quot; rel=&quot;nofollow&quot;&gt;How the COVID-19 pandemic may permanently change our children’s world&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/safety-first-considering-protest-reasoning-10-years-on-from-the-arab-spring/&quot; rel=&quot;nofollow&quot;&gt;Safety first? Considering protest reasoning 10 years on from the Arab Spring&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content>
+		<author>
+			<name>Becky Clifford</name>
+			<uri>https://blog.oup.com</uri>
+		</author>
+		<source>
+			<title type="html">OUPblog » Psychology</title>
+			<subtitle type="html">Academic insights for the thinking world.</subtitle>
+			<link rel="self" href="http://blog.oup.com/category/science_medicine/psychology/feed/"/>
+			<id>https://blog.oup.com</id>
+			<updated>2021-02-15T14:00:49+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Thank You for your hard work and support!</title>
+		<link href="http://feeds.plos.org/~r/plos/Blog/~3/G-Pe8o6WfNI/"/>
+		<id>https://theplosblog.plos.org/?p=18628</id>
+		<updated>2021-02-15T10:01:52+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;Thank you to our volunteers. Your contributions throughout the past year have helped accelerate discovery and develop science during these unpredictable times.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;The team at PLOS and the wider Open Science community are incredibly grateful for the thoughtfulness and expertise that you, our Editorial Board Members, Guest Editors and Reviewers, bring to your roles in the peer review process. Your rigorous assessment of submitted manuscripts is an invaluable contribution, and your ongoing commitment to Open Science inspires us.&lt;/p&gt;
+
+
+
+&lt;h3 class=&quot;has-text-align-center&quot;&gt;&lt;strong&gt;Thank You &lt;/strong&gt;&lt;/h3&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Watch &lt;/strong&gt;PLOS’ Chief Scientific Officer, Veronique Kiermer’s message of thanks.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-embed-youtube aligncenter wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+&lt;div class=&quot;oembed-container&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;&lt;h3&gt;&lt;strong&gt;What did we achieve?&lt;/strong&gt;&lt;/h3&gt;
+
+
+
+&lt;p&gt;In the past year our journal teams have worked to introduce new Open Access opportunities to support inclusivity, reproducibility and improving trust in science by involving more people in the scientific process. Our efforts aim to ensure a diverse and sustainable publishing ecosystem providing researchers of every career stage and discipline the chance to publish their findings. &lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;As of 2020 all PLOS journals now offer &lt;a href=&quot;https://plos.org/resources/for-institutions/how-can-we-partner/&quot;&gt;institutional partnership deals&lt;/a&gt; to equitably distribute the costs of publication and ensure that Open Science is really open for all. &lt;/li&gt;&lt;li&gt;We’ve empowered researchers to share more of their science with new &lt;a href=&quot;https://plos.org/open-science/preregistration/&quot;&gt;registered report submission&lt;/a&gt; options at &lt;em&gt;PLOS ONE&lt;/em&gt; and &lt;em&gt;PLOS Biology&lt;/em&gt; which introduces peer review at the experiment design stage.&lt;/li&gt;&lt;li&gt;The quality and breadth of PLOS research has enabled us to create new &lt;a href=&quot;https://collections.plos.org/about/&quot;&gt;curated editorial collections&lt;/a&gt; to advance a range of important fields.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-18640&quot; height=&quot;294&quot; src=&quot;https://theplosblog.plos.org/wp-content/uploads/sites/6/2021/02/CTY-infographic-Gif_1_2.gif&quot; width=&quot;588&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;None of this would be possible without you, our dedicated Editorial Board Members, Guest Editors and Reviewers. &lt;/p&gt;
+
+
+
+&lt;h2&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;strong&gt;Coming soon…&lt;/strong&gt;&lt;/h2&gt;
+
+
+
+&lt;p&gt;As we step into 2021 we will all undoubtedly come up against a unique set of challenges but rest assured, PLOS will continue to serve the Open Science community. Together we can ensure that researchers from all regions have every opportunity to share their work with experienced scientists from a host of disciplines. &lt;/p&gt;
+
+
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;Once again, &lt;strong&gt;THANK YOU&lt;/strong&gt; to &lt;strong&gt;ALL &lt;/strong&gt;of our dedicated volunteers.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;br /&gt;Find out how you can take part in our ongoing initiatives to advance science.&lt;strong&gt; &lt;a href=&quot;https://plos.org/thank-you-2020/#open-science&quot;&gt;Learn More&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://theplosblog.plos.org/2021/02/thank-you-2020/&quot; rel=&quot;nofollow&quot;&gt;Thank You for your hard work and support!&lt;/a&gt; appeared first on &lt;a href=&quot;https://theplosblog.plos.org&quot; rel=&quot;nofollow&quot;&gt;The Official PLOS Blog&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/G-Pe8o6WfNI&quot; width=&quot;1&quot; /&gt;</content>
+		<author>
+			<name>Philip Mills</name>
+			<uri>https://theplosblog.plos.org</uri>
+		</author>
+		<source>
+			<title type="html">Public Library of Science</title>
+			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
+			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
+			<id>https://theplosblog.plos.org</id>
+			<updated>2021-02-15T14:00:47+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-GB">Highlights of the BMC Series – January 2021</title>
+		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2021/02/15/highlights-of-the-bmc-series-january-2021/"/>
+		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=12276</id>
+		<updated>2021-02-15T08:00:46+00:00</updated>
+		<content type="html" xml:lang="en-GB">
+ &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/08/2020-08-18-12_33_22-Word-Cloud-Generator-140x110.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;h3&gt;&lt;a href=&quot;https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-020-10106-8?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;em&gt;BMC Public Health&lt;/em&gt;: Predicting epidemics using search engine data: a comparative study on measles in the largest countries of Europe&lt;/a&gt;&lt;/h3&gt;
+&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_12279&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-12279&quot; height=&quot;197&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/trends-300x197.png&quot; width=&quot;300&quot; /&gt;&lt;div class=&quot;attachment-image--caption&quot;&gt;from Samaras, et al. (2021)&lt;/div&gt;&lt;div class=&quot;attachment-image--source&quot;&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Tracking disease outbreaks is key to combating them, and predicting epidemics can help direct prevention measures most effectively. Google Trends has been used to track and/or predict the spread of infections diseases including respiratory syncytial virus (RSV) and AIDS.&lt;/p&gt;
+&lt;p&gt;This study extended these analyses to measles, a highly infectious disease causing outbreaks around the world, by comparing official data on measles in Europe to data from Google Trends.&lt;/p&gt;
+&lt;p&gt;The authors found that the prediction model generated from the Google Trends data overall closely matched the data on actual cases. The prediction was more accurate for countries that had higher measles activity. One advantage of using data from Google trends to track and predict disease outbreaks is that the data are available almost in real time, in contrast to official data that often take months to be released. This could help with faster responses to contain the spread of the illness.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-020-01815-4?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;em&gt;BMC Cardiovascular Disorders&lt;/em&gt;: Ultrasound-targeted microbubble destruction promotes myocardial angiogenesis and functional improvements in rat model of diabetic cardiomyopathy&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-12280 alignleft&quot; height=&quot;200&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/AdobeStock_4564432-300x200.jpg&quot; width=&quot;300&quot; /&gt;Diabetic cardiomyopathy (DCM), a heart condition common in people with diabetes, is caused in part by a lack of blood vessel growth and repair in heart tissue. Growth factor therapy can promote angiogenesis to treat DCM, but delivery of the therapy has proven difficult.&lt;/p&gt;
+&lt;p&gt;The authors of this study tested ultrasound-targeted microbubble destruction (UTMD) in rats with DCM as a potential safe and effective way to stimulate angiogenesis in the heart.&lt;/p&gt;
+&lt;p&gt;They found that UTMD used with Sonovue microbubbles restored heart function in the rats who received the treatment. Histology and microscopy showed that much of the damage to the heart tissue seen in the DCM rats had been reversed by the treatment. This new technique shows promise as a noninvasive therapy for early intervention of DCM in diabetic patients.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h3 class=&quot;c-article-title&quot; data-test=&quot;article-title&quot;&gt;&lt;a href=&quot;https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-021-03554-6?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;em&gt;BMC Pregnancy and Childbirth&lt;/em&gt;:  Which growth standards should be used to identify large- and small-for-gestational age infants of mothers with type 1 diabetes? A pre-specified analysis of the CONCEPTT trial&lt;/a&gt;&lt;/h3&gt;
+&lt;img alt=&quot;&quot; class=&quot;wp-image-12281 size-medium alignright&quot; height=&quot;200&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/Fotolia_349804_Subscription_XL-300x200.jpg&quot; width=&quot;300&quot; /&gt;
+&lt;p&gt;Babies born at either end of the birthweight bell curve are at higher risk of neonatal complications such as respiratory distress or NICU admission, but determining the cut-off precentile for considering a newborn at risk depends on a range of factors. Different standards account for these factors differently, leading to discrepancies in identifying babies at risk. Maternal diabetes is one of the factors that affect both a newborn’s birthweight and their risk of complications.&lt;/p&gt;
+&lt;p&gt;A new study has applied three widely-used growth standards to a large, international cohort of babies born to mothers with diabetes. Birthweight percentiles were calculated using each of the standards and then predicted risk of complications based on those percentiles was compared with actual outcomes.&lt;/p&gt;
+&lt;p&gt;The authors concluded that one of the growth standards, which did not account for gestational age at birth, was not suitable for risk assessment of babies born to mothers with diabetes, while the other two showed high associations between cut-offs for large- and small-for-gestational-age and rates of complications.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-021-02037-9?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;em&gt;BMC Geriatrics&lt;/em&gt;: Life after falls prevention exercise – experiences of older people taking part in a clinical trial: a phenomenological study&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-12282 alignleft&quot; height=&quot;200&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/02/AdobeStock_141571612-300x200.jpg&quot; width=&quot;300&quot; /&gt;Falling is a serious risk for older adults, and falls-prevention exercise interventions have shown good results in preventing falls in the short-term. However, little is known about the long-term effects of these interventions and whether they produce ongoing changes in the exercise behaviors of the participants.&lt;/p&gt;
+&lt;p&gt;To fill in these gaps, the authors of this study interviewed older adults who had participated in a fall-prevention exercise trial about their experiences in the trial and their exercise activities and falls after the conclusion of the trial.&lt;/p&gt;
+&lt;p&gt;The participants described maintaining physical activity since the conclusion of the trial, but very few continued with the exercises they had learned in the intervention. Many of the participants minimized the seriousness of falls they had experienced. These interviews highlighted that the challenges in encouraging older adults to continue with falls-prevention exercises after the conclusion of an intervention are similar to the challenges in convincing them to participate in the interventions in the first place. Those working with older adults need to understand individual needs and habits and to contextualize the importance of fall prevention within each individual’s own priorities for maintaining health and independence.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-020-06049-w?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;em&gt;BMC Health Services Research&lt;/em&gt;: Meta-ethnography in healthcare research: a guide to using a meta-ethnographic approach for literature synthesis&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;&lt;p&gt;These clear guidelines will allow authors … to produce rigorous and comprehensive syntheses.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Meta-ethnography, the synthesis of multiple qualitative studies, can provide insights into the experiences of patients and health-care professionals and generate evidence that can be used to inform healthcare practice and policy. However, there are not yet clear guidelines on the process of meta-ethnography.&lt;/p&gt;
+&lt;p&gt;To address this, the authors of a new paper have designed a step-by-step method for conducting a meta-ethnography, including examples. They especially focused on the middle and later stages of the process, “determining how the studies are related, translating the studies into one another, synthesising the translations,” due to the difficulty of these steps and the dearth of existing guidance for conducting them.&lt;/p&gt;
+&lt;p&gt;These clear guidelines will allow authors of future meta-ethnographies, even those new to the methodology, to produce rigorous and comprehensive syntheses of evidence that contribute to improvements in patient care and healthcare processes.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2021/02/15/highlights-of-the-bmc-series-january-2021/&quot; rel=&quot;nofollow&quot;&gt;Highlights of the BMC Series – January 2021&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>Tovah Honor Aronin</name>
+			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
+		</author>
+		<source>
+			<title type="html">BMC Series blog</title>
+			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
+			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
+			<updated>2021-02-15T14:00:46+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en">Alysson Muotri, a minibrain</title>
@@ -24,7 +563,7 @@
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -45,7 +584,7 @@
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-02-15T08:00:48+00:00</updated>
+			<updated>2021-02-15T14:00:43+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -66,7 +605,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -257,7 +796,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -295,7 +834,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -421,7 +960,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -457,7 +996,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -540,7 +1079,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -586,7 +1125,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -606,7 +1145,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -626,7 +1165,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">&lt;p&gt;Neuroscientifically Challenged is an educational website with neuroscience articles, videos, images, a glossary, and more.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/blog/</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -700,7 +1239,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -774,7 +1313,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -828,7 +1367,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -962,7 +1501,7 @@ Besides its included functionality, &lt;a class=&quot;reference external&quot; h
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1102,7 +1641,7 @@ the problems that arise from packaging, and energy production.&lt;/p&gt;
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-02-12T08:00:52+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -1221,7 +1760,7 @@ the problems that arise from packaging, and energy production.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -1568,7 +2107,7 @@ the problems that arise from packaging, and energy production.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1588,7 +2127,7 @@ the problems that arise from packaging, and energy production.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1620,7 +2159,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2021-02-11T09:56:52+00:00</updated>
+			<updated>2021-02-15T12:11:05+00:00</updated>
 		</source>
 	</entry>
 
@@ -1649,7 +2188,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1709,7 +2248,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1783,7 +2322,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1873,7 +2412,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -1893,7 +2432,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -1971,7 +2510,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -1992,7 +2531,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2122,7 +2661,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2238,7 +2777,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2356,7 +2895,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-02-12T08:00:52+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2414,7 +2953,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-02-12T08:00:52+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2434,7 +2973,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -2552,7 +3091,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2634,7 +3173,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2676,7 +3215,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -2739,7 +3278,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -2827,7 +3366,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2877,7 +3416,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2944,7 +3483,7 @@ any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -2986,7 +3525,7 @@ Overall, about 310 books and 34 journals will be published OA in 2021. These inc
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -3270,57 +3809,7 @@ The current plan is to host more sessions/tutorials, depending on the members’
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">Should corporations get access to our brains?</title>
-		<link href="https://www.sciencenews.org/article/should-corporations-get-access-to-our-brains"/>
-		<id>https://www.sciencenews.org/?p=3096299</id>
-		<updated>2021-02-07T12:00:00+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;When the news broke in April 2019 that scientists had restored neurological functions in the brains of dead pigs, I was fascinated — and troubled. Though this groundbreaking work could lead to better treatments for stroke and other brain injuries, it also opened an eerie gray zone between the living and the dead.&lt;/p&gt;
-
-
-
-&lt;p&gt;Scientists are wrestling with the ethical questions posed by the pig brain experiment and other advances in brain science, as neuroscience writer &lt;a href=&quot;https://www.sciencenews.org/author/laura-sanders&quot;&gt;Laura Sanders&lt;/a&gt; pointed out in her &lt;a href=&quot;https://www.sciencenews.org/article/dead-pig-brains-bathed-artificial-fluid-showed-signs-cellular-life&quot;&gt;coverage of that breakthrough&lt;/a&gt; (&lt;em&gt;SN: 5/11/19 &amp;amp; 5/25/19, p. 6&lt;/em&gt;). But information on scientific advances typically flows from scientists to journalists and then out to the public — there’s little opportunity for the public to talk with scientists or voice concern about the implications of research before the science happens. Could we help those conversations happen? We decided to run an experiment to find out.&lt;/p&gt;
-
-
-
-&lt;p&gt;This issue includes the first step in our experiment. Last fall we surveyed &lt;em&gt;Science News&lt;/em&gt; readers, asking what they thought about neurotechnology, including brain implants and other devices that already have the ability to listen in and change how our brains work. Of three concerns — autonomy, fairness and privacy — privacy was the biggest worry among respondents. Sanders used that information to focus her reporting for &lt;a href=&quot;https://www.sciencenews.org/article/technology-brain-activity-read-change-thoughts-privacy-ethics&quot;&gt;this issue’s cover story&lt;/a&gt;. “Asking readers what they thought directly was a great way to get perspective and find out what they’re interested in,” she told me, “which is something we’re trying to do all the time.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Readers didn’t hold back. “I have no wish/desire to be a zombie or a clone,” one wrote. Others noted how giving scientists (and perhaps corporations and politicians) access to our brains could blur our sense of self. “It was so satisfying and important to get the public’s perspective,” Sanders said. “They’re just left out in so many of these conversations.”&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;We also asked readers to share their thoughts about genetics and race, including bias in genomic databases used for medical research and issues of genetic privacy. Senior writer &lt;a href=&quot;http://www.sciencenews.org/author/tina-hesman-saey&quot;&gt;Tina Hesman Saey&lt;/a&gt; will report on that experiment next month.&lt;/p&gt;
-
-
-
-&lt;p&gt;And we’re eager to continue this work. Please let us know what you think by writing us at &lt;a href=&quot;mailto:feedback@sciencenews.org&quot;&gt;feedback@sciencenews.org&lt;/a&gt;. “I really do see this as the starting point; I would love to do more,” Sanders said.&lt;/p&gt;
-
-
-
-&lt;p&gt;This project was made possible with support from the Kavli Foundation, which gave us the chance to step back from daily news coverage a bit and see if we could help more people become part of the conversations — and, ideally, decisions — about science’s impact on society, our bodies and our minds.&lt;/p&gt;
-
-
-
-&lt;p&gt;This issue also features the second theme in our &lt;a href=&quot;https://www.sciencenews.org/century/about&quot;&gt;Century of Science project&lt;/a&gt;. Special projects editor &lt;a href=&quot;https://www.sciencenews.org/author/elizabeth-quill&quot;&gt;Elizabeth Quill&lt;/a&gt; explores the &lt;a href=&quot;https://www.sciencenews.org/article/einstein-theory-general-relativity-gravity-black-holes-cosmos&quot;&gt;implications of Einstein’s general theory of relativity&lt;/a&gt;, which was considered shocking in the early 1900s. Since then, scientists have discovered black holes and other exotic denizens of the universe that wouldn’t have seemed possible before Einstein changed our view of the cosmos. &lt;/p&gt;</content>
-		<author>
-			<name>Nancy Shute</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
-			<updated>2021-02-15T08:00:50+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3340,7 +3829,7 @@ The current plan is to host more sessions/tutorials, depending on the members’
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -3423,7 +3912,7 @@ The current plan is to host more sessions/tutorials, depending on the members’
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -3490,7 +3979,7 @@ The current plan is to host more sessions/tutorials, depending on the members’
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3510,7 +3999,7 @@ The current plan is to host more sessions/tutorials, depending on the members’
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -3530,7 +4019,7 @@ The current plan is to host more sessions/tutorials, depending on the members’
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-02-15T08:00:53+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -3731,7 +4220,7 @@ signals are embedded in unknown backgrounds.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -3883,7 +4372,7 @@ signals are embedded in unknown backgrounds.&lt;/p&gt;
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -3965,7 +4454,7 @@ Patience, en d'autre temps, on a donné des médailles aux derniers combatants. 
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -4056,7 +4545,7 @@ Patience, en d'autre temps, on a donné des médailles aux derniers combatants. 
 			<title type="html">Research Digest</title>
 			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
 			<id>https://digest.bps.org.uk</id>
-			<updated>2021-02-12T14:00:45+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -4134,7 +4623,7 @@ Patience, en d'autre temps, on a donné des médailles aux derniers combatants. 
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4155,7 +4644,7 @@ despite his enormous scientific reputation.&quot; - Lucas Brost, van Deursen's l
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -4199,7 +4688,7 @@ despite his enormous scientific reputation.&quot; - Lucas Brost, van Deursen's l
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4328,57 +4817,6 @@ despite his enormous scientific reputation.&quot; - Lucas Brost, van Deursen's l
 	</entry>
 
 	<entry>
-		<title type="html">Next Open NeuroFedora meeting: 1 February 1500 UTC</title>
-		<link href="https://neuroblog.fedoraproject.org/2021/02/01/next-open-neurofedora-meeting-1-february-1500-utc.html"/>
-		<id>tag:neuroblog.fedoraproject.org,2021-02-01:/2021/02/01/next-open-neurofedora-meeting-1-february-1500-utc.html</id>
-		<updated>2021-02-01T08:47:03+00:00</updated>
-		<content type="html">
- &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Photo by William White on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200112-image.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
-&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;William White&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 1 February at 1300UTC in #fedora-neuro on IRC (Freenode).
-The meeting is a public meeting, and open for everyone to attend.
-You can join us over:&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;or &lt;a class=&quot;reference external&quot; href=&quot;https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io&quot;&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can use &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210201T13&amp;amp;p1=1440&amp;amp;ah=1&quot;&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
-Or, you can also use this command in the terminal:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'TZ=&quot;UTC&quot; 1300 today'&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The meeting will be chaired by @bt0dotninja.
-The agenda for the meeting is:&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;New introductions and roll call.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-01-18-13.06.html&quot;&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting&quot;&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://tinyurl.com/neurofedora-bugs&quot;&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro&quot;&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koschei.fedoraproject.org/groups/neuro-sig&quot;&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/packageinfo?packageID=30691&quot;&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
-&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
-&lt;li&gt;Open floor.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We hope to see you there!&lt;/p&gt;</content>
-		<author>
-			<name>Ankur Sinha</name>
-			<uri>https://neuroblog.fedoraproject.org/</uri>
-		</author>
-		<source>
-			<title type="html">NeuroFedora: Blog</title>
-			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
-			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
-			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2021-02-11T09:56:52+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en">Are Effect Sizes in Psychology Meaningless?</title>
 		<link href="https://www.discovermagazine.com/the-sciences/are-effect-sizes-in-psychology-meaningless"/>
 		<id>https://www.discovermagazine.com/the-sciences/are-effect-sizes-in-psychology-meaningless</id>
@@ -4395,7 +4833,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-02-15T08:00:48+00:00</updated>
+			<updated>2021-02-15T14:00:43+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4437,7 +4875,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-02-15T08:00:48+00:00</updated>
+			<updated>2021-02-15T14:00:43+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4582,7 +5020,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2021-02-15T03:44:07+00:00</updated>
+			<updated>2021-02-15T08:52:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -4739,26 +5177,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-US">A tale of three journals: Paper retracted when associate editor submits to the wrong title</title>
-		<link href="https://retractionwatch.com/2021/01/28/a-tale-of-three-journals-paper-retracted-when-associate-editor-submits-to-a-similarly-named-title/"/>
-		<id>https://retractionwatch.com/?p=121339</id>
-		<updated>2021-01-28T11:00:00+00:00</updated>
-		<content type="html">
- What a difference a D makes.  Ask Kevin Pile. Pile edits the International Journal of Rheumatic Diseases (let’s call it the IJRD), a Wiley publication. Last year, he published a guest editorial by Vaidehi Chowdhary, a rheumatologist at Yale University in New Haven, Conn., on a form of kidney disease.  But it turns out that … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/01/28/a-tale-of-three-journals-paper-retracted-when-associate-editor-submits-to-a-similarly-named-title/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;A tale of three journals: Paper retracted when associate editor submits to the wrong title&lt;/span&gt;&lt;/a&gt;</content>
-		<author>
-			<name>Adam Marcus</name>
-			<uri>https://retractionwatch.com</uri>
-		</author>
-		<source>
-			<title type="html">Retraction Watch</title>
-			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
-			<link rel="self" href="https://retractionwatch.com/feed/"/>
-			<id>https://retractionwatch.com</id>
-			<updated>2021-02-04T08:00:55+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en-GB">Changing agency practices may help in minimizing the occurrence of mis-implementation of chronic disease prevention programs</title>
 		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2021/01/28/changing-agency-practices-may-help-in-minimizing-the-occurrence-of-mis-implementation-of-chronic-disease-prevention-programs/"/>
 		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=12251</id>
@@ -4783,7 +5201,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -4804,7 +5222,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-02-15T08:00:48+00:00</updated>
+			<updated>2021-02-15T14:00:43+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4973,7 +5391,7 @@ The agenda for the meeting is:&lt;/p&gt;
 		<id>https://blog.oup.com/?p=145696</id>
 		<updated>2021-01-25T13:30:34+00:00</updated>
 		<content type="html" xml:lang="en-us">
- &lt;p&gt;Ten years ago, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aljazeera.com/gallery/2016/1/25/egypt-revolution-18-days-of-people-power&quot;&gt;masses marched to Midan Tahrir&lt;/a&gt; in Cairo, triggering a protest movement that resulted in the resignation of President Hosni Mubarak. “People are fed up of Mubarak and of his dictatorship and of his torture chambers and of his failed economic policies,” an &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aljazeera.com/news/2011/1/26/three-dead-in-egypt-protests&quot;&gt;Egyptian blogger told al-Jazeera&lt;/a&gt; at the time: “If Mubarak is not overthrown tomorrow then it will be the day after. If it’s not the day after it’s going to be next week.”&lt;/p&gt;&lt;p&gt;Ten years later, Mubarak is gone, but the country remains under the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.reuters.com/investigates/special-report/egypt-constitution/&quot;&gt;tight grip of a military leader&lt;/a&gt;, who recently extended his rule until 2030. Since April 2017, President Abdel Fattah al-Sisi has upheld a state of emergency which provides his &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://static1.squarespace.com/static/4f334481cb12c1acadc57623/t/589d8f9f37c5811653d89cd4/1486720954695/2016+Report+English.pdf&quot;&gt;security forces, known to terrorize political opponents and ordinary citizens&lt;/a&gt;, with &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.hrw.org/world-report/2020/country-chapters/egypt&quot;&gt;unchecked power&lt;/a&gt;. In 2019, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.hrw.org/news/2019/07/24/egypt-new-ngo-law-renews-draconian-restrictions&quot;&gt;Human Rights Watch reported&lt;/a&gt; that 2,000 independent organizations have been shut down, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aljazeera.com/news/2017/2/9/egypt-shuts-el-nadeem-centre-for-torture-victims&quot;&gt;including the Nadeem Centre for victims of torture and violence&lt;/a&gt;. In December 2020, the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.europarl.europa.eu/doceo/document/B-9-2020-0427_EN.html&quot;&gt;EU warned that the human rights situation in Egypt had deteriorated sharply&lt;/a&gt; over the last year, citing the arbitrary detainment of 4,000 citizens, imprisonment of 60,000 people on political grounds, the systematic enforced disappearance of political opponents, grave violations to the right to  life, and more.&lt;/p&gt;&lt;p&gt;In this climate, could we expect new mass protests to mark the ten-year anniversary of the Arab Spring? Based on interviews with participants and non-participants in the 2011 Egyptian and Moroccan uprisings, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://t.co/Sd3yRjdUoi?amp=1&quot;&gt;new research&lt;/a&gt; investigates the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~www.dornschneider.net/data.php&quot;&gt;cognitive processes&lt;/a&gt; underlying the protests. The findings show that individuals joined the uprisings based on hot, positive emotions, which translated into protest decision with great speed. In contrast, decisions to stay at home were based on slow and cool reasoning processes focused on individual safety.&lt;/p&gt;&lt;p&gt;Safety considerations were so strong that they encouraged large numbers of people to abstain from the Arab Spring even if individuals approved of the protests and rejected the ruling regime. In the words of a non-participant: “&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~www.dornschneider.net/files/cogs.12762.pdf&quot;&gt;When people are killed, we must be careful. There are more important things than protest: safety and stability&lt;/a&gt;.” On the other hand, positive emotions of courage to face the government, hope that protest would succeed, solidarity with other protestors, and national pride were major contributors to the Arab Spring. These emotions were themselves triggered by the successful mass uprisings in Tunisia, unprecedented numbers of protest at home, and fellow citizens sacrificing their lives to face violent state authorities.&lt;/p&gt;&lt;p&gt;The current situation does not display these emotional triggers, but countless grounds for safety concerns. Nevertheless, hot cognition and emotion-based reasoning &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://us.macmillan.com/books/9780374533557&quot;&gt;happen fast&lt;/a&gt;, and researchers have observed that mass protests take off very suddenly, so that they “&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~public.econ.duke.edu/~tk43/abstracts/articles/ab_article_18A.htm&quot;&gt;will unavoidably continue to catch the world by surprise&lt;/a&gt;.” When Mohamed Bouazizi set himself on fire, nobody would have anticipated the subsequent Arab Spring. Similar triggers will occur in the Arab world, with the potential of translating into new uprisings. In the words of a Moroccan participant of the Arab Spring: “I am convinced that totalitarianism will disappear. For me it is not a question if that will happen, but how that will happen.”&lt;/p&gt;&lt;p&gt;&lt;em&gt;Featured image: &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://commons.wikimedia.org/wiki/File:Tahrir_Square_-_February_9,_2011.png&quot;&gt;Tahrir Square&lt;/a&gt;, by Jonathan Rashad (CC BY 2.0)&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/01/safety-first-considering-protest-reasoning-10-years-on-from-the-arab-spring/&quot;&gt;Safety first? Considering protest reasoning 10 years on from the Arab Spring&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/642622712/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/642622712/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/nero-fiddled-trump-golfs-but-did-nero-really-fiddle-while-rome-burned/&quot; rel=&quot;nofollow&quot;&gt;“Nero fiddled… Trump golfs”—but did Nero really fiddle while Rome burned?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/technology-in-the-elementary-music-classroom-after-the-pandemic/&quot; rel=&quot;nofollow&quot;&gt;Technology in the elementary music classroom after the pandemic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/more-than-a-vogue-cover-madam-vice-president-kamala-harris/&quot; rel=&quot;nofollow&quot;&gt;More than a Vogue cover: Madam Vice President Kamala Harris&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content>
+ &lt;p&gt;Ten years ago, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aljazeera.com/gallery/2016/1/25/egypt-revolution-18-days-of-people-power&quot;&gt;masses marched to Midan Tahrir&lt;/a&gt; in Cairo, triggering a protest movement that resulted in the resignation of President Hosni Mubarak. “People are fed up of Mubarak and of his dictatorship and of his torture chambers and of his failed economic policies,” an &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aljazeera.com/news/2011/1/26/three-dead-in-egypt-protests&quot;&gt;Egyptian blogger told al-Jazeera&lt;/a&gt; at the time: “If Mubarak is not overthrown tomorrow then it will be the day after. If it’s not the day after it’s going to be next week.”&lt;/p&gt;&lt;p&gt;Ten years later, Mubarak is gone, but the country remains under the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.reuters.com/investigates/special-report/egypt-constitution/&quot;&gt;tight grip of a military leader&lt;/a&gt;, who recently extended his rule until 2030. Since April 2017, President Abdel Fattah al-Sisi has upheld a state of emergency which provides his &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://static1.squarespace.com/static/4f334481cb12c1acadc57623/t/589d8f9f37c5811653d89cd4/1486720954695/2016+Report+English.pdf&quot;&gt;security forces, known to terrorize political opponents and ordinary citizens&lt;/a&gt;, with &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.hrw.org/world-report/2020/country-chapters/egypt&quot;&gt;unchecked power&lt;/a&gt;. In 2019, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.hrw.org/news/2019/07/24/egypt-new-ngo-law-renews-draconian-restrictions&quot;&gt;Human Rights Watch reported&lt;/a&gt; that 2,000 independent organizations have been shut down, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.aljazeera.com/news/2017/2/9/egypt-shuts-el-nadeem-centre-for-torture-victims&quot;&gt;including the Nadeem Centre for victims of torture and violence&lt;/a&gt;. In December 2020, the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.europarl.europa.eu/doceo/document/B-9-2020-0427_EN.html&quot;&gt;EU warned that the human rights situation in Egypt had deteriorated sharply&lt;/a&gt; over the last year, citing the arbitrary detainment of 4,000 citizens, imprisonment of 60,000 people on political grounds, the systematic enforced disappearance of political opponents, grave violations to the right to  life, and more.&lt;/p&gt;&lt;p&gt;In this climate, could we expect new mass protests to mark the ten-year anniversary of the Arab Spring? Based on interviews with participants and non-participants in the 2011 Egyptian and Moroccan uprisings, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://t.co/Sd3yRjdUoi?amp=1&quot;&gt;new research&lt;/a&gt; investigates the &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~www.dornschneider.net/data.php&quot;&gt;cognitive processes&lt;/a&gt; underlying the protests. The findings show that individuals joined the uprisings based on hot, positive emotions, which translated into protest decision with great speed. In contrast, decisions to stay at home were based on slow and cool reasoning processes focused on individual safety.&lt;/p&gt;&lt;p&gt;Safety considerations were so strong that they encouraged large numbers of people to abstain from the Arab Spring even if individuals approved of the protests and rejected the ruling regime. In the words of a non-participant: “&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~www.dornschneider.net/files/cogs.12762.pdf&quot;&gt;When people are killed, we must be careful. There are more important things than protest: safety and stability&lt;/a&gt;.” On the other hand, positive emotions of courage to face the government, hope that protest would succeed, solidarity with other protestors, and national pride were major contributors to the Arab Spring. These emotions were themselves triggered by the successful mass uprisings in Tunisia, unprecedented numbers of protest at home, and fellow citizens sacrificing their lives to face violent state authorities.&lt;/p&gt;&lt;p&gt;The current situation does not display these emotional triggers, but countless grounds for safety concerns. Nevertheless, hot cognition and emotion-based reasoning &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://us.macmillan.com/books/9780374533557&quot;&gt;happen fast&lt;/a&gt;, and researchers have observed that mass protests take off very suddenly, so that they “&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~public.econ.duke.edu/~tk43/abstracts/articles/ab_article_18A.htm&quot;&gt;will unavoidably continue to catch the world by surprise&lt;/a&gt;.” When Mohamed Bouazizi set himself on fire, nobody would have anticipated the subsequent Arab Spring. Similar triggers will occur in the Arab world, with the potential of translating into new uprisings. In the words of a Moroccan participant of the Arab Spring: “I am convinced that totalitarianism will disappear. For me it is not a question if that will happen, but how that will happen.”&lt;/p&gt;&lt;p&gt;&lt;em&gt;Featured image: &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://commons.wikimedia.org/wiki/File:Tahrir_Square_-_February_9,_2011.png&quot;&gt;Tahrir Square&lt;/a&gt;, by Jonathan Rashad (CC BY 2.0)&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/01/safety-first-considering-protest-reasoning-10-years-on-from-the-arab-spring/&quot;&gt;Safety first? Considering protest reasoning 10 years on from the Arab Spring&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/642622712/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/642622712/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/642622712/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/02/the-ruins-of-the-post-covid-city-and-the-essential-task-of-rebuilding/&quot; rel=&quot;nofollow&quot;&gt;The ruins of the post-Covid city—and the essential task of rebuilding&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/02/ten-things-you-didnt-know-about-darwin/&quot; rel=&quot;nofollow&quot;&gt;Ten things you didn’t know about Darwin&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/the-black-death-how-did-the-worlds-deadliest-pandemic-change-society/&quot; rel=&quot;nofollow&quot;&gt;The Black Death: how did the world’s deadliest pandemic change society?&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content>
 		<author>
 			<name>Becky Clifford</name>
 			<uri>https://blog.oup.com</uri>
@@ -4983,7 +5401,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Academic insights for the thinking world.</subtitle>
 			<link rel="self" href="http://blog.oup.com/category/science_medicine/psychology/feed/"/>
 			<id>https://blog.oup.com</id>
-			<updated>2021-01-31T11:47:29+00:00</updated>
+			<updated>2021-02-15T14:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -5003,7 +5421,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5251,7 +5669,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5297,7 +5715,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-02-12T08:00:52+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5393,7 +5811,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5585,7 +6003,7 @@ The agenda for the meeting is:&lt;/p&gt;
 		<id>https://blog.oup.com/?p=145652</id>
 		<updated>2021-01-19T10:30:19+00:00</updated>
 		<content type="html" xml:lang="en-us">
- &lt;p&gt;You know the way Google search will sometimes finish your sentences for you? Or, when you’re typing an email, there’s some ghostly predictive text that floats just in front of your cursor? Well, there’s a new kid on the block that makes these gadgets look like toy tricks out of a Christmas cracker. Give it a sentence of Jane Austen and it will finish the paragraph in the same style. Give it a philosophical conjecture and it will fill the page with near-coherent academic ruminations. &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://link.springer.com/article/10.1007/s11023-020-09548-1&quot;&gt;GPT-3&lt;/a&gt; is essentially just predicting what words should come next, following on from the prompt it’s been given. That the machine does so well is partly because it’s been trained on an unimaginably huge database of samples of English (reputedly, $13 million worth of training). A similar machine can predict, from a sequence of amino acids, how the resulting protein will fold, short-cutting months of lab work and in some cases years of human ingenuity (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology&quot;&gt;AlphaFold&lt;/a&gt;). But what is going on inside the machine? What is it keeping track of inside its huge neural network “brain”?&lt;/p&gt;&lt;p&gt;We face the same question, of course, when we look at the human brain—a seemingly inscrutable organ of even greater complexity. Yet neuroscience is beginning to make sense of what’s going on inside: of patterns of activity distributed across millions of neurons, flowing into other patterns; coupling and modulating; unfolding in a way that opens the organism to the world outside, projected through its inner space of needs and drives, bathed in the wash of past experience, reaching out to control and modify that world to its own agenda. We can now see what some of these patterns of activity are, and we have an inkling of what they are doing, of how they track the environment, and subserve behaviour.&lt;/p&gt;&lt;p&gt;Neuroscientists are recording these patterns with new techniques. But what do the patterns mean? How should they be understood? Neuroscience is increasingly tackling these questions by asking what the activation patterns &lt;em&gt;represent&lt;/em&gt;. For example, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.sciencedirect.com/science/article/pii/S0896627308009434&quot;&gt;“representational similarity analysis”&lt;/a&gt; (RSA) is used to ask whether the human brain processes images in the same way as the brain of the macaque monkey. Surprisingly, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.pnas.org/content/111/23/8619.short&quot;&gt;similar techniques&lt;/a&gt; can be used to compare the human brain to an AI computer system trained to perform the same task. These AIs are deep neural networks, cousins of the seemingly unfathomable GPT-3 and AlphaFold brains we met at the start. Astoundingly, it turns out that sometimes the deep neural network is processing images in roughly the same way as the human brain. In a general sense, both are performing the same computations en route to working out that they are looking at a picture of two cats on a sofa. In other cases, we see the brain using a &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~papers.nips.cc/paper/9104-better-transfer-learning-with-inferred-successor-maps&quot;&gt;hexagonal code&lt;/a&gt; to represent physical space—and more abstract conceptual spaces—and to reason about them.&lt;/p&gt;&lt;p&gt;All of this means that representation has become something of a hot topic in cognitive neuroscience. Representation has always been around, of course, working away in the foundations ever since the “cognitive revolution” showed that we could explain behaviour in terms of internal processing without having to feel embarrassed about intelligent homunculi or ghosts in the machine. What we have now are much better ways to see those representations in the brain and to marry them up with the computational story about how the organism intelligently deals with its environment.&lt;/p&gt;&lt;div&gt;&lt;blockquote&gt;&lt;p&gt;“representation is the crucial link for connecting brain activity with functional, adaptive behaviour”&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;p&gt;What we still need is a proper understanding of what representation is—an understanding of how there come to be things in the head which stand in for, and allow creatures to deal with, things in their environment. A once-unconventional idea in contemporary philosophy (originating with Ruth Millikan, David Papineau, and Karen Neander) is that this is intimately tied up with function—biological functions based on natural selection. Although a connection to function may have always been implicit in some scientific practice, it is now being recognised explicitly (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.nature.com/articles/nn.3017&quot;&gt;Hunt et al. 2012&lt;/a&gt;, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.nature.com/articles/s41593-019-0520-2&quot;&gt;Richards et al. 2019&lt;/a&gt;). For example, in a recent manifesto for the role of representation in computational cognitive neuroscience, Kriegeskorte and Diedrichsen (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-080317-061906&quot;&gt;2019&lt;/a&gt;) argue that representation is the crucial link for connecting brain activity with functional, adaptive behaviour. Meanwhile in philosophy, appealing to natural teleology to explain representation has moved into the mainstream, being embraced by researchers from diverse disciplinary starting points (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~dx.doi.org/10.1007/s10539-014-9432-4&quot;&gt;David Haig&lt;/a&gt;, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/the-metaphysics-of-representation-9780198850205&quot;&gt;Robert Williams&lt;/a&gt;), alongside recent landmark contributions from early advocates (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://mitpress.mit.edu/books/mark-mental&quot;&gt;Karen Neander&lt;/a&gt;, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/beyond-concepts-9780198717195&quot;&gt;Ruth Millikan&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;The devil is in the details, of course, but it is beginning to look as if we have the main ingredients in place: internal states that stand in useful relations to things in the environment, internal processing which relies on those relations, and the functions that serves for the organism. Just as the cognitive sciences come to lean on representation ever more heavily, it seems that we now have the resources to understand this foundational notion.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Feature image by &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://stock.adobe.com/images/brain-data-ai-technology-robotic-molecule-of-chemical-atom-cell-science-hacker-online-cyber-network-system-of-background-illustration-3d-rendering-futuristic-cloud-storage-deep-learning/271835259&quot;&gt;issaronow&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/01/what-is-representation-in-the-human-brain-and-ai-systems/&quot;&gt;What is “representation” in the human brain and AI systems?&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/641921470/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/641921470/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/safety-first-considering-protest-reasoning-10-years-on-from-the-arab-spring/&quot; rel=&quot;nofollow&quot;&gt;Safety first? Considering protest reasoning 10 years on from the Arab Spring&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/technology-in-the-elementary-music-classroom-after-the-pandemic/&quot; rel=&quot;nofollow&quot;&gt;Technology in the elementary music classroom after the pandemic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/online-music-making-with-nearly-no-lag-time-really/&quot; rel=&quot;nofollow&quot;&gt;Online music-making with nearly no lag time—really!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content>
+ &lt;p&gt;You know the way Google search will sometimes finish your sentences for you? Or, when you’re typing an email, there’s some ghostly predictive text that floats just in front of your cursor? Well, there’s a new kid on the block that makes these gadgets look like toy tricks out of a Christmas cracker. Give it a sentence of Jane Austen and it will finish the paragraph in the same style. Give it a philosophical conjecture and it will fill the page with near-coherent academic ruminations. &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://link.springer.com/article/10.1007/s11023-020-09548-1&quot;&gt;GPT-3&lt;/a&gt; is essentially just predicting what words should come next, following on from the prompt it’s been given. That the machine does so well is partly because it’s been trained on an unimaginably huge database of samples of English (reputedly, $13 million worth of training). A similar machine can predict, from a sequence of amino acids, how the resulting protein will fold, short-cutting months of lab work and in some cases years of human ingenuity (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology&quot;&gt;AlphaFold&lt;/a&gt;). But what is going on inside the machine? What is it keeping track of inside its huge neural network “brain”?&lt;/p&gt;&lt;p&gt;We face the same question, of course, when we look at the human brain—a seemingly inscrutable organ of even greater complexity. Yet neuroscience is beginning to make sense of what’s going on inside: of patterns of activity distributed across millions of neurons, flowing into other patterns; coupling and modulating; unfolding in a way that opens the organism to the world outside, projected through its inner space of needs and drives, bathed in the wash of past experience, reaching out to control and modify that world to its own agenda. We can now see what some of these patterns of activity are, and we have an inkling of what they are doing, of how they track the environment, and subserve behaviour.&lt;/p&gt;&lt;p&gt;Neuroscientists are recording these patterns with new techniques. But what do the patterns mean? How should they be understood? Neuroscience is increasingly tackling these questions by asking what the activation patterns &lt;em&gt;represent&lt;/em&gt;. For example, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.sciencedirect.com/science/article/pii/S0896627308009434&quot;&gt;“representational similarity analysis”&lt;/a&gt; (RSA) is used to ask whether the human brain processes images in the same way as the brain of the macaque monkey. Surprisingly, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.pnas.org/content/111/23/8619.short&quot;&gt;similar techniques&lt;/a&gt; can be used to compare the human brain to an AI computer system trained to perform the same task. These AIs are deep neural networks, cousins of the seemingly unfathomable GPT-3 and AlphaFold brains we met at the start. Astoundingly, it turns out that sometimes the deep neural network is processing images in roughly the same way as the human brain. In a general sense, both are performing the same computations en route to working out that they are looking at a picture of two cats on a sofa. In other cases, we see the brain using a &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~papers.nips.cc/paper/9104-better-transfer-learning-with-inferred-successor-maps&quot;&gt;hexagonal code&lt;/a&gt; to represent physical space—and more abstract conceptual spaces—and to reason about them.&lt;/p&gt;&lt;p&gt;All of this means that representation has become something of a hot topic in cognitive neuroscience. Representation has always been around, of course, working away in the foundations ever since the “cognitive revolution” showed that we could explain behaviour in terms of internal processing without having to feel embarrassed about intelligent homunculi or ghosts in the machine. What we have now are much better ways to see those representations in the brain and to marry them up with the computational story about how the organism intelligently deals with its environment.&lt;/p&gt;&lt;div&gt;&lt;blockquote&gt;&lt;p&gt;“representation is the crucial link for connecting brain activity with functional, adaptive behaviour”&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;p&gt;What we still need is a proper understanding of what representation is—an understanding of how there come to be things in the head which stand in for, and allow creatures to deal with, things in their environment. A once-unconventional idea in contemporary philosophy (originating with Ruth Millikan, David Papineau, and Karen Neander) is that this is intimately tied up with function—biological functions based on natural selection. Although a connection to function may have always been implicit in some scientific practice, it is now being recognised explicitly (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.nature.com/articles/nn.3017&quot;&gt;Hunt et al. 2012&lt;/a&gt;, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.nature.com/articles/s41593-019-0520-2&quot;&gt;Richards et al. 2019&lt;/a&gt;). For example, in a recent manifesto for the role of representation in computational cognitive neuroscience, Kriegeskorte and Diedrichsen (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://www.annualreviews.org/doi/abs/10.1146/annurev-neuro-080317-061906&quot;&gt;2019&lt;/a&gt;) argue that representation is the crucial link for connecting brain activity with functional, adaptive behaviour. Meanwhile in philosophy, appealing to natural teleology to explain representation has moved into the mainstream, being embraced by researchers from diverse disciplinary starting points (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~dx.doi.org/10.1007/s10539-014-9432-4&quot;&gt;David Haig&lt;/a&gt;, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/the-metaphysics-of-representation-9780198850205&quot;&gt;Robert Williams&lt;/a&gt;), alongside recent landmark contributions from early advocates (&lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://mitpress.mit.edu/books/mark-mental&quot;&gt;Karen Neander&lt;/a&gt;, &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/beyond-concepts-9780198717195&quot;&gt;Ruth Millikan&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;The devil is in the details, of course, but it is beginning to look as if we have the main ingredients in place: internal states that stand in useful relations to things in the environment, internal processing which relies on those relations, and the functions that serves for the organism. Just as the cognitive sciences come to lean on representation ever more heavily, it seems that we now have the resources to understand this foundational notion.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Feature image by &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://stock.adobe.com/images/brain-data-ai-technology-robotic-molecule-of-chemical-atom-cell-science-hacker-online-cyber-network-system-of-background-illustration-3d-rendering-futuristic-cloud-storage-deep-learning/271835259&quot;&gt;issaronow&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/01/what-is-representation-in-the-human-brain-and-ai-systems/&quot;&gt;What is “representation” in the human brain and AI systems?&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/641921470/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/30/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/googleplus20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/641921470/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/641921470/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/01/safety-first-considering-protest-reasoning-10-years-on-from-the-arab-spring/&quot; rel=&quot;nofollow&quot;&gt;Safety first? Considering protest reasoning 10 years on from the Arab Spring&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/02/grove-musics-2021-spoof-article-contest-is-now-open/&quot; rel=&quot;nofollow&quot;&gt;Grove Music’s 2021 spoof article contest is now open!&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/02/dead-zones-growing-areas-of-aquatic-hypoxia-are-threatening-our-oceans-and-rivers/&quot; rel=&quot;nofollow&quot;&gt;Dead zones: growing areas of aquatic hypoxia are threatening our oceans and rivers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content>
 		<author>
 			<name>Becky Clifford</name>
 			<uri>https://blog.oup.com</uri>
@@ -5595,7 +6013,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Academic insights for the thinking world.</subtitle>
 			<link rel="self" href="http://blog.oup.com/category/science_medicine/psychology/feed/"/>
 			<id>https://blog.oup.com</id>
-			<updated>2021-01-31T11:47:29+00:00</updated>
+			<updated>2021-02-15T14:00:49+00:00</updated>
 		</source>
 	</entry>
 
@@ -5635,7 +6053,7 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5681,70 +6099,7 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-02-12T08:00:52+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Revisiting The “Brain Drain” Effect: Having A Phone On The Desk Doesn’t Always Impair Our Memory</title>
-		<link href="https://digest.bps.org.uk/2021/01/18/revisiting-the-brain-drain-effect-having-a-phone-on-the-desk-doesnt-always-impair-our-memory/"/>
-		<id>http://digest.bps.org.uk/?p=41158</id>
-		<updated>2021-01-18T15:13:25+00:00</updated>
-		<content type="html" xml:lang="en">
- &lt;p&gt;&lt;em&gt;By&lt;/em&gt; &lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;We all know that using a smartphone interferes with our ability to focus on other things — like driving. But in 2017, a &lt;a href=&quot;https://www.journals.uchicago.edu/doi/abs/10.1086/691462&quot;&gt;surprising result&lt;/a&gt; made international headlines: the mere presence of a switched off smartphone on the desk can impair working memory. Now a &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S1053810020301975?via=ihub&quot;&gt;new study&lt;/a&gt; in &lt;em&gt;Consciousness and Cognition&lt;/em&gt;, which has partially replicated and extended this investigation, has &lt;em&gt;not&lt;/em&gt; found evidence to support the “brain drain” effect. However, the researchers, led by Matthias Hartmann at University of Bern, Switzerland, say that we shouldn’t start putting our phones back on our desks just yet.&lt;/p&gt;
-
-
-
-&lt;span id=&quot;more-41158&quot;&gt;&lt;/span&gt;
-
-
-
-&lt;p&gt;The 2017 study was led by Adrian Ward at the University of Texas, Austin. His team found that people who’d been instructed to put their phones in another room performed significantly better on tests designed to measure their cognitive capacity than those who had their phones on the desk. They also did slightly better than participants who’d put their phone in a pocket or bag. It didn’t matter whether their phones were off or on or face up or down; just having the phone easily accessible meant that people had to resist the impulse to use it, which used some of their available cognitive capacity, the team concluded. This meant they had less to spare on the tasks, which drew on working memory.&lt;/p&gt;
-
-
-
-&lt;p&gt;Hartmann and his colleagues decided to investigate possible impacts on two other types of memory: short term memory and also prospective memory — remembering to do something in the future. They recruited 302 participants with a mean age of about 22, and asked all to put their phones into flight mode. Half were told that they could leave their phone on their desk, while the other half had their phones taken by the experimenter and placed on the opposite side of the room, so that, they were told, they would not be distracted by them. (Since it’s normal to ask study participants not to use their phones, the team didn’t expect this to alert them to the nature of the study.)&lt;/p&gt;
-
-
-
-&lt;p&gt;The participants were then presented with a series of pictures of easily identifiable objects paired with unrelated words. They were told to read each word aloud and to memorise the pictures. Every so often, they were asked to say out loud as many of the pictures as they could remember from the previous block, and an experimenter wrote these down. This was the test of their short-term memory. Before embarking on a second series of word-picture presentations, they were told to inform the experimenter whenever they saw a word that belonged in the category of “musical instruments”. This tested their prospective memory.&lt;/p&gt;
-
-
-
-&lt;p&gt;The team found that whether participants’ phones were in clear view or on the other side of the room made no overall difference to performance on these memory tasks. The participants had also completed questionnaires measuring their impulsiveness and their levels of smartphone dependence, and, when the team took a closer look at this data, a link — albeit an unexpected one — did pop out. Those people who ranked low for smartphone dependence did poorer on the prospective memory test when their phone was in view.&lt;/p&gt;
-
-
-
-&lt;p&gt;What should we make of all this? Given the 2017 findings, “the lack of an effect of smartphone presence on short-term memory performance was surprising,” the team writes. There were some methodological differences between the two studies, they note. Further work to more perfectly replicate the initial study is now needed.&lt;/p&gt;
-
-
-
-&lt;p&gt;As for the prospective memory findings, “our results seem to suggest that the benefit of smartphone absence disappears for people with higher levels of smartphone dependency,” the team writes, “as if the negative effects of missing one’s own smartphone when it is absent counteracts the positive effect of smartphone absence.” However, given the limited data so far, it’s too early to draw any firm conclusions.&lt;/p&gt;
-
-
-
-&lt;p&gt;The researchers stress that there is strong evidence from a range of earlier studies that “personally relevant” stimuli — like our phones — can impair our performance on cognitive tasks. “Our results should therefore not motivate people to put their smartphones on their desks at work,” they conclude. &lt;/p&gt;
-
-
-
-&lt;p&gt;– &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1053810020301975&quot;&gt;Does a smartphone on the desk drain our brain? No evidence of cognitive costs due to smartphone presence in a short-term and prospective memory task&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&quot;https://emmayoung.net/&quot;&gt;Emma Young&lt;/a&gt; (&lt;a href=&quot;https://twitter.com/EmmaELYoung&quot;&gt;@EmmaELYoung&lt;/a&gt;) is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;</content>
-		<author>
-			<name>BPS Research Digest</name>
-			<uri>https://digest.bps.org.uk</uri>
-		</author>
-		<source>
-			<title type="html">Research Digest</title>
-			<link rel="self" href="https://digest.bps.org.uk/feed/"/>
-			<id>https://digest.bps.org.uk</id>
-			<updated>2021-01-31T11:47:23+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5787,7 +6142,7 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -5948,7 +6303,7 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
 			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
 			<id>https://theplosblog.plos.org</id>
-			<updated>2021-02-12T08:00:52+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -5968,58 +6323,7 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Next Open NeuroFedora meeting: 18 January 1500 UTC</title>
-		<link href="https://neuroblog.fedoraproject.org/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html"/>
-		<id>tag:neuroblog.fedoraproject.org,2021-01-12:/2021/01/12/next-open-neurofedora-meeting-18-january-1500-utc.html</id>
-		<updated>2021-01-12T19:56:40+00:00</updated>
-		<content type="html">
- &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Photo by William White on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200112-image.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
-&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;William White&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 18 January at 1300UTC in #fedora-neuro on IRC (Freenode).
-The meeting is a public meeting, and open for everyone to attend.
-You can join us over:&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;or &lt;a class=&quot;reference external&quot; href=&quot;https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io&quot;&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can use &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210118T13&amp;amp;p1=1440&amp;amp;ah=1&quot;&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
-Or, you can also use this command in the terminal:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'TZ=&quot;UTC&quot; 1300 next Monday'&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The meeting will be chaired by @ankursinha (me).
-The agenda for the meeting is:&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;New introductions and roll call.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2020-11-30-13.01.html&quot;&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting&quot;&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://tinyurl.com/neurofedora-bugs&quot;&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro&quot;&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koschei.fedoraproject.org/groups/neuro-sig&quot;&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/packageinfo?packageID=30691&quot;&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
-&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
-&lt;li&gt;Open floor.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We hope to see you there!&lt;/p&gt;</content>
-		<author>
-			<name>Ankur Sinha</name>
-			<uri>https://neuroblog.fedoraproject.org/</uri>
-		</author>
-		<source>
-			<title type="html">NeuroFedora: Blog</title>
-			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
-			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
-			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2021-02-11T09:56:52+00:00</updated>
+			<updated>2021-02-15T14:00:47+00:00</updated>
 		</source>
 	</entry>
 
@@ -6072,7 +6376,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<title type="html">BMC Series blog</title>
 			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
 			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
+			<updated>2021-02-15T14:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -6198,7 +6502,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;Neuroscientifically Challenged is an educational website with neuroscience articles, videos, images, a glossary, and more.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/blog/</id>
-			<updated>2021-02-15T08:00:51+00:00</updated>
+			<updated>2021-02-15T14:00:50+00:00</updated>
 		</source>
 	</entry>
 
@@ -6323,210 +6627,6 @@ The agenda for the meeting is:&lt;/p&gt;
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
 			<updated>2021-02-11T19:00:45+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Seb Falk’s The Light Ages: book review</title>
-		<link href="https://forbetterscience.com/2021/01/06/seb-falks-the-light-ages-book-review/"/>
-		<id>http://forbetterscience.com/?p=54615</id>
-		<updated>2021-01-06T06:00:00+00:00</updated>
-		<content type="html">
- This is my review of the book &quot;The Light Ages&quot; by Seb Falk. Turns out, there was much learning and scientific inquiry going on in the Middle Ages!</content>
-		<author>
-			<name>Leonid Schneider</name>
-			<uri>https://forbetterscience.com</uri>
-		</author>
-		<source>
-			<title type="html">For Better Science</title>
-			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
-			<link rel="self" href="https://forbetterscience.com/feed/"/>
-			<id>https://forbetterscience.com</id>
-			<updated>2021-02-10T08:00:47+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">2021 projects (9 and counting)</title>
-		<link href="https://malinsandstrom.blog/2021/01/05/2021-projects-9-and-counting/"/>
-		<id>https://malinsandstrom.blog/?p=1755</id>
-		<updated>2021-01-05T09:00:19+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;nature sky sunset the mountains&quot; class=&quot;wp-image-1767&quot; data-attachment-id=&quot;1767&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Photo by NO NAME on &amp;lt;a href=\&amp;quot;https:\/\/www.pexels.com\/photo\/nature-sky-sunset-the-mountains-66997\/\&amp;quot; rel=\&amp;quot;nofollow\&amp;quot;&amp;gt;Pexels.com&amp;lt;\/a&amp;gt;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;nature sky sunset the mountains&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;pexels-photo-66997&quot; data-large-file=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/01/pexels-photo-66997.jpeg?fit=1024%2C678&amp;amp;ssl=1&quot; data-medium-file=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/01/pexels-photo-66997.jpeg?fit=300%2C199&amp;amp;ssl=1&quot; data-orig-file=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/01/pexels-photo-66997.jpeg?fit=1880%2C1245&amp;amp;ssl=1&quot; data-orig-size=&quot;1880,1245&quot; data-permalink=&quot;https://malinsandstrom.blog/2021/01/05/2021-projects-9-and-counting/pexels-photo-66997/&quot; data-recalc-dims=&quot;1&quot; height=&quot;728&quot; src=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/01/pexels-photo-66997.jpeg?resize=1100%2C728&amp;amp;ssl=1&quot; width=&quot;1100&quot; /&gt;The sun setting on 2020. &lt;a href=&quot;https://www.pexels.com/photo/nature-sky-sunset-the-mountains-66997/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;It seems I have a lot going on this coming year, I was a bit surprised myself when I started counting out my projects and landed at 9 long before I was done. Here is a status update:&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://wordpress.com/post/malinsandstrom.blog/1684&quot;&gt;2021 projects, #1: social media critique&lt;/a&gt;&lt;br /&gt;I have the book, digital now and paper on the way, but have not started yet.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://malinsandstrom.blog/2020/12/30/2021-projects-2-veganuary/&quot;&gt;2021 projects, #2: Veganuary&lt;/a&gt;&lt;br /&gt;Going well so far; veganizing breakfast was easy, quick work-from-home lunches depend mostly on what we ate the days before so they will veganize themselves in time. Dinner requires more adjustment, since I have two kids – relativley open to eating new things, but one of them is probably a supertaster. Most of my #veganuary updates will be posted on Instagram.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://wordpress.com/post/malinsandstrom.blog/1697&quot;&gt;2021 projects, #3: test-knit a cardigan&lt;/a&gt;&lt;br /&gt;Also going well, I have the yoke almost done. The only annoyance is my cable keeps unscrewing from the right hand needle, regardless of how hard I screw it stuck. Again and again. &lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://malinsandstrom.blog/2020/12/31/2021-projects-4-learn-something-new/&quot;&gt;2021 projects, #4: learn something new&lt;/a&gt;&lt;br /&gt;This project hit an unanticipated rock in the road – the Swedish AI course I joined, “Elements of AI”  in Swedish translation, which looked good at the start, turned out to be a disappointment. Weirdly formulated  problem statements – I supposed they aimed to be inclusive give simple questions, but missed the mark – and finnicky automated-response-checkers. Translation was great, though. The only term not well translated was Data Scientist.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://malinsandstrom.blog/2020/12/31/2021-projects-5-community-managers-resilience/&quot;&gt;2021 projects, #5: community managers &amp;amp; resilience&lt;/a&gt;&lt;br /&gt;Community managers at large have been a positive force for good, this year. In late January, there will be a Community Manager Appreciation Day, themed “resilience”. Expect some posts on that.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://malinsandstrom.blog/2020/12/31/2021-projects-6-scouting-leadership/&quot;&gt;2021 projects, #6: scouting &amp;amp; leadership&lt;/a&gt;&lt;br /&gt;We joined in late November, so the only scout meetings we have had so far took place on Zoom. But there are plans to be outside and DO things, which I look much forward to. And I am psyched to be a parent-leader; I have &lt;em&gt;so&lt;/em&gt; many ideas for keeping the kids busy and entertained. &lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://malinsandstrom.blog/2020/12/31/2021-projects-7-books/&quot;&gt;2021 projects, #7: books&lt;/a&gt;&lt;br /&gt;This will be the most work, likely. All books in the apartment need to get sorted, a fair amount will be packed in boxes, and the equal amount of books will come up from the cellar storage. All books to be scanned and registered. And I need to go through, sort and tag all my 700 e-books.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://malinsandstrom.blog/2021/01/01/2021-projects-8-podcasts/&quot;&gt;2021 projects, #8: podcasts&lt;/a&gt;&lt;br /&gt;This project, I think, will be a main contributor to keeping me sane. I plan to take long walks and listen to interesting things. I have already found a few new favourites to add to my listening rota (which so far is mainly EscapePod): the ORIONScience podcast, and the Svenskan i Samhället (Swedish in Society) podcast.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://malinsandstrom.blog/2021/01/04/2021-projects-9-rrids-on-everything/&quot;&gt;2021 projects, #9: RRIDs on everything&lt;/a&gt;&lt;br /&gt;This is by far not my only upcoming work project. There will be Google Summer of Code, there will be INCF Working Groups, and literature search for the INCF Infrastructure Committee. And meeting new people, helping some people connect and collaborate… I will likely not have a boring moment.&lt;/p&gt;</content>
-		<author>
-			<name>Dr Sandstorm</name>
-			<uri>https://malinsandstrom.blog</uri>
-		</author>
-		<source>
-			<title type="html">Malins blogg.</title>
-			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
-			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
-			<id>https://malinsandstrom.blog</id>
-			<updated>2021-02-11T19:00:45+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">2021 projects, #9: RRIDs on everything</title>
-		<link href="https://malinsandstrom.blog/2021/01/04/2021-projects-9-rrids-on-everything/"/>
-		<id>https://malinsandstrom.blog/?p=1744</id>
-		<updated>2021-01-04T21:46:41+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;This project is work-focused, but will surely frame my thinking and actions also beyond work. My latest work strategy meeting can pretty much be summed up in one sentence: RRIDs on &lt;em&gt;everythin&lt;/em&gt;g (and if it doesn’t have an RRID yet, get one for it).&lt;/p&gt;
-
-
-
-&lt;p&gt;RRID is short for Research Resource ID, and is a type of identifier to inambiguously identify, mention and cite a research resource, taken broadly. Web portals, software tools, antibodies, cell/animal lines or bacterial strains. RRIDs grew out of the Research Resource Identification Initiative, whose key members also are part of the INCF community in the US, ands was launched as a recommendation in 2014, re-emphasized by successful trial results published in 2016.&lt;/p&gt;
-
-
-
-&lt;p&gt;If you have ever experienced an everyday name or identity collision – a similarly named classmate, a repeatedly mis-dialed phone number, getting emails meant for another person, having a neighbour or office colleague who gets your mail and you get theirs – you should already have a hunch about why identifiers are important, and what not having them means.&lt;/p&gt;
-
-
-
-&lt;p&gt;Simply put, identifiers give us a way to be more specific and precise than mere words can offer. There are existing identifiers for research papers (DOI:s, since old, ~2000s), people (ORCID:s, even older, Oct 2012), and research institutions (ROR in 2019, GRID in 2015). And since even longer, books have identifiers. ISBN, the International Standard Book Number, was published in &lt;strong&gt;1970&lt;/strong&gt; as international standard ISO 2108. And identifiers typically are compact strings of characters, put together after a pattern, because you want them to be easy to use AND computer-readable .&lt;/p&gt;
-
-
-
-&lt;p&gt;But the existing set of identifiers did not cover all of research nearly enough: there were (and are still) problems with, for example: exactly and unambigously stating which antibod(ies) from which producer(s) you actually used. Or which breed of lab rat. Citing tools and specifying transparently which tools you use. Hence, RRIDs were conceived, and there is an ongoing campaign to get them broadly used.&lt;/p&gt;
-
-
-
-&lt;p&gt;Identifiers are useful on their own, but there are broader aspects – if you want to make science FAIR (Findable, Accessible, Internoperable, Reusable), &lt;a href=&quot;https://www.mitpressjournals.org/doi/pdf/10.1162/dint_a_00025&quot;&gt;identifiers will be a part of your toolset&lt;/a&gt;. They also need to be machine readable, because computers deal with thousands of data points a lot better than most humans do, and it would be nice to be able to automate identification and information gathering. They need to be persistent, i.e stay the same and not start meaning something different regardless of how tech develops. They also need to be resolveable – there needs to be a service at the other end, likely a database – storing the associated info.&lt;/p&gt;
-
-
-
-&lt;p&gt;The idea is, if everything has an RRID, it doesn’t matter if information is spread out like a box of dropped tooth picks all over the formal and informal scientific digital landscape in preprints, papers, posters, websites, blog posts, social media – it is still findable, as long as it is digital, attached to a PID, and available for indexing. So my mission is, simply, to find out which important-to-neuroinformatics research objects are not yet findable, and change that.&lt;/p&gt;
-
-
-
-&lt;p&gt;Read more: &lt;br /&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5854161/&quot;&gt;RRIDs: A Simple Step toward Improving Reproducibility through Rigor and Transparency of Experimental Methods&lt;/a&gt; &lt;br /&gt;&lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/frma.2018.00028/full&quot;&gt;Using ORCID, DOI, and Other Open Identifiers in Research Evaluation&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.mitpressjournals.org/doi/pdf/10.1162/dint_a_00025&quot;&gt;Unique, Persistent, Resolvable: Identifiers as the&lt;br /&gt;Foundation of FAIR&lt;/a&gt;&lt;/p&gt;</content>
-		<author>
-			<name>Dr Sandstorm</name>
-			<uri>https://malinsandstrom.blog</uri>
-		</author>
-		<source>
-			<title type="html">Malins blogg.</title>
-			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
-			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
-			<id>https://malinsandstrom.blog</id>
-			<updated>2021-02-11T19:00:45+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-GB">Highlights from the BMC Series – November 2020</title>
-		<link href="http://blogs.biomedcentral.com/bmcseriesblog/2021/01/04/highlights-from-the-bmc-series-november/"/>
-		<id>http://blogs.biomedcentral.com/bmcseriesblog/?p=12228</id>
-		<updated>2021-01-04T13:42:18+00:00</updated>
-		<content type="html" xml:lang="en-GB">
- &lt;img alt=&quot;&quot; class=&quot;attachment-thumbnail size-thumbnail wp-post-image&quot; height=&quot;110&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/08/2020-08-18-12_33_22-Word-Cloud-Generator-140x110.png&quot; style=&quot;display: block; margin-bottom: 5px; clear: both;&quot; width=&quot;140&quot; /&gt;&lt;h2&gt;&lt;b&gt;BMC Health Services Research&lt;/b&gt;&lt;/h2&gt;
-&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-020-05905-z?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;The micropolitics of implementation; a qualitative study exploring the impact of power, authority, and influence when implementing change in healthcare teams&lt;/a&gt; &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;How can healthcare implementation be understood through a political lens?&lt;/span&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;A study by &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Rogers et al&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. explored the effect of micropolitics, the use of power, authority, and influence, on implementation processes in the healthcare context. Because of the multidisciplinary nature of healthcare teams, healthcare professionals have discipline-specific priorities and expectations. Thus, multidisciplinary teams must reach agreements in spite of their divergent organizational priorities.&lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Rogers et al&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. sought to address how micropolitics influences implementation processes by utilizing a multiple case study design and a theoretical framework.&lt;/span&gt;&lt;/p&gt;
-&lt;img alt=&quot;&quot; class=&quot;wp-image-12230 aligncenter&quot; height=&quot;368&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/12/micropolitics-of-healthcare-300x156.jpg&quot; width=&quot;707&quot; /&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The qualitative analysis revealed that implementing change is an inherently political process in the healthcare context. Hierarchical systems were exemplified in both case studies; however, the impact of the hierarchy differed across settings. The first theme of the micropolitics of implementation was utilizing the hierarchy to exert influence. The physicians were identified as important “role models” in implementing change. Senior managers served similarly to senior physicians, though their role was perceived to have less influence on staff engagement. Additionally, clinical nurse managers played an important role as the “middle-man” to liaise between the disciplines. In one instance, the clinical nurse manager’s rejection of the intervention led to a lack of information amongst the team, negatively impacting implementation. In each instance, the hierarchy structure impacted how team members related to the intervention.&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Teams often described a culture of “put up or shut up”. Staff articulated how the hierarchy made them feel “constrained” and “beaten down”, ultimately le&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;ading team members to fear expressing their personal opinions regarding the intervention.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The second theme that emerged was how traditional power structures constrained implementation. Teams often described a culture of “put up or shut up”. Staff articulated how the hierarchy made them feel “constrained” and “beaten down”, ultimately leading team members to fear expressing their personal opinions regarding the intervention. Furthermore, the hierarchy of the team impacted how the staff viewed the intervention relating to their influence on the decision. While some staff felt the intervention offered them an opportunity to participate as members of the team and to “have a voice”, which led to more consistent attendance throughout implementation, other members felt the implementation was irrelevant to their role, resulting in poor adoption of the intervention. Finally, silo working, or working in isolation rather than collaboration, negatively affected the dissemination of information within the medical team, limiting engagement. Th&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;us, the hierarchy also impacted cross-disciplinary interactions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;These findings ultimately apply the micropolitical concepts of power, authority and influence to the healthcare context in hopes of providing insight on how to develop more appropriate implementation strategies. The thematic analysis and knowledge of the “everyday politics” of healthcare will certainly help develop a framework for successful implementation.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-020-05915-x?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Defining culturally safe primary care for people who use substances: a participatory concept mapping study&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the midst of the global opioid crisis, developing safe care parameters for people who use substances is essential. &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Urbanoski et al&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. conducted focus groups with a variety of individuals who use or used substances, focusing on the patient perspective of safe primary care. &lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;“I would feel safe going to the doctor if…”&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Participants were recruited from peer-run organizations that provide support and advocacy to people who use substances. Participants were an average of 42.5 years, half identified as female and one quarter as Indigenous. Following several rounds of focus groups focused around the statement “I would feel safe going to the doctor if…”, the participants produced a cluster map as a “comprehensive and meaningful” representation of the data. The clusters can be summarized as the following:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Act to prevent stigma: Don’t treat me like crap!&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; This cluster deals with the external and internal stigma associated with substance use.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Hey I’m human. Treat me right!&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Similar to Cluster 1, this cluster reflects the importance of humane and compassionate care.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Uphold professional standards&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Cluster 3 primarily focuses on professional competency, particularly around pain management and how providers can recognize patients’ experience of pain as legitimate.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Do you care about me? &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;How can physicians develop trust with their patients? This cluster speaks to the importance of personalized care, continuity of care, and developing rapport. &lt;/span&gt;&lt;/i&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;Maintain my confidentiality in a welcoming and comfortable environment&lt;/i&gt;. Cluster 5 articulates concerns around the waiting room environment and clinic practices. Participants described crowded waiting rooms and limited privacy in conversation as chief stressors.&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;Be a champion for advocacy&lt;/i&gt;. How can primary care providers address issues of accessibility and support to improve perceived safety in accessing care? Cluster 6 states examples such as allowing the presence of advocates or friends at appointments, providing care in discrete locations, etc.&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;Acknowledge and accommodate my needs and circumstances&lt;/i&gt;. Cluster 7 identifies how circumstances impact plans of care. Participants indicated the desire for increased forgiveness of missed appointments, understanding fear of being criminalized for the disclosure of drug use, and more. Each of these statements asked primary care providers to recognize the “structural conditions” that impact accessing healthcare.&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;Don’t red flag me: Recognize addiction as a health issue&lt;/i&gt;. The final cluster addresses how a physician’s view of addiction as a health issue, not a criminal behavior, helps people who use substances feel safe in seeking care.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Ultimately, these focus groups provide a starting point for improving the delivery of compassionate primary care to people who use substances. This model provides concrete, patient-centered suggestions for improving primary care processes.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;BMC Endocrine Disorders  &lt;/b&gt;&lt;/h2&gt;
-&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://bmcendocrdisord.biomedcentral.com/articles/10.1186/s12902-020-00649-7?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;Impact of malnutrition on systemic immune and metabolic profiles in type 2 diabetes&lt;/a&gt; &lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Nutrition has a large impact for diabetes patients and can be linked to managing the condition. Typically associated with overweight or obese patients, this condition is being tracked within malnourished populations and how it affects the individuals’ immunological and metabolic profiles.&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It was found that people with a low BMI, or those suffering from malnutrition, had decreased levels of glycemic, hormonal, and cytokine parameters and were therefore less likely to be able to manage Type 2 Diabetes.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Malnutrition has been linked to negatively affecting the immunology of a patient and increasing their mortality &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;from infections. It was hypothesized that a low BMI alters the pancreatic hormone, adipocytokine, and cytokines in Type 2 Diabetes patients, resulting in an increased risk for a more sever&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;e form. Covering 88 participants, this study found strong links to BMI and immune response.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It was found that people with a low BMI, or those suffering from malnutrition, had decreased levels of glycemic, hormonal, and cytokine parameters and were therefore less likely to be able to manage Type 2 Diabetes. Consequently, BMI was also associated with the immunological parameters of patients, with normal BMIs having a significant positive correlation for immune response.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;BMC Complementary Medicine and Therapies&lt;/b&gt;&lt;/h2&gt;
-&lt;img alt=&quot;&quot; class=&quot;wp-image-12232 alignright&quot; height=&quot;246&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/12/CAM-HERO-300x203.jpg&quot; width=&quot;364&quot; /&gt;
-&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://bmccomplementmedtherapies.biomedcentral.com/articles/10.1186/s12906-020-03153-6?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;Do women who consult with naturopaths or herbalists have a healthy lifestyle?: a secondary analysis of the Australian longitudinal study on women’s health&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Many Australians report that they &lt;/span&gt;consult naturopaths, but what does this mean for their health?&lt;i&gt; Steel et al&lt;/i&gt;. evaluated the relationship between health behavior and consultations with naturopaths in Australian women among three age cohorts (19-25, 31-36, and 62-67).&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Through analyzing the Australian Longitudinal Study on Women’s Health (ALSWH), they found that women of all cohorts who had consulted with a naturopath in the last 12 months were less likely to smoke, more likely to report at least moderate levels of physical activity, and more likely to have a vegetarian diet. Additionally, women who had consulted with naturopaths were also more likely to have used marijuana or illicit drugs in the last 12 months. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Further research is needed to understand this relationship between naturopaths and health behaviors, but this study uncovered opportunities for naturopaths to &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;support health behaviors and minimize risky behaviors. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;BMC Genomics  &lt;/b&gt;&lt;/h2&gt;
-&lt;h3&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07229-y?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;Competitive mapping allows for the identification and exclusion of human DNA &lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07229-y?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;contamination in ancient faunal genomic datasets&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Unjumbling contaminated DNA in ancient specimens pose issues for cost-effective sequencing and interpretation. Identifying the contamination between human and faunal DNA has the benefit of being able to affect analyses when mapping the reference genomes.&lt;/span&gt;&lt;/p&gt;
-&lt;img alt=&quot;&quot; class=&quot;size-medium wp-image-12229 alignleft&quot; height=&quot;300&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/12/woolly-mammoth-300x300.png&quot; width=&quot;300&quot; /&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This work focuses on the most effective method to competitively map human contamination from ancient faunal DNA with reduced losses of data, thus acting as a beneficial tool within ancient DNA research. This was achieved through the sequencing of genomic data from 70 ancient and historical mammalian specimens, including an ancient favorite: the wooly mammoth.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;BMC Medical Research Methodology &lt;/b&gt;&lt;/h2&gt;
-&lt;h3&gt;&lt;a href=&quot;https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-01157-x?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Epistemonikos: a comprehensive database of systematic reviews for health decision-making&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Systematic reviews are arguably the most robust form of research evidence. However, as the literature becomes continually more saturated with these reviews, it is more difficult to identify relevant reviews addressing specific questions. How can the scientific community keep up?&lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;&lt;b&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-12231 aligncenter&quot; height=&quot;242&quot; src=&quot;http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2020/12/epis-database-300x122.jpg&quot; width=&quot;594&quot; /&gt;&lt;/b&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;On behalf of the Epistemonikos project, &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Rada et al&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. developed a database called &lt;a href=&quot;https://www.epistemonikos.org/&quot;&gt;Epistemonikos&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; of more than 300,000 systematic reviews, making it the largest database of its kind. The included reviews were selected using a machine-based approach, which were then validated by a network of over 1000 collaborators. This database is a free, multilingual, and quality-checked “one-stop shop” for systematic reviews.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;BMC Research Notes&lt;/b&gt;&lt;/h2&gt;
-&lt;h3&gt;&lt;a href=&quot;https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-020-05383-w?utm_source=bmc_blogs&amp;amp;utm_medium=referral&amp;amp;utm_content=null&amp;amp;utm_campaign=blog_2020_bmcseriesblog&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;What is the size of Australia’s sexual minority population?&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Australia’s sexual minority adult population (LGBTQIA+) are difficult to estimate as the Australian Bureau of Statistics does not publish or collect any data on sexual identity. Therefore, this work attempted to provide this estimate and fill the gaps in the latest census data.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Combining data from multiple national surveys and population data, average prevalence rate produced an estimate of Australia’s sexual minority population – utilising data from the General Social Survey (GSS) and the Household, Income And Labour Dynamics in Australia (HILDA) Survey.  It was found that Australia’s sexual minority was higher in the younger population and steadily increased with surveys conducted in later years.&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It was found that Australia’s sexual minority was higher in the younger population and steadily increased with surveys conducted in later years.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Proposing a potential cohort effect for this trend, it is suggested sexual identities can be influenced by social attitudes and the legal environment of the time. Younger cohorts have spent their formative years within a time of higher acceptance of sexual identity and the willingness to disclose one’s identity. This cohort effect has the potential to impact future population surveys and the percentage of Australia’s known sexual minority population.  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog/2021/01/04/highlights-from-the-bmc-series-november/&quot; rel=&quot;nofollow&quot;&gt;Highlights from the BMC Series – November 2020&lt;/a&gt; appeared first on &lt;a href=&quot;http://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content>
-		<author>
-			<name>Kate Gaines &amp;#38; Rachelle Todd</name>
-			<uri>http://blogs.biomedcentral.com/bmcseriesblog</uri>
-		</author>
-		<source>
-			<title type="html">BMC Series blog</title>
-			<link rel="self" href="http://blogs.biomedcentral.com/bmcseriesblog/feed/"/>
-			<id>http://blogs.biomedcentral.com/bmcseriesblog</id>
-			<updated>2021-02-12T19:00:42+00:00</updated>
 		</source>
 	</entry>
 
