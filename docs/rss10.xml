@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=56198" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18704" />
 			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2021-02-15:/2021/02/15/next-open-neurofedora-meeting-15-february-1500-utc.html" />
 			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2021-02-01:/2021/02/01/next-open-neurofedora-meeting-1-february-1500-utc.html" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:5ffae2c7267a1278ba6c4bfb" />
 			<rdf:li rdf:resource="https://malinsandstrom.blog/2021/01/09/project-update-gunhild-cardigan/" />
 			<rdf:li rdf:resource="http://brainupdate.nih.gov/?p=2937" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/what-does-2021-hold-for-nurses-and-the-nursing-profession" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=56198">
+	<title>For Better Science: Macchiarini partner Anthony Hollander chairs mass-sacking committee in Liverpool</title>
+	<link>https://forbetterscience.com/2021/02/16/macchiarini-partner-anthony-hollander-chairs-mass-sacking-committee-in-liverpool/</link>
+	<content:encoded>&quot;I felt I had a lot to give the world. Getting my first at university and doing so well in research was an antidote. Underneath, though, there is part of me that feels maybe one day someone will discover that I am stupid.&quot; - Tony &quot;Blue Peter&quot; Hollander</content:encoded>
+	<dc:date>2021-02-16T06:28:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://theplosblog.plos.org/?p=18704">
 	<title>The Official PLOS Blog: PLOS and Uppsala University Announce Publishing Deal</title>
 	<link>http://feeds.plos.org/~r/plos/Blog/~3/sJv6yShHt28/</link>
@@ -4865,12 +4872,6 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 &lt;p&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2021-01-08T15:30:00+00:00</dc:date>
 	<dc:creator>nihninds</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/what-does-2021-hold-for-nurses-and-the-nursing-profession">
-	<title>Elsevier Connect: What does 2021 hold for nurses and the nursing profession?</title>
-	<link>https://www.elsevier.com/connect/what-does-2021-hold-for-nurses-and-the-nursing-profession</link>
-	<content:encoded>5 ways we can bolster the nursing profession for a future beyond Covid</content:encoded>
-	<dc:date>2021-01-07T09:47:32+00:00</dc:date>
 </item>
 
 </rdf:RDF>
