@@ -86,11 +86,135 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on February 22, 2021 07:00 PM on behalf of Ankur Sinha.
+          on February 23, 2021 08:00 AM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
           <ul class="list-group">
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://gcamp6f.com/2021/02/23/temporal-dispersion-of-spike-rates-from-deconvolved-calcium-imaging-data-with-cascade/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://gcamp6f.com/2021/02/23/temporal-dispersion-of-spike-rates-from-deconvolved-calcium-imaging-data-with-cascade/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://gcamp6f.com/2021/02/23/temporal-dispersion-of-spike-rates-from-deconvolved-calcium-imaging-data-with-cascade/&title=Temporal dispersion of spike rates from deconvolved calcium imaging data" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://gcamp6f.com/2021/02/23/temporal-dispersion-of-spike-rates-from-deconvolved-calcium-imaging-data-with-cascade/">Temporal dispersion of spike rates from deconvolved calcium imaging data</a></h4>
+
+<p>On Twitter, <a href="https://twitter.com/RichieHakim/status/1363545448317878282">Richie Hakim asked</a> whether the toolbox Cascade for spike inference (<a href="https://www.biorxiv.org/content/10.1101/2020.08.31.272450v2">preprint</a>, <a href="https://github.com/HelmchenLabSoftware/Cascade">Github</a>) induces temporal dispersion of the predicted spiking activity compared to ground truth. This kind of temporal dispersion had been observed in a study from last year (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008198">Wei et al., PLoS Comp Biol, 2020</a>; also discussed in a previous <a href="https://gcamp6f.com/2020/09/14/discrepancies-between-calcium-imaging-and-extracellular-ephys-recordings/">blog post</a>), suggesting that analyses based on raw or deconvolved calcium imaging data might falsely suggest continuous sequences of neuronal activations, while the true activity patterns are coming in discrete bouts.</p>
+
+
+
+<p>To approach this question, I used one of our 27 ground truth datasets (the one recorded for the original GCaMP6f paper). From all recordings in this data set, I detected events that exceeded a certain ground truth spike rate. Next, I assigned these extracted events in 3 groups and systematically shifted the detected event of groups 1 and 3 by 0.5 seconds forth and back. Note that this is a short shift compared to the timescale investigated by the Wei et al. paper. This is how the ground truth looks like. It is clearly not a continuous sequence of activations:</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img alt="" class="wp-image-6749" data-attachment-id="6749" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="noise2_1" data-large-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_1.png?w=640" data-medium-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_1.png?w=300" data-orig-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_1.png" data-orig-size="1329,561" data-permalink="https://gcamp6f.com/noise2_1/" height="196" src="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_1.png?w=1024" width="465" /></figure></div>
+
+
+
+<p>To evaluate whether the three-bout pattern would result in a continuous sequence after spike inference, I just used the dF/F recordings associated with above ground truth recordings and Cascade’s global model for excitatory neurons (a pretrained network that is available with the toolbox), I infered the spike rates. There is indeed some dispersion due to the difficulty to infer spike rates from noisy data. But the three bouts are very clearly visible.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img alt="" class="wp-image-6751" data-attachment-id="6751" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="noise2_2" data-large-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_2.png?w=640" data-medium-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_2.png?w=300" data-orig-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_2.png" data-orig-size="1336,569" data-permalink="https://gcamp6f.com/noise2_2/" height="204" src="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_2.png?w=1024" width="478" /></figure></div>
+
+
+
+<p>This is even more apparent when plotting the average spike rate across neurons:</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img alt="" class="wp-image-6757" data-attachment-id="6757" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="noise2_3-1" data-large-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_3-1.png?w=640" data-medium-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_3-1.png?w=300" data-orig-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_3-1.png" data-orig-size="1340,568" data-permalink="https://gcamp6f.com/noise2_3-1/" height="212" src="https://ptrrupprecht.files.wordpress.com/2021/02/noise2_3-1.png?w=1024" width="502" /></figure></div>
+
+
+
+<p>Therefore, it can be concluded that there are conditions and existing datasets where discrete activity bouts can be clearly distinguished from sequential activations based on spike rates inferred with Cascade.</p>
+
+
+
+<p>This analysis was performed on neurons at a standardized noise level of 2% Hz<sup>-1</sup> (see the <a href="https://www.biorxiv.org/content/10.1101/2020.08.31.272450v2">preprint </a>for a proper definition of the standardized noise level). This is a typical and very decent noise level for population calcium imaging. However, if we perform the same analysis on the same data set but with a relatively high noise level of 8% Hz<sup>-1</sup>, the resulting predictions are indeed much more dispersed, since the dF/F patterns are too noisy to make more precise predictions. The average spike rate still shows three peaks, but they are only riding on top of a more broadly distributed, seemingly persistent increase of the spike rate.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img alt="" class="wp-image-6758" data-attachment-id="6758" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="noise8-1" data-large-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise8-1.png?w=640" data-medium-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise8-1.png?w=224" data-orig-file="https://ptrrupprecht.files.wordpress.com/2021/02/noise8-1.png" data-orig-size="1317,1765" data-permalink="https://gcamp6f.com/noise8-1/" height="671" src="https://ptrrupprecht.files.wordpress.com/2021/02/noise8-1.png?w=764" width="502" /></figure></div>
+
+
+
+<p>If you want to play around with this analysis with different noise levels or different data sets, you do not need to install anything. You can just, within less than 5 minutes, run <a href="https://colab.research.google.com/github/PTRRupprecht/Calcium_imaging_and_temporal_dispersion/blob/main/Temporal_dispersion_of_activity_from_deconvolved_calcium_imaging.ipynb">this Colaboratory Notebook</a> in your browser and reproduce the above results.</p>
+                <p class="text-muted">in <a href="https://gcamp6f.com">Peter Rupprecht</a> on February 23, 2021 01:08 AM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/video-mars-nasa-perseverance-rover-landing-audio" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/video-mars-nasa-perseverance-rover-landing-audio" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/video-mars-nasa-perseverance-rover-landing-audio&title=Watch real video of Perseverance’s Mars landing" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://www.sciencenews.org/article/video-mars-nasa-perseverance-rover-landing-audio">Watch real video of Perseverance’s Mars landing</a></h4>
+
+<p>This is what it looks like to land on Mars.</p>
+
+
+
+<p>NASA’s Perseverance rover took this video on February 18 as a jetpack lowered it onto the Red Planet’s surface.</p>
+
+
+
+<p>“It gives me goosebumps every time I see it,” said engineer David Gruel of NASA’s Jet Propulsion Laboratory in Pasadena, Calif., at a news briefing on February 22.</p>
+
+
+
+<p>The movie begins with the rover’s parachute opening above it as the rover and its landing gear enter the Martian atmosphere. Seconds later, a camera on the rover’s underside shows the heat shield falling toward the ground. If you look carefully, you can see one of the springs that pushed the heat shield off the rover came loose, said NASA engineer Allen Chen, the rover’s entry, descent and landing lead.</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+
+</div>NASA’s Perseverance rover captured video of its own landing using a set of cameras on the back of the entry vehicle, the sky crane and the rover itself.</figure>
+
+
+
+<p>“There’s no danger to the spacecraft here, but it’s something we didn’t expect, and wouldn’t have seen” without the videos, he said.</p>
+
+
+
+
+
+<p>The rover filmed the ground coming closer and closer, getting glimpses of a river delta, craters, ripples and fractured terrain. Cameras on the top and bottom of the rover captured clouds of dust billowing as the rover’s jetpack, the sky crane, lowered it down to the ground on three cables. A camera on the sky crane showed the rover swinging slightly as it descended. Finally, the sky crane disconnected the cables and flew away, leaving Perseverance to begin its mission.</p>
+
+
+
+<p>“It’s hard to express how emotional it was and how exciting it was to everybody” to see the movie for the first time, said deputy project manager Matt Wallace. “Every time we got something, people were overjoyed, giddy. They were like kids in a candy store.”</p>
+
+
+
+<p>The movie looks so much like animations of the sky crane landing technique that NASA had released in the past that it almost doesn’t look real, says imaging scientist Justin Maki. “I can attest to, it’s real,” he says. “It’s stunning and it’s real.”</p>
+
+
+
+<div class="wp-block-sciencenews-content-sidebar alignright">
+<h3>Listen to the wind blow on Mars</h3>
+
+
+
+<p>Perseverance carries a microphone to record the sounds of the Martian surface. The first recording included a gust of wind. Rover engineers say they also hope to hear the wheels crunch as the rover drives.</p>
+
+
+
+<h4>Wind on Mars</h4>
+
+
+
+<figure class="wp-block-audio"><audio controls="controls" src="https://www.sciencenews.org/wp-content/uploads/2021/02/022220_lg_mars_wind.wav"></audio></figure>
+</div>
+
+
+
+<p>The rover also captured audio from the surface of the Red Planet for the first time, including a gust of Martian wind.</p>
+
+
+
+<p>Perseverance <a href="https://www.sciencenews.org/article/mars-how-watch-nasa-perseverance-lander-touch-down">landed in an ancient lakebed called Jezero crater</a>, about two kilometers from what looks like an ancient river delta feeding into the crater (<em>SN: 2/18/21</em>). The rover’s primary mission is to search for signs of past life and to cache rock samples for a future mission to return to Earth.</p>
+
+
+
+<p>The first images Perseverance sent back from Mars showed its wheels on a flat expanse. The ground is strewn with rocks that are shot through with holes, said deputy project scientist Katie Stack Morgan in a news briefing on February 19.</p>
+
+
+
+<p>“Depending on the origins of the rocks, these holes could mean different things,” she said. The science team thinks the holes could be from gases escaping volcanic rock as lava cooled, or from fluid moving through the rock and dissolving it away. “Both would be equally exciting for the team.”</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org">Science News</a> on February 22, 2021 09:54 PM.</p>
+              </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/first-human-genome-project-20th-anniversary-future" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/first-human-genome-project-20th-anniversary-future" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/first-human-genome-project-20th-anniversary-future&title=The first human genetic blueprint just turned 20. What’s next?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.sciencenews.org/article/first-human-genome-project-20th-anniversary-future">The first human genetic blueprint just turned 20. What’s next?</a></h4>
@@ -2290,67 +2414,6 @@ Eight journals have corrected a total of eleven papers after one of the authors 
 
 <p class="">Phantom limb is a condition in which someone who has lost a part of their body (e.g., due to amputation) continues to experience phantom sensations coming from the missing body part. In this video, I discuss some of the hypotheses that have been proposed to explain this strange phenomenon.</p><img alt="" height="1" src="http://feeds.feedburner.com/~r/neuroscientificallychallenged/neurochallenged/~4/afiLFUvxvA8" width="1" />
                 <p class="text-muted">in <a href="https://www.neuroscientificallychallenged.com/blog/">Neuroscientifically Challenged</a> on February 12, 2021 10:42 AM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/stonehenge-roots-wales-stone-circle-archaeology" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/stonehenge-roots-wales-stone-circle-archaeology" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/stonehenge-roots-wales-stone-circle-archaeology&title=Stonehenge may have had roots in a Welsh stone circle" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://www.sciencenews.org/article/stonehenge-roots-wales-stone-circle-archaeology">Stonehenge may have had roots in a Welsh stone circle</a></h4>
-
-<p>At an ancient site situated among the hills of western Wales, researchers suspect they have uncovered the remnants of a stone circle that contained initial building blocks of Stonehenge.</p>
-
-
-
-<p>Excavations of the site are in the early stages, but the stone circle was probably dismantled between 5,400 and 5,200 years ago, say University College London archaeologist Mike Parker Pearson and his colleagues. That’s roughly a few hundred years or less before work began at Stonehenge. People at the newly excavated site then perhaps moved about 280 kilometers to southern England, carrying with them stones that were used in <a href="https://www.sciencenews.org/article/herders-not-farmers-built-stonehenge">the first phase of building the iconic monument</a> (<em>SN: 9/6/12</em>), the investigators propose in the February <em>Antiquity</em>.</p>
-
-
-
-<p>Others, though, caution that more excavation needs to be done before clinching the case.</p>
-
-
-
-<p>The stone circle was found at site called Waun Mawn, which lies in the Preseli region of Wales. The site is near quarries previously identified as sources of smaller Stonehenge stones, known as bluestones. If Parker Pearson’s team is right, then ancient population movements out of Wales explain why bluestones at Stonehenge came from far away. Other Stonehenge stones, such as the iconic, massive boulders known as sarsen stones, came from local sources.</p>
-
-
-
-
-
-<p>In line with a migration scenario, large stone monuments and other signs of human activity in western Wales largely disappeared between around 5,000 to 4,000 years ago. “Maybe most of the people [in the Preseli region] migrated, taking their stones — their ancestral identities — with them,” Parker Pearson says. <a href="https://www.sciencenews.org/article/cremated-remains-reveal-hints-who-buried-stonehenge">Earlier analyses of chemical elements in cremated human remains at Stonehenge</a> indicated that a substantial number of those individuals had come from western Wales (<em>SN: 8/2/18</em>).</p>
-
-
-
-<p>The new report raises the possibility that a 900-year-old legend about Stonehenge being built from an older, distant stone circle contains a kernel of truth. Twelfth century English cleric Geoffrey of Monmouth wrote of the mythical wizard Merlin taking an army to Ireland to capture a magical stone circle that was rebuilt as Stonehenge to commemorate the deaths of Britons killed by Saxons.</p>
-
-
-
-<p>Ground surveys at Waun Mawn in 2011 failed to find evidence of a stone circle. But excavations at Waun Mawn in 2017 and 2018 revealed an arc of four former standing stones and six earthen holes from which standing stones had been removed. Those finds originally formed part of a circle of perhaps 30 to 50 standing stones, the researchers estimate. Dating of sediment layers and burned wood fragments provided an age estimate for the site.</p>
-
-
-
-<p>Several characteristics of Waun Mawn link it to Stonehenge, the scientists contend. First, two adjacent stone holes at Waun Mawn were arranged so that their stones formed an entryway that, when viewed from the center of the circle, faced the midsummer solstice sunrise. The same alignment characterizes Stonehenge.</p>
-
-
-
-<p>Second, one bluestone at Stonehenge features an unusual, five-sided cross section at its base that matches the shape and dimensions of an unearthed Waun Mawn stone hole. This Stonehenge bluestone potentially came from the Wales site, the researchers suggest.</p>
-
-
-
-<p>Third, the complete Waun Mawn stone circle had an estimated diameter of 110 meters, the same as the ditch that encircles Stonehenge.</p>
-
-
-
-<p>Waun Mawn could not have supplied all of the approximately 80 bluestones at Stonehenge and at a nearby site called Bluestonehenge. Parker Pearson suspects other, still-undiscovered stone circles in western Wales contributed to the construction of Stonehenge and Bluestonehenge.</p>
-
-
-
-<p>There’s reason to be skeptical about the new study, says archaeologist Timothy Darvill of Bournemouth University in Poole, England. “Whether the discoveries at Waun Mawn are really the remains of a stone circle needs further work, including more extensive excavations to sample a wider area,” he says.</p>
-
-
-
-<p>There are several problems with the new report, says Darvill. Known stone circles typically consist of evenly spaced stones, whereas the four stones discovered at Waun Mawn are irregularly spaced. Most large stone circles in western England and Wales have clearly defined entrances, but it’s not clear that the proposed entryway at Waun Mawn served that purpose. And some earthen sockets at the Welsh site might have been created by farmers clearing fields.</p>
-
-
-
-<p>While the final verdict on Waun Mawn is still out, prior evidence indicates that <a href="https://www.sciencenews.org/article/europe-neolithic-stone-monuments-origin-france">stones used to construct massive structures were transported and recycled in many parts of western Europe</a> around the time Stonehenge was assembled (<em>SN: 2/11/19</em>), says archaeologist Chris Scarre of Durham University in England.</p>
-                <p class="text-muted">in <a href="https://www.sciencenews.org">Science News</a> on February 12, 2021 12:01 AM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://malinsandstrom.blog/2021/02/11/lansering-av-nya-horisont-europa-10-2/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://malinsandstrom.blog/2021/02/11/lansering-av-nya-horisont-europa-10-2/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://malinsandstrom.blog/2021/02/11/lansering-av-nya-horisont-europa-10-2/&title=Lansering av nya Horisont Europa (10/2)" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -4632,13 +4695,6 @@ Moshe Szyf and Shafat Rabbani of McGill University in Canada accomplished this t
 <figure class="wp-caption alignnone" id="attachment_12236" style="width: 534px;"><img alt="" class="wp-image-12236" height="393" src="http://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2021/01/dds-300x225.jpg" width="524" /><div class="attachment-image--caption">Figure 2: Breech presentation: not only a debate surrounding the mode of delivery</div><div class="attachment-image--source"></div></figure>
 <p>The post <a href="http://blogs.biomedcentral.com/bmcseriesblog/2021/01/12/revisiting-the-management-of-term-breech-presentation-overcoming-controversy/" rel="nofollow">Revisiting the management of term breech presentation: overcoming controversy</a> appeared first on <a href="http://blogs.biomedcentral.com/bmcseriesblog" rel="nofollow">BMC Series blog</a>.</p>
                 <p class="text-muted">in <a href="http://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on January 12, 2021 02:30 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.elsevier.com/connect/they-took-a-daring-approach-to-reteaming-see-what-happened" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.elsevier.com/connect/they-took-a-daring-approach-to-reteaming-see-what-happened" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.elsevier.com/connect/they-took-a-daring-approach-to-reteaming-see-what-happened&title=They took a daring approach to reteaming — see what happened" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://www.elsevier.com/connect/they-took-a-daring-approach-to-reteaming-see-what-happened">They took a daring approach to reteaming — see what happened</a></h4>
-
-When their team decided to restructure, Elsevier colleagues got to choose their own positions in a unique virtual event
-                <p class="text-muted">in <a href="">Elsevier Connect</a> on January 12, 2021 02:06 PM.</p>
               </li>
           </ul>
         </div>
