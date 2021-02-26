@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:ocns.github.io,2021-02-26:/SoftwareWG/2021/02/26/dev-session-james-knight-thomas-nowotny-genn.html" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096823" />
+			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41484" />
+			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=856" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096808" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:6027aaa1439f7e79af5d6781" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096636" />
@@ -61,7 +65,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096521" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121570" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096542" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096525" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=56276" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41397" />
 			<rdf:li rdf:resource="tag:ocns.github.io,2021-02-12:/SoftwareWG/2021/02/12/dev-session-caglar-cakan-neurolib.html" />
@@ -149,7 +152,6 @@
 			<rdf:li rdf:resource="https://www.discovermagazine.com/the-sciences/are-effect-sizes-in-psychology-meaningless" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/brain-stimulations-complex-emotional-effects" />
 			<rdf:li rdf:resource="http://brainupdate.nih.gov/?p=2988" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41257" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-1649547679049089866" />
 			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/02eeaa7e-463a-4fd7-b729-7585d1784aaa" />
 			<rdf:li rdf:resource="http://romainbrette.fr/?p=1775" />
@@ -163,12 +165,313 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/report-health-ai-index-for-china" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/without-data-there-is-no-research-cardiologist-on-why-data-sharing-matters" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=55413" />
-			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18626" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=55351" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:ocns.github.io,2021-02-26:/SoftwareWG/2021/02/26/dev-session-james-knight-thomas-nowotny-genn.html">
+	<title>INCF/OCNS Software Working Group: Dev session: James Knight, Thomas Nowotny: GeNN</title>
+	<link>https://ocns.github.io/SoftwareWG/2021/02/26/dev-session-james-knight-thomas-nowotny-genn.html</link>
+	<content:encoded>&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://www.sussex.ac.uk/profiles/415734&quot;&gt;James Knight&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://www.sussex.ac.uk/profiles/206151&quot;&gt;Thomas Nowotny&lt;/a&gt; will introduce the &lt;a class=&quot;reference external&quot; href=&quot;http://genn-team.github.io/genn/&quot;&gt;GeNN&lt;/a&gt; simulation environment and discuss its development in this dev session.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Date: March 9, 2021, 1700 &lt;span class=&quot;caps&quot;&gt;UTC&lt;/span&gt; (Click &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=Dev+session%3A+James+Knight%2CThomas+Nowotny%3A+GeNN&amp;amp;iso=20210309T17&amp;amp;p1=136&amp;amp;ah=1&quot;&gt;here&lt;/a&gt; to see your local time).&lt;/li&gt;
+&lt;li&gt;Location (Zoom): &lt;a class=&quot;reference external&quot; href=&quot;https://universityofsussex.zoom.us/j/97956408800?pwd=by9yVnhCZTJlenY0bVI4OEc5QWVFQT09&quot;&gt;https://universityofsussex.zoom.us/j/97956408800?pwd=by9yVnhCZTJlenY0bVI4OEc5QWVFQT09&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The abstract for the talk is below:&lt;/p&gt;
+&lt;p&gt;Large-scale numerical simulations of brain circuit models are important for identifying hypotheses on brain functions and testing their consistency and plausibility.
+Similarly, spiking neural networks are also gaining traction in machine learning with the promise that neuromorphic hardware will eventually make them much more energy efficient than classical ANNs.
+In this dev session, we will present the &lt;a class=&quot;reference external&quot; href=&quot;http://genn-team.github.io/genn/&quot;&gt;GeNN&lt;/a&gt; (&lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt;-enhanced Neuronal Networks) framework [1], which aims to facilitate the use of graphics accelerators for computational models of large-scale spiking neuronal networks to address the challenge of efficient simulations.
+&lt;a class=&quot;reference external&quot; href=&quot;http://genn-team.github.io/genn/&quot;&gt;GeNN&lt;/a&gt; is an open source library that generates code to accelerate the execution of network simulations on &lt;span class=&quot;caps&quot;&gt;NVIDIA&lt;/span&gt; GPUs through a flexible and extensible interface, which does not require in-depth technical knowledge from the users.
+&lt;a class=&quot;reference external&quot; href=&quot;http://genn-team.github.io/genn/&quot;&gt;GeNN&lt;/a&gt; was originally developed as a pure C++ and &lt;a class=&quot;reference external&quot; href=&quot;https://www.nvidia.com/en-gb/geforce/technologies/cuda/&quot;&gt;&lt;span class=&quot;caps&quot;&gt;CUDA&lt;/span&gt;&lt;/a&gt; library but, subsequently, we have added a Python interface and &lt;a class=&quot;reference external&quot; href=&quot;https://www.khronos.org/opencl/&quot;&gt;OpenCL&lt;/a&gt; backend.
+The Python interface has enabled us to develop a &lt;a class=&quot;reference external&quot; href=&quot;http://neuralensemble.org/PyNN/&quot;&gt;PyNN&lt;/a&gt; [2] frontend and we are also working on a Keras-inspired frontend for spike-based machine learning [3].&lt;/p&gt;
+&lt;p&gt;In the session we will briefly cover the history and basic philosophy of &lt;a class=&quot;reference external&quot; href=&quot;http://genn-team.github.io/genn/&quot;&gt;GeNN&lt;/a&gt; and show some simple examples of how it is used and how it works inside.
+We will then talk in more depth about its development with a focus on testing for &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; dependent software and some of the further developments such as Brian2GeNN [4].&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;[1] &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/genn-team/genn&quot;&gt;https://github.com/genn-team/genn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[2] &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/genn-team/pynn_genn&quot;&gt;https://github.com/genn-team/pynn_genn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[3] &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/genn-team/ml_genn&quot;&gt;https://github.com/genn-team/ml_genn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[4] &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/brian-team/brian2genn&quot;&gt;https://github.com/brian-team/brian2genn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+	<dc:date>2021-02-26T18:33:55+00:00</dc:date>
+	<dc:creator>Ankur Sinha</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3096823">
+	<title>Science News: Global inequity in COVID-19 vaccination is more than a moral problem</title>
+	<link>https://www.sciencenews.org/article/covid-19-global-inequity-vaccines-deaths-economy-pandemic</link>
+	<content:encoded>&lt;p&gt;Months before the first COVID-19 vaccine was even approved, wealthy nations scrambled to secure hundreds of millions of advance doses for their citizens. By the end of 2020, Canada bought up 338 million doses, enough to &lt;a href=&quot;https://launchandscalefaster.org/COVID-19&quot;&gt;inoculate their population four times over&lt;/a&gt;. The United Kingdom snagged enough to cover a population three times its size. The United States reserved over 1.2 billion doses, and has already vaccinated about 14 percent of its residents.&lt;/p&gt;
+
+
+
+&lt;p&gt;It’s a drastically different story for less wealthy nations. More than 200 have yet to administer a single dose. Only 55 doses in total have been delivered among the 29 lowest-income countries, all in Guinea. Only a few sub-Saharan African countries have begun systematic immunization programs.&lt;/p&gt;
+
+
+
+&lt;p&gt;“The world is on the brink of a catastrophic moral failure, and the price of this failure will be paid with the lives and livelihoods in the world’s poorest countries,” Tedros Adhanom Ghebreyesus, director of the World Health Organization &lt;a href=&quot;https://www.who.int/director-general/speeches/detail/who-director-general-s-opening-remarks-at-148th-session-of-the-executive-board&quot;&gt;recently said&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;https://www.gavi.org/vaccineswork/covax-explained&quot;&gt;COVAX&lt;/a&gt;, an international initiative tasked with ensuring more equitable access to COVID-19 vaccines, aims to redress this imbalance by securing deals that send shots to low-income countries free of charge. Despite &lt;a href=&quot;https://www.who.int/news/item/19-02-2021-g7-leaders-commit-us-4.3-billion-to-finance-global-equitable-access-to-tests-treatments-and-vaccines-in-2021&quot;&gt;new pledges of support&lt;/a&gt; from some of the wealthiest nations, COVAX is off to a slow start. Its first shipment of 600,000 shots was sent February 24, to Ghana. COVAX still needs nearly $23 billion to meet its goal of vaccinating 20 percent of participating countries by the end of the year.&lt;/p&gt;
+
+
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
+
+
+
+&lt;p&gt;Such stark inequities don’t just raise moral questions of fairness. With vaccine demand still vastly outstripping supply, lopsided distribution could also ultimately prolong the pandemic, fuel the evolution of new, potentially vaccine-evading variants, and drag down the economies of rich and poor — and vaccinated and unvaccinated — nations alike.&lt;/p&gt;
+
+
+
+&lt;p&gt;“I think the leaders of rich nations have done a very poor job explaining to their citizens why it’s so important that vaccines are distributed worldwide and not just within their own nation,” says Gavin Yamey, a global public health policy expert at Duke University. “No one is safe until all of us are safe, since an outbreak anywhere can become an outbreak everywhere.”&lt;/p&gt;
+
+
+
+&lt;h4&gt;Vaccine inequity could breed vaccine-evading variants&lt;/h4&gt;
+
+
+
+&lt;p&gt;Here’s why a new coronavirus outbreak anywhere can become an outbreak everywhere: Viruses mutate.&lt;/p&gt;
+
+
+
+&lt;p&gt;It’s normal and happens by chance as a virus replicates inside a host. Most mutations are harmless, or hurt the virus itself. But every so often, a tiny genetic tweak makes the virus better at infecting hosts or dodging their immune response. The more a virus spreads, the more opportunity that one (or more likely a handful) of these tweaks could birth a new, more threatening strain.&lt;/p&gt;
+
+
+
+&lt;p&gt;This is already happening. In December, scientists detected a new variant, dubbed B.1.1.7 in the United Kingdom. It soon became clear that it had acquired mutations that &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-uk-variant-more-contagious-us-dominant-strain&quot;&gt;made it more infectious&lt;/a&gt; (&lt;em&gt;SN: 1/27/21&lt;/em&gt;). In just a few months, that variant has circled the globe, popping up in more than 70 countries, including the United States.&lt;/p&gt;
+
+
+
+&lt;p&gt;Another variant first detected in South Africa is also more transmissible — and appears to &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-vaccines-coronavirus-variants-challenges&quot;&gt;be slightly less affected by existing vaccines&lt;/a&gt; (&lt;em&gt;SN: 1/27/21&lt;/em&gt;). It too has spread worldwide. Variants detected in California and New York are now raising concern too. As long as widespread viral transmission continues, new variants will emerge.&lt;/p&gt;
+
+
+
+&lt;p&gt;“It’s uncertain at this point whether we’re going to have to continually chase this virus and develop more vaccines,” says William Moss, the executive director of the International Vaccine Access Center at Johns Hopkins Bloomberg School of Public Health.&lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
+&lt;h4&gt;
+&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
+&lt;/h4&gt;
+&lt;/aside&gt;
+
+
+
+&lt;p&gt;The more the virus replicates, the more opportunity it has to evolve around existing vaccines or natural immune responses to older variants, Moss says. Large pockets of unvaccinated people can serve as incubators for new variants. The longer such pockets persist, the greater the chance of variants accumulating changes that make them more and more resistant to vaccines. Eventually, such variants might invade well-vaccinated countries that thought themselves safe.&lt;/p&gt;
+
+
+
+&lt;p&gt;Barely vaccinated populations might be especially fertile grounds for vaccine-evading variants, says Abraar Karan, an internal medicine physician at Harvard Medical School and Brigham Women’s Hospital in Boston. In a vaccinated individual, mutations that even slightly evade that induced immune response can get a foothold. Unless that variant completely evades vaccines, which is unlikely, its spread will be blunted by a well-vaccinated population. But if most of a region remains totally naïve to infection, that new variant could burn quickly through the largely unvaccinated population, fueling the changed virus’ spread to other regions.&lt;/p&gt;
+
+
+
+&lt;p&gt;In Israel, where cases have fallen after more than 40 percent of the population has received at least one vaccine dose, the health ministry has reported at least &lt;a href=&quot;https://www.gov.il/en/departments/news/14022021-02&quot;&gt;three cases of reinfection&lt;/a&gt; by the South African variant in non-vaccinated people. That’s a very small sample, but indicative of the threat posed by uneven vaccination rates globally.&lt;/p&gt;
+
+
+
+&lt;p&gt;“If we want to stop the spread we have to stop it everywhere, starting with the most vulnerable,” Karan says. “Otherwise we’re going to see continued outbreaks and suffering.”&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;temporary closed sign in a store window&quot; class=&quot;wp-image-3096825&quot; height=&quot;450&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/02/022521_jl_vaccine-inequity_inline1-800x450.jpg&quot; width=&quot;800&quot; /&gt;&lt;span class=&quot;caption wp-caption-3096825&quot;&gt;In areas where coronavirus transmission spikes, restrictions on businesses may be imposed to curb spread. Because international demand drives the global economy, shutdowns like these will slow overall recovery, experts say.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3096825&quot;&gt;Ian Forsyth/Getty Images&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;h4&gt;“No economy is an island”&lt;/h4&gt;
+
+
+
+&lt;p&gt;Protecting people from getting sick is obviously a big driver of the rush to vaccinate in wealthy nations, many of which have been hit hard by the virus. Vaccines are also seen as a way out of the largest global economic downturn since World War II, &lt;a href=&quot;https://www.imf.org/en/Publications/WEO/Issues/2020/09/30/world-economic-outlook-october-2020.&quot;&gt;roughly a 4.4 percent dip&lt;/a&gt;. But an inequitable distribution of vaccines could imperil a robust and quick recovery, experts say.&lt;/p&gt;
+
+
+
+&lt;p&gt;If extended outbreaks, lockdowns, sickness and deaths continue in countries with less access to vaccines, all economies will suffer, says Selva Demiralp, an economist at Koç University in Istanbul. “No economy is an island,” she says, “and no economy will be fully recovered unless others are recovered, too.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Extreme vaccine inequity could cost the global economy more than $9 trillion dollars in 2021, &lt;a href=&quot;https://www.nber.org/papers/w28395&quot;&gt;about half of which would come from rich nations&lt;/a&gt;, Demiralp and her colleagues reported January 25 in a paper published by the National Bureau of Economic Research. In that scenario, wealthy nations largely vaccinate their populations by midyear, but leave poorer nations out completely.&lt;/p&gt;
+
+
+
+&lt;p&gt;Everybody takes a hit thanks to the interconnectedness of the global economy. The production process to build a Volkswagen or iPhone, for instance, spans continents. Disruptions to one link of that supply chain, say steel manufacturing in Turkey, ripple throughout. Today’s marketplace is global, too: Diminished demand for goods in countries saddled with coronavirus restrictions will affect the bottom line of companies headquartered in wealthy nations. “As infections rise in a country, both supply and demand can decrease,” Demiralp says. &lt;/p&gt;
+
+
+
+&lt;p&gt;She and her colleagues estimated these virus-induced fluctuations in supply and demand by combining a statistical model of how coronavirus spreads with vast amounts of economic data across 35 sectors in 65 countries. By tweaking the pace and extent of vaccination, the team estimated total costs to each country under different scenarios. The $9 trillion number represents extreme inequity. But less extreme gaps are still very expensive. &lt;/p&gt;
+
+
+
+&lt;p&gt;If rich countries vaccinate their entire populations in four months, while the lowest-income countries vaccinate half their population by the end of 2021, global gross domestic product this year will fall by between $1.8 and $3.8 trillion, with rich countries losing about half of that, the team calculated. &lt;/p&gt;
+
+
+
+&lt;p&gt;Those costs could be averted with a much smaller investment, on the order of tens to hundreds of billions of dollars, in distributing vaccines globally. “It’s a no brainer,” Demiralp says. “It’s not an act of charity. It’s economic rationality.”&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar&quot;&gt;
+&lt;h3&gt;Unequal distribution&lt;/h3&gt;
+
+
+
+&lt;p&gt;To date, high-income countries have purchased many more vaccine doses than less wealthy countries. Duke Global Health Innovation Center &lt;a href=&quot;https://launchandscalefaster.org/COVID-19&quot;&gt;collated purchase data&lt;/a&gt; from countries in each World Bank income grouping, though not all countries in each income grouping were included in the analysis. The purchased doses are compared with the total population of countries included in each income grouping.&lt;/p&gt;
+
+
+
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;COVID-19 vaccine doses purchased by countries, grouped by income&lt;/h6&gt;
+
+
+
+&lt;div class=&quot;image-desktop&quot;&gt;&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;bar chart of COVID-19 vaccine doses purchased by countries by income level&quot; class=&quot;wp-image-3096827&quot; height=&quot;547&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/02/022621_jl_vaccine-inequity_inline2_desktop.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3096827&quot;&gt;E. Otwell&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&quot;image-mobile&quot;&gt;&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;bar chart of COVID-19 vaccine doses purchased by countries by income level&quot; class=&quot;wp-image-3096826&quot; height=&quot;658&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/02/022621_jl_vaccine-inequity_inline2_mobile.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3096826&quot;&gt;E. Otwell&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;div style=&quot;line-height: 12px; font-size: 10px; height: auto; text-align: right;&quot;&gt;Source: Duke Global Health Innovation Center, World Bank&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;h4&gt;Evening the playing field&lt;/h4&gt;
+
+
+
+&lt;p&gt;COVAX is trying to even the vaccine playing field — but with limited success so far. There are a lot of hurdles, from securing scarce doses to ensuring that countries have the infrastructure to handle them. That could mean equipping some countries with more &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-19-why-vaccines-cold-freeze-pfizer-moderna&quot;&gt;ultracold refrigerators to store vaccines&lt;/a&gt; (&lt;em&gt;SN: 11/20/20&lt;/em&gt;) to revamping mass vaccination programs designed for kids to work for adults too. “Equitable distribution will take a lot more than just securing vaccines,” says Angela Shen, a public health expert at Children’s Hospital of Philadelphia’s Vaccine Education Center.&lt;/p&gt;
+
+
+
+&lt;p&gt;Three global public health powerhouses lead the international initiative: the Global Alliance for Vaccines and Immunization, the World Health Organization and the Coalition for Epidemic Preparedness Innovations. COVAX uses funds from governments and charitable organizations to buy up doses from pharmaceutical companies and distribute them to lower-income countries free of charge.&lt;/p&gt;
+
+
+
+&lt;p&gt;For starters, COVAX plans to distribute 330 million doses to lower-income countries in the first half of the year, enough to vaccinate, on average, 3.3 percent of each population. Meanwhile, by June many rich nations will be well on their way to vaccinating most of their populations.&lt;/p&gt;
+
+
+
+&lt;p&gt;All told, COVAX says it’s reserved 2.27 billion doses so far, enough to vaccinate &lt;a href=&quot;https://www.gavi.org/news/media-room/covax-publishes-first-interim-distribution-forecast&quot;&gt;20 percent of the population&lt;/a&gt;s of 92 low-income countries by year’s end. Actually meeting that goal is contingent on raising $37 billion dollars, and COVAX is not even halfway there yet. On February 19, several countries including the United States and Germany pledged to contribute &lt;a href=&quot;https://www.who.int/news/item/19-02-2021-g7-leaders-commit-us-4.3-billion-to-finance-global-equitable-access-to-tests-treatments-and-vaccines-in-2021&quot;&gt;an additional $4.3 billion&lt;/a&gt; to the effort. Still, COVAX is nearly $23 billion short.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Money is not the only challenge we face,” WHO’s Ghebreyesus said in a &lt;a href=&quot;https://www.who.int/director-general/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19-22-february-2021&quot;&gt;Feb. 22 news briefing&lt;/a&gt;. Deals between wealthy nations and pharmaceutical companies threaten to gobble up global vaccine supply, reducing COVAX’s access. “If there are no vaccines to buy, money is irrelevant.”&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;People getting vaccinated, in any country, is something to be celebrated, says Yamey, of Duke University, “but it should disturb us to know that low-risk people are going to get vaccinated in rich countries well ahead of high-risk people in poor countries.” A more equitable rollout, Yamey says, would prioritize healthcare workers and vulnerable people in all countries. “I don’t see that happening in any scenario unfortunately.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Even if COVAX achieves its goal this year, these countries will be far from reaching herd immunity, the threshold at which enough people are immune to a pathogen to &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-when-will-coronavirus-pandemic-social-distancing-end&quot;&gt;slow its spread&lt;/a&gt; (&lt;em&gt;SN: 3/24/20&lt;/em&gt;). Estimates to reach that herd immunity range from 60 to 90 percent of a population.&lt;/p&gt;
+
+
+
+&lt;p&gt;“Many low-income nations won’t have widespread vaccination until 2023 or 2024, because they can’t get the doses,” Yamey says. “This inequity is due to hoarding of doses by rich nations, and that me-first, me-only approach ultimately goes against their long-term interests.”&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-26T16:50:34+00:00</dc:date>
+	<dc:creator>Jonathan Lambert</dc:creator>
+</item>
+<item rdf:about="http://digest.bps.org.uk/?p=41484">
+	<title>The British Psychological Society - Research Digest: Phone Fears And Dolphin Directions: The Week’s Best Psychology Links</title>
+	<link>https://digest.bps.org.uk/2021/02/26/phone-fears-and-dolphin-directions-the-weeks-best-psychology-links/</link>
+	<content:encoded>&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignleft size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-37971&quot; data-attachment-id=&quot;37971&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;NIKON D800&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;@alubalish (@alubalish (Photographer) - [None]&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Keyboard for idea&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg&quot; data-orig-size=&quot;2122,1413&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/09/27/trump-tweets-and-cat-attachment-the-weeks-best-psychology-links/keyboard-for-idea/&quot; height=&quot;219&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=845&quot; width=&quot;330&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;Our weekly round-up of the best psychology coverage from elsewhere on the web&lt;/em&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;In 2001, Air Transat Flight 236 lost engine power and made an emergency landing in the Azores. All passengers survived, but for 30 terrifying minutes, many thought they were going to die. &lt;/strong&gt;&lt;a href=&quot;https://www.wired.com/story/remember-disaster-without-being-shattered-ptsd-covid/?utm_source=twitter&amp;amp;mbid=social_twitter&amp;amp;utm_brand=wired&amp;amp;utm_social-type=owned&amp;amp;utm_medium=social&quot;&gt;Writing for &lt;em&gt;Wired&lt;/em&gt;, Erika Hayasaki has the fascinating story&lt;/a&gt; of one of those passengers, Margaret McKinnon, a psychologist who then went on to study why some survivors developed PTSD and others did not — and who is now looking at the mental health of frontline workers during the pandemic.  &lt;/p&gt;
+
+
+
+&lt;span id=&quot;more-41484&quot;&gt;&lt;/span&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Although we often think of mental health disorders as falling neatly into discrete categories — “depression”, say — the reality is that they can present quite differently in different people.&lt;/strong&gt; So could treatments like brain stimulation be personalised to individuals? &lt;a href=&quot;https://www.nytimes.com/2021/02/24/magazine/brain-stimulation-mental-health.html&quot;&gt;Kim Tingley takes a look&lt;/a&gt; at &lt;em&gt;The New York Times&lt;/em&gt;.   &lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Many of us experience a feeling of dread when the phone rings — or when we have to make a call.&lt;/strong&gt; At &lt;em&gt;The Conversation&lt;/em&gt;, &lt;a href=&quot;https://theconversation.com/phone-call-anxiety-why-so-many-of-us-have-it-and-how-to-get-over-it-155798&quot;&gt;Ilham Sebah explains&lt;/a&gt; why we experience phone anxiety, and what we can do to get over it. (And, as we reported last year, &lt;a href=&quot;https://digest.bps.org.uk/2020/10/08/phone-calls-help-create-closer-bonds-than-texting/&quot;&gt;you may actually get more out of phone calls than you expect&lt;/a&gt;).&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Undark&lt;/em&gt; &lt;a href=&quot;https://undark.org/2021/02/26/podcast-53-psychedelic-drugs-mental-health/&quot;&gt;has a nice podcast&lt;/a&gt; this week about the hope — and hype — surrounding the use of psychedelics as antidepressants. &lt;/strong&gt;It’s a great place to start for a balanced overview of where the field is at.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;We reported earlier this week on the &lt;a href=&quot;https://digest.bps.org.uk/2021/02/24/dolphins-personality-traits-are-surprisingly-similar-to-our-own/&quot;&gt;similarities between dolphin and human personalities&lt;/a&gt; — but do dolphins also have “handedness” like humans? &lt;/strong&gt;Past work had suggested that the aquatic mammals showed behavioural asymmetries in their movements, preferring to spin rightward. But a new study casts doubt on those findings, &lt;a href=&quot;https://www.scientificamerican.com/article/are-dolphins-right-handed-or-left-handed/&quot;&gt;writes researcher Kelly Jaakkola&lt;/a&gt; at &lt;em&gt;Scientific American&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;“Mini-brains” — brain organoids grown from stem cells in the lab — are used to study the development of the human brain, though they are far more primitive than real brains. &lt;/strong&gt;But researchers have reported a surprising finding: after around 9 months, even these basic organoids show changes in gene expression similar to that in human babies after birth. The results suggest that mini-brains may be useful for studying disorders that emerge after birth, rather than just prenatally, &lt;a href=&quot;https://www.sciencemag.org/news/2021/02/brain-cell-clusters-grown-lab-more-year-mirror-changes-newborn-s-brain&quot;&gt;reports Kelly Servick&lt;/a&gt; at &lt;em&gt;Science&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;hr class=&quot;wp-block-separator&quot; /&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;A lot of human neuroscience is about finding a signal in all of the background noise — identifying which regions are more active during a certain task, say, while ignoring the other activity that is going on in the brain.&lt;/strong&gt; But what if there is useful information in all of that noise? At &lt;em&gt;Wired&lt;/em&gt;, &lt;a href=&quot;https://www.wired.com/story/the-brains-background-noise-may-be-meaningful-after-all/&quot;&gt;Elizabeth Landau reports on studies&lt;/a&gt; that have linked patterns of white noise within EEG data to aspects of behaviour and cognition.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Compiled by Matthew Warren (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;&lt;strong&gt;@MattBWarren&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;), Editor of &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-26T16:00:04+00:00</dc:date>
+	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="https://blogs.cornell.edu/arxiv/?p=856">
+	<title>arXiv.org blog: Why arXiv needs a brand</title>
+	<link>https://blog.arxiv.org/2021/02/26/why-arxiv-needs-a-brand/</link>
+	<content:encoded>&lt;p&gt;&lt;strong&gt;Pop quiz: There are so many “-Xivs” online and on social media.  Which ones are operated by arXiv?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer: only &lt;a href=&quot;https://arxiv.org/&quot;&gt;arXiv.org&lt;/a&gt; and &lt;/strong&gt;&lt;a href=&quot;https://twitter.com/arxiv&quot;&gt;&lt;strong&gt;@arXiv&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;arXiv is a highly valued tool known primarily through its digital presence. However, the use of arXiv’s name by other services has led to confusion. And despite decades of reliable service, arXiv’s inconsistent visuals and voice have projected an air of neglect. This jeopardizes our ability to raise funds for critical improvements.&lt;/p&gt;
+&lt;p&gt;“As the role of arXiv in open science becomes more evident, its value should be made obvious lest we end up losing the system we cherish and rely upon so much,” said Alberto Accomazzi, PhD, ADS Program Manager.&lt;/p&gt;
+&lt;p&gt;In 2020, Accomazzi joined nine other diverse community members to become part of an advisory group formed to support arXiv’s communications and identity project. The goal? To ensure that the way we present ourselves to the world reflects arXiv’s true nature as a professional, innovative tool created by and for researchers.&lt;/p&gt;
+&lt;p&gt;Throughout the identity project, we:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;assessed user feedback collected since 2016,&lt;/li&gt;
+&lt;li&gt;surveyed board members and 7,000 additional users about their perceptions of arXiv,&lt;/li&gt;
+&lt;li&gt;gathered ten diverse community members to serve as advisors,&lt;/li&gt;
+&lt;li&gt;contracted with a professional designer to produce a logo, and&lt;/li&gt;
+&lt;li&gt;are working with an accessibility consultant to address the needs of all arXiv readers and authors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To guide our branding efforts we focused on &lt;b&gt;arXiv as a place of connection, linking together people and ideas, and connecting them with the world of open science&lt;/b&gt;. After many rounds of revision and refinement, &lt;a href=&quot;https://static.arxiv.org/static/arxiv.marxdown/0.1/about/arXiv_Brand_Guide_2021.pdf&quot;&gt;arXiv’s first brand guide&lt;/a&gt; was produced, in addition to our new logo and &lt;a href=&quot;https://static.arxiv.org/static/arxiv.marxdown/0.1/about/arXiv_Brand_Usage_2021.pdf&quot;&gt;usage guidelines&lt;/a&gt;, and we’d like to share them with you now.&lt;/p&gt;
+&lt;figure class=&quot;wp-caption alignright&quot; id=&quot;attachment_948&quot; style=&quot;width: 300px;&quot;&gt;&lt;a href=&quot;https://blog.arxiv.org/files/2021/02/arxiv-logo-1.png&quot;&gt;&lt;img alt=&quot;arXiv's logo&quot; class=&quot;wp-image-948 size-medium&quot; src=&quot;https://blog.arxiv.org/files/2021/02/arxiv-logo-1-300x135.png&quot; style=&quot;margin-left: 20px; margin-right: 20px; margin-top: 10px;&quot; width=&quot;260&quot; /&gt;&lt;/a&gt;The intertwining arms at the heart of the logo represent arXiv as a place of connection&lt;/figure&gt;
+&lt;p&gt;The arXiv logo looks to the future and nods to the past with a font that pays homage to arXiv’s birth in the 90’s while also being forward looking. The arms of the ‘X’ retain stylistic elements of the ‘chi’ in our name, with a lengthened top left and lower right branch. Symbolically, &lt;strong&gt;the intertwining of the arms at the heart of the logo&lt;/strong&gt; captures the spirit of arXiv’s core value. arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://static.arxiv.org/static/arxiv.marxdown/0.1/about/arXiv_Brand_Guide_2021.pdf&quot;&gt;brand guide&lt;/a&gt; and &lt;a href=&quot;https://static.arxiv.org/static/arxiv.marxdown/0.1/about/arXiv_Brand_Usage_2021.pdf&quot;&gt;usage guidelines&lt;/a&gt; ensure that we express arXiv’s identity with consistent quality and continuity across communication channels. By strengthening our identity in this way, arXiv will be recognizable and distinct from other services. Staff will save time by having access to clear, consistent guidelines, visual assets, and style sheets, and collaborators will know the expectations regarding arXiv logo usage.&lt;/p&gt;
+&lt;p&gt;The arXiv community will notice that the main arXiv.org site remains the same at this time. That’s because the identity rollout and implementation process will be gradual, starting with official documents before moving to core arXiv services.&lt;/p&gt;
+&lt;p&gt;“arXiv must take control of its identity to maintain its place and grow within the scholarly communications ecosystem,” said arXiv’s executive director Eleonora Presani, PhD.&lt;/p&gt;</content:encoded>
+	<dc:date>2021-02-26T15:55:20+00:00</dc:date>
+	<dc:creator>ame5</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3096808">
 	<title>Science News: Can a COVID-19 vaccine’s second dose be delayed? It’s complicated</title>
 	<link>https://www.sciencenews.org/article/coronavirus-covid-19-vaccines-second-dose-delay-complicated</link>
@@ -2454,51 +2757,6 @@ of R genes and pathogenicity determinants will also be discussed.&lt;/p&gt;
 &lt;p&gt;What long-term environmental havoc may have been wreaked by much longer reversal events recorded in ancient rocks, such the 20,000-year-long Brunhes-Matuyama reversal that began 781,000 years ago, is an even more tantalizing question, Cooper says. “The impacts may have been enormous.”&lt;/p&gt;</content:encoded>
 	<dc:date>2021-02-18T20:02:25+00:00</dc:date>
 	<dc:creator>Carolyn Gramling</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3096525">
-	<title>Science News: The first black hole ever discovered is more massive than previously thought</title>
-	<link>https://www.sciencenews.org/article/first-black-hole-discovery-cygnus-massive</link>
-	<content:encoded>&lt;p&gt;The first black hole ever discovered still has a few surprises in store.&lt;/p&gt;
-
-
-
-&lt;p&gt;New observations of the black hole–star pair called Cygnus X-1 indicate that the black hole weighs about 21 times as much as the sun — nearly 1.5 times heavier than past estimates. The updated mass has astronomers rethinking how some black hole–forming stars evolve. For a star-sized, or stellar, black hole that massive to exist in the Milky Way, its parent star must have shed less mass through stellar winds than expected, researchers report online February 18 in &lt;em&gt;Science&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;Knowing how much mass stars lose through stellar winds over their lifetimes is important for understanding how these stars enrich their surroundings with heavy elements. It’s also key to understanding the masses and compositions of those stars when they explode and leave behind black holes.&lt;/p&gt;
-
-
-
-&lt;p&gt;The updated mass measurement of Cygnus X-1 is “a big change to an old favorite,” says Tana Joseph, an astronomer at the University of Amsterdam not involved in the work. Stephen Hawking &lt;a href=&quot;https://www.sciencenews.org/article/history-black-holes-science-news&quot;&gt;famously bet&lt;/a&gt; physicist Kip Thorne that the Cygnus X-1 system, discovered in 1964, did not include a black hole — and conceded the wager in 1990, when scientists had broadly accepted that Cygnus X-1 contained the first known black hole in the universe (&lt;em&gt;SN: 4/10/19&lt;/em&gt;).&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Astronomers got a new look at Cygnus X-1 using the Very Long Baseline Array, or VLBA. This network of 10 radio dishes stretches across the United States, from Hawaii to the Virgin Islands, collectively forming a continent-sized radio dish. In 2016, the VLBA tracked radio-bright jets of material spewing out of Cygnus X-1’s black hole for six days (the time it took for the black hole and its companion star to orbit each other once). Those observations offered a clear view of how the black hole’s position in space shifted over the course of its orbit. That, in turn, helped researchers refine the estimated distance to Cygnus X-1.&lt;/p&gt;
-
-
-
-&lt;p&gt;The new observations suggest that Cygnus X-1 is about 7,200 light-years from Earth, rather than the previous estimate of about 6,000 light-years. This implies that the star in Cygnus X-1 is even brighter, and therefore bigger, than astronomers thought. The star weighs about 40.6 suns, the researchers estimate. The black hole must also be more massive in order to explain its gravitational tug on such a massive star. The black hole weighs about 21.2 suns — much heftier than its previously estimated 14.8 solar masses, the scientists say. &lt;/p&gt;
-
-
-
-&lt;p&gt;The new mass measurement for Cygnus X-1’s black hole is so big that it challenges astronomers’ understanding of the massive stars that collapse to form black holes, says study coauthor Ilya Mandel, an astrophysicist at Monash University in Melbourne, Australia.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Sometimes stars are born with quite high masses — there are observations of stars being born with masses of well over 100 solar masses,” Mandel says. But such enormous stars are thought to shed much of their weight through stellar winds before turning into black holes. The bigger the star and the more heavy elements it contains, the stronger its stellar winds. So in heavy element–rich galaxies such as the Milky Way, big stars — no matter their starting mass — are supposed to shrink down to about 15 solar masses before collapsing into black holes.&lt;/p&gt;
-
-
-
-&lt;p&gt;Cygnus X-1’s 21-solar-mass black hole undermines that idea.&lt;/p&gt;
-
-
-
-&lt;p&gt;The LIGO and Virgo gravitational wave detectors have discovered &lt;a href=&quot;https://www.sciencenews.org/article/gravitational-waves-black-holes-spacetime-ligo-virgo&quot;&gt;black holes weighing tens of solar masses&lt;/a&gt; in other galaxies (&lt;em&gt;SN: 1/21/21&lt;/em&gt;). But that is probably because LIGO peers at distant galaxies that existed earlier in the universe, Joseph says. Back then, fewer heavy elements existed, so stellar winds were weaker. With the new Cygnus X-1 measurement, “now we have to say, hang on, we’re in a [heavy element]–rich environment compared to the early universe … but we still managed to make this really massive black hole,” she says, “so maybe we’re not losing as much mass through stellar winds as we initially thought.”&lt;/p&gt;</content:encoded>
-	<dc:date>2021-02-18T19:00:41+00:00</dc:date>
-	<dc:creator>Maria Temming</dc:creator>
 </item>
 <item rdf:about="http://forbetterscience.com/?p=56276">
 	<title>For Better Science: Kate Brown’s “Plutopia”: book review</title>
@@ -4826,77 +5084,6 @@ despite his enormous scientific reputation.&quot; - Lucas Brost, van Deursen's l
 	<dc:date>2021-01-29T15:00:00+00:00</dc:date>
 	<dc:creator>nihninds</dc:creator>
 </item>
-<item rdf:about="http://digest.bps.org.uk/?p=41257">
-	<title>The British Psychological Society - Research Digest: Bad Behaviour And Rethinking Pain: The Week’s Best Psychology Links</title>
-	<link>https://digest.bps.org.uk/2021/01/29/bad-behaviour-and-rethinking-pain-the-weeks-best-psychology-links/</link>
-	<content:encoded>&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignleft size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-37971&quot; data-attachment-id=&quot;37971&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;Getty Images\/iStockphoto&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;NIKON D800&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;@alubalish (@alubalish (Photographer) - [None]&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;Keyboard for idea&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;Keyboard for idea&quot; data-large-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=845&quot; data-medium-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=300&quot; data-orig-file=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg&quot; data-orig-size=&quot;2122,1413&quot; data-permalink=&quot;https://digest.bps.org.uk/2019/09/27/trump-tweets-and-cat-attachment-the-weeks-best-psychology-links/keyboard-for-idea/&quot; height=&quot;213&quot; src=&quot;https://researchdigest.files.wordpress.com/2019/09/gettyimages-809525756.jpg?w=845&quot; width=&quot;321&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;&lt;em&gt;Our weekly round-up of the best psychology coverage from elsewhere on the web&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Swearing, drinking, or making social transgressions are not behaviours we generally think of as good. &lt;/strong&gt;But in some cases, these kinds of “bad” behaviours can have benefits, both for ourselves and others. &lt;a href=&quot;https://theconversation.com/five-ways-bad-behaviour-can-benefit-you-and-others-154004&quot;&gt;Richard Stephens explains why&lt;/a&gt; at&lt;em&gt; The Conversation.&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;span id=&quot;more-41257&quot;&gt;&lt;/span&gt;
-
-
-
-&lt;hr class=&quot;wp-block-separator&quot; /&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;In &lt;em&gt;The Guardian&lt;/em&gt;, &lt;a href=&quot;https://www.theguardian.com/lifeandstyle/2021/jan/23/analgesic-culture-can-reframing-pain-make-it-go-away&quot;&gt;Margee Kerr and Linda Rodriguez McRobbie write&lt;/a&gt; that we need to rethink our approach to pain. &lt;/strong&gt;We currently have a “socially dysfunctional relationship” with pain, they argue: we rely too much on painkillers, and don’t appreciate that changing the way we think about painful experiences can also have an analgesic effect.&lt;/p&gt;
-
-
-
-&lt;hr class=&quot;wp-block-separator&quot; /&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;How do you make new friends in the middle of a pandemic? &lt;/strong&gt;&lt;a href=&quot;https://www.nytimes.com/2021/01/23/at-home/find-and-keep-new-friends.html&quot;&gt;Katherine Cusumano has some tips&lt;/a&gt; at &lt;em&gt;The New York Times&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;hr class=&quot;wp-block-separator&quot; /&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Some people have argued that public health messages should use shocking images of illness and death to drive home the importance of staying home and socially distancing. &lt;/strong&gt;But there’s reason to doubt the effectiveness of disturbing photos in convincing people of the dangers of the pandemic, &lt;a href=&quot;https://www.scientificamerican.com/article/can-shocking-images-persuade-doubters-of-covids-dangers/&quot;&gt;write Nathan Ballantyne, Jared Celniker and Peter Ditto&lt;/a&gt; at &lt;em&gt;Scientific American&lt;/em&gt;. Their study showed that such images did little to change people’s opinion about the virus, even though participants believed they would.&lt;/p&gt;
-
-
-
-&lt;hr class=&quot;wp-block-separator&quot; /&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;In a recent study, older adults who took afternoon naps showed superior performance on certain tests of language and memory&lt;/strong&gt;, &lt;a href=&quot;https://www.sciencefocus.com/the-human-body/afternoon-naps-linked-to-improved-cognitive-function/&quot;&gt;reports Frankie Macpherson&lt;/a&gt; at &lt;em&gt;BBC Science Focus&lt;/em&gt;. But there are plenty of caveats, not least that the correlational data means that no firm conclusions can be made about the direction of the relationship between taking naps and cognitive performance.&lt;/p&gt;
-
-
-
-&lt;hr class=&quot;wp-block-separator&quot; /&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Another study has highlighted the toll of the coronavirus pandemic on mental health. &lt;/strong&gt;The vast majority of students surveyed at seven American universities last spring reported moderate or high levels of emotional distress, &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-coronavirus-pandemic-us-college-students-mental-health&quot;&gt;reports Sujata Gupta&lt;/a&gt; at &lt;em&gt;Science News&lt;/em&gt;. The psychological impact was particularly prominent among certain groups, including women, Asian participants, and those on lower incomes.&lt;/p&gt;
-
-
-
-&lt;hr class=&quot;wp-block-separator&quot; /&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;It’s common for women to experience worries and anxieties during pregnancy, and some pregnant women may end up meeting the criteria for a full-blown anxiety disorder. &lt;/strong&gt;At &lt;em&gt;Psyche&lt;/em&gt;, &lt;a href=&quot;https://psyche.co/guides/how-to-manage-your-worries-and-fears-during-pregnancy&quot;&gt;Pamela Wiegartz has written a guide&lt;/a&gt; with strategies for managing feelings of anxiety during pregnancy.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Compiled by Matthew Warren (&lt;/strong&gt;&lt;a href=&quot;https://twitter.com/mattbwarren&quot;&gt;&lt;strong&gt;@MattbWarren&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;), Editor of &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2021-01-29T13:12:26+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
-</item>
 <item rdf:about="tag:blogger.com,1999:blog-21605329.post-1649547679049089866">
 	<title>The Neurocritic: Thoughts of Blue Brains and GABA Interneurons</title>
 	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/dkZ0TRaQ6Lk/thoughts-of-blue-brains-and-gaba.html</link>
@@ -5039,46 +5226,6 @@ The University of Texas San Antonio: https://www.utsa.edu​</content:encoded>
 	<link>https://forbetterscience.com/2021/01/21/communist-party-gives-xuetao-cao-meiyu-geng-hongliang-li-a-slap-on-the-wrist/</link>
 	<content:encoded>&quot;The 63 papers of Academician Cao Xuetao were questioned on the Internet. After investigation, no fraud, plagiarism and plagiarism were found, but many papers were found to have misuse of pictures, reflecting the lack of a strict laboratory management.&quot;</content:encoded>
 	<dc:date>2021-01-21T20:27:22+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://theplosblog.plos.org/?p=18626">
-	<title>The Official PLOS Blog: PLOS and the Big Ten Academic Alliance Announce Publishing Deal</title>
-	<link>http://feeds.plos.org/~r/plos/Blog/~3/XZpljA2M98A/</link>
-	<content:encoded>&lt;p&gt;The Big Ten Academic Alliance (BTAA) and the Public Library of Science (PLOS) today announced an agreement for BTAA members to participate in PLOS’ Community Action Publishing (CAP) program. The agreement ensures time to test and evaluate this new community-based model and allows BTAA researchers to publish in &lt;em&gt;PLOS Biology &lt;/em&gt;and &lt;em&gt;PLOS Medicine&lt;/em&gt; without incurring fees. The BTAA and PLOS will also collaborate on future data, metrics, and tools for institutions to evaluate Open Access publishing agreements.&lt;/p&gt;
-
-
-
-&lt;p&gt;The BTAA is the largest consortium globally to participate in both CAP communities, meaning that every member has committed to the full three-year pilot. As some of the largest research institutions in the world and major contributors to both journals, the BTAA commitment ensures this new collective action-based model kicks off with a strong foundation.&lt;/p&gt;
-
-
-
-&lt;p&gt;The Big Ten Academic Alliance members are: Indiana University, Michigan State University, Northwestern University, Ohio State University, Pennsylvania State University, Purdue University, Rutgers University–New Brunswick, University of Illinois at Urbana–Champaign, University of Iowa, University of Maryland–College Park, University of Michigan, University of Minnesota, University of Nebraska–Lincoln, University of Wisconsin–Madison, and the University of Chicago. PLOS has extended the benefits of this agreement to include most system, regional, and branch campuses of these universities.&lt;/p&gt;
-
-
-
-&lt;p&gt;“The Big Ten Academic Alliance’s commitment to this community-driven model demonstrates the power of collectives to transform scholarly publishing. This collaboration has been a partnership from the beginning and BTAA’s members and administration have been vital in helping us build and execute on this new experiment in sustainable highly selective publishing.” said Sara Rouhi, Director of Strategic Partnerships for PLOS.&lt;/p&gt;
-
-
-
-&lt;p&gt;Maurice York, BTAA’s Director of Library Initiatives, adds: “One of the key strategic questions in front of us is how to advance the growth of open science and open scholarship through collective and intentional action. We are actively seeking pathways to create a sustainable, scalable open knowledge ecosystem for our researchers and scholars. We are pleased to join together with PLOS to take up this pilot in common cause.”&lt;/p&gt;
-
-
-
-&lt;p&gt;PLOS’ Community Action Publishing (CAP) is PLOS’ effort to sustain highly selective journal publishing without Article Processing Charges for authors. More details about the model can be found &lt;a href=&quot;https://plos.org/resources/for-institutions/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://plos.org/publish/publishing-faqs/#plos-community-action-publishing&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;The BTAA publishing deal continues the momentum for PLOS in 2020, following other agreements with the University of California system, Jisc (including University College London, Imperial College London, University of Manchester) and the Canadian Research Knowledge Network &lt;a href=&quot;https://plos.org/resources/for-institutions/institutional-account-participants/&quot;&gt;among others&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://theplosblog.plos.org/2021/01/plos-and-the-big-ten-academic-alliance-announce-publishing-deal/&quot; rel=&quot;nofollow&quot;&gt;PLOS and the Big Ten Academic Alliance Announce Publishing Deal&lt;/a&gt; appeared first on &lt;a href=&quot;https://theplosblog.plos.org&quot; rel=&quot;nofollow&quot;&gt;The Official PLOS Blog&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/XZpljA2M98A&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2021-01-21T16:58:24+00:00</dc:date>
-	<dc:creator>PLOS</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=55351">
-	<title>For Better Science: Victims as perpetrators</title>
-	<link>https://forbetterscience.com/2021/01/21/victims-as-perpetrators/</link>
-	<content:encoded>Smut Clyde as Detective Columbo investigates: The victims of a paper mill are actually in cahoots with the perpetrators! Stealth corrections happen faster than one can catch them!</content:encoded>
-	<dc:date>2021-01-21T07:45:55+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 
