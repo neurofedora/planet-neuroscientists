@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/the-invisibility-of-covid-19" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096889" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121627" />
 			<rdf:li rdf:resource="https://www.discovermagazine.com/mind/dialogue-with-dreamers" />
@@ -164,11 +165,17 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=55510" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/day-in-the-life-of-a-solutions-marketing-manager" />
 			<rdf:li rdf:resource="http://brainupdate.nih.gov/?p=2983" />
-			<rdf:li rdf:resource="https://www.elsevier.com/connect/report-health-ai-index-for-china" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="https://www.discovermagazine.com/mind/the-invisibility-of-covid-19">
+	<title>Discovery magazine - Neuroskeptic: The Invisibility of COVID-19</title>
+	<link>https://www.discovermagazine.com/mind/the-invisibility-of-covid-19</link>
+	<content:encoded>Why is it so hard to picture COVID-19?</content:encoded>
+	<dc:date>2021-02-28T00:00:00+00:00</dc:date>
+	<dc:creator>Neuroskeptic</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3096889">
 	<title>Science News: What you need to know about J&amp;J’s newly authorized one-shot COVID-19 vaccine</title>
 	<link>https://www.sciencenews.org/article/covid-19-johnson-and-johnson-vaccine-one-shot-fda-authorization</link>
@@ -5325,12 +5332,6 @@ The University of Texas San Antonio: https://www.utsa.edu​</content:encoded>
 &lt;p&gt;&lt;/p&gt;</content:encoded>
 	<dc:date>2021-01-22T14:30:00+00:00</dc:date>
 	<dc:creator>nihninds</dc:creator>
-</item>
-<item rdf:about="https://www.elsevier.com/connect/report-health-ai-index-for-china">
-	<title>Elsevier Connect: Report: Health AI Index for China</title>
-	<link>https://www.elsevier.com/connect/report-health-ai-index-for-china</link>
-	<content:encoded>Elsevier and Peking University Health Science Center publish report on AI in China from the perspective of research performance, knowledge transfer and media interest</content:encoded>
-	<dc:date>2021-01-22T10:42:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
