@@ -5,8 +5,59 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2021-03-01T08:00:47+00:00</updated>
+	<updated>2021-03-01T09:57:17+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html">Next Open NeuroFedora meeting: 1 March 1300 UTC</title>
+		<link href="https://neuroblog.fedoraproject.org/2021/03/01/next-open-neurofedora-meeting-1-march-1300-utc.html"/>
+		<id>tag:neuroblog.fedoraproject.org,2021-03-01:/2021/03/01/next-open-neurofedora-meeting-1-march-1300-utc.html</id>
+		<updated>2021-03-01T09:48:21+00:00</updated>
+		<content type="html">
+ &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuroblog.fedoraproject.org/feeds/all.atom.xml&quot;&gt;&lt;img alt=&quot;Photo by William White on Unsplash&quot; class=&quot;img-responsive&quot; src=&quot;https://neuroblog.fedoraproject.org/images/20200112-image.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;caption&quot;&gt;Photo by &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/@wrwhite3?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;William White&lt;/a&gt; on &lt;a class=&quot;reference external&quot; href=&quot;https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;Please join us at the next regular Open NeuroFedora team meeting on Monday 1 March at 1300UTC in #fedora-neuro on IRC (Freenode).
+The meeting is a public meeting, and open for everyone to attend.
+You can join us over:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://webchat.freenode.net/?channels=#fedora-neuro&quot;&gt;IRC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or &lt;a class=&quot;reference external&quot; href=&quot;https://matrix.to/#/!xgwUsLNGIoOAXMxGMQ:matrix.org?via=matrix.org&amp;amp;via=t2bot.io&quot;&gt;Matrix/Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the channel is also bridged to Telegram, so you can also join us there on the @NeuroFedora group: &lt;a class=&quot;reference external&quot; href=&quot;https://t.me/NeuroFedora&quot;&gt;https://t.me/NeuroFedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;amp;iso=20210301T13&amp;amp;p1=1440&amp;amp;ah=1&quot;&gt;this link&lt;/a&gt; to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ date --date&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'TZ=&quot;UTC&quot; 1300 today'&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The meeting will be chaired by @major.
+The agenda for the meeting is:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;New introductions and roll call.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://meetbot.fedoraproject.org/teams/neurofedora/neurofedora.2021-02-01-13.00.html&quot;&gt;Tasks from last week's meeting&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;amp;tags=S%3A+Next+meeting&quot;&gt;Open Pagure tickets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://tinyurl.com/neurofedora-bugs&quot;&gt;Open bugs check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro&quot;&gt;Open package reviews check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koschei.fedoraproject.org/groups/neuro-sig&quot;&gt;Koschei packages check&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://koji.fedoraproject.org/koji/packageinfo?packageID=30691&quot;&gt;CompNeuro lab compose status check for F33/F34&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Neuroscience query of the week&lt;/li&gt;
+&lt;li&gt;Next meeting day, and chair.&lt;/li&gt;
+&lt;li&gt;Open floor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</content>
+		<author>
+			<name>Ankur Sinha</name>
+			<uri>https://neuroblog.fedoraproject.org/</uri>
+		</author>
+		<source>
+			<title type="html">NeuroFedora: Blog</title>
+			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
+			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
+			<id>https://neuroblog.fedoraproject.org/</id>
+			<updated>2021-03-01T09:48:21+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-GB">Alcohol Policies, Firearm Policies, and Suicide in the United States</title>
@@ -81,7 +132,7 @@
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-03-01T08:00:40+00:00</updated>
+			<updated>2021-03-01T09:57:05+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -313,7 +364,7 @@
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-03-01T08:00:40+00:00</updated>
+			<updated>2021-03-01T09:57:05+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4012,7 +4063,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2021-02-15T12:11:05+00:00</updated>
+			<updated>2021-03-01T09:48:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -4063,7 +4114,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2021-02-15T12:11:05+00:00</updated>
+			<updated>2021-03-01T09:48:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -4114,7 +4165,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2021-02-15T12:11:05+00:00</updated>
+			<updated>2021-03-01T09:48:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -4369,7 +4420,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-03-01T08:00:40+00:00</updated>
+			<updated>2021-03-01T09:57:05+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -4648,7 +4699,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-02-28T19:00:41+00:00</updated>
+			<updated>2021-03-01T09:57:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -4997,7 +5048,7 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<subtitle type="html">Free Software for Free Neuroscience</subtitle>
 			<link rel="self" href="https://neuroblog.fedoraproject.org/feeds/all.atom.xml"/>
 			<id>https://neuroblog.fedoraproject.org/</id>
-			<updated>2021-02-15T12:11:05+00:00</updated>
+			<updated>2021-03-01T09:48:21+00:00</updated>
 		</source>
 	</entry>
 
@@ -6251,7 +6302,7 @@ signals are embedded in unknown backgrounds.&lt;/p&gt;
 			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-02-28T19:00:41+00:00</updated>
+			<updated>2021-03-01T09:57:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6279,7 +6330,7 @@ signals are embedded in unknown backgrounds.&lt;/p&gt;
 			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-02-28T19:00:41+00:00</updated>
+			<updated>2021-03-01T09:57:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -6494,7 +6545,7 @@ signals are embedded in unknown backgrounds.&lt;/p&gt;
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2021-02-26T06:52:09+00:00</updated>
+			<updated>2021-03-01T09:23:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -6514,7 +6565,7 @@ signals are embedded in unknown backgrounds.&lt;/p&gt;
 			<title type="html">Open and Shut?</title>
 			<link rel="self" href="https://www.blogger.com/feeds/7961882/posts/default"/>
 			<id>tag:blogger.com,1999:blog-7961882</id>
-			<updated>2021-02-26T06:52:09+00:00</updated>
+			<updated>2021-03-01T09:23:13+00:00</updated>
 		</source>
 	</entry>
 
@@ -6835,7 +6886,7 @@ despite his enormous scientific reputation.&quot; - Lucas Brost, van Deursen's l
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-03-01T08:00:40+00:00</updated>
+			<updated>2021-03-01T09:57:05+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -6857,7 +6908,7 @@ despite his enormous scientific reputation.&quot; - Lucas Brost, van Deursen's l
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-03-01T08:00:40+00:00</updated>
+			<updated>2021-03-01T09:57:05+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -7036,7 +7087,7 @@ The University of Texas San Antonio: https://www.utsa.edu​</content>
 			<subtitle type="html">Discover satisfies everyday curiosity with relevant and approachable science news, feature articles, photos and more.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuro-skeptic"/>
 			<id>https://www.discovermagazine.com/rss/blog/neuroskeptic</id>
-			<updated>2021-03-01T08:00:40+00:00</updated>
+			<updated>2021-03-01T09:57:05+00:00</updated>
 			<rights type="html">Copyright © 2021 Kalmbach Media Co.</rights>
 		</source>
 	</entry>
@@ -7065,7 +7116,7 @@ The University of Texas San Antonio: https://www.utsa.edu​</content>
 			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-02-28T19:00:41+00:00</updated>
+			<updated>2021-03-01T09:57:07+00:00</updated>
 		</source>
 	</entry>
 
@@ -7086,26 +7137,6 @@ The University of Texas San Antonio: https://www.utsa.edu​</content>
 			<link rel="self" href="http://blog.oup.com/category/science_medicine/psychology/feed/"/>
 			<id>https://blog.oup.com</id>
 			<updated>2021-02-28T14:00:46+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en">Colchicine or Licorice?</title>
-		<link href="https://forbetterscience.com/2021/01/25/colchicine-or-liquorice/"/>
-		<id>http://forbetterscience.com/?p=55510</id>
-		<updated>2021-01-25T12:54:10+00:00</updated>
-		<content type="html">
- After chloroquine and ivermectin, another repurposed drug enters the COVID-19 circus arena: colchicine. But why not combining it with licorice?</content>
-		<author>
-			<name>Leonid Schneider</name>
-			<uri>https://forbetterscience.com</uri>
-		</author>
-		<source>
-			<title type="html">For Better Science</title>
-			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
-			<link rel="self" href="https://forbetterscience.com/feed/"/>
-			<id>https://forbetterscience.com</id>
-			<updated>2021-03-01T08:00:43+00:00</updated>
 		</source>
 	</entry>
 
