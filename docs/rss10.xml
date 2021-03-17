@@ -16,6 +16,9 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-10-03:/2021/10/03/minkowski-metric-feature-weighting-and-anomalous-cluster-initializing-in-k-means-clustering.html" />
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-03-17:/2021/03/17/how-to-exploit-fitness-landscape-properties-of-timetabling-problem-a-new-operator-for-quantum-evolutionary-algorithm.html" />
+			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18747" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097183" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41579" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097431" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097436" />
@@ -55,7 +58,6 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41513" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-to-successfully-expand-your-societys-journal-portfolio" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097219" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3096978" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12301" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121684" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41474" />
@@ -163,8 +165,6 @@
 			<rdf:li rdf:resource="http://snrp.utsa.edu/Podcast/941c55d9-a618-49df-8fd0-54c38da4847f" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/meet-the-winners-of-the-2021-owsd-elsevier-foundation-award" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-02-04:/2021/02/04/rapid-online-learning-and-robust-recall-in-a-neuromorphic-olfactory-circuit.html" />
-			<rdf:li rdf:resource="https://malinsandstrom.blog/?p=1878" />
-			<rdf:li rdf:resource="https://malinsandstrom.blog/?p=1870" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -200,6 +200,120 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 &lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
 	<dc:date>2021-10-03T14:01:00+00:00</dc:date>
 	<dc:creator>Deepak Panday</dc:creator>
+</item>
+<item rdf:about="tag:biocomputation.herts.ac.uk,2021-03-17:/2021/03/17/how-to-exploit-fitness-landscape-properties-of-timetabling-problem-a-new-operator-for-quantum-evolutionary-algorithm.html">
+	<title>UH Biocomputation group: How to Exploit Fitness Landscape Properties of Timetabling Problem: A New Operator for Quantum Evolutionary Algorithm</title>
+	<link>http://biocomputation.herts.ac.uk/2021/03/17/how-to-exploit-fitness-landscape-properties-of-timetabling-problem-a-new-operator-for-quantum-evolutionary-algorithm.html</link>
+	<content:encoded>&lt;p&gt;This week on Journal Club session Mohammad Hassan Tayarani Najaran will talk about a paper &quot;How to Exploit Fitness Landscape Properties of Timetabling Problem: A New Operator for Quantum Evolutionary Algorithm&quot;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;The fitness landscape of the timetabling problems is analyzed in this
+paper to provide some insight into the properties of the problem. The
+analyses suggest that the good solutions are clustered in the search
+space and there is a correlation between the fitness of a local
+optimum and its distance to the best solution. Inspired by these
+findings, a new operator for Quantum Evolutionary Algorithms is
+proposed which, during the search process, collects information about
+the fitness landscape and tried to capture the backbone structure of
+the landscape. The knowledge it has collected is used to guide the
+search process towards a better region in the search space. The
+proposed algorithm consists of two phases. The first phase uses a tabu
+mechanism to collect information about the fitness landscape. In the
+second phase, the collected data are processed to guide the algorithm
+towards better regions in the search space. The algorithm clusters the
+good solutions it has found in its previous search process. Then when
+the population is converged and trapped in a local optimum, it is
+divided into sub-populations and each sub-population is designated to
+a cluster. The information in the database is then used to
+reinitialize the q-individuals, so they represent better regions in
+the search space. This way the population maintains diversity and by
+capturing the fitness landscape structure, the algorithm is guided
+towards better regions in the search space. The algorithm is compared
+with some state-of-the-art algorithms from PATAT competition
+conferences and experimental results are presented.&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Papers:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;M. Najaran, &lt;a class=&quot;reference external&quot; href=&quot;https://doi.org/10.1016/j.eswa.2020.114211&quot;&gt;&quot;How to Exploit Fitness Landscape Properties of Timetabling Problem: A New Operator for Quantum Evolutionary Algorithm&quot;&lt;/a&gt;,  2021, Expert Systems with Applications, 168, 114211&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2021/03/17 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 14:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
+	<dc:date>2021-03-17T16:33:00+00:00</dc:date>
+	<dc:creator>Mohammad Hassan Tayarani Najaran</dc:creator>
+</item>
+<item rdf:about="https://theplosblog.plos.org/?p=18747">
+	<title>The Official PLOS Blog: Open Response to “Economic impact of UKRI open access policy” report</title>
+	<link>http://feeds.plos.org/~r/plos/Blog/~3/SoB1zL-x4PY/</link>
+	<content:encoded>&lt;p&gt;On February 17, 2021, FTI Consulting released the report: “&lt;a href=&quot;https://www.publishers.org.uk/wp-content/uploads/2021/02/FTI-Report-for-Publishers-Association-1.pdf&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Economic assessment of the impact of the new Open Access policy developed by UK Research and Innovation&lt;/a&gt;” (full title) prepared for the &lt;a href=&quot;https://www.publishers.org.uk/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Publisher’s Association&lt;/a&gt; (PA) of the UK.  While we are not setting out to provide an extensive review and analysis of this report, we do want to generally refute the assertion that OA via the UKRI policy is economically damaging, and we’ll provide some references that support this position.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Open Access and Open Research are an opportunity&lt;/h4&gt;
+
+
+
+&lt;p&gt;The FTI/PA report asserts that the impact of the new UKRI policy could lead to a loss in revenue to “UK-based journals” and have a broader negative impact on UK competitiveness, economic growth and position as a “global research hub.” This assessment appears to use impact on traditional publication models as the basis for this conclusion. A problem here, however, is that it is considering the scholarly publishing industry as somehow separate from the broader economic impact of making research open. Previous &lt;a href=&quot;https://www.publishers.org.uk/publications/publishings-contribution-to-research-and-innovation/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;reports &lt;/a&gt;from the PA itself have shown that the link to the economy is much broader than this depiction. The UK’s &lt;a href=&quot;https://www.gov.uk/government/publications/uk-research-and-development-roadmap/uk-research-and-development-roadmap&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;R&amp;amp;D roadmap&lt;/a&gt; clearly embraces open research and rapid open dissemination as not just good for science and health (especially during the current pandemic) but as a core part of “a world-leading system that unlocks innovation and growth throughout all parts of the economy.” Open Access enables this entire ecosystem to operate more efficiently and cost-effectively. When coupled with Open Research, it brings the additional benefits of &lt;a href=&quot;https://doi.org/10.1073/pnas.1913039116&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;increasing trust in science&lt;/a&gt;, ever more important during these difficult times. &lt;/p&gt;
+
+
+
+&lt;p&gt;Open Research (of which Open Access is one part) offers even greater opportunity both in terms of discovery and economic growth. For example, the European Data Portal’s &lt;a href=&quot;https://www.europeandataportal.eu/sites/default/files/the-economic-impact-of-open-data.pdf&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;report &lt;/a&gt;on the economic impact of open data identifies the potential for 15.7% growth across a range of sectors – including scientific &amp;amp; technical, communication, transport, finance, health, retail and agriculture – and significant cost savings across the economy. We believe that a focus on Open Research, and all the efficiencies it brings, is worth considering for the UK economy especially in light of the combined impacts of the pandemic and Brexit (whatever one’s position on Brexit is).&lt;/p&gt;
+
+
+
+&lt;p&gt;Furthermore, Open Access is the fastest growing publishing model. A recent report from the scholarly analytics firm, &lt;a href=&quot;https://www.dimensions.ai/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Dimensions&lt;/a&gt;, shows that “in &lt;a href=&quot;https://www.dimensions.ai/blog/open-access-surpasses-subscription-publication-globally-for-the-first-time/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;2020 […]more outputs were published through Open Access channels than traditional subscription channels globally&lt;/a&gt;.” The report further show that the majority of the growth in OA is fueled by Gold OA, i.e. OA supported by some kind of business or sustainability model. It is ever more futile, in our opinion, to take such a critical and isolated position against UKRI policy when one can argue that OA is an outcome that will simply continue to happen. It is far more beneficial, as the policy itself proposes, to establish the UK as an early adopter, leader, and beneficiary of OA and its opportunities. &lt;/p&gt;
+
+
+
+&lt;h4&gt;Publishers can and should lead&lt;/h4&gt;
+
+
+
+&lt;p&gt;The benefits of OA, the opportunities created by OA, and the desire for OA by the public and funders like UKRI, are clear. Contrary to Section 4.44 of the report, which mischaracterizes PLOS as publishing “at cost”, it is entirely possible to maintain value for authors, funders, and  institutions while operating a sustainable, surplus-generating business model. PLOS believes that publishers globally should be leading the efforts to devise and develop the next generation of business models that are able to support their operations in an Open Access context. This will, of course, require deep, and sometimes difficult, work by transitioning publishers. But we strongly believe this work is not outside the acceptable effort level of conscientious members of the scholarly publishing industry that have been aware of Open Access, and its benefits, for at least the last 20 years. &lt;/p&gt;
+
+
+
+&lt;p&gt;We would like to thank the UKRI for its efforts to hear from stakeholders in the scholarly  publishing community, and beyond, regarding the proposed policy. We understand it is a discussion rife with passionate viewpoints and unseen complexities, and so we would like to ensure that one point is clear: to successfully set up the most efficient,  frictionless Open Access ecosystem, we should leverage the &lt;em&gt;existing &lt;/em&gt;budgets and infrastructures of scholarly publishing but with OA as the outcome. This way, Open Access is not viewed as a destructive force, or something external and different that traditional publishers are not part of, but simply as the new way to publish and communicate research that all publishers can facilitate. &lt;/p&gt;
+
+
+
+&lt;p&gt;Sincerely,&lt;/p&gt;
+
+
+
+&lt;p&gt;–PLOS&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://theplosblog.plos.org/2021/03/open-response-to-fti-consulting-report/&quot; rel=&quot;nofollow&quot;&gt;Open Response to “Economic impact of UKRI open access policy” report&lt;/a&gt; appeared first on &lt;a href=&quot;https://theplosblog.plos.org&quot; rel=&quot;nofollow&quot;&gt;The Official PLOS Blog&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/SoB1zL-x4PY&quot; width=&quot;1&quot; /&gt;</content:encoded>
+	<dc:date>2021-03-17T14:04:02+00:00</dc:date>
+	<dc:creator>PLOS</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3097183">
+	<title>Science News: 50 years ago, researchers treated chronic pain with electricity</title>
+	<link>https://www.sciencenews.org/article/50-years-ago-researchers-treated-chronic-pain-electricity</link>
+	<content:encoded>&lt;div class=&quot;wp-block-image is-style-default&quot;&gt;&lt;figure class=&quot;alignleft size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-51789&quot; height=&quot;207&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/1971/03/1971-03-20.jpg&quot; width=&quot;155&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Fooling the brain&lt;/strong&gt; — &lt;a href=&quot;https://www.sciencenews.org/archive/medical-sciences-79&quot;&gt;&lt;em&gt;Science News&lt;/em&gt;&lt;/a&gt;, March 20, 1971&lt;/p&gt;
+
+
+
+&lt;p&gt;Chronic pain can be treated surgically by severing nerves or by destroying a small part of the brain that perceives pain, but these methods are destructive. Doctors … are now treating selected cases of chronic pain … by using electrical impulses [on the spinal cord] to fool the brain.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Update&lt;/h4&gt;
+
+
+
+&lt;p&gt;In 1971, the idea to treat chronic pain by sending electrical impulses to the spinal cord was not brand-new. Researchers tested the &lt;a href=&quot;https://doi.org/10.1213%2F00000539-196707000-00025&quot;&gt;first implantable device&lt;/a&gt; in patients in the United States in 1967. Such implants gained momentum as a pain treatment in the 1970s, and the U.S. Food and Drug Administration approved the technique in 1989. &lt;/p&gt;
+
+
+
+&lt;p&gt;Technological advances in the decades since have led to more effective and precise devices. One stimulator &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S1474442219304144?via%3Dihub&quot;&gt;interacts with cells in the spinal cord&lt;/a&gt; to adjust the amount of electricity based on a patient’s needs, researchers reported in 2020. But spinal cord stimulation can do more than relieve pain: Sending impulses to specific nerve cells at precise times has been shown to help &lt;a href=&quot;https://www.sciencenews.org/article/stimulating-spinal-cord-helps-more-paralyzed-people-walk&quot;&gt;people paralyzed by severe injuries walk again&lt;/a&gt; (&lt;em&gt;SN: 11/24/18, p. 6&lt;/em&gt;).&lt;/p&gt;</content:encoded>
+	<dc:date>2021-03-17T14:00:00+00:00</dc:date>
+	<dc:creator>Erin Garcia de Jesus</dc:creator>
 </item>
 <item rdf:about="http://digest.bps.org.uk/?p=41579">
 	<title>The British Psychological Society - Research Digest: These Two Factors Are Linked To The Experience Of Otherworldly Phenomena Across Cultures And Religions</title>
@@ -1789,49 +1903,6 @@ The agenda for the meeting is:&lt;/p&gt;
 &lt;p&gt;Otto recommends that countries begin addressing food waste by integrating reduction into their climate strategies and COVID-19 recovery plans. “Food waste has been largely overlooked in national climate strategies,” Otto said. “We know what to do, and we can take action quickly — collectively and individually.”&lt;/p&gt;</content:encoded>
 	<dc:date>2021-03-09T16:20:43+00:00</dc:date>
 	<dc:creator>Rachel Fritts</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3096978">
-	<title>Science News: Finds in a Spanish cave inspire an artistic take on warm-weather Neandertals</title>
-	<link>https://www.sciencenews.org/article/neandertal-spain-cave-warm-weather-landscape-art-illustration</link>
-	<content:encoded>&lt;p&gt;Here’s a scene guaranteed to melt the popular stereotype of Ice Age Neandertals as spear-wielding mammoth hunters confined to Eurasia’s frigid inner core.&lt;/p&gt;
-
-
-
-&lt;p&gt;New illustrations show what’s currently known about the environment inhabited periodically by Neandertals in Iberia, or what’s now Spain and Portugal, from at least 350,000 years ago to nearly 100,000 years ago. Paleoartist Gabriela Amorós Seller of the University of Murcia in Spain, used colored pencils to illustrate an idyllic view of a Neandertal man and child lounging on flat ground downslope from Bolomor Cave, near the Mediterranean coast of what’s now eastern Spain.&lt;/p&gt;
-
-
-
-&lt;p&gt;Excavations in the cave have produced evidence of the &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0277379121000330&quot;&gt;trees, plants and animals shown in the drawing&lt;/a&gt;, presented in the March 15 &lt;em&gt;Quaternary Science Reviews&lt;/em&gt;. Amorós Seller also illustrated Bolomor Cave’s Neandertal-era entrance and surrounding greenery. She and her colleagues regard these scientifically informed drawings as more than simply appealing to the eye. Art that shows the basic makeup of an ancient environment can inspire scientists to ask new questions. For instance, her group now wants to explore how ancient Iberian plants grew in the wild and what they looked like before being modified over the past few thousand years by farming practices.  &lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignleft size-full&quot;&gt;&lt;img alt=&quot;illustration of the entrance to Bolomor Cave in Spain&quot; class=&quot;wp-image-3096980&quot; height=&quot;1261&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/03/022521_bb_lanscapes_inline1_tall.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3096980&quot;&gt;Eastern Spain’s Bolomor Cave (illustrated) has hosted recent excavations that paint a detailed picture of what life was like for Neandertals who once inhabited that temperate region.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3096980&quot;&gt;G. Amorós, &lt;em&gt;Quat. Sci. Reviews&lt;/em&gt;, 2021&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Bolomor Cave Neandertals probably ate fruit, nuts and seeds of plants that once grew in the area, says coauthor José Carrión, an evolutionary biologist and botanist at the University of Murcia. Those plants included hazel shrubs, one of which appears just behind the Neandertal male, who is munching on a hazelnut. Strawberry trees, Mediterranean hackberry, myrtle shrubs, carob trees and chestnut trees — all shown in the drawings — were also available, he says.&lt;/p&gt;
-
-
-
-&lt;p&gt;Insights about local plant life during Neandertal times come largely from &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0277379119301544&quot;&gt;pollen grains and spores found in sediment layers&lt;/a&gt; in Bolomor Cave, previously reported by coauthor Juan Ochando, an evolutionary botanist also at the University of Murcia, and colleagues. These layers have also yielded remains of fire pits, burned animal bones, scorched tortoise shells and four Neandertal fossils — a piece of a leg bone, two teeth and part of a braincase.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;The animal remains inform other parts of the drawings, such as the Neandertal child watching a tortoise inch its way forward. Tortoises were cooked and eaten at Bolomor Cave, along with frequent prey such as hares, rabbits, birds and deer. People also occasionally consumed large animals such as horses and hippos.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Neandertals most likely responded to relatively mild Iberian temperatures by wearing few or no clothes, the researchers suspect.&lt;/p&gt;
-
-
-
-&lt;p&gt;Whether they were a separate &lt;em&gt;Homo&lt;/em&gt; species or an ancient variant of &lt;em&gt;Homo sapiens&lt;/em&gt;, Neandertals had a largely unappreciated talent &lt;a href=&quot;https://www.sciencenews.org/article/neandertals-extensive-seafood-menu-rivals-ancient-humans&quot;&gt;for finding and exploiting resource-rich parts of Iberia&lt;/a&gt; (&lt;em&gt;SN: 3/26/20&lt;/em&gt;). Amorós Seller’s paintings vividly show some of that mammoth-free bounty.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-03-09T13:00:00+00:00</dc:date>
-	<dc:creator>Bruce Bower</dc:creator>
 </item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=12301">
 	<title>BMC Series blog: Highlights of the BMC Series – February 2021</title>
@@ -4707,36 +4778,6 @@ signals are embedded in unknown backgrounds.&lt;/p&gt;
 &lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
 	<dc:date>2021-02-04T18:51:50+00:00</dc:date>
 	<dc:creator>Damien Drix</dc:creator>
-</item>
-<item rdf:about="https://malinsandstrom.blog/?p=1878">
-	<title>Malin Sandström's blog: Project update: GSoC</title>
-	<link>https://malinsandstrom.blog/2021/02/04/project-update-gsoc/</link>
-	<content:encoded>&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-1880&quot; data-attachment-id=&quot;1880&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;GSOCimage&quot; data-large-file=&quot;https://i0.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/GSOCimage.png?fit=1024%2C609&amp;amp;ssl=1&quot; data-medium-file=&quot;https://i0.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/GSOCimage.png?fit=300%2C178&amp;amp;ssl=1&quot; data-orig-file=&quot;https://i0.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/GSOCimage.png?fit=1600%2C951&amp;amp;ssl=1&quot; data-orig-size=&quot;1600,951&quot; data-permalink=&quot;https://malinsandstrom.blog/2021/02/04/project-update-gsoc/gsocimage/&quot; data-recalc-dims=&quot;1&quot; height=&quot;609&quot; src=&quot;https://i0.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/GSOCimage.png?resize=1024%2C609&amp;amp;ssl=1&quot; width=&quot;1024&quot; /&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;We (INCF) have, as of this morning, officially applied to Google as a mentoring organization in 2021. This is our 11th time. We have a &lt;a data-id=&quot;https://docs.google.com/document/d/14wnNV-cIqTIF3eE9QJXtkwyW7lQomUiCLVVPFafX6Js/edit?usp=sharing&quot; data-type=&quot;URL&quot; href=&quot;https://docs.google.com/document/d/14wnNV-cIqTIF3eE9QJXtkwyW7lQomUiCLVVPFafX6Js/edit?usp=sharing&quot;&gt;Project Ideas list&lt;/a&gt; of 55 projects from 27 mentor teams, a new record!&lt;/p&gt;
-
-
-
-&lt;p&gt;The next step is interacting with prospective students, and waiting for Google’s announcement of this year’s accepted mentor organizations (March 9). Since a few years back, we post all project ideas on our &lt;a href=&quot;https://neurostars.org/c/gsoc/5&quot;&gt;forum&lt;/a&gt; to make it easier  for students and mentors to discuss.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-02-04T17:32:00+00:00</dc:date>
-	<dc:creator>Dr Sandstorm</dc:creator>
-</item>
-<item rdf:about="https://malinsandstrom.blog/?p=1870">
-	<title>Malin Sandström's blog: Project Gunhild update: finished!</title>
-	<link>https://malinsandstrom.blog/2021/02/04/project-gunhild-updated-finished/</link>
-	<content:encoded>&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-1875&quot; data-attachment-id=&quot;1875&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;1.8&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;iPhone 11&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1612026247&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;4.25&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;640&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.04&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;IMG_7991&quot; data-large-file=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/IMG_7991.jpeg?fit=768%2C1024&amp;amp;ssl=1&quot; data-medium-file=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/IMG_7991.jpeg?fit=225%2C300&amp;amp;ssl=1&quot; data-orig-file=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/IMG_7991.jpeg?fit=1536%2C2048&amp;amp;ssl=1&quot; data-orig-size=&quot;1536,2048&quot; data-permalink=&quot;https://malinsandstrom.blog/2021/02/04/project-gunhild-updated-finished/img_7991/&quot; data-recalc-dims=&quot;1&quot; height=&quot;1024&quot; src=&quot;https://i1.wp.com/malinsandstrom.blog/wp-content/uploads/2021/02/IMG_7991.jpeg?resize=768%2C1024&amp;amp;ssl=1&quot; width=&quot;768&quot; /&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Thick yarn makes for a quick knit. I am already finished with the Gunhild cardigan, a month before the agreed deadline. Slight stumbling block on the way; I ran out of main colour yarn after doing some modifications. And it wasn’t to be had anywhere in Europe, and out of stock at the supplier.&lt;/p&gt;
-
-
-
-&lt;p&gt;But I had bought some extra contrast color yarn, so I ended up doing half sleeves in the contrast color, and not just the edging. With extra long sleeves, which I like. And I sewed in a button so it would be wearable without a shawl pin for closure.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-02-04T17:03:33+00:00</dc:date>
-	<dc:creator>Dr Sandstorm</dc:creator>
 </item>
 
 </rdf:RDF>
