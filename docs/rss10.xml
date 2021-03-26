@@ -16,6 +16,8 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-10-03:/2021/10/03/minkowski-metric-feature-weighting-and-anomalous-cluster-initializing-in-k-means-clustering.html" />
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=57136" />
+			<rdf:li rdf:resource="http://xcorr.net/?p=7546" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097858" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097864" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097839" />
@@ -163,8 +165,6 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12265" />
 			<rdf:li rdf:resource="https://knowledgeunlatched.org/2021/02/ku-results-of-2020-pledging-plans-to-unlatch-hundreds-of-titles-for-2021/" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=55905" />
-			<rdf:li rdf:resource="tag:ocns.github.io,2021-02-07:/SoftwareWG/2021/02/07/dev-session-ankur-sinha-neurofedora.html" />
-			<rdf:li rdf:resource="tag:ocns.github.io,2021-02-07:/SoftwareWG/2021/02/07/dev-session-marcel-stimberg-brian-simulator.html" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -200,6 +200,182 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 &lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
 	<dc:date>2021-10-03T14:01:00+00:00</dc:date>
 	<dc:creator>Deepak Panday</dc:creator>
+</item>
+<item rdf:about="http://forbetterscience.com/?p=57136">
+	<title>For Better Science: Die with a smile: antidepressants against COVID-19</title>
+	<link>https://forbetterscience.com/2021/03/26/die-with-a-smile-antidepressants-against-covid-19/</link>
+	<content:encoded>&quot;Fluvoxamine could certainly be something you wanna put in the tool chest. 'Cause it looks as if it has the promise to reduce the likelihood of severe illness.&quot; - Francis Collins:</content:encoded>
+	<dc:date>2021-03-26T06:27:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
+<item rdf:about="http://xcorr.net/?p=7546">
+	<title>xcorr.net: Building Neuromatch Academy</title>
+	<link>https://xcorr.net/2021/03/25/building-neuromatch-academy/</link>
+	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/NeuromatchAcademy/course-content&quot;&gt;Neuromatch Academy 2020&lt;/a&gt; is a three-week online summer school in computational neuroscience that took place in July of 2020. We created interactive notebooks covering all aspects of computational neuroscience – from signals and models of spikes to machine learning and behaviour. We hired close to 200 TAs to teach this material to 1,700 students from all over the world in an inverted classroom setting. Over 87% of students that started the class finished it, a number unheard of in the MOOC space. &lt;/p&gt;
+
+
+
+&lt;p&gt;By now, &lt;a href=&quot;https://arxiv.org/abs/2012.08973&quot;&gt;we have a preprint out&lt;/a&gt;, and NMA has been covered in &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02347-9&quot;&gt;Nature&lt;/a&gt; and &lt;a href=&quot;https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(21)00074-0/fulltext?dgcid=raven_jbs_etoc_email&quot;&gt;the Lancet&lt;/a&gt;. So how did we do it? Building something that goes from 0 to several hundred volunteers working tirelessly is a huge endeavor, and I’m sure a lot of the readers of this blog coming from an academic background have trouble even imagining how you can get something like that off the ground. &lt;a href=&quot;http://www.rdgao.com/blog/2020/09/16/&quot;&gt;Richard Gao wrote a great post&lt;/a&gt; on how it felt to be flying in this anarchist hacker spaceship as it was being built. I wanted to share some thoughts with you that I hope will be helpful if you ever want to create an experience at this scale.&lt;/p&gt;
+
+
+
+&lt;h2&gt;A little background: my stint into teaching&lt;/h2&gt;
+
+
+
+&lt;p&gt;After my time at Facebook, I wanted to focus on the academic route. I became interested in teaching and taught an introductory CS class at a local college, building my materials from scratch. I thought, rather naively, that since I knew CS, this would be fairly straightforward. But preparing course materials materials for beginners is anything but easy. One issue is the curse of expertise: if you know a subject pretty well it becomes harder to explain it to a novice. For example, here’s my explanation of globals in Python:&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Python has two scopes: module and function. You have read access to module variables inside of a function. However, if you want to write to a module variable it, you need to use the global keyword. Unless the variable is a reference type… If a variable is a dict or a list, for example, you can change its contents inside a function even if it’s a module variable. That’s because Python has pass-by-ref semantics for complex types. You see, default pass-by-ref semantics for complex types were originally introduced in fourth generation languages to get rid of the difficulty of granular pass-by-value or pass-by-ref semantics in languages like C. […many rambling minutes later…]. In any case, don’t use globals if you can avoid them.&lt;/p&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;Although this explanation is technically correct, it doesn’t fit with novice students’ current development, and giving that explanation is more likely to make them feel inadequate than enlightened. It takes a tremendous amount of attention to detail, radical empathy and craftsmanship to understand the adult learner’s motivations – both intrinsic and extrinsic – and to create materials that engage them at the right level. And creating this stuff takes a huge amount of time! By the time I finished the class, I was ready to throw away the material I created. At the same time, it felt quixotic to take half a year off to craft the perfect materials for a class that was going to be taken by ~15 students a semester. The lack of good materials meant that I had to spend much of my time in class on adjusting materials dynamically – at the end of the day, I was completely exhausted. Surely, there must be a better way!&lt;/p&gt;
+
+
+
+&lt;p&gt;In response to the global pandemic, Chris Piech and Mehran Sahami decided to offer the first half of the  introductory Stanford CS class to students at large, an experiment called &lt;a href=&quot;https://codeinplace.stanford.edu/&quot;&gt;Code in Place&lt;/a&gt;. Over 800 section leaders signed up to give 6 weeks of instruction on core computational concepts in Python. Here was a completely different approach to teaching a subject: very high quality materials crafted over years at Stanford – &lt;a href=&quot;https://compedu.stanford.edu/karel-reader/docs/python/en/chapter1.html&quot;&gt;including a robot-control environment in Python called Karel&lt;/a&gt; – given in a hybrid setting, with the section leader (aka TA) holding Q&amp;amp;A sessions and solving test problems with students in an inverted classroom setting. And it worked! Students were engaged and stuck around, and they worked on self-directed projects to continue their learning. What I found is that by not having to focus so much on materials prep and the fallout from having so-so materials, I had more time to connect with the students on an emotional, social level – understanding what they’re stuck on, where they’re coming from, what their motivations are, etc.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large&quot;&gt;&lt;a href=&quot;https://xcorr.files.wordpress.com/2021/03/image.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7558&quot; data-attachment-id=&quot;7558&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2021/03/image.png?w=328&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2021/03/image.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2021/03/image.png&quot; data-orig-size=&quot;328,254&quot; data-permalink=&quot;https://xcorr.net/image-7/&quot; src=&quot;https://xcorr.files.wordpress.com/2021/03/image.png?w=328&quot; /&gt;&lt;/a&gt;Karel is an environment where students can learn basis of programming, including variables, if statements, for loops and decomposition, by controlling a cute robot on a grid called Karel&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;A few weeks into Code In Place, I came across Konrad Kording’s Twitter post looking for NMA volunteers. By that time, they had a core team – Megan in the Exec role, Sean as finance guru, Brad as ops, Konrad as dreamer, Gunnar and Paul on curriculum. They had just gotten started, they needed people with technical skills. I took on the technical chair, things escalated, and within a few weeks I was CTO and along with many other, was doing NMA full time. My time in industry proved to be an asset  – working with short deadlines, focusing on shipping, and managing relationships with a large interdisciplinary team. Pretty soon, I was helping coordinate dozens of volunteers, a growth experience that I didn’t know I was ready for. So &lt;a href=&quot;https://xcorr.net/2020/02/18/how-i-got-a-job-in-industry/&quot;&gt;if you’re wondering whether industry is right for you&lt;/a&gt;, if you want to build big things and manage big collaborations in the future, I think it’s a great place to get that experience.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Deciding what to build&lt;/h2&gt;
+
+
+
+&lt;p&gt;When you first get started on a large project like this, you get overwhelmed with ideas about what it is that you’re trying to build. One framework for orienting your thoughts are the &lt;a href=&quot;https://www.darpa.mil/work-with-us/heilmeier-catechism&quot;&gt;Heilmeier questions&lt;/a&gt;:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;What are you trying to do? Articulate your objectives using absolutely no jargon.&lt;/li&gt;&lt;li&gt;How is it done today, and what are the limits of current practice?&lt;/li&gt;&lt;li&gt;What is new in your approach and why do you think it will be successful?&lt;/li&gt;&lt;li&gt;Who cares? If you are successful, what difference will it make?&lt;/li&gt;&lt;li&gt;What are the risks?&lt;/li&gt;&lt;li&gt;How much will it cost?&lt;/li&gt;&lt;li&gt;How long will it take?&lt;/li&gt;&lt;li&gt;What are the mid-term and final “exams” to check for success?&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;If you can answer these questions, you know what you’re building, and you can get a team to congregate around those ideas. This isn’t very different, conceptually, from writing a grant. For us, it was really the fundraising document that formalized a lot of our early brainstorming The answer to these questions could be written simply as:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;We’re building an online, 3-week intensive summer school in computational neuroscience. It will be cheap (100$ or less to attend) and accessible to all.&lt;/li&gt;&lt;li&gt;Traditional summer schools offer a great experience and the chance to create life-long scientific networks, but they are elitist and expensive. MOOCs are cheap and accessible to all but a vanishingly small percentage of people actually complete them because they don’t foster belonging. &lt;/li&gt;&lt;li&gt;We create high-quality videos and interactive notebooks and we deliver them in pods of students matched to TAs. We offer the close-knit experience of traditional summer schools with the accessibility of MOOCs in a new hybrid model. People are bored and alone because of COVID so we have a unique opportunity to show that this online inverted classroom model can work.&lt;/li&gt;&lt;li&gt;We’ll bring cheap high-quality education to thousands of people and will set the standard for open source educational materials for years to come. We can bring the model to many other areas of science.&lt;/li&gt;&lt;li&gt;Execution risk and legal risk&lt;/li&gt;&lt;li&gt;1500$ for each TA, and we’re aiming for 200 TAs&lt;/li&gt;&lt;li&gt;We’re launching July 13th&lt;/li&gt;&lt;li&gt;We’ll track attendance, completion metrics, students surveys, website statistics, etc. to have a 360 view of our impact. Our core metric is completion of the class and we aim for 80% completion.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;Within each committee, you can take Heilmeier’s questions and consider their relevance to your  committee’s duties. The curriculum committee’s goal might be to create high-quality materials for the class, while the technical committee might aim to deliver 99% uptime during the class. The point is to try to have clarity on your goals so that when crunch time happens you can prioritize.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Running on enthusiasm&lt;/h2&gt;
+
+
+
+&lt;p&gt;I was really enthusiastic about taking what I learned from Code in Place and bringing that to computational neuroscience. The core team had been thinking about a new kind of summer school for years before NMA got started and they were ready to tap into their network to jump start the effort. In the early days, being enthusiastic about the project and having a great story to tell are instrumental in finding volunteers. We’re democratizing education! We’re bringing grad-level education to underserved communities! We’re doing something no one’s ever done! &lt;/p&gt;
+
+
+
+&lt;p&gt;I volunteer at a soup kitchen, and one thing they emphasized during our training is that a volunteer’s time is a  gift. You have to have a pipeline that translates a volunteer’s enthusiasm into action, otherwise you’re refusing to accept that gift, and that’s frustrating for the volunteer. At first, we would bring new people into our slack workspace and expected them to find their way. We realized pretty soon that having people in the slack is just the first step – you need to have a plan to retain volunteers. This became especially true as the slack workspace shot up to hundreds, sometimes thousands of messages a day. Empathize with those poor people just joining in being bombarded with way too much information! &lt;/p&gt;
+
+
+
+&lt;p&gt;For the technical committee, what worked well to engage new volunteers is to do a task triage. There’s a backlog of stuff that needs to be done – update the website, crank out some forms, clean up the github page, prepare the forum, etc. In a synchronous meeting, you go through the backlog and people volunteer to take on different tasks. That means your committee head needs to have tasks partly groomed beforehand. They pull up the Kanban board during the meeting and fill it in – we used &lt;a href=&quot;http://quire.io/&quot;&gt;quire&lt;/a&gt;, but Asana or even just a Google doc could work equally well. Everybody gets a chance to pitch in, and confusion about the scope of each task can be resolved during the meeting. It’s also a big team-building exercise: you get to see other people pitch in. We applied this method to build several efforts, including bootstrapping the technical team, the video editing team, the waxers team (see later), community managers, etc.&lt;/p&gt;
+
+
+
+&lt;p&gt;If you prefer the asynchronous route, Github tasks with a good-for-first-timers tag can be useful. Regardless of the software you use, you want to embody openness: you want tasks to be done to be radically transparent and for volunteers to feel maximal agency. This is a common model for open source communities that can be fruitfully adapted to education.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Running like clockwork&lt;/h2&gt;
+
+
+
+&lt;p&gt;Assigning tasks of different sizes and priority as a backlog grooming session is great to engage new volunteers, but you will also need to do time-sensitive tasks. For time-sensitive things, you need a Gantt chart with a detailed day-by-day breakdown of tasks to be done with somebody accountable for each task (the single-threaded owner). I was taught the arcane art of Gantt charts by my colleagues Keith and Frances at Facebook, alums of Fitbit and the Apple hardware team. Let me tell you something, if you want to get stuff done on time, somebody that knows how to ship hardware will make it happen – when you build consumer products, you have to ship them on time, no matter what.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;a href=&quot;https://xcorr.files.wordpress.com/2021/03/image-1.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7560&quot; data-attachment-id=&quot;7560&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image-1&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2021/03/image-1.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2021/03/image-1.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2021/03/image-1.png&quot; data-orig-size=&quot;1172,463&quot; data-permalink=&quot;https://xcorr.net/image-1-2/&quot; src=&quot;https://xcorr.files.wordpress.com/2021/03/image-1.png?w=1024&quot; /&gt;&lt;/a&gt;The arcane art of the Gantt chart&lt;/figure&gt;
+
+
+
+&lt;p&gt;For an online summer school, that means having deadlines for student admissions, TA applications, first drafts of content, second drafts of content, reviews, editing, posting on github, etc. for every single day of content. The deadlines should be visible to everybody, and the people responsible for them should be accountable. &lt;a href=&quot;https://twitter.com/emdupre&quot;&gt;Elizabeth DuPre&lt;/a&gt; pointed me to &lt;a href=&quot;https://www.youtube.com/watch?v=o_4EX4dPppA&amp;amp;ab_channel=StrangeLoopConference&quot;&gt;this talk by the creator of Elm&lt;/a&gt; – in open source projects, the right culture doesn’t just happen by accident, culture happens because norms are defined and reinforced. “Deadlines matter” is a norm that is different than what most people are used to in the context of giving instruction. If you’re giving your own class, you can keep editing your slides up to 2 minutes before the class. You can’t do that at NMA – your slides will be reviewed, your video recording will be edited, your video will be captioned, etc. – if you hand in your slides late, everybody down the pipeline suffers. &lt;/p&gt;
+
+
+
+&lt;p&gt;If you want deadlines to matter you have to will them into existence by making them a norm inside of an organization and reinforcing that by making them visible to everybody. Keeping track of these deadlines eventually led to a daily cadence of standups, which I ran – ironic because I always hated standups in industry. Konrad once called me “a little German” for my insistence on deadlines, which is very funny since I’m almost absurdly disorganized in my personal life.  Being inside of a big org is different. &lt;a href=&quot;https://plato.stanford.edu/entries/contractualism/&quot;&gt;It’s an embodiment of a deeper principle of contractualism&lt;/a&gt; – we define and agree on what we owe to each other and bind ourselves to that, and that’s what defines morality within our community. The upside of that is the contract is multilateral. When we couldn’t get the ideal matching method between TAs and students to work on time, but we had a “good enough” version that was working, I could say to others that we have to ship the good enough version today, because we agreed to it; it gave me cover, even though it was an unpopular decision. That kind of clarity in planning and expectations avoids a lot of friction later on. &lt;/p&gt;
+
+
+
+&lt;h2&gt;You need good tools to work productively with each other&lt;/h2&gt;
+
+
+
+&lt;p&gt;In &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;The Mythical Man-Month&lt;/a&gt;, Fred Brooks claims that “adding [more programmers] to a late software project makes it later”. When you have dozens of contributors to an open-source education curriculum, how do you avoid that? You need good tools. One of the first things that the technical team worked on was a smoke test for notebooks. We were worried that one of the notebooks that we use for teaching might break. Notebooks are designed for exploration and can be pretty brittle – a simple cell execution order inconsistency can break a notebook. If multiple people are editing and pushing notebooks, it’s almost guaranteed that a notebook will break at some point. If a notebook is broken, an individual TA might not have enough context to diagnose the problem, and we would have to broadcast to our 200 TAs a fix, which would be stressful for TA and student alike.&lt;/p&gt;
+
+
+
+&lt;p&gt;So we started with a really simple smoke test, written by Marco. When you push notebooks to Github, the continuous integration kicks in, runs your notebook from scratch, and check whether it runs. From these humble beginnings, Michael Waskom built an intricate continuous integration (CI) pipeline to check that the code runs, that the style is consistent, and to generate versions of the notebooks for students and TAs, etc. This is the thing that allowed the editors to push better versions of the notebooks on a regular basis, and proved invaluable during a time crunch.&lt;/p&gt;
+
+
+
+&lt;p&gt;Similarly, we used an online video editing tool (&lt;a href=&quot;https://www.wevideo.com/&quot;&gt;WeVideo&lt;/a&gt;) rather than an offline one because it allowed multiple people to contribute to video editing. That allowed Tara to oversee a dozen video editors and reassign tasks when necessary.&lt;/p&gt;
+
+
+
+&lt;h2&gt;You need good organization to work productively with each&lt;/h2&gt;
+
+
+
+&lt;p&gt;The easiest way to get a lot of people to contribute lots of content is to have them work in silos. Each of our instruction days was more or less independent of the others, so it made sense to have different people work on each independently. The downside to this approach is that it makes for a jumbled experience for the student. Novice learners, who don’t yet have proficiency in a subject, can easily be thrown off by a change in notation, nomenclature, or tone. Day leaders created one pagers far ahead of the content so we could diagnose missing prerequisites, incompatible learning objectives and big bumps in difficulty throughout the days. But that wasn’t enough.&lt;/p&gt;
+
+
+
+&lt;p&gt;The biggest contributors to a smooth experience for the students were pre-pods and waxers. When I was giving an introductory CS class, I could see the looks of confusion on student’s faces. I could adjust the content in realtime (a high-wire experience, do not recommend). Ideally I would have had another test classroom run through the content in real time to give me detailed notes so I could improve the content before I gave the class in front of the actual students. That’s exactly what we did with pre-pods: we hired a dozen TAs to test the content 3 weeks before the real class (pods before the real ones; hence pre-pods). They gave 360 feedback at the micro level (e.g. typos) and macro level (e.g. changes in difficulty from day to day) which could then be taken into account by the content creators. It’s not adversarial like peer review can sometimes feel – everybody is on the same side. It’s similar to UI/UX testing, where you put your product in front of naive users and watch them destroy it from the other side of the one-way mirror so you can make a better product. &lt;a href=&quot;https://rework.withgoogle.com/guides/design-thinking/steps/introduction/&quot;&gt;This kind of design thinking&lt;/a&gt; – ship early, ship often, iterate – can be applied to all aspects of open source education.&lt;/p&gt;
+
+
+
+&lt;p&gt;The other thing we realized is that writing good notebooks is really hard: it requires the confluence  understanding the content (domain knowledge in comp neuro), programming, and radical empathy towards the learner (caring about androgogy). You also need an understanding of the house style,  context across days, and knowing the quirks of the Github CI. We needed a dedicated team to polish content, the waxers (we call them editors outside of NMA, but internally the name stuck). Waxers had to have the most stressful job of all, and I would often see messages exchanged on slack at 3-4 in the morning about content that needed to be ready for the next day. But it worked! The notebooks were a highlight of the NMA experience, and they will keep giving value to the community for a long time.&lt;/p&gt;
+
+
+
+&lt;p&gt;Ella, Michael, Tara, Madineh and I presented our pipeline for the content in this talk:&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;&lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+&lt;div class=&quot;jetpack-video-wrapper&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+
+
+
+&lt;h2&gt;Be the change you wish to see&lt;/h2&gt;
+
+
+
+&lt;p&gt;My manager at Facebook often talked about positive risk: if you shoot for the moon, sometimes you can actually overshoot and accomplish more than you intended. That always sounded like nonsense to me – &lt;a href=&quot;https://en.wikipedia.org/wiki/Murphy%27s_law&quot;&gt;I’m a firm believer in Murphy’s law&lt;/a&gt; – but I had a chance to witness things going unexpectedly right at NMA. We planned many things, and delivered on what we planned, but perhaps our greatest success was fairly unexpected: pods worked. When we put students together with TAs, and had them interact closely for hours at a time in peer programming, they created bonds. Those bonds tapped into the students’ intrinsic motivation to be part of a community, and they felt belonging. When the going got tough, and they felt overwhelmed, they tapped into that support network to keep them going one more day. That’s how 87% of students managed to finish the class. One TA described the students tearing up on the last day and staying up till late in the morning to say goodbyes. Yes, materials are important, but in androgogy you also need to answer students’ emotional needs. That’s the biggest differentiator between NMA and a MOOC.&lt;/p&gt;
+
+
+
+&lt;p&gt;Building that experience required a ton of time from many dedicated and passionate people, people that wanted to make a difference. Sometimes emotions ran high and I butted heads – I can be a difficult person and that’s something I need to work on. Sometimes we had legitimate disagreements, but oftentimes we were just stressed and sleep-deprived, and we were able to apologize and move on. We were able to deliver a great experience, produce a new model for online learning, and we created bonds with each other that will follow us for a long time. Should you decide to embark on a expansive adventure like that? In the words of Edwin Land (stolen from Jack Gallant’s email signature):&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;Don’t undertake a project unless it is manifestly important and nearly impossible&lt;/p&gt;&lt;cite&gt;Edwin Land&lt;/cite&gt;&lt;/blockquote&gt;
+
+
+
+&lt;p&gt;I’d like to thank the organizers, Megan, Brad, Gunnar, Konrad, Paul, Kate, Carsen, Xaq, Aina, Athena, Eric, John, Alex, Yiota, Emma and Beth; the waxers Michael, Madineh, Ella, Matt, Richard, Jesse, Byron, Saeed, Ameet, Spiros; everybody that contributed to technical, Titipat, Jeff, Marco, Arash, Adam, Natalie, Guga, and Tara; and everyone who contributed, whether a few hours or weeks at a time.&lt;/p&gt;
+
+
+
+&lt;p&gt;Do you want to join a motley crew of education disruptors? &lt;a href=&quot;https://twitter.com/neuromatch&quot;&gt;Volunteer for NMA 2021 – calls are broadcast on Twitter&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2021-03-25T20:30:13+00:00</dc:date>
+	<dc:creator>xcorr</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/?p=3097858">
 	<title>Science News: A gene defect may make rabbits do handstands instead of hop</title>
@@ -509,7 +685,7 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 
 
 
-&lt;p&gt;Previous studies have shown that property deeds were written on a range of animal skins, such as goat, calf and sheep. But it turns out &lt;a href=&quot;https://heritagesciencejournal.springeropen.com/articles/10.1186/s40494-021-00503-6&quot;&gt;sheepskin was the parchment of choice&lt;/a&gt;, researchers report March 24 in &lt;em&gt;Heritage Science&lt;/em&gt;.  An analysis of proteins extracted from 645 samples from 477 British legal documents dating from the 16th to the 20th century shows that 622, or 96.4 percent, contained sheepskin.&lt;/p&gt;
+&lt;p&gt;Previous studies have shown that property deeds were written on a range of animal skins, such as goat, calf and sheep. But it turns out &lt;a href=&quot;https://heritagesciencejournal.springeropen.com/articles/10.1186/s40494-021-00503-6&quot;&gt;sheepskin was the parchment of choice&lt;/a&gt;, researchers report March 24 in &lt;em&gt;Heritage Science&lt;/em&gt;.  An analysis of proteins extracted from 645 samples from 477 British legal documents dating from the 16th to the 20th century shows that 622, or 96.4 percent, were made of sheepskin.&lt;/p&gt;
 
 
 
@@ -690,7 +866,7 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 
 
 
-&lt;p&gt;In1998, one research team announced apparent success. An &lt;a href=&quot;http://people.roma2.infn.it/~dama/web/home.html&quot;&gt;experiment called DAMA&lt;/a&gt; (for DArk MAtter, get it?), consisting of a particle detector buried under the Italian Alps, seemingly did detect particles with properties matching some physicists’ expectations for a dark matter signal.&lt;/p&gt;
+&lt;p&gt;In 1998, one research team announced apparent success. An &lt;a href=&quot;http://people.roma2.infn.it/~dama/web/home.html&quot;&gt;experiment called DAMA&lt;/a&gt; (for DArk MAtter, get it?), consisting of a particle detector buried under the Italian Alps, seemingly did detect particles with properties matching some physicists’ expectations for a dark matter signal.&lt;/p&gt;
 
 
 
@@ -4909,48 +5085,6 @@ Overall, about 310 books and 34 journals will be published OA in 2021. These inc
 	<content:encoded>Exceptional times call for exceptional men. In Israel, men of science boldly step forward to face the coronavirus, armed with miracle cures. Pandemic, like a good war, is always good for business.</content:encoded>
 	<dc:date>2021-02-08T06:30:00+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="tag:ocns.github.io,2021-02-07:/SoftwareWG/2021/02/07/dev-session-ankur-sinha-neurofedora.html">
-	<title>INCF/OCNS Software Working Group: Dev session: Ankur Sinha: NeuroFedora</title>
-	<link>https://ocns.github.io/SoftwareWG/2021/02/07/dev-session-ankur-sinha-neurofedora.html</link>
-	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;&lt;img alt=&quot;The NeuroFedora project&quot; class=&quot;img-responsive&quot; src=&quot;https://ocns.github.io/SoftwareWG/images/20210207-NeuroFedoraLogo.png&quot; style=&quot;width: 25%;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-&lt;br /&gt;&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://ankursinha.in&quot;&gt;Ankur Sinha&lt;/a&gt; will introduce the &lt;a class=&quot;reference external&quot; href=&quot;https://www.fsf.org/blogs/community/user-liberation-watch-and-share-our-new-video/&quot;&gt;Free/Open Source Software&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; project and discuss its development in this developer session.&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;Date: Feb 16, 2021 1700 &lt;span class=&quot;caps&quot;&gt;UTC&lt;/span&gt; (Click &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=Dev+session%3A+Ankur+Sinha%3A+NeuroFedora&amp;amp;iso=20210216T17&amp;amp;p1=136&amp;amp;ah=1&quot;&gt;here&lt;/a&gt;  to see your local time).&lt;/li&gt;
-&lt;li&gt;Location (Zoom): &lt;a class=&quot;reference external&quot; href=&quot;https://ucl.zoom.us/j/94964460359?pwd=MTJmWEY1NHRxd3l4ZGdtTS9NQ1FaZz09&quot;&gt;https://ucl.zoom.us/j/94964460359?pwd=MTJmWEY1NHRxd3l4ZGdtTS9NQ1FaZz09&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The abstract for the talk is below:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is an initiative to provide a ready to use Fedora based Free/Open source software platform for neuroscience.
-We believe that similar to Free software, science should be free for all to use, share, modify, and study.
-The use of Free software also aids reproducibility, data sharing, and collaboration in the research community.
-By making the tools used in the scientific process easier to use, NeuroFedora aims to take a step to enable this ideal.
-In this session, I will talk about the deliverables of the &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; project and then go over the complete pipeline that we use to produce, test, and disseminate them.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-02-07T17:27:54+00:00</dc:date>
-	<dc:creator>Ankur Sinha</dc:creator>
-</item>
-<item rdf:about="tag:ocns.github.io,2021-02-07:/SoftwareWG/2021/02/07/dev-session-marcel-stimberg-brian-simulator.html">
-	<title>INCF/OCNS Software Working Group: Dev session: Marcel Stimberg: Brian Simulator</title>
-	<link>https://ocns.github.io/SoftwareWG/2021/02/07/dev-session-marcel-stimberg-brian-simulator.html</link>
-	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://briansimulator.org/&quot;&gt;&lt;img alt=&quot;The Brian Simulator&quot; class=&quot;img-responsive&quot; src=&quot;https://ocns.github.io/SoftwareWG/images/20210208-brian-logo.webp&quot; style=&quot;width: 25%;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-&lt;br /&gt;&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://www.computational-neuroscience-of-sensory-systems.org/people/marcel-stimberg/&quot;&gt;Marcel Stimberg&lt;/a&gt; will introduce the &lt;a class=&quot;reference external&quot; href=&quot;https://briansimulator.org/&quot;&gt;Brian Simulator&lt;/a&gt; and discuss its development for the first developer session of the year.&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;Date: Feb 11, 2021 1700 &lt;span class=&quot;caps&quot;&gt;UTC&lt;/span&gt; (Click &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=Dev+session%3A+Marcel+Stimberg%3A+Brian+Simulator&amp;amp;iso=20210211T17&amp;amp;p1=136&amp;amp;ah=1&quot;&gt;here&lt;/a&gt;  to see your local time).&lt;/li&gt;
-&lt;li&gt;Location (Zoom): &lt;a class=&quot;reference external&quot; href=&quot;https://ucl.zoom.us/j/91389216854?pwd=cFVWaXRYVFRUdll2c09Xb3dBS2FWQT09&quot;&gt;https://ucl.zoom.us/j/91389216854?pwd=cFVWaXRYVFRUdll2c09Xb3dBS2FWQT09&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The abstract for the talk is below:&lt;/p&gt;
-&lt;p&gt;The &lt;a class=&quot;reference external&quot; href=&quot;https://briansimulator.org/&quot;&gt;Brian Simulator&lt;/a&gt; is a free, open-source simulator for spiking neural networks, written in Python.
-It provides researchers with the means to express any kind of neural model in mathematical notation and takes care of translating these model descriptions into efficient executable code.
-During this dev session I will first give a quick introduction to the simulator itself and its code generation mechanism.
-I will then walk through Brian’s code structure, our automatic systems for tests and documentation, and demonstrate how we work on its development.
-The Brian simulator welcome contributions on many levels, hopefully this dev session will give you an idea where to start.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-02-07T16:55:48+00:00</dc:date>
-	<dc:creator>Ankur Sinha</dc:creator>
 </item>
 
 </rdf:RDF>
