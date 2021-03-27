@@ -694,6 +694,34 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 
 
 
+&lt;h2&gt;Making decisions under uncertainty&lt;/h2&gt;
+
+
+
+&lt;p&gt;How do you make decisions swiftly and effectively in a big org? We had hundreds of volunteers; &lt;a href=&quot;https://osf.io/9fp4v/&quot;&gt;134 authors on the curriculum paper alone&lt;/a&gt;. 134 very smart people cannot all be of the same opinion at the same time in the face of uncertainty. The first step to make decisions effectively is to separate decision making and execution. It’s very easy to leave a lot of decisions to be implicit until it’s crunch time. It happened a couple of times that I made a medium-scale decision or encouraged other people to make medium-scale decisions during a daily standup meeting. Big mistake. A lot of people affected by the decisions weren’t in the room; they felt unheard and now burdened to go to a daily meeting to stay in the loop. Don’t do that – take bigger decisions in separate planning meetings. Every software methodology has some notion of a planning meeting, whether &lt;a href=&quot;https://en.wikipedia.org/wiki/Waterfall_model&quot;&gt;waterfall&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Scrum_(software_development)&quot;&gt;scrum&lt;/a&gt; or whatever – by the end of that meeting you should be clear about what to do for the next week or month. &lt;/p&gt;
+
+
+
+&lt;p&gt;One thing that can sap a lot of energy at these meetings is having circular arguments: revisiting the same question in subsequent meetings even though you thought you had come to an agreement. Sometimes, one person thinks a decision was made, while another thinks things were still under discussion. Write down decisions in meeting notes, share them with everyone.&lt;/p&gt;
+
+
+
+&lt;p&gt;Some orgs in the for-profit sector are hierarchical, so that disagreements get resolved top-down. That doesn’t really work in the non-profit sector, where people are there on a volunteer basis. In non-profit and in open source communities, many orgs thus use consensus-based decision making. I think pure consensus-based decision making is very difficult to get right. I’m a member of a not-for-profit makerspace that’s built on anarchist principles. We use consensus-based decision-making, and it gets rowdy: flame wars on our message board are not infrequent, whether it’s about resource allocation and who gets the space when and whose responsibility it is to take the trash out. Pure consensus-based decision making can have an insidious effect that people that are not in agreement with the majority are left isolated as “difficult” and “not a team player”. That can breed resentment, which leads to personality clashes, which leads to dysfunction: decision making grinds to a halt.&lt;/p&gt;
+
+
+
+&lt;p&gt;There’s an alternative to pure consensus-based decision making: &lt;a href=&quot;https://en.wikipedia.org/wiki/Disagree_and_commit&quot;&gt;disagree and commit&lt;/a&gt;. You replace the norm that consensus must be reached with an alternative norm:&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt;everybody’s opinion should be understood &lt;/li&gt;&lt;li&gt;decisions are made based on majority or supermajority&lt;/li&gt;&lt;li&gt;it’s ok to disagree with a decision but we all bound ourselves to the decision&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;p&gt;To make sure that you understand somebody’s opinion – especially an opinion you don’t agree with –  you can use the &lt;a href=&quot;https://constantrenewal.com/steel-man/&quot;&gt;Steel Man technique&lt;/a&gt;. You restate the strongest version of their argument and engage with that. Oftentimes that will resolve whatever argument you had in the first place, or prepare you to build a hybrid solution. If you don’t come to a resolution, at least everyone will understand that they have been heard and understood. Decisions can take place in realtime in a synchronous meeting, or through a polling app in Slack (if a poll, put a deadline on it so it doesn’t drag on; in either case, quorum should be reached). If somebody disagreed with the decision, the norm says that that’s good and healthy, as long as they commit to the decision like everyone, so it doesn’t breed resentment in the long term. &lt;/p&gt;
+
+
+
 &lt;h2&gt;Be the change you wish to see&lt;/h2&gt;
 
 
