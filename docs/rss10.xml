@@ -16,6 +16,10 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-10-03:/2021/10/03/minkowski-metric-feature-weighting-and-anomalous-cluster-initializing-in-k-means-clustering.html" />
+			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41760" />
+			<rdf:li rdf:resource="https://retractionwatch.com/?p=121897" />
+			<rdf:li rdf:resource="https://science.thewire.in/the-sciences/sci-hub-case-academics-urge-court-to-rule-against-extortionate-practices/" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3098481" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3098332" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3098327" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3098319" />
@@ -51,7 +55,6 @@
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3098000" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41702" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=121822" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3097980" />
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12320" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18771" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41691" />
@@ -85,7 +88,6 @@
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41605" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41592" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=56945" />
-			<rdf:li rdf:resource="https://retractionwatch.com/?p=121739" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-03-17:/2021/03/17/how-to-exploit-fitness-landscape-properties-of-timetabling-problem-a-new-operator-for-quantum-evolutionary-algorithm.html" />
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18747" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41579" />
@@ -104,7 +106,6 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12301" />
 			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41474" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=56644" />
-			<rdf:li rdf:resource="http://digest.bps.org.uk/?p=41468" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=56599" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/journal-pilot-appends-corrections-when-articles-are-downloaded" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=145788" />
@@ -164,7 +165,6 @@
 			<rdf:li rdf:resource="http://blogs.biomedcentral.com/bmcseriesblog/?p=12248" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/why-open-access-can-offer-different-possibilities-for-societies" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=55994" />
-			<rdf:li rdf:resource="http://gracewlindsay.com/?p=582" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -200,6 +200,149 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 &lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
 	<dc:date>2021-10-03T14:01:00+00:00</dc:date>
 	<dc:creator>Deepak Panday</dc:creator>
+</item>
+<item rdf:about="http://digest.bps.org.uk/?p=41760">
+	<title>The British Psychological Society - Research Digest: We Have A Strong Urge To Find Out What Might Have Been — Even When This Leads To Feelings Of Regret</title>
+	<link>https://digest.bps.org.uk/2021/04/08/we-have-a-strong-urge-to-find-out-what-might-have-been-even-when-this-leads-to-feelings-of-regret/</link>
+	<content:encoded>&lt;p&gt;&lt;em&gt;By guest blogger &lt;/em&gt;&lt;a href=&quot;https://twitter.com/AGreenburgh&quot;&gt;Anna Greenburgh&lt;/a&gt;&lt;em&gt; &lt;/em&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Regret seems to be a fundamental part of the human experience. As James Baldwin wrote, “Though we would like to live without regrets, and sometimes proudly insist that we have none, this is not really possible, if only because we are mortal.” Expressions of regret are easy to find throughout the history of thought, and, as indicated in the Old Testament, intrinsic to regret is a sense of emotional pain: “God regretted making humans on earth; God’s heart was saddened”.&lt;/p&gt;
+
+
+
+&lt;p&gt;Given the aversive experience of regret, traditional models of decision-making predict that people should to try to avoid it. But of course, the picture is more complex — we all have experienced the desire to know &lt;em&gt;what might have been, &lt;/em&gt;even if it leads to regret&lt;em&gt;. &lt;/em&gt;Now &lt;a href=&quot;https://journals.sagepub.com/doi/pdf/10.1177/0956797620963615&quot;&gt;a study in &lt;em&gt;Psychological Science&lt;/em&gt;&lt;/a&gt;, led by Lily FitzGibbon at the University of Reading, finds that the lure of finding out what might have been is surprisingly enticing.&lt;/p&gt;
+
+
+
+&lt;span id=&quot;more-41760&quot;&gt;&lt;/span&gt;
+
+
+
+&lt;p&gt;Across six experiments, the researchers employed the Balloon Analogue Risk Task (BART) in which participants are required to inflate a computer animation of a balloon. The more they inflate the balloon, the greater the participant’s payoff — but each balloon has a randomly assigned “safe limit” above which it pops, and the participant is paid nothing.&lt;/p&gt;
+
+
+
+&lt;p&gt;In each trial, participants decided how many times to pump up the balloon and were then shown the trial outcome: whether the balloon popped (“bust” trials), or remained inflated thereby giving participants a reward (“bank” trials). After this outcome was revealed, they had the opportunity to seek “counterfactual” information — that is, feedback about alternative possible outcomes; in this case, how far they could have pumped the balloon safely in the trial and how much they could have won. Importantly, as the balloons’ safe limits varied randomly across trials, this information could not help performance later on in the task. Participants were asked to rate their emotional state, from sad to happy, after learning the outcome of the trial, and indicate whether this emotional state had changed after receiving the counterfactual information.&lt;/p&gt;
+
+
+
+&lt;p&gt;The researchers examined how often participants sought counterfactual information, as well as its emotional effects. They focussed their analysis on “bank” trials as these trials were expected to clearly elicit regret: counterfactual information on these trials normally signified a missed opportunity as the participant could usually have inflated the balloon more and therefore earned a higher reward.&lt;/p&gt;
+
+
+
+&lt;p&gt;Across all experiments, participants seemed to experience regret in “bank” trials: they felt significantly worse after receiving counterfactual information. Unsurprisingly, the greater the missed opportunity, the worse the participants felt. But even though this information elicited regret, counterfactual curiosity was high: participants requested feedback in 46% of “bank” trials across all the main experiments, and 71% in a replication study.&lt;/p&gt;
+
+
+
+&lt;p&gt;Strikingly, participants even spent money to receive counterfactual information: although counterfactual curiosity was higher when information was free, when they had to pay for it, they still requested feedback on 18% of bank trials. Similarly, in experiments where participants needed to exert physical effort to obtain counterfactual information, they requested feedback around half the time. This underlines how difficult it is to resist the motivational pull of learning about missed opportunities.&lt;/p&gt;
+
+
+
+&lt;p&gt;The counterfactual curiosity observed in “bank” trials also had detrimental effects on participants’ performance. After receiving such feedback, participants took greater risks on subsequent trials, which had a negative effect on the number of points won, particularly when this behavioural adjustment was large. This highlights a mechanism likely relevant to gambling problems: counterfactual curiosity can exacerbate damaging gambling behaviour.&lt;/p&gt;
+
+
+
+&lt;p&gt;While many regrets in life pertain to our own mistakes made in isolation, as social beings we continually fret over interactions with others. Of course, the BART is an abstract paradigm so the study cannot speak to regrets of a more social nature. While this is a question for future research, the strength of counterfactual curiosity exposed in the paper might suggest that many of us have a morbid curiosity to seek out regret in all forms.&lt;/p&gt;
+
+
+
+&lt;p&gt;– &lt;a href=&quot;https://journals.sagepub.com/doi/pdf/10.1177/0956797620963615&quot;&gt;The Lure of Counterfactual Curiosity: People Incur a Cost to Experience Regret&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Post written by &lt;a href=&quot;https://twitter.com/AGreenburgh&quot;&gt;Anna Greenburgh&lt;/a&gt; for the &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;. is a PhD student at University College London in Cognitive Science and Clinical Psychology. Her research investigates social cognition across the paranoia spectrum and in psychosis. She has written for academic journals as well as magazines such as &lt;em&gt;Psyche&lt;/em&gt;. &lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;At Research Digest we’re proud to showcase the expertise and writing talent of our community. &lt;a href=&quot;https://digest.bps.org.uk/guest-writers/&quot;&gt;Click here for more about our guest posts&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2021-04-08T10:14:43+00:00</dc:date>
+	<dc:creator>BPS Research Digest</dc:creator>
+</item>
+<item rdf:about="https://retractionwatch.com/?p=121897">
+	<title>Retraction watch: Apparent HeLa cell line mixup earns a paper an expression of concern</title>
+	<link>https://retractionwatch.com/2021/04/08/apparent-hela-cell-line-mixup-earns-a-paper-an-expression-of-concern/</link>
+	<content:encoded>A journal has issued an expression of concern for a 2011 paper after recognizing that the researchers may have been using contaminated cell lines.  The article, “Downregulation of NIN/RPN12 binding protein inhibit [sic] the growth of human hepatocellular carcinoma cells,” appeared in Molecular Biology Reports, a Springer Nature title. In it, the authors, from China … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/04/08/apparent-hela-cell-line-mixup-earns-a-paper-an-expression-of-concern/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Apparent HeLa cell line mixup earns a paper an expression of concern&lt;/span&gt;&lt;/a&gt;</content:encoded>
+	<dc:date>2021-04-08T10:00:00+00:00</dc:date>
+	<dc:creator>Adam Marcus</dc:creator>
+</item>
+<item rdf:about="https://science.thewire.in/the-sciences/sci-hub-case-academics-urge-court-to-rule-against-extortionate-practices/">
+	<title>Open Access Tracking Project: news: Sci-Hub Case: Academics Urge Court To Rule Against ‘Extortionate Practices’</title>
+	<link>https://science.thewire.in/the-sciences/sci-hub-case-academics-urge-court-to-rule-against-extortionate-practices/</link>
+	<content:encoded>A piece of News about the signed a statement by urging the Delhi high court to rule against three publishers that have petitioned the court to have access to Sci-Hub and Libgen blocked in India.</content:encoded>
+	<dc:date>2021-04-08T00:16:00+00:00</dc:date>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3098481">
+	<title>Science News: AstraZeneca’s COVID-19 vaccine is tied to uncommon blood clots in rare cases</title>
+	<link>https://www.sciencenews.org/article/covid-coronavirus-astrazeneca-vaccine-blood-clots-brain-rare-cases</link>
+	<content:encoded>&lt;p&gt;In another hiccup for AstraZeneca’s COVID-19 vaccine, data suggest it is in fact linked to blood clots that have formed in the brains of some vaccinated people, the European Medicines Agency announced April 7.&lt;/p&gt;
+
+
+
+&lt;p&gt;The blood clots are incredibly rare, EMA experts say. But because COVID-19 itself is deadly and can put people in the hospital, the benefits of the vaccine still outweigh the risks, they say. “We need to use the vaccines that we have to protect us from devastating effects” of COVID-19, Emer Cooke, executive director of the EMA, said in a news conference on April 7. &lt;/p&gt;
+
+
+
+&lt;p&gt;The EMA had previously concluded that the vaccine, developed by AstraZeneca and the University of Oxford, &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-astrazeneca-vaccine-blood-clots-safety-experts&quot;&gt;was not linked to blood clots overall&lt;/a&gt; (&lt;em&gt;SN: 3/18/21&lt;/em&gt;). But experts were uncertain about 18 case reports of blood clots in the sinuses that drain blood from the brain, a rare condition called cerebral venous sinus thrombosis or CVST.&lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
+
+
+
+
+
+&lt;p&gt;Enough data has now accrued to implicate the jab’s involvement in those rare blood clots, meaning CVST and similar conditions should be listed as a possible rare side effect of vaccination, the EMA’s Pharmacovigilance Risk Assessment Committee concluded after reviewing numerous cases reported in the United Kingdom and the European Union. As of March 22, countries had reported 62 cases of CVST out of around 25 million people who got the AstraZeneca vaccine. There were also 24 reported cases of clots in veins that drain blood from the digestive system, called splanchnic vein thrombosis or SVT. Eighteen of the people with CVST or SVT died. &lt;/p&gt;
+
+
+
+&lt;p&gt;It’s still unknown how the vaccine could cause blood clots. One potential explanation is that some people develop an immune response that attacks platelets, making them clump together, Sabine Straus, chair of the EMA committee, said in the news conference. That would make the condition similar to low platelet levels and blood clots sparked by an immune response to the anticoagulant drug heparin. One preliminary study of four people who died from blood clots after vaccination had &lt;a href=&quot;https://www.researchsquare.com/article/rs-362354/v1&quot;&gt;platelet-binding antibodies in their blood&lt;/a&gt;, researchers reported March 29 at Research Square, a preprint server. The study has not yet been reviewed by other scientists. &lt;/p&gt;
+
+
+
+&lt;p&gt;If that is the way those clots form, there are ways to treat them, Beverley Hunt, a hematologist at King’s College London, said in a call with reporters. A therapy called IVIG, which contains portions of antibodies that interact with platelets, given with non-heparin anticoagulants might help break up clots.  &lt;/p&gt;
+
+
+
+&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
+&lt;h4&gt;
+&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
+&lt;/h4&gt;
+&lt;/aside&gt;
+
+
+
+&lt;p&gt;Why the vaccine might spark clotting is also unclear. It could be related to the technology AstraZeneca used in the vaccine or something about the coronavirus protein the shot uses, Adam Finn, a pediatrician and vaccine expert at the University of Bristol in England said in a call with reporters. “We just don’t know at this point.”&lt;/p&gt;
+
+
+
+&lt;p&gt;A few people given other COVID-19 vaccines have also developed rare clots; for example, three people in the European Union and United Kingdom developed them after getting Johnson &amp;amp; Johnson’s jab. But those shots have not been not linked with clotting issues, Peter Arlett, head of data analytics and methodology at the EMA, said at the news conference.&lt;/p&gt;
+
+
+
+&lt;p&gt;Determining how often people actually do develop blood clots after their shots is difficult, since the committee is relying on vaccinated people to report their symptoms rather than routine monitoring done by experts, Straus said. So far, the reported rate differs among EU countries. In Germany, for instance, the reported rate is around 1 case of blood clots per 100,000 people while it is around 1 case per 600,000 people in the United Kingdom, Straus said. Normally, there are 1 to 2 cases per 100,000 people.&lt;/p&gt;
+
+
+
+&lt;p&gt;While the numbers are hard to parse, the reported rate of blood clots post-vaccination is still lower than that of other common medications that carry risks of the same medical issue. For women taking oral contraceptives, for instance, the rate of blood clots is 4 cases per 10,000, Arlett said.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Although most of the rare blood clots have occurred in women younger than 60 years old, the factors that could put people at risk of forming clots remain unclear, Straus said. That’s in part because some of the records do not provide all the necessary information about the people who developed clots, such as age or gender. More women than men have received the shot overall in the European Union and United Kingdom, which could also skew the results.&lt;/p&gt;
+
+
+
+&lt;p&gt;Even without clear information on risk factors, many countries have placed restrictions on the use of AstraZeneca’s vaccine. Some countries, including Denmark and Norway, have stopped using the shot. Others, like Canada and Germany, are using it only to vaccinate older adults. On April 6, the United Kingdom paused an ongoing trial of AstraZeneca’s vaccine in children 6 to 17 years old. U.K. officials now recommend that health experts offer other COVID-19 vaccines to people younger than 30 years old.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the United States, AstraZeneca plans to apply soon for emergency use authorization from the U.S. Food and Drug Administration.&lt;/p&gt;</content:encoded>
+	<dc:date>2021-04-07T21:59:08+00:00</dc:date>
+	<dc:creator>Erin Garcia de Jesús</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/?p=3098332">
 	<title>Science News: Europe’s oldest known humans mated with Neandertals surprisingly often</title>
@@ -1803,89 +1946,6 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 	<dc:date>2021-03-31T10:01:00+00:00</dc:date>
 	<dc:creator>Adam Marcus</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3097980">
-	<title>Science News: Physicists’ devotion to symmetry has led them astray before</title>
-	<link>https://www.sciencenews.org/article/physicists-symmetry-dark-matter-wimps-planets-circles</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;Second of two &lt;/em&gt;&lt;a href=&quot;https://www.sciencenews.org/article/dark-matter-mystery-deepens-demise-reported-detection&quot;&gt;&lt;em&gt;parts&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Physicists have a lot in common with Ponce de León and U2’s Bono. After decades of searching, they aren’t getting any younger. And they still haven’t found what they’re looking for.&lt;/p&gt;
-
-
-
-&lt;p&gt;In this case, the object of the physicists’ quest is SUSY. SUSY is not a real person or even a fountain relevant to aging in any way. It’s a mathematical framework based on principles of symmetry that could help physicists better explain the mysteries of the universe. Many experts believe that particles predicted by SUSY are the weakly interacting massive particles, or WIMPs, that supposedly make up the invisible “dark matter” lurking throughout the cosmos.&lt;/p&gt;
-
-
-
-&lt;p&gt;So far, though, SUSY has been something of a disappointment. Despite multiple heroic searches, SUSY has remained concealed from view. Maybe it is a mathematical mirage.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;If SUSY does turn out to be a myth, it won’t be the first time that symmetry has led science on a wild WIMP chase. Reasoning from the symmetry of circular motion originally suggested the existence of a new form of matter out in space more than two millennia ago. Devotion to that symmetry blinded science to the true nature of the solar system and planetary motion for the next 19 centuries.&lt;/p&gt;
-
-
-
-&lt;p&gt;You can blame Plato and Aristotle. In their day, ordinary matter supposedly consisted of four elements: earth, air, fire and water. Aristotle built an elaborate theory of motion based on those elements. He insisted that they naturally moved in straight lines; earth and water moving straight down (toward the center of the world), air and fire moving straight up. In the heavens, though, Aristotle noticed that motion appeared to be circular, as the stars rotated around the nighttime sky. “Our eyes tell us that the heavens revolve in a circle,” he wrote in &lt;a href=&quot;http://classics.mit.edu/Aristotle/heavens.1.i.html&quot;&gt;On the Heavens&lt;/a&gt;. Since the known four elements all moved in a straight line, Aristotle deduced that the heavens must consist of a fifth element, called aether — absent on Earth but predominant in space.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Plato, on theoretical rather than observational grounds, had already insisted that circularity’s symmetry signified perfection, and therefore circular motion should be required in the heavens. And so for centuries, the assumption that celestial motion must be circular held a stranglehold on natural philosophers attempting to understand of the universe. As late as the 16th century, Copernicus was willing to depose Aristotle’s Earth from the middle of everything but still believed that the Earth and other planets revolved around the sun with a combination of circular motions. Another half century passed before Kepler established that planetary orbits are elliptical, not circular.&lt;/p&gt;
-
-
-
-&lt;p&gt;Aristotle’s belief in an exotic form of matter in space is not so different from the picture scientists paint of the heavens today, albeit in a rather more rigorous and sophisticated theoretical way. Dark matter predominates in space, astronomers believe; it is inferred to exist from gravitational effects altering the motions of stars and galaxies. And physicists have determined that the dark matter cannot (for various noncircular reasons) be made of the same ordinary matter found on Earth.&lt;/p&gt;
-
-
-
-&lt;p&gt;SUSY particles have long been one of the most popular proposals for the identity of this cosmic dark matter, based on more complicated notions of symmetry than those available to Plato and Aristotle. And since the onset of the 20th century, symmetry math has generated an astounding string of scientific successes. From Einstein’s relativity to the theory of elementary particles and forces, symmetry considerations now form the core of science’s understanding of nature.  &lt;/p&gt;
-
-
-
-&lt;p&gt;These mathematical forms of symmetry are more elaborate examples of symmetry as commonly understood: a change that leaves things looking like they did before. A perfectly symmetric face looks the same when a mirror swaps left with right. A perfect sphere’s appearance is not altered when you rotate it to see the other side. Rotate a snowflake by any multiple of 60 degrees and you see the same snowflake.&lt;/p&gt;
-
-
-
-&lt;p&gt;In a similar way, more sophisticated mathematical frameworks, known as symmetry groups, describe aspects of the physical world, such as time and space or the families of subatomic particles that make up matter or transmit forces. Symmetries in the equations of such math can even predict previously unknown phenomena. Symmetry in the equations describing subatomic particles, for instance, revealed that for each particle nature allowed an antimatter particle, with opposite electric charge.&lt;/p&gt;
-
-
-
-&lt;p&gt;In fact, all the known ordinary matter and force particles fit neatly into the mathematical patterns described by symmetry groups. But none of those particles can explain the dark matter.&lt;/p&gt;
-
-
-
-&lt;p&gt;SUSY particles as a dark matter possibility emerged in the 1970s and 1980s, when theorists proposed an even more advanced symmetry system. That math, called supersymmetry (hence SUSY), suggested the existence of a “super” partner particle for each known particle: a force-particle partner for every matter particle, and a matter-particle partner for every force particle. It was an elegant concept mathematically, and it solved (or at least ameliorated) some other vexing theoretical problems. Plus, of the super partner particles it predicted, the lightest one (whichever one that was) seemed likely to be a perfect dark matter WIMP.&lt;/p&gt;
-
-
-
-&lt;p&gt;Alas, efforts to detect WIMPs (which should be hitting the Earth all the time) have almost all failed to find any. &lt;a href=&quot;http://people.roma2.infn.it/~dama/web/home.html&quot;&gt;One experiment&lt;/a&gt; that did claim a WIMP detection seems to be on shaky ground — a new experiment, using the same method and materials, &lt;a href=&quot;https://arxiv.org/abs/2103.01175&quot;&gt;reports no such WIMP evidence&lt;/a&gt;. And attempts to produce SUSY particles in the world’s most powerful particle accelerator, the Large Hadron Collider, have also come up empty.&lt;/p&gt;
-
-
-
-&lt;p&gt;Some physicists have therefore given up on SUSY. And perhaps supersymmetry has been as misleading as the Greek infatuation with circular motion. But the truth is that SUSY is not a theory that can be slain by a single experiment. It is a more nebulous mathematical notion, a framework within which many specific theories can be constructed.   &lt;/p&gt;
-
-
-
-&lt;p&gt;“You can’t really kill SUSY because it’s not a thing,” physicist Patrick Stengel of the International Higher School of Advanced Studies in Trieste, Italy, said at a conference in Washington, D.C., in 2019. “It’s not an idea that you can kill. It’s basically just a framework for a bunch of ideas.”&lt;/p&gt;
-
-
-
-&lt;p&gt;At the same conference, University of Texas at Austin physicist &lt;a href=&quot;https://ph.utexas.edu/component/cobalt/item/18-physics/4028-freese-katherine?Itemid=1264&quot;&gt;Katherine Freese&lt;/a&gt; pointed out that there was never any guarantee that the Large Hadron Collider would discover SUSY. “Even before the LHC got built, there were a lot of people who said, well, it might not go to a high enough energy,” she said.&lt;/p&gt;
-
-
-
-&lt;p&gt;So SUSY may yet turn out to be an example of symmetry that leads physics to success. But just in case, physicists have pursued other dark matter possibilities. One old suggestion that has recently received renewed interest is a lightweight hypothetical particle &lt;a href=&quot;https://www.sciencenews.org/article/particles-axions-how-matter-conquered-universe&quot;&gt;called an axion&lt;/a&gt; (&lt;em&gt;SN: 3/24/20&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;p&gt;Of course, if axions do exist, symmetry fans could still rejoice — the motivation for proposing the axion to begin with was resolving an issue &lt;a href=&quot;https://www.symmetrymagazine.org/article/the-other-dark-matter-candidate&quot;&gt;with yet another form of symmetry&lt;/a&gt;.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-03-31T10:00:00+00:00</dc:date>
-	<dc:creator>Tom Siegfried</dc:creator>
-</item>
 <item rdf:about="http://blogs.biomedcentral.com/bmcseriesblog/?p=12320">
 	<title>BMC Series blog: The relationship between self-harm and bullying among adolescents</title>
 	<link>http://blogs.biomedcentral.com/bmcseriesblog/2021/03/31/the-relationship-between-self-harm-and-bullying-among-adolescents/</link>
@@ -3003,13 +3063,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	<dc:date>2021-03-18T10:26:08+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
 </item>
-<item rdf:about="https://retractionwatch.com/?p=121739">
-	<title>Retraction watch: University clears scientist of logging industry’s misconduct allegations</title>
-	<link>https://retractionwatch.com/2021/03/18/university-clears-scientist-of-logging-industrys-misconduct-allegations/</link>
-	<content:encoded>The University of Tasmania has cleared one of its scientists of wrongdoing after she was accused by the Australian logging industry of publishing flawed research linking logging to increased forest flammability and of having a conflict of interest with an environmental group. The university then implemented mandatory research integrity training for its school of geography, … &lt;a class=&quot;more-link&quot; href=&quot;https://retractionwatch.com/2021/03/18/university-clears-scientist-of-logging-industrys-misconduct-allegations/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;University clears scientist of logging industry’s misconduct allegations&lt;/span&gt;&lt;/a&gt;</content:encoded>
-	<dc:date>2021-03-18T10:00:00+00:00</dc:date>
-	<dc:creator>Niko McCarty</dc:creator>
-</item>
 <item rdf:about="tag:biocomputation.herts.ac.uk,2021-03-17:/2021/03/17/how-to-exploit-fitness-landscape-properties-of-timetabling-problem-a-new-operator-for-quantum-evolutionary-algorithm.html">
 	<title>UH Biocomputation group: How to Exploit Fitness Landscape Properties of Timetabling Problem: A New Operator for Quantum Evolutionary Algorithm</title>
 	<link>http://biocomputation.herts.ac.uk/2021/03/17/how-to-exploit-fitness-landscape-properties-of-timetabling-problem-a-new-operator-for-quantum-evolutionary-algorithm.html</link>
@@ -3632,61 +3685,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	<content:encoded>Disappointed of Carey Gillam's book about Lawyers' Adventures, I blog about the Monsanto and glyphosate affair.</content:encoded>
 	<dc:date>2021-03-09T06:39:00+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="http://digest.bps.org.uk/?p=41468">
-	<title>The British Psychological Society - Research Digest: Longer Interview Shortlists Could Help Women Advance In Male-Dominated Industries</title>
-	<link>https://digest.bps.org.uk/2021/03/08/longer-interview-shortlists-could-help-women-advance-in-male-dominated-industries/</link>
-	<content:encoded>&lt;p&gt;&lt;em&gt;By &lt;/em&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;Despite many efforts to make workplaces more equitable, women are still frequently discriminated against at work. Companies run by women are &lt;a href=&quot;https://digest.bps.org.uk/2019/11/19/companies-are-judged-more-harshly-for-their-ethical-failures-if-the-ceo-is-a-woman/&quot;&gt;judged more harshly&lt;/a&gt; on ethical failings, for instance, and women are &lt;a href=&quot;https://digest.bps.org.uk/2020/06/02/women-are-more-likely-than-men-to-be-told-white-lies-in-performance-reviews/&quot;&gt;more likely to be lied to&lt;/a&gt; in performance reviews. This discrimination doesn’t just happen &lt;em&gt;in&lt;/em&gt; the workplace: it can happen before someone is even employed. A study from last year, for example, found that &lt;a href=&quot;https://digest.bps.org.uk/2020/09/03/black-women-with-natural-hair-face-biases-from-potential-employers/&quot;&gt;Black women with natural hair are seen as less competent and professional than their White counterparts&lt;/a&gt; when interviewing for jobs.&lt;/p&gt;
-
-
-
-&lt;p&gt;Now a &lt;a href=&quot;https://www.nature.com/articles/s41562-020-01033-0&quot;&gt;new study&lt;/a&gt;, published in &lt;em&gt;Nature Human Behaviour&lt;/em&gt;, has taken a look at what could be scuppering women’s chances even before they get to the interview stage. The team, led by Brian J Lucas from Cornell University, argues that in organisations where recruitment takes place on an informal basis, via colleague recommendations or other word-of-mouth networks, changes need to be made to the shortlisting process. When shortlists are longer, the results suggest, women are more likely to be seriously considered.&lt;/p&gt;
-
-
-
-&lt;span id=&quot;more-41468&quot;&gt;&lt;/span&gt;
-
-
-
-&lt;p&gt;The first few studies looked at how longer shortlists might impact gender representation. Participants imagined being a filmmaker, and were asked to draw up a shortlist of actors to appear in their upcoming action film. In the first stage, participants gave just three suggestions, before being instructed to give three more — the hypothesis being that more women would be listed during the second stage than the first. The results showed that the number of women actors was indeed significantly higher in this second part of the list.&lt;/p&gt;
-
-
-
-&lt;p&gt;In the second series of studies, participants working in the traditionally male-dominated tech industry were asked to imagine themselves as a corporate strategist, scoping the market for a new CEO. They were again asked at the first stage to suggest three candidates and at the second stage to suggest three more. Results reflected those of the first study: there were significantly more women candidates listed at the second stage compared to the first.&lt;/p&gt;
-
-
-
-&lt;p&gt;In a third study, parents were asked again for a short and long list, this time naming role models for their male or female child. For parents of boys, results were similar to the prior studies: they named more women role models at the second stage than the first. But the opposite was true of parents of girls. This suggests that in longer lists, people are more likely to include candidates who don’t meet the gender prototype for the role. In certain industries, the prototypical hire is highly likely to be male, explaining why longer candidate lists tend to contain more women.&lt;/p&gt;
-
-
-
-&lt;p&gt;In the final two studies, participants completed the film director shortlist task from the first study or the technology executive shortlist task from the second — only this time, they were randomly assigned to generate either a three-person shortlist or a six-person shortlist, ranking candidates in order of preference. Again, longer shortlists had a positive effect when it came to inclusion: six-person shortlists featured significantly more women candidates than three-person shortlists. And importantly, six-person shortlists also had a higher &lt;em&gt;proportion &lt;/em&gt;of female candidates.&lt;/p&gt;
-
-
-
-&lt;p&gt;The longer shortlist was also good news for women in terms of actual selection — that is, how highly women candidates were ranked by participants. Participants in the six-person condition were more likely to select women as top candidates than those in the three-person condition, suggesting that longer shortlists can have an impact not only on who gets a tentative foot in the door but who actually ends up with the job.&lt;/p&gt;
-
-
-
-&lt;p&gt;This type of gender bias is probably not always intentional: many of those informally suggesting candidates for roles will not be purposefully excluding women. Nevertheless, ensuring a move away from informal hiring practices and towards thoughtful, structured ones — blind CV selection, for example, or longer shortlists — could be a way of equalising unbalanced workforces.&lt;/p&gt;
-
-
-
-&lt;p&gt;As the study on Black women’s hair tells us, however, other factors like race, class and sexuality are likely to play a part in how people are perceived in interviews and in the workplace. Transgender or non-binary people are also likely to face different challenges. How would such candidates fare when it comes to shortlisting? Further research could explore this more.&lt;/p&gt;
-
-
-
-&lt;p&gt;– &lt;a href=&quot;https://www.nature.com/articles/s41562-020-01033-0&quot;&gt;A longer shortlist increases the consideration of female candidates in male-dominant domains&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://emilyoliviareynolds.com/&quot;&gt;Emily Reynolds&lt;/a&gt; is a staff writer at &lt;a href=&quot;https://digest.bps.org.uk/&quot;&gt;BPS Research Digest&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded>
-	<dc:date>2021-03-08T09:30:00+00:00</dc:date>
-	<dc:creator>BPS Research Digest</dc:creator>
 </item>
 <item rdf:about="http://forbetterscience.com/?p=56599">
 	<title>For Better Science: Towards equal opportunity for prostate, breast and ovarian cancers</title>
@@ -4981,77 +4979,6 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 any fule kno. Meet some more of the star jesters: Nick Lemoine, Peter St George-Hyslop and Xin Lu. They are curing cancer and Alzheimer with Photoshop.</content:encoded>
 	<dc:date>2021-02-10T10:30:18+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="http://gracewlindsay.com/?p=582">
-	<title>Neurdiness: thinking about brains: Models of the Mind: How Physics, Engineering and Mathematics Have Shaped Our Understanding of the Brain</title>
-	<link>https://gracewlindsay.com/2021/02/10/models-of-the-mind-how-physics-engineering-and-mathematics-have-shaped-our-understanding-of-the-brain/</link>
-	<content:encoded>&lt;div class=&quot;wp-block-image is-style-default&quot;&gt;&lt;figure class=&quot;aligncenter size-large&quot;&gt;&lt;a href=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-seancarroll.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-596&quot; data-attachment-id=&quot;596&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;models-tw-seancarroll&quot; data-large-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-seancarroll.jpg?w=595&quot; data-medium-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-seancarroll.jpg?w=300&quot; data-orig-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-seancarroll.jpg&quot; data-orig-size=&quot;1024,512&quot; data-permalink=&quot;https://gracewlindsay.com/models-tw-seancarroll/&quot; src=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-seancarroll.jpg?w=1024&quot; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;I wrote a book!&lt;/p&gt;
-
-
-
-&lt;p&gt;As some of you may know, in summer of 2018 I signed a contract with &lt;a href=&quot;https://www.bloomsbury.com/uk/non-fiction/popular-science/&quot;&gt;Bloomsbury Sigma&lt;/a&gt; to write a book about my area of research: computational neuroscience. &lt;/p&gt;
-
-
-
-&lt;p&gt;Though the term has many definitions, computational neuroscience is mainly about applying mathematics to the study of the brain. The brain—a jumble of all different kinds of neurons interconnected in countless ways that somehow produce consciousness—has been described as “the most complex object in the known universe”. Physicists for centuries have turned to mathematics to properly explain some of the most seemingly simple processes in the universe—how objects fall, how water flows, how the planets move. Equations have proved crucial in these endeavors because they capture relationships and make precise predictions possible.&lt;strong&gt; How could we expect to understand the most complex object in the universe without turning to mathematics? &lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;The answer is we can’t, and that is why I wrote this book. While I’ve been studying and working in the field for over a decade, most people I encounter have no idea what “computational neuroscience” is or that it even exists. Yet a desire to understand how the brain works is a common and very human interest. I wrote this book to let people in on the ways in which the brain will ultimately be understood: through mathematical and computational theories.   &lt;/p&gt;
-
-
-
-&lt;p&gt;At the same time, I know that both mathematics and brain science are on their own intimidating topics to the average reader and may seem downright prohibitory when put together. That is why I’ve avoided (many) equations in the book and focused instead on the driving reasons why scientists have turned to mathematical modeling, what these models have taught us about the brain, and how some surprising interactions between biologists, physicists, mathematicians, and engineers over centuries have laid the groundwork for the future of neuroscience.  &lt;/p&gt;
-
-
-
-&lt;p&gt;Each chapter of &lt;em&gt;Models of the Mind&lt;/em&gt; covers a separate topic in neuroscience, starting from individual neurons themselves and building up to the different populations of neurons and brain regions that support memory, vision, movement and more. These chapters document the history of how mathematics has woven its way into biology and the exciting advances this collaboration has in store. &lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;strong&gt;Interested yet? Here is how you can get your hands on a copy:&lt;/strong&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;UK &amp;amp; ebook publication date: March 4th, 2021. &lt;a href=&quot;https://www.bloomsbury.com/uk/models-of-the-mind-9781472966421/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Bloomsbury&lt;/a&gt; | &lt;a href=&quot;https://www.hive.co.uk/Product/Grace-Lindsay/Models-of-the-Mind--How-Physics-Engineering-and-Mathemati/25076986&quot;&gt;Hive&lt;/a&gt; | &lt;a href=&quot;https://www.waterstones.com/book/models-of-the-mind/grace-lindsay/9781472966421&quot;&gt;Waterstones&lt;/a&gt; | &lt;a href=&quot;https://www.amazon.co.uk/Models-Mind-Engineering-Mathematics-Understanding/dp/1472966422/ref=sr_1_1?dchild=1&amp;amp;keywords=models+of+the+mind&amp;amp;qid=1612921422&amp;amp;sr=8-1&quot;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;India publication date: March 18th, 2021. &lt;a href=&quot;https://www.bloomsbury.com/in/models-of-the-mind-9781472966421/&quot;&gt;Bloomsbury&lt;/a&gt; |&lt;a href=&quot;https://www.amazon.in/Models-Mind-Engineering-Mathematics-Understanding/dp/1472966422/ref=sr_1_1?dchild=1&amp;amp;keywords=Models+of+the+Mind&amp;amp;qid=1612955814&amp;amp;sr=8-1&quot;&gt; Amazon&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;USA publication date: May 4th, 2021. &lt;a href=&quot;https://www.bloomsbury.com/us/models-of-the-mind-9781472966421/&quot;&gt;Bloomsbury&lt;/a&gt; | &lt;a href=&quot;https://www.powells.com/book/models-of-the-mind-9781472966421&quot;&gt;Powell’s&lt;/a&gt; | &lt;a href=&quot;https://www.barnesandnoble.com/w/models-of-the-mind-grace-lindsay/1136303945;jsessionid=B38C5146BEED8526D0ABF6E5C6D1A347.prodny_store02-atgap05?ean=9781472966421&quot;&gt;Barnes &amp;amp; Noble&lt;/a&gt; | &lt;a href=&quot;https://www.amazon.com/Models-Mind-Engineering-Mathematics-Understanding/dp/1472966422/ref=sr_1_1?dchild=1&amp;amp;keywords=models+of+the+mind&amp;amp;qid=1612921824&amp;amp;sr=8-1&quot;&gt;Amazon&lt;/a&gt; | &lt;a href=&quot;https://gracewlindsay.com/2021/02/10/models-of-the-mind-how-physics-engineering-and-mathematics-have-shaped-our-understanding-of-the-brain/&quot;&gt;Bookshop&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;AU/NZ publication date: May 4th, 2021. &lt;a href=&quot;https://www.bloomsbury.com/au/models-of-the-mind-9781472966452/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Bloomsbury&lt;/a&gt; | &lt;a href=&quot;https://www.boomerangbooks.com.au/models-of-the-mind-how-physics-engineering-and-mathematics-have-shaped-our-understanding-of-the-brain/grace-lindsay/book_9781472966421.htm&quot;&gt;Boomerang&lt;/a&gt; | &lt;a href=&quot;https://www.amazon.com.au/Models-Mind-Engineering-Mathematics-Understanding/dp/1472966422/ref=sr_1_1?dchild=1&amp;amp;keywords=models+of+the+mind+grace+lindsay&amp;amp;qid=1612921608&amp;amp;refresh=1&amp;amp;sr=8-1&quot;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;em&gt;Outside those countries? &lt;/em&gt;Bloomsbury UK ships globally so you can use that link, or Amazon, or just check with your normal bookseller. And in addition to the e-book version available through Bloomsbury and elsewhere, an audiobook is coming on April 5th! &lt;/p&gt;
-
-
-
-&lt;p&gt;In addition to the standard websites, of course you can always check with your local independent book store or library. If it’s not there, ask if they’ll stock it!&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;em&gt;If you got the book,&lt;/em&gt; and read it, and want to tell the world your thoughts on it, head over to &lt;a href=&quot;https://www.goodreads.com/book/show/50884536-models-of-the-mind&quot;&gt;Goodreads&lt;/a&gt; or your local Amazon page to leave a review. Five stars particularly appreciated  &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-large is-style-default&quot;&gt;&lt;a href=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-proflarryabbott-1.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-603&quot; data-attachment-id=&quot;603&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;models-tw-proflarryabbott-1&quot; data-large-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-proflarryabbott-1.jpg?w=595&quot; data-medium-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-proflarryabbott-1.jpg?w=300&quot; data-orig-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-proflarryabbott-1.jpg&quot; data-orig-size=&quot;1024,512&quot; data-permalink=&quot;https://gracewlindsay.com/models-tw-proflarryabbott-1/&quot; src=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-proflarryabbott-1.jpg?w=1024&quot; /&gt;&lt;/a&gt;&lt;/figure&gt;
-
-
-
-&lt;div class=&quot;wp-block-image is-style-default&quot;&gt;&lt;figure class=&quot;aligncenter size-large&quot;&gt;&lt;a href=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-liamdrew-2.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-601&quot; data-attachment-id=&quot;601&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}&quot; data-image-title=&quot;models-tw-liamdrew-2&quot; data-large-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-liamdrew-2.jpg?w=595&quot; data-medium-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-liamdrew-2.jpg?w=300&quot; data-orig-file=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-liamdrew-2.jpg&quot; data-orig-size=&quot;1024,512&quot; data-permalink=&quot;https://gracewlindsay.com/models-tw-liamdrew-2/&quot; src=&quot;https://neurdiness.files.wordpress.com/2021/02/models-tw-liamdrew-2.jpg?w=1024&quot; /&gt;&lt;/a&gt;&lt;/figure&gt;&lt;/div&gt;</content:encoded>
-	<dc:date>2021-02-10T02:06:10+00:00</dc:date>
-	<dc:creator>neurograce</dc:creator>
 </item>
 
 </rdf:RDF>
