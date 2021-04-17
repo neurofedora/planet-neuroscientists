@@ -86,7 +86,7 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on April 16, 2021 06:00 PM on behalf of Ankur Sinha.
+          on April 17, 2021 01:00 PM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
@@ -122,6 +122,218 @@ K-Means based feature weighting algorithms.</p>
 <strong>Time:</strong> 14:00 <br />
 <strong>Location</strong>: online</p>
                 <p class="text-muted">in <a href="http://biocomputation.herts.ac.uk/">UH Biocomputation group</a> on October 03, 2021 02:01 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/&title=Weekend reads: ‘The Damage Campaign;’ timber industry retracts comments, apologizes; COVID-19 vaccine study conflicts disclosure" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/">Weekend reads: ‘The Damage Campaign;’ timber industry retracts comments, apologizes; COVID-19 vaccine study conflicts disclosure</a></h4>
+
+Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured: Palmitoleic acid paper pulled for data concerns Pharma company demands … <a class="more-link" href="https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/">Continue reading <span class="screen-reader-text">Weekend reads: ‘The Damage Campaign;’ timber industry retracts comments, apologizes; COVID-19 vaccine study conflicts disclosure</span></a>
+                <p class="text-muted">in <a href="https://retractionwatch.com">Retraction watch</a> on April 17, 2021 12:30 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://xcorr.net/2021/04/16/is-early-vision-like-a-convolutional-neural-net/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://xcorr.net/2021/04/16/is-early-vision-like-a-convolutional-neural-net/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://xcorr.net/2021/04/16/is-early-vision-like-a-convolutional-neural-net/&title=Is early vision like a convolutional neural net?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://xcorr.net/2021/04/16/is-early-vision-like-a-convolutional-neural-net/">Is early vision like a convolutional neural net?</a></h4>
+
+<p>Early convolutional neural net (CNNs) architectures like the Neocognitron, LeNet and HMAX were inspired by the brain. But how much like the brain are modern CNNs? I made a pretty strong claim on Twitter a few weeks ago that the early visual processing is nothing like a CNN:</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-dnt="true" data-width="550"><p dir="ltr" lang="en">CNNs are better models of vision than transformers. But you know what's funny? Early vision is nothing like a CNN. There are no mechanisms to tie weights from one neuron to another. Resolution varies with eccentricity. Features maps vary across space. So why do they look similar? <a href="https://t.co/RMLRHJTS4U">https://t.co/RMLRHJTS4U</a></p>— Patrick Mineault (@patrickmineault) <a href="https://twitter.com/patrickmineault/status/1377685962067746820?ref_src=twsrc%5Etfw">April 1, 2021</a></blockquote></div>
+</div></figure>
+
+
+
+<p>In typical Twitter fashion, my statement was a little over-the-top, and it deserved a takedown. What followed was a long thread of replies from Blake Richards, Grace Lindsay, Dileep George, Simon Kornblith, members of Jim DiCarlo’s lab, and even Yann LeCun. The different perspectives are interesting, and I’m curating them here. </p>
+
+
+
+<p>My position, in brief, is that weight sharing and feature maps – the defining characteristics of modern CNNs – are crude approximations of the topography of the early visual cortex and its localized connection structure. Whether this distinction matters in practice depends on what you want your models to accomplish – I argue that for naturalistic vision, it can matter a lot. </p>
+
+
+
+<h2>Background</h2>
+
+
+
+<p>There are several defining characteristics of modern CNNs:</p>
+
+
+
+<ul><li>Hierarchical processing</li><li>Selectivity operations (i.e the ReLU)</li><li>Pooling operations</li><li>Localized receptive fields</li><li>Feature maps</li><li>Weight sharing</li></ul>
+
+
+
+<p>Where did these ideas come from?</p>
+
+
+
+<p>Hubel and Wiesel (1962) described simple and complex cells in the cat primary visual cortex. Simple cells respond best to a correctly oriented bar or edge. Complex cells, on the other hand, are not sensitive to the sign of the contrast of the bar or edge, or its exact location. They hypothesized that simple cells are generated by aggregating the correct LGN afferents selective for light and dark spots, followed by the threshold nonlinearity of the cells. Complex cells were hypothesized to be generated by pooling from similarly tuned simple cells. They later expanded these ideas: perhaps first-order and second-order hypercomplex cells are created by the repetition of the same pattern. Thus, hierarchy, selectivity, pooling and localized receptive fields were all hypothesized to be taking place.</p>
+
+
+
+<div class="wp-block-image" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}"><figure class="aligncenter is-resized"><img alt="Adapted from (Hubel and Wiesel, 1962). | Download Scientific Diagram" height="363" src="https://www.researchgate.net/profile/Tomaso-Poggio-2/publication/265923351/figure/fig2/AS:669389284200460@1536606250398/Adapted-from-Hubel-and-Wiesel-1962.ppm" width="466" />Annotated figures from Hubel &amp; Wiesel (1962)</figure></div>
+
+
+
+<p>Fukushima (1980) adapted many of these ideas in a self-organized hierarchical neural network called the Neocognitron. In the S-layers, neurons weight the input from previous layers via localized receptive fields, followed by a ReLU nonlinearity. In C-layers, inputs from the previous are pooled linearly, followed by a sigmoid. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://xcorr.files.wordpress.com/2021/04/image-1.png"><img alt="" class="wp-image-7587" data-attachment-id="7587" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-1" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-1.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-1.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-1.png" data-orig-size="1648,1044" data-permalink="https://xcorr.net/image-1-3/" src="https://xcorr.files.wordpress.com/2021/04/image-1.png?w=1024" /></a>From Fukushima (1980)</figure>
+
+
+
+<p>The Neocognitron also introduces what may be <em>the</em> defining features of modern CNNs: parallel feature maps (here called planes) and weight sharing. This is most clearly seen in the selectivity operation for S-layers, which is a convolution over the set of local coordinates <img alt="S_l" class="latex" src="https://s0.wp.com/latex.php?latex=S_l&amp;bg=ffffff&amp;fg=3a3a3a&amp;s=0&amp;c=20201002" />, followed by a ReLU:</p>
+
+
+
+<div class="wp-block-image" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}"><figure class="aligncenter size-large is-resized"><a href="https://xcorr.files.wordpress.com/2021/04/image-2.png"><img alt="" class="wp-image-7589" data-attachment-id="7589" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-2" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-2.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-2.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-2.png" data-orig-size="1198,516" data-permalink="https://xcorr.net/image-2-3/" height="185" src="https://xcorr.files.wordpress.com/2021/04/image-2.png?w=1024" width="429" /></a>From Fukushima (1980)</figure></div>
+
+
+
+<p>The reason behind the introduction of parallel feature maps and weight sharing is not very clear in the original paper, and in fact in section 3 the paper casts doubt on how realistic these assumptions are as a model of vision:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>One of the basic hypotheses employed in the neocognitron is the assumption that all the S-cells in the same S-plane have input synapses of the same spatial distribution, and that only the positions of the presynaptic cells shift in parallel in accordance with the shift in position of individual S-cell’s receptive fields. It is not known whether modifiable synapses in the real nervous system are actually self-organized always keeping such conditions. Even if it is assumed to be true, neither do we know by what mechanism such a self-organization goes on. </p></blockquote>
+
+
+
+<p>So why introduce these features at all?</p>
+
+
+
+<h2>Topography conquers all</h2>
+
+
+
+<p>Fukushima however links localized receptive fields with the idea of localized topography:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>[…] orderly synaptic connections are formed between retina and optic tectum not only in the development in the embryo but also in regeneration in the adult amphibian or fish</p></blockquote>
+
+
+
+<p>This is one of the enduring facts of visual neuroscience: inputs from the retina are preserved topologically as they make their way to the LGN, V1, and onwards to extrastriate cortex. Visual angle and log radius are mapped from the retina to V1 in development, guided by chemical gradients. The progression of the maps reverse as we go up the visual hierarchy (in fact, areas are defined by this very reversal in direction). What’s remarkable is how precise the topography is: Hubel and Wiesel estimated that in primary visual cortex, neighbouring cells varied in receptive field center by less than half a receptive field.</p>
+
+
+
+<div class="wp-block-image" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}"><figure class="aligncenter is-resized"><img alt="FIG. 1." height="-587" src="https://journals.physiology.org/cms/10.1152/jn.01202.2003/asset/images/large/z9k0070439721001.jpeg" width="-305" />From Ringach (2004)</figure></div>
+
+
+
+<p>There’s another fact of life in cortex, which is that horizontal wiring is expensive. If a neuron integrates from localized inputs, and those inputs are retinotopically organized, that neuron will have a localized receptive field. If you assume that the synaptic pattern is localized and random then for every cell, there must be other similarly tuned cells somewhere else in the visual field. My postdoc advisor Dario <a href="https://journals.physiology.org/doi/full/10.1152/jn.01202.2003">Ringach introduced a model (2004)</a> for how simple cells in primary visual cortex can occur from such sparse localized connections.</p>
+
+
+
+<p>That covers feature maps. However, if the input statistics to primary visual cortex are stationary, then a self-supervised criterion could refine a randomly initialized V1 feature map, effectively letting the input do the weight tying – a subtle point brought up by Blake Richards.</p>
+
+
+
+<h2>Non-stationarities at the large scale</h2>
+
+
+
+<p>I hope to have convinced you that the link between CNNs, first introduced by Fukushima, and early visual processing in the brain is quite subtle. Whether a CNN is a good or a bad model of early visual processing depends on what phenomenon we care to model. If we’re talking about core visual recognition in the parafovea – which is what the majority of the quantification comes from – the match is quite good. At larger spatial scales, however, I would argue that the match is compromised by two facts.</p>
+
+
+
+<p>First, spatial resolution is not constant as a function of space. A CNN on a Cartesian grid doesn’t scale with eccentricity. This issue has received some attention lately, and foveating CNNs are starting to be considered – see <a href="https://openreview.net/forum?id=2_Z6MECjPEa">this recent paper from Arturo Deza and Talia Konkle for example</a>.</p>
+
+
+
+<div class="wp-block-image" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}"><figure class="aligncenter is-resized"><a href="https://elifesciences.org/articles/26196"><img alt="" height="211" src="https://iiif.elifesciences.org/lax/26196%2Felife-26196-fig9-v1.tif/full/1500,/0/default.jpg" width="459" /></a>Spatial frequency tuning correlates with spatial tuning. From Arcaro and Livingstone (2017)</figure></div>
+
+
+
+<p>Secondly, the eyes foveate towards interesting targets – e.g. faces – which mean that statistics are highly nonstationary different as a function of space. The ground looks very different from the sky. Hands tend to be in the lower half of the visual field, and numerous visual areas have only partial maps of the visual field. There’s overrepresentation of radial orientations, more curvature selectivity in the fovea, no blue cones in the fovea, etc. </p>
+
+
+
+<p>Here’s a picture to illustrate this. If VGG19 is a good model of primary visual visual cortex, then it follows that maximizing predicted activity in primary visual cortex could be done by maximizing an unweighted sum of VGG19 subunits, a la DeepDream. If you do that for layer 7 of VGG19, you get the picture on the left. However, we can use fMRI to estimate a matrix, via ridge regression that maps VGG19 to an fMRI subspace, and then optimize a weighted sum of VGG19 subunits, giving us the picture on the right. This image highlights some of the known spatial biases in primary visual cortex – shifts in prefered spatial frequency as a function of eccentricity, radial bias, curvature bias in the fovea – which are not apparent in an unweighted VGG19. So at the very least, the brain’s image manifold is rotated and rescaled compared to the VGG19 image manifold.</p>
+
+
+
+<div class="wp-block-columns" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}">
+<div class="wp-block-column" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}">
+<figure class="wp-block-gallery alignwide columns-2 is-cropped"><ul class="blocks-gallery-grid" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}"><li class="blocks-gallery-item"><figure><img alt="" class="wp-image-7594" data-attachment-id="7594" data-comments-opened="1" data-id="7594" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-3" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-3.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-3.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-3.png" data-orig-size="900,896" data-permalink="https://xcorr.net/image-3-2/" src="https://xcorr.files.wordpress.com/2021/04/image-3.png?w=723" /></figure></li><li class="blocks-gallery-item"><figure><img alt="" class="wp-image-7596" data-attachment-id="7596" data-comments-opened="1" data-id="7596" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-4" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-4.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-4.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-4.png" data-orig-size="900,878" data-permalink="https://xcorr.net/image-4-2/" src="https://xcorr.files.wordpress.com/2021/04/image-4.png?w=723" /></figure></li></ul>Left: image that maximizes the outputs of the 7th layer of VGG19; right, image that maximizes the outputs of the 7th layer of VGG19 weighted by a transformation matrix estimated through fMRI (vim-2 dataset, downloaded on crcns.org)</figure>
+</div>
+</div>
+
+
+
+<p>Margaret Livingstone has a very interesting line of research (<a href="https://www.youtube.com/watch?v=Pl_YTcec9Z0">talk here</a>) highlighting the close link between spatial biases and the development of object and face recognition modules in high-level visual cortex. More generally, if we’re interested in how vision is organized for action – ecological vision in the tradition of Gibson – then whether a network has captured, e.g. the fact that the bottom half of the visual field has very different affordances than the top half matters. If you applied a unsupervised criterion to learn features from natural images without weight sharing, those features would vary quite a bit across space – unlike in a CNN. This point was also raised by Dileep George.</p>
+
+
+
+<h2>Weight sharing is not strictly necessary</h2>
+
+
+
+<p>LeCun (1989) demonstrates the use of backpropagation to train a convolutional image recognition network. There’s a beautiful figure that highlights the effect of adding more and more constraints, in particular in going from a fully-connected 2-layer network (net2) to a high-capacity convolutional neural net (net5):</p>
+
+
+
+<div class="wp-block-image" data-carousel-extra="{&quot;blog_id&quot;:3084329,&quot;permalink&quot;:&quot;https:\/\/xcorr.net\/2021\/04\/16\/is-early-vision-like-a-convolutional-neural-net\/&quot;}"><figure class="aligncenter size-large is-resized"><a href="https://xcorr.files.wordpress.com/2021/04/image.png"><img alt="" class="wp-image-7584" data-attachment-id="7584" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image" data-large-file="https://xcorr.files.wordpress.com/2021/04/image.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image.png" data-orig-size="1496,1026" data-permalink="https://xcorr.net/image-8/" height="326" src="https://xcorr.files.wordpress.com/2021/04/image.png?w=1024" width="476" /></a>From LeCun (1989)</figure></div>
+
+
+
+<p>LeCun (1989) clarifies that weight sharing is a clever trick that decreases the number of weights to be learned, which in the small data limit is practically important to obtain good test set accuracy. We are a long ways from 1989 in terms of dataset size, and unsupervised learning could learn untied feature maps, as pointed out by Yann LeCun in the Twitter thread. But would currently existing benchmarks favor ANNs-with-local-receptive-field-but-untied-weights?</p>
+
+
+
+<h2>The leaderboard is the message</h2>
+
+
+
+<p>Let’s turn back to the claim that early visual cortex is like a particular CNN. As Wu, David and Gallant (2006) put it:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>an important long-term goal of sensory neuroscience [is] developing models of sensory systems that accurately predict neuronal responses under completely natural conditions.</p></blockquote>
+
+
+
+<p><a href="https://www.brain-score.org/">Brain-Score</a> is an embodiment of this idea – benchmark, across many different datasets and ventral stream areas, the ability of many different CNNs to explain brain activity. The leaderboard is pretty clear that the VGG19 architecture outperform alternatives in explaining average firing rate – even when these alternatives are better at classifying images in ImageNet. That’s an interesting finding – VGG19 is shallower and has larger receptive fields than more modern CNNs, so perhaps its performance on this benchmark is because of that.</p>
+
+
+
+<p>Grace Lindsay pointed out that:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>[…] when the results were first coming out that trained convolutional neural networks are good predictors of activity in the visual system some people had the attitude of “that’s not interesting because obviously anything that does vision well will look like the brain”</p></blockquote>
+
+
+
+<p>What’s interesting is that we now have architectures that solve object recognition which are very different from CNNs, namely visual transformers (ViT). They are architecturally different from brains, and they while they perform well on ImageNet, they underperform in predicting single neuron responses. So now we have a clear example of a disconnect between ImageNet performance and similarity to the brain, and that strengthens the claim that core object recognition is like a CNN.</p>
+
+
+
+<p>So on the one hand, the data from BrainScore says that CNNs are the best models of core object recognition, yet there are pretty stark ways in which early visual processing is unlike a CNN, some of which I’ve mentioned already, <a href="https://arxiv.org/abs/2001.07092">others which have been highlighted in Grace Lindsay’s excellent review</a>. </p>
+
+
+
+<p>Would Brain-Score, in theory, rate better a model which respects the distinction between excitation and inhibition (Dale’s law)? That seems unlikely, since there are no cell type annotations in the datasets. Would it rate better a foveated model, or one that doesn’t have weight sharing? Again, unlikely, since as Tiago Marques points out, for technical reasons, most datasets are taken in the parafovea. In any case, the metric used to score the models is rotation invariant, so it wouldn’t be able to tell these cases apart. As Simon Kornblith points out, choices of metrics are not falsifiable. The right approach for choosing metrics is the axiomatic one, as demonstrated in <a href="https://arxiv.org/abs/1905.00414">Simon’s CKA paper</a>: the modeller or the community decides what the right metric is based off of design criterias that represent what they think is interesting about the data.</p>
+
+
+
+<p>Does that mean we should ignore Brain-Score? No! I really like Brain-Score – I wish there were many more Brain-Score-like leaderboards! Comparing on lots of datasets prevents cherry picking – there is <a href="https://xcorr.net/2017/02/16/an-introduction-to-meta-analysis/">robustness in the meta-analytic approach</a>. What I’m excited about is the possibility of Brain-Scores – a constellation of leaderboards that benchmark different models according to rules which match on modeler’s interests. I’ve been involved in proto-community-benchmark efforts like the neural prediction challenge and spikefinder before, and the technological barriers to run such a leaderboard have been lowered by commoditized cloud infra. The value proposition is also becoming clearer, and I am excited to see <a href="https://neurallatents.github.io/">more of these efforts pop up</a>.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>In brief:</p>
+
+
+
+<ul><li>Convolutional neural nets assume shared weights</li><li>This assumption is not valid at large spatial scales</li><li>Large spatial scales matter if you care about naturalistic foveated vision</li><li>It’s a useful assumption in the low-data regime, which we’re not in</li><li>The current benchmarks are not sensitive to this issue</li><li>It’s possible and desirable to create new benchmarks which are sensitive to this, and I hope to do that in the future!</li></ul>
+                <p class="text-muted">in <a href="https://xcorr.net">xcorr.net</a> on April 16, 2021 06:52 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/covid-vaccine-blood-clot-immune-astrazeneca-johnson-johnson" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/covid-vaccine-blood-clot-immune-astrazeneca-johnson-johnson" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/covid-vaccine-blood-clot-immune-astrazeneca-johnson-johnson&title=People with rare blood clots after a COVID-19 jab share an uncommon immune response" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -2798,13 +3010,6 @@ The agenda for the meeting is:</p>
                 <p class="text-muted">in <a href="https://neuroblog.fedoraproject.org/">NeuroFedora blog</a> on March 29, 2021 09:26 AM.</p>
               </li>
               <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com/2021/03/27/weekend-reads-jama-editor-placed-on-leave-pending-investigation-harvard-prof-sanctioned-for-epstein-ties-when-bad-science-goes-uncorrected/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com/2021/03/27/weekend-reads-jama-editor-placed-on-leave-pending-investigation-harvard-prof-sanctioned-for-epstein-ties-when-bad-science-goes-uncorrected/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com/2021/03/27/weekend-reads-jama-editor-placed-on-leave-pending-investigation-harvard-prof-sanctioned-for-epstein-ties-when-bad-science-goes-uncorrected/&title=Weekend reads: JAMA editor placed on leave pending investigation; Harvard prof sanctioned for Epstein ties; when bad science goes uncorrected" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://retractionwatch.com/2021/03/27/weekend-reads-jama-editor-placed-on-leave-pending-investigation-harvard-prof-sanctioned-for-epstein-ties-when-bad-science-goes-uncorrected/">Weekend reads: JAMA editor placed on leave pending investigation; Harvard prof sanctioned for Epstein ties; when bad science goes uncorrected</a></h4>
-
-Before we present this week’s Weekend Reads, a question: Do you enjoy our weekly roundup? If so, we could really use your help. Would you consider a tax-deductible donation to support Weekend Reads, and our daily work? Thanks in advance. The week at Retraction Watch featured: “Riddled with errors”: Study of cell phones and breast cancer … <a class="more-link" href="https://retractionwatch.com/2021/03/27/weekend-reads-jama-editor-placed-on-leave-pending-investigation-harvard-prof-sanctioned-for-epstein-ties-when-bad-science-goes-uncorrected/">Continue reading <span class="screen-reader-text">Weekend reads: JAMA editor placed on leave pending investigation; Harvard prof sanctioned for Epstein ties; when bad science goes uncorrected</span></a>
-                <p class="text-muted">in <a href="https://retractionwatch.com">Retraction watch</a> on March 27, 2021 01:02 PM.</p>
-              </li>
-              <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk/2021/03/26/41667/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk/2021/03/26/41667/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk/2021/03/26/41667/&title=Cuteness And Self-Compassion: The Week’s Best Psychology Links" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://digest.bps.org.uk/2021/03/26/41667/">Cuteness And Self-Compassion: The Week’s Best Psychology Links</a></h4>
 
@@ -4876,33 +5081,6 @@ I look at one of the most remarkable articles in the history of psychology
 <p>We appreciate our subscribers’ patience as we resolved the issue and, again, we apologize for any inconvenience.</p>
 <p> </p>
                 <p class="text-muted">in <a href="https://blog.arxiv.org">arXiv.org blog</a> on February 12, 2021 10:11 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://brainupdate.nih.gov/2021/02/12/enhancing-and-maintaining-a-culture-of-inclusive-excellence-the-nih-faculty-institutional-recruitment-for-sustainable-transformation-first-program/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://brainupdate.nih.gov/2021/02/12/enhancing-and-maintaining-a-culture-of-inclusive-excellence-the-nih-faculty-institutional-recruitment-for-sustainable-transformation-first-program/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://brainupdate.nih.gov/2021/02/12/enhancing-and-maintaining-a-culture-of-inclusive-excellence-the-nih-faculty-institutional-recruitment-for-sustainable-transformation-first-program/&title=Enhancing and maintaining a culture of inclusive excellence: The NIH Faculty Institutional Recruitment for Sustainable Transformation (FIRST) Program" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://brainupdate.nih.gov/2021/02/12/enhancing-and-maintaining-a-culture-of-inclusive-excellence-the-nih-faculty-institutional-recruitment-for-sustainable-transformation-first-program/">Enhancing and maintaining a culture of inclusive excellence: The NIH Faculty Institutional Recruitment for Sustainable Transformation (FIRST) Program</a></h4>
-
-<p><em>A message to the community from the Directors of the Institutes, Centers, and Offices involved in the NIH BRAIN Initiative and NIH Blueprint for Neuroscience Research. </em></p>
-<p><span id="more-3042"></span></p>
-<p><em>NINDS Director Walter J. Koroshetz, NIMH Director Joshua A. Gordon, NIA Director Richard Hodes, NIDA Director Nora D. Volkow, NCATS Director Christopher P. Austin, NICHD Director Diana W. Bianchi, NEI Director Michael F. Chiang, NIDCR Director Rena D’Souza, NIAAA Director George F. Koob, NCCIH Director Helene Langevin, NIH BRAIN Initiative Director John J. Ngai, OBSSR Director William T. Riley, NIBIB Director Bruce J. Tromberg, NIDCD Director Debara L. Tucci, NIEHS Director Rick Woychik, NINR Director Shannon N. Zenk</em></p>
-<p>Inherent in the mission of NIH is that biomedical research and its application can and should benefit all people. Significant events across our nation over the past year and frank discussions in the research community have led to deep reflection at NIH about biases and disparities faced by underrepresented groups in the research enterprise. As we strive to recognize our own role in these challenges, we <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-20-031.html">affirm our commitment to diversity</a> and to positive change to eliminate racism in our community and in our organization.</p>
-<p>As a step towards that change, the NIH Institutes, Centers, and Offices that are part of the <a href="https://neuroscienceblueprint.nih.gov/">NIH Blueprint for Neuroscience Research</a> and <a href="https://braininitiative.nih.gov/">the NIH BRAIN Initiative</a>, strongly encourage the neuroscience community to take advantage of the new NIH-wide <a href="https://commonfund.nih.gov/first">Faculty Institutional Recruitment for Sustainable Transformation (FIRST) Program</a>, supported by the NIH Common Fund. Although progress has been made to increase participation of historically underrepresented groups in biomedical training stages, members of these groups are still less likely to be hired into positions as independently funded faculty researchers. These populations include underrepresented racial and ethnic groups, individuals with disabilities, individuals from disadvantaged backgrounds, and women.</p>
-<p>To help address this disparity, the FIRST program aims to enhance cultures of inclusive excellence through institutional support for recruitment of diverse “cohorts” of early-stage research faculty. Here, “inclusive excellence” describes the cultivation of scientific environments that can engage and benefit from a full range of talent. Neuroscience continues to be one of the fastest growing areas of biomedical research. We want the FIRST program to enable researchers to thrive, and we believe the broader neuroscience community has much to gain. Indeed, the growing field of the <a href="https://diversity.nih.gov/find-read-learn/diversity-research-articles">Science of Diversity</a> shows the positive impacts that result when heterogeneous teams apply diverse perspectives and expertise to research challenges. We are hopeful that the cohort hiring model in FIRST will succeed in turning the culture in neuroscience departments and their institutions toward greater inclusion and diversity. We fully recognize that there are structural barriers perpetuated by gaps and that critical improvements must be made, because <a href="https://neuronline.sfn.org/diversity/fostering-diversity-and-inclusion-in-neuroscience-faculty">many groups are severely underrepresented in neuroscience</a>. To our neuroscientists: we encourage you to take advantage of this opportunity as a path to meaningful change. We are committed to fostering a more inclusive, equitable, and diverse neuroscience community, and the FIRST program is a step in the right direction, with many, many more steps to come.</p>
-<p>The objectives of the FIRST program are twofold: to <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-20-022.html">support institutions in hiring diverse cohort</a>s of early stage research faculty; and to transform culture at NIH-funded extramural institutions by building a community of scientists who are committed to diversity and inclusive excellence. In addition to funds for hiring, the program will support new and strengthened institution-wide approaches to facilitating the success of cohort members and future faculty from diverse backgrounds. For cohort members, this is likely to include mentoring, sponsorship, and networking opportunities. For institutions, this may include training faculty in approaches known to foster inclusive excellence and changing the rubric for interviewing processes. The FIRST program will also <a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-20-023.html">fund a coordination and evaluation center</a>, which will develop and guide the collection of common data metrics to rigorously assess the effects of FIRST faculty cohorts and institutional activities on the research culture at funded institutions. Lessons learned by these institutions will be shared with the broader biomedical research community.</p>
-<p>The FIRST program is expected to fund 12 awards over the next three years, plus the coordination and evaluation center, with an estimated budget of $241M over nine years, contingent upon the availability of funds. The first receipt date for the program’s funding opportunities is <strong>March 1, 2021. </strong>For more information, please also view the recent <a href="https://nci.rev.vbrick.com/#/events/a3aee724-a9e7-45fd-ba2d-bef6ca56de9f">technical assistance webinar</a>.</p>
-<p><strong>Related Resources:</strong></p>
-<ul>
-<li><a href="https://commonfund.nih.gov/first">The NIH Common Fund’s Faculty Institutional Recruitment for Sustainable Transformation (FIRST) program</a></li>
-<li><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-20-022.html">NIH Faculty Institutional Recruitment for Sustainable Transformation (FIRST) Program: FIRST Cohort(U54 Clinical Trial Optional)</a></li>
-<li><a href="https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-20-023.html">NIH Faculty Institutional Recruitment for Sustainable Transformation (FIRST) Program: FIRST Coordination and Evaluation Center (U24 Clinical Trial Not Allowed)</a>
-<ul>
-<li><a href="https://nci.rev.vbrick.com/#/webcasts/nihfirst">FIRST Program Technical Assistance Webinar</a>: Watch a recording of the webinar.</li>
-<li><a href="https://commonfund.nih.gov/first/faqs">FIRST Program FAQs</a></li>
-</ul>
-</li>
-<li><a href="https://neuroscienceblueprint.nih.gov/funding-research/blueprint-research-initiatives">NIH Blueprint Research Initiatives</a></li>
-<li><a href="https://diversity.nih.gov/blog/2020-12-08-support-inclusive-excellence-through-cohort-hiring-funding-opportunities-released">NIH Chief Officer for Scientific Workforce Diversity (COSWD) Blog Post on FIRST</a></li>
-</ul>
-                <p class="text-muted">in <a href="https://brainupdate.nih.gov">BRAIN Update</a> on February 12, 2021 08:35 PM.</p>
               </li>
           </ul>
         </div>
