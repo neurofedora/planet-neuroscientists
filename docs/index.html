@@ -86,7 +86,7 @@
           <h1>Planet Neuroscientists</h1>
           <p>
           last updated by <a href="http://intertwingly.net/code/venus/">Venus</a> 
-          on April 27, 2021 01:00 PM on behalf of Ankur Sinha.
+          on April 28, 2021 07:00 AM on behalf of Ankur Sinha.
           </p>
         </div>
         <div class="col-md-9">
@@ -122,6 +122,242 @@ K-Means based feature weighting algorithms.</p>
 <strong>Time:</strong> 14:00 <br />
 <strong>Location</strong>: online</p>
                 <p class="text-muted">in <a href="http://biocomputation.herts.ac.uk/">UH Biocomputation group</a> on October 03, 2021 02:01 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com/2021/04/28/corona-up-your-nose/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com/2021/04/28/corona-up-your-nose/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com/2021/04/28/corona-up-your-nose/&title=Corona up your NOse" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://forbetterscience.com/2021/04/28/corona-up-your-nose/">Corona up your NOse</a></h4>
+
+"Prior going to the grocery store, after the grocery store, you'd spray it in your nose, for instance, or you go to day care or someone coughs on you," - Dr Chris Miller, co-founder of SaNOtize.
+                <p class="text-muted">in <a href="https://forbetterscience.com">For Better Science</a> on April 28, 2021 06:48 AM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://xcorr.net/2021/04/27/accelerating-progress-in-brain-recording-tech/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://xcorr.net/2021/04/27/accelerating-progress-in-brain-recording-tech/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://xcorr.net/2021/04/27/accelerating-progress-in-brain-recording-tech/&title=Accelerating progress in brain recording tech" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://xcorr.net/2021/04/27/accelerating-progress-in-brain-recording-tech/">Accelerating progress in brain recording tech</a></h4>
+
+<p>In <a href="https://www.nature.com/articles/nn.2731">Stevenson and Kording</a> (2011), the authors estimated that <a href="https://stevenson.lab.uconn.edu/scaling/">every 7.4 years, the number of neurons we can record with doubles</a>. Think of it as Moore’s law for brain recordings. Since then, <a href="https://stevenson.lab.uconn.edu/scaling/">Stevenson has updated the estimate</a>, which now stands at 6 years. Could it be that progress itself is accelerating? </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://xcorr.files.wordpress.com/2021/04/image-5.png"><img alt="" class="wp-image-7615" data-attachment-id="7615" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-5" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-5.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-5.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-5.png" data-orig-size="775,523" data-permalink="https://xcorr.net/image-5-2/" height="302" src="https://xcorr.files.wordpress.com/2021/04/image-5.png?w=775" width="449" /></a>Data from <a href="https://arxiv.org/abs/2103.14662">Urai et al. (2021)</a> <a href="https://github.com/anne-urai/largescale_recordings">under a CC-BY license</a></figure></div>
+
+
+
+<p><a href="https://twitter.com/MatteoCarandini/status/1386746176939102218">Matteo Carandini raised a question</a>: why should progress be log-linear anyway? Technological phenomena have been argued to follow <a href="https://en.wikipedia.org/wiki/Accelerating_change">a double-exponential curve</a>: the pace of progress itself accelerates over time. This is only noticeable when we look over a very long time horizon, for instance, when we look at computation per dollars over more than a century:</p>
+
+
+
+<figure class="wp-block-image is-resized"><img alt="Doubling times" height="528" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Moore%27s_Law_over_120_Years.png/640px-Moore%27s_Law_over_120_Years.png" width="753" />image <a href="https://commons.wikimedia.org/wiki/File:Moore%27s_Law_over_120_Years.png">CC BY Steve Jurvetson</a></figure>
+
+
+
+<p>But we have 60 years to look at, so we can make these inferences! I took the data in <a href="https://arxiv.org/abs/2103.14662">Urai et al. (2021)</a> – generously released under a CC-BY license – and fit a Bayesian Poisson regression model over time (<a href="https://github.com/patrickmineault/bayesian-doubling-times">code here</a>). I fit only the electrophysiology data. It’s clear here that early times are underfit by the line. The doubling time estimated here is shorter than what has been noted in the literature – 4.5 years. </p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://xcorr.files.wordpress.com/2021/04/image-8.png"><img alt="" class="wp-image-7621" data-attachment-id="7621" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-8" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-8.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-8.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-8.png" data-orig-size="775,554" data-permalink="https://xcorr.net/image-8-2/" height="269" src="https://xcorr.files.wordpress.com/2021/04/image-8.png?w=775" width="377" /></a>A log-linear model of progress in electrophysiology</figure></div>
+
+
+
+<p>On a technical note, a Poisson regression model will tend to give larger weight to higher numbers – hence, it focuses on fitting the right-hand side of the graph, while the linear regression model that’s conventionally used gives equal weight everywhere. With an accelerating trend, that means the Poisson regression model give a shorter doubling time. </p>
+
+
+
+<p>We can do one better – fit a double-exponential model. This is only a few lines of code in <a href="https://docs.pymc.io/">PyMC3</a> – a miracle of automatic differentiation and Hamiltonian Monte Carlo. Here’s what that looks like:</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://xcorr.files.wordpress.com/2021/04/image-6.png"><img alt="" class="wp-image-7617" data-attachment-id="7617" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-6" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-6.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-6.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-6.png" data-orig-size="779,527" data-permalink="https://xcorr.net/image-6-2/" height="276" src="https://xcorr.files.wordpress.com/2021/04/image-6.png?w=779" width="408" /></a></figure></div>
+
+
+
+<p>You can see visually this is a much better fit, and it implies something pretty dramatic: progress itself is accelerating. That means that doubling time itself has changed over time – and it currently stands at 3.6 years under this model [95% CI 3.5-3.7].</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://xcorr.files.wordpress.com/2021/04/image-7.png"><img alt="" class="wp-image-7619" data-attachment-id="7619" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-7" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-7.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-7.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-7.png" data-orig-size="752,555" data-permalink="https://xcorr.net/image-7-2/" height="278" src="https://xcorr.files.wordpress.com/2021/04/image-7.png?w=752" width="377" /></a></figure></div>
+
+
+
+<p>These results project a 1M neuron average recording capability by 2045 – of course, this discounts ceiling effects and potential paradigm shifts, which could adjust these bounds far upward or downward. What about optical methods? It turns out that the Poisson model works poorly because of overdispersion. I used a negative binomial to model the noise in the curve. I tried to let the overdispersion parameter be free, but I was getting convergence problems. Hence I fixed it to 2.0.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://xcorr.files.wordpress.com/2021/04/image-9.png"><img alt="" class="wp-image-7623" data-attachment-id="7623" data-comments-opened="1" data-image-description="" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-9" data-large-file="https://xcorr.files.wordpress.com/2021/04/image-9.png?w=723" data-medium-file="https://xcorr.files.wordpress.com/2021/04/image-9.png?w=300" data-orig-file="https://xcorr.files.wordpress.com/2021/04/image-9.png" data-orig-size="783,527" data-permalink="https://xcorr.net/image-9/" height="257" src="https://xcorr.files.wordpress.com/2021/04/image-9.png?w=783" width="383" /></a></figure></div>
+
+
+
+<p>The implied doubling rate is a little less than 2 years. These numbers could swing wildly as we add more data, but we see that the doubling rate for imaging is at least twice the current rate for electrodes. This is due to the market pressures in cellphone sensors and telecommunications (fiber optics and LiDAR), making good sensors very cheap. Many in neurotech have taken note, <a href="https://tech.fb.com/imagining-a-new-interface-hands-free-communication-without-saying-a-word/">including Facebook</a>, which is building light-based BCIs, and Paradromics, which is <a href="https://www.biorxiv.org/content/10.1101/2020.07.17.209403v1">adapting some of the fabrication methods from imaging sensors</a> to electrophysiology. </p>
+
+
+
+<p>Thus, this generalized Moore’s law of recordings is likely to continue decreasing in doubling time over the foreseeable future. Does this mean recording from every cell in the brain ($10^{11}$ cells) in the next 25 years? Probably not with electrodes – but if progress with light-based sensing continues at the same pace, perhaps. There is the vexing issue of scatter – <a href="https://twitter.com/AdamMarblestone/status/1387018520001748995">and some of the people in this thread have some ideas on how to solve this</a>.</p>
+
+
+
+<p>Regardless of the exact course of progress, I think that 7 years is far too long a doubling time – perhaps 3.5 years for ephys, 2 years for imaging. The future ain’t what it used to be, and it’s coming far faster than we’ve perhaps imagined. What will we do with all this data? There’s some great hints in the Urai paper. An interesting research question si how holographic the brain is – perhaps we will get most of the understanding with far less than 100% coverage. Regardless, I think Adam Calhoun put it best:</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<div class="embed-twitter"><blockquote class="twitter-tweet" data-dnt="true" data-width="550"><p dir="ltr" lang="en">Probably PCA</p>— Adam J Calhoun (@neuroecology) <a href="https://twitter.com/neuroecology/status/1386979600702529539?ref_src=twsrc%5Etfw">April 27, 2021</a></blockquote></div>
+</div></figure>
+
+
+
+<h2>Further reading</h2>
+
+
+
+<ul><li><a href="https://www.nature.com/articles/nn.2731">How advances in neural recording affect data analysis</a></li><li><a href="https://www.frontiersin.org/articles/10.3389/fncom.2013.00137/full">Physical principles for scalable neural recordings</a></li><li><a href="https://arxiv.org/abs/2103.14662">Large-scale neural recordings call for new insights to link brain and behavior</a></li></ul>
+                <p class="text-muted">in <a href="https://xcorr.net">xcorr.net</a> on April 27, 2021 05:48 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/lead-thick-neutron-skin-atom-nucleus-new-measure-physics" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/lead-thick-neutron-skin-atom-nucleus-new-measure-physics" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/lead-thick-neutron-skin-atom-nucleus-new-measure-physics&title=The thickness of lead’s neutron ‘skin’ has been precisely measured" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="https://www.sciencenews.org/article/lead-thick-neutron-skin-atom-nucleus-new-measure-physics">The thickness of lead’s neutron ‘skin’ has been precisely measured</a></h4>
+
+<p>Some atomic nuclei are thin-skinned — they’re surrounded by a slim shell of neutrons.</p>
+
+
+
+<p>Physicists now know how thick that neutron skin is for one particular type of nucleus. The skin of lead-208 — a variety of lead with 126 neutrons in addition to its 82 protons — is about <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.172502">0.28 trillionths of a millimeter thick</a>, researchers report online April 27 in <em>Physical Review Letters</em>.</p>
+
+
+
+<p>Lead-208’s nucleus is approximately spherical, a ball of protons embedded within a slightly bigger ball of neutrons. Measuring the difference between the sizes of the spheres reveals the thickness of lead’s sleek neutron skin.</p>
+
+
+
+<p>Gauging the size of the proton sphere is relatively straightforward: Physicists can shoot electrically charged particles at the nucleus and study how the particles scatter away from the positively charged protons. But because neutrons don’t have an electric charge, the volume they enclose is harder to measure.</p>
+
+
+
+<p>So researchers with the Lead Radius Experiment, or PREX-II, at Jefferson Lab in Newport News, Va., used a special technique. The team measured how electrons scattered differently from the nucleus according to their spin, or angular momentum. Because electrons interact with neutrons at different rates depending on the direction of their spin, the experiment revealed the width of the neutron sphere, allowing researchers to calculate the neutron skin thickness.</p>
+
+
+
+<p>The neutron skin was slightly thicker than physicists had predicted. That’s a result that “makes everyone sit up and pay attention and start to question one’s assumptions,” says physicist and PREX-II co-spokesperson Krishna Kumar of the University of Massachusetts Amherst.</p>
+
+
+
+<p>A future measurement will test the skin of another nucleus, calcium-48. Together the measurements could help scientists better understand theories of the atomic nucleus and other realms where neutrons are crammed together such as in <a href="https://www.sciencenews.org/article/neutron-stars-pulsar-density-diameter-matter">neutron stars</a>, extremely dense, dead stars composed mainly of neutrons (<em>SN: 4/20/21</em>).</p>
+                <p class="text-muted">in <a href="https://www.sciencenews.org">Science News</a> on April 27, 2021 03:00 PM.</p>
+              </li>
+              <li class="list-group-item">
+                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://feeds.plos.org/~r/plos/Blog/~3/FJ2pmGTKCuU/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://feeds.plos.org/~r/plos/Blog/~3/FJ2pmGTKCuU/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://feeds.plos.org/~r/plos/Blog/~3/FJ2pmGTKCuU/&title=To boldly grow: five new journals shaped by Open Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+                <h4><a href="http://feeds.plos.org/~r/plos/Blog/~3/FJ2pmGTKCuU/">To boldly grow: five new journals shaped by Open Science</a></h4>
+
+<figure class="wp-block-image size-full"><img alt="PLOS announces new journals" class="wp-image-18866" height="630" src="https://theplosblog.plos.org/wp-content/uploads/sites/6/2021/04/PLOS-Blogs-New-journal-announcment3-1.gif" width="1120" /></figure><p>We are extremely excited to announce the imminent launch of <strong>five new journals</strong>, our first new launches in fourteen years. These new journals are unified in addressing global health and environmental challenges and are rooted in the full values of Open Science:</p>
+
+
+
+<ul><li><a href="https://journals.plos.org/climate" rel="noreferrer noopener" target="_blank"><em>PLOS Climate</em></a></li><li><a href="https://journals.plos.org/sustainabilitytransformation" rel="noreferrer noopener" target="_blank"><em>PLOS Sustainability and Transformation</em></a></li><li><a href="https://journals.plos.org/water" rel="noreferrer noopener" target="_blank"><em>PLOS Water</em></a></li><li><a href="https://journals.plos.org/digitalhealth" rel="noreferrer noopener" target="_blank"><em>PLOS Digital Health</em></a></li><li><a href="https://journals.plos.org/globalpublichealth" rel="noreferrer noopener" target="_blank"><em>PLOS Global Public Health</em></a></li></ul><p>But, before we go on, let’s address this: “Yet more journals?” (Yes, we heard you…!)</p>
+
+
+
+<p>Yes. We set out, with our original <a href="https://plos.org/publish/submit/" rel="noreferrer noopener" target="_blank">seven journals</a>, to transform research communication by making research content openly accessible. <a href="https://plos.org/about/" rel="noreferrer noopener" target="_blank">Over the eighteen years since our first journal launch</a> we’ve helped prove the viability of Open Access which, despite the occasional disagreement about how best to achieve it, is now a mainstream notion. We changed the publishing landscape via <em>PLOS ONE</em>, and this new type of “mega-journal” now features at almost every publisher and in every research field. We helped focus the conversation about peer review on rigor and transparency, and more people now understand how impact-seeking should never be at the expense of these notions. And, via open data policies, open peer review options, protocols, preregistration, preprint facilitation, etc., we’ve worked towards Open Science at a scale and in ways that increase the transparency and rigor of the <strong>entire research communication process</strong>, not just our journals. </p>
+
+
+
+<p>All this is to say that we do not take lightly the responsibility of introducing new journals into the world. While we don’t believe the long-term future of research communication is always going to be the journal as we know it today, we do appreciate the impacts that journals can still have, and the new <strong>communities of practice </strong>they can empower. </p>
+
+
+
+<p>Therefore, we are launching these five journals in the spirit of them being additional <strong>change-making vehicles</strong>.</p>
+
+
+
+<p>We’ve invited key members of the PLOS Leadership Team along with our CEO, Alison Mudditt, to field specific questions, below: </p>
+
+
+
+<h4><strong><em>“Why launch new journals at this point in PLOS’ journey?” </em></strong></h4>
+
+
+
+<p><strong>Niamh O’Connor, Chief Publishing Officer, PLOS</strong></p>
+
+
+
+<p>“We’re a nonprofit, driven by our <a href="https://plos.org/dei/" rel="noreferrer noopener" target="_blank">mission</a>, and we need to adapt to continue to deliver on it. Even though Open Access is now widely adopted, and Open Science is advancing, there are still key voices missing. We are expanding our global footprint in locally responsible ways to get closer to researchers. Researchers have always driven our mission forward, and in order for us to have a meaningful impact we need to include the broadest range of their voices, globally. This way, we ensure the co-creation of paths to Open Science that work for diverse communities and do not simply extend existing power structures. These new journals create new and diverse communities of practice, and ensure that they are at the forefront of shaping how we address the most pressing health and environmental issues facing our society. </p>
+
+
+
+<p>Additionally, all these journals will be underpinned by our existing, and new, institutional business models that move beyond the APC to ensure more equitable and regionally appropriate ways to support Open Access publishing. Our existing institutional models are our <a href="https://plos.org/resources/community-action-publishing/" rel="noreferrer noopener" target="_blank">Community Action Publishing (CAP)</a> and <a href="https://plos.org/resources/for-institutions/flat-fee-agreements/" rel="noreferrer noopener" target="_blank">Flat Fee agreement</a> models. We’ll talk more about our brand new models when the journals open for submissions, suffice to say that they are also not based on APCs. With all this said, author fee-based models will still be available for those authors who prefer or need them.”</p>
+
+
+
+<h4><strong><em>“What are the special characteristics of these new journals?”</em></strong></h4>
+
+
+
+<p><strong>Dan Shanahan, Publishing Director, PLOS</strong></p>
+
+
+
+<p>“As Niamh says, our next phase of work is not just about Open Access. These new journals not only complement and naturally extend the existing PLOS suite of journals, but will hardwire a lens of social responsibility into sharing research. Via these new journals we can work together to address the most pressing ‘Openness’ issue specific to each field, and enable the researchers addressing these challenges, everywhere, to have the broadest impact. </p>
+
+
+
+<p>In full alignment with the proposed <a href="https://en.unesco.org/science-sustainable-future/open-science/recommendation" rel="noreferrer noopener" target="_blank">UNESCO Recommendation on Open Science</a>, these titles will ensure diversity and equity of representation at all levels – editors, editorial boards, reviewers, authors – and will actively seek out research from under-represented communities. The journals will play a part in broader efforts to create a more equitable system of knowledge-sharing, accelerating and increasing the benefits of scientific endeavour for global society as a whole. </p>
+
+
+
+<p>The new journals all focus on some of the world’s most globally-relevant issues, to which locally-relevant research can, and must, become more visible. This approach will directly challenge the unfortunate norm that most ‘global’ forums remain dominated by research from Western Europe and North America.”</p>
+
+
+
+<h4><strong><em>“How will these journals contribute to the increased adoption of Open Science practices?”</em></strong></h4>
+
+
+
+<p><strong>Veronique Kiermer, Chief Scientific Officer, PLOS</strong></p>
+
+
+
+<p>“PLOS has always led on key Open Science matters, we are experimenters, but we’re also striving to be better listeners. We know a rigid approach to Open Science won’t foster equitable participation from all communities. As a publisher, we’ve never been driven by tradition, but by a willingness to question the status quo and an eagerness to explore how we can understand and improve the system. We’ll continue to investigate and test new ways of sharing, assessing, and recognizing research. We’ll be partnering with leaders across research communities, and the Open Science communities, to enact change. Not every solution will be journal-shaped, but all our journals will be shaped by Open Science, enabling those who publish with us to join communities of practice. We can use our newly expanded journal portfolio to influence norms and advance Open Science practices in considered and appropriate ways. We stand firm on any policies like open data that promote rigor and advance trust in research, but we want to understand the specific challenges that such policies represent for new communities, and work with them to find solutions that empower them, in their contexts, to practice Open Science. Overall, we want to further empower new communities to join us and inform us, working more tightly together towards ever more trust in science.”</p>
+
+
+
+<h4><strong><em>“How does this expansion of the portfolio fit into PLOS’ wider aims for the future?”</em></strong></h4>
+
+
+
+<p><strong>Alison Mudditt, Chief Executive Officer, PLOS</strong></p>
+
+
+
+<p>“PLOS has grown, times have changed, and how we deliver our mission has to evolve. Science is a global, collaborative enterprise. Challenging times help us see where we are and where we need to be. Global collaboration, transparency, and trust in science (and policies…and interventions…)  have all become recurring themes. We’re also coming to terms with how we, as a society, need to do a lot more to address systemic barriers to inclusion. How we think of ourselves as an organization, especially a research communication organization, isn’t separate from everything else going on in the world today. We have always worked to raise the bar for Openness. To continue this work we need to continue to grow – but not just in the traditional business sense, and not just in counting the number of journals we publish: we also need to, and have concrete plans to, spread our roots deeper, create more global hubs for PLOS, absorb researchers and local practices more fully into our business, and, as others commented before me, ensure that any journal we publish is informed by local communities at a global scale, challenging problems, and rebuilding the system better.”</p>
+
+
+
+<h3><strong>Watch these spaces!</strong></h3>
+
+
+
+<p>We have Editors in place, we have dedicated staff, and the journals will open for submissions a little later this year. All updated information will appear on the respective journal websites (linked from the list above) as the journals take shape. Visit them often for submission guidelines, how our editorial boards are developing, how to apply to be a member of the board, where to follow them on social media, etc.</p>
+
+
+
+<p>Please share this news on your preferred social media via the buttons above. If you would like to join the Facebook and LinkedIn groups “PLOS Open Science Champions” for early announcements of this type, please visit the groups and request to be added: <a href="https://www.linkedin.com/groups/13944564/" rel="noreferrer noopener" target="_blank">LinkedIn</a>; <a href="https://www.facebook.com/groups/722031678676265" rel="noreferrer noopener" target="_blank">Facebook</a>. </p>
+
+
+
+<p>Thank you for reading, and thank you to all of you who have supported us since the <a href="https://web.archive.org/web/20030609221408/http://www.plos.org/" rel="noreferrer noopener" target="_blank">launch of <em>PLOS Biology</em> eighteen years ago in 2003</a>. PLOS, and Open Access itself, would not be this far along without you!</p>
+
+
+
+<p>–PLOS</p>
+
+
+
+<h4><strong>Acknowledgements</strong></h4>
+
+
+
+<p>We would like to thank everyone who supported us and provided input and insight for these new journals, including Jamie Bartram, University of Leeds, UK; Clarissa Brocklehurst, Water and Sanitation Specialist, Canada; Alexandros Gasparatos, University of Tokyo, Japan; Alex Godoy-Faúndez, Universidad del Desarrollo, Chile; Ashantha Goonetilleke, Queensland University of Technology, Australia; Suzanne Hulscher, University of Twente, the Netherlands; Lawrence E. Hunter, University of Colorado School of Medicine, USA; Christopher Jackson, Imperial College London, UK; Malte Meinshausen, University of Melbourne, Australia; Angus Morrison Saunders, Edith Cowan University, Australia; Lucila Ohno-Machado, University of California, San Diego, USA; Farhana Sultana, Syracuse University, USA;  among others, as well as the <a href="https://plos.org/about/scientific-advisory-council/" rel="noreferrer noopener" target="_blank">PLOS Scientific Advisory Council</a>.</p>
+<p>The post <a href="https://theplosblog.plos.org/2021/04/launching-new-journals-2021/" rel="nofollow">To boldly grow: five new journals shaped by Open Science</a> appeared first on <a href="https://theplosblog.plos.org" rel="nofollow">The Official PLOS Blog</a>.</p>
+<img alt="" height="1" src="http://feeds.feedburner.com/~r/plos/Blog/~4/FJ2pmGTKCuU" width="1" />
+                <p class="text-muted">in <a href="https://theplosblog.plos.org">The Official PLOS Blog</a> on April 27, 2021 02:00 PM.</p>
               </li>
               <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/covid-brain-coronavirus-symptom-stroke-anxiety-depression" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/covid-brain-coronavirus-symptom-stroke-anxiety-depression" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/covid-brain-coronavirus-symptom-stroke-anxiety-depression&title=COVID-19 can affect the brain. New clues hint at how" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -2743,33 +2979,6 @@ Researchers in India have lost four papers in journals belonging to the Royal So
                 <p class="text-muted">in <a href="https://www.sciencenews.org">Science News</a> on April 18, 2021 11:15 AM.</p>
               </li>
               <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org/article/enchanted-by-black-holes-we-are-too" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org/article/enchanted-by-black-holes-we-are-too" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org/article/enchanted-by-black-holes-we-are-too&title=Enchanted by black holes? We are, too" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://www.sciencenews.org/article/enchanted-by-black-holes-we-are-too">Enchanted by black holes? We are, too</a></h4>
-
-<p>The first-ever image of a black hole dazzled people worldwide when it was unveiled in April 2019, the result of a scientific feat involving scientists and observatories around the globe.</p>
-
-
-
-<p>Now we’ve got a new snapshot of the elusive beast at the center of galaxy M87, and it’s just as alluring as the first. This new image <a href="https://www.sciencenews.org/article/black-hole-picture-magnetic-fields-event-horizon-telescope" rel="noreferrer noopener" target="_blank">reveals magnetic fields swirling</a> around the black hole’s accretion disk, the superhot gas encircling the black hole’s center. Those magnetic fields are thought to play key roles in black hole behavior, as <a href="https://www.sciencenews.org/author/maria-temming">staff writer Maria Temming</a> reports in this issue.</p>
-
-
-
-<p>We here at <em>Science News</em> are all in for black holes — we’ve been covering them extensively since <a href="https://www.sciencenews.org/archive/black-holes-space" rel="noreferrer noopener" target="_blank">we first used the term in the magazine in 1964</a>, when their existence was still a big question mark. <a href="https://www.sciencenews.org/century/wild-universe-einstein-general-relativity-spacetime">Decades of work by scientists</a> has revealed not just that black holes are real, but that they sit at the center of most galaxies and influence the creation of stars. And even though they’re huge, strange and very far away, they seem to reflect human experience. “They are a go-to metaphor for any unknowable space, any deep abyss, any endeavor that consumes all our efforts while giving little in return,” <em>Science News</em> special projects editor Elizabeth Quill <a href="https://www.sciencenews.org/article/einstein-theory-general-relativity-gravity-black-holes-cosmos">wrote</a> in our ongoing series of stories marking our 100-year anniversary (<em>SN: 2/13/21, p. 16</em>). Ah, but they give so much.</p>
-
-
-
-<p>“Black holes were instrumental in getting me interested in science,” Temming says, and she’s not alone in that. “If you talk to many science writers or many astronomers, black holes are one of those shared experiences: They’re so mysterious and mind-boggling, you can’t help but get sucked in,” she says. Temming first got interested in astronomy in high school, when she was captivated by a poster of galaxies in her physics classroom. Her teacher, Mrs. Girkin, took the poster off the wall and gave it to Temming; it’s been hanging in every place she’s lived since. Along the way, she also acquired undergraduate degrees in physics and English, then a master’s degree in science writing from MIT.</p>
-
-
-
-<p>Temming was part of our team coverage of the April 10, 2019 announcement of <a href="https://www.sciencenews.org/article/black-hole-first-picture-event-horizon-telescope" rel="noreferrer noopener" target="_blank">the first image of a black hole</a>. She attended the news conference in Washington, D.C., and filed notes and quotes to our editors via Slack so we could publish the image within minutes of the big reveal. Temming followed up with a story explaining <a href="https://www.sciencenews.org/article/event-horizon-telescope-black-hole-picture?tgt=nr" rel="noreferrer noopener" target="_blank">how astronomers captured the image</a> by combining observations from seven stations around the globe, known as the Event Horizon Telescope network (<em>SN: 4/27/19, p. 7</em>). Her explanations of this exceedingly complex and precise process, which involved so many terabytes of data that they had to be shipped from the various observatories around the world by snail mail, are compelling and clear.</p>
-
-
-
-<p> “Covering the 2019 black hole picture felt like a great culmination of many, many decades of science,” Temming says, going all the way back to Einstein’s general theory of relativity. “I feel very lucky to have come on the scene as a science writer just as this was starting to happen.” She’s excited to be covering this new era of astrophysics, and we’re glad she’s on the beat.</p>
-                <p class="text-muted">in <a href="https://www.sciencenews.org">Science News</a> on April 18, 2021 11:00 AM.</p>
-              </li>
-              <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/&title=Weekend reads: ‘The Damage Campaign;’ timber industry retracts comments, apologizes; COVID-19 vaccine study conflicts disclosure" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://retractionwatch.com/2021/04/17/weekend-reads-the-damage-campaign-timber-industry-retracts-comments-apologizes-covid-19-vaccine-study-conflicts-disclosure/">Weekend reads: ‘The Damage Campaign;’ timber industry retracts comments, apologizes; COVID-19 vaccine study conflicts disclosure</a></h4>
 
@@ -5064,13 +5273,6 @@ Disappointed of Carey Gillam's book about Lawyers' Adventures, I blog about the 
                 <p class="text-muted">in <a href="https://forbetterscience.com">For Better Science</a> on March 09, 2021 06:39 AM.</p>
               </li>
               <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com/2021/03/08/towards-equal-opportunity-for-prostate-breast-and-ovarian-cancers/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com/2021/03/08/towards-equal-opportunity-for-prostate-breast-and-ovarian-cancers/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com/2021/03/08/towards-equal-opportunity-for-prostate-breast-and-ovarian-cancers/&title=Towards equal opportunity for prostate, breast and ovarian cancers" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="https://forbetterscience.com/2021/03/08/towards-equal-opportunity-for-prostate-breast-and-ovarian-cancers/">Towards equal opportunity for prostate, breast and ovarian cancers</a></h4>
-
-"Are they just taking the piss?" -Smut Clyde
-                <p class="text-muted">in <a href="https://forbetterscience.com">For Better Science</a> on March 08, 2021 06:30 AM.</p>
-              </li>
-              <li class="list-group-item">
                 <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.elsevier.com/connect/journal-pilot-appends-corrections-when-articles-are-downloaded" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.elsevier.com/connect/journal-pilot-appends-corrections-when-articles-are-downloaded" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.elsevier.com/connect/journal-pilot-appends-corrections-when-articles-are-downloaded&title=Journal pilot appends corrections when articles are downloaded" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
                 <h4><a href="https://www.elsevier.com/connect/journal-pilot-appends-corrections-when-articles-are-downloaded">Journal pilot appends corrections when articles are downloaded</a></h4>
 
@@ -5574,111 +5776,6 @@ In recognition of #RareDiseaseDay, Elsevier is making select research articles a
 
 Dr Seng Cheong Loke is designing an augmented reality app to help older people communicate with their families
                 <p class="text-muted">in <a href="">Elsevier Connect</a> on February 23, 2021 12:00 AM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://romainbrette.fr/dynamique-et-controle-epidemique-quelques-concepts-simples/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://romainbrette.fr/dynamique-et-controle-epidemique-quelques-concepts-simples/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://romainbrette.fr/dynamique-et-controle-epidemique-quelques-concepts-simples/&title=Dynamique et contrôle épidémique : quelques concepts simples" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://romainbrette.fr/dynamique-et-controle-epidemique-quelques-concepts-simples/">Dynamique et contrôle épidémique : quelques concepts simples</a></h4>
-
-<p>Dans ce texte, j’essaie d’expliquer quelques concepts simples concernant la dynamique et le contrôle d’une épidémie. Je l’écris bien sûr en pensant à l’épidémie de Covid-19, mais la plupart des concepts sont généraux. En préambule, je tiens à préciser que je ne suis ni médecin ni épidémiologiste, donc je ne parlerai pratiquement pas des aspects purement médicaux, ni de subtilités d’épidémiologie, mais simplement de quelques notions générales. Ma spécialité est la modélisation de phénomènes dynamiques en biologie, en l’occurrence en neurosciences. Merci donc aux collègues compétents d’apporter des précisions ou corrections éventuelles, ou des références pertinentes.</p>
-<p><strong>Quelques remarques préliminaires sur les statistiques</strong></p>
-<p>Avant de commencer les explications, je voudrais tout d’abord inviter le lecteur à la prudence quant à l’interprétation des statistiques, en particulier des statistiques de mortalité. A l’heure où j’écris ces lignes, on estime qu’environ 15% de la population française a été infectée. Autrement dit, l’épidémie est débutante. Les statistiques de mortalité ne sont donc pas un « bilan » de l’épidémie, mais des statistiques sur une épidémie en cours. Comparer avec le bilan d’épidémies passées, ou d’autres causes de mortalité, n’a donc pas beaucoup de sens (éventuellement, on pourrait multiplier par 5 ces statistiques pour avoir un ordre d’idée).</p>
-<p>Deuxièmement, la mortalité d’une maladie ne dépend pas que du virus. Elle dépend aussi de la personne malade. Un facteur majeur est l’âge, et il faut donc prendre cela en compte lorsque l’on compare des pays de démographies très différentes. En première approximation, le risque de décès de la Covid-19 augmente avec l’âge de la même manière que le risque de décès hors Covid. On peut voir cela comme le fait que les jeunes sont peu à risque, ou bien que toutes les classes d’âge voient leur risque de décès dans l’année augmenter d’un même facteur. Quoi qu’il en soit, avec ce type de profil de mortalité, l’âge moyen ou médian au décès n’est pas très informatif puisqu’il est le même avec et sans infection.</p>
-<p>Troisièmement, la mortalité d’une maladie dépend aussi de la prise en charge. En l’occurrence, la Covid-19 se caractérise par un fort taux d’hospitalisation et de réanimation. La mortalité observée en France jusqu’à présent correspond à celle d’un système de soin qui n’est pas saturé. Naturellement, elle serait bien plus élevée si l’on ne pouvait pas procurer ces soins, c’est-à-dire si l’épidémie n’était pas contrôlée, et la mortalité se déplacerait également vers une population plus jeune.</p>
-<p>Enfin, il va de soi que la gravité d’une maladie ne se réduit pas à sa mortalité. Une hospitalisation n’est généralement pas anodine, et les cas moins sévères peuvent avoir des séquelles à long terme.</p>
-<p><strong>Le taux de reproduction</strong></p>
-<p>Un virus est une entité qui peut se répliquer dans un hôte et se transmettre à d’autres hôtes. Contrairement à une bactérie qui est une cellule, un virus n’est pas à proprement parler un organisme, c’est-à-dire qu’il dépend totalement de l’hôte pour sa survie et sa reproduction. Par conséquent, pour comprendre la dynamique d’une épidémie virale, il faut s’intéresser au nombre d’hôtes infectés et à la transmission entre hôtes.</p>
-<p>Un paramètre important est le <em>taux de reproduction </em>(R). C’est le nombre moyen de personnes qu’une personne infectée va contaminer. On voit que l’épidémie se développe si R&gt;1, et s’éteint si R&lt;1. A chaque transmission, le nombre de cas est multiplié par R. Ce taux de reproduction ne dit pas à quelle vitesse l’épidémie se développe, car cela dépend du temps d’incubation et de la période de contagiosité. C’est en fait un paramètre qui est surtout intéressant pour comprendre le contrôle de l’épidémie. Par exemple, si <em>R = 2</em>, alors on peut contrôler l’épidémie en divisant par deux le nombre de ses contacts.</p>
-<p>Comme le nombre de cas est multiplié par un certain facteur à chaque épisode de contamination, une épidémie a typiquement une dynamique exponentielle, c’est-à-dire que c’est le nombre de chiffres qui augmente régulièrement. Cela prend autant de temps de passer de 10 à 100 cas que de 100 à 1000 cas, ou de 1000 à 10 000 cas. La dynamique est donc de nature explosive. C’est pourquoi la quantité à suivre avec attention n’est pas tant le nombre de cas que ce taux de reproduction : dès que R&gt;1, le nombre de cas peut rapidement exploser et il faut agir vite.</p>
-<p>Naturellement, ce raisonnement suppose que la population n’a pas été déjà infectée. Si une proportion <em>p</em> de la population est immunisée (infectée ou vaccinée), alors chaque personne infectée va contaminer en moyenne un nombre de personnes <em>R</em> x (1-<em>p</em>). L’épidémie va donc s’arrêter quand ce nombre descend en-dessous de 1, c’est-à-dire <em>p &gt; 1- 1/R</em>. Par exemple, avec <em>R = 3</em>, l’épidémie s’arrête quand les 2/3 de population sont immunisés.</p>
-<p>Ceci nous dit également l’impact de la vaccination en cours sur le contrôle de l’épidémie. Par exemple, à l’heure où j’écris ces lignes (22 février 2021), environ 2% de la population a été vaccinée (4% a reçu la première dose). Cela contribue donc à diminuer R de 2% (par exemple de 1.1 à 1.08). Il est donc clair que la vaccination n’aura pas d’effet important sur la dynamique globale avant plusieurs mois.</p>
-<p>Il est important de comprendre que ce taux de reproduction n’est pas une caractéristique intrinsèque du virus. Il dépend du virus, mais également de l’hôte qui peut être plus ou moins contagieux (on a parlé par exemple des « superspreaders »), d’aspects comportementaux, de mesures de protection (par exemple les masques). Ce taux n’est donc pas forcément homogène dans une population. Par exemple, il est vraisemblable que le R soit supérieur chez les jeunes actifs que chez les personnes âgées.</p>
-<p><strong>Peut-on isoler une partie de la population ?</strong></p>
-<p>Est-il possible de préserver la population la plus fragile en l’isolant du reste de la population, sans contrôler l’épidémie ? Cette hypothèse a été formulée plusieurs fois, bien que <a href="https://science.sciencemag.org/content/371/6526/230">très critiquée dans la littérature scientifique</a>.</p>
-<p>On peut comprendre assez facilement que c’est une idée périlleuse. Isoler une partie de la population a un impact quasi nul sur le taux de reproduction R, et donc la dynamique de l’épidémie est inchangée. Il faut bien garder à l’esprit que contrôler une épidémie pour qu’elle s’éteigne suppose simplement de faire en sorte que R&lt;1, de façon à ce que le nombre de cas décroisse exponentiellement. Ainsi pendant le confinement strict de mars 2020, le taux était d’environ R = 0.7. C’est suffisant pour que l’épidémie s’éteigne, mais il n’en reste pas moins qu’une personne infectée continue à contaminer d’autres gens. Par conséquent, à moins de parvenir à isoler ces personnes fragiles beaucoup plus strictement que lors du premier confinement (ce qui semble douteux étant donné qu’il s’agit pour partie de personnes dépendantes), l’épidémie dans cette population va suivre l’épidémie dans la population générale, avec la même dynamique mais dans une version un peu atténuée. Autrement dit, il semble peu plausible que cette stratégie soit efficace.</p>
-<p><strong>Les variants</strong></p>
-<p>Un virus peut muter, c’est-à-dire que lorsqu’il se réplique dans un hôte, des erreurs sont introduites de sorte que les propriétés du virus changent. Cela peut avoir un impact sur les symptômes, ou sur la contagiosité. Naturellement, plus il y a d’hôtes infectés, plus il y a de variants, c’est donc un phénomène qui survient dans des épidémies non contrôlées.</p>
-<p>Supposons que R = 2 et qu’un variant ait un taux R = 4. Alors à chaque transmission, le nombre de cas du variant relatif au virus original est multiplié par 2. Au bout de 10 transmissions, le variant représente 99.9% des cas. Ceci reste vrai si des mesures restrictives réduisent la transmission (par exemple R=2/3 et R=4/3). Après ces 10 transmissions, le R global est celui du variant. Par conséquent, c’est le nombre de cas et le R du variant plus contagieux qui déterminent le nombre de cas et la dynamique à moyen terme (c’est-à-dire quelques semaines). Le nombre de cas du virus original et même le nombre de cas globaux sont essentiellement insignifiants.</p>
-<p>Cela signifie que l’on peut être dans une dynamique explosive alors même que le nombre de cas diminue. Pour savoir si l’épidémie est sous contrôle, il faut regarder le R du variant le plus contagieux. A l’heure où j’écris, on est précisément dans la situation où le virus original est encore dominant avec R&lt;1 et les variants ont un R&gt;1, ce qui signifie que malgré une diminution globale des cas, on est dans une dynamique explosive qui sera apparente dans le nombre global de cas lorsque les variants seront dominants.</p>
-<p><strong>Le contrôle épidémique</strong></p>
-<p>Contrôler l’épidémie signifie faire en sorte que R&lt;1. Dans cette situation, le nombre de cas diminue exponentiellement et s’approche de 0. Il ne s’agit pas nécessairement de supprimer toute transmission mais de faire en sorte par une combinaison de mesures que R soit plus petit que 1. Ainsi, passer de R = 1.1 à 0.9 suffit pour passer d’une épidémie explosive à une extinction de l’épidémie.</p>
-<p>Naturellement, la mesure la plus sûre pour éteindre l’épidémie est d’empêcher toute relation sociale (le « confinement »). Mais il existe potentiellement de nombreuses autres mesures, et idéalement il s’agit de combiner plusieurs mesures à la fois efficaces et peu contraignantes, le confinement pouvant être utilisé en dernier recours lorsque ces mesures ont échoué. La difficulté est que l’impact d’une mesure n’est pas précisément connu pour un virus nouveau.</p>
-<p>Ces connaissances sont cependant loin d’être négligeables après un an d’épidémie de Covid-19. On sait par exemple que le port du masque est très efficace (on s’en doutait déjà, étant donné que c’est une infection respiratoire). On sait que le virus se propage par projection de gouttelettes et par aérosols. On sait également que les écoles et les lieux de restauration collective sont des lieux importants de contamination. Cette observation peut conduire à fermer ces lieux, mais on pourrait alternativement les sécuriser par l’installation de ventilation et de filtres (investissement qui pourrait d’ailleurs être synergique avec un plan de rénovation énergétique).</p>
-<p>Il y a deux grands types de mesures. Il y a des mesures globales qui s’appliquent aux personnes saines comme aux porteurs du virus, comme le port du masque, la fermeture de certains lieux, la mise en place du télétravail. Le coût de ces mesures (au sens large, c’est-à-dire le coût économique et les contraintes) est fixe. Il y a des mesures spécifiques, c’est-à-dire qui sont déclenchées lorsqu’il y a un cas, comme le traçage, la fermeture d’une école, le confinement local. Ces mesures spécifiques ont un coût proportionnel au nombre de cas. Le coût global est donc une combinaison d’un coût fixe et d’un coût proportionnel au nombre de cas. Par conséquent, il est toujours plus coûteux de maîtriser une épidémie lorsque le nombre de cas est plus grand (choix qui semble pourtant avoir été fait en France après le deuxième confinement).</p>
-<p><strong>Le « plateau »</strong></p>
-<p>Une remarque importante : les mesures ont un impact sur la progression de l’épidémie (R) et non directement sur le nombre de cas. Cela signifie que si l’on sait maintenir un nombre de cas haut (R=1), alors on sait tout aussi bien (avec les mêmes mesures), maintenir un nombre de cas bas. Avec un petit effort supplémentaire (R=0.9), on peut supprimer l’épidémie.</p>
-<p>Avoir comme objectif la saturation hospitalière n’a donc pas particulièrement d’intérêt, et est même un choix plus coûteux que la suppression. Il existe une justification à cet objectif, la stratégie consistant à « aplatir la courbe », qui a été suggérée au début de l’épidémie. Il s’agit de maximiser le nombre de personnes infectées de façon à immuniser rapidement toute la population. Maintenant qu’il existe un vaccin, cette stratégie n’a plus beaucoup de sens. Même sans vaccin, infecter toute la population sans saturer les services hospitaliers prendrait plusieurs années, sans parler naturellement de la mortalité.</p>
-<p><strong>La suppression de l’épidémie</strong></p>
-<p>Comme remarqué précédemment, il est plus facile de maîtriser une épidémie faible que forte, et donc une stratégie de contrôle doit viser non un nombre de cas « acceptables », mais un taux de reproduction R&lt;1. Dans cette situation, le nombre de cas décroît exponentiellement. Lorsque le nombre de cas est très bas, il faut prendre en compte les cas importés. C’est-à-dire que sur une période de contamination, le nombre de cas va passer non plus de <em>n</em> à <em>R</em> x <em>n</em> mais de <em>n</em> à <em>R</em> x <em>n + </em><em>I</em>, où <em>I</em> est le nombre de cas importés. Le nombre de cas va donc se stabiliser à <em>I/(1-R)</em> (par exemple, 3 fois le nombre de cas importés si R = 2/3). Si l’on veut diminuer encore le nombre de cas, il devient alors important d’empêcher l’importation de nouveaux cas (tests, quarantaine, etc).</p>
-<p>Lorsque le nombre de cas est très bas, il devient faisable d’appliquer des mesures spécifiques très poussées, c’est-à-dire pour chaque cas. Par exemple, pour chaque cas, on isole la personne, et l’on teste et on isole toutes les personnes susceptibles d’être également porteuses. Non seulement on identifie les personnes potentiellement contaminées par la personne positive, mais on recherche également la source de la contamination. En effet, si l’épidémie est portée par des événements de supercontamination (« clusters »), alors il devient plus efficace de remonter à la source de la contamination puis de suivre les cas contacts.</p>
-<p>A faible circulation, comme on dispose de ces moyens supplémentaires pour diminuer la transmission, il devient possible de lever certains moyens non spécifiques (par exemple le confinement général ou autres restrictions sociales, les fermetures d’établissements et même le port du masque). Pour que les moyens spécifiques aient un impact important, un point clé est que la majorité des cas puissent être détectés. Cela suppose des tests systématiques massifs, par exemple en utilisant des tests salivaires, des drive-in, des tests groupés, des contrôles de température. Cela suppose que les personnes positives ne soient pas découragées de se tester et s’isoler (en particulier, en maintenant les revenus). Cela suppose également un isolement systématique en attente de résultat pour les cas suspectés. Autrement dit, pour avoir une chance de fonctionner, cette stratégie doit être appliquée de manière la plus systématique possible. L’appliquer sur 10% des cas n’a pratiquement aucun intérêt. C’est pourquoi elle n’a de sens que lorsque la circulation du virus est faible.</p>
-<p>Il est important d’observer que dans cette stratégie, l’essentiel du coût et des contraintes est porté par le dispositif de test, puisque le traçage et l’isolement ne se produisent que lorsqu’un cas est détecté, ce qui idéalement arrive très rarement. Si elle demande une certaine logistique, c’est en revanche une stratégie économique et peu contraignante pour la population.</p>
-<p><strong>Quand agir ?</strong></p>
-<p>J’ai expliqué que maintenir un niveau élevé de cas est plus coûteux et plus contraignant que maintenir un niveau faible de cas. Maintenir un niveau très faible de cas est encore moins coûteux et contraignant, bien que cela demande plus d’organisation.</p>
-<p>Bien entendu, pour passer d’un plateau haut à un plateau bas, il faut que l’épidémie décroisse, et donc transitoirement appliquer des mesures importantes. Si l’épidémie n’est pas contrôlée – et je rappelle que cela est le cas dès lors qu’un variant est en croissance (R&gt;1) même si le nombre global de cas décroît – ces mesures vont devoir être appliquées à un moment donné. Quand faut-il les appliquer ? Est-il plus avantageux d’attendre le plus possible avant de le faire ?</p>
-<p>Ce n’est clairement jamais le cas, car plus on attend, plus le nombre de cas augmente et donc plus les mesures restrictives devront être appliquées longtemps avant d’atteindre l’objectif de circulation faible, où des mesures plus fines (traçage) pourront prendre le relais. Cela peut sembler contre-intuitif si le nombre de cas est en décroissance mais c’est pourtant bien le cas, parce que le nombre de cas à moyen terme ne dépend que du nombre de cas du variant le plus contagieux, et non du nombre de cas global. Donc, si le variant le plus contagieux est en expansion, attendre ne fait qu’allonger la durée des mesures restrictives.</p>
-<p>De combien ? Supposons que le nombre de cas du virus (le variant le plus contagieux) double chaque semaine, et que les mesures restrictives divisent le nombre de cas par 2 en une semaine. Alors attendre une semaine avant de les appliquer allongent ces mesures d’une semaine (j’insiste : allongent, et non simplement décalent). Dans l’hypothèse (plus réaliste) où les mesures sont un peu moins efficaces, chaque semaine d’attente augmente la durée des mesures d’un peu plus d’une semaine.</p>
-<p>Il est donc toujours préférable d’agir dès que R&gt;1, de façon à agir le moins longtemps possible, et non pas d’attendre que le nombre de cas augmente considérablement. La seule justification possible à l’attente pourrait être une vaccination massive qui laisserait espérer une décroissance de l’épidémie par l’immunisation, ce qui n’est manifestement pas le cas dans l’immédiat.</p>
-<p> </p>
-<p><em>Quelques liens pertinents:</em></p>
-<ul>
-<li>Un <a href="https://www.containcovid-pan.eu/">appel européen</a> pour la stratégie Zero Covid.</li>
-<li>Un <a href="https://rogueesr.fr/zero-covid/">appel français</a>.</li>
-<li>Un <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)32625-8/fulltext">article dans le Lancet</a>.</li>
-</ul>
-                <p class="text-muted">in <a href="http://romainbrette.fr">Romain Brette</a> on February 22, 2021 03:45 PM.</p>
-              </li>
-              <li class="list-group-item">
-                <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://feeds.plos.org/~r/plos/Blog/~3/7QLveB8Y9KA/" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://feeds.plos.org/~r/plos/Blog/~3/7QLveB8Y9KA/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://feeds.plos.org/~r/plos/Blog/~3/7QLveB8Y9KA/&title=How can we increase adoption of open research practices?" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-                <h4><a href="http://feeds.plos.org/~r/plos/Blog/~3/7QLveB8Y9KA/">How can we increase adoption of open research practices?</a></h4>
-
-<p>This blog was written by Iain Hrynaszkiewicz, Director of Open Research Solutions for PLOS.</p>
-
-
-
-<p><em>Researchers are satisfied with their ability to share their own research data but may struggle with accessing other researchers’ data – according to PLOS research </em><a href="https://doi.org/10.31219/osf.io/njr5u"><strong><em>released as a preprint this week</em></strong></a><em>. Therefore, to increase data sharing in a findable and accessible way, PLOS will focus on better integrating existing data repositories and promoting their benefits rather than creating new solutions. We also call on the scholarly publishing industry to improve journal data sharing policies to better support researchers’ needs.</em></p>
-
-
-
-<p>PLOS has long supported Open Science with our data sharing policy. Our authors are far more likely to provide information about publicly available data compared to <a href="https://dashboard.stm-assoc.org/">journals with less stringent policies</a>. But best practice for data sharing – use of data repositories – is observed in <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230416">less than 30% of PLOS publications</a>. To help us understand if there are opportunities for new solutions to help improve adoption of best practice, we built on previous research into the frequency of problems associated with sharing research data. We investigated the <em>importance</em> researchers attach to different tasks associated with data sharing, and researchers’ <em>satisfaction</em> with their ability to complete these tasks.</p>
-
-
-
-<p>Through a <a href="https://theplosblog.plos.org/2020/05/what-are-your-priorities-for-data-sharing/">survey conducted in 2020</a>, which received 728 completed responses, we found that tasks relating to research impact, funder policy compliance, and credit had the highest importance scores. Tasks associated with funder, journal, and institutional policy compliance – including preparation of Data Management Plans (DMPs) – received high satisfaction scores from researchers, on average.</p>
-
-
-
-<p>52% of respondents reuse research data but the average satisfaction score for obtaining data for reuse – such as accessing data from journal articles or making requests for data from other individuals – was relatively low. Tasks associated with sharing data were rated somewhat important and respondents were reasonably well satisfied with their ability to accomplish them.</p>
-
-
-
-<p><img height="624" src="https://lh6.googleusercontent.com/yitlUEq3MxJm9SMFMulTwu9TcLufAw66cpmaVwjgUQigSJ_s_9HgWwNur3kEyjqicTZ1h9UXHhk7m36GJmZYkaHuPEKoNgwXzAUtFS-An0pA0_r5TXKnWiL496UgLwxuhtXRemuD" width="624" /></p>
-
-
-
-<p><strong><em>Figure:</em></strong><em> When we plot mean importance and satisfaction score, respondents were on average satisfied with their ability to complete the majority of tasks associated with Data Preparation, Data Publishing and Reuse of their own data but dissatisfied with their ability to complete tasks associated with Reuse of other researchers’ data. Tasks associated with meeting policy requirements are both important and well satisfied.</em></p>
-
-
-
-<p><strong>What are the implications?</strong></p>
-
-
-
-<p>We presume that researchers are unlikely to seek <em>new </em>solutions to a problem or task that they are satisfied in their <em>ability </em>to accomplish. This implies there are few opportunities for new solutions to meet researcher needs for data sharing – at least in our cohort, which consisted mostly of PLOS authors. PLOS – and other publishers – can likely meet these needs for data sharing by working to seamlessly integrate existing solutions that reduce the effort involved in some tasks, and focusing on advocacy and education around the benefits of sharing data in a Findable, Accessible, Interoperable and Reusable (FAIR) manner. </p>
-
-
-
-<p>The challenges that researchers have reusing data could be addressed in part by strengthening journal data sharing policies – such as only permitting “data available on request” when there are legal or ethical restrictions on sharing, and improving the links between articles and supporting datasets. Generic “data available on request” statements in publications, which are not permitted under PLOS’s policies, <a href="http://dx.doi.org/10.1136/bmjopen-2016-011784">usually mean data will not be available</a>.</p>
-
-
-
-<p>While our research revealed a “negative result” with respect to new solution opportunities, the results are informative for how PLOS can best meet known researcher needs. This includes more closely partnering with established data repositories and improving the linking of research data and publications. These are important parts of our plans to support adoption of Open Science in 2021 and beyond.</p>
-
-
-
-<p><em>Read the preprint </em><a href="https://doi.org/10.31219/osf.io/njr5u"><em>here</em></a><em> and access the survey dataset and survey instrument </em><a href="https://doi.org/10.6084/m9.figshare.13858763"><em>here</em></a><em>.</em></p>
-<p>The post <a href="https://theplosblog.plos.org/2021/02/how-can-we-increase-adoption-of-open-research-practices/" rel="nofollow">How can we increase adoption of open research practices?</a> appeared first on <a href="https://theplosblog.plos.org" rel="nofollow">The Official PLOS Blog</a>.</p>
-<img alt="" height="1" src="http://feeds.feedburner.com/~r/plos/Blog/~4/7QLveB8Y9KA" width="1" />
-                <p class="text-muted">in <a href="https://theplosblog.plos.org">The Official PLOS Blog</a> on February 22, 2021 03:11 PM.</p>
               </li>
           </ul>
         </div>
