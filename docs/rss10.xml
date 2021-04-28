@@ -16,6 +16,7 @@
 	<items>
 		<rdf:Seq>
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-10-03:/2021/10/03/minkowski-metric-feature-weighting-and-anomalous-cluster-initializing-in-k-means-clustering.html" />
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-04-28:/2021/04/28/learning-compositional-sequences-with-multiple-time-scales-through-a-hierarchical-network-of-spiking-neurons.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3099167" />
 			<rdf:li rdf:resource="https://digest.bps.org.uk/?p=41921" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:60796881a30b5620953fd77c" />
@@ -164,7 +165,6 @@
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-mathematics-to-solve-practical-problems-its-elementary" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/how-collaboration-changes-the-world-for-people-with-rare-diseases" />
 			<rdf:li rdf:resource="https://blog.oup.com/?p=145824" />
-			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18722" />
 		</rdf:Seq>
 	</items>
 </channel>
@@ -200,6 +200,42 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 &lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
 	<dc:date>2021-10-03T14:01:00+00:00</dc:date>
 	<dc:creator>Deepak Panday</dc:creator>
+</item>
+<item rdf:about="tag:biocomputation.herts.ac.uk,2021-04-28:/2021/04/28/learning-compositional-sequences-with-multiple-time-scales-through-a-hierarchical-network-of-spiking-neurons.html">
+	<title>UH Biocomputation group: Learning Compositional Sequences with Multiple Time Scales through a Hierarchical Network of Spiking Neurons</title>
+	<link>http://biocomputation.herts.ac.uk/2021/04/28/learning-compositional-sequences-with-multiple-time-scales-through-a-hierarchical-network-of-spiking-neurons.html</link>
+	<content:encoded>&lt;p&gt;This week on Journal Club session Muhammad Yaqoob will talk about a paper &quot;Learning Compositional Sequences with Multiple Time Scales through a Hierarchical Network of Spiking Neurons&quot;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Sequential behaviour is often compositional and organised across
+multiple time scales: a set of individual elements developing on short
+time scales (motifs) are combined to form longer functional sequences
+(syntax). Such organisation leads to a natural hierarchy that can be
+used advantageously for learning, since the motifs and the syntax can
+be acquired independently. Despite mounting experimental evidence for
+hierarchical structures in neuroscience, models for temporal learning
+based on neuronal networks have mostly focused on serial methods.
+Here, we introduce a network model of spiking neurons with a
+hierarchical organisation aimed at sequence learning on multiple time
+scales. Using biophysically motivated neuron dynamics and local
+plasticity rules, the model can learn motifs and syntax independently.
+Furthermore, the model can relearn sequences efficiently and store
+multiple sequences. Compared to serial learning, the hierarchical
+model displays faster learning, more flexible relearning, increased
+capacity, and higher robustness to perturbations. The hierarchical
+model redistributes the variability: it achieves high motif fidelity
+at the cost of higher variability in the between-motif timings.&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Papers:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;A. Maes, M. Barahona, C. Clopath, &lt;a class=&quot;reference external&quot; href=&quot;https://doi.org/10.1371/journal.pcbi.1008866&quot;&gt;&quot;Learning Compositional Sequences with Multiple Time Scales through a Hierarchical Network of Spiking Neurons&quot;&lt;/a&gt;,  2021, PLOS Computational Biology, 17, e1008866&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2021/04/30 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 14:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
+	<dc:date>2021-04-28T15:53:00+00:00</dc:date>
+	<dc:creator>Muhammad Yaqoob</dc:creator>
 </item>
 <item rdf:about="https://www.sciencenews.org/?p=3099167">
 	<title>Science News: Climate change may have changed the direction of the North Pole’s drift</title>
@@ -5827,39 +5863,6 @@ of R genes and pathogenicity determinants will also be discussed.&lt;/p&gt;
 	<content:encoded>&lt;p&gt;Was Darwin a one-trick pony? The scientists who most praise him typically cite just one of his ideas: natural selection. Do any know that his theory of evolution—like his take on psychology—presumed all creatures were agents? This fact has long been eclipsed by the “gene’s-eye view” of adaptation which gained a strangle-hold over biology during the twentieth century—and hence over sociobiology and today’s evolutionary psychology. Are current efforts to revise this view—emphasising “new” topics like the flexibility of phenotypes (an organism’s living characteristics) and the importance of development in adaptation—simply rediscovering Darwin’s approach?&lt;/p&gt;&lt;p&gt;How do members of a species come to differ from each other, thus furnishing the raw material for the struggle whose results Darwin subsumed under what he called the &lt;em&gt;law&lt;/em&gt; of natural selection? In two ways, wrote Darwin in 1859. A creature’s parents &lt;em&gt;transmit&lt;/em&gt; different characteristics to them as starting-points for their lives. And, over their life-course, creatures &lt;em&gt;develop&lt;/em&gt; their starting-characteristics in different ways, depending on how they respond to the various challenges they meet. In 1942, Julian Huxley and his colleagues recast natural selection as &lt;em&gt;a mechanism&lt;/em&gt;, not a law. Imagine twinned roulette-wheels: each individual’s evolutionary fate resulted from a random genetic provision of phenotypic traits being pitted against a lottery of environmental events. This new language of genes, genomes, and (from 1953) DNA, made Darwin look ignorant about how individual differences arose. Dying before genes or DNA were discovered, he never knew that mutations and chromosome-changes caused all variations (according to Huxley).&lt;/p&gt;&lt;p&gt;To retain Darwin as the figurehead of this gene-first take on nature, he was retro-fitted with twentieth-century beliefs. If DNA “programmes” what creatures are and do, genetic processes drive evolution forward, not creaturely acts. Hence, Huxley asserted, the “great merit” of Darwin was his proof that living organisms never acted purposively: everything they did could be accounted for “on good mechanistic principles.” Likewise, even when Harvard biologist Richard Lewontin spoke out &lt;em&gt;against&lt;/em&gt; the way the cult of genes blinds us to the active role organisms play in adaptation, his first target was Darwin, who, Lewontin said, portrayed organisms “as passive objects moulded by the external force of natural selection.”&lt;/p&gt;&lt;p&gt;Lewontin’s vouch that organisms help shape their own fates is now gaining traction. Few genes behave as they should according to Mendel. So, talk about genes “for” a phenotypic character is rarely appropriate. Even when we know everything we can about genes and environment, we still cannot predict what characteristics will emerge in an organism—proving phenotypes are independent sources of plasticity in the genesis of adaptations. Organisms help cause their own development and destiny, which means phenotypes themselves have evolutionary effects. Never mind why a fly hatches from its pupa to be small: its unusually big surface to volume ratio cannot help but shape its remaining life-history. This point underlines findings from biologists who study animal behaviour. Beavers build dams, chimps and crows make tools, wolves hunt better in packs. All such feats alter the evolutionary prospects of phenotypes.&lt;/p&gt;&lt;p&gt;Darwin’s books herald all these emphases: the distinction between transmission and development when discussing inheritance; the “plasticity of organisation” in all creatures; and, importantly here, the tie between action and structure. Darwin saw nature as a theatre of agency. The roots of cabbage seedlings successfully improvised, after Darwin experimentally blocked them from plunging straight down into the earth. Earthworms “intelligently” grasped how best to tug his artificially-shaped “leaves” to plug their holes against the cold. And when newly-arrived finches were competing for food on the Galapagos Islands, it must have been the birds who first found the best new diets—not random genetic changes—who gained reproductive supremacy and consequently, over millennia, such new bodily adaptations as the skin-piercing beak of blood-sucking Vampire Finches.&lt;/p&gt;&lt;p&gt;Actions produce reactions, &lt;em&gt;The&lt;/em&gt; &lt;em&gt;Origin of Species&lt;/em&gt; repeatedly reminds us. Which means an organism’s actions inevitably render it interdependent with its habitat, animate and inanimate. Such ties may be competitive or cooperative—“mutual aid” being the hallmark of evolution in “social animals” like us. Hence, when Darwin published his views on human agency in &lt;em&gt;The Descent of Man&lt;/em&gt;—first published 150 years ago this month—and its sequel, &lt;em&gt;The Expression of the Emotions&lt;/em&gt; (1872), social interdependency took pride of place. Darwin argued non-verbal expressions to be &lt;em&gt;purposeless&lt;/em&gt; by-products of functional habits—we weep because we protectively close our eyes when screaming, incidentally squeezing our tear-glands. Such unintended side-effects only come to signify emotion because &lt;em&gt;others “&lt;/em&gt;recognize” their meaning as linked to suffering. When I blush, my inbuilt capacity for reading expressions has rebounded, leading me to read in you how I imagine you to be reading me. Such “self-attention” underpins sexual display, plus such quintessentially human traits as language, culture, and conscience.&lt;/p&gt;&lt;p&gt;Go back to what Darwin wrote about evolution, and you will hear him speaking from a place that the latest biology now renders prescient. Interdependencies of agency not only forge individual differences, and winnow the kernels of inter-generational success from the chaff of failure. They also compose Darwin’s unsung creation of the first naturalistic psychology.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Featured image by &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://pixabay.com/photos/sky-sunset-darwin-mangrove-horizon-2910165/&quot;&gt;Pat Josse&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/02/darwins-theory-of-agency-back-to-the-future-in-evolutionary-science/&quot;&gt;Darwin’s theory of agency: back to the future in evolutionary science?&lt;/a&gt; appeared first on &lt;a href=&quot;http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com&quot;&gt;OUPblog&lt;/a&gt;.&lt;/p&gt;&lt;img align=&quot;left&quot; border=&quot;0&quot; height=&quot;1&quot; hspace=&quot;0&quot; src=&quot;https://feeds.feedblitz.com/~/i/645043306/0/oupblogpsychology&quot; style=&quot;border: 0; float: left; margin: 0; padding: 0; width: 1px!important; height: 1px!important;&quot; width=&quot;1&quot; /&gt;&lt;div style=&quot;clear: both; padding-top: 0.2em;&quot;&gt;&lt;a href=&quot;https://feeds.feedblitz.com/_/2/645043306/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fbshare20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/28/645043306/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/fblike20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/16/645043306/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/linkedin20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/29/645043306/oupblogpsychology,&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/pinterest20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/1/645043306/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/reddit20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/24/645043306/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/twitter20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/19/645043306/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/email20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://feeds.feedblitz.com/_/20/645043306/oupblogpsychology&quot;&gt;&lt;img height=&quot;20&quot; src=&quot;https://assets.feedblitz.com/i/rss20.png&quot; style=&quot;border: 0; margin: 0; padding: 0;&quot; /&gt;&lt;/a&gt;&lt;h3 style=&quot;clear: left; padding-top: 10px;&quot;&gt;Related Stories&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/04/what-can-neuroscience-tell-us-about-the-mind-of-a-serial-killer/&quot; rel=&quot;nofollow&quot;&gt;What can neuroscience tell us about the mind of a serial killer?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/04/taking-stock-of-the-future-of-work-mid-pandemic/&quot; rel=&quot;nofollow&quot;&gt;Taking stock of the future of work, mid-pandemic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://blog.oup.com/2021/04/the-coming-refugee-crisis-how-covid-19-exacerbates-forced-displacement/&quot; rel=&quot;nofollow&quot;&gt;The coming refugee crisis: how COVID-19 exacerbates forced displacement&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; &lt;/div&gt;</content:encoded>
 	<dc:date>2021-02-24T13:30:21+00:00</dc:date>
 	<dc:creator>Becky Clifford</dc:creator>
-</item>
-<item rdf:about="https://theplosblog.plos.org/?p=18722">
-	<title>The Official PLOS Blog: PLOS and Yale University Announce Publishing Agreement</title>
-	<link>http://feeds.plos.org/~r/plos/Blog/~3/srNfQp0KB-s/</link>
-	<content:encoded>&lt;p&gt;Yale University posted the following announcement on its website on February 23, 2021&lt;/p&gt;
-
-
-
-&lt;p&gt;Yale University Library has signed two innovative agreements that will allow Yale-affiliated authors to publish in any PLOS open access journal without paying article processing charges (APCs).&lt;/p&gt;
-
-
-
-&lt;p&gt;PLOS is a non-profit, open access publisher of seven highly respected scientific and medical journals. Last year Yale authors published more than 100 articles in PLOS journals, with APCs of up to $3,000 per article. Effective Jan. 1, 2021, these author-paid APCs will be eliminated and replaced with annual fees paid by the library. The authors will maintain copyright ownership of their research.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Our goal is to make open access publishing a more viable option for more Yale researchers in science and medicine, and to support a publication model that will also encourage open access publishing beyond Yale,” said Barbara Rockenbach, the Stephen Gates ’68 University Librarian.&lt;/p&gt;
-
-
-
-&lt;p&gt;Open access publishing has grown in popularity since the 1990s when peer-reviewed journals began publishing online with a traditional business model based on limited access and high subscription fees. Open access developed as an alternative to make new research quickly and widely available with financial support from those producing the research. However, financial support for APCs from academic departments, government, and other research funders has varied widely, with some authors having to pay from personal funds.&lt;/p&gt;
-
-
-
-&lt;p&gt;The library agreements will eliminate APCs for Yale authors publishing in PLOS Biology, PLOS Medicine, PLOS One, PLOS Computational Biology, PLOS Pathogens, PLOS Genetics, and PLOS Neglected Tropical Diseases, as well as in any new PLOS publications launched during the contract term. The initial agreements are for three years and will be funded through Yale Library’s Collection Development department with support from the Cushing/Whitney Medical Library.&lt;/p&gt;
-
-
-
-&lt;p&gt;“We are pleased that Yale Library can support this emerging, more sustainable model of open-access publishing,” Rockenbach said. “We are committed to facilitating equitable access to research in science and medicine–and the progress research fuels.”&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://theplosblog.plos.org/2021/02/plos-and-yale-university-announce-publishing-agreement/&quot; rel=&quot;nofollow&quot;&gt;PLOS and Yale University Announce Publishing Agreement&lt;/a&gt; appeared first on &lt;a href=&quot;https://theplosblog.plos.org&quot; rel=&quot;nofollow&quot;&gt;The Official PLOS Blog&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/srNfQp0KB-s&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2021-02-23T16:10:49+00:00</dc:date>
-	<dc:creator>PLOS</dc:creator>
 </item>
 
 </rdf:RDF>

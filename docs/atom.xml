@@ -5,7 +5,7 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2021-04-28T13:00:50+00:00</updated>
+	<updated>2021-04-28T18:00:48+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
 
 	<entry>
@@ -49,6 +49,54 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
 			<updated>2021-10-03T14:01:00+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html">Learning Compositional Sequences with Multiple Time Scales through a Hierarchical Network of Spiking Neurons</title>
+		<link href="http://biocomputation.herts.ac.uk/2021/04/28/learning-compositional-sequences-with-multiple-time-scales-through-a-hierarchical-network-of-spiking-neurons.html"/>
+		<id>tag:biocomputation.herts.ac.uk,2021-04-28:/2021/04/28/learning-compositional-sequences-with-multiple-time-scales-through-a-hierarchical-network-of-spiking-neurons.html</id>
+		<updated>2021-04-28T15:53:00+00:00</updated>
+		<content type="html">
+ &lt;p&gt;This week on Journal Club session Muhammad Yaqoob will talk about a paper &quot;Learning Compositional Sequences with Multiple Time Scales through a Hierarchical Network of Spiking Neurons&quot;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;Sequential behaviour is often compositional and organised across
+multiple time scales: a set of individual elements developing on short
+time scales (motifs) are combined to form longer functional sequences
+(syntax). Such organisation leads to a natural hierarchy that can be
+used advantageously for learning, since the motifs and the syntax can
+be acquired independently. Despite mounting experimental evidence for
+hierarchical structures in neuroscience, models for temporal learning
+based on neuronal networks have mostly focused on serial methods.
+Here, we introduce a network model of spiking neurons with a
+hierarchical organisation aimed at sequence learning on multiple time
+scales. Using biophysically motivated neuron dynamics and local
+plasticity rules, the model can learn motifs and syntax independently.
+Furthermore, the model can relearn sequences efficiently and store
+multiple sequences. Compared to serial learning, the hierarchical
+model displays faster learning, more flexible relearning, increased
+capacity, and higher robustness to perturbations. The hierarchical
+model redistributes the variability: it achieves high motif fidelity
+at the cost of higher variability in the between-motif timings.&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Papers:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;A. Maes, M. Barahona, C. Clopath, &lt;a class=&quot;reference external&quot; href=&quot;https://doi.org/10.1371/journal.pcbi.1008866&quot;&gt;&quot;Learning Compositional Sequences with Multiple Time Scales through a Hierarchical Network of Spiking Neurons&quot;&lt;/a&gt;,  2021, PLOS Computational Biology, 17, e1008866&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2021/04/30 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 14:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content>
+		<author>
+			<name>Muhammad Yaqoob</name>
+			<uri>http://biocomputation.herts.ac.uk/</uri>
+		</author>
+		<source>
+			<title type="html">UH Biocomputation Group</title>
+			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
+			<id>http://biocomputation.herts.ac.uk/</id>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -305,7 +353,7 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -838,7 +886,7 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -920,7 +968,7 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -1155,7 +1203,7 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -1248,7 +1296,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2021-04-27T01:08:45+00:00</updated>
+			<updated>2021-04-28T17:49:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1271,7 +1319,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2021-04-27T01:08:45+00:00</updated>
+			<updated>2021-04-28T17:49:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -1329,7 +1377,7 @@ There is a significantly increased readership in one open-access medical literat
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -1835,7 +1883,7 @@ There is a significantly increased readership in one open-access medical literat
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -2454,7 +2502,7 @@ correlations between burst duration and stimulus variables.&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2021-04-21T10:37:00+00:00</updated>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -2621,7 +2669,7 @@ The Imperial Russian Newspapers(link is external) collection, with a prelimina
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -3282,7 +3330,7 @@ The Imperial Russian Newspapers(link is external) collection, with a prelimina
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -3789,7 +3837,7 @@ The Imperial Russian Newspapers(link is external) collection, with a prelimina
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -4138,7 +4186,7 @@ The Imperial Russian Newspapers(link is external) collection, with a prelimina
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-04-28T13:00:44+00:00</updated>
+			<updated>2021-04-28T18:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -4325,7 +4373,7 @@ in cortical circuits.&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2021-04-21T10:37:00+00:00</updated>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -5003,7 +5051,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2021-04-21T10:37:00+00:00</updated>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -5608,7 +5656,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2021-04-27T01:08:45+00:00</updated>
+			<updated>2021-04-28T17:49:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -6471,7 +6519,7 @@ conferences and experimental results are presented.&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2021-04-21T10:37:00+00:00</updated>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -6799,7 +6847,7 @@ K-Means based feature weighting algorithms.&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2021-04-21T10:37:00+00:00</updated>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -7038,7 +7086,7 @@ slow hemodynamic fluctuations.&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2021-04-21T10:37:00+00:00</updated>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -7292,7 +7340,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Deconstructing the most sensationalistic recent findings in Human Brain Imaging, Cognitive Neuroscience, and Psychopharmacology.</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/TheNeurocritic"/>
 			<id>tag:blogger.com,1999:blog-21605329</id>
-			<updated>2021-04-27T01:08:45+00:00</updated>
+			<updated>2021-04-28T17:49:09+00:00</updated>
 		</source>
 	</entry>
 
@@ -7522,7 +7570,7 @@ of R genes and pathogenicity determinants will also be discussed.&lt;/p&gt;
 			<title type="html">UH Biocomputation Group</title>
 			<link rel="self" href="http://biocomputation.herts.ac.uk/feeds/all.atom.xml"/>
 			<id>http://biocomputation.herts.ac.uk/</id>
-			<updated>2021-04-21T10:37:00+00:00</updated>
+			<updated>2021-04-28T15:53:00+00:00</updated>
 		</source>
 	</entry>
 
@@ -7581,52 +7629,6 @@ of R genes and pathogenicity determinants will also be discussed.&lt;/p&gt;
 			<link rel="self" href="http://blog.oup.com/category/science_medicine/psychology/feed/"/>
 			<id>https://blog.oup.com</id>
 			<updated>2021-04-23T13:00:43+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">PLOS and Yale University Announce Publishing Agreement</title>
-		<link href="http://feeds.plos.org/~r/plos/Blog/~3/srNfQp0KB-s/"/>
-		<id>https://theplosblog.plos.org/?p=18722</id>
-		<updated>2021-02-23T16:10:49+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;Yale University posted the following announcement on its website on February 23, 2021&lt;/p&gt;
-
-
-
-&lt;p&gt;Yale University Library has signed two innovative agreements that will allow Yale-affiliated authors to publish in any PLOS open access journal without paying article processing charges (APCs).&lt;/p&gt;
-
-
-
-&lt;p&gt;PLOS is a non-profit, open access publisher of seven highly respected scientific and medical journals. Last year Yale authors published more than 100 articles in PLOS journals, with APCs of up to $3,000 per article. Effective Jan. 1, 2021, these author-paid APCs will be eliminated and replaced with annual fees paid by the library. The authors will maintain copyright ownership of their research.&lt;/p&gt;
-
-
-
-&lt;p&gt;“Our goal is to make open access publishing a more viable option for more Yale researchers in science and medicine, and to support a publication model that will also encourage open access publishing beyond Yale,” said Barbara Rockenbach, the Stephen Gates ’68 University Librarian.&lt;/p&gt;
-
-
-
-&lt;p&gt;Open access publishing has grown in popularity since the 1990s when peer-reviewed journals began publishing online with a traditional business model based on limited access and high subscription fees. Open access developed as an alternative to make new research quickly and widely available with financial support from those producing the research. However, financial support for APCs from academic departments, government, and other research funders has varied widely, with some authors having to pay from personal funds.&lt;/p&gt;
-
-
-
-&lt;p&gt;The library agreements will eliminate APCs for Yale authors publishing in PLOS Biology, PLOS Medicine, PLOS One, PLOS Computational Biology, PLOS Pathogens, PLOS Genetics, and PLOS Neglected Tropical Diseases, as well as in any new PLOS publications launched during the contract term. The initial agreements are for three years and will be funded through Yale Library’s Collection Development department with support from the Cushing/Whitney Medical Library.&lt;/p&gt;
-
-
-
-&lt;p&gt;“We are pleased that Yale Library can support this emerging, more sustainable model of open-access publishing,” Rockenbach said. “We are committed to facilitating equitable access to research in science and medicine–and the progress research fuels.”&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://theplosblog.plos.org/2021/02/plos-and-yale-university-announce-publishing-agreement/&quot; rel=&quot;nofollow&quot;&gt;PLOS and Yale University Announce Publishing Agreement&lt;/a&gt; appeared first on &lt;a href=&quot;https://theplosblog.plos.org&quot; rel=&quot;nofollow&quot;&gt;The Official PLOS Blog&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/plos/Blog/~4/srNfQp0KB-s&quot; width=&quot;1&quot; /&gt;</content>
-		<author>
-			<name>PLOS</name>
-			<uri>https://theplosblog.plos.org</uri>
-		</author>
-		<source>
-			<title type="html">Public Library of Science</title>
-			<subtitle type="html">The Official PLOS Blog covers PLOS initiatives that address our core principles.</subtitle>
-			<link rel="self" href="http://www.plos.org/cms/blog/feed"/>
-			<id>https://theplosblog.plos.org</id>
-			<updated>2021-04-28T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
