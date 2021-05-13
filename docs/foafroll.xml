@@ -429,6 +429,19 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>OUPblog - Psychology and Neuroscience</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>Open Access Tracking Project: news</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://tagteam.harvard.edu/hubs/oatp/tags/6816">
@@ -550,6 +563,19 @@
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://romainbrette.fr">
 					<dc:title>Romain Brette</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Science Integrity Digest</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://scienceintegritydigest.com">
+					<dc:title>Science Integrity Digest</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="" />
 					</rdfs:seeAlso>
