@@ -5,8 +5,254 @@
 	<link rel="self" href="https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml"/>
 	<link href="https://neuroblog.fedoraproject.org/planet-neuroscientists/"/>
 	<id>https://neuroblog.fedoraproject.org/planet-neuroscientists/atom.xml</id>
-	<updated>2021-05-13T18:00:48+00:00</updated>
+	<updated>2021-05-14T07:00:50+00:00</updated>
     <generator uri="https://neuroblog.fedoraproject.org/planet-neuroscientists/">http://intertwingly.net/code/venus/</generator>
+
+	<entry>
+		<title type="html" xml:lang="en">Schneider Shorts 14.05.2021: Conclusions not affected</title>
+		<link href="https://forbetterscience.com/2021/05/14/schneider-shorts-14-05-2021-conclusions-not-affected/"/>
+		<id>http://forbetterscience.com/?p=58539</id>
+		<updated>2021-05-14T06:00:00+00:00</updated>
+		<content type="html">
+ This week's Schneider Shorts are about unaffected conclusions and destroyed raw data, the war on virus, vaccines and antivaxxers, and the virtues of having a long nose.</content>
+		<author>
+			<name>Leonid Schneider</name>
+			<uri>https://forbetterscience.com</uri>
+		</author>
+		<source>
+			<title type="html">For Better Science</title>
+			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
+			<link rel="self" href="https://forbetterscience.com/feed/"/>
+			<id>https://forbetterscience.com</id>
+			<updated>2021-05-14T07:00:43+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en">Online spike rate inference with Cascade</title>
+		<link href="https://gcamp6f.com/2021/05/13/online-spike-rate-inference-with-cascade/"/>
+		<id>http://gcamp6f.com/?p=6804</id>
+		<updated>2021-05-13T18:19:36+00:00</updated>
+		<content type="html" xml:lang="en">
+ &lt;p&gt;To infer spike rates from calcium imaging data for a time point &lt;em&gt;t&lt;/em&gt;, knowledge about the calcium signal both before and after time &lt;em&gt;t&lt;/em&gt; is required. Our algorithm &lt;em&gt;Cascade&lt;/em&gt; (&lt;a href=&quot;https://github.com/HelmchenLabSoftware/Cascade&quot;&gt;Github&lt;/a&gt;) uses by default a window that is symmetric in time and feeds this window into a small deep network to use the data points in the window for spike inference (schematic below taken from Fig. 2A of the &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.31.272450v2&quot;&gt;preprint&lt;/a&gt;; CC-BY-NC 4.0):&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-6807&quot; data-attachment-id=&quot;6807&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;figure-2a_mod&quot; data-large-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-2a_mod.png?w=640&quot; data-medium-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-2a_mod.png?w=215&quot; data-orig-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-2a_mod.png&quot; data-orig-size=&quot;956,1331&quot; data-permalink=&quot;https://gcamp6f.com/figure-2a_mod/&quot; height=&quot;483&quot; src=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-2a_mod.png?w=735&quot; width=&quot;347&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;However, if one wants to perform spike inference not as a post-processing step but rather during the experiment (“online spike inference”), it would be ideal to perform spike inference with a delay as short as possible. This would allow for example to use the result of spike inference for a closed-loop interaction with the animal.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;http://ringachlab.net/&quot;&gt;Dario Ringach&lt;/a&gt; recently came up with this interesting problem. With the Cascade algorithm already set up, I was curious to check very specifically: How many time points (i.e., imaging frames) are required after time point &lt;em&gt;t&lt;/em&gt; to perform reliable spike inference?&lt;/p&gt;
+
+
+
+&lt;p&gt;Using GCaMP/mouse datasets from the large ground truth database (teh database is again described in the &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.31.272450v2&quot;&gt;preprint&lt;/a&gt;), I addressed this question directly by training separate models. For each mode, the time window was shifted such that a variable number of data points (between minimally 1 and maximally 32) were used for spike inference. Everything was evaluated at a typical frame rate of 30 Hz, and also at different noise levels of the recordings (color-coded below); a noise level of “2” is pretty decent, while a noise level of “8” is quite noisy – explained with examples (Fig. S3) and equations (Methods) again in the preprint.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-6810&quot; data-attachment-id=&quot;6810&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;figure-1-2&quot; data-large-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-2.png?w=640&quot; data-medium-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-2.png?w=300&quot; data-orig-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-2.png&quot; data-orig-size=&quot;869,726&quot; data-permalink=&quot;https://gcamp6f.com/figure-1-2/&quot; height=&quot;264&quot; src=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-2.png?w=869&quot; width=&quot;317&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;The results are quite clear: For low noise levels (black curve, SEM across datasets as corridor), spike inference seems to reach a saturating performance (correlation with ground truth spike rates) around a value of almost 8 frames. This would result in a delay of almost 8*33 ms ≈ 260 ms after a spiking event (dashed line).&lt;/p&gt;
+
+
+
+&lt;p&gt;But let’s have a closer look. The above curve was averaged across 8 datasets, mixing different indicators (GCaMP6f and GCaMP6s) and induction methods (transgenic mouse lines and AAV-based induction). Below, I looked into the curve for each single dataset (for the noise level of 2).&lt;/p&gt;
+
+
+
+&lt;p&gt;It is immediately clear that for some datasets fewer frames after &lt;em&gt;t&lt;/em&gt; are sufficient for almost optimal spike inference, for others not.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-6812&quot; data-attachment-id=&quot;6812&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;figure-1-3&quot; data-large-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-3.png?w=640&quot; data-medium-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-3.png?w=300&quot; data-orig-file=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-3.png&quot; data-orig-size=&quot;2022,665&quot; data-permalink=&quot;https://gcamp6f.com/figure-1-3/&quot; src=&quot;https://ptrrupprecht.files.wordpress.com/2021/05/figure-1-3.png?w=1024&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;For the best datasets, optimal performance is already reached with 4 frames (left panel; delay of ca. 120 ms). These are datasets #10 and #11, which use the fast indicator GCaMP6f, which in addition is here transgenically expressed. The corresponding spike-triggered linear kernels (right side; copied from &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.08.31.272450v2&quot;&gt;Fig. S1 of the preprint&lt;/a&gt;) are indeed faster than for other datasets.&lt;/p&gt;
+
+
+
+&lt;p&gt;Two datasets with GCaMP6s (datasets #15 and #16) stand out as non-ideal, requiring almost 16 frames after &lt;em&gt;t&lt;/em&gt; before optimal performance is reached. Probably, expression levels in these experiment using AAV-based approaches were very high, resulting in &lt;a href=&quot;https://doi.org/10.1016/j.tins.2018.09.005&quot;&gt;calcium buffering&lt;/a&gt; and therefore slower transients. The corresponding spike-triggered linear kernels are indeed much slower than for the other GCaMP6s- or GCaMP6f-based datasets.&lt;/p&gt;
+
+
+
+&lt;p&gt;The script used to perform the above evaluations can be found on &lt;a href=&quot;https://github.com/HelmchenLabSoftware/Cascade/blob/master/etc/Evaluate_delay_online_spike_inference.py&quot;&gt;Cascade’s Github repository&lt;/a&gt;. Since each data point requires retraining the model from scratch, it cannot be run on a CPU in reasonable time. On a RTX 2080 Ti, the script took 2-3 days to complete.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt;&lt;/p&gt;
+
+
+
+&lt;ol&gt;&lt;li&gt; Only few frames (down to 4 frames) after time&lt;em&gt; t&lt;/em&gt; are sufficient to perform almost ideal spike inference. This is probably a consequence of the fact that the sharp step increase is more informative than the slow decay of a spike-triggered event.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;To optimize the experiment for online spike-inference, it is helpful to use a fast indicator (e.g., GCaMP6f). It also seems that transgenic expression might be an advantage, since indicator expression and calcium buffering is typically lower for transgenic expression than for viral induction, preventing a slow-down of the indicator by overexpression.&lt;/li&gt;&lt;/ol&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;</content>
+		<author>
+			<name>P.T.R. Rupprecht</name>
+			<uri>https://gcamp6f.com</uri>
+		</author>
+		<source>
+			<title type="html">A blog about neurophysiology</title>
+			<subtitle type="html">A Neuroscientific Blog</subtitle>
+			<link rel="self" href="https://gcamp6f.com/feed/"/>
+			<id>https://gcamp6f.com</id>
+			<updated>2021-05-14T07:00:46+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">Rivers might not be as resilient to drought as once thought</title>
+		<link href="https://www.sciencenews.org/article/climate-river-drought-australia-recovery-water-flow"/>
+		<id>https://www.sciencenews.org/?p=3099654</id>
+		<updated>2021-05-13T18:18:14+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;Rivers ravaged by a lengthy drought may not be able to recover, even after the rains return. Seven years after the Millennium drought baked southeastern Australia, a large fraction of the region’s rivers still &lt;a href=&quot;https://science.sciencemag.org/cgi/doi/10.1126/science.abd5085&quot;&gt;show no signs of returning to their predrought water flow&lt;/a&gt;, researchers report in the May 14 &lt;em&gt;Science&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;There’s “an implicit assumption that no matter how big a disturbance is, the water will always come back — it’s just a matter of how long it takes,” says Tim Peterson, a hydrologist at Monash University in Melbourne, Australia. “I’ve never been satisfied with that.”&lt;/p&gt;
+
+
+
+&lt;p&gt;The years-long drought in southeastern Australia, which began sometime between 1997 and 2001 and lasted until 2010, offered a natural experiment to test this assumption, he says. “It wasn’t the most severe drought” the region has ever experienced, but it was the longest period of low rainfall in the region since about 1900.&lt;/p&gt;
+
+
+
+&lt;p&gt;Peterson and colleagues analyzed annual and seasonal streamflow rates in 161 river basins in the region from before, during and after the drought. By 2017, they found, 37 percent of those river basins still weren’t seeing the amount of water flow that they had predrought. Furthermore, of those low-flow rivers, the vast majority — 80 percent — also show no signs that they might recover in the future, the team found.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Many of southeastern Australia’s rivers had bounced back from previous droughts, including a severe but brief episode in 1983. But even heavy rains in 2010, marking the end of the Millennium drought, weren’t enough to return these basins to their earlier state. That suggests that there is, after all, a limit to rivers’ resilience.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar&quot;&gt;
+&lt;h3&gt;Low flow &lt;/h3&gt;
+
+
+
+&lt;p&gt;Streamflow records going back to 1970 show that few of 161 selected river basins had low water flow levels relative to their normal flow (red line), even after a short drought in 1983 (left gray area). However, the lengthy Millennium drought, which lasted from around 1997 to 2010 (large gray area on the right), may have forced some of the rivers into a low-flow state — a new normal that many have stayed in even after the rains returned in 2010.&lt;/p&gt;
+
+
+
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;Percent of river basins showing lower flow than normal over time&lt;/h6&gt;
+
+
+
+&lt;div class=&quot;image-desktop&quot;&gt;&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;line graph showing the percent of river basins showing lower flow than normal over time&quot; class=&quot;wp-image-3099656&quot; height=&quot;325&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/051321_CG_river_recover_inline-680-desktop.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3099656&quot;&gt;T.J. Peterson &lt;em&gt;et al&lt;/em&gt;/&lt;em&gt;Science&lt;/em&gt; 2021&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&quot;image-mobile&quot;&gt;&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;line graph showing the percent of river basins showing lower flow than normal over time&quot; class=&quot;wp-image-3099655&quot; height=&quot;511&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/051321_CG_river_recover_inline-680-mobile.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3099655&quot;&gt;T.J. Peterson &lt;em&gt;et al&lt;/em&gt;/&lt;em&gt;Science&lt;/em&gt; 2021&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;What’s changed in these river basins isn’t yet clear, Peterson says. The precipitation post drought was similar to predrought precipitation, and the water isn’t ending up in the streamflow, so it must be going somewhere else. The team examined various possibilities: The water infiltrated into the ground and was stored as groundwater, or it never made it to the ground at all — possibly intercepted by leaves, and then evaporating back to the air.&lt;/p&gt;
+
+
+
+&lt;p&gt;But none of these explanations were borne out by studies of these sites, the researchers report. The remaining, and most probable, possibility is that the environment has changed: Water is evaporating from soils and transpiring from plants more quickly than it did predrought.&lt;/p&gt;
+
+
+
+&lt;p&gt;Peterson has long suggested that under certain conditions rivers might not, in fact, recover — and this study confirms that theoretical work, says Peter Troch, a hydrologist at the University of Arizona in Tucson. Enhanced soil evaporation and plant transpiration are examples of such positive feedbacks, processes that can enhance the impacts of a drought. “Until his work, this lack of resilience was not anticipated, and all hydrological models did not account for such possibility,” Troch says.&lt;/p&gt;
+
+
+
+&lt;p&gt;“This study will definitely inspire other researchers to undertake such work,” he notes. “Hopefully we can gain more insight into the functioning of [river basins’] response to climate change.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Indeed, the finding that rivers have “&lt;a href=&quot;https://science.sciencemag.org/cgi/doi/10.1126/science.abi8770&quot;&gt;finite resilience&lt;/a&gt;” to drought is of particular concern as the planet warms and lengthier droughts become more likely, writes hydrologist Flavia Tauro in a commentary in the same issue of &lt;em&gt;Science&lt;/em&gt;.&lt;/p&gt;</content>
+		<author>
+			<name>Carolyn Gramling</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2021-05-14T07:00:43+00:00</updated>
+		</source>
+	</entry>
+
+	<entry>
+		<title type="html" xml:lang="en-US">A study of Earth’s crust hints that supernovas aren’t gold mines</title>
+		<link href="https://www.sciencenews.org/article/supernova-heavy-elements-source-earth-crust-deep-sea"/>
+		<id>https://www.sciencenews.org/?p=3099646</id>
+		<updated>2021-05-13T18:00:00+00:00</updated>
+		<content type="html" xml:lang="en-US">
+ &lt;p&gt;A smattering of plutonium atoms embedded in Earth’s crust are helping to resolve the origins of nature’s heaviest elements.&lt;/p&gt;
+
+
+
+&lt;p&gt;Scientists had long suspected that elements such as gold, silver and plutonium are born during supernovas, when stars explode. But typical supernovas can’t explain the quantity of heavy elements in our cosmic neighborhood, a new study suggests&lt;em&gt;.&lt;/em&gt; That means &lt;a href=&quot;https://science.sciencemag.org/cgi/doi/10.1126/science.aax3972&quot;&gt;other cataclysmic events&lt;/a&gt; must have been major contributors, physicist Anton Wallner and colleagues report in the May 14 &lt;em&gt;Science&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;The result bolsters a recent change of heart among astrophysicists. Standard supernovas have fallen out of favor. Instead, researchers think that heavy elements are more likely forged in collisions of two dense, dead stars called neutron stars, or in certain &lt;a href=&quot;https://www.sciencenews.org/article/dying-stars-called-collapsars-may-forge-much-universe-gold&quot;&gt;rare types of supernovas&lt;/a&gt;, such as those that form from fast-spinning stars (&lt;em&gt;SN: 5/8/19&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;Heavy elements can be produced via a series of reactions in which atomic nuclei swell larger and larger as they rapidly gobble up neutrons. This series of reactions is known as the r-process, where “r” stands for rapid. But, says Wallner, of Australian National University in Canberra, “we do not know for sure where the site for the r-process is.” It’s like having the invite list for a gathering, but not its location, so you know who’s there without knowing where the party’s at.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;Scientists thought they had their answer after a neutron star collision was caught &lt;a href=&quot;https://www.sciencenews.org/article/neutron-star-collision-gravitational-waves&quot;&gt;producing heavy elements&lt;/a&gt; in 2017 (&lt;em&gt;SN: 10/16/17&lt;/em&gt;). But heavy elements show up in very old stars, which formed too early for neutron stars to have had time to collide. “We know that there has to be something else,” says theoretical astrophysicist Almudena Arcones of the Technical University of Darmstadt, Germany, who was not involved with the new study.&lt;/p&gt;
+
+
+
+&lt;p&gt;If an r-process event had recently happened nearby, ­some of the elements created could have landed on Earth, leaving fingerprints in Earth’s crust. Starting with a 410-gram sample of Pacific Ocean crust, Wallner and colleagues used a particle accelerator to separate and count atoms. Within one piece of the sample, the scientists searched for a variety of plutonium called plutonium-244, which is produced by the r-process. Since heavy elements are always produced together in particular proportions in the r-process, plutonium-244 can serve as a proxy for other heavy elements. The team found about 180 plutonium-244 atoms, deposited into the crust within the last 9 million years.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;chunk of deep-sea crust&quot; class=&quot;wp-image-3099647&quot; height=&quot;336&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/051321_EC_heavy-metal_inline-1.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3099647&quot;&gt;Scientists analyzed a sample of Earth’s deep-sea crust (shown) to search for atoms of plutonium and iron with cosmic origins.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3099647&quot;&gt;Norikazu Kinoshita&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Researchers compared the plutonium count to atoms that had a known source. Iron-60 is released by supernovas, but it is formed by fusion reactions in the star, not as part of the r-process. In another, smaller piece of the sample, the team detected about 415 atoms of iron-60.&lt;/p&gt;
+
+
+
+&lt;p&gt;Plutonium-244 is radioactive, decaying with a half-life of 80.6 million years. And iron-60 has an even shorter half-life of 2.6 million years. So the elements could not have been present when the Earth formed, 4.5 billion years ago. That suggests their source is a relatively recent event. When the iron-60 atoms were counted up according to their depth in the crust, and therefore how long ago they’d been deposited, the scientists saw two peaks at about 2.5 million years ago and at about 6.5 million years ago, suggesting two or more supernovas had occurred in the recent past.&lt;/p&gt;
+
+
+
+&lt;p&gt;The scientists can’t say if the plutonium they detected also came from those supernovas. But if it did, the amount of plutonium produced in those supernovas would be too small to explain the abundance of heavy elements in our cosmic vicinity, the researchers calculated. That suggests regular supernovas can’t be the main source of heavy elements, at least nearby.  &lt;/p&gt;
+
+
+
+&lt;p&gt;That means other sources for the r-process are still needed, says astrophysicist Anna Frebel of MIT, who was not involved with the research. “The supernovae are just not cutting it.”&lt;/p&gt;
+
+
+
+&lt;p&gt;The measurement gives a snapshot of the r-process in our corner of the universe, says astrophysicist Alexander Ji of Carnegie Observatories in Pasadena, Calif. “It’s actually the first detection of something like this, so that’s really, really neat.”&lt;/p&gt;</content>
+		<author>
+			<name>Emily Conover</name>
+			<uri>https://www.sciencenews.org</uri>
+		</author>
+		<source>
+			<title type="html">Science News</title>
+			<subtitle type="html">Independent Journalism Since 1921</subtitle>
+			<link rel="self" href="https://www.sciencenews.org/feed"/>
+			<id>https://www.sciencenews.org</id>
+			<updated>2021-05-14T07:00:43+00:00</updated>
+		</source>
+	</entry>
 
 	<entry>
 		<title type="html" xml:lang="en-CA">Linking to Datasets on arXiv</title>
@@ -126,7 +372,7 @@
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -162,7 +408,7 @@
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -410,7 +656,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -430,7 +676,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -450,7 +696,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -550,7 +796,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -781,7 +1027,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -827,7 +1073,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:12+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -961,7 +1207,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -981,7 +1227,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1072,7 +1318,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1181,7 +1427,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1231,7 +1477,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1281,7 +1527,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:42+00:00</updated>
 		</source>
 	</entry>
 
@@ -1333,7 +1579,7 @@ low-latency systems working in real time.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1435,7 +1681,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1514,7 +1760,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1696,7 +1942,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1716,7 +1962,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -1778,7 +2024,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1848,7 +2094,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1888,7 +2134,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:12+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -1908,7 +2154,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2011,7 +2257,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -2128,7 +2374,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -2265,7 +2511,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -2285,7 +2531,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -2548,7 +2794,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -2796,7 +3042,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -2874,7 +3120,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Independent Journalism Since 1921</subtitle>
 			<link rel="self" href="https://www.sciencenews.org/feed"/>
 			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -3018,210 +3264,6 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 	</entry>
 
 	<entry>
-		<title type="html" xml:lang="en-US">A rare glimpse of a star before it went supernova defies expectations</title>
-		<link href="https://www.sciencenews.org/article/rare-glimpse-star-before-went-supernova-defies-expectations"/>
-		<id>https://www.sciencenews.org/?p=3099425</id>
-		<updated>2021-05-05T11:00:00+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;A rare glimpse of a star before it exploded in a fiery supernova looks nothing like astronomers expected, a new study suggests.&lt;/p&gt;
-
-
-
-&lt;p&gt;Images from the Hubble Space Telescope reveal that a relatively cool, puffy star ended its life in a hydrogen-free supernova. Until now, supernovas without hydrogen were thought to originate only from extremely hot, compact stars.&lt;/p&gt;
-
-
-
-&lt;p&gt;The discovery “is a very important test case for stellar evolution,” says Sung-Chul Yoon, an astrophysicist at Seoul National University in South Korea, who was not involved in the work. Theorists have some ideas about how massive stars behave right before they blow up, but such hefty stars are scant in the local universe and many are nowhere near ready to go supernova, Yoon says. Retroactively identifying the star responsible for a supernova provides an opportunity to test scenarios of how stars evolve right before exploding.&lt;/p&gt;
-
-
-
-&lt;p&gt;Finding those stars, however, is difficult, explains Charlie Kilpatrick, an astronomer at Northwestern University in Evanston, Ill. A telescope must have looked at that exact region of the sky in the years leading up to the supernova. And the explosion must have happened close enough for light from its much fainter source star to have reached a telescope.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Although both conditions are tricky to meet, Kilpatrick is undaunted by the hunt. After scientists discovered a supernova in December 2019, in a galaxy called NGC 4666 about 46 million light-years away, he and colleagues rushed to check old Hubble observations from the same region of the sky. They wanted to find the star behind the explosion, dubbed SN 2019yvr.&lt;/p&gt;
-
-
-
-&lt;p&gt;After poring over images and cross-checking observations with those from ground-based telescopes, the team found their quarry: a star at the same spot as the supernova, observed about 2.6 years before the explosion. It appeared to be a yellow star about 6,500° Celsius and about 320 times wider than the sun.&lt;/p&gt;
-
-
-
-&lt;p&gt;“I was kind of puzzled by all that,” Kilpatrick says. The supernova SN 2019yvr lacked hydrogen, so its progenitor was expected to be hydrogen-deficient, too. But “if a star lacks a hydrogen envelope, then you expect to be seeing deeper inside of the star to the hotter layers,” Kilpatrick says. That is, the star should have looked extremely hot and blue and compact — maybe 10,0000 to 50,000° C, and no more than 50 times wider than the sun. The cool, large, yellow progenitor of SN 2019yvr, on the other hand, &lt;a href=&quot;https://doi.org/10.1093/mnras/stab838&quot;&gt;appeared to be padded with lots of hydrogen&lt;/a&gt;. The researchers report the results May 5 in the &lt;em&gt;Monthly Notices of the Royal Astronomical Society&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;For this kind of star to have produced a supernova like SN 2019yvr, it must have shed much of its hydrogen before blowing up, Kilpatrick says. But how?&lt;/p&gt;
-
-
-
-&lt;p&gt;He and colleagues have come up with a couple scenarios. The star could have expelled much of its hydrogen into space through violent eruptions, possibly caused by some instability in the star’s core or interference from another star nearby. Or perhaps the star’s hydrogen could have been stripped off by another star that was in orbit around it.&lt;/p&gt;
-
-
-
-&lt;p&gt;To whittle these possibilities down, Jan Eldridge, an astrophysicist at the University of Auckland in New Zealand, suggests turning the Hubble telescope back on that area of the sky. Astronomers should first make sure that the star seen 2.6 years before SN 2019yvr really is gone now, says Eldridge, who was not involved in the work. Researchers could also check whether a star that once orbited SN 2019yvr’s progenitor still remains.&lt;/p&gt;
-
-
-
-&lt;p&gt;“They’ve found a mystery, and they’ve got some solutions,” Eldridge notes. Trying to figure out how such an unlikely star pulled off this particular supernova, she says, “is going to be fun.”&lt;/p&gt;</content>
-		<author>
-			<name>Maria Temming</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:11+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html" xml:lang="en-US">How a small city in Brazil may reveal how fast vaccines can curb COVID-19</title>
-		<link href="https://www.sciencenews.org/article/coronavirus-pandemic-serrana-brazil-covid-mass-vaccine"/>
-		<id>https://www.sciencenews.org/?p=3099409</id>
-		<updated>2021-05-05T10:00:00+00:00</updated>
-		<content type="html" xml:lang="en-US">
- &lt;p&gt;The city of Serrana in Brazil is a living experiment.&lt;/p&gt;
-
-
-
-&lt;p&gt;The picturesque place, surrounded by sugarcane fields, is nestled in the southeast of one of the countries hit hardest by COVID-19. By the end of March, daily deaths in Brazil surged to 3,000 on average a day, a high in a pandemic that has claimed more than 405,000 lives there — the second worst death toll of any country in the world behind only the United States. And as vaccines slowly trickle into the country, only about 15 percent of the population has gotten at least one shot.&lt;/p&gt;
-
-
-
-&lt;p&gt;Except in Serrana. There, nearly all the adults have gotten their shots. What happens next in this city could provide a glimpse of what the future of the pandemic could be — not only in Brazil but across the globe as vaccinations pick up.&lt;/p&gt;
-
-
-
-&lt;p&gt;The &lt;a href=&quot;https://clinicaltrials.gov/ct2/show/NCT04747821&quot;&gt;mass vaccination is an experiment&lt;/a&gt; dubbed Projeto S, which will measure the real-world effectiveness of the Chinese-made CoronaVac vaccine, including how well it protects against coronavirus variants. One variant called P.1, which first emerged in the Brazilian Amazon and is now widespread throughout Brazil, shows signs of being both &lt;a href=&quot;https://www.sciencenews.org/article/covid-coronavirus-p1-variant-brazil-strain-transmission-immunity&quot;&gt;more contagious and able to evade antibodies&lt;/a&gt; trained to recognize the coronavirus (&lt;em&gt;SN: 4/14/21&lt;/em&gt;).&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Among the questions &lt;a href=&quot;https://especiais.g1.globo.com/bemestar/vacina/2021/mapa-brasil-vacina-covid/&quot;&gt;the study&lt;/a&gt; may help answer is “whether vaccinated people protect the unvaccinated, how long does their immunity last, and what variants are circulating,” says Marcos Borges, project coordinator and director of the Serrana State Hospital. “We’ll finally be able to observe how a large set of people respond to the vaccine in real-world conditions.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Projeto S may be the best way to understand the effectiveness of vaccination against COVID-19 in the short and medium terms, says Ethel Maciel, an epidemiologist at the Federal University of Espírito Santo. “This is especially important because we don’t know when we will have most Brazilians vaccinated,” says Maciel, who is not involved in the initiative.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;aerial image of Serrana, Brazil&quot; class=&quot;wp-image-3099411&quot; height=&quot;382&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/050321_MR_covid-brazil_inline-1.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3099411&quot;&gt;This aerial image shows Serrana, a town of 45,600 people at the north of São Paulo state, where researchers are conducting Projeto S.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3099411&quot;&gt;Andre Penner/AP Images&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;h4&gt;Setting up the project&lt;/h4&gt;
-
-
-
-&lt;p&gt;Serrana has the perfect ingredients for the Projeto S experiment. It’s relatively small, with 45,600 residents, with roughly 30,000 adults. It’s located near an important public health research center, University of São Paulo’s campus in nearby Ribeirão Preto. And the virus was clearly circulating in the community. A July 2020 study “showed that 5 percent of the population carried the active virus — that is one person in 20, a very high rate,” Borges says.&lt;/p&gt;
-
-
-
-&lt;p&gt;The town’s residents were eager to be vaccinated, however. When the project launched in February, the team at Instituto Butantan, a research facility and vaccine maker based in São Paulo state that is sponsoring the project, set a goal of vaccinating at least 80 percent of town residents over 18 years old. “We took into account that Brazil has a long tradition of good adhesion to vaccination, so we knew these 80 percent were within reach,” says Borges.&lt;/p&gt;
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
-
-
-
-&lt;p&gt;By April 11, 27,722 adult volunteers had gotten the first shot and almost all of them, 27,160, had gotten the second jab by the end of that month, meaning 95.7 percent of Serrana’s adults were fully vaccinated. This success came even as &lt;a href=&quot;https://www.saopaulo.sp.gov.br/noticias-coronavirus/projeto-s-imuniza-27-mil-pessoas-98-da-populacao-alvo-de-serrana/&quot;&gt;Brazilian president Jair Bolsonaro publicly shunned vaccines&lt;/a&gt; — CoronaVac in particular — on several occasions.&lt;/p&gt;
-
-
-
-&lt;p&gt;The vaccine was developed by China-based Sinovac Biotech. It uses an inactivated, or “killed” version of SARS-CoV-2, the virus that causes COVID-19, that can’t cause illness, but can train the body’s immune system to recognize the coronavirus so it can fight back against an encounter with the real pathogen.&lt;/p&gt;
-
-
-
-&lt;p&gt;In a &lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2021.04.12.21255308v1&quot;&gt;Phase III clinical trial&lt;/a&gt; with 12,600 health care workers in São Paulo,  CoronaVac had an efficacy of roughly 50 percent two weeks after the second dose, researchers report in a preliminary study posted April 15 at medRxiv.org.  Fifty percent efficacy is the &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid19-vaccine-pfizer-biontech-final-results&quot;&gt;threshold the U.S. Food and Drug Administration set as a baseline&lt;/a&gt; for considering emergency use authorization of COVID-19 vaccines in the United States. In comparison, in clinical trials, the &lt;a href=&quot;https://www.sciencenews.org/article/moderna-vaccine-covid19-coronavirus-early-results&quot;&gt;Moderna&lt;/a&gt; and &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid19-vaccine-pfizer-biontech-final-results&quot;&gt;Pfizer&lt;/a&gt; mRNA vaccines had an efficacy of around 95 percent (&lt;em&gt;SN: 11/16/20; SN: 11/18/20&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;volunteer being screened for Projeto S&quot; class=&quot;wp-image-3099412&quot; height=&quot;383&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/050321_MR_covid-brazil_inline-2.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3099412&quot;&gt;Volunteers go through a screening process before enrolling in Projeto S.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3099412&quot;&gt;Divulgação/Instituto Butantan&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Like Pfizer’s and Moderna’s vaccines, CoronaVac offers good protection against death and serious forms of COVID-19; of nine health care workers hospitalized with COVID-19, six were unvaccinated, one had had a single dose of CoronaVac and two had gotten both doses. One person —an unvaccinated health care worker — died.&lt;/p&gt;
-
-
-
-&lt;h4&gt;Real-world data&lt;/h4&gt;
-
-
-
-&lt;p&gt;A clinical trial is one thing. The real world is another. For instance, having immunized neighbors might make an important difference in how effective a vaccine actually is. “What is the difference between a vaccine that has 95 percent of individual efficacy and one that has over 50 percent? You’ve got to vaccinate 80 or 85 percent of people with the former to have the disease under control and must vaccinate everyone with the latter to have the same result,” says Ernesto Marques, a virologist at the University of Pittsburgh.&lt;/p&gt;
-
-
-
-&lt;p&gt;As most adults have been vaccinated in Serrana, Marques says he believes the results will show collective protection — or effectiveness — with CoronaVac, even if individual protection seems low comparatively. This is important not only to Brazil, “but to all countries adopting the vaccine, like Indonesia and Turkey. The results in Serrana will weigh immensely in COVID-19 vaccination policies wherever CoronaVac is used,” he says. &lt;a href=&quot;https://www.cbc.ca/news/canada/british-columbia/vaccine-covid-denman-bc-1.6009513&quot;&gt;Communities in other countries&lt;/a&gt; are attempting something similar with other vaccines.&lt;/p&gt;
-
-
-
-&lt;p&gt;Outcomes may show whether the impact of Serrana’s mass vaccination spills beyond city limits. “Around 15,000 of Serrana’s 45,000 inhabitants commute large distances to work, so we’ll see how it all unfolds with a highly mobile population,” Borges says.&lt;/p&gt;
-
-
-
-&lt;p&gt;Projeto S is yielding some tantalizing early results. Local media &lt;a href=&quot;https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2021/04/23/vacinacao-em-massa-media-movel-de-casos-da-covid-19-se-mantem-em-queda-ha-1-mes-em-serrana-sp.ghtml&quot;&gt;reported&lt;/a&gt; that the number of daily COVID-related infections decreased from 28 on March 20 to seven a month later. The share of cases that were severe dropped from a peak of &lt;a href=&quot;https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2021/04/06/vacinacao-em-massa-serrana-sp-ve-sinais-de-queda-em-casos-graves-da-covid-19-e-na-busca-por-atendimentos.ghtml&quot;&gt;70 percent&lt;/a&gt; this March to 10 percent in early April.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;person getting CoronaVac vaccine&quot; class=&quot;wp-image-3099413&quot; height=&quot;454&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/050321_MR_covid-brazil_inline-3.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3099413&quot;&gt;A volunteer gets the second shot of CoronaVac at the Municipal School Jardim Dom Pedro I in Serrana.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3099413&quot;&gt;Divulgação/Instituto Butantan&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;During the project’s vaccination from mid-February to mid-April, six immunized people died from COVID-19, according to the state government of &lt;a href=&quot;https://www.saopaulo.sp.gov.br/noticias-coronavirus/projeto-s-imuniza-27-mil-pessoas-98-da-populacao-alvo-de-serrana/&quot;&gt;São Paulo&lt;/a&gt;. Of those, five had received only one dose and the other person showed symptoms shortly after receiving the second dose, which leads researchers to believe the patient was already infected at the time of the second shot. Among the unvaccinated there were 14 deaths.&lt;/p&gt;
-
-
-
-&lt;p&gt;In the beginning of May, none of the six infirmary beds at Serrana’s Santa Casa Hospital and the city’s Basic Healthcare Unit are occupied, and the waiting line for beds both in infirmaries and intensive care units has zeroed. As of May 3, there is one Serrana resident in an infirmary and nine patients in an ICU, according to the Serrana Health Secretariat.&lt;/p&gt;
-
-
-
-&lt;p&gt;Nurse Glenda de Moraes, who has worked for two decades in Serrana and is involved in the coordination of Projeto S, says that positive test results have dropped, too, “to less than 20 percent [per day], way less than the 30 to 40 percent of positives we had before.”&lt;/p&gt;
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
-&lt;h4&gt;
-&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
-&lt;/h4&gt;
-&lt;/aside&gt;
-
-
-
-&lt;p&gt;Still according to the local Health Secretariat, confirmed cases peaked in January 2021, with 706 city residents infected with COVID-19. Infections then decreased in February and March (484 and 692 cases, respectively) and had a sharp drop in April, with 235 confirmed cases.&lt;/p&gt;
-
-
-
-&lt;p&gt;All of this is clearly “an effect from the vaccination,” Maciel says. But Borges is more cautious in relating all these changes to the mass immunization. “We are still studying it and when we have the results, we’ll be able to affirm for sure if these events are related,” he says.&lt;/p&gt;
-
-
-
-&lt;p&gt;Projeto S will continue following residents for a year. The questions that tracking can answer — for instance, how long does a vaccine provide protection — are crucial to helping Brazilians, and the rest of the world, find the path out of the pandemic.&lt;/p&gt;
-
-
-
-&lt;p&gt;Juliana Elaga, the first person to be vaccinated in Serrana, is sure this is the way out. “I suffered a lot with the pandemic, and the vaccination was a really emotional moment for me. I felt truly relieved after the second jab. Even still adopting social distancing and mask-wearing, my heart is more at rest.” Her 8-year-old, Petras, is a witness: “Mom used to wear two masks at once and rub her hands with alcohol-gel all the time. Now she seems a little more normal and not so worried all the time.”&lt;/p&gt;</content>
-		<author>
-			<name>Meghie Rodrigues</name>
-			<uri>https://www.sciencenews.org</uri>
-		</author>
-		<source>
-			<title type="html">Science News</title>
-			<subtitle type="html">Independent Journalism Since 1921</subtitle>
-			<link rel="self" href="https://www.sciencenews.org/feed"/>
-			<id>https://www.sciencenews.org</id>
-			<updated>2021-05-13T08:57:12+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
 		<title type="html" xml:lang="en-US">Paper on ‘energy medicine’ retracted after reader complaints</title>
 		<link href="https://retractionwatch.com/2021/05/05/paper-on-energy-medicine-retracted-after-reader-complaints/"/>
 		<id>https://retractionwatch.com/?p=122056</id>
@@ -3237,7 +3279,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3257,7 +3299,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -3367,7 +3409,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3387,7 +3429,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Tracking retractions as a window into the scientific process</subtitle>
 			<link rel="self" href="https://retractionwatch.com/feed/"/>
 			<id>https://retractionwatch.com</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:45+00:00</updated>
 		</source>
 	</entry>
 
@@ -3407,7 +3449,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -3522,7 +3564,7 @@ extracting information about space from temporal odour dynamics.&lt;/p&gt;
 			<subtitle type="html">A Neuroscientific Blog</subtitle>
 			<link rel="self" href="https://gcamp6f.com/feed/"/>
 			<id>https://gcamp6f.com</id>
-			<updated>2021-05-13T08:57:31+00:00</updated>
+			<updated>2021-05-14T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -3688,7 +3730,7 @@ For libraries or other institutions that want to support the move to immediate O
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -4152,7 +4194,7 @@ at the cost of higher variability in the between-motif timings.&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;Neuroscientifically Challenged is an educational website with neuroscience articles, videos, images, a glossary, and more.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/blog/</id>
-			<updated>2021-05-13T13:00:40+00:00</updated>
+			<updated>2021-05-14T07:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -4172,7 +4214,7 @@ at the cost of higher variability in the between-motif timings.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -4524,7 +4566,7 @@ at the cost of higher variability in the between-motif timings.&lt;/p&gt;
 			<subtitle type="html">Science journalism by Leonid Schneider, on research integrity and academic publishing in life sciences and biomedicine</subtitle>
 			<link rel="self" href="https://forbetterscience.com/feed/"/>
 			<id>https://forbetterscience.com</id>
-			<updated>2021-05-13T18:00:43+00:00</updated>
+			<updated>2021-05-14T07:00:43+00:00</updated>
 		</source>
 	</entry>
 
@@ -5027,7 +5069,7 @@ The Imperial Russian Newspapers(link is external) collection, with a prelimina
 			<subtitle type="html">&lt;p&gt;Neuroscientifically Challenged is an educational website with neuroscience articles, videos, images, a glossary, and more.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/blog/</id>
-			<updated>2021-05-13T13:00:40+00:00</updated>
+			<updated>2021-05-14T07:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -6336,7 +6378,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;Neuroscientifically Challenged is an educational website with neuroscience articles, videos, images, a glossary, and more.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/blog/</id>
-			<updated>2021-05-13T13:00:40+00:00</updated>
+			<updated>2021-05-14T07:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -7157,7 +7199,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;Neuroscientifically Challenged is an educational website with neuroscience articles, videos, images, a glossary, and more.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/blog/</id>
-			<updated>2021-05-13T13:00:40+00:00</updated>
+			<updated>2021-05-14T07:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -7338,7 +7380,7 @@ of R genes and pathogenicity determinants will also be discussed.&lt;/p&gt;
 			<subtitle type="html">A Neuroscientific Blog</subtitle>
 			<link rel="self" href="https://gcamp6f.com/feed/"/>
 			<id>https://gcamp6f.com</id>
-			<updated>2021-05-13T08:57:31+00:00</updated>
+			<updated>2021-05-14T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -7844,7 +7886,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">&lt;p&gt;Neuroscientifically Challenged is an educational website with neuroscience articles, videos, images, a glossary, and more.&lt;/p&gt;</subtitle>
 			<link rel="self" href="http://feeds.feedburner.com/neuroscientificallychallenged/neurochallenged"/>
 			<id>https://www.neuroscientificallychallenged.com/blog/</id>
-			<updated>2021-05-13T13:00:40+00:00</updated>
+			<updated>2021-05-14T07:00:44+00:00</updated>
 		</source>
 	</entry>
 
@@ -7904,7 +7946,7 @@ The agenda for the meeting is:&lt;/p&gt;
 			<subtitle type="html">Anekdoter från elva och ett halvt år år i vetenskapens tjänst. Från-och-till en vetenskapsblogg, när jag hittar något intressant. Annars matblogg, syblogg, bokblogg...  And sometimes not even in Swedish. I've been thinking and writing in English for a decade. Whole chunks of my thinking are easier to express in it.</subtitle>
 			<link rel="self" href="https://malinsandstrom.blog/feed/"/>
 			<id>https://malinsandstrom.blog</id>
-			<updated>2021-05-13T13:00:41+00:00</updated>
+			<updated>2021-05-14T07:00:46+00:00</updated>
 		</source>
 	</entry>
 
@@ -8139,62 +8181,6 @@ In this session, I will talk about the deliverables of the &lt;a class=&quot;ref
 			<link rel="self" href="https://blog.arxiv.org/feed/"/>
 			<id>https://blog.arxiv.org</id>
 			<updated>2021-05-13T18:00:44+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Knowledge Unlatched Announces the Results of 2020 Pledging, Plans to Unlatch Hundreds of Titles in 2021 - Knowledge Unlatched</title>
-		<link href="https://knowledgeunlatched.org/2021/02/ku-results-of-2020-pledging-plans-to-unlatch-hundreds-of-titles-for-2021/"/>
-		<id>https://knowledgeunlatched.org/2021/02/ku-results-of-2020-pledging-plans-to-unlatch-hundreds-of-titles-for-2021/</id>
-		<updated>2021-02-08T06:50:00+00:00</updated>
-		<content type="html">
- Berlin, February 8th, 2021: Knowledge Unlatched (KU), the central platform for Open Access (OA) financing models, is pleased to announce the results of 2020 pledging round, which ended in December 2020 and once again saw hundreds of libraries worldwide pledge support for OA book and journal initiatives offered by KU and its partners.
-
-Overall, about 310 books and 34 journals will be published OA in 2021. These include 240 books from the KU Select 2020 HSS Books Collection and 65 books from KU’s partner collections. In addition, 31 journals will be flipped to OA thanks to two ground-breaking Subscribe-to-Open (S2O) projects: Pluto Open Journals and IWAP Open Journals.</content>
-		<author>
-			<name>Open Access Tracking Project: news</name>
-			<uri>http://tagteam.harvard.edu/hubs/oatp/tags/6816</uri>
-		</author>
-		<source>
-			<title type="html">Items tagged with oa.news in Open Access Tracking Project (OATP)</title>
-			<subtitle type="html">Items tagged with oa.news in Open Access Tracking Project (OATP)</subtitle>
-			<link rel="self" href="http://tagteam.harvard.edu/hubs/oatp/tag/rss/oa.news"/>
-			<id>http://tagteam.harvard.edu/hubs/oatp/tags/6816</id>
-			<updated>2021-05-13T08:57:32+00:00</updated>
-		</source>
-	</entry>
-
-	<entry>
-		<title type="html">Dev session: Ankur Sinha: NeuroFedora</title>
-		<link href="https://ocns.github.io/SoftwareWG/2021/02/07/dev-session-ankur-sinha-neurofedora.html"/>
-		<id>tag:ocns.github.io,2021-02-07:/SoftwareWG/2021/02/07/dev-session-ankur-sinha-neurofedora.html</id>
-		<updated>2021-02-07T17:27:54+00:00</updated>
-		<content type="html">
- &lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;&lt;img alt=&quot;The NeuroFedora project&quot; class=&quot;img-responsive&quot; src=&quot;https://ocns.github.io/SoftwareWG/images/20210207-NeuroFedoraLogo.png&quot; style=&quot;width: 25%;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-&lt;br /&gt;&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://ankursinha.in&quot;&gt;Ankur Sinha&lt;/a&gt; will introduce the &lt;a class=&quot;reference external&quot; href=&quot;https://www.fsf.org/blogs/community/user-liberation-watch-and-share-our-new-video/&quot;&gt;Free/Open Source Software&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; project and discuss its development in this developer session.&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;Date: Feb 16, 2021 1700 &lt;span class=&quot;caps&quot;&gt;UTC&lt;/span&gt; (Click &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=Dev+session%3A+Ankur+Sinha%3A+NeuroFedora&amp;amp;iso=20210216T17&amp;amp;p1=136&amp;amp;ah=1&quot;&gt;here&lt;/a&gt;  to see your local time).&lt;/li&gt;
-&lt;li&gt;Location (Zoom): &lt;a class=&quot;reference external&quot; href=&quot;https://ucl.zoom.us/j/94964460359?pwd=MTJmWEY1NHRxd3l4ZGdtTS9NQ1FaZz09&quot;&gt;https://ucl.zoom.us/j/94964460359?pwd=MTJmWEY1NHRxd3l4ZGdtTS9NQ1FaZz09&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The abstract for the talk is below:&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; is an initiative to provide a ready to use Fedora based Free/Open source software platform for neuroscience.
-We believe that similar to Free software, science should be free for all to use, share, modify, and study.
-The use of Free software also aids reproducibility, data sharing, and collaboration in the research community.
-By making the tools used in the scientific process easier to use, NeuroFedora aims to take a step to enable this ideal.
-In this session, I will talk about the deliverables of the &lt;a class=&quot;reference external&quot; href=&quot;https://neuro.fedoraproject.org&quot;&gt;NeuroFedora&lt;/a&gt; project and then go over the complete pipeline that we use to produce, test, and disseminate them.&lt;/p&gt;</content>
-		<author>
-			<name>Ankur Sinha</name>
-			<uri>https://ocns.github.io/SoftwareWG/</uri>
-		</author>
-		<source>
-			<title type="html">INCF/OCNS Software WG</title>
-			<subtitle type="html">The OCNS/INCF Software Working Group</subtitle>
-			<link rel="self" href="https://ocns.github.io/SoftwareWG/feeds/all.atom.xml"/>
-			<id>https://ocns.github.io/SoftwareWG/</id>
-			<updated>2021-05-10T10:27:23+00:00</updated>
 		</source>
 	</entry>
 
