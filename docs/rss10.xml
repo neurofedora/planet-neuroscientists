@@ -15,6 +15,10 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-06-09:/2021/06/09/feed-forward-and-noise-tolerant-detection-of-feature-homogeneity-in-spiking-networks-with-a-latency-code.html" />
+			<rdf:li rdf:resource="http://xcorr.net/?p=7681" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100304" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100307" />
 			<rdf:li rdf:resource="https://digest.bps.org.uk/?p=42524" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100343" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122343" />
@@ -72,8 +76,6 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122292" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=59484" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100090" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3099903" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100077" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122298" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-4733215941858984515" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=59421" />
@@ -163,12 +165,524 @@
 			<rdf:li rdf:resource="https://theplosblog.plos.org/?p=18831" />
 			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2021-04-26:/2021/04/26/next-open-neurofedora-meeting-26-april-1300-utc.html" />
 			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-7259796099976535447" />
-			<rdf:li rdf:resource="tag:blogger.com,1999:blog-21605329.post-1145923806460061071" />
-			<rdf:li rdf:resource="https://preprints.jmir.org/preprint/26666/accepted" />
 		</rdf:Seq>
 	</items>
 </channel>
 
+<item rdf:about="tag:biocomputation.herts.ac.uk,2021-06-09:/2021/06/09/feed-forward-and-noise-tolerant-detection-of-feature-homogeneity-in-spiking-networks-with-a-latency-code.html">
+	<title>UH Biocomputation group: Feed-Forward and Noise-Tolerant Detection of Feature Homogeneity in Spiking Networks with a Latency Code</title>
+	<link>http://biocomputation.herts.ac.uk/2021/06/09/feed-forward-and-noise-tolerant-detection-of-feature-homogeneity-in-spiking-networks-with-a-latency-code.html</link>
+	<content:encoded>&lt;p&gt;This week on Journal Club session Michael Schmuker will talk about a paper &quot;Feed-Forward and Noise-Tolerant Detection of Feature Homogeneity in Spiking Networks with a Latency Code&quot;.&lt;/p&gt;
+&lt;hr class=&quot;docutils&quot; /&gt;
+&lt;p&gt;In studies of the visual system as well as in computer vision, the
+focus is often on contrast edges. However, the primate visual system
+contains a large number of cells that are insensitive to spatial
+contrast and, instead, respond to uniform homogeneous illumination of
+their visual field. The purpose of this information remains unclear.
+Here, we propose a mechanism that detects feature homogeneity in
+visual areas, based on latency coding and spike time coincidence, in a
+purely feedforward and therefore rapid manner. We demonstrate how
+homogeneity information can interact with information on contrast
+edges to potentially support rapid image segmentation. Furthermore, we
+analyze how neuronal crosstalk (noise) affects the mechanism's
+performance. We show that the detrimental effects of crosstalk can be
+partly mitigated through delayed feed-forward inhibition that shapes
+bi-phasic postsynaptic events. The delay of the feed-forward
+inhibition allows effectively controlling the size of the temporal
+integration window and, thereby, the coincidence threshold. The
+proposed model is based on single-spike latency codes in a purely
+feed-forward architecture that supports low-latency processing, making
+it an attractive scheme of computation in spiking neuronal networks
+where rapid responses and low spike counts are desired.&lt;/p&gt;
+&lt;div class=&quot;line-block&quot;&gt;
+&lt;div class=&quot;line&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Papers:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;M. Schmuker, R. Kupper, A. Aertsen, T. Wachtler, M. Gewaltig, &lt;a class=&quot;reference external&quot; href=&quot;https://doi.org/10.1007/s00422-021-00866-w&quot;&gt;&quot;Feed-Forward and Noise-Tolerant Detection of Feature Homogeneity in Spiking Networks with a Latency Code&quot;&lt;/a&gt;,  2021, Biological Cybernetics, 115, 161--176
+&lt;a class=&quot;reference external&quot; href=&quot;https://arxiv.org/abs/1806.03881&quot;&gt;&quot;Preprint (Open Access): ArXiv q-bio.NC 1806.03881.&quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; 2021/06/11 &lt;br /&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 14:00 &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: online&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-09T18:36:12+00:00</dc:date>
+	<dc:creator>Michael Schmuker</dc:creator>
+</item>
+<item rdf:about="http://xcorr.net/?p=7681">
+	<title>xcorr.net: My stack for research ML projects</title>
+	<link>https://xcorr.net/2021/06/09/my-stack-for-research-ml-projects/</link>
+	<content:encoded>&lt;p class=&quot;has-drop-cap&quot;&gt;For the past few months, I’ve been working on a machine learning research project, which I just submitted to NeurIPS. The scale is, all things considered, fairly small: the output limited to one paper and a handful of figures. Yet, I still needed to distribute the work along a mini-cluster in the cloud, keep track of thousands of different experiments, track key performance metrics over time, and integrate a half-dozen datasets and a dozen models. &lt;/p&gt;
+
+
+
+&lt;p&gt;At that scale, it’s pretty easy to shoot yourself in the foot: introduce a data loading error that invalidates your results, forget to keep track of which parameters you used for which experiment you ran months ago, have a figure that’s not easily reproducible because the steps to reproduce the figure have been lost through the sands of time, etc. &lt;a href=&quot;https://paperswithcode.com/trends&quot;&gt;25% of papers in machine learning actually publish their code&lt;/a&gt;, and I have a feeling that a big chunk of the other 75% is because people hesitate to share their messy creations, or the code is so brittle that it self-destroys as soon as you see it and they don’t want to support it.&lt;/p&gt;
+
+
+
+&lt;p&gt;Here’s the stack that I used for this project, the reason I took some decisions, and some lessons I learned. I think that the organization I show here is appropriate for small research teams like academic labs and early-stage startups. Some of this is a little pedestrian, but I hope you learn a thing or two. Let me know about your experiences in the comments.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;a href=&quot;https://xcorr.files.wordpress.com/2021/06/flowchart1.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7693&quot; data-attachment-id=&quot;7693&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;flowchart1&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2021/06/flowchart1.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2021/06/flowchart1.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2021/06/flowchart1.png&quot; data-orig-size=&quot;1460,773&quot; data-permalink=&quot;https://xcorr.net/flowchart1/&quot; src=&quot;https://xcorr.files.wordpress.com/2021/06/flowchart1.png?w=1024&quot; /&gt;&lt;/a&gt;&lt;/figure&gt;
+
+
+
+&lt;h2&gt;Decision points&lt;/h2&gt;
+
+
+
+&lt;h3&gt;Local vs. cloud&lt;/h3&gt;
+
+
+
+&lt;p&gt;The &lt;a href=&quot;https://fullstackdeeplearning.com/&quot;&gt;Full Stack Deep Learning&lt;/a&gt; class from Berkeley is a good place to learn how to organize deep learning projects. I had originally intended to go all-in on cloud infra to run models and analyze data. The class makes a solid argument that it ends being cheaper to build your own machine for local testing, then scale on the cloud as needed. I had a several years old deep learning rig with a 1080 Titan lying around, so I ended up wiping the drive and installing Ubuntu 20 on it for local bleeding edge development. I would then push the code to github when the code was ready to be scaled and run on cloud infra. Having a local dev machine doesn’t mean you’re locked to that place: you can still set up remote ssh access, but given that it was winter and we were on lockdown I never had a reason to do it.&lt;/p&gt;
+
+
+
+&lt;p&gt;I had spent far too many afternoons figuring out (and yelling at and crying about) kubernetes on Google Cloud last year, so for this project I decided to avoid managing cloud infra by using a managed on-demand service. I wanted a central server where I could submit a batch job and it would provision the right machine to run the job and store the results somewhere in the cloud. Importantly, I wanted it set up in a way that I wouldn’t have to pay for a central server, only for the workers. I ended up using &lt;strong&gt;paperspace gradient&lt;/strong&gt; for this purpose, which at the time, had cheap prices for GPU instances, and offered a straightforward product called &lt;em&gt;experiments&lt;/em&gt; which was meant for exactly the purpose I wanted. This setup worked great for the first 3 months, but then Gradient changed their product to focus on a more turnkey solution, and from that point on the original product stopped working properly (multiple jobs would hang, you couldn’t find jobs from the interface, customer support was abysmal). Next time, I will try &lt;a href=&quot;https://aws.amazon.com/batch/&quot;&gt;AWS Batch&lt;/a&gt;, and perhaps I will dip my toe into SageMaker to get access to a cloud jupyter notebook for analysis.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Code organization&lt;/h3&gt;
+
+
+
+&lt;p&gt;One unexpected advantage of using this hybrid local/cloud setup is that it immediately imposed a certain discipline on the project: gradient runs your code inside a &lt;strong&gt;docker&lt;/strong&gt; container, so you have to have a docker container ready, hence you are documenting your dependencies as you go along. I used the Pytorch docker container base and kept adding dependencies as needed, and used dockerhub to build the containers in the cloud. &lt;/p&gt;
+
+
+
+&lt;p&gt;This setup also imposes a workflow that focuses on creating batch jobs as Python scripts as opposed to jupyter notebooks. Jupyter notebooks are great for analysis, but building models in jupyter notebook is a bad idea – you pollute your global namespace, you risk running cells out of order, the editor has poor introspection so won’t tell you if you reference a variable that doesn’t exist following a long script, etc. I much prefer writing models and batch scripts in &lt;strong&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VSCode&lt;/a&gt;&lt;/strong&gt;, using &lt;strong&gt;&lt;a href=&quot;https://black.readthedocs.io/en/stable/&quot;&gt;Black&lt;/a&gt;&lt;/strong&gt; as an autoformatter.&lt;/p&gt;
+
+
+
+&lt;p&gt;If you’re used to a jupyter-notebook-based workflow, you’re probably used to writing small snippets of code, testing them in the cell on a handful of inputs, then lifting the code to a function which then you can integrate into the larger notebook narrative. With a batch-based workflow you lose this fast feedback process. The key to getting back that productivity – and then some – is to switch to &lt;strong&gt;&lt;a href=&quot;https://merely-useful.tech/py-rse/testing.html&quot;&gt;test-driven development&lt;/a&gt;&lt;/strong&gt;. Rather than informally testing snippets of your code in jupyter notebook, you create a separate test suite that calls the functions in your Python script and checks that their output is as expected. This forces you to write reasonably clean code with small functions that don’t have a lot of side effects. In practice, I didn’t aim for 100% code coverage, but instead focused on tests for data loaders and models. Testable code is also much easier to refactor, because you can easily see if you broke you code by re-running the test suite. Each test should only take a few milliseconds to run.&lt;/p&gt;
+
+
+
+&lt;p&gt;I enabled &lt;strong&gt;&lt;a href=&quot;https://docs.github.com/en/actions/guides/about-continuous-integration&quot;&gt;continuous integration&lt;/a&gt; (CI)&lt;/strong&gt; in the Github repo to run my pytest suite via nose2 every time I pushed code. Unfortunately, a lot of that code depended on having GPU access on Github, which would have become expensive, so I didn’t end up using it. It does look like it’s possible to run test suites on a GPU-enabled machine via &lt;a href=&quot;https://dev.to/drelleobrien/how-to-use-github-actions-with-your-gpu-4f1g&quot;&gt;nvidia-docker&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;I used an ad-hoc project folder structure inspired by &lt;a href=&quot;https://merely-useful.tech/py-rse/index.html&quot;&gt;PyRSE&lt;/a&gt;. Elizabeth DuPre told me about cookiecutter, which allows one to create projects from templates. &lt;a href=&quot;https://drivendata.github.io/cookiecutter-data-science/&quot;&gt;I ended up using the &lt;strong&gt;datascience cookiecutter&lt;/strong&gt;&lt;/a&gt; for a subset of the project, and generally I liked it (although it is a bit too nested for my taste).&lt;/p&gt;
+
+
+
+&lt;h3&gt;TF vs. PyTorch&lt;/h3&gt;
+
+
+
+&lt;p&gt;I’ve used TF in the past, but I decided to use &lt;strong&gt;PyTorch&lt;/strong&gt; this round, since a lot of the models I wanted to test were released in PyTorch. The PyTorch documentation is excellent. A surprising chunk of my codebase ended up being training loops, so for next time I will consider &lt;a href=&quot;https://www.pytorchlightning.ai/&quot;&gt;PyTorch Lightning&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Storing results&lt;/h3&gt;
+
+
+
+&lt;p&gt;One thing I never really spent time thinking about in grad school is how to store results. I have folders and folders in an old DropBox that are filled to the brim with mat files with long names from gosh knows what experiment. The problem with such ad hoc results storage is that you don’t know how the results were generated, because the results and the code are not linked. &lt;/p&gt;
+
+
+
+&lt;p&gt;Ideally, you’d like to store results in a centralized location with the following features:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;each result comes with metadata about how the result was generated (command line parameters, git hash, etc.)&lt;/li&gt;&lt;li&gt;you can safely delete stale results&lt;/li&gt;&lt;li&gt;you can query results to find the subet which you’re interested in&lt;/li&gt;&lt;li&gt;you can visualize metadata about the results in graphical form (dashboard)&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;You could implement these functionalities yourself, for example with a local mongo database instance to store the results, and a dashboard of your creation, but I ended up instead using &lt;strong&gt;&lt;a href=&quot;http://wandb.ai/&quot;&gt;Weights and Biases&lt;/a&gt;&lt;/strong&gt; (wandb). This turned out to be a great idea, highly recommended. In your code, you push your results along with metadata to their server using a simple library that you can pip install. The library takes care of adding the git hash to the payload so you know what code generated the result. You can also use the libary to send and store weights, images, checkpoints, etc. &lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;a href=&quot;https://xcorr.files.wordpress.com/2021/06/image-4.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-7695&quot; data-attachment-id=&quot;7695&quot; data-comments-opened=&quot;1&quot; data-image-description=&quot;&quot; data-image-meta=&quot;{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}&quot; data-image-title=&quot;image-4&quot; data-large-file=&quot;https://xcorr.files.wordpress.com/2021/06/image-4.png?w=723&quot; data-medium-file=&quot;https://xcorr.files.wordpress.com/2021/06/image-4.png?w=300&quot; data-orig-file=&quot;https://xcorr.files.wordpress.com/2021/06/image-4.png&quot; data-orig-size=&quot;3026,1560&quot; data-permalink=&quot;https://xcorr.net/image-4-3/&quot; src=&quot;https://xcorr.files.wordpress.com/2021/06/image-4.png&quot; /&gt;&lt;/a&gt;Wandb dashboard&lt;/figure&gt;
+
+
+
+&lt;p&gt;You get a fully customizable dashboard built on vega-lite to keep track of your results. To retrieve your results, you use mongodb queries, so you can filter results by whatever property you desire. To have meaningful properties to query, I specify command line arguments to my training scripts via &lt;strong&gt;&lt;a href=&quot;https://docs.python.org/3/library/argparse.html&quot;&gt;argparse&lt;/a&gt;&lt;/strong&gt;, for instance number of filters, learning rate, epochs, etc. Then I send the argparse arguments to wandb when I save my results. That way I can easily filter by learning rate, for example.&lt;/p&gt;
+
+
+
+&lt;p&gt;Locally, I do still use &lt;strong&gt;tensorboard&lt;/strong&gt; to babysit my networks, especially with a new network when it’s not clear whether the training will converge or not. I find that tensorboard is good to diagnose one model, but it’s not great to keep track of multiple models (say, more than 5) – pretty soon all you see is a mess of training curves.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Analyzing results&lt;/h3&gt;
+
+
+
+&lt;p&gt;I use &lt;strong&gt;jupyterlab&lt;/strong&gt; locally to analyze my results. One thing that I don’t like about jupyter notebooks is that it doesn’t play well with git – the diffs are meaningless. I will try out &lt;strong&gt;&lt;a href=&quot;https://github.com/mwouts/jupytext&quot;&gt;jupytext&lt;/a&gt;&lt;/strong&gt;, which allows to write jupyter notebooks as plain text. &lt;/p&gt;
+
+
+
+&lt;h2&gt;Mistakes I made&lt;/h2&gt;
+
+
+
+&lt;p&gt;I accumulated a lot of technical debt around a seemingly innocuous decision about data storage. I downloaded brain data in ad hoc formats from multiple public sources (crcns), and I originally wrote a PyTorch data loader for each data source. That meant that for every new brain dataset I wanted to integrate, I would write a new data loader, which would take care of filtering out bad records, splitting the data into train and test set, and transforming it into the format that PyTorch expected. &lt;/p&gt;
+
+
+
+&lt;p&gt;That worked fine for the first 2 or 3 datasets, but pretty soon it became a liability. The ad-hoc formats were not always designed for rapid loading – some datasets were really slow to load because they used small block sizes in hdf5. Other datasets needed some manual curation. What I needed is an intermediate format – I would preprocess the datasets into the intermediate format once, and then load the intermediate format in the data loaders. &lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;What I should have done&lt;/strong&gt; is have one true intermediate format – e.g. &lt;strong&gt;&lt;a href=&quot;https://www.nwb.org/&quot;&gt;NWB&lt;/a&gt;&lt;/strong&gt; – I should also have decided train/test splits during the preprocessing. The data needed to be in a &lt;strong&gt;FAIR&lt;/strong&gt; format in the intermediate stage – it needed, especially to be interopable. What I ended up doing is having a bunch of ad hoc intermediate formats – I would minimally preprocess the data and save it in a format parallel to the original one. Ultimately, that meant having to make a lot of micro decisions (e.g. how do I specify the train/test splits – two datasets, or one dataset and two sets of indices?) that I made inconsistently across datasets, and it became a mess that I never bothered fixing. My test suite for loaders ballooned as I had to cover for corner cases for every loader. Doing it over again, I would find settle on one true intermediate format.&lt;/p&gt;
+
+
+
+&lt;p&gt;I experimented a bit with using &lt;strong&gt;make&lt;/strong&gt; to create the intermediate format, and I think it’s a great solution for this use case. make will create intermediate results if they don’t exist but won’t try to recreate them if they’re already there; an ideal solution to manage complex pipelines. &lt;/p&gt;
+
+
+
+&lt;h2&gt;Releasing code and models&lt;/h2&gt;
+
+
+
+&lt;p&gt;I didn’t really think much about making the code easy to run for others, but when it came time to release it (for reviewers), it only took me about a half day to clean up the codebase and write docs. The code was already logically organized, the dependencies documented, most everything ran automatically with bash scripts, so all in all it was much less trouble to release than a typical project I would have undertook in grad school. That being said, I would like to release the model in an easy-to-use way. It’s unfortunate that huggingface models are restricted to transformer models, that would have been ideal. I was recently made aware of &lt;strong&gt;&lt;a href=&quot;https://github.com/replicate/cog&quot;&gt;cog&lt;/a&gt;&lt;/strong&gt;, which aims to make model releases easy, complete with docker environment and downloadable weights. The weights themselves can be stored on &lt;strong&gt;&lt;a href=&quot;https://figshare.com/&quot;&gt;figshare&lt;/a&gt;&lt;/strong&gt; (free bandwidth!)&lt;/p&gt;
+
+
+
+&lt;h2&gt;Keep/change/try&lt;/h2&gt;
+
+
+
+&lt;figure class=&quot;wp-block-table&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Keep&lt;/th&gt;&lt;th&gt;Change&lt;/th&gt;&lt;th&gt;Try (more)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Pytorch&lt;/td&gt;&lt;td&gt;Paperspace -&amp;gt; AWS batch&lt;/td&gt;&lt;td&gt;Jupytext&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;wandb&lt;/td&gt;&lt;td&gt;Ad hoc intermediate format -&amp;gt; NWB&lt;/td&gt;&lt;td&gt;Make&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mixed local/cloud development&lt;/td&gt;&lt;td&gt;Google Cloud Storage -&amp;gt; S3&lt;/td&gt;&lt;td&gt;Data science cookie cutter&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;vscode&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;PyTorch Lightning&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Test-driven development&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;cog&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Black&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;SageMaker&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Docker&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;What’s your stack? What tool has made your life easier?&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-09T17:04:38+00:00</dc:date>
+	<dc:creator>xcorr</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3100304">
+	<title>Science News: New clues suggest people reached the Americas around 30,000 years ago</title>
+	<link>https://www.sciencenews.org/article/americas-ancient-people-arrival-mexico-coxcatlan-cave</link>
+	<content:encoded>&lt;p&gt;Humans may have inhabited what’s now southern Mexico surprisingly early, between 33,448 and 28,279 years ago, researchers say.&lt;/p&gt;
+
+
+
+&lt;p&gt;If so, those people arrived more than 10,000 years before &lt;a href=&quot;https://www.sciencenews.org/article/texas-toolmakers-add-debate-over-who-first-americans-were&quot;&gt;folks often tagged as the first Americans&lt;/a&gt; (&lt;em&gt;SN&lt;/em&gt;&lt;em&gt;: 7/11/18&lt;/em&gt;). Other preliminary evidence puts &lt;a href=&quot;https://www.sciencenews.org/article/cave-mexico-stone-artifacts-humans-americas-early&quot;&gt;humans in central Mexico as early as around 33,000 years ago&lt;/a&gt; (&lt;em&gt;SN&lt;/em&gt;: 7/22/20).&lt;/p&gt;
+
+
+
+&lt;p&gt;The latest evidence comes from animal bones that biological anthropologist and archaeologist Andrew Somerville and two Mexican colleagues found stored in a Mexico City lab. The bones had been excavated in the 1960s at a rock-shelter called Coxcatlan Cave.&lt;/p&gt;
+
+
+
+&lt;p&gt;Radiocarbon analyses of six rabbit bones from the site’s deepest sediment &lt;a href=&quot;https://www.cambridge.org/core/journals/latin-american-antiquity/article/new-ams-radiocarbon-ages-from-the-preceramic-levels-of-coxcatlan-cave-puebla-mexico-a-pleistocene-occupation-of-the-tehuacan-valley/F4C32FB10E73D660CB7D9B44E2C29A72&quot;&gt;yielded unexpectedly old ages&lt;/a&gt;, the researchers report online May 19 in &lt;em&gt;Latin American Antiquity&lt;/em&gt;. That sediment also contained chipped and sharp-edged stones regarded as tools by the site’s lead excavator.&lt;/p&gt;
+
+
+
+&lt;p&gt;Higher sediment layers yielded clearer examples of stone tools and other remnants of human activity dating to nearly 9,900 years ago.  Somerville, of  Iowa State University in Ames, initially suspected that rabbit bones from the deepest sediment were perhaps around 12,000 years old. But analyses revealed they were much older, hinting humans were living in the cave roughly 30,000 years ago.&lt;/p&gt;
+
+
+
+&lt;p&gt;Somerville will next determine whether other animal bones from the ancient sediment display butchery marks, breaks where marrow was removed or burned patches from cooking. He also wants to locate and study possible stone tools from that same sediment that may be stored in the same lab.&lt;/p&gt;
+
+
+
+&lt;p&gt;Based on additional radiocarbon dates and comparisons with stone-tool finds from other Mexican sites, Somerville suspects that a separate occupation of Coxcatlan Cave occurred between 13,500 and 9,900 years ago. Regional food and water sources may have dwindled when the last Ice Age peaked between 26,000 and 19,000 years ago, causing the earliest settlers to leave and delaying further occupations  until conditions improved, Somerville speculates.&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-09T16:00:00+00:00</dc:date>
+	<dc:creator>Bruce Bower</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3100307">
+	<title>Science News: Solving mysteries of reproduction helped make parenthood possible for millions</title>
+	<link>https://www.sciencenews.org/article/mysteries-reproduction-parenthood-ivf-fertilization</link>
+	<content:encoded>&lt;p&gt;In the beginning, no one really understood how babies were made. Thinkers puzzled for millennia about how life arose from one generation to the next. But not until the 17th century did scientists start to seriously study the question. At that time, the theory of preformation held that minuscule humans already existed, fully formed, in either the mother’s menstrual blood or the father’s semen, depending on whether you were an “ovist” or a “spermist.”&lt;/p&gt;
+
+
+
+&lt;p&gt;Little changed until two late-19th century scientists, Oskar Hertwig from Germany and Hermann Fol from France, independently conducted experiments on sea urchins, proving conclusively that creating new offspring takes one egg and one sperm.&lt;/p&gt;
+
+
+
+&lt;p&gt;Despite the early confusion, the ancients were sure about one thing: Reproduction is far from a sure bet. Today, an estimated 15 percent of couples worldwide are unable to conceive a child naturally, leading to feelings of sorrow, loss and a profound sense of inadequacy for many. A century ago, science didn’t have much to offer these couples.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignleft size-full&quot;&gt;&lt;img alt=&quot;black and white illustration of humans growing inside a sperm&quot; class=&quot;wp-image-3100312&quot; height=&quot;800&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_spermist.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100312&quot;&gt;People used to think preformed humans grew inside sperm, as in this 1695 drawing.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100312&quot;&gt;Nicolas Hartsoecker/Wikimedia Commons&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;The only fertility intervention widely available in 1921 was artificial insemination by donor sperm, which was morally and legally fraught. In the first half of the 20th century, the practice was often considered a form of adultery; as recently as 1963, an Illinois court ruled that a baby conceived this way, even with the husband’s consent, was illegitimate.&lt;/p&gt;
+
+
+
+&lt;p&gt;In 1978, everything changed. The birth of Louise Brown, the world’s first “test tube baby,” proved that infertile couples had another option: in vitro fertilization. The technique involved removing a mature egg from the mother, mixing it in a lab dish with the father’s sperm, and letting the fertilized egg, called a zygote, grow for a couple of days. The zygote was then returned to the mother’s uterus, where it could implant and grow in an otherwise normal pregnancy.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt; Since Brown’s historic birth, scientists have devised a range of ways to give Mother Nature a boost in baby-making. The various methods are known collectively as assisted reproductive technology, or ART. Some 9 million babies worldwide have been born using versions of ART.&lt;/p&gt;
+
+
+
+&lt;p&gt;The impact has been as profound sociologically as it has been medically. Now that ART has become almost routine, many of the early complaints about scientists playing God and manipulating life have faded away. Parenthood is now possible for people who never imagined it in their futures, including same-sex couples and single parents, thanks to such refinements as egg donors, surrogacy and the successful freezing of eggs, sperm and embryos. And all of it begins, as human life itself does, with the egg.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar&quot;&gt;
+&lt;h3&gt;Helping hand &lt;/h3&gt;
+
+
+
+&lt;p&gt;Assisted reproductive technology, or ART, offers several approaches to help people have a child. ART techniques are most popular in Europe. &lt;/p&gt;
+
+
+
+&lt;h6 class=&quot;has-text-align-center&quot;&gt;Assisted reproductive technology procedures per year, 1997–2016&lt;/h6&gt;
+
+
+
+&lt;div class=&quot;image-desktop&quot;&gt;
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;line graph of the of the number of assisted reproductive technology procedures in Europe, the United States, and Australia/New Zealand per year from 1997 to 2016&quot; class=&quot;wp-image-3100320&quot; height=&quot;440&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_graph_desktop.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3100320&quot;&gt;E. Otwell&lt;/span&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;image-mobile&quot;&gt;
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;line graph of the of the number of assisted reproductive technology procedures in Europe, the United States, and Australia/New Zealand per year from 1997 to 2016&quot; class=&quot;wp-image-3100321&quot; height=&quot;561&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_graph_mobile.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;credit wp-credit-3100321&quot;&gt;E. Otwell&lt;/span&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div style=&quot;line-height: 12px; font-size: 10px; height: auto; text-align: right;&quot;&gt;Source: C. De Geyter &lt;em&gt;et al&lt;/em&gt;/&lt;em&gt;Human Reproduction&lt;/em&gt; 2020&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;h4&gt;Good eggs&lt;/h4&gt;
+
+
+
+&lt;p&gt;Even scientists can’t make babies without eggs. Normally, a woman produces only one mature egg every month, and the quality of her eggs tends to decline as she reaches her late 30s. So researchers’ ability to retrieve and prepare this scarce resource for fertilization, and if necessary preserve the eggs through freezing, have all been crucial in assisting reproduction.&lt;/p&gt;
+
+
+
+&lt;p&gt;Women have two ovaries, each one containing thousands of immature egg follicles. During the childbearing years, the ovaries usually release mature eggs in rotation: a single mature egg bursting from the right-hand ovary one menstrual cycle, from the left-hand ovary the next.&lt;/p&gt;
+
+
+
+&lt;p&gt;But women using ART often rely on injections of various fertility hormones to get the process going. These shots will enable sluggish ovaries to produce eggs that can be fertilized either through intercourse or in the lab via IVF. For IVF, the most robust-looking candidates are chosen to implant or to freeze for later use. This first step in ART, it turns out, is also one of the trickiest: choosing the right hormones to get the eggs you need.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-sciencenews-content-sidebar alignleft&quot;&gt;
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Science News 100&quot; class=&quot;wp-image-3095150&quot; height=&quot;126&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/01/centennial-logo.png&quot; width=&quot;1201&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;This article is an excerpt from a series celebrating some of the biggest advances in science over the last century. For an expanded version of the story of human reproduction, and to see the rest of the series, visit &lt;a href=&quot;https://www.sciencenews.org/?post_type=sn-theme&amp;amp;p=3099942&quot;&gt;Century of Science: The mystery of reproduction&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-button aligncenter&quot;&gt;&lt;a class=&quot;wp-block-button__link has-white-color has-society-blue-background-color has-text-color has-background&quot; href=&quot;https://www.sciencenews.org/?post_type=sn-theme&amp;amp;p=3099942&quot;&gt;READ MORE&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;p&gt;Knowledge about hormones and how they affect ovulation dates back to 1923, when scientists Edgar Allen and Edward Doisy of Washington University School of Medicine in St. Louis first isolated estrogen in experimental mice and rats and found that it was produced in the ovaries. By the 1940s, scientists had elucidated the ebbs and flows of other hormones in lab animals and humans — follicle stimulating hormone, luteinizing hormone and human chorionic gonadotropin — over the course of a typical menstrual cycle.&lt;/p&gt;
+
+
+
+&lt;p&gt;ART usually begins with a woman giving herself daily injections containing a cocktail of these hormones, generally for 10 to 14 days. But for some women who want to have children but are dealing with a cancer diagnosis, hormone injections aren’t an option — and the clock is ticking. They need to start cancer treatments as soon as possible, but many of the treatments are likely to damage the reproductive system.&lt;/p&gt;
+
+
+
+&lt;p&gt;To preserve their fertility, these women might choose to freeze their eggs before cancer treatment. But they might not have 10 or so days to wait until the hormone injections provoke their ovaries to produce extra eggs — nor might they be able to take the drugs in the first place if they have a hormone-sensitive cancer, such as some breast cancers, that ovulation-stimulating drugs might make worse. So for these women, researchers had to find ways to bring a bunch of eggs to maturity all at once and outside the body — a technique known as in vitro maturation.&lt;/p&gt;
+
+
+
+&lt;p&gt;In vitro maturation was first used in 1934, when Harvard researchers &lt;a href=&quot;https://www.sciencenews.org/archive/baby-rabbits-born-normally-after-fertilizing-glass&quot;&gt;Gregory Pincus and E.V. Enzmann used it in rabbits&lt;/a&gt; (&lt;em&gt;SN: 3/10/34, p. 149&lt;/em&gt;). The two scientists cultured immature rabbit eggs for about a day, supplementing the nutrient broth either with extracts from cow pituitary glands or with an unspecified “maturity hormone.” Both supplements helped the immature eggs grow to maturity, at which point they were successfully fertilized.&lt;/p&gt;
+
+
+
+&lt;p&gt;In 1940, Pincus was asked by a &lt;em&gt;New York Times&lt;/em&gt; reporter what the next big development might be in reproductive science. “There are no big steps, there are all little steps,” he said, declining to make any predictions. All he knew for sure, he said, was that the “big questions” of the day were: Why does an egg start to develop, and why does it continue to develop?&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Gregory Pincus holding a rabbit in the lab&quot; class=&quot;wp-image-3100313&quot; height=&quot;452&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_pincus.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100313&quot;&gt;In the 1930s, Harvard researchers Gregory Pincus (shown) and E.V. Enzmann grew rabbit eggs to maturity and fertilized them in the lab. Pincus later went on to codevelop the birth control pill.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100313&quot;&gt;Bettmann/Getty Images&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;When reproductive endocrinologists retrieve eggs from their ART patients, after either stimulating the ovaries via hormone injections or maturing the eggs in the lab, they have two choices: fertilize the eggs and implant the embryo right away, or store them. For women who are not yet ready to have a baby, storing the eggs is the best option. This is done through freezing — which, in the early days of ART, was a tricky business indeed. Eggs have a high fluid content that leads them to form crystals when frozen; during thawing, those crystals can damage the egg, especially the delicate apparatus needed to cut the cell’s chromosome number in half. By dividing the chromosomes, one egg plus one sperm can fuse together without doubling the chromosome count.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the 1980s, egg freezing worked occasionally; the first successful pregnancy using a woman’s own frozen eggs, leading to the birth of healthy twins, was reported in 1986 by Christopher Chen of Flinders University of South Australia in Adelaide. But egg freezing was still a long shot. Estimates were that no more than 1 or 2 percent of thawed eggs would result in a live birth.&lt;/p&gt;
+
+
+
+&lt;p&gt;Then, in 1999, reports appeared of a more reliable freezing method: vitrification, which freezes the egg so rapidly that no ice crystals can form. A research team based in Australia and Italy described animal experiments in which 1 in 4 vitrified cow eggs were fertilized and later grew, by around day 5, to the blastocyst stage. It was only about half the rate achieved for fresh cow eggs, but it was still several times better than the rate for slow-frozen eggs. When it came to clinical use, some researchers put the live birth rate of vitrified eggs at about 2 to 12 percent for women under age 38.&lt;/p&gt;
+
+
+
+&lt;p&gt;At first, vitrification was limited to people who froze their eggs for medical reasons such as cancer. But in 2013, egg cryopreservation became an option for anyone who wanted to delay childbearing for any reason, medical or not.&lt;/p&gt;
+
+
+
+&lt;p&gt;By 2020, estimates were that a growing subset of women who choose egg vitrification each year in the United States do so because they’re not ready to have children yet but hope to eventually — lifestyle-related reasons that have come to be known as “social freezing.”&lt;/p&gt;
+
+
+
+&lt;p&gt;While social freezing is often promoted as a way to delay childbearing almost indefinitely, it turns out that most women never return to the clinic to use their frozen eggs. At McGill University in Montreal, for instance, William Buckett and his colleagues found that over the course of 13 years, the school’s cancer fertility preservation program treated 353 women, of whom 9 percent died, 6 percent got pregnant spontaneously, and the majority were either still dealing with their cancer or had lost touch with the clinic for unknown reasons. Just 23 women, 6.5 percent of the group, came back to McGill to use their frozen eggs or embryos. That low return rate is also true for women who opt for social freezing.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image alignwide size-full&quot;&gt;&lt;img alt=&quot;illustration of one sperm entering an egg as more sperm swim toward it&quot; class=&quot;wp-image-3100314&quot; height=&quot;600&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_fertilization.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100314&quot;&gt;Once a single sperm has entered an egg, a special protein layer called the zona pellucida shuts out all other sperm.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100314&quot;&gt;Nicolle Rager Fuller&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;h4&gt;Sperm meets egg&lt;/h4&gt;
+
+
+
+&lt;p&gt;Compared with the human egg, sperm are pretty simple. They were first observed in 1677 when Antonie van Leeuwenhoek, the Dutch inventor of one of the world’s first microscopes, took a look at his own ejaculate under magnification and noticed what he called “animalcules” swimming around in the sample. But their structure and function didn’t come into focus until 1876, when Hertwig watched a sperm fertilize the egg of a sea urchin.&lt;/p&gt;
+
+
+
+&lt;p&gt;Pincus and Enzmann, who were the first to bring mammalian eggs to maturity in the lab, used rabbit sperm to achieve the first laboratory fertilization in a mammal in 1934.&lt;/p&gt;
+
+
+
+&lt;p&gt;It took years of struggle to make the leap from rabbits to humans. In 1951, an oddity of sperm made it seem that Pincus and Enzmann had gotten lucky. Sperm cells, it appeared, needed to be primed in some way through a process called capacitation before they could pierce the egg.&lt;/p&gt;
+
+
+
+&lt;p&gt;Robert Edwards of Cambridge University, &lt;a href=&quot;https://www.sciencenews.org/article/medical-nobel-goes-developer-ivf&quot;&gt;one of the world’s leading investigators in IVF&lt;/a&gt; through the 1960s and 1970s, thought capacitation would be “a terrible obstacle to IVF,” recalls Roger Gosden, an embryologist who worked in Edwards’ lab and authored Edwards’ biography, &lt;em&gt;Let There Be Life&lt;/em&gt;. He remembers some frantic attempts to mimic sperm capacitation — such as when scientists created porous chambers, roughly the size of an implanted IUD, or intrauterine device, used for contraception. The researchers would fill a chamber with sperm and insert it into the uterus of a volunteer, hoping to expose the sperm to whatever unknown capacitating substance exists in nature. After waiting a bit, the scientists would pull on a string attached to the chamber to retrieve the now “primed” sperm to see if they had indeed become better able to fertilize eggs in the lab.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the end, scientists found an easier way. “You just have to wash the sperm to get rid of some surface constituents,” Gosden says, and the sperm are ready to fertilize an egg in a lab dish. Other difficulties in clinical research proved more formidable, such as gauging the best timing of egg retrieval from women, and tweaking how manbeatry days post-fertilization were best to transfer the zygote to the uterus. Edwards and his collaborators, including gynecologist Patrick Steptoe, had more than 300 failed attempts at in vitro fertilization before their &lt;a href=&quot;https://www.sciencenews.org/blog/growth-curve/40-years-ivf-baby-louise-brown&quot;&gt;first success with Louise Brown in 1978 in England&lt;/a&gt; (&lt;em&gt;SN: 7/25/18&lt;/em&gt;). Edwards went on to win the Nobel Prize in 2010 for his IVF discoveries.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;Louise Brown as a baby&quot; class=&quot;wp-image-3100318&quot; height=&quot;484&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_louise.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100318&quot;&gt;The 1978 birth of Louise Brown, a healthy baby girl, launched the field of in vitro fertilization. Although controversial at the time, IVF has been responsible for millions of births.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100318&quot;&gt;ZUMA Press Inc./Alamy Stock Photo&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Among the beneficiaries of Edwards’ pathbreaking work is Claudy, who was diagnosed with breast cancer at age 29, and who in a different century might never have been able to have a baby of her own. Claudy sought out Michaël Grynberg and his colleagues at the Antoine Béclère University Hospital fertility clinic, just outside Paris, to discuss ways to preserve her fertility. It was 2014, and egg freezing through vitrification was becoming more common. But bringing an immature egg to maturity in the lab was still relatively rare. From the time of the first baby born from fresh lab-matured eggs in 1991 to the time of Claudy’s arrival at Grynberg’s clinic, only about 5,000 such births had occurred.&lt;/p&gt;
+
+
+
+&lt;p&gt;But Grynberg had no choice. He had to retrieve immature eggs from Claudy, for the sake of both speed and to avoid aggravating her hormone-sensitive breast cancer with fertility drugs. In addition, he would have to do something unprecedented in the context of cancer: Freeze those lab-matured eggs for later use. No baby had ever been born from eggs taken from a cancer patient that were matured in the lab and then frozen. (There had been one baby born at McGill in 2009 from a woman who did not have cancer, whose eggs were matured in the lab and frozen, then thawed.)&lt;/p&gt;
+
+
+
+&lt;p&gt;Grynberg extracted seven immature eggs and was able to grow six of them to maturity over the next 48 hours. Those six went into the deep freeze, while Claudy had surgery and chemotherapy.&lt;/p&gt;
+
+
+
+&lt;p&gt;A few years later, Claudy’s oncologist told her it was safe to get pregnant, and she spent a year trying to conceive. But she didn’t. So in 2018, she returned to Grynberg’s clinic, where the doctors prepared to thaw her six frozen eggs.&lt;/p&gt;
+
+
+
+&lt;p&gt;To fertilize them, in Claudy’s case, required an additional bit of ART. Because her eggs had been frozen, her partner’s sperm would need help to fertilize her eggs. Vitrification causes changes in the egg’s outer membrane that makes the thawed egg particularly hard for sperm cells to penetrate. This membrane, called the zona pellucida, is &lt;a href=&quot;https://www.sciencenews.org/article/fine-scale-structure-egg-crucial-fertility&quot;&gt;a formidable barrier&lt;/a&gt; even in nature (&lt;em&gt;SN: 1/3/09, p. 15&lt;/em&gt;). One of the first to describe it was Sardul Singh Guraya, a biologist at Punjab Agricultural University in India, who did his early work in field rats.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image alignwide size-full&quot;&gt;&lt;img alt=&quot;illustration of a blastocyst heading toward the uterus&quot; class=&quot;wp-image-3100311&quot; height=&quot;600&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_blastocyte.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100311&quot;&gt;After fertilization, the blastocyst makes its way to the uterus. When an egg is fertilized in the lab, scientists can snip a cell from this developing mass to check for genetic problems without causing injury.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100311&quot;&gt;Nicolle Rager Fuller&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;The zona pellucida, Guraya reported in 1978, is a barrier around the egg made of proteins and carbohydrates, and when one sperm breaches it, cortical granules rearrange themselves to shut out all other sperm. This ensures that the zygote will have a normal genetic complement of just two pairs of 23 chromosomes, one from the mother and one from the father, rather than a grossly inflated number that would result if multiple sperm fertilized the egg.&lt;/p&gt;
+
+
+
+&lt;p&gt;Scientists spent much of the next decade trying to get sperm into eggs that had been frozen using micro-manipulations described with such invasive terms as “zona drilling.” But the sperm still failed to reach the nucleus for fertilization.&lt;/p&gt;
+
+
+
+&lt;p&gt;Then in 1992, Gianpiero Palermo, an Italian scientist on sabbatical from the University of Bari, reported on an accidental discovery he made while working in a fertility lab at the Free University of Brussels. When he tried to gently inject sperm beneath the outer layer of the egg, careful not to pierce the jellylike center known as the cytoplasm, he noticed that an occasional “dimple” in the membrane would allow the sperm to penetrate directly into the center anyway. When that happened, the egg was almost always fertilized. So despite the general recommendation to avoid doing so, Palermo tried injecting the sperm, tail and all, directly into the cytoplasm.&lt;/p&gt;
+
+
+
+&lt;p&gt;Of the first 47 attempts Palermo and his colleagues in Brussels made with this approach, 38 eggs remained intact after the injection, 31 were fertilized and 15 grew to embryos that could be transferred to a uterus.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignleft size-full&quot;&gt;&lt;img alt=&quot;microscope image of in vitro fertilization&quot; class=&quot;wp-image-3100316&quot; height=&quot;445&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_icsi.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100316&quot;&gt;While a pipette (left) holds an egg in place, a single sperm is injected to fertilize the egg in a technique known as ICSI.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100316&quot;&gt;Hardas/Science Source&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;Ultimately, four babies were born: two healthy boys from two singleton pregnancies, and a healthy pair of boy-and-girl twins. The Belgian scientists called the procedure ICSI (pronounced ICK-see), shorthand for intracytoplasmic sperm injection.&lt;/p&gt;
+
+
+
+&lt;p&gt;Today, injecting a single sperm directly into an egg is even more common than the traditional form of IVF that adds sperm to an egg in a lab dish to let fertilization happen on its own. The injection method is used in about two-thirds of ART cycles around the world. And it is used in virtually all cycles that, like Claudy’s, start out with a hard-shelled frozen egg.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Growing a healthy baby&lt;/h4&gt;
+
+
+
+&lt;p&gt;In 2018, Claudy returns to the fertility clinic at the Antoine Béclère University Hospital in suburban Paris. She is 34 years old and cancer-free. Because of the unusual nature of her case — her eggs were immature when they were retrieved and were brought to maturity in the laboratory — her doctors are not confident the eggs will survive the thawing and subsequent manipulations.&lt;/p&gt;
+
+
+
+&lt;p&gt;All six of Claudy’s eggs defrost with no apparent damage. The scientists perform ICSI on the eggs, using fresh sperm from Claudy’s partner. Five of the eggs fertilize.&lt;/p&gt;
+
+
+
+&lt;p&gt;These five zygotes go into an incubator so they can develop to a stage that is ready to implant. They undergo the early stages of cleavage, in which one cell becomes two, two become four, four become eight, and so on.      &lt;/p&gt;
+
+
+
+&lt;p&gt;At many fertility clinics elsewhere in the world, doctors might interrupt things at this point to snip off a cell or two from the early embryo to see if things are progressing normally. It was revolutionary to discover that this could even be done — a feat first accomplished in 1968 by embryologist Richard Gardner. At the time, Gardner was a graduate student working in Edwards’ lab in Cambridge. His work showed for the first time that it was possible in rabbits to &lt;a href=&quot;https://www.sciencenews.org/archive/toward-preselected-sex&quot;&gt;take cells from a blastocyst without causing harm&lt;/a&gt; (&lt;em&gt;SN: 8/3/68, p. 119&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image alignwide size-full&quot;&gt;&lt;img alt=&quot;illustration of an egg implanted in the uterine wall&quot; class=&quot;wp-image-3100315&quot; height=&quot;600&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_celldiff.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100315&quot;&gt;Once implanted in the uterine wall, the embryo’s cells begin to differentiate, eventually forming all the tissues and organs that make up a human being.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100315&quot;&gt;Nicolle Rager Fuller&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Scientists can examine the chromosomes of those cells removed from a human embryo, a process called preimplantation genetic diagnosis, or PGD. They might be looking for a particular disease-linked gene that runs in the family, to avoid implanting an affected embryo in the uterus. Or they might be checking that a developing embryo has the right number of chromosomes, and that the embryo has a good chance of implanting in the uterus and coming out a baby with 10 fingers, 10 toes and the chance of a healthy life.&lt;/p&gt;
+
+
+
+&lt;p&gt;In the future, they might also use PGD to see whether a desired gene tweak, introduced via a gene-editing technique like CRISPR, has actually taken hold. Without PGD, none of these approaches, from disease prevention to designer babies, could take place.&lt;/p&gt;
+
+
+
+&lt;p&gt;Two days after putting Claudy’s five embryos in the incubator, only one is still undergoing cleavage. That is the embryo the doctors transfer to Claudy’s uterus in the autumn of 2018.&lt;/p&gt;
+
+
+
+&lt;p&gt;The embryo implants, and continues to develop the way any embryo would, no matter what its origin story — a ball of a few hundred genetically identical embryonic cells that eventually differentiate into the 200 or so cell types that make up a human being. The mechanism by which this occurs was first laid out in 1924 by the German investigator Hans Spemann, who discovered the “organizer effect” that leads particular regions of the embryo to develop into particular cell types.&lt;/p&gt;
+
+
+
+&lt;p&gt;In 1965, Beatrice Mintz created mice that wore their bizarre genetic lineage on their unique, black-and-white striped coats. In her lab at the Institute for Cancer Research in Philadelphia, &lt;a href=&quot;https://www.sciencenews.org/archive/two-mothers-two-fathers&quot;&gt;she created a mouse with four parents&lt;/a&gt; — two mothers and two fathers — to demonstrate which parent’s genetic contribution ended up in which region of the body (&lt;em&gt;SN: 4/12/69, p. 361&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;black and white image of Beatrice Mintz looking into a microscope&quot; class=&quot;wp-image-3100317&quot; height=&quot;445&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/061921_reprodcution_inline_mintz.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100317&quot;&gt;Biologist Beatrice Mintz created thousands of four-parent mice, mixing different traits so she could trace the genetic origins of the distinctive organs that develop from the undifferentiated cells of a developing fetus.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100317&quot;&gt;Smithsonian Institution/Flickr&lt;/span&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Mintz merged eight-celled embryos from two different mice, one pure black embryo and one pure white, by putting them into a lab dish, dissolving the protective layer around each embryo, and actually smooshing them together using a glass rod. The result was a mosaic mouse: Some of its cells contained genes that could be traced directly to the two white mouse parents, and some had genes from the two black mouse parents.&lt;/p&gt;
+
+
+
+&lt;p&gt;Other mysteries of how embryos develop were revealed by “knockout” technology, in which scientists disabled genes in a particular region of an embryo to see what those genes controlled. In 1995, developmental biologists William Shawlot and Richard Behringer of the University of Texas MD Anderson Cancer Center in Houston reported using this method in mouse embryos, confirming Spemann’s theory that &lt;a href=&quot;https://www.sciencenews.org/archive/absent-mouse-gene-leads-no-brainer&quot;&gt;a tiny region of the embryo touches off changes in neighboring cells&lt;/a&gt; to turn them into particular cell types (&lt;em&gt;SN: 4/1/95, p. 197&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;The embryo in Claudy’s uterus develops normally; everything about her pregnancy seems ordinary — except how miraculous it might feel to Claudy herself, who must have had some doubt, as a young breast cancer patient, about whether she’d ever have a baby of her own. In early July 2019, Claudy goes back to the Antoine Béclère University Hospital, this time to give birth. Her son is born on July 6; she and her partner name him Jules.&lt;/p&gt;
+
+
+
+&lt;p&gt;When Grynberg asks Claudy’s permission to write up her landmark case in the &lt;em&gt;Annals of Oncology&lt;/em&gt;, she is overwhelmed. “I thought about everything I had gone through,” she told a reporter for the British newspaper the&lt;em&gt; Telegraph&lt;/em&gt; as she posed for a photo with baby Jules. “And I cried as I realized how lucky I was.”&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-09T13:00:00+00:00</dc:date>
+	<dc:creator>Robin Marantz Henig</dc:creator>
+</item>
 <item rdf:about="https://digest.bps.org.uk/?p=42524">
 	<title>The British Psychological Society - Research Digest: People Prefer More Attractive Financial Partners — Even Ones Who Lose Them Money</title>
 	<link>https://digest.bps.org.uk/2021/06/09/people-prefer-more-attractive-financial-partners-even-ones-who-lose-them-money/</link>
@@ -3223,176 +3737,6 @@ long-tailed datasets.&lt;/p&gt;
 	<dc:date>2021-06-01T17:18:42+00:00</dc:date>
 	<dc:creator>Betsy Ladyzhets</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3099903">
-	<title>Science News: Some fast radio bursts come from the spiral arms of other galaxies</title>
-	<link>https://www.sciencenews.org/article/fast-radio-bursts-spiral-arms-galaxies</link>
-	<content:encoded>&lt;p&gt;Five brief, bright blasts of radio waves from deep space now have precise addresses.&lt;/p&gt;
-
-
-
-&lt;p&gt;The fast radio bursts, or FRBs, &lt;a href=&quot;https://arxiv.org/pdf/2012.11617.pdf&quot;&gt;come from the spiral arms of their host galaxies&lt;/a&gt;, researchers report in a study to appear in the &lt;em&gt;Astrophysical Journal&lt;/em&gt;. The proximity of the FRBs to sites of star formation bolsters the case for run-of-the-mill young stars as the origin of these elusive, energetic eruptions.&lt;/p&gt;
-
-
-
-&lt;p&gt;“This is the first such population study of its kind and provides a unique piece to the puzzle of FRB origins,” says Wen-fai Fong, an astronomer at Northwestern University in Evanston, Ill.&lt;/p&gt;
-
-
-
-&lt;p&gt;FRBs typically last a few milliseconds and are never seen again. Because the bursts are so brief, it’s difficult to nail down their precise origins on the sky. Although astronomers have detected about 1,000 FRBs since the first was reported in 2007, only 15 or so have been traced to a specific galaxy.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;The first burst to be traced to its source came from a &lt;a href=&quot;https://www.sciencenews.org/article/gotcha-fast-radio-bursts-home-nabbed&quot;&gt;small, blobby dwarf galaxy&lt;/a&gt; with a lot of active star formation (&lt;em&gt;SN: 1/4/17&lt;/em&gt;). That FRB sends off repeated blasts from a single source, which is an unusual feature, and helped astronomers localize its host galaxy.&lt;/p&gt;
-
-
-
-&lt;p&gt;“After that, a lot of people thought, well, maybe all FRB hosts are like this,” says astronomer Alexandra Mannings of the University of California, Santa Cruz. But then a second repeating burst was &lt;a href=&quot;https://www.sciencenews.org/article/home-galaxy-second-repeating-fast-radio-burst-is-puzzle&quot;&gt;tracked back to a spiral galaxy&lt;/a&gt; like the Milky Way (&lt;em&gt;SN: 1/6/20&lt;/em&gt;). And a one-off burst was localized to a massive disk-shaped galaxy, also the size of the Milky Way. Others followed.&lt;/p&gt;
-
-
-
-&lt;p&gt;Mannings, Fong and colleagues thought they could learn more about the FRBs’ sources by localizing their origins even more precisely. Different parts of spiral galaxies tend to host different types of stars. The bright spiral arms tend to mark sites where new stars are being born, while the older and dimmer stars have had time to drift away from the arms into the rest of the galaxy. So figuring out which galactic neighborhoods FRBs call home can reveal a lot about what kind of objects they come from.&lt;/p&gt;
-
-
-
-&lt;p&gt;Using the Hubble Space Telescope, the researchers took high-resolution images of eight galaxies that were already known to host FRBs, then overlaid the FRBs’ positions onto the images. The five FRBs that came from clearly defined spiral galaxies all lay on or close to the galaxies’ spiral arms, which had not been visible in images from ground-based telescopes. The other three host galaxies had inconclusive shapes, Fong says.&lt;/p&gt;
-
-
-
-&lt;p&gt;The FRB locales have a fair amount of star formation, but they’re not the brightest and most active parts of their galaxies, Fong says. That suggests FRBs originate with ordinary young stars — not the youngest, most massive stars that occupy the brightest knots in the spiral arms, but not the oldest and dimmest stars that have drifted away from their homes, either.&lt;/p&gt;
-
-
-
-&lt;p&gt;That finding is consistent with the idea that FRBs come from &lt;a href=&quot;https://www.sciencenews.org/article/milky-way-flash-implicates-magnetars-source-fast-radio-bursts&quot;&gt;highly magnetized stellar corpses called magnetars&lt;/a&gt;, Mannings says (&lt;em&gt;SN: 6/4/20&lt;/em&gt;). There are a couple of ways to produce magnetars from ordinary stars. There’s the slow way, which involves waiting billions of years for a &lt;a href=&quot;https://www.sciencenews.org/article/astronomers-spotted-colliding-neutron-stars-magnetar&quot;&gt;pair of neutron stars to collide&lt;/a&gt; (&lt;em&gt;SN: 12/1/20&lt;/em&gt;). Or there’s the fast way, which follows the death of a single massive star. It seems like FRBs might come from an in-between process, like the death of a not-so-massive star, Mannings says.&lt;/p&gt;
-
-
-
-&lt;p&gt;“The fact that FRBs are found to be pretty close to, if not on, the spiral arm, near to these star forming regions, that can give us a better idea of what the timeline is like for the progenitor,” whatever created the FRB, Mannings says. “And if it is a magnetar, it lets us know that it’s not through the delayed channel, like a neutron star merger.”&lt;/p&gt;
-
-
-
-&lt;p&gt;The finding doesn’t entirely solve the mystery of where FRBs come from, says astrophysicist Emily Petroff of the University of Amsterdam, who was not involved in the new work. But it does help to get a broader picture of their host galaxies.&lt;/p&gt;
-
-
-
-&lt;p&gt;“FRBs keep throwing a lot of surprises at us, in terms of what they look like, where they’re found, how they repeat,” Petroff says. “This is maybe providing more evidence that FRBs are more related to just sort of general neutron stars.” The next step, of course, is to find more FRBs.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-06-01T14:00:00+00:00</dc:date>
-	<dc:creator>Lisa Grossman</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3100077">
-	<title>Science News: Here’s what we know about the risks of serious side effects from COVID-19 vaccines</title>
-	<link>https://www.sciencenews.org/article/covid-vaccine-side-effects-coronavirus-myocarditis</link>
-	<content:encoded>&lt;p&gt;Many people have experienced sore arms and feeling wiped out for a couple of days after getting a COVID-19 vaccine. Some get fevers, chills and headaches. Those familiar side effects have become widely accepted as the price of protection against the too-often-deadly coronavirus.&lt;/p&gt;
-
-
-
-&lt;p&gt;But it’s the rare, more serious side effects that have grabbed the headlines — and given some people pause about whether to get vaccinated or get the shots for their children.&lt;/p&gt;
-
-
-
-&lt;p&gt;Such side effects include &lt;a href=&quot;https://www.sciencenews.org/article/covid-19-coronavirus-vaccine-severe-allergic-reactions-extremely-rare-cdc&quot;&gt;rare allergic reactions&lt;/a&gt; to an ingredient in the mRNA vaccines (&lt;em&gt;SN: 1/6/21&lt;/em&gt;) and &lt;a href=&quot;https://www.sciencenews.org/article/johnson-janssen-covid-coronavirus-vaccine-resume-pause-rare-blood-clot&quot;&gt;rare blood clots in young women&lt;/a&gt; associated with Johnson &amp;amp; Johnson’s vaccine (&lt;em&gt;SN: 4/23/21&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;p&gt;Now, a group that monitors vaccine safety for the U.S. Centers for Disease Control and Prevention is investigating whether there is a link between Pfizer’s mRNA vaccine and a few &lt;a href=&quot;https://www.cdc.gov/vaccines/acip/work-groups-vast/technical-report-2021-05-17.html&quot;&gt;mild cases of heart inflammation, called myocarditis, in adolescents and young adults&lt;/a&gt;. So far, cases of myocarditis have not risen above the number normally expected in young people, and no one actually knows whether the vaccine triggers the heart inflammation or not.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;“We are seeing these potential side effects because we are looking for them, and that’s a perfect example of how our safety system is supposed to work,” says Alexandra Yonts, a pediatric infectious disease doctor at Children’s National Hospital in Washington, D.C. “We’re being very aggressive and proactive, and that’s good.” &lt;/p&gt;
-
-
-
-&lt;p&gt;Here’s what is known, the experts say: The risk of serious side effects from vaccination remains far smaller than its benefits. The vaccines are highly effective at preventing severe illness, hospitalization and death, &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-pandemic-vaccine-questions-immunity-variants&quot;&gt;even against variants&lt;/a&gt; (&lt;em&gt;SN: 5/11/21&lt;/em&gt;). The vaccines may also help &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-vaccine-moderna-pfizer-transmission-disease&quot;&gt;block infection and transmission&lt;/a&gt; of the coronavirus (&lt;em&gt;SN: 3/30/21&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post alignleft&quot;&gt;
-&lt;h4&gt;
-&lt;a href=&quot;https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak&quot;&gt;See all our coverage of the coronavirus outbreak&lt;/a&gt;
-&lt;/h4&gt;
-&lt;/aside&gt;
-
-
-
-&lt;p&gt;As of May 28, worldwide, more than 1.8 billion doses of COVID-19 vaccines have been given, according to Johns Hopkins University. No vaccines are completely risk-free, says Yvonne Maldonado, an infectious diseases epidemiologist at Stanford University School of Medicine. But the side effects known to be caused by the vaccines are usually short-lived and clear up on their own or are treatable or reversible, she says.&lt;/p&gt;
-
-
-
-&lt;p&gt;Out of every million doses given of the mRNA vaccines, overall about 2.5 to 11.1 severe allergic reactions to an ingredient called &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1111/cea.13874&quot;&gt;polyethylene glycol&lt;/a&gt; will happen. That’s why people are typically monitored for at least 15 minutes after the shot. The risk is obviously highest for people who have known allergies to polyethylene glycol and they should probably avoid taking the mRNA vaccines. If the &lt;a href=&quot;https://www.acpjournals.org/doi/10.7326/L21-0104&quot;&gt;jabs are broken down into smaller doses&lt;/a&gt;, people with the rare allergies might still be able to get the shots safely, researchers reported in April in the &lt;em&gt;Annals of Internal Medicine&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;A small number of people who have facial fillers made of hyaluronic acid may get swelling around their fillers a few days after a shot of an mRNA vaccine. The &lt;a href=&quot;https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-3-6-may-2021&quot;&gt;European Medicines Agency recommended that the vaccine makers warn people&lt;/a&gt; of the possible reaction. In Moderna’s clinical trial, three people developed the swelling. &lt;a href=&quot;https://www.jaad.org/article/S0190-9622(21)00658-7/fulltext&quot;&gt;Nine other cases&lt;/a&gt; were associated with either the Pfizer or Moderna shots, researchers reported April 7 in the &lt;em&gt;Journal of the American Academy of Dermatology&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;“It’s not a high number,” says Herluf Lund, a plastic surgeon in St. Louis, Mo., and the immediate past president of the Aesthetic Society. “But it’s also not unheard of, because it’s not just the COVID vaccines that are tied to this; almost any vaccine can be tied to this swelling around fillers.” Illnesses can also trigger the swelling. The reaction isn’t an allergic reaction, it’s a side effect of revving up the immune system. “The immune system when it first starts up is a bit like a shotgun; it fires and hopes it hits something,” he says. Once the immune system recognizes the vaccine or virus as its target, the swelling goes away.&lt;/p&gt;
-
-
-
-&lt;p&gt;The swelling isn’t dangerous and usually clears up quickly, either on its own or after taking antihistamines or steroids. “It, of course, scares the heck out of the patient,” Lund says. “But don’t run to the emergency room,” he says. “Just pick up the phone and call your doctor.”&lt;/p&gt;
-
-
-
-&lt;p&gt;About 13 cases of rare blood clots are predicted to develop in women 49 and younger for every one million doses of Johnson &amp;amp; Johnson’s vaccine. Only two such clots for every million doses are calculated to happen in women 50 and older or in men 18- to 49-years old. A &lt;a href=&quot;https://www.sciencenews.org/article/covid-vaccine-blood-clot-immune-astrazeneca-johnson-johnson&quot;&gt;test can identify an uncommon immune response&lt;/a&gt; that is leading to those clots, ensuring patients can get the right care (&lt;em&gt;SN: 4/16/21&lt;/em&gt;).&lt;/p&gt;
-
-
-
-&lt;aside class=&quot;wp-block-sciencenews-inline-related-post&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak&quot;&gt;Sign up for e-mail updates on the latest coronavirus news and research&lt;/a&gt;&lt;/h4&gt;&lt;/aside&gt;
-
-
-
-&lt;p&gt;Those handfuls of side effect cases per every million doses of vaccine are lower “than your chance of getting bit by a shark if you go to the beach, of getting hit by a car if you cross the street, or being killed in an airplane crash,” Maldonado says. “And yet we seem to go to the beach, cross the street and get on airplanes every single day.”&lt;/p&gt;
-
-
-
-&lt;p&gt;On the other hand, more than 169 million people have contracted COVID-19 and more than 3.5 million have died worldwide. That includes more than 33 million cases and 593,000 deaths in the United States. Overall, &lt;a href=&quot;https://www.cdc.gov/mmwr/volumes/70/wr/mm7014e1.htm&quot;&gt;COVID-19 was the third leading cause of death&lt;/a&gt; — behind heart disease and cancer — in the United States in 2020, and ranks in the country’s top 10 leading causes of death for children.&lt;/p&gt;
-
-
-
-&lt;p&gt;People may think a vaccine is responsible for a health problem if it happens soon after getting a shot, Maldonado says. But that problem may have happened anyway even if the person didn’t get a vaccine, she says. “There may be a temporal association, but not a causal one.”&lt;/p&gt;
-
-
-
-&lt;p&gt;But, she notes, “people just get nervous because it’s new.” While the speed at which the vaccines have made it into people’s arms is unprecedented, the technology behind them has been in development for years, she says. “These are probably the most highly studied vaccines ever.”&lt;/p&gt;
-
-
-
-&lt;p&gt;That ongoing surveillance is what alerted public health officials to instances of myocarditis happening post-vaccination. The CDC hasn’t reported how many children have been affected by myocarditis after getting a COVID-19 vaccine, but said that the number of cases is still within what’s called background levels. In any given year, doctors expect to see about two cases of myocarditis for every 100,000 children, Yonts says, but that may be an underestimate. Some children may have indicators of inflammation in their blood, but don’t develop symptoms. Those “subclinical” cases aren’t included in the counts.&lt;/p&gt;
-
-
-
-&lt;p&gt;Typically, infants and teenagers are more likely to develop the condition than pre-adolescent children. The cases being investigated for a link to the vaccine have happened in older teens and young adults, more commonly in males than females, and have tended to happen about four days after the second shot.  &lt;/p&gt;
-
-
-
-&lt;p&gt;Viruses are the most commonly implicated cause of myocarditis, Yonts says. The inflammation is a product of the immune system trying to fight off the infection. Since vaccines prime the immune system, too, it is possible that a COVID-19 vaccine might trigger the heart problem in some kids. Other vaccines, particularly the smallpox vaccine, have been associated with rare cases of myocarditis in the past, she says.  &lt;/p&gt;
-
-
-
-&lt;p&gt;But there has not yet been any cause and effect established between myocarditis and COVID-19 vaccines, stresses Yonts, who previously worked in the U.S. Food and Drug Administration’s vaccine evaluation branch.&lt;/p&gt;
-
-
-
-&lt;p&gt;Doctors are being urged to be on the lookout for the symptoms of myocarditis in their young patients and to report any problems. Yonts says two kids, and possibly a third, who were seen at Children’s National Hospital have fit the overall pattern of mild myocarditis symptoms that might be a side effect of the vaccine.&lt;/p&gt;
-
-
-
-&lt;p&gt;Such symptoms include chest pain, which may get worse when kids are lying down; faster or irregular heartbeats; shortness of breath; and dizziness upon standing up or being more active. Those symptoms come after the more common vaccine side effects, such as fatigue, body aches and chills. The myocarditis cases seen after vaccination have all been mild and went away on their own within a day of developing symptoms, Yonts says.   &lt;/p&gt;
-
-
-
-&lt;p&gt;COVID-19 itself sometimes causes myocarditis. For instance, of 1,597 college athletes who had a SARS-CoV-2 infection, 37 were found to have &lt;a href=&quot;https://jamanetwork.com/journals/jamacardiology/fullarticle/2780548&quot;&gt;signs of myocarditis&lt;/a&gt;, researchers report May 27 in &lt;em&gt;JAMA Cardiology&lt;/em&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;The disease can have other consequences, too, Yonts says, including long-COVID and an &lt;a href=&quot;https://www.sciencenews.org/article/coronavirus-covid-19-kids-complications-inflammation-rare-cases&quot;&gt;over-the-top inflammatory syndrome&lt;/a&gt; called MIS-C, which may lead to organ failure and death (&lt;em&gt;SN: 5/12/20&lt;/em&gt;). That condition can develop four to six weeks after even very mild cases of COVID-19. And while COVID-19 is generally milder in children than adults, plenty of children get severe cases of COVID-19, she says. “In my practice, I’ve seen many kids admitted to the ICU, who require blood pressure support, or are severely ill with COVID-19. I have seen far more of those at this point than I have seen of the very mild symptoms of myocarditis.”&lt;/p&gt;</content:encoded>
-	<dc:date>2021-06-01T10:00:00+00:00</dc:date>
-	<dc:creator>Tina Hesman Saey</dc:creator>
-</item>
 <item rdf:about="https://retractionwatch.com/?p=122298">
 	<title>Retraction watch: Two transcendental meditation papers retracted for failures to report primary outcomes</title>
 	<link>https://retractionwatch.com/2021/06/01/two-transcendental-meditation-papers-retracted-for-failures-to-report-primary-outcomes/</link>
@@ -6049,39 +6393,6 @@ The agenda for the meeting is:&lt;/p&gt;
 &lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/p3pCuM8IRDM&quot; width=&quot;1&quot; /&gt;</content:encoded>
 	<dc:date>2021-04-26T06:08:13+00:00</dc:date>
 	<dc:creator>The Neurocritic</dc:creator>
-</item>
-<item rdf:about="tag:blogger.com,1999:blog-21605329.post-1145923806460061071">
-	<title>The Neurocritic: How the Brain Works</title>
-	<link>http://feedproxy.google.com/~r/TheNeurocritic/~3/nTa3HZpSYUk/how-brain-works.html</link>
-	<content:encoded>&lt;div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-eSbktpe2jaY/X-uA3_xfblI/AAAAAAAANPY/I1v-Cf4A3kkaLBLbu2Xw45Iuixt6ScR4ACLcBGAsYHQ/s778/literally%2Ba%2Bblue%2Bbrain%2Band%2BGABAergic%2BMET%2Btypes.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;268&quot; data-original-width=&quot;778&quot; height=&quot;138&quot; src=&quot;https://1.bp.blogspot.com/-eSbktpe2jaY/X-uA3_xfblI/AAAAAAAANPY/I1v-Cf4A3kkaLBLbu2Xw45Iuixt6ScR4ACLcBGAsYHQ/w400-h138/literally%2Ba%2Bblue%2Bbrain%2Band%2BGABAergic%2BMET%2Btypes.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Every now and then, it's refreshing to remember how little we know about “how the brain works.”  I put that phrase in quotes because the search for the Holy Grail of [&lt;a href=&quot;https://medium.com/the-spike/a-neural-data-science-how-and-why-d7e3969086f2&quot; target=&quot;_blank&quot; title=&quot;The Spike&quot;&gt;spike trains&lt;/a&gt;, &lt;a href=&quot;https://royalsocietypublishing.org/doi/10.1098/rsif.2017.0623&quot; target=&quot;_blank&quot; title=&quot;Generative models for network neuroscience&quot;&gt;network generative models&lt;/a&gt;, manipulated &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0959438820301471&quot; target=&quot;_blank&quot; title=&quot;according to NIH BRAIN&quot;&gt;neural circuit function&lt;/a&gt;, &lt;a href=&quot;https://www.ted.com/talks/sebastian_seung_i_am_my_connectome&quot; target=&quot;_blank&quot; title=&quot;'I Am My Connectome'- Sebastian Seung's TED talk&quot;&gt;My Own Private Connectome&lt;/a&gt;, &lt;a href=&quot;https://www.nature.com/articles/nn0199_79&quot; target=&quot;_blank&quot; title=&quot;classic Rao &amp;amp; Ballard (1999)&quot;&gt;predictive coding&lt;/a&gt;, the &lt;a href=&quot;https://www.aliusresearch.org/uploads/9/1/6/0/91600416/friston_-_of_woodlice_and_men.pdf&quot; target=&quot;_blank&quot; title=&quot;Friston of course&quot;&gt;free energy principle&lt;/a&gt; (PDF), or a computer simulation of the human brain  &lt;a href=&quot;https://www.ted.com/talks/henry_markram_a_brain_in_a_supercomputer?language=en&quot; target=&quot;_blank&quot; title=&quot;Henry Markram's TED talk&quot;&gt;promised&lt;/a&gt; by the Blue Brain Project] that will “explain” how “The Brain” works is a quixotic quest. It's a misguided effort when the goal is framed so simplistically (or monolithically).&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;First of all, whose brain are we trying to explain? Yours? Mine? The brain of a monkey, mouse, marsupial, monotreme, mosquito, or mollusk? Or &lt;i&gt;C. elegans&lt;/i&gt; with its 306 neurons? “Yeah yeah, we get the point,” you say, “stop being so sarcastic and cynical. We're searching for core principles, first principles.” &lt;br /&gt;&lt;/p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;What does “core principle” mean?&lt;/p&gt;— Andrew Pruszynski (@andpru) &lt;a href=&quot;https://twitter.com/andpru/status/1314266663508992017?ref_src=twsrc%5Etfw&quot;&gt;October 8, 2020&lt;/a&gt;&lt;/blockquote&gt;&lt;p&gt; &lt;br /&gt; &lt;br /&gt;In response to that tweet, definitions of “core principle” included:&lt;br /&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;&lt;span class=&quot;css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0&quot;&gt;Basically: &lt;/span&gt;a formal account of why brains encode information and control behaviour in the way that they do.&lt;/li&gt;&lt;li&gt;Fundamental theories on the underlying mechanisms of behavior. &lt;/li&gt;&lt;ul&gt;&lt;li&gt;[Maybe “first principles” would be better?]&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Set of rules by which neurons work?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Let's return to the problem of explanation. What are we trying to explain? Behavior, of course [&lt;i&gt;a very specific behavior&lt;/i&gt; most of the time]: X behavior in your model organism. But we also want to explain thought, memory, perception, emotion, neurological disorders, mental illnesses, etc. Seems daunting now, eh? Can the same core principles account for all these phenomena across species? I'll step out on a limb here and say &lt;i&gt;&lt;b&gt;NO&lt;/b&gt;&lt;/i&gt;, then snort for asking such an unfair question. Best that your research program is broken down into tiny reductionistic chunks. More manageable that way.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;But what counts as an “explanation”? We haven't answered that yet. It depends on your goal and your preferred level of analysis (à la &lt;a href=&quot;https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)#Levels_of_analysis&quot; target=&quot;_blank&quot; title=&quot;Marr's 3 levels of analysis, from 'Vision'&quot;&gt;three levels&lt;/a&gt; of David Marr): &lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;computation – algorithm – implementation&lt;/div&gt;&lt;p&gt; &lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-xD9x2oI-UDU/WPWWX-BD9KI/AAAAAAAAMHg/9f0vOZq9YkEkYrIsC2o5GsTjdnv9polmwCLcB/s1600/Marr%2Band%2Bthe%2Bhummingbird%2B%2528A%2529.png&quot; style=&quot;margin-left: 0em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;266&quot; src=&quot;https://2.bp.blogspot.com/-xD9x2oI-UDU/WPWWX-BD9KI/AAAAAAAAMHg/9f0vOZq9YkEkYrIsC2o5GsTjdnv9polmwCLcB/s320/Marr%2Band%2Bthe%2Bhummingbird%2B%2528A%2529.png&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt; &lt;span style=&quot;font-family: arial;&quot;&gt;from &lt;a href=&quot;http://dx.doi.org/10.1016/j.neuron.2016.12.041&quot; target=&quot;_blank&quot; title=&quot;Neuroscience Needs Behavior: Correcting a Reductionist Bias&quot;&gt;Krakauer et al. 2017&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Again, what counts as “explanation”? A concise answer was given by &lt;a href=&quot;https://psychology.columbia.edu/content/lila-davachi&quot; target=&quot;_blank&quot;&gt;Lila Davachi&lt;/a&gt; during a talk in 2019, when we all still met in person for conferences:&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;“Explanations describe (causal) relationships between phenomena at different levels.”&lt;/p&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-LhKJ6sXhd_c/X-vcKG2zI_I/AAAAAAAANPk/3WoBNjs0zBwG2EJRlqarVRwwxKVbWl2tQCLcBGAsYHQ/s669/goals%2Bof%2Bresearch_entire%2Bslide.png&quot; style=&quot;margin-left: 1em; margin-right: 0em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;544&quot; data-original-width=&quot;669&quot; height=&quot;325&quot; src=&quot;https://1.bp.blogspot.com/-LhKJ6sXhd_c/X-vcKG2zI_I/AAAAAAAANPk/3WoBNjs0zBwG2EJRlqarVRwwxKVbWl2tQCLcBGAsYHQ/w400-h325/goals%2Bof%2Bresearch_entire%2Bslide.png&quot; width=&quot;400&quot; /&gt;&lt;/a&gt; &lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: arial;&quot;&gt;from Dr. Lila Davachi (CNS meeting, 2019)&lt;br /&gt;&lt;a href=&quot;https://www.cogneurosociety.org/the-relation-between-psychology-and-neuroscience&quot; target=&quot;_blank&quot;&gt;The Relation Between Psychology and Neuroscience&lt;/a&gt;&lt;br /&gt;(see &lt;a href=&quot;https://youtu.be/Ix9bAx8Mwrs?t=612&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt;, also embedded below)&lt;/span&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;&lt;br /&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;span style=&quot;font-family: arial;&quot;&gt;&lt;span style=&quot;color: #800180;&quot;&gt;&lt;b&gt;UPDATE April 25, 2021: EXPLANATION IS IMPOSSIBLE&lt;/b&gt;, according to &lt;a href=&quot;https://psyarxiv.com/k79nv/&quot; target=&quot;_blank&quot;&gt;Rich, de Haan, Wareham, and van Rooij (2021)&lt;/a&gt;, because &quot;the inference problem is intractable, or even uncomputable&quot;:&lt;br /&gt;&lt;blockquote&gt;&quot;... even if all uncertainty is removed from scientific inference problems, there are further principled barriers to deriving explanations, resulting from the computational complexity of the inference problems.&quot;&lt;/blockquote&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;Did I say this was a “refreshing” exercise? I meant depressing... but I'm usually a pessimist. (This has grown worse as I've gotten older and been in the field longer.)  &lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt; &lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;Are there reasons for optimism?&lt;br /&gt; &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Ari (&lt;a href=&quot;https://twitter.com/arisbenjamin?ref_src=twsrc%5Etfw&quot;&gt;@arisbenjamin&lt;/a&gt;) and myself are actually super optimistic about the future of neuroscience and are working on paper about why. Why are *you* optimistic about the future of the field?&lt;/p&gt;— KordingLab 👨‍💻🧠∇🔬📈,🏋️‍♂️⛷️🏂🛹🕺⛰️☕🦖 (@KordingLab) &lt;a href=&quot;https://twitter.com/KordingLab/status/1314191055634526209?ref_src=twsrc%5Etfw&quot;&gt;October 8, 2020&lt;/a&gt;&lt;/blockquote&gt;   &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;You can follow the replies &lt;a href=&quot;https://twitter.com/KordingLab/status/1314191055634526209&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, and additional replies to this question in another thread &lt;a href=&quot;https://twitter.com/KordingLab/status/1314192469903503362&quot; target=&quot;_blank&quot;&gt;starting here&lt;/a&gt;.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;p style=&quot;text-align: left;&quot;&gt;I'd say the &lt;a href=&quot;https://neuromatch.io/&quot; target=&quot;_blank&quot;&gt;Neuromatch &lt;/a&gt;movement (instigated by computational neuroscientists &lt;a href=&quot;http://kordinglab.com/&quot; target=&quot;_blank&quot;&gt;Konrad Kording&lt;/a&gt; and &lt;a href=&quot;http://neural-reckoning.org/dan_goodman.html&quot; target=&quot;_blank&quot;&gt;Dan Goodman&lt;/a&gt;) is definitely a reason for optimism!&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Further Reading&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;b&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2017/04/the-big-ideas-in-cognitive-neuroscience.html&quot;&gt;The Big Ideas in Cognitive Neuroscience, Explained&lt;/a&gt;&lt;/b&gt; (2017) &lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;... The end goal of a  Marr-ian research program is to find explanations, to reach an &lt;i&gt;understanding&lt;/i&gt; of brain-behavior relations. This requires a detailed specification of  the computational problem (i.e., behavior) to uncover the algorithms.  The correlational approach of cognitive neuroscience &lt;span class=&quot;_Tgc&quot;&gt;— &lt;/span&gt;and even the causal-mechanistic circuit manipulations of optogenetic neuroscience &lt;span class=&quot;_Tgc&quot;&gt;—&lt;/span&gt; just don't cut it anymore.&lt;/blockquote&gt;&lt;br /&gt;&lt;/div&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2018/07/an-epidemic-of-necessary-and-sufficient.html&quot; target=&quot;_blank&quot;&gt;An epidemic of &quot;Necessary and Sufficient&quot; neurons&lt;/a&gt;&lt;/b&gt; (2018) &lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;blockquote&gt;A miniaturized holy grail of neuroscience is discovering that activation or inhibition of a specific population of neurons (e.g., &lt;a href=&quot;https://www.nature.com/articles/nature12755&quot;&gt;prefrontal parvalbumin interneurons&lt;/a&gt;) or neural circuit (e.g., &lt;a href=&quot;https://www.nature.com/articles/nature10194&quot;&gt;basolateral amygdala → nucleus accumbens&lt;/a&gt;) is “necessary and sufficient” (N&amp;amp;S) to produce a given behavior.&lt;/blockquote&gt;&lt;br /&gt;&lt;b&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2018/04/big-theory-big-data-and-big-worries-in.html&quot;&gt;Big Theory, Big Data, and Big Worries in Cognitive Neuroscience&lt;/a&gt; &lt;/b&gt;(from CNS meeting, 2018) &lt;br /&gt;&lt;blockquote&gt;&lt;b&gt;Dr. Eve Marder&lt;/b&gt; ... posed the greatest challenges  to the field of cognitive neuroscience, objections that went mostly  unaddressed by the other speakers.  [paraphrased below]:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;How much ambiguity can you live with in your attempt to understand  the brain? For me I get uncomfortable with anything more than 100  neurons &lt;/li&gt;&lt;li&gt;If you're looking for optimization (in&lt;span face=&quot;&amp;quot;arial&amp;quot; , &amp;quot;helvetica&amp;quot; , sans-serif&quot;&gt; &lt;span style=&quot;font-size: x-small;&quot;&gt;[biological]&lt;/span&gt;&lt;/span&gt; neural networks), YOU ARE DELUSIONAL!&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18)30064-0&quot; target=&quot;_blank&quot; title=&quot;Normal variability can be used to decode different neural pathways that can sustain the same task&quot;&gt;Degenerate mechanisms&lt;/a&gt; produce the same changes in behavior, even in a 5 neuron network...&lt;/li&gt;&lt;li&gt;..so Cognitive Neuroscientists should be VERY WORRIED&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;p style=&quot;text-align: left;&quot;&gt; &lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot;&gt;Nightmares  for Cognitive Neuroscientists: Modulation of a Single Neuron Has  State-Dependent Actions on Circuit Dynamics (Gutierrez &amp;amp; Marder) &lt;a href=&quot;https://t.co/trAHVbIFd4&quot;&gt;https://t.co/trAHVbIFd4&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/CNS2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#CNS2018&lt;/a&gt; &lt;a href=&quot;https://t.co/nsYHiS5dxv&quot;&gt;pic.twitter.com/nsYHiS5dxv&lt;/a&gt;&lt;/p&gt;— The Neurocritic (@neurocritic) &lt;a href=&quot;https://twitter.com/neurocritic/status/977769790000521216?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;p style=&quot;text-align: left;&quot;&gt;  &lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;a href=&quot;https://neurocomplimenter.blogspot.com/2020/10/the-neuromatch-revolution.html&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;The Neuromatch Revolution&lt;/b&gt;&lt;/a&gt; (2020)&lt;br /&gt;&lt;br /&gt;“A conference made for the whole neuroscience community”&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;a href=&quot;http://neurocritic.blogspot.com/2019/03/an-amicable-discussion-about-psychology.html&quot;&gt;An Amicable Discussion About Psychology and Neuroscience&lt;/a&gt;&lt;/b&gt; (from CNS meeting, 2019) &lt;br /&gt;&lt;/p&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;the conceptual basis of cognitive neuroscience shouldn't be correlation &lt;/li&gt;&lt;li&gt;but what if the psychological and the biological are categorically dissimilar??&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: left;&quot;&gt;...and more!&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;The video below is set to begin with Dr. Davachi, but the entire symposium is included.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;  &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;feedflare&quot;&gt;
-&lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=nTa3HZpSYUk:ClMzhW47E10:yIl2AUoC8zA&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=yIl2AUoC8zA&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=nTa3HZpSYUk:ClMzhW47E10:JUhcmGiK9AQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=JUhcmGiK9AQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=nTa3HZpSYUk:ClMzhW47E10:qj6IDK7rITs&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=qj6IDK7rITs&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=nTa3HZpSYUk:ClMzhW47E10:cGdyc7Q-1BI&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?d=cGdyc7Q-1BI&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=nTa3HZpSYUk:ClMzhW47E10:gIN9vFwOqvQ&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=nTa3HZpSYUk:ClMzhW47E10:gIN9vFwOqvQ&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?a=nTa3HZpSYUk:ClMzhW47E10:F7zBnMyn0Lo&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://feeds.feedburner.com/~ff/TheNeurocritic?i=nTa3HZpSYUk:ClMzhW47E10:F7zBnMyn0Lo&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/TheNeurocritic/~4/nTa3HZpSYUk&quot; width=&quot;1&quot; /&gt;</content:encoded>
-	<dc:date>2021-04-25T19:38:10+00:00</dc:date>
-	<dc:creator>The Neurocritic</dc:creator>
-</item>
-<item rdf:about="https://preprints.jmir.org/preprint/26666/accepted">
-	<title>Open Access Tracking Project: news: Characterization of an open access medical news platform readership during the COVID-19 pandemic</title>
-	<link>https://preprints.jmir.org/preprint/26666/accepted</link>
-	<content:encoded>Abstract:  Background:
-
-There now exists many alternatives to direct journal access, such as podcasts, blogs, and news sites for physicians and the general public to stay up-to-date with medical literature. Currently however, there is a scarcity of literature that investigates these readership characteristics of open access medical news sites and how they may have shifted with coronavirus disease 19 (COVID-19).
-
-Objective:
-
-The current study aimed to employ readership and survey data to characterize open access medical news readership trends in relation to COVID-19 in addition to overall readership trends regarding pandemic related information delivery.
-
-Methods:
-
-Anonymous aggregate readership data was obtained from 2 Minute Medicine® (www.2minutemedicine.com), an open-access, physician-run medical news organization that has published over 8000 original physician-written text and visual summaries of new medical research since 2013. In this retrospective observational study, the average article views, actions (defined as the sum of views, shares, and outbound link clicks), read times, and bounce rate (probability to leave a page in &amp;lt;30s) were compared between COVID-19 articles published between January 1 to May 31, 2020 (N = 40) to non-COVID-19 articles (N = 145) published in the same time period. A voluntary survey was also sent to subscribed 2 Minute Medicine readers to further characterize readership demographics and preferences scored by Likert Scale.
-
-Results:
-
-COVID-19 articles had significantly more median views than non-COVID-19 articles (296 vs. 110, U = 748.5, P &amp;lt; 0.001). There were no differences in average read times or bounce rate. Non-COVID-19 had more median actions than COVID-19 articles (2.9 vs. 2.5, U = 2070.5, P &amp;lt; 0.05). On a Likert scale of 1 (Strongly Disagree) to 5 (Strongly Agree), survey data revealed that 66% (78/119) of readers Agreed or Strongly Agreed that they preferred staying up to date with emerging literature surrounding COVID-19 using sources such as 2 Minute Medicine versus direct journal access. A greater proportion of survey takers also indicated open access news sources to be one of their primary means of staying informed (71.7%) than direct journal article access (50.8%). A lesser proportion of readers indicated reading one or less full length medical study following introduction to 2 Minute Medicine compared to prior (16.9% vs. 31.8%, P &amp;lt; 0.05).
-
-Conclusions:
-
-There is a significantly increased readership in one open-access medical literature platform during the pandemic, reinforcing that open-access physician-written sources of medical news represent an important alternative to direct journal access for readers to stay up to date with medical literature.</content:encoded>
-	<dc:date>2021-04-25T09:40:00+00:00</dc:date>
 </item>
 
 </rdf:RDF>
