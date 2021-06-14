@@ -15,6 +15,9 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="tag:ocns.github.io,2021-06-04:/SoftwareWG/2021/06/04/dev-session-rick-gerkin-sciunit.html" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100488" />
+			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100481" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100360" />
 			<rdf:li rdf:resource="https://digest.bps.org.uk/?p=42556" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122366" />
@@ -43,7 +46,6 @@
 			<rdf:li rdf:resource="https://digest.bps.org.uk/?p=42524" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100343" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122343" />
-			<rdf:li rdf:resource="tag:ocns.github.io,2021-06-04:/SoftwareWG/2021/06/04/dev-session-rick-gerkin-sciunit.html" />
 			<rdf:li rdf:resource="tag:ocns.github.io,2021-06-09:/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=59775" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100381" />
@@ -68,11 +70,9 @@
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122317" />
 			<rdf:li rdf:resource="tag:ocns.github.io,2021-06-21:/SoftwareWG/2021/06/21/dev-session-rick-gerkin-sciunit.html" />
 			<rdf:li rdf:resource="https://digest.bps.org.uk/?p=42478" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100060" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122200" />
 			<rdf:li rdf:resource="https://www.digitalscholarshipleiden.nl/articles/tips-for-making-open-access-books" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=59365" />
-			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100177" />
 			<rdf:li rdf:resource="https://blogs.biomedcentral.com/bmcseriesblog/?p=12407" />
 			<rdf:li rdf:resource="tag:ocns.github.io,2021-02-26:/SoftwareWG/2021/02/26/dev-session-james-knight-thomas-nowotny-genn.html" />
 			<rdf:li rdf:resource="tag:ocns.github.io,2021-02-07:/SoftwareWG/2021/02/07/dev-session-ankur-sinha-neurofedora.html" />
@@ -169,6 +169,105 @@
 	</items>
 </channel>
 
+<item rdf:about="tag:ocns.github.io,2021-06-04:/SoftwareWG/2021/06/04/dev-session-rick-gerkin-sciunit.html">
+	<title>INCF/OCNS Software Working Group: Dev session: Rick Gerkin: SciUnit</title>
+	<link>https://ocns.github.io/SoftwareWG/2021/06/04/dev-session-rick-gerkin-sciunit.html</link>
+	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
+&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://github.com/scidash/sciunit&quot;&gt;&lt;img alt=&quot;SciUnit&quot; class=&quot;img-responsive&quot; src=&quot;https://ocns.github.io/SoftwareWG/images/20210621-sciunit.png&quot; style=&quot;width: 50%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+&lt;br /&gt;&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://sols.asu.edu/richard-gerkin&quot;&gt;Rick Gerkin&lt;/a&gt; will introduce the &lt;a class=&quot;reference external&quot; href=&quot;https://scidash.org/sciunit.html&quot;&gt;SciUnit&lt;/a&gt; framework and discuss its development in this dev session.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Date: June 21, 2021, 1600 &lt;span class=&quot;caps&quot;&gt;UTC&lt;/span&gt; (Click &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=Dev+session%3A+Rick+Gerkin+%3A+SciUnit&amp;amp;iso=20210621T18&amp;amp;p1=195&amp;amp;ah=1&quot;&gt;here&lt;/a&gt; to see your local time).&lt;/li&gt;
+&lt;li&gt;Location (Zoom): &lt;a class=&quot;reference external&quot; href=&quot;https://ucl.zoom.us/j/91246735902?pwd=WVdVK3I5SGdlaDFZdllDQ0w2djVBdz09&quot;&gt;https://ucl.zoom.us/j/91246735902?pwd=WVdVK3I5SGdlaDFZdllDQ0w2djVBdz09&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The abstract for the talk is below:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://scidash.org/sciunit.html&quot;&gt;SciUnit&lt;/a&gt; is a discipline-agnostic framework for model validation, handling all of the testing workflow by using a implementation-independent interface to models.
+&lt;a class=&quot;reference external&quot; href=&quot;https://scidash.org/sciunit.html&quot;&gt;SciUnit&lt;/a&gt; also contains code for visualization of model results, and command line tools for incorporating testing into continuous integration workflows.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://scidash.org/sciunit.html&quot;&gt;SciUnit&lt;/a&gt; is used in model validation in neuroscience via &lt;a class=&quot;reference external&quot; href=&quot;http://sciunit.io/neuronunit.html&quot;&gt;NeuronUnit&lt;/a&gt;, which implements an interface to several simulators and model description languages, handles test calculations according to domain standards, and enables automated construction of tests based on data from several major public data repositories.&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-14T15:21:12+00:00</dc:date>
+	<dc:creator>Shailesh Appukuttan</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3100488">
+	<title>Science News: An ancient creature thought to be a teeny dinosaur turns out to be a lizard</title>
+	<link>https://www.sciencenews.org/article/fossil-lizard-dinosaur-amber</link>
+	<content:encoded>&lt;p&gt;A tiny creature caught in amber 99 million years ago isn’t the smallest dinosaur ever found. It is actually &lt;a href=&quot;https://doi.org/10.1016/j.cub.2021.05.040&quot;&gt;a lizard — albeit a really bizarre one&lt;/a&gt;, researchers report June 14 in &lt;em&gt;Current Biology&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Over the last year, scientists have puzzled over the nature of the strange, hummingbird-sized &lt;em&gt;Oculudentavis khaungraae&lt;/em&gt;, a fossil found in amber deposits in northwestern Myanmar. The fossil consists of only a birdlike, rounded skull with a slender tapering snout and a large number of teeth in its mouth, along with a lizardlike eye socket, deep and conical. The birdlike features led one team of scientists to &lt;a href=&quot;https://www.sciencenews.org/article/ancient-dinosaur-smallest-size-no-bigger-than-hummingbird&quot;&gt;identify the fossil as a miniature dinosaur&lt;/a&gt; — the smallest ever found (&lt;em&gt;SN: 3/11/20&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;But other scientists weren’t so sure. Another analysis of O. khaungraae’s strange assemblage of features suggested &lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.03.16.993949v4&quot;&gt;it looked rather more like a weird lizard&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Now, a third team of scientists reports the discovery of a second amber fossil that so closely resembles &lt;em&gt;O. khangraae&lt;/em&gt; as to belong to the same genus. And the new specimen, dubbed &lt;em&gt;O. naga&lt;/em&gt;, includes parts of the lower body that clearly reveal the members of genus &lt;em&gt;Oculudentavis&lt;/em&gt; to be lizards, say paleontologist Arnau Bolet of the Institut Català de Paleontologia Miquel Crusafont in Barcelona and colleagues.&lt;/p&gt;
+
+
+
+&lt;p&gt;The researchers used CT scans to examine both specimens. &lt;em&gt;Oculudentavis’&lt;/em&gt; lizardlike features include scales, teeth attached to its jawbone directly rather than in sockets (as dinosaur teeth were) and a particular skull bone unique to squamates, or scaled reptiles.&lt;/p&gt;
+
+
+
+&lt;p&gt;Still, the creatures were markedly different from all other known lizards in their unusual combination of features, such as the rounded skulls and long tapering snouts, the researchers say — probably representing a previously unknown group of lizards.&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-14T15:00:00+00:00</dc:date>
+	<dc:creator>Carolyn Gramling</dc:creator>
+</item>
+<item rdf:about="https://www.sciencenews.org/?p=3100481">
+	<title>Science News: Gravitational waves confirm a black hole law predicted by Stephen Hawking</title>
+	<link>https://www.sciencenews.org/article/gravitational-waves-confirm-black-hole-law-predicted-stephen-hawking</link>
+	<content:encoded>&lt;p&gt;Despite their mysterious nature, black holes are thought to follow certain simple rules. Now, one of the most famous black hole laws, predicted by physicist Stephen Hawking, has been confirmed with gravitational waves.&lt;/p&gt;
+
+
+
+&lt;p&gt;According to the black hole area theorem, developed by Hawking in the early 1970s, black holes can’t decrease in surface area over time. The area theorem fascinates physicists because it mirrors a well-known physics rule that disorder, or entropy, can’t decrease over time. Instead, entropy &lt;a href=&quot;https://www.sciencenews.org/article/arrow-time&quot;&gt;consistently increases&lt;/a&gt; (&lt;em&gt;SN: 7/10/15&lt;/em&gt;).&lt;/p&gt;
+
+
+
+&lt;p&gt;That’s “an exciting hint that black hole areas are something fundamental and important,” says astrophysicist Will Farr of Stony Brook University in New York and the Flatiron Institute in New York City.&lt;/p&gt;
+
+
+
+&lt;p&gt;The surface area of a lone black hole won’t change — after all, nothing can escape from within. However, if you throw something into a black hole, it will gain more mass, increasing its surface area. But the incoming object could also make the black hole spin, which decreases the surface area. The area law says that the increase in surface area due to additional mass will always outweigh the decrease in surface area due to added spin.&lt;/p&gt;
+
+
+
+
+
+&lt;p&gt;To test this area rule, MIT astrophysicist Maximiliano Isi, Farr and others used ripples in spacetime stirred up by two black holes that spiraled inward and merged into one bigger black hole. A black hole’s surface area is defined by its event horizon — the boundary from within which it’s impossible to escape. According to the area theorem, the area of the newly formed black hole’s event horizon should be at least as big as the areas of the event horizons of the two original black holes combined.&lt;/p&gt;
+
+
+
+&lt;p&gt;The team analyzed data from &lt;a href=&quot;https://www.sciencenews.org/article/gravity-waves-black-holes-verify-einsteins-prediction&quot;&gt;the first gravitational waves ever spotted&lt;/a&gt;, which were detected by the Advanced Laser Interferometer Gravitational-Wave Observatory, LIGO, in 2015 (&lt;em&gt;SN: 2/11/16&lt;/em&gt;). The researchers split the gravitational wave data into two time segments, before and after the merger, and calculated the surface areas of the black holes in each period. The surface area of the newly formed black hole was greater than that of the two initial black holes combined, &lt;a href=&quot;https://journals.aps.org/prl/accepted/36074Y8aM291c462a4e264336d883136eb53c122b&quot;&gt;upholding the area law with a 95 percent confidence level&lt;/a&gt;, the team reports in a paper to appear in &lt;em&gt;Physical Review Letters&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;“It’s the first time that we can put a number on this,” Isi says.&lt;/p&gt;
+
+
+
+&lt;p&gt;The area theorem is a result of the general theory of relativity, which describes the physics of black holes and gravitational waves. Previous analyses of gravitational waves have agreed with predictions of general relativity, and thus already hinted that the area law can’t be wildly off. But the new study “is a more explicit confirmation,” of the area law, says physicist Cecilia Chirenti of the University of Maryland in College Park, who was not involved with the research.&lt;/p&gt;
+
+
+
+&lt;p&gt;So far, general relativity describes black holes well. But scientists don’t fully understand what happens where general relativity — which typically applies to large objects like black holes — meets quantum mechanics, which describes small stuff like atoms and subatomic particles. In that quantum realm, strange things can happen.&lt;/p&gt;
+
+
+
+&lt;p&gt;For example, black holes can release a faint mist of particles called Hawking radiation, another idea developed by Hawking in the 1970s. That effect could allow black holes to shrink, violating the area law, but only over extremely long periods of time, so it wouldn’t have affected the relatively quick merger of black holes that LIGO saw.&lt;/p&gt;
+
+
+
+&lt;p&gt;Physicists are looking for an improved theory that will combine the two disciplines into one new, improved theory of quantum gravity. Any failure of black holes to abide by the rules of general relativity could point physicists in the right direction to find that new theory.&lt;/p&gt;
+
+
+
+&lt;p&gt;So physicists tend to be grumpy about the enduring success of general relativity, Farr says. “We’re like, ‘aw, it was right again.’”&lt;/p&gt;</content:encoded>
+	<dc:date>2021-06-14T13:15:49+00:00</dc:date>
+	<dc:creator>Emily Conover</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3100360">
 	<title>Science News: Most planets on tilted orbits pass over the poles of their suns</title>
 	<link>https://www.sciencenews.org/article/planet-tilt-orbit-star-pole-astronomy-space</link>
@@ -194,7 +293,7 @@
 
 
 
-&lt;p&gt;The result may lend insight into the biggest mystery about &lt;a href=&quot;https://www.sciencenews.org/blog/science-ticker/first-tilted-solar-system-found&quot;&gt;these planets&lt;/a&gt;: how they arose (&lt;em&gt;SN: 10/18/13&lt;/em&gt;). Such worlds were a shock to astronomers, because planets form inside pancake-shaped disks of gas and dust orbiting in their stars’ equatorial planes. Thus, planets should lie near the plane of their sun’s equator, too. In our solar system, for example, Earth’s orbit tilts only 7 degrees from the solar equatorial plane, and even Pluto&lt;a&gt; —&lt;/a&gt; which many astronomers no longer call a planet — has an orbit tilted only 12 degrees from that plane (and 17 degrees from the Earth’s orbital plane).&lt;/p&gt;
+&lt;p&gt;The result may lend insight into the biggest mystery about &lt;a href=&quot;https://www.sciencenews.org/blog/science-ticker/first-tilted-solar-system-found&quot;&gt;these planets&lt;/a&gt;: how they arose (&lt;em&gt;SN: 10/18/13&lt;/em&gt;). Such worlds were a shock to astronomers, because planets form inside pancake-shaped disks of gas and dust orbiting in their stars’ equatorial planes. Thus, planets should lie near the plane of their sun’s equator, too. In our solar system, for example, Earth’s orbit tilts only 7 degrees from the solar equatorial plane, and even Pluto — which many astronomers no longer call a planet — has an orbit tilted only 12 degrees from that plane (and 17 degrees from the Earth’s orbital plane).&lt;/p&gt;
 
 
 
@@ -1561,23 +1660,6 @@ where rapid responses and low spike counts are desired.&lt;/p&gt;
 	<dc:date>2021-06-09T10:00:00+00:00</dc:date>
 	<dc:creator>Augustine Brannigan</dc:creator>
 </item>
-<item rdf:about="tag:ocns.github.io,2021-06-04:/SoftwareWG/2021/06/04/dev-session-rick-gerkin-sciunit.html">
-	<title>INCF/OCNS Software Working Group: Dev session: Rick Gerkin: SciUnit</title>
-	<link>https://ocns.github.io/SoftwareWG/2021/06/04/dev-session-rick-gerkin-sciunit.html</link>
-	<content:encoded>&lt;center&gt;&lt;div class=&quot;figure&quot;&gt;
-&lt;a class=&quot;reference external image-reference&quot; href=&quot;https://github.com/scidash/sciunit&quot;&gt;&lt;img alt=&quot;SciUnit&quot; class=&quot;img-responsive&quot; src=&quot;https://ocns.github.io/SoftwareWG/images/20210621-sciunit.png&quot; style=&quot;width: 50%;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-&lt;br /&gt;&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://sols.asu.edu/richard-gerkin&quot;&gt;Rick Gerkin&lt;/a&gt; will introduce the &lt;a class=&quot;reference external&quot; href=&quot;https://scidash.org/sciunit.html&quot;&gt;SciUnit&lt;/a&gt; framework and discuss its development in this dev session.&lt;/p&gt;
-&lt;ul class=&quot;simple&quot;&gt;
-&lt;li&gt;Date: June 21, 2021, 1600 &lt;span class=&quot;caps&quot;&gt;UTC&lt;/span&gt; (Click &lt;a class=&quot;reference external&quot; href=&quot;https://www.timeanddate.com/worldclock/fixedtime.html?msg=Dev+session%3A+Rick+Gerkin+%3A+SciUnit&amp;amp;iso=20210621T18&amp;amp;p1=195&amp;amp;ah=1&quot;&gt;here&lt;/a&gt; to see your local time).&lt;/li&gt;
-&lt;li&gt;Location (Zoom): &lt;a class=&quot;reference external&quot; href=&quot;https://ucl.zoom.us/j/91246735902?pwd=WVdVK3I5SGdlaDFZdllDQ0w2djVBdz09&quot;&gt;https://ucl.zoom.us/j/91246735902?pwd=WVdVK3I5SGdlaDFZdllDQ0w2djVBdz09&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The abstract for the talk is below:&lt;/p&gt;
-&lt;p&gt;SciUnit is a discipline-agnostic framework for model validation, handling all of the testing workflow by using a implementation-independent interface to models. SciUnit also contains code for visualization of model results, and command line tools for incorporating testing into continuous integration workflows.&lt;/p&gt;</content:encoded>
-	<dc:date>2021-06-09T09:53:24+00:00</dc:date>
-	<dc:creator>Shailesh Appukuttan</dc:creator>
-</item>
 <item rdf:about="tag:ocns.github.io,2021-06-09:/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html">
 	<title>INCF/OCNS Software Working Group: Software WG tutorials at CNS*2021 Online: Bash, Git, and Python</title>
 	<link>https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html</link>
@@ -2705,220 +2787,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	<dc:date>2021-06-04T10:50:21+00:00</dc:date>
 	<dc:creator>BPS Research Digest</dc:creator>
 </item>
-<item rdf:about="https://www.sciencenews.org/?p=3100060">
-	<title>Science News: How science museums reinvented themselves to survive the pandemic</title>
-	<link>https://www.sciencenews.org/article/science-museums-online-exhibits-education-coronavirus-covid-pandemic</link>
-	<content:encoded>&lt;p&gt;On January 30, 2020, Science Gallery Dublin assembled a small group of experts to discuss a strange new disease that had recently emerged in China. Four panelists talked about the origins of the new coronavirus, whether it might be airborne and the prospects for a vaccine. While they agreed that it was important to take the virus seriously, the speakers urged the audience not to panic. There had been no known cases in Ireland. The prospect of a local outbreak seemed remote.&lt;/p&gt;
-
-
-
-&lt;p&gt;“And that was the last live event we held in the gallery,” says Aisling Murray, the gallery’s head of programming. That very day, the World Health Organization declared the COVID-19 outbreak a “&lt;a href=&quot;https://www.who.int/news/item/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)&quot;&gt;public health emergency of international concern&lt;/a&gt;.” Six weeks later, with cases on the rise all over the globe, Science Gallery Dublin shut its doors. It was a moment of reckoning. “What does Science Gallery mean when we don’t have a space?” Murray recalls wondering. “How do we continue to engage our audience?”&lt;/p&gt;
-
-
-
-&lt;p&gt;As the COVID-19 pandemic began to spiral out of control in March 2020, science museums around the world &lt;a href=&quot;https://www.sciencemag.org/news/2020/05/shuttered-natural-history-museums-fight-survival-amid-covid-19-heartbreak&quot;&gt;were forced to abruptly close&lt;/a&gt;. In a matter of days, ticket revenue vanished. “It was an existential crisis,” says Christofer Nelson, president and CEO of the Association of Science and Technology Centers, or ASTC, in Washington, D.C. “The fundamental business, operational, staffing, community service model of these organizations just went away overnight. And the question was ‘What do we do next?’ ”&lt;/p&gt;
-
-
-
-&lt;p&gt;The weeks and months that followed were excruciatingly difficult for science museums, which lost more than $600 million &lt;a href=&quot;https://www.astc.org/wp-content/uploads/2020/10/Aggregate-Report-FINAL.pdf&quot;&gt;in revenue&lt;/a&gt; in just the first six months of the pandemic, the ASTC estimates. Many museums and science centers were forced to adopt deep cost-cutting measures; some laid off more than half of their employees.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Few science museums had substantial endowments to pull from, so they scrambled for support. They launched new campaigns for donations, applied for government loans and sought grants and support from community organizations or corporations.&lt;/p&gt;
-
-
-
-&lt;p&gt;As they tried to make ends meet, they also realized they had to reinvent their programs if they wanted to survive. Over the last year, they have launched a diverse array of exhibits and offerings that are not tied to their physical buildings, and they have helped educate the public about COVID-19. Some museums have even found creative ways to meet serious community needs, providing everything from child care to fresh food.&lt;/p&gt;
-
-
-
-&lt;p&gt;Along the way, these institutions have redefined what modern science museums can be and how they engage with the world beyond their walls. Though many museums are in various phases of reopening, their experience over the last year may leave a lasting legacy.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image alignwide size-large is-style-default&quot;&gt;&lt;img alt=&quot;a photo of the museum exhibits for passerbys&quot; class=&quot;wp-image-3100069&quot; height=&quot;388&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-4_dublin-800x388.jpg&quot; width=&quot;800&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100069&quot;&gt;After the pandemic forced Science Gallery Dublin to shut its doors, the museum installed several exhibits, including a 3-D printed dress that helps enforce social distancing and a Lego exhibit to explain herd immunity, at streetside windows to catch the eye of passersby.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100069&quot;&gt;Science Gallery Dublin&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;h4&gt;Hasty pivot&lt;/h4&gt;
-
-
-
-&lt;p&gt;When museums initially closed last year, most administrators thought the disruption would last only a few months. In those early days and weeks, the institutions shifted into crisis response mode, scrambling to create some kind of public programming. “Within a couple of weeks, we were spinning up what now we would call ‘minimum viable products,’ ” says Tim Ritchie, president of the Museum of Science in Boston. Staff members who typically spent their days giving face-to-face presentations inside the museum on topics from reptiles to space started delivering those talks over Zoom. “It was not that great at first,” Ritchie admits. “But people were hungry [for it], and they tuned in.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Many institutions did the same, making some of their traditional exhibits and programs virtual. By the end of March 2020, the California Academy of Sciences in San Francisco had turned its program called NightLife — a regular Thursday night event that charged from $10 to $20 for admission to the museum for science, music and cocktails — into a free weekly online program called &lt;a href=&quot;https://www.calacademy.org/nightlife&quot;&gt;NightSchool&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;The Great Lakes Science Center in Cleveland converted its in-person demos into Curiosity Corner LIVE! This daily YouTube broadcast included science demonstrations and activities — such as building catapults and lava lamps — for kids and families to do at home.&lt;/p&gt;
-
-
-
-&lt;p&gt;Seattle’s Pacific Science Center &lt;a href=&quot;https://www.youtube.com/playlist?list=PLSh2l8jOpghaEvk6Rxf_p2-2cW3pY3dj_&quot;&gt;filmed the live science shows&lt;/a&gt; that it typically staged in person and shot a series of &lt;a href=&quot;https://www.youtube.com/playlist?list=PLSh2l8jOpghbM79BmwGAzrRuvTVo3sSQP&quot;&gt;behind-the-scenes videos&lt;/a&gt;, featuring Senora the tarantula, Rigatoni the western hognose snake and other animals in its collection. “We recorded everything that we could, as quickly as we could,” says Zeta Strickland, the center’s director of preK–12 engagement. The center’s most popular live science show, &lt;a href=&quot;https://www.youtube.com/watch?v=cjrOM4h1BxM&amp;amp;list=PLSh2l8jOpghaEvk6Rxf_p2-2cW3pY3dj_&amp;amp;index=1&quot;&gt;Combustion&lt;/a&gt;, has had more than 6,500 views on YouTube.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full is-style-default&quot;&gt;&lt;img alt=&quot;a screen capture from a video about Combustion&quot; class=&quot;wp-image-3100066&quot; height=&quot;554&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-1_pacific-science.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100066&quot;&gt;Early in the pandemic, many science museums scrambled to convert their in-person demonstrations into online videos. In one video, Pacific Science Center’s Marissa Wyll &lt;a href=&quot;https://www.youtube.com/watch?v=cjrOM4h1BxM&amp;amp;list=PLSh2l8jOpghaEvk6Rxf_p2-2cW3pY3dj_&amp;amp;index=3&quot;&gt;shares the wonders of combustion&lt;/a&gt;.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100066&quot;&gt;PACIFIC SCIENCE CENTER&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Museums also used their science communication expertise to address the pandemic itself. There was an “immediate and urgent recognition that this crisis was fundamentally a crisis of science engagement,” says the ASTC’s Nelson.&lt;/p&gt;
-
-
-
-&lt;p&gt;Shannon Bennett, a virologist who happens to be the California Academy of Science’s chief of science, &lt;a href=&quot;https://www.calacademy.org/a-message-to-our-academy-community-on-covid-19&quot;&gt;fielded online questions about COVID-19&lt;/a&gt;, while the Pacific Science Center designed an online &lt;a href=&quot;https://www.pacificsciencecenter.org/events-programs/understanding-covid19/&quot;&gt;landing page for pandemic-related information&lt;/a&gt;. The page includes a pandemic glossary, a vaccine explainer and a guide to identifying misinformation. The website also offers a curated collection of news articles and links to trusted sources, such as the U.S. Centers for Disease Control and Prevention. “There was so much misinformation and disinformation out there, so we really wanted to be a resource where people can find accurate information,” says Danielle Cobb, marketing communications manager for the Pacific Science Center.&lt;/p&gt;
-
-
-
-&lt;p&gt;Some museums stepped up to meet more basic community needs. The Mid-Hudson Children’s Museum in Poughkeepsie, N.Y., had started running a weekly summer farmers market in its pavilion in 2017. When the pandemic hit, local schools, which offer free breakfast and lunch to all students, shut down. “There was a huge focus on how do you get food to kids that they would otherwise get through the school,” says Lara Litchfield-Kimber, the museum’s executive director. “What we realized is that in our city, we had an essential business.”&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image is-style-default&quot;&gt;&lt;figure class=&quot;aligncenter size-full&quot;&gt;&lt;img alt=&quot;a photo of people at a farmer's market, everyone is wearing face masks&quot; class=&quot;wp-image-3100065&quot; height=&quot;787&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-8_farmers-market-midhudson.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100065&quot;&gt;When the Poughkeepsie, N.Y., area shut down in spring 2020, the Mid-Hudson Children’s Museum saw food insecurity grow. The museum already ran a summer farmers market, but extended the season to May through October.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100065&quot;&gt;Mid-Hudson Children’s Museum&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;The museum rallied its vendors and opened the market, which accepts food stamps, in May, a month before its typical start. The market became a hub of activity, and museum staff worked with city officials to distribute flyers, in English and in Spanish, about COVID-19. (The museum is exploring the possibility of hosting a year-round market.) “The museums that are … maintaining their strength are those that recognize how to leverage their assets to address the urgent needs of their community,” Litchfield-Kimber says.&lt;/p&gt;
-
-
-
-&lt;p&gt;On the other side of the country, the Oregon Museum of Science and Industry in Portland started &lt;a href=&quot;https://www.youtube.com/watch?v=KBXiHhHYMmw&quot;&gt;offering child care&lt;/a&gt; for 20 to 30 children of essential workers. “We have the training. We have the certifications. We have the people. We have the stuff to have kids in the museum — that’s just what we do,” says John Farmer, the museum’s former marketing and communications manager.&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image is-style-default&quot;&gt;&lt;figure class=&quot;alignright size-full&quot;&gt;&lt;img alt=&quot;a photo of a man holding a crested gecko up to the viewer&quot; class=&quot;wp-image-3100067&quot; height=&quot;500&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-2_oregon.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100067&quot;&gt;Educator Brad Alston of the Oregon Museum of Science and Industry offers online viewers a closer look at Bebe the crested gecko.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100067&quot;&gt;OREGON MUSEUM OF SCIENCE AND INDUSTRY&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;In the fall, the museum converted the child care program into Homeroom, offering a place where children who were enrolled in remote school could spend their days. The museum prioritized families in need, Farmer says, and offered financial aid for the program, which has enrolled more than 100 students over the last year. San Diego’s Fleet Science Center organized similar &lt;a href=&quot;https://www.fleetscience.org/press-room/fleet-science-center-helps-bridge-gap-between-home-and-classroom-learning-distance&quot;&gt;distance learning hubs&lt;/a&gt; so children could go to the center and connect to their remote classrooms.&lt;/p&gt;
-
-
-
-&lt;p&gt;Many museums also put together resources for schools that had shifted to remote teaching. The California Academy of Sciences &lt;a href=&quot;https://www.calacademy.org/educators/science-films-for-the-classroom&quot;&gt;reformatted its planetarium films for YouTube&lt;/a&gt; so teachers could show films like &lt;em&gt;Expedition Reef&lt;/em&gt; and &lt;em&gt;Fragile Planet &lt;/em&gt;to their students. The center also offers &lt;a href=&quot;https://www.calacademy.org/educators/field-trips/distance-learning&quot;&gt;free distance learning livestreams&lt;/a&gt;, in English and in Spanish, for students from kindergarten through eighth grade.&lt;/p&gt;
-
-
-
-&lt;p&gt;The New York Hall of Science in Queens began offering virtual science workshops to schools: A museum educator leads an entire class of kids through an hour of activities and demonstrations on topics ranging from optical illusions to the science of sports. The workshops, which cost $150 for a group, sell out months in advance. “What teachers want is a bit of relief,” says Margaret Honey, president and CEO of the New York Hall of Science. “They really gravitate toward the experiences.”&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full is-style-default&quot;&gt;&lt;img alt=&quot;a screen capture of a virtual exhibit by the Museum of Science in Boston&quot; class=&quot;wp-image-3100068&quot; height=&quot;500&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-3_boston.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100068&quot;&gt;Many science museums addressed the COVID-19 pandemic head on. The Museum of Science in Boston used artificial intelligence &lt;a href=&quot;https://www.youtube.com/watch?v=B6K0PiRZ7LE&quot;&gt;to create a virtual exhibit&lt;/a&gt; that allows people to pose questions about the coronavirus to public health expert Ashish Jha of Brown University.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100068&quot;&gt;Museum of Science&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;h4&gt;Pushing the envelope&lt;/h4&gt;
-
-
-
-&lt;p&gt;As the pandemic dragged on, museums started to think longer term. They got more ambitious and creative. “We decided to get better at being digital,” Ritchie says.&lt;/p&gt;
-
-
-
-&lt;p&gt;Last summer, Boston’s Museum of Science created &lt;a href=&quot;https://virtualexhibits.mos.org/covid-conversations/&quot;&gt;Ask a Virtual Expert&lt;/a&gt;, an experience powered by artificial intelligence featuring Ashish Jha, dean of the School of Public Health at Brown University in Providence, R.I. Museum staff filmed Jha as he answered more than 500 questions on COVID-19 and then turned the footage into an interactive exhibit. Members of the public can pose questions about the pandemic directly to a digital version of Jha, and he responds.&lt;/p&gt;
-
-
-
-&lt;p&gt;The Smithsonian, which began 3-D scanning some of its artifacts years ago, used the time that its doors were closed to improve its &lt;a href=&quot;https://3d.si.edu/&quot;&gt;digital 3-D offerings&lt;/a&gt;. On its website, for instance, visitors can peruse or download free, 3-D scans of everything from the Apollo 11 command module to a complete woolly mammoth skeleton. In December, the institution announced &lt;a href=&quot;https://dpo.si.edu/blog/do-it-for-the-gram&quot;&gt;a partnership with Instagram&lt;/a&gt; that allows users of the photo sharing app to display virtual versions of famous Smithsonian artifacts in their own personal spaces. “You can drop the space shuttle &lt;em&gt;Discovery&lt;/em&gt; in your backyard and have your family standing next to it and have a screenshot and share it on Twitter,” says Vincent Rossi, supervisor of the 3-D program for the Smithsonian’s Digitization Program Office.&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-group&quot;&gt;&lt;div class=&quot;wp-block-group__inner-container&quot;&gt;
-	
-
-
-&lt;p class=&quot;has-small-font-size&quot;&gt;Science museums used down time dur­ing the pandemic to in­vest in new technologies, like augmented reality. Instagram users can display a 3-D version of Smithsonian holdings, &lt;a href=&quot;https://3d.si.edu/object/3d/mammuthus-primigenius-blumbach%3A341c96cd-f967-4540-8ed1-d3fc56d31f12&quot;&gt;like this mammoth&lt;/a&gt;, in their living room.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Other museums found clever ways to create in-person experiences that were COVID-19 safe. Science Gallery Dublin, located on the campus of Trinity College Dublin, took advantage of the glass facade on one side of its building, installing five pandemic-related exhibits just inside the glass. Passersby could peer into the windows and see a cluster of Lego figures arranged to demonstrate the concept of herd immunity or a sensor-laden, 3-D printed dress with a skirt that spreads out to enforce social distancing.&lt;/p&gt;
-
-
-
-&lt;p&gt;Called “&lt;a href=&quot;https://dublin.sciencegallery.com/sos&quot;&gt;Speed of Science&lt;/a&gt;,” the exhibition was produced in partnership with the pharmaceutical company Pfizer, which had collaborated with the gallery on a &lt;a href=&quot;https://dublin.sciencegallery.com/waas&quot;&gt;pop-up exhibit in 2019&lt;/a&gt;. The exhibit’s online hub, which includes a podcast on vaccination and vaccine development, has had nearly 5,000 visits.&lt;/p&gt;
-
-
-
-&lt;p&gt;Last summer, Space Center Houston offered &lt;a href=&quot;https://spacecenter.org/new-summer-clean-room-camps/&quot;&gt;“clean room” camps&lt;/a&gt;, which simulated the experience of working in one of the NASA facilities dedicated to ensuring that the objects the agency launches into space are free of potential contaminants. Upon arrival at camp, kids donned gowns, gloves, masks, caps and shoe coverings. “Basically, we shrink-wrap the kids,” says William Harris, the center’s president and CEO. “It’s just like they’re in a clean room at NASA.” The camps were so popular that the center offered them again over the Thanksgiving, winter and spring breaks.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full is-style-default&quot;&gt;&lt;img alt=&quot;kids wearing protective gear in a cleanroom&quot; class=&quot;wp-image-3100070&quot; height=&quot;1030&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-5_houston.jpg&quot; width=&quot;1030&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100070&quot;&gt;Kids who attended Space Center Houston’s clean room camps wore personal protective equipment to simulate the experience of working in a NASA clean room.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100070&quot;&gt;SPACE CENTER HOUSTON&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;Meanwhile, the Mid-Hudson Children’s Museum used its closure in 2020 to begin a long-planned transition to becoming a more hands-on science center. To jump-start its science programming while the building was closed, the museum bought a van and partnered with NASA to turn it into a mobile, pop-up museum for outdoor, space-related demonstrations and activities.&lt;/p&gt;
-
-
-
-&lt;h4&gt;Expanded reach&lt;/h4&gt;
-
-
-
-&lt;p&gt;As difficult as the pandemic has been, it’s also given science museums an opportunity to make long-needed changes and pursue long-standing goals. Even before COVID-19 emerged, the Center of Science and Industry, or COSI, in Columbus, Ohio, had been wanting to find new ways to get out into the community. “Yes, we want to sell tickets to our building,” says Frederic Bertley, COSI’s president and CEO. “But we have to be more than that.”&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image is-style-default&quot;&gt;&lt;figure class=&quot;alignright size-large&quot;&gt;&lt;img alt=&quot;a kid wearing a purple shirt working on a science project&quot; class=&quot;wp-image-3100064&quot; height=&quot;450&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-7_cosi-midhudson-450x450.jpg&quot; width=&quot;450&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100064&quot;&gt;Children tested a project last summer that the Mid-Hudson Children’s Museum will offer through a new pop-up mobile program.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100064&quot;&gt;Mid-Hudson Children’s Museum&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;When COSI closed in March 2020, its staff rolled out &lt;a href=&quot;https://cosi.org/connects/&quot;&gt;an assortment of digital offerings&lt;/a&gt; — and &lt;a href=&quot;https://cosi.org/zoo/item/qed-with-dr-b&quot;&gt;launched a TV show&lt;/a&gt; — but the team also wanted to re-create the hands-on, tactile experiences that have long been the cornerstone of science museums. The solution was an assortment of &lt;a href=&quot;https://cosi.org/connects/kits/&quot;&gt;COSI Connects kits&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;p&gt;Each kit has five hands-on activities for kids that revolve around a theme: nature, water, space, dinosaurs or the human body. The kits can be purchased online, and COSI distributes them for free through food banks, Boys &amp;amp; Girls Clubs, homeless shelters and other organizations. The museum is in discussions to distribute them through school districts in Ohio and several other states.&lt;/p&gt;
-
-
-
-&lt;p&gt;“We weren’t trying to make money off of this,” Bertley says. “We were trying to make sure that COSI was still relevant, that a state-of-the-art science museum still had a fundamental role in society, even though we were closed.” COSI plans to continue offering the kits when the building reopens in early June. “This is how we can have a beyond-Ohio impact,” Bertley says.&lt;/p&gt;
-
-
-
-&lt;p&gt;Indeed, museums are discovering that untethering their programs from their physical buildings has expanded their reach. At the California Academy of Sciences, a pre-pandemic, in-person NightLife event typically attracted roughly 1,700 people. NightSchool, the virtual version, averages more than 10,000 views per installment. These events are free; they don’t bring in money. But, says senior digital engagement and community manager Laurel Allen, “we’ve been able to build bigger communities.”&lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image is-style-default&quot;&gt;&lt;figure class=&quot;alignright size-full&quot;&gt;&lt;img alt=&quot;a photo of a science kit&quot; class=&quot;wp-image-3100063&quot; height=&quot;514&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/05/060521_museums_inline-6_cosi-kit.jpg&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100063&quot;&gt;The Center of Science and Industry has been distributing kits of hands-on science activities through local food banks and homeless shelters.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100063&quot;&gt;KEVIN MICHAEL SEYMOUR PHOTOGRAPHY&lt;/span&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;Although the academy initially thought of its online events as a stopgap measure, it has decided to continue them in some form now that the museum has reopened. The majority of viewers are outside the Bay Area and are unlikely to make regular in-person visits.&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href=&quot;https://www.tnmoc.org/3d-virtual-tour&quot;&gt;An immersive virtual tour&lt;/a&gt; created by the National Museum of Computing in Milton Keynes, England, last summer has attracted more than 140,000 visitors from the United Kingdom, United States, India and Brazil. “I don’t think we ever took for granted the audience reach that we had,” says Jacqui Garrad, the museum’s director. “But I do think that we maybe didn’t try hard enough to engage some of the outside communities.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Some museums have invested in accessibility, overhauling websites to be more friendly to visitors who are blind or have low vision and offering digital programs specifically for visitors who are deaf and hard of hearing. Others have increased their free offerings and resources for low-income families and other underserved communities. The Museum of Science in Boston launched &lt;a href=&quot;https://www.mos.org/explore/mos-en-espanol&quot;&gt;MOS en Español&lt;/a&gt;, an online hub for programming in Spanish.&lt;/p&gt;
-
-
-
-&lt;p&gt;Of course, the pandemic — and the threat to museums’ basic business model — is not over yet. “I don’t think we’re by any means out of the woods,” ASTC’s Nelson says. Museums were “great at cutting costs,” he adds. “But they’re now at the bare minimum.”&lt;/p&gt;
-
-
-
-&lt;p&gt;In a June 2020 survey of 750 museum directors, &lt;a href=&quot;https://www.aam-us.org/2020/07/22/united-states-may-lose-one-third-of-all-museums-new-survey-shows/&quot;&gt;one-third reported&lt;/a&gt; that their institutions were at “significant risk” of closing permanently. So far, the ASTC is aware of just one permanent closure among science museums: the Orpheum Children’s Science Museum in Champaign, Ill. And while some museums have reopened, visitors have been slow to return; attendance is about half pre-pandemic levels, according to ASTC’s ongoing attendance survey.&lt;/p&gt;
-
-
-
-&lt;p&gt;Soon after the pandemic hit, &lt;a href=&quot;https://www.astc.org/coronavirus/advocacy/&quot;&gt;ASTC lobbied the federal government&lt;/a&gt; to include museums in relief efforts and pulled together online resources to help its members navigate new financial and operational realities. In the first round of the federal Paycheck Protection Program, nearly 300 of ASTC’s members received loans totaling more than $180 million.&lt;/p&gt;
-
-
-
-&lt;p&gt;When museums close, it’s a huge loss for their communities, Nelson says. “Museums really serve as a critical part of their communities’ economic, cultural and learning ecosystems.”&lt;/p&gt;
-
-
-
-&lt;p&gt;But the museums that survive may emerge more nimble and resilient — and able to serve the public in new and urgent ways. “We need to double down on this idea of wanting to respond at all times to what the community needs,” says Steven Snyder, president and CEO of San Diego’s Fleet Science Center. “It’s also a proof of concept that we’re not locked to our building. Science centers never have been.”&lt;/p&gt;</content:encoded>
-	<dc:date>2021-06-04T10:00:00+00:00</dc:date>
-	<dc:creator>Emily Anthes</dc:creator>
-</item>
 <item rdf:about="https://retractionwatch.com/?p=122200">
 	<title>Retraction watch: First, this paper was corrected. Now it has an expression of concern. And maybe, just maybe, it will be retracted.</title>
 	<link>https://retractionwatch.com/2021/06/04/first-this-paper-was-corrected-now-it-has-an-expression-of-concern-and-maybe-just-maybe-it-will-be-retracted/</link>
@@ -2944,69 +2812,6 @@ In this blog post the Open Access Team from the Centre for Digital Scholarship, 
 	<content:encoded>Schneider Shorts 4.06.2021: Israeli Scientists jokes, the business model of Nature Medicine, Retraction Watch exposing a fraudster, life extension by naturopathy, and a dirty old man.</content:encoded>
 	<dc:date>2021-06-04T06:00:00+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="https://www.sciencenews.org/?p=3100177">
-	<title>Science News: Something mysteriously wiped out about 90 percent of sharks 19 million years ago</title>
-	<link>https://www.sciencenews.org/article/shark-die-off-mystery-fossils-pacific-ocean-paleontology</link>
-	<content:encoded>&lt;p&gt;About 19 million years ago, something terrible happened to sharks.&lt;/p&gt;
-
-
-
-&lt;p&gt;Fossils gleaned from sediments in the Pacific Ocean reveal a previously unknown and dramatic shark extinction event, during which &lt;a href=&quot;https://science.sciencemag.org/cgi/doi/10.1126/science.aaz3549&quot;&gt;populations of the predators abruptly dropped by up to 90 percent&lt;/a&gt;, researchers report in the June 4 &lt;em&gt;Science&lt;/em&gt;. And scientists don’t know what might have caused the die-off.&lt;/p&gt;
-
-
-
-&lt;p&gt;“It’s a great mystery,” says Elizabeth Sibert, a paleobiologist and oceanographer at Yale University. “Sharks have been around for 400 million years. They’ve been through hell and back. And yet this event wiped out [up to] 90 percent of them.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Sharks suffered &lt;a href=&quot;https://www.sciencenews.org/article/fossil-teeth-show-how-mass-extinction-scrambled-shark-evolution&quot;&gt;losses of 30 to 40 percent&lt;/a&gt; in the aftermath of the asteroid strike that killed off all nonbird dinosaurs 66 million years ago (&lt;em&gt;SN: 8/2/18&lt;/em&gt;). But after that, sharks enjoyed about 45 million years of peaceful ocean dominance, sailing through even large climate disruptions such as the &lt;a href=&quot;https://www.sciencenews.org/article/rate-atmospheric-carbon-dioxide-rise-unprecedented&quot;&gt;Paleocene-Eocene Thermal Maximum&lt;/a&gt; — an episode about 56 million years ago marked by a sudden spike in global carbon dioxide and soaring temperatures — without much trouble (&lt;em&gt;SN: 5/7/15&lt;/em&gt;).&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;Now, clues found in the fine red clay sediments beneath two vast regions of Pacific add a new, surprising chapter to sharks’ story.&lt;/p&gt;
-
-
-
-&lt;p&gt;Sibert and Leah Rubin, then an undergraduate student at the College of the Atlantic in Bar Harbor, Maine, sifted through fish teeth and shark scales buried in sediment cores collected during previous research expeditions to the North and South Pacific oceans.&lt;/p&gt;
-
-
-
-&lt;p&gt;“The project came out of a desire to better understand the natural background variability of these fossils,” Sibert says. Sharks’ bodies are made of mostly cartilage, which doesn’t tend to fossilize. But their skin is covered in tiny scales, or dermal denticles, each about the width of a human hair follicle. These scales make for an excellent record of past shark abundance: Like shark teeth, the scales are made of the mineral bioapatite, which is readily preserved in sediments. “And we will find several hundred more denticles compared to a tooth,” Sibert says.&lt;/p&gt;
-
-
-
-&lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img alt=&quot;fossilized shark scales on a black background&quot; class=&quot;wp-image-3100179&quot; height=&quot;355&quot; src=&quot;https://www.sciencenews.org/wp-content/uploads/2021/06/060221_CG_shark_dieoff_inline-680.png&quot; width=&quot;680&quot; /&gt;&lt;span class=&quot;caption wp-caption-3100179&quot;&gt;Researchers sorted fossil shark scales, or denticles, into two main types: those with linear striations (left) and those with geometric shapes and with no striations (right). Following the shark extinction event 19 million years ago, the geometric denticles all but disappeared from ocean sediments.&lt;/span&gt;&lt;span class=&quot;credit wp-credit-3100179&quot;&gt;E.C. Sibert and L.D. Rubin/&lt;em&gt;Science&lt;/em&gt; 2021&lt;/span&gt;&lt;/figure&gt;
-
-
-
-&lt;p&gt;The researchers weren’t expecting to see anything particularly startling. From 66 million years ago to about 19 million years ago, the ratio of fish teeth to shark scales in the sediments held steady at about 5 to 1. But abruptly — the team estimates within 100,000 years, and possibly even faster — that ratio dramatically changed, to 100 fish teeth for every 1 shark scale.&lt;/p&gt;
-
-
-
-&lt;p&gt;The sudden disappearance of shark scales coincided with a change in the abundances of shark scale shapes, which give some clues to changes in biodiversity. Most modern sharks have linear striations on their scales, which may offer some boost to their swimming efficiency. But some sharks lack these striations; instead, the scales come in a variety of geometric shapes. By analyzing the change in the different shapes’ abundances before and after 19 million years ago, the researchers estimated a loss of shark biodiversity of between 70 and 90 percent. The extinction event was “selective,” says Rubin, now a marine scientist at the State University of New York College of Environmental Science and Forestry in Syracuse. After the event, the geometric scales “were almost gone, and never really showed up again in the diversity that they [previously] did.”&lt;/p&gt;
-
-
-
-&lt;p&gt;There’s no obvious climate event that might explain such a massive shark population shift, Sibert says. “Nineteen million years ago is not known as a formative time in Earth’s history.” Solving the mystery of the die-off is at the top of a long list of questions she hopes to answer. Other questions include better understanding how the different denticles might relate to shark lineages, and what impact the sudden loss of so many big predators might have had on other ocean dwellers.&lt;/p&gt;
-
-
-
-
-
-&lt;p&gt;It’s &lt;a href=&quot;https://science.sciencemag.org/cgi/doi/10.1126/science.abj2088&quot;&gt;a question with modern implications&lt;/a&gt;, as paleobiologist Catalina Pimiento of the University of Zurich and paleobiologist Nicholas Pyenson of the Smithsonian National Museum of Natural History in Washington, D.C., write in a commentary in the same issue of Science. In just the last 50 years, shark abundances in the oceans have dramatically declined by more than 70 percent as a result of overfishing and ocean warming. The loss of sharks — and other top marine predators, such as whales — from the oceans has “profound, complex and irreversible ecological consequences,” the researchers write.&lt;/p&gt;
-
-
-
-&lt;p&gt;Indeed, one way to view the study is as a cautionary tale about modern conservation’s limits, says marine conservation biologist Catherine Macdonald of the University of Miami, who was not involved with this study. “Our power to act to protect what remains does not include an ability to fully reverse or undo the effects of the massive environmental changes we have already made.”&lt;/p&gt;
-
-
-
-&lt;p&gt;Populations of top ocean predators can be important indicators of those changes — and unraveling how the ocean ecosystem responded to their loss in the past could help researchers anticipate what may happen in the near future, Sibert says. “The sharks are trying to tell us something,” she adds, “and I can’t wait to find out what it is.”&lt;/p&gt;</content:encoded>
-	<dc:date>2021-06-03T18:00:00+00:00</dc:date>
-	<dc:creator>Carolyn Gramling</dc:creator>
 </item>
 <item rdf:about="https://blogs.biomedcentral.com/bmcseriesblog/?p=12407">
 	<title>BMC Series blog: Promoting Patient and Public Involvement in the research process</title>
