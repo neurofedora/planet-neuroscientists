@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=60231" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100584" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-06-16:/2021/06/16/toward-a-new-theory-of-motor-synergies.html" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100569" />
@@ -148,7 +149,6 @@
 			<rdf:li rdf:resource="tag:ocns.github.io,2021-05-10:/SoftwareWG/2021/05/10/next-wg-meeting-12-may-at-1200-utc.html" />
 			<rdf:li rdf:resource="tag:neuroblog.fedoraproject.org,2021-05-10:/2021/05/10/next-open-neurofedora-meeting-10-may-1300-utc.html" />
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=58574" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=58395" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/nobel-summit-academics-the-greatest-challenges-facing-humanity-may-also-be-the-greatest-opportunities" />
 			<rdf:li rdf:resource="tag:biocomputation.herts.ac.uk,2021-05-06:/2021/05/06/fast-odour-dynamics-are-encoded-in-the-olfactory-system-and-guide-behaviour.html" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/using-graphical-abstracts-to-enrich-and-expand-the-reach-of-your-research" />
@@ -169,6 +169,13 @@
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=60231">
+	<title>For Better Science: Qi-Gong Master’s Bigu Diet</title>
+	<link>https://forbetterscience.com/2021/06/17/qi-gong-masters-bigu-diet/</link>
+	<content:encoded>&quot;Without even drinking water, she sometimes gained 0.5 kg to 1 kg after a telephone conversation with Dr. Yan.&quot;</content:encoded>
+	<dc:date>2021-06-17T06:03:31+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://www.sciencenews.org/?p=3100584">
 	<title>Science News: Dust and a cold spell on Betelgeuse could explain why the giant star dimmed</title>
 	<link>https://www.sciencenews.org/article/betelgeuse-dust-cold-spell-why-giant-star-dimmed</link>
@@ -5158,13 +5165,6 @@ The agenda for the meeting is:&lt;/p&gt;
 	<link>https://forbetterscience.com/2021/05/10/the-unwanted-covid-19-preprint-of-rudolph-jaenisch/</link>
 	<content:encoded>Famous MIT lab discovered the coronavirus integrates into human genome and is still transcribed! Between preprint and contributed PNAS paper, three authors and a mechanism were dropped.</content:encoded>
 	<dc:date>2021-05-10T05:39:54+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=58395">
-	<title>For Better Science: Schneider Shorts 7.05.2021 – Cures Galore</title>
-	<link>https://forbetterscience.com/2021/05/07/schneider-shorts-7-05-2021/</link>
-	<content:encoded>Schneider Shorts for 5 May 2021: retractions and resignations, geniuses saving the world from COVID-19, anti-aging scams and Didier Raoult's legal attack on Elisabeth Bik.</content:encoded>
-	<dc:date>2021-05-07T05:34:58+00:00</dc:date>
 	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 <item rdf:about="https://www.elsevier.com/connect/nobel-summit-academics-the-greatest-challenges-facing-humanity-may-also-be-the-greatest-opportunities">
