@@ -15,6 +15,7 @@
 
 	<items>
 		<rdf:Seq>
+			<rdf:li rdf:resource="http://forbetterscience.com/?p=60637" />
 			<rdf:li rdf:resource="https://retractionwatch.com/?p=122471" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100827" />
 			<rdf:li rdf:resource="https://www.sciencenews.org/?p=3100802" />
@@ -144,7 +145,6 @@
 			<rdf:li rdf:resource="http://forbetterscience.com/?p=58551" />
 			<rdf:li rdf:resource="https://www.elsevier.com/connect/partnering-for-sustainability-a-new-approach-for-a-new-world" />
 			<rdf:li rdf:resource="https://blogs.biomedcentral.com/bmcseriesblog/?p=12364" />
-			<rdf:li rdf:resource="http://forbetterscience.com/?p=58855" />
 			<rdf:li rdf:resource="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:609f9d20a3ed9756b38f3a32" />
 			<rdf:li rdf:resource="http://gcamp6f.com/?p=6804" />
 			<rdf:li rdf:resource="https://blogs.cornell.edu/arxiv/?p=977" />
@@ -169,6 +169,14 @@
 	</items>
 </channel>
 
+<item rdf:about="http://forbetterscience.com/?p=60637">
+	<title>For Better Science: Nobody Expects the Spanish Inquisition!</title>
+	<link>https://forbetterscience.com/2021/06/28/nobody-expects-the-spanish-inquisition/</link>
+	<content:encoded>&quot;Recently we realized that some images were used wrongly in the paper, so I want to retract this article.
+The key message of the paper is very solid and results have been reproduced independently in many laboratories, but I find unacceptable the wrong use of some images during figure preparation&quot; - Pedro L Rodriguez</content:encoded>
+	<dc:date>2021-06-28T06:00:00+00:00</dc:date>
+	<dc:creator>Leonid Schneider</dc:creator>
+</item>
 <item rdf:about="https://retractionwatch.com/?p=122471">
 	<title>Retraction watch: Weekend reads: ‘The obesity wars and the education of a researcher’; zombie research; hijacked journals</title>
 	<link>https://retractionwatch.com/2021/06/25/weekend-reads-the-obesity-wars-and-the-education-of-a-researcher-zombie-research-hijacked-journals/</link>
@@ -5033,13 +5041,6 @@ recommendations for how to make the most out of TDA for fMRI analysis.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://blogs.biomedcentral.com/bmcseriesblog/2021/05/17/enhancing-the-recruitment-of-minorities-in-clinical-trials/&quot; rel=&quot;nofollow&quot;&gt;Enhancing the recruitment of minorities in clinical trials&lt;/a&gt; appeared first on &lt;a href=&quot;https://blogs.biomedcentral.com/bmcseriesblog&quot; rel=&quot;nofollow&quot;&gt;BMC Series blog&lt;/a&gt;.&lt;/p&gt;</content:encoded>
 	<dc:date>2021-05-17T11:00:55+00:00</dc:date>
 	<dc:creator>Sheila V. Kusnoor, PhD &#38; Consuelo H. Wilkins, MD, MSCI</dc:creator>
-</item>
-<item rdf:about="http://forbetterscience.com/?p=58855">
-	<title>For Better Science: Ruler of the Aging Papermill</title>
-	<link>https://forbetterscience.com/2021/05/17/the-ruler-of-the-aging-papermill/</link>
-	<content:encoded>Smut Clyde congratulates Aging: &quot;This is bespoke tailoring, in contrast to the off-the-rack products cranked out by the average papermill [...] no shame befalls the journals that accept these confections.&quot;</content:encoded>
-	<dc:date>2021-05-17T05:34:42+00:00</dc:date>
-	<dc:creator>Leonid Schneider</dc:creator>
 </item>
 <item rdf:about="52ec8c1ae4b047ccc14d6f29:53434d26e4b038212627b036:609f9d20a3ed9756b38f3a32">
 	<title>Neuroscientifically Challenged: 2-Minute Neuroscience: Ketamine</title>
