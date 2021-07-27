@@ -15,4 +15,4 @@ jobs:
 
       - name: Update planet
         run: |
-          ./update.sh
+          ./update.sh -g
