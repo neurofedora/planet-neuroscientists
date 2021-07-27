@@ -22,12 +22,13 @@ refresh_repo () {
 
 check_pluto () {
     if ! command -v pluto; then
-        gem install --user-install pluto rss
+        mkdir ~/bin/
+        gem install --user-install pluto rss -n ~/bin/
     fi
 }
 
 rebuild_planet () {
-    pluto --err build planet.ini -t neuroscience -o docs
+    ~/bin/pluto --err build planet.ini -t neuroscience -o docs
     # Rename file
     pushd docs
         if [ -f "planet.neuroscience.html" ]; then
