@@ -23,12 +23,12 @@ refresh_repo () {
 check_pluto () {
     if ! command -v pluto; then
         mkdir ~/bin/
-        gem install --user-install pluto rss -n ~/bin/
+        gem install --user-install pluto rss -n ~/bin/ || exit -1
     fi
 }
 
 rebuild_planet () {
-    ~/bin/pluto --err build planet.ini -t neuroscience -o docs
+    ~/bin/pluto --err build planet.ini -t neuroscience -o docs || exit -1
     # Rename file
     pushd docs
         if [ -f "planet.neuroscience.html" ]; then
@@ -39,7 +39,7 @@ rebuild_planet () {
 
 commit_update () {
     git add .
-    git commit -m "Regenerated"
+    git commit -m ":rocket: Regenerated"
     git push -u origin master
 }
 
