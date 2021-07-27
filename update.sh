@@ -14,8 +14,7 @@ else
 fi
 
 if ! command -v pluto; then
-    echo "pluto is not installed. Please install using 'gem install pluto'"
-    exit -1
+    gem install pluto rss
 fi
 
 pluto --err build planet.ini -t neuroscience -o docs
