@@ -52,7 +52,7 @@
         <h1>Planet Neuroscientists</h1>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2022-01-04 08:16:16 UTC 
+          on 2022-01-05 08:15:45 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -61,6 +61,347 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://vanessa-kris.github.io/>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://vanessa-kris.github.io/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://vanessa-kris.github.io/&title=Vanessa Christopher's blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://vanessa-kris.github.io/week5-blog-post.html">Week5 Blog Post</a></h4>
+
+              
+                <h2>Hi again!</h2>
+<p>This should be a very interesting one, let's dive right into it...</p>
+<h4>What makes Fedora packaging project exciting?</h4>
+<p>Well...Anyone can be a package maintainer (cool right?!)  yes you must not know how to code! You just need to be willing to learn and be persistent.</p>
+<p>This particular project is not just exciting but important as well</p>
+<h4>How?</h4>
+<p>RPM is an open source program for installing, uninstalling and managing software packages in Linux.</p>
+<h4>So here's how this works</h4>
+<p>RPM packaging helps you install softwares using a simple command line ...
+let's use chrome for an example.</p>
+<h4>Steps to install chrome using the Fedora Linux Terminal</h4>
+<p>Install Third Party Repositories</p>
+<div class="highlight"><pre><span></span><code>$ sudo dnf install fedora-workstation-repositories
+</code></pre></div>
+
+<p>Enable the Google Chrome repo</p>
+<div class="highlight"><pre><span></span><code>$ sudo dnf config-manager --set-enabled google-chrome
+</code></pre></div>
+
+<p>Finally, install Chrome</p>
+<div class="highlight"><pre><span></span><code>$ sudo dnf install google-chrome-stable
+</code></pre></div>
+
+<h2>How Packages Are Made</h2>
+<p>Fedora docs gives us detailed expalanations so let's get right into it.</p>
+<h4>Getting started</h4>
+<p><a href="https://docs.fedoraproject.org/en-US/package-maintainers/Joining_the_Package_Maintainers/">https://docs.fedoraproject.org/en-US/package-maintainers/Joining_the_Package_Maintainers/</a></p>
+<h4>Setting up envirnonment / Building the RPM</h4>
+<p><a href="https://docs.fedoraproject.org/en-US/package-maintainers/Packaging_Tutorial_GNU_Hello/">https://docs.fedoraproject.org/en-US/package-maintainers/Packaging_Tutorial_GNU_Hello/</a></p>
+<p><a href="https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_New_Contributors/">https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_New_Contributors/</a></p>
+<h4>Creating a review request</h4>
+<p><a href="https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_New_Contributors/#create_your_review_request">https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_New_Contributors/#create_your_review_request</a></p>
+<h4>Add package to source code management (SCM)</h4>
+<p><a href="https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_New_Contributors/#add_package_to_source_code_management_scm_system_and_set_owner">https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_New_Contributors/#add_package_to_source_code_management_scm_system_and_set_owner</a></p>
+<p>And for another interesting part. When packages are made, after a period of time the spec files needs to be updated, and here's how packages are updated.</p>
+<h2>RPM Package Updates</h2>
+<h4>1) Fork the project from upstream</h4>
+<p>Forking the project simply means creating a copy of the upstream project for yourself. That way you can make modifications without affecting the original project.</p>
+<h4>2) Create a pull request (PR)</h4>
+<p>After making modifications to your copy of the project (fork), you may want to add those changes to the main project (upstream). In that case you create a PR and wait for your changes to be merged to the main project (upstream)</p>
+<h4>3) Build for the Fedora system</h4>
+<ul>
+<li>Clone your project</li>
+</ul>
+<div class="highlight"><pre><span></span><code>fedpkg co &lt;package name&gt; 
+</code></pre></div>
+
+<ul>
+<li>Navigate to the Project directory</li>
+</ul>
+<div class="highlight"><pre><span></span><code>cd &lt;package name&gt; 
+</code></pre></div>
+
+<ul>
+<li>Because the repo is up to date for rawhide after the PR is merged, we just build</li>
+</ul>
+<div class="highlight"><pre><span></span><code>fedpkg build 
+</code></pre></div>
+
+<ul>
+<li>For other branches: f35/f34</li>
+</ul>
+<div class="highlight"><pre><span></span><code>fedpkg switch branch &lt;branch name&gt;
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>git merge rawhide
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>git push
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>fedpkg build
+</code></pre></div>
+
+<ul>
+<li>Push the update using the <a href="https://bodhi.fedoraproject.org/updates/new">bodhi web</a> interface because you can choose both the f35 and f34 builds and select the bug ID etc. all at once there.</li>
+</ul>
+<p>Before the outreachy program I didn't know softwares are even packaged by people :smile: I thought we had bots doing all the work. 
+Fedora is just like any other Linux distro like Ubuntu, Manjaro and the likes, but fedora has its own unique commands.</p>
+<p>Some packages takes longer than the others to finish because it is an endless journey of learning . Through this exciting journey I learnt how to set up my Fedora work station, how to package, and i feel this great fufilment that i am contributing to the society and to open source! Thank you Outreachy. </p>
+              
+
+              <p class="text-muted">in <a href ="https://vanessa-kris.github.io/">Vanessa Christopher's blog</a> on 2022-01-04 19:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/spider-gecko-earth-hottest-landscape">Here’s how spider geckos survive on Earth’s hottest landscape</a></h4>
+
+              
+                <p>A handful of small, nocturnal geckos have spilled their guts for science, revealing how the creatures get by in a part of Earth’s hottest landscape.<br><br>Surface temperatures in the Lut Desert in Iran, home to the Misonne’s spider gecko (<em>Rhinogecko misonnei),</em> soar past 65° Celsius more frequently than anywhere else on the planet. The extreme heat makes it difficult for life to thrive, and for years, ecologists have regarded the desert as mostly barren.</p>
+
+
+
+<p>To find out how the geckos sustain themselves in this desolate oven, entomologist Hossein Rajaei of the State Museum of Natural History in Stuttgart, Germany and colleagues analyzed the stomach contents of six geckos using <a href="https://www.sciencenews.org/blog/wild-things/scientists-find-crab-party-deep-ocean">DNA metabarcoding</a> (<em>SN: 4/18/16</em>). The technique compares chunks of DNA with a species identification database, like a bar code scanner in a grocery store. “It’s very accurate, very comprehensive and very trustable,” Rajaei says.</p>
+
+
+
+<p>Within the geckos’ digestive soup stewed DNA from 94 species, about <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jzs.12558">81 percent of which hail from outside the Lut Desert</a>, the team reports November 18 in the <em>Journal of Zoological Systematics and Evolutionary Research</em>.</p>
+
+
+
+<p>The majority of these outsiders were winged insects such as flies, moths and wasps that migrate through the desert from bordering temperate landscapes. The remaining species — arachnids, arthropods and more moths — are endemic to the Lut, but are elusive in its heart, where the geckos were collected. The unexpected diversity highlights that there’s more living in this desert than meets the eye, Rajaei says.</p>
+
+
+
+<p>The findings underscore the importance of intertwined food webs for animals to survive in hostile habitats, says Robert Pringle, an ecologist at Princeton University who was not involved in the research. “The movement of insects from outside the immediate area subsidizes the geckos and helps them to persist in this extreme desert environment,” he says.</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-01-04 18:04:31 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/two-stars-cosmic-flare-light-fu-orionis">Two stars’ close encounter may explain a cosmic flare that has barely faded</a></h4>
+
+              
+                <p>A newborn star whizzing past another stellar youngster triggered a cosmic flare-up that began nearly a century ago and is still going strong today, researchers say.</p>
+
+
+
+<p>In late 1936, a dim star in the constellation Orion started to erupt in our sky and soon shone over 100 times as brightly as it had before. Only telescopes could detect the star prior to the outburst, but afterward, the star was so bright it was visible through binoculars. The star even <a href="https://www.sciencenews.org/archive/funny-thing-happened-way-main-sequence">lit up part of the previously dark interstellar cloud called Barnard 35</a> that presumably gave the star birth (<em>SN:</em><em> 1/10/76</em>).</p>
+
+
+
+<p>Amazingly, the star, now named FU Orionis, is still shining almost as brightly today, 85 years later. That means the star <a href="https://www.sciencenews.org/article/number-milky-way-nova-explosions-per-year-pinned-down">wasn’t a nova</a>, a stellar explosion that quickly fades from view (<em>SN</em><em>: 2/12/21</em>). But the exact cause of the long-lasting flare-up has been a mystery.</p>
+
+
+
+<p>Now, computer simulations may offer a clue to what’s kept the celestial beacon shining so brightly. Located about 1,330 light-years from Earth, FU Orionis is actually a double star, consisting of two separate stars that probably orbit each other. One is about as massive as the sun, while the other is only 30 percent to 60 percent as massive. Because the stars are so young, each has a disk of gas and dust revolving around it. It’s the lesser star’s passage through the other star’s disk that triggered and sustains the great flare-up, the simulations suggest.</p>
+
+
+
+
+
+<p>“The low-mass star is the one that is in outburst,” says Elisabeth Borchert, an astrophysicist at Monash University in Clayton, Australia.</p>
+
+
+
+<p>According to Borchert’s team, the outburst arose as the low-mass star passed 10 to 20 times as far from its mate as the Earth is from the sun — comparable to the distance between the sun and Saturn or Uranus. As the lesser star plowed through the other star’s disk, gas and dust from that disk rained down onto the intruder. In the simulations, this material got hot and glowed profusely, making the low-mass star hundreds of times brighter, behavior that mimicked FU Orionis’ outburst.</p>
+
+
+
+<p>The flare-up has endured so long because the gravitational pull of the lesser star captured material that began to orbit the star <a href="https://arxiv.org/abs/2111.12723">and is still falling onto it</a>, the researchers explain in a paper submitted online November 24 at arXiv.org. The study will be published in <em>Monthly Notices of the Royal Astronomical Society</em>.</p>
+
+
+
+<p>“It is a plausible explanation,” says Scott Kenyon, an astrophysicist at the Harvard-Smithsonian Center for Astrophysics in Cambridge, Mass., who was not involved with the study. The researchers “get a rise in luminosity about what the observations show,” he says, and “it lasts a long time.”</p>
+
+
+
+<p>Kenyon says one way to test the team’s theory is to track how the two stars move relative to each other in the future. That may reveal whether the stars were as close together in 1936 as the simulations suggest. Astronomers <a href="https://iopscience.iop.org/article/10.1086/381705">discovered the binary nature of FU Orionis</a> only two decades ago, by which time the stars were much farther apart in their elliptical orbit around each other.</p>
+
+
+
+<p>Since the discovery of FU Orionis, several other newborn stars have flared up in a similar fashion. The binary model “could be a good explanation for all of them,” Borchert says, if those stars also have stellar companions that recently skirted past.</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-01-04 13:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/coronavirus-covid-diabetes-fat-cells-blood-sugar">The coronavirus may cause fat cells to miscommunicate, leading to diabetes</a></h4>
+
+              
+                <p>Nola Sullivan recently marked an inauspicious anniversary. A little more than a year ago, on November 16, 2020, the 57-year-old pharmacy technician from Kellogg, Idaho, came down with COVID-19.</p>
+
+
+
+<p>&#8220;I lost my taste and smell, with a very bad head cold, body aches, muscle spasm, fatigue, nausea, vomiting, diarrhea,” she says. It took a month for her muscle spasms and a lingering headache to go away. She missed nearly three months of work. Her senses of smell and taste still haven’t fully returned. And “I still have the fatigue. It’s horrible. I&#8217;m nauseous all the time.”</p>
+
+
+
+<p>Sullivan has another lasting reminder of her battle with the coronavirus, too: diabetes.</p>
+
+
+
+<p>When she finally returned to work at the pharmacy, “I noticed that I was so thirsty all the time. And I just thought that was part of the COVID,” she says. “I was drinking gallons of water.” As a pharmacy technician, though, she knew that excessive thirst can be sign of diabetes. So she decided to check her blood sugar. A person is considered diabetic when levels of glucose in their blood reach 200 milligrams of glucose per deciliter of blood. Sullivan’s was over 500.</p>
+
+
+
+
+
+<aside class="wp-block-sciencenews-inline-related-post alignleft"><h4><a href="https://www.sciencenews.org/article/sign-up-for-e-mail-updates-on-the-coronavirus-outbreak">Sign up for e-mail updates on the latest coronavirus news and research</a></h4></aside>
+
+
+
+<p>Sullivan is not alone. In a study of more than 3,800 COVID-19 patients, <a href="https://www.cell.com/cell-metabolism/fulltext/S1550-4131(21)00428-9">just under half developed high blood sugar levels</a>, including many, like Sullivan, who were not previously diabetic, cardiologist James Lo and colleagues reported November 2 in <em>Cell Metabolism</em>. About 91 percent of the intubated COVID-19 patients had high blood sugar, as did almost 73 percent of people who died of the disease, the researchers reported.</p>
+
+
+
+<p>Lo’s group, based at Weill Cornell Medicine in New York City, and others are now working to identify what’s causing high blood sugar in COVID-19 patients and what to do about it.</p>
+
+
+
+<h4>Sugar spikes</h4>
+
+
+
+<p>In March and April of 2020 — months before Sullivan caught COVID-19 — Columbia University Medical Center in New York City was full of COVID-19 patients. There, endocrinologist Utpal Pajvani noticed that “a lot of those people — but not a majority — were coming in with very high blood sugars. For some of those people, this was brand new for them.” &nbsp;</p>
+
+
+
+<p>Lo too noticed that many of the COVID-19 patients in his hospital’s intensive care unit had high blood sugar. Preexisting diabetes is a risk factor for poor outcomes from COVID-19. But, like Sullivan, many of the patients Lo and his colleagues were seeing did not have diabetes before they got ill. People sometimes develop diabetes as they age, but Lo’s patients with high blood sugar were often “youngish, in their 30s and 40s,” he says. And levels of glucose in their blood were incredibly high, sometimes more than twice the level that indicates diabetes.</p>
+
+
+
+<p>Such sky-high levels of blood sugar were associated with a 15 times higher risk of intubation and 3.6 times higher risk of death compared with people with the disease who had normal blood sugar levels, Lo and colleagues found.</p>
+
+
+
+<aside class="wp-block-sciencenews-inline-related-post alignleft">
+<h4>
+<a href="https://www.sciencenews.org/editors-picks/2019-novel-coronavirus-outbreak">See all our coverage of the coronavirus outbreak</a>
+</h4>
+</aside>
+
+
+
+<p>Notes Pajvani, “we don’t know if the high blood sugar is causal of the bad outcome or reflective of the bad outcome.” Still, he and other doctors aren’t totally surprised by the connection between COVID-19 and high blood sugar, or hyperglycemia.</p>
+
+
+
+<p>High blood sugar has been documented in people with acute respiratory distress syndrome, or ARDS, caused by injuries or infections with other viruses or bacteria. ARDS is a condition in which the lungs can’t supply enough oxygen to the body.</p>
+
+
+
+<p>COVID-19 patients with ARDS and high blood sugar spent three times longer in the hospital than people with ARDS caused by COVID-19 who have normal blood sugar levels, Lo and colleagues found. But weirdly people with hyperglycemia who had ARDS caused by COVID-19 were less likely to die than hyperglycemic people with ARDS due to other causes.</p>
+
+
+
+<p>“The outlook was still bad, just not as bad in the group with ARDS and COVID, which is surprising,” says Ralph DeFronzo, an endocrinologist and chief of the diabetes division at the University of Texas Health Science Center at San Antonio, who was not involved with Lo’s study.</p>
+
+
+
+<h4>Fingering a culprit</h4>
+
+
+
+<p>Exactly what sends blood sugar soaring and causes diabetes in COVID-19 patients has been a mystery. Some evidence has hinted at the coronavirus infecting cells in the pancreas that make insulin, a hormone that lowers blood sugar levels by signaling cells to take in sugar and burn it for fuel. But in Lo’s study, COVID-19 patients with high blood sugar still made high levels of C-peptide, a naturally occurring bit of protein that links two chains of insulin and is made alongside insulin in pancreatic cells. High C-peptide levels indicate that the patients’ pancreatic cells were producing insulin.</p>
+
+
+
+<p>These patients’ blood sugar was still high, though. So if the pancreatic cells weren’t the problem, something else must be going wrong.</p>
+
+
+
+<p>That something else may be that fat cells infected with the coronavirus send the wrong message to other cells, ultimately leading to diabetes, Lo and colleagues suggest. Lo’s team discovered that COVID-19 patients had low levels of adiponectin, a hormone produced by fat cells that helps other cells heed insulin’s call to take in sugar. People with obesity also often make low levels of adiponectin, possibly explaining why they are <a href="https://www.sciencenews.org/article/coronavirus-covid19-obesity-risk-factor">at risk for poor outcomes from COVID-19</a> (<em>SN: 4/22/20</em>). Levels of several other hormones produced by fat cells were also out of whack, the researchers found.</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="3107332" data-permalink="https://www.sciencenews.org/121421-ti_covid-diabetes_inline_human-fat" data-orig-file="https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat.jpg" data-orig-size="1030,579" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;\u00a9 MICROSCAPE\/SCIENCE SOURCE&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="121421-ti_covid-diabetes_inline_human-fat" data-image-description="" data-image-caption="&lt;p&gt;Fat cells, like these human cells seen in a light microscope picture, do more than store lipids (blue-green). Fat also makes hormones that can help regulate metabolism. COVID-19 may disrupt production of some fat hormones, causing diabetes in some people.&lt;/p&gt;
+" data-medium-file="https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat-680x383.jpg" data-large-file="https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat-800x450.jpg" loading="lazy" width="800" height="450" src="https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat-800x450.jpg" alt="microscope image of purple-stained fat cells with masses of green lipids inside them" class="wp-image-3107332" srcset="https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat-800x450.jpg 800w, https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat-680x383.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat-330x186.jpg 330w, https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat-768x432.jpg 768w, https://www.sciencenews.org/wp-content/uploads/2022/01/121421-ti_covid-diabetes_inline_human-fat.jpg 1030w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption><span class="caption wp-caption-3107332">Fat cells, like these human cells seen in a light microscope picture, do more than store lipids (blue-green). Fat also makes hormones that can help regulate metabolism. COVID-19 may disrupt production of some fat hormones, causing diabetes in some people.</span><span class="credit wp-credit-3107332">MICROSCAPE/Science Source</span></figcaption></figure>
+
+
+
+<p>The findings suggest that COVID-19 patients’ high blood sugar levels result from insulin resistance — a condition in which cells ignore insulin’s message to take in glucose — brought on by a dearth of fat hormones rather than by an inability to produce insulin.</p>
+
+
+
+<p>The coronavirus can infect fat cells, the researchers’ experiments with hamsters and with cells grown in lab dishes showed. Damage done to fat cells directly by the virus, or indirectly by inflammation directed toward fighting the virus, may interfere with fat cells’ ability to make normal hormone levels and help maintain steady blood sugar levels.</p>
+
+
+
+<p>Experiments by other researchers have also indicated that SARS-CoV-2, the virus that causes COVID-19, can replicate in human fat, also known as adipose tissue, says Jose Aleman, an endocrinologist at the New York University Grossman School of Medicine. That’s yet another clue that fat is involved in severe disease.  </p>
+
+
+
+<p>For instance, autopsies revealed that <a href="https://www.cell.com/cell-metabolism/fulltext/S1550-4131(21)00621-5">the coronavirus had infected fat cells</a> of 10 of 18 men who died of COVID-19, researchers in Germany report January 4 in <em>Cell Metabolism</em>. All 10 of the men with coronavirus in their fat were overweight or obese. The researchers also found SARS-CoV-2 in fats cells of 5 of 12 women who died of COVID-19, but those women were not all overweight or obese.</p>
+
+
+
+<p>Inspired by Lo’s work, the German team uncovered evidence that coronavirus infection also affects fat cells’ ability to metabolize some lipids, leading people with COVID-19 to develop high levels of triglycerides in their blood. That’s yet another clue that fat isn’t working properly in some COVID patients. &nbsp;And these changes in fat may contribute to more severe COVID-19.</p>
+
+
+
+<p></p>
+
+
+
+<p>Obesity is often associated with inflammation in fat and other tissues. Coronavirus infection may make that inflammation worse, tipping the scales toward messed-up hormone production and eventual diabetes, Aleman says. Lo’s findings “lend credence to the idea that adipose is the reservoir for this low-grade inflammation that then gets triggered by COVID,” Aleman says.&nbsp;</p>
+
+
+
+<p>But the conclusion is not a slam dunk, Pajvani says. “This is an example of very good research done in very difficult settings.” But because the study looked back a group of patients, but didn’t match their characteristics and limit other variables from the beginning, the work can’t definitively show the cause of COVID-related diabetes. “This gives us a great hint of the type of study to do,” he says.</p>
+
+
+
+<figure class="wp-block-image size-full"><img data-attachment-id="3107331" data-permalink="https://www.sciencenews.org/120721_ti-to_covid-diabetes_inline-2" data-orig-file="https://www.sciencenews.org/wp-content/uploads/2022/01/120721_TI-TO_Covid-diabetes_inline-2.jpg" data-orig-size="680,390" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;Credit: Christine Whitehead \/ Alamy Stock Photo&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="120721_TI-TO_Covid-diabetes_inline-2" data-image-description="" data-image-caption="&lt;p&gt;Drugs called glitazones help make cells more sensitive to insulin&#8217;s message to take in sugar. That can help people with type 2 diabetes better control blood sugar levels. Pioglitazone may soon be tested for the ability to reverse high blood sugar in some COVID-19 patients.&lt;/p&gt;
+" data-medium-file="https://www.sciencenews.org/wp-content/uploads/2022/01/120721_TI-TO_Covid-diabetes_inline-2-668x383.jpg" data-large-file="https://www.sciencenews.org/wp-content/uploads/2022/01/120721_TI-TO_Covid-diabetes_inline-2.jpg" loading="lazy" width="680" height="390" src="https://www.sciencenews.org/wp-content/uploads/2022/01/120721_TI-TO_Covid-diabetes_inline-2.jpg" alt="photo of a box of Pioglitazone tablets" class="wp-image-3107331" srcset="https://www.sciencenews.org/wp-content/uploads/2022/01/120721_TI-TO_Covid-diabetes_inline-2.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2022/01/120721_TI-TO_Covid-diabetes_inline-2-668x383.jpg 668w, https://www.sciencenews.org/wp-content/uploads/2022/01/120721_TI-TO_Covid-diabetes_inline-2-324x186.jpg 324w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption><span class="caption wp-caption-3107331">Drugs called glitazones help make cells more sensitive to insulin&#8217;s message to take in sugar. That can help people with type 2 diabetes better control blood sugar levels. Pioglitazone may soon be tested for the ability to reverse high blood sugar in some COVID-19 patients.</span><span class="credit wp-credit-3107331">Christine Whitehead / Alamy Stock Photo</span></figcaption></figure>
+
+
+
+<h4>A lasting legacy</h4>
+
+
+
+<p>Whether coronavirus infections cause diabetes or simply unmask the condition in susceptible people, such as people who are overweight or obese, is not yet clear, DeFronzo says. Aleman agrees. “A lot of these patients have an underlying state of insulin resistance, likely prediabetes, but then acute illness in the form of COVID-19 tips [them] over to diabetes.”</p>
+
+
+
+<p>Doctors may be able to counteract high blood sugar by giving COVID-19 patients drugs called thiazolidinediones or glitazones that make cells more sensitive to insulin’s action. DeFronzo says he hopes to test one of those drugs called pioglitazone in COVID-19 patients with high blood sugar. The aim is to prevent the worst outcomes from COVID-19, but patients’ high blood sugar may linger.</p>
+
+
+
+<p>For Sullivan, changing her diet and taking medication have helped her to control her blood sugar levels. “I’ve lost almost 60 pounds,” she says. &nbsp;But “they say that the diabetes will probably be for life.”</p>
+
+
+
+<hr class="wp-block-separator" />
+
+
+
+<p><em>Trishla Ostwal contributed reporting to this story.</em></p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-01-04 11:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://retractionwatch.com/2022/01/04/university-of-rochester-cancer-researchers-included-incorrect-images-in-13-papers-committee-finds/">University of Rochester cancer researchers included ‘incorrect images’ in 13 papers, committee finds</a></h4>
+
+              
+                A group of cancer researchers at the University of Rochester have now lost three papers over concerns about the data in the articles – issues that evidently did not rise to the level of misconduct, according to the institution. The work came from the lab of Yuhchyau Chen, of the university’s Wilmot Cancer Institute. A &#8230; <a href="https://retractionwatch.com/2022/01/04/university-of-rochester-cancer-researchers-included-incorrect-images-in-13-papers-committee-finds/" class="more-link">Continue reading <span class="screen-reader-text">University of Rochester cancer researchers included ‘incorrect images’ in 13 papers, committee finds</span></a>
+              
+
+              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2022-01-04 11:00:00 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -155,22 +496,6 @@
 
 
 <p>From the beginning, we have made our total cost recovery targets for each journal transparent on our website, and our partners get a detailed breakdown of their authors&rsquo; publishing activity and pricing tier before they decide to work with us. We&rsquo;ve committed to capping our margins at 10% which will be used to reinvest in programs that support our mission and provide value to the research community. Because the pie isn&rsquo;t getting any larger, the more institutional partners who join in to support the journal community, the lower costs become for everyone.&nbsp;</p>
-
-
-
-<p>Since we first announced the new model in late 2020, more than 100 institutions have signed on to eliminate author fees and we&rsquo;ve been honored to be named as co-winners of the 2021 <a href="https://theplosblog.plos.org/2021/09/plos-wins-innovation-in-publishing-award/">ALPSP Innovation in Publishing</a> award for our work on this model. We&rsquo;ll be reporting on progress to targets once we close the 2021 books. For now, we want to end this post with some of the feedback that energizes us for the work ahead!</p>
-
-
-
-<p></p>
-
-
-
-<p><em>&ldquo;I am looking forward to this expanded pilot, and knowing that we have a full three years will help us guide and educate our faculty about this OA choice, which we view as an important added step to move the MSU campus toward future models.&rdquo;</em></p>
-
-
-
-<p class="has-text-align-right">&ndash;Michigan State University</p>
 
 
 
@@ -1578,16 +1903,19 @@
               <h4><a href="https://vanessa-kris.github.io/everybody-struggles.html">Everybody Struggles</a></h4>
 
               
-                <h3>What am I really doing?</h3>
+                <h2>What am I really doing?</h2>
 <p>RPM packaging with Fedora. RPM files are like zip files (compressed) composed of different softwares mixed to work together.</p>
 <p>Let's just say an RPM packager does the packaging so users can simply use a command line to install softwares e.g </p>
 <div class="highlight"><pre><span></span><code>$ sudo dnf install fedora-packager
 </code></pre></div>
 
 <p>Before Outreachy I did not have the slightest idea of what packaging was all about as a matter of fact it was completely new to me.</p>
-<h3>How it all started</h3>
+<h2>How it all started</h2>
 <p>Scrolling through lists of outreachy projects, I came accross the NeuroFedora project and I picked interest in it because it did not require much (lol) ... I joined the Fedora community and jeez I was lost, everything was so new I just wanted to give up, but I saw other applicants curious and asking questions. So I decided to give it a try. </p>
-<p>I read the docs sent by our mentor (Ankur Sinha) https://fedoramagazine.org/rpm-packages-explained/</p>
+<p>I read the docs sent by our mentor (Ankur Sinha) </p>
+<ul>
+<li><a href="https://fedoramagazine.org/rpm-packages-explained">RPM Packages explained</a></li>
+</ul>
 <p>Well... I was getting a hang of it but not so much and gosh I was intimidated by how much my collegues were picking up already. I decided to write my mentor (private) and he replied! He led me to the open chat where I mustered up courage to ask questions about my uncertainties and within few weeks I was already packaging for Fedora. </p>
 <p>The most interesting part is till now I "always" get stuck on projects and still seek help from my mentor and community members.  I've learnt through the journey that no one really knows it all but you can strive for mastery by consistency, openess, and willingness. </p>
               
@@ -2317,176 +2645,6 @@
               
 
               <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2021-12-20 14:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/vikings-greenland-rising-sea-level-climate">Vikings may have fled Greenland to escape rising seas</a></h4>
-
-              
-                <p>In 1721, a Norwegian missionary set sail for Greenland in the hopes of converting the Viking descendants living there to Protestantism. When he arrived, the only traces he found of the Nordic society were ruins of settlements that had been abandoned 300 years earlier.</p>
-
-
-
-<p>There is no written record to explain why the Vikings left or died out. But a new simulation of Greenland’s coastline reveals that as the ice sheet covering most of the island started to expand around that time, <a href="https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/810519">sea levels rose drastically</a>, researchers report December 15 at the American Geophysical Union’s fall meeting in New Orleans.</p>
-
-
-
-<p>These shifting coastlines would have inundated grazing areas and farmland, and could have helped bring about the end of the Nordic way of life in Greenland, says Marisa Borreggine, a geophysicist at Harvard University.</p>
-
-
-
-<p>Greenland was first colonized by Vikings in 985 by a group of settlers in 14 ships led by Erik the Red, who had been banished from neighboring Iceland for manslaughter. Erik and his followers settled across southern Greenland, where they and their descendants hunted for seals, grazed livestock, built churches and traded walrus ivory with European mainlanders.</p>
-
-
-
-
-
-<p>The settlers arrived during what’s known as the <a href="https://www.sciencenews.org/article/global-warming-today-unlike-last-2000-years-climate-shifts">Medieval Warm Period</a>, when conditions across Europe and Greenland were temperate for a handful of centuries (<em>SN: 7/24/19</em>). But by 1350, the climate had started taking a turn for the worse with the beginning of the Little Ice Age, a period of regional cooling that lasted well into the 19th century.</p>
-
-
-
-<p>Researchers have long speculated that a rapidly changing climate could have dealt a blow to Greenland’s Norse society. The island probably became much colder in the last 100 years of Norse occupation, says paleoclimatologist Boyang Zhao at Brown University in Providence, R.I, who was not involved in the new research. Lower temperatures could have made farming and raising livestock more difficult, he says.&nbsp;</p>
-
-
-
-<p>These lower temperatures would have had another impact on Greenland: the steady expansion of the island’s ice sheet, Borreggine and colleagues say.</p>
-
-
-
-<p>Though rising sea levels usually go hand in hand with ice melting from ice sheets, oceans do not rise and fall uniformly in every place, Borreggine says. Around Greenland, sea level tends to rise when the ice sheet there grows.</p>
-
-
-
-<p>This is for two main reasons: First, ice is heavy. The sheer weight of the ice sheet pushes the land it rests on down, meaning that as the ice sheet grows, more land is submerged. Second is gravity. Being massive, ice sheets exert some gravitational pull on nearby water. This makes the seawater around Greenland tilt upward toward the ice, meaning that water closer to the coast is higher than water in the open ocean. As the ice sheet grows, that pull becomes even stronger, and sea level close to the coast rises further.</p>
-
-
-
-<p>Simulating the impact of the weight of the ice and its tug on Greenland’s waters, Borreggine and their colleagues found that sea level rose enough to flood the coast by hundreds of meters in some areas. Between the time the Vikings arrived and when they left, there was “pretty intense coastal flooding, such that certain pieces of land that were connected to each other were no longer connected,” they say. &nbsp;</p>
-
-
-
-<p>Today, some Viking sites are being inundated as a result of the overall rise in global sea level from climate change, which is being only marginally offset around Greenland by its melting ice sheet. Something similar could have happened back in the 14th and 15th centuries, destroying land that the Norse relied on for farming and grazing, Borreggine says.</p>
-
-
-
-<p>“Previous theories about why Vikings left have really focused on the idea that they all died because it got really cold, and they were too dumb to adapt,” Borreggine says. But they say that archaeological digs have revealed a far more nuanced story, showing that Greenland’s Norse people did change their lifestyle by increasingly relying on seafood in the last century of their occupation.</p>
-
-
-
-<p>But learning to adapt may have been too difficult in the face of an increasingly harsh landscape. The idea that rising sea levels may have been one of these challenges has merit, Zhao says, noting that the reasons why the Vikings disappeared from Greenland is nuanced.</p>
-
-
-
-<p>As the climate changed, for example, these people may have also found themselves increasingly cut off from trade routes as the season for thick sea ice extended. And by the mid-14th century, the Black Plague was tearing through Europe, cutting into the Vikings’ biggest market for walrus ivory.</p>
-
-
-
-<p>“Norse people came and left,” Zhao says. “But there are still a lot of unsolved questions,” including why exactly they left, he says.</p>
-
-
-
-<p>The last written record of this society is a letter describing a wedding in 1408. A few years later, that couple moved to Iceland and started farming. Why the pair chose to leave is lost to history, but, as the new research suggests, sea level rise may have been part of the equation.&nbsp;</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2021-12-20 12:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2021/12/20/revealed-the-inner-workings-of-a-paper-mill/">Revealed: The inner workings of a paper mill</a></h4>
-
-              
-                In 2019, Retraction Watch ran an exclusive story of a Russian paper mill operating under the business name “International Publisher LLC”.&#160; Since then, Retraction Watch and&#160; other scientific news and blogging sites have continued to report on the activities of research paper mills, including International Publisher&#160; and its primary website, 123mi.ru.&#160; These mills provide an &#8230; <a href="https://retractionwatch.com/2021/12/20/revealed-the-inner-workings-of-a-paper-mill/" class="more-link">Continue reading <span class="screen-reader-text">Revealed: The inner workings of a paper mill</span></a>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2021-12-20 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://blog.oup.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://blog.oup.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://blog.oup.com&title=OUPblog - Psychology and Neuroscience" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://feeds.feedblitz.com/~/675592954/0/oupblogpsychology/">The top 10 science blog posts of 2021</a></h4>
-
-              
-                <a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/12/the-top-10-science-blog-posts-of-2021/"><img width="480" height="185" src="https://blog.oup.com/wp-content/uploads/2021/12/TOP-10-SCIENCE-BLOG-POSTS-OF-2021-480x185.jpg" loading="lazy" link_thumbnail="1" /></a><p>From the evolution of consciousness to cosmic encounters, the Brain Health Gap to palliative medicine, 2021 has been a year filled with discovery across scientific disciplines. On the OUPblog, we have published blogs posts showcasing the very latest research and insights from our expert authors at the Press. Make sure you’re caught up with the best of science in 2021 with our top 10 blog posts of the year:</p><h2>1. Why did evolution create conscious states of mind?</h2><p>“When we open our eyes in the morning, we take for granted that we will consciously see the world in all of its dazzling variety. The immediacy of our conscious experiences does not, however, explain how we consciously see.”</p><p>Read the blog post from Stephen Grossberg, author of <em><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/conscious-mind-resonant-brain-9780190070557">Conscious Mind, Resonant Brain: How Each Brain Makes a Mind</a></em>, to learn how—and why—we have evolved to consciously see.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/07/why-did-evolution-create-conscious-states-of-mind/"><strong>Read the blog post -&gt;</strong></a></p><h2>2. The neuroscience of human consciousness </h2><div><figure><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/07/the-neuroscience-of-human-consciousness-podcast/"><img loading="lazy" width="183" height="183" src="https://blog.oup.com/wp-content/uploads/2021/09/The-Oxford-Comment-LOGO_NEW-BRAND_blog-icon.png" /></a></figure></div><p>How can the study of the human brain help us unravel the mysteries of life? Going a step further, how can having a better understanding of the brain help us to combat debilitating diseases or treat mental illnesses?</p><p>On this episode of The Oxford Comment, we focused on human consciousness and how studying the neurological basis for human cognition can lead not only to better health but a better understanding of human culture, language, and society as well.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/07/the-neuroscience-of-human-consciousness-podcast/"><strong>Listen to episode 63 on The Oxford Comment -&gt;</strong></a></p><h2>3. 10 books on palliative medicine and end-of-life care</h2><p>Each year an estimated 40 million people are in need of palliative care, 78% of whom live in low- and middle-income countries. This reading list of recent titles can help you to reflect on palliative medicine as a public health need.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/10/10-books-on-palliative-medicine-and-end-of-life-care-reading-list/"><strong>Explore the reading list -&gt;</strong></a></p><h2>4. Can what we eat have an effect on the brain?</h2><p>Food plays an important role in brain performance and health. In general, the old saying, “a healthy mind in a healthy body,” is still very valid, and the overall positive results on cognitive ability of entire diets can be summarised with: “what is good for your heart, is also good for your brain.”</p><p>This blog post from review co-author Bo Ekstrand discusses the role of diet in key areas of brain development and health from the findings published in the journal <em>Nutrition Reviews</em>.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/10/can-what-we-eat-have-an-effect-on-the-brain/"><strong>Read the blog post -&gt;</strong></a></p><h2>5. What can neuroscience tell us about the mind of a serial killer?</h2><div><figure><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/mind-shift-9780198801634"><img src="https://blog.oup.com/wp-content/uploads/2021/12/9780198801634.jpg" width="183" /></a></figure></div><p>Serial killers—people who repeatedly murder others—provoke revulsion but also a certain amount of fascination in the general public. But what can modern psychology and neuroscience tell us about what might be going on inside the head of such individuals?</p><p>Read the blog post from the John Parrington, author of <em><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/mind-shift-9780198801634">Mind Shift: How Culture Transformed the Human Brain</a></em>, to learn more about recent neuroscience studies investigating serial killers’ minds.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/04/what-can-neuroscience-tell-us-about-the-mind-of-a-serial-killer/"><strong>Read the blog post -&gt;</strong></a></p><h2>6. Does “overeating” cause obesity? The evidence is less filling</h2><p>The usual way of thinking considers obesity a problem of energy balance. Take in more calories than you expend—in other words, “overeat”—and weight gain will inevitably result. The simple solution, according to the prevailing Energy Balance Model (EBM), is to eat less and move more. New research shows that viewing body weight control as an energy balance problem is fundamentally wrong, or at least not helpful, for three reasons.</p><p>Discover the three reasons in this blog post from David S. Ludwig, co-author of new research published in <em>The American Journal of Clinical Nutrition</em>.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/09/does-overeating-cause-obesity-the-evidence-is-less-filling/"><strong>Read the blog post -&gt;</strong></a></p><h2>7. Earth’s wild years: the creative destruction of cosmic encounters</h2><p>Contrary to common sense, cosmic collisions are not all about destruction and death. It appears entirely possible that collisions could have been beneficial to the development of conditions suitable for the formation of first organisms—our distant relatives—on Earth. What do we know about these early cosmic catastrophes?</p><p>Learn about the innumerable challenges facing the research of early cosmic events by reading the blog post from Simone Marchi, author of <em><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/colliding-worlds-9780198845409">Colliding Worlds: How Cosmic Encounters Shaped Planets and Life</a></em>.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/06/earths-wild-years-the-creative-destruction-of-cosmic-encounters/"><strong>Read the blog post -&gt;</strong></a></p><h2>8. What if COVID-19 emerged in 1719?</h2><div><figure><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/a-story-of-us-9780190883201"><img src="https://blog.oup.com/wp-content/uploads/2021/12/9780190883201.jpg" width="183" /></a></figure></div><p>We’re often told that the situation created by the attack of the new coronavirus is “unique” and “unprecedented.” And yet, at the same time, scientists assure us that the emergence of new viruses is “natural”—that viruses are always mutating or picking up and losing bits of DNA. But if lethal new viruses have emerged again and again during human history, why has dealing with this one been such a struggle?</p><p>In this blog post, Lesley Newson and Peter Richerson, authors of <em><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://global.oup.com/academic/product/a-story-of-us-9780190883201">A Story of Us: A New Look at Human Evolution</a></em>, consider what makes our “cultural DNA” unique and how the story of COVID-19 would have been very different had it emerged 300 years ago.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/04/what-if-covid-19-had-emerged-in-1719/"><strong>Read the blog post -&gt;</strong></a></p><h2>9. Closing the brain health gap: addressing women’s inequalities</h2><p>There is a clear sex and gender gap in outcomes for brain health disorders across the lifespan, with strikingly negative outcomes for women. The “Brain Health Gap” highlights and frames inequalities in all areas across the translational spectrum from bench-to-bedside and from boardroom-to-policy and economics.</p><p>Read the blog post to learn how closing the Brain Health Gap will help economies create recovery and prepare our systems for future global shocks.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/08/closing-the-brain-health-gap-addressing-womens-inequalities/"><strong>Read the blog post -&gt;</strong></a></p><h2>10. The case for readdressing the three paradigms of basic astrophysics</h2><p>A long-held misunderstanding of stellar brightness is being corrected, thanks to a new study published in the Monthly Notices of the Royal Astronomical Society based on International Astronomical Union (IAU) General Assembly Resolution B2.</p><p>Learn about the key findings in this blog post from Zeki Eker, lead author on the study published in <em>Monthly Notices of the Royal Astronomical Society</em>.</p><p><a href="http://feeds.feedblitz.com/~/t/0/0/oupblogpsychology/~https://blog.oup.com/2021/07/the-case-for-readdressing-the-three-paradigms-of-basic-astrophysics/"><strong>Read the blog post -&gt;</strong></a></p><Img align="left" border="0" height="1" width="1" style="border:0;float:left;margin:0;padding:0;width:1px!important;height:1px!important;" hspace="0" src="https://feeds.feedblitz.com/~/i/675592954/0/oupblogpsychology"><div style="clear:both;padding-top:0.2em;"><a href="https://feeds.feedblitz.com/_/2/675592954/oupblogpsychology"><img height="20" src="https://assets.feedblitz.com/i/fbshare20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a href="https://feeds.feedblitz.com/_/28/675592954/oupblogpsychology"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a href="https://feeds.feedblitz.com/_/16/675592954/oupblogpsychology"><img height="20" src="https://assets.feedblitz.com/i/linkedin20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a href="https://feeds.feedblitz.com/_/29/675592954/oupblogpsychology,https%3a%2f%2fblog.oup.com%2fwp-content%2fuploads%2f2021%2f12%2fTOP-10-SCIENCE-BLOG-POSTS-OF-2021-480x185.jpg"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a href="https://feeds.feedblitz.com/_/1/675592954/oupblogpsychology"><img height="20" src="https://assets.feedblitz.com/i/reddit20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a href="https://feeds.feedblitz.com/_/24/675592954/oupblogpsychology"><img height="20" src="https://assets.feedblitz.com/i/twitter20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a href="https://feeds.feedblitz.com/_/19/675592954/oupblogpsychology"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a href="https://feeds.feedblitz.com/_/20/675592954/oupblogpsychology"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a><h3 style="clear:left;padding-top:10px">Related Stories</h3><ul><li><a rel="NOFOLLOW" href="https://blog.oup.com/2021/11/covid-19-and-mental-health-where-do-we-go-from-here-podcast/">COVID-19 and mental health: where do we go from here? [podcast]</a></li><li><a rel="NOFOLLOW" href="https://blog.oup.com/2021/11/how-research-abstracts-succeed-and-fail/">How research abstracts succeed and fail</a></li><li><a rel="NOFOLLOW" href="https://blog.oup.com/2021/10/caring-for-our-most-vulnerable-lessons-from-covid-19-on-policy-changes-in-the-care-home-sector/">Caring for our most vulnerable: lessons from COVID-19 on policy changes in the care home sector</a></li></ul>&#160;</div>
-              
-
-              <p class="text-muted">in <a href ="https://blog.oup.com">OUPblog - Psychology and Neuroscience</a> on 2021-12-20 10:30:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://digest.bps.org.uk>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://digest.bps.org.uk" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://digest.bps.org.uk&title=The British Psychological Society - Research Digest" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://digest.bps.org.uk/2021/12/20/fear-of-spiders-may-have-its-evolutionary-roots-in-aversion-to-scorpions/">Fear Of Spiders May Have Its Evolutionary Roots In Aversion To Scorpions</a></h4>
-
-              
-                <p><em>By</em> <a href="https://emmayoung.net/">Emma Young</a></p>
-
-
-
-<p>&#8220;But they won’t hurt you! They eat bugs. They’re our friends!&#8221; I’ve tried telling my now-12-year-old all these things many times over the years, but his fear of spiders persists. It’s hardly a rare fear; an estimated 6% of the general population suffer from full-blown arachnophobia. The leading explanation is that our ancestors evolved to fear spiders, and this has been passed on to us. But there are a few problems with this, point out the authors of a <a href="https://www.nature.com/articles/s41598-021-01325-z">new paper</a> in <em>Scientific Reports</em>.</p>
-
-
-
-<p>Firstly: only 0.5% of spider species are potentially dangerous to humans. Secondly: these species are mostly found not in Africa, where modern humans evolved, but rather Australia and South America, the two continents that have been most recently colonised by people. Given this, the idea of an evolved, generalised fear of spiders doesn’t seem that compelling. Daniel Frynta at Charles University, Prague, and colleagues had another idea: perhaps we evolved to fear not “essentially harmless” spiders but a dangerous close relative with a similar body body plan: scorpions — and our brains over-generalise, reacting to spiders in the same way. To investigate this, they ran a study that would have left my 12-year-old with nightmares for months…</p>
-
-
-
-<span id="more-44915"></span>
-
-
-
-<p>The team collected together live specimens of 62 arthropod species: 15 spiders, 10 scorpions, 5 other arachnids (such as whip &#8220;spiders&#8221;), 10 cockroaches, 10 other &#8220;hemimetabolous insects&#8221; (a group that includes earwigs, stick insects and locusts), 6 myriapods (centipedes, millipedes and their relatives), 4 beetles and 2 crabs. Each of these animals was placed in a transparent box. These boxes were then lined up for inspection by 329 participants, who used 7-point scales to rate each on scales for fear, disgust and also beauty.</p>
-
-
-
-<p>Let’s get beauty out of the way first: species that got high disgust ratings tended to get low beauty ratings, but there was no link between beauty and fear ratings. In other words, we can find an arthropod both scary and beautiful.</p>
-
-
-
-<p>For fear, the team noted that the taxa fell into distinct groups. The &#8220;chelicerates&#8221; (the spiders, scorpions and other arachnids) got relatively high average scores, followed by the myriapods (which were definitely less fear-inducing) and finally the insects and crustaceans.</p>
-
-
-
-<p>For disgust, the pattern was similar to that for fear. Myriapods did get the highest average score, but it wasn’t far off the score for spiders. Again, the beetles and crabs got the lowest scores. Overall, the fear and disgust ratings were highly correlated.</p>
-
-
-
-<p>Bigger species did tend to trigger stronger emotional reactions — they got higher fear, disgust and beauty scores. But the deepest statistical split in the fear-and-disgust ratings was between the chelicerates cluster (spiders/scorpions/other arachnids) and a cluster of insects-plus-crustaceans. “This supports the notion that chelicerates are perceived as one cohesive group distinct from other arthropods,” the team argues.</p>
-
-
-
-<p>Unlike the vast majority of spiders, scorpions <em>do</em> post a genuine threat, killing an estimated 2,600 people every year. Scorpions are also an ancient group, and species with a venom tailored to mammals are native to Africa and the Middle East — so our distant ancestors and dangerous scorpions could have evolved side-by-side. “Fear of scorpions therefore seems to be better warranted than fear of spiders,” the team writes.</p>
-
-
-
-<p>Of course, the data don’t <em>show</em> that people generalise an evolved fear/disgust of scorpions to spiders. As the team acknowledges, this is a big limitation of the study. But it’s a sensible way to interpret the data, they argue. And, compared with other theories about why so many people are so scared of spiders (over dogs, say), it does indeed seem more compelling.</p>
-
-
-
-<p>&#8211; <a href="https://www.nature.com/articles/s41598-021-01325-z">Emotions triggered by live arthropods shed light on spider phobia</a></p>
-
-
-
-<p><strong><a href="https://emmayoung.net/">Emma Young</a> (<a href="https://twitter.com/EmmaELYoung">@EmmaELYoung</a>) is a staff writer at <a href="https://digest.bps.org.uk/">BPS Research Digest</a></strong></p>
-              
-
-              <p class="text-muted">in <a href ="https://digest.bps.org.uk">The British Psychological Society - Research Digest</a> on 2021-12-20 10:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2021/12/19/elsevier-subjects-entire-special-issue-of-journal-on-covid-19-to-an-expression-of-concern/">Elsevier subjects entire special issue of journal on COVID-19 to an expression of concern</a></h4>
-
-              
-                Elsevier has subjected an entire special issue of a journal &#8212; including a paper claiming COVID-19 vaccines kill five times more people over 65 than they save — to an expression of concern. The special issue of Toxicology Reports contained eight articles, including the vaccines paper co-authored by Ronald Kostoff. Here&#8217;s the expression of concern, &#8230; <a href="https://retractionwatch.com/2021/12/19/elsevier-subjects-entire-special-issue-of-journal-on-covid-19-to-an-expression-of-concern/" class="more-link">Continue reading <span class="screen-reader-text">Elsevier subjects entire special issue of journal on COVID-19 to an expression of concern</span></a>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2021-12-19 15:55:10 UTC.
               </p>
             </li>
           <!-- each item -->
