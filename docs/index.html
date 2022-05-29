@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2022-05-28 08:18:55 UTC 
+          on 2022-05-29 08:17:26 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -62,6 +62,203 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://retractionwatch.com/2022/05/28/weekend-reads-female-driver-stereotypes-stealth-research-ai-comes-to-fake-scientific-images/">Weekend reads: Female driver stereotypes; ‘stealth research’; AI comes to fake scientific images</a></h4>
+
+              
+                Would you consider a&#160;donation to support Weekend Reads,&#160;and our daily work? Thanks in advance. The week at Retraction Watch featured: Journal about ‘ambient intelligence’ retracts more than 50 papers at once The “internet may be a challenging venue”: Biomedical engineering group up to four retractions Drug researchers in Russia have four papers subjected to expressions &#8230; <a href="https://retractionwatch.com/2022/05/28/weekend-reads-female-driver-stereotypes-stealth-research-ai-comes-to-fake-scientific-images/" class="more-link">Continue reading <span class="screen-reader-text">Weekend reads: Female driver stereotypes; &#8216;stealth research&#8217;; AI comes to fake scientific images</span></a>
+              
+
+              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2022-05-28 12:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://gcamp6f.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://gcamp6f.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://gcamp6f.com&title=Peter Rupprecht" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://gcamp6f.com/2022/05/28/simple-geometrical-optics-to-understand-and-design-point-scanning-microscopes/">Simple geometrical optics to understand and design point-scanning microscopes</a></h4>
+
+              
+                <p>Custom-built microscopes have become more and more sophisticated over the last years to provide a larger FOV, better resolution through some flavor of adaptive optics or simply more neurons simultaneously. Professional optical engineers are hired to design the ideal lens combination or the objectives with <a href="https://www.zemax.com/pages/opticstudio">Zemax</a>, a software that can simulate the propagation of light through lenses systems based on wave optics.</p>
+
+
+
+<p>Unfortunately, these complex design optimizations might discourage users from trying to understand their microscopes themselves. In this blog post, I will give a few examples how optical paths of microscopes can be understood and, to some extent, also designed using simple geometrical optics. Geometrical optics, or ray optics, are accessible to anybody who is willing to understand a small equation or two.</p>
+
+
+
+<p>Three examples: <strong>(1)</strong> How to compute the beam size at the back focal plane of the objective. <strong>(2)</strong> How to compute the field of view size of a point scanning microscope. <strong>(3)</strong> How to compute the axial focus shift using a remotely positioned tunable lens.</p>
+
+
+
+<p>All examples are based on a typical point scanning microscope as used for two-photon microscopy.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>(1) How to compute the beam size at the back focal plane of the objective</strong></p>
+
+
+
+<p>The beam size at the back focal plane is the limiting factor for the resolution. The resolution is determined by the <a href="https://en.wikipedia.org/wiki/Numerical_aperture">numerical aperture</a> (NA) focusing onto the sample, and a smaller beam diameter at the &#8220;back side&#8221; of the objective can result in an effectively lower NA compared to what is possible with the same objective and larger beam diameter.</p>
+
+
+
+<p>In general, it is therefore the goal to overfill the back focal aperture with the beam (check out this <a href="https://www.nature.com/articles/nmeth818">review</a> if you want to know more). However, especially for video-rate two-photon microscopy, one of the scan mirrors is a resonant scanner, which usually comes with a usable aperture of ca. 5 mm. Often, there are only two lenses between scan mirror and objective, scan lens and tube lens. The two black lines illustrate the &#8220;boundaries&#8221; of the beam:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" data-attachment-id="7091" data-permalink="https://gcamp6f.com/2022/05/28/simple-geometrical-optics-to-understand-and-design-point-scanning-microscopes/telescope/" data-orig-file="https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png" data-orig-size="1010,277" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="telescope" data-image-description="" data-image-caption="" data-medium-file="https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png?w=300" data-large-file="https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png?w=640" src="https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png?w=1010" alt="" class="wp-image-7091" width="550" height="150" srcset="https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png?w=547 547w, https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png?w=150 150w, https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png?w=300 300w, https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png?w=768 768w, https://ptrrupprecht.files.wordpress.com/2022/05/telescope.png 1010w" sizes="(max-width: 550px) 100vw, 550px" /></figure></div>
+
+
+<p>If the beam diameter at the scan mirror is 5 mm, the beam diameter d<sub>BFA</sub> at the objective&#8217;s back aperture will be, using simple trigonometry:</p>
+
+
+
+<p class="has-text-align-center"><img src="https://s0.wp.com/latex.php?latex=d_%7BBFA%7D+%3D+f_t%2Ff_s+%5Ccdot&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=d_%7BBFA%7D+%3D+f_t%2Ff_s+%5Ccdot&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=d_%7BBFA%7D+%3D+f_t%2Ff_s+%5Ccdot&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="d_{BFA} = f_t/f_s &#92;cdot" class="latex" /> 5 mm</p>
+
+
+
+<p>Therefore, for a typical ratio f<sub>t</sub>:f<sub>s</sub> of 4:1 or 3:1, you will get a beam size at the objective&#8217;s back aperture of 20 mm or 15 mm. This is enough to overfill a typical 40x objective (objective back aperture <a href="https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=5824">8-12 mm</a>, depending on the objective&#8217;s NA), but barely enough for a 16x objective or even lower magnification with reasonably high NA (e.g., for NA=0.8, the back aperture is around 20 mm or higher).</p>
+
+
+
+<p>Therefore, when you design a beam path or buy a microscope, it is important to plan ahead which objectives you are going to use with it. And this simple equation tells you how large the beam will be at the objective&#8217;s back aperture&#8217;s location.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>(2) How to compute the field of view size of a point scanning microscope</strong></p>
+
+
+
+<p>Another very simple calculation to do is to compute the expected size of the field of view (FOV) of your microscope design. This calculation is based on the very same lenses as above, plus the objective. In this case, different rays (colored) illustrate different deflections through the mirror, not the boundaries of the beam as above:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" data-attachment-id="7106" data-permalink="https://gcamp6f.com/2022/05/28/simple-geometrical-optics-to-understand-and-design-point-scanning-microscopes/scanning-3/" data-orig-file="https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png" data-orig-size="910,340" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="scanning-3" data-image-description="" data-image-caption="" data-medium-file="https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png?w=300" data-large-file="https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png?w=640" src="https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png?w=910" alt="" class="wp-image-7106" width="561" height="209" srcset="https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png?w=559 559w, https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png?w=150 150w, https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png?w=300 300w, https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png?w=768 768w, https://ptrrupprecht.files.wordpress.com/2022/05/scanning-3.png 910w" sizes="(max-width: 561px) 100vw, 561px" /></figure></div>
+
+
+<p>The deflection angle range of the beam, α, is de-magnified by the scan lens/tube lens system to the smaller angle β and then propagates to the objective. The top-bottom spread of the scanned beams on the left indicates the size of the FOV. Using simple trigonometry based on the angle and the distances of lenses to their focal point, one can state:</p>
+
+
+
+<p class="has-text-align-center"><img src="https://s0.wp.com/latex.php?latex=tan%28%5Calpha%29+%3D+d%2Ff_s&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=tan%28%5Calpha%29+%3D+d%2Ff_s&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=tan%28%5Calpha%29+%3D+d%2Ff_s&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="tan(&#92;alpha) = d/f_s" class="latex" /></p>
+
+
+
+<p class="has-text-align-center"><img src="https://s0.wp.com/latex.php?latex=tan%28%5Cbeta%29+%3D+d%2Ff_t&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=tan%28%5Cbeta%29+%3D+d%2Ff_t&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=tan%28%5Cbeta%29+%3D+d%2Ff_t&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="tan(&#92;beta) = d/f_t" class="latex" /></p>
+
+
+
+<p class="has-text-align-center"><img src="https://s0.wp.com/latex.php?latex=tan%28%5Cbeta%29+%3D+s_%7BFOV%7D%2Ff_o&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=tan%28%5Cbeta%29+%3D+s_%7BFOV%7D%2Ff_o&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=tan%28%5Cbeta%29+%3D+s_%7BFOV%7D%2Ff_o&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="tan(&#92;beta) = s_{FOV}/f_o" class="latex" /></p>
+
+
+
+<p>From which one can derive the expected size of the FOV:</p>
+
+
+
+<p class="has-text-align-center"><img src="https://s0.wp.com/latex.php?latex=s_%7BFOV%7D+%3D+tan%28%5Cbeta%29+%5Ccdot+f_o+%3D+tan%28%5Calpha%29+%5Ccdot+f_o+%5Ccdot+f_s%2Ff_t&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=s_%7BFOV%7D+%3D+tan%28%5Cbeta%29+%5Ccdot+f_o+%3D+tan%28%5Calpha%29+%5Ccdot+f_o+%5Ccdot+f_s%2Ff_t&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=s_%7BFOV%7D+%3D+tan%28%5Cbeta%29+%5Ccdot+f_o+%3D+tan%28%5Calpha%29+%5Ccdot+f_o+%5Ccdot+f_s%2Ff_t&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="s_{FOV} = tan(&#92;beta) &#92;cdot f_o = tan(&#92;alpha) &#92;cdot f_o &#92;cdot f_s/f_t" class="latex" /></p>
+
+
+
+<p>Interestingly, the FOV size depends linearly on the ratio f<sub>s</sub>/f<sub>t</sub>. As we have seen above, the beam diameter at the back aperture of the objective depends linearly on f<sub>t</sub>/f<sub>s</sub>, the inverse. This results in a trade-off, such that, when you try overfill the back aperture by increasing f<sub>t</sub>/f<sub>s</sub>, you will automatically decrease the maximal FOV size. It is therefore important to know beforehand what is more important, high NA (and therefore resolution) or a large FOV size. This is not only but to some extent already determined by the choice of scan lens and tube lens.</p>
+
+
+
+<p>To give some real numbers, the deflection angle of a typical resonant scanner is 26°. Let&#8217;s say we have f<sub>t</sub>/f<sub>s</sub>=4. The &#8220;effective focal length&#8221; of the objective is often not obvious nor indicated. As a rule of thumb, the magnification (e.g., <a href="https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=5824">16x from Nikon</a>) together with the appropriate tube lens (e.g., 200 mm) can be used to compute the focal length as 200 mm/16 = 12.5 mm. &#8211; Where does the 200 mm come from? This is a value that is company-specific. Most companies use 200 mm as this standard tube lens focal length, while for example Olympus uses 180 mm as default. (As a side-effect, a 20x objective from Olympus has a shorter focal length than a 20x objective from Nikon.)</p>
+
+
+
+<p>Together, we have f<sub>o</sub>=12.5 mm, α=26°, f<sub>t</sub>/f<sub>s</sub>=4, arriving at s<sub>FOV</sub>=1.5 mm as an estimate for the maximally achievable FOV using these components.</p>
+
+
+
+<p>As another side note, when you look up the maximal scan angles of a scanner, there is often confusion between &#8220;mechanical&#8221; and &#8220;optical&#8221; scan angle. When a scanner moves <em>mechanically</em> over 10°, the beam will be <em>optically</em> deflected by twice the amount, 20°. For FOV calculations, the optical scan angle should be used, of course.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>(3) How to compute the axial focus shift using a remotely positioned tunable lens</strong></p>
+
+
+
+<p>The final third example for gemetrical optics is a bit more involved, but it might be interesting also for less ambitious microscope tinkerers to get the gist of it.</p>
+
+
+
+<p>I few weeks ago, together with PhD student Gwen Schoenfeld in the lab of Fritjof Helmchen, I wanted to re-design a two-photon microscope in order to enable remote focusing using an electro-tunable lens. Here&#8217;s the basic microscope &#8220;design&#8221; that I started with:</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="7124" data-permalink="https://gcamp6f.com/2022/05/28/simple-geometrical-optics-to-understand-and-design-point-scanning-microscopes/remote_full-1/" data-orig-file="https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png" data-orig-size="2195,538" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="remote_full-1" data-image-description="" data-image-caption="" data-medium-file="https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=300" data-large-file="https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=640" src="https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=1024" alt="" class="wp-image-7124" srcset="https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=1024 1024w, https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=2048 2048w, https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=150 150w, https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=300 300w, https://ptrrupprecht.files.wordpress.com/2022/05/remote_full-1.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>As you can see, the objective, scan lens and tube lens are as simple as in the previous examples. Behind the scan lens (f<sub>s</sub>), there is only a slow galvo scanner (for the y-axis), while the fast resonant scanner (for the x-axis) is behind a 1.5:1 relay. There are two ideas behind this &#8220;relay&#8221; configuration. First, a relay between the two scan mirrors makes it possible to position them more precisely at the focus of the scan lenses (there exist also some more advanced relay systems, but this is a science by itself). Second, the relay system here is magnifying and enlarges the beam size from 5 mm (at the resonant scanner) to 7.5 mm (at the slow galvo scanner). In the end, this results in a smaller FOV size for the x-axis but in a larger beam size at the back of the objective and therefore better resolution.</p>
+
+
+
+<p>To insert a remote tunable lens into this system, we had to do this in an optically conjugate plane of the back focal plane. This required the addition of yet another relay. This time, we chose a de-magnifying relay system. The tunable lens had a larger free aperture than the resonant scanner, so it made sense to use the full aperture. Also, as you will see below, this de-magnifying relay system considerably increases the resulting z-scanning range using the tunable lens. For the tunable lens itself, we chose a tunable lens together with a negative offset lens, resulting in a default behavior of the lens as if it did not exist (at least to a first approximation).</p>
+
+
+
+<p>Now, before choosing the parts, I wanted to know which z-scanning range would be expected for a given combination of parts. My idea, although there might be simpler ways to get the answer, was to compute the complex <a href="https://en.wikipedia.org/wiki/Complex_beam_parameter">beam parameter</a> of the laser beam after passing through the entire lens system. The beam waist and therefore the focus can then be computed as the point where the real part of the beam parameter is zero (check out <a href="https://en.wikipedia.org/wiki/Complex_beam_parameter">the Wikipedia article</a> for more details).</p>
+
+
+
+<p>To calculate the complex beam diameter after passing through the system, I used geometrical optics. More precisely, <a href="https://en.wikipedia.org/wiki/Ray_transfer_matrix_analysis">ABCD optics</a>. ABCD optics is a formalism to use geometrical optics using 2&#215;2 matrices. A lens or a certain amount of free propagation space are represented as simple matrices, and the beam propagation (distance from center line and angle) is then computed by multiplying all the matrices. For the system above, this means the multiplication of 16 matrices, which is not difficult but takes very long. The perfect tool for that is <a href="https://www.wolfram.com/mathematica/">Wolfram&#8217;s Mathematica</a>, which is not free but can be tested as a free trial for 30 days per e-mail address. All the details of this calculation are in a <a href="https://github.com/PTRRupprecht/Calculate-z-range-with-remote-ETL">Mathematica Notebook</a> uploaded to Github.</p>
+
+
+
+<p>Briefly, the result of this rather lengthy mathematical calculation is a simple result, with the main actors being the axial z-shift in the sample (z) and the effective focal length of the tunable lens (f<sub>ETL</sub>): </p>
+
+
+
+<p class="has-text-align-center"><img src="https://s0.wp.com/latex.php?latex=z+%3D+-%5Cfrac%7Bf_o%5E2+%5Ccdot+f_s%5E2+%5Ccdot+f_%7Br1%7D%5E2+%5Ccdot+f_%7Br3%7D%5E2%7D%7Bf_%7BETL%7D+%5Ccdot+f_t%5E2+%5Ccdot+f_%7Br2%7D%5E2+%5Ccdot+f_%7Br4%7D%5E2%7D&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=z+%3D+-%5Cfrac%7Bf_o%5E2+%5Ccdot+f_s%5E2+%5Ccdot+f_%7Br1%7D%5E2+%5Ccdot+f_%7Br3%7D%5E2%7D%7Bf_%7BETL%7D+%5Ccdot+f_t%5E2+%5Ccdot+f_%7Br2%7D%5E2+%5Ccdot+f_%7Br4%7D%5E2%7D&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=z+%3D+-%5Cfrac%7Bf_o%5E2+%5Ccdot+f_s%5E2+%5Ccdot+f_%7Br1%7D%5E2+%5Ccdot+f_%7Br3%7D%5E2%7D%7Bf_%7BETL%7D+%5Ccdot+f_t%5E2+%5Ccdot+f_%7Br2%7D%5E2+%5Ccdot+f_%7Br4%7D%5E2%7D&#038;bg=ffffff&#038;fg=333333&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="z = -&#92;frac{f_o^2 &#92;cdot f_s^2 &#92;cdot f_{r1}^2 &#92;cdot f_{r3}^2}{f_{ETL} &#92;cdot f_t^2 &#92;cdot f_{r2}^2 &#92;cdot f_{r4}^2}" class="latex" /></p>
+
+
+
+<p>Using this formula and a set of candidate lenses, it is then possible to compute the z-scanning range:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img data-attachment-id="7118" data-permalink="https://gcamp6f.com/2022/05/28/simple-geometrical-optics-to-understand-and-design-point-scanning-microscopes/etl_x/" data-orig-file="https://ptrrupprecht.files.wordpress.com/2022/05/etl_x.png" data-orig-size="554,408" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="etl_x" data-image-description="" data-image-caption="" data-medium-file="https://ptrrupprecht.files.wordpress.com/2022/05/etl_x.png?w=300" data-large-file="https://ptrrupprecht.files.wordpress.com/2022/05/etl_x.png?w=554" src="https://ptrrupprecht.files.wordpress.com/2022/05/etl_x.png?w=554" alt="" class="wp-image-7118" srcset="https://ptrrupprecht.files.wordpress.com/2022/05/etl_x.png 554w, https://ptrrupprecht.files.wordpress.com/2022/05/etl_x.png?w=150 150w, https://ptrrupprecht.files.wordpress.com/2022/05/etl_x.png?w=300 300w" sizes="(max-width: 554px) 100vw, 554px" /></figure></div>
+
+
+<p>Here, the blue trace is using the formula above. For the red trace, I displaced the ETL slightly from the conjugate position, making the transfer function more linear but the z-range also smaller, and showing the power and flexibility of the ABCD approach using Mathematica.</p>
+
+
+
+<p>Of course, this calculation does not give the resolution for any of these configurations. To compute actual resolution of an optical system, you will have to work with real (not perfect) lenses, using ZEMAX or a similar software that can import and simulate lens data from e.g. Thorlabs. But it is a nice playground to develop an intuition. For example, from the equation it is clear that the z-range depends on the magnification of the relay lenses quadratically, not linearly. Also, the objective focal length enters this equation with the power of the square. Therefore, if you have such a remote scanning system where a 16x objective results in 200 μm of z-range, switching to a 40x objective will reduce the z-range to only 32 μm!</p>
+
+
+
+<p>This third example for the use of geometrical optics goes a bit deeper, and the complex beam parameter is, to be honest, not really geometrical optics but rather Gaussian optics (which can however use the power of geometrical ABCD optics, for complicated reasons).</p>
+
+
+
+<p>In 2016, I used these mathematical methods to do some calculations for <a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-7-5-1656&amp;id=338741">our 2016 paper</a> on remote z-scanning with a voice coil motor, and it helped me a lot to perform some clean analyses without resorting to ZEMAX. </p>
+
+
+
+<p>Apart from that, the calculation of beam size and FOV size are very simple even for beginners and a nice starting point for a better understanding of one&#8217;s point scanning microscope.</p>
+              
+
+              <p class="text-muted">in <a href ="https://gcamp6f.com">Peter Rupprecht</a> on 2022-05-28 08:18:00 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -3080,60 +3277,6 @@ deep BLSTM-ResNet outperforms shallow BLSTM-ResNet, in general.</p>
               
 
               <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2022-05-18 10:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://forbetterscience.com/2022/05/18/lex-bouter-king-of-research-integrity/">Lex Bouter, King of Research Integrity</a></h4>
-
-              
-                My uninvited contribution to WCRI 2022
-              
-
-              <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2022-05-18 05:28:55 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/denisovan-girl-fossil-tooth-hominid-laos-anthropology">A Denisovan girl’s fossil tooth may have been unearthed in Laos</a></h4>
-
-              
-                <p>A molar tooth from Southeast Asia probably belonged to a member of a cryptic group of Stone Age hominids called Denisovans, researchers say.</p>
-
-
-
-<p>If so, this relatively large tooth joins only a handful of fossils from Denisovans, who are known from ancient DNA pegging them as close Neandertal relatives.</p>
-
-
-
-<p>Analyses of the tooth’s internal structure and protein makeup indicate that the molar came from a girl in the <em>Homo</em> genus. She died between the ages of 3½ and 8½, paleoanthropologist Fabrice Demeter of the University of Copenhagen and colleagues say.</p>
-
-
-
-
-
-<p>A Denisovan molar that dates to at least 160,000 years ago <a href="https://www.sciencenews.org/article/mysterious-denisovan-hominid-fossils-dna-top-science-stories-2019-yir">was previously found on the Tibetan Plateau</a> (<em>SN: 12/16/19</em>). The <a href="https://www.nature.com/articles/s41467-022-29923-z">newly discovered tooth</a> strongly resembles that other molar, indicating that the new find is probably Denisovan too, the team reports May 17 in <em>Nature Communications</em>. Before the Tibetan Plateau tooth, all known fossils from the mysterious hominids had been found in Siberia.</p>
-
-
-
-<p>Estimated ages of sediment and fossil animal bones in Tam Ngu Hao 2, or Cobra Cave, in Laos place the tooth found there between 164,000 and 131,000 years old.</p>
-
-
-
-<p>It&#8217;s possible that the Cobra Cave tooth represents a Neandertal or <a href="https://www.sciencenews.org/article/meet-first-known-child-neandertal-and-denisovan">someone with Denisovan and Neandertal ancestry</a> (<em>SN: 8/22/18</em>), Demeter says. His group hopes to extract DNA from the fossil, which could clarify its evolutionary status.</p>
-
-
-
-<p>It now appears that at least five <em>Homo</em> species, including Denisovans, inhabited Southeast Asia between roughly 150,000 and 40,000 years ago, Demeter says. Others include <em>Homo sapiens</em>, <a href="https://www.sciencenews.org/article/homo-erectus-last-known-appearance-roughly-117000-years-ago"><em>Homo erectus</em></a> (<em>SN: 12/18/19</em>), <a href="https://www.sciencenews.org/article/new-hominid-species-homo-luzonensis-philippines"><em>Homo luzonensis</em></a> (<em>SN: 4/10/19</em>) and <a href="https://www.sciencenews.org/article/hobbits-died-out-earlier-thought"><em>Homo floresiensis</em></a> (<em>SN: 3/30/16</em>), also known as hobbits, he contends.</p>
-
-
-
-<p>Still, some researchers regard Denisovans as <a href="https://www.sciencenews.org/article/dragon-man-skull-homo-longi-human-evolution-neandertals">one of several closely related, ancient <em>Homo</em> populations</a> rather than a distinct species (<em>SN: 6/25/21</em>). Whatever evolutionary ID Denisovans actually held, the Cobra Cave tooth adds to suspicions that the hominids inhabited Southeast Asia’s tropical forests as well as Central Asia’s cold mountain ranges and Siberia.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-05-17 15:00:00 UTC.
               </p>
             </li>
           <!-- each item -->
