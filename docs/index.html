@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2022-10-09 08:20:31 UTC 
+          on 2022-10-10 08:26:32 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -62,6 +62,123 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://forbetterscience.com/2022/10/10/imperial-piss-take/">Imperial Piss-Take</a></h4>
+
+              
+                "Having reviewed the Conflict of Interest disclosures made by Professor Frost, Professor Holmes and Dr Garcia-Perez, and having also reviewed additional information concerning their company, Melico, [...] the College is satisfied that they have no undisclosed or unmanageable conflicts of interests" - Arts Bachelor (Honours)
+              
+
+              <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2022-10-10 08:04:02 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://gcamp6f.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://gcamp6f.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://gcamp6f.com&title=Peter Rupprecht" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://gcamp6f.com/2022/10/09/post-publication-review-the-geometry-of-robustness-in-spiking-neural-networks/">Post-publication review: The geometry of robustness in spiking neural networks</a></h4>
+
+              
+                <p><strong>Selected paper:</strong> <a href="https://elifesciences.org/articles/73276">Calaim, Dehmelt, Gonçalves and Machens, The geometry of robustness in spiking neural networks, eLife (2022)</a></p>
+
+
+
+<p><strong>The main message:</strong> This paper describes an interesting and intuitive way how to think about the effect of single spikes in a network where the output and its error is closely monitored and used as feedback. This intuition is best illustrated by the video below. The video shows how the activity of a network tries to trace a target (in this case a sinus wave). Each neuron defines a boundary (the differently colored lines in the video in the 2D case). If the output of the network exceeds one such boundary surface, a corrective spike of the respective neuron is emitted. The signal is therefore kept in the target zone by being bounced back into the target region once it becomes incorrect. This enables us for example to think about cases where single neurons are perturbed &#8211; when they are excited, inhibited or when they die &#8211; in an intuitive and geometric way in terms of single spikes.</p>
+
+
+
+<figure class="wp-block-video aligncenter wp-block-embed is-type-video is-provider-videopress"><div class="wp-block-embed__wrapper">
+<iframe title='VideoPress Video Player' aria-label='VideoPress Video Player' width='640' height='360' src='https://video.wordpress.com/embed/pvJqfHsy?cover=1&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=1' frameborder='0' allowfullscreen data-resize-to-parent="true"  allow='clipboard-write'></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1658470809'></script>
+</div><figcaption>Video 1 from <a href="https://elifesciences.org/articles/73276">Calaim, Dehmelt, Gonçalves and Machens, eLife (2022)</a>, reproduced here under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</figcaption></figure>
+
+
+
+<p><strong>The strong points:</strong></p>
+
+
+
+<ul>
+<li>This intuitive and interesting visualization of the spiking dynamics in a neuronal network makes several points intuitively clear. For example, why such networks are robust to deletion or inhibition but not excitation of a single neuron (this is illustrated by deformations of the bounding box).<br /></li>
+
+
+
+<li>More generally, the visualization makes it intuitive how neurons might be able to cooperate when taking advantage of such specific and fast feedback loops.<br /></li>
+
+
+
+<li>In addition, a scenario when this sort of simulated network tends to produce unphysiological or at least undesired behavior (discussed as &#8220;ping-pong&#8221; effect in the paper) is made quite intuitive using the bounding box picture. This weakness of such network architectures becomes quite apparent due to the intuitive visualization.<br /></li>
+
+
+
+<li>Finally, to think about redundant neurons as those neurons where the boundary surfaces in this bounding box have similar locations/orientations is simply really cool.</li>
+</ul>
+
+
+
+<p><strong>The weak points:</strong> </p>
+
+
+
+<ul>
+<li>The first weak point is that the presentation, despite the nice and intuitive video above, does not seem, from my perspective, accessible for everybody. Here, the task of the presented network is to approximate an externally supplied function (e.g., a sinus function). While many other neuroscientists, also many theoretical neuroscientists, think about neuronal networks as devices to represent information and to transform it, this paper therefore rather aims for a &#8220;control&#8221; approach. In my opinion, it is reasonable to think about the brain as a control device (to control the environment), but I feel that many readers might be already lost because they don&#8217;t understand why such an approach is taken. Only when reading the related work by the group (for an introduction, check out <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003258">Boerlin et al.</a>, PLoS Comp Biol (2013) or <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003258">Denève and Machens</a>, Nat Neuro (2016)), one understands that this property of function approximation could also be a useful model of normal operation of the brain, where the task is to react towards the environment and not to approximate a god-given function. I feel that the authors introduce their idea not in an ideal way to reach a broader audience, especially since I the general idea could in principle be understood by a broader audience.</li>
+</ul>
+
+
+
+<ul>
+<li>It is not clear how the intuition about the effect of single spikes and the target zone in the bounding box would translate to other network architectures that do not follow the rather specific designs. These network designs were described in previous work by <a href="https://machenslab.org/">Christian Machens</a> and <a href="https://scholar.google.fr/citations?hl=fr&amp;user=PCzuQX8AAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Sophie Denève</a> and feature a specific excitatory/inhibitory connectivity. A core feature of such networks is that the voltages of neurons are largely synchronized but their spiking is not, resulting in a seemingly asynchronous firing regime as found in the cortex, despite redundancy at the voltage behavior of single neurons.<br />This limitation also came up during the review process. The authors try to discuss these questions in detail and to address some of them, as much as possible, with additional analyses and models. Check out <a href="https://elifesciences.org/articles/73276#sa1">the open reviews</a> (which are always accessible for eLife papers)!</li>
+</ul>
+
+
+
+<p><strong>Conclusion:</strong> I like the paper because it comes up with a surprising, new and maybe even useful idea. It attempts to think about the consequences and circumstances of a single neuron&#8217;s spike, and how the effect of this single spike on other neurons can be understood. All these intuitions come with the assumption that there is a closely monitored error of the output signal, which in turn is fed back into the system in a very precise manner. This assumption might seem very strong in the beginning. However, in order to understand things, we have to make some assumptions, and even from wrong assumptions, we might be able to develop first intuitions about what is going on.</p>
+              
+
+              <p class="text-muted">in <a href ="https://gcamp6f.com">Peter Rupprecht</a> on 2022-10-09 20:53:28 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://neuroblog.fedoraproject.org/>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://neuroblog.fedoraproject.org/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://neuroblog.fedoraproject.org/&title=NeuroFedora blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://neuroblog.fedoraproject.org/2022/10/09/next-open-neurofedora-meeting-10-october-1300-utc.html">Next Open NeuroFedora meeting: 10 October 1300 UTC</a></h4>
+
+              
+                <center><div class="figure">
+<a class="reference external image-reference" href="#"><img alt="Photo by William White on Unsplash" class="img-responsive" src="https://neuroblog.fedoraproject.org/images/20200112-image.jpg" style="width: 80%;" /></a>
+<p class="caption">Photo by <a class="reference external" href="https://unsplash.com/&#64;wrwhite3?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText">William White</a> on <a class="reference external" href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText">Unsplash</a>.</p>
+</div>
+</center>
+<br /><p>Please join us at the next regular Open NeuroFedora team meeting on Monday 26
+September at 1300 UTC. The meeting is a public meeting, and open for everyone
+to attend.  You can join us over:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://matrix.to/#/%23neuro:fedoraproject.org">Matrix</a> (using your web-browser)</li>
+<li><a class="reference external" href="https://webchat.libera.chat/?channels=#fedora-neuro">IRC</a></li>
+</ul>
+<p>You can use <a class="reference external" href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=NeuroFedora+Meeting&amp;iso=20221010T13&amp;ah=1">this link</a> to convert the meeting time to your local time.
+Or, you can also use this command in the terminal:</p>
+<div class="highlight"><pre><span></span>$ date --date<span class="o">=</span><span class="s1">&#39;TZ=&quot;UTC&quot; 1300 2022-10-10&#39;</span>
+</pre></div>
+<p>The meeting will be chaired by <cite>&#64;ankursinha</cite>.
+The agenda for the meeting is:</p>
+<ul class="simple">
+<li>New introductions and roll call.</li>
+<li><a class="reference external" href="https://meetbot.fedoraproject.org/fedora-neuro/2022-10-10/neurofedora.2022-10-10-13.00.html">Tasks from last meeting</a>.</li>
+<li><a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issues?status=Open&amp;tags=S%3A+Next+meeting">Open Pagure tickets</a>.</li>
+<li><a class="reference external" href="https://packager-dashboard.fedoraproject.org/dashboard?groups=neuro-sig">Package health check</a>.</li>
+<li><a class="reference external" href="https://bugzilla.redhat.com/show_bug.cgi?id=fedora-neuro">Open package reviews check</a>.</li>
+<li><a class="reference external" href="https://koji.fedoraproject.org/koji/packageinfo?packageID=30691">CompNeuro lab compose status check for Fedora 37/38</a>.</li>
+<li>Neuroscience query of the week</li>
+<li>Next meeting day, and chair.</li>
+<li>Open floor.</li>
+</ul>
+<p>We hope to see you there!</p>
+              
+
+              <p class="text-muted">in <a href ="https://neuroblog.fedoraproject.org/">NeuroFedora blog</a> on 2022-10-09 15:41:17 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -1935,90 +2052,6 @@
               
 
               <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-09-30 13:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/spider-flip-lasso-ant-biology-australia">This spider literally flips for its food</a></h4>
-
-              
-                <p>For one tiny Australian spider, somersaulting is the secret to taking on ants twice its size.</p>
-
-
-
-<p>Ants — armed with <a href="https://www.sciencenews.org/article/ants-metal-infused-sharp-jaws-biology">powerful jaws</a> and sometimes chemical weapons — are so dangerous to spiders that fewer than 1 percent of arachnids attempt to hunt the insects (<em>SN: 9/8/21</em>). High-speed footage now reveals that the Australian ant-slayer spider (<em>Euryopis umbilicata</em>) can tackle this risky prey by leaping over and lassoing its victims with silk.</p>
-
-
-
-<p>The hunting maneuver <a href="https://www.pnas.org/doi/full/10.1073/pnas.2205942119" target="_blank" rel="noopener">hasn’t been found in any other spider species</a>, researchers report September 19 in the <em>Proceedings of the National Academy of Sciences</em>.</p>
-
-
-
-
-
-<p>“This acrobatic behavior is just fascinating. I’ve personally never seen this kind of hunting,” says Paula Cushing, an evolutionary biologist and curator of invertebrate zoology at the Denver Museum of Nature &amp; Science, who was not involved in the study.</p>
-
-
-
-<p>Alfonso Aceves-Aparicio, a behavioral ecologist at the Max Plank Institute for Chemical Ecology in Jena, Germany, stumbled across the somersaulting spiders while walking home one night. A graduate student at Macquarie University in Sydney at the time, Aceves-Aparicio was intrigued when he noticed dark dots darting across the pale bark of a eucalyptus tree.</p>
-
-
-
-<p>The dots were tiny spiders moving among ants. Suddenly, one of the spiders jumped. “I thought it was trying to escape an ant,” Aceves-Aparicio recalls. “But then I saw the ant floating and I thought, woah, there’s something going on here.”</p>
-
-
-
-<p>Aceves-Aparicio borrowed a high-speed camera to see what the spiders were doing in greater detail. By slowing the action down, he and his colleagues could see that the spiders were in fact hunting ants in a completely unknown way.</p>
-
-
-
-<p>Most ant-hunting spiders use webs or sneak up on their prey from behind to minimize risk. But despite being smaller than their prey, Aceves-Aparicio’s spiders were facing banded sugar ants (<em>Camponotus consobrinus</em>)<em> </em>head on. Each spider positioned itself so that it could watch ants as they moved up the tree. As one approached, the spider flipped above its prey. Once in the air, the spider latched a thread of silk onto the ant.</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Flipping spiders tackle ants twice their size | Science News" width="500" height="281" src="https://www.youtube.com/embed/Blec31O5wvE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div><figcaption>Ant-slayer spiders capture their prey by jumping over ants and tagging them with a thread of silk (shown here in real time, then slow motion) — a leap that lasts all of a few milliseconds. The spiders then dart around ants to trap them in more silk and sweep them off their feet.</figcaption></figure>
-
-
-
-<p>This single tethering action — performed in the space of milliseconds — determined whether the hunt would succeed. If the tether stuck, the spider then darted around the ant, deftly encircling them with more silk and yanking them off their feet to be dragged off and consumed.&nbsp;</p>
-
-
-
-<p>What stands out to Aceves-Aparicio and his colleagues was the technique&#8217;s effectiveness. Predators like lions and wolves tend to miss around 50 percent of their intended targets. The success rate of the 60 spider hunts that the researchers filmed was a staggering 85 percent.</p>
-
-
-
-<p>To Aceves-Aparicio, the discovery shows that extraordinary behaviors can hide in plain sight. “The message here is to have a little curiosity and to pay attention,” he says. “There are things going on everywhere. We just have to be there to find them.”&nbsp;&nbsp;</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-09-30 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/sofia-the-historic-airplane-borne-telescope-lands-for-the-last-time/">Sofia, the Historic Airplane-Borne Telescope, Lands for the Last Time</a></h4>
-
-              
-                Astronomers mourn the end of an infrared observatory that flew aboard a jumbo jet. It was expensive, but it saw what Earth-based telescopes can’t.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2022-09-30 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2022/09/30/when-emails-asking-to-withdraw-manuscripts-started-repeating-themselves-an-editor-got-suspicious/">When emails asking to withdraw manuscripts started repeating themselves, an editor got suspicious</a></h4>
-
-              
-                In late 2021, editors at Laboratory Investigation noticed something strange. The journal was receiving far more emails than usual asking to withdraw manuscripts that were already being peer reviewed. And some of the emails were strikingly similar, even using the same unusual language.&#160; A total of five identical emails said that the authors had new &#8230; <a href="https://retractionwatch.com/2022/09/30/when-emails-asking-to-withdraw-manuscripts-started-repeating-themselves-an-editor-got-suspicious/" class="more-link">Continue reading <span class="screen-reader-text">When emails asking to withdraw manuscripts started repeating themselves, an editor got suspicious</span></a>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2022-09-30 10:00:00 UTC.
               </p>
             </li>
           <!-- each item -->
