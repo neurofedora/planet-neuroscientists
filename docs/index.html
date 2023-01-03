@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2023-01-02 08:15:30 UTC 
+          on 2023-01-03 08:15:33 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -62,6 +62,42 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://forbetterscience.com/2023/01/03/hindawi-garbage-sorting-system-based-on-citations/">Hindawi Garbage Sorting System, Based on Citations</a></h4>
+
+              
+                Parashorea tomentella continues their investigation of Hindawi's uneasy collaboration with Chinese papermills. Can it be solved with the promised 511 retractions?
+              
+
+              <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2023-01-03 07:31:27 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/video-game-dinosaurs/">Video Games Need Better Dinosaurs. Paleontologists Can Help</a></h4>
+
+              
+                WIRED visited the Geological Society of America conference to learn about the untapped potential of gigantic reptiles in gaming.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-02 14:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/why-do-you-get-sick-in-the-winter-blame-your-nose/">Why Do You Get Sick in the Winter? Blame Your Nose</a></h4>
+
+              
+                A new study shows that as temperatures drop, nasal cells release fewer of the tiny protectors that bind and neutralize invading germs.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-02 12:00:00 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://xcorr.net>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://xcorr.net" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://xcorr.net&title=xcorr.net" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -150,7 +186,7 @@
 					<input type="hidden" name="source" value="https://xcorr.net/feed/"/>
 					<input type="hidden" name="sub-type" value="subscribe-block"/>
 					<input type="hidden" name="redirect_fragment" value="subscribe-blog"/>
-					<input type="hidden" id="_wpnonce" name="_wpnonce" value="57b373970f" />					<button type="submit"
+					<input type="hidden" id="_wpnonce" name="_wpnonce" value="b698232a49" />					<button type="submit"
 													class="wp-block-button__link no-border-radius"
 																			style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0px; margin-left: 10px;border-radius: 0px;border-width: 1px;"
 											>
@@ -242,6 +278,10 @@
 
 
 
+<p>Edit: There&#8217;s still a possibility that it&#8217;s easier to match a (low-d) brain to a high-d network because of a <em>plenty-of-fish-in-the-ocean</em> effect. I think we&#8217;ll need more subtle metrics than R2 from linear regression to see that. <a href="https://www.youtube.com/watch?v=IWIiR6mjrXY">Elizabeth Dupre has a beautiful presentation at MAIN2022</a> on the myriad bespoke metrics fMRI people use that we should probably import for neurophysiology.</p>
+
+
+
 <h3 class="wp-block-heading">Brain hierarchy score: Which deep neural networks are hierarchically brain-like?</h3>
 
 
@@ -267,6 +307,28 @@
 
 
 <p>On the surface, this paper makes the same point as the brain hierarchy score paper. I liked the brain hierarchy score paper, but I’m skeptical about this one. My criticism is pretty simple: you can’t just plug a brain into an ANN and expect it to work out of the box. The ANN is not trained to deal with the noise inherent in brain data, the linear regression doesn’t take into account that noise (error-in-variables model), nor does it attempt to mimic the spatial structure of the mismatch (assumption of iid noise in multiple linear regression). A quick sanity check would have been to learn the weights by minimizing the multinomial classification loss on ImageNet rather than using a sum-of-squares loss for the intermediate activations. I bet it would reverse the conclusions in Figure 2. That being said, the paper is based on open data, so I think it would be a feasible and enlightening project for an enterprising student to come up with a method that could solve the brain-DNN impedance mismatch.</p>
+
+
+
+<h3 class="wp-block-heading">But wait, there&#8217;s more!</h3>
+
+
+
+<p>After I first published this, a few people pointed out in the comments and on Twitter other papers with a skeptical outlook. Whatever doesn&#8217;t kill neuroAI will only make it stronger (c.f. Doerig et al. 2022), so here they are:</p>
+
+
+
+<ul>
+<li><a href="https://psyarxiv.com/5zf4s/">Deep Problems with Neural Network Models of Human Vision</a>: there&#8217;s a long history of human psychophysics and vision psychology. A lot of that has been brushed aside in neuroAI with a narrow focus on accounting for R2. This paper makes the point that <em>we need more subtle metrics</em>, which is always a winning argument in my book. In particular, we should be able to replicate subtle effects measured with parametric laboratory stimuli through classical psychophysics. I&#8217;m on board with this idea. Where I have a difference of opinions is in the proposed alternative: non-image-computable, bespoke computational models. I can&#8217;t do encoding, decoding, optimization or control with this set of models, so I don&#8217;t think they&#8217;re viable candidates for best-in-class models of visual processing. Perhaps hybrid models will come along.</li>
+
+
+
+<li><a href="https://arxiv.org/abs/2204.03740">Successes and critical failures of neural networks in capturing human-like speech recognition</a>. A similar paper to the previous one, sharing some authors, but this time focused on audition. I haven&#8217;t dug deeply into this one yet.</li>
+
+
+
+<li><a href="https://openreview.net/forum?id=mxi1xKzNFrb">No Free Lunch from Deep Learning in Neuroscience: A Case Study through Models of the Entorhinal-Hippocampal Circuit</a>: This paper makes the point that some neuroAI papers have to bake in a lot of assumptions, fine-tuning research degrees of freedom until they get the desired result. They show this for models of grid cell formation. I like this paper a lot: it shows a particular trap in modelling that we should avoid. One way to show that our modelling choices are sensible and robust: doing sensitivity analyses (inspired by Bayesian modelling). </li>
+</ul>
 
 
 
@@ -1281,7 +1343,7 @@
               <h4><a href="https://medium.com/the-spike/2022-a-review-of-the-year-in-neuroscience-ae4e0de082e7?source=rss----c92c31591e3a---4">2022: A Review of the Year in Neuroscience</a></h4>
 
               
-                <h4>A paean to being boring</h4><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*ME8B0j_3Uh1Si7vsdVYc3Q.jpeg" /><figcaption>Credit: Pixabay</figcaption></figure><p>Can we go back to boring now? No wars launched by a slightly unhinged despot, no global inflation, energy crisis, or ongoing pandemic. No morally-bankrupt World Cup for which the usual euphemism of “questionable human rights record” doesn’t quite do justice to the thousands of workers who died building the carbon-spewing stadia, transport, and facilities in a desert. And no UK led in succession by a self-absorbed, morally dubious sack of straw, a cosplay Margaret Thatcher with no impulse control, and the richest person in the entire House of Commons. (Although admittedly the last of these, Rishi Sunak, is reassuringly, almost cutely, boring: he volunteered — even as Prime Minister — to do the modelling spreadsheets for the recent budget; and used to dress up in Star Wars costumes for non-uniform day at school). Boring is so underrated.</p><p>Neuroscience could do with being a bit more boring. Slowing down a bit, giving us all a chance to catch up. A chance to take it all in. But the torrent shows no abating. So here are some shiny pebbles I’ve plucked from the raging waters, to hold up to the light for you. That on closer inspection the shiny pebble might turn out to be a slime-covered, half-rotten bit of old wood is a risk I’m willing to take on your behalf.</p><p>So let’s plunge in. We’ve got technological advances, from a neuroimaging technique that can allegedly see the spikes coming out of neurons in the living human brain to tantalising steps towards neural activity recorded in a protein (yes, “in”). And we’ve insights into how the brain copes when things are less than optimal: when you’re hungry; and when some of it is missing.</p><h4>Seeing spikes in fMRI</h4><p>fMRI has for decades been the best way of looking at the activity of the intact human brain. But its limitations are frustrating: it’s a proxy, reporting the flow of oxygen-rich blood that is presumably demanded by active neurons, not the neurons’ activity itself; it’s blurry, reporting on chunks of brain that hold up to 100,000 neurons in a normal scanner, and still 1000s of neurons in the strongest scanners; it’s slow, as the blood signal it measures changes over seconds, but neurons fire with millisecond timing so their activity patterns are invisible. This year the teams of Jang-Yeon Park and Jeehyn Kwag <a href="https://doi.org/10.1126/science.abh4340">reported in <em>Science</em></a> a type of fMRI signal that, if real, can overcome all of these issues: it directly reports the activity of neurons, at much finer scales of time and space.</p><p>They showed some compelling evidence. It’s a signal whose peaks aligned with the peaks of spiking activity in a mouse’s cortex after its whiskers were tweaked, and those peaks of activity were just 25 milliseconds after the tweaking. The signal and spiking also aligned well when directly driving neurons to spike using optogenetics. And the signal could resolve different peaks of spiking activity in thalamus and cortex separated by 15ms or so. Roughly, the signal they found changed on the order of 10ms, and could resolve down to 0.22mm. Still thousands of neurons, but it would seem churlish to complain.</p><p>Some caveats are worth noting though. For one, there is no firm idea yet of where this signal is coming from: of exactly how the changing voltage of hundreds or a few thousand neurons can affect the magnetic field strongly enough to be detected. It also needs an absurdly powerful scanner (9.4T). For another, it requires repeated trials to build up the signal, so it can’t be used to look at spontaneous activity, or ongoing behaviour. And as a consequence it requires the subject in the scanner does not move at all. Preferably anaesthetised. A dead fish would be fine, for example.</p><p>But if it all holds up then, wow, what science could be done.</p><h4><strong>A ticker-tape parade for neurons</strong></h4><p>Back in the realm of animal neuroscience, recording the activity from lots of individual neurons is old hat. Decades now, of electrodes and microscopes implanted in brains to capture all that juicy firing. No, the science-fiction scenario for us is a way to record the activity of neurons for weeks or months, across the entire brain, without having to stick anything in it. To track development, learning, ageing; to let the animals behave as they want, free from the constraints of dull lab tasks — watch these moving dots, push this button, pull this lever — and capture their brain’s activity while they do it. And one of the blue-sky ideas was <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002291">the molecular ticker-tape</a>.</p><p>The ticker-tape is a thought experiment of using some kind of growing molecule as a way of time-stamping events in a neuron, then sequencing that molecule at the end of the experiment to recover the order of events: most usually, some kind of DNA. Now <a href="https://www.biorxiv.org/content/10.1101/2021.10.13.463862v1.full">a preprint from Adam Cohen and friends</a> has shown us a proof-of-principle for this ticker tape idea. They found a protein that can grow over time at a constant, slow rate inside mammalian cells, and happens to have pores in it that are the right shape to fit a fluorescent marker for neural activity. They showed that the protein not only grows in neurons, but when activating the fluorescent markers at different time points, that sequence of events could be read out simply by checking where along the protein the marker glowed. And they showed that the combination of growing protein and fluorescent marker could encode c-Fos expression, a gene quickly and transiently transcribed when a neuron has sustained activation. These are baby steps: the fluorescent markers were activated by dyes, not by neural activity; the time resolution was 2 hours; and c-Fos was explicitly activated by a drug in cultured neurons. Still, a first step!</p><p>And not without precedent: at the same time as molecular ticker-tapes for activity were being dreamt up, so was the equivalent molecular machinery for finding connections between neurons. <a href="https://www.nature.com/articles/npre.2011.6452.1">A thought experiment</a> of taking a unique barcode of DNA, injecting it into each neuron, then slicing up the brain and sequencing the DNA to find where each neuron sent its axons. Now, that’s reality: Tony Zador’s team developed <a href="https://doi.org/10.1016/j.neuron.2016.07.036">barcoding RNA for neurons</a>, and have since used it to trace <a href="https://doi.org/10.1038/nature26159">the detailed connections </a>of single neurons in visual cortex. So if barcoding for connections has gone from thought experiment to a fully-realised process in a decade or so, might we see the ticker-tape before the decade is out? Watch this space.</p><h4>What happens when the brain is less than optimal?</h4><p>I don’t know about you, but being hungry makes my brain a little fuzzy, hard of thinking — attempting to put socks in the dishwasher hard-of-thinking. This is perhaps not surprising. Your brain is less than 2 percent of your mass but burns about 20 percent of your energy every day. So if there was one organ that could do with conserving energy, it’s your brain. And for it to conserve energy, the best place to start would be make its neurons less active, for it is in the sending and receiving of spikes that the brain burns through much of its energy. Nathalie Rochefort and her lab asked just that question: does a brain’s processing get altered by hunger?</p><p>Yes, was the answer. They took some hungry mice and some full-up, happy mice, and recorded how neurons in their visual cortex responded to different, boring pictures of straight lines all at the same angle. Neurons in these bits of cortex tend to each send the most spikes to lines at a particular angle, like 30 degrees or 170 degrees; and the further the angle of the lines is from this preferred angle, the fewer spikes they send. In full-up, happy mice, this meant that a neuron wouldn’t respond at all to lines far from its preferred angle; but in hungry mice, it did. Which means that the information the neuron was sending about the world indeed got fuzzier.</p><p>How do fuzzier neurons save energy, you may wonder. What seemed to be happening is that neurons in the hungry mice reduced the flow of current in response to each input they received, so saving energy out in its big, metabolically-expensive dendrites. But at the same time the neurons increased the resistance of their membrane, so increasing the change in voltage caused by the input currents. The result was a noisier voltage at the neuron’s body — and a noisier voltage means a higher chance of a spike being sent when it should not have been. Hence: neurons sending spikes to lines they should not have been responding to.</p><p>An interesting side-note: doesn’t this flatly contradict efficient coding theories?</p><p>These theories propose that brains minimise redundancy between neuron firing, in order to maximise information transmission for the energy available. In other words, have as few neurons as possible send the same message at once. This would seem to predict that as available energy reduces so neuron firing becomes more sparse. But the Rochefort lab paper shows that when energy reduces, neuron firing does not become more sparse, but more noisy, as their tuning becomes broader. Which implies that, for any given picture, more neurons are firing at the same time, not fewer!</p><p>Three possibilities: I’m wrong (seems likely); the brain is already at the limit of efficient coding, so any drop in available energy leads to a drop in coding efficiency (maybe); or efficient coding theories have (mostly) focussed on the wrong end of the neuron — of how to make their output more efficient, when it is the input that uses the most energy, and so it is the input which needs to be optimised. Over to you, theorists.</p><h4>The really sub-optimal brain</h4><p>A hungry brain might be suboptimal, but missing half of it is surely worse. As you may know, recognising written words is mostly handled by your left cortex; the right cortex tends to handle recognising faces. The current hypothesis is that face recognition is initially handled by both sides, but learning to read drives a competition for cortical real-estate, so word recognition ends up on the left (where language is), and faces predominantly on the right (where language isn’t). Which suggests this left/right split of words and faces is pre-ordained. To test this you’d want to ask what would happen if there was only one hemisphere to begin with: is the brain plastic enough to cope with that?</p><p>Marlene Behrmann and team were able to <a href="https://www.pnas.org/doi/10.1073/pnas.2212936119">ask just this question</a>, by studying a group of people who’d had one hemisphere removed in childhood. This may sound drastic, and it is — it’s a last resort treatment for intractable, severe epilepsy, restoring some quality of life by cutting out all the tissue which generates the seizures. Behrmann and co could ask of them: how well could they recognise previously presented words or faces? If words and faces really were pre-ordained to be left and right hemisphere, then if one was missing then presumably recognition would be terrible. But it wasn’t.</p><p>Sure, those missing half a cortex couldn’t quite match the accuracy of people with intact cortices, but they still got over 80% correct on average. And did so in both face and word recognition, irrespective of which hemisphere was missing. So there is no pre-ordained mapping of word or face recognition to the left and right hemispheres. And both face and word recognition can happen, and happen well, in one hemisphere alone. Remarkable thing, the brain.</p><p>Lots more to catch up on. We’ve had <a href="https://doi.org/10.1038/s41586-022-04554-y">brain charts for the human lifespan</a>, of how it grows and evolves and shrinks with age, a paper notable for the lead authors’ extraordinary effort in gathering the necessary data together. You may remember me banging on about <a href="https://medium.com/the-spike/the-dark-neuron-problem-47d758d7600b">“dark” neurons</a>, the rather large set of neurons in the cortex that don’t seem do anything. Well, <a href="https://doi.org/10.1038/s41593-022-01203-5">it turns out</a> that ketamine causes inactive neurons to become active, and vice-versa. So the weird dissociation effects of Special K may simply be down to the dark neurons sparking to life, sending spikes about stuff that isn’t out there in the world. And <a href="https://doi.org/10.1038/s41586-022-04486-7">it turns out</a> the reason urbanite North Americans get lost in European cities is that they were raised in grid cities — so their brains can’t cope with the concept of streets that bend, or meet at any angle other than 90 degrees.</p><p>And finally. Researchers at Facebook revealed the best thing people in poverty could do to improve their lot: make better friends. I wish I was joking. Looking at 72.2 million Facebook users in the USA, <a href="https://doi.org/10.1038/s41586-022-04996-4">they found</a> the best predictor of increased income was how many better-off friends a person had. Which led them to <a href="https://doi.org/10.1038/s41586-022-04997-3">a simple solution</a> for solving poverty, of creating more opportunities for people on low incomes to make friends with people on higher incomes. So that’s world poverty solved. See you next year, when Facebook researchers will discover that the best predictor of people having enough food is their income, and propose that we give people enough money to buy stuff.</p><p>psst… my book all about how neurons passing spikes makes seeing, thinking, and doing happen <a href="https://press.princeton.edu/books/paperback/9780691241487/the-spike">is out in paperback</a> on Jan 24th 2023.</p><p>Other than that, please, 2023: be more boring.</p><p><em>Twitter: </em><a href="https://twitter.com/markdhumphries"><em>@markdhumphries</em></a><em><br>Mastodon: </em><a href="https://neuromatch.social/@markdhumphries"><em>@neuromatch.social@markdhumphries</em></a></p><p>Enjoyed this story? Then consider signing up to become a Medium member: $5 a month gives you unlimited access to all stories on Medium, and supports all their writers. If you sign up using my link, I’ll earn a small commission: <a href="https://drmdhumphries.medium.com/membership">https://drmdhumphries.medium.com/membership</a></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=ae4e0de082e7" width="1" height="1" alt=""><hr><p><a href="https://medium.com/the-spike/2022-a-review-of-the-year-in-neuroscience-ae4e0de082e7">2022: A Review of the Year in Neuroscience</a> was originally published in <a href="https://medium.com/the-spike">The Spike</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>
+                <div class="medium-feed-item"><p class="medium-feed-image"><a href="https://medium.com/the-spike/2022-a-review-of-the-year-in-neuroscience-ae4e0de082e7?source=rss----c92c31591e3a---4"><img src="https://cdn-images-1.medium.com/max/1280/1*ME8B0j_3Uh1Si7vsdVYc3Q.jpeg" width="1280"></a></p><p class="medium-feed-snippet">A paean to being boring</p><p class="medium-feed-link"><a href="https://medium.com/the-spike/2022-a-review-of-the-year-in-neuroscience-ae4e0de082e7?source=rss----c92c31591e3a---4">Continue reading on The Spike »</a></p></div>
               
 
               <p class="text-muted">in <a href ="https://medium.com/the-spike?source=rss----c92c31591e3a---4">The Spike</a> on 2022-12-28 14:21:54 UTC.
@@ -2422,140 +2484,6 @@
               
 
               <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-12-21 18:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/50-years-ago-apollo-17-humans-walk-moon">Humans haven’t set foot on the moon in 50 years. That may soon change</a></h4>
-
-              
-                <div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><a href="https://www.sciencenews.org/sn-magazine/december-23-1972"><img decoding="async" loading="lazy" src="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_50ya_cover-342x450.jpg" alt="" class="wp-image-3120497" width="171" height="225" srcset="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_50ya_cover-342x450.jpg 342w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_50ya_cover-291x383.jpg 291w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_50ya_cover-141x186.jpg 141w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_50ya_cover-440x580.jpg 440w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_50ya_cover-589x776.jpg 589w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_50ya_cover.jpg 630w" sizes="(max-width: 171px) 100vw, 171px" /></a></figure></div>
-
-
-<p><strong>A perfect ending for the final Apollo</strong> — <em><a href="https://www.sciencenews.org/archive/perfect-ending-final-apollo">Science News</a></em>, December 23, 1972</p>
-
-
-
-<p>Project Apollo ended this week. The last moon men … returned to Earth … and splashed down on a target in the Pacific Dec. 19.… All of the surface and orbital instruments appear to be working with the exception of the surface gravimeter.… The geology investigation team summed it up this way: “Apollo 17 will be remembered as the most scientifically sophisticated, not as the last, manned lunar landing.”</p>
-
-
-
-
-
-<h4>Update</h4>
-
-
-
-<p>The Apollo missions continue adding to our knowledge of the moon and Earth. Scientists have used lunar soil samples collected by <a href="https://www.sciencenews.org/article/moon-dirt-plants-farming-regolith">Apollo astronauts</a> to show that growing plants on the moon, while challenging, may be possible (<em>SN: 7/2/22, p. 4</em>). In May, NASA researchers began scrutinizing<a href="https://www.nasa.gov/feature/goddard/2022/apollo-17-lunar-samples/" target="_blank" rel="noopener"> untouched lunar rock and soil samples from the Apollo 17 mission</a> for hints of past moon conditions and the chemicals crucial for life. Then in November, a new era of moon missions dawned with the launch of NASA’s <a href="https://www.sciencenews.org/article/moon-artemis-launch-human-spaceflight-apollo-nasa-china">Artemis I mission</a>. NASA hopes to land humans on the moon in 2025 to pick up where Apollo 17 astronauts left off.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-12-21 16:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2022/12/21/the-top-10-retraction-stories-of-2022/">The top 10 retraction stories of 2022</a></h4>
-
-              
-                <div class="wp-block-image is-style-default">
-<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/retracted.jpeg?ssl=1"><img decoding="async" loading="lazy" width="300" height="165" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/retracted-300x165.jpeg?resize=300%2C165&#038;ssl=1" alt="" class="wp-image-126255" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/retracted.jpeg?resize=300%2C165&amp;ssl=1 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/retracted.jpeg?w=593&amp;ssl=1 593w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></figure></div>
-
-
-<p>What retractions grabbed the most attention in 2022?</p>
-
-
-
-<p>As we&#8217;ve now done <a href="https://www.the-scientist.com/daily-news/top-10-retractions-of-2013-38213">for a decade</a>, we took a look through the year&#8217;s stories about retractions for our friends at <em>The Scientist </em>and gathered the ten that seemed to most capture the limelight. As we write there, the cases ranged from &#8220;typo-laden code in psychedelics research to paper mills and plagiarism.&#8221;</p>
-
-
-
-<span id="more-126254"></span>
-
-
-
-<p>Head over and <a href="https://www.the-scientist.com/news-opinion/the-top-retractions-of-2022-70852">take a look</a>.</p>
-
-
-
-<p><em>Like Retraction Watch? You can make a&nbsp;</em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us&nbsp;</em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us&nbsp;</em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your&nbsp;</em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our&nbsp;</em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s&nbsp;</em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can&nbsp;</em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
-
-
-<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2022-12-21 15:36:27 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/record-breaking-science-discoveries-2022">Here are 5 record-breaking science discoveries from 2022</a></h4>
-
-              
-                <p>New scientific records are set every year, and 2022 was no exception. A bacterial behemoth, a shockingly speedy supercomputer and a close-by black hole are among the most notable superlatives of the year.</p>
-
-
-
-<h4>Earliest surgery</h4>
-
-
-
-<p>The <a href="https://www.sciencenews.org/article/amputation-surgery-oldest-fossil-borneo">first known surgical operation was a leg amputation</a> (<em>SN: 10/8/22 &amp; 10/22/22, p. 5</em>). That’s the conclusion researchers came to after investigating the skeleton of a person who lived on the Indonesian island of Borneo about 31,000 years ago. Healed bone where the lower left leg had been removed suggests the individual survived for several years after the procedure. The discovery pushes surgery’s origin back by some 20,000 years.</p>
-
-
-
-
-
-<h4>Biggest single-celled bacterium</h4>
-
-
-
-<p>Bacteria normally dwell in the microscopic world. Not <em>Thiomargarita magnifica</em>. Averaging about a centimeter long, <a href="https://www.sciencenews.org/article/giant-eukaryote-thiomargarita-magnifica-namibiensis-largest-bacterium">this newfound bacterium is visible to the naked eye</a> (<em>SN: 7/16/22 &amp; 7/30/22, p. 17</em>). <em>T. magnifica</em>, which lives in the mangrove forests of the Caribbean’s Lesser Antilles, is about 50 times larger than other species of big bacteria and about 5,000 times larger than typical bacteria. Why this species evolved into such a giant is unknown.</p>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-full"><img decoding="async" loading="lazy" width="680" height="680" src="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_bacterium.jpg" alt="Thiomargarita magnifica bacteria shown next to a dime" class="wp-image-3120473" srcset="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_bacterium.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_bacterium-383x383.jpg 383w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_bacterium-450x450.jpg 450w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_bacterium-186x186.jpg 186w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_bacterium-580x580.jpg 580w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_bacterium-214x214.jpg 214w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3120473"><em>Thiomargarita magnifica</em> bacteria (several shown next to a dime for scale) average about 1 centimeter long.</span><span class="credit wp-credit-3120473">Thomas Tyml</span></figcaption></figure></div>
-
-
-<h4>Fastest supercomputer</h4>
-
-
-
-<p>A supercomputer named Frontier crunched numbers with mind-blowing speed this year: <a href="https://www.sciencenews.org/article/supercomputer-exascale-frontier-speed-record-computing-calculations">1.1 quintillion operations per second</a> (<em>SN Online: 6/1/22</em>). That makes the machine, run by Oak Ridge National Laboratory in Tennessee, the first exascale computer — a computer that can perform at least 10<sup>18</sup> operations per second. The next fastest computer tops out at 442 quadrillion (that’s 10<sup>15</sup>) operations per second. Exascale computing is expected to lead to breakthroughs in everything from climate science to health to particle physics.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="680" height="383" src="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_Fastest-computer.jpg" alt="The Frontier supercomputer" class="wp-image-3120475" srcset="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_Fastest-computer.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_Fastest-computer-330x186.jpg 330w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3120475">The Frontier supercomputer at Oak Ridge National Laboratory officially reached the milestone of exascale computing.</span><span class="credit wp-credit-3120475">Carlos Jones/ORNL/DOE</span></figcaption></figure>
-
-
-
-<h4>Largest fish colony</h4>
-
-
-
-<p>Deep off the coast of Antarctica, icefish congregate in a breeding colony as big as Orlando, Fla. Some <a href="https://www.sciencenews.org/article/ice-fish-nest-antarctica-breeding-colony-largest-group">60 million nests of Jonah’s icefish</a> (<em>Neopagetopsis ionah</em>) stretch across at least 240 square kilometers of seafloor (<em>SN: 2/12/22, p. 12</em>). Previously, nest-building species of fish were known to gather in only the hundreds. An abundant food supply and access to a zone of unusually warm water may explain the exceptionally large group.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="680" height="383" src="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_Icefish.jpg" alt="Three Jonah’s icefish near their nests" class="wp-image-3120476" srcset="https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_Icefish.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2022/12/121722_Est_Icefish-330x186.jpg 330w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3120476">Jonah’s icefish create circular nests with hard rock centers, where the fish can lay over 1,000 eggs.</span><span class="credit wp-credit-3120476">ALFRED WEGENER INSTITUTE, PS124 OFOBS TEAM</span></figcaption></figure>
-
-
-
-<h4>Closest black hole </h4>
-
-
-
-<p>By sifting through data released by the Gaia spacecraft, astrophysicists discovered <a href="https://www.sciencenews.org/article/closest-known-black-hole-to-earth">a black hole that’s just over 1,560 light-years from Earth</a> (<em>SN Online: 11/4/22</em>). Dubbed Gaia BH1, it’s about twice as close as the previously nearest known black hole. But that record may not stand. About 100 million black holes are predicted to exist in the Milky Way. Since most are invisible, they’re hard to find. But when Gaia, which is precisely mapping a billion stars, releases its next batch of data in a few years, even closer black holes may turn up.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="680" height="383" src="https://www.sciencenews.org/wp-content/uploads/2022/12/117122_EST_Closest-black-hole.jpg" alt="Illustration of black hole Gaia BH1" class="wp-image-3120474" srcset="https://www.sciencenews.org/wp-content/uploads/2022/12/117122_EST_Closest-black-hole.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2022/12/117122_EST_Closest-black-hole-330x186.jpg 330w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3120474">Stellar winds from a companion star might accrete onto black hole Gaia BH1 (illustrated), giving it a wispy halo distorted by gravity.</span><span class="credit wp-credit-3120474">GAIA/ESA, DPAC (<a href="https://creativecommons.org/licenses/by-sa/3.0/igo/" target="_blank" rel="noopener">CC BY-SA 3.0 IGO</a>)</span></figcaption></figure>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2022-12-21 14:00:00 UTC.
               </p>
             </li>
           <!-- each item -->
