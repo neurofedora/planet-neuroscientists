@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2023-01-12 08:16:35 UTC 
+          on 2023-01-13 08:16:03 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -62,6 +62,629 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://blogs.biomedcentral.com/bmcseriesblog>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://blogs.biomedcentral.com/bmcseriesblog" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://blogs.biomedcentral.com/bmcseriesblog&title=BMC Series blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://blogs.biomedcentral.com/bmcseriesblog/2023/01/13/too-fast-to-catch-a-perspective-on-the-state-of-transposable-elements-in-research/">Too fast to catch?: a perspective on the state of transposable elements in research</a></h4>
+
+              
+                <img width="140" height="110" src="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2022/12/singel-cell-2-140x110.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;" /><p>When Barbara McClintock dubbed them “<a href="http://symposium.cshlp.org/content/21/197">controlling elements</a>”, the term she used was perhaps far more prescient and descriptive than the term more commonly used today, transposable elements (TEs). In many organisms, including in clades as diverse as plants, animals – mammalian and otherwise -, and bacteria, TEs are a major component of the genome, as well as its organization and regulation. In humans, roughly <a href="https://www.nature.com/articles/35057062">45% of the genome comprises TEs</a>, with a large majority of that consisting of retrotransposons, while in mice, <a href="https://www.nature.com/articles/nature01262">TEs make up 37% of the genome</a>. Far from mere evolutionary junk, TEs have a variety of modes of impact on the genome and the transcriptome. Even in mammalian genomes, where many TEs are dormant, multiple classes of TEs, such as LINEs and Alu elements, still show active transposition [<a href="https://pubmed.ncbi.nlm.nih.gov/32722770/">1</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/33725281/">2</a>]. This can be a part of the normal genetic variety of the species, but is more frequently linked with adverse outcomes, such as developmental disorders, <a href="https://www.nature.com/articles/s41576-019-0165-8">genetic diseases</a>, and <a href="https://www.nature.com/articles/nrc.2017.35">tumor formation</a> . To prevent such outcomes, TE activity and expression is tightly regulated in many genomes, often using TE proprietary regulatory mechanisms. For example, the suppression of TEs during development often remains intact, despite near-global demethylation and formation of pervasive euchromatin regions [<a href="https://www.nature.com/articles/s41580-019-0159-6">3</a>].</p>
+<p>In more recent years, the initial spike in research pertaining to TEs has been followed by a steady decline in the number of publications since 2013 (based on number of publications listed on the PubMed archives). In comparison, even when we do not account for the large amount of research related to the COVID-19 pandemic, the number of total research articles, as well as research in other fields has seen a general steady increase. While TEs continue to be a source of novel and vital information in many types of biological activity, the research has simply failed to catch up with the growing understanding of their importance in the genome.One of the potential reasons for this decline is the same property of TEs that makes them so important to the genome: as repeat elements, which, unlike tandem repeats, are found scattered across the genome, in-depth study of TEs requires increasingly more specialized tools and methods to yield new insights [<a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1577-z">4</a>, <a href="https://www.nature.com/articles/s41576-018-0050-x">5</a>]. For example, due to the potential impact of individual TE instances on the local genomic regions, such as through contributions of regulatory motifs (e.g. transcription factor binding sites), analyzing TE activity as a single meta-gene might lead to insufficient or misleading results. In addition, as mentioned previously, many TEs are actively transposed in both germline and somatic cells, often creating large scale structural variances that are difficult to capture properly without examination of the individual cells or organisms. Use of a reference genome for an organism without taking into account the possibility of such transposition might lead to missed opportunities for TE research. Overcoming such challenges might require extensive modifications to or adaptations of accepted methodologies, which is no trivial task.</p>
+<blockquote><p>TEs are a major component of the genome, as well as its organization and regulation.</p></blockquote>
+<p>Despite the decrease in published TE research, recent years have also seen an increasing number of computational tools designed to create bespoke solutions for problems faced by TE researchers [<a href="https://www.nature.com/articles/s41576-018-0050-x">5]</a>. In bulk RNA sequencing, the analysis of TEs has seen significant improvements, thanks to tools such as <a href="https://pubmed.ncbi.nlm.nih.gov/29218879/">SalmonTE,</a> by Hyun-Hwan Jeong <em>et al</em>., and <a href="https://pubmed.ncbi.nlm.nih.gov/30624635/">SQuIRE</a>, by Wan R Yang <em>et al</em>. . These tools allow improved locus specific quantification, allowing for more precise data. Due to the more complicated nature of the resulting data, TE research using single cell sequencing continues to see improvements. Previously, Jiangping He and colleagues have made available the <a href="https://www.nature.com/articles/s41467-021-21808-x">scTE pipeline</a>, which allowed for the quantification of TEs on a metagene level in single cell RNA-seq data. More recently, Rocío Rodríguez-Quiroz and Braulio Valdebenito-Maturana have published <a href="https://www.nature.com/articles/s42003-022-04020-5">soloTE</a> , which can quantify TE expression in single cell data on a locus-specific level, leading to further refinement of such analysis. For analysis of retrotransposons which code for peptides, and thus contain speficic domain sequences, Mikhail Biryukov and Kirill Ustyantsev have created <a href="https://pubmed.ncbi.nlm.nih.gov/35052350/">DARTS</a> , for domain associated retrotransposon search in genome assemblies. Meanwhile, even more improved usage of such developed tools is possible. In a benchmark analysis involving multiple algorithms and pipelines, including the previously mentioned SQuIRE and SalmonTE, Natalia Savytska <em>et al</em>. have integrated transcription start site profile data to more accurately identify and quantify instance specific TE expression [<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9633680/">6]</a>. Thanks to such innovations, there is hope that our understanding of TEs will soon see an acceleration.</p>
+<p>In conclusion, TE research remains a vital, yet underappreciated field of study. Lowering the barriers to conducting and understanding TE research is an important prospect, requiring the contributions of many researchers in multiple biological disciplines. This is why we would like to attract your attention to our new <em><a href="https://bmcgenomics.biomedcentral.com/">BMC Genomics</a> </em>collection, titled &#8220;<a href="https://www.biomedcentral.com/collections/transposons">Transposable elements</a>&#8220;, to shine a spotlight on our current and growing knowledge of TEs.</p>
+<p>The post <a rel="nofollow" href="https://blogs.biomedcentral.com/bmcseriesblog/2023/01/13/too-fast-to-catch-a-perspective-on-the-state-of-transposable-elements-in-research/">Too fast to catch?: a perspective on the state of transposable elements in research</a> appeared first on <a rel="nofollow" href="https://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a>.</p>
+              
+
+              <p class="text-muted">in <a href ="https://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on 2023-01-13 07:00:43 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://forbetterscience.com/2023/01/13/schneider-shorts-13-01-2023-on-a-strictly-confidential-basis/">Schneider Shorts 13.01.2023 – On a strictly confidential basis</a></h4>
+
+              
+                Schneider Shorts 13.01.2023 - confidential whitewashing in Australia, hallmarks of fraud in Cell, Nature journals welcome Count Facula and a Greek cheater, with FDA's new Alzheimer's drug, a German editor who can't stop papermilling, an Italian art lover in Ohio, and why Smut Clyde will never get full credit.
+              
+
+              <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2023-01-13 06:05:02 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://retractionwatch.com/2023/01/12/was-a-paper-from-taiwan-retracted-because-of-a-geopolitical-dispute/">Was a paper from Taiwan retracted because of a geopolitical dispute? </a></h4>
+
+              
+                <div class="wp-block-image is-style-default">
+<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-12-at-4.45.59-PM.png?ssl=1"><img decoding="async" width="266" height="300" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-12-at-4.45.59-PM-266x300.png?resize=266%2C300&#038;ssl=1" alt="" class="wp-image-126391" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-12-at-4.45.59-PM.png?resize=266%2C300&amp;ssl=1 266w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-12-at-4.45.59-PM.png?resize=909%2C1024&amp;ssl=1 909w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-12-at-4.45.59-PM.png?resize=768%2C865&amp;ssl=1 768w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-12-at-4.45.59-PM.png?w=1236&amp;ssl=1 1236w" sizes="(max-width: 266px) 100vw, 266px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p>A study in the journal <em>Smart Materials in Medicine</em> has earned a retraction, seemingly not because of scholarly malfeasance or an inadvertent oversight, but because of a “lack of agreement on affiliation format.”&nbsp;</p>
+
+
+
+<p>The crucial fact seems to be that almost all of the article’s authors, including its two senior authors, list affiliations in Taiwan, raising the question if the retraction is based on the geopolitical dispute about whether Taiwan is an independent nation or part of China.</p>
+
+
+
+<p>The article, <a href="https://www.sciencedirect.com/science/article/pii/S2590183421000478">“Anti-microbial/oxidative/inflammatory nanogels accelerate chronic wound healing,”</a> was published online in late 2021. The journal is not indexed in Clarivate’s Web of Science, although there are 10 citations of&nbsp; the article listed on the article’s web page as of January 12. There is no Twitter chatter indicating anything amiss with the article’s conclusions or methods, and no discussion about it on PubPeer.</p>
+
+
+
+<p>It’s unclear when exactly the paper was retracted. Its cryptic retraction notice states:</p>
+
+
+
+<span id="more-126390"></span>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Due to the lack of agreement on affiliation format between authors and the owner of the journal, this article has been retracted at the request of all authors, the Editors-in-Chief and the owner of the journal.&nbsp;</p>
+</blockquote>
+
+
+
+<p><em>Smart Materials in Medicine </em>is published by Elsevier on behalf of KeAi Communications, an open access publisher <a href="https://www.keaipublishing.com/en/about-us/contact/">based in Beijing</a>. According to KeAi’s <a href="https://www.keaipublishing.com/en/about-us/">website</a>, Elsevier cofounded the publisher with China Science Publishing &amp; Media Ltd, and the company “believe[s] in the global impact of research from China.”</p>
+
+
+
+<p class="has-drop-cap">The Chinese government has attempted to <a href="https://www.timeshighereducation.com/news/china-takes-big-publishers-world-class-journal-drive">influence scientific publishing</a> in other ways before, resulting in publishers “self-censoring content on ‘sensitive’ topics,” <a href="https://www.timeshighereducation.com/depth/can-academic-publishers-resist-self-censorship-china">according to <em>Times Higher Education</em></a><em>.</em></p>
+
+
+
+<p>Elsevier did not reply to our requests for comment. We also did not hear back from the journal’s editor, Donghui Zhu of Stony Brook University in New York. The study’s corresponding authors &#8211; Huan-Tsung Chang of the National Taiwan University in Taipei and Chih-Ching Huang of the National Taiwan Ocean University and ​​Kaohsiung Medical University &#8211; also did not reply to our requests for comment. So the exact nature of the “lack of agreement on affiliation format” remains unknown.</p>
+
+
+
+<p>That said, Elsevier includes this familiar disclaimer on the <a href="https://www.sciencedirect.com/journal/smart-materials-in-medicine/about/editorial-board">journal’s editorial board listing</a>, though it doesn’t appear on the retracted article page:</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>All members of the Editorial Board have identified their affiliated institutions or organizations, along with the corresponding country or geographic region. Elsevier remains neutral with regard to any jurisdictional claims.</p>
+</blockquote>
+
+
+
+<p><em>Like Retraction Watch? You can make a&nbsp;</em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us&nbsp;</em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us&nbsp;</em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your&nbsp;</em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our&nbsp;</em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s&nbsp;</em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can&nbsp;</em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
+
+
+<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
+              
+
+              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2023-01-12 23:30:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/2022-wasnt-the-hottest-on-record-thats-nothing-to-celebrate/">2022 Wasn't the Hottest on Record. That’s Nothing to Celebrate</a></h4>
+
+              
+                Last year was one of the warmest measured, say NASA and NOAA. It would have been even more sweltering if not for La Niña, which will soon fade away.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-12 21:21:53 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://liorpachter.wordpress.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://liorpachter.wordpress.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://liorpachter.wordpress.com&title=Bits of DNA" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/">Ting Guo, sexual assault allegations, and the UC Davis Young Scholars Program</a></h4>
+
+              
+                <p>The <a rel="noreferrer noopener" href="https://education.ucdavis.edu/young-scholars-program" target="_blank">UC Davis Young Scholars Program</a> is a summer residential program that provides high school students the opportunity to work one-on-one with research faculty in state-of-the-art labs for six weeks. One of the faculty mentors that the program recently showcased on <a rel="noreferrer noopener" href="https://www.facebook.com/ucdavisysp/" target="_blank">its Facebook page</a> is Chemistry <a rel="noreferrer noopener" href="https://chemistry.ucdavis.edu/people/ting-guo" target="_blank">Professor Ting Guo</a>, who has been a faculty mentor in the program for many years. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/chemistry2.png"><img data-attachment-id="14906" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/chemistry2/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/chemistry2.png" data-orig-size="2581,1273" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="chemistry2" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=1024" alt="" class="wp-image-14906" srcset="https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=2048 2048w, https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/chemistry2.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>Professor Guo, who was the chairman of the UC Davis Chemistry Department from 2016-2018, has been mentoring high school students for over a decade. Already in 2010, he was awarded the <a rel="noreferrer noopener" href="https://www.ucdavis.edu/news/diversity-reigns" target="_blank">Chancellor&#8217;s Achievement Award for Diversity and Community</a> by then <a href="https://www.washingtonpost.com/news/grade-point/wp/2016/08/10/uc-davis-chancellor-resigns-after-pepper-spray-scandal/" target="_blank" rel="noreferrer noopener">Chancellor Linda Katehi</a>. In January of that year, he started mentoring a high school student, who had written to him asking whether she could shadow him at work for an assignment from her AP Chemistry teacher. She had written to several professors and he was the first to reply affirmatively.</p>
+
+
+
+<p class="has-vivid-red-color has-text-color has-medium-font-size"><strong>Warning: what follows contains descriptions of violence, sexual assault, and other traumatic events</strong>. You can read a summary by skipping to &#8220;<a href="#Summary">The end</a>&#8220;.</p>
+
+
+
+<p>In 2018, the high school student from 2010 who had shadowed Professor Guo for an AP Chemistry assignment, and was by then at UC Santa Barbara, contacted a USCB Police Department detective to report that she had been repeatedly sexually assaulted by Professor Guo in 2010. This is detailed in a lawsuit (<a rel="noreferrer noopener" href="https://trellis.law/case/cv2020-1704/jane-doe-vs-ting-guo-board-regents-university-california-davis" target="_blank">CV2020-1704</a>) filed by the student against Professor Guo and the Board of Regents of the University of California, Davis. The filing describes an alleged incident on August 7, 2010, where the high school student (now the plaintiff) presented Professor Guo with some gifts (per her cultural custom) and offered to help him carry them home. At his house he allegedly offered her beer (which she declined because she was underage), and they apparently talked about Star Wars and his complete collection of the movies. Below is an excerpt from her statement to the UCSB police that is reproduced in the filing: </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg"><img loading="lazy" data-attachment-id="14902" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/excerpt-1/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg" data-orig-size="1260,934" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="excerpt-1" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg?w=490" src="https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg?w=1024" alt="" class="wp-image-14902" width="1024" height="759" srcset="https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg?w=768 768w, https://liorpachter.files.wordpress.com/2023/01/excerpt-1.jpg 1260w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p>The plaintiff alleges that a few months later, by September 2010, she had been sexually assaulted three times:</p>
+
+
+
+<figure data-carousel-extra='{"blog_id":12758541,"permalink":"https:\/\/liorpachter.wordpress.com\/2023\/01\/12\/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program\/"}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex">
+<figure class="wp-block-image size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image.png"><img data-attachment-id="14907" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-6/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image.png" data-orig-size="1484,846" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image.png?w=490" data-id="14907"  src="https://liorpachter.files.wordpress.com/2023/01/image.png?w=1024" alt="" class="wp-image-14907" srcset="https://liorpachter.files.wordpress.com/2023/01/image.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image.png?w=768 768w, https://liorpachter.files.wordpress.com/2023/01/image.png 1484w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</figure>
+
+
+
+<p>The details are painful and poignant. After the second assault he allegedly offered her $60: &#8220;She refused and felt disrespected. But then he said to give it to her mom.&#8221; And as is often the case when massive power differentials are at play, the victim &#8220;carried on like normal- like nothing strange had happened because she did not want to face it or deal with it or process it. The plaintiff didn&#8217;t want to believe that Professor Guo was that kind of person.&#8221; </p>
+
+
+
+<p>I was heartbroken reading the following passage describing the plaintiff&#8217;s frame of mind after the first sexual assault:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image-1.png"><img data-attachment-id="14910" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-1-2/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-1.png" data-orig-size="1482,294" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-1" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-1.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-1.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-1.png?w=1024" alt="" class="wp-image-14910" srcset="https://liorpachter.files.wordpress.com/2023/01/image-1.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-1.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-1.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-1.png?w=768 768w, https://liorpachter.files.wordpress.com/2023/01/image-1.png 1482w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p>The plaintiff was also scared:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image-2.png"><img data-attachment-id="14913" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-2-3/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-2.png" data-orig-size="1492,486" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-2" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-2.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-2.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-2.png?w=1024" alt="" class="wp-image-14913" srcset="https://liorpachter.files.wordpress.com/2023/01/image-2.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-2.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-2.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-2.png?w=768 768w, https://liorpachter.files.wordpress.com/2023/01/image-2.png 1492w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p>The allegation that &#8220;he had spanked her in the past&#8221; is elaborated on in the filing:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image-4.png"><img data-attachment-id="14917" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-4-2/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-4.png" data-orig-size="1482,708" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-4" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-4.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-4.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-4.png?w=1024" alt="" class="wp-image-14917" srcset="https://liorpachter.files.wordpress.com/2023/01/image-4.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-4.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-4.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-4.png?w=768 768w, https://liorpachter.files.wordpress.com/2023/01/image-4.png 1482w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p>According to the filing, the report that was filed with police at UCSB followed therapy sessions and a meeting with a <a rel="noreferrer noopener" href="https://care.ucsb.edu/" target="_blank">CARE</a> counselor at UCSB. It included not only a statement by the victim, but text messages with friends about the events when they happened. The UCSB police forwarded the report to police at UC Davis, who spoke to Professor Guo. He denied anything had happened. </p>
+
+
+
+<p class="has-medium-font-size"><strong>Turning a blind eye</strong></p>
+
+
+
+<p>You might think, that UC Davis, which became aware of the allegations in 2018 when the UCSB police report was forwarded to the UC Davis police, and which certainly reviewed the allegations in the lawsuit filed in 2020, would <strong>at least protect</strong> <strong>high school students</strong> by not allowing Professor Guo to interact with them until the truth, or falsehood, of the allegations against him could be established. At universities, investigations of allegations against a professor can take a long time, and it is understandable that a university would afford professors a presumption of innocence until determination of guilt or innocence is complete (although to be clear, the timescale of investigations is frequently not reasonable at all). In any case, the possibility of guilt in a case where serious allegations of violence and sexual assault are alleged, demand protection of students in the interim. Protection, at a minimum, would entail not allowing Professor Guo to mentor high school students and refuse him the privilege of serving as a mentor in the Young Scholars Program. This would be a limitation, but not one that is very restrictive for a professor. Of course, one would hope that UC Davis would also protect undergraduate students, graduate students and postdocs, but again, <strong>at least, one would hope, UC Davis would protect high school students</strong>. However, UC Davis allowed Professor Guo to continue mentoring high school students up until 2021, as the Facebook post shown at the top of this post demonstrates. In fact, <strong>Professor Guo mentored a high school student</strong> by the name of Jonathan Ma in 2019,<strong> after UC Davis knew about the allegations against Professor Guo</strong>. Below is an excerpt from an <a rel="noreferrer noopener" href="https://www.stltoday.com/pr/lifestyles/local-student-spends-summer-conducting-research-at-uc-davis/article_b4459e84-acff-11e9-9d86-5cb9017bdf7c.html" target="_blank">article in the the St. Louis Post-Dispatch</a> dated July 22, 2019 about the student and his summer experience in Professor Ting Guo&#8217;s lab:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://liorpachter.files.wordpress.com/2023/01/image-6.png"><img loading="lazy" data-attachment-id="14925" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-6-2/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-6.png" data-orig-size="1512,1114" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-6" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=1024" alt="" class="wp-image-14925" width="614" height="452" srcset="https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=614 614w, https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=1228 1228w, https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-6.png?w=768 768w" sizes="(max-width: 614px) 100vw, 614px" /></a></figure></div>
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>Tampering with evidence</strong></p>
+
+
+
+<p><strong>In 2019 California changed the statute of limitations for adult survivors of sexual abuse from 3 years to 10 years</strong>. Assaults that occurred before January 1, 2019, can be held to the three-year limit. For this reason, the court sustained demurrers by Ting Guo and the Board of Regents of the University of California against the plaintiff in the CV2020-1704 lawsuit. There will be no trial to establish the truth or falsehood of the allegations.</p>
+
+
+
+<p>Now suppose you were an administrator at UC Davis, and you believed that the allegations against Professor Ting Guo were <strong>FALSE</strong>. Suppose you believed that Professor Ting Guo was <strong>INNOCENT</strong>. Why would you tamper with websites simply showing that Professor Guo regularly mentored high school students via the UC Davis Youth Scholars Program? After all, you would believe him to be an <strong>INNOCENT</strong> man&#8230; so what would there be to hide? Well&#8230;it turns out that <strong>recently websites of the Youth Scholars Program were tampered with to remove all evidence of Professor Ting Guo&#8217;s involvement with the program</strong> <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f440.png" alt="👀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <br></p>
+
+
+
+<p>For example, consider student Sean Wu who participated in the Youth Scholars Program in 2018, and was mentored by Professor Ting Guo:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image-8.png"><img data-attachment-id="14931" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-8/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-8.png" data-orig-size="2096,1920" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-8" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=1024" alt="" class="wp-image-14931" srcset="https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=2048 2048w, https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-8.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>This screenshot is from a <a rel="noreferrer noopener" href="https://web.archive.org/web/20230112073303/https://webcache.googleusercontent.com/search?q=cache:xm-iGYx1MFAJ:https://ysprogram.ucdavis.edu/research-projects/2018%3Fpage%3D2&amp;cd=2&amp;hl=en&amp;ct=clnk&amp;gl=us" target="_blank">November 3, 2022 cache of a Youth Scholars Program website taken at 13:23:23 GMT</a> describing the research projects undertaken in 2018 (the link is to a copy on the Wayback machine). <a rel="noreferrer noopener" href="https://web.archive.org/web/20230112074022/https://ysprogram.ucdavis.edu/research-projects/2018?page=2" target="_blank">Today</a>, the website looks like this:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image-9.png"><img data-attachment-id="14934" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-9-2/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-9.png" data-orig-size="2114,1568" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-9" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=1024" alt="" class="wp-image-14934" srcset="https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=2048 2048w, https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-9.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p>The project by Sean Wu in Professor Ting Guo&#8217;s lab has simply been&#8230;  deleted.</p>
+
+
+
+<p>On another <a rel="noreferrer noopener" href="https://education.ucdavis.edu/ysp-research-projects" target="_blank">Youth Scholars Program website</a>, the project is still listed, but the mentor has been changed from Professor Guo to <a rel="noreferrer noopener" href="https://www.linkedin.com/in/jennifer-lien-47b89b45/" target="_blank">Jennifer Lien</a>, who is a postdoc in the Guo lab (she was formerly a graduate student in the lab and has been there 11 years):</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image-10.png"><img data-attachment-id="14937" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-10/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-10.png" data-orig-size="1922,778" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-10" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-10.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-10.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-10.png?w=1024" alt="" class="wp-image-14937" srcset="https://liorpachter.files.wordpress.com/2023/01/image-10.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-10.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-10.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-10.png?w=768 768w, https://liorpachter.files.wordpress.com/2023/01/image-10.png 1922w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>Several other Youth Scholars Program high school students who worked in Professor Guo&#8217;s lab, and that had previously listed him as their mentor on the Youth Scholars Program websites, have just had their mentor retroactively changed to Jennifer Lien by edits to the website. These include Jonathan Ma (the student from 2019 who is mentioned above), and another student Susan Garcia (2017).  I wonder who chose Jennifer Lien to replace Ting Guo as the mentor of the students, in some cases more than 5 years after the fact.</p>
+
+
+
+<p>Susan Garcia&#8217;s project was also deleted from <a href="https://web.archive.org/web/20230112163316/https://ysprogram.ucdavis.edu/research-projects/2017?page=2" target="_blank" rel="noreferrer noopener">this website</a>. In fact, <a rel="noreferrer noopener" href="https://ysprogram.ucdavis.edu/content/x-ray-induced-f%C3%B6rster-resonance-energy-transfer-between-quantum-dot-nanoporphyrin-conjugates" target="_blank">a page dedicated to her project</a> now returns an &#8220;Access denied&#8221; error:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://liorpachter.files.wordpress.com/2023/01/image-11.png"><img data-attachment-id="14942" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-11/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-11.png" data-orig-size="2158,1320" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-11" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=1024" alt="" class="wp-image-14942" srcset="https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=1024 1024w, https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=2048 2048w, https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-11.png?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+<p>This page existed previously, as evident from a Google search which shows it hosted the abstract for the work (other abstracts from that year are all available on functioning websites):</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://liorpachter.files.wordpress.com/2023/01/image-12.png"><img loading="lazy" data-attachment-id="14944" data-permalink="https://liorpachter.wordpress.com/2023/01/12/ting-guo-sexual-assault-allegations-and-the-uc-davis-young-scholars-program/image-12/" data-orig-file="https://liorpachter.files.wordpress.com/2023/01/image-12.png" data-orig-size="1342,238" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image-12" data-image-description="" data-image-caption="" data-medium-file="https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=300" data-large-file="https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=490" src="https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=1024" alt="" class="wp-image-14944" width="511" height="91" srcset="https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=511 511w, https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=1022 1022w, https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=150 150w, https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=300 300w, https://liorpachter.files.wordpress.com/2023/01/image-12.png?w=768 768w" sizes="(max-width: 511px) 100vw, 511px" /></a></figure></div>
+
+
+<p>In addition, the Facebook post shown at the top of this post, was also deleted. The cover up was sloppy (the need to scrub <a rel="noreferrer noopener" href="http://nanofast.ucdavis.edu/alumni.html" target="_blank">Professor Guo&#8217;s website</a> was seemingly overlooked), but whoever did this clearly wanted to hide the fact that Professor Ting Guo mentored high school students via the Youth Scholars Program.</p>
+
+
+
+<p>The digital tampering that was performed is reminiscent of one of the scandals that led to Chancellor Linda Katehi&#8217;s <a rel="noreferrer noopener" href="https://www.nytimes.com/2016/08/10/us/embattled-university-of-california-davis-chancellor-resigns.html" target="_blank">resignation &#8220;under fire&#8221; in 2016</a>, when she was being investigated for using university money to <a rel="noreferrer noopener" href="https://www.nydailynews.com/news/national/disgraced-uc-davis-chancellor-katehi-obsessed-online-image-article-1.2746114" target="_blank">try to remove negative online search results about herself</a>. Seriously, <a rel="noreferrer noopener" href="https://liorpachter.wordpress.com/2019/11/06/an-outrage-at-uc-davis/" target="_blank">what is going on at UC Davis?</a> </p>
+
+
+
+<p class="has-medium-font-size" id="Summary"><strong>The end</strong></p>
+
+
+
+<p>In summary, a high school student working in UC Davis Chemistry professor Ting Guo&#8217;s lab in 2010 alleged in a police report filed in 2018 that she was sexually assaulted by him multiple times. In 2020, she filed a lawsuit against Professor Guo and The Board of Regents of the University of California, Davis. UC Davis continued to allow Professor Guo access to high school students via the Youth Scholars Program even after finding out about the serious allegations against him. Recently, websites of the Youth Scholars Program have been altered or deleted to remove any evidence showing that Professor Guo was ever a mentor in the program. </p>
+
+
+
+<p>How many more such cases are there that have not see the light of day because evidence was more effectively tampered with? How many universities are wiping their records to hide evidence of their negligence in protecting students? How many more women must suffer? Will we ever see the end?</p>
+
+
+
+<p></p>
+              
+
+              <p class="text-muted">in <a href ="https://liorpachter.wordpress.com">Bits of DNA</a> on 2023-01-12 16:52:33 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://theplosblog.plos.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://theplosblog.plos.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://theplosblog.plos.org&title=The Official PLOS Blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://theplosblog.plos.org/2023/01/plos-announces-new-publishing-agreement-with-german-consortium/">PLOS Announces New Publishing Agreement with German Consortium</a></h4>
+
+              
+                <p>Note: PLOS issued the following press release on January 12, 2023</p>
+
+
+
+<p>SAN FRANCISCO &mdash;The Public Library of Science (PLOS) is pleased to announce a consortium agreement with Technische Informationsbibliothek (TIB) that allows member institutions to participate in PLOS&rsquo; three innovative publishing models. This two-year agreement provides researchers affiliated with consortium members with unlimited publishing privileges in PLOS journals without them having to cover fees themselves. The TIB-led consortium has more than 40 members<a href="#_ftn1">[1]</a>.</p>
+
+
+
+<p>&nbsp;&ldquo;This is the first time that TIB has negotiated a consortial contract with a Gold OA publisher that is open to institutions across Germany. There was a clear need for an agreement that allows universities, universities of applied sciences and research institutions to centrally cover publication fees in PLOS journals for their researchers, and as consortial leader it is our mission to meet those needs. This partnership will play a key role in alleviating barriers for researchers when publishing their work Open Access, such as eliminating author-facing article processing charges (APCs) and including the entire PLOS portfolio under the deal,&rdquo; said Dr. Irina Sens,&nbsp;deputy director of TIB.</p>
+
+
+
+<p>All PLOS journals are underpinned by institutional business models that move beyond APCs to ensure more equitable and regionally appropriate ways to support Open Access publishing. PLOS&rsquo; institutional models are&nbsp;<a href="https://plos.org/resources/community-action-publishing/" target="_blank" rel="noreferrer noopener">Community Action Publishing (CAP)</a><a href="#_ftn2">[2]</a>,&nbsp;<a href="https://plos.org/resources/for-institutions/flat-fee-agreements/" target="_blank" rel="noreferrer noopener">Flat Fees </a><a href="#_ftn3">[3]</a>, and the <a href="https://plos.org/resources/global-equity-model/">Global Equity model</a><a href="#_ftn4"><u>[4]</u></a>.</p>
+
+
+
+<p><a>&ldquo;This agreement represents a new model for institutions to collaborate and invest equitably in our common interests in advancing Open Science,&rdquo; said Sara Rouhi, Director of Strategic Partnerships for PLOS.</a>&nbsp; &ldquo;TIB shares our commitment to building business models that will move researchers and journals toward a more equitable and barrier free form of publishing.&rdquo;</p>
+
+
+
+<p>The members of the TIB-led consortium join a growing list of institutions including the <a href="https://btaa.org/">Big Ten Academic Alliance</a>, the University of California system, <a href="https://www.crl.edu/">CRL</a> and <a href="https://nerl.org/">NERL</a>, <a href="https://www.jisc.ac.uk/">Jisc</a> (including University College London, Imperial College London, University of Manchester) and the <a href="https://www.crkn-rcdr.ca/en">Canadian Research Knowledge Network</a> <a href="https://plos.org/resources/for-institutions/institutional-account-participants/">among others</a> to support their researchers through publishing deals with PLOS.</p>
+
+
+
+<p>The <a href="https://www.alpsp.org/">Association of Learned and Professional Society Publishers (ALPSP)</a> recently honored PLOS as the 2021 co-winner for Innovation in Publishing for its Community Action Publishing model.</p>
+
+
+
+<p><strong>About the Public Library of Science</strong></p>
+
+
+
+<p>PLOS is a nonprofit, open access publisher empowering researchers to accelerate progress in science and medicine by leading a transformation in research communication. Since our founding in 2001, PLOS journals have helped break boundaries in research communication to provide more opportunities, choice, and context for researchers and readers. For more information, visit <a href="http://www.plos.org/">http://www.plos.org</a>.</p>
+
+
+
+<p><strong>About </strong><strong>Technische Informationsbibliothek</strong> (<strong>TIB)</strong>&nbsp;<br>TIB &ndash; Leibniz Information Centre for Science and Technology and University Library provides science, research, industry and business with literature and information &ndash; in both printed and electronic form. The library is committed to openness, open access to information, publications and scientific data: it aims to make information and knowledge more easily accessible, more transparent and better reusable. For more information visit https://www.tib.eu/en/</p>
+
+
+
+<p><strong>CONTACTS:</strong></p>
+
+
+
+<p>David Knutson</p>
+
+
+
+<p>Sr. Communications Manager, PLOS</p>
+
+
+
+<p>651-260-8288</p>
+
+
+
+<p><a href="mailto:dknutson@plos.org">dknutson@plos.org</a></p>
+
+
+
+<p>TIB Licensing Services</p>
+
+
+
+<p>+49 511 762 8030</p>
+
+
+
+<p>tib-konsortien@tib.eu</p>
+
+
+
+<hr class="wp-block-separator">
+
+
+
+<p><a href="#_ftnref1">[1]</a> FH Aachen University of Applied Sciences, German Rheumatism Research Centre Berlin (DRFZ), Free University of Berlin (FU Berlin), Humboldt University Berlin (HU Berlin), MSB Medical School Berlin, MSH Medical School Hamburg, HMU Health and Medical University Potsdam, BSP Business &amp; Law School, Bielefeld University, Federal Institute for Drugs and Medical Devices (BfArM), German Center for Neurodegenerative Diseases (DZNE), University of Bonn incl. University Hospital Bonn, Helmholtz Centre f&uuml;r Infection Research, Technical University Braunschweig (TU Braunschweig), University Bremen, Leibniz Institute of Ecological Urban and Regional Development (IoeR), University of Duisburg-Essen incl. Essen University Hospital, Heinrich Heine University Duesseldorf incl. Duesseldorf University Hospital, IU International University of Applied Sciences, Goethe University Frankfurt incl. Goethe University Hospital, University of Freiburg, Fulda University of Applied Sciences, Hamburg University of Technology (TU Hamburg), Hannover University of Applied Sciences and Arts (HsH), Hannover Medical School (MHH), Leibniz University Hannover, European Molecular Biology Laboratory, Technical University Kaiserslautern, University of Koblenz (excl. Landau), German Aerospace Center, Leibniz Institute for Social Sciences (GESIS), Anhalt University of Applied Sciences, Roman-Germanic Central Museum &ndash; Leibniz Institute for Archeology (RGZM), University of Mannheim, FH Muenster University of Applied Sciences, Nuremberg Institute of Technology (Nuremberg Tech), German Institute of Human Nutrition Potsdam-Rehbruecke (DIfE), University of Regensburg incl. Regensburg University Hospital, Leibniz Institute for New Materials, University of Tuebingen incl. University Hospital Tuebingen</p>
+
+
+
+<p><a href="#_ftnref2">[2]</a> Participating journals include PLOS Biology, PLOS Medicine and PLOS Sustainability and Transformation</p>
+
+
+
+<p><a href="#_ftnref3">[3]</a> Participating journals include PLOS Digital Health, PLOS ONE, PLOS Computational Biology, PLOS Pathogens, PLOS Neglected Tropical Diseases and PLOS Genetics</p>
+
+
+
+<p><a href="#_ftnref4">[4]</a> Participating journals include PLOS Climate, PLOS Water, PLOS Global Public Health</p>
+
+<p>The post <a rel="nofollow" href="https://theplosblog.plos.org/2023/01/plos-announces-new-publishing-agreement-with-german-consortium/">PLOS Announces New Publishing Agreement with German Consortium</a> appeared first on <a rel="nofollow" href="https://theplosblog.plos.org">The Official PLOS Blog</a>.</p>
+              
+
+              <p class="text-muted">in <a href ="https://theplosblog.plos.org">The Official PLOS Blog</a> on 2023-01-12 15:25:16 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/hdl-good-cholesterol-heart-health">HDL ‘good’ cholesterol isn’t always good for heart health</a></h4>
+
+              
+                <p>“Good” and “bad” cholesterol: These well-known characters have long starred in the saga of heart health. But in a major plot twist, “good” cholesterol, it turns out, is not always so good.</p>
+
+
+
+<p>In the last dozen years or so, research on the particles that carry so-called good cholesterol — known as high-density lipoprotein, or HDL — has presented a much more nuanced and conflicted story about HDL’s effect on cardiovascular disease.</p>
+
+
+
+<p>And a new, large study brings fresh doubt. High levels of <a href="https://www.jacc.org/doi/10.1016/j.jacc.2022.09.027" target="_blank" rel="noopener">HDL cholesterol were not associated with protection against heart disease</a> in Black or white participants, researchers reported in the November <em>Journal of the American College of Cardiology. </em>For low levels of HDL cholesterol, there was a split, with a link to higher risk of heart disease in white participants but not in Black participants.</p>
+
+
+
+
+
+<p>The study is the first to find a difference in the risk tied to low levels of HDL cholesterol between Black and white people. It also adds to accumulating evidence that a high level of HDL cholesterol isn’t necessarily helpful for one’s heart health.</p>
+
+
+
+<p>There appear to be other attributes of HDL that can be good. But researchers have also found that HDL’s role in health is complicated and ever-changing, with plenty to figure out.</p>
+
+
+
+<h4>The link between HDL and heart disease isn’t clear-cut</h4>
+
+
+
+<p>Cholesterol has long been explained as the “good” versus the “bad.” A high level of the “good” kind has been tied to a lower risk of cardiovascular disease, while having lots of the “bad” kind — carried by low-density lipoprotein, or LDL, particles — has been linked to a higher risk.</p>
+
+
+
+<p>One of the big reports to bestow HDL cholesterol with the label of “good” came out of the Framingham Heart Study, a government-led effort launched in 1948 to investigate risk factors for cardiovascular disease. In 1977, Framingham researchers reported an <a href="https://www.amjmed.com/article/0002-9343(77)90874-9/pdf" target="_blank" rel="noopener">inverse relationship between HDL cholesterol and coronary disease risk</a> in a group made up of white participants.</p>
+
+
+
+<p>But later studies undercut the premise that high levels are automatically good for heart health. People with a <a href="https://www.sciencenews.org/article/good-cholesterol-may-not-be-what-keeps-heart-healthy">genetic mutation that boosts their HDL cholesterol level</a>, for example, do not have lower risk of heart attacks than people without the mutation (<em>SN: 5/18/12</em>). And a class of drugs developed to increase HDL cholesterol did a great job upping numbers, but <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6354546/" target="_blank" rel="noopener">didn’t make a difference when it came to cardiovascular risk</a>.</p>
+
+
+
+
+
+<p>A person’s HDL cholesterol level is just one part of the story, though. Commonly reported on blood tests, the level reflects the amount of cholesterol that HDL particles have on board. HDL carries cholesterol away from the arteries to the liver to be excreted. This helps keep cholesterol from building up in artery walls, which can eventually impede blood flow.</p>
+
+
+
+<p>Recently, research on HDL has started looking beyond its cholesterol payload. “The big understanding over the last decade or so is that while you can measure the cholesterol, it doesn’t really reflect the actual functions that HDL is doing in the body,” says Anand Rohatgi, a cardiologist at the University of Texas Southwestern Medical Center in Dallas.</p>
+
+
+
+<p>How well HDL removes cholesterol appears to matter. One measure of this job performance is HDL’s ability to receive cholesterol from a type of cell called a macrophage. In a U.S. study of close to 3,000 adults, 49 percent who were Black, the <a href="https://www.nejm.org/doi/full/10.1056/nejmoa1409065" target="_blank" rel="noopener">higher this capacity, the lower the incidence of heart</a> attacks or strokes, Rohatgi and colleagues reported in the <em>New England Journal of Medicine</em> in 2014.</p>
+
+
+
+<p>Ridding the body of cholesterol is just one of HDL’s many jobs. HDL also has <a href="https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.119.312617" target="_blank" rel="noopener">anti-inflammatory and other protective effects</a> that appear to guard against cardiovascular disease. But even these effects don’t always lead to a net good. In certain circumstances, HDL can become dysfunctional, such that its <a href="https://www.nature.com/articles/nrcardio.2015.124" target="_blank" rel="noopener">capacity to receive cholesterol is reduced</a>, and it contributes to inflammation. The fact that HDL’s roles can change, depending on the context, has made studying HDL particles challenging, Rohatgi says.</p>
+
+
+
+<p>How well HDL performs is still far from something that can be tested as part of a regular physical exam. It’s not clear “how to do it yet for the general public,” says Nathalie Pamir, a researcher who studies cardiology at the Oregon Health &amp; Science University in Portland.</p>
+
+
+
+<h4>The impact of HDL cholesterol on heart health may differ by race</h4>
+
+
+
+<p>As researchers work toward a fuller understanding of HDL and how it might be better used as a clinical measure, the view of HDL cholesterol as uniformly “good” is still out there. And one’s HDL cholesterol level is still one entry in a widely used calculator that estimates cardiovascular risk. Pamir and her colleagues wanted to examine what high and low HDL cholesterol levels mean in a contemporary, diverse population.</p>
+
+
+
+<p>In the new study, the team analyzed data from the REGARDS trial, designed to study potential regional and racial differences in death from stroke in the United States. The study included nearly 24,000 participants — of which 42 percent were Black — who did not start out with coronary heart disease. Over roughly 10 years, 664 out of 10,095 Black participants and 951 out of 13,806 white participants had a heart attack or died from one.</p>
+
+
+
+<p>Increased levels of “bad” LDL cholesterol were tied to a higher risk of coronary heart disease, in line with past research, the team found. But for HDL cholesterol, high levels weren’t protective for anyone, and low levels were only predictive of higher risk in white people. That finding suggests it may be necessary to revisit how HDL cholesterol is used in the cardiovascular disease risk calculator, Pamir says.</p>
+
+
+
+<p>Rather than just good, HDL cholesterol “is complicated,” she says. If a patient has high HDL cholesterol, a doctor “can say, ‘well, currently we don’t know what that means.’”</p>
+
+
+
+<p>Although the study suggests that the impact of HDL cholesterol levels on disease risk may differ by race, it’s important to remember that race is a social construct, not a biological one, says Clyde Yancy, chief of cardiology at the Northwestern University Feinberg School of Medicine in Chicago.</p>
+
+
+
+<p>Some of the risk factors for coronary heart disease, including high blood pressure and smoking, “are more prevalent in self-described Black Americans,” he says. And a <a href="https://www.sciencenews.org/article/where-you-live-can-affect-your-blood-pressure-study-suggests">community’s access to health care, nutritious food and opportunities for education</a> and employment can influence those risk factors (<em>SN: 5/15/17</em>). “There is something unique about place and the history of place which may predispose to the burden of hypertension, obesity, even diabetes,” Yancy says.</p>
+
+
+
+<p>It will take more research to understand what’s behind the potential race-based difference that the study reports, Yancy says, and what it means in terms of HDL cholesterol levels and cardiovascular disease risk. But it remains the case that high levels of LDL cholesterol — which can accumulate in artery walls — are associated with an increased risk, he says. “The LDL cholesterol seems to be our most relevant barometer.”</p>
+
+
+
+<p>For all that is known about what impacts cardiovascular disease risk, researchers still don’t have the full picture. The number of times that cardiologists see heart attacks in patients with normal cholesterol levels and normal blood pressure, Yancy says, suggests that, with current methods, “we’re not able to capture the entirety of the risk.”</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-01-12 15:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/webb-telescope-green-pea-galaxies-universe">The James Webb telescope found ‘Green Pea’ galaxies in the early universe</a></h4>
+
+              
+                <p>Galaxies that helped transform the early universe may have been small, round and green.</p>
+
+
+
+<p>Astronomers using the James Webb Space Telescope have spotted <a href="https://aas.org/sites/default/files/2023-01/AAS241_Mon1_JamesRhoads.pdf" target="_blank" rel="noopener">“Green Pea” galaxies dating to 13.1 billion years ago</a>. These viridescent runts, spotted just 700 million years after the Big Bang, might have helped trigger one of the greatest makeovers in cosmic history, astronomers said at a January 9 news conference in Seattle at the American Astronomical Society’s annual meeting.</p>
+
+
+
+<p>Green Peas first showed up in 2009 in images from the Sloan Digital Sky Survey, an ambitious project to map much of the sky. Citizen science volunteers gave the objects their colorful name. Their greenish hue is because most of their light comes from glowing gas clouds, rather than directly from stars.</p>
+
+
+
+
+
+<p>These galaxies are rare in the present-day universe. Astronomers think that the ones that do exist are analogs of galaxies that were more plentiful in the early universe.</p>
+
+
+
+<p>“They’re a bit like living fossils,” said astrophysicist James Rhoads of NASA’s Goddard Space Flight Center in Greenbelt, Md. “Coelacanths, if you will,” referencing a fish thought to be extinct until it <a href="https://www.sciencenews.org/article/find-extinct-fish-alive-south-african-waters">showed up off the coast of South Africa in 1938</a> (<em>SN: 12/2/11</em>).&nbsp;</p>
+
+
+
+<p>These galaxies leak much more ultraviolet light, which can rip electrons from atoms, than typical galaxies do. So Green Peas dating to the universe’s first billion years or so could be partly responsible for a dramatic and mysterious cosmic transition called reionization, when most of the hydrogen atoms in the early universe <a href="https://www.sciencenews.org/article/reionization-hydrogen-galaxies-big-bang">had their electrons torn away</a> (<em>SN: 1/7/20</em>).</p>
+
+
+
+<p>Three ancient Green Peas turned up in <a href="https://www.sciencenews.org/article/james-webb-space-telescope-first-image-galaxy-stars-data">JWST’s first image</a>, released in July 2022 (<em>SN: 7/21/22</em>). The objects look red in JWST’s infrared vision, but the wavelengths of light they emit are like those of the previously discovered Green Peas. The findings <a href="https://iopscience.iop.org/article/10.3847/2041-8213/acaaaf" target="_blank" rel="noopener">were also published</a> in the Jan. 1 <em>Astrophysical Journal Letters</em>.</p>
+
+
+
+<p>“This helps us explain how the universe reionized,” Rhoads said. “I think this is an important piece of the puzzle.”</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-01-12 13:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/kraken-covid-variant-xbb15/">What You Need to Know About the Kraken Covid Variant</a></h4>
+
+              
+                XBB.1.5, aka the Kraken, is sweeping the Northeast US and dodging immunity. But that doesn’t mean it’s time to panic.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-12 12:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://retractionwatch.com/2023/01/12/russian-publishing-watchdog-decries-retraction-misuse-following-ban-on-lgbt-propaganda/">Russian publishing watchdog decries ‘retraction misuse’ following ban on ‘LGBT propaganda’</a></h4>
+
+              
+                <div class="wp-block-image is-style-default">
+<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png"><img decoding="async" loading="lazy" width="300" height="200" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_-300x200.png?resize=300%2C200&#038;ssl=1" alt="" class="wp-image-126282" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png?resize=1536%2C1024&amp;ssl=1 1536w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png?resize=2048%2C1366&amp;ssl=1 2048w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png?w=1320 1320w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2022/12/Flag_of_Russia.svg_.png?w=1980 1980w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p>In the wake of a new law that bans “propaganda of non-traditional sexual relations and (or) preferences” in Russia, some journals have retracted articles they fear could attract state attention, a move a publishing watchdog in the country has called “self-censorship.”&nbsp;</p>
+
+
+
+<p>As <a href="https://retractionwatch.com/2022/12/28/russian-philosophy-journal-cites-law-banning-lgbt-propaganda-in-retraction/">we reported</a> in December, the Russian philosophy journal <em>Logos</em> retracted an article about lesbian fashion magazines for being “in violation of standards,” citing the new ban.</p>
+
+
+
+<p>More journals have followed suit, according to the Russian Council on Publication Ethics, which <a href="https://publication-ethics.ru/2022/12/declaration-on-retraction-misuse-eng/">issued a statement</a> decrying “retraction misuse” by journals in response to the law, though it also expressed concern for the safety of journal staff and authors if they ignored it. The statement began: </p>
+
+
+
+<span id="more-126381"></span>
+
+
+
+<blockquote class="wp-block-quote">
+<p>After 24 February 2022, a situation has arisen in Russia in which legal requirements and legal enforcement practices may directly conflict with the norms of academic freedom and scientific integrity.</p>
+
+
+
+<p>In these circumstances, some Russian journals take the path of self-censorship by retracting articles whose publication (in the view of the editors) could lead to sanctions from the state. A new wave of such retractions is associated with the effect of Federal Law of Russia No. 217471-8 «On Amendments to the Federal Law ‘On Information, Information Technologies and the Protection of Information’ and Certain Legislative Acts of the Russian Federation (as regards the prohibition of propaganda of non-traditional sexual relationships and/or preferences)». The Council points out to the fact that scientific research may not be equated with propaganda and is bound to state that in these cases the retraction mechanism is used without convincing grounds. The purpose of retraction of scientific articles is to correct errors and reduce scientometric biases.</p>
+</blockquote>
+
+
+
+<p>Part of the statement appeared to directly reference the reason <em>Logos</em> offered for the retraction:&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>It is important to understand that what the editorial boards occasionally call retraction is not retraction. Self-invented wording («Publication of research in violation of the standards», etc.) in fact turns out to be self-censorship. Such and similar actions (deletion, concealment, withdrawal of publications) are irrelevant to maintaining the ethics of scientific publications, the integrity of scientific knowledge, and good scientific practice.</p>
+</blockquote>
+
+
+
+<p class="has-drop-cap">The retracted paper, “<a href="https://logosjournal.ru/upload/iblock/6bd/Logos%201-2022_Press-173-196.pdf">Looking good: The lesbian gaze and fashion imagery</a>,” appeared&nbsp; in a 2022 special issue of <em>Logos</em> on feminism and visuality. The article, by <a href="https://researchers.arts.ac.uk/579-reina-lewis/about">Reina Lewis</a> of the London College of Fashion, was a Russian translation of an article Lewis published in <a href="https://journals.sagepub.com/doi/full/10.1057/fr.1997.6">the <em>Feminist Review</em></a> in 1997. Lewis told us she didn’t know the paper had been retracted until we emailed her.&nbsp;&nbsp;</p>
+
+
+
+<p>The translation still appears online, but the issue in which the paper appeared is no longer available on the journal’s website. An <a href="https://www.elibrary.ru/item.asp?id=48052624">entry</a> on the Russian database eLIBRARY indicates the article was retracted “due to the presence of signs that fall under the scope” of the new law, which carries significant fines for violations, <a href="https://www.reuters.com/world/russias-parliament-passes-law-banning-lgbt-propaganda-among-adults-2022-11-24/">according to Reuters</a>.&nbsp;&nbsp;</p>
+
+
+
+<p>The statement from the Russian Council on Publication Ethics continued:&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>We believe that the safety of journal staff and authors and the continuation of scientific publications in the current circumstances are important, so we understand their compelled action, to the very desire to avoid reprisals, but not to the distortion of ethical principles and publication procedures.</p>
+
+
+
+<p>In terms of international practice, in similar circumstances, publishers may be advised to refer to the well-known <a href="https://en.wikipedia.org/wiki/Radbruch_formula">legal formula of Gustav Radbruch</a>.</p>
+
+
+
+<p>The Council on Publications Ethics, together with foreign partners, is currently looking for options allowing Russian journals to resolve this difficult situation with dignity, and asks that no precipitate decisions be taken.</p>
+
+
+
+<p>We ask everyone to consider that Article 54 of the Constitution of the Russian Federation states that the law establishing or aggravating liability has no retroactive force. No one can be held liable for an act which was not an offence at the time it was committed.</p>
+
+
+
+<p>The Council deeply regrets this situation and is always ready to provide the necessary support.</p>
+</blockquote>
+
+
+
+<p><em>Like Retraction Watch? You can make a </em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us </em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us </em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your </em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our </em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s </em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can </em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
+
+
+<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
+              
+
+              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2023-01-12 11:00:00 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -81,7 +704,7 @@
 
               
                 <div class="wp-block-image is-style-default">
-<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg"><img decoding="async" width="300" height="225" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital-300x225.jpg?resize=300%2C225&#038;ssl=1" alt="" class="wp-image-119794" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?w=1200&amp;ssl=1 1200w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption class="wp-element-caption">Showa University Hospital</figcaption></figure></div>
+<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg"><img decoding="async" loading="lazy" width="300" height="225" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital-300x225.jpg?resize=300%2C225&#038;ssl=1" alt="" class="wp-image-119794" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/06/Showa_University_Hospital.jpg?w=1200&amp;ssl=1 1200w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption class="wp-element-caption">Showa University Hospital</figcaption></figure></div>
 
 
 <p>An oral surgeon in Japan falsified images in several papers, granted authorship to whomever he saw fit and stored experimental data sloppily, according to an investigation by Showa University in Tokyo, where the physician was a lecturer at the time of the misconduct.&nbsp;</p>
@@ -193,6 +816,44 @@
 
 
 <p>We will update this post if we hear more from Showa University about which papers it recommends for retraction.</p>
+
+
+
+<p>Update, Jan. 12, 2022, 1430 UTC: Showa University provided this list of papers they recommended for retraction:</p>
+
+
+
+<ul>
+<li><a rel="noreferrer noopener" href="https://onlinelibrary.wiley.com/doi/full/10.1002/ijc.11239" target="_blank">Enhanced susceptibility of oral squamous cell carcinoma cell lines to FAS-mediated apoptosis by cisplatin and 5-fluorouracil</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://www.sciencedirect.com/science/article/pii/S1567576905002419" target="_blank">Accelerative effect of a selective cyclooxygenase-2 inhibitor on Fas-mediated apoptosis in human neutrophils</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://linkinghub.elsevier.com/retrieve/pii/S1368-8375(05)00335-0" target="_blank">Enhancement of susceptibility to Fas-mediated apoptosis in oral squamous cell carcinoma cells by phosphatidylinositol 3-kinase inhibitor</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S1368837507001224?via%3Dihub" target="_blank">Epidermal growth factor receptor inhibitors enhance susceptibility to Fas-mediated apoptosis in oral squamous cell carcinoma cells</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://www.spandidos-publications.com/ijo/30/5/1163" target="_blank">Enhanced susceptibility to tumor necrosis factor-related apoptosis-inducing ligand-mediated apoptosis in oral squamous cell carcinoma cells treated with phosphatidylinositol 3-kinase inhibitors</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://www.spandidos-publications.com/10.3892/ijo.30.6.1469" target="_blank">Effect of combining epidermal growth factor receptor inhibitors and cisplatin on proliferation and apoptosis of oral squamous cell carcinoma cells</a></li>
+
+
+
+<li><a rel="noreferrer noopener" href="https://www.spandidos-publications.com/ijo/31/5/1141" target="_blank">Enhanced susceptibility to apoptosis of oral squamous cell carcinoma cells subjected to combined treatment with anticancer drugs and phosphatidylinositol 3-kinase inhibitors</a></li>
+
+
+
+<li> <a rel="noreferrer noopener" href="https://www.spandidos-publications.com/or/25/3/645" target="_blank">Proteasome inhibitor sensitizes oral squamous cell carcinoma cells to TRAIL-mediated apoptosis</a></li>
+</ul>
 
 
 
@@ -2528,570 +3189,6 @@ Their evidence, while circumstantial, is intriguing. There’s the mystery buyer
               
 
               <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-01-04 14:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/first-black-american-evolutionary-biology-phd">Meet the first Black American to earn an evolutionary biology Ph.D.</a></h4>
-
-              
-                <div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><a href="https://bookshop.org/p/books/a-voice-in-the-wilderness-a-pioneering-biologist-explains-how-evolution-can-help-us-solve-our-biggest-problems-joseph-l-graves/18041221?ean=9781541600713" target="_blank" rel="noopener"><img decoding="async" loading="lazy" src="https://www.sciencenews.org/wp-content/uploads/2022/12/111922_reviews_cover-298x450.jpg" alt="" class="wp-image-3120490" width="199" height="287" /></a></figure></div>
-
-
-<p><a href="https://bookshop.org/a/21798/9781541600713" target="_blank" rel="noopener">A Voice in the Wilderness</a><br><em>Joseph L. Graves Jr.<br>Basic Books, $30</em></p>
-
-
-
-<p>It’s both good and bad that the first Black American to earn a Ph.D. in evolutionary biology is not a long-ago hidden figure but a contemporary scientist. On the upside, there’s no agonizing over papers no one saved, no stitching together other people’s memoirs to guess what pioneering might have felt like. Instead, Joseph L. Graves Jr., who finished his degree in 1988, tells his story himself in <em>A Voice in the Wilderness</em>.</p>
-
-
-
-
-
-<p>But evolutionary biology’s first Black Ph.D. in 1988? That “first” came late even considering that the field took a while to declare itself a specialty. The Society for the Study of Evolution didn’t form until 1946.</p>
-
-
-
-<p>Long before that, U.S. Black biologists had started cracking the glass ceiling of academic credentials. Graves credits Alfred O. Coffin as the first Black American to earn a biological Ph.D., awarded in 1889. He began a slow, intermittent series of Black Ph.D. biologists, who also struggled to get jobs befitting their credentials. Even now, while nearly 14 percent of the U.S. population is Black, Black scientists make up only about 3 percent of the resident Ph.D.s working in a biological discipline.</p>
-
-
-
-<p>Showing how racism narrows the gateways to science becomes a major theme in<em> A Voice in the Wilderness</em> as Graves describes his own twisty, bruising path to becoming a “first.” Yet he declares that the book isn’t an autobiography but a call to embrace evolutionary science as crucial to the times we live in. <em>Voice</em> feels like a long, candid, free-flowing conversation. Graves mixes in bitter and sweet childhood memories, the lab challenges of coaxing insects to fly in place, quick math and science explainers, enthusiastic accounts of the scientific questions that drew him to the field, vignettes from his political activism, his alienation from and return to Christianity, some <em>Star Trek</em>…</p>
-
-
-
-<p>Graves has already published on <a href="https://link.springer.com/article/10.1186/s12052-019-0110-5?fbclid=IwAR1vjZReAkzSLY8bEdcSGUJImAF5xUy9xUmlU7VXutr4f3cJhuKBsHzgmJs" target="_blank" rel="noopener">why Black evolutionary biologists are rare</a>, lamenting the longtime lack of an inclusive culture and the few, often barely visible, role models. Also, evolutionary biology has baggage. He described in his 2001 book, <a href="https://bookshop.org/p/books/the-emperor-s-new-clothes-biological-theories-of-race-at-the-millennium-joseph-l-graves-jr/12292320?ean=9780813533025" target="_blank" rel="noopener"><em>The Emperor’s New Clothes</em></a>, a long whack-a-mole history of serial racist pseudoscience. Polygeny, for instance, a popular 19th century delusion, held that races had independent origins and were separate species. In the 20th century, the selective breeding notions of eugenics supposedly justified forced sterilizations and exterminations to purge unwanted traits as if people were livestock. Misuse of science continues, though Graves highlights a few heroes who have summoned science to fight the perversions.</p>
-
-
-
-<div class="wp-block-sciencenews-content-sidebar">
-<h4>First Black U.S. Ph.D.s in their fields</h4>
-
-
-
-<p>Black talent in the United States long contributed to science without Ph.D.s, but breaking through the barriers to earn the formal credentials was also a major achievement. Alfred O. Coffin is credited as the first Ph.D. biologist, earning his degree in 1889. Here are examples of <a href="https://www.jstor.org/stable/2962707" target="_blank" rel="noopener">other pioneering Black Ph.D.s (from a 1997 accounting</a>). New scholarship may unearth even earlier pioneers but being second or third was still hard work.</p>
-
-
-
-<p>1876: Physicist Edward Alexander Bouchet</p>
-
-
-
-<p>1907: Entomologist Charles Henry Turner</p>
-
-
-
-<p>1915: Physiologist Julian Herman Lewis</p>
-
-
-
-<p>1916: Chemist St. Elmo Brady</p>
-
-
-
-<p>1921: Botanist Thomas Wyatt Turner</p>
-
-
-
-<p>1925: Mathematician Elbert Frank Cox</p>
-
-
-
-<p>1930: Anatomist Roscoe Lewis McKinney</p>
-
-
-
-<p>1942: Geologist Marguerite Thomas Williams</p>
-
-
-
-<p class="has-small-font-size">Source: C. Titcomb/<em>The Journal of Blacks in Higher Education</em> 1997</p>
-</div>
-
-
-
-
-
-<p>Graves’ own path was not easy. His parents were born in 1920s Virginia. His grandfather started the migration north after a tip that the Ku Klux Klan was about to target him. His moonshine was getting too competitive with white suppliers’.</p>
-
-
-
-<p>“Both my parents grew up under the constant threat of the lynch rope should they in any way sass a white person,” Graves writes. He was born in New Jersey in 1955. “Four months after I was born, young Emmett Till was lynched in Money, Mississippi, for supposedly doing just that.”</p>
-
-
-
-<p>Graves attended largely white-majority schools that didn’t see his potential. His mother, Helen, was the advocate who won him his education. For instance, she fought back when his elementary school pushed to move him into “special education.” Then in third grade, eye tests revealed that what he really needed were glasses. New possibilities dawned.</p>
-
-
-
-<p>Another critical boost came from a student teacher who noticed that the library books he read were more complicated than his classmates’ reading. At the age of 13, for instance, he was fascinated by Charles Darwin’s <em>On the</em> <em>Origin of Species</em> and wowed by Karl Marx’s <em>Manifesto.</em><em></em></p>
-
-
-
-<p>At another turning point, he convinced some kids playing chess to let him have a try. He lost badly but found two chess books in the library that he devoured that night. “In hindsight, I credit chess with being the most important factor changing the trajectory of my life,” he writes. He played on the school team and made lifelong friends.</p>
-
-
-
-<p>His path through higher education got complicated. He went to Oberlin College in Ohio because its recruiting brochures had pictures of students who looked like him. There were still some tough spots. He and many other students struggled with freshman physics. Yet, as far as he could tell, he and the class’s other Black student were the only ones to get their final exams back marked, “You have no talent for physics, you should never take another physics class at this college.” Graves avoided physics, but the other student went on to earn a physics Ph.D. at MIT.</p>
-
-
-
-<p>While studying parasites for his master’s degree, Graves discovered that his ability to spot weaknesses in current knowledge, which led him to overthink exam answers in his earlier school days, became a strength in research.</p>
-
-
-
-<p>For his Ph.D., at first he wanted to go to Harvard University despite his experiences on campus visits. He recalls “European American students coming back and locking their offices or removing valuables from sight when I walked through the common area.”</p>
-
-
-
-<p>The National Science Foundation awarded him a fellowship in 1979, not just honoring his talent but offering schools the catnip of full funding for his tuition and support. “I suspect I am the only person in the history of the [fellowship] to be rejected for admission to a graduate program in the same year the award was made,” he writes. Harvard informed him that he was qualified but that no one could be found to advise him.</p>
-
-
-
-<p>So he happily plunged into the intellectual fizz of the University of Michigan. Yet passionate political activism eventually pulled him away. He organized efforts to stop Klan threats against Black Americans moving into Detroit suburbs. He went to the United Kingdom to stand arm in arm with the wives of striking miners as police charged them.</p>
-
-
-
-<div class="wp-block-sciencenews-content-sidebar">
-<h4>First Black U.S. faculty hires</h4>
-
-
-
-<p>Even after Black Americans began earning Ph.D.s , finding a faculty position at highly ranked, white-majority universities was just about impossible for decades. Harvard University’s dental school, one of the rare white-majority dental schools to take Black students, hired one of its own graduates, George F. Grant, in 1870. <a href="https://www.jstor.org/stable/25073834" target="_blank" rel="noopener">A survey published in 2007</a>, however, didn’t find other examples of openly Black teaching faculty scholars at high-profile, white-majority schools — in any academic discipline — until 72 years later. Here’s a sampling of when a few select schools hired their first Black faculty.</p>
-
-
-
-<p>1870: George F. Grant &#8211; Harvard University</p>
-
-
-
-<p>1942: W. Allison Davis &#8211; University of Chicago</p>
-
-
-
-<p>1952: Joseph T. Gier &#8211; University of California, Berkeley</p>
-
-
-
-<p>1953: William F. Strother &#8211; Princeton University</p>
-
-
-
-<p>1956: Joseph R. Applegate &#8211; MIT</p>
-
-
-
-<p>1962: Michael G. Cooke &#8211; Yale University</p>
-
-
-
-<p>1970: James Lowell Gibbs Jr.&nbsp;&#8211; Stanford University</p>
-
-
-
-<p class="has-small-font-size">Source: <em>The Journal of Blacks in Higher Education</em> 2007–2008</p>
-</div>
-
-
-
-<p>Graves returned to academics and finished his Ph.D. in 1988 at Wayne State University in Detroit. His career took off as he worked on the evolutionary genetics of aging, and in 1994 he was elected a fellow&nbsp;of the American Association for the Advancement of Science. Today, he’s a professor at North Carolina A&amp;T State University, a historically Black school.</p>
-
-
-
-<p>In keeping with his activist past, Graves uses his evolutionary expertise to fight racism that claims a basis in science and to advocate for a culture that values scientific reasoning. The book’s title comes from the biblical phrase, “I am the voice of one calling in the wilderness, ‘Make straight the way for the Lord.’” It has become a metaphor, Graves says, “for any perspective of great importance and truth that has been silenced to maintain the status quo.” He is far from silenced.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-01-04 12:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/humans-walk-weird-scientists-may-finally-know-why/">Humans Walk Weird. Scientists May Finally Know Why</a></h4>
-
-              
-                Humanity’s peculiar gait has long confounded engineers and biomechanists—but it might be one of nature’s clever tricks.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-04 12:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/microbiota-vault/">A Mass Extinction Is Taking Place in the Human Gut</a></h4>
-
-              
-                To preserve humankind’s diverse bacteria, scientists are harvesting, freezing, and storing poop from around the world.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-04 12:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2023/01/04/president-of-iranian-university-in-serious-breach-of-ethical-standards/">President of Iranian university in ‘serious breach of ethical standards’ </a></h4>
-
-              
-                <div class="wp-block-image is-style-default">
-<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-04-at-6.48.00-AM.png?ssl=1"><img decoding="async" loading="lazy" width="255" height="300" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-04-at-6.48.00-AM-255x300.png?resize=255%2C300&#038;ssl=1" alt="" class="wp-image-126334" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-04-at-6.48.00-AM.png?resize=255%2C300&amp;ssl=1 255w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/01/Screenshot-2023-01-04-at-6.48.00-AM.png?w=712&amp;ssl=1 712w" sizes="(max-width: 255px) 100vw, 255px" data-recalc-dims="1" /></a><figcaption class="wp-element-caption">Bahram Azizollah Ganji</figcaption></figure></div>
-
-
-<p>The president of an Iranian university and a colleague appear to have published the same microelectronics paper twice, according to allegations seen by Retraction Watch.</p>
-
-
-
-<p>The articles, by <a href="https://nit.ac.ir/en/page/738/presidential-office">Bahram Azizollah Ganji</a> and Kamran Delfan Hemmati of Babol Noshirvani University of Technology, deal with the design of a new capacitive accelerometer with a high dynamic range and sensitivity. Both appeared online in 2020, <a href="http://www.midem-drustvo.si/Journal%20papers/MIDEM_50(2020)1p55.pdf">first</a> in the Slovenia-based <em>Journal of Microelectronics, Electronic Components and Materials</em> and <a href="https://link.springer.com/article/10.1007/s00542-020-04932-4">later</a> in the higher-impact Springer journal <em>Microsystem Technologies</em>. The former version has yet to be cited, according to Clarivate’s Web of Science, while the latter has been cited twice.</p>
-
-
-
-<p>The editors of <em>Microsystem Technologies</em> were made aware of the allegations on November 16 in an email that cited &#8220;significantly identical content&#8221; in the two papers. &#8220;Pretty much the entire introduction section and almost all figures are an exact copy from&#8221; the authors&#8217; previous article, the email stated.</p>
-
-
-
-<span id="more-126333"></span>
-
-
-
-<p>In a response shared with Retraction Watch, a Springer publishing assistant wrote on November 24:</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>I heard back from the Editors in Chief and they are all in agreement that this is a serious breach of ethical standards and violates copyrights laws. I am in contact with our Research Integrity Group daily and we are working to get this manuscript withdrawn.</p>
-</blockquote>
-
-
-
-<p>The <em>Microsystem Technologies</em> article has not been retracted as of this writing.</p>
-
-
-
-<p>The allegations first surfaced publicly in a <a href="https://www.linkedin.com/posts/international-community-of-iranian-academics_evidence-of-plagiarism-in-the-work-of-bahram-activity-7002089110836326401-JSrs?utm_source=share&amp;utm_medium=member_ios">LinkedIn post</a> from November by the International Community of Iranian Academics. The post included pictures highlighting identical passages and figures in the two articles, prefacing them with the text, &#8220;Evidence of plagiarism in the work of Bahram Azizollah Ganji, current president of Babol Noshirvani University of Technology and one of the prominent faces of oppression in the Islamic Republic’s higher education.&#8221;</p>
-
-
-
-<p>Retraction Watch has called the university and contacted both authors by email, but has not been able to reach them.</p>
-
-
-
-<p><em>Like Retraction Watch? You can make a&nbsp;</em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us&nbsp;</em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us&nbsp;</em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your&nbsp;</em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our&nbsp;</em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s&nbsp;</em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can&nbsp;</em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
-
-
-<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2023-01-04 11:52:32 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/get-messages-sent-through-wormhole-relativity">We could get messages back from spacecraft sent through a wormhole</a></h4>
-
-              
-                <p>If you ever happen to fall through a wormhole in space, you won’t be coming back. It will snap shut behind you. But <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.104054" target="_blank" rel="noopener">you may have just enough time to send a message</a> to the rest of us from the other side, researchers report in the Nov. 15 <em>Physical Review D</em>.</p>
-
-
-
-<p>No one has yet seen a <a href="https://www.sciencenews.org/article/black-hole-circling-wormhole-weird-gravitational-waves">wormhole</a>, but theoretically they could provide shortcuts to distant parts of the universe, or to other universes entirely, if they exist (<em>SN: 7/27/17</em>).&nbsp;Physicists have long known that one of the most commonly studied types of wormholes would be extremely unstable and would collapse if any matter entered it. It wasn’t clear, though, just how fast that might happen or what it means for something, or someone, heading into it.</p>
-
-
-
-
-
-<p>Now, a new computer program shows how one type of wormhole would respond when something travels through it.</p>
-
-
-
-<p>“You build a probe and you send it through” in the wormhole simulation, says Ben Kain, a physicist at the College of the Holy Cross in Worcester, Mass. “You’re not necessarily trying to get it to come back, because you know the wormhole is going to collapse — but could a light signal get back in time before a collapse? And we found that it is possible.”&nbsp;</p>
-
-
-
-<p>Prior studies of wormholes have concluded that the cosmic passageways could potentially stay open for repeated trips back and forth, Kain says, provided they’re supported by a form of matter that’s so exotic it’s called “ghost matter.” </p>
-
-
-
-<p>Theoretically, ghost matter responds to gravity in exactly the opposite way to normal matter. That is, a ghost matter apple would fall up from a tree branch instead of down. While allowed by <a href="https://www.sciencenews.org/article/einstein-theory-general-relativity-gravity-black-holes-cosmos">Einstein’s theory of general relativity</a>, ghost matter almost certainly doesn’t exist in reality, Kain says (<em>SN: 2/3/21)</em>.</p>
-
-
-
-<p>Nevertheless, Kain simulated ghost matter traveling through a wormhole and found that it caused the hole to expand as expected, rather than collapsing.</p>
-
-
-
-<p>It was a different story with anything made of normal matter; that would trigger a collapse that pinches the hole closed and leaves something resembling a black hole behind, Kain’s simulation confirmed. But it would happen slowly enough for a fast-moving probe to transmit light-speed signals back to our side just before the wormhole completely closes.</p>
-
-
-
-<p>Kain doesn’t imagine ever sending humans through a wormhole, if such things are ever found. “Just the capsule and a video camera. It’s all automated,” he says. It’ll be a one-way trip, “but we can at least get some video seeing what this device sees.”</p>
-
-
-
-
-
-<p>The idea should be approached with a fair bit of skepticism, says physicist Sabine Hossenfelder of the Munich Center for Mathematical Philosophy. “[It] requires one to postulate the existence of [things] that for all we know do not exist…. Lots of things you can do mathematically have nothing to do with reality.”</p>
-
-
-
-<p>Still, Kain says, it’s a valuable effort that might reveal ways to make wormholes that don’t rely on ghost matter to stay open long enough for us to travel back and forth throughout the universe or beyond.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-01-03 14:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/covid-pandemic-prematurely-aged-teens-brains">Brain scans suggest the pandemic prematurely aged teens’ brains</a></h4>
-
-              
-                <p>Living through the COVID-19 pandemic may have matured teens’ brains beyond their years.</p>
-
-
-
-<p>From online schooling and social isolation to economic hardship and a mounting death count, the last few years have been rough on young people. For teens, the pandemic and its many side effects came during a crucial window in brain development.</p>
-
-
-
-<p>Now, a small study comparing brain scans of young people from before and after 2020 reveals that <a href="https://www.bpsgos.org/article/S2667-1743(22)00142-2/fulltext" target="_blank" rel="noopener">the brains of teens who lived through the pandemic look about three years older than expected</a>, scientists say.</p>
-
-
-
-
-
-<p>This research, published December 1 in <em>Biological Psychiatry: Global Open Science</em>, is the first to look at the impact of the pandemic on brain aging.</p>
-
-
-
-<p>The finding reveals that “the pandemic hasn’t been bad just in terms of mental health for adolescents,” says Ian Gotlib, a clinical neuroscientist at Stanford University. “It seems to have altered their brains as well.”</p>
-
-
-
-<p>The study can’t link those brain changes to poor mental health during the pandemic. But “we know there is a relationship between adversity and the brain as it tries to adapt to what it’s been given,” says Beatriz Luna, a developmental cognitive neuroscientist at the University of Pittsburgh, who wasn’t involved in the research. “I think this is a very important study that sets the ball rolling for us to look at this.”</p>
-
-
-
-<p>The roots of this study date back to nearly a decade ago, when Gotlib and his colleagues launched a project in California’s Bay Area to study depression in adolescents. The researchers were collecting information on the mental health of the kids in the study, and did MRI scans of their brains.</p>
-
-
-
-<p>Lockdown orders in the spring of 2020 forced the researchers to stop the project. When they restarted a year later, Gotlib worried that stress from the pandemic threatened to skew their results.</p>
-
-
-
-<p>It turned out that the kids making their way back to the study after a year of pandemic life were reporting higher rates of anxiety and depression than their peers from before 2020. So, the team decided to compare brain scans captured before the start of the pandemic with scans taken between October 2020 and March 2022. </p>
-
-
-
-
-
-<p>The researchers looked at differences in 64 scans from each group, matched by the kids’ sex and age, with an average age of around 16 for each group.</p>
-
-
-
-<p>The results were “striking,” Gotlib says.</p>
-
-
-
-<p>Adolescent brains naturally go through a maturation process that results in the thickening of the hippocampus, an area involved with memory and concentration, and the amygdala, which regulates emotional processing. At the same time, the cortex — an area that regulates emotional functioning — starts thinning.&nbsp;&nbsp;</p>
-
-
-
-<p>The brain scans revealed that this maturation process had moved more quickly in teens who had lived through the pandemic. Gotlib says that their brains appeared three to four years older than the brains of the teens scanned before the start of the pandemic. &nbsp;</p>
-
-
-
-<p>Exactly what part of the pandemic may have shaped teen brains is unclear. But “this study shows that the pandemic has had a material impact on brain maturation,” says Joan Luby, a child psychiatrist at Washington University School of Medicine in St Louis, who wasn’t involved in the research.</p>
-
-
-
-<p>Gotlib suspects that stress is to blame. Previous studies have shown that exposure to violence or negligence can lead to accelerated brain maturation in children. Considering that <a href="https://www.sciencenews.org/article/covid-19-pandemic-long-term-imprint-health">mental health plummeted for teens during the pandemic</a> (<em>SN: 9/8/22</em>), “it’s not a big leap” to think that the stressful conditions could also have shaped brain development in his study’s cohort, Gotlib says.</p>
-
-
-
-<p>But what caused the alterations and what implications they may have are still open questions. Rudolf Uher, a neuroscientist at Dalhousie University in Halifax, Canada, points out that other factors like more screen time due to online schooling could be at play. And he cautions that future research may not back up this study’s findings.</p>
-
-
-
-<p>And it’s unclear whether accelerated brain aging has impacted teen health, or if issues will manifest later in life. While researchers can’t say for sure, “if your brain is prematurely aging, that’s generally not a good thing,” Luby says.</p>
-
-
-
-<p>Either way, ensuring that people have access to mental health services will be crucial to helping children of the pandemic, Gotlib says.</p>
-
-
-
-<p>“These kids are hurting,” he says. “We need to take that seriously and make sure we’re offering them treatment.”&nbsp;</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-01-03 12:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/florida-is-fighting-to-feed-starving-manatees-this-winter/">Florida Is Fighting to Feed Starving Manatees This Winter</a></h4>
-
-              
-                As the state’s residents step up to save the sea cows, advocacy organizations believe the solution is less about lettuce—and more about leaders.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-03 12:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2023/01/03/elsevier-journal-temporarily-removes-article-by-prolific-psychologist-with-a-typo-at-frist/">Elsevier journal temporarily removes article by prolific psychologist – with a typo at “frist”</a></h4>
-
-              
-                <div class="wp-block-image is-style-default">
-<figure class="alignright size-full"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2018/01/200px-Elsevier.svg_.png"><img decoding="async" loading="lazy" width="200" height="220" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2018/01/200px-Elsevier.svg_.png?resize=200%2C220" alt="" class="wp-image-53539" data-recalc-dims="1"/></a></figure></div>
-
-
-<p>An Elsevier psychology journal took down an article in early December with a notice that appeared to be an internal memo, including a typo.&nbsp;</p>
-
-
-
-<p>The article, a letter titled “<a href="https://www.sciencedirect.com/science/article/pii/S1876201820301842?via%3Dihub">First COVID-19 suicide case in Bangladesh due to fear of COVID-19 and xenophobia: Possible suicide prevention strategies</a>,” was published in June of 2020 in the <em>Asian Journal of Psychiatry</em> by Mark D. Griffiths of Nottingham Trent University in the UK and Mohammed A. Mamun of Jahangirnagar University and the Undergraduate Research Organization in Dhaka, Bangladesh. It has been cited more than 300 times, according to Clarivate’s Web of Science.&nbsp;</p>
-
-
-
-<p>Griffiths’ high publishing rate – according to his <a href="https://llr.ntu.ac.uk/rpd/researchpublications.php?pubid=db51913b-503e-4bef-920c-13d7630b28e5#group_Journal=5Farticle">university’s index</a> he published nearly 200 journal articles in 2022 – came under <a href="http://deevybee.blogspot.com/2020/07/percent-by-most-prolific-author-score.html">scrutiny</a> from Oxford University psychologist Dorothy Bishop in 2020, including his <a href="http://deevybee.blogspot.com/2020/12/faux-peer-reviewed-journals-threat-to.html">many collaborations</a> with Mamun. Griffiths <a href="https://www.timeshighereducation.com/news/mark-griffiths-professor-who-publishes-paper-every-two-days">told the <em>Times Higher Education</em></a> that he “made an intellectual contribution to every refereed paper I’ve published.”&nbsp;</p>
-
-
-
-<span id="more-126314"></span>
-
-
-
-<p>In September of 2022, an anonymous user on PubPeer <a href="https://pubpeer.com/publications/EAFECED561A20A5EFCB4F069087FC9#1">commented</a> on the June 2020 article from the <em>Asian Journal of Psychiatry</em>, sharing a <a href="https://onlinelibrary.wiley.com/doi/10.1111/ppc.12762">letter to the editor</a> published in <em>Perspectives in Psychiatric Care</em> expressing “a number of concerns” about a similar article by Griffiths and Mamun with other coauthors.&nbsp;</p>
-
-
-
-<p><a href="https://pubpeer.com/publications/EAFECED561A20A5EFCB4F069087FC9#2">Bishop commented</a> in October, pointing out that the article used the name of the person who had died by suicide and did not conform to other guidelines for media reporting on suicide. She wrote:&nbsp;</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>It is not clear what scientific value there is in such a report, which has potential to cause harm.</p>
-</blockquote>
-
-
-
-<p>In November, another anonymous user <a href="https://pubpeer.com/publications/EAFECED561A20A5EFCB4F069087FC9#3">posted a long comment</a> detailing questions about the evidence the authors had for multiple statements in the article, based on the news report that they cited.&nbsp;</p>
-
-
-
-<p>The journal acted in early December, taking down the article and replacing it with this notice:&nbsp;</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>Frist [sic] and the foremost, the paper mentions the name of a person who committed suicide (in the third paragraph). Besides, there are comments in pubpeer doubts [sic] the scientific value and scientific rigor of the paper. The editor in chief and I are looking into this. In the meantime, in order to protect the person&#8217;s privacy, we ask you to help us take it down temporarily.</p>
-</blockquote>
-
-
-
-<p>We emailed <a href="https://med.wmich.edu/node/1907">Rajiv Tandon</a>, a professor emeritus of psychiatry at Western Michigan University and the journal’s editor in chief, asking about the notice. An Elsevier spokesperson replied:&nbsp;</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>We can confirm there was a glitch with our content platform, which led to the publishing of the internal message instead of the removal notice.&nbsp;</p>
-
-
-
-<p>Our team is working to resolve this issue and to post the corrected notice – which will explain that the paper has been temporarily removed and will either be replaced or reinstated as soon as we reasonably can. The publisher has confirmed that the removal is due to a violation of our ethical policies, which state that we do not mention names of suicide victims.</p>
-</blockquote>
-
-
-
-<p>Later in December, the publisher replaced the first notice (<a href="https://archive.vn/TknDp#selection-501.0-524.0">archived here</a>), with <a href="https://www.sciencedirect.com/science/article/pii/S1876201820301842?via%3Dihub">this one</a>:&nbsp;</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>The publisher regrets that this article has been temporarily removed. A replacement will appear as soon as possible in which the reason for the removal of the article will be specified, or the article will be reinstated.</p>
-</blockquote>
-
-
-
-<p>We also reached out to Mamun and Griffiths for comment on the paper’s removal and the PubPeer comments. Mamun told us:&nbsp;</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>I have checked the PubPeer comments and found nothing special to respond to.&nbsp;</p>
-
-
-
-<p>First, they claimed the victim&#8217;s privacy was disclosed. This is not the first disclosure of the victim in our paper. The suicide was reported in many newspapers, on TV, and shared on social media. We used publicly available information, and it is not the first paper published by the AJP; you can check here is another paper (you may get other papers too), for example, disclosed the name of suicide victims: https://www.sciencedirect.com/science/article/pii/S1876201820304950&nbsp;&nbsp;</p>
-
-
-
-<p>Another claim in the PubPeer was we used only a reference where they did not find the information in the cited newspaper. This is apparently right for people living outside Bangladesh and probably never tried to reach us about other sources or any clarification before commenting in the PubPeer. Being the first suicide related to COVID-19, it was the talk of the country, and there were several reports, and posts on social media about it. In addition, I communicated with people known to the victim before writing the correspondence.&nbsp;</p>
-
-
-
-<p>We are waiting for hearing from the editor, as well as, will address all the comments formally, but not in the PubPeer.</p>
-</blockquote>
-
-
-
-<p>Griffiths shared with us the formal response to the journal, which we’ve made available <a href="https://retractionwatch.com/wp-content/uploads/2022/12/Asian-Journal-of-Psychiatry.-response-MG4-2022.docx">here</a>. It includes point-by-point responses to the PubPeer comments, and additional news articles that the authors said could not be included as references due to the journal’s limitations. </p>
-
-
-
-<p>Mamun later told us:&nbsp;</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>I would like to let you know that the publisher will reinstate the article as we had nothing wrong regarding all the claims made in PubPeer.&nbsp;</p>
-</blockquote>
-
-
-
-<p>In September of 2018, Nottingham Trent University <a href="https://forbetterscience.files.wordpress.com/2022/10/rj11.jpg">sent a letter</a> to Julian Derry, who had <a href="https://forbetterscience.com/2022/10/17/nuttingham-trash-university/">criticized Griffiths</a> and another university professor on his blog, stating that “the content of your blog raises concerns of defamation for this University and its employees” and requesting that he remove it.</p>
-
-
-
-<p><em>Like Retraction Watch? You can make a&nbsp;</em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us&nbsp;</em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us&nbsp;</em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your&nbsp;</em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our&nbsp;</em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s&nbsp;</em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can&nbsp;</em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
-
-
-<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2023-01-03 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://forbetterscience.com/2023/01/03/hindawi-garbage-sorting-system-based-on-citations/">Hindawi Garbage Sorting System, Based on Citations</a></h4>
-
-              
-                Parashorea tomentella continues their investigation of Hindawi's uneasy collaboration with Chinese papermills. Can it be solved with the promised 511 retractions?
-              
-
-              <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2023-01-03 07:31:27 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/video-game-dinosaurs/">Video Games Need Better Dinosaurs. Paleontologists Can Help</a></h4>
-
-              
-                WIRED visited the Geological Society of America conference to learn about the untapped potential of gigantic reptiles in gaming.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-01-02 14:00:00 UTC.
               </p>
             </li>
           <!-- each item -->
