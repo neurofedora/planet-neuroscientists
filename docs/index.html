@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2023-04-20 08:14:15 UTC 
+          on 2023-04-21 08:14:02 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -62,6 +62,477 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://forbetterscience.com/2023/04/21/schneider-shorts-21-04-2023-so-much-work-of-high-quality/">Schneider Shorts 21.04.2023 – So much work of high quality</a></h4>
+
+              
+                Schneider Shorts 21.04.2023 - due diligence in Germany, cancer biotech bonanza in USA, python expert in Iran, highly cited researchers in Spain, English professor in russia, Italian fraudster in an unexpected company, with eugenics, racism and war-mongering, and finally, why a papermill fabrication can't be retracted.
+              
+
+              <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2023-04-21 05:20:16 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://xcorr.net>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://xcorr.net" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://xcorr.net&title=xcorr.net" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://xcorr.net/2023/04/20/how-can-a-neural-network-be-like-the-brain/">How can a neural network be like the brain?</a></h4>
+
+              
+                <p>NeuroAI is the budding research field at the intersection of neuroscience and artificial intelligence. One of the core concepts used in the field is that artificial neural networks can act as good models of the brain. For example, it’s often claimed that convolutional neural networks can account for the response of the ventral visual stream to images. Similarly, large language models have been found that capture what’s going on inside the language network of the brain. When I have discussions with people outside of our narrow field, this often triggers surprise. Wait, how can a deep neural network be like the brain? What does it mean to be a good model? How can the squishy stuff be like the silicon?</p>
+
+
+
+<p>Here I want to get into the specifics of how, mechanically, you compare a brain to an Artificial Neural Network (ANN). I give some historical background first, focusing on classic results and methods that originated in the field of visual perception. I will explain the nitty gritty of how correspondence scores between brains and ANNs are calculated. I discuss some of the conceptual difficulties inherent in the classic methods of linear regression and RSA, and explain some of the proposed alternative metrics in Williams et al. (2021). You’ll get the most out of these sections if you’re coming from a math background: statistician, data scientist, computational neuroscientist, etc. Nevertheless, if you’re less math-oriented, I will give intuitive explanations so you can follow along. I conclude with a call to create and use more nuanced and detailed comparisons between brains and neural nets.</p>
+
+
+
+<h1 class="wp-block-heading">History: the visual ventral stream as a convolutional neural net</h1>
+
+
+
+<p>Let’s start with the classic example of convolutional neural networks vs. the ventral visual stream. In the late 80’s, Yann LeCun was inspired by the classic work of Hubel and Wiesel on the physiology of the visual cortex. He created a neural network consisting of sandwiched layers of selectivity and invariance operations, not unlike the simple and complex cells of the primary visual cortex. His network, LeNet, was the first example of a convolutional neural net (CNN) trained with gradient descent, and it could classify handwritten digits. Two decades later, this work was then greatly scaled up by Alex Krizhevsky and co. in Geoff Hinton’s lab at the University of Toronto. AlexNet led to the ImageNet moment, in 2012, where a CNN did far better than state-of-the-art classical machine learning methods at image classification, showing that “deep learning has arrived”.</p>
+
+
+
+<p>If CNNs were inspired by the brain, and they do the same thing as a brain (image classification), could they be a little like the brain? If it talks like a duck, and it walks like a duck, is it a duck? This is a surprisingly subtle question, and two teams (<a href="https://www.pnas.org/doi/abs/10.1073/pnas.1403112111">Dan Yamins in Jim DiCarlo’s</a> lab, and <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003915">Khaligh-Razavi in Niko Kriegeskorte’s</a>) answered this question with a vigorous “yes, maybe!?” in 2014. They looked at the responses of the ventral visual stream—areas of the brain traditionally associated with shape perception and image classification—and compared them against the ANNs of the time.</p>
+
+
+
+<h2 class="wp-block-heading">The mechanics of comparing a brain to an ANN</h2>
+
+
+
+<p>So how did they compare a brain to an ANN? They followed what’s now considered a classic recipe. You need three inputs:</p>
+
+
+
+<ol>
+<li>an ANN trained for some task (e.g. visual classification)</li>
+
+
+
+<li>a brain (human or non-human)</li>
+
+
+
+<li>a set of benchmark stimuli (e.g. a set of images, sentences, videos, etc.)</li>
+</ol>
+
+
+
+<p>You then proceed as follows:</p>
+
+
+
+<ol>
+<li>You probe the ANN with all the benchmark stimuli. You obtain a matrix of responses <strong>X</strong>. Each row is one stimulus (=one image, one movie clip, one sentence, etc.). Each column corresponds to a subunit of the neural network (e.g. the collected intermediate activations of the ANN).</li>
+
+
+
+<li>You do the same with the brain. That means, for instance, having someone sit inside the scanner, looking at the same set of images that the neural network was exposed to, and you recording their functional responses. You collect the data into a new matrix. The rows are again exemplars, but now the columns represent something else: physical neurons, EEG sensors, fMRI voxels, etc. This gives us a matrix of responses <strong>Y</strong>.</li>
+</ol>
+
+
+
+<p>By construction, <strong>X</strong> and <strong>Y</strong> have the same number of rows, but different column counts. We’ve thus reduced the problem of comparing a brain and an ANN to the problem of comparing two matrices of different shapes.</p>
+
+
+
+<p>There are two now classic ways of doing this:</p>
+
+
+
+<ol>
+<li>Linear regression: Do multiple linear regression to map one matrix onto the other. Learn a weight matrix <strong>W</strong> such that the residual ||<strong>Y</strong> &#8211; <strong>XW</strong>|| is minimized. This requires some regularization: Tikhonov regularization, which penalizes the sum-of-squares of <strong>W</strong>, might help here. An alternative is to require that the mapping is low-rank using partial least-squares with a limited number of components. This is the path used by Yamins &amp; DiCarlo. The final score is the R2 of the linear regression, perhaps calculated through cross-validation (CV).</li>
+
+
+
+<li>Representational Similarity Analysis (RSA): One difficulty with the previous method is that it requires learning a weight vector <strong>W</strong>. This is necessary, in part because the dimensionality of the two matrices might be different. If we form the matrices <strong>XX</strong>’ and <strong>YY</strong>’, however, we obtain two square matrices of the same size. Furthermore, these matrices are invariant to a relabeling (permutation) of the columns. Thus, we can compare the elements of the two similarity matrices via a correlation coefficient. Technically, you could have a negative score, but you could threshold or square to get a score in the 0-1 range. This <a href="https://www.frontiersin.org/articles/10.3389/neuro.06.004.2008/full">is the method pioneered by Niko Kriegeskorte back in 2008</a>.</li>
+</ol>
+
+
+
+<p>These procedures will result in two distinct scores for the similarity of matrices: the linear regression score (really, CV R2) and the RSA score. Both have the property that 0 is maximally misaligned and 1 is maximally aligned. This way, we have reduced the difficult philosophical question of what it means for a brain to be like an ANN to a problem of <em>big number good, small number bad.</em></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png"><img data-attachment-id="8225" data-permalink="https://xcorr.net/2023/04/20/how-can-a-neural-network-be-like-the-brain/screenshot-2023-04-20-at-6-14-42-pm/" data-orig-file="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png" data-orig-size="1056,736" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screenshot-2023-04-20-at-6.14.42-pm" data-image-description="" data-image-caption="" data-medium-file="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png?w=300" data-large-file="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png?w=1024" src="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png?w=1024" alt="" class="wp-image-8225" srcset="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png?w=1024 1024w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png?w=150 150w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png?w=300 300w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png?w=768 768w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-6.14.42-pm.png 1056w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">The sophisticated logic behind ANN/brain comparisons</figcaption></figure>
+
+
+
+<p>Using these tools, the two historical papers came to similar conclusions: deep neural nets trained on images have similar representations to the ventral visual stream of the brain. For the Yamins paper, it was with linear regression and with single-cell neurophysiology; for Khaligh-Razavi, it was RSA on fMRI data.</p>
+
+
+
+<h1 class="wp-block-heading"><strong>Conceptual difficulties with comparing brains and ANNs</strong></h1>
+
+
+
+<p>Procedures to map brains to ANNs like linear regression and RSA swap out deep philosophical issues about the nature of perception with a technocratic procedure. In fact, there’s a lot that hides under these scoring procedures.</p>
+
+
+
+<p>Both methods are <em>correct</em> at the extremes: if you try to compare two random matrices against each other, you’ll get a score of 0; and if you compare a brain (or an ANN) against itself, you’ll get a score of 1. So a brain is similar to itself but not to random noise: cool. That’s a pretty low bar to achieve, and it’s in the middle scores that we run into conceptual difficulties. What does a 0.5 similarity between the brain and an ANN mean? What are we actually trying to quantify?</p>
+
+
+
+<figure data-carousel-extra='{"blog_id":3084329,"permalink":"https:\/\/xcorr.net\/2023\/04\/20\/how-can-a-neural-network-be-like-the-brain\/"}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><a href="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png"><img data-attachment-id="8220" data-permalink="https://xcorr.net/2023/04/20/how-can-a-neural-network-be-like-the-brain/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1/" data-orig-file="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png" data-orig-size="878,878" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1" data-image-description="" data-image-caption="" data-medium-file="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png?w=300" data-large-file="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png?w=878" data-id="8220" src="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png?w=878" alt="" class="wp-image-8220" srcset="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png 878w, https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png?w=150 150w, https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png?w=300 300w, https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_661b5c9b-6a73-4fa3-901e-d30ecda00581-1.png?w=768 768w" sizes="(max-width: 878px) 100vw, 878px" /></a><figcaption class="wp-element-caption">One rubber duck</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png"><img data-attachment-id="8221" data-permalink="https://xcorr.net/2023/04/20/how-can-a-neural-network-be-like-the-brain/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60/" data-orig-file="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png" data-orig-size="952,952" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60" data-image-description="" data-image-caption="" data-medium-file="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png?w=300" data-large-file="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png?w=952" data-id="8221" src="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png?w=952" alt="" class="wp-image-8221" srcset="https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png 952w, https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png?w=150 150w, https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png?w=300 300w, https://xcorr.files.wordpress.com/2023/04/pmineault_a_rendered_yellow_rubber_duck_from_the_side_unreal_en_5d5f41f0-3d9b-4d6f-ac3e-35a36c4d2b60.png?w=768 768w" sizes="(max-width: 952px) 100vw, 952px" /></a><figcaption class="wp-element-caption">The same rubber duck, from another angle. Or is it a different one?</figcaption></figure>
+</figure>
+
+
+
+<p>There are different ways in which we can conceptualize how the brain can be like an ANN. Let’s name some of these ways:</p>
+
+
+
+<ol>
+<li>We could ask for a 1-to-1 correspondence: each subunit in the ANN should correspond to a neuron in the brain. That’s a very high bar to clear! Let’s call this 1-to-1 correspondence.</li>
+
+
+
+<li>We could ask that distances are preserved in the brain and in the ANN. An analogy in 3d will help. Two three-dimensional shapes (say, rubber duckies, above) can be similar, regardless of their (arbitrary) orientation. Distances between two points on the surface of the duckies are preserved: they are invariants. Let’s call this orthogonal correspondence.</li>
+
+
+
+<li>We could ask that one manifold of responses can be morphed into another through a linear transformation. Let’s call this linear correspondence.</li>
+</ol>
+
+
+
+<p>It’s not clear how traditional linear regression and RSA scores map to these desiderata. You can make a verbal argument that linear regression is similar to linear correspondence (2), while RSA is most similar to orthogonal correspondence (2). However, there are complications in real implementations: regularization in linear regression, selection of voxels with sufficient signal-to-noise ratio in RSA. This means that we might not capture our (unstated) goals in complex ways.</p>
+
+
+
+<p>Traditionally, these concerns have been more or less swept under the rug, and each subfield has converged on its own widely agreed-upon scores: RSA for human neuroscience, linear regression for single-cell neurophysiology. The argument goes that whatever score we choose, alternative scores would correlate with it. This encourages papers from using whatever is the most commonly used score in their subfield, which allows the scores to be compared more readily from paper to paper. A perfectly reasonable heuristic, but a little unsatisfying.</p>
+
+
+
+<h1 class="wp-block-heading"><strong>Williams et al.&#8217;s solution: computational shape analysis</strong></h1>
+
+
+
+<p><a href="https://arxiv.org/abs/2110.14739">Williams et al. (2021)</a> offer a nice treatment of these issues with some good conceptual solutions, casting the problem as one of computational shape analysis: analyzing shapes in high-dimensional spaces with statistical tools.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png"><img data-attachment-id="8224" data-permalink="https://xcorr.net/2023/04/20/how-can-a-neural-network-be-like-the-brain/screenshot-2023-04-20-at-5-20-52-pm/" data-orig-file="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png" data-orig-size="1176,832" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="screenshot-2023-04-20-at-5.20.52-pm" data-image-description="" data-image-caption="" data-medium-file="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png?w=300" data-large-file="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png?w=1024" src="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png?w=1024" alt="" class="wp-image-8224" srcset="https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png?w=1024 1024w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png?w=150 150w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png?w=300 300w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png?w=768 768w, https://xcorr.files.wordpress.com/2023/04/screenshot-2023-04-20-at-5.20.52-pm.png 1176w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Different metrics are tolerant or not of rescaling along arbitrary axes. Top: orthogonal correspondence. Bottom: linear correspondence. From Williams et al. 2021.</figcaption></figure>
+
+
+
+<p>First, they project the two representations (brain and ANN) onto a fixed, common-sized representation. You could use random projections, subsampling, PCA, etc. to get two matrices with different widths to the same width. Call the resulting matrices <img src="https://s0.wp.com/latex.php?latex=%5Chat%7B%5Cbold%7BX%7D%7D&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Chat%7B%5Cbold%7BX%7D%7D&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Chat%7B%5Cbold%7BX%7D%7D&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;hat{&#92;bold{X}}" class="latex" /> and <img src="https://s0.wp.com/latex.php?latex=%5Chat%7B%5Cbold%7BY%7D%7D&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Chat%7B%5Cbold%7BY%7D%7D&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Chat%7B%5Cbold%7BY%7D%7D&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;hat{&#92;bold{Y}}" class="latex" />. One of their proposed distances is <img src="https://s0.wp.com/latex.php?latex=%5Cmin_%7BT+%5Cin+G%7D+%7C%7C%5Chat%7B%5Cbold%7BX%7D%7D+-+%5Chat%7B%5Cbold%7BY%7D%7D%7C%7C&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002" srcset="https://s0.wp.com/latex.php?latex=%5Cmin_%7BT+%5Cin+G%7D+%7C%7C%5Chat%7B%5Cbold%7BX%7D%7D+-+%5Chat%7B%5Cbold%7BY%7D%7D%7C%7C&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002 1x, https://s0.wp.com/latex.php?latex=%5Cmin_%7BT+%5Cin+G%7D+%7C%7C%5Chat%7B%5Cbold%7BX%7D%7D+-+%5Chat%7B%5Cbold%7BY%7D%7D%7C%7C&#038;bg=ffffff&#038;fg=000&#038;s=0&#038;c=20201002&#038;zoom=4.5 4x" alt="&#92;min_{T &#92;in G} ||&#92;hat{&#92;bold{X}} - &#92;hat{&#92;bold{Y}}||" class="latex" />. <strong>T</strong> is a transformation within some group <em>G</em> that captures what is it that we mean by “same”. Some potential choices:</p>
+
+
+
+<ol>
+<li>If you want one-to-one correspondence between the brain and ANN, <em>G</em> can be the set of all permutation matrices</li>
+
+
+
+<li>If you want distances to be preserved, then <em>G</em> can be the orthonormal matrices</li>
+
+
+
+<li>If you want to allow squishing along arbitrary linear dimensions, you can let <em>G</em> be arbitrary linear transformations</li>
+</ol>
+
+
+
+<p>It turns out the resulting scores are proper distances that respect the triangle inequality, which has some nice benefits for clustering. They also introduce more metrics for more unusual scenarios. For example, for convolutional neural networks, you’d want something that allows remapping along the channel dimension, but not along the space dimension. Although each metric seems like it requires a brute-force search, it turns out there are clever ways of calculating the optimal transformations in each scenario.</p>
+
+
+
+<h1 class="wp-block-heading">The advantage of axiomatic methods</h1>
+
+
+
+<p>Overall, Williams et al. take cues from the recent success of geometric deep learning (e.g. <a href="https://arxiv.org/abs/2104.13478">Bronstein et al. 2021</a>) to ask deep questions about the metrics we use. More than just an incremental numerical improvement, I think it’s a big conceptual improvement over linear regression and RSA: you know what you’re getting into. An axiomatic approach tells you very explicitly what the underlying assumptions are.</p>
+
+
+
+<p>Ironically, this makes it easier to poke holes in some of these scores. For instance, one of the core desiderata that Williams et al. fulfill is that their chosen score should be symmetric. Now, I would argue that a brain can be more similar to a neural network than vice-versa. Modern large language models (LLMs) represent more stuff than humans: GPT-4 knows markdown, latex, English, German, how to write listicles and poems and sound like a pirate. Most people can only do a subset of these things. Divergences for distributions are naturally asymmetric, so there’s nothing inherently fishy about a score that is asymmetric. I’m sure there is a variant of linear regression’s asymmetric R2 which can be properly axiomatized according to the framework laid out by Williams et al.</p>
+
+
+
+<p>In the meantime, one can use combinations of these well-justified metrics to answer interesting questions about how brains vs. ANNs represent information. For example, the delta between linear correspondance (metric 3) and the orthogonal correspondance (metric 2) is an index about how much warping is necessary to get two latent spaces to match. This could help reveal whether a brain’s representation is <em>a subset of</em> or <em>a noisy approximation of</em> a particular artificial neural net, which is ambiguous for each individual metric. Williams et al. have made their metrics available in <a href="https://github.com/ahwillia/netrep">this Python package</a>, so you can try this out yourself.</p>
+
+
+
+<h1 class="wp-block-heading">Discussion</h1>
+
+
+
+<p>For all their justification, we haven’t seen much empirical work using well-axiomatized scores beyond linear regression and RSA. I think the reason for the status quo is that we’ve been focused on coarse characterizations thus far. This will surely need to change as we go beyond <em>ANNs as metaphors for the brain</em> and start using them as <em>in silico models</em> of the brain.</p>
+
+
+
+<p>For instance, <a href="https://xcorr.net/2022/05/18/whats-the-endgame-of-neuroai/">I’m interested in using ANNs as models for the brain for the purpose of neural engineering</a>. What I really want is that when I create a virtual lesion in a neural network, it predicts how the real brain will react to a real lesion. Such a <em>causal manipulation score</em> doesn’t yet exist, but I think it would be both conceptually and practically useful. The axiomatic approach of Williams et al. points us towards ways of building this type of score.</p>
+
+
+
+<p>For other purposes, however, it may be that the metrics we have are good enough. <a href="https://www.biorxiv.org/content/10.1101/2023.04.16.537080v1">This recent paper from Tuckute et al.</a> shows that one can learn a transfer function between a large language model and the brain’s language network using linear regression. The model can predict which sentences drive or don’t drive the brain. Using in silico models to predict the response of the brain is helpful in this scenario, and in a certain meaningful sense it means that the brain <em>is like a neural network</em>, along this prediction axis, but perhaps not according to more stringent criteria.</p>
+
+
+
+<p>The work from Williams et al. is just one of a number of recent approaches looking at this problem in depth. We’ve seen <a href="https://arxiv.org/abs/2211.11665">some of the same authors extend this work to stochastic representations</a>. <a href="https://xcorr.net/2023/01/01/2022-in-review-neuroai-comes-of-age/">Furthermore, empiricists have pointed out problems that current metrics don’t capture</a>, for example, hierarchical correspondence. I think it’s an exciting time to think deeply about our metrics and what it really means for a brain to be like an ANN.</p>
+              
+
+              <p class="text-muted">in <a href ="https://xcorr.net">xcorr.net</a> on 2023-04-20 22:30:40 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://theplosblog.plos.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://theplosblog.plos.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://theplosblog.plos.org&title=The Official PLOS Blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://theplosblog.plos.org/2023/04/plos-genetics-to-launch-microbial-section/">PLOS Genetics to launch Microbial Section</a></h4>
+
+              
+                <p><strong>NOTE:</strong> PLOS issued the following press release on Thursday, April 20 at 2pm Eastern</p>
+
+
+
+<p>SAN FRANCISCO &mdash; PLOS today announced that<em> PLOS Genetics </em>is expanding the scope of its journal with a renamed section called <em>Microbial Genetics. </em>This section will replace the former Prokaryotic Genetics section to emphasize research on microbes more broadly with the aim to publish studies that use genetic approaches to provide insights into how bacteria as well as archaea and their phages/viruses, fungi (including yeasts and filamentous fungi), and protists function and interact with the biotic and abiotic world.</p>
+
+
+
+<p><em>PLOS Genetics</em> has an established presence in the fungal genetics community, but this research has not easily found a home within its existing journal sections. Currently, the majority of these submissions, primarily studies in yeast, are handled within the General section of the journal. The new microbial section will rectify that issue.</p>
+
+
+
+<p>&ldquo;We believe the new <em>Microbial Genetics</em> section will provide a logical new home for these submissions and reaffirm our continued support for this type of research,&rdquo; said Gregory Copenhaver, Co Editor-in-Chief, <em>PLOS Genetics</em>.</p>
+
+
+
+<p>&ldquo;We are excited that the relaunch of this section will include a Curated Collection for malaria-related research, which will also include other protozoan parasites,&rdquo; said Gregory Barsh, Co Editor-in-Chief, <em>PLOS Genetics.</em></p>
+
+
+
+<p>The new section on Microbial Genetics will be headed by Geraldine Butler, Eva Stukenbrock, Lotte S&oslash;gaard-Andersen and Sean Crosson. These four section editors are supported by <a href="https://journals.plos.org/plosgenetics/s/editorial-board">associate editors</a> with broad expertise in microbial genetics.</p>
+
+
+
+<p>To learn more about this section relaunch, you can read the editorial<a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010695"> here</a>.</p>
+
+
+
+<p>###</p>
+
+
+
+<p><strong>About the Public Library of Science</strong></p>
+
+
+
+<p>PLOS is a nonprofit, open access publisher empowering researchers to accelerate progress in science and medicine by leading a transformation in research communication. Since our founding in 2001, PLOS journals have helped break boundaries in research communication to provide more opportunities, choice, and context for researchers and readers. For more information, visit <a href="http://www.plos.org/">http://www.plos.org</a>.</p>
+
+
+
+<p><strong>About PLOS Genetics</strong></p>
+
+
+
+<p><em>PLOS Genetics</em>&nbsp;publishes human studies, as well as research on model organisms&mdash;from mice and flies, to plants and bacteria. Our emphasis is on studies of broad interest that provide significant insight into a biological process or processes. Topics include (but are not limited to) gene discovery and function, population genetics, genome projects, comparative and functional genomics, medical genetics, disease biology, evolution, gene expression, complex traits, chromosome biology, and epigenetics.<strong><br><br></strong><strong></strong></p>
+
+<p>The post <a rel="nofollow" href="https://theplosblog.plos.org/2023/04/plos-genetics-to-launch-microbial-section/">PLOS Genetics to launch Microbial Section</a> appeared first on <a rel="nofollow" href="https://theplosblog.plos.org">The Official PLOS Blog</a>.</p>
+              
+
+              <p class="text-muted">in <a href ="https://theplosblog.plos.org">The Official PLOS Blog</a> on 2023-04-20 18:07:11 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/jellyfish-nervous-system-animal">Comb jellies have a bizarre nervous system unlike any other animal</a></h4>
+
+              
+                <p>Shimmering, gelatinous comb jellies wouldn’t appear to have much to hide. But their mostly see-through bodies cloak <a href="http://www.science.org/doi/10.1126/science.ade5645" target="_blank" rel="noopener">a nervous system unlike that of any other known animal</a>, researchers report in the April 21 <em>Science</em>.</p>
+
+
+
+<p>In the nervous systems of everything from anemones to aardvarks, electrical impulses pass between nerve cells, allowing for signals to move from one cell to the next. But the ctenophores’ cobweb of neurons, called a nerve net, is missing these distinct connection spots, or synapses. Instead, the nerve net is fused together, with long, stringy neurons sharing a cell membrane, a new 3-D map of its structure shows.</p>
+
+
+
+
+
+<p>While the nerve net has been described before, no one had generated a high-resolution, detailed picture of it.</p>
+
+
+
+<p>It’s possible the bizarre tissue represents a second, independent evolutionary origin of a nervous system, say Pawel Burkhardt, a comparative neurobiologist at the University of Bergen in Norway, and colleagues.</p>
+
+
+
+<p>Superficially similar to jellyfish, ctenophores are often called comb jellies because they swim using rows of beating, hairlike combs. The enigmatic phylum is considered one of the earliest to branch off the animal tree of life. So ctenophores’ possession of a simple nervous system has been of particular interest to scientists interested in how such systems evolved.&nbsp;</p>
+
+
+
+<p>Previous genetics research had hinted at the strangeness of the ctenophore nervous system. For instance, a 2018 study <a href="https://www.nature.com/articles/s41559-018-0575-6" target="_blank" rel="noopener">couldn’t find a cell type in ctenophores</a> with a genetic signature that corresponded to recognizable neurons, Burkhardt says.</p>
+
+
+
+<p>Burkhardt, along with neurobiologist Maike Kittelmann of Oxford Brookes University in England and colleagues, examined young sea walnuts (<em>Mnemiopsis leidyi</em>) using electron microscopes, compiling many images to reconstruct the entire net structure. Their 3-D map of a 1-day-old sea walnut revealed the funky synapse-free fusion between the five sprawling neurons that made up the tiny ctenophore’s net.</p>
+
+
+<figure class="wp-block-image alignwide"><picture class="sn-responsive-image"><source srcset="https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_desktop-537x450.jpg 537w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_desktop-457x383.jpg 457w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_desktop-222x186.jpg 222w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_desktop.jpg 680w" width="537" height="450" media="(min-width: 600px)" sizes="(max-width: 1023px) 100vw, (max-width: 1439px) 60vw, 894px"></source><source srcset="https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-509x450.jpg 509w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-433x383.jpg 433w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-210x186.jpg 210w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-656x580.jpg 656w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile.jpg 680w" width="509" height="450"></source><img src="https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-509x450.jpg" class="attachment-large size-large" alt="This 3-D reconstruction of the sea walnut’s nervous system reveals the structure of its nerve net (purple) as well as nearby structures and other nervous system components. Two kinds of nerve cells — sensory cells (light blue) and mesogleal neurons (yellow) exist outside the nerve net." decoding="async" srcset="https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-509x450.jpg 509w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-433x383.jpg 433w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-210x186.jpg 210w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-656x580.jpg 656w, https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile.jpg 680w" sizes="(max-width: 1023px) 100vw, (max-width: 1439px) 60vw, 894px" data-attachment-id="3123888" data-permalink="https://www.sciencenews.org/042023_jb_comb-jellies_inline_mobile" data-orig-file="https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile.jpg" data-orig-size="680,601" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="042023_JB_comb-jellies_inline_mobile" data-image-description="" data-image-caption="&lt;p&gt;This 3-D reconstruction of the sea walnut’s nervous system reveals the structure of its nerve net (purple) as well as nearby structures and other nervous system components. Two kinds of nerve cells — sensory cells (light blue) and mesogleal neurons (yellow) exist outside the nerve net. How they interact with the nerve net is still unknown, as is the role of the mesogleal neurons. Those nerve cells exist in the animal’s gelatinous body layer and may provide nutrients or other support to the nerve net.&lt;/p&gt;
+" data-medium-file="https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-433x383.jpg" data-large-file="https://www.sciencenews.org/wp-content/uploads/2023/04/042023_JB_comb-jellies_inline_mobile-509x450.jpg" /></picture><figcaption><span class="caption mobile-caption wp-caption-3123888">This 3-D reconstruction of the sea walnut’s nervous system reveals the structure of its nerve net (purple) as well as nearby structures and other nervous system components. Two kinds of nerve cells — sensory cells (light blue) and mesogleal neurons (yellow) exist outside the nerve net. How they interact with the nerve net is still unknown, as is the role of the mesogleal neurons. Those nerve cells exist in the animal’s gelatinous body layer and may provide nutrients or other support to the nerve net.</span><span class="credit mobile-credit wp-credit-3123888">Pawel Burkhardt and Maike Kittelmann</span><span class="caption desktop-caption wp-caption-3123887">This 3-D reconstruction of the sea walnut’s nervous system reveals the structure of its nerve net (purple) as well as nearby structures and other nervous system components. Two kinds of nerve cells — sensory cells (light blue) and mesogleal neurons (yellow) exist outside the nerve net. How they interact with the nerve net is still unknown, as is the role of the mesogleal neurons. Those nerve cells exist in the animal’s gelatinous body layer and may provide nutrients or other support to the nerve net.</span><span class="credit desktop-credit wp-credit-3123887">Pawel Burkhardt and Maike Kittelmann</span></figcaption></figure>
+
+
+<p>The conventional view is that neurons and the rest of the nervous system evolved once in animal evolutionary history. But given this “unique architecture” and ctenophores’ ancient position in the animal kingdom, it raises the possibility that nerve cells actually evolved twice, Burkhardt says. “I think that&#8217;s exciting.”</p>
+
+
+
+
+
+<p>But he adds that further work — especially on the development of these neurons — is needed to help verify their evolutionary origin.&nbsp;</p>
+
+
+
+<p>The origins of the animal nervous system is a murky area of research. Sponges — the traditional competitors for the title of most ancient animal — don’t have a nervous system, or muscles or fundamental vision proteins called opsins, for that matter.&nbsp;But there’s been mounting evidence to suggest that ctenophores are actually <a href="https://www.sciencenews.org/article/animal-origins-shift-comb-jellies">the most ancient animal group</a>, older even than sponges (<em>SN: 12/12/13</em>).</p>
+
+
+
+<p>If ctenophores arose first, it “implies that either sponges have lost a massive number of features, or that the ctenophores effectively evolved them all independently,” says Graham Budd, a paleobiologist at Uppsala University in Sweden who was not involved in the research.&nbsp;</p>
+
+
+
+<p>If sponges emerged first, it’s still possible that ctenophores evolved their nerve net independently rather than inheriting it from a neuron-bearing ancestor, Burkhardt says. Ctenophores have other neurons outside the nerve net, such as mesogleal neurons embedded in a ctenophore’s gelatinous body layer and sensory cells, the latter of which may communicate with the nerve net to adjust the beating of the combs. So, it’s possible they’re a mosaic of two nervous systems of differing evolutionary origins.</p>
+
+
+
+<p>But Joseph Ryan, a bioinformatician at the University of Florida in Gainesville, doesn’t think the results necessarily point to the parallel evolution of a nervous system. Given how long ctenophores have been around — especially if they are older than sponges — the ancestral nervous system may have had plenty of time to evolve into something weird and highly-specialized, says Ryan, who was not part of the study.&nbsp;“We&#8217;re dealing with close to a billion years of evolution. We&#8217;re going to expect strange things to happen.”</p>
+
+
+
+<p>The findings are “one more bit of the jigsaw puzzle,” Budd says. “There&#8217;s a whole bunch we don&#8217;t know about these rather common and rather well-known animals.”</p>
+
+
+
+<p>For instance, it’s unclear how the nerve net works. Our neurons use rapid changes in voltage across their cell membranes to send signals, but the nerve net might work quite differently, Burkhardt says.<br><br>There are reports of potentially similar systems in other animals, such as by-the-wind-sailor jellies (<em>Velella velella</em>). Studying them in detail, along with nerve nets in other ctenophore species, could determine just how unusual this synapse-less nervous system is.</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-04-20 18:00:46 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/northern-elephant-seals-sleep-sea">Northern elephant seals sleep just two hours a day at sea</a></h4>
+
+              
+                <p>Northern elephant seals are the true masters of the power nap.</p>
+
+
+
+<p>On long trips out to sea, the seals <a href="http://www.science.org/doi/10.1126/science.adf0566" target="_blank" rel="noopener">snooze less than 20 minutes at a time</a>, researchers report in the April 21 <em>Science</em>. The animals average just two hours of shut-eye per day while swimming offshore for months — <a href="https://www.sciencenews.org/article/wild-elephants-clock-shortest-shut-eye-recorded-mammals">rivaling African elephants</a> for the least sleep measured among mammals (<em>SN: 3/1/17</em>).</p>
+
+
+
+<p>“It’s important to map these extremes of [sleep behavior] across the animal kingdom to get a better sense of the evolution and the function of sleep for all mammals, including humans,” says Jessica Kendall-Bar, an ecophysiologist at the University of California, San Diego. Knowing how seals catch their z’s could also guide conservation efforts to protect places where they sleep.</p>
+
+
+
+
+
+<p>Northern elephant seals (<em>Mirounga angustirostris</em>) spend most of the year out in the Pacific Ocean. On these odysseys, the animals forage around the clock for fish, squid and other food to sustain their <a href="https://www.sciencenews.org/article/elephant-seals-eating-males-huge-death-risk-survival">enormous bodies</a>, which can be as hefty as a car (<em>SN: 2/4/22</em>). Because northern elephant seals are most vulnerable to sharks and killer whales at the surface, they come up for air only a couple minutes at a time between 10- to 30-minute <a href="https://www.sciencenews.org/article/how-whales-dolphins-seals-dive-so-deep">deep dives</a> (<em>SN: 9/28/02</em>).</p>
+
+
+
+<p>“People had known that these seals dive almost all the time when they’re out in the ocean, but it wasn’t known if and how they sleep,” says Niels Rattenborg, a neurobiologist at the Max Planck Institute for Biological Intelligence in Seewiesen, Germany, who was not involved in the study.</p>
+
+
+
+<p>To find out if the seals sleep while diving, Kendall-Bar and her colleagues developed a watertight EEG cap for the animals. Using the cap and other sensors, the team tracked the brain waves, heart rates and 3-D motion of 13 young female seals, including five at a lab and six hanging out at coastal Año Nuevo State Park north of Santa Cruz, Calif. EEG data recorded while seals were slumbering revealed what the animals’ naptime brain waves looked like.&nbsp;</p>
+
+
+
+<p>Kendall-Bar’s team also took two sensor-strapped seals from Año Nuevo and released them at another beach about 60 kilometers south. To swim home, the seals had to cross the deep Monterey Canyon — a locale similar to the deep, predator-fraught waters frequented by seals on months-long foraging trips. Matching the seals’ EEG readings to their diving motions on this journey showed how northern elephant seals sleep on long voyages.</p>
+
+
+
+<p>The animals first swim 60 to 100 meters below the surface, then relax into a glide, Kendall-Bar says. As they nod off into slow-wave sleep, the animals keep holding themselves upright for several minutes. But as REM sleep sets in, so does sleep paralysis. The animals flip upside-down and drift in gentle spirals toward the seafloor. Seals can descend hundreds of meters deep during these naps — far below where their predators normally prowl. When the seals wake after five to 10 minutes of sleep, they swim up to the surface. The whole routine takes about 20 minutes.</p>
+
+
+
+<p>Looking for that distinct sleep dive motion, the researchers could pick out naps in the dive records of 334 adult seals that had been outfitted with tracking tags from 2004 to 2019. Those sleep patterns revealed that northern elephant seals conk out, on average, around two hours per day while on months-long foraging missions. But the seals sleep nearly 11 hours per day while on land to mate and molt, where they can indulge in long, beachside siestas without worrying about predators.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="680" height="382" src="https://www.sciencenews.org/wp-content/uploads/2023/04/041923_MT_nappingseals_inline.jpg" alt="A photo of three northern elephant seals sleeping on a sandy beach while many other seals sleep behind them." class="wp-image-3123862" srcset="https://www.sciencenews.org/wp-content/uploads/2023/04/041923_MT_nappingseals_inline.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2023/04/041923_MT_nappingseals_inline-330x186.jpg 330w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3123862">Northern elephant seal siestas are no joke. While on land, these animals can conk out for a solid 11 hours per day. But at sea, the seals catch only brief snatches of sleep.</span><span class="credit wp-credit-3123862">Photo by Jessica Kendall-Bar, NMFS 23188</span></figcaption></figure>
+
+
+
+<p>“What the seals are doing might be something like what we do when we sleep in on the weekend, but it’s on a much longer timescale,” Rattenborg says. He and his colleagues have found a similar feast-and-famine style of sleep in <a href="https://www.sciencenews.org/article/frigate-birds-fly-nonstop-months">great frigate birds</a>, which fly over the ocean (<em>SN: 6/30/16</em>). “Although they can sleep while they’re flying,” he says, “they sleep less than an hour a day for up to a week at a time, and once back on land, they sleep over 12 hours a day.”</p>
+
+
+
+<p>Curiously, northern elephant seals’ sleep habits are quite different from how other marine mammals have been seen sleeping in labs. “Many of them … sleep in just half of their brain at a time,” Kendall-Bar says. That half-awake state allows dolphins, fur seals and sea lions to practice constant vigilance, literally sleeping with one eye open.</p>
+
+
+
+
+
+<p>“I think it’s pretty cool that elephant seals are doing this without [one-sided] sleep,” Kendall-Bar says. “They’re shutting off both halves of their brain completely and leaving themselves vulnerable.” It seems the key to enjoying such deep sleep is sleeping deep in the sea.</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-04-20 18:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/spacex-starship-launch-explodes/">SpaceX’s Starship Explodes During First Orbital Test Flight</a></h4>
+
+              
+                After achieving liftoff, the Starship vehicle failed to separate from its Super Heavy booster rocket.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-04-20 14:06:29 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/cosmic-antimatter-origins-fermi-bubbles-galaxy">Cosmic antimatter hints at origins of huge bubbles in our galaxy’s center</a></h4>
+
+              
+                <p><strong>MINNEAPOLIS </strong>— Bubbles of radiation billowing from the galactic center may have started as a stream of electrons and their antimatter counterparts, positrons, new observations suggest. An excess of positrons zipping past Earth suggests that the bubbles are the result of a burp from our galaxy’s supermassive black hole after a meal millions of years ago.</p>
+
+
+
+<p>For over a decade, scientists have known about bubbles of gas, or <a href="https://www.sciencenews.org/article/milky-ways-black-hole-may-blow-bubbles">Fermi bubbles</a>, extending above and below the Milky Way’s center (<em>SN: 11/9/10</em>). Other observations have since spotted the bubbles in microwave radiation and <a href="https://www.sciencenews.org/article/x-ray-bubbles-center-milky-way-galaxy">X-rays</a> (<em>SN: 12/9/20</em>). But astronomers still aren’t quite sure how they formed.</p>
+
+
+
+
+
+<p>A jet of high-energy electrons and positrons, <a href="https://meetings.aps.org/Meeting/APR23/Session/U13.1" target="_blank" rel="noopener">emitted by the supermassive black hole in one big burst</a>, could explain the bubbles’ multi-wavelength light, physicist Ilias Cholis reported April 18 at the American Physical Society meeting.</p>
+
+
+
+<p>In the initial burst, most of the particles would have been launched along jets aimed perpendicular to the galaxy’s disk. As the particles interacted with other galactic matter, they would lose energy and cause the emission of different wavelengths of light.</p>
+
+
+
+<p>Those jets would have been aimed away from Earth, so those particles can never be detected. But some of the particles could have escaped along the galactic disk, perpendicular to the bubbles, and end up passing Earth. “It could be that just now, some of those positrons are hitting us,” says Cholis, of Oakland University in Rochester, Mich.</p>
+
+
+
+<p>So Cholis and Iason Krommydas of Rice University in Houston analyzed positrons detected by the Alpha Magnetic Spectrometer on the International Space Station. The pair found an excess of positrons whose present-day energies could correspond to a burst of activity from the galactic center between 3 million and 10 million years ago, right around when the Fermi bubbles are thought to have formed, Cholis said at the meeting.</p>
+
+
+
+<p>The result, Cholis said, supports the idea that the Fermi bubbles came from a time when the galaxy’s central black hole was busier than it is today.</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-04-20 12:00:00 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -1209,7 +1680,7 @@
               <h4><a href="https://www.sciencenews.org/article/spy-balloon-circumnavigate-science-nasa">50 years ago, a balloon circumnavigated the world for science</a></h4>
 
               
-                <div class="wp-block-image">
+                <div class="wp-block-image  has-alignleft">
 <figure class="alignleft size-medium is-resized"><a href="https://www.sciencenews.org/sn-magazine/april-7-1973"><img decoding="async" loading="lazy" src="https://www.sciencenews.org/wp-content/uploads/2023/04/040823_50ya_cover-283x383.jpg" alt="" class="wp-image-3123540" width="212" height="287" srcset="https://www.sciencenews.org/wp-content/uploads/2023/04/040823_50ya_cover-283x383.jpg 283w, https://www.sciencenews.org/wp-content/uploads/2023/04/040823_50ya_cover-333x450.jpg 333w, https://www.sciencenews.org/wp-content/uploads/2023/04/040823_50ya_cover-137x186.jpg 137w, https://www.sciencenews.org/wp-content/uploads/2023/04/040823_50ya_cover-429x580.jpg 429w, https://www.sciencenews.org/wp-content/uploads/2023/04/040823_50ya_cover-574x776.jpg 574w, https://www.sciencenews.org/wp-content/uploads/2023/04/040823_50ya_cover.jpg 680w" sizes="(max-width: 212px) 100vw, 212px" /></a></figure></div>
 
 
@@ -1492,7 +1963,7 @@
               <h4><a href="https://www.sciencenews.org/article/period-book-change-mind-menstruation">‘Period’ wants to change how you think about menstruation</a></h4>
 
               
-                <div class="wp-block-image">
+                <div class="wp-block-image  has-alignleft">
 <figure class="alignleft size-medium is-resized"><a href="https://bookshop.org/a/21798/9780691191317" target="_blank" rel="noopener"><img decoding="async" loading="lazy" src="https://www.sciencenews.org/wp-content/uploads/2023/03/040823_reviews_cover-261x383.jpg" alt="" class="wp-image-3123270" width="196" height="287" srcset="https://www.sciencenews.org/wp-content/uploads/2023/03/040823_reviews_cover-261x383.jpg 261w, https://www.sciencenews.org/wp-content/uploads/2023/03/040823_reviews_cover-306x450.jpg 306w, https://www.sciencenews.org/wp-content/uploads/2023/03/040823_reviews_cover-127x186.jpg 127w, https://www.sciencenews.org/wp-content/uploads/2023/03/040823_reviews_cover-395x580.jpg 395w, https://www.sciencenews.org/wp-content/uploads/2023/03/040823_reviews_cover-528x776.jpg 528w, https://www.sciencenews.org/wp-content/uploads/2023/03/040823_reviews_cover.jpg 680w" sizes="(max-width: 196px) 100vw, 196px" /></a></figure></div>
 
 
@@ -1753,7 +2224,7 @@
 <p>Petzold and colleagues analyzed blood samples from 13 wild brown bears (<em>Ursus arctos</em>) in winter and summer. Platelets from blood samples taken during hibernation were less likely to clump together than summer samples, and ones that did clot did so more slowly. That seasonal difference was pinned to HSP47 in platelets: In hibernating bears, levels of the protein were about one-fiftieth the amount found in active animals.</p>
 
 
-<div class="wp-block-image">
+<div class="wp-block-image  has-alignleft">
 <figure class="alignleft size-large"><img decoding="async" loading="lazy" width="332" height="450" src="https://www.sciencenews.org/wp-content/uploads/2023/04/041323_eg_bears_inline_vertical-332x450.jpg" alt="A close up photo of a brown bear laying down in a green plant while a woman kneels in the background with medical supplies." class="wp-image-3123707" srcset="https://www.sciencenews.org/wp-content/uploads/2023/04/041323_eg_bears_inline_vertical-332x450.jpg 332w, https://www.sciencenews.org/wp-content/uploads/2023/04/041323_eg_bears_inline_vertical-282x383.jpg 282w, https://www.sciencenews.org/wp-content/uploads/2023/04/041323_eg_bears_inline_vertical-137x186.jpg 137w, https://www.sciencenews.org/wp-content/uploads/2023/04/041323_eg_bears_inline_vertical-427x580.jpg 427w, https://www.sciencenews.org/wp-content/uploads/2023/04/041323_eg_bears_inline_vertical-572x776.jpg 572w, https://www.sciencenews.org/wp-content/uploads/2023/04/041323_eg_bears_inline_vertical.jpg 680w" sizes="(max-width: 332px) 100vw, 332px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3123707">Researchers took samples from 13 wild brown bears living in Sweden during the winter and summer to learn why the animals don’t develop blood clots while they lie immobile for months. Here a researcher prepares small volumes of liquid for analysis back in the lab.</span><span class="credit wp-credit-3123707">Ole Frøbert and T. Petzold</span></figcaption></figure></div>
 
 
@@ -2715,297 +3186,6 @@
               
 
               <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-04-11 23:01:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://blog.arxiv.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://blog.arxiv.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://blog.arxiv.org&title=arXiv.org blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://blog.arxiv.org/2023/04/11/arxiv-joins-biorxiv-and-medrxiv-in-responding-to-the-nelson-memo/">arXiv joins bioRxiv and medRxiv in responding to the Nelson Memo</a></h4>
-
-              
-                <p><span style="font-weight: 400;">arXiv, along with bioRxiv and medRxiv, has released its response to the US Office of Science and Technology Policy “Nelson Memorandum.” The archives welcome </span><a href="https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf"><span style="font-weight: 400;">the memo</span></a><span style="font-weight: 400;">, which </span><span style="font-weight: 400;">recommends that US government agencies update their public access policies to make publications and data from research funded by US taxpayers publicly accessible immediately without embargo or cost. </span><span style="font-weight: 400;">arXiv, bioRxiv, and medRxiv</span> <span style="font-weight: 400;">encourage agencies to recognize that public access to research results can be achieved and expedited through the distribution of electronic preprints of results in open repositories</span><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">“Open access to publicly funded research is a public good, providing fair access to research, and accelerating progress in science,” said Steinn Sigurdsson, arXiv scientific director and professor of astronomy and astrophysics at Penn State University. “The submission of research manuscripts to preprint servers provides an existing path for US Federal Agencies to satisfy the OSTP guidance on public access.  arXiv e-prints are free to submit and free to read, covering the latest research in a range of subject areas across the sciences.”</span></p>
-<p><span style="font-weight: 400;">You can read the response letters at </span><a href="http://info.arxiv.org/about/OSTP-04-11-2023.html"><span style="font-weight: 400;">arXiv.org</span></a><span style="font-weight: 400;">, </span><a href="https://connect.biorxiv.org/news/2023/04/11/ostp_response"><span style="font-weight: 400;">bioRxiv.org</span></a><span style="font-weight: 400;">, and </span><a href="https://connect.medrxiv.org/news/2023/04/11/ostp_response"><span style="font-weight: 400;">medRxiv.org</span></a><span style="font-weight: 400;">.</span></p>
-              
-
-              <p class="text-muted">in <a href ="https://blog.arxiv.org">arXiv.org blog</a> on 2023-04-11 13:20:44 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/painted-lady-butterfly-migration-identified">The last leg of the longest butterfly migration has now been identified</a></h4>
-
-              
-                <p>Every year, painted lady butterflies born in Europe embark south on an epic journey to Africa. Now, researchers know exactly where on the continent these long-haul travelers spend their winter vacation.</p>
-
-
-
-<p>From December through February, after flying across the Sahara in the fall, the orange-and-brown-winged insects set up camp and breed in <a href="https://www.pnas.org/cgi/doi/10.1073/pnas.2218280120" target="_blank" rel="noopener">savannas and highlands across central Africa</a>, scientists report April 10 in the <em>Proceedings of the National Academy of Sciences</em>. As the rainy season brings greenery to the region, the butterflies and their caterpillar offspring feast on a variety of plants until their wintering spots dry up. Then the butterflies fly north to Europe.&nbsp;&nbsp;</p>
-
-
-
-
-
-<p>Pinpointing exactly where painted lady butterflies (<em>Vanessa cardui</em>) overwinter and breed was the last unknown piece of their roughly 15,000-kilometer migration, says Gerard Talavera, an entomologist and evolutionary biologist at the Botanical Institute of Barcelona. The species — one of the most common butterflies in the world — boasts the <a href="https://www.sciencenews.org/article/painted-lady-butterflies-migration-sahara-africa">longest round-trip journey of any butterfly</a> (<em>SN: 6/20/18</em>).</p>
-
-
-
-<p>Painted ladies aren’t the only insects to make such long migratory trips, says Constantí Stefanescu, a butterfly ecologist at Museu de Ciències Naturals de Granollers in Spain who was not involved in the study. Understanding how these butterflies do it provides a framework to explore <a href="https://www.sciencenews.org/article/flying-insects-tell-tales-long-distance-migrations">how other migratory insects</a>, including destructive pests, make such treks (<em>SN: 4/8/18</em>).</p>
-
-
-
-<p>Scientists knew that <a href="https://www.sciencenews.org/blog/wild-things/painted-lady-butterflies-migration-may-take-them-across-sahara">the painted ladies went to Africa</a>, but where on the continent they waited out European winters from December to February was a mystery (<em>SN: 10/12/16</em>). The butterflies cross the Sahara and arrive in countries such as Chad in the fall. Around November the insects fly elsewhere, Talavera says, but it was unknown where they landed.</p>
-
-
-
-<p>Before this study, Talavera and colleagues had predicted that subtropical <a href="https://royalsocietypublishing.org/doi/10.1098/rspb.2019.1583" target="_blank" rel="noopener">regions close to the equator</a> might provide suitable habitat. To know for sure, the researchers needed to find butterflies in the field.</p>
-
-
-
-<p>From late 2017 through early 2020, Talavera and an international team of researchers conducted fieldwork at a wide variety of sites across sub-Saharan Africa during the months of December and January. Another 15 sites were monitored year-round for about two years. In total, the team looked for adults and their young in nine countries, including Benin, Cameroon, and Kenya.</p>
-
-
-
-<p>It was a big bet that the team would even find the butterflies, Talavera says. Their preferred plants in Europe are well-known, making them relatively easy to find. But what plants the insects might settle on in Africa was a big open question. Aside from the previous analysis pointing toward the subtropics and knowing that the insects prefer open spaces over forests, the team was going in blind.</p>
-
-
-
-<p>“My main worry was about that, not being able to actually find the species,” Talavera says.&nbsp;</p>
-
-
-
-
-
-<p>That worry was unwarranted. The researchers found more than 2,700 caterpillars and nearly 2,000 adult butterflies, from as far west as Cote d’Ivoire and all the way east to Kenya and Ethiopia.</p>
-
-
-
-<p>From September to November, the butterflies occupy semiarid savannas. As those areas dry up, the painted ladies shift south to savannas and highlands in slightly humid regions from December to February. Central Africa’s tropical rainforests stop the butterflies from going any farther south, Talavera says. “These butterflies don’t like wet areas.”</p>
-
-
-
-<p>Field observations suggest that lots of breeding might happen in these slightly humid savannas and highlands. Warm weather across the region could help the butterflies reproduce more quickly than they do in some parts of Europe, Talavera says, meaning three to five generations might be born in sub-Saharan Africa before any surviving adults head north in February.</p>
-
-
-
-<p>Knowing where painted lady butterflies breed could help researchers understand why there are occasional population booms with 100 times as many butterflies in some years as others, Stefanescu says. In 2021, he and colleagues linked the phenomenon to <a href="https://www.pnas.org/doi/10.1073/pnas.2102762118" target="_blank" rel="noopener">rains in sub-Saharan Africa</a> — perhaps giving butterflies more plants to stop and lay eggs on. But the part of West Africa identified in that study is different than where the newly identified breeding grounds are, Stefanescu says. Now, scientists can verify the link by looking at rainfall and other conditions where baby butterflies are found growing up.</p>
-
-
-
-<p>But the next mystery Talavera’s group hopes to solve is why painted lady butterflies make such a long journey at all.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-04-11 13:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/smithsonian-lights-out-fading-night-sky">The Smithsonian’s ‘Lights Out’ inspires visitors to save the fading night sky</a></h4>
-
-              
-                <p>Bright, artificial lights are drowning out the night sky’s natural glow. Now, an exhibition is highlighting some of the consequences of a fading starry night — and how people can help restore it.</p>
-
-
-
-<p>“<a href="https://naturalhistory.si.edu/exhibits/lights-out" target="_blank" rel="noopener">Lights Out</a>,” open through 2025 at the Smithsonian National Museum of Natural History in Washington, D.C., illuminates how light pollution is affecting astronomy, natural ecosystems and human cultures around the world. “We want people to understand that it’s a global problem, and it’s having broad impact,” says Jill Johnson, an exhibit developer at the museum.</p>
-
-
-
-
-
-<p>Upon entering the exhibition, the dimly lit space resets the mood for nighttime exploration. The exhibition spans a long hallway that can be entered from either end. One entrance quickly draws in visitors with a personal connection. An interactive display invites you to experience your own night sky, whether in a city, suburb or remote location. Three tactile panels feature raised elements, including dots representing light pollution and crosses indicating visible stars. The more populated a place, the more dots are smattered across the panel. </p>
-
-
-
-<p>Visitors can also listen to the artificial light and starlight in each sky through data that have been translated into sound. The multisensory experience is especially engaging for visitors who may not be able to experience the exhibition visually.</p>
-
-
-
-<p>The other entrance offers a more didactic introduction to the exhibition. A timeline presents a brief history of human-made light, from fire-lit torches to <a href="https://www.sciencenews.org/article/light-pollution-night-sky-bright-citizen-science">today’s LEDs</a>, and then segues to astronomy (<em>SN: 1/19/23</em>). Space scientists rely on light, both visible and not, to understand celestial bodies. And their views of the universe have become increasingly obstructed by artificial light.</p>
-
-
-
-<p>“Astronomers were some of the first folks to sound the alarm on light pollution,” says Ryan Lavery, a public affairs specialist at the museum.</p>
-
-
-
-<p>Astronomers aren’t the only scientists who have noticed the repercussions. Biologists have observed light pollution’s toll on plants and animals, whether harming corals’ moonlight-triggered reproduction or bats’ ability to pollinate flowers. Here, much of the evidence on display is visual. Photographs and specimens demonstrate the variety of critters that are active at night, while a glass case of preserved birds presents the grim consequences of light pollution. All of these birds died from striking buildings in Washington, D.C., or Baltimore after being disoriented by the bright cityscapes.</p>
-
-
-
-<p>Losing dark, starry nights also affects human cultures. Another area of the exhibition presents people’s ancient and modern-day connections to the night sky through photographs, stories and cultural items. A glistening beadwork depicting the Milky Way was crafted specially for “Lights Out” by Gwich’in artist Margaret Nazon, who grew up staring at the stars in Canada’s Northwest Territories.</p>
-
-
-
-<p>Our connections under a shared sky are emphasized in the exhibition’s small central theater. It replicates a starry night over Coudersport, Pa., through speckled lighting and walls bearing illustrations of trees and hills. A short film describes the star cluster Messier 45, also known as the Pleiades, and explains the stars’ origins according to tales from three cultures — the ancient Greeks, the Ainu in Japan and the Māori in New Zealand.</p>
-
-
-
-
-
-<div class="wp-block-sciencenews-content-sidebar alignright">
-<h3>“Lights Out”</h3>
-
-
-
-<h5>Through December 2025</h5>
-
-
-
-<p>Smithsonian National Museum of Natural History | Washington, D.C.</p>
-</div>
-
-
-
-<p>“Cultures all over the world have a deep relationship to the night sky,” says Stephen Loring, cocurator of the exhibition and an archaeologist at the museum. “If we lose the night sky, we lose an avenue to our understanding of what it is to be a human being.”</p>
-
-
-
-<p>But the exhibition isn’t all bleak. Sprinkled throughout it are success stories of how people are reducing light pollution, from France’s outdoor lighting curfews to beach communities that have altered their lighting systems to avoid drawing hatchling sea turtles away from the ocean. And visitors may be heartened to learn about simple but meaningful actions that they can take, such as aiming outdoor lights downward and using the dimmest settings. </p>
-
-
-
-<p>Overall, “Lights Out” instills a sense of hope and a desire to reconnect with the night sky. “This is an optimistic exhibition,” Loring says. “We can solve this problem.”</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-04-11 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/neoplants-air-purification-pothos-devils-ivy/">Genetically Modified Houseplants Are Coming to Clean Your Air</a></h4>
-
-              
-                Neoplants says its pothos has superior purification properties—but you’ll still need a lot of them to get the job done.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-04-11 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/the-race-to-decarbonize-america-needs-more-workers/">The Race to Decarbonize America Needs More Workers</a></h4>
-
-              
-                The US already has all the technology needed to rapidly bring down carbon emissions. The trouble is finding enough people to install it all.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-04-11 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/cuvierian-organ-sea-cucumber-defense-mechanism">This sea cucumber shoots sticky tubes out of its butt. Its genes hint at how</a></h4>
-
-              
-                <p>Some lizards shed their still-wriggling tails to distract predators, but sea cucumbers take this sort of strategy to the next level. Some startled sea cucumbers shoot a silky — and sticky — substance out of their rear ends that is actually an entire organ.&nbsp;</p>
-
-
-
-<p>The tangle of tubules looks like intestines, but it evolved from the invertebrates’ respiratory system, and, like lizard tails, it regenerates after use. In a new study in the April 10 <em>Proceedings of the National Academy of Sciences</em>, researchers delved into <a href="https://www.pnas.org/cgi/doi/10.1073/pnas.2213512120" target="_blank" rel="noopener">the black sea cucumber’s genome</a> to see how the stringlike tubules, called the Cuvierian organ, work at the molecular level.</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Watch a sea cucumber deter a crab with a silky, stringlike substance | Science News" width="500" height="281" src="https://www.youtube.com/embed/S4BHoZ2RbkQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div><figcaption class="wp-element-caption">When startled, some sea cucumbers shoot a silky substance from their rear ends. Analyzing the genome of the black sea cucumber (<em>Holothuria leucospilota</em>), seen in this video, is revealing how the tangle of tubules, called the Cuvierian organ, works as a defense against predators like crabs. </figcaption></figure>
-
-
-
-<p>The black sea cucumber (<em>Holothuria leucospilota</em>) is “the most dominant sea cucumber species in the South China Sea,” says Ting Chen, a biologist at the South China Sea Institute of Oceanology in Guangzhou.&nbsp;“We would like to know what evolutionary advantage this sea cucumber has gained … so that its population can expand so widely and predominantly.”&nbsp;</p>
-
-
-
-
-
-<p>So the team analyzed the sea cucumber’s entire genome, or genetic instruction book, and focused on genes from the Cuvierian organ because it’s such an odd structure. Then the team predicted what proteins would be made from Cuvierian organ genes using a program called <a href="https://www.sciencenews.org/article/alphafold-ai-protein-structure-folding-prediction">AlphaFold</a> (<em>SN: 9/23/22</em>). Some unexpected predicted proteins were new types of receptors on cells’ surfaces that may play a role in expelling the organ.&nbsp;</p>
-
-
-
-<p>The team also found that the “silk” proteins of sea cucumbers’ tubules don’t contain the same sequences of amino acids seen in spider silk, but are similarly made up of long repeated chains of amino acids. This finding hints that these long repeats might be a shared structure across silklike proteins, even when those proteins evolved independently.</p>
-
-
-
-<p>What’s more, Chen says, is that the organ’s stickiness — which stops sea cucumber predators like fish, crabs and starfish in their tracks — comes from proteins that have features similar to amyloids. Amyloids are associated with many diseases in humans, including <a href="https://www.sciencenews.org/article/misfolded-proteins-implicated-more-brain-diseases?mode=pick&amp;context=166">neurodegenerative conditions like Alzheimer’s</a> (<em>SN: 9/9/15</em>).</p>
-
-
-
-<p>This paper not only highlights unexpected proteins that are specific to the Cuvierian tubules, says Patrick Flammang, a biologist at the University of Mons in Belgium who was not involved with the study. It also provides a lot of data that can be used to answer other questions about how the enigmatic organ evolved, he says.&nbsp;</p>
-
-
-
-<p>And the usefulness of a high-quality genome doesn’t stop there. “We need genomic data for our studies on the reproductive, endocrine, immune and digestive systems of <em>H. leucospilota</em>,” Chen says. The team, he says, is now investigating the genetics behind how the sea cucumbers detect light and digest food.</p>
-
-
-
-
-
-<p>A good genome, Flammang says, is “a cornerstone to be able to do this work.”</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-04-10 19:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2023/04/10/former-yale-prof-faked-data-says-federal-watchdog/">Former Yale prof faked data, says Federal watchdog</a></h4>
-
-              
-                <div class="wp-block-image is-style-default">
-<figure class="alignright size-thumbnail"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/04/spirli.jpeg"><img decoding="async" loading="lazy" width="150" height="150" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/04/spirli-150x150.jpeg?resize=150%2C150&#038;ssl=1" alt="" class="wp-image-126874" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/04/spirli.jpeg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/04/spirli.jpeg?zoom=2&amp;resize=150%2C150 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2023/04/spirli.jpeg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption class="wp-element-caption">Carlo Spirli</figcaption></figure></div>
-
-
-<p>A liver researcher who worked at Yale University for 15 years faked data in multiple papers and grant applications, according to the U.S. Office of Research Integrity (ORI).</p>
-
-
-
-<p>Carlo Spirli, who rose to the rank of associate professor before leaving Yale in 2020, “engaged in research misconduct by knowingly, intentionally, or recklessly falsifying and/or fabricating data” in four published papers, two presentations, and three NIH grant applications, the ORI said in <a href="https://ori.hhs.gov/content/case-summary-spirli-carlo">announcing its findings today</a>.</p>
-
-
-
-<p>Spirli, according to the ORI:</p>
-
-
-
-<span id="more-126873"></span>
-
-
-
-<blockquote class="wp-block-quote">
-<p>knowingly, intentionally, or recklessly falsified and/or fabricated Western blot image data for cholangiopathies in a murine model of Congenital Hepatic Fibrosis (CHF) by reusing blot images, with or without manipulating them to conceal their similarities, and falsely relabeling them as data representing different experiments or proteins and falsifying quantitative data in associated graphs purportedly derived from those images in twenty-one (21) figures included in four (4) papers, two (2) presentations, and three (3) grant applications. In the absence of reliable image and numerical data, the figures, statistical analyses, and related text also are false.</p>
-</blockquote>
-
-
-
-<p>The papers were published in <em>Hepatology.</em> One, from 2015, was <a href="https://journals.lww.com/hep/Abstract/2022/12000/Retracted__Posttranslational_regulation_of.34.aspx">retracted at the end of 2022</a>. It has received&nbsp; 16 citations, 15 of which came before the retraction and one since,&nbsp; according to Clarivate’s Web of Science.&nbsp;</p>
-
-
-
-<p>Another of the papers, <a href="https://aasldpubs.onlinelibrary.wiley.com/doi/10.1002/hep.32537">published in 2012</a>, has been cited 48 times, and was corrected in 2022. A different <a href="https://aasldpubs.onlinelibrary.wiley.com/doi/10.1002/hep.32511">2012 paper</a> has been cited 49 times, and a <a href="http://dx.doi.org/10.1002/hep.26554">2013 paper</a> has been cited 39 times.</p>
-
-
-
-<p>Spirli, whose now-deleted <a href="https://retractionwatch.com/wp-content/uploads/2023/04/Carlo-Spirli-LinkedIn.pdf">LinkedIn profile</a> suggests he now works at Guilford, Conn.-based <a href="https://www.ai-therapeutics.com/news">AI Therapeutics</a>, agreed to a four-year ban on federal funding beginning late last month, and to correct or retract the other three papers named in the ORI finding. Neither he nor Brigette Roberts, the CEO of AI Therapeutics, immediately responded to a request for comment from Retraction Watch.</p>
-
-
-
-<p>Spirli was awarded more than $1.2 million for an NIH grant, “Cross talk between epithelial, inflammatory and mesenchymal cells in the development of portal fibrosis,” that ran from 2015 through 2017.</p>
-
-
-
-<p><em>Like Retraction Watch? You can make a&nbsp;</em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us&nbsp;</em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us&nbsp;</em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your&nbsp;</em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our&nbsp;</em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s&nbsp;</em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can&nbsp;</em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
-
-
-<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2023-04-10 17:34:47 UTC.
               </p>
             </li>
           <!-- each item -->
