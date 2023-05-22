@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2023-05-21 08:12:51 UTC 
+          on 2023-05-22 08:14:37 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -62,6 +62,112 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://blogs.biomedcentral.com/bmcseriesblog>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://blogs.biomedcentral.com/bmcseriesblog" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://blogs.biomedcentral.com/bmcseriesblog&title=BMC Series blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://blogs.biomedcentral.com/bmcseriesblog/2023/05/22/revolutionizing-medicine-unlocking-the-potential-of-machine-learning/">Revolutionizing medicine: Unlocking the potential of machine learning</a></h4>
+
+              
+                <img width="140" height="110" src="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/05/AdobeStock_277867778-140x110.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;" /><p>The electronic medical record (EMR) as a big data source entails a large volume of data produced at a high speed. Hence, the complexity of the datasets it generates hinders analysis through traditional methods. Machine learning is an alternative to conventional data analysis that aids in understanding these large datasets.</p>
+<h4>The good</h4>
+<p>Machine learning models have a dynamic nature. They can <a href="https://www.mdpi.com/2075-4426/11/1/32" target="_blank" rel="noopener noreferrer">learn</a> from new observations and improve their predictive accuracy as the size of the datasets increases. These models are particularly <a href="https://www.ecrjournal.com/articles/artificial-intelligence-and-cardiovascular-risk-prediction-all-glitters-not-gold" target="_blank" rel="noopener noreferrer">useful</a> for managing multiple predictor variables with countless potential interactions, which may require more work to account for using traditional models.</p>
+<p>The algorithms used in this branch of artificial intelligence incorporate predictor variables that may not be visible by mere background knowledge. Furthermore, when unsupervised <a href="https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.115.001593" target="_blank" rel="noopener noreferrer">machine learning methods</a> are used, unknown patterns can be unveiled.</p>
+<p>Another advantage of machine learning is that algorithms don&#8217;t <a href="https://academic.oup.com/aje/article/190/8/1476/6159690?login=true" target="_blank" rel="noopener noreferrer">make assumptions</a> about the relationship between predictors and outcome variables (e.g. linear relationship). Instead, they rely on data rather than human decisions to generate a model that closely explains the data&#8217;s behavior. This leads to improved accuracy of the models.</p>
+<p>However, there are also drawbacks to consider when it comes to machine learning.</p>
+<h4>The bad and the ugly</h4>
+<p>One of the biggest <a href="https://arxiv.org/abs/1711.07137" target="_blank" rel="noopener noreferrer">challenges</a> faced by machine learning models is interpretation and determining causality from evidence.</p>
+<p>Physicians are typically well-versed in interpreting conventional statistics like odds and relative ratios. However, they may not have the same level of familiarity with the more complex statistics used in machine learning, such as in random forest models, where multiple decision trees are used to <a href="https://onlinelibrary.wiley.com/doi/10.1002/nur.22122" target="_blank" rel="noopener noreferrer">predict</a> the classification of an outcome. Furthermore, as more predictors are added to the model, interpretability becomes even more difficult. To address this issue, methods using <a href="https://www.mdpi.com/1424-8220/22/17/6609" target="_blank" rel="noopener noreferrer">dimension reduction</a> may help with interpretability at the expense of accuracy.</p>
+<p>Finally, another potential pitfall of machine learning is <a href="https://link.springer.com/chapter/10.1007/978-3-030-89010-0_4" target="_blank" rel="noopener noreferrer">overfitting</a>, where the model becomes too reliant on the input data. This can be prevented by ensuring a proper balance between the size of the training data and the validation data.</p>
+<h4>The future of fetal heart rate monitoring: a machine learning approach</h4>
+<p>In <a href="https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-023-05632-3" target="_blank" rel="noopener noreferrer">our study</a>, we used a machine learning approach to identify the important predictor variables to forecast changes in fetal heart rate after neuraxial analgesia during labor.</p>
+<p>This type of analgesia has been associated with fetal heart rate changes. A significant drop in fetal heart rate may indicate potential issues with the baby&#8217;s health. However, several factors can increase the likelihood of a slow heart rate in the fetus, and it can be difficult for doctors to predict this outcome.</p>
+<p>The multifactorial nature of fetal heart rate changes requires analyzing multiple possible predictor variables in a poorly understood medical problem. That is why our study utilized a machine learning approach to identify the important variables for our model.</p>
+<p>We evaluated the predictive capabilities of four models &#8211; Principal Components Regression, Random Forest, Elastic Net Model, and Multiple Linear Regression &#8211; for fetal heart rate changes. Among them, the Random Forest model had the best performance, with a mean squared error (MSE) of 0.9, while the other models had an MSE above 42. MSE is a measure of accuracy that represents the average difference between the predicted and measured values.</p>
+<p>According to our research, certain factors such as the technique used for neuraxial analgesia (combined spinal-epidural), the amount of bupivacaine administered, the mother&#8217;s BMI, and the length of the initial stage of labor play a significant role in determining fetal heart rate changes following neuraxial analgesia during labor.</p>
+<p>Our findings have practical implications for the medical field. They may increase the physician&#8217;s awareness of the potential risks for fetal heart rate drops in healthy pregnant patients and adjust their treatment plans accordingly. For example, if a patient has a high BMI, the physician can be extra cautious and avoid certain techniques or medications, such as a combined spinal-epidural technique or high doses of bupivacaine.</p>
+<h4>Key points to take home</h4>
+<p>Our article showcases how machine learning can assist in understanding medical problems that remain unclear. When applied correctly, machine learning is a valuable resource that can enhance healthcare procedures and improve patient care by using a greater amount of data from EMRs.</p>
+              
+
+              <p class="text-muted">in <a href ="https://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on 2023-05-22 06:00:32 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/primitive-asgard-cells-show-life-on-the-brink-of-complexity/">Primitive Asgard Cells Show Life on the Brink of Complexity</a></h4>
+
+              
+                As researchers race to cultivate these intriguing cells from the deep seafloor, the few growing in labs are our best glimpses of the forerunners of complex life.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-05-21 12:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/mosquito-microwave-insecticide-spray">Microwaving an insecticide restores its mosquito-killing power</a></h4>
+
+              
+                <p>Heating an insecticide can give it new life.</p>
+
+
+
+<p>Microwaving the insecticide deltamethrin rearranges its crystal structure but doesn’t change its chemical composition. The rearrangement <a href="https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04554-x" target="_blank" rel="noopener">renews deltamethrin’s ability to kill mosquitoes</a> that have become resistant to the insecticide, researchers report April 21 in <em>Malaria Journal</em>.</p>
+
+
+
+<p>The researchers didn’t set out to revive insecticides, says Bart Kahr, a crystallographer at New York University. He and colleagues had been working on crystal growth experiments. “And it turns out that a very good crystal for the experiment that we wanted to do was DDT, the very old, notorious insecticide from the last century.” The researchers realized that DDT has two crystal forms, one of which works better than the other.</p>
+
+
+
+
+
+<p>They then started experimenting with deltamethrin, an insecticide that is commonly used against mosquitoes that can carry malaria. The chemical is often incorporated into bed nets or sprayed on walls or other surfaces in homes. Mosquitoes absorb the insecticide when they come in contact with it. Kahr and colleagues previously discovered that heating deltamethrin <a href="https://www.sciencenews.org/article/heat-deltamethrin-pesticide-resistant-mosquitoes-insecticide">changed its crystal structure</a>, which let it work faster (<em>SN: 10/19/20</em>).</p>
+
+
+
+<p>Altering the arrangement of crystals is a tried-and-true way of giving drugs new and different properties, Kahr says. But no one had thought to rearrange insecticide crystals to give them new life, he says. “We just were surprised at how relevant it really was, and a little surprised that nobody has looked at this before,” he says. “Different communities of scientists just have different urgencies. And sometimes when you come from the outside, you look at things from a completely different way.”</p>
+
+
+
+<p>Kahr’s team heated a chalk formulation of deltamethrin called D-Fense Dust either in an oven or in a microwave. In the oven, the researchers could precisely control the temperature, he says. “But just for kicks, we said because this deltamethrin is a consumer product, what if you just pop it in the microwave for five minutes? Does that achieve the same thing as heating it to a prescribed temperature in the oven?” The microwave worked just as well, but Kahr cautions that people shouldn’t use the same microwave for heating food and insecticides.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="680" height="214" src="https://www.sciencenews.org/wp-content/uploads/2023/05/051823_TI_microwave-insect_inline.jpg" alt="Two microscope images of deltamethrin's crystal structure. The image on the left is the insecticide's typical crystal structure and the image on the right is of the crystal structure heated." class="wp-image-3124723" srcset="https://www.sciencenews.org/wp-content/uploads/2023/05/051823_TI_microwave-insect_inline.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2023/05/051823_TI_microwave-insect_inline-330x104.jpg 330w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3124723">Popping deltamethrin in the microwave for a few minutes rearranges the insecticide’s typical crystal structure (left). Tests of heated deltamethrin crystals (right) showed that they are effective against mosquitoes resistant to the insecticide’s usual form.</span><span class="credit wp-credit-3124723">Jingxiang Yang</span></figcaption></figure>
+
+
+
+<p>Previously, the researchers had tested the heated deltamethrin crystals on mosquitoes that were already sensitive to the insecticide. In the new study, the scientists teamed up with entomologists to test the heated crystals on five strains of <em>Anopheles</em> mosquitoes from West Africa that are resistant to deltamethrin. In all cases, the rearranged crystals killed the resistant mosquitoes.</p>
+
+
+
+<p>That’s important because insecticide resistance is a growing problem and is impairing the ability to control mosquito populations to tamp down malaria spread, says Janet Hemingway, a geneticist at the Liverpool School of Tropical Medicine in England who was not involved in the new study. “We&#8217;re now at the point where almost nowhere in Africa is fully susceptible.”</p>
+
+
+
+
+
+<p>It is encouraging that heated insecticide killed highly resistant mosquitoes, says Hemingway, who directs the <a href="https://www.infectioninnovation.com/" target="_blank" rel="noopener">Infection Innovation Consortium</a>, a public-private effort to find new ways to combat infectious diseases. But, she says, “this is not something we can take and use that tomorrow.”</p>
+
+
+
+<p>For instance, insecticide-treated bed nets are made by mixing deltamethrin with fibers before yarn is extruded. The insecticide migrates to the outside of the yarn and forms crystals. Depending on the manufacturer, “the crystal structures that end up on the surfaces of those bed nets can be quite different,” Hemingway says. </p>
+
+
+
+<p>It’s not certain that the heat-treated deltamethrin would retain its more potent crystal structure through the net-making process. And you couldn’t just pop bed nets in the microwave to rearrange the deltamethrin crystals, she says. “You&#8217;d need some pretty big microwaves given these things come in shipping containers.”</p>
+
+
+
+<p>Kahr’s team is working on incorporating the heat-treated crystal into nets. Liquid sprays are out since the rearranged crystals don’t retain their structure when mixed into water. People could spray the heated chalk instead, but few people would probably want chalky walls, Kahr says. “There are all kinds of social and cultural things that you could propose from a scientific perspective that wouldn&#8217;t be welcomed by a community of homeowners.”</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-05-21 11:00:00 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -244,7 +350,7 @@
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/formula-one-race-car-drivers-blink">Formula One race car drivers tend to blink at the same places in each lap</a></h4>
+              <h4><a href="https://www.sciencenews.org/article/formula-one-race-car-drivers-blink">Race car drivers tend to blink at the same places in each lap</a></h4>
 
               
                 <p>The world goes dark for about one-fifth of a second every time you blink, a fraction of an instant that’s hardly noticeable to most people. But for a Formula One race car driver traveling up to 354 kilometers per hour, that one-fifth means almost 20 meters of lost vision. </p>
@@ -257,7 +363,7 @@
 
 
 
-<p>People are often thought to blink at random intervals, but researchers found that wasn’t the case for three Formula One drivers. Instead, <a href="https://doi.org/10.1016/j.isci.2023.106803" target="_blank" rel="noopener">the drivers tended to blink at the same parts of the course</a> during each lap, cognitive neuroscientist Ryota Nishizono and colleagues report in the May 19 <em>iScience</em>.</p>
+<p>People are often thought to blink at random intervals, but researchers found that wasn’t the case for three Formula drivers. Instead, <a href="https://doi.org/10.1016/j.isci.2023.106803" target="_blank" rel="noopener">the drivers tended to blink at the same parts of the course</a> during each lap, cognitive neuroscientist Ryota Nishizono and colleagues report in the May 19 <em>iScience</em>.</p>
 
 
 
@@ -416,7 +522,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="How an octopus crawls | Science News" width="500" height="281" src="https://www.youtube.com/embed/tK_zJOe6pb0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" title="How an octopus crawls | Science News" width="500" height="281" src="https://www.youtube.com/embed/tK_zJOe6pb0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div><figcaption class="wp-element-caption">Unlike other animals with bilateral symmetry, octopuses don’t crawl in a predetermined direction. Videos of octopuses crawling show they can move in any direction relative to their body, and they change crawling direction independently of turning their bodies. In the clip, the green arrow marks the orientation of the octopus’ body and a blue arrow marks the direction it is crawling.</figcaption></figure>
 
 
@@ -3005,187 +3111,6 @@ biology, 13, e1005754</li>
               
 
               <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2023-05-12 05:09:51 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://theplosblog.plos.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://theplosblog.plos.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://theplosblog.plos.org&title=The Official PLOS Blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://theplosblog.plos.org/2023/05/plos-authorship-policy-update-adopting-a-more-inclusive-standard/">PLOS Authorship policy update: Adopting a more inclusive standard</a></h4>
-
-              
-                <p><strong>Author: </strong>Renee Hoch, Managing Editor, PLOS Publication Ethics Team</p>
-
-
-
-<p>Journals&rsquo; and publishers&rsquo; authorship policies set expectations with regard to credit and responsibilities, and can help support researchers in making authorship decisions. By rooting our policies in industry-wide standards, journals across the sector can help to align authorship practices and safeguard the meaning of authorship within academia and the publishing industry. However, it is important to recognize, and adapt as needed, when the standards anchoring our policies fall short in serving our author communities.</p>
-
-
-
-<p>On May 10, 2023, PLOS<strong> </strong>updated our <a href="https://journals.plos.org/plosone/s/authorship">Authorship policy</a>. Among other changes, we updated our authorship criteria: all PLOS journals except <em>PLOS Medicine</em> now apply the authorship criteria put forth in a <a href="https://www.pnas.org/doi/10.1073/pnas.1715374115">2018 PNAS article</a> by Marcia McNutt <em>et al</em>. (<em>PLOS Medicine</em> is an ICMJE member and continues to apply <a href="https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">ICMJE authorship criteria</a>.)</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="791" height="1024" src="https://theplosblog.plos.org/wp-content/uploads/sites/6/2023/05/Authorship-Requirements-blog-graphic-2-791x1024.png" alt="" class="wp-image-21300" srcset="https://theplosblog.plos.org/wp-content/uploads/sites/6/2023/05/Authorship-Requirements-blog-graphic-2-791x1024.png 791w, https://theplosblog.plos.org/wp-content/uploads/sites/6/2023/05/Authorship-Requirements-blog-graphic-2-232x300.png 232w, https://theplosblog.plos.org/wp-content/uploads/sites/6/2023/05/Authorship-Requirements-blog-graphic-2-768x994.png 768w, https://theplosblog.plos.org/wp-content/uploads/sites/6/2023/05/Authorship-Requirements-blog-graphic-2-1187x1536.png 1187w, https://theplosblog.plos.org/wp-content/uploads/sites/6/2023/05/Authorship-Requirements-blog-graphic-2.png 1545w" sizes="(max-width: 791px) 100vw, 791px"></figure>
-
-
-
-<p>Prior to this change, all PLOS journals followed the <a href="https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">International Committee of Medical Journal Editors (ICMJE) criteria for authorship</a>. These criteria were developed by and for the clinical and biomedical research communities, and were the dominant standard in STM publishing when PLOS launched our initial journals and established our initial editorial policies.&nbsp;</p>
-
-
-
-<p>In 2018, an alternative standard emerged from National Academy of Sciences efforts to develop standards relevant across a broader range of disciplines. The 2018 guidance aligns with ICMJE on core requirements of credit and accountability: both advise that substantial contributions should be credited with authorship, all who meet criteria should be listed authors, and authors must fulfill certain responsibilities before and after publication. However, the two standards differ on some specific details.</p>
-
-
-
-<p>Importantly, the 2018 guidance takes a more inclusive position on what types of contribution warrant authorship: it supports authorship for software tool development, and does not require all authors to have made substantial contributions to the research <em>AND </em>to manuscript preparation or revision. The allowance that writing or substantial manuscript revision can in itself be deserving of authorship better reflects standards in place within some research disciplines. Given the breadth of communities that PLOS serves, we decided that the more inclusive 2018 standards are better suited for our journal portfolio.&nbsp;</p>
-
-
-
-<p>The newer guidance also aligns better with how PLOS journals approach authorship in practice. We generally entrust authors with authorship decisions, and we require that each author&rsquo;s individual-level contributions be described using CRediT terms. With these considerations in place, not all PLOS journals have rigidly enforced whether listed contributions satisfy all ICMJE criteria. Even so, our requirement for transparency around contributions, combined with other terms in our policies, help us to address authorship issues when they arise.&nbsp;&nbsp;&nbsp;</p>
-
-
-
-<p>With this policy update, PLOS is continuing in our efforts to advance open science, serve diverse research communities, and promote an inclusive and transparent approach to credit within the published record. We also hope that this update will improve authorship access for individuals &ndash; including those involved in global research &ndash; who make substantial contributions to research or reporting but who may not have the opportunities, skills, or resources needed to satisfy all ICMJE criteria.</p>
-
-<p>The post <a rel="nofollow" href="https://theplosblog.plos.org/2023/05/plos-authorship-policy-update-adopting-a-more-inclusive-standard/">PLOS Authorship policy update: Adopting a more inclusive standard</a> appeared first on <a rel="nofollow" href="https://theplosblog.plos.org">The Official PLOS Blog</a>.</p>
-              
-
-              <p class="text-muted">in <a href ="https://theplosblog.plos.org">The Official PLOS Blog</a> on 2023-05-11 18:41:06 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/hammerhead-shark-gills-thermoregulate">Why some hammerhead sharks seem to ‘hold their breath’ during dives</a></h4>
-
-              
-                <p>Even fish sometimes hold their breath in cold, dark, deep water.</p>
-
-
-
-<p>Scalloped hammerhead sharks living near Hawaii spend their days basking in warm surface waters. But at night, these fish hunt for squid and other prey in the cold ocean depths hundreds of meters below the surface. The sharks may hold on to body heat in the frigid waters by <a href="https://www.science.org/doi/10.1126/science.adg8452" target="_blank" rel="noopener">suppressing the use of their gills while diving</a>, essentially “holding their breath” for around an hour at a time, researchers report in the May 12 <em>Science</em>.</p>
-
-
-
-
-
-<p>Whales and other <a href="https://www.sciencenews.org/article/cuviers-beaked-whale-longest-record-dive">deep-diving mammals are known to hold their breath</a> (<em>SN: 9/23/20</em>). But this is the first time the behavior has been spotted in diving fish, says Mark Royer, a shark physiology and behavior researcher at the University of Hawaii at Manoa in Honolulu.</p>
-
-
-
-<p>Sharks and other fish are ectotherms, meaning that their body temperature is largely controlled by the warmth of the water around them. Fish lose and gain a lot of body heat while breathing through their gills, which snag oxygen from water passing through the organ.</p>
-
-
-
-<p>“Gills are like giant radiators strapped to your head,” Royer says, explaining that they leak heat. Because of this, a lot of shark species in the tropics tend to stick to roughly the first 100 meters of sun-heated water near the ocean surface, where temperatures hover around 26° Celsius. But tags attached to scalloped hammerhead sharks (<em>Sphyrna lewini</em>) — a species found in coastal waters all over the tropics — revealed that these sharks take nightly, hour-long dives up to 1,000 meters below the surface.</p>
-
-
-
-<p>At these depths, water temperatures can get as low as 5° C — far too cold for a tropical shark. To find out how the sharks endured such frigid temperatures, Royer and his colleagues attached specially designed instruments to the backs of sharks that had gathered in a shallow bay off Oahu to mate.</p>
-
-
-
-<p>For the next 23 days, these sensors tracked how the sharks moved, how deep they swam, and how their internal temperature changed. “It was kind of like attaching a Fitbit to a shark,” says Royer. “It allowed me to get precise details on what the shark was doing.”</p>
-
-
-
-<p>Sharks, the data show, went on V-shaped dives to the depths — plunging hundreds of meters before firing straight back up “like a missile,” says Royer. But strangely, the body temperature of diving sharks barely budged for the bulk of the dive. It was only when the sharks slowed their ascent at a depth of around 290 meters, where the water is a little cooler than at the surface, that their body temperature dropped by an average of 2.8 degrees C.&nbsp;&nbsp;</p>
-
-
-
-<p>The fish had to be shutting off their gills for most of the dive to hold on to their heat, the researchers concluded. It was only when the sharks had returned to a safer depth temperature-wise that they may have reactivated their gills — taking in oxygen for the first time in around an hour and sucking in cold water in the process.</p>
-
-
-
-
-
-<p>Holding on to their heat while diving could help sharks move quickly in the deep ocean, says Julia Spaet, a shark ecologist at the University of Cambridge. While it is “absolutely possible” that these hammerhead sharks do this by suppressing gill activity, scientists will need to get direct evidence using cameras or other means to prove that it is true, she says.</p>
-
-
-
-<p>At least one video from a deep-sea dive hints that this is the case. The gills of a scalloped hammerhead roaming at a depth of 1,000 meters near Tanzania appeared to be closed in footage captured a few years ago, the researchers note in their paper. This, along with the new study’s find that hammerheads hold on to their body heat, makes Royer “very confident” that sharks are in fact holding their breath. “It just goes to highlight how extraordinary this species is,” he says.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-05-11 18:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/thunder-beast-brontothere-fossils-mammals-giant-evolution">‘Thunder beast’ fossils show how some mammals might have gotten big</a></h4>
-
-              
-                <p>For some mammals, the evolutionary path to gigantism after the dinosaurs’ demise wasn’t always a straight road.</p>
-
-
-
-<p>Species of extinct, hefty, rhinoceros-like creatures called brontotheres <a href="https://doi.org/10.1126/science.ade1833" target="_blank" rel="noopener">evolved into both bigger and smaller forms</a> over their 22-million-year run, researchers report in the May 12 <em>Science</em>. But big brontotheres seem to have enjoyed relatively uncrowded ecological niches compared with their smaller kin and so were less prone to extinction, explaining the group’s overall trend toward larger bodies over time.</p>
-
-
-
-
-
-<p>“It&#8217;s a more complex evolutionary world than what pure Darwinism would tell us,” says paleobiologist Juan Cantalapiedra of the University of Alcalá in Madrid. “It&#8217;s not this organized, predictable world where progress is a thing in nature and the better adapted always ended up surviving.”</p>
-
-
-
-<p>After <a href="https://www.sciencenews.org/article/dinosaurs-last-days-extinction-book-destruction-recovery">nonavian dinosaurs were wiped out</a> about 66 million years ago, mammals got bigger — and some got really big (<em>SN: 4/25/22</em>). Previously no larger than cats or coyotes, some mammals rapidly transformed into titans of a metric ton or more. Brontotheres were among the first mammals to grow to enormous size — their name comes from Greek words for “thunder” and “beast.”</p>
-
-
-
-<p>But while more than half of the nearly 60 known brontothere species tipped the scale at over a metric ton, the first footfalls of these “thunder beasts” weren’t thunderous at all. When the earliest brontotheres appeared in the lush forests of ancient North America and Asia in the early Eocene Epoch, roughly 56 million years ago, they were about the size of a border collie — hardly the stuff of thundering herds.</p>
-
-
-
-<p>Within about 16 million years, these modest mammals had grown into a family of giants.</p>
-
-
-<div class="wp-block-image  has-alignleft">
-<figure class="alignleft size-full"><img decoding="async" loading="lazy" width="680" height="850" src="https://www.sciencenews.org/wp-content/uploads/2023/05/051023_ec_brontotheres_inline.jpg" alt="portrait of the head of a large brontothere above the head of a small brontothere" class="wp-image-3124520" srcset="https://www.sciencenews.org/wp-content/uploads/2023/05/051023_ec_brontotheres_inline.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2023/05/051023_ec_brontotheres_inline-306x383.jpg 306w, https://www.sciencenews.org/wp-content/uploads/2023/05/051023_ec_brontotheres_inline-360x450.jpg 360w, https://www.sciencenews.org/wp-content/uploads/2023/05/051023_ec_brontotheres_inline-149x186.jpg 149w, https://www.sciencenews.org/wp-content/uploads/2023/05/051023_ec_brontotheres_inline-464x580.jpg 464w, https://www.sciencenews.org/wp-content/uploads/2023/05/051023_ec_brontotheres_inline-621x776.jpg 621w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3124520">Though the biggest brontotheres (one illustrated at top) weighed several metric tons, the first of these “thunder beasts” (bottom) were no larger than a medium-sized dog. </span><span class="credit wp-credit-3124520">Illustration by Oscar Sanisidro</span></figcaption></figure></div>
-
-
-<p>This dramatic transformation played out&nbsp;<a href="https://www.sciencenews.org/article/mammal-big-bodies-small-brains-dinosaur-extinction-fossils" target="_blank" rel="noreferrer noopener">in other mammal lineages</a> too (<em>SN: 3/31/22</em>). And the orthodox explanation for this trend, called Cope’s rule, holds that bigger individuals of a single species have a fitness advantage over smaller ones. Towering over predators is a good way to stay off the menu, and bigger bodies can enable bigger brains, expanded dietary options and many other advantages. “So populations will become larger over time, just because it&#8217;s better,” Cantalapiedra says.</p>
-
-
-
-<p>Cope’s rule predicts that natural selection would lead to species and their lineages gradually getting larger over time. But the new study suggests that brontotheres followed a different evolutionary path to gigantism.</p>
-
-
-
-
-
-<p>Cantalapiedra and colleagues tested how well three different evolutionary scenarios — including Cope’s rule — could explain the fossil record of brontotheres. They also used the fossil data to look for links between brontotheres’ size, ecology and the likelihood of going extinct or splitting into new species.</p>
-
-
-
-<p>The new analysis suggests that brontothere species usually stayed about the same size until splitting off into new species, which could be either bigger or smaller than their forebears. But because smaller species branched into new species and went extinct more often, brontotheres overall tended to get bigger with time.</p>
-
-
-
-<p>Comparing the family tree of brontotheres with a bonsai, Cantalapiedra says that this mechanism is a bit like letting the bonsai tree’s branches split normally while “cutting branches away from one side.” Cope’s rule, on the other hand, would be like using wires to continuously guide the tree in one direction.</p>
-
-
-
-<p>“We often invoke Cope’s rule for large body size in mammals,” says Ryan Felice, an evolutionary biologist at University College London who was not involved in the study. “And maybe this is evidence saying: That’s not the end of the story.”</p>
-
-
-
-<p>Beyond body size, there’s a wider question in paleobiology about how drastic evolutionary changes happen.</p>
-
-
-
-<p>Going back to Cantalapiedra’s bonsai, does natural selection bend the branches of the tree of life gradually, shaping individual species á la Cope’s rule? Or do dramatic transformations happen when large-scale ecological or environmental processes cut away entire branches?</p>
-
-
-
-<p>Brontotheres’ trend toward titanic proportions seems to suggest the latter. In a world with fewer big plant eaters than smaller ones, little brontotheres seem to have faced stiffer competition compared with their colossal kin. Big brontotheres won out because of their different ecology, not necessarily because bigger individuals had an advantage over smaller members of their own species, the researchers say.</p>
-
-
-
-<p>Checking whether the same pattern holds for other groups of large animals would be an interesting next step, Felice says. He also suggests incorporating paleoclimate data into the analysis to look for any links between changes in climate and mammal evolution — patterns that could hint at possible rippling evolutionary effects of modern climate change.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-05-11 18:00:00 UTC.
               </p>
             </li>
           <!-- each item -->
