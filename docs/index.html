@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2023-06-15 08:13:38 UTC 
+          on 2023-06-16 08:13:32 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -62,6 +62,673 @@
     <div class="container">
       <div class="col-md-9">
         <ul class="list-group">
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=http://romainbrette.fr>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=http://romainbrette.fr" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=http://romainbrette.fr&title=Romain Brette" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="http://romainbrette.fr/notes-on-consciousness-xi-why-large-language-models-are-not-conscious/">Notes on consciousness. (XI) Why large language models are not conscious</a></h4>
+
+              
+                <p>The current discussions about AI are plagued
+with anthropomorphism. Of course, the name “artificial intelligence” has
+probably something to do with the matter. A conscious artificial intelligence might
+sound like science-fiction, but a sentient statistical model certainly sounds a
+bit more bizarre. In this post, I want to address the following question: are
+large language models (LLM), such as ChatGPT, or more generally deep learning
+models, conscious? (perhaps just a little bit?)</p>
+
+
+
+<p>The first thing that must be realized is that
+the question of what it takes for something to be conscious is a very old
+question, which has been the subject of considerable work in the past. The
+opinions and arguments that we read today are not original. Very often, they
+unknowingly repeat common arguments that have been discussed at length in the
+past. It might seem for the general public or AI engineers that the spectacular
+successes of modern AI programs should bring a new light on these old
+questions, but that is not really the case. These spectacular programs already
+existed 50 years ago, just as thought experiments: which for logical arguments
+makes no difference at all. For example, in 1980, <a href="https://en.wikipedia.org/wiki/Chinese_room">Searle
+articulated an argument</a> against the idea that a
+program that seems to behave like a human would necessarily have a mind. The
+argument was based on a thought experiment, where an average English-speaking
+person would apply the operations of a sophisticated program that takes a
+question written in Chinese as input and outputs an answer in Chinese. Searle
+argues that while that person is able to have a conversation in Chinese by
+mechanically applying rules, she does not understand Chinese. Therefore, he
+concludes, understanding cannot be identified with the production of acceptable
+answers. Now such programs exist, and their existence does not change anything
+to either the argument or the objections that have been raised then. All these
+discussions were precisely based on the premises that such systems would exist.</p>
+
+
+
+<p>This is an important preamble: a <em>lot</em>
+has been said and written about consciousness, what it means, what it takes for
+something to be conscious, etc. Answers to these questions are not to be found
+in current AI research but in the philosophy literature, and whether a program
+produces convincing answers to questions, or can correctly categorize images,
+bears very little relevance to any of these discussions. A corollary is that AI
+engineering skills provide no particular authority on the subject of AI
+consciousness, and indeed, as far as I can tell, many arguments we hear in the
+AI community on this subject tend be rather naïve, or at least not original and
+with known weaknesses.</p>
+
+
+
+<p>Another important remark is that, while there
+is a lot of literature on the subject, there is no consensus whatsoever in the
+specialized community on those questions. Views on consciousness go from
+consciousness does not exist (eliminativism/illusionism) to everything is
+conscious (panpsychism(s)). In my view, there is no consensus because there is currently
+no convincing theory of consciousness (some say that there can be no theory of
+consciousness, which is another proposition on which there is no consensus).
+There are good reasons for this state of affair, which I scratched <a href="http://romainbrette.fr/the-hard-problem-of-consciousness-explained-with-sex/">here</a> and <a href="http://romainbrette.fr/notes-on-consciousness-x-why-i-am-not-a-panpsychist-reading-notes-on-philip-goffs-galileos-error/">there</a> (and others have too, obviously).</p>
+
+
+
+<p>This remark is important because I have seen
+it become an argument for why a particular artefact <em>might</em> be conscious: we
+don’t know what consciousness is exactly, or what it takes for something to be
+conscious, therefore we cannot rule out the possibility that something in
+particular is conscious.</p>
+
+
+
+<p>However, this is a fallacy. We do not know
+what it takes for an entity to be conscious, but we certainly do know that
+certain entities <em>cannot</em> be conscious, if the meaning we give to this
+notion must have some vague resemblance with its usual meaning.</p>
+
+
+
+<p>Now, I will make a few general points against
+the idea that LLMs, or more generally formal deep neural networks, are
+conscious, by discussing the concept of a “conscious state” (i.e., “how it
+feels like now”).</p>
+
+
+
+<p>Once we remove the buzzwords, such as
+“intelligence”, “learning”, etc., a modern deep learning model is essentially a
+massively parallel differentiable program. In effect, it is essentially a tensor
+calculator, the state of which is updated by a series of iterations.</p>
+
+
+
+<p>The default assumption in the computational
+view of mind is that a mental state is something like a program state. But a
+conscious state is a very particular kind of state. First of all, a conscious
+state has a subject (the entity that is conscious) and an object (what it is
+about). Both relate to well-known topics in philosophy of mind, namely the <a href="https://plato.stanford.edu/entries/consciousness-unity/">unity of consciousness</a> and the <a href="https://plato.stanford.edu/entries/consciousness-intentionality/">intentionality</a> of consciousness.</p>
+
+
+
+<p>When we wonder whether something is conscious,
+that thing is typically an organism, or a machine, or even, if you adopt <a href="http://romainbrette.fr/notes-on-consciousness-x-why-i-am-not-a-panpsychist-reading-notes-on-philip-goffs-galileos-error/">panpsychism</a>, a rock or an atom. But we could
+consider many other combinations of molecules and ask whether they are
+conscious. How about the entity made of a piece of my finger (still attached to
+my body) plus two coins in a fountain in Rome? This seems absurd, but why? There
+is a reason why: two objects that do not interact at all have the same
+properties whether we look at them one by one or together. New properties above
+the individual elements can only arise if there is some kind of interaction
+between the elements. So, if neither my finger nor any of the coins is
+conscious, then the combination is not conscious either. Thus, we can say that
+a necessary condition for a set of components to constitute a subject is that
+there is some causal integration between the components. This is actually the
+basis of one particular theory of consciousness, Integrated Information Theory
+(which I have criticized <a href="http://romainbrette.fr/notes-on-consciousness-ix-why-integrated-information-theory-fails/">here</a>, <a href="https://psyarxiv.com/qd4z9">there</a> and <a href="http://romainbrette.fr/modern-panpsychism-about-the-integrated-information-theory-of-consciousness/">there</a>, essentially because a necessary condition is
+not a sufficient condition). If a deep learning network is conscious, then
+which layer is the subject?</p>
+
+
+
+<p>I leave this tricky question hanging there to address the more critical ones (but in case you want to dig, look up these keywords: <a href="http://mechanism.ucsd.edu/teaching/f17/phil204A/readings/Varela%201979%20Principles%20of%20Biological%20Autonomy.part1.pdf">autonomy of the living</a>, biological organism, biological agency). One is the question of intentionality: the fact that a conscious state is about something: I am conscious of something in particular. A large language model is a symbol processing system. The problem is that it is humans who give meaning to symbols. The program is fed with sequences of bits, and outputs sequences of bits. If one asks an LLM “What is the color of a banana?” and the LLM replies “yellow”, does the program understand what a banana is? Clearly, it doesn’t have the visual experience of imagining a banana. It has never seen a banana. It doesn’t experience the smell or touch of a banana. All it does is output 0100, which we have decided stands for the word banana, when we input a particular stream of numbers. But the particular numbers are totally arbitrary: we could choose to assign a different sequence of numbers to each of the words and we would still interpret the computer’s output in exactly the same way, even though the program would now have different inputs and outputs. So, if the program has a conscious experience, then it is about nothing in particular: therefore, there is no conscious experience at all.</p>
+
+
+
+<p>This is known as the “<a href="https://en.wikipedia.org/wiki/Symbol_grounding_problem">symbol grounding problem</a>”, again a well-known problem (which I examined in the context of “<a href="https://www.biorxiv.org/content/10.1101/168237v3">neural codes</a>”). Many people consider that a necessary ingredient has to do with <a href="https://en.wikipedia.org/wiki/Embodied_cognition">embodiment</a>, that is, the idea that the machine has to have a body interacting with the world (but again, careful, necessary does not mean sufficient). It seems that it is Yann Le Cun’s position, for example. Again, it is not clear at all what it takes for something to be conscious, but it is clear that there can be no conscious experience at all unless that experience is somehow about something, and so the symbol grounding problem must be addressed.</p>
+
+
+
+<p>These are well-known problems in philosophy of
+mind. The final point I want to discuss here is more subtle. It relates to the
+notion of “state”. In computationalism (more generally, functionalism), a
+conscious state is a sort of program state. But there is a big confusion here. Both
+terminologies use the word “state”, but their meaning is completely different.
+A state of mind, an experience, is not at all a “state” in the physical sense
+of pressure, volume and so on, that is, the configuration of a system. Consider
+a visual experience. Can it be the case that to see something is to have the
+brain in a certain state? For example, some neurons in the inferotemporal
+cortex fire when a picture of Jennifer Anniston is presented: is the visual
+experience of Jennifer Anniston the same as the active state of the neuron? If
+the answer is positive, then why should you have the experience, rather than
+that neuron? Otherwise, perhaps the neuron <em>triggers</em> the experience, but
+then we need to assign the experience to the state of some downstream neurons
+and we face the problem of infinite regress.</p>
+
+
+
+<p>The issue is that an experience is simply not
+a physical state; to treat it as such is a category error. To see this,
+consider this thought experiment, which I called the “<a href="https://psyarxiv.com/tgcn9">Bewitched thought experiment</a>” (self-quote):</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>In the TV series Bewitched, Samantha the housewife twitches her nose and everyone freezes except her. Then she twitches her nose and everyone unfreezes, without noticing that anything happened. For them, time has effectively stopped. Was anyone experiencing anything during that time? According to the encoding view of conscious experience, yes: one experiences the same percept during the entire time, determined by the unchanging state of the brain. But this seems wrong, and indeed in the TV series the characters behave as if there had been no experience at all during that time.</em></p></blockquote>
+
+
+
+<p>It would seem bizarre that people experience
+something when their brain state is maintained fixed. That is because to experience
+is an <em>activity</em>, not a thing. Therefore, a system cannot experience
+something just by virtue of being in some state. The vector of activation
+states of a neural network is not a conscious “state”. It is not even false: it
+is a category error. So, when a deep network outputs a symbol that we associate
+to Jennifer Anniston, it doesn’t actually <em>see</em> Jennifer Anniston. Having
+the output “neuron” in a particular state is not an experience, let alone an
+experience <em>of</em> seeing Jennifer Anniston.</p>
+
+
+
+<p>All these remarks, which tend to show that the
+application of tensor calculus does not produce conscious experience, can be
+perplexing because it is hard to imagine what else could possibly produce
+conscious experience. Current “artificial intelligence” is our best shot so far
+at mimicking consciousness, and I am saying that it is not even a little bit
+conscious. So, what else could consciousness be then?</p>
+
+
+
+<p>My honest answer is: I don’t know. Will we
+know someday? I also don’t know. Should it be possible, hypothetically, to
+build a conscious artifact? Maybe, but I don’t know (but why not? I don’t know,
+how then? I also don’t know). I wish I did know, but I don’t find it particularly
+bizarre that certain things are still unexplained and unclear. It doesn’t mean
+that there’s nothing interesting to be said on consciousness.</p>
+
+
+
+<p>But in any case, I want to point out that the
+“what else” argument is a self-destructive argument. Asking “what else?” is
+just admitting that you have no logical argument that allows you to prove your
+proposition. This is not an argument, but rather an admission of failure (which
+is fine).</p>
+
+
+
+<p>Anyway: I don’t know what it takes for
+something to be conscious, but I think we can be fairly confident that LLMs or
+deep networks are not conscious.</p>
+              
+
+              <p class="text-muted">in <a href ="http://romainbrette.fr">Romain Brette</a> on 2023-06-16 07:27:50 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://forbetterscience.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://forbetterscience.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://forbetterscience.com&title=For Better Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://forbetterscience.com/2023/06/16/schneider-shorts-16-06-2023-a-complete-policy-for-ethic-and-scientific-integrity/">Schneider Shorts 16.06.2023 – A complete policy for ethic and scientific integrity</a></h4>
+
+              
+                Schneider Shorts 16.06.2023 - an evaluation in Strasbourg finds a flyer, trash science from Rome, trash science from Harvard, cures for Long COVID and old age, with a baroque art sale, Latvian cooking recipes, informative Frontiers retractions, and finally, the mystery of who blew up the dam.
+              
+
+              <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2023-06-16 05:16:41 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/north-atlantic-heat-record-sea-surface-temperature">Why is the North Atlantic breaking heat records?</a></h4>
+
+              
+                <p>In the past few weeks, sea-surface temperatures in some parts of the North Atlantic Ocean have soared to record heights.</p>
+
+
+
+<p>The anomalous warming is occurring in a large swath stretching almost one-third of the way across the Atlantic westward from the northwestern coast of Africa. Satellite data reveal that some surface waters in the area are almost 4 degrees Celsius (about 7 degrees Fahrenheit) above normal for this time of the year, says Brian McNoldy, a meteorologist at the University of Miami in Coral Gables, Fla.</p>
+
+
+
+
+
+<p>“There’s been record-breaking warmth since March, but even more so now,” he says.</p>
+
+
+
+<p>On June 10, for instance, the average sea-surface temperature for the portion of the Atlantic that stretches from the equator to 60 degrees north — up to southern Norway, southern Greenland and the central portions of Canada’s Hudson Bay — was 22.7° C (nearly 73° F). That’s about 1 degree C higher than the average recorded from 1991 through 2020, McNoldy notes. The previous record for the same date, 22.1° C, occurred in 2010.</p>
+
+
+
+<div class="wp-block-sciencenews-content-sidebar">
+<h3 class="wp-block-heading">Hot Atlantic</h3>
+
+
+
+<p>Sea-surface temperatures in the North Atlantic in 2023 (red) have been breaking daily records since March. In this plot, the 1982–2022 daily mean temperatures have been subtracted from this year’s temperatures as well of those from 1982 to 2022 (gray).</p>
+
+
+
+<iframe src='https://flo.uri.sh/visualisation/14145495/embed' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important'><a class="flourish-credit" href="https://public.flourish.studio/visualisation/14145495/?utm_source=embed&amp;utm_campaign=visualisation/14145495" target="_top" style="text-decoration:none!important" rel="noopener"><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important'> </a></div>
+</div>
+
+
+
+<p>This year’s warmer-than-normal waters might help strengthen storms that form in the eastern Atlantic and eventually spawn hurricanes, scientists say.</p>
+
+
+
+<p>What’s causing the unusual warm-up isn’t clear. But here’s a rundown of several factors that might be at play.</p>
+
+
+
+<h4 class="wp-block-heading">A dearth of Sahara dust</h4>
+
+
+
+<p>Occasionally, vast swathes of desert dust from the Sahara waft across the ocean. They are carried by winds stirred up by a semipermanent high-pressure system dubbed the “Azores high” due to its proximity to those islands.</p>
+
+
+
+<p>But lately, the Azores high has weakened and shifted southwest away from Africa. So those winds that typically pick up and transport Saharan dust westward over the North Atlantic are calmer and largely dust free, says Michael Mann, a climate scientist at the University of Pennsylvania.</p>
+
+
+
+
+
+<p>As a result, solar radiation that <a href="https://www.sciencenews.org/article/dust-thermostat">normally would be scattered back into space by the dust</a> reaches the ocean surface, warming the dark waters (<em>SN: 9/25/01</em>).</p>
+
+
+
+<p>If and when the trade winds strengthen, increased dust from Africa could help cool the area somewhat.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="680" height="383" src="https://www.sciencenews.org/wp-content/uploads/2023/06/061523_SP_atlantic-heat_inline.jpg" alt="A satellite image of northwest Africa in 2020 showing a large plume of dust from the Sahara Desert traveling over the ocean" class="wp-image-3128945" srcset="https://www.sciencenews.org/wp-content/uploads/2023/06/061523_SP_atlantic-heat_inline.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2023/06/061523_SP_atlantic-heat_inline-330x186.jpg 330w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3128945">In a typical year, vast plumes of dust from the Sahara Desert (left in this satellite image of northwest Africa from 2020) block sunlight, shading and cooling the underlying ocean. This spring, a lack of dusty air has contributed to warming of the North Atlantic.</span><span class="credit wp-credit-3128945">NOAA</span></figcaption></figure>
+
+
+
+<h4 class="wp-block-heading">Decreased air pollution</h4>
+
+
+
+<p>In 2020, new emissions rules kicked in for long-haul container ships that spew sulfate-rich exhaust plumes. There’s been some speculation that less pollution could lead to more heating. With fewer plumes scattering sunlight back into space, more radiation reaches the sea surface.</p>
+
+
+
+<p>But some studies suggest that the cooling effect of ship plumes may have been minor to begin with: Not only do the <a href="https://www.sciencenews.org/article/ship-tracks-exhaust-studies-overestimate-cooling-pollution-clouds">exhaust plumes have a short life span</a>, the pollutants can cause natural clouds to evaporate more quickly and thus lead to warming, not cooling (<em>SN: 2/1/21</em>).</p>
+
+
+
+<h4 class="wp-block-heading">Global warming trends</h4>
+
+
+
+<p>This year marks the return of El Niño, a climate phenomenon whose hallmark is warmer-than-normal sea-surface temperatures along the equator west of South America. By winter, there’s a more than 4 in 5 chance that the El Niño will be either strong or moderate, according to scientists with the National Oceanic and Atmospheric Administration’s Climate Prediction Center.</p>
+
+
+
+<p>Each El Niño <a href="https://www.sciencenews.org/article/fizzled-2014-el-nino-fired-ongoing-monster-el-nino">has its own personality</a> (<em>SN: 5/2/16</em>). But in general, El Niño boosts average surface temperatures both on land and at sea worldwide, Mann says. Human-caused climate change has done the same, he notes.</p>
+
+
+
+<p>But there’s still a lot of uncertainty about how current conditions may affect the coming forecast.</p>
+
+
+
+<p>The unusually warm waters of the North Atlantic may tend to strengthen storm systems that later develop into tropical depressions and then hurricanes. But the El Niño that’s now developing in the equatorial Pacific may hamper their formation by strengthening winds in the upper atmosphere that can shear the tops off nascent hurricanes. How active <a href="https://www.sciencenews.org/article/atlantic-hurricane-season-prediction">this year’s hurricane season</a> will be depends on which of these forces will prevail, scientists say (<em>SN: 5/26/23</em>).&nbsp;</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-06-15 16:43:16 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://blogs.biomedcentral.com/bmcseriesblog>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://blogs.biomedcentral.com/bmcseriesblog" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://blogs.biomedcentral.com/bmcseriesblog&title=BMC Series blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://blogs.biomedcentral.com/bmcseriesblog/2023/06/15/highlights-of-the-bmc-series-may-2023/">Highlights of the BMC Series – May 2023</a></h4>
+
+              
+                <p><b><i>BMC Genomics &#8211;</i></b> <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09326-0"><span style="font-weight: 400">Estimating transcriptome complexities across eukaryotes</span></a></p>
+<figure id="attachment_13251" aria-labelledby="figcaption_attachment_13251" class="wp-caption alignleft" style="width: 212px"><img class="wp-image-13251" src="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/James-E.-Titus-McQuillan-et-al-Fig-6.png" alt="" width="202" height="195" srcset="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/James-E.-Titus-McQuillan-et-al-Fig-6.png 581w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/James-E.-Titus-McQuillan-et-al-Fig-6-300x289.png 300w" sizes="(max-width: 202px) 100vw, 202px" /><figcaption id="figcaption_attachment_13251" class="wp-caption-text"><div class="attachment-image--caption">Fig. 6A from James E. Titus-McQuillan <em>et al</em>, 2023</div><div class="attachment-image--source"></div></figcaption></figure>
+<p><span style="font-weight: 400">Alternative splicing is well known to add a tremendous layer of complexity to eukaryotic transcriptomes, increasing exponentially the amount of information that can be stored in a single genomic region; this also offers opportunities for regulatory mechanisms. Traditional comparative transcriptomics is focused on the aim of assigning gene orthology across distantly related organisms, but transcriptome complexity driven by alternative splicing can make this task more and more challenging as genetic distance increases: intron density and distribution can vary by orders of magnitude across taxa. For this reason, focusing on orthologs does not explain the whole evolutionary history, may introduce bias, and can miss important variations throughout evolution.</span></p>
+<p><span style="font-weight: 400">In this study, complexity metrics independent from orthology, developed with a transcriptome analysis software (TranD), are used to compare the dynamics of conditioning on orthologs versus whole-transcriptome complexity metrics. Instead of separately analysing single genes to estimate their evolutionary distance between species, this method treats whole-genome transcriptome splicing as a global phenotype that can shift across species.</span></p>
+<p><span style="font-weight: 400">Such an approach is able to mitigate bias issues and to capture genetic novelty more efficiently than ortholog-based approaches. It is also able to reveal higher degrees of complexity in taxa that were thought to be among the least complex. This represents a step forward in the emerging field of non-model evolutionary genomics.</span></p>
+<p><b><i>BMC Digital Health</i></b><span style="font-weight: 400"> &#8211; </span><a href="https://bmcdigitalhealth.biomedcentral.com/articles/10.1186/s44247-023-00016-1"><span style="font-weight: 400">Examining the validity and fidelity of a virtual reality simulator for basic life support training</span></a></p>
+<figure id="attachment_13249" aria-labelledby="figcaption_attachment_13249" class="wp-caption alignright" style="width: 309px"><img class="wp-image-13249" src="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/Arthur-et-al-Fig-1-1024x445.png" alt="" width="299" height="130" srcset="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/Arthur-et-al-Fig-1-1024x445.png 1024w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/Arthur-et-al-Fig-1-300x131.png 300w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/Arthur-et-al-Fig-1-768x334.png 768w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/Arthur-et-al-Fig-1-640x278.png 640w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/Arthur-et-al-Fig-1.png 1177w" sizes="(max-width: 299px) 100vw, 299px" /><figcaption id="figcaption_attachment_13249" class="wp-caption-text"><div class="attachment-image--caption">Fig. 1 from Arthur <em>et al</em>, 2023</div><div class="attachment-image--source"></div></figcaption></figure>
+<p><span style="font-weight: 400">Training materials simulating clinically relevant scenarios are effective for medical teaching but require much organizational and financial effort. Virtual Reality (VR) technology promises to overcome such barriers and has shown significant educational value in some clinical domains, but its value for training Basic Life Support skills has still to be supported by evidence, especially considering its critical importance.</span></p>
+<p><span style="font-weight: 400">In this study, the authors evaluated a VR immersive simulator designed for this purpose, considering its validity (is it an accurate representation of the real world training?) and fidelity (does it elicit realistic psycho-behavioral responses from trainees?), taken as major predictors of learning efficiency. Twenty-two medical trainees were asked to perform basic life support tasks on a VR mannequin in a VR environment, then on a real-world mannequin in a real-world setting. The researchers focused on whether behaviors such as self-reported feelings and perceptions or measured eye movement data, as well as performance parameters, were similar between the VR and real-world simulations on a person-by-person basis.</span></p>
+<p><span style="font-weight: 400">Results showed that the VR simulation passed the validity test: it was sufficiently immersive to make participants feel ‘present’ and they could properly perform procedural assessments. However, movement-based interactions indicated a limited fidelity, as participants displayed higher self-reported workloads, longer times to task completion, and disrupted attentional responses in the VR environment. This suggests that VR may be limited for improving visuomotor skills of Basic Life Support, but is potentially valuable for transferring perceptual and procedural abilities.</span></p>
+<p><b><i>BMC Plant Biology</i></b><span style="font-weight: 400"> &#8211; </span><a href="https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-023-04261-4"><span style="font-weight: 400">Modifications in steroid and triterpenoid metabolism in <em>Calendula officinalis</em> plants and hairy root culture in response to chitosan treatment</span></a></p>
+<figure id="attachment_13253" aria-labelledby="figcaption_attachment_13253" class="wp-caption alignleft" style="width: 259px"><img class="wp-image-13253 " src="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_145582890.jpg" alt="" width="249" height="166" srcset="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_145582890.jpg 800w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_145582890-300x200.jpg 300w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_145582890-768x513.jpg 768w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_145582890-640x427.jpg 640w" sizes="(max-width: 249px) 100vw, 249px" /><figcaption id="figcaption_attachment_13253" class="wp-caption-text"><div class="attachment-image--caption">© vaivirga / stock.adobe.com</div><div class="attachment-image--source"></div></figcaption></figure>
+<p><span style="font-weight: 400">Biostimulants are eco-friendly, non-toxic, biodegradable compounds that promote plant growth and enhance crop productivity, reducing disease risk and plant stress. One of the commonest biopolymers used as biostimulants for organic agriculture is chitosan, a component of fungal cell walls. Chitosan is known to stimulate plant growth, but is also able to elicit plant immunity through the activation of multiple defense-related mechanisms. Plant growth and immunity might become competitive upon chitosan treatment. What happens then to the growth-defense trade-off?</span></p>
+<p><span style="font-weight: 400">To answer that, researchers exposed </span><i><span style="font-weight: 400">Calendula officinalis</span></i><span style="font-weight: 400"> (marigold) to chitosan and measured an impressive number of parameters including the overall biomass, root and shoot growth, and the levels of several steroids and triterpenoids (responsible for plant growth and immunity, respectively). A general growth inhibition and decreased steroid levels were observed, similarly to what has been demonstrated in other models upon chitosan treatment or fungal infection. Chitosan elicitation had a variable effect on specialized triterpenoid metabolites, which may increase, decrease, or stay unchanged. Overall, the observed effects were different from expected.</span></p>
+<p><span style="font-weight: 400">These results indicate that chitosan treatment might not always result in enhanced plant growth and fitness: this is a reminder that agricultural solutions, including organic ones, are not universal and require accurate investigation before application. Life is always more complex than its representation and, as such, can always manage to surprise.</span></p>
+<p><b><i>BMC Medical Ethics</i></b><span style="font-weight: 400"> &#8211; </span><a href="https://bmcmedethics.biomedcentral.com/articles/10.1186/s12910-023-00904-1"><span style="font-weight: 400">Clinical ethics consultation documentation in the era of open notes</span></a></p>
+<figure id="attachment_13250" aria-labelledby="figcaption_attachment_13250" class="wp-caption alignright" style="width: 261px"><img class=" wp-image-13250" src="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_455282087-1024x683.jpeg" alt="" width="251" height="167" srcset="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_455282087-1024x683.jpeg 1024w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_455282087-300x200.jpeg 300w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_455282087-768x512.jpeg 768w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_455282087-1536x1024.jpeg 1536w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_455282087-2048x1365.jpeg 2048w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/AdobeStock_455282087-640x427.jpeg 640w" sizes="(max-width: 251px) 100vw, 251px" /><figcaption id="figcaption_attachment_13250" class="wp-caption-text"><div class="attachment-image--caption">© Svitlana / stock.adobe.com</div><div class="attachment-image--source"></div></figcaption></figure>
+<p><span style="font-weight: 400">Clinical ethics consultations have always been widely debated, as there can be competing interests, differing moral values, and disagreement in any given encounter between a patient and an ethics consultant. With the advent of “open notes” in the clinical domain, free, real-time notes are available to patients through online portals, raising concerns about issues such as end-of-life care, autonomy, religious and cultural conflict, and confidentiality.</span></p>
+<p><span style="font-weight: 400">The authors of this Review consider a narrative-based approach: whose story is being told through open notes? Shared notes can be reviewed and improved by patients, leading ethics committees to better understand their perspectives and map different viewpoints; however this can be time-consuming and not always action-guiding. The authors also focus on content: what should not be shared? There are indeed cases in which sharing would be unnecessary, or even harmful for the patient, so openness would not be recommended, thus undermining transparency and the feeling of trust. For sure, there are already aspects of all clinical encounters that regularly go undocumented… but is it really an issue? Is there a price to pay for openness? Is sharing always appropriate?</span></p>
+<p><span style="font-weight: 400">Indeed, open notes complicate the documentation of clinical ethics consultations, but this comes with more transparency, relational trust building, and improved patient autonomy. Discussions on clinical ethics consultations are widespread, but interlinking that with the era of open notes is a fresh view on the topic.</span></p>
+<p><b><i>BMC Microbiology </i></b><i><span style="font-weight: 400">&#8211; </span></i><a href="https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-023-02839-4"><span style="font-weight: 400">Microbial circadian clocks: host-microbe interplay in diel cycles</span></a></p>
+<figure id="attachment_13252" aria-labelledby="figcaption_attachment_13252" class="wp-caption alignleft" style="width: 260px"><img class=" wp-image-13252" src="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/iStock-1300845179-2-1024x576.jpg" alt="" width="250" height="141" srcset="https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/iStock-1300845179-2-1024x576.jpg 1024w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/iStock-1300845179-2-300x169.jpg 300w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/iStock-1300845179-2-768x432.jpg 768w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/iStock-1300845179-2-1536x864.jpg 1536w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/iStock-1300845179-2-2048x1152.jpg 2048w, https://blogs.biomedcentral.com/bmcseriesblog/wp-content/uploads/sites/9/2023/06/iStock-1300845179-2-640x360.jpg 640w" sizes="(max-width: 250px) 100vw, 250px" /><figcaption id="figcaption_attachment_13252" class="wp-caption-text"><div class="attachment-image--caption">© katatonia82 / Getty Images / iStock</div><div class="attachment-image--source"></div></figcaption></figure>
+<p><span style="font-weight: 400">Circadian rhythms are intrinsic cyclical patterns of gene expression and metabolism that enable organisms to adapt to their changing environment, and are regulated by self-generated molecular clocks. In bacteria, the underlying mechanisms have been well characterized in cyanobacteria, but similar schemes have been recently reported in other microorganisms at the population level, especially in terms of composition and function.</span></p>
+<p><span style="font-weight: 400">This Review guides readers through some of the most fascinating cases of microbial circadian clocks: from the classic example of cyanobacteria controlled by a three-component negative feedback loop based on cycles of protein sequestration and modification, to the viral-transmitted capacity to produce proteorhodopsin-mediated light-sensitive oscillations in the oceanic bacterioplankton, without forgetting the cyclical effects that, conversely, microorganisms can have on their environment, as in the case of gut microbiota impacting host metabolism in a circadian manner.</span></p>
+<p><span style="font-weight: 400">A comprehensive understanding of the multiple ways bacteria affect and are affected by environmental time patterns has yet to be achieved. There are many things that we do not know about how endogenous clock systems work across life domains, but it is only a matter of time before new, fascinating mechanisms are discovered.</span></p>
+              
+
+              <p class="text-muted">in <a href ="https://blogs.biomedcentral.com/bmcseriesblog">BMC Series blog</a> on 2023-06-15 15:16:10 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/supermassive-black-hole-orbit-blazar">A supermassive black hole orbiting a bigger one revealed itself with a flash</a></h4>
+
+              
+                <p>A long-suspected black hole may have finally come out of hiding.</p>
+
+
+
+<p>A monstrously massive black hole in a distant galaxy probably has a smaller companion that orbits it every 12 years. But that tiny partner has never been detected. Now, astronomers claim to have seen <a href="https://submissions.mirasmart.com/AAS242/ViewSubmissionFile.aspx?sbmID=78&amp;mode=html&amp;validate=false&amp;key=1yfTp1QbH" target="_blank" rel="noopener">a flash of light coming directly from the smaller black hole</a> for the first time.</p>
+
+
+
+<p>“We’ve never seen anything like this before,” said astronomer Mauri Valtonen on June 7 at a meeting of the American Astronomical Society in Albuquerque.</p>
+
+
+
+
+
+<p>Astronomers have been watching this object since the 1880s, when it showed up in a survey of asteroids as a brilliant point of light. That point of light, now dubbed OJ287, is a blazar. Among the brightest-looking objects in the universe, blazars are supermassive black holes that launch bright jets of radiation into space, and those jets happen to point almost directly at Earth. This one sits about 3.5 billion light-years away.</p>
+
+
+
+<p>Sometimes, OJ287 shines even brighter than usual. For the past 40 years or so, astronomers have noticed that the object has a dramatic jump in brightness every 11 to 12 years.</p>
+
+
+
+<p>In 1996, Valtonen and his colleague Harry Lehto, both of the University of Turku in Finland, suggested that the outbursts could be due to one supermassive black hole orbiting an even more massive black hole. Both black holes are probably behemoths, the astronomers calculated: The smaller is around 150 million times the mass of the sun, and the bigger is around 18 billion solar masses. For perspective, the <a href="https://www.sciencenews.org/article/black-hole-milky-way-first-image-event-horizon-telescope">black hole in the center of the Milky Way</a> is about 4 million solar masses (<em>SN: 5/12/22</em>).</p>
+
+
+
+<p>The bigger black hole is thought to be surrounded by a disk of white-hot gas and dust, which glows at many wavelengths of light. If the smaller black hole exists, then every time it plunges through that disk, it would trigger a flash of light — thus explaining the recurring outbursts.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Watch a black hole plunge through another black hole’s disk | Science News" width="500" height="281" src="https://www.youtube.com/embed/06bhnoYfPU4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div><figcaption class="wp-element-caption">This animation shows a flash of light that a smaller supermassive black hole in the blazar OJ287 emits when it crashes through the disk of gas and dust swirling around the other more massive black hole it orbits.</figcaption></figure>
+
+
+
+<p>But until now, no light had been detected from the second black hole itself. Its presence was merely inferred from those regular flares.</p>
+
+
+
+<p>Valtonen and his colleagues predicted that the most recent flare should arrive in January or February 2022 and arranged to monitor OJ287 every day using telescopes on Earth and in space. The team saw flares like the ones they had seen before, but there was a new flare that was different. It was bright and quick, fading after one night.</p>
+
+
+
+<p>The team proposed that this flare came from a jet created by the smaller black hole pulling material out of the disk as it approached, before the collision.<a></a></p>
+
+
+
+<p>“It swallows a whole lot of disk matter,” Valtonen said. “That matter falls into the secondary black hole, and you get a huge flare.”</p>
+
+
+
+<p>Previous observations missed that flare because it is so short. The team almost missed it in 2022, due to bad weather. “We never observed OJ287 night to night to night [before], this was the first time,” he said. “That’s why we saw it.”</p>
+
+
+
+
+
+<p>Some researchers have suggested other ways for a single black hole to give off the same pattern of light. If the team’s interpretation is correct, then it marks the first time the second black hole has been seen directly, Valtonen says.</p>
+
+
+
+<p>“The detection of the second black hole should put an end to this discussion,” he says. “More generally, this could be the beginning of work on secondary jets in binary black hole systems, which could open up a new research field, now that we have at least one concrete example to study.” If other binary black holes make similar flashes as the smaller black hole crosses the larger one’s disk, astronomers now know how to look for them.</p>
+
+
+
+<p>The observations do suggest the presence of a second black hole, says Caltech astronomer Seppo Laine, although other ideas are still possible.</p>
+
+
+
+<p>“Mauri has been basically pushing this supermassive black hole binary model for decades now,” Laine says. “It doesn’t completely confirm it, but if this interpretation is correct, then it’s a significant step forward.”</p>
+
+
+
+<p>Unfortunately, it may be difficult to test. The short flares come only once a decade, so astronomers need to be ready the next time. To resolve the two black holes directly, Valtonen says, might take a radio telescope in space.</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-06-15 13:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/oregon-psychedelics-psilocybin-rollout/">Psychedelic Therapy Is Here. Just Don’t Call It Therapy</a></h4>
+
+              
+                Psilocybin is on the cusp of becoming legally available in Oregon—but not as a medical treatment.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-15 12:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.sciencenews.org/article/horses-humans-robots-technology">How understanding horses could inspire more trustworthy robots</a></h4>
+
+              
+                <p>Throughout history, cowboys have shared epic tales of horses that have taken them home on dark, foggy nights. Legendary horses have even carried wounded soldiers through battle zones.</p>
+
+
+
+<p>Sensible and highly trained, these horses remind computer scientist and roboticist Eakta Jain of fully autonomous robots, specifically self-driving cars.</p>
+
+
+
+<p>Vehicles today have different levels of autonomy, with level zero or one relating to an antilock braking system. Level two or three has adaptive cruise control, the ability to follow lanes or park. Such volition builds all the way to level five, which is full autonomy.</p>
+
+
+
+
+
+<p>Those horses that take a rider home are level five, Jain says. “You trust them with your life.”</p>
+
+
+
+<p>Interested in how that trust develops and if it could help improve human-robot interactions, Jain, of the University of Florida in Gainesville, immersed herself in the horse world during a year-long sabbatical that ended in 2022. Her experiences gave her a vast amount of information to address open questions about how humans should interact with robots of differing levels of autonomy.</p>
+
+
+
+<p>&#8220;Only recently have researchers started focusing on the earliest stages of human-robot interaction, such as the creation of first impressions,&#8221; Jain and University of Florida colleague Christina Garner-McCune <a href="https://dl.acm.org/doi/10.1145/3544548.3581245" target="_blank" rel="noopener">wrote in the April <em>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems</em></a>. &#8220;Our work seeks to uncover principles for the stage after the first meeting.”</p>
+
+
+
+<p>During her sabbatical, Jain watched equine classes at her university, where she took notes based on her observations and conversations with students, teaching assistants and the instructor. She also spoke with other trainers and horse owners. And she learned to ride.</p>
+
+
+
+<p>&#8220;I had never interacted with a horse before,&#8221; Jain says. &#8220;I was a new rider learning to interact with a horse who was not a new horse [to riding], but it was still the early stages of relationship building.&#8221;</p>
+
+
+
+<p>When working with horses that are new to interacting with humans, the animals must learn how to interpret and appropriately respond as trainers do basic handling, such as leading and brushing them. This training helps ready horses for more advanced handling, such as accepting the saddle and bridle and carrying a human on their first few rides. New riders must learn the intricacies of how horse behavior communicates information and what cues horse handlers can use to direct horses to perform desired actions or correct the horse when it doesn&#8217;t behave as expected.</p>
+
+
+
+<p>Analogously, people must learn how to command robots to perform specific tasks. They also must learn what to do when interactions with robots don&#8217;t go according to plan. Robots need to respond to inputs from humans in a predictable way. But more autonomous robots, like horses, must also dynamically respond to changing conditions, such as a self-driving car stopping to avoid hitting something, even when humans command it to continue forward.</p>
+
+
+
+<p>In human-horse partnerships, horses primarily communicate nonvocally. For instance, their ears tend to point toward whatever they&#8217;re paying attention to. This behavior could inspire the creation of robots with electronic &#8220;ears&#8221; that can swivel in the direction of a ringing doorbell or people talking near an autonomous vehicle, thereby alerting humans to these sounds, Jain says. &#8220;Instead of the robot saying, &#8216;Knock on the door. Beep, beep,&#8217; if its ears were to point toward the door, it&#8217;s a much less jarring, much more subtle way of informing&#8221; people that the robot hears something it&#8217;s paying attention to.</p>
+
+
+
+<p>Such subtleness could also be used as a sign of respect. Trainers and riders work with horses intensively to build respect. Horses nonvocally communicate their respect for their trainers and riders by matching their pace or giving them safe personal space when they walk. The horses&#8217; ears even point toward trainers as a show of respect when they&#8217;re paying attention to them. Trainers require that horses show signs of respect in basic interactions before &#8220;they will move on to the next, more complicated interaction,&#8221; Jain says. Respect can grow into trust. But, even with experienced horses and riders, trust is not a given.</p>
+
+
+
+<p>There may be a similar limitation with robots. “Perhaps the same types of nonverbal expressiveness that&#8217;s used in the human-horse context can be used to communicate that the robot respects the human,&#8221; Jain says, which &#8220;might make humans feel safer around robots. It might make them more open to working with a robot.&#8221;</p>
+
+
+
+
+
+<p>Probing what it means for robots and humans to respect and trust each other is largely uncharted territory, Jain says. Understanding how respect and trust grow between horse and human could be a game-changer.</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-06-15 11:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://retractionwatch.com/2023/06/15/plague-of-anomalies-in-conference-proceedings-hint-at-systemic-issues/">Plague of anomalies in conference proceedings hint at ‘systemic issues’</a></h4>
+
+              
+                <div class="wp-block-image is-style-default">
+<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2018/11/ieee.jpg"><img decoding="async" width="300" height="251" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2018/11/ieee-300x251.jpg?resize=300%2C251&#038;ssl=1" alt="" class="wp-image-78381" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2018/11/ieee.jpg?resize=300%2C251&amp;ssl=1 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2018/11/ieee.jpg?w=418&amp;ssl=1 418w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p>Hundreds of conference papers published by the U.S.-based <a href="https://www.ieee.org/">Institute of Electrical and Electronic Engineers</a> (IEEE) show signs of plagiarism, citation fraud and other types of scientific misconduct, according to data sleuths.</p>
+
+
+
+<p>&#8220;I am concerned that the issue with these particular conferences is widespread enough such that it indicates systemic issues with their peer review systems,&#8221; <a href="https://kendraalbert.com/">Kendra Albert</a> wrote last August in an email to IEEE that Retraction Watch has seen.&nbsp;</p>
+
+
+
+<p>Albert is a clinical instructor at Harvard Law School and a lecturer in women, gender, and sexuality at Harvard University. On the side, Albert has been working with <a href="https://www.irit.fr/~Guillaume.Cabanac/">Guillaume Cabanac</a>, a professor of computer science at the University of Toulouse, in France, to ferret out research misconduct using a computer system called the <a href="https://dbrech.irit.fr/pls/apex/f?p=9999:1:::NO:::">Problematic Paper Screener</a>.</p>
+
+
+
+<span id="more-127299"></span>
+
+
+
+<p>The tool flags <a href="https://retractionwatch.com/2021/07/19/tortured-phrases-lost-in-translation-sleuths-find-even-more-problems-at-journal-that-just-flagged-400-papers/">tortured phrases</a>, which suggest a publication&#8217;s authors have copied work from other researchers and tried to disguise the offense by using paraphrasing software that also renders scientific terminology near-unintelligible. &#8220;Breast cancer&#8221; might become &#8220;<a href="https://thebulletin.org/2022/01/bosom-peril-is-not-breast-cancer-how-weird-computer-generated-phrases-help-researchers-find-scientific-publishing-fraud/">bosom peril</a>,&#8221; for instance, whereas &#8220;artificial intelligence&#8221; could turn into “counterfeit consciousness.&#8221;</p>
+
+
+
+<p>&#8220;IEEE keeps publishing&nbsp;<a href="https://dbrech.irit.fr/pls/apex/f?p=9999:3::::RIR:IRC_PUBLISHER:IEEE">proceedings riddled with tortured papers</a>&nbsp;and other anomalies,&#8221; Cabanac told Retraction Watch.</p>
+
+
+
+<p>The publisher said it believes its “preventive measures and efforts identify almost all papers submitted to us that do not meet our standards,” and told Retraction Watch that it is “currently evaluating the papers in question.”</p>
+
+
+
+<p>IEEE has faced problems with peer review in the past, as we reported last year when <a href="https://retractionwatch.com/2022/12/06/publisher-retracts-400-papers-at-once-for-violations-of-peer-review-process-policies/">it pulled 400 conference papers</a> at once. In previous years, IEEE has retracted <a href="https://www.science.org/doi/10.1126/science.362.6413.393">thousands of papers</a>, accounting for <a href="http://retractiondatabase.org/RetractionSearch.aspx#?pub%3dIEEE%253a%2bInstitute%2bof%2bElectrical%2band%2bElectronics%2bEngineers">a sizeable chunk of the retractions in our database</a>.</p>
+
+
+
+<p>In their email, Albert cited <a href="https://ieeexplore.ieee.org/document/9402320">a paper</a> in the <em>2021 International Conference on Computer Communication and Informatics </em>whose abstract begins: &#8220;Tumor growth is the real reason for death on the planet, furthermore, lung disease is the most every now and again observed sort of Tumor growth among others.&#8221;</p>
+
+
+
+<p>The paper also contains tortured phrases – say, &#8220;arbitrary backwoods&#8221; instead of &#8220;<a href="https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm">random forest</a>&#8221; – as detailed in <a href="https://pubpeer.com/publications/50DDBF8DC43A68C777DB3434301326">a PubPeer comment</a>.</p>
+
+
+
+<p>&#8220;This paper claims to be a survey of machine learning tools for detection of lung cancer, however, the abstract is incoherent, many of the citations are to irrelevant literature on epilepsy detection via EEG, and much of that literature is incorrectly summarized as being about lung cancer detection,&#8221; Albert wrote. &#8220;It is unclear to me how any reasonable peer review process would accept such an article.&#8221;&nbsp;</p>
+
+
+
+<p>The article&#8217;s senior author, <a href="https://www.andhrauniversity.edu.in/college/college-of-engineering/engineering-departments/cse.html">K. Venkata Rao,</a> professor and head of the department of computer science and systems engineering at Andhra University in India, did not respond to requests for comment from Retraction Watch.</p>
+
+
+
+<p>According to Albert:&nbsp;</p>
+
+
+
+<p><em>Many other papers published in IEEE conference proceedings and flagged by the Problematic Paper Screener and reviewed by human assessors found </em><a href="https://pubpeer.com/publications/F84436C345782643CCB1059BBC7027"><em>clear plagiarism</em></a><em>, </em><a href="https://pubpeer.com/publications/4D7A2E37F710120D5FB2D36E1E218E"><em>signs of citation fraud</em></a><em>, or </em><a href="https://pubpeer.com/publications/D59728BA838CF42FAE584DB9B62542"><em>errors of a type that should have been caught by an editing process</em></a><em>. Of note, few, if any, of the authors have responded to PubPeer inquiries about the irregularities in their papers.</em></p>
+
+
+
+<p class="has-drop-cap">How so many suspicious papers could slip through peer review is unclear. But an interview with a university researcher familiar with the issue suggests one possible answer.&nbsp;</p>
+
+
+
+<p>The researcher, who requested anonymity for fear of reprisal from his institution, said he recently submitted an article to a conference that is “technically sponsored” by IEEE and organized by his university (we are withholding the name of the conference to protect his identity); proceedings from such conferences are available for purchase from IEEE. When the researcher learned that a pair of colleagues would be reviewing his paper, he reported this conflict of interest to the conference chair. The chair, however, told him it was standard procedure to recruit reviewers from the host institution, which also supplied most of the papers for the conference, according to the researcher.</p>
+
+
+
+<p>&#8220;What they do is to motivate all the faculty members and students to submit a low quality article which will be accepted through a fake peer review by a fellow colleague,&#8221; the researcher said in an email. &#8220;If the submitted articles in such events were reviewed independently by the international experts in the field no article can get accepted.&#8221;</p>
+
+
+
+<p>Not only does this system provide a large number of ostensibly peer-reviewed publications for the host institution, it can also be exploited to ensure that the organizers&#8217; work is cited in the submitted papers, the researcher explained. He added that the &#8220;systematic misconduct&#8221; was &#8220;not limited to IEEE conferences,&#8221; and cautioned that not all of the publisher&#8217;s conferences are tainted.&nbsp;</p>
+
+
+
+<p>&#8220;There are numerous correct IEEE conferences with” acceptance rates of “only 30%,” the researcher said, “where the independent or external chairs handle peer reviews.”</p>
+
+
+
+<p class="has-drop-cap">As a potential starting point for an investigation, Albert supplied IEEE with a list of 15 conferences whose proceedings contained up to 49 flagged articles each.&nbsp;</p>
+
+
+
+<p>&#8220;Of course, not all papers flagged by the Problematic Paper Screener are indicative of scientific misconduct,&#8221; Albert wrote, &#8220;but the high numbers from these conferences, combined with the findings from our manual reviews suggests that this is likely to be a systemic problem rather than an isolated one.&#8221;</p>
+
+
+
+<p>We reached out to the chairs of three conferences &#8212; the <em>2022 Fourth International Conference on Emerging Research in Electronics, Computer Science and Technology</em>, the <em>2021 International Conference on Artificial Intelligence and Smart Systems</em>, and the <em>2022 5th International Conference on Contemporary Computing and Informatics</em> &#8212; whose proceedings have drawn <a href="https://pubpeer.com/publications/0772F57BC6A8418C56A661D0D5A051">criticism</a> <a href="https://pubpeer.com/publications/DB12341A71942DF98D59EEBA867118">on</a> <a href="https://pubpeer.com/publications/569CBBD9A1AEA3F46D14002E90498C">PubPeer</a>, but did not hear back.</p>
+
+
+
+<p>In an email to Retraction Watch, Monika M. Stickel, an IEEE spokesperson, said:</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>IEEE continuously reviews and improves our processes to ensure that we detect articles that do not meet our standards and that are reported to IEEE. We believe our preventive measures and efforts identify almost all papers submitted to us that do not meet our standards, and we act accordingly when we are alerted to an error and take the appropriate level of care and time in our review. IEEE is currently evaluating the papers in question. Our policy for removing a paper or providing a label is contingent on the outcome of our evaluation.</p>
+</blockquote>
+
+
+
+<p>Meanwhile, IEEE is still selling hundreds of suspicious papers on its website. The gibberish-laden article about lung-cancer detection, for example, can be purchased for $33.</p>
+
+
+
+<p><em>Like Retraction Watch? You can make a&nbsp;</em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us&nbsp;</em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us&nbsp;</em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your&nbsp;</em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our&nbsp;</em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s&nbsp;</em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can&nbsp;</em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
+
+
+<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
+              
+
+              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2023-06-15 10:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/how-to-survive-a-devastating-earthquake-and-firestorm/">How to Survive a Devastating Earthquake—and Firestorm</a></h4>
+
+              
+                When a 7.9-magnitude quake struck San Francisco in 1906, it opened the gates of hell. You could have ridden it out, if you made all the right decisions.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-15 10:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.wired.com/story/the-psychedelic-scientist-who-sends-brains-back-to-childhood/">The Psychedelic Scientist Who Sends Brains Back to Childhood</a></h4>
+
+              
+                Kids soak up new skills, adults not so much. But neuroscientist Gül Dölen might have found a way—with drugs—to help grownups learn like littles.
+              
+
+              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-15 10:00:00 UTC.
+              </p>
+            </li>
           
             <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
@@ -146,7 +813,7 @@
 
 
 <div class="wp-block-image  has-alignleft">
-<figure class="alignleft size-full" data-component="lightbox"><img decoding="async" width="680" height="877" src="https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1.jpg" alt="An illustration of a tall plant and two smaller plants growing out of the ground with a blue background. An underground tunnel is seen in the ground and a bat flys near the tall plant." class="wp-image-3125277" srcset="https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-297x383.jpg 297w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-349x450.jpg 349w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-144x186.jpg 144w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-450x580.jpg 450w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-602x776.jpg 602w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-445x575.jpg 445w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3125277">To keep her youngsters alive long after she’s dead, a solitary female bee (<em>Ptiloglossa</em> <em>arizonensis) </em>creates underground nursery tunnels (illustrated far right) leading to sealed chambers. Inside each she starts a batch of fermenting pollen from <em>Solanum</em> nightshade flowers (middle), watery nectar from <em>Agave</em> (far left) and bacteria. The microbes add nutrition and a boozy fragrance.</span><span class="credit wp-credit-3125277">Bill Singleton</span></figcaption></figure></div>
+<figure class="alignleft size-full" data-component="lightbox"><img decoding="async" loading="lazy" width="680" height="877" src="https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1.jpg" alt="An illustration of a tall plant and two smaller plants growing out of the ground with a blue background. An underground tunnel is seen in the ground and a bat flys near the tall plant." class="wp-image-3125277" srcset="https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1.jpg 680w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-297x383.jpg 297w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-349x450.jpg 349w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-144x186.jpg 144w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-450x580.jpg 450w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-602x776.jpg 602w, https://www.sciencenews.org/wp-content/uploads/2023/06/060223_sm_brewmaster-bees_inline-1-445x575.jpg 445w" sizes="(max-width: 680px) 100vw, 680px" /><figcaption class="wp-element-caption"><span class="caption wp-caption-3125277">To keep her youngsters alive long after she’s dead, a solitary female bee (<em>Ptiloglossa</em> <em>arizonensis) </em>creates underground nursery tunnels (illustrated far right) leading to sealed chambers. Inside each she starts a batch of fermenting pollen from <em>Solanum</em> nightshade flowers (middle), watery nectar from <em>Agave</em> (far left) and bacteria. The microbes add nutrition and a boozy fragrance.</span><span class="credit wp-credit-3125277">Bill Singleton</span></figcaption></figure></div>
 
 
 <p>The stuff makes the finishing touch for little urn-shaped nursery chambers that mother bees dig underground. They use their paintbrush tongues to lick up the gland secretion and slather it on nursery walls.&nbsp;</p>
@@ -284,7 +951,7 @@
 
               
                 <div class="wp-block-image is-style-default">
-<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web.jpg"><img decoding="async" width="300" height="258" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web-300x258.jpg?resize=300%2C258&#038;ssl=1" alt="" class="wp-image-119113" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web.jpg?resize=300%2C258&amp;ssl=1 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web.jpg?w=650&amp;ssl=1 650w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></figure></div>
+<figure class="alignright size-medium"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web.jpg"><img decoding="async" loading="lazy" width="300" height="258" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web-300x258.jpg?resize=300%2C258&#038;ssl=1" alt="" class="wp-image-119113" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web.jpg?resize=300%2C258&amp;ssl=1 300w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2020/03/CDC-coronavirus-image-23311-for-web.jpg?w=650&amp;ssl=1 650w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></figure></div>
 
 
 <p>One of the first studies of long COVID has been retracted and replaced seven months after editors <a href="https://retractionwatch.com/2022/12/01/buzzy-lancet-long-covid-paper-under-investigation-for-data-errors/">marked it with an expression of concern</a> citing “data errors.”&nbsp;</p>
@@ -2114,435 +2781,6 @@ achieve an eco-nomical and robust control of firing rate homeostasis.</p>
               
 
               <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-08 12:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/oceans-day-deep-ocean-current-slowdown/">Ocean Currents Are Slowing, With Potentially Devastating Effects</a></h4>
-
-              
-                Melting Antarctic ice is disrupting the movement of deep seawater, which could further destabilize weather patterns around the world.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-08 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/the-age-of-flames-reaches-the-us-east-coast/">The Age of Flames Reaches the US East Coast</a></h4>
-
-              
-                Canadian wildfires are spewing smoke into New York City and Washington, DC, threatening the health of millions. Welcome to the “Pyrocene.”
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-08 00:26:40 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://podcasters.spotify.com/pod/show/neuroscientists-talk-shop>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://podcasters.spotify.com/pod/show/neuroscientists-talk-shop" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://podcasters.spotify.com/pod/show/neuroscientists-talk-shop&title=Neuroscientists talk shop" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://podcasters.spotify.com/pod/show/neuroscientists-talk-shop/episodes/Episode-264----Birdsong-Time-Capsule-Allison-Doupe--MD--PhD-e25d92o">Episode 264 -- Birdsong Time Capsule: Allison Doupe, MD, PhD</a></h4>
-
-              
-                <p>On February 5, 2009, we were joined by Allison Doupe, who was Professor in the Departments of Psychiatry and Physiology at the University of California San Francisco. Allison talked with us about the value of learned birdsong as a model for sensory and motor learning, the brain circuitry responsible for learning, remembering and controlling the song, and the importance of variability in adapting the song to changes in animal state or the environment.  </p>
-<p>Somehow, that conversation was never posted. I encountered it while searching through old files looking for something else, and just recently heard it for the first time.  It is a wonderful conversation with a creative and insightful neuroscientist, and the information is still current, so I am posting it now.  </p>
-<p>Stay on after the podcast to listen to an outtake containing a conversation between Allison and Michael Farries on the pallium, the functional equivalent of the cerebral cortex birds, and whether birds do or do not have a cerebral cortex.</p>
-<p><br></p>
-<p>Guest:  Allison Doupe, University of California San Francisco</p>
-<p>Participating:</p>
-<p>Michael Farries Department of Biology, UTSA </p>
-<p>Kelly Suter  Department of Biology, UTSA </p>
-<p>Nicole Wicha  Department of Biology, UTSA </p>
-<p>Carlos Paladini  Department of Biology, UTSA </p>
-<p>Rama Ratnam  Department of Biology, UTSA </p>
-<p>Todd Troyer  Department of Biology, UTSA</p>
-<p>Host:</p>
-<p>Salma Quraishi, Department of Biology, UTSA </p>
-<p>acknowledgement: JM Tepper for original music</p>
-              
-
-              <p class="text-muted">in <a href ="https://podcasters.spotify.com/pod/show/neuroscientists-talk-shop">Neuroscientists talk shop</a> on 2023-06-07 17:07:55 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/parker-solar-probe-origin-winds-sun">The Parker Solar Probe may have spotted the origin of high-speed solar winds</a></h4>
-
-              
-                <p>A spacecraft plunging into the sun’s atmosphere has revealed the likely source of powerful blasts of plasma in fast solar winds.</p>
-
-
-
-<p>Far from the sun, the solar wind is a nebulous, turbulent plasma. But when NASA’s <a href="https://www.sciencenews.org/article/parker-solar-probe-sun-atmosphere-first-spacecraft">Parker Solar Probe</a> dipped within about 8 million kilometers of the sun’s surface, it detected narrow plasma streams (<em>SN: 12/15/21</em>). The streams appear <a href="https://www.nature.com/articles/s41586-023-05955-3" target="_blank" rel="noopener">to be guided by magnetic fields</a> tracing back to two relatively cool regions of the sun’s atmosphere known as coronal holes, researchers report June 7 in <em>Nature</em>.</p>
-
-
-
-
-
-<p>The solar wind — the steady stream of charged particles flowing from the sun — has two distinct speeds, dubbed as “slow” and “fast.” Until now, it wasn’t clear what was speeding the fast solar wind along. The plasma in most of the solar wind consists of protons, electrons and the nuclei of atoms blowing at hundreds of kilometers a second. But plasma from the area above the coronal holes can travel more than 10 times as fast.</p>
-
-
-
-<p>The fast plasma streams were associated with events <a href="https://www.sciencenews.org/article/nasa-parker-solar-probe-sun-next-close-pass-esa-orbiter">known as switchbacks</a>, in which portions of the magnetic fields near the sun reverse direction (<em>SN: 1/15/21</em>). Switchbacks can result when magnetic field loops close to the sun’s surface connect to long field lines extending away from the sun. The reconnection leads to a sharp switchback kink that kicks the plasma on its way into space as the kink straightens out.</p>
-
-
-
-<p>Higher energy streams, the researchers propose, are the result of newly reconnected field lines with sharply kinked switchbacks, while lower energy streams come from field lines with older kinks that had become more smoothed out.</p>
-
-
-
-<p>Although the evidence that the fast solar wind is due to magnetic reconnections is compelling, it’s still circumstantial, says astrophysicist Stuart Bale of the University of California, Berkeley. “Our results suggest that the solar wind can be accelerated to high speeds very close to the sun,” Bale says.&nbsp;“This is somewhat different [than the] standard scenario of wind energization,” where the acceleration takes place farther from the sun.</p>
-
-
-
-<p>Getting a handle on processes like the origin of the fast solar wind is important for practical reasons, Bale says. “We also believe that magnetic reconnection is responsible for solar flares and is involved in the release of coronal mass ejections, which have a major impact in space weather.” Solar flares and the <a href="https://www.sciencenews.org/article/physics-solar-flares-scientists-predict-sun-outbursts">space weather they create</a> have led to electrical grid disruptions on Earth and interrupted radio communications, and they may threaten astronauts (<em>SN: 7/30/2020</em>).</p>
-
-
-
-<p>The findings are also an important clue in the enduring mystery of <a href="https://www.sciencenews.org/article/2017-solar-eclipse-hot-corona">why the sun’s atmosphere is millions of degrees Celsius hotter than its surface</a>, says astrophysicist Gary Zank, who was not involved in the study (<em>SN: 8/20/17</em>). “But they do not identify the heating mechanism.” </p>
-
-
-
-<p>The observations identify the importance of magnetic reconnection close to the sun, says Zank, of the University of Alabama in Huntsville. “The next step is to link that to the dissipation of the magnetic energy in determining the actual heating process.”</p>
-
-
-
-<p>Another interesting aspect of the study is how the structure of the solar surface seems to be imprinted on the solar wind near the sun despite the presence of turbulence, says Amitava Bhattacharjee, a Princeton University astrophysicist who was not involved with the study. Other researchers have proposed that it can happen, he says, but in the new study, “the experimental and simulation evidence is more convincing.”</p>
-
-
-
-<p>Parker’s ever closer encounters with the sun could confirm the source of the fast solar wind more definitively. And future passes will come as the sun heads into a phase with increasing numbers of sunspots and more solar wind, on the way to peak solar activity around July 2025.&nbsp; “As we move into solar maximum,” Bale says, “we expect some serious surprises.”</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-06-07 15:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://retractionwatch.com/2023/06/07/journal-pulls-paper-from-ethiopia-for-unlicensed-use-of-questionnaire/">Journal pulls paper from Ethiopia for unlicensed use of questionnaire</a></h4>
-
-              
-                <div class="wp-block-image is-style-default">
-<figure class="alignright size-full"><a href="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2019/02/morisky-1.jpg"><img decoding="async" loading="lazy" width="250" height="250" src="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2019/02/morisky-1.jpg?resize=250%2C250" alt="" class="wp-image-86300" srcset="https://i0.wp.com/retractionwatch.com/wp-content/uploads/2019/02/morisky-1.jpg?w=250&amp;ssl=1 250w, https://i0.wp.com/retractionwatch.com/wp-content/uploads/2019/02/morisky-1.jpg?resize=150%2C150&amp;ssl=1 150w" sizes="(max-width: 250px) 100vw, 250px" data-recalc-dims="1" /></a><figcaption class="wp-element-caption">Donald Morisky</figcaption></figure></div>
-
-
-<p>A public-health journal has retracted a study from Ethiopia that made unlicensed use of a questionnaire developed by a U.S. researcher known to aggressively protect his intellectual property.&nbsp;</p>
-
-
-
-<p>This time, he didn&#8217;t have to: The journal’s publisher flagged the copyright infringement itself, Renee Hoch, managing editor at PLOS Publication Ethics, told Retraction Watch:</p>
-
-
-
-<span id="more-127251"></span>
-
-
-
-<blockquote class="wp-block-quote">
-<p>PLOS Global Public Health decided to retract the article because the authors did not have a license to use the MMAS-8 scale and the MMAS-8 data were essential in supporting the article’s conclusions. This decision is supported by the PLOS Licenses and Copyright policy and the <a href="https://publicationethics.org/sites/default/files/retraction-guidelines-cope.pdf">COPE Retraction Guidelines</a>.</p>
-</blockquote>
-
-
-
-<p>The <a href="https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0000099">study</a> found that people with diabetes who had a glucometer at home were more likely to take their medicine as prescribed. It has been cited three times since it was published last year, according to Clarivate&#8217;s Web of Science, including once by a <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274971">paper in <em>PLOS ONE</em></a> by the same group.</p>
-
-
-
-<p>The Morisky Medication Adherence Scales (MMAS)-8 survey used in the study was first described in a 2008 publication by <a href="https://ph.ucla.edu/about/faculty-staff-directory/donald-e-morisky">Donald Morisky</a> of the University of California, Los Angeles. Since then, Morisky has demanded <a href="https://www.science.org/content/article/pay-or-retract-survey-creators-demands-money-rile-some-health-researchers">steep payments</a> from hundreds of researchers using the questionnaire, causing some who couldn&#8217;t pay to retract their work, as we reported in 2017 in partnership with <em>Science</em>.&nbsp;</p>
-
-
-
-<p>Morisky registered the copyright for the MMAS-8 scale in 2018 and trademarked it the following year. Philip Morisky, managing partner of Donald Morisky, told us:</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>I am not familiar with the article in question. Copyright exists automatically in an original work of authorship once it is fixed, but a copyright owner can take steps to enhance the protections.</p>
-</blockquote>
-
-
-
-<p>He did not comment on the chilling effect such steps could have on public-health research, particularly in poorer countries. But Hoch said:&nbsp;</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>As an Open Access publisher, we regret that license fees and other restrictions can create barriers to utilization of resources such as the MMAS-8, thereby creating inequities within the research community and impeding the advancement of research. Nevertheless, work published in PLOS must meet all applicable ethical and legal requirements, and we will take editorial action as needed if authors did not have requisite permissions or licenses for use of a third party resource.</p>
-</blockquote>
-
-
-
-<p>Hoch added:</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>Of note, this type of issue can arise due to honest error if researchers are unaware of the applicable license requirements.</p>
-</blockquote>
-
-
-
-<p>Neither the corresponding author nor the second author of the paper responded to our requests for comment.&nbsp;</p>
-
-
-
-<p>In its May 10 <a href="https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0000099">retraction notice</a> for the study, titled &#8220;Medication adherence and its associated factors among type 2 diabetic patients in Ethiopian General Hospital, 2019: Institutional based cross-sectional study,&#8221; the journal states that the issue regarding permission to use the questionnaire could not be resolved during discussions with the authors, adding:</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>Considering the nature of the concerns in this case, the article contents were removed from the journal’s website at the time of retraction.</p>
-
-
-
-<p>The authors did not reply or could not be reached to comment on the retraction decision.</p>
-</blockquote>
-
-
-
-<p>Update, 6/9/23, 1115 UTC: Sofonyas A. Tiruneh, the second author of the paper, tells us:</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>All the authors are from a developing country, and honestly, we were not aware that the Donald Morisky medication adherence tool required a fee to use. When we received the retraction notice, we attempted to contact Morisky, but unfortunately, no one responded to our emails before the retraction was initiated by the journal.</p>
-
-
-
-<p>We are extremely disappointed with the situation, as it will have a negative impact on our professional profiles moving forward. We are uncertain about how we can reverse the retraction at this point, but we are willing to take any necessary steps if there is a possibility to do so.</p>
-</blockquote>
-
-
-
-<p><em>Like Retraction Watch? You can make a </em><a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a><em>, follow us </em><a href="http://twitter.com/RetractionWatch"><em>on Twitter</em></a><em>, like us </em><a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a><em>, add us to your </em><a rel="noreferrer noopener" href="http://retractionwatch.com/feed/" target="_blank"><em>RSS reader</em></a><em>, or subscribe to our </em><a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a><em>. If you find a retraction that’s </em><a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a><em>, you can </em><a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a><em>. For comments or feedback, email us at team@retractionwatch.com</em>.</p>
-
-
-<p><script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4f35c1f2e9acc58eee0811e78","lid":"a15d7de264","uniqueMethods":true}) })</script></p>
-              
-
-              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2023-06-07 12:35:28 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/gravitational-waves-dying-star-supernova">A simulation of a dying star shows how it could create gravitational waves</a></h4>
-
-              
-                <p>Cocoons of debris around dying stars could shake ripples in spacetime unlike any astronomers have ever seen.</p>
-
-
-
-<p>“This is a potential source of gravitational waves that has never been investigated before,” astrophysicist Ore Gottlieb of Northwestern University in Evanston, Ill., said June 5 in a news conference at the American Astronomical Society meeting in Albuquerque.</p>
-
-
-
-<p>The waves could potentially be picked up in the latest run of LIGO, which began on May 24.</p>
-
-
-
-<p>Since <a href="https://www.sciencenews.org/article/gravity-waves-black-holes-verify-einsteins-prediction">LIGO’s first detection in 2015</a>, all the gravitational waves seen thus far have been from the spiraling death dance of two compact objects — black holes, neutron stars or both (<em>SN: 2/11/16</em>). These events give off what are called coherent gravitational waves. “You can think of it as an orchestra playing harmonically,” Gottlieb said.</p>
-
-
-
-
-
-<p>A second type, incoherent waves, are expected to come from stellar explosions like <a href="https://www.sciencenews.org/article/ligo-virgo-searching-sources-gravitational-waves">supernovas</a> (<em>SN: 5/6/19</em>). Because those bursts are spherically symmetrical and relatively slow, their waves are difficult for LIGO to detect. They’re more analogous to individual instruments playing different songs at the same time.</p>
-
-
-
-<p>Gottlieb and colleagues considered another type of stellar death called a collapsar. When massive stars collapse into a black hole, they can emit jets of material traveling close to the speed of light. Computer simulations of how those jets form <a href="https://submissions.mirasmart.com/AAS242/ViewSubmissionFile.aspx?sbmID=120&amp;mode=html&amp;validate=false&amp;key=0Fs85MQav" target="_blank" rel="noopener">revealed a cocoon of material surrounding the jet</a>, full of hot, turbulent gas and debris that expand in an asymmetric bubble around the dying star, says Gottlieb, who presented the research June 6.</p>
-
-
-
-<p>As the bubble expands and pushes its way through the star, it could bump spacetime enough to produce incoherent gravitational waves, Gottlieb and colleagues concluded.</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="See how a cosmic cocoon shakes spacetime | Science News" width="500" height="281" src="https://www.youtube.com/embed/hRRCPlKf9b4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div><figcaption class="wp-element-caption">As a massive star collapses, it emits jets of material (red) and a cocoon of other debris around the jets (yellow and green). This simulation shows how the turbulence in the jets and cocoon could shake spacetime, and translates the gravitational waves they might emit into sound.</figcaption></figure>
-
-
-
-<p>LIGO and its fellow detectors — Virgo in Italy and KAGRA in Japan — currently have about a 1 percent chance of detecting cocoon gravitational waves. In future runs with improved detectors, that chance will go up.</p>
-
-
-
-<p>Catching these waves could give astronomers a glimpse into the innermost parts of dying stars, which can’t be studied any other way, Gottlieb said.</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-06-07 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/kate-ryder-maven-femtech-fertility-pregnancy-menopause-womens-health/">Virtual Clinics are Battling Inequalities in Women’s Health</a></h4>
-
-              
-                Services like Maven are improving outcomes across key areas of women’s health care—from emergency medicine to maternity services.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-07 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.wired.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.wired.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.wired.com&title=WIRED Science" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.wired.com/story/nicola-blackwood-genomics/">Genomics Are a Lifesaver for Patients With Rare Diseases</a></h4>
-
-              
-                The 100,000 Genomes Project has a massive database to help doctors and patients solve baffling medical cases and diagnose cancers.
-              
-
-              <p class="text-muted">in <a href ="https://www.wired.com">WIRED Science</a> on 2023-06-07 11:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/masturbation-evolve-primates">When and why did masturbation evolve in primates? A new study provides clues</a></h4>
-
-              
-                <p>Though masturbation is common across the animal kingdom, it seems, at its face, to be an evolutionary paradox: Why would an animal waste time, energy and reproductive resources on self-pleasure instead of copulating with a partner?</p>
-
-
-
-<p>Studies on individual species have found some explanations. Low-ranking Japanese macaques (<em>Macaca fuscata</em>), for example, masturbate to keep their sperm fresh for when they get a rare chance to mate. But the questions of when and why masturbation evolved in the first place have remained unsolved.</p>
-
-
-
-
-
-<p>A new study, published in the June 7 <em>Proceedings of the Royal Society B</em>, suggests that the evolutionary history of masturbation in primates extends back at least 40 million years, and the behavior might indeed help male primates <a href="https://doi.org/10.1098/rspb.2023.0061" target="_blank" rel="noopener">be ready to mate when they get the chance, and also stay free of disease</a>.</p>
-
-
-
-<p>The authors are “the first to use a cross-species approach” to explore the function of masturbation, says Lateefah Roth, a biologist at the Institute of Forensic Psychiatry and Sex Research at the University of Duisburg-Essen in Germany. It’s “a great starting point,” Roth says.</p>
-
-
-
-<p>To determine when masturbation first evolved in primates, evolutionary biologist Matilda Brindle of University College London and colleagues sifted through the scientific literature to find records of which primates masturbate and which do not, whether in the wild or in captivity. </p>
-
-
-
-<p>To fill gaps in the data due to masturbation not always being easy to observe (or looked for at all) by biologists, Brindle also sent out questionnaires to researchers to ask about their observations of primate masturbation that weren’t reported in the literature. This was especially important for information on female masturbation, Brindle says, which tends to go unnoticed because of a lack of an easy-to-spot erection. The team then used computer analyses to determine where in the primate lineage the behavior most likely originated.</p>
-
-
-
-<p>Because of missing data, Brindle can’t definitely say whether the first ever primates masturbated. But she can say that from around 40 million years ago, “the ancestors of all monkeys and apes” seemed to have masturbated. This would be around when simians — apes and monkeys — split from the tarsiers, diminutive, bug-eyed primates that live in Southeast Asia.</p>
-
-
-
-<p>Once Brindle had identified when, she next turned to why. She looked at whether primates that masturbate tend to mate with multiple partners. This mating system would lead to evolutionary pressure for both males and females to gain more control over the mating process, like by being able to copulate more quickly, being readily aroused for preferred partners or by improving male sperm quality, as seen in the macaques. </p>
-
-
-
-<p>Brindle also looked to see if primate species that masturbate tend to be infected by more pathogens, including those that cause sexually transmitted infections. Male Cape ground squirrels (<em>Geosciurus inauris</em>), for instance, are known to masturbate after sex to <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013060" target="_blank" rel="noopener">cleanse their systems</a> of infectious agents.</p>
-
-
-
-<p>Brindle found that multiple mating partners and pathogen prevalence are associated with masturbation in male primates, but not in females. Masturbation can help males be ready to mate quickly with fresh sperm while also purging their reproductive tract of pathogens. But for females, the two hypotheses don’t mix. “Normally, the vagina is mildly acidic to keep pathogens at bay,” Brindle says, but it becomes less so when the female primate is aroused so that sperm aren’t killed on arrival. Making the vaginal environment safer for sperm also makes it safer for pathogens.</p>
-
-
-
-<p>While the study found no correlation between female primate masturbation and having multiple mating partners, Brindle suspects that there probably is a relationship that would come to light with more data. “I would bet a lot of money on the fact that if we got more data down the line,” she says, “then we would find an effect for females.” The paucity of data for females may be driven in part by the historical tendency to think of female animals as “passive recipients of male behavior,” Brindle says.</p>
-
-
-
-<p>The stigma around studying masturbation and sexual behavior has started to ease up, Brindle notes, which makes her hopeful that more discoveries will be made soon. But given that other mammals, as well as birds and reptiles, also masturbate, Roth says, “if we want to understand the bigger evolutionary picture of this behavior, we need to look beyond primates.”</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-06-06 23:01:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.sciencenews.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.sciencenews.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.sciencenews.org&title=Science News" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.sciencenews.org/article/gene-therapy-shot-cats-spay-pregnant">A gene therapy shot might keep cats from getting pregnant without being spayed</a></h4>
-
-              
-                <p>Invasive surgeries to spay cats could one day be a thing of the past, replaced instead with a single shot. &nbsp;</p>
-
-
-
-<p>An injected gene therapy given to female cats <a href="https://www.nature.com/articles/s41467-023-38721-0" target="_blank" rel="noopener">prevented them from getting pregnant</a>, researchers report June 6 in <em>Nature Communications</em>. None gave birth to a litter of kittens even after mating with a fertile male. The tactic, if it holds up in further testing, could offer a more efficient way to control a global population of feral cats that numbers in the hundreds of millions.</p>
-
-
-
-
-
-<p>“We love domestic cats, but they are killers out in the environment,” says Bill Swanson, a conservation biologist at the Cincinnati Zoo &amp; Botanical Garden. Every year, free-roaming cats around the world probably kill <a href="https://www.sciencenews.org/article/cat-meat-meals-diet-playtime-wildlife-birds">billions of birds and small mammals</a> (<em>SN: 1/29/13</em>). Spaying both feral and pet cats can help to keep feline populations, and their casualties, under control. &nbsp;</p>
-
-
-
-<p>The experimental gene therapy targets anti-Müellerian hormone, also known as Müllerian inhibiting substance, a protein that helps fetal sex organs develop. After injection, a modified virus introduces the gene that makes the hormone into the cats’ cells. The cells then make more anti-Müellerian hormone than normal. High levels of the protein may prevent a cat’s ovaries from releasing eggs by keeping follicles — the structures that house and release eggs — in a dormant state.</p>
-
-
-
-<p>In the new study, Swanson and colleagues treated six female cats with the gene therapy. Three received a high dose and another three received a lower dose. An additional three control cats got a placebo. None had any severe side effects.</p>
-
-
-
-<p>The team housed all nine cats together with a fertile male in two, four-month-long trials. One trial took place eight months after treatment; the second, with a different male, happened nearly two years after the injection. In both trials, the control cats gave birth to litters after mating with males only once. But none of the six treated cats became pregnant, despite two of them mating with the males.</p>
-
-
-
-<p>The proof-of-concept study is “the first real sign of hope that we could do something besides spaying cats,” says Julie Levy, a veterinarian at the University of Florida in Gainesville who was not involved in the study. The single-dose injection is especially promising to control feral populations, eliminating the need to bring wild-living cats into a clinic for surgery or trap animals more than once to administer multiple doses.</p>
-
-
-
-<p>Past alternatives to surgery, such as vaccines, proved ineffective over the long term. Vaccines teach the body to attack foreign invaders. Crafting a contraceptive vaccine targeted at the pituitary, which releases the hormones that spark ovulation, was difficult. “Your whole immune system is tuned to know what’s you, and it should not attack, and what is foreign, and it should attack,” Levy says. Diseases can develop when immune responses learn to attack the body itself.&nbsp;</p>
-
-
-
-<p>Many researchers tried to develop various vaccines as a cat contraceptive, but “we gave up,” Levy says.&nbsp;&nbsp;</p>
-
-
-
-<p>The experimental gene therapy could be a better approach because it doesn’t rely on the immune system and instead makes more of something that the body already has, so the immune system ideally won’t get involved at all.</p>
-
-
-
-<p>What’s more, the gene is delivered to muscle cells, says David Pépin, a reproductive biologist at Massachusetts General Hospital and Harvard Medical School. There, the cell makes the hormone using small, circular strings of DNA. These strings float around the cell and aren’t inserted into the cell’s instruction manual, the DNA housed inside the nucleus. Because muscle cells generally don’t die, the DNA can stick around for a lifetime.</p>
-
-
-
-<p>The study reports results after two years, Pépin says, but to date the team has followed the cats for more than four. Because gene therapy can last for a lifetime in other animals, including people, it’s likely that, with proper dosing, the same would be true for cats.</p>
-
-
-
-
-
-<p>In the study, two of the treated cats mated with males. One mated a total of nine times yet still never got pregnant. Zooming in on all the cats’ hormones revealed that the treated females didn’t ovulate, but other hormones involved in reproduction and estrus — also known as heat, a time when female cats are ready to mate — remained intact.</p>
-
-
-
-<p>The four treated cats that never bred with the males had spikes in estrogen levels, one sign of estrus. But you’d never have guessed that based on the cats’ behavior, Swanson notes. The females didn’t allow the males to breed, a sign those females weren’t in heat.</p>
-
-
-
-<p>Males pursuing a ready-to-breed female are incredibly persistent if she’s in estrus, he says. A male will become restless, endlessly following a female and attempting to mount her if he thinks it’s possible to breed. “It’s like velociraptors in Jurassic Park testing the fence. All the time they’re testing these cats if they’re in estrus.” &nbsp;</p>
-
-
-
-<p>That’s the kind of annoying behavior that makes people not want cats in their neighborhoods, Levy says. For her, the ideal cat contraception would keep females from allowing any males to breed with them. Hopefully that would stop fertile, disruptive males from yowling, spraying urine to mark territory and fighting other males when chasing a female rendered infertile by gene therapy.&nbsp;</p>
-
-
-
-<p>It will still be years before the treatment makes it to vet offices, if approved by the U.S. Food and Drug Administration and similar agencies around the world. Swanson, Pépin and colleagues are still tweaking the gene and method of delivery, exploring how to make it as effective as possible as well as cost-effective to make. Clinical studies with more cats are also required to verify the injection’s safety and efficacy.</p>
-
-
-
-<p>Still, “it’s a really different way to do contraception,” Pépin says. And anti-Müellerian hormone is common among animals, so it may be possible to expand to other invasive species. Pépin and others are even exploring ways to leverage the hormone <a href="https://www.sciencenews.org/article/birth-control-research-moving-beyond-pill">in humans as a nonpermanent form of contraception</a> (<em>SN: 8/22/17</em>). There’s still a lot to learn, “but I think there’s a great opportunity here.”</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.sciencenews.org">Science News</a> on 2023-06-06 15:00:24 UTC.
               </p>
             </li>
           <!-- each item -->
