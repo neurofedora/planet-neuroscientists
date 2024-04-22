@@ -23,13 +23,14 @@ refresh_repo () {
 check_pluto () {
     if ! command -v pluto; then
         mkdir ~/bin/
+        gem install --user-install sqlite3 -v 1.4 -n ~/bin/ || exit -1
         gem install --user-install activerecord -v 6.1.4.4 -n ~/bin/ || exit -1
         gem install --user-install pluto rss -n ~/bin/ || exit -1
     fi
 }
 
 rebuild_planet () {
-    ~/bin/pluto --err build planet.ini -t neuroscience -o docs || exit -1
+    ~/bin/pluto build planet.ini -t neuroscience -o docs || exit -1
 }
 
 commit_update () {
