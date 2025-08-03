@@ -53,7 +53,7 @@
         <h2>An aggregation of RSS feeds from various neuroscience blogs.</h2>
         <p>
         last updated by <a href="https://feedreader.github.io">Pluto</a>
-          on 2025-08-02 08:23:34 UTC 
+          on 2025-08-03 08:23:23 UTC 
         on behalf of <a href="https://neuro.fedoraproject.org" target="_blank"> the NeuroFedora SIG</a>.
         </p>
       </div>
@@ -64,12 +64,332 @@
         <ul class="list-group">
           
             <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.scientificamerican.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.scientificamerican.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.scientificamerican.com&title=Scientific American" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://www.scientificamerican.com/article/strong-support-for-nasa-and-project-artemis-will-advance-the-u-s/">Strong Support for NASA and Project Artemis Will Advance the U.S.</a></h4>
+
+              
+                <p>NASA needs clear support from the White House if we want to win the new space race</p>
+              
+
+              <p class="text-muted">in <a href ="https://www.scientificamerican.com">Scientific American</a> on 2025-08-02 16:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://neuroblog.fedoraproject.org/>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://neuroblog.fedoraproject.org/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://neuroblog.fedoraproject.org/&title=NeuroFedora blog" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://neuroblog.fedoraproject.org/2025/08/02/packaging-changes-at-neurofedora.html">Packaging changes at NeuroFedora</a></h4>
+
+              
+                <p>The <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> team has decided to make a couple of changes to the artefacts that we produce and maintain:</p>
+<ul class="simple">
+<li>The Comp Neuro Lab ISO image has been dropped.</li>
+<li>We are moving away from packaging Python software that is easily installable from <a class="reference external" href="https://pypi.org">PyPi</a> into rpms for the Fedora repositories to testing it out on Fedora.</li>
+</ul>
+<p>Over the years that the <a class="reference external" href="https://neuro.fedoraproject.org">NeuroFedora</a> team has been maintaining neuroscience rpm packages for the Fedora repositories, we have amassed a rather large number, <a class="reference external" href="https://src.fedoraproject.org/group/neuro-sig">almost ~500 packages</a>.
+That is great, and we are extremely pleased with our coverage of the neuroscience software ecosystem.
+However, given that the team is composed of a few volunteers who can only dedicate limited amounts of their time to maintaining packages, we were beginning to find that we were unable to keep up with the increasing workload.</p>
+<p>Further, we realised that the use case for including all neuroscience software in Fedora was no longer clear---was it really required for us to package all of it for users?</p>
+<p>An example case is the Python ecosystem.
+Usually, users/researchers/developers tend to install Python software directly from <a class="reference external" href="https://pypi.org">PyPi</a> rather than relying on system packages that we provide.
+The suggested use of virtual environments to isolate projects and their dependencies also requires the use of software directly from <a class="reference external" href="https://pypi.org">PyPi</a>, rather than using our system packages.
+Therefore, for software that can be installed directly, we argue that it is less important that we package them.
+Instead, it is more useful to our user base if we thoroughly test that this set of software can be properly installed and used on Fedora---on all the different versions of Python that a Fedora release supports.</p>
+<p>So, a new guideline that we now follow is:</p>
+<ul class="simple">
+<li>prioritise packaging software that cannot be easily installed from upstream forges (such as <a class="reference external" href="https://pypi.org">PyPi</a>)</li>
+</ul>
+<p>Following this, we have made a start on the Python packages that we maintain:</p>
+<ul class="simple">
+<li>we made a list of software that is easily installable from <a class="reference external" href="https://pypi.org">PyPi</a></li>
+<li>we began dropping them from Fedora, and instead testing their usage from <a class="reference external" href="https://pypi.org">PyPi</a></li>
+</ul>
+<p>The testing involves:</p>
+<ul class="simple">
+<li>checking that the software and its extras can be successfully installed on Fedora using <cite>pip</cite></li>
+<li>checking that the modules that the software include can be successfully imported</li>
+</ul>
+<p>We <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/blob/main/f/python-package-usage-check">automate these tests using PyTest</a>, and a daily report is published on <a class="reference external" href="https://ankursinha.fedorapeople.org/neurofedora/package-status/">fedorapeople.org here</a>.</p>
+<p>Our <a class="reference external" href="https://docs.fedoraproject.org/en-US/neurofedora/">documentation</a> has also been updated to reflect this change.
+We now include two tables on each page.
+One table provides information about the software that can be installed from <a class="reference external" href="https://pypi.org">PyPi</a>, and so is not included in rpm form in Fedora.
+The other provides information about the software that continues to be included in Fedora, because it cannot be easily installed from <a class="reference external" href="https://pypi.org">PyPi</a> directly.</p>
+<p>We will continue reporting issues to upstream developers as we have done before.
+The difference now is that we work directly with what they publish, rather than our rpm packaged versions of what they publish.</p>
+<p>You can follow this discussion and progress <a class="reference external" href="https://pagure.io/neuro-sig/NeuroFedora/issue/580">here</a>.
+Please refer to the lists in the documentation for the up to date list of packages we include/test.</p>
+              
+
+              <p class="text-muted">in <a href ="https://neuroblog.fedoraproject.org/">NeuroFedora blog</a> on 2025-08-02 13:02:06 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://retractionwatch.com/2025/08/02/weekend-reads-retraction-watchs-15th-birthday-the-superstar-scientist-who-faked-data-sleuths-vs-integrity-officers-on-handling-misconduct/">Weekend reads: Retraction Watch’s 15th birthday; ‘the superstar scientist’ who faked data; sleuths vs. integrity officers on handling misconduct</a></h4>
+
+              
+                <figure class="wp-block-image size-large"><a href="https://retractionwatch.com/wp-content/uploads/2024/01/rw.jpeg"><img fetchpriority="high" decoding="async" width="1024" height="768" src="https://retractionwatch.com/wp-content/uploads/2024/01/rw-1024x768.jpeg" alt="" class="wp-image-128557" srcset="https://retractionwatch.com/wp-content/uploads/2024/01/rw-1024x768.jpeg 1024w, https://retractionwatch.com/wp-content/uploads/2024/01/rw-300x225.jpeg 300w, https://retractionwatch.com/wp-content/uploads/2024/01/rw-768x576.jpeg 768w, https://retractionwatch.com/wp-content/uploads/2024/01/rw-1536x1152.jpeg 1536w, https://retractionwatch.com/wp-content/uploads/2024/01/rw.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p class="has-drop-cap">Dear RW readers, <a href="https://mailchi.mp/retractionwatch/resources-donate-15100471">can you spare $25</a>?</p>
+
+
+
+<p>The week at Retraction Watch featured:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Frontiers to retract 122 articles linked to “unethical” network, says there are <a href="https://retractionwatch.com/?p=132423">thousands more</a></li>
+
+
+
+<li>27-year-old Nature paper earns <a href="https://retractionwatch.com/2025/07/29/27-year-old-nature-paper-earns-expression-of-concern/">expression of concern</a></li>
+
+
+
+<li>Noticed: Sleuths are starting to get <a href="https://retractionwatch.com/2025/07/30/noticed-sleuths-are-starting-to-get-credit-for-retractions/">credit for retractions</a></li>
+
+
+
+<li>​​AI research journal with sham board, metrics <a href="https://retractionwatch.com/2025/07/31/ai-research-journal-with-sham-board-metrics-holds-researchers-paper-hostage/">holds researcher’s paper hostage</a></li>
+
+
+
+<li><a href="https://retractionwatch.com/?p=132464">Happy 15th anniversary</a>, Retraction Watch</li>
+</ul>
+
+
+
+<p>Our list of retracted or withdrawn COVID-19 papers is <a href="https://retractionwatch.com/retracted-coronavirus-covid-19-papers/">up past 500</a>. There are more than <a href="http://retractiondatabase.org/">60,000 retractions in The Retraction Watch Database</a> — which is now <a href="https://www.crossref.org/blog/news-crossref-and-retraction-watch/">part of Crossref</a>. The Retraction Watch Hijacked Journal Checker <a href="https://retractionwatch.com/the-retraction-watch-hijacked-journal-checker/">now contains more than 300 titles</a>. And have you seen our leaderboard of <a href="https://retractionwatch.com/the-retraction-watch-leaderboard/">authors with the most retractions lately</a> — or our list of <a href="https://retractionwatch.com/the-retraction-watch-leaderboard/top-10-most-highly-cited-retracted-papers/">top 10 most highly cited retracted papers</a>? What about <a href="https://retractionwatch.com/the-retraction-watch-mass-resignations-list/">The Retraction Watch Mass Resignations List</a>?</p>
+
+
+
+<p>Here’s what was happening elsewhere (some of these items may be paywalled, metered access, or require free registration to read):</p>
+
+
+
+<span id="more-132472"></span>
+
+
+
+<ul class="wp-block-list">
+<li>Whistleblowers and “<a href="https://www.theage.com.au/national/follow-the-mice-how-whistleblowers-secret-lab-videos-brought-down-top-scientist-20250710-p5mdxc.html">secret lab videos</a>” expose researcher “whose faked data underpins a drug <a href="https://www.smh.com.au/national/the-cancer-drug-the-faked-data-and-the-superstar-scientist-20250710-p5mdxa.html">now being given to patients</a>.” How the case shows an <a href="https://www.theage.com.au/national/science-fraudster-shows-independent-research-watchdog-a-necessity-20250729-p5minu.html">independent research watchdog is “a necessity</a>.”</li>
+
+
+
+<li>&#8220;How to tackle research misconduct: <a href="https://zenodo.org/records/15774358">survey</a> finds <a href="https://www.nature.com/articles/d41586-025-02365-5">stark disagreement</a>.&#8221;</li>
+
+
+
+<li>Professor &#8220;resigns but now works for the federal agency that was investigating him&#8221; <a href="https://kstp.com/kstp-news/top-news/u-of-m-professor-resigns-but-now-works-for-the-federal-agency-that-was-investigating-him/">for misconduct</a>.</li>
+
+
+
+<li>&#8220;No, mRNA vaccines do not cause &#8216;transcriptomic chaos'&#8221;: COVID-19 preprint is &#8220;deeply flawed,&#8221; say <a href="https://scienceintegritydigest.com/2025/07/25/preprint-claiming-that-covid-19-mrna-vaccines-cause-transcriptomic-dysregulation-is-deeply-flawed/">Elisabeth Bik</a> and <a href="https://reeserichardson.blog/2025/07/28/no-mrna-vaccines-do-not-cause-transcriptomic-chaos/">Reese Richardson</a>.</li>
+
+
+
+<li>University investigating “indications of possible scientific misconduct” in doctoral thesis <a href="https://www.diesachsen.de/en/politics/university-of-hamburg-examines-references-to-brosius-gersdorfs-doctoral-thesis-3039113">of controversial legal professor</a>.</li>
+
+
+
+<li>“The overall number of retractions has been continuously rising” with a <a href="https://www.tandfonline.com/doi/full/10.1080/08989621.2025.2528064">peak in 2023, researchers find</a> after analyzing all retracted publications in the 21st century (up to June 4, 2025).</li>
+
+
+
+<li>&#8220;People want to believe spectacular things in science, and journals often fall prey to the bright, shiny object&#8221;: <a href="https://www.youtube.com/watch?v=Vow9TZgliNw">A conversation with our Adam Marcus</a>. </li>
+
+
+
+<li><a href="https://www.energy.gov/sites/default/files/2025-07/DOE_Critical_Review_of_Impacts_of_GHG_Emissions_on_the_US_Climate_July_2025.pdf">U.S. Department of Energy report</a> which “downplays the dangers of climate change” has citations with incorrect authors, broken links, <a href="https://www.notus.org/climate-environment/scientists-trump-climate-change-report-doe-citations-mischaracterizations">and wrong studies</a>.</li>
+
+
+
+<li>“Artificial intelligence and the <a href="https://www.tandfonline.com/doi/full/10.1080/0142159X.2025.2523463">death of the academic author</a>.”</li>
+
+
+
+<li>“Déjà vu in Korea’s <a href="https://koreajoongangdaily.joins.com/news/2025-07-30/opinion/columns/Dj-vu-in-Koreas-plagiarism-controversy/2364020">plagiarism controversy</a>.”</li>
+
+
+
+<li>Collocutors of the phrase show “rather than becoming more critical of the ‘publish or perish’ doctrine, those who have been writing about it have seemed more likely to have passively accepted it,” <a href="https://www.bmj.com/content/390/bmj.r1577">says Jeffrey Aronson</a>. </li>
+
+
+
+<li>“[T]ransforming roles and future challenges” <a href="https://actaorthop.org/actao/article/view/44353/50754">in peer review</a>.</li>
+
+
+
+<li>&#8220;Errors in Science: Self-Correcting, or Self-Propagating?&#8221; <a href="https://www.sensible-med.com/p/errors-in-science-self-correcting">ask David Allison and colleagues</a>. </li>
+
+
+
+<li>&#8220;Springer Nature <a href="https://www.chemistryworld.com/news/springer-nature-launches-new-tool-to-spot-awkward-tortured-phrases/4021892.article">launches new tool</a> to spot awkward, tortured phrases,&#8221; based on Guillaume Cabanac&#8217;s <a href="https://dbrech.irit.fr/pls/apex/f?p=9999:1::::::">Problematic Paper Screener</a>. </li>
+
+
+
+<li>&#8220;There&#8217;s a Major Publishing <a href="https://www.medpagetoday.com/special-reports/exclusives/116670">Slowdown at CDC&#8217;s Flagship Journal</a>.&#8221;</li>
+
+
+
+<li>&#8220;Researchers value null results, but <a href="https://www.nature.com/articles/d41586-025-02312-4">struggle to publish them</a>.&#8221;</li>
+
+
+
+<li>&#8220;Detecting fraud ‘is a job for professionals, <a href="https://www.researchprofessionalnews.com/rr-news-uk-open-access-2025-7-detecting-fraud-is-a-job-for-professionals-not-peer-reviewers/">not peer reviewers</a>.&#8221;</li>
+
+
+
+<li>&#8220;It’s about time for transparency&#8221;: After Nature announces they will publish peer reviews, author says other journals &#8220;<a href="https://cen.acs.org/policy/publishing/Editorial-transparency-in-peer-review/103/web/2025/07">should follow suit</a>.&#8221;</li>
+
+
+
+<li>&#8220;Why a hybrid AI-human approach is necessary to <a href="https://www.thehindu.com/education/why-a-hybrid-ai-human-approach-is-necessary-to-uphold-research-integrity/article69826844.ece">uphold research integrity</a>,&#8221; says a publishing services company executive.</li>
+
+
+
+<li>Researchers suggest &#8220;including specific feedback and reasonable deadlines for editorial decisions&#8221; become <a href="https://journals.lww.com/amjm/fulltext/2025/07000/ethical_concerns_in_manuscript_rejections_by.8.aspx">mandatory for journals</a>.</li>
+
+
+
+<li>&#8220;There&#8217;s probably no publisher left today that <a href="https://www.forschung-und-lehre.de/forschung/wir-brauchen-eine-gemeinsame-kraftanstrengung-7218">hasn&#8217;t published a fake article</a>&#8220;: A Q&amp;A with Anna Abalkina, the creator of the Retraction Watch <a href="https://retractionwatch.com/the-retraction-watch-hijacked-journal-checker/">Hijacked Journal Checker</a>. </li>
+
+
+
+<li>&#8220;University staff criticised for fire ant treatment and <a href="https://www.abc.net.au/news/2025-07-29/uq-staff-fire-ant-treatment-and-vaccine-misinformation/105582572">vaccine misinformation</a>.&#8221;</li>
+
+
+
+<li>&#8220;Have we already hit the peer review <a href="https://www.openresearch.wtf/have-we-already-hit-the-peer-review-breaking-point/">breaking point</a>?&#8221;</li>
+
+
+
+<li>&#8220;Can I trust this paper?&#8221; Researcher reviews &#8220;<a href="https://link.springer.com/article/10.3758/s13423-025-02740-3">four key problems</a>&#8221; in psychology and related disciplines.</li>
+
+
+
+<li>&#8220;The Scientists Who Got Ghosted by the NIH: Under Trump, their grant applications disappeared. <a href="https://www.chronicle.com/article/the-scientists-who-got-ghosted-by-the-nih">What now</a>?&#8221;</li>
+
+
+
+<li>&#8220;Discontinuous ridiculous stools – a preprint full of tortured phrases <a href="https://scienceintegritydigest.com/2025/07/28/discontinuous-ridiculous-stools-a-preprint-full-of-tortured-phrases-and-stolen-data/">and stolen data</a>.&#8221;</li>
+
+
+
+<li>&#8220;After tenure, faculty produce more novel works, though fewer highly cited papers,&#8221; <a href="https://www.pnas.org/doi/10.1073/pnas.2500322122">study finds</a>.</li>
+
+
+
+<li>The Lancet and the World Conferences on Research Integrity Foundation issue a “<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01528-4/fulltext">Commission on research integrity</a>” which will &#8220;work towards innovative solutions regarding the prevention, diagnosis, and treatment&#8221; of misconduct issues.</li>
+
+
+
+<li><a href="https://www.nytimes.com/2025/07/27/arts/music/tom-lehrer-dead.html">RIP, Tom Lehrer</a>, who revealed the &#8220;<a href="https://www.youtube.com/watch?v=UQHaGhC7C2E">secret of success in mathematics: Plagiarize</a>.&#8221;</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">We&#8217;re Hiring!</h3>
+
+
+
+<p>We&#8217;re excited to be hiring for three roles: </p>
+
+
+
+<ul class="wp-block-list">
+<li><em>Editor, Medical Evidence Project</em></li>
+
+
+
+<li><em>Staff reporter, Retraction Watch</em></li>
+
+
+
+<li><em>Assistant researcher, Retraction Watch Database</em></li>
+</ul>
+
+
+
+<p><a href="https://retractionwatch.com/job-opportunities/">Learn more about each position and apply here</a>. </p>
+
+
+
+<p></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p><em>Like Retraction Watch? You can make a <a href="http://paypal.com/us/fundraiser/charity/1909130"><em>tax-deductible contribution to support our work</em></a>, follow us <a href="http://twitter.com/RetractionWatch"><em>on X</em></a> or <a href="https://bsky.app/profile/retractionwatch.com">Bluesky</a>, like us <a href="https://www.facebook.com/pages/Retraction-Watch/119209094864356"><em>on Facebook</em></a>, follow us <a href="https://www.linkedin.com/company/retractionwatch/">on LinkedIn</a>, add us to your <a href="https://retractionwatch.com/feed/" target="_blank" rel="noreferrer noopener"><em>RSS reader</em></a>, or subscribe to our <a href="http://eepurl.com/bNRlUn"><em>daily digest</em></a>. If you find a retraction that’s <a href="http://retractiondatabase.org/RetractionSearch.aspx"><em>not in our database</em></a>, you can <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAsw4i5J8M7sOQ9GiG0_dglkim9gdPPba92yZRLfCq4u-o7w/viewform?c=0&amp;w=1"><em>let us know here</em></a>. For comments or feedback, email us at team@retractionwatch.com.</em></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+	<div class="wp-block-jetpack-mailchimp" data-blog-id="73349511">
+		<form
+			aria-describedby="wp-block-jetpack-mailchimp_consent-text"
+					>
+			<p>
+				<input
+					aria-label="Enter your email"
+					placeholder="Enter your email"
+					required
+					title="Enter your email"
+					type="email"
+					name="email"
+				/>
+			</p>
+									
+<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-1" id="mailchimp-button-block-1" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
+			<p id="wp-block-jetpack-mailchimp_consent-text">
+				By clicking submit, you agree to share your email address with the site owner and Mailchimp to receive marketing, updates, and other emails from the site owner. Use the unsubscribe link in those emails to opt out at any time.			</p>
+
+			
+		</form>
+		
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_processing" role="status">
+				Processing…			</div>
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_success" role="status">
+				Success! You&#039;re on the list.			</div>
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_error" role="alert">
+				Whoops! There was an error and we couldn&#039;t process your subscription. Please reload the page and try again.			</div>
+
+			</div>
+              
+
+              <p class="text-muted">in <a href ="https://retractionwatch.com">Retraction watch</a> on 2025-08-02 10:00:00 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
+              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://neurofrontiers.blog/>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://neurofrontiers.blog/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://neurofrontiers.blog/&title=Neurofrontiers" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
+              <h4><a href="https://neurofrontiers.blog/what-helps-the-brain-stay-healthy/">What helps the brain stay healthy</a></h4>
+
+              
+                <p>Spoiler alert: it's simple, but not easy.</p>
+<p>The post <a href="https://neurofrontiers.blog/what-helps-the-brain-stay-healthy/">What helps the brain stay healthy</a> appeared first on <a href="https://neurofrontiers.blog">Neurofrontiers</a>.</p>
+              
+
+              <p class="text-muted">in <a href ="https://neurofrontiers.blog/">Neurofrontiers</a> on 2025-08-02 09:01:08 UTC.
+              </p>
+            </li>
+          
+            <li class="list-group-item">
               <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://retractionwatch.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://retractionwatch.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://retractionwatch.com&title=Retraction watch" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
               <h4><a href="https://retractionwatch.com/2025/08/01/happy-15th-anniversary-retraction-watch/">Happy 15th anniversary, Retraction Watch</a></h4>
 
               
                 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><a href="https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border.png"><img fetchpriority="high" decoding="async" width="825" height="510" src="https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border.png" alt="" class="wp-image-131095" style="width:300px" srcset="https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border.png 825w, https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border-300x185.png 300w, https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border-768x475.png 768w" sizes="(max-width: 825px) 100vw, 825px" /></a></figure></div>
+<figure class="alignright size-full is-resized"><a href="https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border.png"><img decoding="async" width="825" height="510" src="https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border.png" alt="" class="wp-image-131095" style="width:300px" srcset="https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border.png 825w, https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border-300x185.png 300w, https://retractionwatch.com/wp-content/uploads/2025/02/rw-stacked-border-768x475.png 768w" sizes="(max-width: 825px) 100vw, 825px" /></a></figure></div>
 
 
 <p>Once upon a time, a long time ago, two science journalists had an idea for a blog about retractions. And on Aug. 3, 2010, Retraction Watch launched, detailing in <a href="https://retractionwatch.com/2010/08/03/why-write-a-blog-about-retractions/">the first post</a> why retractions matter. </p>
@@ -189,7 +509,7 @@
 				/>
 			</p>
 									
-<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-1" id="mailchimp-button-block-1" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
+<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-2" id="mailchimp-button-block-2" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
 			<p id="wp-block-jetpack-mailchimp_consent-text">
 							</p>
 
@@ -414,7 +734,7 @@
 				/>
 			</p>
 									
-<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-2" id="mailchimp-button-block-2" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
+<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-3" id="mailchimp-button-block-3" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
 			<p id="wp-block-jetpack-mailchimp_consent-text">
 				By clicking submit, you agree to share your email address with the site owner and Mailchimp to receive marketing, updates, and other emails from the site owner. Use the unsubscribe link in those emails to opt out at any time.			</p>
 
@@ -549,7 +869,7 @@
 
               
                 <div class="wp-block-image">
-<figure class="aligncenter size-full"><a href="https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9.jpg"><img decoding="async" width="900" height="506" src="https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9.jpg" alt="" class="wp-image-132453" style="object-fit:cover" srcset="https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9.jpg 900w, https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9-300x169.jpg 300w, https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9-768x432.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></a><figcaption class="wp-element-caption"><em>Nosyrevy/iStock</em></figcaption></figure></div>
+<figure class="aligncenter size-full"><a href="https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9.jpg"><img loading="lazy" decoding="async" width="900" height="506" src="https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9.jpg" alt="" class="wp-image-132453" style="object-fit:cover" srcset="https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9.jpg 900w, https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9-300x169.jpg 300w, https://retractionwatch.com/wp-content/uploads/2025/07/silhouettes-iStock-2051174190_16x9-768x432.jpg 768w" sizes="auto, (max-width: 900px) 100vw, 900px" /></a><figcaption class="wp-element-caption"><em>Nosyrevy/iStock</em></figcaption></figure></div>
 
 
 <p>Pseudonymous sleuth Claire Francis has <a href="https://retractionwatch.com/2013/01/22/clare-francis-scores-a-bullseye-journal-of-cell-biology-paper-retracted-for-image-manipulation/">flagged thousands of papers</a> over the years, so they rarely see something new. But an email from Frontiers about an upcoming retraction on a paper Francis originally flagged offered just that: The option to be acknowledged in the retraction notice.</p>
@@ -659,7 +979,7 @@
 				/>
 			</p>
 									
-<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-3" id="mailchimp-button-block-3" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
+<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-4" id="mailchimp-button-block-4" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
 			<p id="wp-block-jetpack-mailchimp_consent-text">
 				By clicking submit, you agree to share your email address with the site owner and Mailchimp to receive marketing, updates, and other emails from the site owner. Use the unsubscribe link in those emails to opt out at any time.			</p>
 
@@ -1104,7 +1424,7 @@
 				/>
 			</p>
 									
-<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-4" id="mailchimp-button-block-4" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
+<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-5" id="mailchimp-button-block-5" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
 			<p id="wp-block-jetpack-mailchimp_consent-text">
 				By clicking submit, you agree to share your email address with the site owner and Mailchimp to receive marketing, updates, and other emails from the site owner. Use the unsubscribe link in those emails to opt out at any time.			</p>
 
@@ -1285,7 +1605,7 @@
 				/>
 			</p>
 									
-<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-5" id="mailchimp-button-block-5" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
+<div class="wp-block-jetpack-mailchimp"><div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-6" id="mailchimp-button-block-6" type="submit" data-wp-class--is-submitting="state.isSubmitting" data-wp-bind--aria-disabled="state.isAriaDisabled">Sign up for our newsletter<span class="spinner" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"/><path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"><animateTransform attributeName="transform" type="rotate" dur="0.75s" values="0 12 12;360 12 12" repeatCount="indefinite"/></path></svg><span class="is-visually-hidden">Submitting form</span></span></button></div></div>
 			<p id="wp-block-jetpack-mailchimp_consent-text">
 				By clicking submit, you agree to share your email address with the site owner and Mailchimp to receive marketing, updates, and other emails from the site owner. Use the unsubscribe link in those emails to opt out at any time.			</p>
 
@@ -1318,90 +1638,6 @@ odpłacimy fabrykom artykułów.
               
 
               <p class="text-muted">in <a href ="https://forbetterscience.com">For Better Science</a> on 2025-07-29 05:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.thetransmitter.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.thetransmitter.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.thetransmitter.org&title=The Transmitter" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.thetransmitter.org/emotion-processing/eye-puffs-prompt-separable-sensory-affective-brain-responses-in-mice-people/">Eye puffs prompt separable sensory, affective brain responses in mice, people</a></h4>
-
-              
-                Post-puff brain state might not be an emotion, some researchers caution, but the protocol provides a cross-species approach to study emotions.
-              
-
-              <p class="text-muted">in <a href ="https://www.thetransmitter.org">The Transmitter</a> on 2025-07-29 04:00:58 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.thetransmitter.org>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.thetransmitter.org" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.thetransmitter.org&title=The Transmitter" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.thetransmitter.org/spectrum/probing-the-link-between-preterm-birth-and-autism-and-more/">Probing the link between preterm birth and autism; and more</a></h4>
-
-              
-                Here is a roundup of autism-related news and research spotted around the web for the week of 28 July.
-              
-
-              <p class="text-muted">in <a href ="https://www.thetransmitter.org">The Transmitter</a> on 2025-07-29 04:00:53 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://www.scientificamerican.com>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://www.scientificamerican.com" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://www.scientificamerican.com&title=Scientific American" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://www.scientificamerican.com/article/how-to-watch-delta-aquariids-alpha-capricornids-meteor-shower/">How to Watch Double Meteor Shower as Southern Delta Aquariids and Alpha Capricornids Peak Tonight</a></h4>
-
-              
-                <p>The Southern Delta Aquariids and the Alpha Capricornids are due to peak at the same time and may add up to something magical</p>
-              
-
-              <p class="text-muted">in <a href ="https://www.scientificamerican.com">Scientific American</a> on 2025-07-29 04:00:00 UTC.
-              </p>
-            </li>
-          
-            <li class="list-group-item">
-              <p class="text-right">-&nbsp;<a href="https://app.wallabag.it/bookmarklet?url=https://neurocritic.blogspot.com/>" target="wallabagit"><small>Wallabag.it!</small></a>&nbsp;-&nbsp;<a href="http://instapaper.com/hello2?url=https://neurocritic.blogspot.com/" target="instapaper"><small>Save to Instapaper</small></a>&nbsp;-&nbsp;<a href="http://getpocket.com/save?url=https://neurocritic.blogspot.com/&title=The Neurocritic" target="pocket"><small>Save to Pocket</small></a>&nbsp;-</p>
-              <h4><a href="https://neurocritic.blogspot.com/2025/07/retracted-phony-study-on-biofield.html">RETRACTED: phony study on "biofield energy" treatment by a Guru</a></h4>
-
-              
-                <div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2kKBH6GUx8gn0LJp0C9WRASbsaKK0Sy16SOYGwc4lfuil2FU2HIdpCMHcajOwpWCB5qUwls6ofShhmxUIJDYHQJhhN_Ui67w5mrwpqy8FNgZy6tuODz8wQbDC1fyHTlVTiVM7L2OxhiWX0arPYOs8d3siYzZLtkjQlEZvQmiAAFzrNQR7l4db/s785/Table%203%20(RETRACTED).png" style="margin-left: 0em; margin-right: 1em;"><img border="0" data-original-height="439" data-original-width="785" height="224" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2kKBH6GUx8gn0LJp0C9WRASbsaKK0Sy16SOYGwc4lfuil2FU2HIdpCMHcajOwpWCB5qUwls6ofShhmxUIJDYHQJhhN_Ui67w5mrwpqy8FNgZy6tuODz8wQbDC1fyHTlVTiVM7L2OxhiWX0arPYOs8d3siYzZLtkjQlEZvQmiAAFzrNQR7l4db/w400-h224/Table%203%20(RETRACTED).png" title="modified from Table 3" width="400" /></a></div>
-
-<br /><p><span style="font-family: verdana;">Time flies<br />Time crawls</span></p><p><span style="font-family: verdana;">– Howard Devoto / Peter Shelley / John Alexander Mcgeoch (<a href="https://genius.com/Magazine-the-light-pours-out-of-me-lyrics" target="_blank">Magazine</a>)</span></p><p>&nbsp;</p><div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqWnE-JMHruk0tlsFQNTeUhB2iylOR7eCFEZ63MqBPtV-gbAffXUn8VMRK-vP_-ylYBncrG33cD9k4kUYXuSa3yXDoWmt3IOGF6G6NJ1DM44zesBEZXoum1YOYc-4PqoJqNIl_mzA2CBWoNAhGyzQFg1kkAQnon4YPphAOCHdF3pGBIN80hPiw/s256/Guruji%20in%20Google%20Scholar.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="256" data-original-width="256" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqWnE-JMHruk0tlsFQNTeUhB2iylOR7eCFEZ63MqBPtV-gbAffXUn8VMRK-vP_-ylYBncrG33cD9k4kUYXuSa3yXDoWmt3IOGF6G6NJ1DM44zesBEZXoum1YOYc-4PqoJqNIl_mzA2CBWoNAhGyzQFg1kkAQnon4YPphAOCHdF3pGBIN80hPiw/s1600/Guruji%20in%20Google%20Scholar.jpg" /></a></div><p></p></div><div style="text-align: center;">&nbsp;<span style="font-family: arial;">image from <a href="https://scholar.google.com/citations?hl=en&amp;user=Gage6jYAAAAJ" target="_blank">Google Scholar</a></span></div><p>&nbsp;</p><p><a href="https://neurocritic.blogspot.com/2024/07/the-miraculous-guru-with-h-index-of-62.html" target="_blank">A year ago</a>, I wrote a post about&nbsp;<a href="https://divineconnection.org/about-guruji-trivedi" target="_blank">Guruji Mahendra Kumar Trivedi</a>, an “Enlightened and miraculous being” with hundreds of publications in low-quality journals that have little-to-no peer review. The specific paper&nbsp;in question claimed that Trivedi has the ability to heal the body and mind through&nbsp;his “biofield&nbsp;energy transmissions” (a&nbsp;proprietary blessing treatment, the&nbsp;<span><a href="https://divineconnection.org/" target="_blank">Trivedi Effect</a>®). These claims are supernatural, with no basis in physical reality. The results appeared in the&nbsp;</span><i><a href="http://onlinelibrary.wiley.com/journal/21897948" target="_blank">Journal of General and Family Medicine</a></i><span>&nbsp;(published by Wiley and indexed by PubMed), which is seemingly a reputable journal (unlike the&nbsp;</span>“<a href="https://www.chronicle.com/article/predatory-online-journals-lure-scholars-who-are-eager-to-publish/" target="_blank">predatory</a>” journals that have accepted the<span>&nbsp;<a href="https://neurocritic.blogspot.com/2024/08/backed-by-science-building-lucrative.html" target="_blank">vast majority of Trivedi's other articles</a>).</span></p><p><span>&nbsp;</span></p><p><span style="font-size: medium;">So I wrote a detailed letter to the Editor about my concerns (<a href="https://neurocritic.blogspot.com/2024/07/the-miraculous-guru-with-h-index-of-62.html" target="_blank">full text in my earlier post</a>):</span></p><p><span>&nbsp;</span></p><p></p><blockquote><p>Dr. Okayama and the Editorial Staff of the <i>Journal of General and Family Medicine</i>,&nbsp;&nbsp;<br /></p><p>I am writing about the legitimacy of an article published in the journal:<br /><br />
-
-</p><p><span style="font-family: arial;">Trivedi, M. K., Branton, A., Trivedi, D., Mondal, S., &amp; Jana, S. (2023). <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jgf2.606" target="_blank">The
- role of biofield energy treatment on psychological symptoms, mental 
-health disorders, and stress‐related quality of life in adult subjects: A
- randomized controlled clinical trial</a>.&nbsp;<i>Journal of General and Family Medicine</i>,&nbsp;<i>24</i>(3), 154-163.</span></p>
-
-
-
-<p>&nbsp;</p><p>In this paper, the first author (Mahendra Kumar Trivedi, also
- known as “Guruji” on the Divine Connection website) makes extraordinary
- and unvalidated claims about his ability to change the state of matter –
- and the mental and physical health of human volunteers – via 
-transmission of his thoughts (described as “blessing” throughout the 
-manuscript). A peer-reviewed journal that accepts such declarations 
-without incontrovertible scientific evidence, which was never provided, 
-has compromised its scientific reputation. Furthermore, the study’s 
-design is flawed and much of the data contained in the paper is 
-  implausible and inauthentic.</p><p>. . .</p></blockquote><p>&nbsp;</p><p><span style="font-family: verdana;">Time flies<br />Time crawls</span></p><p><span style="font-family: verdana;">–ibid</span></p><p></p><p></p><p><br /></p><p>Six months later (<span class="epub-date">24 January 2025), the journal <a href="https://onlinelibrary.wiley.com/doi/10.1002/jgf2.773" target="_blank">issued a retraction</a> based on my concerns.</span><sup><b><span style="color: #800180;">1</span></b></sup>&nbsp;</p><p><span class="epub-date">&nbsp;</span></p><p><b></b></p><blockquote><p><b>RETRACTION</b>: M. K. Trivedi, A. Branton, D. Trivedi, S. Mondal, and S. Jana, “The Role of Biofield Energy Treatment on Psychological Symptoms, Mental Health Disorders, and Stress-Related Quality of Life in Adult Subjects: A Randomized Controlled Clinical Trial,” <i>Journal of General and Family Medicine</i> 24, no. 3 (2023): 154–163, <a href="https://doi.org/10.1002/jgf2.606">https://doi.org/10.1002/jgf2.606</a>.</p><p>&nbsp;</p>
-         <p>The above article, published online on 28 January 2023 in Wiley Online Library (<a href="http://wileyonlinelibrary.com">wileyonlinelibrary.com</a>),
- has been retracted by agreement between the journal Editor-in-Chief, 
-Masanobu Okayama; the Japan Primary Care Association; and John Wiley 
-&amp; Sons Australia, Ltd. The retraction has been agreed upon <b><span style="color: #cc0000;">following
- an investigation into concerns raised by a third party </span><span style="font-size: x-small;"><span style="color: #800180; font-family: arial;">[</span><span style="color: #800180; font-family: arial;"><i><a href="https://neurocritic.blogspot.com/2024/07/the-miraculous-guru-with-h-index-of-62.html" target="_blank">this blog</a></i></span><span style="color: #800180; font-family: arial;">]</span></span><span style="color: #cc0000;">,</span></b> which revealed 
-an inappropriate control group used as the placebo group of the trial, 
-inconsistencies in the Psychological Questionnaire Scoring, highly 
-implausible functional biomarker values that are out of the typical 
-physiological range, and unsupported claims regarding the scientific 
-evidence behind the biofield energy treatment. The authors were 
-informed, however, the explanation and the partial raw data provided 
-were deemed insufficient to address the concerns. Thus, the editors have
- lost confidence in the presented data and consider the results and 
-conclusions of this manuscript insufficiently supported and 
-substantially compromised. <b><span style="color: #cc0000;">The authors disagree with the retraction.</span></b></p></blockquote><p></p><p>&nbsp;</p><p>How did that publication slip into print?? <a href="https://jamesclaims.substack.com/p/the-hindawi-files-part-1-the-timeline" target="_blank">Other</a> <a href="https://forbetterscience.com/2023/01/03/hindawi-garbage-sorting-system-based-on-citations/" target="_blank">bloggers</a> have written about the Wiley fiasco (when they <a href="https://www.businesswire.com/news/home/20210105005201/en/Wiley-Announces-the-Acquisition-of-Hindawi" target="_blank">bought Hindawi</a>, along with&nbsp;a heaping pile of unreputable journals, for $300 million). It's a long and sordid tale...</p><p></p><p></p><p><b><br />Further Reading</b></p><p><a href="http://neurocritic.blogspot.com/2024/07/the-miraculous-guru-with-h-index-of-62.html">The Miraculous Guru with an h-index of 62</a><br /><br /><a href="http://neurocritic.blogspot.com/2024/08/backed-by-science-building-lucrative.html">Backed by Science? Building a lucrative spiritual empire based on potentially “questionable” publications</a></p><p>&nbsp;</p><p><b>Footnote</b></p><p><sup><b><span style="color: #800180;">1</span></b></sup> By this time, I was preoccupied by the horrendous Executive Orders (i.e., illegal edicts) issued by the President.</p><p>
-  </p>
-              
-
-              <p class="text-muted">in <a href ="https://neurocritic.blogspot.com/">The Neurocritic</a> on 2025-07-29 02:52:00 UTC.
               </p>
             </li>
           <!-- each item -->
