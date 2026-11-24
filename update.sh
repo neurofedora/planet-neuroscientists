@@ -23,8 +23,11 @@ refresh_repo () {
 check_pluto () {
     if ! command -v pluto; then
         mkdir ~/bin/
-        gem install --user-install sqlite3 -v 1.4.2 -n ~/bin/ || exit -1
-        gem install --user-install activerecord -v 6.1.4.4 -n ~/bin/ || exit -1
+        # to remove all gems: GEM_PATH="$HOME/.local/share/gem/ruby" gem uninstall --all -I
+        gem install --user-install sqlite3  -n ~/bin/ || exit -1
+        gem install --user-install activerecord -n ~/bin/ || exit -1
+        # require at least v2.2.1: https://github.com/feedreader/pluto/issues/49#issuecomment-2629012419
+        gem install --user-install feedparser -v '>= 2.2.1' -n ~/bin/ || exit -1
         gem install --user-install pluto rss -n ~/bin/ || exit -1
     fi
 }
